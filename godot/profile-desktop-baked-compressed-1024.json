@@ -1,0 +1,69 @@
+{
+  "buffer_memory_bytes": 20771124,
+  "device": "Apple M2 Max",
+  "diagnostic_variant": "baked",
+  "lights": {
+    "directional": 2,
+    "omni_enabled": 9,
+    "spot": 9
+  },
+  "renderer": "gl_compatibility",
+  "samples_per_view": 120,
+  "scope": "Stationary arrival views on this Mac; not a mobile GPU result or a traversal benchmark.",
+  "texture_memory_bytes": 93403779,
+  "viewport": [
+    1410,
+    600
+  ],
+  "views": {
+    "ouxiang_xie": {
+      "active_practicals": 2,
+      "frame_interval_median_ms": 1.822,
+      "frame_interval_p95_ms": 3.464,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 43,
+      "visible_primitives_max": 68872
+    },
+    "qinfang_ting": {
+      "active_practicals": 4,
+      "frame_interval_median_ms": 2.583,
+      "frame_interval_p95_ms": 3.789,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 94,
+      "visible_primitives_max": 98146
+    },
+    "qiushuang_zhai": {
+      "active_practicals": 0,
+      "frame_interval_median_ms": 1.96,
+      "frame_interval_p95_ms": 6.613,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 52,
+      "visible_primitives_max": 54958
+    },
+    "rockery_gate": {
+      "active_practicals": 3,
+      "frame_interval_median_ms": 2.353,
+      "frame_interval_p95_ms": 4.034,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 132,
+      "visible_primitives_max": 139736
+    },
+    "terminal_room": {
+      "active_practicals": 2,
+      "frame_interval_median_ms": 2.101,
+      "frame_interval_p95_ms": 4.411,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 136,
+      "visible_primitives_max": 143492
+    },
+    "ziling_zhou": {
+      "active_practicals": 1,
+      "frame_interval_median_ms": 2.452,
+      "frame_interval_p95_ms": 3.992,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 105,
+      "visible_primitives_max": 112288
+    }
+  },
+  "vsync": "disabled"
+}

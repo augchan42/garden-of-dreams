@@ -1,0 +1,72 @@
+{
+  "stream": {
+    "lod0_triangles": 256,
+    "lod1_triangles": 102,
+    "ratio": 0.3984375,
+    "colliders": 0,
+    "collision_triangles": 0,
+    "ports": {}
+  },
+  "pond": {
+    "lod0_triangles": 512,
+    "lod1_triangles": 203,
+    "ratio": 0.396484375,
+    "colliders": 0,
+    "collision_triangles": 0,
+    "ports": {}
+  },
+  "embankment": {
+    "lod0_triangles": 288,
+    "lod1_triangles": 116,
+    "ratio": 0.4027777777777778,
+    "colliders": 1,
+    "collision_triangles": 12,
+    "ports": {}
+  },
+  "lotus": {
+    "lod0_triangles": 792,
+    "lod1_triangles": 316,
+    "ratio": 0.398989898989899,
+    "colliders": 0,
+    "collision_triangles": 0,
+    "ports": {}
+  },
+  "wood_bridge": {
+    "lod0_triangles": 704,
+    "lod1_triangles": 276,
+    "ratio": 0.39204545454545453,
+    "colliders": 3,
+    "collision_triangles": 36,
+    "ports": {
+      "south": [
+        0,
+        0,
+        3
+      ],
+      "north": [
+        0,
+        0,
+        -3
+      ]
+    }
+  },
+  "stone_bridge": {
+    "lod0_triangles": 700,
+    "lod1_triangles": 276,
+    "ratio": 0.3942857142857143,
+    "colliders": 3,
+    "collision_triangles": 300,
+    "ports": {
+      "south": [
+        0,
+        0,
+        3
+      ],
+      "north": [
+        0,
+        0,
+        -3
+      ]
+    }
+  }
+}

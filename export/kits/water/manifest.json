@@ -1,0 +1,75 @@
+{
+  "units": "metres",
+  "variants": {
+    "stream": {
+      "triangles_lod0": 256,
+      "triangles_lod1": 102,
+      "ratio": 0.3984375,
+      "connectors": {},
+      "colliders": 0,
+      "within_2000_triangle_target": true
+    },
+    "pond": {
+      "triangles_lod0": 512,
+      "triangles_lod1": 203,
+      "ratio": 0.396484375,
+      "connectors": {},
+      "colliders": 0,
+      "within_2000_triangle_target": true
+    },
+    "embankment": {
+      "triangles_lod0": 288,
+      "triangles_lod1": 116,
+      "ratio": 0.4027777777777778,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "lotus": {
+      "triangles_lod0": 792,
+      "triangles_lod1": 316,
+      "ratio": 0.398989898989899,
+      "connectors": {},
+      "colliders": 0,
+      "within_2000_triangle_target": true
+    },
+    "wood_bridge": {
+      "triangles_lod0": 704,
+      "triangles_lod1": 276,
+      "ratio": 0.39204545454545453,
+      "connectors": {
+        "south": [
+          0,
+          -3,
+          0
+        ],
+        "north": [
+          0,
+          3,
+          0
+        ]
+      },
+      "colliders": 3,
+      "within_2000_triangle_target": true
+    },
+    "stone_bridge": {
+      "triangles_lod0": 700,
+      "triangles_lod1": 276,
+      "ratio": 0.3942857142857143,
+      "connectors": {
+        "south": [
+          0,
+          -3,
+          0
+        ],
+        "north": [
+          0,
+          3,
+          0
+        ]
+      },
+      "colliders": 3,
+      "within_2000_triangle_target": true
+    }
+  }
+}

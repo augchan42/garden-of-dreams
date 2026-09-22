@@ -79,3 +79,16 @@ the site ships no figures.
   the table. Player movement along the corridors switches to a rail per corridor.
 - `CAM_stage_wide`: from the south corridor mouth, pavilion centred, the moon top-left,
   凸碧堂's hill top-right. This is the marketing still and the look-test frame.
+
+
+## Current implementation
+
+The site is reachable in Godot, including the branches beyond the original priority-1 slice. The central pavilion now uses the reusable hexagonal roof, six posts and six bracket sets from `KIT_pavilion`. Two leaning benches sit inside the south bridge balustrades. Bridge deck, hexagram table, six lanterns and markers are retained. All sixteen straight approach bays now use the completed corridor kit and share the pavilion’s architectural atlas. The bridge balustrades remain in place. The southern route bends around the post rather than passing through it.
+
+The portrait action list scrolls within 152 pixels so the pavilion remains visible above the controls. All commands remain available. Public topics are connected read-only; player presence and the full live divination feed are still unfinished.
+
+This is a kit-integration pass, not final site acceptance. The pavilion kit now uses its shared 2048² PBR atlas. Atlases for the other site assets, painted signage, sourced reference images, final lighting/bakes, runtime LOD switching and target-phone acceptance remain open.
+
+The entrance reveal now slides out through the south corridor’s open side and rises to the wide pavilion camera before the visitor continues. All sixteen corridor bays are retained. The command panel is hidden during the four-second shot so the bridge and water remain visible; normal controls return afterward.
+
+The table now exports all six solid/broken pairs. Its Godot controller supports all 64 patterns, with lines ordered bottom to top (0 broken, 1 solid). “Examine the table” opens a close view; “Look” restores the pavilion view. Desktop and portrait views were inspected. This remains a local display until the live reading feed is connected.

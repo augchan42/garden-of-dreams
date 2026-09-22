@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Shader" path="res://shaders/color_grade.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://materials/tech-noir-atlas.png" id="2"]
+[sub_resource type="ShaderMaterial" id="GradeMaterial"]
+shader = ExtResource("1")
+shader_parameter/grade_atlas = ExtResource("2")
+[node name="ColorGrade" type="CanvasLayer"]
+layer = 1
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+material = SubResource("GradeMaterial")

@@ -1,0 +1,29 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/garden-of-dreams.glb" id="1_g41ti"]
+[ext_resource type="PackedScene" path="res://runtime/color_grade.tscn" id="2_gkxw0"]
+
+[sub_resource type="Environment" id="Environment_tcrr1"]
+background_mode = 1
+ambient_light_source = 2
+ambient_light_color = Color(0.35, 0.42, 0.3, 1)
+ambient_light_energy = 0.65
+fog_enabled = true
+fog_light_color = Color(0.05, 0.2, 0.05, 1)
+fog_density = 0.003
+
+[node name="GardenOfDreams" type="Node3D" unique_id=614511753]
+
+[node name="Garden Godot export" type="Node3D" parent="." unique_id=1160179988 instance=ExtResource("1_g41ti")]
+
+[node name="PreviewCamera" type="Camera3D" parent="." unique_id=540902788]
+transform = Transform3D(0.8892878, -0.07116878, 0.45177668, 2.2351742e-08, 0.9878183, 0.15561183, -0.457348, -0.1383837, 0.87845474, 18, 10, 30)
+current = true
+fov = 26.922297
+near = 0.1
+far = 250.0
+
+[node name="GardenEnvironment" type="WorldEnvironment" parent="." unique_id=22674189]
+environment = SubResource("Environment_tcrr1")
+
+[node name="ColorGrade" type="CanvasLayer" parent="." unique_id=955165690 instance=ExtResource("2_gkxw0")]

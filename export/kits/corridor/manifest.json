@@ -1,0 +1,87 @@
+{
+  "units": "metres",
+  "connector_clear_width": 1.8,
+  "variants": {
+    "straight": {
+      "triangles_lod0": 1148,
+      "triangles_lod1": 458,
+      "ratio": 0.3989547038327526,
+      "connectors": {
+        "south": [
+          0,
+          -1.5,
+          0
+        ],
+        "north": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "colliders": 5,
+      "within_2000_triangle_target": true
+    },
+    "corner": {
+      "triangles_lod0": 1004,
+      "triangles_lod1": 400,
+      "ratio": 0.398406374501992,
+      "connectors": {
+        "south": [
+          0,
+          -1.5,
+          0
+        ],
+        "east": [
+          1.5,
+          0,
+          0
+        ]
+      },
+      "colliders": 8,
+      "within_2000_triangle_target": true
+    },
+    "tee": {
+      "triangles_lod0": 972,
+      "triangles_lod1": 388,
+      "ratio": 0.3991769547325103,
+      "connectors": {
+        "south": [
+          0,
+          -1.5,
+          0
+        ],
+        "north": [
+          0,
+          1.5,
+          0
+        ],
+        "east": [
+          1.5,
+          0,
+          0
+        ]
+      },
+      "colliders": 7,
+      "within_2000_triangle_target": true
+    },
+    "stair": {
+      "triangles_lod0": 1208,
+      "triangles_lod1": 482,
+      "ratio": 0.3990066225165563,
+      "connectors": {
+        "south": [
+          0,
+          -1.5,
+          0
+        ],
+        "north": [
+          0,
+          1.5,
+          0.6
+        ]
+      },
+      "colliders": 5,
+      "within_2000_triangle_target": true
+    }
+  }
+}

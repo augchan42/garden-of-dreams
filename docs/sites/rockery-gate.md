@@ -60,3 +60,17 @@ No hero object. The 曲徑通幽 carving is a decal on the arch.
   exit pulls back to the stage-wide frame of the pavilion. This is the one scripted move in
   the priority-1 slice.
 - `CAM_stage_wide`: from inside the tunnel mouth looking out, the pavilion framed by rock.
+
+## Current build and remaining acceptance
+
+Four tunnel-kit segments now span twelve metres along the entrance axis, fitted to a centreline with two bends. Two arches frame the ends, and two cliff faces flank the exit. Separate matching collision shells and a continuous paving slab follow the bends. The two lanterns have moved to the bend positions. Three trigger markers and the existing fog layers remain. Source: `scripts/integrate_gate_rockery.py`.
+
+The entrance-to-exit centre sightline is blocked by the tunnel, while the exit-to-approach centre sightline is clear. The low exit view is still framed by the south covered corridor. The runtime now performs the reveal after the visitor clears the arch: slide through the corridor’s open west side, rise above the roof, and move to the wide pavilion view. All sixteen corridor bays remain. The four-second shot holds the visitor still and hides the command panel, then restores the panel and resumes travel. Return travel does not trigger it.
+
+The return-to-cell turn needed more clearance from the entrance arch; its horizontal approach now runs half a metre farther out before reaching the gate marker. Remaining site work includes final fog/lighting, sourced references and final lighting/color acceptance for the reveal shot. The kit placement is not final site acceptance.
+
+The authored rail is stored as `CAM_rail_gate_reveal`, with `CAM_gate_reveal_slide`, `CAM_gate_reveal_lift` and `CAM_gate_reveal_wide` in the Blender site. Godot owns timing and visitor state. The cameras use a 55-degree vertical field of view; portrait runtime keeps horizontal width during the shot. `test_gate_reveal.gd` checks trigger direction, visitor pause, camera endpoint, panel restoration and movement resumption. The full entry-route test passes with the shot enabled. Intermediate desktop and portrait frames are generated from actual route movement by `render_gate_reveal.gd`.
+
+The old exit bamboo is replaced by one potted banana with seven curved leaves. Its narrow planter sits inside the east edge of the approach, clear of the tested walking route; the leaves silhouette against the garden. A transparent 512² original water-stain texture is projected onto the uneven inside wall at the second bend. Sources: `scripts/dress_rockery_gate.py` and `scripts/generate_gate_drip.py`. Blender source and desktop/portrait Godot captures were inspected; final lighting/composition acceptance remains open. The complete entry route passes in both directions with the final planter position.
+
+The temporary typeset signboard has been replaced by original brush lettering, 曲徑通幽, mapped onto the plaster above the entrance. The transparent decal has a derived recessed normal map, and every projection vertex lands on the arch. Native Blender and desktop/portrait Godot views were inspected. Provenance and the exact generation prompt are in `textures/decals/gate-inscription-provenance.md`.

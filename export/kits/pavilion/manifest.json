@@ -1,0 +1,116 @@
+{
+  "units": "metres",
+  "variants": {
+    "roof_hex": {
+      "triangles_lod0": 1672,
+      "triangles_lod1": 668,
+      "ratio": 0.39952153110047844,
+      "connectors": {
+        "post_0": [
+          1.9091883092036785,
+          1.9091883092036783,
+          0
+        ],
+        "post_1": [
+          -0.6988114217768058,
+          2.6079997309804845,
+          0
+        ],
+        "post_2": [
+          -2.607999730980484,
+          0.6988114217768068,
+          0
+        ],
+        "post_3": [
+          -1.9091883092036788,
+          -1.9091883092036783,
+          0
+        ],
+        "post_4": [
+          0.6988114217768049,
+          -2.607999730980485,
+          0
+        ],
+        "post_5": [
+          2.6079997309804845,
+          -0.6988114217768059,
+          0
+        ]
+      },
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "roof_square": {
+      "triangles_lod0": 1128,
+      "triangles_lod1": 450,
+      "ratio": 0.39893617021276595,
+      "connectors": {
+        "post_0": [
+          1.9091883092036785,
+          1.9091883092036783,
+          0
+        ],
+        "post_1": [
+          -1.9091883092036783,
+          1.9091883092036785,
+          0
+        ],
+        "post_2": [
+          -1.9091883092036788,
+          -1.9091883092036783,
+          0
+        ],
+        "post_3": [
+          1.9091883092036779,
+          -1.9091883092036788,
+          0
+        ]
+      },
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "post": {
+      "triangles_lod0": 252,
+      "triangles_lod1": 100,
+      "ratio": 0.3968253968253968,
+      "connectors": {
+        "base": [
+          0,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          0,
+          3.1
+        ]
+      },
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "bracket": {
+      "triangles_lod0": 216,
+      "triangles_lod1": 86,
+      "ratio": 0.39814814814814814,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "eave_strip": {
+      "triangles_lod0": 520,
+      "triangles_lod1": 208,
+      "ratio": 0.4,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "bench": {
+      "triangles_lod0": 540,
+      "triangles_lod1": 216,
+      "ratio": 0.4,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    }
+  }
+}
