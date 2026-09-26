@@ -14,7 +14,7 @@ const ROOMS = {
  "qiushuang_zhai": {"title": "秋爽齋 · Bulletin hall", "text": "Twelve amber screens stand behind lattice panels. Three desks face the courtyard, with scrolls hanging between the screen banks.", "actions": [["Look", "look"], ["Left screens", "left"], ["Centre screens", "centre"], ["Right screens", "right"], ["Climb to the hilltop", "hill"], ["Return to Qinfang", "back"]]},
  "terminal_room": {"title": "Personal terminal", "text": "A green screen lights the desk. Beyond the barred window, a lantern marks the rockery gate.", "actions": [["Look", "look"], ["Use terminal", "terminal"], ["Enter the garden", "exit"]]},
  "rockery_gate": {"title": "曲徑通幽 · Rockery gate", "text": "The plaster passage bends out of sight. Two amber lanterns lead toward the stream.", "actions": [["Look", "look"], ["Follow the lanterns", "enter"], ["Return to your cell", "back"]]},
- "qinfang_ting": {"title": "沁芳亭 · Qinfang Pavilion", "text": "Six lanterns hang over the bridge. A bronze hexagram sits in the stone table; covered walks cross the stream.", "actions": [["Look", "look"], ["Examine the table", "table"], ["Current topics", "topics"], ["Look over the rail", "water"], ["Visit the bulletin hall", "board"], ["Visit the water pavilion", "west"], ["Visit the study court", "study"], ["Visit the imperial façade", "north"], ["Visit the red court", "east"], ["Visit the bamboo court", "bamboo"], ["Return to the gate", "back"]]},
+ "qinfang_ting": {"title": "沁芳亭 · Qinfang Pavilion", "text": "Six lanterns hang over the bridge. A bronze hexagram sits in the stone table; covered walks cross the stream.", "actions": [["Look", "look"], ["Examine the table", "table"], ["Cast at the table", "cast"], ["Current topics", "topics"], ["Look over the rail", "water"], ["Visit the bulletin hall", "board"], ["Visit the water pavilion", "west"], ["Visit the study court", "study"], ["Visit the imperial façade", "north"], ["Visit the red court", "east"], ["Visit the bamboo court", "bamboo"], ["Return to the gate", "back"]]},
  "ouxiang_xie": {"title": "藕香榭 · Water pavilion", "text": "Two lanterns light an open pavilion over the water. Six seats surround the tea table. A timber bridge leads into the reeds.", "actions": [["Look", "look"], ["Examine the tea table", "tea"], ["Visit the reed island", "island"], ["Visit the nunnery", "nunnery"], ["Return to Qinfang", "back"]]},
  "ziling_zhou": {"title": "紫菱洲 · Reed island", "text": "Reeds surround a low stone landing. Across the timber footbridge, lanterns mark the water pavilion.", "actions": [["Look", "look"], ["Watch the reeds", "reeds"], ["Return to the pavilion", "back"]]}
 }
@@ -52,6 +52,8 @@ var travel_elapsed = 0.0
 var camera_tween: Tween
 var command_panel: PanelContainer
 var hexagram_table: Node
+var cast_model: RefCounted
+var cast_rng := RandomNumberGenerator.new()
 var gate_reveal_active = false
 var gate_reveal_done = false
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
@@ -65,6 +67,8 @@ func _ready() -> void:
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)
  if not hexagram_table.configure(environment):push_error("Hexagram table is missing solid/broken line pairs")
+ cast_model=preload("res://runtime/local_cast.gd").new()
+ cast_rng.randomize()
  # Only this route's camera is current; asset cameras remain available for editing.
  player = CharacterBody3D.new()
  player.name = "Visitor"
@@ -177,11 +181,14 @@ func execute_command(text: String) -> void:
     add_child(browser)
   "table":
    if room_id=="qinfang_ting":
-    output_label.text="Six bronze lines show the local table display, read from bottom to top. The live reading feed is not connected yet."
+    output_label.text="Six bronze lines run from bottom to top. Cast at the table for a local reading."
     var size=get_viewport().get_visible_rect().size
     camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
     _camera_to(Vector3(0,2.45,1.15),Vector3(0,.55,0))
    else:output_label.text="The hexagram table is in 沁芳亭."
+  "cast":
+   if room_id=="qinfang_ting":_cast_at_table()
+   else:output_label.text="The bronze table is in 沁芳亭."
   "water":
    if room_id == "qinfang_ting":
     output_label.text = "The stream passes under the bridge. Beyond the roofs, the painted moon hangs against the studio sky."
@@ -361,6 +368,31 @@ func execute_command(text: String) -> void:
     _travel(reverse,"terminal_room")
    else: output_label.text = "You are already in your cell."
   _: output_label.text = "Unknown command. Choose an action below, or type help."
+
+func _cast_at_table() -> void:
+ var reading=cast_model.cast(cast_rng)
+ if reading.is_empty() or not hexagram_table.set_lines(reading.primary_lines):
+  output_label.text="The local cast could not be shown. Try again."
+  return
+ var size=get_viewport().get_visible_rect().size
+ camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
+ _camera_to(Vector3(0,2.45,1.15),Vector3(0,.55,0))
+ output_label.text="The bronze lines now show #%d · %s. This is a local cast."%[reading.primary.number,reading.primary.meaning]
+ var card:CanvasLayer
+ if has_node("ReadingResult"):
+  card=get_node("ReadingResult")
+  card.show_result(reading)
+ else:
+  card=preload("res://runtime/reading_result.gd").new()
+  card.name="ReadingResult"
+  card.result=reading
+  card.recast_requested.connect(_cast_at_table)
+  input.editable=false
+  for button in actions.get_children():button.disabled=true
+  card.tree_exiting.connect(func():
+   input.editable=not travelling
+   for button in actions.get_children():button.disabled=travelling)
+  add_child(card)
 
 func _travel(points: Array, target_room: String) -> void:
  camera.keep_aspect = Camera3D.KEEP_HEIGHT
