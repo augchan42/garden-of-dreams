@@ -2,6 +2,8 @@ extends Node3D
 
 signal transition_finished(room_id: String)
 
+@export var demo_mode = false
+
 const ROOMS = {
  "daoxiang_cun": {"title": "稻香村 · Farmhouse", "text": "Uneven thatch hangs over a closed plank door. A rough fence encloses the yard; painted rice fields rise behind the roof.", "actions": [["Look", "look"], ["Inspect the door", "doors"], ["Inspect the tools", "tools"], ["Look at the paddy", "paddy"], ["Return to study court", "back"]]},
  "aojing_guan": {"title": "凹晶館 · Water-level hall", "text": "A guarded stone ledge sits below the garden paths. One amber window faces the pond beneath a broad tiled roof. The hall remains closed.", "actions": [["Look", "look"], ["Inspect the hall", "doors"], ["Look across the pond", "reflection"], ["Return to red court", "back"]]},
@@ -54,6 +56,9 @@ var command_panel: PanelContainer
 var hexagram_table: Node
 var cast_model: RefCounted
 var cast_rng := RandomNumberGenerator.new()
+var demo_audio: Node
+var demo_has_reading = false
+var demo_last_reading: Dictionary = {}
 var gate_reveal_active = false
 var gate_reveal_done = false
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
@@ -63,6 +68,17 @@ func _ready() -> void:
  get_tree().root.content_scale_size = Vector2i.ZERO
  var environment = load("res://garden_preview.tscn").instantiate()
  add_child(environment)
+ if demo_mode:
+  var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
+  assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")
+  var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
+  assert(applied == records.size(), "Demo lightmaps do not match the scene")
+  var gate_stone = environment.find_child("SITE_rockery-gate_MAT_plaster_rock", true, false)
+  assert(gate_stone is MeshInstance3D, "Demo gate stone is missing")
+  for surface in range(gate_stone.mesh.get_surface_count()):
+   gate_stone.get_surface_override_material(surface).set_shader_parameter("lightmap_scale", 1.8)
+  for light in environment.find_children("*", "Light3D", true, false):
+   light.shadow_enabled = false
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)
@@ -92,11 +108,16 @@ func _ready() -> void:
  camera.fov = 55
  add_child(camera)
  camera.current = true
- var reflection=preload("res://runtime/pond_reflection.gd").new()
- reflection.name="PondReflection"
- add_child(reflection)
- reflection.configure(environment,camera,player)
+ if not demo_mode:
+  var reflection=preload("res://runtime/pond_reflection.gd").new()
+  reflection.name="PondReflection"
+  add_child(reflection)
+  reflection.configure(environment,camera,player)
  _build_ui()
+ if demo_mode:
+  demo_audio = preload("res://runtime/demo_audio.gd").new()
+  demo_audio.name = "DemoAudio"
+  add_child(demo_audio)
  get_viewport().size_changed.connect(func(): call_deferred("_fit_action_list"))
  _arrive("terminal_room", true)
 
@@ -141,7 +162,7 @@ func _build_ui() -> void:
  action_scroll.add_child(actions)
  stack.add_child(action_scroll)
  input = LineEdit.new()
- input.placeholder_text = "Or type a command: look, help, exit…"
+ input.placeholder_text = "Optional: type look or help" if demo_mode else "Or type a command: look, help, exit…"
  input.custom_minimum_size.y = 36
  input.text_submitted.connect(func(text):
   input.clear()
@@ -151,7 +172,7 @@ func _build_ui() -> void:
  status.position = Vector2(20,16)
  status.add_theme_font_size_override("font_size",15)
  status.add_theme_color_override("font_color",Color(.8,.9,.75))
- status.text = "GARDEN OF DREAMS · Local scene exploration"
+ status.text = "GARDEN OF DREAMS · First reading" if demo_mode else "GARDEN OF DREAMS · Local scene exploration"
  layer.add_child(status)
 
 func execute_command(text: String) -> void:
@@ -159,13 +180,20 @@ func execute_command(text: String) -> void:
  if travelling:
   output_label.text = "You are on the path. The next room's actions will appear when you arrive."
   return
+ if demo_mode and cmd not in _demo_commands():
+  output_label.text = "This first reading follows the lanterns to the bronze table. Choose an action below."
+  return
  match cmd:
   "look":
    if room_id=="qinfang_ting":_arrive(room_id)
    else:output_label.text = ROOMS[room_id].text
   "help": output_label.text = "Choose an action below or type its command. Movement follows the garden paths; the camera moves with you."
   "terminal":
-   output_label.text = "The terminal is ready. Personal readings and history are not connected yet." if room_id == "terminal_room" else "Your personal terminal is in the cell."
+   output_label.text = "The screen invites you to enter the garden. Follow the lanterns to Qinfang Pavilion, then cast six lines at the bronze table." if demo_mode else ("The terminal is ready. Personal readings and history are not connected yet." if room_id == "terminal_room" else "Your personal terminal is in the cell.")
+  "finish":
+   if demo_mode and demo_has_reading and room_id == "qinfang_ting":_show_demo_finale()
+  "replay":
+   if demo_mode and demo_has_reading:_replay_demo()
   "topics":
    if room_id not in ["qinfang_ting","tubi_tang","hengwu_yuan"]:
     output_label.text="Public topics are available at Qinfang Pavilion, the hilltop hall and the study courtyard."
@@ -374,6 +402,10 @@ func _cast_at_table() -> void:
  if reading.is_empty() or not hexagram_table.set_lines(reading.primary_lines):
   output_label.text="The local cast could not be shown. Try again."
   return
+ if demo_mode:
+  demo_has_reading = true
+  demo_last_reading = reading
+  demo_audio.cast()
  var size=get_viewport().get_visible_rect().size
  camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
  _camera_to(Vector3(0,2.45,1.15),Vector3(0,.55,0))
@@ -391,10 +423,12 @@ func _cast_at_table() -> void:
   for button in actions.get_children():button.disabled=true
   card.tree_exiting.connect(func():
    input.editable=not travelling
+   if demo_mode:_refresh_actions()
    for button in actions.get_children():button.disabled=travelling)
   add_child(card)
 
 func _travel(points: Array, target_room: String) -> void:
+ if demo_mode and room_id == "rockery_gate" and target_room == "qinfang_ting":demo_audio.start_tunnel()
  camera.keep_aspect = Camera3D.KEEP_HEIGHT
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
  gate_reveal_active = false
@@ -413,6 +447,7 @@ func _travel(points: Array, target_room: String) -> void:
  input.editable = false
 
 func _begin_gate_reveal() -> void:
+ if demo_mode:demo_audio.reveal()
  gate_reveal_active = true
  gate_reveal_done = true
  command_panel.hide()
@@ -484,19 +519,11 @@ func _arrive(id: String, immediate = false) -> void:
  command_panel.show()
  room_id = id
  title_label.text = ROOMS[id].title
- output_label.text = ROOMS[id].text
- status.text = "GARDEN OF DREAMS · Local scene exploration"
+ output_label.text = _demo_room_text(id) if demo_mode else ROOMS[id].text
+ status.text = "GARDEN OF DREAMS · First reading" if demo_mode else "GARDEN OF DREAMS · Local scene exploration"
  input.editable = true
- for button in actions.get_children():
-  actions.remove_child(button)
-  button.queue_free()
- for action in ROOMS[id].actions:
-  var button = Button.new()
-  button.text = action[0]
-  button.custom_minimum_size = Vector2(140,38)
-  button.pressed.connect(execute_command.bind(action[1]))
-  actions.add_child(button)
- call_deferred("_fit_action_list")
+ if demo_mode:demo_audio.enter_room(id)
+ _refresh_actions()
  var views = {
   "daoxiang_cun": [Vector3(-34,3.4,-13),Vector3(-34,1.7,-22)],
   "aojing_guan": [Vector3(24,4,27),Vector3(26,-2,14.5)],
@@ -521,6 +548,66 @@ func _arrive(id: String, immediate = false) -> void:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
  transition_finished.emit(id)
+
+func _refresh_actions() -> void:
+ for button in actions.get_children():
+  actions.remove_child(button)
+  button.queue_free()
+ var menu = _demo_actions() if demo_mode else ROOMS[room_id].actions
+ for action in menu:
+  var button = Button.new()
+  button.text = action[0]
+  button.custom_minimum_size = Vector2(140,38)
+  button.pressed.connect(execute_command.bind(action[1]))
+  actions.add_child(button)
+ call_deferred("_fit_action_list")
+
+func _demo_actions() -> Array:
+ match room_id:
+  "terminal_room":return [["Read the terminal", "terminal"], ["Enter the garden", "exit"]]
+  "rockery_gate":return [["Follow the lanterns", "enter"], ["Return to your cell", "back"]]
+  "qinfang_ting":
+   if demo_has_reading:return [["Cast again", "cast"], ["Finish the demo", "finish"], ["Return to the gate", "back"]]
+   return [["Examine the table", "table"], ["Cast at the table", "cast"], ["Return to the gate", "back"]]
+ return []
+
+func _demo_commands() -> Array[String]:
+ var allowed: Array[String] = ["look", "help"]
+ for action in _demo_actions():allowed.append(action[1])
+ if room_id == "rockery_gate":allowed.append("continue")
+ return allowed
+
+func _demo_room_text(id: String) -> String:
+ match id:
+  "terminal_room":return "A green screen lights the cell. It invites you to follow the lanterns to Qinfang Pavilion for a first reading."
+  "rockery_gate":return "The lantern-lit passage bends toward the pavilion. Follow the lights to the bronze table."
+  "qinfang_ting":
+   return "Your six bronze lines remain on the table. Finish this visit or cast again." if demo_has_reading else "The stream opens beneath six lanterns. The bronze table is ready for your first local cast."
+ return ROOMS[id].text
+
+func _show_demo_finale() -> void:
+ if has_node("DemoFinale"):return
+ var finale = preload("res://runtime/demo_finale.gd").new()
+ finale.name = "DemoFinale"
+ finale.reading = demo_last_reading
+ finale.replay_requested.connect(_replay_demo)
+ finale.tree_exiting.connect(func():
+  input.editable = true
+  for button in actions.get_children():button.disabled = false)
+ input.editable = false
+ for button in actions.get_children():button.disabled = true
+ add_child(finale)
+
+func _replay_demo() -> void:
+ if has_node("DemoFinale"):get_node("DemoFinale").queue_free()
+ if has_node("ReadingResult"):get_node("ReadingResult").queue_free()
+ demo_has_reading = false
+ demo_last_reading.clear()
+ hexagram_table.set_lines([1, 1, 1, 1, 1, 1])
+ player.position = CELL_PATH[0] + Vector3(0, .03, 0)
+ player.velocity = Vector3.ZERO
+ travelling = false
+ _arrive("terminal_room", true)
 
 func _fit_action_list() -> void:
  await get_tree().process_frame

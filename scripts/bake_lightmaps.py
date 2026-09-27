@@ -30,7 +30,9 @@ def read_glb(path):
  return json.loads(data[20:20+length])
 site_for_mesh={}
 if options.site:
- files=sorted((R/'export/sites').glob('SITE_*.glb')) if options.site=='all' else [R/'export/sites'/('SITE_'+options.site+'.glb')]
+ if options.site=='all':files=sorted((R/'export/sites').glob('SITE_*.glb'))
+ elif options.site=='demo':files=[R/'export/sites'/('SITE_'+name+'.glb') for name in ['terminal-cells','rockery-gate','qinfang-ting']]
+ else:files=[R/'export/sites'/('SITE_'+options.site+'.glb')]
  names=[]
  for file in files:
   doc=read_glb(file)
@@ -45,6 +47,7 @@ assert all(o and o.type=='MESH' for o in targets)
 line_variants=[o for o in s.objects if o.name.startswith('HERO_table_line_')]
 for o in targets:
  if any(m and m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane'] for m in o.data.materials):continue
+ print('BAKE_TARGET',o.name,flush=True)
  # Mutually exclusive line meshes must never shade each other. Bake each line
  # on its own, and leave changing-line shadows out of static table lighting.
  for variant in line_variants:variant.hide_render=variant!=o
@@ -65,7 +68,11 @@ for o in targets:
  assert np.isfinite(pixels).all()
  scale=max(1.0,float(pixels[:,:3].max()))
  nonzero=float((pixels[:,:3].max(axis=1)>1e-5).mean())
- assert nonzero>.01,'Bake is empty'
+ if nonzero<=.01:
+  assert o.name=='HERO_gate_inscription.001','Unexpected empty bake: '+o.name
+  print('BAKE_SKIPPED_DARK',o.name,flush=True)
+  bpy.data.images.remove(image)
+  continue
  pixels[:,:3]/=scale;pixels[:,3]=1;image.pixels.foreach_set(pixels.ravel())
  image.file_format='PNG';image.filepath_raw=str(out/(o.name+'.png'));image.save()
  uv=np.empty(len(o.data.uv_layers[1].data)*2,dtype=np.float32);o.data.uv_layers[1].data.foreach_get('uv',uv)

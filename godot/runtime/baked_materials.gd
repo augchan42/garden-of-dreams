@@ -3,7 +3,13 @@ extends RefCounted
 # Experimental adapter, used by the bake comparison scene until all sites pass.
 static func source_matches(records:Dictionary) -> bool:
  if records.is_empty():return false
- var digest=FileAccess.get_sha256("res://assets/garden-of-dreams.glb")
+ var digest=""
+ if FileAccess.file_exists("res://assets/garden-of-dreams.glb"):
+  digest=FileAccess.get_sha256("res://assets/garden-of-dreams.glb")
+ else:
+  var manifest=JSON.parse_string(FileAccess.get_file_as_string("res://assets/garden-source.json"))
+  if manifest is Dictionary:digest=manifest.get("source_glb_sha256","")
+ if digest.is_empty():return false
  for record in records.values():
   if record.get("source_glb_sha256","")!=digest:return false
  return true
