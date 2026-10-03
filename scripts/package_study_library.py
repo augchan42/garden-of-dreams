@@ -25,4 +25,7 @@ temporary = path.with_name(path.stem + "-packaged.blend")
 bpy.ops.wm.save_as_mainfile(filepath=str(temporary), compress=True)
 os.replace(temporary, path)
 assert len([o for o in site.objects if o.name.startswith("LGT_study_warm_")]) == 2
-print("STUDY_LIBRARY_PASS: directly openable site with camera and warm lights")
+assert {o.name for o in site.objects if o.name.startswith("HERO_study_")} == {
+    "HERO_study_title", "HERO_study_scroll_bamboo", "HERO_study_scroll_plum"
+}
+print("STUDY_LIBRARY_PASS: directly openable site with camera, lights and painted art")

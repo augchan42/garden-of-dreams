@@ -16,7 +16,7 @@ A long study hall faces a shallow courtyard. Three banks of amber screens sit be
 
 ## Lighting and atmosphere
 
-Green hard key across the frontage; amber screens are the dominant warm source. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
+Warm-neutral hard key across the frontage; amber screens and the two lanterns are the dominant warm sources. The site key was changed from green to reduce the garden's overall green cast while keeping the stage-wide green wash. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
 
 ## Room markers
 
@@ -36,6 +36,6 @@ These are collection requirements, not claims that reference stills have been co
 
 ## Current build and acceptance
 
-The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A warm frontal key makes the centre sign and screen bank readable; two existing lanterns now cast amber light at the ends. Desktop and portrait arrival views were inspected after the Godot import, and the four-practical light limit still passes. Scroll marks are temporary graphic layout. Live bulletin content, final signage/materials, site lightmap and reference collection remain unfinished.
+The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A warm frontal key makes the centre sign and screen bank readable; two existing lanterns cast amber light at the ends. The temporary typeset title and block marks are replaced by painted 秋爽齋 lettering and separate bamboo/plum scroll textures, embedded in the Blender source and glTF. Desktop and portrait arrival views and the centre-bank close view were inspected after Godot import; the four-practical light limit and return route still pass. The images are original production art, documented in `textures/decals/study/README.md`, not historical reference stills. Live bulletin content, site lightmap, final material acceptance and sourced reference collection remain unfinished.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
