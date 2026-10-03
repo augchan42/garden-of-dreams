@@ -24,6 +24,8 @@ func run() -> void:
  await capture(prefix+"-overlook")
  route._camera_to(Vector3(6.4,5.6,-30.1),Vector3(4.4,4.9,-31.05))
  await capture(prefix+"-table")
+ route._camera_to(Vector3(10.55,5.45,-30.35),Vector3(10.95,4.55,-33.1))
+ await capture(prefix+"-seating")
  if offline:
   print("HILLTOP_RENDER_PASS ",prefix," offline views")
   quit(0)

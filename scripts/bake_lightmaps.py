@@ -33,7 +33,7 @@ transparent_targets=set()
 for node in source_document['nodes']:
  if 'mesh' not in node:continue
  mesh=source_document['meshes'][node['mesh']]
- if node['name']!='HERO_gate_water_drips.001' and any(source_document['materials'][primitive['material']].get('alphaMode','OPAQUE')!='OPAQUE' for primitive in mesh['primitives']):
+ if node['name']!='HERO_gate_water_drips.001' and any(primitive.get('material') is not None and source_document['materials'][primitive['material']].get('alphaMode','OPAQUE')!='OPAQUE' for primitive in mesh['primitives']):
   transparent_targets.add(node['name'])
 site_for_mesh={}
 if options.site:

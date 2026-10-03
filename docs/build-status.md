@@ -385,3 +385,13 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 
 - Baked the bulletin and hilltop halls from the current `fc01b60b7250c395ef0ac298b18756eb20b84e7925812155b2637c965273e706` assembly. The site index verifies all 19 opaque render meshes: ten bulletin hall meshes and nine hilltop meshes. Transparent painted titles stay on their source materials. The lightmap metadata and images are copied into Godot, and the normal exploration scene applies them only when the source hash matches.
 - Desktop and portrait arrival/action views were captured after integration. The hall facades and warm hilltop terrace remain readable; scroll paintings and signs remain visible. The study return route, four-metre hilltop climb and descent, and warm-key/lantern test pass. Sourced visual references, the light-linked backdrop wash, and final material acceptance remain open.
+
+### Hilltop viewing seats and reference leads — 2026-10-03
+
+- Added two short wood viewing benches to the hilltop terrace in the editable Blender source and standalone site library. They sit against the side parapets, outside the stair arrival and topic-table route; each has an imported collision mesh. The whole-garden and Godot asset SHA256 match `aaa9ae532e59d816f9c26ea10f8c50644f6330c758875a909023608140607f79`. All 94 GLBs pass structural checks.
+- Rebaked 32/32 opaque demo targets and 19/19 opaque priority-2 hall targets from that source. The missing-material guard in the bake target scan now handles collision primitives. The hilltop climb, overlook and descent and the study return route pass after the import. Desktop and portrait hilltop views were rendered.
+- Added reviewed public collection links to both site sheets. A Shaw night-set still and a site-specific study exterior are not yet verified. The hilltop material close-up, backdrop wash and final material acceptance also remain open.
+
+### Further green reduction — 2026-10-03
+
+- Added a 50% green-excess neutralization after the existing 20% color grade in the shared Godot renderer. It affects baked and dynamic scenes and keeps amber lantern and window highlights. Refreshed desktop and portrait demo, study and hilltop reference views; the hilltop painted mountains and plaster are less green. The 43-second capture and local pack were refreshed after this grade; a cold pack test passes. This remains a visual pass, not final site material acceptance.
