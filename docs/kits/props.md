@@ -1,6 +1,6 @@
 # Prop kit
 
-The reusable library contains all eight inventory variants plus the terminal site’s folding wood chair, each with an independent lower-detail mesh. Thirty-eight props are placed across eight sites, including all six terminal chairs.
+The reusable library contains all eight inventory variants plus the terminal site’s folding wood chair, each with an independent lower-detail mesh. Forty-four props are placed across eight sites, including all six terminal chairs and six dark wall scrolls.
 
 | Variant | LOD0 triangles | LOD1 triangles | Ratio | Colliders |
 | --- | ---: | ---: | ---: | ---: |
@@ -36,7 +36,7 @@ Copy exports and atlas maps to the Godot prop directory, then import the project
 
 ![Lower detail](../reference/props-kit-lod1.png)
 
-The master garden now contains 38 fitted props across eight sites, with fresh demo and priority-2 bakes. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
+The master garden now contains 44 fitted props across eight sites, with fresh demo and priority-2 bakes. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
 
 
 ## Placement pass — 2026-10-04
@@ -53,7 +53,7 @@ The master garden now contains 38 fitted props across eight sites, with fresh de
 
 The source fits the kit meshes to the existing mount positions, seat heights and table tops. All existing light, trigger and collision transforms are retained; the interactive hexagram table and the water pavilion’s wooden tea table remain in use. The source catalog is `export/prop-placements.json`. The exporter joins the dressing into seven shared-material batches and repacks UV1 after joining. All 158 assembly render meshes pass the sampled UV overlap check.
 
-The seven runtime batches stop drawing beyond 28 metres. Runtime base color is 512px; ORM and emission are 256px. Source art remains 2048px. Desktop and portrait captures were reviewed, including the scroll’s four characters at the reduced runtime resolution. The nunnery inspection camera now shows the burner’s feet above the interface. Standing lanterns, braziers, screens and the generic scroll remain available in the library for later dressing; the study’s painted scroll artwork is retained.
+The seven runtime batches stop drawing beyond 28 metres. Runtime base color is 512px; ORM and emission are 256px. Source art remains 2048px. Desktop and portrait captures were reviewed, including the scroll’s four characters at the reduced runtime resolution. The nunnery inspection camera now shows the burner’s feet above the interface. Standing lanterns, braziers and screens remain available in the library for later dressing; six generic scrolls now dress the terminal cells; the study’s painted scroll artwork is retained.
 
 The affected routes and full first-reading flow pass. Three stationary demo views stay within 101–145 draw calls, 123,148–146,432 visible primitives, 63.46 MiB of texture allocation and four practical lights. This is desktop evidence only.
 
@@ -76,3 +76,12 @@ Six chairs replace the earlier block seats/backs/legs. The 0.46 m seat height an
 The assembly has 157 render meshes and 267,694 triangles; sampled UV2 overlap checks pass. Current source SHA256 is `838178b067891de880927663473dedd91ab60dc5bfb03cee6d0680c3677786c4`. Fresh bakes cover 32 demo and 29 priority-2 opaque meshes. Demo replay and bake-material checks pass. Desktop and portrait cell and chair views were inspected. Stationary desktop demo views use 101–144 draw calls, 123,148–168,478 primitives, 63.84 MiB of textures and at most four practical lights. Phone and full-traversal GPU acceptance remain open.
 
 [Placed chair](../reference/terminal-chair-placed.png) · [Portrait chair view](../reference/terminal-chair-placed-portrait.png)
+
+
+## Terminal scroll placement — 2026-10-04
+
+Six scrolls hang on the solid wall strips beside the terminal windows, leaving the barred garden views clear. Each is 0.46 m wide including its rollers and hangs below the window head. A dark material uses a 0.025 color multiplier and the original prop atlas textures. The Blender shader uses the modern Mix node supported by glTF export, which preserves the multiplier as `baseColorFactor`; the importer replaces both underlying and active materials with the shared dark ORM resource. There is no emission, added light or new collision.
+
+The scrolls use one additional batch (3,144 triangles) and the same source atlas maps. Prop placement totals 44 modules in nine material batches. The source preservation report compares the previous committed glTF to this export and confirms all 497 collision, light and trigger nodes are identical. Runtime checks cover six mounting regions, zero emission, shared texture identities, window rays, prop UV2 and chair capsule/seat/floor clearance. The original chair batch remains 5,808 triangles.
+
+[Dark scroll and window](../reference/terminal-scrolls.png) · [Portrait detail](../reference/terminal-scrolls-portrait.png)

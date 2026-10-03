@@ -27,6 +27,11 @@ func _post_import(scene: Node) -> Object:
      node.visibility_range_end=28.0
     if material and material.resource_name in surfaces:
      node.set_surface_override_material(i,surfaces[material.resource_name])
+    if material and material.resource_name.begins_with("MAT_terminal_scroll"):
+     var dark_scroll=load("res://materials/terminal_scroll.tres")
+     node.mesh.surface_set_material(i,dark_scroll)
+     node.set_surface_override_material(i,dark_scroll)
+     node.visibility_range_end=28.0
     if material and material.resource_name.begins_with("MAT_tech_atlas"):
      node.mesh.surface_set_material(i,tech_material)
      node.set_surface_override_material(i,tech_material)

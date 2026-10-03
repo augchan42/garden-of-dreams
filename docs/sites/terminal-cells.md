@@ -41,7 +41,7 @@ the player makes.
 | --- | --- |
 | `KIT_tech` | CRT (green), terminal desk, cell door |
 | `KIT_wall` | 3 m wall bay ×3, leak window ×1 |
-| `KIT_props` | Folding chair (add to kit), calligraphy scroll |
+| `KIT_props` | Folding chair, calligraphy scroll |
 | `KIT_stage` | Floor boards, studio wall behind the cell row |
 
 No hero object. Six cells are one cell instanced six times; only the one the player
@@ -63,7 +63,7 @@ occupies needs the CRT light on.
 
 ## Shared tech placement — 2026-10-04
 
-Six green CRTs, timber desks, open steel frames and cable drops now use the shared tech library. Frames retain the existing 1.12 m clear width and 2.1 m clear height; rays confirm passage through all six openings and collision at their posts. Existing window/seat/door actions and lights remain in place. Desktop and portrait cell views were inspected. The folding wood chairs are now placed; the unlit wall scrolls still need the site-sheet pass. Source-matched bakes and route checks pass. Details: `../kits/tech.md`.
+Six green CRTs, timber desks, open steel frames and cable drops now use the shared tech library. Frames retain the existing 1.12 m clear width and 2.1 m clear height; rays confirm passage through all six openings and collision at their posts. Existing window/seat/door actions and lights remain in place. Desktop and portrait cell views were inspected. The folding wood chairs and dark unlit wall scrolls are now placed. Source-matched bakes and route checks pass. Details: `../kits/tech.md`.
 
 
 ## Folding chair library — 2026-10-04
@@ -73,4 +73,9 @@ The required folding wood chair is now available in `KIT_props` at two detail le
 
 ## Stage placement — 2026-10-04
 
-Six timber floor panels fit the 2.4 m cells and retain walking height zero. Six unshaded black studio panels span the backstage corridor wall; two gel frames hang there as stored equipment. The corridor fog uses the shared neutral gray-blue stage material. Floor support, corridor clearance and outward/return traversal pass. Desktop and portrait floor/chair views and the backstage wall were inspected. The unlit calligraphy scrolls remain open. Details: `../kits/stage.md`.
+Six timber floor panels fit the 2.4 m cells and retain walking height zero. Six unshaded black studio panels span the backstage corridor wall; two gel frames hang there as stored equipment. The corridor fog uses the shared neutral gray-blue stage material. Floor support, corridor clearance and outward/return traversal pass. Desktop and portrait floor/chair views and the backstage wall were inspected. The dark calligraphy scrolls are now fitted beside the barred windows. Details: `../kits/stage.md`.
+
+
+## Terminal wall scrolls — 2026-10-04
+
+All six cells now have one dark calligraphy scroll on the solid right-hand strip of the wall behind the desk. The 0.46 m overall width fits the 0.6 m strip; the barred opening remains clear. The scrolls reuse the prop atlas with a 0.025 base-color multiplier, no emissive pixels, and no added practical light or collision. The dark material exports as a standard glTF color factor and uses the same textures in Godot. Source/export comparisons preserve all 497 collision, light and trigger nodes exactly. The folding-chair batch and its seat/standing clearance remain intact.
