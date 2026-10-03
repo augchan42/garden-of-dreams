@@ -1,0 +1,155 @@
+{
+  "units": "metres",
+  "atlas_size": 2048,
+  "variants": {
+    "lantern_hanging": {
+      "triangles_lod0": 1140,
+      "triangles_lod1": 452,
+      "ratio": 0.39649122807017545,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "light": [
+          0,
+          0,
+          0.5800000000000001
+        ],
+        "hang": [
+          0,
+          0,
+          1.31
+        ]
+      },
+      "colliders": 0
+    },
+    "lantern_standing": {
+      "triangles_lod0": 1420,
+      "triangles_lod1": 588,
+      "ratio": 0.4140845070422535,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "light": [
+          0,
+          0,
+          1.78
+        ],
+        "hang": [
+          0,
+          0,
+          2.51
+        ]
+      },
+      "colliders": 2
+    },
+    "brazier": {
+      "triangles_lod0": 736,
+      "triangles_lod1": 278,
+      "ratio": 0.37771739130434784,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      },
+      "colliders": 1
+    },
+    "stone_table": {
+      "triangles_lod0": 628,
+      "triangles_lod1": 252,
+      "ratio": 0.4012738853503185,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          0,
+          0.82
+        ]
+      },
+      "colliders": 1
+    },
+    "stone_stool": {
+      "triangles_lod0": 428,
+      "triangles_lod1": 164,
+      "ratio": 0.38317757009345793,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "seat": [
+          0,
+          0,
+          0.46
+        ]
+      },
+      "colliders": 1
+    },
+    "incense_burner": {
+      "triangles_lod0": 712,
+      "triangles_lod1": 280,
+      "ratio": 0.39325842696629215,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      },
+      "colliders": 1
+    },
+    "scroll": {
+      "triangles_lod0": 524,
+      "triangles_lod1": 204,
+      "ratio": 0.3893129770992366,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "wall": [
+          0,
+          0.04,
+          0.78
+        ],
+        "hang": [
+          0,
+          0,
+          1.82
+        ]
+      },
+      "colliders": 0
+    },
+    "screen": {
+      "triangles_lod0": 576,
+      "triangles_lod1": 252,
+      "ratio": 0.4375,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hinge": [
+          0,
+          0,
+          0.28
+        ]
+      },
+      "colliders": 3
+    }
+  }
+}

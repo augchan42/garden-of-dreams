@@ -1,0 +1,15 @@
+[gd_resource type="ORMMaterial3D" load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/kits/props/props-basecolor.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/kits/props/props-orm.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/kits/props/props-emission.png" id="3"]
+
+[resource]
+albedo_texture = ExtResource("1")
+orm_texture = ExtResource("2")
+metallic = 1.0
+roughness = 1.0
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_operator = 1
+emission_texture = ExtResource("3")

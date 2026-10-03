@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "variants": {
+    "lantern_hanging": {
+      "lod0": 1140,
+      "lod1": 452,
+      "ratio": 0.39649122807017545,
+      "colliders": 0,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hang": [
+          0,
+          1.309999942779541,
+          0
+        ],
+        "light": [
+          0,
+          0.5799999833106995,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "lantern_standing": {
+      "lod0": 1420,
+      "lod1": 588,
+      "ratio": 0.4140845070422535,
+      "colliders": 2,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hang": [
+          0,
+          2.509999990463257,
+          0
+        ],
+        "light": [
+          0,
+          1.7799999713897705,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "brazier": {
+      "lod0": 736,
+      "lod1": 278,
+      "ratio": 0.37771739130434784,
+      "colliders": 1,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "stone_table": {
+      "lod0": 628,
+      "lod1": 252,
+      "ratio": 0.4012738853503185,
+      "colliders": 1,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          0.8199999928474426,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "stone_stool": {
+      "lod0": 428,
+      "lod1": 164,
+      "ratio": 0.38317757009345793,
+      "colliders": 1,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "seat": [
+          0,
+          0.46000000834465027,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "incense_burner": {
+      "lod0": 712,
+      "lod1": 280,
+      "ratio": 0.39325842696629215,
+      "colliders": 1,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "scroll": {
+      "lod0": 524,
+      "lod1": 204,
+      "ratio": 0.3893129770992366,
+      "colliders": 0,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hang": [
+          0,
+          1.8200000524520874,
+          0
+        ],
+        "wall": [
+          0,
+          0.7799999713897705,
+          -0.03999999910593033
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    },
+    "screen": {
+      "lod0": 576,
+      "lod1": 252,
+      "ratio": 0.4375,
+      "colliders": 3,
+      "ports": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hinge": [
+          0,
+          0.2800000011920929,
+          0
+        ]
+      },
+      "uv_channels": 2,
+      "pbr_maps": 3
+    }
+  }
+}
