@@ -9,6 +9,7 @@ func capture(label:String) -> void:
   quit(1)
 func run() -> void:
  var mobile="--mobile" in OS.get_cmdline_user_args()
+ var offline="--offline" in OS.get_cmdline_user_args()
  if mobile:root.size=Vector2i(390,844)
  var route=load("res://runtime/entry_route.tscn").instantiate()
  root.add_child(route)
@@ -20,6 +21,10 @@ func run() -> void:
  await capture(prefix+"-overlook")
  route._camera_to(Vector3(6.4,5.6,-30.1),Vector3(4.4,4.9,-31.05))
  await capture(prefix+"-table")
+ if offline:
+  print("HILLTOP_RENDER_PASS ",prefix," offline views")
+  quit(0)
+  return
  route.execute_command("topics")
  var browser=route.get_node("TopicBrowser")
  var result=await browser.client.finished

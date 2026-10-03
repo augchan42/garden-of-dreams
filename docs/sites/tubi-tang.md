@@ -16,7 +16,7 @@ Plaster hill; terrace; steps with collision; low parapet; stone topic table; one
 
 ## Lighting and atmosphere
 
-Amber hard key at the hall; green wash on the distant garden. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
+Amber hard key at the hall; green wash on the distant garden. The terrace, parapets, twenty treads and topic table use a warmer site-specific plaster so the occupied hilltop does not inherit the stage's full green cast. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
 
 ## Room markers
 
@@ -40,6 +40,6 @@ The public terrace now has low side/front parapets, a stone topic table, one amb
 
 Desktop and portrait arrival, overlook, table and live-event views are saved as `docs/reference/route-hilltop*.png` and `route-mobile-hilltop*.png`. The live browser filters the public endpoint to temporal topics and does not create readings.
 
-Final painted signage, sourced reference stills, light-linked backdrop wash and a fresh bake remain unfinished. This site pass changes the assembly hash, so the previous whole-garden bake cannot be reused unchanged.
+The temporary typeset sign has been replaced with original brush-painted 凸碧堂 lettering on the existing wood board. The source art and prompt are in `textures/decals/hilltop/README.md`; this is production art, not a sourced historical still. The site-specific plaster and sign were checked in desktop and portrait Godot arrival views. The initial plaster pass lowered the terrace and stair regions' green-to-red mean-channel ratio to about 2.2 from 4.8–5.4; the later softer stage light and 20% grade reduce the green further. The climb, overlook and descent still pass through imported collision. Sourced reference stills, light-linked backdrop wash, a site bake and final material acceptance remain unfinished. The current whole-garden export and demo bake share a source hash.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.

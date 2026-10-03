@@ -1,0 +1,5 @@
+# Hilltop hall title
+
+`tubi-title.png` is original AI-generated production artwork made with Codex's built-in image-generation tool. It is not a sourced historical reference. The three characters were visually checked to read 凸碧堂. `scripts/finish_hilltop_art.py` embeds the transparent lettering on the existing wood sign in Blender and the glTF export. `scripts/configure_hilltop_art_import.py` sets GPU compression and a 1024-pixel runtime size limit in Godot; the full-resolution source remains here.
+
+Prompt: “Create ONLY the three Traditional Chinese characters exactly ‘凸碧堂’ (凸 then 碧 then 堂), in one horizontal row, left to right. Bold hand-brushed regular script, accurate and clearly legible character structure, varied brush pressure with restrained dry-brush edges. Warm aged-gold ink, isolated strokes on genuinely transparent alpha. No board, paper, border, seal, signature, other marks, Latin letters, or extra characters. Wide landscape composition about 3:1, equal visual height and even spacing, generous transparent padding. Flat orthographic artwork; no perspective, shadows, or lighting.”
