@@ -8,3 +8,5 @@ The four first-reading demo milestones are complete. The full garden scene spec 
 4. **Final render and acceptance:** bake lightmaps from the final assembly, check coverage and color in Godot, then profile full traversal and a target phone. Complete the service-backed interactions only after the required contracts are verified. Update the spec and build status with any remaining limits.
 
 Each scene pass should leave an editable Blender source, an exported glTF, an imported Godot view, a traversable route where applicable, and a status note that distinguishes completed work from open work.
+
+The saved-source audit is now recorded in [site-source-audit.md](site-source-audit.md). All 14 libraries match the authoring scene's structural records. Seven temporary typeset signs remain, and eight later sites lack current bake records for 55 eligible meshes. Replace those signs and review reflection framing before the final all-site bake.

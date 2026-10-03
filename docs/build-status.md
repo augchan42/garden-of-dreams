@@ -523,3 +523,10 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 - Desktop and portrait scroll/cell/chair views were inspected. Entry traversal, demo replay, packaged replay and cold desktop launch pass. The four demo milestones remain complete.
 - The next pass checks the site sheets against their saved scenes and finishes missing dressing. Sourced reference stills, remaining site art/materials/signs, final lighting and service contracts remain open. The full goal remains active.
 - The 43.5-second capture, five-file archive and SHA256 checksums are refreshed for this source.
+
+## Saved site source audit — 2026-10-04
+
+- Inspected all 14 saved Blender site libraries against the authoring collections and individual GLB bake eligibility. Structural records (camera/light/collision/trigger transforms and room IDs) and sign implementations match. All 71 markers carry room IDs. Blender MCP independently checked saved catalogs and library hashes without altering the open scene.
+- Seven original typeset signs remain: 沁芳, 蘅蕪苑, 怡紅院, 瀟湘館, 櫳翠庵, 凹晶館 and 稻香村. The painted-sign requirement remains open at those sites.
+- Six demo/priority-2 sites have 63 source-matched bake records. Eight later sites have no current records for their 55 eligible opaque meshes. This report checks metadata and file presence, not pixel quality or runtime application.
+- Added a reproducible read-only scene inspection in `scripts/audit_site_sources.py`, detailed evidence in `export/site-source-audit.json` and the next work order in `docs/site-source-audit.md`. Scene sources, canonical GLB, bakes and playable pack remain unchanged. The full goal remains active; this structural audit does not establish final site acceptance.
