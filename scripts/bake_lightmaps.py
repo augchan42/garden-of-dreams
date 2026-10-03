@@ -28,6 +28,13 @@ for o in s.objects:
 def read_glb(path):
  data=path.read_bytes();length=struct.unpack_from('<I',data,12)[0]
  return json.loads(data[20:20+length])
+source_document=read_glb(source)
+transparent_targets=set()
+for node in source_document['nodes']:
+ if 'mesh' not in node:continue
+ mesh=source_document['meshes'][node['mesh']]
+ if node['name']!='HERO_gate_water_drips.001' and any(source_document['materials'][primitive['material']].get('alphaMode','OPAQUE')!='OPAQUE' for primitive in mesh['primitives']):
+  transparent_targets.add(node['name'])
 site_for_mesh={}
 if options.site:
  if options.site=='all':files=sorted((R/'export/sites').glob('SITE_*.glb'))
@@ -46,6 +53,9 @@ else:targets=[bpy.data.objects.get(options.mesh)]
 assert all(o and o.type=='MESH' for o in targets)
 line_variants=[o for o in s.objects if o.name.startswith('HERO_table_line_')]
 for o in targets:
+ if o.name in transparent_targets:
+  print('BAKE_SKIPPED_ALPHA',o.name,flush=True)
+  continue
  if any(m and m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane'] for m in o.data.materials):continue
  print('BAKE_TARGET',o.name,flush=True)
  # Mutually exclusive line meshes must never shade each other. Bake each line

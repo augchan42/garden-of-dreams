@@ -10,12 +10,15 @@ func capture(label:String) -> void:
 func run() -> void:
  var mobile="--mobile" in OS.get_cmdline_user_args()
  var offline="--offline" in OS.get_cmdline_user_args()
+ var unbaked="--unbaked" in OS.get_cmdline_user_args()
  if mobile:root.size=Vector2i(390,844)
  var route=load("res://runtime/entry_route.tscn").instantiate()
+ route.site_bakes_enabled=not unbaked
  root.add_child(route)
  route.player.position=Vector3(7,4.04,-31)
  route._arrive("tubi_tang",true)
  var prefix="mobile-hilltop" if mobile else "hilltop"
+ if unbaked:prefix+="-dynamic"
  await capture(prefix)
  route.execute_command("overlook")
  await capture(prefix+"-overlook")

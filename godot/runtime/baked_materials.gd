@@ -1,6 +1,6 @@
 extends RefCounted
 
-# Experimental adapter, used by the bake comparison scene until all sites pass.
+# Apply source-hash-checked Cycles lightmaps to selected imported meshes.
 static func source_matches(records:Dictionary) -> bool:
  if records.is_empty():return false
  var digest=""

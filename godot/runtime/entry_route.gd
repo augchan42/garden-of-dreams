@@ -3,6 +3,7 @@ extends Node3D
 signal transition_finished(room_id: String)
 
 @export var demo_mode = false
+@export var site_bakes_enabled = true
 
 const ROOMS = {
  "daoxiang_cun": {"title": "稻香村 · Farmhouse", "text": "Uneven thatch hangs over a closed plank door. A rough fence encloses the yard; painted rice fields rise behind the roof.", "actions": [["Look", "look"], ["Inspect the door", "doors"], ["Inspect the tools", "tools"], ["Look at the paddy", "paddy"], ["Return to study court", "back"]]},
@@ -79,6 +80,11 @@ func _ready() -> void:
    gate_stone.get_surface_override_material(surface).set_shader_parameter("lightmap_scale", 1.8)
   for light in environment.find_children("*", "Light3D", true, false):
    light.shadow_enabled = false
+ elif site_bakes_enabled:
+  var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/priority2-index.json"))
+  assert(records is Dictionary and records.size() == 19, "Priority-2 site lightmaps are incomplete")
+  var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
+  assert(applied == records.size(), "Priority-2 site lightmaps do not match the scene")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)

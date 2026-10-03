@@ -10,12 +10,15 @@ func capture(label: String) -> void:
   quit(1)
 func run() -> void:
  var mobile = "--mobile" in OS.get_cmdline_user_args()
+ var unbaked = "--unbaked" in OS.get_cmdline_user_args()
  if mobile:root.size=Vector2i(390,844)
  var route=load("res://runtime/entry_route.tscn").instantiate()
+ route.site_bakes_enabled=not unbaked
  root.add_child(route)
  route.player.position=Vector3(22,.04,-13.5)
  route._arrive("qiushuang_zhai",true)
  var prefix="mobile-study" if mobile else "study"
+ if unbaked:prefix+="-dynamic"
  await capture(prefix)
  for command in ["left","centre","right"]:
   route.execute_command(command)
