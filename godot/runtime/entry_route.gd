@@ -76,7 +76,7 @@ func _ready() -> void:
  flora.configure(environment)
  if demo_mode:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
-  assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")
+  assert(records is Dictionary and records.size() == 31, "Demo lightmap catalog is incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Demo lightmaps do not match the scene")
   var gate_stone = environment.find_child("SITE_rockery-gate_MAT_plaster_rock", true, false)
@@ -87,7 +87,7 @@ func _ready() -> void:
    light.shadow_enabled = false
  elif site_bakes_enabled:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/priority2-index.json"))
-  assert(records is Dictionary and records.size() == 30, "Priority-2 site lightmaps are incomplete")
+  assert(records is Dictionary and records.size() == 29, "Priority-2 site lightmaps are incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Priority-2 site lightmaps do not match the scene")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()

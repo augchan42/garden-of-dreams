@@ -46,3 +46,8 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ## Shared prop placement — 2026-10-04
 
 The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.
+
+
+## Shared tech placement — 2026-10-04
+
+Three fitted four-monitor banks, three timber desks with keyboards and three cable drops now use the shared tech library. The twelve-screen layout, lattice fronts, painted scrolls, bank actions, lights and approach collision remain in place. Desktop and portrait arrival and all three bank views were inspected. Current Cycles coverage is nine opaque hall batches; static CRT artwork does not report live bulletin state. Source-matched bakes and route checks pass. Details: `../kits/tech.md`.

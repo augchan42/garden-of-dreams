@@ -7,6 +7,7 @@ func _post_import(scene: Node) -> Object:
  var surfaces = {"MAT_aojing_water": load("res://materials/water.tres"), "MAT_water": load("res://materials/water.tres"), "MAT_fog_plane": load("res://materials/floor_fog.tres")}
  var flora_material = load("res://materials/flora_atlas.tres")
  var props_material = load("res://materials/props_atlas.tres")
+ var tech_material = load("res://materials/tech_atlas.tres")
  var nodes: Array[Node] = [scene]
  while not nodes.is_empty():
   var node = nodes.pop_back()
@@ -26,6 +27,9 @@ func _post_import(scene: Node) -> Object:
      node.visibility_range_end=28.0
     if material and material.resource_name in surfaces:
      node.set_surface_override_material(i,surfaces[material.resource_name])
+    if material and material.resource_name.begins_with("MAT_tech_atlas"):
+     node.mesh.surface_set_material(i,tech_material)
+     node.set_surface_override_material(i,tech_material)
   if node is DirectionalLight3D:
    node.light_energy = 1.4 if str(node.name).contains("green_key") else 0.65
    node.shadow_enabled = true
