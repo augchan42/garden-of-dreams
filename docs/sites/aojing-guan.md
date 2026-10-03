@@ -36,9 +36,9 @@ These are collection requirements, not claims that reference stills have been co
 
 ## Current build and acceptance
 
-The generic hall has been replaced by a low seven-metre facade with one amber window, dark shutters and a continuous broad roof. Its 1.8 m dry ledge is at -0.65 m, with a guarded descending ramp and pond at -1.1 m. Raised stage canvas was removed beneath the site. Three markers and two cameras are exported.
+The generic hall has been replaced by a low seven-metre facade with one amber window, dark shutters and a continuous broad roof. Its 1.8 m dry ledge is at -0.65 m, with a guarded descending ramp and pond at -1.1 m. Raised stage canvas was removed beneath the site. Three markers and three cameras are exported.
 
-The red court’s “Visit the water-level hall” action reaches the ledge. A separate pond shader now shows the actual window and roof through a mirrored-camera capture, tinted green and distorted by animated ripples. Fixed-time renderer comparisons verify that excluding the window from the capture removes only its reflected image. Desktop and portrait views were inspected. See `docs/pond-reflection.md`. Final water-dominant composition, source camera alignment, lighting and sourced reference stills remain open; this is not final site acceptance.
+The red court’s “Visit the water-level hall” action reaches the ledge. A separate pond shader now shows the actual window and roof through a mirrored-camera capture, tinted green and distorted by animated ripples. Fixed-time renderer comparisons verify that excluding the window from the capture removes only its reflected image. Desktop and portrait views were inspected. See `docs/pond-reflection.md`. Final water-dominant composition, lighting and sourced reference stills remain open; this is not final site acceptance.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
 
@@ -49,4 +49,11 @@ The temporary Songti glyph geometry is replaced by original painted 凹晶館 le
 
 ## Runtime camera review — 2026-10-04
 
-The arrival and pond action use a centered desktop view with a wider 70° vertical FOV, keeping the roof and reflected window visible above the command panel. Portrait uses its own closer, downward-looking 55° horizontal view to reduce empty sky. The six current arrival/door/pond screenshots replace the earlier green-grade captures. Source-camera alignment and the final half-frame water composition still need review; the Blender camera records are unchanged. See `../pond-reflection.md` for positions and renderer checks.
+The arrival and pond action use a centered desktop view with a wider 70° vertical FOV, keeping the roof and reflected window visible above the command panel. Portrait uses its own closer, downward-looking 55° horizontal view to reduce empty sky. The six current arrival/door/pond screenshots replace the earlier green-grade captures. The reviewed views are now stored in Blender and used directly by Godot. The final half-frame water composition still needs review. See `../pond-reflection.md` for positions and renderer checks.
+
+
+## Source camera alignment — 2026-10-04
+
+`CAM_aojing-guan_wide` and `CAM_aojing-guan_reflection` store the reviewed desktop shot. A third camera, `CAM_aojing-guan_portrait`, stores the portrait shot. The saved library includes a 1410 × 600 landscape scene and a 390 × 844 portrait scene using the same editable collection. The exporter preserves each camera's viewport and projection; the runtime reads the imported position, orientation and FOV.
+
+`test_reflection_camera_alignment.gd` compares actual window and pond screen projections in both aspects, checks the mirrored camera and checks default FOV restoration at the next site. The export preservation report verifies unchanged binary geometry/image data, material/mesh records and all 497 collision/trigger/light records. Lighting and final composition acceptance remain open.

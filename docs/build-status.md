@@ -550,3 +550,16 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 - Deterministic comparisons report 85,856 changed pixels when reflection is disabled, 1,161 when only the reflected window is excluded, and 4,272 when ripple time advances. Desktop and portrait capture projection checks pass. The guarded approach and return, floor support and closed-door collision pass.
 - Stationary Apple M2 Max desktop profiling reports 13 capture draws, no capture shadow draws, 59,165,348 bytes of texture allocation, and 8.406 ms median frame interval active versus 8.133 ms frozen. This is not full traversal or phone GPU acceptance.
 - Geometry, Blender cameras and source-matched bakes are unchanged. Source camera alignment, final water-dominant establishing composition, later-site materials/lighting, references and full acceptance remain open. The goal remains active.
+
+
+## Reflection hall source camera alignment — 2026-10-04
+
+- Stored the reviewed desktop shot in the two existing hall cameras and added a portrait camera. The editable library contains 1410 × 600 landscape and 390 × 844 portrait scenes sharing one collection. Blender MCP confirms the saved catalog and hash without changing the open scene.
+- The glTF exporter preserves each camera's viewport and projection. Godot reads the imported transform and FOV instead of keeping a separate pose. The alignment test compares window/pond screen coordinates in both aspects, mirrored projection and the next site's default FOV restoration.
+- Source SHA256 is `4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b`. Binary geometry/image data, all mesh/material/texture/accessor records and 497 collision/trigger/light records match the predecessor. The source-library audit now compares camera lens, sensor, clipping and viewport metadata too.
+- All 154 GLBs pass structural checks; all 166 assembly meshes pass sampled UV2 overlap checks. Refreshed 33 demo and 29 priority-2 bakes are source matched, have finite nonzero native pixels and apply in the runtime. Reflection traversal, source camera agreement and project/pack first-reading plus replay pass. Fixed-time comparisons change 85,856 pixels with reflection disabled, 1,161 with its window excluded and 4,273 with ripple time advanced; non-pond pixels and HUD text/buttons/input remain stable.
+- The demo pack is rebuilt and its cold desktop launch passes. The existing demo video remains valid because its scene geometry, image data and camera views are unchanged. Final water-dominant composition, later-site materials/lighting, reference collection, service contracts and phone/full-traversal acceptance remain open. The goal remains active.
+
+The latest source audit totals **54** eligible meshes without current bakes across eight later sites. The previous JSON audit also totals 54; earlier prose saying 55 was a counting error.
+
+Final import evidence: 166 render meshes, 392 collision shapes, 71 room markers and 41 cameras. The five-file local release archive is rebuilt and every archived checksum verifies.

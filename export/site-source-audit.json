@@ -1,10 +1,10 @@
 {
-  "source_glb_sha256": "0a697db4e396c3ee422838feafb0d6a438ac70186d7761e469d11366d25e1ea0",
-  "authoring_sha256": "8341f193fa4a79a47d033c29a54b110c539c1e9a23f69ebd2dc89f6ba3e8d6eb",
+  "source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
+  "authoring_sha256": "0d5f780086c913e218bd609d1fd2b284b1426bcd9d628cdea5384b50bbbd710a",
   "scope": "Saved library structure, sign implementation, and source-matched bake records. Does not prove art quality, routes, runtime bake application, references, or performance.",
   "sites": {
     "aojing-guan": {
-      "object_count": 138,
+      "object_count": 139,
       "signs": [
         {
           "name": "HERO_aojing-guan_title",
@@ -32,28 +32,37 @@
       "cameras": [
         {
           "name": "CAM_aojing-guan_wide",
-          "lens_mm": 32.0,
+          "lens_mm": 17.137775421142578,
           "position": [
-            24.0,
-            -20.0,
-            1.600000023841858
+            26.0,
+            -24.0,
+            4.0
           ]
         },
         {
           "name": "CAM_aojing-guan_reflection",
-          "lens_mm": 32.0,
+          "lens_mm": 17.137775421142578,
           "position": [
             26.0,
-            -19.0,
-            0.10000000149011612
+            -24.0,
+            4.0
+          ]
+        },
+        {
+          "name": "CAM_aojing-guan_portrait",
+          "lens_mm": 34.57767868041992,
+          "position": [
+            26.0,
+            -23.0,
+            4.0
           ]
         }
       ],
       "colliders": 7,
-      "library_sha256": "2db931b53bfb47dc2b21ab5a43bc4b54a27f7bc1aa2d4306431b97d995904441",
-      "sheet_sha256": "6a72573153e06bc60951c4709a80c3e5b42851a90a84b241553e0cf7bcb976ef",
-      "export_sha256": "067baa41f9f4246ee66f664c5c26b52d23a277a6a770316eff8366c9c3e1801a",
-      "master_object_count": 138,
+      "library_sha256": "0d96ea69cfa0870bbae82c1a21be6623df54cbd9f11996a3f6779a7fd2312d59",
+      "sheet_sha256": "f9a56096ffac845174d5f8ffd6125dc646db27d35176698aa0acf0f9d6b5e5f0",
+      "export_sha256": "8a159f413c7d31c1cdc7087ebe6c06d0f708360b912d6d813b735545c5d5ba57",
+      "master_object_count": 139,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
       "source_matched_bakes": 0,

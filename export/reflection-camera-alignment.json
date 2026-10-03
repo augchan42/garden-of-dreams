@@ -1,0 +1,108 @@
+{
+  "previous_source_glb_sha256": "0a697db4e396c3ee422838feafb0d6a438ac70186d7761e469d11366d25e1ea0",
+  "source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
+  "unchanged_collision_trigger_light_records": 497,
+  "mesh_material_texture_accessor_records_identical": true,
+  "binary_data_identical": true,
+  "cameras": {
+    "CAM_aojing-guan_portrait.001": {
+      "camera": 0,
+      "extras": {
+        "runtime_camera_fov": 55,
+        "runtime_camera_fit": "width",
+        "runtime_camera_viewport": [
+          390,
+          844
+        ]
+      },
+      "name": "CAM_aojing-guan_portrait.001",
+      "rotation": [
+        -0.3694501519203186,
+        0,
+        0,
+        0.9292505383491516
+      ],
+      "translation": [
+        26,
+        4,
+        23
+      ],
+      "projection": {
+        "name": "CAM_aojing-guan_portrait",
+        "perspective": {
+          "aspectRatio": 0.46208530805687204,
+          "yfov": 1.6896844404508415,
+          "zfar": 160,
+          "znear": 0.05999999865889549
+        },
+        "type": "perspective"
+      }
+    },
+    "CAM_aojing-guan_reflection.001": {
+      "camera": 1,
+      "extras": {
+        "runtime_camera_fov": 70,
+        "runtime_camera_fit": "height",
+        "runtime_camera_viewport": [
+          1410,
+          600
+        ]
+      },
+      "name": "CAM_aojing-guan_reflection.001",
+      "rotation": [
+        -0.2842150032520294,
+        0,
+        0,
+        0.9587606191635132
+      ],
+      "translation": [
+        26,
+        4,
+        24
+      ],
+      "projection": {
+        "name": "CAM_aojing-guan_reflection.001",
+        "perspective": {
+          "aspectRatio": 2.35,
+          "yfov": 1.2217304763960306,
+          "zfar": 160,
+          "znear": 0.05999999865889549
+        },
+        "type": "perspective"
+      }
+    },
+    "CAM_aojing-guan_wide.001": {
+      "camera": 2,
+      "extras": {
+        "runtime_camera_fov": 70,
+        "runtime_camera_fit": "height",
+        "runtime_camera_viewport": [
+          1410,
+          600
+        ]
+      },
+      "name": "CAM_aojing-guan_wide.001",
+      "rotation": [
+        -0.2842150032520294,
+        0,
+        0,
+        0.9587606191635132
+      ],
+      "translation": [
+        26,
+        4,
+        24
+      ],
+      "projection": {
+        "name": "CAM_aojing-guan_wide",
+        "perspective": {
+          "aspectRatio": 2.35,
+          "yfov": 1.2217304763960306,
+          "zfar": 160,
+          "znear": 0.05999999865889549
+        },
+        "type": "perspective"
+      }
+    }
+  }
+}

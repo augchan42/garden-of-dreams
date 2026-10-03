@@ -1,4 +1,4 @@
-import bpy, bmesh, json, math, hashlib, collections
+import bpy, bmesh, json, math, hashlib, collections, struct
 from pathlib import Path
 from mathutils import Vector
 R=Path('/Users/auchan/projects/garden-of-dreams')
@@ -9,8 +9,26 @@ import io_scene_gltf2
 items=io_scene_gltf2.get_format_items(None,bpy.context)
 fmt=next(i[0] for i in items if i[0]=='GLB')
 report={'engine':'Godot','sites':{},'warnings':['Reference assets, not yet profiled on mobile.','Lightmap bake remains unfinished; engine import evidence is recorded separately in godot/import-validation.json.']}
+def camera_contracts(path):
+ # The exporter has one scene aspect ratio. Explicit per-camera viewports keep
+ # portrait cameras correct without changing the other authored projections.
+ blob=path.read_bytes();length=struct.unpack_from('<I',blob,12)[0]
+ document=json.loads(blob[20:20+length]);changed=False
+ for node in document.get('nodes',[]):
+  extras=node.get('extras',{})
+  if 'camera' not in node or 'runtime_camera_viewport' not in extras:continue
+  width,height=extras['runtime_camera_viewport'];aspect=width/height
+  angle=math.radians(extras['runtime_camera_fov'])
+  if extras['runtime_camera_fit']=='width':angle=2*math.atan(math.tan(angle/2)/aspect)
+  projection=document['cameras'][node['camera']]['perspective']
+  projection.update(yfov=angle,aspectRatio=aspect);changed=True
+ if changed:
+  data=json.dumps(document,separators=(',',':')).encode();data+=b' '*((-len(data))%4)
+  tail=blob[20+length:]
+  path.write_bytes(struct.pack('<III',0x46546c67,2,20+len(data)+len(tail))+struct.pack('<II',len(data),0x4e4f534a)+data+tail)
 def export_file(path):
  bpy.ops.export_scene.gltf(filepath=str(path),export_format=fmt,use_active_scene=True,export_yup=True,export_apply=True,export_extras=True,export_cameras=True,export_lights=True,export_animations=False,export_draco_mesh_compression_enable=False,export_loglevel=-1)
+ camera_contracts(path)
 # Batch static stock meshes by site and material; retain names of hero and trigger assets.
 export_scene=bpy.data.scenes.new('Garden Godot export');bpy.context.window.scene=export_scene;export_scene.world=s.world
 export_scene.render.resolution_x=s.render.resolution_x;export_scene.render.resolution_y=s.render.resolution_y
@@ -59,6 +77,7 @@ for source in list(s.collection.children):
  bpy.ops.object.select_all(action='DESELECT')
  for o in dest.objects:o.select_set(True)
  bpy.ops.export_scene.gltf(filepath=str(R/'export/sites'/('SITE_'+slug+'.glb')),export_format=fmt,use_selection=True,use_active_scene=True,export_yup=True,export_apply=True,export_extras=True,export_cameras=True,export_lights=True,export_animations=False,export_draco_mesh_compression_enable=False,export_loglevel=-1)
+ camera_contracts(R/'export/sites'/('SITE_'+slug+'.glb'))
  report['sites'][slug]={'objects':len(dest.objects),'triangles':tris,'render_meshes':sum(o.type=='MESH' and not o.name.startswith('COL_') for o in dest.objects),'colliders':sum(o.name.startswith('COL_') for o in dest.objects),'triggers':sum(o.name.startswith('TRG_') for o in dest.objects)}
 export_scene.camera=next(o for o in export_scene.objects if o.type=='CAMERA' and o.name.startswith('CAM_stage_wide'))
 export_file(R/'export/garden-of-dreams.glb')

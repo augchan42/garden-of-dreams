@@ -42,6 +42,19 @@ def inspect(collection):
                 'matrix': [round(value, 6) for row in obj.matrix_world for value in row],
                 'room_id': obj.get('room_id'),
             }
+            if obj.type == 'CAMERA':
+                structural[obj.name]['projection'] = {
+                    'lens_mm': obj.data.lens,
+                    'sensor_fit': obj.data.sensor_fit,
+                    'sensor_width': obj.data.sensor_width,
+                    'sensor_height': obj.data.sensor_height,
+                    'clip_start': obj.data.clip_start,
+                    'clip_end': obj.data.clip_end,
+                    'runtime_fov': obj.get('runtime_camera_fov'),
+                    'runtime_fit': obj.get('runtime_camera_fit'),
+                    'runtime_viewport': list(obj['runtime_camera_viewport'])
+                        if 'runtime_camera_viewport' in obj else None,
+                }
     return {
         'object_count': len(objects),
         'signs': signs,

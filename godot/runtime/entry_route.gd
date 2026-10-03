@@ -528,9 +528,14 @@ func _physics_process(delta: float) -> void:
  player.move_and_slide()
 
 func _reflection_view() -> Array:
- if get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y:
-  return [Vector3(26,4,23),Vector3(26,-4.5,14),55.0]
- return [Vector3(26,4,24),Vector3(26,-2.5,14),70.0]
+ var portrait = get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y
+ var authored = find_child("CAM_aojing-guan_portrait*" if portrait else "CAM_aojing-guan_wide*",true,false) as Camera3D
+ assert(authored != null,"The reflection hall's authored camera is missing")
+ var fov = authored.fov
+ if portrait:
+  var viewport = authored.get_meta("extras")["runtime_camera_viewport"]
+  fov = rad_to_deg(2 * atan(tan(deg_to_rad(fov) / 2) * float(viewport[0]) / float(viewport[1])))
+ return [authored.global_position,authored.global_position-authored.global_basis.z*10,fov]
 
 func _arrive(id: String, immediate = false) -> void:
  gate_reveal_active = false
