@@ -8,7 +8,7 @@ tree=ast.parse((R/'scripts/build_garden.py').read_text());exec(compile(ast.Modul
 for var,name in {'wood':'lattice_wood','plaster':'whitewash','roofmat':'rooftile','stone':'plaster_rock','black':'backstage','gold':'bronze','amber':'lantern','green':'crt_green','crtamber':'crt_amber','water':'water','foliage':'foliage_card','cycomat':'cyclorama'}.items():globals()[var]=bpy.data.materials['MAT_'+name]
 font=next(f for f in bpy.data.fonts if 'Songti' in f.filepath)
 for kit in ['corridor','pavilion','wall','rockery','water','flora','props','tech','stage']:
- if kit in ['corridor','wall','pavilion','water','rockery'] and (R/f'export/kits/{kit}/manifest.json').exists():continue
+ if kit in ['corridor','wall','pavilion','water','rockery','flora'] and (R/f'export/kits/{kit}/manifest.json').exists():continue
  C=bpy.data.collections.new('KIT_'+kit)
  scene.collection.children.link(C)
  if kit=='corridor':corridor((0,0,0))
@@ -29,7 +29,7 @@ for kit in ['corridor','pavilion','wall','rockery','water','flora','props','tech
 # Make each collection library a normal, directly openable .blend.
 paths=list((R/'blender/sites').glob('*.blend'))+list((R/'blender/kits').glob('*.blend'))
 for file in paths:
- if file.stem in ["KIT_corridor","KIT_wall","KIT_pavilion","KIT_water","KIT_rockery"] and (R/f"export/kits/{file.stem[4:]}/manifest.json").exists():continue
+ if file.stem in ["KIT_corridor","KIT_wall","KIT_pavilion","KIT_water","KIT_rockery","KIT_flora"] and (R/f"export/kits/{file.stem[4:]}/manifest.json").exists():continue
  bpy.ops.wm.read_factory_settings(use_empty=True)
  with bpy.data.libraries.load(str(file),link=False) as (src,dst):dst.collections=[file.stem]
  s=bpy.context.scene;s.name=file.stem;s.collection.children.link(dst.collections[0]);s.unit_settings.system='METRIC';s.render.engine='BLENDER_EEVEE';s.render.resolution_x=1410;s.render.resolution_y=600

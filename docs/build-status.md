@@ -409,3 +409,10 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 - Desktop and portrait imperial arrival and door captures were inspected. The north walk passes outward and return traversal, floor support, closed-door collision and rejection of entry. The first-reading demo passes through replay. Current desktop profiling records 88–129 visible draw calls and 65,933,064 bytes (62.88 MiB) of texture allocation across three stationary demo views; median forced-draw intervals are 1.29–1.89 ms on this Mac. Study, hilltop and demo reference views were refreshed.
 - Sourced visual references, final atlas/material review, wider garden lighting acceptance and target-phone profiling remain open. This facade pass does not complete the full garden spec.
 - The updated local pack cold-tests both the first-reading demo and imperial north walk. The 43-second capture, archive and checksums are refreshed and pass.
+
+
+## Flora library pass — 2026-10-04
+
+- Built all eight specified flora variants and independent LOD1 companions in the editable Blender library. One original 2048px atlas adds muted foliage, brown bark, terracotta and pale pink plum blossoms. Base meshes use 252–1,596 triangles; manually built LOD1 meshes use 34–46% of the base geometry.
+- Export checks pass for all sixteen modules: UV0/UV1, alpha masking, ground anchors, collider parity and triangle targets. The Godot test verifies sixteen rendered meshes sharing one alpha-scissor material and texture resource, plus six trunk/planter colliders across the two detail levels. Both overview renders were reviewed after replacing destructive generic decimation. All 110 exported GLBs pass the general structural check.
+- Details and images: `docs/kits/flora.md`. The garden assembly, site bakes and packaged demo are unchanged. Site placement and LOD switching, remaining props/tech/stage assets, final art and lighting, services and phone acceptance remain open.
