@@ -9,12 +9,15 @@ func capture(label:String) -> void:
   quit(1)
 func run() -> void:
  var mobile="--mobile" in OS.get_cmdline_user_args()
+ var unbaked="--unbaked" in OS.get_cmdline_user_args()
  if mobile:root.size=Vector2i(390,844)
  var route=load("res://runtime/entry_route.tscn").instantiate()
+ route.site_bakes_enabled=not unbaked
  root.add_child(route)
  route.player.position=Vector3(0,.04,-20.5)
  route._arrive("daguan_lou",true)
  var prefix="mobile-imperial" if mobile else "imperial"
+ if unbaked:prefix+="-dynamic"
  await capture(prefix)
  route.execute_command("doors")
  await capture(prefix+"-doors")

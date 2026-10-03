@@ -16,7 +16,7 @@ Imperial facade; stepped central frontage; closed doors; two roof tiers; black b
 
 ## Lighting and atmosphere
 
-Green hard side key; sparse amber windows. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
+Warm-neutral hard side key; red lacquer door leaves, darker recessed panels and sparse amber windows. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
 
 ## Room markers
 
@@ -40,8 +40,8 @@ The paired-pavilion placeholder has been replaced by a single broad facade with 
 
 `test_imperial_route.gd` passes outward and return physics traversal, floor support, a ray check against the closed-door collider, and rejection of an entry action. Godot provides a north-walk visit from Qinfang and a close door view.
 
-The initial roof UV check found 24 overlapping sampled texels; triangulation before projection with a tighter angle resolves the sampled overlap. The establishing camera was lowered to reveal the facade under its eaves. The existing side key was lowered to reach below the eaves; the close door view remains dark and needs further readability work in the final lighting pass. Final painted signage, sourced stills, atlases and the specified baked-lighting rig remain unfinished.
+The initial roof UV check found 24 overlapping sampled texels; triangulation before projection with a tighter angle resolves the sampled overlap. The establishing camera was lowered to reveal the facade under its eaves. The side key is now warm-neutral and aimed below the eaves. Ten door leaves have red lacquer and twenty recessed panels use a darker related material, making the bronze fittings readable in the close view. The arrival camera moves into the east side aisle; the covered walk still borders the left of the frame. The missing typeset glyphs have been replaced by original painted 大觀樓 lettering embedded in the Blender source and glTF; production-art provenance is in `textures/decals/imperial/README.md`. Nine opaque facade meshes now have source-matched Cycles bakes; the transparent title retains its painted material. Sourced stills, final atlas/material review and wider garden rendering acceptance remain unfinished.
 
-Source script: `scripts/refine_imperial_facade.py`. Graded Godot references: `docs/reference/route-imperial*.png` and `route-mobile-imperial*.png`.
+Source scripts: `scripts/refine_imperial_facade.py` and `scripts/finish_imperial_art.py`. Graded Godot references: `docs/reference/route-imperial*.png` and `route-mobile-imperial*.png`.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.

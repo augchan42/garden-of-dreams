@@ -1,4 +1,4 @@
-"""Copy current opaque site bakes for the two priority-2 hall previews."""
+"""Copy current opaque site bakes for all three priority-2 hall previews."""
 
 import hashlib
 import json
@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "export/garden-of-dreams.glb"
 DIGEST = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
-SITES = ("qiushuang-zhai", "tubi-tang")
+SITES = ("qiushuang-zhai", "tubi-tang", "daguan-lou")
 OUTPUT = ROOT / "godot/lightmaps"
 
 
@@ -50,6 +50,6 @@ for path in (ROOT / "export/lightmaps").glob("*.json"):
 
 present = {record["mesh"] for record in records.values()}
 assert present == expected, {"missing": sorted(expected - present), "unexpected": sorted(present - expected)}
-assert len(records) == 19, len(records)
+assert len(records) == 28, len(records)
 (OUTPUT / "priority2-index.json").write_text(json.dumps(records, indent=2) + "\n")
 print("PRIORITY2_LIGHTMAPS_PASS", len(records), DIGEST)

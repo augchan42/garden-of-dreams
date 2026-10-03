@@ -2,6 +2,12 @@
   "resolution": 512,
   "scope": "Interior overlap at sampled texel centres; not a gutter or subtexel proof.",
   "meshes": {
+    "HERO_daguan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
     "HERO_gate_inscription.001": {
       "triangles": 1176,
       "degenerate_uv_triangles": 0,
@@ -18,6 +24,24 @@
       "triangles": 224,
       "degenerate_uv_triangles": 0,
       "covered_texels": 201060,
+      "overlapping_texels": 0
+    },
+    "HERO_study_scroll_bamboo.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 32232,
+      "overlapping_texels": 0
+    },
+    "HERO_study_scroll_plum.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 32232,
+      "overlapping_texels": 0
+    },
+    "HERO_study_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 2048,
       "overlapping_texels": 0
     },
     "HERO_table_hexagram.001": {
@@ -104,6 +128,12 @@
       "covered_texels": 186609,
       "overlapping_texels": 0
     },
+    "HERO_tubi_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 2048,
+      "overlapping_texels": 0
+    },
     "SITE_aojing-guan_MAT_aojing_water": {
       "triangles": 2,
       "degenerate_uv_triangles": 0,
@@ -153,15 +183,15 @@
       "overlapping_texels": 0
     },
     "SITE_daguan-lou_MAT_backstage": {
-      "triangles": 288,
+      "triangles": 48,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 168980,
+      "covered_texels": 221895,
       "overlapping_texels": 0
     },
     "SITE_daguan-lou_MAT_bronze": {
-      "triangles": 7152,
+      "triangles": 5248,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 6991,
+      "covered_texels": 13819,
       "overlapping_texels": 0
     },
     "SITE_daguan-lou_MAT_crt_amber": {
@@ -170,10 +200,22 @@
       "covered_texels": 218156,
       "overlapping_texels": 0
     },
-    "SITE_daguan-lou_MAT_lattice_wood": {
-      "triangles": 888,
+    "SITE_daguan-lou_MAT_daguan_lacquer": {
+      "triangles": 120,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 63486,
+      "covered_texels": 153756,
+      "overlapping_texels": 0
+    },
+    "SITE_daguan-lou_MAT_daguan_recess": {
+      "triangles": 240,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 136675,
+      "overlapping_texels": 0
+    },
+    "SITE_daguan-lou_MAT_lattice_wood": {
+      "triangles": 768,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 62087,
       "overlapping_texels": 0
     },
     "SITE_daguan-lou_MAT_plaster_rock": {
@@ -423,15 +465,15 @@
       "overlapping_texels": 0
     },
     "SITE_qiushuang-zhai_MAT_backstage": {
-      "triangles": 1956,
+      "triangles": 1812,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 70274,
+      "covered_texels": 77762,
       "overlapping_texels": 0
     },
     "SITE_qiushuang-zhai_MAT_bronze": {
-      "triangles": 10604,
+      "triangles": 1192,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 37002,
+      "covered_texels": 56192,
       "overlapping_texels": 0
     },
     "SITE_qiushuang-zhai_MAT_crt_amber": {
@@ -609,9 +651,9 @@
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_bronze": {
-      "triangles": 9692,
+      "triangles": 100,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 135030,
+      "covered_texels": 147109,
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_crt_amber": {
@@ -627,21 +669,27 @@
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_lattice_wood": {
-      "triangles": 1628,
+      "triangles": 1724,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 35843,
+      "covered_texels": 36804,
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_plaster_rock": {
-      "triangles": 1886,
+      "triangles": 1338,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 70391,
+      "covered_texels": 127795,
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_rooftile": {
       "triangles": 6112,
       "degenerate_uv_triangles": 0,
       "covered_texels": 15103,
+      "overlapping_texels": 0
+    },
+    "SITE_tubi-tang_MAT_tubi_terrace_plaster": {
+      "triangles": 548,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 102445,
       "overlapping_texels": 0
     },
     "SITE_tubi-tang_MAT_whitewash": {

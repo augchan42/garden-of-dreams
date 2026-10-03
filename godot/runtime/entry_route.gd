@@ -83,7 +83,7 @@ func _ready() -> void:
    light.shadow_enabled = false
  elif site_bakes_enabled:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/priority2-index.json"))
-  assert(records is Dictionary and records.size() == 19, "Priority-2 site lightmaps are incomplete")
+  assert(records is Dictionary and records.size() == 28, "Priority-2 site lightmaps are incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Priority-2 site lightmaps do not match the scene")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
@@ -290,7 +290,7 @@ func execute_command(text: String) -> void:
    else: output_label.text = "The north covered walk starts at Qinfang Pavilion."
   "doors":
    if room_id == "daguan_lou":
-    output_label.text = "The ceremonial doors are closed. Bronze studs and paired pulls catch the green light. This hall has no public interior."
+    output_label.text = "The ceremonial doors are closed. Bronze studs and paired pulls catch the warm light against red lacquer. This hall has no public interior."
     _camera_to(Vector3(0,1.7,-19.8),Vector3(0,1.7,-23))
    elif room_id == "yihong_yuan":
     output_label.text = "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
@@ -537,7 +537,7 @@ func _arrive(id: String, immediate = false) -> void:
   "longcui_an": [Vector3(-22,2.6,6),Vector3(-25,1.45,12.2)],
   "xiaoxiang_guan": [Vector3(-2,2.3,13),Vector3(-8.8,1.6,12.5)],
   "yihong_yuan": [Vector3(18,3.1,5),Vector3(24.3,1.25,1)],
-  "daguan_lou": [Vector3(7,3.2,-11),Vector3(0,2.2,-23)],
+  "daguan_lou": [Vector3(5.5,2.5,-13),Vector3(0,2.7,-23)],
   "hengwu_yuan": [Vector3(-17.5,2.6,-10.5),Vector3(-18,1.1,-15.2)],
   "tubi_tang": [Vector3(16,10,-20),Vector3(7,4.9,-32)],
   "qiushuang_zhai": [Vector3(22,3.2,-6.8),Vector3(22,1.45,-15.5)],

@@ -13,6 +13,7 @@ for obj in bpy.data.objects:
         obj.name.startswith("LGT_") and obj.name.endswith("_key")
         and obj.name != "LGT_qiushuang-zhai_key"
         and obj.name != "LGT_tubi-tang_key"
+        and obj.name != "LGT_daguan-lou_key"
     ):
         obj.data.color = KEY_COLOR
 
