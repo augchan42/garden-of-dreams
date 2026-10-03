@@ -1,6 +1,6 @@
 # Prop kit
 
-The reusable library contains all eight inventory variants plus the terminal site’s folding wood chair, each with an independent lower-detail mesh. Thirty-two props are placed in the garden; chair placement is next.
+The reusable library contains all eight inventory variants plus the terminal site’s folding wood chair, each with an independent lower-detail mesh. Thirty-eight props are placed across eight sites, including all six terminal chairs.
 
 | Variant | LOD0 triangles | LOD1 triangles | Ratio | Colliders |
 | --- | ---: | ---: | ---: | ---: |
@@ -14,7 +14,7 @@ The reusable library contains all eight inventory variants plus the terminal sit
 | Folding screen | 576 | 252 | 44% | 3 |
 | Folding chair | 968 | 356 | 37% | 2 |
 
-Open `blender/kits/KIT_props.blend` for the editable showroom and eighteen module scenes. Modules use metres and local ground origins. `PORT_` anchors provide lantern hang/light positions, the table top, stool seat, scroll wall/hang positions screen hinge and chair seat/back/hinge positions. The hanging lantern and wall scroll have no walking collision. Other props use separate boxes for the base, body or screen panels; those transforms match across detail levels.
+Open `blender/kits/KIT_props.blend` for the editable showroom and eighteen module scenes. Modules use metres and local ground origins. `PORT_` anchors provide lantern hang/light positions, the table top, stool seat, scroll wall/hang positions, screen hinge and chair seat/back/hinge positions. The hanging lantern and wall scroll have no walking collision. Other props use separate boxes for the base, body or screen panels; those transforms match across detail levels.
 
 LOD1 reduces cylinder and bowl subdivisions and removes secondary ornament. It retains lantern tassels, the table top, stool seat, burner bowl and sticks, scroll rollers and all screen panels. No generic decimator is used. Both general packaging and fallback LOD generation preserve completed kit manifests.
 
@@ -36,7 +36,7 @@ Copy exports and atlas maps to the Godot prop directory, then import the project
 
 ![Lower detail](../reference/props-kit-lod1.png)
 
-The master garden now contains 32 fitted props across seven sites, with fresh demo and priority-2 bakes. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
+The master garden now contains 38 fitted props across eight sites, with fresh demo and priority-2 bakes. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
 
 
 ## Placement pass — 2026-10-04
@@ -66,4 +66,13 @@ The additional terminal-cell prop is an open wooden folding chair with crossed l
 
 [Chair close view](../reference/folding-chair.png) · [Lower-detail view](../reference/folding-chair-lod1.png)
 
-Both close views and the refreshed nine-variant overviews were inspected. The remaining sixteen prop exports are byte-identical to the previous library. The chair is not placed in the main garden yet; the assembly hash, lightmaps and playable pack are unchanged in this library pass. Fitting six chairs to the cell layout and preserving the seat triggers, floor support and clear route remain required.
+Both close views and the refreshed nine-variant overviews were inspected. The remaining sixteen prop exports are byte-identical to the previous library. Six chairs are now fitted to the original terminal seat markers; the current placement pass is described below.
+
+
+## Terminal chair placement — 2026-10-04
+
+Six chairs replace the earlier block seats/backs/legs. The 0.46 m seat height and all existing seat/window/door markers, lights and unrelated collision transforms are retained. Chair fronts face the desks; each chair adds two simplified collision boxes. The terminal chairs export as one shared-atlas batch (5,808 triangles), bringing prop placement to 38 modules in eight batches. The visitor now starts at z=37.98 m, in the clear gap behind the chair back; the seat markers remain at z=37.4 m. The capsule clearance, floor support, seat-height rays, six doorways and outward/return route are checked.
+
+The assembly has 157 render meshes and 267,694 triangles; sampled UV2 overlap checks pass. Current source SHA256 is `838178b067891de880927663473dedd91ab60dc5bfb03cee6d0680c3677786c4`. Fresh bakes cover 32 demo and 29 priority-2 opaque meshes. Demo replay and bake-material checks pass. Desktop and portrait cell and chair views were inspected. Stationary desktop demo views use 101–144 draw calls, 123,148–168,478 primitives, 63.84 MiB of textures and at most four practical lights. Phone and full-traversal GPU acceptance remain open.
+
+[Placed chair](../reference/terminal-chair-placed.png) · [Portrait chair view](../reference/terminal-chair-placed-portrait.png)

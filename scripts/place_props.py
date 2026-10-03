@@ -4,7 +4,7 @@ from pathlib import Path
 from mathutils import Vector,Matrix
 R=Path(__file__).resolve().parents[1]
 s=next(s for s in bpy.data.scenes if s.name.startswith('Garden of Dreams'));bpy.context.window.scene=s
-variants=['lantern_hanging','stone_stool','stone_table','incense_burner']
+variants=['lantern_hanging','stone_stool','stone_table','incense_burner','folding_chair']
 with bpy.data.libraries.load(str(R/'blender/kits/KIT_props.blend'),link=False) as (src,dst):dst.collections=['KIT_props_'+v for v in variants]
 models={v:next(o for o in c.objects if o.type=='MESH' and not o.name.startswith('COL_')) for v,c in zip(variants,dst.collections)}
 canonical=bpy.data.materials['MAT_props_atlas']
@@ -44,18 +44,27 @@ else:
   burner=[o for o in c.objects if o.name.startswith(('LONGCUI_incense_','LONGCUI_burner_foot'))]
   if burner:
    lo,hi=bounds(burner);center=(lo+hi)/2;size=hi-lo
-   source_lo,source_hi=bounds([models['incense_burner']]);source_size=source_hi-source_lo;scale=Vector((size.x/source_size.x,size.y/source_size.y,size.z/source_size.z))
+   source_lo,source_hi=bounds([models['incense_burner','folding_chair']]);source_size=source_hi-source_lo;scale=Vector((size.x/source_size.x,size.y/source_size.y,size.z/source_size.z))
    records.append(dict(site=slug,variant='incense_burner',position=list(Vector((center.x,center.y,lo.z))-Vector((0,0,source_lo.z*scale.z))),scale=list(scale),replaces='LONGCUI_incense_bowl'))
    for o in burner:bpy.data.objects.remove(o,do_unlink=True)
+# Fit the terminal sheet's chairs to its existing seat markers.
+if not any(r['variant']=='folding_chair' for r in records):
+ col=bpy.data.collections['SITE_terminal-cells']
+ seats=sorted([o for o in col.objects if o.name.startswith('TRG_cell_seat')],key=lambda o:o.location.x)
+ assert len(seats)==6
+ for marker in seats:
+  records.append(dict(site='terminal-cells',variant='folding_chair',position=list(marker.location),scale=[1,1,1],rotation=[0,0,3.141592653589793],replaces='KIT_props_chair_*'))
+ for o in list(col.objects):
+  if o.name.startswith('KIT_props_chair_'):bpy.data.objects.remove(o,do_unlink=True)
 for index,record in enumerate(records):
- source=models[record['variant']];o=source.copy();o.data=source.data;o.name='PLACED_props_'+record['site'].replace('-','_')+'_'+str(index);o.parent=None;o.matrix_basis=Matrix.Identity(4);o.location=record['position'];o.scale=record['scale'];o.hide_render=False;o.hide_viewport=False;o['prop_placement']=True;o['prop_variant']=record['variant'];o['placement_index']=index
+ source=models[record['variant']];o=source.copy();o.data=source.data;o.name='PLACED_props_'+record['site'].replace('-','_')+'_'+str(index);o.parent=None;o.matrix_basis=Matrix.Identity(4);o.location=record['position'];o.scale=record['scale'];o.rotation_euler=record.get('rotation',[0,0,0]);o.hide_render=False;o.hide_viewport=False;o['prop_placement']=True;o['prop_variant']=record['variant'];o['placement_index']=index
  bpy.data.collections['SITE_'+record['site']].objects.link(o);record['name']=o.name
 # Also remove an old pedestal on an idempotent rerun of an earlier placement pass.
 for o in list(bpy.data.collections['SITE_tubi-tang'].objects):
  if o.name.startswith('TUBI_topic_pedestal'):bpy.data.objects.remove(o,do_unlink=True)
 # Preserve every existing collision, trigger and light transform exactly.
 for name,transform in before.items():assert list(sum((list(row) for row in bpy.data.objects[name].matrix_basis),[]))==transform,name
-assert len(records)==32,(len(records),records)
+assert len(records)==38,(len(records),records)
 bpy.ops.wm.save_as_mainfile(filepath=str(R/'blender/authoring.blend'),compress=True)
 for slug in sorted({r['site'] for r in records}):
  col=bpy.data.collections['SITE_'+slug];path=R/f'blender/sites/SITE_{slug}.blend';bpy.data.libraries.write(str(path),{col},fake_user=True,compress=True)

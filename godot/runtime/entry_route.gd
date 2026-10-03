@@ -30,7 +30,7 @@ const NUNNERY_PATH = [Vector3(-23,0,0),Vector3(-19.2,0,0),Vector3(-19.2,0,5),Vec
 const BAMBOO_PATH = [Vector3(0,0,1.8),Vector3(.8,0,1.8),Vector3(.8,0,3.6),Vector3(0,0,3.6),Vector3(0,0,7),Vector3(0,0,13),Vector3(-5,0,13),Vector3(-6.6,0,13)]
 const RED_COURT_PATH = [Vector3(0,0,1.8),Vector3(2,0,1.8),Vector3(2,0,0),Vector3(7,0,0),Vector3(19,0,0),Vector3(22,0,0),Vector3(22.6,0,1)]
 const NORTH_PATH = [Vector3(0,0,1.8),Vector3(2,0,1.8),Vector3(2,0,-3.6),Vector3(0,0,-3.6),Vector3(0,0,-7),Vector3(0,0,-19),Vector3(0,0,-20.5)]
-const CELL_PATH = [Vector3(-1.3,0,37.4), Vector3(-1.3,0,39.25), Vector3(8.35,0,39.25), Vector3(8.35,0,33), Vector3(0,0,33), Vector3(0,0,32.5)]
+const CELL_PATH = [Vector3(-1.3,0,37.98), Vector3(-1.3,0,39.25), Vector3(8.35,0,39.25), Vector3(8.35,0,33), Vector3(0,0,33), Vector3(0,0,32.5)]
 const GATE_PATH = [Vector3(0,0,32.5), Vector3(0,0,31), Vector3(1.273,0,29.5), Vector3(1.8,0,28), Vector3(1.273,0,26.5), Vector3(0,0,25), Vector3(-1.273,0,23.5), Vector3(-1.8,0,22), Vector3(-1.273,0,20.5), Vector3(0,0,19), Vector3(0,0,12), Vector3(0,0,7), Vector3(0,0,3.6), Vector3(.8,0,3.6), Vector3(.8,0,1.8), Vector3(0,0,1.8)]
 
 const WEST_PATH = [Vector3(0,0,1.8),Vector3(-2,0,1.8),Vector3(-2,0,0),Vector3(-7,0,0),Vector3(-19,0,0),Vector3(-23,0,0)]
@@ -76,7 +76,7 @@ func _ready() -> void:
  flora.configure(environment)
  if demo_mode:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
-  assert(records is Dictionary and records.size() == 31, "Demo lightmap catalog is incomplete")
+  assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Demo lightmaps do not match the scene")
   var gate_stone = environment.find_child("SITE_rockery-gate_MAT_plaster_rock", true, false)

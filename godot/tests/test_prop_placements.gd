@@ -17,8 +17,8 @@ func _initialize() -> void:
    var arrays=node.mesh.surface_get_arrays(0)
    assert(not arrays[Mesh.ARRAY_TEX_UV2].is_empty())
    triangles+=arrays[Mesh.ARRAY_INDEX].size()/3
- assert(batches==7,str(batches))
- assert(triangles==25060,str(triangles))
+ assert(batches==8,str(batches))
+ assert(triangles==30868,str(triangles))
  scene.free()
- print("PROP_PLACEMENTS_PASS: 32 props in 7 shared-material batches, UV2 present")
+ print("PROP_PLACEMENTS_PASS: 38 props in 8 shared-material batches, UV2 present")
  quit(0)
