@@ -30,6 +30,14 @@ func _post_import(scene: Node) -> Object:
     if material and material.resource_name.begins_with("MAT_tech_atlas"):
      node.mesh.surface_set_material(i,tech_material)
      node.set_surface_override_material(i,tech_material)
+    if material and material.resource_name.begins_with("MAT_stage_"):
+     var key=material.resource_name.trim_prefix("MAT_stage_").split(".")[0]
+     # Older canvas materials are not part of the modular stage library.
+     var path="res://materials/stage/"+key+".tres"
+     if ResourceLoader.exists(path):
+      var shared=load(path)
+      node.mesh.surface_set_material(i,shared)
+      node.set_surface_override_material(i,shared)
   if node is DirectionalLight3D:
    node.light_energy = 1.4 if str(node.name).contains("green_key") else 0.65
    node.shadow_enabled = true

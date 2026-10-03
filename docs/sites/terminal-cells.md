@@ -69,3 +69,8 @@ Six green CRTs, timber desks, open steel frames and cable drops now use the shar
 ## Folding chair library — 2026-10-04
 
 The required folding wood chair is now available in `KIT_props` at two detail levels (968/356 triangles), with a 0.46 m seat anchor, crossed frame, brass pivots and matching seat/back collision. Export, UV and Godot collision checks pass. All six cells now use fitted chairs with matching seat anchors and two collision boxes each. Seat markers remain unchanged; the visitor standing point moves behind the back to avoid overlap. Capsule clearance, floor support, doorways and outward/return traversal pass. Desktop and portrait chair views were inspected. See `../kits/props.md`.
+
+
+## Stage placement — 2026-10-04
+
+Six timber floor panels fit the 2.4 m cells and retain walking height zero. Six unshaded black studio panels span the backstage corridor wall; two gel frames hang there as stored equipment. The corridor fog uses the shared neutral gray-blue stage material. Floor support, corridor clearance and outward/return traversal pass. Desktop and portrait floor/chair views and the backstage wall were inspected. The unlit calligraphy scrolls remain open. Details: `../kits/stage.md`.

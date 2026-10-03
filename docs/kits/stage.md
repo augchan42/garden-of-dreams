@@ -1,6 +1,6 @@
 # Stage kit
 
-The library contains all seven stage inventory variants and independent lower-detail companions: three curved painted cycloramas, a black studio wall, floor boards, a fog plane and a lighting gel frame. Open `blender/kits/KIT_stage.blend` for the showroom and fourteen module scenes. The main garden placement pass remains open.
+The library contains all seven stage inventory variants and independent lower-detail companions: three curved painted cycloramas, a black studio wall, floor boards, a fog plane and a lighting gel frame. Open `blender/kits/KIT_stage.blend` for the showroom and fourteen module scenes. The wall, floor, fog and gel modules are placed in the main garden; the painted cyclorama enclosure fit remains open.
 
 | Variant | LOD0 triangles | LOD1 triangles | Ratio | Colliders per level | Material surfaces |
 |---|---:|---:|---:|---:|---:|
@@ -40,4 +40,12 @@ All views were inspected. These are isolated, ungraded asset previews; they do n
 
 ## Integration status
 
-The main assembly, existing linked backdrop wash, current bakes, source hash and playable pack are unchanged in this library pass. Stage placement must preserve route collision and camera views, use the existing lighting rig, refresh source-matched bakes after geometry changes, and verify the demo's draw/texture limits. The latest demo texture allocation is already 63.84 MiB; new library resources have not been charged to that runtime budget yet. Select and fit the stage pieces rather than loading all three skies into the demo at once. Further site dressing/signs, unlit terminal scrolls, sourced reference stills, final lighting, service contracts and phone acceptance remain open.
+Thirty-five modules now occupy the assembly: six 2.4 m floor-board panels in the terminal cells, six black studio panels behind the corridor, twenty-one fog cards across the stage, terminal corridor and rockery, and two stored gel frames on the backstage wall. Six shared-material render batches add 14,704 triangles. Eight new collision proxies belong to the studio panels and gel frames; the original cell floor colliders retain walking height zero. The corridor is clear, and the stored gels do not obstruct the hall titles or screens. No new lights are added. The black panels are unshaded and excluded from the bake; transparent fog and gels retain their shared source materials.
+
+The assembly has 160 render meshes and 282,284 triangles. Source SHA256 is `59bd87306524d62ba7a849e12cccdbead5639ab54faee025493564ac874695ed`. Fresh source-matched Cycles coverage is 33/33 demo and 29/29 priority-2 opaque shaded meshes. Stage placement, entry/study/imperial traversal, backdrop receiver linking, bake application and demo replay pass. Blender MCP confirms five directly openable site libraries without changing the user's open scene. Desktop and portrait views were inspected, including the floor and stored-frame wall.
+
+Stationary demo views on the Apple M2 Max measure 101–145 draw calls, 123,868–176,110 primitives and 66,850,688 bytes (63.75 MiB) of textures, with at most four practical lights. Forced-draw medians are 1.34–2.32 ms and p95 intervals 2.36–3.40 ms. This leaves little texture headroom and does not establish phone or full-traversal acceptance.
+
+[Placed floor and chair](../reference/terminal-chair-placed.png) · [Backstage wall and stored frames](../reference/stage-backstage-wall.png)
+
+The existing circular painted backdrop and five linked wash receivers remain in place. Before fitting the new painted cycloramas, review their curvature and side collider alignment, then check enclosure coverage from all garden views. Further site dressing/signs, unlit terminal scrolls, sourced reference stills, final lighting, service contracts and phone acceptance remain open.

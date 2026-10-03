@@ -34,7 +34,7 @@ for node in doc['nodes']:
  materials=[doc['materials'][primitive['material']] for primitive in mesh['primitives']]
  if node['name']!='HERO_gate_water_drips.001' and any(material.get('alphaMode','OPAQUE')!='OPAQUE' for material in materials):continue
  names=[material['name'] for material in materials]
- if any(name in ['MAT_water','MAT_aojing_water','MAT_fog_plane'] for name in names):continue
+ if any(name in ['MAT_water','MAT_aojing_water','MAT_fog_plane','MAT_stage_backstage'] for name in names):continue
  expected.add(node['name'])
 present={json.loads(p.read_text())['mesh'] for p in records}
 coverage={'expected_meshes':len(expected),'baked_meshes':len(expected & present),'missing':sorted(expected-present),'unexpected':sorted(present-expected),'source_glb_sha256':digest}

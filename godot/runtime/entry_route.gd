@@ -76,7 +76,7 @@ func _ready() -> void:
  flora.configure(environment)
  if demo_mode:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
-  assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")
+  assert(records is Dictionary and records.size() == 33, "Demo lightmap catalog is incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Demo lightmaps do not match the scene")
   var gate_stone = environment.find_child("SITE_rockery-gate_MAT_plaster_rock", true, false)

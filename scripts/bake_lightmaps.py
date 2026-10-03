@@ -22,7 +22,7 @@ world=bpy.data.worlds.new('Bake stage ambient');world.use_nodes=True
 background=next(n for n in world.node_tree.nodes if n.type=='BACKGROUND')
 background.inputs[0].default_value=(.025,.045,.022,1);background.inputs[1].default_value=.3;s.world=world
 for o in s.objects:
- if o.name.startswith('COL_') or (o.type=='MESH' and any(m and m.name=='MAT_fog_plane' for m in o.data.materials)):o.hide_render=True
+ if o.name.startswith('COL_') or (o.type=='MESH' and any(m and (m.name=='MAT_fog_plane' or m.name.startswith('MAT_stage_fog')) for m in o.data.materials)):o.hide_render=True
  if o.type=='LIGHT' and o.data.type=='POINT':o.data.energy=0
 # Point practicals stay dynamic in Godot; their emissive geometry remains visible.
 def read_glb(path):
@@ -56,7 +56,7 @@ for o in targets:
  if o.name in transparent_targets:
   print('BAKE_SKIPPED_ALPHA',o.name,flush=True)
   continue
- if any(m and m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane'] for m in o.data.materials):continue
+ if any(m and m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane','MAT_stage_backstage'] for m in o.data.materials):continue
  print('BAKE_TARGET',o.name,flush=True)
  # Mutually exclusive line meshes must never shade each other. Bake each line
  # on its own, and leave changing-line shadows out of static table lighting.
