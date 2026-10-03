@@ -53,3 +53,8 @@ Nine textured modules now enclose the original 9 × 8 m court: six solid bays, t
 The wall atlas contributes one material batch and three shared compressed maps. Overlapping window-frame corner faces were corrected in the source kit by using butt joints; the full assembly now passes the sampled lightmap-UV overlap check. Courtyard and farmhouse routes pass through the gate in both directions. Tests also check both windows and gate-side piers for blocking collision.
 
 Portrait arrival keeps its camera inside the courtyard; the previous generic pullback moved it behind the taller front wall. Final lighting, painted signs, references and phone performance remain open.
+
+
+## Shared prop placement — 2026-10-04
+
+The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.

@@ -34,6 +34,7 @@ func run() -> void:
   print(room, " ", report.views[room])
  report.texture_memory_bytes = RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TEXTURE_MEM_USED)
  report.buffer_memory_bytes = RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_BUFFER_MEM_USED)
+ print("DEMO_TEXTURE_MEMORY_BYTES ",report.texture_memory_bytes)
  assert(report.texture_memory_bytes <= 64 * 1024 * 1024, "Demo texture budget exceeded")
  for view in report.views.values():
   assert(view.visible_draw_calls_max <= 150, "Demo draw budget exceeded")

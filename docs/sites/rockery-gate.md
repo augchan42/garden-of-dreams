@@ -74,3 +74,8 @@ The authored rail is stored as `CAM_rail_gate_reveal`, with `CAM_gate_reveal_sli
 The old exit bamboo is replaced by one potted banana with seven curved leaves. Its narrow planter sits inside the east edge of the approach, clear of the tested walking route; the leaves silhouette against the garden. A transparent 512² original water-stain texture is projected onto the uneven inside wall at the second bend. Sources: `scripts/dress_rockery_gate.py` and `scripts/generate_gate_drip.py`. Blender source and desktop/portrait Godot captures were inspected; final lighting/composition acceptance remains open. The complete entry route passes in both directions with the final planter position.
 
 The temporary typeset signboard has been replaced by original brush lettering, 曲徑通幽, mapped onto the plaster above the entrance. The transparent decal has a derived recessed normal map, and every projection vertex lands on the arch. Native Blender and desktop/portrait Godot views were inspected. Provenance and the exact generation prompt are in `textures/decals/gate-inscription-provenance.md`.
+
+
+## Shared prop placement — 2026-10-04
+
+The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.

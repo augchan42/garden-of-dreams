@@ -50,6 +50,5 @@ for path in (ROOT / "export/lightmaps").glob("*.json"):
 
 present = {record["mesh"] for record in records.values()}
 assert present == expected, {"missing": sorted(expected - present), "unexpected": sorted(present - expected)}
-assert len(records) == 28, len(records)
 (OUTPUT / "priority2-index.json").write_text(json.dumps(records, indent=2) + "\n")
 print("PRIORITY2_LIGHTMAPS_PASS", len(records), DIGEST)

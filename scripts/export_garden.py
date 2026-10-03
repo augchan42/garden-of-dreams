@@ -40,7 +40,11 @@ for source in list(s.collection.children):
    bm=bmesh.new();bm.from_mesh(o.data);bmesh.ops.triangulate(bm,faces=list(bm.faces));bm.to_mesh(o.data);bm.free()
   # Secondary UVs allocated for engine bake. Smart projection has no overlaps per mesh.
   if not o.data.uv_layers:o.data.uv_layers.new(name='UVMap')
-  o.data.uv_layers.new(name='LightmapUV');o.data.uv_layers.active_index=len(o.data.uv_layers)-1
+  # glTF exports the first two UV channels. Kit instances already have UV1;
+  # repack that channel after joining rather than creating an unused third.
+  while len(o.data.uv_layers)>2:o.data.uv_layers.remove(o.data.uv_layers[-1])
+  if len(o.data.uv_layers)<2:o.data.uv_layers.new(name='LightmapUV')
+  o.data.uv_layers.active_index=1
   bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.uv.smart_project(angle_limit=math.radians(30) if slug in ["rockery-gate","daguan-lou"] else math.radians(66),island_margin=.015);bpy.ops.object.mode_set(mode='OBJECT')
  # Hero meshes also need a second UV channel for the Cycles lightmap pass.
  for o in dest.objects:

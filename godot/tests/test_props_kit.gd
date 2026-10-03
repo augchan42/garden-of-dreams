@@ -9,7 +9,7 @@ func _initialize() -> void:
 	call_deferred("run")
 func run() -> void:
 	material = load("res://materials/props_atlas.tres")
-	assert(material.albedo_texture.get_width() == 1024)
+	assert(material.albedo_texture.get_width() == 512)
 	assert(material.orm_texture.get_width() == 256)
 	assert(material.emission_texture.get_width() == 256)
 	assert(material.emission_enabled and material.emission_operator == BaseMaterial3D.EMISSION_OP_MULTIPLY)

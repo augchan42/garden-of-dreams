@@ -6,6 +6,7 @@ extends EditorScenePostImport
 func _post_import(scene: Node) -> Object:
  var surfaces = {"MAT_aojing_water": load("res://materials/water.tres"), "MAT_water": load("res://materials/water.tres"), "MAT_fog_plane": load("res://materials/floor_fog.tres")}
  var flora_material = load("res://materials/flora_atlas.tres")
+ var props_material = load("res://materials/props_atlas.tres")
  var nodes: Array[Node] = [scene]
  while not nodes.is_empty():
   var node = nodes.pop_back()
@@ -18,6 +19,11 @@ func _post_import(scene: Node) -> Object:
     if str(node.name).begins_with("HERO_flora_"):
      node.mesh.surface_set_material(i,flora_material)
      node.set_surface_override_material(i,flora_material)
+    if material and material.resource_name.begins_with("MAT_props_atlas"):
+     node.mesh.surface_set_material(i,props_material)
+     node.set_surface_override_material(i,props_material)
+     # Small dressing props need not draw beyond their approach view.
+     node.visibility_range_end=28.0
     if material and material.resource_name in surfaces:
      node.set_surface_override_material(i,surfaces[material.resource_name])
   if node is DirectionalLight3D:

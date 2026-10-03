@@ -99,3 +99,8 @@ The demo now supports a local three-coin cast at the bronze table. All 64 King W
 ## Flora placement — 2026-10-04
 
 Three shared-kit bamboo clumps and two waterside willows now frame the south walk and embankment. The willow trunks have small separate colliders. A visible two-metre opening in the covered walk rail gives the bamboo route its crossing. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
+
+
+## Shared prop placement — 2026-10-04
+
+The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.

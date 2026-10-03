@@ -46,3 +46,8 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ## Flora placement — 2026-10-04
 
 Two atlas-textured plum trees replace the previous separate branches and petal meshes; the existing trunk collision and closed-gate approach are retained. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
+
+
+## Shared prop placement — 2026-10-04
+
+The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.

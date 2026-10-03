@@ -44,3 +44,8 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ### Water-kit integration
 
 Four water-kit lotus clusters replace the old flat pad cylinders around the pavilion. The existing deck, six tea seats, two lanterns and route markers are preserved. The bridge uses the shared architectural atlas. Final foliage/lotus materials, lighting, references, runtime LOD switching and phone acceptance remain open.
+
+
+## Shared prop placement — 2026-10-04
+
+The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.

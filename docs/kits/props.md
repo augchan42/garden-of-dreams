@@ -19,7 +19,7 @@ LOD1 reduces cylinder and bowl subdivisions and removes secondary ornament. It r
 
 One original 2048px atlas layout supplies base color, packed occlusion/roughness/metallic and emission maps. Its colors are cream paper, gray stone, red-brown wood and bronze. Only lantern paper and coals emit light. The scroll reads 清風明月, rendered with Songti TC Bold on procedural paper; it is typeset art, not a sourced historical calligraphy image. The screen's bamboo ink pattern is original procedural drawing. Provenance and regeneration details are in `textures/kits/props/README.md`.
 
-Godot's sixteen models share `materials/props_atlas.tres`. The import hook replaces both mesh surface materials and overrides, discards redundant embedded texture extraction, and disables additional automatic LODs. Compressed mipmapped runtime maps use 1024px for base color and 256px for ORM and emission. The lanterns export light markers and emissive paper, with no point lights; placement must use the existing four-practical light pool.
+Godot's sixteen models share `materials/props_atlas.tres`. The import hook replaces both mesh surface materials and overrides, discards redundant embedded texture extraction, and disables additional automatic LODs. Compressed mipmapped runtime maps use 512px for base color and 256px for ORM and emission. The lanterns export light markers and emissive paper, with no point lights; placement must use the existing four-practical light pool.
 
 Exports are in `export/kits/props`; Godot copies are in `godot/assets/kits/props`. Legacy `KIT_props.glb` and `_LOD1` now contain the hanging lantern.
 
@@ -35,4 +35,25 @@ Copy exports and atlas maps to the Godot prop directory, then import the project
 
 ![Lower detail](../reference/props-kit-lod1.png)
 
-The master garden, current bakes and playable pack are unchanged in this library pass. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
+The master garden now contains 32 fitted props across seven sites, with fresh demo and priority-2 bakes. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.
+
+
+## Placement pass — 2026-10-04
+
+| Site | Fitted kit props |
+|---|---|
+| Qinfang Pavilion | 6 hanging lanterns, 4 stools |
+| Rockery gate | 2 hanging lanterns |
+| Bulletin hall | 2 hanging lanterns |
+| Hilltop hall | 1 hanging lantern, 1 stone table |
+| Water pavilion | 2 hanging lanterns, 6 stools |
+| Study courtyard | 1 hanging lantern, 1 stone table, 4 stools |
+| Nunnery | 1 hanging lantern, 1 incense burner |
+
+The source fits the kit meshes to the existing mount positions, seat heights and table tops. All existing light, trigger and collision transforms are retained; the interactive hexagram table and the water pavilion’s wooden tea table remain in use. The source catalog is `export/prop-placements.json`. The exporter joins the dressing into seven shared-material batches and repacks UV1 after joining. All 158 assembly render meshes pass the sampled UV overlap check.
+
+The seven runtime batches stop drawing beyond 28 metres. Runtime base color is 512px; ORM and emission are 256px. Source art remains 2048px. Desktop and portrait captures were reviewed, including the scroll’s four characters at the reduced runtime resolution. The nunnery inspection camera now shows the burner’s feet above the interface. Standing lanterns, braziers, screens and the generic scroll remain available in the library for later dressing; the study’s painted scroll artwork is retained.
+
+The affected routes and full first-reading flow pass. Three stationary demo views stay within 101–145 draw calls, 123,148–146,432 visible primitives, 63.46 MiB of texture allocation and four practical lights. This is desktop evidence only.
+
+[Nunnery inspection](../reference/props-placed-longcui_an.png) · [Portrait inspection](../reference/props-placed-longcui_an-portrait.png) · [Qinfang view](../reference/props-placed-qinfang_ting.png)

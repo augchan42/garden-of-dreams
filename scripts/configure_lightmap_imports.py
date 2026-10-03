@@ -11,11 +11,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--size-limit', type=int, default=512, choices=[0, 256, 512, 1024])
 parser.add_argument('--uncompressed', action='store_true')
 parser.add_argument('--demo', action='store_true', help='Configure only the first-reading demo maps')
+parser.add_argument('--index', choices=['demo-index.json', 'priority2-index.json'], help='Configure only a current bake catalog')
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 paths = sorted((root / 'godot/lightmaps').glob('*.png.import'))
-if args.demo:
-    records = json.loads((root / 'godot/lightmaps/demo-index.json').read_text())
+if args.demo or args.index:
+    records = json.loads((root / 'godot/lightmaps' / (args.index or 'demo-index.json')).read_text())
     names = {record['texture'] + '.import' for record in records.values()}
     paths = [path for path in paths if path.name in names]
     assert len(paths) == len(records), 'Import every demo map before configuring it'

@@ -87,7 +87,7 @@ func _ready() -> void:
    light.shadow_enabled = false
  elif site_bakes_enabled:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/priority2-index.json"))
-  assert(records is Dictionary and records.size() == 28, "Priority-2 site lightmaps are incomplete")
+  assert(records is Dictionary and records.size() == 30, "Priority-2 site lightmaps are incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
   assert(applied == records.size(), "Priority-2 site lightmaps do not match the scene")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
@@ -271,7 +271,7 @@ func execute_command(text: String) -> void:
   "incense":
    if room_id == "longcui_an":
     output_label.text = "Three incense sticks stand in an open bronze bowl supported by three feet. The single lantern lights its rim."
-    _camera_to(Vector3(-25.3,1.5,10.2),Vector3(-26.6,.85,11.75))
+    _camera_to(Vector3(-25.3,1.5,10.2),Vector3(-26.6,.5,11.75))
    else: output_label.text = "The incense bowl stands beside the nunnery gate."
   "bamboo":
    if room_id == "qinfang_ting": _travel(BAMBOO_PATH,"xiaoxiang_guan")
