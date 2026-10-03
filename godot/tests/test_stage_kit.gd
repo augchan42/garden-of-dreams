@@ -56,8 +56,15 @@ func run() -> void:
    elif variant=="gel_frame":from_point=Vector3(0,.5,1);to_point=Vector3(0,.5,-1)
    var hit=scene.get_world_3d().direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(from_point,to_point))
    assert(hit.is_empty() if variant=="fog_plane" else not hit.is_empty(),variant+" collision ray failed")
+   if variant.begins_with("cyclorama_"):
+    # Check both curved wings against the actual canvas, not only the centre.
+    for x in [-8.0,-6.0,-3.0,3.0,6.0,8.0]:
+     var expected_z=14.0-sqrt(14.0*14.0-x*x)
+     var wing=scene.get_world_3d().direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(Vector3(x,3.5,expected_z+1.0),Vector3(x,3.5,expected_z-1.0)))
+     assert(not wing.is_empty(),variant+" curved-wing collision missing")
+     assert(abs(wing.position.z-expected_z)<.22,variant+" curved-wing collider is off the canvas")
    if variant=="floor_boards":assert(abs(hit.position.y)<.005)
    scene.free()
  assert(surfaces==22 and colliders==54 and lights==0)
- print("STAGE_RUNTIME_PASS: 14 models, 22 shared material surfaces, 54 colliders, matching bounds, no embedded lights")
+ print("STAGE_RUNTIME_PASS: 14 models, 22 shared material surfaces, 54 colliders, matching bounds, curved-wing collision, no embedded lights")
  quit(0)

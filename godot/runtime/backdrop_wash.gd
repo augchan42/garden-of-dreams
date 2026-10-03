@@ -11,7 +11,7 @@ static func configure(garden: Node3D) -> int:
   if not node is MeshInstance3D:
    continue
   var name_string = str(node.name)
-  if name_string.begins_with("SITE_stage_MAT_cyclorama") or name_string.begins_with("SITE_stage_MAT_painted_mountains_") or name_string.begins_with("SITE_stage_MAT_painted_moon"):
+  if (name_string.begins_with("SITE_stage_MAT_cyclorama") or name_string.begins_with("SITE_stage_MAT_stage_cyclorama_")) or name_string.begins_with("SITE_stage_MAT_painted_mountains_") or name_string.begins_with("SITE_stage_MAT_painted_moon"):
    node.layers |= 4
    receivers += 1
  assert(receivers == 5, "Painted backdrop wash must have five receiver meshes")

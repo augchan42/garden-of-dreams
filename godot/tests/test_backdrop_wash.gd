@@ -17,7 +17,7 @@ func run() -> void:
   var node = stack.pop_back()
   stack.append_array(node.get_children())
   if node is MeshInstance3D and node.layers & 4:
-   assert(str(node.name).begins_with("SITE_stage_MAT_cyclorama") or str(node.name).begins_with("SITE_stage_MAT_painted_mountains_") or str(node.name).begins_with("SITE_stage_MAT_painted_moon"))
+   assert((str(node.name).begins_with("SITE_stage_MAT_cyclorama") or str(node.name).begins_with("SITE_stage_MAT_stage_cyclorama_")) or str(node.name).begins_with("SITE_stage_MAT_painted_mountains_") or str(node.name).begins_with("SITE_stage_MAT_painted_moon"))
    receivers += 1
  assert(receivers == 5)
  print("BACKDROP_WASH_PASS: five painted receivers, no building receivers")

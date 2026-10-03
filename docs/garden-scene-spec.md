@@ -24,7 +24,7 @@ is the look, and it is also what makes the asset cheap to build and run.
 
 | Item | Decision |
 | --- | --- |
-| Engine | glTF 2.0 (`.glb`) is the canonical export. Unity is the assumed first consumer; Godot and Unreal import the same file. Confirm before the first export. |
+| Engine | Godot is the selected consumer; the current project uses Godot 4.7.2 Standard. glTF 2.0 (`.glb`) remains the canonical export. |
 | Blender | 4.2 LTS or later. One `.blend` per site plus a master assembly file. |
 | Units | Metric, 1 BU = 1 m. Z up in Blender; the exporter converts to Y up. |
 | Scale | Human 1.75 m. Door heads 2.1 m. Pavilion eaves 3.0 to 3.4 m. Corridor width 1.8 m. |
@@ -47,6 +47,8 @@ is the look, and it is also what makes the asset cheap to build and run.
 Every asset decision should trace back to one of these layers.
 
 ### 4.2 Palette
+
+User revision: reduce the green cast. The current Godot display pass uses the original LUT at 20% strength and neutralizes half of the remaining green excess. Broad green keys are softened; amber practicals and local CRT colors remain. Slate painted skies, warm timber and cream stone add color variation. The palette below records the original direction.
 
 Taken from `8bitoracle-next/src/constants/imageStyles/index.ts` (`colorPalettes['tech-noir']`).
 
@@ -260,8 +262,7 @@ room id the game's content database uses. Slugs are pinyin without tones:
 
 ## 13. Open questions
 
-- Which engine. The spec assumes Unity; the export is engine-neutral, but the fog, LUT and
-  water passes are set up once and differ by engine.
+- Engine resolved: Godot, with project-specific fog, LUT and water passes.
 - Whether the garden is a single loaded scene or streamed per site. At the section 7
   budgets a single scene fits; streaming becomes necessary only if priority 3 and 4 sites
   get interiors.

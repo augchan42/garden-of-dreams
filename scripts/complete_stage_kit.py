@@ -30,7 +30,7 @@ def build(variant,low):
  if variant.startswith('cyclorama_'):
   n=16 if low else 40;rows=4
   def point(u,v,back=False):
-   a=(u-.5)*1.44;return (14*math.sin(a),14*(1-math.cos(a))+(.08 if back else 0),v*7.5)
+   a=(u-.5)*1.44;return (14*math.sin(a),14*(math.cos(a)-1)+(.08 if back else 0),v*7.5)
   for row in range(rows):
    for j in range(n):
     uv=[(j/n,row/rows),((j+1)/n,row/rows),((j+1)/n,(row+1)/rows),(j/n,(row+1)/rows)]

@@ -56,7 +56,7 @@ for o in targets:
  if o.name in transparent_targets:
   print('BAKE_SKIPPED_ALPHA',o.name,flush=True)
   continue
- if any(m and m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane','MAT_stage_backstage'] for m in o.data.materials):continue
+ if any(m and (m.name in ['MAT_water','MAT_aojing_water','MAT_fog_plane','MAT_stage_backstage'] or m.name.startswith('MAT_stage_cyclorama_')) for m in o.data.materials):continue
  print('BAKE_TARGET',o.name,flush=True)
  # Mutually exclusive line meshes must never shade each other. Bake each line
  # on its own, and leave changing-line shadows out of static table lighting.

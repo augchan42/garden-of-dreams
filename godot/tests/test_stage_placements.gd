@@ -10,7 +10,7 @@ func run() -> void:
  while not nodes.is_empty():
   var node=nodes.pop_back();nodes.append_array(node.get_children())
   if node is CollisionShape3D and str(node.get_parent().name).begins_with("COL_stage_placed_"):colliders+=1
-  if node is MeshInstance3D and str(node.name).contains("MAT_stage_") and not str(node.name).contains("MAT_stage_canvas"):
+  if node is MeshInstance3D and str(node.name).contains("MAT_stage_") and not str(node.name).contains("MAT_stage_canvas") and not str(node.name).contains("MAT_stage_cyclorama_"):
    stage_batches+=1
    for i in range(node.mesh.get_surface_count()):
     var material=node.get_active_material(i)
