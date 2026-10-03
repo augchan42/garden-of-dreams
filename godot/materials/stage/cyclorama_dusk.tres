@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://materials/stage/cyclorama-dusk.png" id="1"]
+[resource]
+resource_name = "Painted dusk cyclorama"
+shading_mode = 0
+albedo_color = Color(0.6,0.6,0.6,1)
+albedo_texture = ExtResource("1")

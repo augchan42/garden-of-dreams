@@ -1,0 +1,210 @@
+{
+  "units": "metres",
+  "atlas_size": 2048,
+  "cyclorama_size": 4096,
+  "variants": {
+    "cyclorama_moonlit": {
+      "triangles_lod0": 564,
+      "triangles_lod1": 228,
+      "ratio": 0.40425531914893614,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "left": [
+          -9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "right": [
+          9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "wash": [
+          0,
+          -2,
+          3.75
+        ]
+      },
+      "colliders": 8,
+      "surfaces": 2
+    },
+    "cyclorama_dusk": {
+      "triangles_lod0": 564,
+      "triangles_lod1": 228,
+      "ratio": 0.40425531914893614,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "left": [
+          -9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "right": [
+          9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "wash": [
+          0,
+          -2,
+          3.75
+        ]
+      },
+      "colliders": 8,
+      "surfaces": 2
+    },
+    "cyclorama_mist": {
+      "triangles_lod0": 564,
+      "triangles_lod1": 228,
+      "ratio": 0.40425531914893614,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "left": [
+          -9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "right": [
+          9.231385407600623,
+          3.4747197920274693,
+          0.0
+        ],
+        "wash": [
+          0,
+          -2,
+          3.75
+        ]
+      },
+      "colliders": 8,
+      "surfaces": 2
+    },
+    "studio_wall": {
+      "triangles_lod0": 384,
+      "triangles_lod1": 156,
+      "ratio": 0.40625,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "left": [
+          -1.5,
+          0,
+          0
+        ],
+        "right": [
+          1.5,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          0,
+          3
+        ]
+      },
+      "colliders": 1,
+      "surfaces": 1
+    },
+    "floor_boards": {
+      "triangles_lod0": 1140,
+      "triangles_lod1": 504,
+      "ratio": 0.4421052631578947,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "left": [
+          -1.5,
+          0,
+          0
+        ],
+        "right": [
+          1.5,
+          0,
+          0
+        ],
+        "front": [
+          0,
+          -1.5,
+          0
+        ],
+        "back": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "colliders": 1,
+      "surfaces": 1
+    },
+    "fog_plane": {
+      "triangles_lod0": 200,
+      "triangles_lod1": 72,
+      "ratio": 0.36,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "layer": [
+          0,
+          0,
+          0.3
+        ]
+      },
+      "colliders": 0,
+      "surfaces": 1
+    },
+    "gel_frame": {
+      "triangles_lod0": 680,
+      "triangles_lod1": 288,
+      "ratio": 0.4235294117647059,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "hang": [
+          0,
+          0,
+          1.16
+        ],
+        "light": [
+          0,
+          -0.05,
+          0.5
+        ],
+        "left": [
+          -0.5,
+          0,
+          0.5
+        ],
+        "right": [
+          0.5,
+          0,
+          0.5
+        ]
+      },
+      "colliders": 1,
+      "surfaces": 2
+    }
+  }
+}
