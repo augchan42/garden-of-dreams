@@ -21,7 +21,7 @@ def inspect(doc):
    assert 'baseColorTexture' in mat['pbrMetallicRoughness'] and 'metallicRoughnessTexture' in mat['pbrMetallicRoughness'] and 'emissiveTexture' in mat
    assert not mat.get('doubleSided',False)
  return tris,colliders,ports
-manifest=json.loads((folder/'manifest.json').read_text());assert set(manifest['variants'])=={'lantern_hanging','lantern_standing','brazier','stone_table','stone_stool','incense_burner','scroll','screen'}
+manifest=json.loads((folder/'manifest.json').read_text());assert set(manifest['variants'])=={'lantern_hanging','lantern_standing','brazier','stone_table','stone_stool','incense_burner','scroll','screen','folding_chair'}
 report={}
 for name,item in manifest['variants'].items():
  a,ca,pa=inspect(read(folder/f'KIT_props_{name}.glb'));b,cb,pb=inspect(read(folder/f'KIT_props_{name}_LOD1.glb'))

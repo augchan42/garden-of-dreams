@@ -6,7 +6,7 @@ func _initialize() -> void:
 	call_deferred("run")
 func run() -> void:
 	root.content_scale_size = Vector2i.ZERO
-	root.size = Vector2i(1600,1000)
+	root.size = Vector2i(1000,1000)
 	stage = Node3D.new()
 	root.add_child(stage)
 	var environment := WorldEnvironment.new()
@@ -31,26 +31,16 @@ func run() -> void:
 	camera.size = 20
 	camera.current = true
 	for lod in [false,true]:
-		var models := Node3D.new()
-		stage.add_child(models)
-		for index in range(VARIANTS.size()):
-			var suffix := "_LOD1" if lod else ""
-			var model := (load("res://assets/kits/props/KIT_props_%s%s.glb" % [VARIANTS[index],suffix]) as PackedScene).instantiate() as Node3D
-			models.add_child(model)
-			model.position = Vector3((index % 4)*3, (1-index/4)*4, 0)
-			var label := Label3D.new()
-			label.text = VARIANTS[index].replace("_", " ")
-			label.position = model.position + Vector3(0,-.28,.3)
-			label.font_size = 32
-			label.pixel_size = .006
-			label.outline_size = 0
-			label.modulate = Color("35322f")
-			label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
-			models.add_child(label)
+		var suffix := "_LOD1" if lod else ""
+		var model := (load("res://assets/kits/props/KIT_props_folding_chair%s.glb" % suffix) as PackedScene).instantiate() as Node3D
+		stage.add_child(model)
+		camera.position = Vector3(.95,.8,1.4)
+		camera.look_at(Vector3(0,.45,0))
+		camera.size = 1.25
 		await create_timer(1).timeout
 		await RenderingServer.frame_post_draw
-		assert(root.get_texture().get_image().save_png("res://../docs/reference/props-kit%s.png" % ("-lod1" if lod else ""))==OK)
-		models.queue_free()
+		assert(root.get_texture().get_image().save_png("res://../docs/reference/folding-chair%s.png" % ("-lod1" if lod else ""))==OK)
+		model.queue_free()
 		await process_frame
-	print("PROPS_RENDER_PASS")
+	print("CHAIR_RENDER_PASS")
 	quit()

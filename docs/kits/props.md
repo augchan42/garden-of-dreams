@@ -1,6 +1,6 @@
 # Prop kit
 
-The reusable library contains all eight specified prop variants, each with an independent lower-detail mesh. The garden placement pass remains open.
+The reusable library contains all eight inventory variants plus the terminal site’s folding wood chair, each with an independent lower-detail mesh. Thirty-two props are placed in the garden; chair placement is next.
 
 | Variant | LOD0 triangles | LOD1 triangles | Ratio | Colliders |
 | --- | ---: | ---: | ---: | ---: |
@@ -12,14 +12,15 @@ The reusable library contains all eight specified prop variants, each with an in
 | Incense burner | 712 | 280 | 39% | 1 |
 | Scroll | 524 | 204 | 39% | 0 |
 | Folding screen | 576 | 252 | 44% | 3 |
+| Folding chair | 968 | 356 | 37% | 2 |
 
-Open `blender/kits/KIT_props.blend` for the editable showroom and sixteen module scenes. Modules use metres and local ground origins. `PORT_` anchors provide lantern hang/light positions, the table top, stool seat, scroll wall/hang positions and screen hinge. The hanging lantern and wall scroll have no walking collision. Other props use separate boxes for the base, body or screen panels; those transforms match across detail levels.
+Open `blender/kits/KIT_props.blend` for the editable showroom and eighteen module scenes. Modules use metres and local ground origins. `PORT_` anchors provide lantern hang/light positions, the table top, stool seat, scroll wall/hang positions screen hinge and chair seat/back/hinge positions. The hanging lantern and wall scroll have no walking collision. Other props use separate boxes for the base, body or screen panels; those transforms match across detail levels.
 
 LOD1 reduces cylinder and bowl subdivisions and removes secondary ornament. It retains lantern tassels, the table top, stool seat, burner bowl and sticks, scroll rollers and all screen panels. No generic decimator is used. Both general packaging and fallback LOD generation preserve completed kit manifests.
 
 One original 2048px atlas layout supplies base color, packed occlusion/roughness/metallic and emission maps. Its colors are cream paper, gray stone, red-brown wood and bronze. Only lantern paper and coals emit light. The scroll reads 清風明月, rendered with Songti TC Bold on procedural paper; it is typeset art, not a sourced historical calligraphy image. The screen's bamboo ink pattern is original procedural drawing. Provenance and regeneration details are in `textures/kits/props/README.md`.
 
-Godot's sixteen models share `materials/props_atlas.tres`. The import hook replaces both mesh surface materials and overrides, discards redundant embedded texture extraction, and disables additional automatic LODs. Compressed mipmapped runtime maps use 512px for base color and 256px for ORM and emission. The lanterns export light markers and emissive paper, with no point lights; placement must use the existing four-practical light pool.
+Godot's eighteen models share `materials/props_atlas.tres`. The import hook replaces both mesh surface materials and overrides, discards redundant embedded texture extraction, and disables additional automatic LODs. Compressed mipmapped runtime maps use 512px for base color and 256px for ORM and emission. The lanterns export light markers and emissive paper, with no point lights; placement must use the existing four-practical light pool.
 
 Exports are in `export/kits/props`; Godot copies are in `godot/assets/kits/props`. Legacy `KIT_props.glb` and `_LOD1` now contain the hanging lantern.
 
@@ -29,7 +30,7 @@ python3 scripts/make_props_atlas.py
 python3 scripts/verify_props_kit.py
 ```
 
-Copy exports and atlas maps to the Godot prop directory, then import the project. The tracked `.import` settings apply the shared material and runtime sizes. `tests/test_props_kit.gd` checks sixteen models, two UV channels, shared texture/material identity, eighteen colliders and the absence of embedded lights. The export verifier checks actual triangle counts, PBR maps, anchor positions and collision parity. Blender MCP also read the saved library catalog and confirmed sixteen module collections plus the showroom without changing the user's open scene.
+Copy exports and atlas maps to the Godot prop directory, then import the project. The tracked `.import` settings apply the shared material and runtime sizes. `tests/test_props_kit.gd` checks eighteen models, two UV channels, shared texture/material identity, twenty-two colliders and the absence of embedded lights. The export verifier checks actual triangle counts, PBR maps, anchor positions and collision parity. Blender MCP also read the saved library catalog and confirmed eighteen module collections plus the showroom without changing the user's open scene.
 
 ![Full detail](../reference/props-kit.png)
 
@@ -57,3 +58,12 @@ The seven runtime batches stop drawing beyond 28 metres. Runtime base color is 5
 The affected routes and full first-reading flow pass. Three stationary demo views stay within 101–145 draw calls, 123,148–146,432 visible primitives, 63.46 MiB of texture allocation and four practical lights. This is desktop evidence only.
 
 [Nunnery inspection](../reference/props-placed-longcui_an.png) · [Portrait inspection](../reference/props-placed-longcui_an-portrait.png) · [Qinfang view](../reference/props-placed-qinfang_ting.png)
+
+
+## Folding chair — 2026-10-04
+
+The additional terminal-cell prop is an open wooden folding chair with crossed legs, brass pivots, six seat slats and four back slats. Its seat anchor is 0.46 m above the ground. LOD1 uses fewer radial segments, three seat slats and two back slats while retaining the crossed frame, pivots, seat height and raked back. The two simplified collision boxes and all four anchors match exactly between detail levels. Godot ray tests hit the seat at 0.46 m and the back at both levels; bounds remain within 25 mm. UV1 overlap checks pass for both exports. The chair reuses the existing wood/bronze atlas and adds no textures or practical lights.
+
+[Chair close view](../reference/folding-chair.png) · [Lower-detail view](../reference/folding-chair-lod1.png)
+
+Both close views and the refreshed nine-variant overviews were inspected. The remaining sixteen prop exports are byte-identical to the previous library. The chair is not placed in the main garden yet; the assembly hash, lightmaps and playable pack are unchanged in this library pass. Fitting six chairs to the cell layout and preserving the seat triggers, floor support and clear route remain required.

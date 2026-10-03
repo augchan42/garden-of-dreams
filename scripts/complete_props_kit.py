@@ -106,6 +106,25 @@ def build(variant,quality):
    for j in range(8):
     a=j*math.tau/8;g.box((.195*math.cos(a),.195*math.sin(a),.23),(.04,.04,.16),'stone',a)
   collisions=[((0,0,.23),(.54,.54,.46),0)];ports['seat']=(0,0,.46)
+ elif variant=='folding_chair':
+  # Open wooden folding chair: crossed side legs, slatted seat and raked back.
+  for x in [-.235,.235]:
+   g.stem((x,-.255,.025),(x,.245,.88),.025,'wood',16)
+   g.stem((x,.255,.025),(x,-.205,.46),.025,'wood',16)
+   g.stem((x-.012,0,.255),(x+.012,0,.255),.041,'bronze',24)
+   g.stem((x,-.21,.435),(x,.21,.435),.024,'wood',12)
+  for y in [-.255,.255]:g.stem((-.235,y,.065),(.235,y,.065),.018,'wood',12)
+  count=6 if quality==1 else 3
+  for j in range(count):
+   y=-.18+j*.36/(count-1)
+   g.box((0,y,.4425),(.45,.36/count-.006,.035),'wood')
+  for z,y in [(.63,.095),(.87,.24)]:g.stem((-.255,y,z),(.255,y,z),.025,'wood',16)
+  count=4 if quality==1 else 2
+  for j in range(count):
+   x=-.15+j*.3/(count-1)
+   g.stem((x,.105,.64),(x,.235,.855),.018,'wood',12)
+  collisions=[((0,0,.23),(.53,.56,.46),0),((0,.17,.69),(.53,.22,.46),0)]
+  ports['seat']=(0,0,.46);ports['back']=(0,.24,.88);ports['hinge']=(0,0,.255)
  elif variant=='scroll':
   g.box((0,0,.78),(.62,.025,1.4),'linen',front='calligraphy')
   for z in [.05,1.51]:g.stem((-.37,0,z),(.37,0,z),.032,'wood',32)
@@ -128,10 +147,10 @@ def build(variant,quality):
  return g,ports,collisions
 
 out=R/'export/kits/props';out.mkdir(parents=True,exist_ok=True);manifest={'units':'metres','atlas_size':2048,'variants':{}}
-variants=['lantern_hanging','lantern_standing','brazier','stone_table','stone_stool','incense_burner','scroll','screen'];collections=[]
+variants=['lantern_hanging','lantern_standing','brazier','stone_table','stone_stool','incense_burner','scroll','screen','folding_chair'];collections=[]
 for variant in variants:
  counts=[]
- lod_quality={'lantern_hanging':.5,'lantern_standing':.5,'stone_table':.48,'stone_stool':.5,'brazier':.47}.get(variant,.4)
+ lod_quality={'lantern_hanging':.5,'lantern_standing':.5,'stone_table':.48,'stone_stool':.5,'brazier':.47,'folding_chair':.45}.get(variant,.4)
  for suffix,quality in [('',1),('_LOD1',lod_quality)]:
   s=bpy.data.scenes.new('Props '+variant+suffix);s.unit_settings.system='METRIC';bpy.context.window.scene=s
   col=bpy.data.collections.new('KIT_props_'+variant+suffix);s.collection.children.link(col);collections.append(col)

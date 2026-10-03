@@ -64,3 +64,8 @@ occupies needs the CRT light on.
 ## Shared tech placement — 2026-10-04
 
 Six green CRTs, timber desks, open steel frames and cable drops now use the shared tech library. Frames retain the existing 1.12 m clear width and 2.1 m clear height; rays confirm passage through all six openings and collision at their posts. Existing window/seat/door actions and lights remain in place. Desktop and portrait cell views were inspected. The folding wood chairs and unlit wall scrolls still need the site-sheet pass. Source-matched bakes and route checks pass. Details: `../kits/tech.md`.
+
+
+## Folding chair library — 2026-10-04
+
+The required folding wood chair is now available in `KIT_props` at two detail levels (968/356 triangles), with a 0.46 m seat anchor, crossed frame, brass pivots and matching seat/back collision. Export, UV and Godot collision checks pass. Six-cell placement and seat-trigger/route review remain open; the main assembly still contains the previous chair meshes. See `../kits/props.md`.
