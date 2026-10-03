@@ -4,6 +4,8 @@
 
 **Play:** Read the green terminal, choose **Enter the garden**, then **Follow the lanterns**. At Qinfang Pavilion, choose **Examine the table** and **Cast at the table**. Close the result card, choose **Finish the demo**, then **Begin again** to replay. Buttons work with a mouse or keyboard focus and Enter. The command field is optional. A typical first visit takes about four minutes at a reading pace; the scripted capture is shorter.
 
+**Color:** The green grade is set to 70% strength. Change `shader_parameter/grade_strength` in `godot/runtime/color_grade.tscn` to adjust it further (0 is ungraded; 1 is the original grade).
+
 **What is included:** The three-coin cast produces six 6/7/8/9 outcomes locally. The six bronze lines show the primary hexagram; the card identifies moving lines and any transformed hexagram. It does not provide AI interpretation or private history. The wider 14-location garden is available in the repository scene `godot/runtime/entry_route.tscn`, outside this focused pack.
 
 **Validation:** A clean Godot import, cold desktop launch of the exported pack, and uninterrupted mouse/keyboard cell-to-replay tests from both project and pack passed on an Apple M2 Max. At 1410 × 600, three stationary views measured 83–121 visible draw calls, 123,744–161,486 visible primitives, and 63,957,192 bytes of texture allocation. Forced-draw intervals had medians of 2.5–6.0 ms and p95 of 6.4–8.0 ms. The capture and 390 × 844 screenshots were inspected. This is macOS desktop evidence; a mid-range phone GPU and other desktop hardware have not been tested.

@@ -24,6 +24,7 @@ func run() -> void:
  source.texture=ImageTexture.create_from_image(image)
  layer.add_child(source)
  var grade=load("res://runtime/color_grade.tscn").instantiate()
+ grade.get_node("ColorRect").material.set_shader_parameter("grade_strength",1.0)
  root.add_child(grade)
  assert(grade.get_node("ColorRect").mouse_filter==Control.MOUSE_FILTER_IGNORE)
  var ui=CanvasLayer.new()
