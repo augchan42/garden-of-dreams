@@ -4,10 +4,14 @@ This detects overlaps at 512-square texel resolution; subtexel overlaps and gutt
 quality still require visual review. Shared triangle edges are excluded.
 """
 from pathlib import Path
-import struct,json
+import struct,json,argparse
 import numpy as np
 root=Path(__file__).resolve().parents[1]
-data=(root/'export/garden-of-dreams.glb').read_bytes();length=struct.unpack_from('<I',data,12)[0]
+parser=argparse.ArgumentParser()
+parser.add_argument('--source',default='export/garden-of-dreams.glb')
+parser.add_argument('--output',default='export/uv2-validation.json')
+options=parser.parse_args()
+data=(root/options.source).read_bytes();length=struct.unpack_from('<I',data,12)[0]
 doc=json.loads(data[20:20+length]);binary=data[28+length:]
 types={5126:np.dtype('<f4'),5125:np.dtype('<u4'),5123:np.dtype('<u2'),5121:np.dtype('u1')}
 def accessor(index):
@@ -31,7 +35,7 @@ for node in doc['nodes']:
    inside=(u>1e-6)&(v>1e-6)&(u+v<1-1e-6)
    counts[lo[1]:hi[1],lo[0]:hi[0]]+=inside.astype(np.uint16)
  report[node['name']]={'triangles':triangles,'degenerate_uv_triangles':degenerate,'covered_texels':int((counts>0).sum()),'overlapping_texels':int((counts>1).sum())}
-(root/'export/uv2-validation.json').write_text(json.dumps({'resolution':resolution,'scope':'Interior overlap at sampled texel centres; not a gutter or subtexel proof.','meshes':report},indent=2)+'\n')
+(root/options.output).write_text(json.dumps({'resolution':resolution,'scope':'Interior overlap at sampled texel centres; not a gutter or subtexel proof.','meshes':report},indent=2)+'\n')
 failures={name:r for name,r in report.items() if r['overlapping_texels']>0}
 print('UV2_MESHES',len(report),'OVERLAPPING',failures)
 assert not failures
