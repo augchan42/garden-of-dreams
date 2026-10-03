@@ -36,6 +36,6 @@ These are collection requirements, not claims that reference stills have been co
 
 ## Current build and acceptance
 
-The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. Scroll marks are temporary graphic layout. Live bulletin content, final signage/materials and reference collection remain unfinished.
+The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A warm frontal key makes the centre sign and screen bank readable; two existing lanterns now cast amber light at the ends. Desktop and portrait arrival views were inspected after the Godot import, and the four-practical light limit still passes. Scroll marks are temporary graphic layout. Live bulletin content, final signage/materials, site lightmap and reference collection remain unfinished.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.

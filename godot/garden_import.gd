@@ -22,7 +22,7 @@ func _post_import(scene: Node) -> Object:
   elif node is SpotLight3D:
    # The broad imperial facade needs a stronger preview key at this distance.
    var imperial = str(node.name).contains("daguan")
-   node.light_energy = 20.0 if imperial else 1.8
+   node.light_energy = 20.0 if imperial else (3.0 if str(node.name).contains("qiushuang") else 1.8)
    if imperial: node.shadow_bias = 0.5
    node.spot_range = 14.0
    node.shadow_enabled = true

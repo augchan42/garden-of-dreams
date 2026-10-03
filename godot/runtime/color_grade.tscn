@@ -4,7 +4,7 @@
 [sub_resource type="ShaderMaterial" id="GradeMaterial"]
 shader = ExtResource("1")
 shader_parameter/grade_atlas = ExtResource("2")
-shader_parameter/grade_strength = 0.7
+shader_parameter/grade_strength = 0.4
 [node name="ColorGrade" type="CanvasLayer"]
 layer = 1
 [node name="ColorRect" type="ColorRect" parent="."]
