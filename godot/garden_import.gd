@@ -5,6 +5,7 @@ extends EditorScenePostImport
 # Compatibility lighting, so use calibrated preview energies on every import.
 func _post_import(scene: Node) -> Object:
  var surfaces = {"MAT_aojing_water": load("res://materials/water.tres"), "MAT_water": load("res://materials/water.tres"), "MAT_fog_plane": load("res://materials/floor_fog.tres")}
+ var flora_material = load("res://materials/flora_atlas.tres")
  var nodes: Array[Node] = [scene]
  while not nodes.is_empty():
   var node = nodes.pop_back()
@@ -14,6 +15,9 @@ func _post_import(scene: Node) -> Object:
     node.visible=not str(node.name).contains("_broken")
    for i in range(node.mesh.get_surface_count()):
     var material = node.mesh.surface_get_material(i)
+    if str(node.name).begins_with("HERO_flora_"):
+     node.mesh.surface_set_material(i,flora_material)
+     node.set_surface_override_material(i,flora_material)
     if material and material.resource_name in surfaces:
      node.set_surface_override_material(i,surfaces[material.resource_name])
   if node is DirectionalLight3D:

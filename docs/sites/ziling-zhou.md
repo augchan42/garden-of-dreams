@@ -44,3 +44,8 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ### Water-kit integration
 
 The six-metre water-kit wooden bridge replaces the old footbridge, overlapping both the pavilion and island landings. Its deck and two rail colliders remain separate. Two six-leaf lotus clusters replace the old pad cylinders beside the island; reeds, rocks, landing and markers are preserved. The bridge uses the shared architectural atlas. Final foliage/lotus materials, lighting, references, runtime LOD switching and phone acceptance remain open.
+
+
+## Flora placement — 2026-10-04
+
+Ten atlas-textured reed clumps replace the previous individual reeds around the landing, preserving the clear footbridge approach. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.

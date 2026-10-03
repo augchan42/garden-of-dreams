@@ -70,6 +70,10 @@ func _ready() -> void:
  var environment = load("res://garden_preview.tscn").instantiate()
  add_child(environment)
  preload("res://runtime/backdrop_wash.gd").configure(environment)
+ var flora = preload("res://runtime/flora_lod.gd").new()
+ flora.name = "FloraLOD"
+ add_child(flora)
+ flora.configure(environment)
  if demo_mode:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
   assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")

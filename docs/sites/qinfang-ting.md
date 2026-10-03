@@ -94,3 +94,8 @@ The entrance reveal now slides out through the south corridor’s open side and 
 The table now exports all six solid/broken pairs. Its Godot controller supports all 64 patterns, with lines ordered bottom to top (0 broken, 1 solid). “Examine the table” opens a close view; “Look” restores the pavilion view. Desktop and portrait views were inspected. This remains a local display until the live reading feed is connected.
 
 The demo now supports a local three-coin cast at the bronze table. All 64 King Wen patterns use the sister app’s bottom-to-top mapping. The result card shows the Chinese name, English meaning, upper/lower trigram, moving lines and transformed hexagram when applicable; closing it leaves the cast pattern on the table. This is a local reading and has no generated interpretation, account history or live divination feed. Desktop and portrait card/table views were inspected.
+
+
+## Flora placement — 2026-10-04
+
+Three shared-kit bamboo clumps and two waterside willows now frame the south walk and embankment. The willow trunks have small separate colliders. A visible two-metre opening in the covered walk rail gives the bamboo route its crossing. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.

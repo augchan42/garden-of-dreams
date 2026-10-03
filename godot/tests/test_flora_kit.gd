@@ -8,7 +8,7 @@ func _initialize() -> void:
 	material = load("res://materials/flora_atlas.tres")
 	assert(material.transparency == BaseMaterial3D.TRANSPARENCY_ALPHA_SCISSOR)
 	assert(material.cull_mode == BaseMaterial3D.CULL_DISABLED)
-	assert(material.albedo_texture.get_width() == 2048)
+	assert(material.albedo_texture.get_width() == 512)
 	for variant in VARIANTS:
 		for suffix in ["", "_LOD1"]:
 			var plant := (load("res://assets/kits/flora/KIT_flora_%s%s.glb" % [variant, suffix]) as PackedScene).instantiate()
@@ -18,7 +18,7 @@ func _initialize() -> void:
 			plant.free()
 	assert(render_count == 16)
 	assert(colliders == 6)
-	print("FLORA_RUNTIME_PASS: 16 models, one shared 2048px alpha-scissor atlas, six colliders")
+	print("FLORA_RUNTIME_PASS: 16 models, one shared 512px runtime alpha-scissor atlas, six colliders")
 	quit()
 
 func check(node: Node) -> void:

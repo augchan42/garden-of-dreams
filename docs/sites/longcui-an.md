@@ -41,3 +41,8 @@ The generic hall has been replaced by a six-metre capped whitewash frontage with
 The water pavilion’s “Visit the nunnery” action follows a new stone approach around its eastern railing end. `test_nunnery_route.gd` passes both directions, floor support, closed-gate collision and rejection of entry. `render_nunnery.gd` produces desktop and portrait arrival/gate/incense views. Sourced references, painted signage, blossom/material refinement and final lighting remain unfinished.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
+
+
+## Flora placement — 2026-10-04
+
+Two atlas-textured plum trees replace the previous separate branches and petal meshes; the existing trunk collision and closed-gate approach are retained. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
