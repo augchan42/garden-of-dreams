@@ -35,4 +35,4 @@ Copy exports and atlas maps to the Godot prop directory, then import the project
 
 ![Lower detail](../reference/props-kit-lod1.png)
 
-The master garden, current bakes and playable pack are unchanged in this library pass. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter currently expects StandardMaterial3D; integration must support the shared ORM material and preserve its packed roughness/metallic values. Final scene lighting, additional dressing and phone acceptance remain open.
+The master garden, current bakes and playable pack are unchanged in this library pass. Placement must preserve trigger/table behavior, route clearance, practical-light limits and the demo draw/texture budgets. The baked-material adapter now supports the shared ORM material, retaining packed roughness/metallic maps and emission operators. Occlusion is already present in the Cycles bake and is not multiplied twice. Final scene lighting, additional dressing and phone acceptance remain open.

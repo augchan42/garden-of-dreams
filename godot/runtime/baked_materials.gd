@@ -30,7 +30,7 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
   assert(texture!=null,"Missing baked lightmap")
   for i in range(node.mesh.get_surface_count()):
    var source=node.get_active_material(i)
-   assert(source is StandardMaterial3D,"Unsupported baked source material")
+   assert(source is StandardMaterial3D or source is ORMMaterial3D,"Unsupported baked source material")
    var material=ShaderMaterial.new()
    material.shader=load("res://shaders/baked_diffuse.gdshader")
    material.set_shader_parameter("lightmap",texture)
@@ -40,6 +40,10 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
    material.set_shader_parameter("material_metallic",source.metallic)
    material.set_shader_parameter("material_emission",source.emission if source.emission_enabled else Color.BLACK)
    material.set_shader_parameter("emission_energy",source.emission_energy_multiplier)
+   material.set_shader_parameter("emission_add",source.emission_operator==BaseMaterial3D.EMISSION_OP_ADD)
+   if source is ORMMaterial3D and source.orm_texture:
+    material.set_shader_parameter("orm_texture",source.orm_texture)
+    material.set_shader_parameter("use_orm_texture",true)
    if source.albedo_texture:
     material.set_shader_parameter("albedo_texture",source.albedo_texture)
     material.set_shader_parameter("use_albedo_texture",true)
@@ -47,6 +51,7 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
     material.set_shader_parameter("emission_texture",source.emission_texture)
     material.set_shader_parameter("use_emission_texture",true)
    node.set_surface_override_material(i,material)
+  node.material_override=null
   node.layers=2
   count+=1
  return count

@@ -1,7 +1,7 @@
 extends SceneTree
 func _initialize() -> void:
  var scene=load("res://garden_preview.tscn").instantiate()
- var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/index.json"))
+ var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
  var digest=FileAccess.get_sha256("res://assets/garden-of-dreams.glb")
  for name in records:
   if records[name].source_glb_sha256!=digest:

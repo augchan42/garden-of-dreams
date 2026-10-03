@@ -11,13 +11,26 @@ uniform sampler2D albedo_texture : source_color, filter_linear_mipmap;
 uniform bool use_albedo_texture = false;
 uniform sampler2D emission_texture : source_color, filter_linear_mipmap;
 uniform bool use_emission_texture = false;
+uniform bool emission_add = false;
+uniform sampler2D orm_texture : filter_linear_mipmap;
+uniform bool use_orm_texture = false;
 void fragment() {
  vec3 base=base_color.rgb;
  if(use_albedo_texture)base*=texture(albedo_texture,UV).rgb;
  vec3 emitted=material_emission.rgb*emission_energy;
- if(use_emission_texture)emitted*=texture(emission_texture,UV).rgb;
+ if(use_emission_texture){
+  vec3 emission_sample=texture(emission_texture,UV).rgb;
+  if(emission_add)emitted+=emission_sample*emission_energy;
+  else emitted*=emission_sample;
+ }
  ALBEDO = base;
  ROUGHNESS = material_roughness;
  METALLIC = material_metallic;
+ // Occlusion is already included in the Cycles bake; do not apply it twice.
+ if(use_orm_texture){
+  vec3 orm=texture(orm_texture,UV).rgb;
+  ROUGHNESS *= orm.g;
+  METALLIC *= orm.b;
+ }
  EMISSION = base * texture(lightmap,UV2).rgb * lightmap_scale + emitted;
 }
