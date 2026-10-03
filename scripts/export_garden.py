@@ -17,6 +17,8 @@ export_scene.render.resolution_x=s.render.resolution_x;export_scene.render.resol
 for source in list(s.collection.children):
  slug=source.name.removeprefix('SITE_');dest=bpy.data.collections.new('EXPORT_'+slug);export_scene.collection.children.link(dest)
  for obj in source.objects:
+  # glTF punctual lights exclude Area lights; Godot rebuilds the linked backdrop wash.
+  if obj.type=='LIGHT' and obj.data.type=='AREA':continue
   if obj.name.startswith('CAM_rail_'):continue
   o=obj.copy()
   if obj.type in ['MESH','FONT']:o.data=obj.data.copy()

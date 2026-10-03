@@ -69,6 +69,7 @@ func _ready() -> void:
  get_tree().root.content_scale_size = Vector2i.ZERO
  var environment = load("res://garden_preview.tscn").instantiate()
  add_child(environment)
+ preload("res://runtime/backdrop_wash.gd").configure(environment)
  if demo_mode:
   var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
   assert(records is Dictionary and records.size() == 32, "Demo lightmap catalog is incomplete")

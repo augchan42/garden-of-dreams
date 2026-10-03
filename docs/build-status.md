@@ -395,3 +395,9 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 ### Further green reduction — 2026-10-03
 
 - Added a 50% green-excess neutralization after the existing 20% color grade in the shared Godot renderer. It affects baked and dynamic scenes and keeps amber lantern and window highlights. Refreshed desktop and portrait demo, study and hilltop reference views; the hilltop painted mountains and plaster are less green. The 43-second capture and local pack were refreshed after this grade; a cold pack test passes. This remains a visual pass, not final site material acceptance.
+
+### Light-linked painted backdrop — 2026-10-03
+
+- Added one broad Area light to the editable Blender stage, linked only to the cyclorama, three painted mountain layers and moon. A low-resolution Cycles on/off comparison confirms a mean RGB response of 0.0058 while the receiver collection excludes buildings. The standalone stage library preserves the light and its five receiver links.
+- glTF does not support the authored Area light, so export skips it. Godot creates one backdrop-only directional substitute on a separate visual layer. Its mask test confirms five painted receivers and no building receivers. A hilltop render comparison shows the painted mountains brighten while the hall remains separately lit. The canonical glTF and Godot asset remain at SHA256 `aaa9ae532e59d816f9c26ea10f8c50644f6330c758875a909023608140607f79`, so existing bakes remain current.
+- Refreshed desktop and portrait demo, study and hilltop views, plus the 43-second video and exported pack. The hilltop and study routes, first-reading flow, and cold pack pass. The final desktop demo profile records 85–126 visible draw calls, 65,462,456 bytes (62.43 MiB) of texture allocation, and 1.30–1.49 ms median forced-draw intervals across three stationary views on this Mac. The archive and checksums pass.
