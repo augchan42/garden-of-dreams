@@ -17,6 +17,14 @@ func run() -> void:
  load("res://materials/water.tres").set_shader_parameter("timeline_time",0.0)
  load("res://materials/floor_fog.tres").set_shader_parameter("timeline_time",0.0)
  await capture("baseline")
+ # Record the projected pond so comparisons remain valid when the shot changes.
+ var polygon:Array = []
+ for corner in [Vector3(20.5,-1.1,14),Vector3(32,-1.1,14),Vector3(32,-1.1,21),Vector3(20.5,-1.1,21)]:
+  var point:Vector2 = route.camera.unproject_position(corner)
+  polygon.append([point.x,point.y])
+ var metadata = FileAccess.open("res://../godot/reflection-capture-region.json",FileAccess.WRITE)
+ metadata.store_string(JSON.stringify({"pond_polygon":polygon,"controls_top":route.command_panel.global_position.y,"buttons_top":route.actions.global_position.y,"viewport":[root.size.x,root.size.y]},"  "))
+ metadata.close()
  mirror.material.set_shader_parameter("reflection_strength",0.0)
  await capture("disabled")
  mirror.material.set_shader_parameter("reflection_strength",.78)

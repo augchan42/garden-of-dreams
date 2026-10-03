@@ -38,10 +38,15 @@ These are collection requirements, not claims that reference stills have been co
 
 The generic hall has been replaced by a low seven-metre facade with one amber window, dark shutters and a continuous broad roof. Its 1.8 m dry ledge is at -0.65 m, with a guarded descending ramp and pond at -1.1 m. Raised stage canvas was removed beneath the site. Three markers and two cameras are exported.
 
-The red court’s “Visit the water-level hall” action reaches the ledge. A separate pond shader now shows the actual window and roof through a mirrored-camera capture, tinted green and distorted by animated ripples. Fixed-time renderer comparisons verify that excluding the window from the capture removes only its reflected image. Desktop and portrait views were inspected. See `docs/pond-reflection.md`. Final water-dominant composition, source camera alignment, lighting, painted signage and sourced reference stills remain open; this is not final site acceptance.
+The red court’s “Visit the water-level hall” action reaches the ledge. A separate pond shader now shows the actual window and roof through a mirrored-camera capture, tinted green and distorted by animated ripples. Fixed-time renderer comparisons verify that excluding the window from the capture removes only its reflected image. Desktop and portrait views were inspected. See `docs/pond-reflection.md`. Final water-dominant composition, source camera alignment, lighting and sourced reference stills remain open; this is not final site acceptance.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
 
 ## Painted title — 2026-10-04
 
 The temporary Songti glyph geometry is replaced by original painted 凹晶館 lettering on the wood board. Its wood board now projects 0.60 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.
+
+
+## Runtime camera review — 2026-10-04
+
+The arrival and pond action use a centered desktop view with a wider 70° vertical FOV, keeping the roof and reflected window visible above the command panel. Portrait uses its own closer, downward-looking 55° horizontal view to reduce empty sky. The six current arrival/door/pond screenshots replace the earlier green-grade captures. Source-camera alignment and the final half-frame water composition still need review; the Blender camera records are unchanged. See `../pond-reflection.md` for positions and renderer checks.

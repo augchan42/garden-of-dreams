@@ -263,7 +263,9 @@ func execute_command(text: String) -> void:
   "reflection":
    if room_id == "aojing_guan":
     output_label.text = "The pond sits below the dry ledge. The window and roof reflect in the green water, broken by small moving ripples."
-    _camera_to(Vector3(26,4,27),Vector3(26,-2,14.5))
+    var view = _reflection_view()
+    camera.fov = view[2]
+    _camera_to(view[0],view[1])
    else: output_label.text = "The low pond lies beside the water-level hall."
   "nunnery":
    if room_id == "ouxiang_xie": _travel(NUNNERY_PATH,"longcui_an")
@@ -525,6 +527,11 @@ func _physics_process(delta: float) -> void:
     push_error("ROUTE_OBSTRUCTED: %s waypoint %d at %s" % [destination,waypoint,player.position])
  player.move_and_slide()
 
+func _reflection_view() -> Array:
+ if get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y:
+  return [Vector3(26,4,23),Vector3(26,-4.5,14),55.0]
+ return [Vector3(26,4,24),Vector3(26,-2.5,14),70.0]
+
 func _arrive(id: String, immediate = false) -> void:
  gate_reveal_active = false
  command_panel.show()
@@ -537,7 +544,7 @@ func _arrive(id: String, immediate = false) -> void:
  _refresh_actions()
  var views = {
   "daoxiang_cun": [Vector3(-34,3.4,-13),Vector3(-34,1.7,-22)],
-  "aojing_guan": [Vector3(24,4,27),Vector3(26,-2,14.5)],
+  "aojing_guan": _reflection_view(),
   "longcui_an": [Vector3(-22,2.6,6),Vector3(-25,1.45,12.2)],
   "xiaoxiang_guan": [Vector3(-2,2.3,13),Vector3(-8.8,1.6,12.5)],
   "yihong_yuan": [Vector3(18,3.1,5),Vector3(24.3,1.25,1)],
@@ -554,8 +561,9 @@ func _arrive(id: String, immediate = false) -> void:
  var view_target: Vector3 = views[id][1]
  var viewport_size = get_viewport().get_visible_rect().size
  var portrait = viewport_size.x < viewport_size.y
+ camera.fov = views[id][2] if id == "aojing_guan" else 55.0
  camera.keep_aspect = Camera3D.KEEP_WIDTH if portrait and id in ["rockery_gate","qiushuang_zhai","hengwu_yuan","daguan_lou","yihong_yuan","xiaoxiang_guan","longcui_an","aojing_guan","daoxiang_cun"] else Camera3D.KEEP_HEIGHT
- if portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan"]:
+ if portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
  transition_finished.emit(id)

@@ -6,6 +6,25 @@ from PIL import Image
 root=Path(__file__).resolve().parents[1]
 p=root/'docs/reference'
 a=np.array(Image.open(p/'pond-check-baseline.png')).astype(int)
+region=json.loads((root/'godot/reflection-capture-region.json').read_text())
+assert list(a.shape[1::-1])==region['viewport']
+# Test pixel centers against the projected water quad, with a two-pixel edge
+# allowance for rasterization. The HUD panel is translucent, so underlying pond
+# changes can show through its background; text, buttons and input stay stable.
+yy,xx=np.indices(a.shape[:2],dtype=float)
+xx+=.5
+yy+=.5
+polygon=np.array(region['pond_polygon'])
+cross=[]
+for start,end in zip(polygon,np.roll(polygon,-1,axis=0)):
+ edge=end-start
+ cross.append((edge[0]*(yy-start[1])-edge[1]*(xx-start[0]))/np.linalg.norm(edge))
+cross=np.stack(cross)
+pond_mask=(cross.min(axis=0)>=-2)|(cross.max(axis=0)<=2)
+controls_top=int(region['controls_top'])
+buttons_top=int(region['buttons_top'])
+hud_text=(np.max(a[:,:,:3],axis=2)>=100)&(yy>=controls_top)&(yy<buttons_top)
+assert pond_mask[:controls_top].any()
 report={}
 for name in ['disabled','window-excluded','ripples']:
  b=np.array(Image.open(p/f'pond-check-{name}.png')).astype(int)
@@ -14,6 +33,8 @@ for name in ['disabled','window-excluded','ripples']:
  report[name]={'changed_pixels_above_3':int(len(x)),'bounds':[int(x.min()),int(y.min()),int(x.max()),int(y.max())] if len(x) else None,'mean_difference':float(d.mean())}
  assert len(x)>100,report[name]
  # Fixed-camera capture changes must leave the hall itself and the controls untouched.
- assert np.max(d[:230,:])<=3 and np.max(d[430:,:])<=3,name
+ assert np.max(d[~pond_mask])<=3,name
+ assert np.max(d[buttons_top:,:])<=3,name
+ assert np.max(d[hud_text])<=3,name
 (root/'godot/reflection-validation.json').write_text(json.dumps(report,indent=2))
 print(json.dumps(report))

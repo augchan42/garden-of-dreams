@@ -541,3 +541,12 @@ The user approved proceeding with the remaining work. The accepted plan is `docs
 - Stationary desktop profiling passes at 102–146 visible draw calls, 123,740–177,088 visible primitives, 57,249,840 bytes (54.60 MiB) of textures and at most four practicals. Forced-draw medians are 2.18–6.50 ms and p95 intervals 3.61–8.63 ms on this Apple M2 Max. These are stationary Mac measurements; full traversal and phone GPU acceptance remain open.
 - The local pack and 43.5-second capture are rebuilt. The next scene pass reviews the reflection hall's water-dominant composition and remaining site materials before baking the 55 eligible meshes across eight later sites. Sourced references, final lighting, service contracts and full acceptance remain open. The full goal remains active.
 - Final release verification: cold desktop launch, cold-pack first-reading/replay, 43.466667-second movie, exact five-file archive contents and SHA256 checksums pass for this assembly.
+
+
+## Reflection hall runtime framing — 2026-10-04
+
+- Replaced the distant off-centre arrival shot with a centered wider desktop view shared by the pond action. The full roof and reflected amber window remain above the controls. Portrait has a separate closer downward view, reducing empty sky; the next room restores the default FOV.
+- Refreshed six desktop/portrait views and four fixed-time comparison captures. The comparison verifier uses the projected pond quad instead of old hardcoded screen rows. It checks unaffected scene pixels and HUD text/buttons/input while allowing the pond to show through the translucent panel background.
+- Deterministic comparisons report 85,856 changed pixels when reflection is disabled, 1,161 when only the reflected window is excluded, and 4,272 when ripple time advances. Desktop and portrait capture projection checks pass. The guarded approach and return, floor support and closed-door collision pass.
+- Stationary Apple M2 Max desktop profiling reports 13 capture draws, no capture shadow draws, 59,165,348 bytes of texture allocation, and 8.406 ms median frame interval active versus 8.133 ms frozen. This is not full traversal or phone GPU acceptance.
+- Geometry, Blender cameras and source-matched bakes are unchanged. Source camera alignment, final water-dominant establishing composition, later-site materials/lighting, references and full acceptance remain open. The goal remains active.
