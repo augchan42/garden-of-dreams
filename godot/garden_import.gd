@@ -13,6 +13,10 @@ func _post_import(scene: Node) -> Object:
   var node = nodes.pop_back()
   nodes.append_array(node.get_children())
   if node is MeshInstance3D:
+   var extras=node.get_meta("extras",{})
+   if extras is Dictionary and extras.has("sign_board"):
+    # Painted lettering is a small surface detail, needed on the site's approach.
+    node.visibility_range_end=28.0
    if str(node.name).begins_with("HERO_table_line_"):
     node.visible=not str(node.name).contains("_broken")
    for i in range(node.mesh.get_surface_count()):

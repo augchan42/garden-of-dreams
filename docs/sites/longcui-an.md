@@ -51,3 +51,7 @@ Two atlas-textured plum trees replace the previous separate branches and petal m
 ## Shared prop placement — 2026-10-04
 
 The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.
+
+## Painted title — 2026-10-04
+
+The temporary Songti glyph geometry is replaced by original painted 櫳翠庵 lettering on the wood board. Its wood board now projects 0.55 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.

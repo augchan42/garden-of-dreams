@@ -41,3 +41,7 @@ The generic tiled hall has been replaced by a six-metre farmhouse with a thick, 
 Hengwu’s “Visit the farmhouse” action leaves the court through its front gate and follows the new western approach. `test_farmhouse_route.gd` passes both directions, floor support, closed-door collision and rejection of entry. `render_farmhouse.gd` produces desktop and portrait arrival/door/tool/paddy views. The original geometric paddy placeholder and obscured inspection view were replaced by the painted texture and matched Blender/Godot cameras. Source references, painted lettering, kit atlases and final lighting remain unfinished.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
+
+## Painted title — 2026-10-04
+
+The temporary Songti glyph geometry is replaced by original painted 稻香村 lettering on the wood board. Its wood board now projects 0.58 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.

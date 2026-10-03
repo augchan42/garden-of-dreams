@@ -46,3 +46,7 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ## Flora placement — 2026-10-04
 
 Two shared-kit banana plants replace the previous leaf and stem meshes while retaining the stone planters and route collision. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
+
+## Painted title — 2026-10-04
+
+The temporary Songti glyph geometry is replaced by original painted 怡紅院 lettering on the wood board. Its wood board now projects 0.52 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.

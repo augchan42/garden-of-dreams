@@ -2,7 +2,19 @@
   "resolution": 512,
   "scope": "Interior overlap at sampled texel centres; not a gutter or subtexel proof.",
   "meshes": {
+    "HERO_aojing-guan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
     "HERO_daguan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
+    "HERO_daoxiang-cun_title.001": {
       "triangles": 2,
       "degenerate_uv_triangles": 0,
       "covered_texels": 3072,
@@ -158,6 +170,24 @@
       "covered_texels": 208915,
       "overlapping_texels": 0
     },
+    "HERO_hengwu-yuan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
+    "HERO_longcui-an_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
+    "HERO_qinfang-ting_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 16384,
+      "overlapping_texels": 0
+    },
     "HERO_qinfang_bridge.001": {
       "triangles": 224,
       "degenerate_uv_triangles": 0,
@@ -272,6 +302,18 @@
       "covered_texels": 2048,
       "overlapping_texels": 0
     },
+    "HERO_xiaoxiang-guan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
+    "HERO_yihong-yuan_title.001": {
+      "triangles": 2,
+      "degenerate_uv_triangles": 0,
+      "covered_texels": 3072,
+      "overlapping_texels": 0
+    },
     "SITE_aojing-guan_MAT_aojing_water": {
       "triangles": 2,
       "degenerate_uv_triangles": 0,
@@ -284,12 +326,6 @@
       "covered_texels": 212826,
       "overlapping_texels": 0
     },
-    "SITE_aojing-guan_MAT_bronze": {
-      "triangles": 4928,
-      "degenerate_uv_triangles": 0,
-      "covered_texels": 95315,
-      "overlapping_texels": 0
-    },
     "SITE_aojing-guan_MAT_crt_amber": {
       "triangles": 12,
       "degenerate_uv_triangles": 0,
@@ -297,9 +333,9 @@
       "overlapping_texels": 0
     },
     "SITE_aojing-guan_MAT_lattice_wood": {
-      "triangles": 168,
+      "triangles": 192,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 138869,
+      "covered_texels": 138621,
       "overlapping_texels": 0
     },
     "SITE_aojing-guan_MAT_plaster_rock": {
@@ -381,9 +417,9 @@
       "overlapping_texels": 0
     },
     "SITE_daoxiang-cun_MAT_bronze": {
-      "triangles": 11522,
+      "triangles": 24,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 86346,
+      "covered_texels": 207568,
       "overlapping_texels": 0
     },
     "SITE_daoxiang-cun_MAT_crt_amber": {
@@ -393,9 +429,9 @@
       "overlapping_texels": 0
     },
     "SITE_daoxiang-cun_MAT_lattice_wood": {
-      "triangles": 1576,
+      "triangles": 1600,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 55097,
+      "covered_texels": 52823,
       "overlapping_texels": 0
     },
     "SITE_daoxiang-cun_MAT_paddy_painted_texture": {
@@ -429,9 +465,9 @@
       "overlapping_texels": 0
     },
     "SITE_hengwu-yuan_MAT_bronze": {
-      "triangles": 11920,
+      "triangles": 88,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 107955,
+      "covered_texels": 192133,
       "overlapping_texels": 0
     },
     "SITE_hengwu-yuan_MAT_crt_amber": {
@@ -489,15 +525,15 @@
       "overlapping_texels": 0
     },
     "SITE_longcui-an_MAT_bronze": {
-      "triangles": 9764,
+      "triangles": 24,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 86390,
+      "covered_texels": 202858,
       "overlapping_texels": 0
     },
     "SITE_longcui-an_MAT_lattice_wood": {
-      "triangles": 136,
+      "triangles": 160,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 173975,
+      "covered_texels": 172751,
       "overlapping_texels": 0
     },
     "SITE_longcui-an_MAT_plaster_rock": {
@@ -560,12 +596,6 @@
       "covered_texels": 20979,
       "overlapping_texels": 0
     },
-    "SITE_qinfang-ting_MAT_bronze": {
-      "triangles": 8152,
-      "degenerate_uv_triangles": 0,
-      "covered_texels": 76303,
-      "overlapping_texels": 0
-    },
     "SITE_qinfang-ting_MAT_foliage_card": {
       "triangles": 756,
       "degenerate_uv_triangles": 0,
@@ -573,9 +603,9 @@
       "overlapping_texels": 0
     },
     "SITE_qinfang-ting_MAT_lattice_wood": {
-      "triangles": 1076,
+      "triangles": 1100,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 69377,
+      "covered_texels": 67291,
       "overlapping_texels": 0
     },
     "SITE_qinfang-ting_MAT_pavilion_atlas": {
@@ -873,9 +903,9 @@
       "overlapping_texels": 0
     },
     "SITE_xiaoxiang-guan_MAT_bronze": {
-      "triangles": 4164,
+      "triangles": 24,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 96316,
+      "covered_texels": 209808,
       "overlapping_texels": 0
     },
     "SITE_xiaoxiang-guan_MAT_crt_amber": {
@@ -915,9 +945,9 @@
       "overlapping_texels": 0
     },
     "SITE_yihong-yuan_MAT_bronze": {
-      "triangles": 8472,
+      "triangles": 96,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 113509,
+      "covered_texels": 126826,
       "overlapping_texels": 0
     },
     "SITE_yihong-yuan_MAT_crt_amber": {
@@ -927,9 +957,9 @@
       "overlapping_texels": 0
     },
     "SITE_yihong-yuan_MAT_lattice_wood": {
-      "triangles": 204,
+      "triangles": 228,
       "degenerate_uv_triangles": 0,
-      "covered_texels": 139321,
+      "covered_texels": 133925,
       "overlapping_texels": 0
     },
     "SITE_yihong-yuan_MAT_plaster_rock": {

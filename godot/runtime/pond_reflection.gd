@@ -53,7 +53,7 @@ func configure(environment: Node3D, camera: Camera3D, target: Node3D) -> void:
     pond_meshes+=1
     is_pond=true
   var label=str(node.name)
-  if not is_pond and (label.begins_with("SITE_aojing") or (label.begins_with("SITE_stage") and ("painted_mountain" in label or "cyclorama" in label or "painted_moon" in label))):
+  if not is_pond and (label.begins_with("SITE_aojing") or label.begins_with("HERO_aojing") or (label.begins_with("SITE_stage") and ("painted_mountain" in label or "cyclorama" in label or "painted_moon" in label))):
    node.layers |= REFLECTION_LAYER
    reflected_meshes+=1
  update_reflection()

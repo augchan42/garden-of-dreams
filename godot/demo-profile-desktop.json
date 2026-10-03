@@ -1,9 +1,9 @@
 {
-  "buffer_memory_bytes": 24694968,
+  "buffer_memory_bytes": 20611168,
   "device": "Apple M2 Max",
   "renderer": "gl_compatibility",
   "scope": "Stationary demo arrival views on this Mac",
-  "texture_memory_bytes": 56408632,
+  "texture_memory_bytes": 57249840,
   "viewport": [
     1410,
     600
@@ -11,24 +11,24 @@
   "views": {
     "qinfang_ting": {
       "active_practicals": 4,
-      "forced_draw_interval_median_ms": 1.36,
-      "forced_draw_interval_p95_ms": 2.755,
+      "forced_draw_interval_median_ms": 2.532,
+      "forced_draw_interval_p95_ms": 3.612,
       "visible_draw_calls_max": 102,
-      "visible_primitives_max": 128188
+      "visible_primitives_max": 123740
     },
     "rockery_gate": {
       "active_practicals": 3,
-      "forced_draw_interval_median_ms": 1.413,
-      "forced_draw_interval_p95_ms": 3.319,
-      "visible_draw_calls_max": 141,
-      "visible_primitives_max": 149938
+      "forced_draw_interval_median_ms": 2.179,
+      "forced_draw_interval_p95_ms": 4.343,
+      "visible_draw_calls_max": 140,
+      "visible_primitives_max": 143452
     },
     "terminal_room": {
       "active_practicals": 2,
-      "forced_draw_interval_median_ms": 2.026,
-      "forced_draw_interval_p95_ms": 3.015,
-      "visible_draw_calls_max": 147,
-      "visible_primitives_max": 183574
+      "forced_draw_interval_median_ms": 6.502,
+      "forced_draw_interval_p95_ms": 8.631,
+      "visible_draw_calls_max": 146,
+      "visible_primitives_max": 177088
     }
   }
 }

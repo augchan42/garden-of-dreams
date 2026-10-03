@@ -41,3 +41,7 @@ The generic hall has been replaced by a low seven-metre facade with one amber wi
 The red court’s “Visit the water-level hall” action reaches the ledge. A separate pond shader now shows the actual window and roof through a mirrored-camera capture, tinted green and distorted by animated ripples. Fixed-time renderer comparisons verify that excluding the window from the capture removes only its reflected image. Desktop and portrait views were inspected. See `docs/pond-reflection.md`. Final water-dominant composition, source camera alignment, lighting, painted signage and sourced reference stills remain open; this is not final site acceptance.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
+
+## Painted title — 2026-10-04
+
+The temporary Songti glyph geometry is replaced by original painted 凹晶館 lettering on the wood board. Its wood board now projects 0.60 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.

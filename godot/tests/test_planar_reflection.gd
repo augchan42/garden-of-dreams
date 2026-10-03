@@ -15,6 +15,9 @@ func run() -> void:
  mirror.update_reflection()
  assert(mirror.reflected_meshes>0)
  assert(mirror.pond_meshes==1)
+ var title=route.find_child("HERO_aojing*title*",true,false)
+ assert(title is MeshInstance3D and (title.layers & mirror.REFLECTION_LAYER)!=0,
+  "The painted hall title must be included in its pond reflection")
  assert(abs(mirror.reflection_camera.global_position.y - (-2.2-route.camera.global_position.y)) < .001)
  assert(mirror.reflection_camera.cull_mask == mirror.REFLECTION_LAYER)
  assert(mirror.viewport.render_target_update_mode==SubViewport.UPDATE_ALWAYS)

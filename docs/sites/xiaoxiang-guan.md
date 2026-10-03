@@ -46,3 +46,7 @@ Acceptance: distinct site silhouette, complete specified props, named markers, t
 ## Flora placement — 2026-10-04
 
 Four atlas-textured bamboo clumps replace the previous individual stalk meshes. The covered walk has a visible two-metre rail opening at the approach junction, with matching collision. The full outward and return route passes again. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
+
+## Painted title — 2026-10-04
+
+The temporary Songti glyph geometry is replaced by original painted 瀟湘館 lettering on the wood board. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.

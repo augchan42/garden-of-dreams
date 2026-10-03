@@ -1,16 +1,18 @@
 {
-  "source_glb_sha256": "8c837341e293735c695313078c4d2f514c76ea09eba0a39b7be2d5c6f166384a",
-  "authoring_sha256": "79de74a9a5da68bb1c205df3c5b9e1b82c2d0deef0b420ca350b5dbc64c02e4e",
+  "source_glb_sha256": "0a697db4e396c3ee422838feafb0d6a438ac70186d7761e469d11366d25e1ea0",
+  "authoring_sha256": "8341f193fa4a79a47d033c29a54b110c539c1e9a23f69ebd2dc89f6ba3e8d6eb",
   "scope": "Saved library structure, sign implementation, and source-matched bake records. Does not prove art quality, routes, runtime bake application, references, or performance.",
   "sites": {
     "aojing-guan": {
-      "object_count": 136,
+      "object_count": 138,
       "signs": [
         {
-          "name": "KIT_props_inscription_凹晶館",
+          "name": "HERO_aojing-guan_title",
           "text": "凹晶館",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "aojing-guan-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -48,17 +50,16 @@
         }
       ],
       "colliders": 7,
-      "library_sha256": "c57c9a1a6bd03b312ad9c8719db1b74216a7f9855976bcb75ce22c0ac95ffa89",
-      "sheet_sha256": "c87b9518e345934f64d12018effd7e5125215ce27215e69b138f1961da7d15ea",
-      "export_sha256": "8cdb24ad9bd3fd63ef0b5d812a9ea6044f9609e7138c1d4712126e54f4b12564",
-      "master_object_count": 136,
+      "library_sha256": "2db931b53bfb47dc2b21ab5a43bc4b54a27f7bc1aa2d4306431b97d995904441",
+      "sheet_sha256": "6a72573153e06bc60951c4709a80c3e5b42851a90a84b241553e0cf7bcb976ef",
+      "export_sha256": "067baa41f9f4246ee66f664c5c26b52d23a277a6a770316eff8366c9c3e1801a",
+      "master_object_count": 138,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
       "source_matched_bakes": 0,
-      "expected_opaque_bake_meshes": 7,
+      "expected_opaque_bake_meshes": 6,
       "missing_current_bakes": [
         "SITE_aojing-guan_MAT_backstage",
-        "SITE_aojing-guan_MAT_bronze",
         "SITE_aojing-guan_MAT_crt_amber",
         "SITE_aojing-guan_MAT_lattice_wood",
         "SITE_aojing-guan_MAT_plaster_rock",
@@ -126,13 +127,15 @@
       "triggers_without_room_id": []
     },
     "daoxiang-cun": {
-      "object_count": 428,
+      "object_count": 430,
       "signs": [
         {
-          "name": "KIT_props_inscription_稻香村",
+          "name": "HERO_daoxiang-cun_title",
           "text": "稻香村",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "daoxiang-cun-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -192,10 +195,10 @@
         }
       ],
       "colliders": 8,
-      "library_sha256": "b8afee1c458a931ee1384bf2f545b4bd1951a2ca1caedc103754a01f0f4a29a7",
-      "sheet_sha256": "4528ea04a6573df5dc8039227b779fc2b360a0b1f98029e338fe36ffdb9febe3",
-      "export_sha256": "64d24274587053d2891fce2f9345e3029f7e4dbc29ae50a33763d032635adb99",
-      "master_object_count": 428,
+      "library_sha256": "a1c0ced8b64498d08a51bfdb7753d894b564b8e4c5e1fcdce1126b91cb9c650e",
+      "sheet_sha256": "4d3d1470d0ce700be1b56a099e85e92133cbbdee617df854b001032c357a6459",
+      "export_sha256": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a",
+      "master_object_count": 430,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
       "source_matched_bakes": 0,
@@ -216,10 +219,12 @@
       "object_count": 530,
       "signs": [
         {
-          "name": "KIT_props_inscription_蘅蕪苑",
+          "name": "HERO_hengwu-yuan_title",
           "text": "蘅蕪苑",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "hengwu-yuan-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -270,9 +275,9 @@
         }
       ],
       "colliders": 23,
-      "library_sha256": "02ccd86fecc7a9b5c3d22ef0d51e41d16b0731c0808d92e4a93337047305e022",
-      "sheet_sha256": "e5f7efba697da7636bb5c26e915ab91984f5a5128abfdce215746f9164dd6bf7",
-      "export_sha256": "f7ec30edfc1081b17c10a7eabccd58b4f0480dc727c0891cfd3676b50b8b8a68",
+      "library_sha256": "6b20786216f4607877eb7c8ce30f8ca86499471964927d92ac8cd05b84c70b82",
+      "sheet_sha256": "ac6f910936bed3e927555dac0211f5412a0e3cd6992330e5108d9e2dd83fd3e7",
+      "export_sha256": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b",
       "master_object_count": 530,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
@@ -293,13 +298,15 @@
       "triggers_without_room_id": []
     },
     "longcui-an": {
-      "object_count": 98,
+      "object_count": 100,
       "signs": [
         {
-          "name": "KIT_props_inscription_櫳翠庵",
+          "name": "HERO_longcui-an_title",
           "text": "櫳翠庵",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "longcui-an-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -350,10 +357,10 @@
         }
       ],
       "colliders": 8,
-      "library_sha256": "839a6990f62d3b23d72f91abcbd14634de396b285a445ee15462520d306c73a0",
-      "sheet_sha256": "1168333ecaf289a39a1636cb35d332eaea9e37b2821319089dfa57e00a9eb45b",
-      "export_sha256": "49f1ae1b9740b402e75c449e616e0ee72381860b951389f8b6365fc785af5f64",
-      "master_object_count": 98,
+      "library_sha256": "bfbbd5a29c52a3d9cef0d23d63a24094b69d0a252372dfa828771bcdd4f374d6",
+      "sheet_sha256": "d5084210c7b60afbe8a22c361436cc4e7f5c03dfee5ed00f89b9ed07cc4974c2",
+      "export_sha256": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9",
+      "master_object_count": 100,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
       "source_matched_bakes": 0,
@@ -430,13 +437,15 @@
       "triggers_without_room_id": []
     },
     "qinfang-ting": {
-      "object_count": 244,
+      "object_count": 246,
       "signs": [
         {
-          "name": "KIT_props_inscription_沁芳",
+          "name": "HERO_qinfang-ting_title",
           "text": "沁芳",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "qinfang-ting-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -499,14 +508,14 @@
         }
       ],
       "colliders": 101,
-      "library_sha256": "61c24e10d8ac1ff1484df06fb39d5d44e18c1ddd8e52c2d1db28ba6c91de2441",
-      "sheet_sha256": "9257cc227dcab6baff1bac5f8b1302f95b71e3c863101b0a6a32a5b02f4bcde9",
-      "export_sha256": "a0cebd8838a7545e13bc3be94448204f0dca12ceb8e3d9eaa9dcef0b17290c42",
-      "master_object_count": 244,
+      "library_sha256": "d24e7aae59cb7119ba3853aece7762e0cae16e2aad2c108c5c7bef0e2b3865b6",
+      "sheet_sha256": "400771aaaa787ba6af7b047d760dc56806e79d18d280f178d05a994225ad28b3",
+      "export_sha256": "f0f77bd0062ae7c46996dde2ffbd0dc19e591ce1f04f535ac056dcce92700467",
+      "master_object_count": 246,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
-      "source_matched_bakes": 21,
-      "expected_opaque_bake_meshes": 21,
+      "source_matched_bakes": 20,
+      "expected_opaque_bake_meshes": 20,
       "missing_current_bakes": [],
       "triggers_without_room_id": []
     },
@@ -585,7 +594,7 @@
       "colliders": 13,
       "library_sha256": "3b45e378a5cb6e87c02beb904349b34d9432a55d451886be982b8bf9b3785b94",
       "sheet_sha256": "7c1a8eca087bbb05731a5a14f86dac248265b9e9f989576fdee8c7344c1dee1a",
-      "export_sha256": "ddeb4aec1bd0d3ddc250efd5afbb87096cf776cc503f738492e88fd11ef35aa7",
+      "export_sha256": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01",
       "master_object_count": 451,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
@@ -771,7 +780,7 @@
       "colliders": 71,
       "library_sha256": "89d0c95f4584b3b2506607a0a0e1ef4985f8afa93af6920ec4158246802936b1",
       "sheet_sha256": "5913a8a3c69ffcdeede2aed4b2cb72b00cc70ea9e5650e2c568b7b052eca3dd1",
-      "export_sha256": "cc0062031eb00e8d5d7e3f8d53a3d77ea6d97e4ab56c0dc33cf37c216ec1af31",
+      "export_sha256": "bbf53da2e3b0bfbbb0412c91a05c891f4f375e7788ed027d065fc9057b974d39",
       "master_object_count": 244,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
@@ -859,10 +868,12 @@
       "object_count": 134,
       "signs": [
         {
-          "name": "KIT_props_inscription_瀟湘館",
+          "name": "HERO_xiaoxiang-guan_title",
           "text": "瀟湘館",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "xiaoxiang-guan-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -913,9 +924,9 @@
         }
       ],
       "colliders": 9,
-      "library_sha256": "10a759d7393362167d40d8dd4483ea95340c23a0bcbb12d0b5cf9ceed13a826e",
-      "sheet_sha256": "8fe1b1f02883ddceab0caa8bd7b37dac9f2d64f8192b9e1c2f19ede55df4bc39",
-      "export_sha256": "9f920ad706b44a3c2428bd8d67b3465fcc2a296e4c3381c3e8154b491d44e2e9",
+      "library_sha256": "2b1a2db2ce1fb2cbd3b27afb7983e87d5bb25d58f752b248784c07ed4e8965ce",
+      "sheet_sha256": "a8d75afe7d6941c1cab0c12390ebf9359c1c46adc7ff9b308313056ec8f62130",
+      "export_sha256": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e",
       "master_object_count": 134,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
@@ -933,13 +944,15 @@
       "triggers_without_room_id": []
     },
     "yihong-yuan": {
-      "object_count": 106,
+      "object_count": 108,
       "signs": [
         {
-          "name": "KIT_props_inscription_怡紅院",
+          "name": "HERO_yihong-yuan_title",
           "text": "怡紅院",
-          "kind": "typeset geometry",
-          "finish": "Calligraphy layout; replace typeset glyphs with painted decal in final art pass"
+          "kind": "textured mesh",
+          "images": [
+            "yihong-yuan-title.png"
+          ]
         }
       ],
       "triggers": [
@@ -990,10 +1003,10 @@
         }
       ],
       "colliders": 9,
-      "library_sha256": "32b0ee6e218ebca0775b9089fe0797c07699cafa53e9099bb59ea9d82acd6d91",
-      "sheet_sha256": "fb59484b8915aa9e1a6eb0c8e7a0e33ece4958cc798631b48028e3339eedda99",
-      "export_sha256": "6a5efab00bc7435c1d0ed155fc02133a2de66ae59dcd4338257375b1ddd9594e",
-      "master_object_count": 106,
+      "library_sha256": "eee2508632425571bfea8502396cffbab17ba48bb93a1e1ed63bef4e4f56d4a1",
+      "sheet_sha256": "a3793b2f75eb1b29f5fede018afa8779b4bbcf26fa1c3ab66bb177cffd94dcad",
+      "export_sha256": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3",
+      "master_object_count": 108,
       "structural_differences_from_authoring": [],
       "signs_match_authoring": true,
       "source_matched_bakes": 0,
