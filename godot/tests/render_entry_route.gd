@@ -7,7 +7,7 @@ func capture(route: Node, label: String) -> void:
  await create_timer(1.8).timeout
  await RenderingServer.frame_post_draw
  var image = root.get_texture().get_image()
- var suffix="-baked" if "--baked" in OS.get_cmdline_user_args() else ""
+ var suffix="-full-baked" if "--full-baked" in OS.get_cmdline_user_args() else ("-baked" if "--baked" in OS.get_cmdline_user_args() else "")
  var result = image.save_png("res://../docs/reference/route-"+label+suffix+".png")
  assert(result==OK)
  print("ROUTE_RENDER_SAVED ",label)
@@ -15,9 +15,12 @@ func capture(route: Node, label: String) -> void:
 func run() -> void:
  if "--mobile" in OS.get_cmdline_user_args(): root.size = Vector2i(390,844)
  var route = load("res://runtime/entry_route.tscn").instantiate()
+ var baked="--baked" in OS.get_cmdline_user_args() or "--full-baked" in OS.get_cmdline_user_args()
+ if baked:route.site_bakes_enabled=false
  root.add_child(route)
- if "--baked" in OS.get_cmdline_user_args():
-  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/index.json"))
+ if baked:
+  var catalog="full-index.json"
+  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/"+catalog))
   if preload("res://runtime/baked_materials.gd").apply_to_scene(route,records)!=records.size():
    push_error("Incomplete route bake")
    quit(1)

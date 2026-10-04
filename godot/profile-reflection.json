@@ -1,6 +1,6 @@
 {
   "device": "Apple M2 Max",
-  "scope": "Stationary desktop pond view; dynamic shadows still enabled. Main and reflection capture recorded separately. Not target-phone or full-traversal performance.",
+  "scope": "Stationary desktop pond view; all 124 static bakes enabled, static shadows disabled. Main and reflection capture recorded separately. Not target-phone or full-traversal performance.",
   "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
   "variants": {
     "capture_active": {
@@ -11,10 +11,10 @@
       ],
       "capture_visible_draws": 13,
       "main_shadow_draws": 0,
-      "main_visible_draws": 772,
-      "median_frame_interval_ms": 5.563,
-      "texture_memory_bytes": 58990586,
-      "visible_draws_combined": 785,
+      "main_visible_draws": 92,
+      "median_frame_interval_ms": 2.256,
+      "texture_memory_bytes": 63142466,
+      "visible_draws_combined": 105,
       "visible_primitives_combined": 115470
     },
     "capture_frozen": {
@@ -25,10 +25,10 @@
       ],
       "capture_visible_draws": 0,
       "main_shadow_draws": 0,
-      "main_visible_draws": 772,
-      "median_frame_interval_ms": 4.899,
-      "texture_memory_bytes": 58990586,
-      "visible_draws_combined": 772,
+      "main_visible_draws": 92,
+      "median_frame_interval_ms": 1.915,
+      "texture_memory_bytes": 63142466,
+      "visible_draws_combined": 92,
       "visible_primitives_combined": 107344
     }
   },

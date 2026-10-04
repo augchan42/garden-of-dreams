@@ -88,10 +88,13 @@ func _ready() -> void:
   for light in environment.find_children("*", "Light3D", true, false):
    light.shadow_enabled = false
  elif site_bakes_enabled:
-  var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/priority2-index.json"))
-  assert(records is Dictionary and records.size() == 29, "Priority-2 site lightmaps are incomplete")
+  var records = JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/full-index.json"))
+  assert(records is Dictionary and records.size() == 124, "Complete garden lightmaps are incomplete")
   var applied = preload("res://runtime/baked_materials.gd").apply_to_scene(environment, records)
-  assert(applied == records.size(), "Priority-2 site lightmaps do not match the scene")
+  assert(applied == records.size(), "Complete garden lightmaps do not match the scene")
+  for light in environment.find_children("*", "Light3D", true, false):
+   if light is SpotLight3D or light is DirectionalLight3D:
+    light.shadow_enabled = false
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)

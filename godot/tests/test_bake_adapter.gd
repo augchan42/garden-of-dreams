@@ -39,8 +39,8 @@ func _initialize() -> void:
   var node=nodes.pop_back()
   nodes.append_array(node.get_children())
   if node is SpotLight3D or node is DirectionalLight3D:
-   if (node.light_cull_mask&2)!=0 or node.light_cull_mask!=(static_masks[node]&~2) or node.shadow_caster_mask!=static_shadow_masks[node]:
-    push_error("Static keys must exclude baked receivers and preserve other receiver layers")
+   if (node.light_cull_mask&2)!=0 or node.light_cull_mask!=(4 if node==wash else 1) or node.shadow_caster_mask!=static_shadow_masks[node]:
+    push_error("Static keys must use primary receivers; exclusive backdrop washes retain their mask")
     scene.free()
     quit(1)
     return
@@ -60,6 +60,11 @@ func _initialize() -> void:
     return
    if material.get_shader_parameter("base_color")!=source.albedo_color or material.get_shader_parameter("material_roughness")!=source.roughness:
     push_error("Baked adapter changed source material properties")
+    scene.free()
+    quit(1)
+    return
+   if source.normal_enabled and (material.get_shader_parameter("use_normal_texture")!=true or material.get_shader_parameter("normal_texture")!=source.normal_texture or material.get_shader_parameter("normal_scale")!=source.normal_scale):
+    push_error("Baked adapter lost the source normal map: "+str(node.name))
     scene.free()
     quit(1)
     return

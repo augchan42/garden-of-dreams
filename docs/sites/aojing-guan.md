@@ -66,3 +66,8 @@ The arrival uses a centered desktop view with a wider 70° vertical FOV, keeping
 Desktop position is (26, -0.5, 20.7), target (26, -1.7, 14), with 70° vertical FOV. Portrait uses the same position, target (26, -2.5, 14), and 68° horizontal FOV. All roof vertices fit inside both viewports. Flat-color depth-tested renders measure 54.9% visible water at 1410 × 600 and 57.0% at 390 × 844. The scene library has four cameras and four editable scenes for arrival/pond in each aspect. The existing guarded visitor route remains constrained; this is a camera move, not a move into the pond.
 
 The current reflection checks distinguish the actual reflected window and moving ripples. Final art/lighting acceptance is still open: a stationary desktop profile reports 832 combined main/capture draw calls, above the 150-call target. Static-key isolation and the all-site lighting/material pass must address this. External references and phone/full-traversal performance are also open.
+
+
+### Current lighting coverage — 2026-10-04
+
+All eligible opaque meshes in this saved site now have current source-matched Cycles lightmaps in the full Godot catalog. Native pixels and engine copies are checked; normal exploration uses the maps with static shadow maps disabled. Desktop and portrait arrival captures are refreshed under `docs/reference/route-*-full-baked.png`. Final color, material, noise/texel-density and external reference acceptance remain open.

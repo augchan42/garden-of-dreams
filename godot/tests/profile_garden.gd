@@ -8,11 +8,12 @@ func run() -> void:
  DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_DISABLED)
  Engine.max_fps=0
  var route=load("res://runtime/entry_route.tscn").instantiate()
+ if "--baked" in OS.get_cmdline_user_args():route.site_bakes_enabled=false
  root.add_child(route)
  var variant="no-shadows" if "--no-shadows" in OS.get_cmdline_user_args() else ("no-lights" if "--no-lights" in OS.get_cmdline_user_args() else "baseline")
  if "--baked" in OS.get_cmdline_user_args():
   variant="baked"
-  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/index.json"))
+  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/full-index.json"))
   var applied=load("res://runtime/baked_materials.gd").apply_to_scene(route,records)
   if applied != records.size() or applied <= 0:
    push_error("Incomplete bake coverage in benchmark")
@@ -29,7 +30,7 @@ func run() -> void:
   if node is DirectionalLight3D:lights.directional+=1
   elif node is SpotLight3D:lights.spot+=1
   elif node is OmniLight3D and node.light_energy>0:lights.omni_enabled+=1
- var report={"device":RenderingServer.get_video_adapter_name(),"renderer":RenderingServer.get_current_rendering_method(),"viewport":[root.size.x,root.size.y],"samples_per_view":120,"vsync":"disabled","diagnostic_variant":variant,"scope":"Stationary arrival views on this Mac; not a mobile GPU result or a traversal benchmark.","lights":lights,"views":{}}
+ var report={"device":RenderingServer.get_video_adapter_name(),"renderer":RenderingServer.get_current_rendering_method(),"viewport":[root.size.x,root.size.y],"samples_per_view":120,"vsync":"disabled","diagnostic_variant":variant,"source_glb_sha256":FileAccess.get_sha256("res://assets/garden-of-dreams.glb"),"bake_catalog":"full-index.json","scope":"Stationary arrival views on this Mac; not a mobile GPU result or a traversal benchmark.","lights":lights,"views":{}}
  for room in route.ROOMS:
   route.player.position = {"terminal_room":Vector3(-1.3,0,37.4),"rockery_gate":Vector3(0,0,32.5),"qinfang_ting":Vector3(0,0,1.8),"ouxiang_xie":Vector3(-23,0,0),"ziling_zhou":Vector3(-35.4,0,0),"qiushuang_zhai":Vector3(22,0,-13.5),"tubi_tang":Vector3(7,4,-31),"hengwu_yuan":Vector3(-18,0,-14.7),"daoxiang_cun":Vector3(-32,0,-19.3),"aojing_guan":Vector3(26,-.65,13.1),"longcui_an":Vector3(-25,0,10.6),"xiaoxiang_guan":Vector3(-6.6,0,13),"yihong_yuan":Vector3(22.6,0,1),"daguan_lou":Vector3(0,0,-20.5)}[room]+Vector3(0,.04,0)
   route._arrive(room,true)

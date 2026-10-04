@@ -1,68 +1,162 @@
 {
-  "buffer_memory_bytes": 20707084,
+  "bake_catalog": "full-index.json",
+  "buffer_memory_bytes": 22741360,
   "device": "Apple M2 Max",
   "diagnostic_variant": "baseline",
   "lights": {
-    "directional": 2,
-    "omni_enabled": 9,
+    "directional": 3,
+    "omni_enabled": 18,
     "spot": 9
   },
   "renderer": "gl_compatibility",
   "samples_per_view": 120,
   "scope": "Stationary arrival views on this Mac; not a mobile GPU result or a traversal benchmark.",
-  "texture_memory_bytes": 25331947,
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "texture_memory_bytes": 63233940,
   "viewport": [
     1410,
     600
   ],
   "views": {
+    "aojing_guan": {
+      "active_practicals": 2,
+      "combined_draw_call_upper_bound": 102,
+      "frame_interval_median_ms": 1.66,
+      "frame_interval_p95_ms": 3.355,
+      "reflection_capture_draw_calls_max": 13,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 89,
+      "visible_primitives_max": 100978
+    },
+    "daguan_lou": {
+      "active_practicals": 0,
+      "combined_draw_call_upper_bound": 50,
+      "frame_interval_median_ms": 1.217,
+      "frame_interval_p95_ms": 2.592,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 50,
+      "visible_primitives_max": 97572
+    },
+    "daoxiang_cun": {
+      "active_practicals": 1,
+      "combined_draw_call_upper_bound": 20,
+      "frame_interval_median_ms": 1.142,
+      "frame_interval_p95_ms": 2.99,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 20,
+      "visible_primitives_max": 41434
+    },
+    "hengwu_yuan": {
+      "active_practicals": 1,
+      "combined_draw_call_upper_bound": 43,
+      "frame_interval_median_ms": 1.212,
+      "frame_interval_p95_ms": 2.991,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 43,
+      "visible_primitives_max": 89156
+    },
+    "longcui_an": {
+      "active_practicals": 3,
+      "combined_draw_call_upper_bound": 30,
+      "frame_interval_median_ms": 1.252,
+      "frame_interval_p95_ms": 2.43,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 30,
+      "visible_primitives_max": 59102
+    },
     "ouxiang_xie": {
       "active_practicals": 2,
-      "frame_interval_median_ms": 3.355,
-      "frame_interval_p95_ms": 4.481,
+      "combined_draw_call_upper_bound": 58,
+      "frame_interval_median_ms": 1.22,
+      "frame_interval_p95_ms": 2.74,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 466,
-      "visible_primitives_max": 68872
+      "visible_draw_calls_max": 58,
+      "visible_primitives_max": 102506
     },
     "qinfang_ting": {
       "active_practicals": 4,
-      "frame_interval_median_ms": 4.479,
-      "frame_interval_p95_ms": 5.486,
+      "combined_draw_call_upper_bound": 102,
+      "frame_interval_median_ms": 1.61,
+      "frame_interval_p95_ms": 2.835,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 793,
-      "visible_primitives_max": 98034
+      "visible_draw_calls_max": 102,
+      "visible_primitives_max": 123740
     },
     "qiushuang_zhai": {
-      "active_practicals": 0,
-      "frame_interval_median_ms": 4.206,
-      "frame_interval_p95_ms": 7.165,
+      "active_practicals": 2,
+      "combined_draw_call_upper_bound": 41,
+      "frame_interval_median_ms": 1.069,
+      "frame_interval_p95_ms": 2.703,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 434,
-      "visible_primitives_max": 54958
+      "visible_draw_calls_max": 41,
+      "visible_primitives_max": 80522
     },
     "rockery_gate": {
       "active_practicals": 3,
-      "frame_interval_median_ms": 5.721,
-      "frame_interval_p95_ms": 7.628,
+      "combined_draw_call_upper_bound": 140,
+      "frame_interval_median_ms": 1.781,
+      "frame_interval_p95_ms": 2.96,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 920,
-      "visible_primitives_max": 139506
+      "visible_draw_calls_max": 140,
+      "visible_primitives_max": 143452
     },
     "terminal_room": {
       "active_practicals": 2,
-      "frame_interval_median_ms": 5.262,
-      "frame_interval_p95_ms": 6.229,
+      "combined_draw_call_upper_bound": 146,
+      "frame_interval_median_ms": 1.421,
+      "frame_interval_p95_ms": 3.331,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 957,
-      "visible_primitives_max": 143262
+      "visible_draw_calls_max": 146,
+      "visible_primitives_max": 177088
+    },
+    "tubi_tang": {
+      "active_practicals": 1,
+      "combined_draw_call_upper_bound": 42,
+      "frame_interval_median_ms": 1.226,
+      "frame_interval_p95_ms": 2.554,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 42,
+      "visible_primitives_max": 85606
+    },
+    "xiaoxiang_guan": {
+      "active_practicals": 2,
+      "combined_draw_call_upper_bound": 73,
+      "frame_interval_median_ms": 1.509,
+      "frame_interval_p95_ms": 2.437,
+      "reflection_capture_draw_calls_max": 0,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 73,
+      "visible_primitives_max": 101826
+    },
+    "yihong_yuan": {
+      "active_practicals": 1,
+      "combined_draw_call_upper_bound": 39,
+      "frame_interval_median_ms": 1.449,
+      "frame_interval_p95_ms": 2.626,
+      "reflection_capture_draw_calls_max": 6,
+      "shadow_draw_calls_max": 0,
+      "visible_draw_calls_max": 33,
+      "visible_primitives_max": 53368
     },
     "ziling_zhou": {
       "active_practicals": 1,
-      "frame_interval_median_ms": 5.275,
-      "frame_interval_p95_ms": 6.314,
+      "combined_draw_call_upper_bound": 110,
+      "frame_interval_median_ms": 1.429,
+      "frame_interval_p95_ms": 2.859,
+      "reflection_capture_draw_calls_max": 0,
       "shadow_draw_calls_max": 0,
-      "visible_draw_calls_max": 835,
-      "visible_primitives_max": 112058
+      "visible_draw_calls_max": 110,
+      "visible_primitives_max": 132454
     }
   },
   "vsync": "disabled"

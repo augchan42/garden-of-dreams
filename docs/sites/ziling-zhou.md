@@ -49,3 +49,8 @@ The six-metre water-kit wooden bridge replaces the old footbridge, overlapping b
 ## Flora placement — 2026-10-04
 
 Ten atlas-textured reed clumps replace the previous individual reeds around the landing, preserving the clear footbridge approach. All placed plants share one compressed runtime atlas and switch detail with distance. The assembly export and editable site libraries are synchronized. Further dressing, final lighting and sourced references remain open.
+
+
+### Current lighting coverage — 2026-10-04
+
+All eligible opaque meshes in this saved site now have current source-matched Cycles lightmaps in the full Godot catalog. Native pixels and engine copies are checked; normal exploration uses the maps with static shadow maps disabled. Desktop and portrait arrival captures are refreshed under `docs/reference/route-*-full-baked.png`. Final color, material, noise/texel-density and external reference acceptance remain open.

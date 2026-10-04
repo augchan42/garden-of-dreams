@@ -50,3 +50,8 @@ Two shared-kit banana plants replace the previous leaf and stem meshes while ret
 ## Painted title — 2026-10-04
 
 The temporary Songti glyph geometry is replaced by original painted 怡紅院 lettering on the wood board. Its wood board now projects 0.52 m forward of the original mount, on two short wood supports, clearing the previously intersecting roof eave. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.
+
+
+### Current lighting coverage — 2026-10-04
+
+All eligible opaque meshes in this saved site now have current source-matched Cycles lightmaps in the full Godot catalog. Native pixels and engine copies are checked; normal exploration uses the maps with static shadow maps disabled. Desktop and portrait arrival captures are refreshed under `docs/reference/route-*-full-baked.png`. Final color, material, noise/texel-density and external reference acceptance remain open.

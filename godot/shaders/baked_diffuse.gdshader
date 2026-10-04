@@ -14,6 +14,9 @@ uniform bool use_emission_texture = false;
 uniform bool emission_add = false;
 uniform sampler2D orm_texture : filter_linear_mipmap;
 uniform bool use_orm_texture = false;
+uniform sampler2D normal_texture : hint_normal, filter_linear_mipmap;
+uniform bool use_normal_texture = false;
+uniform float normal_scale = 1.0;
 void fragment() {
  vec3 base=base_color.rgb;
  if(use_albedo_texture)base*=texture(albedo_texture,UV).rgb;
@@ -26,6 +29,10 @@ void fragment() {
  ALBEDO = base;
  ROUGHNESS = material_roughness;
  METALLIC = material_metallic;
+ if(use_normal_texture){
+  NORMAL_MAP = texture(normal_texture,UV).rgb;
+  NORMAL_MAP_DEPTH = normal_scale;
+ }
  // Occlusion is already included in the Cycles bake; do not apply it twice.
  if(use_orm_texture){
   vec3 orm=texture(orm_texture,UV).rgb;

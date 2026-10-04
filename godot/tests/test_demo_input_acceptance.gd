@@ -13,14 +13,29 @@ func button_with_text(container: Node, label: String) -> Button:
  return null
 
 func click(button: Button) -> void:
- # Deferred container fitting moves the startup button before the first draw.
- # Click the position the visitor can actually see.
- await RenderingServer.frame_post_draw
- var position = button.get_global_rect().get_center()
+ # Deferred container fitting can span multiple draws on a cold pack launch.
+ # Require drawn bounds to settle before sending real pointer events.
+ # Force the draw: a background macOS window can skip automatic draws while
+ # physics continues, leaving a frame_post_draw wait suspended indefinitely.
+ var previous=Rect2()
+ var stable_frames=0
+ for i in range(30):
+  await process_frame
+  RenderingServer.force_draw()
+  var bounds=button.get_global_rect()
+  stable_frames=stable_frames+1 if bounds==previous else 0
+  previous=bounds
+  if stable_frames>=2:break
+ if stable_frames<2:
+  fail("Pointer target did not settle within 30 drawn frames")
+  return
+ var position = previous.get_center()
  var motion = InputEventMouseMotion.new()
  motion.position = position
- root.push_input(motion, true)
+ # Native startup mouse events can replace the injected hover between frames.
+ # Send the same pointer position with each edge of the test click.
  for down in [true, false]:
+  root.push_input(motion, true)
   var event = InputEventMouseButton.new()
   event.button_index = MOUSE_BUTTON_LEFT
   event.position = position

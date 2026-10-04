@@ -10,28 +10,28 @@ This is a structural inspection. It does not establish complete dressing, visual
 
 | Site | Markers | Cameras | Temporary typeset sign | Current bake records / eligible meshes |
 | --- | ---: | ---: | --- | ---: |
-| [aojing-guan](sites/aojing-guan.md) | 3 | 4 | — | 0/6 |
+| [aojing-guan](sites/aojing-guan.md) | 3 | 4 | — | 6/6 |
 | [daguan-lou](sites/daguan-lou.md) | 3 | 2 | — | 9/9 |
-| [daoxiang-cun](sites/daoxiang-cun.md) | 4 | 4 | — | 0/8 |
-| [hengwu-yuan](sites/hengwu-yuan.md) | 4 | 3 | — | 0/10 |
-| [longcui-an](sites/longcui-an.md) | 4 | 3 | — | 0/7 |
-| [ouxiang-xie](sites/ouxiang-xie.md) | 4 | 2 | — | 0/6 |
+| [daoxiang-cun](sites/daoxiang-cun.md) | 4 | 4 | — | 8/8 |
+| [hengwu-yuan](sites/hengwu-yuan.md) | 4 | 3 | — | 10/10 |
+| [longcui-an](sites/longcui-an.md) | 4 | 3 | — | 7/7 |
+| [ouxiang-xie](sites/ouxiang-xie.md) | 4 | 2 | — | 6/6 |
 | [qinfang-ting](sites/qinfang-ting.md) | 7 | 3 | — | 20/20 |
 | [qiushuang-zhai](sites/qiushuang-zhai.md) | 5 | 4 | — | 10/10 |
 | [rockery-gate](sites/rockery-gate.md) | 3 | 4 | — | 6/6 |
 | [terminal-cells](sites/terminal-cells.md) | 18 | 2 | — | 7/7 |
 | [tubi-tang](sites/tubi-tang.md) | 5 | 3 | — | 10/10 |
-| [xiaoxiang-guan](sites/xiaoxiang-guan.md) | 4 | 3 | — | 0/7 |
-| [yihong-yuan](sites/yihong-yuan.md) | 4 | 3 | — | 0/7 |
-| [ziling-zhou](sites/ziling-zhou.md) | 3 | 2 | — | 0/3 |
+| [xiaoxiang-guan](sites/xiaoxiang-guan.md) | 4 | 3 | — | 7/7 |
+| [yihong-yuan](sites/yihong-yuan.md) | 4 | 3 | — | 7/7 |
+| [ziling-zhou](sites/ziling-zhou.md) | 3 | 2 | — | 3/3 |
 
-The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All eight later sites lack current records, totaling 54 eligible meshes. Older PNGs still on disk are not current evidence. The six demo/priority-2 sites have 62 source-compatible records. These were retained through a verified camera-only export, with original bake provenance and proof/texture hashes recorded. They are not new Cycles renders. The comparison covers all non-camera nodes, binary geometry/images, materials, light records and scene membership.
+The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All 116 eligible site meshes now have current records; none are missing. The latest native batch adds 54 later-site records and eight shared-stage records. The earlier 62 were retained through a verified camera-only export with original provenance; they are not newly rendered bakes. The full catalog also passes native finite/nonzero pixel and identical engine-copy checks. Runtime application is checked separately by `test_full_scene_lighting.gd`.
 
 ## Next scene work
 
-1. The seven temporary signs are replaced by original painted lettering. Four boards previously intersected their roof eaves, and the pavilion board sat behind its front post; all five now project forward on short wood supports. All 14 libraries have zero remaining FONT objects. Review remaining site materials and dressing under the reduced-green grade before the final all-site bake. Final sign views are saved as `docs/reference/sign-<site>-{arrival,detail}[-portrait].png`.
-2. Inspect the reflection hall's water-dominant framing against both saved Blender cameras. Its sheet requires water and reflection to occupy half the frame; existing runtime framing is not proof of that requirement.
-3. Finish remaining site materials and dressing, then bake all final eligible meshes and check pixel contents, runtime application, route views and practical-light limits. The demo and priority-2 bakes were refreshed after the final lettering and mount changes.
+1. The seven temporary signs are replaced by original painted lettering. Four boards previously intersected their roof eaves, and the pavilion board sat behind its front post; all five now project forward on short wood supports. All 14 libraries have zero remaining FONT objects. Review remaining site materials and dressing under the reduced-green grade alongside the current all-site bakes. Final sign views are saved as `docs/reference/sign-<site>-{arrival,detail}[-portrait].png`.
+2. Inspect the reflection hall's water-dominant framing against both saved Blender cameras. Its sheet requires water and reflection to occupy half the frame; the separate pond action has measured desktop/portrait coverage above half-frame and checked return controls.
+3. Finish remaining site materials and dressing, rebake any altered lighting or geometry and check pixel contents, runtime application, route views and practical-light limits. The demo and priority-2 bakes were refreshed after the final lettering and mount changes.
 4. Collect the three external visual references required by each site sheet. Generated production art and our game captures do not satisfy those reference requirements.
 5. Profile full traversal and a target phone, and verify outstanding service contracts before claiming the full goal complete.
 

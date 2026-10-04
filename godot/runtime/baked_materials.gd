@@ -25,9 +25,10 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
   nodes.append_array(node.get_children())
   if node is OmniLight3D:node.light_cull_mask=3
   elif node is SpotLight3D or node is DirectionalLight3D:
-   # Layer 2 already contains static diffuse lighting. Preserve other receiver
-   # layers and shadow_caster_mask so baked buildings still shadow unbaked paths.
-   node.light_cull_mask &= ~2
+   # Static keys illuminate primary unbaked receivers only. Reflection and
+   # backdrop bits must not reintroduce lighting on baked meshes. Exclusive
+   # linked washes retain their mask; shadow caster masks remain unchanged.
+   node.light_cull_mask=1 if (node.light_cull_mask&1)!=0 else (node.light_cull_mask&~2)
   if not node is MeshInstance3D or not records.has(str(node.name)):continue
   var record=records[str(node.name)]
   var texture=load("res://lightmaps/"+record.texture)
@@ -54,8 +55,14 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
    if source.emission_texture:
     material.set_shader_parameter("emission_texture",source.emission_texture)
     material.set_shader_parameter("use_emission_texture",true)
+   if source.normal_enabled and source.normal_texture:
+    material.set_shader_parameter("normal_texture",source.normal_texture)
+    material.set_shader_parameter("normal_scale",source.normal_scale)
+    material.set_shader_parameter("use_normal_texture",true)
    node.set_surface_override_material(i,material)
   node.material_override=null
-  node.layers=2
+  # Replace the static receiver layer, retaining linked lighting such as the
+  # painted backdrop's layer 4 wash.
+  node.layers=(node.layers&~1)|2
   count+=1
  return count
