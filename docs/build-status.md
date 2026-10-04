@@ -574,3 +574,10 @@ Final import evidence: 166 render meshes, 392 collision shapes, 71 room markers 
 - The stationary desktop pond profile reports 832 combined draws, 115,470 combined visible primitives and 58,990,586 bytes of texture allocation, with 7.312 ms median frame interval active versus 6.301 ms frozen. The draw count exceeds the 150-call target. A temporary diagnostic isolates static shadow cost: the reported main counter is 819 normally and 92 with static-key shadows disabled; disabling keys entirely also gives 92. Eleven of twelve static keys overlap baked receiver layer 2. These toggles are not saved scene behavior.
 - Next: fix static-key receiver isolation, finish later-site lighting/bakes, and remove redundant static shadow work while retaining the set's hard shadows. Final lighting/material/reference acceptance, service contracts, full traversal and phone GPU checks remain open. The goal remains active.
 - The final exported pack passes the pond pointer/keyboard/resize test and a cold desktop launch. Project and pack first-reading/replay checks pass. The rebuilt five-file demo archive passes CRC checks and all four payload SHA256 checks.
+
+## Static-key isolation probe — 2026-10-04
+
+- The pond-view release is committed and pushed as `7ef5140`; its exported pack and archive passed controls, replay, cold launch and checksum checks.
+- A temporary runtime probe cleared baked receiver layer 2 from static Spot/Directional lights. The 33-map source/material/layer test and shared ORM prop adapter test passed, including practical light and linked backdrop masks.
+- Desktop study, imperial and offline hilltop captures completed. Comparing the imperial view against the saved release showed loss of roof and bronze-door visibility. The probe and replacement site references were reverted; three diagnostic captures are retained separately. No production light masks or shadows changed.
+- Next: calibrate authored keys and fresh bakes to retain detail before installing static receiver isolation. Remaining later-site bakes, final colors and references, full traversal/phone performance and service integration acceptance keep the goal active.
