@@ -32,5 +32,7 @@ void fragment() {
   ROUGHNESS *= orm.g;
   METALLIC *= orm.b;
  }
- EMISSION = base * texture(lightmap,UV2).rgb * lightmap_scale + emitted;
+ // Cycles diffuse bakes include Lambert's 1/pi. Compatibility's unit-light
+ // diffuse response omits it; match that response without scaling emission.
+ EMISSION = base * texture(lightmap,UV2).rgb * lightmap_scale * PI + emitted;
 }

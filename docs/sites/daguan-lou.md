@@ -45,3 +45,5 @@ The initial roof UV check found 24 overlapping sampled texels; triangulation bef
 Source scripts: `scripts/refine_imperial_facade.py` and `scripts/finish_imperial_art.py`. Graded Godot references: `docs/reference/route-imperial*.png` and `route-mobile-imperial*.png`.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
+
+The runtime bake adapter now corrects Cycles diffuse transfer for Compatibility and isolates baked receivers from static keys while preserving shadow-caster masks. Desktop and portrait views are refreshed; final material, bake noise and texel-density acceptance remain open. See `../baked-lighting.md`.

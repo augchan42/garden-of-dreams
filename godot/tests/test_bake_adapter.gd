@@ -10,10 +10,19 @@ func _initialize() -> void:
    quit(1)
    return
  var sources={}
+ var static_masks={}
+ var static_shadow_masks={}
+ var wash=DirectionalLight3D.new()
+ wash.name="BakeAdapterBackdropProbe"
+ wash.light_cull_mask=4
+ scene.add_child(wash)
  var nodes:Array[Node]=[scene]
  while not nodes.is_empty():
   var node=nodes.pop_back()
   nodes.append_array(node.get_children())
+  if node is SpotLight3D or node is DirectionalLight3D:
+   static_masks[node]=node.light_cull_mask
+   static_shadow_masks[node]=node.shadow_caster_mask
   if node is MeshInstance3D and records.has(str(node.name)):
    sources[str(node.name)]=node.get_active_material(0)
  var invalid=records.duplicate(true)
@@ -29,6 +38,18 @@ func _initialize() -> void:
  while not nodes.is_empty():
   var node=nodes.pop_back()
   nodes.append_array(node.get_children())
+  if node is SpotLight3D or node is DirectionalLight3D:
+   if (node.light_cull_mask&2)!=0 or node.light_cull_mask!=(static_masks[node]&~2) or node.shadow_caster_mask!=static_shadow_masks[node]:
+    push_error("Static keys must exclude baked receivers and preserve other receiver layers")
+    scene.free()
+    quit(1)
+    return
+  elif node is OmniLight3D:
+   if node.light_cull_mask!=3:
+    push_error("Practical lights must illuminate both receiver layers")
+    scene.free()
+    quit(1)
+    return
   if node is MeshInstance3D and sources.has(str(node.name)):
    var source=sources[str(node.name)]
    var material=node.get_active_material(0)
@@ -43,5 +64,5 @@ func _initialize() -> void:
     quit(1)
     return
  scene.free()
- print("BAKE_ADAPTER_PASS ",count," maps, matching source hash and material properties")
+ print("BAKE_ADAPTER_PASS ",count," maps, source/material properties and static/practical/backdrop receiver masks")
  quit(0)

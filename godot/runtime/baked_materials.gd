@@ -24,6 +24,10 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
   var node=nodes.pop_back()
   nodes.append_array(node.get_children())
   if node is OmniLight3D:node.light_cull_mask=3
+  elif node is SpotLight3D or node is DirectionalLight3D:
+   # Layer 2 already contains static diffuse lighting. Preserve other receiver
+   # layers and shadow_caster_mask so baked buildings still shadow unbaked paths.
+   node.light_cull_mask &= ~2
   if not node is MeshInstance3D or not records.has(str(node.name)):continue
   var record=records[str(node.name)]
   var texture=load("res://lightmaps/"+record.texture)

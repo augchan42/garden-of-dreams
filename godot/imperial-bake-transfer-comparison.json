@@ -1,0 +1,176 @@
+{
+  "scope": "Fixed desktop imperial regions before and after the diffuse transfer correction. Diagnostic captures; no final art or performance acceptance.",
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "before": {
+    "isolated_compressed": {
+      "doors": {
+        "mean_display_rgb": [
+          0.0454168356955051,
+          0.0343254581093788,
+          0.00798722170293331
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.0512153618037701,
+          0.0680130571126938,
+          0.057953093200922
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    },
+    "isolated_native": {
+      "doors": {
+        "mean_display_rgb": [
+          0.0529983378946781,
+          0.0397050231695175,
+          0.0104053253307939
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.0539110563695431,
+          0.070347972214222,
+          0.0596371181309223
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    },
+    "release": {
+      "doors": {
+        "mean_display_rgb": [
+          0.132657125592232,
+          0.0980760678648949,
+          0.0440417900681496
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.151942208409309,
+          0.175711989402771,
+          0.128759413957596
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    }
+  },
+  "after": {
+    "isolated_compressed": {
+      "doors": {
+        "mean_display_rgb": [
+          0.138910949230194,
+          0.103104971349239,
+          0.0397171154618263
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.105989575386047,
+          0.138128668069839,
+          0.106652855873108
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    },
+    "isolated_native": {
+      "doors": {
+        "mean_display_rgb": [
+          0.167061120271683,
+          0.12293952703476,
+          0.051982868462801
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.113049060106277,
+          0.144149869680405,
+          0.110537722706795
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    },
+    "release": {
+      "doors": {
+        "mean_display_rgb": [
+          0.230764478445053,
+          0.165652438998222,
+          0.0752631649374962
+        ],
+        "sample_rect": [
+          500,
+          285,
+          410,
+          100
+        ]
+      },
+      "roof": {
+        "mean_display_rgb": [
+          0.204260438680649,
+          0.242394343018532,
+          0.176822692155838
+        ],
+        "sample_rect": [
+          450,
+          100,
+          570,
+          120
+        ]
+      }
+    }
+  }
+}

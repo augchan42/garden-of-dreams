@@ -51,3 +51,5 @@ The existing dressing now uses fitted prop-library meshes with a shared PBR atla
 ## Shared tech placement — 2026-10-04
 
 Three fitted four-monitor banks, three timber desks with keyboards and three cable drops now use the shared tech library. The twelve-screen layout, lattice fronts, painted scrolls, bank actions, lights and approach collision remain in place. Desktop and portrait arrival and all three bank views were inspected. Current Cycles coverage is nine opaque hall batches; static CRT artwork does not report live bulletin state. Source-matched bakes and route checks pass. Details: `../kits/tech.md`.
+
+The runtime bake adapter now corrects Cycles diffuse transfer for Compatibility and isolates baked receivers from static keys while preserving shadow-caster masks. Desktop and portrait views are refreshed; final material, bake noise and texel-density acceptance remain open. See `../baked-lighting.md`.

@@ -13,6 +13,9 @@ func button_with_text(container: Node, label: String) -> Button:
  return null
 
 func click(button: Button) -> void:
+ # Deferred container fitting moves the startup button before the first draw.
+ # Click the position the visitor can actually see.
+ await RenderingServer.frame_post_draw
  var position = button.get_global_rect().get_center()
  var motion = InputEventMouseMotion.new()
  motion.position = position
