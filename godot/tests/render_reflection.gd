@@ -20,5 +20,7 @@ func run() -> void:
  await capture(prefix+"-doors")
  route.execute_command("reflection")
  await capture(prefix+"-water")
+ route._finish_pond_view()
+ await capture(prefix+"-return")
  print("REFLECTION_VIEWS_SAVED ",prefix)
  quit(0)

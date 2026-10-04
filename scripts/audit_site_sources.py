@@ -76,6 +76,8 @@ assert len(authoring) == 14, sorted(authoring)
 records = [json.loads(path.read_text()) for path in (ROOT / 'export/lightmaps').glob('*.json')]
 fresh = {r['mesh'] for r in records if r.get('source_glb_sha256') == source_hash
          and (ROOT / 'export/lightmaps' / r['texture']).exists()}
+revalidated = {r['mesh'] for r in records if r.get('source_glb_sha256') == source_hash
+               and r.get('camera_only_revalidation')}
 report = {'source_glb_sha256': source_hash, 'authoring_sha256': sha(ROOT / 'blender/authoring.blend'),
           'scope': 'Saved library structure, sign implementation, and source-matched bake records. '
                    'Does not prove art quality, routes, runtime bake application, references, or performance.',
@@ -109,6 +111,7 @@ for slug in sorted(authoring):
         'structural_differences_from_authoring': differing,
         'signs_match_authoring': saved['signs'] == master['signs'],
         'source_matched_bakes': len(set(expected) & fresh),
+        'camera_only_revalidated_bakes': len(set(expected) & revalidated),
         'expected_opaque_bake_meshes': len(expected),
         'missing_current_bakes': sorted(set(expected) - fresh),
         'triggers_without_room_id': [t['name'] for t in saved['triggers'] if not t['room_id']],

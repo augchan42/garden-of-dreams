@@ -17,7 +17,8 @@ def source_point(point):
 
 shots = [
     ('wide', (26, 4, 24), (26, -2.5, 14), 70, 'height', (1410, 600)),
-    ('reflection', (26, 4, 24), (26, -2.5, 14), 70, 'height', (1410, 600)),
+    ('reflection', (26, -.5, 20.7), (26, -1.7, 14), 70, 'height', (1410, 600)),
+    ('reflection_portrait', (26, -.5, 20.7), (26, -2.5, 14), 68, 'width', (390, 844)),
     ('portrait', (26, 4, 23), (26, -4.5, 14), 55, 'width', (390, 844)),
 ]
 report = []
@@ -66,7 +67,14 @@ portrait.collection.children.link(collection)
 portrait.unit_settings.system = 'METRIC'
 portrait.render.resolution_x, portrait.render.resolution_y = 390, 844
 portrait.render.resolution_percentage = 100
-portrait.camera = next(o for o in collection.objects if o.name.endswith('_portrait'))
+portrait.camera = next(o for o in collection.objects if o.name == 'CAM_aojing-guan_portrait')
+for suffix, size in [('reflection', (1410, 600)), ('reflection_portrait', (390, 844))]:
+    view = bpy.data.scenes.new('SITE_aojing-guan ' + suffix)
+    view.collection.children.link(collection)
+    view.unit_settings.system = 'METRIC'
+    view.render.resolution_x, view.render.resolution_y = size
+    view.render.resolution_percentage = 100
+    view.camera = next(o for o in collection.objects if o.name == 'CAM_aojing-guan_' + suffix)
 temporary = path.with_name(path.stem + '-packaged.blend')
 bpy.ops.wm.save_as_mainfile(filepath=str(temporary), compress=True)
 os.replace(temporary, path)

@@ -24,7 +24,7 @@ pond_mask=(cross.min(axis=0)>=-2)|(cross.max(axis=0)<=2)
 controls_top=int(region['controls_top'])
 buttons_top=int(region['buttons_top'])
 hud_text=(np.max(a[:,:,:3],axis=2)>=100)&(yy>=controls_top)&(yy<buttons_top)
-assert pond_mask[:controls_top].any()
+assert (pond_mask[:controls_top] if region['controls_visible'] else pond_mask).any()
 report={}
 for name in ['disabled','window-excluded','ripples']:
  b=np.array(Image.open(p/f'pond-check-{name}.png')).astype(int)
@@ -34,7 +34,11 @@ for name in ['disabled','window-excluded','ripples']:
  assert len(x)>100,report[name]
  # Fixed-camera capture changes must leave the hall itself and the controls untouched.
  assert np.max(d[~pond_mask])<=3,name
- assert np.max(d[buttons_top:,:])<=3,name
- assert np.max(d[hud_text])<=3,name
+ if region['controls_visible']:
+  assert np.max(d[buttons_top:,:])<=3,name
+  assert np.max(d[hud_text])<=3,name
+ else:
+  left,top,width,height=map(int,region['return_button_rect'])
+  assert np.max(d[top:top+height,left:left+width])<=3,name
 (root/'godot/reflection-validation.json').write_text(json.dumps(report,indent=2))
 print(json.dumps(report))

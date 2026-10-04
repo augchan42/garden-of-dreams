@@ -12,18 +12,18 @@ fog_enabled = true
 fog_light_color = Color(0.05, 0.2, 0.05, 1)
 fog_density = 0.003
 
-[node name="GardenOfDreams" type="Node3D" unique_id=1965324028]
+[node name="GardenOfDreams" type="Node3D" unique_id=1332139397]
 
-[node name="Garden Godot export" type="Node3D" parent="." unique_id=2130646858 instance=ExtResource("1_g41ti")]
+[node name="Garden Godot export" type="Node3D" parent="." unique_id=968172033 instance=ExtResource("1_g41ti")]
 
-[node name="PreviewCamera" type="Camera3D" parent="." unique_id=914146564]
+[node name="PreviewCamera" type="Camera3D" parent="." unique_id=1496205880]
 transform = Transform3D(0.8892878, -0.07116878, 0.45177668, 2.2351742e-08, 0.9878183, 0.15561183, -0.457348, -0.1383837, 0.87845474, 18, 10, 30)
 current = true
 fov = 26.922297
 near = 0.1
 far = 250.0
 
-[node name="GardenEnvironment" type="WorldEnvironment" parent="." unique_id=1046234239]
+[node name="GardenEnvironment" type="WorldEnvironment" parent="." unique_id=500954713]
 environment = SubResource("Environment_tcrr1")
 
-[node name="ColorGrade" type="CanvasLayer" parent="." unique_id=821808668 instance=ExtResource("2_gkxw0")]
+[node name="ColorGrade" type="CanvasLayer" parent="." unique_id=1933050628 instance=ExtResource("2_gkxw0")]

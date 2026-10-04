@@ -7,8 +7,16 @@
   "samples": 32,
   "uv_channel": 1,
   "uv_sha256": "ec7b2706bf71103483983c8c1ddce6b8f8081afd61ed0d2f0192bc8bd258b8f5",
-  "source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
   "nonzero_fraction": 0.3125,
   "point_lights_baked": false,
-  "status": "Cycles bake produced; engine look verification pending"
+  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
+  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
+  "camera_only_revalidation": {
+    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
+    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+    "proof": "reflection-camera-alignment.json",
+    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
+    "texture_sha256": "518f2759909c889ea4553dfe8c0086127b6d373a863d5cde7c26427df904d62a"
+  }
 }

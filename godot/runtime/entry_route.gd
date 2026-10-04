@@ -62,6 +62,8 @@ var demo_has_reading = false
 var demo_last_reading: Dictionary = {}
 var gate_reveal_active = false
 var gate_reveal_done = false
+var pond_view_active = false
+var pond_return_button: Button
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
 
@@ -129,7 +131,7 @@ func _ready() -> void:
   demo_audio = preload("res://runtime/demo_audio.gd").new()
   demo_audio.name = "DemoAudio"
   add_child(demo_audio)
- get_viewport().size_changed.connect(func(): call_deferred("_fit_action_list"))
+ get_viewport().size_changed.connect(_on_viewport_resized)
  _arrive("terminal_room", true)
 
 func _build_ui() -> void:
@@ -151,6 +153,13 @@ func _build_ui() -> void:
  style.content_margin_bottom = 12
  panel.add_theme_stylebox_override("panel", style)
  layer.add_child(panel)
+ pond_return_button = Button.new()
+ pond_return_button.text = "Return to ledge"
+ pond_return_button.custom_minimum_size = Vector2(180,44)
+ layer.add_child(pond_return_button)
+ pond_return_button.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
+ pond_return_button.pressed.connect(_finish_pond_view)
+ pond_return_button.hide()
  var stack = VBoxContainer.new()
  stack.add_theme_constant_override("separation", 7)
  panel.add_child(stack)
@@ -188,6 +197,9 @@ func _build_ui() -> void:
 
 func execute_command(text: String) -> void:
  var cmd = text.strip_edges().to_lower()
+ if pond_view_active:
+  if cmd in ["back","exit","look"]:_finish_pond_view()
+  return
  if travelling:
   output_label.text = "You are on the path. The next room's actions will appear when you arrive."
   return
@@ -262,10 +274,8 @@ func execute_command(text: String) -> void:
    else: output_label.text = "The pond approach starts at the red courtyard."
   "reflection":
    if room_id == "aojing_guan":
-    output_label.text = "The pond sits below the dry ledge. The window and roof reflect in the green water, broken by small moving ripples."
-    var view = _reflection_view()
-    camera.fov = view[2]
-    _camera_to(view[0],view[1])
+    output_label.text = "The pond sits below the dry ledge. The window and roof reflect in dark water, broken by small moving ripples."
+    _begin_pond_view()
    else: output_label.text = "The low pond lies beside the water-level hall."
   "nunnery":
    if room_id == "ouxiang_xie": _travel(NUNNERY_PATH,"longcui_an")
@@ -441,8 +451,10 @@ func _cast_at_table() -> void:
   add_child(card)
 
 func _travel(points: Array, target_room: String) -> void:
+ _clear_pond_view()
  if demo_mode and room_id == "rockery_gate" and target_room == "qinfang_ting":demo_audio.start_tunnel()
  camera.keep_aspect = Camera3D.KEEP_HEIGHT
+ camera.fov = 55.0
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
  gate_reveal_active = false
  gate_reveal_done = false
@@ -527,9 +539,14 @@ func _physics_process(delta: float) -> void:
     push_error("ROUTE_OBSTRUCTED: %s waypoint %d at %s" % [destination,waypoint,player.position])
  player.move_and_slide()
 
-func _reflection_view() -> Array:
+func _reflection_view(pond = false) -> Array:
  var portrait = get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y
- var authored = find_child("CAM_aojing-guan_portrait*" if portrait else "CAM_aojing-guan_wide*",true,false) as Camera3D
+ var name_pattern = "CAM_aojing-guan_portrait*" if portrait else "CAM_aojing-guan_wide*"
+ var authored = find_child(name_pattern,true,false) as Camera3D
+ if pond:
+  var candidates = find_children("CAM_aojing-guan_reflection*","Camera3D",true,false).filter(func(candidate):return ("portrait" in str(candidate.name))==portrait)
+  assert(candidates.size()==1,"The pond shot must have one authored camera per aspect")
+  authored = candidates[0]
  assert(authored != null,"The reflection hall's authored camera is missing")
  var fov = authored.fov
  if portrait:
@@ -537,7 +554,52 @@ func _reflection_view() -> Array:
   fov = rad_to_deg(2 * atan(tan(deg_to_rad(fov) / 2) * float(viewport[0]) / float(viewport[1])))
  return [authored.global_position,authored.global_position-authored.global_basis.z*10,fov]
 
+func _begin_pond_view(immediate = false) -> void:
+ pond_view_active = true
+ command_panel.hide()
+ input.editable = false
+ pond_return_button.show()
+ status.text = "凹晶館 · Pond reflection"
+ _position_pond_return_button()
+ var view = _reflection_view(true)
+ var size = get_viewport().get_visible_rect().size
+ camera.keep_aspect = Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
+ camera.fov = view[2]
+ _camera_to(view[0],view[1],immediate)
+ pond_return_button.grab_focus()
+
+func _position_pond_return_button() -> void:
+ var size = get_viewport().get_visible_rect().size
+ var top = 56.0 if size.x<size.y else 16.0
+ pond_return_button.offset_left = -204
+ pond_return_button.offset_right = -24
+ pond_return_button.offset_top = top
+ pond_return_button.offset_bottom = top+44
+
+func _clear_pond_view() -> void:
+ pond_view_active = false
+ if is_instance_valid(pond_return_button):pond_return_button.hide()
+
+func _finish_pond_view() -> void:
+ if not pond_view_active:return
+ _clear_pond_view()
+ _arrive("aojing_guan")
+ if actions.get_child_count()>0:actions.get_child(0).grab_focus()
+
+func _unhandled_key_input(event: InputEvent) -> void:
+ if pond_view_active and event is InputEventKey and event.pressed and not event.echo and event.keycode==KEY_ESCAPE:
+  _finish_pond_view()
+  get_viewport().set_input_as_handled()
+
+func _on_viewport_resized() -> void:
+ call_deferred("_fit_action_list")
+ if pond_view_active:call_deferred("_refresh_pond_view")
+
+func _refresh_pond_view() -> void:
+ if pond_view_active:_begin_pond_view(true)
+
 func _arrive(id: String, immediate = false) -> void:
+ _clear_pond_view()
  gate_reveal_active = false
  command_panel.show()
  room_id = id

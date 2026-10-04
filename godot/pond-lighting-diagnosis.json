@@ -1,0 +1,17 @@
+{
+  "keys_overlapping_baked_layer": 11,
+  "scope": "Temporary static-light/shadow toggles to diagnose draw cost. Does not establish visual or performance acceptance.",
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "static_keys": 12,
+  "variants": {
+    "baseline": {
+      "reported_main_draw_calls": 819
+    },
+    "static_keys_disabled": {
+      "reported_main_draw_calls": 92
+    },
+    "static_shadows_disabled": {
+      "reported_main_draw_calls": 92
+    }
+  }
+}

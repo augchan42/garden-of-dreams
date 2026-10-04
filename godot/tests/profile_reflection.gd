@@ -10,7 +10,7 @@ func run() -> void:
  route.execute_command("reflection")
  await create_timer(1.6).timeout
  var mirror=route.get_node("PondReflection")
- var report={"device":RenderingServer.get_video_adapter_name(),"scope":"Stationary desktop pond view; dynamic shadows still enabled. Not target-phone performance.","variants":{}}
+ var report={"device":RenderingServer.get_video_adapter_name(),"viewport":[root.size.x,root.size.y],"source_glb_sha256":FileAccess.get_sha256("res://assets/garden-of-dreams.glb"),"scope":"Stationary desktop pond view; dynamic shadows still enabled. Main and reflection capture recorded separately. Not target-phone or full-traversal performance.","variants":{}}
  for active in [true,false]:
   mirror.set_process(active)
   mirror.viewport.render_target_update_mode=SubViewport.UPDATE_ALWAYS if active else SubViewport.UPDATE_DISABLED
@@ -25,7 +25,11 @@ func run() -> void:
   times.sort()
   var visible=RenderingServer.viewport_get_render_info(mirror.viewport.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE,RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME) if active else 0
   var shadows=RenderingServer.viewport_get_render_info(mirror.viewport.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_SHADOW,RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME) if active else 0
-  report.variants["capture_active" if active else "capture_frozen"]={"median_frame_interval_ms":times[60],"capture_visible_draws":visible,"capture_shadow_draws":shadows,"texture_memory_bytes":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TEXTURE_MEM_USED),"capture_size":[mirror.viewport.size.x,mirror.viewport.size.y]}
+  var main_visible=RenderingServer.viewport_get_render_info(root.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE,RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME)
+  var main_shadows=RenderingServer.viewport_get_render_info(root.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_SHADOW,RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME)
+  var main_primitives=RenderingServer.viewport_get_render_info(root.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE,RenderingServer.VIEWPORT_RENDER_INFO_PRIMITIVES_IN_FRAME)
+  var capture_primitives=RenderingServer.viewport_get_render_info(mirror.viewport.get_viewport_rid(),RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE,RenderingServer.VIEWPORT_RENDER_INFO_PRIMITIVES_IN_FRAME) if active else 0
+  report.variants["capture_active" if active else "capture_frozen"]={"median_frame_interval_ms":times[60],"main_visible_draws":main_visible,"main_shadow_draws":main_shadows,"capture_visible_draws":visible,"capture_shadow_draws":shadows,"visible_draws_combined":main_visible+visible,"visible_primitives_combined":main_primitives+capture_primitives,"texture_memory_bytes":RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TEXTURE_MEM_USED),"capture_size":[mirror.viewport.size.x,mirror.viewport.size.y]}
  FileAccess.open("res://profile-reflection.json",FileAccess.WRITE).store_string(JSON.stringify(report,"  "))
  print("REFLECTION_PROFILE ",report)
  quit(0)

@@ -19,11 +19,24 @@ func run() -> void:
  await capture("baseline")
  # Record the projected pond so comparisons remain valid when the shot changes.
  var polygon:Array = []
- for corner in [Vector3(20.5,-1.1,14),Vector3(32,-1.1,14),Vector3(32,-1.1,21),Vector3(20.5,-1.1,21)]:
+ var corners:Array[Vector3]=[Vector3(20.5,-1.1,14),Vector3(32,-1.1,14),Vector3(32,-1.1,21),Vector3(20.5,-1.1,21)]
+ var clipped:Array[Vector3]=[]
+ var view=route.camera.get_camera_transform().affine_inverse()
+ var previous=corners[-1]
+ var previous_z=(view*previous).z
+ for corner in corners:
+  var z=(view*corner).z
+  if (z<=-route.camera.near)!=(previous_z<=-route.camera.near):
+   clipped.append(previous.lerp(corner,(-route.camera.near-previous_z)/(z-previous_z)))
+  if z<=-route.camera.near:clipped.append(corner)
+  previous=corner
+  previous_z=z
+ for corner in clipped:
   var point:Vector2 = route.camera.unproject_position(corner)
   polygon.append([point.x,point.y])
  var metadata = FileAccess.open("res://../godot/reflection-capture-region.json",FileAccess.WRITE)
- metadata.store_string(JSON.stringify({"pond_polygon":polygon,"controls_top":route.command_panel.global_position.y,"buttons_top":route.actions.global_position.y,"viewport":[root.size.x,root.size.y]},"  "))
+ var button_rect=route.pond_return_button.get_global_rect()
+ metadata.store_string(JSON.stringify({"pond_polygon":polygon,"controls_visible":route.command_panel.visible,"controls_top":route.command_panel.global_position.y,"buttons_top":route.actions.global_position.y,"return_button_rect":[button_rect.position.x,button_rect.position.y,button_rect.size.x,button_rect.size.y],"viewport":[root.size.x,root.size.y]},"  "))
  metadata.close()
  mirror.material.set_shader_parameter("reflection_strength",0.0)
  await capture("disabled")

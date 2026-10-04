@@ -2,7 +2,7 @@
 
 Inspected all 14 saved site libraries, the authoring scene and the individual site GLBs on 2026-10-04. Evidence: [`export/site-source-audit.json`](../export/site-source-audit.json). Reproduce with Blender in background mode and `scripts/audit_site_sources.py`.
 
-Current assembly SHA256: `4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b`.
+Current assembly SHA256: `13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257`.
 
 Each library has a saved scene. All camera, light, collision and trigger names, transforms and room IDs match the corresponding authoring collection. Camera lens, sensor, clipping and runtime viewport/FOV metadata also match. All 71 trigger empties have room IDs. Sign implementations also match. Blender MCP independently checked the saved library catalogs and hashes without modifying the open scene.
 
@@ -10,7 +10,7 @@ This is a structural inspection. It does not establish complete dressing, visual
 
 | Site | Markers | Cameras | Temporary typeset sign | Current bake records / eligible meshes |
 | --- | ---: | ---: | --- | ---: |
-| [aojing-guan](sites/aojing-guan.md) | 3 | 3 | — | 0/6 |
+| [aojing-guan](sites/aojing-guan.md) | 3 | 4 | — | 0/6 |
 | [daguan-lou](sites/daguan-lou.md) | 3 | 2 | — | 9/9 |
 | [daoxiang-cun](sites/daoxiang-cun.md) | 4 | 4 | — | 0/8 |
 | [hengwu-yuan](sites/hengwu-yuan.md) | 4 | 3 | — | 0/10 |
@@ -25,7 +25,7 @@ This is a structural inspection. It does not establish complete dressing, visual
 | [yihong-yuan](sites/yihong-yuan.md) | 4 | 3 | — | 0/7 |
 | [ziling-zhou](sites/ziling-zhou.md) | 3 | 2 | — | 0/3 |
 
-The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All eight later sites lack current records, totaling 54 eligible meshes. Older PNGs still on disk are not current evidence. The six demo/priority-2 sites have 62 current records.
+The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All eight later sites lack current records, totaling 54 eligible meshes. Older PNGs still on disk are not current evidence. The six demo/priority-2 sites have 62 source-compatible records. These were retained through a verified camera-only export, with original bake provenance and proof/texture hashes recorded. They are not new Cycles renders. The comparison covers all non-camera nodes, binary geometry/images, materials, light records and scene membership.
 
 ## Next scene work
 
