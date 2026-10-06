@@ -5,6 +5,7 @@ func _initialize() -> void:
 
 func run() -> void:
  var route = load("res://runtime/entry_route.tscn").instantiate()
+ route.site_bakes_enabled=false
  root.add_child(route)
  await process_frame
  var garden = route.get_node("GardenOfDreams")
@@ -20,5 +21,5 @@ func run() -> void:
    assert((str(node.name).begins_with("SITE_stage_MAT_cyclorama") or str(node.name).begins_with("SITE_stage_MAT_stage_cyclorama_")) or str(node.name).begins_with("SITE_stage_MAT_painted_mountains_") or str(node.name).begins_with("SITE_stage_MAT_painted_moon"))
    receivers += 1
  assert(receivers == 5)
- print("BACKDROP_WASH_PASS: five painted receivers, no building receivers")
+ print("DYNAMIC_BACKDROP_DIAGNOSTIC_PASS: five painted receivers, no building receivers")
  quit(0)

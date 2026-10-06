@@ -14,6 +14,31 @@ static func source_matches(records:Dictionary) -> bool:
   if record.get("source_glb_sha256","")!=digest:return false
  return true
 
+static func material_from_source(source:BaseMaterial3D) -> ShaderMaterial:
+ var material=ShaderMaterial.new()
+ material.shader=load("res://shaders/baked_diffuse.gdshader")
+ material.set_shader_parameter("source_unshaded",source.shading_mode==BaseMaterial3D.SHADING_MODE_UNSHADED)
+ material.set_shader_parameter("base_color",source.albedo_color)
+ material.set_shader_parameter("material_roughness",source.roughness)
+ material.set_shader_parameter("material_metallic",source.metallic)
+ material.set_shader_parameter("material_emission",source.emission if source.emission_enabled else Color.BLACK)
+ material.set_shader_parameter("emission_energy",source.emission_energy_multiplier)
+ material.set_shader_parameter("emission_add",source.emission_operator==BaseMaterial3D.EMISSION_OP_ADD)
+ if source is ORMMaterial3D and source.orm_texture:
+  material.set_shader_parameter("orm_texture",source.orm_texture)
+  material.set_shader_parameter("use_orm_texture",true)
+ if source.albedo_texture:
+  material.set_shader_parameter("albedo_texture",source.albedo_texture)
+  material.set_shader_parameter("use_albedo_texture",true)
+ if source.emission_texture:
+  material.set_shader_parameter("emission_texture",source.emission_texture)
+  material.set_shader_parameter("use_emission_texture",true)
+ if source.normal_enabled and source.normal_texture:
+  material.set_shader_parameter("normal_texture",source.normal_texture)
+  material.set_shader_parameter("normal_scale",source.normal_scale)
+  material.set_shader_parameter("use_normal_texture",true)
+ return material
+
 static func apply_to_scene(scene:Node, records:Dictionary) -> int:
  if not source_matches(records):
   push_error("Lightmaps do not match the imported garden")
@@ -36,29 +61,10 @@ static func apply_to_scene(scene:Node, records:Dictionary) -> int:
   for i in range(node.mesh.get_surface_count()):
    var source=node.get_active_material(i)
    assert(source is StandardMaterial3D or source is ORMMaterial3D,"Unsupported baked source material")
-   var material=ShaderMaterial.new()
-   material.shader=load("res://shaders/baked_diffuse.gdshader")
+   var material=material_from_source(source)
+   material.set_shader_parameter("use_lightmap",true)
    material.set_shader_parameter("lightmap",texture)
    material.set_shader_parameter("lightmap_scale",record.scale)
-   material.set_shader_parameter("base_color",source.albedo_color)
-   material.set_shader_parameter("material_roughness",source.roughness)
-   material.set_shader_parameter("material_metallic",source.metallic)
-   material.set_shader_parameter("material_emission",source.emission if source.emission_enabled else Color.BLACK)
-   material.set_shader_parameter("emission_energy",source.emission_energy_multiplier)
-   material.set_shader_parameter("emission_add",source.emission_operator==BaseMaterial3D.EMISSION_OP_ADD)
-   if source is ORMMaterial3D and source.orm_texture:
-    material.set_shader_parameter("orm_texture",source.orm_texture)
-    material.set_shader_parameter("use_orm_texture",true)
-   if source.albedo_texture:
-    material.set_shader_parameter("albedo_texture",source.albedo_texture)
-    material.set_shader_parameter("use_albedo_texture",true)
-   if source.emission_texture:
-    material.set_shader_parameter("emission_texture",source.emission_texture)
-    material.set_shader_parameter("use_emission_texture",true)
-   if source.normal_enabled and source.normal_texture:
-    material.set_shader_parameter("normal_texture",source.normal_texture)
-    material.set_shader_parameter("normal_scale",source.normal_scale)
-    material.set_shader_parameter("use_normal_texture",true)
    node.set_surface_override_material(i,material)
   node.material_override=null
   # Replace the static receiver layer, retaining linked lighting such as the

@@ -1,0 +1,34 @@
+{
+  "mesh": "SITE_stage_MAT_painted_moon",
+  "texture": "SITE_stage_MAT_painted_moon-front.png",
+  "scale": 1.0,
+  "sides": {
+    "front": {
+      "texture": "SITE_stage_MAT_painted_moon-front.png",
+      "scale": 1.0,
+      "linear_max": 0.0795072466135025,
+      "nonzero_fraction": 0.21535110473632812,
+      "png_sha256": "dd96c5534aa2fc03c912bbb8825a4cf8f7e8e4863638763a13b46817a3a1e76c"
+    },
+    "back": {
+      "texture": "SITE_stage_MAT_painted_moon-back.png",
+      "scale": 1.0,
+      "linear_max": 0.0009602394420653582,
+      "nonzero_fraction": 6.4849853515625e-05,
+      "png_sha256": "e464312366974618310be0057c11aefabd0450c9df2ecfcd65be0bc4ebacacf3"
+    }
+  },
+  "double_sided": true,
+  "backface_uv_mapping_verified": true,
+  "unoccluded_control_max": null,
+  "size": 512,
+  "samples": 128,
+  "uv_channel": 1,
+  "uv_sha256": "5b099e5e3229f0bd447f7af7de01b7d1a6392552f2c0a1b6c6c48a3b32db1ba1",
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "stage_blend_sha256": "a791e23f19fa1e820a4ae26f0aa2525f6b24d4d8163450a35c5907b9fd6666b9",
+  "point_lights_baked": false,
+  "pass_filter": [
+    "DIRECT"
+  ]
+}

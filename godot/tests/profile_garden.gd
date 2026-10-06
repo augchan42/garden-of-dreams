@@ -19,6 +19,7 @@ func run() -> void:
    push_error("Incomplete bake coverage in benchmark")
    quit(1)
    return
+  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(route.get_node("GardenOfDreams"))==5)
  var lights={"directional":0,"spot":0,"omni_enabled":0}
  var nodes:Array[Node]=[route]
  while not nodes.is_empty():

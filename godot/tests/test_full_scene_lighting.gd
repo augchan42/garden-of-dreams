@@ -17,13 +17,13 @@ func run():
    return
  for light in route.find_children("*","Light3D",true,false):
   if light is SpotLight3D or light is DirectionalLight3D:
-   var expected_mask=4 if str(light.name)=="BackdropWash" else 1
+   var expected_mask=1
    if light.shadow_enabled or light.light_cull_mask!=expected_mask:
     push_error("Complete static bakes still use static receiver lighting or shadow maps")
     quit(1)
     return
  assert((route.find_child("SITE_stage_MAT_painted_moon",true,false).layers&6)==6)
- assert((route.find_child("SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas",true,false).layers&5)==5)
- assert(route.find_child("BackdropWash",true,false).light_cull_mask==4)
+ assert((route.find_child("SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas",true,false).layers&7)==6)
+ assert(route.find_child("BackdropWash",true,false)==null)
  print("FULL_SCENE_LIGHTING_PASS: 124 baked receivers, compressed maps, static shadow maps disabled, linked backdrop retained")
  quit()

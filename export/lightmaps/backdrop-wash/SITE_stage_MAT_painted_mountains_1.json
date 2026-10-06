@@ -1,0 +1,34 @@
+{
+  "mesh": "SITE_stage_MAT_painted_mountains_1",
+  "texture": "SITE_stage_MAT_painted_mountains_1-front.png",
+  "scale": 1.0,
+  "sides": {
+    "front": {
+      "texture": "SITE_stage_MAT_painted_mountains_1-front.png",
+      "scale": 1.0,
+      "linear_max": 0.0,
+      "nonzero_fraction": 0.0,
+      "png_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "back": {
+      "texture": "SITE_stage_MAT_painted_mountains_1-back.png",
+      "scale": 1.0,
+      "linear_max": 0.00044626108137890697,
+      "nonzero_fraction": 0.000469207763671875,
+      "png_sha256": "9c8b3ea348cff4be03eedd8d6471c9d4e072060588893cac7f4b71c7f37a2bf2"
+    }
+  },
+  "double_sided": true,
+  "backface_uv_mapping_verified": true,
+  "unoccluded_control_max": null,
+  "size": 512,
+  "samples": 128,
+  "uv_channel": 1,
+  "uv_sha256": "31ca5f33801766d6233cd69b74f855e6f881dd986167a9859518f6206dc5bef2",
+  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "stage_blend_sha256": "a791e23f19fa1e820a4ae26f0aa2525f6b24d4d8163450a35c5907b9fd6666b9",
+  "point_lights_baked": false,
+  "pass_filter": [
+    "DIRECT"
+  ]
+}

@@ -6,11 +6,6 @@ func _initialize() -> void:
 func run() -> void:
  var route=load("res://runtime/entry_route.tscn").instantiate()
  root.add_child(route)
- var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/index.json"))
- if preload("res://runtime/baked_materials.gd").apply_to_scene(route,records)!=records.size():
-  push_error("Incomplete traversal bake")
-  quit(1)
-  return
  var nodes:Array[Node]=[route]
  while not nodes.is_empty():
   var node=nodes.pop_back()
@@ -33,7 +28,8 @@ func run() -> void:
   var maximum_practicals=0
   var minimum_y=route.player.position.y
   while route.travelling:
-   await RenderingServer.frame_post_draw
+   await process_frame
+   RenderingServer.force_draw()
    var now=Time.get_ticks_msec()
    minimum_y=minf(minimum_y,route.player.position.y)
    var active=route.get_node("PracticalLights").lights.filter(func(light):return light.visible).size()

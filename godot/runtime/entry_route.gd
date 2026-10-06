@@ -95,6 +95,8 @@ func _ready() -> void:
   for light in environment.find_children("*", "Light3D", true, false):
    if light is SpotLight3D or light is DirectionalLight3D:
     light.shadow_enabled = false
+ if demo_mode or site_bakes_enabled:
+  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(environment)==5,"Incomplete native backdrop wash")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)

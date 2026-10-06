@@ -5,7 +5,8 @@ func _initialize() -> void:
 
 func capture(route: Node, label: String) -> void:
  await create_timer(1.8).timeout
- await RenderingServer.frame_post_draw
+ await process_frame
+ RenderingServer.force_draw()
  var image = root.get_texture().get_image()
  var suffix="-full-baked" if "--full-baked" in OS.get_cmdline_user_args() else ("-baked" if "--baked" in OS.get_cmdline_user_args() else "")
  var result = image.save_png("res://../docs/reference/route-"+label+suffix+".png")
@@ -25,6 +26,7 @@ func run() -> void:
    push_error("Incomplete route bake")
    quit(1)
    return
+  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(route.get_node("GardenOfDreams"))==5)
   var nodes:Array[Node]=[route]
   while not nodes.is_empty():
    var node=nodes.pop_back()

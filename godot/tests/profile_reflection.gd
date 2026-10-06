@@ -10,6 +10,7 @@ func run() -> void:
  if full_baked:
   var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/full-index.json"))
   assert(preload("res://runtime/baked_materials.gd").apply_to_scene(route,records)==records.size())
+  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(route.get_node("GardenOfDreams"))==5)
   for light in route.find_children("*","Light3D",true,false):
    if light is SpotLight3D or light is DirectionalLight3D:light.shadow_enabled=false
  route.player.position=Vector3(26,-.61,13.1)
