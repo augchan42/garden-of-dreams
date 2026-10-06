@@ -16,6 +16,10 @@ glb_hash=hashlib.sha256((ROOT/'export/garden-of-dreams.glb').read_bytes()).hexdi
 stage_hash=hashlib.sha256((ROOT/'blender/sites/SITE_stage.blend').read_bytes()).hexdigest()
 assert manifest['source_glb_sha256']==glb_hash and manifest['stage_blend_sha256']==stage_hash, 'Stale wash source'
 assert manifest['lighting']['type']=='AREA' and manifest['building_control_max']<=1e-7
+assert manifest['authoring_blend_sha256']==hashlib.sha256((ROOT/'blender/authoring.blend').read_bytes()).hexdigest(), 'Stale authoring rig'
+assert len(manifest['lighting']['lights'])==12 and len(manifest['site_blend_sha256'])==12
+for slug,digest in manifest['site_blend_sha256'].items():
+    assert hashlib.sha256((ROOT/'blender/sites'/('SITE_'+slug+'.blend')).read_bytes()).hexdigest()==digest, ('Stale site wash',slug)
 expected={r['mesh'] for r in manifest['lighting']['receivers']}
 assert len(expected)==5 and set(manifest['records'])==expected
 records={}
@@ -24,6 +28,8 @@ for name in sorted(expected):
     assert record==manifest['records'][name]
     assert record['source_glb_sha256']==glb_hash and record['stage_blend_sha256']==stage_hash
     assert record['backface_uv_mapping_verified'] is True
+    assert record['authoring_blend_sha256']==manifest['authoring_blend_sha256']
+    assert record['site_blend_sha256']==manifest['site_blend_sha256'] and record['lights_baked']==12
     assert record['uv_channel']==1 and record['point_lights_baked'] is False and record['pass_filter']==['DIRECT']
     assert math.isfinite(record['scale']) and record['scale']>0
     assert set(record['sides'])==({'front','back'} if record['double_sided'] else {'front'})

@@ -36,3 +36,6 @@ The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`:
 5. Profile full traversal and a target phone, and verify outstanding service contracts before claiming the full goal complete.
 
 The site sheets and earlier build-status entries contain historical statements about unfinished kits. The later kit completion records supersede those statements. They do not supersede the remaining signage, references, final lighting and acceptance requirements.
+
+
+The 2026-10-07 refresh includes twelve owned exterior-site Area washes. All fourteen source libraries retain zero structural differences from authoring and matching current site-sheet hashes. The separate rig inventory distinguishes terminal/window and tunnel/no-wash exceptions, and identifies three missing owned keys. Area lights remain absent from the byte-identical GLBs and transfer through native backdrop maps; those are additional to the table’s ordinary bake counts. See `export/lighting-rig-audit.json` and `baked-lighting.md`.

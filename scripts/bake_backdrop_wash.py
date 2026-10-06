@@ -1,7 +1,7 @@
-"""Bake the saved linked Area wash to the canonical assembly's UV2.
+"""Bake the twelve saved linked Area washes to the canonical assembly's UV2.
 
-The glTF exporter omits Area lights. Reconstruct only the saved stage wash,
-with its exact transform and receiver list, then bake DIRECT diffuse alone.
+The glTF exporter omits Area lights. Reconstruct the saved exterior washes
+with their exact transforms and receiver lists, then bake DIRECT diffuse alone.
 The ordinary scene lightmaps remain independent and are not overwritten.
 """
 import argparse
@@ -26,27 +26,33 @@ source = ROOT/'export/garden-of-dreams.glb'
 stage = ROOT/'blender/sites/SITE_stage.blend'
 source_hash = hashlib.sha256(source.read_bytes()).hexdigest()
 stage_hash = hashlib.sha256(stage.read_bytes()).hexdigest()
+authoring=ROOT/'blender/authoring.blend'
+authoring_hash=hashlib.sha256(authoring.read_bytes()).hexdigest()
 bpy.ops.wm.read_factory_settings(use_empty=True)
-with bpy.data.libraries.load(str(stage), link=False) as (available, loaded):
-    loaded.objects = [n for n in available.objects if n == 'LGT_stage_backdrop_wash']
-wash = loaded.objects[0]
-assert wash and wash.data.type == 'AREA' and wash.light_linking.receiver_collection
-# Library objects are not evaluated until linked to a scene. matrix_basis
-# contains the saved local transform; none of these stage objects has a parent.
-assert wash.parent is None
-receiver_sources = []
-for obj in wash.light_linking.receiver_collection.objects:
+with bpy.data.libraries.load(str(authoring),link=False) as (available,loaded):
+    loaded.objects=[n for n in available.objects if n.endswith('_backdrop_wash') and n.startswith('LGT_')]
+washes=[o for o in loaded.objects if o.data.energy>0]
+assert len(washes)==12 and all(o.data.type=='AREA' for o in washes)
+receiver_set=set(washes[0].light_linking.receiver_collection.objects)
+assert len(receiver_set)==5
+receiver_sources=[]
+for obj in sorted(receiver_set,key=lambda o:o.name):
     assert obj.parent is None
-    materials = [m.name for m in obj.data.materials]
-    target = 'SITE_stage_' + '_'.join(materials)
-    positions = np.asarray([list(obj.matrix_basis @ vertex.co) for vertex in obj.data.vertices])
-    receiver_sources.append({'source_object': obj.name, 'mesh': target,
-                             'bounds': [positions.min(axis=0).tolist(), positions.max(axis=0).tolist()]})
-assert len(receiver_sources) == 5
-lighting = {'type': 'AREA', 'shape': wash.data.shape, 'size': wash.data.size,
-            'size_y': wash.data.size_y, 'energy': wash.data.energy,
-            'color': list(wash.data.color), 'matrix': list(map(list, wash.matrix_basis)),
-            'receivers': receiver_sources, 'pass_filter': ['DIRECT']}
+    materials=[m.name for m in obj.data.materials]
+    target='SITE_stage_'+'_'.join(materials)
+    positions=np.asarray([list(obj.matrix_basis@vertex.co) for vertex in obj.data.vertices])
+    receiver_sources.append({'source_object':obj.name,'mesh':target,
+                             'bounds':[positions.min(axis=0).tolist(),positions.max(axis=0).tolist()]})
+lights=[]
+site_hashes={}
+for wash in sorted(washes,key=lambda o:o.name):
+    assert wash.parent is None and set(wash.light_linking.receiver_collection.objects)==receiver_set
+    slug=wash['wash_site']
+    site_hashes[slug]=hashlib.sha256((ROOT/'blender/sites'/('SITE_'+slug+'.blend')).read_bytes()).hexdigest()
+    lights.append({'name':wash.name,'site':slug,'type':'AREA','shape':wash.data.shape,
+                   'size':wash.data.size,'size_y':wash.data.size_y,'energy':wash.data.energy,
+                   'color':list(wash.data.color),'matrix':list(map(list,wash.matrix_basis))})
+lighting={'type':'AREA','lights':lights,'receivers':receiver_sources,'pass_filter':['DIRECT']}
 bpy.ops.wm.read_factory_settings(use_empty=True)
 bpy.ops.import_scene.gltf(filepath=str(source))
 scene = bpy.context.scene
@@ -80,12 +86,13 @@ for record in receiver_sources:
     assert np.allclose(np.asarray(record['bounds']), [positions.min(axis=0), positions.max(axis=0)], atol=1e-4), ('Source/export receiver geometry differs', record)
     assert len(obj.data.uv_layers) >= 2
     receivers.objects.link(obj)
-data = bpy.data.lights.new('LGT_native_backdrop_wash', 'AREA')
-for key in ['shape', 'size', 'size_y', 'energy', 'color']: setattr(data, key, lighting[key])
-wash = bpy.data.objects.new(data.name, data)
-scene.collection.objects.link(wash)
-wash.matrix_world = Matrix(lighting['matrix'])
-wash.light_linking.receiver_collection = receivers
+for saved in lights:
+    data=bpy.data.lights.new(saved['name'],'AREA')
+    for key in ['shape','size','size_y','energy','color']:setattr(data,key,saved[key])
+    wash=bpy.data.objects.new(data.name,data)
+    scene.collection.objects.link(wash)
+    wash.matrix_world=Matrix(saved['matrix'])
+    wash.light_linking.receiver_collection=receivers
 if options.inspect:
     bpy.context.view_layer.update()
     print('WASH_DIAGNOSTIC_LIGHT', lighting, flush=True)
@@ -93,7 +100,7 @@ if options.inspect:
         transform = obj.matrix_world.to_3x3().inverted().transposed()
         facing = [(transform @ poly.normal).normalized().dot(
             (wash.location - obj.matrix_world @ poly.center).normalized()) for poly in obj.data.polygons]
-        print('WASH_DIAGNOSTIC_MESH', obj.name, 'normal_facing_range', min(facing), max(facing),
+        print('WASH_DIAGNOSTIC_MESH', obj.name, 'normal_facing_range_to_last_light', min(facing), max(facing),
               'nodes', [[(n.type, [(i.name, str(i.default_value)) for i in n.inputs if hasattr(i,'default_value') and i.name in ['Emission Strength','Base Color']]) for n in m.node_tree.nodes] for m in obj.data.materials], flush=True)
     sys.exit(0)
 options.output.mkdir(parents=True, exist_ok=True)
@@ -186,14 +193,19 @@ for obj in receivers.objects:
               'size':options.size, 'samples':options.samples, 'uv_channel':1,
               'uv_sha256':hashlib.sha256(uv.tobytes()).hexdigest(),
               'source_glb_sha256':source_hash, 'stage_blend_sha256':stage_hash,
+              'authoring_blend_sha256':authoring_hash,'site_blend_sha256':site_hashes,'lights_baked':len(lights),
               'point_lights_baked':False,'pass_filter':['DIRECT']}
     (options.output/(obj.name+'.json')).write_text(json.dumps(record,indent=2)+'\n')
     records[obj.name] = record
     print('WASH_BAKED',json.dumps(record),flush=True)
 assert hashlib.sha256(source.read_bytes()).hexdigest()==source_hash
 assert hashlib.sha256(stage.read_bytes()).hexdigest()==stage_hash
+assert hashlib.sha256(authoring.read_bytes()).hexdigest()==authoring_hash
+for slug,digest in site_hashes.items():
+    assert hashlib.sha256((ROOT/'blender/sites'/('SITE_'+slug+'.blend')).read_bytes()).hexdigest()==digest
 assert any(side['linear_max']>1e-5 for record in records.values() for side in record['sides'].values())
 manifest = {'source_glb_sha256': source_hash, 'stage_blend_sha256': stage_hash,
+            'authoring_blend_sha256':authoring_hash,'site_blend_sha256':site_hashes,
             'lighting': lighting, 'building_control_max': control_max,
             'records': records}
 (options.output/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')

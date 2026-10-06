@@ -1,0 +1,18 @@
+{
+  "installed_manifest_sha256": "ff42405b6c758650390359515079572e872948e3c7ba720ae2f3db515b17a35a",
+  "negative_checks": [
+    {
+      "field": "authoring_blend_sha256",
+      "rejected": true,
+      "reason": "Stale authoring rig",
+      "engine_files_unchanged": true
+    },
+    {
+      "field": "site_blend_sha256",
+      "rejected": true,
+      "reason": "Stale site wash",
+      "engine_files_unchanged": true
+    }
+  ],
+  "engine_files_checked": 25
+}

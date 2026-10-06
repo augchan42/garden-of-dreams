@@ -1,5 +1,5 @@
 {
-  "authoring_blend_sha256": "a17a14a7b7af7515a4d8cb88c2972eb96300f5078bb5ffa4217ea5e080fa3a51",
+  "authoring_blend_sha256": "fa5d38949f787d34f26e87378286a091da890cf7df17cb43baa4e600f09fa7b4",
   "scope": "Saved Blender scene lighting inventory; not engine visual or performance acceptance.",
   "sites": {
     "aojing-guan": {
@@ -16,7 +16,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_aojing_guan_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_aojing_window",
@@ -45,7 +63,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_daguan_lou_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": []
     },
     "daoxiang-cun": {
@@ -62,7 +98,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_daoxiang_cun_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_daoxiang_sliver",
@@ -91,7 +145,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_hengwu_yuan_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_lantern.009",
@@ -120,7 +192,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_longcui_an_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_lantern.010",
@@ -137,7 +227,25 @@
     },
     "ouxiang-xie": {
       "keys": [],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_ouxiang_xie_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_lantern.006",
@@ -165,7 +273,25 @@
     },
     "qinfang-ting": {
       "keys": [],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_qinfang_ting_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.6800000071525574,
+            0.7799999713897705,
+            0.7300000190734863
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_lantern",
@@ -227,7 +353,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_qiushuang_zhai_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_study_warm_left.001",
@@ -367,7 +511,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_tubi_tang_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_lantern.008",
@@ -396,7 +558,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_xiaoxiang_guan_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_xiaoxiang_window",
@@ -425,7 +605,25 @@
           "linked_receivers": []
         }
       ],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_yihong_yuan_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": [
         {
           "name": "LGT_yihong_window",
@@ -442,7 +640,25 @@
     },
     "ziling-zhou": {
       "keys": [],
-      "washes": [],
+      "washes": [
+        {
+          "name": "LGT_ziling_zhou_backdrop_wash",
+          "type": "AREA",
+          "energy": 150.0,
+          "color": [
+            0.7200000286102295,
+            0.7799999713897705,
+            0.8399999737739563
+          ],
+          "linked_receivers": [
+            "KIT_stage_cyclorama",
+            "KIT_stage_painted_moon",
+            "KIT_stage_painted_mountain_layer",
+            "KIT_stage_painted_mountain_layer.001",
+            "KIT_stage_painted_mountain_layer.002"
+          ]
+        }
+      ],
       "practicals": []
     }
   },
@@ -450,7 +666,7 @@
     {
       "name": "LGT_stage_backdrop_wash",
       "type": "AREA",
-      "energy": 1800.0,
+      "energy": 0.0,
       "color": [
         0.7200000286102295,
         0.7799999713897705,
@@ -466,20 +682,8 @@
     }
   ],
   "missing_per_site_washes": [
-    "aojing-guan",
-    "daguan-lou",
-    "daoxiang-cun",
-    "hengwu-yuan",
-    "longcui-an",
-    "ouxiang-xie",
-    "qinfang-ting",
-    "qiushuang-zhai",
     "rockery-gate",
-    "terminal-cells",
-    "tubi-tang",
-    "xiaoxiang-guan",
-    "yihong-yuan",
-    "ziling-zhou"
+    "terminal-cells"
   ],
   "sites_without_owned_keys": [
     "ouxiang-xie",
@@ -525,5 +729,19 @@
         "SITE_stage"
       ]
     }
-  ]
+  ],
+  "intentional_key_exceptions": {
+    "terminal-cells": "CRT only; no broad key.",
+    "rockery-gate": "No tunnel key; Qinfang exit spill."
+  },
+  "intentional_wash_exceptions": {
+    "terminal-cells": "Borrowed cyclorama/window spill; no owned Area wash.",
+    "rockery-gate": "No wash, explicitly required by its sheet."
+  },
+  "missing_required_keys": [
+    "ouxiang-xie",
+    "qinfang-ting",
+    "ziling-zhou"
+  ],
+  "missing_required_washes": []
 }

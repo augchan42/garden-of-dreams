@@ -10,6 +10,15 @@ report={'authoring_blend_sha256':hashlib.sha256((ROOT/'blender/authoring.blend')
         'scope':'Saved Blender scene lighting inventory; not engine visual or performance acceptance.',
         'sites':{},'shared_stage_washes':[],'missing_per_site_washes':[],
         'sites_without_owned_keys':[],'other_scene_lights':[]}
+key_exceptions={'terminal-cells':'CRT only; no broad key.',
+                'rockery-gate':'No tunnel key; Qinfang exit spill.'}
+wash_exceptions={'terminal-cells':'Borrowed cyclorama/window spill; no owned Area wash.',
+                 'rockery-gate':'No wash, explicitly required by its sheet.'}
+assert '- Key: none.' in (ROOT/'docs/sites/terminal-cells.md').read_text()
+assert '- Key: none in the tunnel.' in (ROOT/'docs/sites/rockery-gate.md').read_text()
+assert '- Wash: none.' in (ROOT/'docs/sites/rockery-gate.md').read_text()
+report.update({'intentional_key_exceptions':key_exceptions,'intentional_wash_exceptions':wash_exceptions,
+               'missing_required_keys':[],'missing_required_washes':[]})
 owned_light_names=set()
 for collection in sorted(bpy.data.collections,key=lambda c:c.name):
     if not collection.name.startswith('SITE_'):continue
@@ -29,6 +38,8 @@ for collection in sorted(bpy.data.collections,key=lambda c:c.name):
     owned_light_names.update(r['name'] for r in records)
     if not keys:report['sites_without_owned_keys'].append(slug)
     if not washes:report['missing_per_site_washes'].append(slug)
+    if slug not in key_exceptions and not keys:report['missing_required_keys'].append(slug)
+    if slug not in wash_exceptions and not any(w['energy']>0 for w in washes):report['missing_required_washes'].append(slug)
 assert len(report['sites'])==14, report['sites'].keys()
 for obj in scene.objects:
     if obj.type=='LIGHT' and obj.name not in owned_light_names:

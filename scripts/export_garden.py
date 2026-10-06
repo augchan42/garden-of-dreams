@@ -1,7 +1,11 @@
-import bpy, bmesh, json, math, hashlib, collections, struct
+import bpy, bmesh, json, math, hashlib, collections, struct, argparse, sys
 from pathlib import Path
 from mathutils import Vector
-R=Path('/Users/auchan/projects/garden-of-dreams')
+parser=argparse.ArgumentParser()
+parser.add_argument('--output-root',type=Path,default=Path(__file__).resolve().parents[1])
+options=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+R=options.output_root
+(R/'export/sites').mkdir(parents=True,exist_ok=True)
 s=next(s for s in bpy.data.scenes if s.name.startswith('Garden of Dreams'))
 bpy.context.window.scene=s
 # Use Blender's dynamic export-format callback to query valid values.
@@ -35,7 +39,7 @@ export_scene.render.resolution_x=s.render.resolution_x;export_scene.render.resol
 for source in list(s.collection.children):
  slug=source.name.removeprefix('SITE_');dest=bpy.data.collections.new('EXPORT_'+slug);export_scene.collection.children.link(dest)
  for obj in source.objects:
-  # glTF punctual lights exclude Area lights; Godot rebuilds the linked backdrop wash.
+  # glTF punctual lights exclude Area lights; native bake sidecars transfer their wash.
   if obj.type=='LIGHT' and obj.data.type=='AREA':continue
   if obj.name.startswith('CAM_rail_'):continue
   o=obj.copy()

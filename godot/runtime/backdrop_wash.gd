@@ -34,6 +34,10 @@ static func apply_baked(garden:Node3D) -> int:
  if not records is Dictionary or records.size()!=5 or not preload("res://runtime/baked_materials.gd").source_matches(records):
   push_error("Backdrop wash bakes do not match the imported garden")
   return -1
+ var manifest=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/backdrop-wash/manifest.json"))
+ if not manifest is Dictionary or manifest.get("lighting",{}).get("lights",[]).size()!=12:
+  push_error("Native backdrop rig must include the twelve exterior site washes")
+  return -1
  var receivers={}
  var textures={}
  var prepared={}
@@ -46,6 +50,9 @@ static func apply_baked(garden:Node3D) -> int:
    push_error("Missing painted backdrop receiver: "+name)
    return -1
   var record=records[name]
+  if record.get("lights_baked",0)!=12 or record.get("authoring_blend_sha256","")!=manifest.get("authoring_blend_sha256","") or record.get("site_blend_sha256",{})!=manifest.get("site_blend_sha256",{}):
+   push_error("Backdrop map provenance differs from the installed site rig: "+name)
+   return -1
   var texture=load("res://lightmaps/"+record.texture) as Texture2D
   if texture==null or record.get("pass_filter",[])!=["DIRECT"]:
    push_error("Invalid native backdrop wash map: "+name)

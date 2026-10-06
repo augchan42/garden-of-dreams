@@ -79,3 +79,8 @@ The temporary typeset signboard has been replaced by original brush lettering, �
 ## Shared prop placement — 2026-10-04
 
 The existing dressing now uses fitted prop-library meshes with a shared PBR atlas. Mount positions, seat/table heights, collision, lights and triggers are retained. The site’s props export as one material batch and stop drawing beyond 28 metres. Desktop and portrait views were reviewed; source-hash-checked bakes apply where this site belongs to the demo or priority-2 catalog. Further art, sourced references and final lighting remain open. Details: `../kits/props.md`.
+
+
+## Lighting exception — 2026-10-06
+
+The tunnel retains its explicit no-key/no-wash contract and two amber practicals. The twelve exterior backdrop washes have no tunnel receivers. Qinfang’s missing owned key and its specified three-metre exit spill remain lighting work; existing ordinary maps still use the shared stage rig. Current desktop/portrait views are refreshed.

@@ -2,13 +2,14 @@ extends SceneTree
 func _initialize() -> void:
  var scene=load("res://garden_preview.tscn").instantiate()
  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
- var digest=FileAccess.get_sha256("res://assets/garden-of-dreams.glb")
- for name in records:
-  if records[name].source_glb_sha256!=digest:
-   push_error("Bake does not match the imported garden: "+name)
-   scene.free()
-   quit(1)
-   return
+ # Exports replace the raw GLB with an imported scene. Use the production
+ # validator, which checks the raw source in project runs and its preserved
+ # source manifest in packs. The stale-record rejection below covers both.
+ if not preload("res://runtime/baked_materials.gd").source_matches(records):
+  push_error("Bakes do not match the imported garden")
+  scene.free()
+  quit(1)
+  return
  var sources={}
  var static_masks={}
  var static_shadow_masks={}

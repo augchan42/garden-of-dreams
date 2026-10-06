@@ -108,3 +108,12 @@ The existing dressing now uses fitted prop-library meshes with a shared PBR atla
 ## Painted title — 2026-10-04
 
 The temporary Songti glyph geometry is replaced by original painted 沁芳 lettering on the wood board. The board now sits 0.50 m forward of its original mount on two short wood supports, clearing the front post that previously crossed the lettering. The texture preserves its generated alpha and image aspect ratio; Godot uses compressed mipmapped 512px imports. Cameras, lights, triggers and collision records remain unchanged. Original artwork and provenance: `../../textures/decals/garden-signs/README.md`. Final material/lighting acceptance and external visual references remain open.
+
+
+## Owned backdrop wash — 2026-10-06
+
+`LGT_qinfang_ting_backdrop_wash` is saved in authoring and `SITE_qinfang-ting.blend`: a 150 W, 15 × 10 m Area light, faint neutral green (linear RGB 0.68, 0.78, 0.73), aimed at the painted enclosure along `CAM_stage_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
+
+The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+This site still needs its own key light. The current ordinary bake retains the existing shared stage keys.

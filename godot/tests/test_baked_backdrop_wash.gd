@@ -18,6 +18,12 @@ func run():
   quit(1)
   return
  for name in records:
+  if records[name].get("lights_baked",0)!=12 or records[name].get("site_blend_sha256",{}).size()!=12:
+   push_error("Backdrop maps omit required exterior site washes")
+   reference.free()
+   route.free()
+   quit(1)
+   return
   var mesh=route.find_child(name,true,false) as MeshInstance3D
   if mesh==null:
    push_error("Missing painted wash receiver: "+name)

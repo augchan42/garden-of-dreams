@@ -79,3 +79,8 @@ Six timber floor panels fit the 2.4 m cells and retain walking height zero. Six 
 ## Terminal wall scrolls — 2026-10-04
 
 All six cells now have one dark calligraphy scroll on the solid right-hand strip of the wall behind the desk. The 0.46 m overall width fits the 0.6 m strip; the barred opening remains clear. The scrolls reuse the prop atlas with a 0.025 base-color multiplier, no emissive pixels, and no added practical light or collision. The dark material exports as a standard glTF color factor and uses the same textures in Godot. Source/export comparisons preserve all 497 collision, light and trigger nodes exactly. The folding-chair batch and its seat/standing clearance remain intact.
+
+
+## Window spill status — 2026-10-06
+
+The site retains the specified CRT key and has no owned broad key or backdrop Area light. Twelve exterior washes now light the shared backdrop; their separate bake transfers direct light only to five backdrop receivers. The terminal’s indirect window spill from that new wash is not yet baked or verified. Current desktop/portrait views show the window backdrop and local CRT; this does not establish the required indirect illumination.
