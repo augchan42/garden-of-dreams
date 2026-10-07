@@ -2,6 +2,7 @@ extends CanvasLayer
 signal recast_requested
 var card:RichTextLabel
 var result:Dictionary={}
+var touch_ui_enabled = false
 
 func _ready() -> void:
  layer=3
@@ -11,10 +12,10 @@ func _ready() -> void:
  var column=VBoxContainer.new();column.add_theme_constant_override("separation",10);panel.add_child(column)
  var header=HBoxContainer.new();column.add_child(header)
  var title=Label.new();title.text="THE BRONZE TABLE";title.add_theme_color_override("font_color",Color(1,.65,.2));title.add_theme_font_size_override("font_size",22);title.size_flags_horizontal=Control.SIZE_EXPAND_FILL;header.add_child(title)
- var close=Button.new();close.name="CloseReading";close.text="Close";close.custom_minimum_size=Vector2(74,44);close.pressed.connect(queue_free);header.add_child(close)
+ var close=Button.new();close.name="CloseReading";close.text="Close";close.custom_minimum_size=Vector2(74,48 if touch_ui_enabled else 44);close.pressed.connect(queue_free);header.add_child(close)
  var subtitle=Label.new();subtitle.text="Local three-coin cast · six lines, bottom to top";subtitle.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;column.add_child(subtitle)
  card=RichTextLabel.new();card.name="ReadingText";card.bbcode_enabled=false;card.scroll_active=true;card.size_flags_vertical=Control.SIZE_EXPAND_FILL;card.add_theme_font_size_override("normal_font_size",18);column.add_child(card)
- var again=Button.new();again.name="RecastReading";again.text="Cast again";again.custom_minimum_size.y=44;again.pressed.connect(func():recast_requested.emit());column.add_child(again)
+ var again=Button.new();again.name="RecastReading";again.text="Cast again";again.custom_minimum_size.y=48 if touch_ui_enabled else 44;again.pressed.connect(func():recast_requested.emit());column.add_child(again)
  if not result.is_empty():show_result(result)
  close.grab_focus()
 

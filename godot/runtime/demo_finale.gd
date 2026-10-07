@@ -3,6 +3,7 @@ extends CanvasLayer
 signal replay_requested
 
 var reading: Dictionary = {}
+var touch_ui_enabled = false
 
 func _ready() -> void:
  layer = 4
@@ -55,7 +56,7 @@ func _ready() -> void:
  var close = Button.new()
  close.name = "CloseFinale"
  close.text = "Stay at the pavilion"
- close.custom_minimum_size.y = 44
+ close.custom_minimum_size.y = 48 if touch_ui_enabled else 44
  close.pressed.connect(queue_free)
  column.add_child(close)
  replay.grab_focus()

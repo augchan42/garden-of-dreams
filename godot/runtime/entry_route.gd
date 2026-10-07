@@ -64,11 +64,12 @@ var gate_reveal_active = false
 var gate_reveal_done = false
 var pond_view_active = false
 var pond_return_button: Button
+var touch_ui_enabled = false
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
 
 func _ready() -> void:
- get_tree().root.content_scale_size = Vector2i.ZERO
+ _configure_ui_scale(OS.has_feature("android") or OS.has_feature("ios"), DisplayServer.screen_get_dpi())
  var environment = load("res://garden_preview.tscn").instantiate()
  add_child(environment)
  preload("res://runtime/backdrop_wash.gd").configure(environment)
@@ -140,6 +141,18 @@ func _ready() -> void:
  get_viewport().size_changed.connect(_on_viewport_resized)
  _arrive("terminal_room", true)
 
+func _configure_ui_scale(mobile: bool, dpi: int) -> void:
+ touch_ui_enabled = mobile
+ var window = get_tree().root
+ window.content_scale_size = Vector2i.ZERO
+ window.content_scale_mode = Window.CONTENT_SCALE_MODE_CANVAS_ITEMS
+ # Scale the interface into density units; canvas_items retains native 3D pixels.
+ window.content_scale_factor = clampf(float(dpi)/160.0,1.0,4.0) if mobile else 1.0
+ if is_instance_valid(input):input.custom_minimum_size.y = 48 if mobile else 36
+ if is_instance_valid(pond_return_button):pond_return_button.custom_minimum_size.y = 48 if mobile else 44
+ if is_instance_valid(actions):
+  for button in actions.get_children():button.custom_minimum_size.y = 48 if mobile else 38
+
 func _build_ui() -> void:
  var layer = CanvasLayer.new()
  layer.layer = 2
@@ -161,7 +174,7 @@ func _build_ui() -> void:
  layer.add_child(panel)
  pond_return_button = Button.new()
  pond_return_button.text = "Return to ledge"
- pond_return_button.custom_minimum_size = Vector2(180,44)
+ pond_return_button.custom_minimum_size = Vector2(180,48 if touch_ui_enabled else 44)
  layer.add_child(pond_return_button)
  pond_return_button.set_anchors_and_offsets_preset(Control.PRESET_TOP_RIGHT)
  pond_return_button.pressed.connect(_finish_pond_view)
@@ -189,7 +202,7 @@ func _build_ui() -> void:
  stack.add_child(action_scroll)
  input = LineEdit.new()
  input.placeholder_text = "Optional: type look or help" if demo_mode else "Or type a command: look, help, exit…"
- input.custom_minimum_size.y = 36
+ input.custom_minimum_size.y = 48 if touch_ui_enabled else 36
  input.text_submitted.connect(func(text):
   input.clear()
   execute_command(text))
@@ -446,6 +459,7 @@ func _cast_at_table() -> void:
  else:
   card=preload("res://runtime/reading_result.gd").new()
   card.name="ReadingResult"
+  card.touch_ui_enabled=touch_ui_enabled
   card.result=reading
   card.recast_requested.connect(_cast_at_table)
   input.editable=false
@@ -649,7 +663,7 @@ func _refresh_actions() -> void:
  for action in menu:
   var button = Button.new()
   button.text = action[0]
-  button.custom_minimum_size = Vector2(140,38)
+  button.custom_minimum_size = Vector2(140,48 if touch_ui_enabled else 38)
   button.pressed.connect(execute_command.bind(action[1]))
   actions.add_child(button)
  call_deferred("_fit_action_list")
@@ -681,6 +695,7 @@ func _show_demo_finale() -> void:
  if has_node("DemoFinale"):return
  var finale = preload("res://runtime/demo_finale.gd").new()
  finale.name = "DemoFinale"
+ finale.touch_ui_enabled = touch_ui_enabled
  finale.reading = demo_last_reading
  finale.replay_requested.connect(_replay_demo)
  finale.tree_exiting.connect(func():

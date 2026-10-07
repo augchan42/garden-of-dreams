@@ -1,0 +1,295 @@
+{
+  "budget_results": {
+    "cell": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "cell_to_gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate_to_pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    }
+  },
+  "build": {
+    "demo_index_sha256": "6bede23f01ce2c86d4897143d7300c5bbe3420dd8fbc082ad341813d5f9e95b6",
+    "full_index_sha256": "02ae88ceb3b460b352522b70ba902eeb4787b833ecf5cd929a0a0c455ec11332",
+    "inscription_import_sha256": [
+      "f65af507ea98f1ac5be593cd154bff49231f445bb86f939424f8343c4f010e90",
+      "b66a1e89c33cb162367c0d07b72a18e8ecc70d737fa10b173f052a6223ee6a96"
+    ],
+    "profile_script_sha256": "95632708a8f1a0d80e40969e02361030af3a1248302c63779e1410f7ac38accb",
+    "runtime_script_sha256": {
+      "demo_finale.gd": "64b6c63ce11382db37c4e9d926c70be9efc7c829ec71477c5b67ced6b49278ff",
+      "entry_route.gd": "d0b68edb1941cca262763e5d1b59e6d917cea852f56f195581af9708311ca98e",
+      "reading_result.gd": "4ba7eaa0644df56f5a222682a69be0a487f38290c9fc742eaa533eee9e7ce0f7"
+    },
+    "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+    "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4"
+  },
+  "buttons": {
+    "Begin again": {
+      "logical_size": [
+        297.0,
+        48.0
+      ],
+      "screen_center": [
+        539.212463378906,
+        1339.72497558594
+      ],
+      "screen_size": [
+        779.625,
+        126.0
+      ]
+    },
+    "Cast again": {
+      "logical_size": [
+        140.0,
+        48.0
+      ],
+      "screen_center": [
+        246.75,
+        1964.625
+      ],
+      "screen_size": [
+        367.5,
+        126.0
+      ]
+    },
+    "Finish the demo": {
+      "logical_size": [
+        140.0,
+        48.0
+      ],
+      "screen_center": [
+        640.5,
+        1964.625
+      ],
+      "screen_size": [
+        367.5,
+        126.0
+      ]
+    },
+    "Return to the gate": {
+      "logical_size": [
+        149.0,
+        48.0
+      ],
+      "screen_center": [
+        258.5625,
+        2101.125
+      ],
+      "screen_size": [
+        391.125,
+        126.0
+      ]
+    },
+    "Stay at the pavilion": {
+      "logical_size": [
+        297.0,
+        48.0
+      ],
+      "screen_center": [
+        539.212463378906,
+        1507.72509765625
+      ],
+      "screen_size": [
+        779.625,
+        126.0
+      ]
+    }
+  },
+  "device_model": "Pixel 7 Pro",
+  "fps_cap": 60,
+  "initial_buttons": {
+    "Enter the garden": {
+      "logical_size": [
+        140.0,
+        48.0
+      ],
+      "screen_center": [
+        658.875,
+        2101.125
+      ],
+      "screen_size": [
+        367.5,
+        126.0
+      ]
+    },
+    "Read the terminal": {
+      "logical_size": [
+        147.0,
+        48.0
+      ],
+      "screen_center": [
+        255.9375,
+        2101.125
+      ],
+      "screen_size": [
+        385.875,
+        126.0
+      ]
+    }
+  },
+  "logical_viewport_size": [
+    411.428558349609,
+    891.428588867188
+  ],
+  "native_window_size": [
+    1080,
+    2340
+  ],
+  "reading_open": false,
+  "refresh_rate": 60.0000038146973,
+  "renderer": "gl_compatibility",
+  "renderer_device": "Mali-G710",
+  "room_after_touch": "qinfang_ting",
+  "samples": {
+    "cell": {
+      "active_practicals_max": 2,
+      "frame_interval_median_ms": 17.255,
+      "frame_interval_p95_ms": 20.531,
+      "frames": 180,
+      "minimum_player_y": -0.00498264329507947,
+      "texture_memory_bytes": 73184428,
+      "visible_draw_calls_max": 73,
+      "visible_primitives_max": 131906
+    },
+    "cell_to_gate": {
+      "active_practicals_max": 3,
+      "frame_interval_median_ms": 17.302,
+      "frame_interval_p95_ms": 21.683,
+      "frames": 610,
+      "minimum_player_y": -0.0286154560744762,
+      "texture_memory_bytes": 74757292,
+      "visible_draw_calls_max": 78,
+      "visible_primitives_max": 131906
+    },
+    "gate": {
+      "active_practicals_max": 3,
+      "frame_interval_median_ms": 17.407,
+      "frame_interval_p95_ms": 20.498,
+      "frames": 180,
+      "minimum_player_y": -0.00471241399645805,
+      "texture_memory_bytes": 74757292,
+      "visible_draw_calls_max": 103,
+      "visible_primitives_max": 138624
+    },
+    "gate_to_pavilion": {
+      "active_practicals_max": 4,
+      "frame_interval_median_ms": 17.363,
+      "frame_interval_p95_ms": 20.418,
+      "frames": 1055,
+      "minimum_player_y": -0.00471241399645805,
+      "texture_memory_bytes": 74761384,
+      "visible_draw_calls_max": 67,
+      "visible_primitives_max": 116132
+    },
+    "pavilion": {
+      "active_practicals_max": 4,
+      "frame_interval_median_ms": 17.164,
+      "frame_interval_p95_ms": 19.128,
+      "frames": 180,
+      "minimum_player_y": -0.00471241399645805,
+      "texture_memory_bytes": 74761384,
+      "visible_draw_calls_max": 53,
+      "visible_primitives_max": 95300
+    }
+  },
+  "scope": "Actual Android demo arrival views, cell/gate/pavilion travel and tap diagnostics at the declared staged source. Not corrected-source acceptance, all-garden traversal, release timing, older Adreno hardware or final art.",
+  "screen_dpi": 420,
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "status": "ready_for_taps",
+  "targets": {
+    "draw_calls": 150,
+    "frames_per_second": 60,
+    "practicals": 4,
+    "primitives": 300000,
+    "texture_memory_bytes": 67108864
+  },
+  "touch_events": [
+    {
+      "position": [
+        252.190475463867,
+        748.571472167969
+      ],
+      "pressed": true
+    },
+    {
+      "position": [
+        252.190475463867,
+        748.571472167969
+      ],
+      "pressed": false
+    },
+    {
+      "position": [
+        205.714294433594,
+        779.428588867188
+      ],
+      "pressed": true
+    },
+    {
+      "position": [
+        205.714294433594,
+        779.428588867188
+      ],
+      "pressed": false
+    },
+    {
+      "position": [
+        333.714294433594,
+        111.238098144531
+      ],
+      "pressed": true
+    },
+    {
+      "position": [
+        333.714294433594,
+        111.238098144531
+      ],
+      "pressed": false
+    },
+    {
+      "position": [
+        244.190475463867,
+        748.571472167969
+      ],
+      "pressed": true
+    },
+    {
+      "position": [
+        244.190475463867,
+        748.571472167969
+      ],
+      "pressed": false
+    }
+  ],
+  "ui_content_scale_factor": 2.625,
+  "ui_content_scale_mode": 1
+}
