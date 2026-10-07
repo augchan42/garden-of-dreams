@@ -38,13 +38,11 @@ def validate(args):
             'Native capture did not complete')
     required_checks = {'test_mountain_paint', 'test_site_key_import', 'test_full_scene_lighting',
                        'test_surface_materials', 'test_baked_backdrop_wash', 'test_terminal_spill',
-                       'test_first_reading_demo', 'test_demo_reading', 'test_demo_input_acceptance'}
-    require(checks['status'] == 'passed' and required_checks <= {p['name'] for p in checks['phases']}
-            and all(p['status'] == 'passed' and p['exit_code'] == 0 and not p.get('diagnostics')
-                    for p in checks['phases']),
-            'Complete packed demo acceptance is missing')
+                       'test_first_reading_demo', 'test_demo_reading', 'test_demo_input_acceptance',
+                       'test_baked_pbr_textures', 'test_baked_pbr_render',
+                       'test_pavilion_portrait_framing', 'test_demo_input_portrait'}
     profile = json.loads(args.profile.read_text())
-    required_runtime = {'runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader',
+    required_runtime = {'runtime/entry_route.gd', 'runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader',
                         'runtime/reading_result.gd', 'runtime/demo_finale.gd'} | {
         f'assets/garden-of-dreams_{name}.png.import'
         for name in ('pavilion_normal', 'wall_normal', 'pavilion_orm', 'wall_orm')}
@@ -54,6 +52,10 @@ def validate(args):
             'Pack, capture and profile runtime provenance differs')
     for path, digest in runtime.items():
         require(sha(ROOT / 'godot' / path) == digest, 'Runtime changed after capture: ' + path)
+    require(checks['status'] == 'passed' and required_checks <= {p['name'] for p in checks['phases']}
+            and all(p['status'] == 'passed' and p['exit_code'] == 0 and not p.get('diagnostics')
+                    for p in checks['phases']),
+            'Complete packed demo acceptance is missing')
     require(profile['baked_diffuse_shader_sha256'] == runtime['shaders/baked_diffuse.gdshader'],
             'Profile shader differs from captured runtime')
     require(source_hash == job['source_glb_sha256'] == checks['source_glb_sha256']

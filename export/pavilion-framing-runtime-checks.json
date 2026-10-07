@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "scope": "Native camera/transition/input/UI and static arrival captures; not full traversal, final scene art or target-phone performance.",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "route_sha256": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+  "phases": [
+    {
+      "name": "portrait-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_pavilion_portrait_framing.gd"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/portrait-framing.log",
+      "pid": 57167,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "df59384a9e46abd6f399417577c4dec702fc9b21709def59c058ae55c576446f"
+    },
+    {
+      "name": "desktop-reveal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_gate_reveal.gd"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/desktop-reveal.log",
+      "pid": 57194,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "d3a5386ed6f62bc2ebf30ca9881d2320006072bee0d0caa2c068e33146dca675"
+    },
+    {
+      "name": "entry-physics",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_entry_route.gd"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/entry-physics.log",
+      "pid": 57277,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0233d1a8602de2fd15f450d62422effb184a4c3c3571abee902b96a84e0d44d9"
+    },
+    {
+      "name": "portrait-input",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_demo_input_acceptance.gd",
+        "--",
+        "--portrait"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/portrait-input.log",
+      "pid": 57465,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed"
+    },
+    {
+      "name": "projection",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/inspect_stage_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/docs/reference/pavilion-framing/current-projections.json"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/projection.log",
+      "pid": 57672,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "404d66ee9c7e7bf366b53d6234a4fce3a2a1669dcaecce5690c11480751b05d5"
+    },
+    {
+      "name": "normal-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--mobile",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/docs/reference/pavilion-framing/normal"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/normal-portrait.log",
+      "pid": 57722,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "demo-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/render_first_reading_demo.gd",
+        "--",
+        "--portrait",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/docs/reference/pavilion-framing/demo"
+      ],
+      "status": "passed",
+      "log": "docs/reference/pavilion-framing/demo-portrait.log",
+      "pid": 57893,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "931a6aff71579444589dbd5fce1e7f18beb652ea8676cec2782122af308606f7"
+    },
+    {
+      "name": "portrait-reveal-captures",
+      "status": "passed",
+      "exit_code": 0,
+      "log": "docs/reference/pavilion-framing/portrait-reveal.log",
+      "log_sha256": "f345aa4ef3e69f1ba7327ec652479f8dc5cd755c5480810c8d9dcb108fa8fa0a",
+      "diagnostics": [],
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "godot",
+        "--script",
+        "res://tests/render_gate_reveal.gd",
+        "--",
+        "--mobile",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/docs/reference/pavilion-framing/reveal"
+      ]
+    },
+    {
+      "name": "portrait-overview-budgets",
+      "status": "passed",
+      "exit_code": 0,
+      "diagnostics": [],
+      "log": "docs/reference/pavilion-framing/portrait-budgets.log",
+      "log_sha256": "71df076328938656300475c03d8a073f9e624df575dda7990653b66ca31ce5fa",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "godot",
+        "--script",
+        "res://tests/measure_pavilion_portrait.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/export/pavilion-portrait-budgets.json"
+      ]
+    }
+  ],
+  "changed_arrival_projections": [
+    "portrait-qinfang_ting"
+  ],
+  "unchanged_arrival_projections": 27
+}

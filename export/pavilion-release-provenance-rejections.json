@@ -1,0 +1,29 @@
+{
+  "scope": "Actual old capture missing route provenance, synthetic wrong route hash and omitted actual portrait check reject before decode/promotion; local release hashes unchanged.",
+  "finalizer_sha256": "8c8fddd4d4448021eab333aecee90796c58a03794a631fce7cc1a4c95182532b",
+  "cases": [
+    {
+      "case": "old-missing-route",
+      "rejected": true,
+      "reason": "Capture runtime provenance is incomplete"
+    },
+    {
+      "case": "wrong-route",
+      "rejected": true,
+      "reason": "Runtime changed after capture: runtime/entry_route.gd"
+    },
+    {
+      "case": "missing-portrait-check",
+      "rejected": true,
+      "reason": "Complete packed demo acceptance is missing"
+    }
+  ],
+  "preserved_release_sha256": {
+    "GardenOfDreamsDemo.pck": "29d6113371cc608cd918f9978115c2b24225cd0c56b674b0fc44abdc759fb7e3",
+    "GardenOfDreamsDemo.mp4": "34723b84782e8d0c67129214bf558df350ab112a4eb92a0ab19f4568efe85200",
+    "GardenOfDreamsDemo.zip": "456a5cc8994c1e8a959f173ab840f739e6b53c2e3276ff484afc2c73a8f59ef7",
+    "GardenOfDreamsDemo-macOS.zip": "456a5cc8994c1e8a959f173ab840f739e6b53c2e3276ff484afc2c73a8f59ef7",
+    "README.md": "42f5bea032eb2e23ceb7312d26b96e23187d09462a5968828d983cbab26d858c",
+    "SHA256SUMS": "4a5e4de84f7080093a982f0af6c51399bc9b168a5180ebe9d35c1f0a278ef417"
+  }
+}

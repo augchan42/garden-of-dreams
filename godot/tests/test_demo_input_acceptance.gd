@@ -60,7 +60,7 @@ func await_room(route: Node, id: String) -> bool:
  return false
 
 func run() -> void:
- root.size = Vector2i(1410, 600)
+ root.size = Vector2i(390,844) if "--portrait" in OS.get_cmdline_user_args() else Vector2i(1410,600)
  var route = load("res://runtime/first_reading_demo.tscn").instantiate()
  root.add_child(route)
  await process_frame

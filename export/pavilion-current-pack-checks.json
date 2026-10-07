@@ -1,0 +1,245 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "pack_sha256": "dd7d91acb2bb099e4ae53ccbab23ee28397d7b30ca54bb586fb3a15eeb1d9f8a",
+  "pack_bytes": 519733476,
+  "pack": "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+  "runtime_files_sha256": {
+    "runtime/entry_route.gd": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+    "runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "shaders/baked_diffuse.gdshader": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+    "runtime/reading_result.gd": "c4eb87fd76db94d8e053e18b113b7c17e1bb8b0b84b231d95e9ce601f098e370",
+    "runtime/demo_finale.gd": "046d80dbc8e0de4b6827d71c7cdbaa08c1be19c91cac2e9e67976310fa3b0e1f",
+    "assets/garden-of-dreams_pavilion_normal.png.import": "3338ec7f7c5473a2475d901ddf69d347e44073ec01bd08555247e9ab06ff0f17",
+    "assets/garden-of-dreams_wall_normal.png.import": "ea88dc7f98a317a8c40a40711bcbf1300520535c606d48324babfd35f8f3ca86",
+    "assets/garden-of-dreams_pavilion_orm.png.import": "2a85688ec9f5cd2f9ba90f22b80e7ad6c4e406bab8b6a856ee5fd6d6bfb071ca",
+    "assets/garden-of-dreams_wall_orm.png.import": "3a886c63fbc241ed08d550f7c1ac71899a3137cb47cfafa8be098d0bbe53d2ad"
+  },
+  "scope": "Current source/PBR/UI/camera packed checks, including desktop and portrait pointer/keyboard replay; final scene art, sustained FPS and full-garden/target-phone acceptance remain open.",
+  "phases": [
+    {
+      "name": "test_mountain_paint",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_mountain_paint.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_mountain_paint.log",
+      "pid": 58399,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de"
+    },
+    {
+      "name": "test_site_key_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_site_key_import.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_site_key_import.log",
+      "pid": 58402,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4"
+    },
+    {
+      "name": "test_full_scene_lighting",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_full_scene_lighting.log",
+      "pid": 58405,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86"
+    },
+    {
+      "name": "test_surface_materials",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_surface_materials.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_surface_materials.log",
+      "pid": 58408,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2"
+    },
+    {
+      "name": "test_baked_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_baked_backdrop_wash.log",
+      "pid": 58411,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "test_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_terminal_spill.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_terminal_spill.log",
+      "pid": 58412,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "test_first_reading_demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_first_reading_demo.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_first_reading_demo.log",
+      "pid": 58414,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6"
+    },
+    {
+      "name": "test_demo_reading",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_demo_reading.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_demo_reading.log",
+      "pid": 58479,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "35046c4d83ad999e1f7e1913516fed4a8ebf05404e22d17bafe42bb860fbec8d"
+    },
+    {
+      "name": "test_demo_input_acceptance",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_demo_input_acceptance.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_demo_input_acceptance.log",
+      "pid": 58480,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed"
+    },
+    {
+      "name": "test_pavilion_portrait_framing",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_pavilion_portrait_framing.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_pavilion_portrait_framing.log",
+      "pid": 58634,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "df59384a9e46abd6f399417577c4dec702fc9b21709def59c058ae55c576446f"
+    },
+    {
+      "name": "test_demo_input_portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_demo_input_acceptance.gd",
+        "--",
+        "--portrait"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_demo_input_portrait.log",
+      "pid": 58665,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed"
+    },
+    {
+      "name": "test_baked_pbr_textures",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_baked_pbr_textures.gd"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_baked_pbr_textures.log",
+      "pid": 58799,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "930689919df871350df7da5ba8959d9d82df244e1ab0631d46cfee182f3c1c0a"
+    },
+    {
+      "name": "test_baked_pbr_render",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--main-pack",
+        "/Users/auchan/projects/garden-of-dreams/build/garden-pavilion-current.pck",
+        "--script",
+        "res://tests/test_baked_pbr_render.gd",
+        "--",
+        "--output-dir=/Users/auchan/projects/garden-of-dreams/docs/reference/pavilion-release/material-proof"
+      ],
+      "archived_log": "docs/reference/pavilion-release/checks/test_baked_pbr_render.log",
+      "pid": 58801,
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "da4fbb4f0ad401baa73bb14593bf25dd50a0814d0aa0c6237408eed066e34837"
+    }
+  ],
+  "export_log_sha256": "58792195151f5faad9d73b693392e4a996bd0066e9cc8ce64327e5ea7c1d2c02",
+  "export_archived_log": "docs/reference/pavilion-release/checks/export.log",
+  "packed_script_source_hash_scope": "GDScripts are exported as tokens. Nine original runtime/import files including the route are guarded externally; native packed camera/material/input behavior, shader bytes and immutable PCK hash are verified."
+}

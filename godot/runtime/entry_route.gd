@@ -65,6 +65,7 @@ var gate_reveal_done = false
 var pond_view_active = false
 var pond_return_button: Button
 var touch_ui_enabled = false
+var pavilion_overview_active = false
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
 
@@ -254,6 +255,7 @@ func execute_command(text: String) -> void:
     output_label.text="Six bronze lines run from bottom to top. Cast at the table for a local reading."
     var size=get_viewport().get_visible_rect().size
     camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
+    camera.fov=55.0
     _camera_to(Vector3(0,2.45,1.15),Vector3(0,.55,0))
    else:output_label.text="The hexagram table is in 沁芳亭."
   "cast":
@@ -262,6 +264,7 @@ func execute_command(text: String) -> void:
   "water":
    if room_id == "qinfang_ting":
     output_label.text = "The stream passes under the bridge. Beyond the roofs, the painted moon hangs against the studio sky."
+    camera.fov=55.0
     _camera_to(Vector3(5,2.4,5),Vector3(-3,-.4,0))
   "exit":
    if room_id == "terminal_room": _travel(CELL_PATH,"rockery_gate")
@@ -450,6 +453,7 @@ func _cast_at_table() -> void:
   demo_audio.cast()
  var size=get_viewport().get_visible_rect().size
  camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
+ camera.fov=55.0
  _camera_to(Vector3(0,2.45,1.15),Vector3(0,.55,0))
  output_label.text="The bronze lines now show #%d · %s. This is a local cast."%[reading.primary.number,reading.primary.meaning]
  var card:CanvasLayer
@@ -471,6 +475,7 @@ func _cast_at_table() -> void:
   add_child(card)
 
 func _travel(points: Array, target_room: String) -> void:
+ pavilion_overview_active=false
  _clear_pond_view()
  if demo_mode and room_id == "rockery_gate" and target_room == "qinfang_ting":demo_audio.start_tunnel()
  camera.keep_aspect = Camera3D.KEEP_HEIGHT
@@ -499,14 +504,18 @@ func _begin_gate_reveal() -> void:
  player.velocity.x = 0
  player.velocity.z = 0
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
- var size=get_viewport().get_visible_rect().size
- camera.keep_aspect=Camera3D.KEEP_WIDTH if size.x<size.y else Camera3D.KEEP_HEIGHT
+ var final_view=_pavilion_camera_view()
+ camera.keep_aspect=Camera3D.KEEP_HEIGHT
+ camera.fov=55.0
  status.text="THE GARDEN · 沁芳亭"
  output_label.text="The passage opens onto the stream. Beyond the covered walks, the pavilion stands in green light."
  camera_tween=create_tween()
  for i in range(GATE_REVEAL_RAIL.size()):
-  var pose=Transform3D(Basis.IDENTITY,GATE_REVEAL_RAIL[i]).looking_at(GATE_REVEAL_TARGET,Vector3.UP)
+  var endpoint=final_view[0] if i==GATE_REVEAL_RAIL.size()-1 else GATE_REVEAL_RAIL[i]
+  var pose=Transform3D(Basis.IDENTITY,endpoint).looking_at(GATE_REVEAL_TARGET,Vector3.UP)
   camera_tween.tween_property(camera,"transform",pose,[.8,.8,1.8][i]).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+  if i==GATE_REVEAL_RAIL.size()-1:
+   camera_tween.parallel().tween_property(camera,"fov",final_view[2],1.8).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
  camera_tween.tween_interval(.6)
  camera_tween.tween_callback(_finish_gate_reveal)
 
@@ -614,6 +623,21 @@ func _unhandled_key_input(event: InputEvent) -> void:
 func _on_viewport_resized() -> void:
  call_deferred("_fit_action_list")
  if pond_view_active:call_deferred("_refresh_pond_view")
+ elif pavilion_overview_active and not travelling:call_deferred("_refresh_pavilion_overview")
+
+func _pavilion_camera_view() -> Array:
+ var size=get_viewport().get_visible_rect().size
+ # The portrait pose keeps the physical moon and title board inside the scene.
+ if size.x<size.y:return [Vector3(6,6.98,20),GATE_REVEAL_TARGET,50.0]
+ return [GATE_REVEAL_RAIL[-1],GATE_REVEAL_TARGET,55.0]
+
+func _refresh_pavilion_overview() -> void:
+ if not pavilion_overview_active or travelling:return
+ var view=_pavilion_camera_view()
+ camera.keep_aspect=Camera3D.KEEP_HEIGHT
+ camera.fov=view[2]
+ _camera_to(view[0],view[1],true)
+ pavilion_overview_active=true
 
 func _refresh_pond_view() -> void:
  if pond_view_active:_begin_pond_view(true)
@@ -650,9 +674,15 @@ func _arrive(id: String, immediate = false) -> void:
  var portrait = viewport_size.x < viewport_size.y
  camera.fov = views[id][2] if id == "aojing_guan" else 55.0
  camera.keep_aspect = Camera3D.KEEP_WIDTH if portrait and id in ["rockery_gate","qiushuang_zhai","hengwu_yuan","daguan_lou","yihong_yuan","xiaoxiang_guan","longcui_an","aojing_guan","daoxiang_cun"] else Camera3D.KEEP_HEIGHT
- if portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
+ if id=="qinfang_ting":
+  var pavilion_view=_pavilion_camera_view()
+  view_position=pavilion_view[0]
+  view_target=pavilion_view[1]
+  camera.fov=pavilion_view[2]
+ elif portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
+ pavilion_overview_active=id=="qinfang_ting"
  transition_finished.emit(id)
 
 func _refresh_actions() -> void:
@@ -723,6 +753,7 @@ func _fit_action_list() -> void:
  action_scroll.scroll_vertical = 0
 
 func _camera_to(position: Vector3, target: Vector3, immediate = false) -> void:
+ pavilion_overview_active=false
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
  var transform_target = Transform3D(camera.basis,position).looking_at(target,Vector3.UP)
  if immediate:

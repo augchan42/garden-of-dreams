@@ -1,6 +1,6 @@
 # Moon and backdrop framing diagnosis
 
-This is a read-only diagnosis of the saved Blender source and current Godot arrival cameras. It does not change geometry, camera poses or lighting, and does not establish final camera acceptance.
+This is a read-only diagnosis of the saved Blender source and Godot arrival cameras before the portrait pavilion correction. It does not change geometry, camera poses or lighting, and does not establish final camera acceptance.
 
 Native saved-source inspection confirms an eight-panel, 48 m radius enclosure with its bottom at −2 m and top at 20 m. The moon is still a plain 128-vertex disk: no primary UVs or image nodes. Its base color is warm `(0.62, 0.58, 0.38)`, but its emission remains the earlier green `(0.42, 0.55, 0.20)` at strength 0.8. This is a separate source material from the already corrected mountain painting.
 
@@ -17,3 +17,5 @@ Evidence: `export/stage-framing-saved-source.json`, `export/stage-framing-runtim
 ```sh
 /Applications/Godot.app/Contents/MacOS/Godot --path godot --script res://tests/inspect_stage_framing.gd -- --output=/tmp/stage-framing.json
 ```
+
+The subsequent portrait pavilion correction keeps all eight moon bounds inside the clear scene; the other twenty-seven measured arrival projections are identical. Current native lift/end images still show physical canvas-edge exposure, so the backdrop and moon artwork remain unfinished. See `pavilion-framing-runtime-checks.json` and `docs/reference/pavilion-framing/` for the camera change and its actual transition/input evidence.
