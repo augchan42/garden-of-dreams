@@ -97,6 +97,7 @@ func _ready() -> void:
     light.shadow_enabled = false
  if demo_mode or site_bakes_enabled:
   assert(preload("res://runtime/backdrop_wash.gd").apply_baked(environment)==5,"Incomplete native backdrop wash")
+  assert(preload("res://runtime/terminal_spill.gd").apply_baked(environment)==7,"Incomplete native terminal indirect spill")
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)

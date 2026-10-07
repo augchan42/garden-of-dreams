@@ -3,11 +3,23 @@ extends SceneTree
 func _initialize() -> void:call_deferred("run")
 
 func click(button:Button) -> void:
- var position=button.get_global_rect().get_center()
+ # Match the demo pointer harness: resize fitting and native mouse events
+ # can move the target or replace hover between the two click edges.
+ var previous=Rect2()
+ var stable_frames=0
+ for i in range(30):
+  await process_frame
+  RenderingServer.force_draw()
+  var bounds=button.get_global_rect()
+  stable_frames=stable_frames+1 if bounds==previous else 0
+  previous=bounds
+  if stable_frames>=2:break
+ assert(stable_frames>=2,"Pond pointer target did not settle")
+ var position=previous.get_center()
  var motion=InputEventMouseMotion.new()
  motion.position=position
- root.push_input(motion,true)
  for down in [true,false]:
+  root.push_input(motion,true)
   var event=InputEventMouseButton.new()
   event.button_index=MOUSE_BUTTON_LEFT
   event.position=position

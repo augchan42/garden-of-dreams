@@ -27,3 +27,10 @@ The command-driven runtime now limits eligible lantern/CRT OmniLight3D nodes to 
 ## Three-key source pass — 2026-10-07
 
 The current demo source is `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde`. After all 124 ordinary maps and the wash were refreshed, the stationary 1410 × 600 M2 Max demo profile retains a maximum of 146 draws, 177,088 primitives, four practicals and 57,817,992 texture bytes. Forced-draw medians are 1.705–2.176 ms and p95 5.335–5.641 ms. The Western route passes collision traversal in both directions; that is a physics check, not continuous GPU profiling. The earlier pond and all-site arrival profiles are historical measurements. Current full traversal and target-phone GPU acceptance remain open. Evidence: `export/site-key-runtime-checks.json` and `godot/demo-profile-desktop.json`.
+
+
+## Native terminal spill pass — 2026-10-07
+
+Seven compressed 256px indirect maps raise stationary demo texture allocation to 58,123,920 bytes (55.43 MiB), an increase of 305,928 bytes. Current cell/gate/pavilion views retain 146/140/102 maximum draws, 177,088/143,452/123,740 primitives and two/three/four practicals. Forced-draw median intervals are 2.720/2.106/1.833 ms, with p95 6.271/3.960/4.033 ms on this M2 Max at 1410 × 600.
+
+`godot/demo-profile-desktop.json` records canonical GLB, terminal-spill manifest and shader hashes for this run; `export/terminal-spill-runtime-checks.json` ties those to the final tested pack and movie. The earlier pond/all-site profiles remain historical evidence. This pass does not establish final texture-memory acceptance for the entire garden, moving-camera performance or target-phone GPU behavior.

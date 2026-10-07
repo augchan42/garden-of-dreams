@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--size-limit', type=int, default=512, choices=[0, 256, 512, 1024])
 parser.add_argument('--uncompressed', action='store_true')
 parser.add_argument('--demo', action='store_true', help='Configure only the first-reading demo maps')
-parser.add_argument('--index', choices=['demo-index.json', 'priority2-index.json', 'full-index.json', 'backdrop-wash-index.json'], help='Configure only a current bake catalog')
+parser.add_argument('--index', choices=['demo-index.json', 'priority2-index.json', 'full-index.json', 'backdrop-wash-index.json', 'terminal-spill-index.json'], help='Configure only a current bake catalog')
 args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 paths = sorted((root / 'godot/lightmaps').rglob('*.png.import'))

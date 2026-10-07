@@ -34,4 +34,15 @@ Normal exploration and the demo add the wash to the ordinary static bake in line
 
 `scripts/audit_lighting_rig.py` reads the saved authoring scene without editing it. `export/lighting-rig-audit.json` records twelve owned exterior washes, the two explicit site-sheet exceptions and no missing required owned keys or washes. Qinfang has a 0.6-energy Sun at 35° southeast with a 0.5° source; Ouxiang and Ziling have hard Spots aimed at their tea table and reed overlook. The shared fill is neutral cool RGB (0.70, 0.74, 0.78), energy 1.4. Desktop and 390 × 844 portrait arrival views are refreshed for all fourteen sites.
 
-This is a direct backdrop pass. It does not yet bake or verify the terminal’s indirect window spill from the newly lit cyclorama. That spill, final shadow dominance, palette/material review, mountain-card bake noise/filtering and full moving-camera/phone acceptance remain open. Native transfer checks do not prove final site lighting acceptance.
+The backdrop maps contain direct light only. The separate terminal indirect pass below now supplies the window spill. Final shadow dominance, palette/material review, mountain-card bake noise/filtering and full moving-camera/phone acceptance remain open. Native transfer checks do not prove final site lighting acceptance.
+
+
+## Native terminal indirect spill
+
+`bake_terminal_spill.py` reconstructs the same twelve saved linked Areas in a temporary canonical GLB scene. The black world, hidden other lights and disabled material emission isolate their indirect contribution. Controls rasterize actual top-floor UV triangles into each cell interior, normalize transformed normals, and block the real marker-derived window/door locations. All six window-only controls are positive; direct, sealed and wash-off controls are zero. Controls do not alter the delivered room geometry.
+
+The seven independent maps use 2048 fixed Cycles samples, no adaptive sampling or path guiding, and 512² source PNGs. Adaptive sampling had left many faint paths unresolved. The PNG values divide by their native linear maxima; the runtime scale restores the original energy, including scales below one. `inspect_terminal_spill_pixels.py` checks finite native pixels and decoded maxima. No gain or extra realtime light is added.
+
+`sync_terminal_spill.py` validates the complete catalog against GLB, authoring, stage, terminal and twelve exterior-library hashes, canonical UV records, controls and every PNG before copying. `verify_terminal_spill_install.py` exercises stale authoring, stale terminal, changed UV, changed final PNG and adaptive-sampling metadata; all five reject with 23 engine files unchanged. Runtime imports are compressed at 256 pixels without mipmaps.
+
+`terminal_spill.gd` prepares all seven material copies before applying a separate additive shader sampler. Ordinary bakes, albedo, normal maps, emission and receiver masks remain intact. The direct backdrop wash still reaches only its five painted receivers. Normal/demo runtime checks pass; the rendered fixture fails when the spill term is disabled and passes with normalized values decoded at their physical scale. This verifies implementation and transfer, not final art or phone acceptance.

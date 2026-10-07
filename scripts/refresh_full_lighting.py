@@ -51,6 +51,9 @@ try:
                            '--samples',str(options.samples),'--size',str(options.size)])
     run('backdrop-wash',native+[str(ROOT/'scripts/bake_backdrop_wash.py'),'--',
                                '--samples',str(options.samples),'--size','512'])
+    run('terminal-spill',native+[str(ROOT/'scripts/bake_terminal_spill.py'),'--',
+                               '--samples','2048','--size','512'])
+    run('terminal-spill-pixels',native+[str(ROOT/'scripts/inspect_terminal_spill_pixels.py')])
     run('native-pixels',native+[str(ROOT/'scripts/inspect_lightmap_pixels.py')])
     run('coverage',[sys.executable,str(ROOT/'scripts/verify_lightmaps.py'),'--current','--require-all'])
     assert hashlib.sha256(source.read_bytes()).hexdigest()==digest

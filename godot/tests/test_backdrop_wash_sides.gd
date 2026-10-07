@@ -25,6 +25,12 @@ func run():
  black.fill(Color.BLACK)
  var material=ShaderMaterial.new()
  material.shader=load("res://shaders/baked_diffuse.gdshader")
+ if "--without-terminal-spill" in OS.get_cmdline_user_args():
+  var disabled=material.shader.duplicate() as Shader
+  var term=" if(use_terminal_spill)baked += texture(terminal_spill,UV2).rgb * terminal_spill_scale;"
+  assert(disabled.code.contains(term))
+  disabled.code=disabled.code.replace(term,"")
+  material.shader=disabled
  material.set_shader_parameter("base_color",Color(.5,.5,.5))
  material.set_shader_parameter("use_lightmap",false)
  material.set_shader_parameter("use_backdrop_wash",true)
@@ -59,6 +65,21 @@ func run():
   push_error("Ordinary and wash bakes do not add correctly: "+str(combined))
   quit(1)
   return
+ # Terminal indirect light uses a separate term; its normalized texture
+ # must be decoded at the original faint scale rather than gaining energy.
+ material.set_shader_parameter("use_backdrop_wash",false)
+ material.set_shader_parameter("use_terminal_spill",true)
+ var normalized=Image.create(2,2,false,Image.FORMAT_RGBF)
+ normalized.fill(Color.WHITE)
+ material.set_shader_parameter("terminal_spill",ImageTexture.create_from_image(normalized))
+ material.set_shader_parameter("terminal_spill_scale",.318303*.25)
+ material.set_shader_parameter("lightmap_scale",.75)
+ var indirect_combined=await sample()
+ if absf(indirect_combined.r-front.r)>.01 or absf(indirect_combined.g-front.g)>.01 or absf(indirect_combined.b-front.b)>.01:
+  push_error("Normalized terminal spill changed diffuse energy: "+str(indirect_combined))
+  quit(1)
+  return
+ print("TERMINAL_SPILL_TRANSFER_PASS normalized-scale combined=",indirect_combined)
  # The production sky is an unshaded painted material. Its unlit base must
  # survive conversion even without material emission or a wash contribution.
  var unshaded=StandardMaterial3D.new()

@@ -37,7 +37,7 @@ Files: docs/sites/*.md, Blender site libraries, source scripts and GLB exports.
 
 ## Task 3: Godot rendering
 Files: godot/garden_import.gd, materials and shaders, export/lightmaps, grade/tech-noir.cube.
-- [ ] Bake lighting with matching secondary UVs and verify PNG maps in engine.
+- [x] Bake lighting with matching secondary UVs and verify PNG maps in engine.
 - [x] Add animated water and scrolling floor fog; verify separate fixed-clock render differences.
 - [x] Apply and verify the consistent in-engine grade (rendered color grid versus source cube; UI unchanged).
 - [ ] Complete atlases and final texture-memory audit.

@@ -84,3 +84,12 @@ All six cells now have one dark calligraphy scroll on the solid right-hand strip
 ## Window spill status — 2026-10-06
 
 The site retains the specified CRT key and has no owned broad key or backdrop Area light. Twelve exterior washes now light the shared backdrop; their separate bake transfers direct light only to five backdrop receivers. The terminal’s indirect window spill from that new wash is not yet baked or verified. Current desktop/portrait views show the window backdrop and local CRT; this does not establish the required indirect illumination.
+
+
+## Native window spill — 2026-10-07
+
+The separate indirect Cycles pass now covers all seven terminal material batches using the twelve saved exterior washes. It excludes the world, other lights and emissive CRT/lantern geometry; no broad terminal key is added. At 2048 fixed samples and 512², all six cell-floor window-only controls receive light. Direct-wash, sealed-window/door and all-washes-off controls receive zero. The door and window blockers exist only in the temporary control scene; the production bake retains the actual open room geometry.
+
+Adaptive sampling had stopped many rare window paths too early. Floor selection also needed normalized normals under the floor object's nonuniform scale. The current bake disables adaptive sampling and path guiding. PNGs are normalized with their physical maxima; Godot restores those scales without increasing energy. Native 16-bit readback verifies the decoded maxima. Source, terminal, stage and twelve exterior-library hashes, canonical UVs and all PNGs are validated before copying. Five stale/changed-source cases reject without modifying any installed files.
+
+Normal exploration and the demo add the indirect term once to the ordinary bake and retain source materials, CRT emission and practical light masks. The earlier direct-backdrop isolation remains in place. Runtime checks pass in both modes, and a rendered negative/positive fixture checks the normalized transfer. Final shadow, color, filtering and moving-camera acceptance remains open. The three external references remain incomplete. See `../baked-lighting.md`.

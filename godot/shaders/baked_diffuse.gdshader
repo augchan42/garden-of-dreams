@@ -10,6 +10,9 @@ uniform sampler2D backdrop_wash_back : repeat_disable, filter_linear;
 uniform float backdrop_wash_back_scale = 1.0;
 uniform bool backdrop_wash_double_sided = false;
 uniform bool use_backdrop_wash = false;
+uniform sampler2D terminal_spill : repeat_disable, filter_linear;
+uniform float terminal_spill_scale = 1.0;
+uniform bool use_terminal_spill = false;
 uniform vec4 base_color : source_color = vec4(0.15,0.24,0.12,1.0);
 uniform float material_roughness = 0.35;
 uniform float material_metallic = 0.0;
@@ -56,5 +59,6 @@ void fragment() {
    baked += texture(backdrop_wash_back,UV2).rgb * backdrop_wash_back_scale;
   else baked += texture(backdrop_wash,UV2).rgb * backdrop_wash_scale;
  }
+ if(use_terminal_spill)baked += texture(terminal_spill,UV2).rgb * terminal_spill_scale;
  EMISSION = base * baked * PI + emitted + (source_unshaded ? base : vec3(0.0));
 }
