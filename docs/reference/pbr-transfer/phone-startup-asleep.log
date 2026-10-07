@@ -1,0 +1,44 @@
+--------- beginning of main
+10-08 05:26:00.551  8039  8039 I Zygote  : Process 8039 created for org.godotengine.gardendreams.profile
+10-08 05:26:00.551  8039  8039 I ndreams.profile: Late-enabling -Xcheck:jni
+10-08 05:26:00.570  8039  8039 I ndreams.profile: Using generational CollectorTypeCMC GC.
+10-08 05:26:00.579  8039  8039 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-08 05:26:00.677  8039  8039 D nativeloader: Configuring clns-9 for other apk /data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/lib/arm64:/data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/org.godotengine.gardendreams.profile
+10-08 05:26:00.686  8039  8039 V GraphicsEnvironment: Currently set values for:
+10-08 05:26:00.686  8039  8039 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[com.android.angle]
+10-08 05:26:00.686  8039  8039 V GraphicsEnvironment:   angle_gl_driver_selection_values=[angle]
+10-08 05:26:00.687  8039  8039 V GraphicsEnvironment: org.godotengine.gardendreams.profile is not listed in per-application setting
+10-08 05:26:00.687  8039  8039 V GraphicsEnvironment: No special selections for ANGLE, returning default driver choice
+10-08 05:26:00.687  8039  8039 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-08 05:26:00.694  8039  8039 D DesktopExperienceFlags: Toggle override initialized to: false
+--------- beginning of system
+10-08 05:26:00.722  8039  8070 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+10-08 05:26:00.725  8039  8070 D vulkan  : searching for layers in '/data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/lib/arm64'
+10-08 05:26:00.725  8039  8070 D vulkan  : searching for layers in '/data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/base.apk!/lib/arm64-v8a'
+10-08 05:26:00.855  8039  8039 D CompatChangeReporter: Compat change id reported: 377864165; UID 10513; state: ENABLED
+10-08 05:26:00.855  8039  8039 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+10-08 05:26:00.885  8039  8039 D GodotActivity: Project command line parameters: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+10-08 05:26:00.889  8039  8039 D GodotActivity: Launch intent Intent { flg=0x10000000 xflg=0x5 cmp=org.godotengine.gardendreams.profile/com.godot.game.GodotAppLauncher } with parameters []
+10-08 05:26:00.925  8039  8039 V GodotActivity: Creating new Godot fragment instance.
+10-08 05:26:00.988  8039  8039 V Godot   : Initializing Godot plugin registry
+10-08 05:26:01.019  8039  8039 I GodotPluginRegistry: Registering runtime plugin AndroidRuntime
+10-08 05:26:01.021  8039  8039 V Godot   : InitEngine with params: [--xr_mode_regular, --xr-mode, off, --fullscreen, --background_color, #000000]
+10-08 05:26:01.059  8039  8039 D nativeloader: Load /data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/lib/arm64/libgodot_android.so using class loader ns clns-9 (caller=/data/app/~~tzGqPj_nol3H9ykEkWGK8Q==/org.godotengine.gardendreams.profile-_rEGEX8zOxjRcH4U-4Urwg==/base.apk!classes7.dex): ok
+10-08 05:26:01.065  8039  8039 V Godot   : Godot native layer initialization completed: true
+10-08 05:26:01.065  8039  8039 V Godot   : Setting up native layer with params: [--xr-mode, off, --fullscreen]
+10-08 05:26:01.177  8039  8039 V Godot   : Godot native layer setup completed
+10-08 05:26:01.179  8039  8039 V Godot   : OnInitRenderView: GodotFragment{27b5361} (44a91fec-6669-4973-bbbb-484eae97d0a3 id=0x7f07002c)
+10-08 05:26:01.238  8039  8039 D Godot   : Render view should be transparent: false
+10-08 05:26:01.238  8039  8039 D Godot   : renderingDevice: opengl3 (ProjectSettings)
+10-08 05:26:01.238  8039  8039 D Godot   : 			renderer: gl_compatibility (ProjectSettings)
+10-08 05:26:01.285  8039  8039 V Godot   : OnStart: GodotFragment{27b5361} (44a91fec-6669-4973-bbbb-484eae97d0a3 id=0x7f07002c)
+10-08 05:26:01.308  8039  8039 V Godot   : OnResume: GodotFragment{27b5361} (44a91fec-6669-4973-bbbb-484eae97d0a3 id=0x7f07002c)
+10-08 05:26:01.356  8039  8039 D InsetsController: Setting requestedVisibleTypes to 496 (was 503)
+10-08 05:26:01.375  8039  8039 V Godot   : OnPause: GodotFragment{27b5361} (44a91fec-6669-4973-bbbb-484eae97d0a3 id=0x7f07002c)
+10-08 05:26:01.394  8039  8039 V Godot   : OnStop: GodotFragment{27b5361} (44a91fec-6669-4973-bbbb-484eae97d0a3 id=0x7f07002c)
+10-08 05:26:01.406  8039  8039 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@866387e
+10-08 05:26:01.407  8039  8039 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1@f810e2c
+10-08 05:26:01.415  8039  8039 D VRI[GodotAppLauncher]: WindowInsets changed: 1080x2340 statusBars:[0,108,0,0] mandatorySystemGestures:[0,140,0,84] 
+10-08 05:26:01.424  8039  8039 I HWUI    : Using FreeType backend (prop=Auto)
+10-08 05:26:03.246  8039  8055 I ndreams.profile: Compiler allocated 5120KB to compile void android.view.ViewRootImpl.performTraversals()
+10-08 05:26:21.618  8039  8056 I ndreams.profile: Background concurrent mark compact GC freed 1208KB AllocSpace bytes, 3(60KB) LOS objects, 99% free, 2452KB/256MB, paused 446us,4.653ms total 105.719ms

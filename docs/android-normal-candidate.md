@@ -1,6 +1,6 @@
 # Android normal-map experiment
 
-This is an isolated debug experiment at the preceding `b4b322c2` scene. The production pavilion/wall normal maps and their import settings remain at 2048². The corrected `90c4f70e` scene needs separate phone and release verification.
+This is the historical isolated normal-only experiment at `b4b322c2`. At that time, production normal imports remained 2048² and corrected source `90c4f70e` awaited separate verification. The later repaired-renderer comparison verifies four 1024 normal/ORM imports and shared UI sizes at a sampled 59.3 MiB peak; those settings are now installed. See [current material transfer and phone evidence](pbr-material-transfer.md). The earlier candidate below still failed both memory thresholds.
 
 Two actual Pixel 7 Pro runs use the same source, lighting, runtime scripts, DPI, native 1080 × 2340 output, 2.625 UI scale and 60-FPS cap. The candidate changes only the isolated project's pavilion and wall normal import size limits to 1024. Original PNG hashes match. Actual loaded textures are 1024² with mipmaps; all 88 texture resource paths and bindings are retained. The renderer reports exactly 8,388,608 fewer texture bytes in every sampled route and touch state.
 

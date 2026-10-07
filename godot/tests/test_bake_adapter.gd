@@ -59,7 +59,10 @@ func _initialize() -> void:
     scene.free()
     quit(1)
     return
-   if material.get_shader_parameter("base_color")!=source.albedo_color or material.get_shader_parameter("material_roughness")!=source.roughness:
+   var expected_roughness=1.0 if source is ORMMaterial3D else source.roughness
+   var expected_metallic=1.0 if source is ORMMaterial3D else source.metallic
+   var expected_specular=0.5 if source is ORMMaterial3D else source.metallic_specular
+   if material.get_shader_parameter("base_color")!=source.albedo_color or material.get_shader_parameter("material_roughness")!=expected_roughness or material.get_shader_parameter("material_metallic")!=expected_metallic or material.get_shader_parameter("material_specular")!=expected_specular:
     push_error("Baked adapter changed source material properties")
     scene.free()
     quit(1)

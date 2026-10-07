@@ -14,6 +14,15 @@ static func source_matches(records:Dictionary) -> bool:
   if record.get("source_glb_sha256","")!=digest:return false
  return true
 
+static func channel_mask(channel:int) -> Vector4:
+ match channel:
+  BaseMaterial3D.TEXTURE_CHANNEL_RED:return Vector4(1,0,0,0)
+  BaseMaterial3D.TEXTURE_CHANNEL_GREEN:return Vector4(0,1,0,0)
+  BaseMaterial3D.TEXTURE_CHANNEL_BLUE:return Vector4(0,0,1,0)
+  BaseMaterial3D.TEXTURE_CHANNEL_ALPHA:return Vector4(0,0,0,1)
+  BaseMaterial3D.TEXTURE_CHANNEL_GRAYSCALE:return Vector4(1.0/3.0,1.0/3.0,1.0/3.0,0)
+ return Vector4(1,0,0,0)
+
 static func material_from_source(source:BaseMaterial3D) -> ShaderMaterial:
  var material=ShaderMaterial.new()
  material.shader=load("res://shaders/baked_diffuse.gdshader")
@@ -21,12 +30,32 @@ static func material_from_source(source:BaseMaterial3D) -> ShaderMaterial:
  material.set_shader_parameter("base_color",source.albedo_color)
  material.set_shader_parameter("material_roughness",source.roughness)
  material.set_shader_parameter("material_metallic",source.metallic)
+ material.set_shader_parameter("material_specular",source.metallic_specular)
  material.set_shader_parameter("material_emission",source.emission if source.emission_enabled else Color.BLACK)
  material.set_shader_parameter("emission_energy",source.emission_energy_multiplier)
  material.set_shader_parameter("emission_add",source.emission_operator==BaseMaterial3D.EMISSION_OP_ADD)
- if source is ORMMaterial3D and source.orm_texture:
-  material.set_shader_parameter("orm_texture",source.orm_texture)
-  material.set_shader_parameter("use_orm_texture",true)
+ if source is ORMMaterial3D:
+  # Native ORM channels replace the hidden Standard numeric factors.
+  material.set_shader_parameter("material_roughness",1.0)
+  material.set_shader_parameter("material_metallic",1.0)
+  material.set_shader_parameter("material_specular",0.5)
+  if source.orm_texture:
+   material.set_shader_parameter("orm_texture",source.orm_texture)
+   material.set_shader_parameter("use_orm_texture",true)
+ elif source is StandardMaterial3D:
+  # glTF imports packed G/B maps as StandardMaterial3D, not ORMMaterial3D.
+  if source.roughness_texture and source.roughness_texture==source.metallic_texture and source.roughness_texture_channel==BaseMaterial3D.TEXTURE_CHANNEL_GREEN and source.metallic_texture_channel==BaseMaterial3D.TEXTURE_CHANNEL_BLUE:
+   material.set_shader_parameter("orm_texture",source.roughness_texture)
+   material.set_shader_parameter("use_orm_texture",true)
+  else:
+   if source.roughness_texture:
+    material.set_shader_parameter("roughness_texture",source.roughness_texture)
+    material.set_shader_parameter("roughness_channel_mask",channel_mask(source.roughness_texture_channel))
+    material.set_shader_parameter("use_roughness_texture",true)
+   if source.metallic_texture:
+    material.set_shader_parameter("metallic_texture",source.metallic_texture)
+    material.set_shader_parameter("metallic_channel_mask",channel_mask(source.metallic_texture_channel))
+    material.set_shader_parameter("use_metallic_texture",true)
  if source.albedo_texture:
   material.set_shader_parameter("albedo_texture",source.albedo_texture)
   material.set_shader_parameter("use_albedo_texture",true)

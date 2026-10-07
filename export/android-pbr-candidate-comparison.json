@@ -1,0 +1,207 @@
+{
+  "status": "verified_diagnostic",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "scope": "Same-Pixel corrected-renderer route and actual reading/finale/replay taps; four original PNGs retained. Casts are stochastic; exhaustive glyph-cache warming is not measured. Native placed comparisons include positive normal/ORM effects in both screen shapes. Sampled memory passes; no sustained FPS, full-garden, 2020 Adreno, release or final per-site art acceptance.",
+  "renderer_files_sha256": {
+    "runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "shaders/baked_diffuse.gdshader": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c"
+  },
+  "changed_atlas_dimensions": {
+    "res://assets/garden-of-dreams_pavilion_normal.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ]
+    },
+    "res://assets/garden-of-dreams_pavilion_orm.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ]
+    },
+    "res://assets/garden-of-dreams_wall_normal.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ]
+    },
+    "res://assets/garden-of-dreams_wall_orm.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "atlas_saving_bytes": 12582912,
+  "measured_states": {
+    "cell": {
+      "before_bytes": 73184428,
+      "after_bytes": 60601516
+    },
+    "cell_to_gate": {
+      "before_bytes": 74757292,
+      "after_bytes": 62174380
+    },
+    "gate": {
+      "before_bytes": 74757292,
+      "after_bytes": 62174380
+    },
+    "gate_to_pavilion": {
+      "before_bytes": 74761384,
+      "after_bytes": 62178472
+    },
+    "pavilion": {
+      "before_bytes": 74761384,
+      "after_bytes": 62178472
+    },
+    "cast": {
+      "before_bytes": 75809960,
+      "after_bytes": 62178472
+    },
+    "recast": {
+      "before_bytes": 75809960,
+      "after_bytes": 62178472
+    },
+    "close": {
+      "before_bytes": 75809960,
+      "after_bytes": 62178472
+    },
+    "finale": {
+      "before_bytes": 77907112,
+      "after_bytes": 62178472
+    },
+    "replay": {
+      "before_bytes": 77907112,
+      "after_bytes": 62178472
+    }
+  },
+  "candidate_peak_bytes": 62178472,
+  "passes_64_mib": true,
+  "passes_decimal_64_mb": true,
+  "phone_images": {
+    "cell": {
+      "before_sha256": "cac06c0eda2f9d7e2fcff298c5f541a9fe8e497e3a84e491caeb2ed9f6f810e5",
+      "after_sha256": "9eca7d204a09cc9b19c97d40890cd7adbd7675f345d5048960aad43c93ec796c",
+      "rmse": 0.0004473956484270632,
+      "p99": 0.0,
+      "maximum": 0.047058823529411764
+    },
+    "gate": {
+      "before_sha256": "0b7c501d505bda32591b12cd5a74840d9ba69c39dd07001f06907a7554baf1ac",
+      "after_sha256": "c2574ee6bf91aad2f3a76eb70aa7214b2a1323cffcacb93882fd6f40bdc010fd",
+      "rmse": 0.0003059106862177363,
+      "p99": 0.0,
+      "maximum": 0.027450980392156876
+    },
+    "pavilion": {
+      "before_sha256": "2d6dc9279a19ebae9e7bfa42ff15b4b7090cf19fab0241851d918402b0951284",
+      "after_sha256": "1a5d5b61c923a87d76a2174d1a8d5b3ba764820ab8c03bfba78b2ad9623e1407",
+      "rmse": 0.00021388559967505937,
+      "p99": 0.0,
+      "maximum": 0.011764705882352955
+    }
+  },
+  "mac_images": {
+    "desktop-hengwu_yuan-arrival": {
+      "before_sha256": "c57e66448d6e65b482e6b94b72dec8e7dd99c73d97729884e305201717f13929",
+      "after_sha256": "c57e66448d6e65b482e6b94b72dec8e7dd99c73d97729884e305201717f13929",
+      "rmse": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    },
+    "desktop-hengwu_yuan-close": {
+      "before_sha256": "5f6f754c7882c8817ba137eb695c18dc77bb82e8a2f4f65f4eddbc26933ef3f2",
+      "after_sha256": "5f6f754c7882c8817ba137eb695c18dc77bb82e8a2f4f65f4eddbc26933ef3f2",
+      "rmse": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    },
+    "desktop-hengwu_yuan-pbr-probe": {
+      "before_sha256": "c24b871bd33998ceb5743472b4f229ffe7ebcfb64c186f8cbe21e61241792f55",
+      "after_sha256": "5fa7317b141112dc4bbe25ed9f2e4ab4ddf20f19fceddb18c7cf1cdeec58507a",
+      "rmse": 0.0008307933857559534,
+      "p99": 0.00392156862745098,
+      "maximum": 0.01568627450980392
+    },
+    "desktop-qinfang_ting-arrival": {
+      "before_sha256": "df03badb395947a6b6e99e1fc62c2864c435f5546f06c9ccd3aa0d33aab69903",
+      "after_sha256": "ac0668b4128d91083e1e2d32ec7ac36ad0fdec8243b9ea4f2c5da05335b13e61",
+      "rmse": 6.32870336872306e-05,
+      "p99": 0.0,
+      "maximum": 0.007843137254901988
+    },
+    "desktop-qinfang_ting-close": {
+      "before_sha256": "e80431dd1620b782ff204198293e2a22498aab13be43e5d268deef5a22e19516",
+      "after_sha256": "973d37d44830f9ad9cc7f513bea5715508c7636d11fffd031b062181e95db029",
+      "rmse": 0.00034312345872012344,
+      "p99": 0.0,
+      "maximum": 0.01568627450980392
+    },
+    "desktop-qinfang_ting-pbr-probe": {
+      "before_sha256": "3cbd6833692f876238ec74f2436f48fc312178f4d5c28398cea34b8963faf7dc",
+      "after_sha256": "ec65ce73052b2971d95ae6e9148fad236c8ff984488aa59460c95f3e15dfcc6a",
+      "rmse": 0.0005398442626454881,
+      "p99": 0.00392156862745098,
+      "maximum": 0.011764705882352941
+    },
+    "portrait-hengwu_yuan-arrival": {
+      "before_sha256": "4bc526f4c8d760d3b5385e51c78507efd427d3dc5f4617b90589a7a4327b309f",
+      "after_sha256": "4bc526f4c8d760d3b5385e51c78507efd427d3dc5f4617b90589a7a4327b309f",
+      "rmse": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    },
+    "portrait-hengwu_yuan-close": {
+      "before_sha256": "12a8039f1e3cee7479963647caf4f4b2f82991b5384396ecd985f28a15e0bdba",
+      "after_sha256": "12a8039f1e3cee7479963647caf4f4b2f82991b5384396ecd985f28a15e0bdba",
+      "rmse": 0.0,
+      "p99": 0.0,
+      "maximum": 0.0
+    },
+    "portrait-hengwu_yuan-pbr-probe": {
+      "before_sha256": "db808b95f09dcd38b95855fe7ef203ee851e8c4cdbec97092e34e322e4157f4e",
+      "after_sha256": "e310b382c8ed264561039ef07ad4ec5a8016b594da48f59ef91f8c206f3213cb",
+      "rmse": 0.0006152637751005445,
+      "p99": 0.0039215686274509665,
+      "maximum": 0.011764705882352955
+    },
+    "portrait-qinfang_ting-arrival": {
+      "before_sha256": "3197fcde3e4ea66f39dcddfd2c51f473148e60884fb055f330ff676e03406a0d",
+      "after_sha256": "09ea450c7224f7e324fe288b0ce970de4992fc3fa34f90a989ccb1ab1928b0b8",
+      "rmse": 9.8104720074337e-05,
+      "p99": 0.0,
+      "maximum": 0.00784313725490196
+    },
+    "portrait-qinfang_ting-close": {
+      "before_sha256": "57aca482aa9dda666d80896e0aa0a279f32f8efdde549e75d5d5ab8426d795df",
+      "after_sha256": "cd5f09b85e9f0a5a91a908f711ea9647812e4bbd1bee10110cc9fca9220469fc",
+      "rmse": 0.0005172580343801488,
+      "p99": 0.00392156862745098,
+      "maximum": 0.011764705882352955
+    },
+    "portrait-qinfang_ting-pbr-probe": {
+      "before_sha256": "6de888a318bdb1ab6f168a6752c3e0b8c80e17cd483f26d23623b7e3ef341e26",
+      "after_sha256": "e01e0212b666af4503927e2e4021f73e1a8aff44c6199e21f578bcc82f05bc17",
+      "rmse": 0.0007183550560642172,
+      "p99": 0.00392156862745098,
+      "maximum": 0.01176470588235301
+    }
+  },
+  "verifier_sha256": "f3a6141e554e73dd53024a863c7c9b9aa0df7758a06d56a2bf61b49d3aeffbc7"
+}

@@ -1,0 +1,83 @@
+{
+  "status": "built",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-24rs22_5",
+  "apk": "/Users/auchan/projects/garden-of-dreams/build/garden-font-normal-orm-candidate.apk",
+  "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+  "normal_atlas_size_limit": 1024,
+  "orm_atlas_size_limit": 1024,
+  "reuse_ui_font_sizes": true,
+  "production_normal_files_sha256": {
+    "garden-of-dreams_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "garden-of-dreams_pavilion_normal.png.import": "85fb72dd105c8d0d4bb0327660e04f2045c693a5a0d5f8bc5b1006d2a9b62d77",
+    "garden-of-dreams_wall_normal.png": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+    "garden-of-dreams_wall_normal.png.import": "2d185bfc545922f7af5f8d670f467bef55f5ef796aad9e076c220e134afa68f1"
+  },
+  "production_orm_files_sha256": {
+    "garden-of-dreams_pavilion_orm.png": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+    "garden-of-dreams_pavilion_orm.png.import": "dbf42a609b39c031b9cab56bd2af57d5201c9d250575e7ced0c8f3196599dfcf",
+    "garden-of-dreams_wall_orm.png": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43",
+    "garden-of-dreams_wall_orm.png.import": "439ebe11fde148c86a9887a954df7459a5c9e0c28c8b318f2c38b050a1e07dde"
+  },
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "phases": [
+    {
+      "name": "mobile-texture-import",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-24rs22_5/mobile-texture-import.log",
+      "pid": 27108,
+      "exit_code": 0,
+      "log_sha256": "d1d283b55d3f3fe45934ec19b412c0d9dea9f094dcf78c5562f6b91ed01486da",
+      "engine_diagnostics": []
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-24rs22_5/apk-export.log",
+      "pid": 27143,
+      "exit_code": 0,
+      "log_sha256": "07010cb730674e66c0a65b202168bfe6db6201da84570e95a93f4c659d0ea81d",
+      "engine_diagnostics": []
+    }
+  ],
+  "apk_sha256": "5ba59dba7ddcc4d5103e848cc2853a0dad95834c10884412f0839b21d9bf9296",
+  "apk_bytes": 544647137,
+  "device_tested": true,
+  "device_profile_evidence": "docs/reference/android-font-candidate/font-normal-orm/touches/recast",
+  "device_profile_budget_results": {
+    "cell": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "cell_to_gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "gate_to_pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    }
+  }
+}

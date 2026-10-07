@@ -1,0 +1,66 @@
+{
+  "status": "verified_pre_fix_memory_diagnostic",
+  "scope": "Same-Pixel allocation variants before the imported Standard roughness/metallic repair. Memory/font evidence only; older APK metadata lacks renderer hashes.",
+  "variants": {
+    "font-only": {
+      "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+      "apk_sha256": "82ee5da965e5304c3abbced1ee84dd7a76b049ed23b7e634afb0895ef176c6bb",
+      "normal_limit": 0,
+      "orm_limit": 0,
+      "measured_bytes": {
+        "cell": 73184428,
+        "cell_to_gate": 74757292,
+        "gate": 74757292,
+        "gate_to_pavilion": 74761384,
+        "pavilion": 74761384,
+        "cast": 74761384,
+        "recast": 74761384,
+        "close": 74761384,
+        "finale": 74761384,
+        "replay": 74761384
+      },
+      "peak_bytes": 74761384,
+      "renderer_provenance_missing": true
+    },
+    "font-normal": {
+      "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+      "apk_sha256": "89f16fbc819d4aa0063536392c5043d9bd791c6507ef54f9812ace981ea7bbd0",
+      "normal_limit": 1024,
+      "orm_limit": 0,
+      "measured_bytes": {
+        "cell": 64795820,
+        "cell_to_gate": 66368684,
+        "gate": 66368684,
+        "gate_to_pavilion": 66372776,
+        "pavilion": 66372776,
+        "cast": 66372776,
+        "recast": 66372776,
+        "close": 66372776,
+        "finale": 66372776,
+        "replay": 66372776
+      },
+      "peak_bytes": 66372776,
+      "renderer_provenance_missing": true
+    },
+    "font-normal-orm": {
+      "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+      "apk_sha256": "5ba59dba7ddcc4d5103e848cc2853a0dad95834c10884412f0839b21d9bf9296",
+      "normal_limit": 1024,
+      "orm_limit": 1024,
+      "measured_bytes": {
+        "cell": 60601516,
+        "cell_to_gate": 62174380,
+        "gate": 62174380,
+        "gate_to_pavilion": 62178472,
+        "pavilion": 62178472,
+        "cast": 62178472,
+        "recast": 62178472,
+        "close": 62178472,
+        "finale": 62178472,
+        "replay": 62178472
+      },
+      "peak_bytes": 62178472,
+      "renderer_provenance_missing": true
+    }
+  }
+}

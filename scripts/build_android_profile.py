@@ -20,6 +20,9 @@ def sha(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--normal-atlas-size-limit', type=int, choices=[0, 1024], default=0)
+    parser.add_argument('--orm-atlas-size-limit', type=int, choices=[0, 1024], default=0)
+    parser.add_argument('--reuse-ui-font-sizes', action='store_true',
+                        help='Isolated candidate: reuse existing 22pt heading/16pt body sizes.')
     parser.add_argument('--report', type=Path, default=REPORT)
     parser.add_argument('--apk', type=Path, default=ROOT / 'build/garden-phone-profile.apk')
     args = parser.parse_args()
@@ -30,12 +33,18 @@ def main():
     report_path = args.report.resolve()
     report_path.parent.mkdir(parents=True, exist_ok=True)
     normal_names = ['garden-of-dreams_pavilion_normal.png', 'garden-of-dreams_wall_normal.png']
+    orm_names = ['garden-of-dreams_pavilion_orm.png', 'garden-of-dreams_wall_orm.png']
     original_normal_hashes = {name + suffix: sha(source / 'assets' / (name + suffix))
                               for name in normal_names for suffix in ['', '.import']}
+    original_orm_hashes = {name + suffix: sha(source / 'assets' / (name + suffix))
+                          for name in orm_names for suffix in ['', '.import']}
     state = {'status': 'preparing', 'fixture': str(fixture), 'apk': str(output),
              'scope': 'Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.',
              'normal_atlas_size_limit': args.normal_atlas_size_limit,
+             'orm_atlas_size_limit': args.orm_atlas_size_limit,
+             'reuse_ui_font_sizes': args.reuse_ui_font_sizes,
              'production_normal_files_sha256': original_normal_hashes,
+             'production_orm_files_sha256': original_orm_hashes,
              'source_glb_sha256': sha(source / 'assets/garden-of-dreams.glb'), 'phases': []}
     def save():
         report_path.write_text(json.dumps(state, indent=2) + '\n')
@@ -43,12 +52,34 @@ def main():
     record = json.loads((source / 'assets/garden-source.json').read_text())
     assert record['source_glb_sha256'] == state['source_glb_sha256']
     shutil.copytree(source, fixture, dirs_exist_ok=True, ignore=shutil.ignore_patterns('.godot', 'android', 'tests'))
-    if args.normal_atlas_size_limit:
+    runtime_names = ['entry_route.gd', 'reading_result.gd', 'demo_finale.gd', 'baked_materials.gd']
+    production_runtime_hashes = {name: sha(source / 'runtime' / name) for name in runtime_names}
+    renderer_paths = ['runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader']
+    production_renderer_hashes = {name: sha(source / name) for name in renderer_paths}
+    state['production_renderer_files_sha256'] = production_renderer_hashes
+    if args.reuse_ui_font_sizes:
+        edits = [
+            ('demo_finale.gd', 'heading.add_theme_font_size_override("font_size", 28)',
+             'heading.add_theme_font_size_override("font_size", 22)'),
+            ('reading_result.gd', 'card.add_theme_font_size_override("normal_font_size",18)',
+             'card.add_theme_font_size_override("normal_font_size",16)'),
+        ]
+        for name, before, after in edits:
+            path = fixture / 'runtime' / name
+            contents = path.read_text()
+            if contents.count(before) == 1:
+                path.write_text(contents.replace(before, after))
+            else:
+                assert contents.count(before) == 0 and contents.count(after) == 1, 'Missing/ambiguous candidate font override: ' + name
+    for size_limit, names in [(args.normal_atlas_size_limit, normal_names),
+                              (args.orm_atlas_size_limit, orm_names)]:
+        if not size_limit:
+            continue
         changes = []
-        for name in normal_names:
+        for name in names:
             path = fixture / 'assets' / (name + '.import')
             contents, count = re.subn(r'^process/size_limit=\d+$',
-                                     'process/size_limit=' + str(args.normal_atlas_size_limit),
+                                     'process/size_limit=' + str(size_limit),
                                      path.read_text(), flags=re.MULTILINE)
             assert count == 1, 'Missing or ambiguous size limit: ' + name
             changes.append((path, contents))
@@ -84,9 +115,15 @@ script = ExtResource("1")
     build.update({'profile_script_sha256': sha(fixture / 'tests/profile_android.gd'),
                   'inventory_script_sha256': sha(fixture / 'tests/texture_binding_inventory.gd'),
                   'normal_atlas_size_limit': args.normal_atlas_size_limit,
+                  'orm_atlas_size_limit': args.orm_atlas_size_limit,
+                  'reuse_ui_font_sizes': args.reuse_ui_font_sizes,
                   'normal_png_sha256': {name: sha(fixture / 'assets' / name) for name in normal_names},
                   'normal_import_sha256': {name: sha(fixture / 'assets' / (name + '.import')) for name in normal_names},
-                  'runtime_script_sha256': {name: sha(fixture / 'runtime' / name) for name in ['entry_route.gd', 'reading_result.gd', 'demo_finale.gd']},
+                  'orm_png_sha256': {name: sha(fixture / 'assets' / name) for name in orm_names},
+                  'orm_import_sha256': {name: sha(fixture / 'assets' / (name + '.import')) for name in orm_names},
+                  'production_runtime_script_sha256': production_runtime_hashes,
+                  'runtime_script_sha256': {name: sha(fixture / 'runtime' / name) for name in runtime_names},
+                  'renderer_files_sha256': {name: sha(fixture / name) for name in renderer_paths},
                   'demo_index_sha256': sha(fixture / 'lightmaps/demo-index.json'),
                   'full_index_sha256': sha(fixture / 'lightmaps/full-index.json'),
                   'inscription_import_sha256': [sha(fixture / 'assets' / ('garden-of-dreams_gate-inscription' + suffix + '.png.import')) for suffix in ['', '-normal']]})
@@ -139,10 +176,14 @@ screen/immersive_mode=true
             save()
             raise RuntimeError(f'{name} failed; inspect {log}')
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
-    for name, expected in original_normal_hashes.items():
-        assert sha(source / 'assets' / name) == expected, 'Production normal asset changed: ' + name
+    for name, expected in {**original_normal_hashes, **original_orm_hashes}.items():
+        assert sha(source / 'assets' / name) == expected, 'Production atlas asset changed: ' + name
         if not name.endswith('.import'):
             assert sha(fixture / 'assets' / name) == expected, 'Source PNG changed in fixture: ' + name
+    for name, expected in production_runtime_hashes.items():
+        assert sha(source / 'runtime' / name) == expected, 'Production runtime changed: ' + name
+    for name, expected in production_renderer_hashes.items():
+        assert sha(source / name) == sha(fixture / name) == expected, 'Renderer changed: ' + name
     state['apk_sha256'] = sha(output)
     state['apk_bytes'] = output.stat().st_size
     state['status'] = 'built'

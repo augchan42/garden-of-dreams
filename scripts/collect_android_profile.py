@@ -42,8 +42,15 @@ def main():
     assert fixture_record['profile_script_sha256'] == digest((ROOT / 'godot/tests/profile_android.gd').read_bytes())
     if 'inventory_script_sha256' in fixture_record:
         assert fixture_record['inventory_script_sha256'] == digest((ROOT / 'godot/tests/texture_binding_inventory.gd').read_bytes())
-    for name, expected in fixture_record.get('runtime_script_sha256', {}).items():
+    production_runtime = fixture_record.get('production_runtime_script_sha256',
+                                            fixture_record.get('runtime_script_sha256', {}))
+    for name, expected in production_runtime.items():
         assert digest((ROOT / 'godot/runtime' / name).read_bytes()) == expected, 'Runtime changed after APK build: ' + name
+    for name, expected in fixture_record.get('runtime_script_sha256', {}).items():
+        assert digest((Path(build['fixture']) / 'runtime' / name).read_bytes()) == expected, 'Staged runtime changed after APK build: ' + name
+    for name, expected in fixture_record.get('renderer_files_sha256', {}).items():
+        assert digest((ROOT / 'godot' / name).read_bytes()) == expected, 'Renderer changed after APK build: ' + name
+        assert digest((Path(build['fixture']) / name).read_bytes()) == expected, 'Staged renderer changed after APK build: ' + name
     assert set(report['samples']) == {'cell', 'cell_to_gate', 'gate', 'gate_to_pavilion', 'pavilion'}
     assert all(s['frames'] > 0 and s['visible_draw_calls_max'] > 0 for s in report['samples'].values())
     payloads = {'garden-phone-profile.json': raw, 'build.json': build_path.read_bytes()}

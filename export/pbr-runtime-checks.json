@@ -1,0 +1,218 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "renderer_files_sha256": {
+    "runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "shaders/baked_diffuse.gdshader": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c"
+  },
+  "phases": [
+    {
+      "name": "test_baked_pbr_textures",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_baked_pbr_textures.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "930689919df871350df7da5ba8959d9d82df244e1ab0631d46cfee182f3c1c0a",
+      "script_sha256": "487644456ff027ccf6ca503d1157a7b105bcc0a97a16383bca267414d5616547",
+      "status": "passed"
+    },
+    {
+      "name": "test_bake_adapter",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_bake_adapter.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "807284db2520c356126d52163a2e644fc68eb051685de0c228946d34b73c6a56",
+      "script_sha256": "95ed01b5f8ad58e11a65717a15247cf3d81352284904cc8d71ca95a856b0b5db",
+      "status": "passed"
+    },
+    {
+      "name": "test_surface_materials",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_surface_materials.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2",
+      "script_sha256": "adda76d10a977c91fae9c2a1a591c182c67eb899df831969533cca8d326f1fd8",
+      "status": "passed"
+    },
+    {
+      "name": "test_full_scene_lighting",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86",
+      "script_sha256": "545507c631c5d34270d445c0b8d9fc3ee00b450ba2d0c0c3f83f482c0af49a09",
+      "status": "passed"
+    },
+    {
+      "name": "test_baked_backdrop_wash",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15",
+      "script_sha256": "7d0a87ef27fc2e6a0d994c216a5c823f4d6c0720278acafa1d65affb4915ac50",
+      "status": "passed"
+    },
+    {
+      "name": "test_terminal_spill",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2",
+      "script_sha256": "e4955cb41f8f216fcd2a623a05b88f55eed61c11db2c722ad34b7fbde81c6446",
+      "status": "passed"
+    },
+    {
+      "name": "test_terminal_spill-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--",
+        "--demo"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2",
+      "script_sha256": "e4955cb41f8f216fcd2a623a05b88f55eed61c11db2c722ad34b7fbde81c6446",
+      "status": "passed"
+    },
+    {
+      "name": "test_first_reading_demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_first_reading_demo.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6",
+      "script_sha256": "a074a8e97aa0a5829ff45d73f7d0047d8fb5682c4531fed09fe9fe6c4e6f3d21",
+      "status": "passed"
+    },
+    {
+      "name": "test_entry_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_entry_route.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "0233d1a8602de2fd15f450d62422effb184a4c3c3571abee902b96a84e0d44d9",
+      "script_sha256": "61df3e5b20a4295872e45eef121f38a69af8b4dc2b483063ddde439ab7248d93",
+      "status": "passed"
+    },
+    {
+      "name": "test_demo_reading",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_demo_reading.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "35046c4d83ad999e1f7e1913516fed4a8ebf05404e22d17bafe42bb860fbec8d",
+      "script_sha256": "26a31e94c316d8e527dd80f342347f0158cde589b5c22fbb9d6fbd81c9ef446b",
+      "status": "passed"
+    },
+    {
+      "name": "test_mobile_ui_scaling",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+      "script_sha256": "5326cf11d8912ef797d9546be7d5167f039dc2a63f104e6566579b87f0905ebf",
+      "status": "passed"
+    },
+    {
+      "name": "test_baked_normal_response",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_baked_normal_response.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "cf88d5bfc8f2f4aec9d14443e3f3ea3e1d2f3f0c1fba41dff1e3a138eb0f7067",
+      "script_sha256": "f954124b736fd1e77f4bb70d1bc645020496c33ac0007d84f74aa4ef15e3efa9",
+      "status": "passed"
+    },
+    {
+      "name": "test_backdrop_wash_sides",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_backdrop_wash_sides.gd"
+      ],
+      "exit_code": 0,
+      "diagnostics": [],
+      "log_sha256": "56fa4bc1ac6eee2480c944d97c4618e677927b8524e968f8a99d7c58ee1366fb",
+      "script_sha256": "c7f17b2a024ba0c66c4167c583c7eb30ef5196cf343ba22be3cab94a862645a2",
+      "status": "passed"
+    }
+  ]
+}

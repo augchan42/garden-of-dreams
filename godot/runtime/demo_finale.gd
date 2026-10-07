@@ -31,7 +31,7 @@ func _ready() -> void:
  var heading = Label.new()
  heading.text = "YOUR FIRST READING"
  heading.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
- heading.add_theme_font_size_override("font_size", 28)
+ heading.add_theme_font_size_override("font_size", 22)
  heading.add_theme_color_override("font_color", Color(1, .68, .28))
  column.add_child(heading)
  var summary = Label.new()
