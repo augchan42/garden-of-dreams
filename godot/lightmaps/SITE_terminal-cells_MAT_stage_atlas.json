@@ -3,20 +3,12 @@
   "site": "terminal-cells",
   "texture": "SITE_terminal-cells_MAT_stage_atlas.png",
   "scale": 1.0,
-  "size": 512,
-  "samples": 32,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "aab1aa9be97fe81faed3c8c80e24eabef56c5cd51ccd7d1011b406e86dce50ac",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.09832382202148438,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.048058509826660156,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "c385d4741293a2615489cdde001046970032a66074e6d308cfdfa11f2af4e6d7"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

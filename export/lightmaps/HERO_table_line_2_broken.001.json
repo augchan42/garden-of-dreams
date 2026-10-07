@@ -4,19 +4,11 @@
   "texture": "HERO_table_line_2_broken.001.png",
   "scale": 1.0,
   "size": 256,
-  "samples": 32,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "dd57b3be817417476d783ce805d3572b2f6094b7238b25ab0442ee932b66a7f9",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.5990447998046875,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.6357421875,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "16d761d435735fd76f3c281aeb5646e268dc46c067a1cd711d3a3b6e9ea8c206"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

@@ -2,21 +2,13 @@
   "mesh": "SITE_tubi-tang_MAT_lattice_wood",
   "site": "tubi-tang",
   "texture": "SITE_tubi-tang_MAT_lattice_wood.png",
-  "scale": 2.6355433464050293,
-  "size": 512,
-  "samples": 32,
+  "scale": 2.718719482421875,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "023c912331603c89ed6e6f97cbe33a0c40a8810adb478cee8bf07c9835ee98d9",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.6473960876464844,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.3459949493408203,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "55069c28b2a80ae5142b966fbfc993ca55d11206ee88e5068bd57155917b7b39"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

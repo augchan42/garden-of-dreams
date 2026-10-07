@@ -2,21 +2,13 @@
   "mesh": "SITE_rockery-gate_MAT_foliage_card",
   "site": "rockery-gate",
   "texture": "SITE_rockery-gate_MAT_foliage_card.png",
-  "scale": 1.0384933948516846,
-  "size": 512,
-  "samples": 32,
+  "scale": 1.0,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "b91f9b39657888877b01312adcfcaac4e5489b8ea986e41c963833dc80798b91",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.2841529846191406,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.18946552276611328,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "19d91101a6cae235e27db61aa2ab66cd5fa3b02176c45019d0d3b1c2b5cc8669"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

@@ -48,7 +48,7 @@ func _post_import(scene: Node) -> Object:
       node.mesh.surface_set_material(i,shared)
       node.set_surface_override_material(i,shared)
   if node is DirectionalLight3D:
-   node.light_energy = 1.4 if str(node.name).contains("green_key") else 0.65
+   node.light_energy = 0.6 if str(node.name).contains("qinfang") else (1.4 if str(node.name).contains("green_key") else 0.65)
    node.shadow_enabled = true
   elif node is SpotLight3D:
    # The broad imperial facade needs a stronger preview key at this distance.

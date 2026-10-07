@@ -1,5 +1,5 @@
 {
-  "authoring_blend_sha256": "fa5d38949f787d34f26e87378286a091da890cf7df17cb43baa4e600f09fa7b4",
+  "authoring_blend_sha256": "516364951d89d6de5a6eed783cabcadab048bd7ec60bc90d53fe6b9fdb2e84e9",
   "scope": "Saved Blender scene lighting inventory; not engine visual or performance acceptance.",
   "sites": {
     "aojing-guan": {
@@ -226,7 +226,19 @@
       ]
     },
     "ouxiang-xie": {
-      "keys": [],
+      "keys": [
+        {
+          "name": "LGT_ouxiang-xie_key",
+          "type": "SPOT",
+          "energy": 450.0,
+          "color": [
+            0.6800000071525574,
+            0.7799999713897705,
+            0.7300000190734863
+          ],
+          "linked_receivers": []
+        }
+      ],
       "washes": [
         {
           "name": "LGT_ouxiang_xie_backdrop_wash",
@@ -272,7 +284,19 @@
       ]
     },
     "qinfang-ting": {
-      "keys": [],
+      "keys": [
+        {
+          "name": "LGT_qinfang-ting_key",
+          "type": "SUN",
+          "energy": 0.6000000238418579,
+          "color": [
+            0.6800000071525574,
+            0.7799999713897705,
+            0.7300000190734863
+          ],
+          "linked_receivers": []
+        }
+      ],
       "washes": [
         {
           "name": "LGT_qinfang_ting_backdrop_wash",
@@ -639,7 +663,19 @@
       ]
     },
     "ziling-zhou": {
-      "keys": [],
+      "keys": [
+        {
+          "name": "LGT_ziling-zhou_key",
+          "type": "SPOT",
+          "energy": 400.0,
+          "color": [
+            0.6499999761581421,
+            0.800000011920929,
+            0.7200000286102295
+          ],
+          "linked_receivers": []
+        }
+      ],
       "washes": [
         {
           "name": "LGT_ziling_zhou_backdrop_wash",
@@ -686,21 +722,18 @@
     "terminal-cells"
   ],
   "sites_without_owned_keys": [
-    "ouxiang-xie",
-    "qinfang-ting",
     "rockery-gate",
-    "terminal-cells",
-    "ziling-zhou"
+    "terminal-cells"
   ],
   "other_scene_lights": [
     {
       "name": "LGT_stage_green_key",
       "type": "SUN",
-      "energy": 2.299999952316284,
+      "energy": 1.399999976158142,
       "color": [
-        0.550000011920929,
+        0.699999988079071,
         0.7400000095367432,
-        0.5799999833106995
+        0.7799999713897705
       ],
       "location": [
         15.0,
@@ -738,10 +771,6 @@
     "terminal-cells": "Borrowed cyclorama/window spill; no owned Area wash.",
     "rockery-gate": "No wash, explicitly required by its sheet."
   },
-  "missing_required_keys": [
-    "ouxiang-xie",
-    "qinfang-ting",
-    "ziling-zhou"
-  ],
+  "missing_required_keys": [],
   "missing_required_washes": []
 }

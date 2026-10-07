@@ -1,0 +1,99 @@
+{
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "pack_sha256": "a20f2037709eec5a44e9a07bdc4f9a05763ea9c3530477f36abf533432db0e4e",
+  "scope": "Current-source project checks and exported demo pack, stationary Mac demo profile, western physics traversal, native frame capture. No final art, full traversal or target-phone acceptance.",
+  "packed_checks": [
+    {
+      "name": "keys",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "full-lighting",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "wash-normal",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "wash-demo",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "adapter",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "surfaces",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "startup",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "pointer-keyboard-replay",
+      "exit_code": 0,
+      "status": "passed"
+    },
+    {
+      "name": "pond-controls",
+      "exit_code": 0,
+      "status": "passed"
+    }
+  ],
+  "western_route": "passed: both directions with floor support",
+  "profile": {
+    "buffer_memory_bytes": 20611168,
+    "device": "Apple M2 Max",
+    "renderer": "gl_compatibility",
+    "scope": "Stationary demo arrival views on this Mac",
+    "texture_memory_bytes": 57817992,
+    "viewport": [
+      1410,
+      600
+    ],
+    "views": {
+      "qinfang_ting": {
+        "active_practicals": 4,
+        "forced_draw_interval_median_ms": 1.705,
+        "forced_draw_interval_p95_ms": 5.641,
+        "visible_draw_calls_max": 102,
+        "visible_primitives_max": 123740
+      },
+      "rockery_gate": {
+        "active_practicals": 3,
+        "forced_draw_interval_median_ms": 1.801,
+        "forced_draw_interval_p95_ms": 5.335,
+        "visible_draw_calls_max": 140,
+        "visible_primitives_max": 143452
+      },
+      "terminal_room": {
+        "active_practicals": 2,
+        "forced_draw_interval_median_ms": 2.176,
+        "forced_draw_interval_p95_ms": 5.574,
+        "visible_draw_calls_max": 146,
+        "visible_primitives_max": 177088
+      }
+    }
+  },
+  "movie": {
+    "frames": 1290,
+    "seconds": 43,
+    "fps": 30,
+    "viewport": [
+      1410,
+      600
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "sha256": "55dc4d397d48c7aaa33b1f0170aa6cc8d661d9a30e1f6a448f8a504c5c2f7b64"
+  }
+}

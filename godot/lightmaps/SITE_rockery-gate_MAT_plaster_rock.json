@@ -3,20 +3,12 @@
   "site": "rockery-gate",
   "texture": "SITE_rockery-gate_MAT_plaster_rock.png",
   "scale": 1.0,
-  "size": 512,
-  "samples": 32,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "6681a087553952d7afbd42de3ac296dc89b346a5a6e9264d9636c14197b11563",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.14868927001953125,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.16602706909179688,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "57d339b872edfdb05a06915f35d89f12ff26239dcbc9842e8b9176e91db8adf6"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

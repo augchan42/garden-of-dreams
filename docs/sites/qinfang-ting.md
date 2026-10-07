@@ -116,4 +116,16 @@ The temporary Songti glyph geometry is replaced by original painted 沁芳 lette
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
 
-This site still needs its own key light. The current ordinary bake retains the existing shared stage keys.
+The owned-key pass below completes the missing-key inventory requirement. Final light and shadow quality remains under review.
+
+
+## Owned key source — 2026-10-07
+
+`LGT_qinfang-ting_key` is now saved in authoring and the directly openable site library: a Sun at energy 0.6, 35° elevation from the southeast and 0.5° source angle. Its muted green follows the user’s palette revision. Native checks require a single positive owned key, hard shadows and the intended direction/target; they failed before this pass and pass afterward. The shared light named `LGT_stage_green_key` now has neutral cool RGB (0.70, 0.74, 0.78), energy 1.4.
+
+Geometry, materials, images, collision and camera data are unchanged in the new export; the three keys and shared-fill settings are the changes. All 124 ordinary maps were freshly rebaked at 128 samples because the Sun/shared fill affects the whole assembly. The native wash was also refreshed at 128 samples/512². Godot now uses the current source `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde` and hash-matched maps. Imported-key, full-lighting, wash, material and demo-startup checks pass. Desktop and 390 × 844 portrait arrival views are refreshed. Final shadow dominance, palette, materials, filtering and moving-camera acceptance remain open.
+
+
+## External reference collection — 2026-10-07
+
+The Flying Rainbow Bridge architecture photo is collected, visually checked and attributed in `../reference/external/qinfang-ting/README.md`; its original bytes match the source file checksum. It is reference material only. The two specified film stills remain uncollected, so the three-reference requirement is not complete.

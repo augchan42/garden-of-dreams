@@ -2,21 +2,13 @@
   "mesh": "SITE_tubi-tang_MAT_whitewash",
   "site": "tubi-tang",
   "texture": "SITE_tubi-tang_MAT_whitewash.png",
-  "scale": 1.153907299041748,
-  "size": 512,
-  "samples": 32,
+  "scale": 1.0,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "2505ab0eab19e23344d395a433c04205fec4177df36b51652b751c59fd7913e8",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.39691925048828125,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.4378213882446289,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "41bc820411813e743a772c8931e07c13c156b89e3c7ace22bf873454abc577a2"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

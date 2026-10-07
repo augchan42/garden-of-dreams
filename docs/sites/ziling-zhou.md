@@ -62,4 +62,11 @@ All eligible opaque meshes in this saved site now have current source-matched Cy
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
 
-This site still needs its own key light. The current ordinary bake retains the existing shared stage keys.
+The owned-key pass below completes the missing-key inventory requirement. Final light and shadow quality remains under review.
+
+
+## Owned key source — 2026-10-07
+
+`LGT_ziling-zhou_key` is now saved in authoring and the directly openable site library: a 400 W Spot with 65° cone, zero edge blend and 0.01 m source radius, aimed at the reed overlook. Its muted green follows the user’s palette revision. Native checks require a single positive owned key, hard shadows and the intended direction/target; they failed before this pass and pass afterward. The shared light named `LGT_stage_green_key` now has neutral cool RGB (0.70, 0.74, 0.78), energy 1.4.
+
+Geometry, materials, images, collision and camera data are unchanged in the new export; the three keys and shared-fill settings are the changes. All 124 ordinary maps were freshly rebaked at 128 samples because the Sun/shared fill affects the whole assembly. The native wash was also refreshed at 128 samples/512². Godot now uses the current source `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde` and hash-matched maps. Imported-key, full-lighting, wash, material and demo-startup checks pass. Desktop and 390 × 844 portrait arrival views are refreshed. Final shadow dominance, palette, materials, filtering and moving-camera acceptance remain open.

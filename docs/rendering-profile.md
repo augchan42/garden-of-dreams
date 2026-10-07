@@ -22,3 +22,8 @@ The renderer's separate shadow draw counter reported zero even though disabling 
 The command-driven runtime now limits eligible lantern/CRT OmniLight3D nodes to the nearest four within 12 m of the visitor, updated every 0.2 seconds. Practical shadows are disabled. Emissive materials remain visible and zero-energy cell lights remain off. Static key/spot lights are still dynamic pending baking, so the complete lighting budget is not yet met.
 
 `test_practical_lights.gd` checks selection and the four-light limit at five locations. `profile_garden.gd` writes the current baseline to `godot/profile-desktop.json`. Diagnostic flags `--no-shadows` and `--no-lights` modify only the running test scene, with separately named reports. `--portrait` changes the window dimensions; it does not emulate a phone GPU.
+
+
+## Three-key source pass — 2026-10-07
+
+The current demo source is `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde`. After all 124 ordinary maps and the wash were refreshed, the stationary 1410 × 600 M2 Max demo profile retains a maximum of 146 draws, 177,088 primitives, four practicals and 57,817,992 texture bytes. Forced-draw medians are 1.705–2.176 ms and p95 5.335–5.641 ms. The Western route passes collision traversal in both directions; that is a physics check, not continuous GPU profiling. The earlier pond and all-site arrival profiles are historical measurements. Current full traversal and target-phone GPU acceptance remain open. Evidence: `export/site-key-runtime-checks.json` and `godot/demo-profile-desktop.json`.

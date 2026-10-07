@@ -1,0 +1,84 @@
+{
+  "status": "saved",
+  "keys": {
+    "qinfang-ting": {
+      "type": "SUN",
+      "position": [
+        14.48069953918457,
+        -14.48069953918457,
+        14.339410781860352
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "energy": 0.6,
+      "color": [
+        0.68,
+        0.78,
+        0.73
+      ],
+      "name": "LGT_qinfang-ting_key",
+      "hard_shadow": true,
+      "sun_angle_degrees": 0.5
+    },
+    "ouxiang-xie": {
+      "type": "SPOT",
+      "position": [
+        -30,
+        7,
+        8
+      ],
+      "target": [
+        -23,
+        0.3,
+        1
+      ],
+      "energy": 450,
+      "color": [
+        0.68,
+        0.78,
+        0.73
+      ],
+      "name": "LGT_ouxiang-xie_key",
+      "hard_shadow": true,
+      "shadow_radius_m": 0.01
+    },
+    "ziling-zhou": {
+      "type": "SPOT",
+      "position": [
+        -28,
+        4,
+        8
+      ],
+      "target": [
+        -35.4,
+        0,
+        1
+      ],
+      "energy": 400,
+      "color": [
+        0.65,
+        0.8,
+        0.72
+      ],
+      "name": "LGT_ziling-zhou_key",
+      "hard_shadow": true,
+      "shadow_radius_m": 0.01
+    }
+  },
+  "shared_fill": {
+    "name": "LGT_stage_green_key",
+    "energy": 1.4,
+    "color": [
+      0.7,
+      0.74,
+      0.78
+    ],
+    "role": "Neutral shared fill; legacy object name retained."
+  },
+  "unchanged_objects_checked": 4340,
+  "canonical_glb_before_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
+  "ordinary_bakes_require_refresh": true
+}

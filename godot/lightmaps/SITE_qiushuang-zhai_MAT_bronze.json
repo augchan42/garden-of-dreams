@@ -2,21 +2,13 @@
   "mesh": "SITE_qiushuang-zhai_MAT_bronze",
   "site": "qiushuang-zhai",
   "texture": "SITE_qiushuang-zhai_MAT_bronze.png",
-  "scale": 1.350419521331787,
-  "size": 512,
-  "samples": 32,
+  "scale": 1.2077069282531738,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "0b15c52f1e27584226859dd2f99852285e11fcd9d6e6183a3730743e3ff7c8cd",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.41724395751953125,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.29677486419677734,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "3bbcd197bf3545af76a9596977f317d08109998f185a87fd327f21b074fabfea"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }

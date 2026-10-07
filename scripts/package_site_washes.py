@@ -1,14 +1,22 @@
 """Keep directly openable site libraries and linked-master wash receivers valid."""
 import bpy
+import argparse
 import json
 import os
+import sys
 from pathlib import Path
 from mathutils import Vector
 
 ROOT=Path(__file__).resolve().parents[1]
 plan=json.loads((ROOT/'export/site-wash-rig.json').read_text())
+parser=argparse.ArgumentParser()
+parser.add_argument('--sites',nargs='+',default=['stage',*plan['washes']])
+options=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+assert len(set(options.sites))==len(options.sites)
+assert set(options.sites)<=set(['stage',*plan['washes']])
+assert options.sites[0]=='stage','Package the shared receiver IDs first'
 stage_path=ROOT/'blender/sites/SITE_stage.blend'
-for slug in ['stage',*plan['washes']]:
+for slug in options.sites:
     path=ROOT/'blender/sites'/('SITE_'+slug+'.blend')
     bpy.ops.wm.read_factory_settings(use_empty=True)
     with bpy.data.libraries.load(str(path),link=False) as (available,loaded):

@@ -1,8 +1,8 @@
 # Saved site source audit
 
-Inspected all 14 saved site libraries, the authoring scene and the individual site GLBs on 2026-10-04. Evidence: [`export/site-source-audit.json`](../export/site-source-audit.json). Reproduce with Blender in background mode and `scripts/audit_site_sources.py`.
+Inspected all 14 saved site libraries, the authoring scene and the individual site GLBs on 2026-10-07. Evidence: [`export/site-source-audit.json`](../export/site-source-audit.json). Reproduce with Blender in background mode and `scripts/audit_site_sources.py`.
 
-Current assembly SHA256: `13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257`.
+Current assembly SHA256: `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde`.
 
 Each library has a saved scene. All camera, light, collision and trigger names, transforms and room IDs match the corresponding authoring collection. Camera lens, sensor, clipping and runtime viewport/FOV metadata also match. All 71 trigger empties have room IDs. Sign implementations also match. Blender MCP independently checked the saved library catalogs and hashes without modifying the open scene.
 
@@ -25,7 +25,7 @@ This is a structural inspection. It does not establish complete dressing, visual
 | [yihong-yuan](sites/yihong-yuan.md) | 4 | 3 | — | 7/7 |
 | [ziling-zhou](sites/ziling-zhou.md) | 3 | 2 | — | 3/3 |
 
-The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All 116 eligible site meshes now have current records; none are missing. The latest native batch adds 54 later-site records and eight shared-stage records. The earlier 62 were retained through a verified camera-only export with original provenance; they are not newly rendered bakes. The full catalog also passes native finite/nonzero pixel and identical engine-copy checks. Runtime application is checked separately by `test_full_scene_lighting.gd`.
+The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`: transparent foliage/fog/water and the unlit stage sky are excluded. A current record must match the canonical assembly hash and have its PNG present. Pixel contents and runtime application need their own checks. All 116 eligible site meshes now have current records; none are missing. All 124 ordinary maps, including the eight shared stage meshes, were freshly rendered at 128 samples for the current owned-key and neutral-fill source. No current record uses camera-only compatibility. The full catalog also passes native finite/nonzero pixel and identical engine-copy checks. Runtime application is checked separately by `test_full_scene_lighting.gd`.
 
 ## Next scene work
 
@@ -38,4 +38,4 @@ The bake column uses the opaque-mesh eligibility rules in `verify_lightmaps.py`:
 The site sheets and earlier build-status entries contain historical statements about unfinished kits. The later kit completion records supersede those statements. They do not supersede the remaining signage, references, final lighting and acceptance requirements.
 
 
-The 2026-10-07 refresh includes twelve owned exterior-site Area washes. All fourteen source libraries retain zero structural differences from authoring and matching current site-sheet hashes. The separate rig inventory distinguishes terminal/window and tunnel/no-wash exceptions, and identifies three missing owned keys. Area lights remain absent from the byte-identical GLBs and transfer through native backdrop maps; those are additional to the table’s ordinary bake counts. See `export/lighting-rig-audit.json` and `baked-lighting.md`.
+The 2026-10-07 refresh includes twelve owned exterior-site Area washes. All fourteen source libraries retain zero structural differences from authoring and matching current site-sheet hashes. The separate rig inventory distinguishes terminal/window and tunnel/no-wash exceptions, and records three newly saved owned keys with no missing required key or wash. Area lights remain absent from glTF and transfer through native backdrop maps; those are additional to the table’s ordinary bake counts. See `export/lighting-rig-audit.json` and `baked-lighting.md`.

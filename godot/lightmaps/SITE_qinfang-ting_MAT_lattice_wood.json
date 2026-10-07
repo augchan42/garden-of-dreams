@@ -3,20 +3,12 @@
   "site": "qinfang-ting",
   "texture": "SITE_qinfang-ting_MAT_lattice_wood.png",
   "scale": 1.0,
-  "size": 512,
-  "samples": 32,
+  "size": 1024,
+  "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "f5ea9620533bb99c5ce0d4e8ec73ecbe040a62ad4ea37e7346f5a17141602997",
-  "source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-  "nonzero_fraction": 0.721282958984375,
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "nonzero_fraction": 0.41918277740478516,
   "point_lights_baked": false,
-  "status": "Cycles bake retained after verified camera-only export; original bake source recorded",
-  "baked_from_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-  "camera_only_revalidation": {
-    "previous_source_glb_sha256": "4755afea99f052791f9906c7b27d3108d4929fa13bba8c3ad3a0c751edf0846b",
-    "compatible_source_glb_sha256": "13d247b4ffc4588e23fb795d8d0d431ebee0213271cd92d0347616485ab5c257",
-    "proof": "reflection-camera-alignment.json",
-    "proof_sha256": "77375d4dd767979eedd86301a14ab1e10d61030e63adbafa8d8f75317902bc4b",
-    "texture_sha256": "83159cfe07f3864815e71ccd33ca1ebbe7d841d4d6caec788933e39a90df81f2"
-  }
+  "status": "Cycles bake produced; engine look verification pending"
 }
