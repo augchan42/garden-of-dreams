@@ -60,3 +60,8 @@ The runtime bake adapter now corrects Cycles diffuse transfer for Compatibility 
 `LGT_qiushuang_zhai_backdrop_wash` is saved in authoring and `SITE_qiushuang-zhai.blend`: a 150 W, 15 × 10 m Area light, neutral gray-blue (linear RGB 0.72, 0.78, 0.84), aimed at the painted enclosure along `CAM_qiushuang-zhai_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+
+## Collected reference — 2026-10-08
+
+Slot 2: [original photograph](../reference/external/qiushuang-zhai/qiushuang-entrance-plaque.jpg), by 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 秋爽齋 from right to left. The close entrance view shows a red structural frame, green rectangular return-pattern door lattices and a blue/turquoise/yellow painted upper beam and open fretwork. It supports the study hall frontage and patterned screen treatment; the cropped view does not establish the complete roof, plan, dimensions or the required night lighting. Attribution, license and original-byte integrity are saved beside the image. Other reference slots remain open.
