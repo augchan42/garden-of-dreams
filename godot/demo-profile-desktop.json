@@ -2,11 +2,22 @@
   "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
   "buffer_memory_bytes": 20611168,
   "device": "Apple M2 Max",
+  "mountain_import_sha256": {
+    "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+    "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+    "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+  },
   "renderer": "gl_compatibility",
   "scope": "Stationary demo arrival views on this Mac",
   "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
   "terminal_spill_manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
-  "texture_memory_bytes": 58123920,
+  "texture_memory_bytes": 60089871,
   "viewport": [
     1410,
     600
@@ -14,22 +25,22 @@
   "views": {
     "qinfang_ting": {
       "active_practicals": 4,
-      "forced_draw_interval_median_ms": 1.833,
-      "forced_draw_interval_p95_ms": 4.033,
+      "forced_draw_interval_median_ms": 2.827,
+      "forced_draw_interval_p95_ms": 7.047,
       "visible_draw_calls_max": 102,
       "visible_primitives_max": 123740
     },
     "rockery_gate": {
       "active_practicals": 3,
-      "forced_draw_interval_median_ms": 2.106,
-      "forced_draw_interval_p95_ms": 3.96,
+      "forced_draw_interval_median_ms": 5.477,
+      "forced_draw_interval_p95_ms": 7.889,
       "visible_draw_calls_max": 140,
       "visible_primitives_max": 143452
     },
     "terminal_room": {
       "active_practicals": 2,
-      "forced_draw_interval_median_ms": 2.72,
-      "forced_draw_interval_p95_ms": 6.271,
+      "forced_draw_interval_median_ms": 6.299,
+      "forced_draw_interval_p95_ms": 8.711,
       "visible_draw_calls_max": 146,
       "visible_primitives_max": 177088
     }

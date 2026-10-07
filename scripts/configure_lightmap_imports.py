@@ -31,9 +31,15 @@ settings = {
 }
 for path in paths:
     contents = path.read_text()
-    for key, value in settings.items():
+    # RGB blocks visibly dither the broad, dark mountain gradients. BPTC fixes
+    # the pattern but this Mac decodes it to RGBA8 anyway. Use lossless import
+    # for these nine small maps, keeping the same cap and other maps compressed.
+    mountain = path.name.startswith('SITE_stage_MAT_painted_mountains_')
+    per_map_settings = {**settings, 'compress/mode': '0' if mountain else settings['compress/mode']}
+    for key, value in per_map_settings.items():
         contents, count = re.subn(r'^' + re.escape(key) + r'=.*$', key+'='+value,
                                  contents, flags=re.MULTILINE)
         assert count == 1, (path, key, count)
     path.write_text(contents)
-print(f'Configured {len(paths)} lightmaps: {settings}')
+lossless_mountains = sum(path.name.startswith('SITE_stage_MAT_painted_mountains_') for path in paths)
+print(f'Configured {len(paths)} lightmaps: {settings}; {lossless_mountains} mountain maps use lossless import')

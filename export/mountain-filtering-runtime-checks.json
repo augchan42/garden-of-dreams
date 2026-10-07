@@ -1,0 +1,353 @@
+{
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "terminal_spill_manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
+  "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
+  "pack_sha256": "7f06e141d3dfd00e7dfdd45c6f67677dc088ba15024d06ec00e1e637c19c5185",
+  "scope": "Final lossless mountain filtering with unchanged native lightmap pixels, source geometry and lighting energy; actual exported-pack material, input and pond checks, stationary Mac profile and all-site arrival captures. Full art, moving-camera and phone acceptance remain open.",
+  "mountain_filtering": {
+    "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+    "scope": "Current fixed portrait-region regression at unchanged 256px cap; compression experiment, final lossless import, actual stationary Mac memory profile. No final palette, all-seam/filtering or phone acceptance.",
+    "baseline": {
+      "format": "DXT1",
+      "exit_code": 1,
+      "rmse": 0.0194179040964458,
+      "log_sha256": "b9e60666e3c8861af026c706ffca7cb5a5ead8eb6c5e42779661e067548c466e"
+    },
+    "high_quality_experiment": {
+      "format": "BPTC_RGBA",
+      "exit_code": 0,
+      "rmse": 0.00316491072361692,
+      "hardware_result": "Installed Mac Compatibility renderer decodes unsupported BPTC to RGBA8; not selected for shipping.",
+      "log_sha256": "34201fef722bccfa22a03ac6f5f3a652fae53cb53da764133f1fe5105fd2b8e5"
+    },
+    "production": {
+      "format": "RGBA8 lossless, no VRAM compression on nine mountain maps",
+      "exit_code": 0,
+      "rmse": 0.00224005582070977,
+      "max_rmse": 0.00784313725490196,
+      "log_sha256": "cec96e227d453c9634f93b6854e2f90c9551d7d8b1fe6d2d4e379bbc641fffab"
+    },
+    "mountain_import_sha256": {
+      "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+      "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+      "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+    },
+    "source_png_sha256": {
+      "SITE_stage_MAT_painted_mountains_0.png": "becbf046644f1d60f50a344f7bc5c7cea81b38698763d6b8f713381871c953d1",
+      "SITE_stage_MAT_painted_mountains_1.png": "b8c6cab71d6e113e3de473f4c1e11cd82cbd97c244921060fb7dd0857aae8d28",
+      "SITE_stage_MAT_painted_mountains_2.png": "4676e87d752fc8011bd05b6bc663caabfa05bb8a50b8f39b698e80281fbef422",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png": "7ce2ccb7b9b4da41389bda9f3b202b215c0558da9a69b1d0f621ff69e2b78981",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png": "fa4663a091bd99380432ddb880e9fff4adcb1440ef3c3e2367d9b38ab59e3bef",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "profile": {
+      "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
+      "buffer_memory_bytes": 20611168,
+      "device": "Apple M2 Max",
+      "mountain_import_sha256": {
+        "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+        "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+        "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+        "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+      },
+      "renderer": "gl_compatibility",
+      "scope": "Stationary demo arrival views on this Mac",
+      "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+      "terminal_spill_manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
+      "texture_memory_bytes": 60089871,
+      "viewport": [
+        1410,
+        600
+      ],
+      "views": {
+        "qinfang_ting": {
+          "active_practicals": 4,
+          "forced_draw_interval_median_ms": 2.827,
+          "forced_draw_interval_p95_ms": 7.047,
+          "visible_draw_calls_max": 102,
+          "visible_primitives_max": 123740
+        },
+        "rockery_gate": {
+          "active_practicals": 3,
+          "forced_draw_interval_median_ms": 5.477,
+          "forced_draw_interval_p95_ms": 7.889,
+          "visible_draw_calls_max": 140,
+          "visible_primitives_max": 143452
+        },
+        "terminal_room": {
+          "active_practicals": 2,
+          "forced_draw_interval_median_ms": 6.299,
+          "forced_draw_interval_p95_ms": 8.711,
+          "visible_draw_calls_max": 146,
+          "visible_primitives_max": 177088
+        }
+      }
+    },
+    "texture_memory_increase_bytes": 1965951
+  },
+  "mountain_import_sha256": {
+    "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+    "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+    "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+  },
+  "packed_checks": [
+    {
+      "name": "export",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "9d811382e115c4f114db32a0196a8548b17728ddf32dd6c79474a060ec495d64"
+    },
+    {
+      "name": "spill-normal",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "keys",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "995f3fc32999513ae9a90b2f444a8aee5c6debe40f48541a7c43cf3d9f8676e8"
+    },
+    {
+      "name": "full-lighting",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86"
+    },
+    {
+      "name": "wash-normal",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "wash-demo",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "adapter",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "807284db2520c356126d52163a2e644fc68eb051685de0c228946d34b73c6a56"
+    },
+    {
+      "name": "surfaces",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2"
+    },
+    {
+      "name": "startup",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6"
+    },
+    {
+      "name": "pointer-keyboard-replay",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed"
+    },
+    {
+      "name": "pond-controls",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba"
+    },
+    {
+      "name": "transfer-fixture",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "56fa4bc1ac6eee2480c944d97c4618e677927b8524e968f8a99d7c58ee1366fb"
+    },
+    {
+      "name": "portrait-stills",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "931a6aff71579444589dbd5fce1e7f18beb652ea8676cec2782122af308606f7"
+    },
+    {
+      "name": "route-desktop",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "route-portrait",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "native-capture",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "26af335be778bdebbe8b5e5b852de9db1d7bad35bb4f6af1e3873fcd3b38d7bb"
+    }
+  ],
+  "source_rejection_checks": {
+    "manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
+    "installed_files_checked": 23,
+    "negative_checks": [
+      {
+        "changed": "authoring_blend_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "terminal_blend_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "uv_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "png",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "adaptive_sampling",
+        "rejected": true,
+        "engine_files_unchanged": true
+      }
+    ]
+  },
+  "native_pixels": {
+    "SITE_terminal-cells_MAT_backstage": {
+      "png_sha256": "8ca464a53febf12a916ab893026aec5fdb8fc96d8db994a47e4927e609ec7d26",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0070422436110675335,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_lattice_wood": {
+      "png_sha256": "62852c42bb4f50b47cf2d2eb85784fee5d9fbfc1536e77f0500ab2d1bcf1860c",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.001994567923247814,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_plaster_rock": {
+      "png_sha256": "16409cbf10c5d605a79d7e66ee176589006513592c43bc4b7991a2651f101c49",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0010543607641011477,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_props_atlas": {
+      "png_sha256": "8a711223cc3a7e2142e83a8637a5fb52d5cdd29f869d00061167287a8c5aa062",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.00026642775628715754,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_stage_atlas": {
+      "png_sha256": "e560ee1f2120e236ee492f728d98c2d47935a86a622acd0099607216cf5aa327",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0007935816538520157,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_tech_atlas": {
+      "png_sha256": "a481abf570fb6cc9ed16640075fc5f3139cd10049e078fa16dd06ee57817ce3d",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0009480927838012576,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_terminal_scroll": {
+      "png_sha256": "69798f48de06ac4e600d631b51afc3d3f3b89cad3fe4f7c5a67fee45d8acab33",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0008454063790850341,
+      "finite": true
+    }
+  },
+  "profile": {
+    "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
+    "buffer_memory_bytes": 20611168,
+    "device": "Apple M2 Max",
+    "mountain_import_sha256": {
+      "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+      "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+      "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+    },
+    "renderer": "gl_compatibility",
+    "scope": "Stationary demo arrival views on this Mac",
+    "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+    "terminal_spill_manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
+    "texture_memory_bytes": 60089871,
+    "viewport": [
+      1410,
+      600
+    ],
+    "views": {
+      "qinfang_ting": {
+        "active_practicals": 4,
+        "forced_draw_interval_median_ms": 2.827,
+        "forced_draw_interval_p95_ms": 7.047,
+        "visible_draw_calls_max": 102,
+        "visible_primitives_max": 123740
+      },
+      "rockery_gate": {
+        "active_practicals": 3,
+        "forced_draw_interval_median_ms": 5.477,
+        "forced_draw_interval_p95_ms": 7.889,
+        "visible_draw_calls_max": 140,
+        "visible_primitives_max": 143452
+      },
+      "terminal_room": {
+        "active_practicals": 2,
+        "forced_draw_interval_median_ms": 6.299,
+        "forced_draw_interval_p95_ms": 8.711,
+        "visible_draw_calls_max": 146,
+        "visible_primitives_max": 177088
+      }
+    }
+  },
+  "movie": {
+    "frames": 1290,
+    "fps": 30,
+    "seconds": 43,
+    "viewport": [
+      1410,
+      600
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "sha256": "4ffd9dd5773102a245ce32bddc2613df526bcdbaf6e682d8072f175227391cbf",
+    "audio_scope": "Native Godot frames and cue transitions at fixed 30 FPS; audio assembled from original cue PCM with runtime gains/loop rules."
+  }
+}

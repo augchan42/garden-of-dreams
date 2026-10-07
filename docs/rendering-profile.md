@@ -34,3 +34,10 @@ The current demo source is `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55
 Seven compressed 256px indirect maps raise stationary demo texture allocation to 58,123,920 bytes (55.43 MiB), an increase of 305,928 bytes. Current cell/gate/pavilion views retain 146/140/102 maximum draws, 177,088/143,452/123,740 primitives and two/three/four practicals. Forced-draw median intervals are 2.720/2.106/1.833 ms, with p95 6.271/3.960/4.033 ms on this M2 Max at 1410 × 600.
 
 `godot/demo-profile-desktop.json` records canonical GLB, terminal-spill manifest and shader hashes for this run; `export/terminal-spill-runtime-checks.json` ties those to the final tested pack and movie. The earlier pond/all-site profiles remain historical evidence. This pass does not establish final texture-memory acceptance for the entire garden, moving-camera performance or target-phone GPU behavior.
+
+
+## Mountain gradient filtering — 2026-10-07
+
+Nine mountain lightmaps now use lossless runtime import at the same 256px cap. Stationary demo allocation is 60,089,871 bytes (57.31 MiB), 1,965,951 bytes more than the terminal-spill pass, within the existing 64 MiB demo test. Maximum draws/primitives/practicals remain 146/177,088/four. Cell/gate/pavilion median intervals are 6.299/5.477/2.827 ms, with p95 8.711/7.889/7.047 ms. Timing differences between these short desktop runs do not by themselves establish a compression performance effect.
+
+The profile includes all nine import-file hashes as well as source/manifest/shader hashes. The rendered portrait-region regression fails with DXT1 (RMSE 0.019418), passes with tested BPTC (0.003165), and passes with selected lossless import (0.002240), against a 2/255 limit. The hardware decodes unsupported BPTC, so it is not the production format. This result certifies this checker-pattern correction and stationary demo budget; final whole-garden memory/filtering and target-phone acceptance remain open.

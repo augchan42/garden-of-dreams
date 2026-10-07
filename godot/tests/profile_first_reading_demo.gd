@@ -14,6 +14,11 @@ func run() -> void:
  report.source_glb_sha256=source.get("source_glb_sha256","")
  report.terminal_spill_manifest_sha256=FileAccess.get_sha256("res://lightmaps/terminal-spill/manifest.json")
  report.baked_diffuse_shader_sha256=FileAccess.get_sha256("res://shaders/baked_diffuse.gdshader")
+ report.mountain_import_sha256={}
+ for index in range(3):
+  var name="SITE_stage_MAT_painted_mountains_"+str(index)
+  for path in [name+".png.import","backdrop-wash/"+name+"-front.png.import","backdrop-wash/"+name+"-back.png.import"]:
+   report.mountain_import_sha256[path]=FileAccess.get_sha256("res://lightmaps/"+path)
  var positions = {"terminal_room": Vector3(-1.3, .03, 37.4), "rockery_gate": Vector3(0, .03, 32.5), "qinfang_ting": Vector3(0, .03, 1.8)}
  for room in positions:
   route.player.position = positions[room]
