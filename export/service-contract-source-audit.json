@@ -1,0 +1,19 @@
+{
+  "source_repository": "/Users/auchan/projects/8bitoracle-next",
+  "source_commit": "8322d15658ed6d0ac05fcb11efba9ee483d30504",
+  "source_files_sha256": {
+    "src/app/api/group-divination/topics/route.ts": "f9633dab04ef00d3e64942ac8e5aaa0d26984413bce4937b89550d9dbc07f884",
+    "src/app/api/group-divination/read/route.ts": "202e46492d0facb3380a8a943e8dc192bd1d9904bbcfd6b45c2d52120849dd58",
+    "src/app/api/shared-divination/[shareId]/route.ts": "64afe23a00135fb7fe5ccfcfe3fe99318600f65a4d9ed72ead5dfadfb22e371d",
+    "src/app/api/gua/sessions/route.ts": "b0c65913f564bcc5557002ccf93ea3ce1bab348eab2a0d60aae9a8fd86ba7915",
+    "src/app/api/gua/sessions/[sessionId]/route.ts": "a62bba780da01a5336e572ce874d7505e9277a9b53912891cc4bf7c2d6a1870f",
+    "src/app/api/gua/shared/resolveDevice.ts": "40b1ac1b5dc6960106ffd701fdcad3ce9be12ea3b140ed51398ab2294fa499a1",
+    "src/app/api/gua/shared/security.ts": "d9f2d1a0e702036ce773762512a6e3f196985385682ab7b6673bc5b86c7b58fd",
+    "src/app/api/records/session/route.ts": "ddafc30ec3c59ede3c34ae788775edeee0b49d0f63b4bf117de44892253023a5",
+    "src/app/api/records/session/refresh/route.ts": "a452fa89089bb2689ef005fc8a2838e1629ff7b72cef30d0e6a9a8ff1d14ce98"
+  },
+  "scope": "Read-only local current-source contract inspection. No credentials read, requests sent, history accessed, readings generated or remote writes performed. This does not verify deployment, database policies or a working Godot authentication integration.",
+  "private_history_adapter": "not implemented",
+  "group_reading_adapter": "not implemented",
+  "authentication_flow": "Apple/Google identity exchange plus client API/signature/device credential and Records token/refresh lifecycle; Godot provisioning not verified."
+}
