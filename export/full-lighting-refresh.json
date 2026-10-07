@@ -1,53 +1,53 @@
 {
   "status": "source_complete",
-  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
   "samples": 128,
   "maximum_source_map_size": 1024,
-  "engine_installed": false,
-  "started_at": "2026-10-07T14:01:02.640511+00:00",
-  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n",
-  "orchestrator_pid": 66662,
+  "engine_installed": true,
+  "started_at": "2026-10-07T16:08:28.480482+00:00",
+  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56",
+  "orchestrator_pid": 69383,
   "phases": [
     {
       "name": "ordinary",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/ordinary.log",
-      "pid": 66663,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/ordinary.log",
+      "pid": 69390,
       "exit_code": 0
     },
     {
       "name": "backdrop-wash",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/backdrop-wash.log",
-      "pid": 1514,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/backdrop-wash.log",
+      "pid": 90640,
       "exit_code": 0
     },
     {
       "name": "terminal-spill",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/terminal-spill.log",
-      "pid": 1672,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/terminal-spill.log",
+      "pid": 91006,
       "exit_code": 0
     },
     {
       "name": "terminal-spill-pixels",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/terminal-spill-pixels.log",
-      "pid": 3841,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/terminal-spill-pixels.log",
+      "pid": 94567,
       "exit_code": 0
     },
     {
       "name": "native-pixels",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/native-pixels.log",
-      "pid": 3843,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/native-pixels.log",
+      "pid": 94573,
       "exit_code": 0
     },
     {
       "name": "coverage",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-wsqs527n/coverage.log",
-      "pid": 3897,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/coverage.log",
+      "pid": 94600,
       "exit_code": 0
     }
   ],
@@ -56,7 +56,17 @@
     "baked_meshes": 124,
     "missing": [],
     "unexpected": [],
-    "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4"
+    "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3"
   },
-  "finished_at": "2026-10-07T15:03:56.064421+00:00"
+  "finished_at": "2026-10-07T19:47:55.619270+00:00",
+  "engine_installation_scope": "Complete current-source catalogs and matching master/four roof GLBs installed. Native import/material/entry/UI/pixel checks and desktop/portrait arrivals verified. Final art, release, continuous traversal and performance acceptance remain pending.",
+  "installed_catalog_sizes": {
+    "full": 124,
+    "demo": 33,
+    "priority2": 29,
+    "wash": 5,
+    "spill": 7
+  },
+  "runtime_checks_sha256": "06ed1cc1d12334444baa963a1f2b3225d22cd815b4b89e33f6142d88831ae0b4",
+  "current_phone_route_evidence_sha256": "8ed2f49b26e37bb8de27fbf8e5b8e27bd0883cb232e9a15e795d5dd19587f94c"
 }

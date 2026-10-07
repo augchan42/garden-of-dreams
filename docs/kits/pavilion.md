@@ -30,3 +30,10 @@ Remaining: runtime LOD switching, other site integration and final lighting/perf
 The saved hexagonal and square outer shells have 25/25 and 17/17 downward-facing polygons. The placed Qinfang hexagonal shell has the same defect. A temporary Godot portrait override shows these downward normals across the visible roof slopes, where native baked irradiance is near black. The existing topology/LOD checks do not verify outward shell orientation.
 
 `scripts/verify_pavilion_roof_orientation.py` fails against these saved sources. Its `--scratch-fix` option flips only the identified outer shell in memory and passes while retaining vertex positions, face/vertex UV assignments and object transforms. It does not save source files or rebake lighting. Correcting the kit and placed source, refreshing their exports/bakes, and checking the rendered roof remain required. Evidence: `export/pavilion-roof-render-diagnosis.json` and the four orientation reports under `export/`.
+
+
+## Saved outward shells — 2026-10-08
+
+The source defect above is corrected in the directly openable kit and placed Qinfang source. The native orientation guard now checks all four roof/LOD meshes and passes. Positions, face/vertex UVs, material assignments, modifiers, mounting markers and collision are preserved. Exported LOD meshes can use different diagonals on the same planar patches; strict bidirectional surface coverage and vertex/UV checks pass. The hexagonal LOD normal variation is below 0.0001 after inversion. Kit generation applies the outward-shell correction before making the LOD copy, preventing recurrence.
+
+Four corrected canonical part exports and both legacy hexagonal exports are saved. The current Godot kit assets still belong to the preceding playable source; they will be synchronized with the complete lighting installation. The assembly roof batch has newly packed UV2 and must use a fresh bake. Rendered roof/light acceptance remains pending. Evidence: `export/pavilion-kit-roof-orientation-current.json`, `roof-cone-authoring-kit.json` and `roof-cone-export-preservation.json`.

@@ -55,7 +55,9 @@ for slug,record in config.items():
     if data.type=='SUN':data.angle=math.radians(.5)
     else:
         data.shadow_soft_size=.01
-        data.spot_size=math.radians(65);data.spot_blend=0
+        # Godot requires inner < outer. This is a 0.00325-degree edge band,
+        # retaining the 65-degree cone and the hard shadow's source radius.
+        data.spot_size=math.radians(65);data.spot_blend=.0001
     light=bpy.data.objects.new(name,data)
     bpy.data.collections['SITE_'+slug].objects.link(light)
     light.location=record['position']

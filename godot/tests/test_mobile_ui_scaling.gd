@@ -36,5 +36,7 @@ func run() -> void:
  for player in route.demo_audio.players.values():player.stop()
  route.queue_free()
  for frame in range(3):await process_frame
+ # Audio cleanup runs asynchronously; fast headless frames can end too early.
+ await create_timer(.2).timeout
  print("MOBILE_UI_SCALE_PASS: density units, 48-unit touch actions, native 3D, reading controls, desktop reset")
  quit(0)

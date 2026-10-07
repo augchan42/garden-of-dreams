@@ -59,3 +59,8 @@ The runtime bake adapter now corrects Cycles diffuse transfer for Compatibility 
 `LGT_tubi_tang_backdrop_wash` is saved in authoring and `SITE_tubi-tang.blend`: a 150 W, 15 × 10 m Area light, neutral gray-blue (linear RGB 0.72, 0.78, 0.84), aimed at the painted enclosure along `CAM_tubi-tang_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+
+## Collected hilltop architecture reference — 2026-10-08
+
+The slot-2 hilltop photograph is collected, directly reviewed and attributed in `../reference/external/tubi-tang/README.md`. An elevated hall on a rocky rise, with thick red columns, a continuous gray tiled eave, painted blue-green brackets, pierced geometric lintel screens, a low green balustrade and hanging lanterns. The visible plaque reads 凸碧山莊. Useful for hilltop frontage, stock construction and roof/rail proportions; this close upward view does not establish terrace height, stair geometry or the required night lighting. Original bytes match the Commons SHA-1. The night-set and material close-up slots remain uncollected. This is reference collection, not scene acceptance.

@@ -112,6 +112,11 @@ for variant in variants:
  if str(R/'scripts') not in sys.path:sys.path.insert(0,str(R/'scripts'))
  from pavilion_material import apply_atlas
  apply_atlas(model,R)
+ if variant.startswith('roof_'):
+  # Recalculating an open shell can choose the inward orientation. Restore
+  # its authored outer surface explicitly after the atlas identifies it.
+  from pavilion_roof_geometry import orient_outer_shell
+  orient_outer_shell(model)
  base_tris=sum(len(p.vertices)-2 for p in model.data.polygons)
  model['variant']=variant;model['lod_ratio']=1.0
  for o in C.objects:

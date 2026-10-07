@@ -67,3 +67,8 @@ All eligible opaque meshes in this saved site now have current source-matched Cy
 `LGT_longcui_an_backdrop_wash` is saved in authoring and `SITE_longcui-an.blend`: a 150 W, 15 × 10 m Area light, neutral gray-blue (linear RGB 0.72, 0.78, 0.84), aimed at the painted enclosure along `CAM_longcui-an_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+
+## External foliage/material reference — 2026-10-08
+
+The slot-3 close reference is collected, directly reviewed and attributed in `../reference/external/longcui-an/README.md`. White five-petal plum flowers with rounded overlapping petals, dense pale stamens with yellow anthers, pink-red central cups, small buds and rough dark bark. Useful for blossom construction and sparse branch dressing; daylight color is not a night-lighting reference. Original bytes match the Commons SHA-1. The night-set and architecture slots remain uncollected. This is reference collection, not acceptance of the current foliage mesh or material.

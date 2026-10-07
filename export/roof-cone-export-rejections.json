@@ -1,0 +1,17 @@
+{
+  "scope": "Temporary corruption rejection for the roof/cone export preservation guard; canonical assets untouched.",
+  "valid_source_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "rejected_cases": [
+    "camera",
+    "spot_outer",
+    "equal_cones",
+    "material",
+    "roof_position",
+    "roof_uv",
+    "unrelated_normal",
+    "lod_direction",
+    "lod_missing_match",
+    "lod_still_downward"
+  ],
+  "passed": true
+}

@@ -62,3 +62,8 @@ All eligible opaque meshes in this saved site now have current source-matched Cy
 `LGT_xiaoxiang_guan_backdrop_wash` is saved in authoring and `SITE_xiaoxiang-guan.blend`: a 150 W, 15 × 10 m Area light, neutral gray-blue (linear RGB 0.72, 0.78, 0.84), aimed at the painted enclosure along `CAM_xiaoxiang-guan_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+
+## Collected bamboo detail reference — 2026-10-08
+
+The close foliage/material slot is filled by Franzo’s original bamboo culm photograph (24 December 2007, CC0 1.0). Joint rings, smooth internodes, node branching and papery shoot sheaths are visible. Yellow-striped cultivar colors are not a prescribed palette, and this close view does not establish clump height or leaf density. Attribution, original-byte checks and visual notes are in `../reference/external/xiaoxiang-guan/`. The night-set and architecture references remain uncollected.

@@ -84,3 +84,8 @@ The existing dressing now uses fitted prop-library meshes with a shared PBR atla
 ## Lighting exception — 2026-10-06
 
 The tunnel retains its explicit no-key/no-wash contract and two amber practicals. The twelve exterior backdrop washes have no tunnel receivers. Qinfang’s missing owned key and its specified three-metre exit spill remain lighting work; existing ordinary maps still use the shared stage rig. Current desktop/portrait views are refreshed.
+
+
+## Inscription runtime size — 2026-10-08
+
+The original brush lettering and recessed-normal source images are retained. Their aligned Godot imports now cap the longest edge at 1024px, with lossless pixels and mipmaps. Actual native allocation drops by 10.9 MiB in both demo and normal exploration at installed source b4. Fixed-clock desktop/portrait arrival and diagnostic close comparisons pass; both arrivals retain all four characters. Diagnostic portrait close-up edge clipping and final camera/art acceptance remain open. The corrected roof source90 has not yet finished lighting installation. Evidence: `../runtime-texture-audit.md`.

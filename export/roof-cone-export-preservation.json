@@ -1,0 +1,148 @@
+{
+  "scope": "Current export versus preceding scene: only outward roof normals/associated winding and new roof-batch UV2 packing, plus minimum strict Spot inner angles. LOD alternate diagonals require identical vertex/UV data and bidirectional planar coverage. Not lighting/render acceptance.",
+  "master": {
+    "before_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+    "after_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+    "roofs": [
+      {
+        "node": "SITE_qinfang-ting_MAT_pavilion_atlas",
+        "normal_vectors_reversed": 102,
+        "maximum_inverted_normal_error": 0.0,
+        "normal_tolerance": 0.0,
+        "triangle_count": 23930,
+        "retriangulated_triangles": 0,
+        "maximum_projected_coverage_error": 0.0
+      }
+    ],
+    "spot_changes": [
+      {
+        "name": "LGT_ouxiang-xie_key",
+        "edge_band_radians": 5.672319984195706e-05
+      },
+      {
+        "name": "LGT_ziling-zhou_key",
+        "edge_band_radians": 5.672319984195706e-05
+      }
+    ]
+  },
+  "sites": {
+    "SITE_ouxiang-xie.glb": {
+      "before_sha256": "8b5eceee3b61a53de12dc1e0d1f187ed2ce81c67db18b52dbda1600fb98b5ab2",
+      "after_sha256": "318aac5ad623d3e3cd01cabc0de3fa21f14f42d4e58727aa8f553d9c8d3cca0c",
+      "roofs": [],
+      "spot_changes": [
+        {
+          "name": "LGT_ouxiang-xie_key",
+          "edge_band_radians": 5.672319984195706e-05
+        }
+      ]
+    },
+    "SITE_qinfang-ting.glb": {
+      "before_sha256": "29910bd61e298a5c6fc1f4af5603856eafa8722175274a4585e350f9528369a2",
+      "after_sha256": "70686d64739c374e2c97cbb37309d1b3ce803f11730cb62edc87c053efbfb43c",
+      "roofs": [
+        {
+          "node": "SITE_qinfang-ting_MAT_pavilion_atlas",
+          "normal_vectors_reversed": 102,
+          "maximum_inverted_normal_error": 0.0,
+          "normal_tolerance": 0.0,
+          "triangle_count": 23930,
+          "retriangulated_triangles": 0,
+          "maximum_projected_coverage_error": 0.0
+        }
+      ],
+      "spot_changes": []
+    },
+    "SITE_ziling-zhou.glb": {
+      "before_sha256": "254a52e4cc2cb6076d33d449059b4715d9d3daf5f0d9e5f9aa2758101bbfe831",
+      "after_sha256": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34",
+      "roofs": [],
+      "spot_changes": [
+        {
+          "name": "LGT_ziling-zhou_key",
+          "edge_band_radians": 5.672319984195706e-05
+        }
+      ]
+    }
+  },
+  "kits": {
+    "KIT_pavilion_roof_hex.glb": {
+      "before_sha256": "c03466396b703ffb9c266e5eec1558021ee8cc17a3409b8225001116b802ae44",
+      "after_sha256": "09739ec3a4e31e1a23f619be65f182ef46e01bd4a4fb110d4636663b9b6a687e",
+      "roofs": [
+        {
+          "node": "KIT_pavilion_roof_hex_render",
+          "normal_vectors_reversed": 102,
+          "maximum_inverted_normal_error": 0.0,
+          "normal_tolerance": 0.0,
+          "triangle_count": 1672,
+          "retriangulated_triangles": 0,
+          "maximum_projected_coverage_error": 0.0
+        }
+      ],
+      "spot_changes": []
+    },
+    "KIT_pavilion_roof_hex_LOD1.glb": {
+      "before_sha256": "b1a0d4dbffc1c94695d2a4724bc6b31dd02229a8e487a9e4fe60453791bf6423",
+      "after_sha256": "13e4caa32c41de6ab0d71c3529b734673c8b253e9bc73653adc5c29447432b2a",
+      "roofs": [
+        {
+          "node": "KIT_pavilion_roof_hex_render.001",
+          "normal_vectors_reversed": 106,
+          "maximum_inverted_normal_error": 9.934503759723157e-05,
+          "normal_tolerance": 0.0002,
+          "triangle_count": 668,
+          "retriangulated_triangles": 35,
+          "maximum_projected_coverage_error": 8.881784197001252e-16
+        }
+      ],
+      "spot_changes": []
+    },
+    "KIT_pavilion_roof_square.glb": {
+      "before_sha256": "ac210df2beff8b8d9aac46ff378bded37d236bc3e102b94ef6e6e2703fed46fd",
+      "after_sha256": "117837a7d72ffb499602701c1a0b514c290071f5a6ef5fe8919839fbb100dff5",
+      "roofs": [
+        {
+          "node": "KIT_pavilion_roof_square_render",
+          "normal_vectors_reversed": 68,
+          "maximum_inverted_normal_error": 0.0,
+          "normal_tolerance": 0.0,
+          "triangle_count": 1128,
+          "retriangulated_triangles": 0,
+          "maximum_projected_coverage_error": 0.0
+        }
+      ],
+      "spot_changes": []
+    },
+    "KIT_pavilion_roof_square_LOD1.glb": {
+      "before_sha256": "e98da4c2e25718f1ff059adbef7ad88507f9f325cf5f504b06717a32870d5981",
+      "after_sha256": "85960512fbf74b4cebbb2f8c438bba4fe1524c315b5e250257691f99a0d9fc1b",
+      "roofs": [
+        {
+          "node": "KIT_pavilion_roof_square_render.001",
+          "normal_vectors_reversed": 68,
+          "maximum_inverted_normal_error": 0.0,
+          "normal_tolerance": 0.0002,
+          "triangle_count": 450,
+          "retriangulated_triangles": 8,
+          "maximum_projected_coverage_error": 5.551115123125783e-17
+        }
+      ],
+      "spot_changes": []
+    }
+  },
+  "unchanged_sites": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb"
+  ]
+}

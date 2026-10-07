@@ -129,3 +129,8 @@ Geometry, materials, images, collision and camera data are unchanged in the new 
 ## External reference collection — 2026-10-07
 
 The Flying Rainbow Bridge architecture photo is collected, visually checked and attributed in `../reference/external/qinfang-ting/README.md`; its original bytes match the source file checksum. It is reference material only. The two specified film stills remain uncollected, so the three-reference requirement is not complete.
+
+
+## Outward roof shell — 2026-10-08
+
+All 25 upper-shell faces now point outward in saved authoring and the directly openable site library. Vertex positions, face/vertex primary UVs, material assignments, collision, cameras and transforms are preserved. The exported roof batch has reversed upper normals and newly packed UV2; it requires fresh lighting. The corrected canonical source is `90c4f70e…`. The complete lighting refresh is running; production Godot and the playable package remain on `b4b322c2…` until complete map validation and installation. Final rendered roof acceptance remains open. Evidence: `../../export/pavilion-roof-orientation-current.json`, `../../export/roof-cone-authoring-source.json` and `../../export/roof-cone-export-preservation.json`.

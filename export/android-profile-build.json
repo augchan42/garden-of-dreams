@@ -1,6 +1,6 @@
 {
   "status": "built",
-  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-bb_etss2",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-9kpd72hr",
   "apk": "/Users/auchan/projects/garden-of-dreams/build/garden-phone-profile.apk",
   "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
   "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
@@ -8,26 +8,26 @@
     {
       "name": "mobile-texture-import",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-bb_etss2/mobile-texture-import.log",
-      "pid": 66312,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-9kpd72hr/mobile-texture-import.log",
+      "pid": 80875,
       "exit_code": 0,
-      "log_sha256": "93e2ad3fb7b74261b10bc14e87cf3055473acd816a271ee6d17d9e6accd49783",
+      "log_sha256": "d1d283b55d3f3fe45934ec19b412c0d9dea9f094dcf78c5562f6b91ed01486da",
       "engine_diagnostics": []
     },
     {
       "name": "apk-export",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-bb_etss2/apk-export.log",
-      "pid": 66536,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-9kpd72hr/apk-export.log",
+      "pid": 81058,
       "exit_code": 0,
       "log_sha256": "dc3f9b95fc47e8588a90156c8a4ef445c94c4e978bd0a6032382c02bd673d2d8",
       "engine_diagnostics": []
     }
   ],
-  "apk_sha256": "7335793b7186e401338f97f09aada57ae3b6d8fc789ef3c29054da610e25688e",
-  "apk_bytes": 557221676,
+  "apk_sha256": "c9aaf318e91fca07a26353d279f1f1d38d95fa4ff4323ccf94c3f868a1115196",
+  "apk_bytes": 557225953,
   "device_tested": true,
-  "device_profile_evidence": "docs/reference/android-profile-b4/scaled-replay",
+  "device_profile_evidence": "docs/reference/android-profile-b4/allocation-stored",
   "device_profile_budget_results": {
     "cell": {
       "draw_calls": true,

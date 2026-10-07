@@ -1,0 +1,75 @@
+{
+  "status": "built",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-i59o89w5",
+  "apk": "/Users/auchan/projects/garden-of-dreams/build/garden-roof-current.apk",
+  "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+  "normal_atlas_size_limit": 0,
+  "production_normal_files_sha256": {
+    "garden-of-dreams_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "garden-of-dreams_pavilion_normal.png.import": "85fb72dd105c8d0d4bb0327660e04f2045c693a5a0d5f8bc5b1006d2a9b62d77",
+    "garden-of-dreams_wall_normal.png": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+    "garden-of-dreams_wall_normal.png.import": "2d185bfc545922f7af5f8d670f467bef55f5ef796aad9e076c220e134afa68f1"
+  },
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "phases": [
+    {
+      "name": "mobile-texture-import",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-i59o89w5/mobile-texture-import.log",
+      "pid": 2504,
+      "exit_code": 0,
+      "log_sha256": "d1d283b55d3f3fe45934ec19b412c0d9dea9f094dcf78c5562f6b91ed01486da",
+      "engine_diagnostics": []
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-i59o89w5/apk-export.log",
+      "pid": 2545,
+      "exit_code": 0,
+      "log_sha256": "ede834346e261e7db3e38f5db8d34d159b4192d8145264a6a09b9caade9e861c",
+      "engine_diagnostics": []
+    }
+  ],
+  "apk_sha256": "faf380061c0a35d8b9f003091a76246887e51709c5ad69f1af8e8f4a2f7e764a",
+  "apk_bytes": 557230049,
+  "device_tested": true,
+  "device_profile_evidence": "docs/reference/android-roof-current/route",
+  "device_profile_budget_results": {
+    "cell": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "cell_to_gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate_to_pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    }
+  }
+}

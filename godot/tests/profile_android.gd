@@ -42,8 +42,34 @@ func save_after_touch() -> void:
  report.reading_open = route.has_node("ReadingResult")
  report.room_after_touch = route.room_id
  report.buttons = buttons()
+ report.texture_memory_after_touch_bytes = RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TEXTURE_MEM_USED)
  var result = root.get_texture().get_image().save_png("user://garden-phone-after-touch.png")
  assert(result == OK)
+ save_report()
+
+func capture_arrival(label: String) -> void:
+ # Freeze shader clocks only for image comparison, after real frame sampling.
+ var clocks: Dictionary = {}
+ for node in route.find_children("*", "MeshInstance3D", true, false):
+  for surface in range(node.mesh.get_surface_count()):
+   var material = node.get_active_material(surface)
+   if material is ShaderMaterial:
+    for uniform in material.shader.get_shader_uniform_list():
+     if uniform.name == "timeline_time" and not clocks.has(material):
+      clocks[material] = material.get_shader_parameter("timeline_time")
+      material.set_shader_parameter("timeline_time", 3.0)
+ for frame in range(2):
+  await get_tree().process_frame
+ await RenderingServer.frame_post_draw
+ var image = root.get_texture().get_image()
+ assert(image.save_png("user://garden-phone-" + label + ".png") == OK)
+ var camera = route.camera.global_transform
+ report.captures[label] = {"clock": 3.0, "animated_materials": clocks.size(), "image_size": [image.get_width(), image.get_height()], "camera_transform": [camera.basis.x, camera.basis.y, camera.basis.z, camera.origin]}
+ for material in clocks:
+  material.set_shader_parameter("timeline_time", clocks[material])
+ # Settle resumed shaders before the next timed movement.
+ for frame in range(60):
+  await get_tree().process_frame
  save_report()
 
 func sample(label: String, frames: int, moving = false) -> void:
@@ -82,6 +108,7 @@ func run() -> void:
  var build = JSON.parse_string(FileAccess.get_file_as_string("res://phone-profile-build.json"))
  report = {"status": "running", "scope": "Actual Android demo arrival views, cell/gate/pavilion travel and tap diagnostics at the declared staged source. Not corrected-source acceptance, all-garden traversal, release timing, older Adreno hardware or final art.", "source_glb_sha256": source.source_glb_sha256, "build": build, "device_model": OS.get_model_name(), "renderer_device": RenderingServer.get_video_adapter_name(), "renderer": RenderingServer.get_current_rendering_method(), "native_window_size": [root.size.x, root.size.y], "screen_dpi": DisplayServer.screen_get_dpi(), "refresh_rate": DisplayServer.screen_get_refresh_rate(), "fps_cap": Engine.max_fps, "targets": {"frames_per_second": 60, "texture_memory_bytes": 64 * 1024 * 1024, "draw_calls": 150, "primitives": 300000, "practicals": 4}, "samples": {}, "touch_events": []}
  assert(report.source_glb_sha256 == build.source_glb_sha256, "Staged source and installed bake record differ")
+ report.captures = {}
  save_report()
  route = load("res://runtime/first_reading_demo.tscn").instantiate()
  root.add_child(route)
@@ -99,29 +126,30 @@ func run() -> void:
  report.ui_content_scale_factor = root.content_scale_factor
  report.ui_content_scale_mode = root.content_scale_mode
  report.initial_buttons = buttons()
- assert(root.get_texture().get_image().save_png("user://garden-phone-cell.png") == OK)
  await sample("cell", 180)
+ await capture_arrival("cell")
  route.execute_command("exit")
  assert(route.travelling, "Cell exit did not start physics travel")
  await sample("cell_to_gate", 3600, true)
  assert(route.room_id == "rockery_gate" and not route.travelling, "Did not reach gate")
  for frame in range(60):
   await get_tree().process_frame
- assert(root.get_texture().get_image().save_png("user://garden-phone-gate.png") == OK)
  await sample("gate", 180)
+ await capture_arrival("gate")
  route.execute_command("enter")
  assert(route.travelling, "Gate entry did not start physics travel")
  await sample("gate_to_pavilion", 5400, true)
  assert(route.room_id == "qinfang_ting" and not route.travelling, "Did not reach pavilion")
  for frame in range(90):
   await get_tree().process_frame
- assert(root.get_texture().get_image().save_png("user://garden-phone-pavilion.png") == OK)
  await sample("pavilion", 180)
+ await capture_arrival("pavilion")
  report.budget_results = {}
  for label in report.samples:
   var data = report.samples[label]
   report.budget_results[label] = {"texture": data.texture_memory_bytes <= report.targets.texture_memory_bytes, "draw_calls": data.visible_draw_calls_max <= report.targets.draw_calls, "primitives": data.visible_primitives_max <= report.targets.primitives, "practicals": data.active_practicals_max <= report.targets.practicals, "no_fall_below_floor": data.minimum_player_y >= -.3}
  report.buttons = buttons()
+ report.texture_inventory = preload("res://tests/texture_binding_inventory.gd").new().collect(route)
  report.status = "ready_for_taps"
  finished = true
  save_report()

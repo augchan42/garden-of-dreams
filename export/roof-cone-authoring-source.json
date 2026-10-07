@@ -1,0 +1,63 @@
+{
+  "kind": "source",
+  "status": "saved",
+  "source_before_sha256": "18f03c8495aebcac21579ffd7246e734a7186215d1e158c698249520d9bc5855",
+  "roofs": [
+    {
+      "object": "QINFANG_kit_roof_hex",
+      "outer_shell_faces": 25,
+      "flipped_faces": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "positions_uv_materials_transform_preserved": true
+    }
+  ],
+  "lights": [
+    {
+      "name": "LGT_ouxiang-xie_key",
+      "before_blend": 0.0,
+      "after_blend": 9.999999747378752e-05,
+      "spot_size_radians": 1.1344640254974365,
+      "edge_band_degrees": 0.0032499999514193395
+    },
+    {
+      "name": "LGT_ziling-zhou_key",
+      "before_blend": 0.0,
+      "after_blend": 9.999999747378752e-05,
+      "spot_size_radians": 1.1344640254974365,
+      "edge_band_degrees": 0.0032499999514193395
+    }
+  ],
+  "unchanged_object_records_checked": 4344,
+  "saved_files": {
+    "blender/authoring.blend": "3d00fbb2d29195ed51f253b2a31cf3943aff9ab291856ccc7e38be1763d1a30b",
+    "blender/sites/SITE_qinfang-ting.blend": "8495806c0fc35cb30b58e1e46adbb18ad11f4ba2aa821f76338ca92f7eec0ee7",
+    "blender/sites/SITE_ouxiang-xie.blend": "9918580c3deacf8bff3f6631de3b66c88d1cf7741e080a424a5ac777f222987d",
+    "blender/sites/SITE_ziling-zhou.blend": "9d7c8b26b6e39962625caf99dd211539f75c4abc555d6e1cca053b8e65f33839"
+  },
+  "scope": "Native winding and minimum hard-cone edge band. Positions, UV ownership, material assignment, transforms, camera/collision and unrelated mesh/light data preserved. Exports and fresh lighting remain required."
+}

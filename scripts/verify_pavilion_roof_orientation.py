@@ -19,50 +19,8 @@ parser.add_argument('--report', type=Path, required=True)
 args = parser.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
 
 
-def components(mesh):
-    adjacency = [set() for _ in mesh.vertices]
-    for edge in mesh.edges:
-        a, b = edge.vertices
-        adjacency[a].add(b)
-        adjacency[b].add(a)
-    remaining = set(range(len(mesh.vertices)))
-    while remaining:
-        pending = [next(iter(remaining))]
-        vertices = set()
-        while pending:
-            index = pending.pop()
-            if index in vertices:
-                continue
-            vertices.add(index)
-            pending.extend(adjacency[index] - vertices)
-        remaining -= vertices
-        yield vertices, [p for p in mesh.polygons if p.vertices[0] in vertices]
-
-
-def outer_shell(mesh):
-    # Both shells have the same five-ring silhouette. The upper shell uses
-    # the roof atlas cell; the lower shell uses the timber cell.
-    x, y, width, height = json.loads(
-        (ROOT / 'textures/atlases/pavilion/atlas.json').read_text()
-    )['uv_regions']['MAT_rooftile']
-    candidates = []
-    for vertices, faces in components(mesh):
-        if len(vertices) not in (20, 30) or len(faces) != len(vertices) * 4 // 5 + 1:
-            continue
-        z = [mesh.vertices[i].co.z for i in vertices]
-        if abs(min(z)) > 1e-5 or abs(max(z) - 1.5) > 1e-5:
-            continue
-        uv = [mesh.uv_layers[0].data[i].uv for p in faces for i in p.loop_indices]
-        if all(x <= p.x <= x + width and y <= p.y <= y + height for p in uv):
-            candidates.append(faces)
-    assert len(candidates) == 1, ('Outer roof shell must be unambiguous', len(candidates))
-    return candidates[0]
-
-
-def face_uv_signature(mesh):
-    return [sorted((mesh.loops[i].vertex_index,
-                    tuple(tuple(layer.data[i].uv) for layer in mesh.uv_layers))
-                   for i in p.loop_indices) for p in mesh.polygons]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from pavilion_roof_geometry import outer_shell, face_uv_signature
 
 
 if args.kind == 'source':
@@ -74,10 +32,11 @@ if args.kind == 'source':
 else:
     objects = []
     for variant in ('roof_hex', 'roof_square'):
-        render = [o for o in bpy.data.collections['KIT_pavilion_' + variant].objects
-                  if o.type == 'MESH' and not o.name.startswith('COL_')]
-        assert len(render) == 1, (variant, [o.name for o in render])
-        objects.extend(render)
+        for suffix in ('', '_LOD1'):
+            render = [o for o in bpy.data.collections['KIT_pavilion_' + variant + suffix].objects
+                      if o.type == 'MESH' and not o.name.startswith('COL_')]
+            assert len(render) == 1, (variant, suffix, [o.name for o in render])
+            objects.extend(render)
 
 records = []
 for obj in objects:

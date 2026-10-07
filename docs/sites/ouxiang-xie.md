@@ -70,3 +70,13 @@ The owned-key pass below completes the missing-key inventory requirement. Final 
 `LGT_ouxiang-xie_key` is now saved in authoring and the directly openable site library: a 450 W Spot with 65° cone, zero edge blend and 0.01 m source radius, aimed at the tea table. Its muted green follows the user’s palette revision. Native checks require a single positive owned key, hard shadows and the intended direction/target; they failed before this pass and pass afterward. The shared light named `LGT_stage_green_key` now has neutral cool RGB (0.70, 0.74, 0.78), energy 1.4.
 
 Geometry, materials, images, collision and camera data are unchanged in the new export; the three keys and shared-fill settings are the changes. All 124 ordinary maps were freshly rebaked at 128 samples because the Sun/shared fill affects the whole assembly. The native wash was also refreshed at 128 samples/512². Godot now uses the current source `d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde` and hash-matched maps. Imported-key, full-lighting, wash, material and demo-startup checks pass. Desktop and 390 × 844 portrait arrival views are refreshed. Final shadow dominance, palette, materials, filtering and moving-camera acceptance remain open.
+
+
+## Strict Spot cone export — 2026-10-08
+
+The saved key edge blend is now 0.0001 instead of zero: glTF requires an inner angle smaller than its outer angle. The full cone remains 65° and its 0.01 m source radius, energy, color, target and placement are retained. An isolated cold Godot import has no errors or warnings and preserves the 32.5° half-angle and hard cone falloff (angle attenuation 1999.568). The canonical assembly and this site export are corrected. Production Godot remains on the preceding complete lighting set until the running fresh 124-map/wash/spill refresh passes; final rendered acceptance is pending. Evidence: `../../export/roof-cone-export-preservation.json` and `../../export/roof-cone-runtime-checks.json`.
+
+
+## External foliage/material reference — 2026-10-08
+
+The slot-3 close reference is collected, directly reviewed and attributed in `../reference/external/ouxiang-xie/README.md`. A broad rounded lotus leaf with a gently undulating edge, radial veins, matte waxy surface and distinct water beads; a pale pink petal provides scale and color contrast. Useful for leaf/material detail, not architecture or night lighting. Original bytes match the Commons SHA-1. The night-set and architecture slots remain uncollected. This is reference collection, not acceptance of the current foliage mesh or material.

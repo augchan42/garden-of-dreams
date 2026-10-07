@@ -19,6 +19,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--device', required=True)
     parser.add_argument('--destination', type=Path, required=True)
+    parser.add_argument('--build-report', type=Path, default=ROOT / 'export/android-profile-build.json')
     args = parser.parse_args()
 
     def adb(*command):
@@ -27,7 +28,7 @@ def main():
     def own_file(name):
         return adb('exec-out', 'run-as', PACKAGE, 'cat', 'files/' + name)
 
-    build_path = ROOT / 'export/android-profile-build.json'
+    build_path = args.build_report
     build = json.loads(build_path.read_text())
     assert build['status'] == 'built'
     assert all(p['status'] == 'passed' and not p.get('engine_diagnostics') for p in build['phases'])
@@ -39,6 +40,8 @@ def main():
     fixture_record = json.loads((Path(build['fixture']) / 'phone-profile-build.json').read_text())
     assert report['build'] == fixture_record
     assert fixture_record['profile_script_sha256'] == digest((ROOT / 'godot/tests/profile_android.gd').read_bytes())
+    if 'inventory_script_sha256' in fixture_record:
+        assert fixture_record['inventory_script_sha256'] == digest((ROOT / 'godot/tests/texture_binding_inventory.gd').read_bytes())
     for name, expected in fixture_record.get('runtime_script_sha256', {}).items():
         assert digest((ROOT / 'godot/runtime' / name).read_bytes()) == expected, 'Runtime changed after APK build: ' + name
     assert set(report['samples']) == {'cell', 'cell_to_gate', 'gate', 'gate_to_pavilion', 'pavilion'}

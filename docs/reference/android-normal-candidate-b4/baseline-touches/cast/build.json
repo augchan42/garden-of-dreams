@@ -1,0 +1,75 @@
+{
+  "status": "built",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-zrhkzp8w",
+  "apk": "/Users/auchan/projects/garden-of-dreams/build/garden-normal-baseline.apk",
+  "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+  "normal_atlas_size_limit": 0,
+  "production_normal_files_sha256": {
+    "garden-of-dreams_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "garden-of-dreams_pavilion_normal.png.import": "85fb72dd105c8d0d4bb0327660e04f2045c693a5a0d5f8bc5b1006d2a9b62d77",
+    "garden-of-dreams_wall_normal.png": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+    "garden-of-dreams_wall_normal.png.import": "2d185bfc545922f7af5f8d670f467bef55f5ef796aad9e076c220e134afa68f1"
+  },
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "phases": [
+    {
+      "name": "mobile-texture-import",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-zrhkzp8w/mobile-texture-import.log",
+      "pid": 90414,
+      "exit_code": 0,
+      "log_sha256": "d1d283b55d3f3fe45934ec19b412c0d9dea9f094dcf78c5562f6b91ed01486da",
+      "engine_diagnostics": []
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-zrhkzp8w/apk-export.log",
+      "pid": 90600,
+      "exit_code": 0,
+      "log_sha256": "c4bc0a31af4f08c69f3931de30492445cab295b9bcfb7adb13a1271e7c0db651",
+      "engine_diagnostics": []
+    }
+  ],
+  "apk_sha256": "94bfc0d14dc7091b8fc2c9a0537ecf92c318e4d9b051b1827b7759bef44ce739",
+  "apk_bytes": 557230049,
+  "device_tested": true,
+  "device_profile_evidence": "docs/reference/android-normal-candidate-b4/baseline",
+  "device_profile_budget_results": {
+    "cell": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "cell_to_gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "gate_to_pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    },
+    "pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": false
+    }
+  }
+}

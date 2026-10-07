@@ -19,6 +19,8 @@ for slug in ('qinfang-ting', 'ouxiang-xie', 'ziling-zhou'):
         assert abs(math.degrees(math.asin(-forward.z)) - 35) < 1e-4
     else:
         assert key.data.type == 'SPOT' and key.data.shadow_soft_size <= .02
+        assert 0 < key.data.spot_blend <= .00011, ('Hard cone must export with strictly smaller inner angle', slug)
+        assert abs(math.degrees(key.data.spot_size) - 65) < 1e-4
         target = bpy.data.objects['TRG_ouxiang_xie_table' if slug == 'ouxiang-xie'
                                   else 'TRG_ziling_zhou_overlook'].location.copy()
         target.z = 1

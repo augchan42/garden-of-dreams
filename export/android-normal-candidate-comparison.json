@@ -1,0 +1,160 @@
+{
+  "status": "diagnostic_complete",
+  "production_normal_cap_installed": false,
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "scope": "Native same-device debug allocation experiment and fixed-clock images at the preceding b4 scene. The complete demo still fails both memory thresholds. Arrival/full-image differences do not prove preservation of every close normal detail; Hengwu images are identical under the captured lighting. No corrected roof, release, 2020 Adreno, full garden or final art acceptance.",
+  "normal_textures": {
+    "res://assets/garden-of-dreams_pavilion_normal.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ],
+      "before_calculated_storage_bytes": 5592432,
+      "after_calculated_storage_bytes": 1398128
+    },
+    "res://assets/garden-of-dreams_wall_normal.png": {
+      "before_size": [
+        2048,
+        2048
+      ],
+      "after_size": [
+        1024,
+        1024
+      ],
+      "before_calculated_storage_bytes": 5592432,
+      "after_calculated_storage_bytes": 1398128
+    }
+  },
+  "actual_renderer_saving_bytes": 8388608,
+  "measured_states": {
+    "cell": {
+      "before_bytes": 73184428,
+      "after_bytes": 64795820
+    },
+    "cell_to_gate": {
+      "before_bytes": 74757292,
+      "after_bytes": 66368684
+    },
+    "gate": {
+      "before_bytes": 74757292,
+      "after_bytes": 66368684
+    },
+    "gate_to_pavilion": {
+      "before_bytes": 74761384,
+      "after_bytes": 66372776
+    },
+    "pavilion": {
+      "before_bytes": 74761384,
+      "after_bytes": 66372776
+    },
+    "cast": {
+      "before_bytes": 75809960,
+      "after_bytes": 67421352
+    },
+    "recast": {
+      "before_bytes": 75809960,
+      "after_bytes": 67421352
+    },
+    "close": {
+      "before_bytes": 75809960,
+      "after_bytes": 67421352
+    },
+    "finale": {
+      "before_bytes": 77907112,
+      "after_bytes": 69518504
+    },
+    "replay": {
+      "before_bytes": 77907112,
+      "after_bytes": 69518504
+    }
+  },
+  "candidate_complete_demo_peak_bytes": 69518504,
+  "existing_diagnostic_64_mib_passed": false,
+  "spec_decimal_64_mb_passed": false,
+  "phone_fixed_clock_images": {
+    "cell": {
+      "before_sha256": "f1cfb6f4a60675a616affcd385bed3f5ccb3e6197417deea21b0d33aae86d021",
+      "after_sha256": "b5b65220d0aecdb5e645c5fadd1fa4107ec0e9f6a33b1e7a1aba99b39c49c6c0",
+      "rgb_rmse": 0.00019556568528025897,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 5.025324469768914e-05
+    },
+    "gate": {
+      "before_sha256": "1fe336b2fc95aab9846a351d4e6de6c784b5c0b281c1f6ea46fd9fdf9efdbcd1",
+      "after_sha256": "040a4ba968db755ce1647cf3f58c964b872dfcf5ecc75a0c53743ffc7d230c24",
+      "rgb_rmse": 0.00016257418802785847,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 6.449825894270338e-05
+    },
+    "pavilion": {
+      "before_sha256": "e9839f72e685a6859274e72771d1676bb5e27ca0302c5f9d44e493066f8a44e5",
+      "after_sha256": "4b91474d0f4d3af2ea679773c1170068ad2034a8c62ebf2143033f40f3f35b42",
+      "rgb_rmse": 0.00019427528939911372,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.0014201487812598923
+    }
+  },
+  "mac_placed_material_images": {
+    "desktop-hengwu_yuan-arrival": {
+      "before_sha256": "671e4d98d5f086b6a2ca51e531d1c583f97679ccbb12b41dfebf863a7a8967e4",
+      "after_sha256": "671e4d98d5f086b6a2ca51e531d1c583f97679ccbb12b41dfebf863a7a8967e4",
+      "rgb_rmse": 0.0,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.0
+    },
+    "desktop-hengwu_yuan-close": {
+      "before_sha256": "eae9e14831a2ab6b209a77f4bda881d875bbac3cb83da8b6fb9ea7e1d90ceeb2",
+      "after_sha256": "eae9e14831a2ab6b209a77f4bda881d875bbac3cb83da8b6fb9ea7e1d90ceeb2",
+      "rgb_rmse": 0.0,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.0
+    },
+    "desktop-qinfang_ting-arrival": {
+      "before_sha256": "c14495a228257ccfafc6d198f4e53545bafe9d29b4c7408dea269db4a606d3cd",
+      "after_sha256": "12d907bac37445caeaec2dd5fa2e6d05a8f6e5416e8f49506c55fab9ef0f0866",
+      "rgb_rmse": 4.389626516824176e-05,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 5.08274231678487e-05
+    },
+    "desktop-qinfang_ting-close": {
+      "before_sha256": "cc8e25dd522457224cbfb55de89d5305884c927f6e8946ba5db6a582f7973ab0",
+      "after_sha256": "d425e2a3f259d0a98dc8cc3b185b91df801e9a8c795e7f6cadf780d3bfa73167",
+      "rgb_rmse": 0.00017197622613609497,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.00026122931442080377
+    },
+    "portrait-hengwu_yuan-arrival": {
+      "before_sha256": "cbfc647ff74fcc4da8a59b9d6951588848a5ed61cf1e97cab59fc45eb9709f9b",
+      "after_sha256": "cbfc647ff74fcc4da8a59b9d6951588848a5ed61cf1e97cab59fc45eb9709f9b",
+      "rgb_rmse": 0.0,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.0
+    },
+    "portrait-hengwu_yuan-close": {
+      "before_sha256": "c83984460db0818c7733793c5356d833b6f05927de91dc12cabc5169865d77b7",
+      "after_sha256": "c83984460db0818c7733793c5356d833b6f05927de91dc12cabc5169865d77b7",
+      "rgb_rmse": 0.0,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.0
+    },
+    "portrait-qinfang_ting-arrival": {
+      "before_sha256": "5e7622853fe27a3cc231d1631f68b2af74cadc79d861a7cbdc1837986fdf140b",
+      "after_sha256": "b7fc8f3f92c61cc933f9af22f34692f1fbd2b1ee2daa85e0cbbb768467616757",
+      "rgb_rmse": 6.484515720544474e-05,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 7.898894154818325e-05
+    },
+    "portrait-qinfang_ting-close": {
+      "before_sha256": "ac309353427fadf73ff5e808e3fcbf6583cfae432b7051a242d7c7710cecbfe1",
+      "after_sha256": "e03bbafd8f7f0eea1c472002db6af26ca34260f7f5562585d9d9950be674cd48",
+      "rgb_rmse": 0.00022909236510069468,
+      "rgb_p99": 0.0,
+      "fraction_pixels_over_one_level": 0.000334183983473083
+    }
+  },
+  "verifier_sha256": "1ee877319b06cb74d30a1c4112fde7aaee5d5b41ca4d6a2a2478433a92750889"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "built",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ucw10tbu",
+  "apk": "/Users/auchan/projects/garden-of-dreams/build/garden-phone-profile.apk",
+  "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "phases": [
+    {
+      "name": "mobile-texture-import",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ucw10tbu/mobile-texture-import.log",
+      "pid": 76624,
+      "exit_code": 0,
+      "log_sha256": "d1d283b55d3f3fe45934ec19b412c0d9dea9f094dcf78c5562f6b91ed01486da",
+      "engine_diagnostics": []
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ucw10tbu/apk-export.log",
+      "pid": 76729,
+      "exit_code": 0,
+      "log_sha256": "dc3f9b95fc47e8588a90156c8a4ef445c94c4e978bd0a6032382c02bd673d2d8",
+      "engine_diagnostics": []
+    }
+  ],
+  "apk_sha256": "3ff7c3084ef8eb79c62fa15eecd2b818e8fef47b48857c34dc2f2b2a89365807",
+  "apk_bytes": 557225953,
+  "device_tested": false
+}

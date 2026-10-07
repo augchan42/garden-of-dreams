@@ -28,6 +28,8 @@ Draws, primitives and the four-practical limit pass in these sampled views and p
 
 The staged roof remains dark, and the portrait moon/enclosure framing still needs art work. The scene does not gain visual acceptance merely because these measurements exist.
 
+Later native touch-state measurements expose a larger complete-demo peak: 75,809,960 bytes after cast/recast/close and 77,907,112 after finale/replay (74.3 MiB). The table above remains the original scaled route measurement. An isolated 1024 normal-map experiment saves 8 MiB but still reaches 66.3 MiB at finale/replay; production normal imports remain unchanged. See [the allocation and candidate evidence](android-normal-candidate.md). These old-source phone measurements remain distinct from the subsequently installed corrected roof source.
+
 ## Evidence and reproduction
 
 Evidence is under `docs/reference/android-profile-b4/`. `baseline` records the unscaled successful profiling run; `scaled` records the final measured route. `scaled-cast`, `scaled-recast`, `scaled-finale` and `scaled-replay` retain touch-state reports and native images. Each collection records source/build hashes and hashes of its files. The initial `--script` APK launched the regular demo without a report; `startup-diagnosis` preserves that observation. The builder now uses an explicit isolated startup scene and icon, and rejects engine import/export diagnostics. An early after-touch image preceded the completed draw; the corrected collector runner waits for `frame_post_draw`.

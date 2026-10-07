@@ -8,5 +8,6 @@ See [device check](../../android-device-profile.md) for scope, measurements and 
 - `scaled`: final measured route and native cell/gate/pavilion views.
 - `scaled-cast`, `scaled-recast`, `scaled-finale`, `scaled-replay`: real touch results after correcting capture timing. Ten pressed/released events in the replay report correspond to five taps. The final report returns to `terminal_room` with initial actions and no reading overlay.
 - `checks`: native Godot regression logs. The red log intentionally includes the pre-fix failure and exit cleanup diagnostics; green logs are clean.
+- `allocation-readback`, `allocation-stored`: actual native texture inventories after route timing. Mobile readback decompression is distinct from the loaded compressed format and renderer allocation; see `../../android-normal-candidate.md`.
 
 Collection hashes cover the listed payloads. The additional baseline `reading-visible.png` is a separately saved native device screen capture, not one of that collection's original payloads. These are debugging and review artifacts, not final art, authenticated readings or release acceptance.
