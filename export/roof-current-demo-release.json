@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "scope": "Corrected-source native fixed-time capture, assembled original cue PCM and verified local five-file archive. Final art, sustained FPS and target-phone budgets remain open.",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "pack_checks": "export/roof-current-pack-checks.json",
+  "capture_log_sha256": "26af335be778bdebbe8b5e5b852de9db1d7bad35bb4f6af1e3873fcd3b38d7bb",
+  "assembly_log_sha256": "3e44c9ccfeee6ff915d8144a5f0d7cfbb0b9025504695b5f2e2fe410ec89aa1a",
+  "movie_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1410,
+        "height": 600,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1290"
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "nb_frames": "927"
+      }
+    ],
+    "format": {
+      "duration": "43.000000",
+      "size": "10686171"
+    }
+  },
+  "complete_movie_decode_exit_code": 0,
+  "native_frames": 1290,
+  "sample_frame_sha256": {
+    "frame-00000.png": "8a36b0466cdf4d35bffde80397e728d36be61f9799c353d524bad5a3b909a30a",
+    "frame-00409.png": "71e52363abc42c50f6b761f3bcc479d19a9f0894f6153351541545c0398a30fb",
+    "frame-00580.png": "3c5a722448a874abd1a3a3bdf4893c840d7bee32862b022b1c6d8e7467eb3cb5",
+    "frame-00681.png": "fb6c992d37983704357947eec32f0066d87884ee80c4a432538f606496bb334d",
+    "frame-00950.png": "2f930dc7f9284398bfb93aeed0ba71396a7eebd260589b4532559773c8b072eb",
+    "frame-01010.png": "888f9aec7c27a1cc3407578addf3b2530e0eae4c23990c1c6c9b0353311daf9c",
+    "frame-01062.png": "f3de9946038fac35946028e456b8b9df74dd1f8290b15fbbde263a1c018866f4",
+    "frame-01110.png": "5c68f0087d9aa1a996835650fc7bf94eba3917b9ed518e0e36fc6e820853eb57",
+    "frame-01230.png": "0ab614de5d282b80062a358acf1e7c06c98f6d42dccdb6da785d66fc10a05215",
+    "frame-01289.png": "fab56952595bb0679741ec1569104e11c326ca827ebcd73318cf894e5b48d596"
+  },
+  "archive_members": [
+    "GardenOfDreamsDemo.pck",
+    "GardenOfDreamsDemo.mp4",
+    "README.md",
+    "Run Garden of Dreams.command",
+    "SHA256SUMS"
+  ],
+  "archive_crc_verified": true,
+  "archive_payload_sha256": {
+    "GardenOfDreamsDemo.pck": "d7f598302e6e4c7e5b7b2dac18c0a27a33de5bf21aa789cde34aba0487cc0c5a",
+    "GardenOfDreamsDemo.mp4": "afb9c61cc8ba2bfd0a2b698d64eac0738ff71005738c19f69522a4323ab23998",
+    "README.md": "5ca85f0f234e0abcb2ee2c995a9a27e07701ae8247a9ba249f612db79ba2eea4",
+    "Run Garden of Dreams.command": "3e6549ded90131228dd5677041f23103e4e61ef4951ef23796fc6404a0406c4b"
+  },
+  "archive_sha256": "2710ee50708984277b27a6c2d8d4115687066791ba3cb0c4c77aed2249418029",
+  "archive_alias_sha256": "2710ee50708984277b27a6c2d8d4115687066791ba3cb0c4c77aed2249418029",
+  "timeline_sha256": "161db16d0ed7865e95a7891a3aa925309fbedf1de6e7bc211c8bd97d89a2f28f"
+}

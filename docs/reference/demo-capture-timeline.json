@@ -32,18 +32,9 @@
   "fps": 30,
   "frames": 1290,
   "scope": "Native Godot frames and cue transitions at fixed 30 FPS; audio assembled from original cue PCM with runtime gains/loop rules.",
-  "viewport": [
-    1410,
-    600
-  ],
-  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
-  "backdrop_wash_manifest_sha256": "34657335479a44b7e08946936f80976cf72f0e6c7bafd46734241d89737a151c",
-  "terminal_spill_manifest_sha256": "6658ba96fa00f40cd27b946e0c63107a3f91716f7981247c3e14a64e4b5e8ce5",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "terminal_spill_manifest_sha256": "fe66ee91a930d56e420bfd23523b6837dcf29a4179f2cc61fecc2656842a472e",
   "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
-  "pack_sha256": "8344050365ee08f29fc630d23d72dfebbfef52182c3d6d1b1af537664b36eb28",
-  "movie_sha256": "643526ceac392a6670cb4103719280ec53135a63e4f6e00bddeda081c7333b30",
-  "video_codec": "h264",
-  "audio_codec": "aac",
   "mountain_paint_png_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8",
   "mountain_paint_import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
   "mountain_import_sha256": {
@@ -56,5 +47,32 @@
     "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
     "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
     "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+  },
+  "viewport": [
+    1410,
+    600
+  ],
+  "pack_sha256": "d7f598302e6e4c7e5b7b2dac18c0a27a33de5bf21aa789cde34aba0487cc0c5a",
+  "movie_sha256": "afb9c61cc8ba2bfd0a2b698d64eac0738ff71005738c19f69522a4323ab23998",
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "backdrop_wash_manifest_sha256": "035790ca8826e024c8d17b5b4d42335c288b483f7f7d5db3ceb0d4d16f72dce4",
+  "archive_sha256": "2710ee50708984277b27a6c2d8d4115687066791ba3cb0c4c77aed2249418029",
+  "payload_sha256": {
+    "GardenOfDreamsDemo.pck": "d7f598302e6e4c7e5b7b2dac18c0a27a33de5bf21aa789cde34aba0487cc0c5a",
+    "GardenOfDreamsDemo.mp4": "afb9c61cc8ba2bfd0a2b698d64eac0738ff71005738c19f69522a4323ab23998",
+    "README.md": "5ca85f0f234e0abcb2ee2c995a9a27e07701ae8247a9ba249f612db79ba2eea4",
+    "Run Garden of Dreams.command": "3e6549ded90131228dd5677041f23103e4e61ef4951ef23796fc6404a0406c4b"
+  },
+  "frame_hashes_sha256": "8f93229039785ddb7a6b3f972b53e700c533f4c0a9eca8377c3c3fac0dc34e29",
+  "pcm_peak_s16": 1119,
+  "cue_mix_sha256": "c508da50fd48d3e876408474d3ee8af943adf1f32c1f78d13e784beeb9ad9195",
+  "cue_source_sha256": {
+    "cast": "57eba9224455b19ff05ae102788b558fc3acd7e463496846f7389ad8b644973d",
+    "crt": "a5f5c337eb361727a49d0482ef94d417464363870d12b232ec32ad1662ab9426",
+    "lanterns": "f3a95b588f5068676929fbdc492b6ba7bef1903631a2e73ec918c3fc4642776f",
+    "reveal": "e0e4704b953cc28dcebb194d87d65c5baba0ed8222c9b840b17f982b89fc2223",
+    "tunnel": "2c9039fb4f72f33846add9e6412c7447b4b89410bdab07fa5818841b41574d99",
+    "water": "116f6ff1c612c0036825fca6edcf9d27b09677757dfcb6043180c0e24aaa626a"
   }
 }
