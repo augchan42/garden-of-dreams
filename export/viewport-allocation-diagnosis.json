@@ -1,0 +1,99 @@
+{
+  "status": "diagnostic_complete",
+  "scope": "Three fresh native Mac processes isolate native-window-size and UI-density changes. Not actual Android, complete allocation attribution, runtime performance or budget acceptance.",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "profile_script_sha256": "b622cb53372e17567c8b50d3933dee6b8a1b8ba9f383ca6832dd2ab2d2b25a90",
+  "stored_3d_texture_bytes_all_cases": 36505432,
+  "bound_texture_rids_all_cases": 88,
+  "native_sizes": {
+    "desktop": [
+      1410,
+      600
+    ],
+    "phone-size": [
+      1080,
+      1984
+    ],
+    "phone-density": [
+      1080,
+      1984
+    ]
+  },
+  "requested_phone_size": [
+    1080,
+    2340
+  ],
+  "mac_window_clamp": true,
+  "readback_allocation_delta_bytes": 0,
+  "comparisons": [
+    {
+      "state": "terminal_room",
+      "desktop_texture_memory_bytes": 49632517,
+      "larger_window_texture_memory_bytes": 66920701,
+      "larger_window_delta_bytes": 17288184,
+      "larger_window_and_density_texture_memory_bytes": 68056659,
+      "ui_density_delta_at_identical_native_size_bytes": 1135958,
+      "reachable_font_image_bytes_density_1": 393216,
+      "reachable_font_image_bytes_density_2_625": 393216
+    },
+    {
+      "state": "rockery_gate",
+      "desktop_texture_memory_bytes": 49763589,
+      "larger_window_texture_memory_bytes": 67051773,
+      "larger_window_delta_bytes": 17288184,
+      "larger_window_and_density_texture_memory_bytes": 68580947,
+      "ui_density_delta_at_identical_native_size_bytes": 1529174,
+      "reachable_font_image_bytes_density_1": 393216,
+      "reachable_font_image_bytes_density_2_625": 393216
+    },
+    {
+      "state": "qinfang_ting",
+      "desktop_texture_memory_bytes": 49719899,
+      "larger_window_texture_memory_bytes": 67008083,
+      "larger_window_delta_bytes": 17288184,
+      "larger_window_and_density_texture_memory_bytes": 68585039,
+      "ui_density_delta_at_identical_native_size_bytes": 1576956,
+      "reachable_font_image_bytes_density_1": 393216,
+      "reachable_font_image_bytes_density_2_625": 393216
+    },
+    {
+      "state": "reading",
+      "desktop_texture_memory_bytes": 50025733,
+      "larger_window_texture_memory_bytes": 67313917,
+      "larger_window_delta_bytes": 17288184,
+      "larger_window_and_density_texture_memory_bytes": 69808377,
+      "ui_density_delta_at_identical_native_size_bytes": 2494460,
+      "reachable_font_image_bytes_density_1": 524288,
+      "reachable_font_image_bytes_density_2_625": 524288
+    },
+    {
+      "state": "finale",
+      "desktop_texture_memory_bytes": 50200495,
+      "larger_window_texture_memory_bytes": 67488679,
+      "larger_window_delta_bytes": 17288184,
+      "larger_window_and_density_texture_memory_bytes": 71905529,
+      "ui_density_delta_at_identical_native_size_bytes": 4416850,
+      "reachable_font_image_bytes_density_1": 655360,
+      "reachable_font_image_bytes_density_2_625": 655360
+    }
+  ],
+  "primary_source_interpretation": {
+    "url": "https://github.com/godotengine/godot/blob/4.7.2-stable/drivers/gles3/storage/utilities.cpp#L410",
+    "claim": "The Compatibility TEXTURE_MEM_USED counter includes tracked texture and render-buffer bytes. Scene Texture2D inventory alone cannot account for that total."
+  },
+  "limitations": [
+    "Mac window was clamped to 1080x1984, whereas the actual Pixel image is 1080x2340; do not subtract these as an exact same-size platform comparison.",
+    "Theme font CPU image cache bytes are unchanged by density here; this does not enumerate all rendered oversampled/fallback font caches or GPU allocation.",
+    "ViewportTexture size metadata multiplies by UI oversampling; actual native image size is reported independently and does not show the metadata dimensions.",
+    "No production resolution, typography, UI scale, source textures, materials or camera changes were installed."
+  ],
+  "evidence_sha256": {
+    "desktop.json": "be4e2d9a073e4d1aa990d2f3925469d9f635a6cbf17babc22a1ed938bb1b9218",
+    "desktop.log": "14060b4f22a14244e823ae02bc6fdb5f1ac50fa509bf529c3e70e9c9e7a838d3",
+    "installed-api.log": "2d8076b3ae3956f70efc499f7ed6b080a3de4fa734469dc7b10fbf9e5b80dff9",
+    "phone-density.json": "6168711a49b7d1d8b8b118ab32ba9f84e49030f77d78e2d0f175484c564c7c7b",
+    "phone-density.log": "7328e54611caa6867b6d1f107bc3235d26634eb6d408b0699b47fa35856fea73",
+    "phone-size.json": "e5565a79a8275c69ee662d42baade47eed519003e72b6c377d6a176153eb2daa",
+    "phone-size.log": "3e5e4e20e8024369282a44890d028cafefc3d7eec614a09aab5a73d4e3269876"
+  }
+}
