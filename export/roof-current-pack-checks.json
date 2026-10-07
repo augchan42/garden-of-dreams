@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "pack_sha256": "d7f598302e6e4c7e5b7b2dac18c0a27a33de5bf21aa789cde34aba0487cc0c5a",
+  "pack_bytes": 532219656,
+  "pack": "/Users/auchan/projects/garden-of-dreams/build/garden-roof-current.pck",
+  "scope": "Actual separate corrected-source packaged material/lighting/startup checks and native pointer/keyboard replay. Not final release art, movie/archive, continuous all-garden traversal or phone budget acceptance.",
+  "phases": [
+    {
+      "name": "test_mountain_paint",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_mountain_paint.log",
+      "pid": 9975,
+      "exit_code": 0,
+      "log_sha256": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_mountain_paint.log"
+    },
+    {
+      "name": "test_site_key_import",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_site_key_import.log",
+      "pid": 9976,
+      "exit_code": 0,
+      "log_sha256": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_site_key_import.log"
+    },
+    {
+      "name": "test_full_scene_lighting",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_full_scene_lighting.log",
+      "pid": 9979,
+      "exit_code": 0,
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_full_scene_lighting.log"
+    },
+    {
+      "name": "test_surface_materials",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_surface_materials.log",
+      "pid": 9981,
+      "exit_code": 0,
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_surface_materials.log"
+    },
+    {
+      "name": "test_baked_backdrop_wash",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_baked_backdrop_wash.log",
+      "pid": 9984,
+      "exit_code": 0,
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_baked_backdrop_wash.log"
+    },
+    {
+      "name": "test_terminal_spill",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_terminal_spill.log",
+      "pid": 10017,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_terminal_spill.log"
+    },
+    {
+      "name": "test_first_reading_demo",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_first_reading_demo.log",
+      "pid": 10020,
+      "exit_code": 0,
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_first_reading_demo.log"
+    },
+    {
+      "name": "test_demo_reading",
+      "graphics": false,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_demo_reading.log",
+      "pid": 10441,
+      "exit_code": 0,
+      "log_sha256": "35046c4d83ad999e1f7e1913516fed4a8ebf05404e22d17bafe42bb860fbec8d",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_demo_reading.log"
+    },
+    {
+      "name": "test_demo_input_acceptance",
+      "graphics": true,
+      "status": "passed",
+      "log": "/tmp/garden-roof-current-pack-test_demo_input_acceptance.log",
+      "pid": 10446,
+      "exit_code": 0,
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed",
+      "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-test_demo_input_acceptance.log"
+    }
+  ],
+  "export_log_sha256": "6777406a1572f5ee42da795d94e5ce10c2119aa8bc00c8c596abe6ddbe9d306b",
+  "failed_export_attempt": {
+    "cause": "Relative output resolved inside Godot project, which had no build directory; terminal failure, then absolute output used.",
+    "archived_log": "docs/reference/roof-current-runtime/pack-checks/garden-roof-current-pack-export.log"
+  }
+}
