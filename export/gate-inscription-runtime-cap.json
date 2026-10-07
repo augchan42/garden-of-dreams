@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "scope": "Same-source native lossless import, allocated-memory reduction and projected-inscription-region image comparison in four fixed-clock views. Direct review confirms arrival lettering. The diagnostic portrait close-up clips the same outer edges in both images; it is not final camera acceptance. Not proof of the pending corrected roof source or final art, atlas, traversal or phone requirements.",
+  "textures_before": [
+    {
+      "image_bytes": 8385392,
+      "image_format": 5,
+      "import_sha256": "a11e39d85ae9602d2f1f34b6f35b3bf61562631a629fdd4ab1db9ab599814712",
+      "size": [
+        2172,
+        724
+      ],
+      "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49"
+    },
+    {
+      "image_bytes": 6289044,
+      "image_format": 4,
+      "import_sha256": "b477f6805ad1e29241202fb4021fe8ab9cea2fc1c58d69354360c987eef62bf0",
+      "size": [
+        2172,
+        724
+      ],
+      "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32"
+    }
+  ],
+  "textures_after": [
+    {
+      "image_bytes": 1860508,
+      "image_format": 5,
+      "import_sha256": "f65af507ea98f1ac5be593cd154bff49231f445bb86f939424f8343c4f010e90",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49"
+    },
+    {
+      "image_bytes": 1395381,
+      "image_format": 4,
+      "import_sha256": "b66a1e89c33cb162367c0d07b72a18e8ecc70d737fa10b173f052a6223ee6a96",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32"
+    }
+  ],
+  "visual_limits": {
+    "inscription_rgb_rmse": 0.00784313725490196,
+    "inscription_rgb_p99": 0.03137254901960784
+  },
+  "captures": {
+    "desktop-arrival": {
+      "before_sha256": "eaa5ceefed88ea50595fab3499486a5397540ba9d578370599db30fff1c6a9ae",
+      "after_sha256": "789f1bcbd4d0d3a69b05ce868d3ecd6df995b2a4418217b8abaadbd4b1f75e09",
+      "inscription_rect": [
+        547,
+        51,
+        863,
+        188
+      ],
+      "inscription_rgb_rmse": 0.004528355076130722,
+      "inscription_rgb_p99": 0.023529411764705882
+    },
+    "desktop-close": {
+      "before_sha256": "861fa4984ce8a2b04ba46861d87143246475e8c50582694f65c39bd3e421667b",
+      "after_sha256": "ec8618f106dec3e4a740c2fcb45921087899a0c1202df8dd3af502363c450fac",
+      "inscription_rect": [
+        394,
+        206,
+        1016,
+        413
+      ],
+      "inscription_rgb_rmse": 0.004264116904060894,
+      "inscription_rgb_p99": 0.019607843137254916
+    },
+    "portrait-arrival": {
+      "before_sha256": "d8af51ad32d9cdf490c38149576722e14f90d0d355fd40de6c512ad87cafa10f",
+      "after_sha256": "c552a7a8d92514ca056ec6e501d5e53e723efc046f31f541de0f498d1bedf72b",
+      "inscription_rect": [
+        92,
+        260,
+        298,
+        350
+      ],
+      "inscription_rgb_rmse": 0.005390065299951721,
+      "inscription_rgb_p99": 0.02745098039215685
+    },
+    "portrait-close": {
+      "before_sha256": "99e4a880a92700053ba53e54ae65456704f769b481f8ba77e0e2c554a675040e",
+      "after_sha256": "8f0644033acd2b4df5c3cf8cbd4a1b299a4825cb36ca81535907b17d1e8756ae",
+      "inscription_rect": [
+        0,
+        361,
+        390,
+        496
+      ],
+      "inscription_rgb_rmse": 0.004235421933485206,
+      "inscription_rgb_p99": 0.019607843137254916
+    }
+  },
+  "memory": {
+    "demo": {
+      "before_bytes": 61138446,
+      "after_bytes": 49719899,
+      "saving_bytes": 11418547,
+      "inventory_sha256": "219cc104ed9ec35a823bd9033a12494d14290e8c95071b33481ebde1be5aac98"
+    },
+    "normal": {
+      "before_bytes": 66953874,
+      "after_bytes": 55535327,
+      "saving_bytes": 11418547,
+      "inventory_sha256": "ee8b3825241eb16393bf80af3b8071599e0b88cd8557fe7e5a3418bc377a088c"
+    }
+  },
+  "expected_image_saving_bytes": 11418547,
+  "native_capture_report_sha256": "47562f2646e0f5bcc4536e175a1e3d9e2bb9d0427496789735d418cb2ddab5d0",
+  "verifier_sha256": "43b24621bcb57b94fb9374fb2fda31feea8442ff93916b1e30c5970b55f2a7b7"
+}
