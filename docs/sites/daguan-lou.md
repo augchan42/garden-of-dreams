@@ -34,6 +34,8 @@ The facade must read as one large hall, not two adjacent identical pavilions. Sh
 
 These are collection requirements, not claims that reference stills have been collected.
 
+The architectural slot now has a collected and visually inspected photograph of Daguanlou in Beijing Daguanyuan, by 刻意 (2010), with attribution and CC BY-SA 3.0 terms in `../reference/external/daguan-lou/README.md`. It shows the repeated red columns and lattice bays, balcony, grey tiled eave and blue/gold painted brackets. The photograph guides structure and material separation; it does not establish the game's night lighting. The night-set still and separate detail reference remain uncollected.
+
 ## Current build and acceptance
 
 The paired-pavilion placeholder has been replaced by a single broad facade with two continuous roof tiers, five paired door bays, central steps, sparse amber transoms and black backstage returns. Three markers define the approach, door inspection and return. The interior is not built and stays inaccessible.

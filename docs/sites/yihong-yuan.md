@@ -34,6 +34,8 @@ Frame the door and foliage in a compact shot, excluding unfinished backs. Ship a
 
 These are collection requirements, not claims that reference stills have been collected.
 
+The architectural slot now has a collected and visually inspected photograph of Yihongyuan's entry in Beijing Daguanyuan, by 刻意 (2010), with attribution and CC BY-SA 3.0 terms in `../reference/external/yihong-yuan/README.md`. It shows paired lacquer doors, flank lattice windows, grey tiled eaves, a dark plaque and painted bracket panels. Use the separation of materials and doorway framing as a reference; the game retains its closed interior and restricted lighting. The night-set still and separate material/foliage close view remain uncollected.
+
 ## Current build and acceptance
 
 The generic hall has been replaced by a west-facing, seven-metre closed court front, paired lacquer doors, a stone threshold, low capped walls, one amber window and two banana plants with fourteen curved leaves. Four markers and three cameras are exported. Qinfang’s “Visit the red court” action follows the eastern walk; local door and foliage inspections keep the future interior closed.
