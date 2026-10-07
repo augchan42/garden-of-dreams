@@ -1,0 +1,20 @@
+{
+  "scope": "Isolated native Godot headless import/material checks; production GLB and bake installation, graphical transfer and GPU budget remain pending.",
+  "new_stage": {
+    "source_sha256": "c8d641bfdab19f2c84a8b3b2d099f4b718ab9b1269303b162278e6da61e12919",
+    "import_log": "/tmp/garden-mountain-paint-import-green.log",
+    "runtime_log": "/tmp/garden-mountain-paint-runtime-green.log",
+    "exit_code": 0
+  },
+  "preceding_stage": {
+    "source_sha256": "7010c1a947f9161e065696ed6e4986fc2c8355d40628fca8864dccfa7ac80269",
+    "import_log": "/tmp/garden-mountain-paint-opt-in-stage-import.log",
+    "runtime_log": "/tmp/garden-mountain-paint-opt-in-stage-runtime.log",
+    "exit_code": 0
+  },
+  "pre_cap_red": {
+    "runtime_log": "/tmp/garden-mountain-paint-runtime-red.log",
+    "assertion": "512px texture contract before size cap",
+    "exit_code": 1
+  }
+}

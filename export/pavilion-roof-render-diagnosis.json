@@ -1,0 +1,27 @@
+{
+  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
+  "scope": "Actual portrait Godot Compatibility render of the currently installed preceding source. Temporary overrides separate roof albedo, baked irradiance and world normal orientation; no production material/source was altered. Red in orientation view means a downward world normal; blue means upward. Not acceptance of corrected source or its lighting.",
+  "files": {
+    "baseline": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/baseline.png",
+      "sha256": "c4661d44428c6b794d4b62aa42c73236013f48597bd138827ee26a57d85b7b00"
+    },
+    "albedo": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/albedo.png",
+      "sha256": "23c53d46b077e421009304e40482d011e3476104583794e3f6ff32709d1659a6"
+    },
+    "irradiance": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/irradiance.png",
+      "sha256": "037137bf6f7a90aac1ffbcb5fc1d61ac5f7e72469ef59ec2ccb8b55710454665"
+    },
+    "normals": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/normals.png",
+      "sha256": "3b5f6b6e4fca06ae99b983f197f0473357d3c5cbffa46b7e75af8d5e8cd898c9"
+    },
+    "orientation": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/orientation.png",
+      "sha256": "fbc83020f98c404881dfe7e7d2a75ebc35710a33950446ce798271aba48394aa"
+    }
+  },
+  "finding": "Visible broad outer roof slopes have downward normals and near-black native irradiance. Saved Blender upper roof shell confirms 25/25 downward faces; both reusable kit roof shells also fail orientation. An in-memory face flip preserves positions, face/vertex UVs and transforms; source correction and fresh bakes remain pending."
+}

@@ -24,3 +24,9 @@ The shared 2048² PBR atlas is implemented for all twelve exports and the placed
 On the M2 Max, GPU compression reduces the three atlas textures from about 48 MiB to 8 MiB including mipmaps, retaining 2048 resolution. Whole-scene texture memory in the stationary pavilion view drops from 80.16 MiB to 40.16 MiB. These are desktop measurements, not target-phone acceptance. `scripts/verify_pavilion_atlas.py` verifies embedded pixels, all triangle UV regions and PBR bindings; `godot/tests/test_pavilion_atlas.gd` verifies the imported textures.
 
 Remaining: runtime LOD switching, other site integration and final lighting/performance acceptance. Decorative tile geometry is substantially reduced at LOD1; further authored tile texture detail can improve its appearance at a distance. Qinfang now uses the hexagonal roof, six posts, six brackets and two benches. Other sites still use their existing authored pavilion geometry. The runtime currently uses LOD0 for these placed parts.
+
+## Outer roof winding defect — 2026-10-07
+
+The saved hexagonal and square outer shells have 25/25 and 17/17 downward-facing polygons. The placed Qinfang hexagonal shell has the same defect. A temporary Godot portrait override shows these downward normals across the visible roof slopes, where native baked irradiance is near black. The existing topology/LOD checks do not verify outward shell orientation.
+
+`scripts/verify_pavilion_roof_orientation.py` fails against these saved sources. Its `--scratch-fix` option flips only the identified outer shell in memory and passes while retaining vertex positions, face/vertex UV assignments and object transforms. It does not save source files or rebake lighting. Correcting the kit and placed source, refreshing their exports/bakes, and checking the rendered roof remain required. Evidence: `export/pavilion-roof-render-diagnosis.json` and the four orientation reports under `export/`.

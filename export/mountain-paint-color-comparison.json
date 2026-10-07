@@ -1,0 +1,32 @@
+{
+  "scope": "Small fixed portrait mountain region in actual preceding/current Godot screenshots; display-pixel comparison, not whole-scene palette or art acceptance.",
+  "region": [
+    0,
+    205,
+    100,
+    35
+  ],
+  "screenshots": {
+    "before": {
+      "path": "docs/reference/lighting-diagnostics/pavilion-roof/baseline.png",
+      "sha256": "c4661d44428c6b794d4b62aa42c73236013f48597bd138827ee26a57d85b7b00",
+      "mean_display_rgb": [
+        0.2803843137254856,
+        0.3560829131652567,
+        0.3158565826330479
+      ],
+      "mean_positive_green_excess": 0.0579624649859944
+    },
+    "after": {
+      "path": "docs/reference/demo-portrait-pavilion.png",
+      "sha256": "4b4b03342b6915947256c12e8d3045b906fabfd8ba9018185dba2eaab57f2af8",
+      "mean_display_rgb": [
+        0.28354845938374645,
+        0.33911372549020447,
+        0.36376806722687516
+      ],
+      "mean_positive_green_excess": 0.015455462184873951
+    }
+  },
+  "positive_green_excess_reduction": 0.7333539526207437
+}

@@ -1,0 +1,423 @@
+{
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "terminal_spill_manifest_sha256": "6658ba96fa00f40cd27b946e0c63107a3f91716f7981247c3e14a64e4b5e8ce5",
+  "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
+  "pack_sha256": "8344050365ee08f29fc630d23d72dfebbfef52182c3d6d1b1af537664b36eb28",
+  "scope": "Current native slate-blue painting and freshly rendered lighting in the actual exported pack; material, input, pond, stationary Mac profile and all-site arrival captures. Roof winding, two source spot-cone import errors, final art, moving-camera and phone acceptance remain open.",
+  "mountain_filtering": {
+    "formats": {
+      "SITE_stage_MAT_painted_mountains_0.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "SITE_stage_MAT_painted_mountains_1.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "SITE_stage_MAT_painted_mountains_2.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png": {
+        "compressed": false,
+        "format": 4
+      },
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png": {
+        "compressed": false,
+        "format": 4
+      }
+    },
+    "max_rmse": 0.00784313725490196,
+    "passed": true,
+    "region": [
+      0,
+      205,
+      100,
+      35
+    ],
+    "rmse": 0.00236752398427444,
+    "scope": "Portrait Qinfang mountain region versus uncompressed native maps at the same 256px runtime resolution; no source or saved material changes.",
+    "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "project_checks": {
+    "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+    "scope": "Current project runtime, material and rendered-filter checks plus stationary Mac demo profiling; known initial glTF spot-cone parsing errors remain outside acceptance.",
+    "phases": [
+      {
+        "name": "full-lighting",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-full-lighting.log",
+        "pid": 6505,
+        "exit_code": 0
+      },
+      {
+        "name": "spill-normal",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-spill-normal.log",
+        "pid": 6507,
+        "exit_code": 0
+      },
+      {
+        "name": "spill-demo",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-spill-demo.log",
+        "pid": 6512,
+        "exit_code": 0
+      },
+      {
+        "name": "wash-normal",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-wash-normal.log",
+        "pid": 6520,
+        "exit_code": 0
+      },
+      {
+        "name": "wash-demo",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-wash-demo.log",
+        "pid": 6545,
+        "exit_code": 0
+      },
+      {
+        "name": "adapter",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-adapter.log",
+        "pid": 6574,
+        "exit_code": 0
+      },
+      {
+        "name": "surface-materials",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-surface-materials.log",
+        "pid": 6584,
+        "exit_code": 0
+      },
+      {
+        "name": "demo-startup",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-demo-startup.log",
+        "pid": 6587,
+        "exit_code": 0
+      },
+      {
+        "name": "rendered-filtering",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-rendered-filtering.log",
+        "pid": 7126,
+        "exit_code": 0
+      },
+      {
+        "name": "stationary-profile",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-stationary-profile.log",
+        "pid": 7227,
+        "exit_code": 0
+      },
+      {
+        "name": "portrait-demo-views",
+        "status": "passed",
+        "log": "/tmp/garden-paint-project-portrait-demo-views.log",
+        "pid": 7333,
+        "exit_code": 0
+      }
+    ],
+    "complete_reimport_acceptance": false,
+    "status": "passed"
+  },
+  "material_transfer": {
+    "compressed": false,
+    "emission_energy_multiplier": 0.600000023841858,
+    "mipmaps": true,
+    "paint_import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
+    "paint_png_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8",
+    "paint_size": [
+      512,
+      512
+    ],
+    "passed": true,
+    "scope": "Headless imported scene/material/texture and baked-adapter contracts; not GPU allocation, rendered transfer or complete scene acceptance.",
+    "shared_material_nodes": 3,
+    "tested_scene_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4"
+  },
+  "mountain_import_sha256": {
+    "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+    "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+    "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+  },
+  "mountain_paint_png_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8",
+  "mountain_paint_import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
+  "packed_checks": [
+    {
+      "name": "export",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "c568ded8e128d256545fb80951cc528c3836d9fc042cb7c22520c92da57fe2a4"
+    },
+    {
+      "name": "paint",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de"
+    },
+    {
+      "name": "spill-normal",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "keys",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "995f3fc32999513ae9a90b2f444a8aee5c6debe40f48541a7c43cf3d9f8676e8"
+    },
+    {
+      "name": "full-lighting",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86"
+    },
+    {
+      "name": "wash-normal",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "wash-demo",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "adapter",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "807284db2520c356126d52163a2e644fc68eb051685de0c228946d34b73c6a56"
+    },
+    {
+      "name": "surfaces",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2"
+    },
+    {
+      "name": "startup",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6"
+    },
+    {
+      "name": "pointer-keyboard-replay",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "3449fdbb01efdd1a3409bdb4cc55b802a86733a096850412703c6fe48a09b3ed"
+    },
+    {
+      "name": "pond-controls",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba"
+    },
+    {
+      "name": "transfer-fixture",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "56fa4bc1ac6eee2480c944d97c4618e677927b8524e968f8a99d7c58ee1366fb"
+    },
+    {
+      "name": "portrait-stills",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "931a6aff71579444589dbd5fce1e7f18beb652ea8676cec2782122af308606f7"
+    },
+    {
+      "name": "route-desktop",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "route-portrait",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "native-capture",
+      "exit_code": 0,
+      "status": "passed",
+      "log_sha256": "26af335be778bdebbe8b5e5b852de9db1d7bad35bb4f6af1e3873fcd3b38d7bb"
+    }
+  ],
+  "source_rejection_checks": {
+    "manifest_sha256": "6658ba96fa00f40cd27b946e0c63107a3f91716f7981247c3e14a64e4b5e8ce5",
+    "installed_files_checked": 23,
+    "negative_checks": [
+      {
+        "changed": "authoring_blend_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "terminal_blend_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "uv_sha256",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "png",
+        "rejected": true,
+        "engine_files_unchanged": true
+      },
+      {
+        "changed": "adaptive_sampling",
+        "rejected": true,
+        "engine_files_unchanged": true
+      }
+    ]
+  },
+  "native_pixels": {
+    "SITE_terminal-cells_MAT_backstage": {
+      "png_sha256": "13e8cc3ca8f331bb7d2ca8f2289b41a6eb0198c611e2890ec8a225e80d2011f3",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.007070791907608509,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_lattice_wood": {
+      "png_sha256": "96a71e1256cd71b59c3969fd368a8ae4f6daaed302c5e1901cd82e9306c8426a",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0020378129556775093,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_plaster_rock": {
+      "png_sha256": "0d05027a9ee440f63b958337fe5fe7720df77374c2249e26d0f85febfa56d610",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.001091947895474732,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_props_atlas": {
+      "png_sha256": "c1b7c19f47a3aaa847180644d0019763f4629b1df48064293bfc289ab9036448",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.00026642775628715754,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_stage_atlas": {
+      "png_sha256": "2c2c054e4715c931ad1cd53eac5f3ffd2fdb3611de41ff98ddd76c00170738e8",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.000825430965051055,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_tech_atlas": {
+      "png_sha256": "682b47946896cf17e8e84fa7503a38a0fb75b193503b39d4b0f382c24373a6cb",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0009602239588275552,
+      "finite": true
+    },
+    "SITE_terminal-cells_MAT_terminal_scroll": {
+      "png_sha256": "0e64b019dfd2f8338cf6224db2a39a5c23d124686278b280e0cfcc40d8d23c58",
+      "normalized_max": 1.0,
+      "decoded_linear_max": 0.0008451554458588362,
+      "finite": true
+    }
+  },
+  "profile": {
+    "baked_diffuse_shader_sha256": "4eea859ba24086419a71607e650332b4035d8a01a80b3a4744eaf4283c2e5bf2",
+    "buffer_memory_bytes": 20611168,
+    "device": "Apple M2 Max",
+    "mountain_import_sha256": {
+      "SITE_stage_MAT_painted_mountains_0.png.import": "273fe932c6b1adb7e87748b91d99767217a56193e3a2cb32f122264352f7b498",
+      "SITE_stage_MAT_painted_mountains_1.png.import": "f6d5859923b500ce642aa870a1568786b4c1512ae6884335d1d4fddebb53fc82",
+      "SITE_stage_MAT_painted_mountains_2.png.import": "d4a2d55905b9d400f63b6a5352740266093ce40c5e853583f9e90399bcac08b4",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png.import": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png.import": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png.import": "101de91d9071ec4ea9a52d1c10f0e5d7c61123fae835937f22cac86a85a49ae9",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png.import": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
+      "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
+    },
+    "mountain_paint_import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
+    "mountain_paint_png_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8",
+    "renderer": "gl_compatibility",
+    "scope": "Stationary demo arrival views on this Mac",
+    "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+    "terminal_spill_manifest_sha256": "6658ba96fa00f40cd27b946e0c63107a3f91716f7981247c3e14a64e4b5e8ce5",
+    "texture_memory_bytes": 61138446,
+    "viewport": [
+      1410,
+      600
+    ],
+    "views": {
+      "qinfang_ting": {
+        "active_practicals": 4,
+        "forced_draw_interval_median_ms": 1.881,
+        "forced_draw_interval_p95_ms": 4.672,
+        "visible_draw_calls_max": 102,
+        "visible_primitives_max": 123740
+      },
+      "rockery_gate": {
+        "active_practicals": 3,
+        "forced_draw_interval_median_ms": 2.344,
+        "forced_draw_interval_p95_ms": 4.152,
+        "visible_draw_calls_max": 140,
+        "visible_primitives_max": 143452
+      },
+      "terminal_room": {
+        "active_practicals": 2,
+        "forced_draw_interval_median_ms": 2.688,
+        "forced_draw_interval_p95_ms": 4.711,
+        "visible_draw_calls_max": 146,
+        "visible_primitives_max": 177088
+      }
+    }
+  },
+  "movie": {
+    "frames": 1290,
+    "fps": 30,
+    "seconds": 43,
+    "viewport": [
+      1410,
+      600
+    ],
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "sha256": "643526ceac392a6670cb4103719280ec53135a63e4f6e00bddeda081c7333b30",
+    "audio_scope": "Native Godot frames and cue transitions at fixed 30 FPS; audio assembled from original cue PCM with runtime gains/loop rules."
+  }
+}

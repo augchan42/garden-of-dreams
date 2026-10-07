@@ -14,6 +14,8 @@ func run() -> void:
  report.source_glb_sha256=source.get("source_glb_sha256","")
  report.terminal_spill_manifest_sha256=FileAccess.get_sha256("res://lightmaps/terminal-spill/manifest.json")
  report.baked_diffuse_shader_sha256=FileAccess.get_sha256("res://shaders/baked_diffuse.gdshader")
+ report.mountain_paint_png_sha256=FileAccess.get_sha256("res://materials/stage/mountain-paint.png")
+ report.mountain_paint_import_sha256=FileAccess.get_sha256("res://materials/stage/mountain-paint.png.import")
  report.mountain_import_sha256={}
  for index in range(3):
   var name="SITE_stage_MAT_painted_mountains_"+str(index)

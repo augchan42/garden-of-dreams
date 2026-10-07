@@ -13,11 +13,13 @@
     "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png.import": "bbfbfb19c28eb38f80505148a923c3edd5428a52446fb36c23f40de982bd6dd8",
     "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png.import": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5"
   },
+  "mountain_paint_import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
+  "mountain_paint_png_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8",
   "renderer": "gl_compatibility",
   "scope": "Stationary demo arrival views on this Mac",
-  "source_glb_sha256": "d74e0ff858748d529029c80f0ea11969c121dd71f645effebf55180104099bde",
-  "terminal_spill_manifest_sha256": "5f6e333366fb3a3afaffe399526a85977f635e1e1d6b54944c0eaa0c4903d7e5",
-  "texture_memory_bytes": 60089871,
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "terminal_spill_manifest_sha256": "6658ba96fa00f40cd27b946e0c63107a3f91716f7981247c3e14a64e4b5e8ce5",
+  "texture_memory_bytes": 61138446,
   "viewport": [
     1410,
     600
@@ -25,22 +27,22 @@
   "views": {
     "qinfang_ting": {
       "active_practicals": 4,
-      "forced_draw_interval_median_ms": 2.827,
-      "forced_draw_interval_p95_ms": 7.047,
+      "forced_draw_interval_median_ms": 1.881,
+      "forced_draw_interval_p95_ms": 4.672,
       "visible_draw_calls_max": 102,
       "visible_primitives_max": 123740
     },
     "rockery_gate": {
       "active_practicals": 3,
-      "forced_draw_interval_median_ms": 5.477,
-      "forced_draw_interval_p95_ms": 7.889,
+      "forced_draw_interval_median_ms": 2.344,
+      "forced_draw_interval_p95_ms": 4.152,
       "visible_draw_calls_max": 140,
       "visible_primitives_max": 143452
     },
     "terminal_room": {
       "active_practicals": 2,
-      "forced_draw_interval_median_ms": 6.299,
-      "forced_draw_interval_p95_ms": 8.711,
+      "forced_draw_interval_median_ms": 2.688,
+      "forced_draw_interval_p95_ms": 4.711,
       "visible_draw_calls_max": 146,
       "visible_primitives_max": 177088
     }

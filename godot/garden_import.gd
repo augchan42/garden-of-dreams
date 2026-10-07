@@ -39,6 +39,12 @@ func _post_import(scene: Node) -> Object:
     if material and material.resource_name.begins_with("MAT_tech_atlas"):
      node.mesh.surface_set_material(i,tech_material)
      node.set_surface_override_material(i,tech_material)
+    if material and material.resource_name.begins_with("MAT_painted_mountains_") and extras is Dictionary and extras.get("paint_source","")=="textures/backdrops/mountain-paint/atlas.json":
+     # Primary UVs select the three bands of one source painting. Only the
+     # newly painted source opts in; preceding bare materials retain their look.
+     var painted=load("res://materials/stage/painted_mountains.tres")
+     node.mesh.surface_set_material(i,painted)
+     node.set_surface_override_material(i,painted)
     if material and material.resource_name.begins_with("MAT_stage_"):
      var key=material.resource_name.trim_prefix("MAT_stage_").split(".")[0]
      # Older canvas materials are not part of the modular stage library.

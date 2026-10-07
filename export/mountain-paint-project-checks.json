@@ -1,0 +1,85 @@
+{
+  "source_glb_sha256": "b4b322c2f15b698f1aacf348c27e9734bf21f94d1e540417309b23a5870bbfc4",
+  "scope": "Current project runtime, material and rendered-filter checks plus stationary Mac demo profiling; known initial glTF spot-cone parsing errors remain outside acceptance.",
+  "phases": [
+    {
+      "name": "full-lighting",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-full-lighting.log",
+      "pid": 6505,
+      "exit_code": 0
+    },
+    {
+      "name": "spill-normal",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-spill-normal.log",
+      "pid": 6507,
+      "exit_code": 0
+    },
+    {
+      "name": "spill-demo",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-spill-demo.log",
+      "pid": 6512,
+      "exit_code": 0
+    },
+    {
+      "name": "wash-normal",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-wash-normal.log",
+      "pid": 6520,
+      "exit_code": 0
+    },
+    {
+      "name": "wash-demo",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-wash-demo.log",
+      "pid": 6545,
+      "exit_code": 0
+    },
+    {
+      "name": "adapter",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-adapter.log",
+      "pid": 6574,
+      "exit_code": 0
+    },
+    {
+      "name": "surface-materials",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-surface-materials.log",
+      "pid": 6584,
+      "exit_code": 0
+    },
+    {
+      "name": "demo-startup",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-demo-startup.log",
+      "pid": 6587,
+      "exit_code": 0
+    },
+    {
+      "name": "rendered-filtering",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-rendered-filtering.log",
+      "pid": 7126,
+      "exit_code": 0
+    },
+    {
+      "name": "stationary-profile",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-stationary-profile.log",
+      "pid": 7227,
+      "exit_code": 0
+    },
+    {
+      "name": "portrait-demo-views",
+      "status": "passed",
+      "log": "/tmp/garden-paint-project-portrait-demo-views.log",
+      "pid": 7333,
+      "exit_code": 0
+    }
+  ],
+  "complete_reimport_acceptance": false,
+  "status": "passed"
+}
