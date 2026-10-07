@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "scope": "Current source/runtime native fixed-time capture, assembled original cue PCM and verified local five-file archive. Final art, sustained FPS and full-garden/target-phone acceptance remain open.",
+  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "runtime_files_sha256": {
+    "runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "shaders/baked_diffuse.gdshader": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+    "runtime/reading_result.gd": "c4eb87fd76db94d8e053e18b113b7c17e1bb8b0b84b231d95e9ce601f098e370",
+    "runtime/demo_finale.gd": "046d80dbc8e0de4b6827d71c7cdbaa08c1be19c91cac2e9e67976310fa3b0e1f",
+    "assets/garden-of-dreams_pavilion_normal.png.import": "3338ec7f7c5473a2475d901ddf69d347e44073ec01bd08555247e9ab06ff0f17",
+    "assets/garden-of-dreams_wall_normal.png.import": "ea88dc7f98a317a8c40a40711bcbf1300520535c606d48324babfd35f8f3ca86",
+    "assets/garden-of-dreams_pavilion_orm.png.import": "2a85688ec9f5cd2f9ba90f22b80e7ad6c4e406bab8b6a856ee5fd6d6bfb071ca",
+    "assets/garden-of-dreams_wall_orm.png.import": "3a886c63fbc241ed08d550f7c1ac71899a3137cb47cfafa8be098d0bbe53d2ad"
+  },
+  "pack_checks": "export/pbr-current-pack-checks.json",
+  "capture_log_sha256": "26af335be778bdebbe8b5e5b852de9db1d7bad35bb4f6af1e3873fcd3b38d7bb",
+  "assembly_log_sha256": "e8c75c2f73571047639bbbfa244de34ba601b09d6add421e25d6573cdf906600",
+  "movie_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1410,
+        "height": 600,
+        "r_frame_rate": "30/1",
+        "nb_frames": "1290"
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "nb_frames": "927"
+      }
+    ],
+    "format": {
+      "duration": "43.000000",
+      "size": "10900253"
+    }
+  },
+  "complete_movie_decode_exit_code": 0,
+  "native_frames": 1290,
+  "sample_frame_sha256": {
+    "frame-00000.png": "45a6c74ce1b312259c7985550b97050f1a3d20849c025546237352bc921349f3",
+    "frame-00409.png": "af0e4e5c4c5686e944760e08e946308a36bbd4812d65c35954476d6043c6936a",
+    "frame-00580.png": "2da8681ad55546e30289e5b12661cd5c76564324d40c77e4f8f74d6e1001bd2e",
+    "frame-00681.png": "f1664d7ba422190a95ce62ddaa480bacfb356c0dd6cfbacef6afea27f269ce56",
+    "frame-00950.png": "ffb85410cc27729c29a270a72032d65769457d35453abe699f1a9f2439e8514b",
+    "frame-01010.png": "5e7ccc96b643c13c7c226c3fbb95835c409dce98c65964feeb68c4a1362766cb",
+    "frame-01062.png": "b85dba5d3a07f22fa20d9876e49e21fb82b575135e089dfca981260896e4ee30",
+    "frame-01110.png": "8d629da8165728689733126dfdee8c8cdcc3e06ce2191e311059b344a1a8d538",
+    "frame-01230.png": "0e06227e6d2e51219cd0b3d8c8dfd2f18a91861a1d67d4a198638141622fffd8",
+    "frame-01289.png": "555c7505839590e40429c760b7d7fca122fd4fbfc41a510bc170142fec7f3a76"
+  },
+  "archive_members": [
+    "GardenOfDreamsDemo.pck",
+    "GardenOfDreamsDemo.mp4",
+    "README.md",
+    "Run Garden of Dreams.command",
+    "SHA256SUMS"
+  ],
+  "archive_crc_verified": true,
+  "archive_payload_sha256": {
+    "GardenOfDreamsDemo.pck": "29d6113371cc608cd918f9978115c2b24225cd0c56b674b0fc44abdc759fb7e3",
+    "GardenOfDreamsDemo.mp4": "34723b84782e8d0c67129214bf558df350ab112a4eb92a0ab19f4568efe85200",
+    "README.md": "42f5bea032eb2e23ceb7312d26b96e23187d09462a5968828d983cbab26d858c",
+    "Run Garden of Dreams.command": "3e6549ded90131228dd5677041f23103e4e61ef4951ef23796fc6404a0406c4b"
+  },
+  "archive_sha256": "456a5cc8994c1e8a959f173ab840f739e6b53c2e3276ff484afc2c73a8f59ef7",
+  "archive_alias_sha256": "456a5cc8994c1e8a959f173ab840f739e6b53c2e3276ff484afc2c73a8f59ef7",
+  "timeline_sha256": "6b7110ff51035fe578e54035684c94a15bc18b548a76a4d2be9e367d89e06aad"
+}

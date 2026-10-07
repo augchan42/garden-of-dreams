@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Synthetic corrupted provenance rejected before reading frames/encoding or touching the seven current release payloads. Not a positive synthetic capture.",
+  "cases": [
+    {
+      "name": "missing-runtime",
+      "rejection": "Capture runtime provenance is incomplete"
+    },
+    {
+      "name": "stale-profile",
+      "rejection": "Profile shader differs from captured runtime"
+    },
+    {
+      "name": "wrong-pack",
+      "rejection": "Packed/captured payload hash differs"
+    },
+    {
+      "name": "changed-runtime",
+      "rejection": "Runtime changed after capture: runtime/baked_materials.gd"
+    }
+  ],
+  "preserved_release_payload_sha256": {
+    "GardenOfDreamsDemo-macOS.zip": "2710ee50708984277b27a6c2d8d4115687066791ba3cb0c4c77aed2249418029",
+    "Run Garden of Dreams.command": "3e6549ded90131228dd5677041f23103e4e61ef4951ef23796fc6404a0406c4b",
+    "README.md": "5ca85f0f234e0abcb2ee2c995a9a27e07701ae8247a9ba249f612db79ba2eea4",
+    "GardenOfDreamsDemo.mp4": "afb9c61cc8ba2bfd0a2b698d64eac0738ff71005738c19f69522a4323ab23998",
+    "SHA256SUMS": "cd6d006c5bd9249a65e081d6423c8dd321cd792b4c6e1b588f7ade57affc4efb",
+    "GardenOfDreamsDemo.zip": "2710ee50708984277b27a6c2d8d4115687066791ba3cb0c4c77aed2249418029",
+    "GardenOfDreamsDemo.pck": "d7f598302e6e4c7e5b7b2dac18c0a27a33de5bf21aa789cde34aba0487cc0c5a"
+  }
+}

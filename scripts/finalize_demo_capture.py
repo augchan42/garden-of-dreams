@@ -36,10 +36,28 @@ def validate(args):
             'Engine source differs from canonical source')
     require(job['status'] == 'captured' and job['exit_code'] == 0,
             'Native capture did not complete')
-    require(checks['status'] == 'passed' and len(checks['phases']) == 9
-            and all(p['status'] == 'passed' and p['exit_code'] == 0 for p in checks['phases']),
+    required_checks = {'test_mountain_paint', 'test_site_key_import', 'test_full_scene_lighting',
+                       'test_surface_materials', 'test_baked_backdrop_wash', 'test_terminal_spill',
+                       'test_first_reading_demo', 'test_demo_reading', 'test_demo_input_acceptance'}
+    require(checks['status'] == 'passed' and required_checks <= {p['name'] for p in checks['phases']}
+            and all(p['status'] == 'passed' and p['exit_code'] == 0 and not p.get('diagnostics')
+                    for p in checks['phases']),
             'Complete packed demo acceptance is missing')
-    require(source_hash == job['source_glb_sha256'] == checks['source_glb_sha256'],
+    profile = json.loads(args.profile.read_text())
+    required_runtime = {'runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader',
+                        'runtime/reading_result.gd', 'runtime/demo_finale.gd'} | {
+        f'assets/garden-of-dreams_{name}.png.import'
+        for name in ('pavilion_normal', 'wall_normal', 'pavilion_orm', 'wall_orm')}
+    runtime = job.get('runtime_files_sha256', {})
+    require(required_runtime <= runtime.keys(), 'Capture runtime provenance is incomplete')
+    require(runtime == checks.get('runtime_files_sha256') == profile.get('runtime_files_sha256'),
+            'Pack, capture and profile runtime provenance differs')
+    for path, digest in runtime.items():
+        require(sha(ROOT / 'godot' / path) == digest, 'Runtime changed after capture: ' + path)
+    require(profile['baked_diffuse_shader_sha256'] == runtime['shaders/baked_diffuse.gdshader'],
+            'Profile shader differs from captured runtime')
+    require(source_hash == job['source_glb_sha256'] == checks['source_glb_sha256']
+            == profile['source_glb_sha256'],
             'Source changed after packed checks/capture')
     pack = Path(job['pack'])
     require(sha(pack) == job['pack_sha256'] == checks['pack_sha256'],
@@ -98,7 +116,7 @@ def finalize(args):
     if args.verify_only:
         print('DEMO_CAPTURE_VERIFY_PASS', capture['frames'], probe['format']['duration'])
         return
-    evidence = ROOT / 'docs/reference/roof-current-runtime/capture'
+    evidence = args.evidence_dir
     evidence.mkdir(parents=True, exist_ok=True)
     frames_dir = Path(job['frames_dir'])
     shutil.copy2(Path(job['log']), evidence / 'capture.log')
@@ -147,12 +165,13 @@ def finalize(args):
     shutil.copy2(archive, alias)
     require(sha(alias) == sha(archive), 'Archive aliases differ')
     timeline = dict(capture)
-    profile = json.loads((ROOT / 'export/roof-current-demo-profile.json').read_text())
+    profile = json.loads(args.profile.read_text())
     for key in ('source_glb_sha256', 'terminal_spill_manifest_sha256',
                 'baked_diffuse_shader_sha256', 'mountain_paint_png_sha256',
                 'mountain_paint_import_sha256', 'mountain_import_sha256'):
         timeline[key] = profile[key]
     timeline.update(viewport=[1410, 600], pack_sha256=payload_hashes[names[0]],
+                    runtime_files_sha256=job['runtime_files_sha256'],
                     movie_sha256=payload_hashes[names[1]], video_codec='h264', audio_codec='aac',
                     backdrop_wash_manifest_sha256=sha(ROOT / 'godot/lightmaps/backdrop-wash/manifest.json'),
                     archive_sha256=sha(archive), payload_sha256=payload_hashes,
@@ -164,9 +183,10 @@ def finalize(args):
         json.dumps(timeline, indent=2) + '\n')
     report = {
         'status': 'passed',
-        'scope': 'Corrected-source native fixed-time capture, assembled original cue PCM and verified local five-file archive. Final art, sustained FPS and target-phone budgets remain open.',
+        'scope': 'Current source/runtime native fixed-time capture, assembled original cue PCM and verified local five-file archive. Final art, sustained FPS and full-garden/target-phone acceptance remain open.',
         'source_glb_sha256': job['source_glb_sha256'],
-        'pack_checks': 'export/roof-current-pack-checks.json',
+        'runtime_files_sha256': job['runtime_files_sha256'],
+        'pack_checks': str(args.pack_checks.resolve().relative_to(ROOT)),
         'capture_log_sha256': sha(evidence / 'capture.log'),
         'assembly_log_sha256': sha(evidence / 'assembly.log'),
         'movie_probe': probe,
@@ -180,7 +200,7 @@ def finalize(args):
         'archive_alias_sha256': sha(alias),
         'timeline_sha256': sha(ROOT / 'docs/reference/demo-capture-timeline.json'),
     }
-    (ROOT / 'export/roof-current-demo-release.json').write_text(json.dumps(report, indent=2) + '\n')
+    args.release_report.write_text(json.dumps(report, indent=2) + '\n')
     print('DEMO_RELEASE_PASS', len(frames), timeline['archive_sha256'])
 
 
@@ -188,6 +208,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--capture-job', required=True, type=Path)
     parser.add_argument('--pack-checks', type=Path, default=ROOT / 'export/roof-current-pack-checks.json')
+    parser.add_argument('--profile', type=Path, default=ROOT / 'export/roof-current-demo-profile.json')
+    parser.add_argument('--evidence-dir', type=Path, default=ROOT / 'docs/reference/roof-current-runtime/capture')
+    parser.add_argument('--release-report', type=Path, default=ROOT / 'export/roof-current-demo-release.json')
     parser.add_argument('--assembly-log', required=True, type=Path)
     parser.add_argument('--movie', required=True, type=Path)
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'build')
