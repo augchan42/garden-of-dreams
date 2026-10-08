@@ -979,3 +979,45 @@ The profiling builder now accepts the full exploration or focused-demo main scen
 
 
 The corrected diagnostic export now filters KIT-prefixed previews and retains runtime shared atlases/foliage. Its APK is 91,542,782 bytes, saving 453,217,688 bytes. All 177 file-backed normal-route texture imports, generated reflection and every used foliage LOD survive the payload check. A too-broad filter that removed six used textures rejects. Native import/export passes; the filtered package awaits fresh device testing and is not a release. Evidence: `export/moon-intensity-android-packaging-evidence.json`.
+
+## Courtyard compression fix — 2026-10-08
+
+Xiaoxiang's pink wall/timber checker is a GPU compression artifact. An actual
+same-resolution lossless import removes it; the adopted 512px cap sharpens the
+whitewash shadows. The timber source stays 256px. Only these two import files
+change, and the configurator preserves their exceptions during later refreshes.
+All 141 source PNGs, authoring, GLB, runtime, shaders, cameras and collision retain
+their bytes. Production import, camera/collision/marker and five lighting checks
+pass. Four native production captures match the tested candidate pixel for pixel.
+Normal Mac allocation is 50,507,483 renderer texture bytes (48.17 MiB), across
+178 textures. This does not establish phone, demo-finale or sustained performance.
+
+Roof stripes persist in the baked irradiance after normal/specular and filtering
+controls; source-art correction remains work. The first roof-mask fixture emitted
+renderer errors and is retained as rejected. Evidence and limits:
+`export/courtyard-import-quality-evidence.json` and
+`docs/reference/courtyard-import-quality/README.md`. Existing Android APKs share
+the source GLB but predate these GPU import settings; fresh packaging and device
+samples are required. Final site art, twenty reference slots, current release,
+device/performance and authenticated services remain open.
+
+## Android import provenance — 2026-10-08
+
+The fresh isolated filtered profiling APK includes the adopted courtyard imports:
+91,579,636 bytes, SHA256 `21a3ed66…`. Native mobile import/debug export pass.
+Its embedded manifest pins 355 production texture inputs and 356 finalized staged
+inputs, including source bytes, raw imports and effective parameter sections.
+The archive retains all 177 file-backed textures bound by the actual normal-route
+inventory, with exact Android cache payload hashes, plus required foliage LODs.
+Runtime scripts, shaders and catalogs match the older filtered APK; the two
+courtyard payloads and profile manifest intentionally change.
+
+Collection and the touch helper now verify current production/staged texture and
+runtime inputs and the installed dedicated APK's SHA256 before accepting reports
+or sending taps. Seven local input tests, four actual-APK corruption rejections
+and three mocked installed-APK preflight cases pass. These checks do not invoke
+ADB or establish device behavior. The new APK remains local and uninstalled while
+the pending unlock reply is unanswered. Evidence:
+`export/courtyard-android-provenance-evidence.json`. Full scene art, twenty reference
+slots, current release, mobile/sustained performance and authenticated services
+remain open.

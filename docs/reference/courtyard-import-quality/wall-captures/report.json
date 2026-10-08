@@ -1,0 +1,282 @@
+{
+ "diagnostic_script_sha256": "321f4778344ea91f38483a2f7375a3c8a7d6ec142f22bcdc4eaff163f7035ba9",
+ "rooms": {
+  "backstage": {
+   "base_color": "(0.0129, 0.0258, 0.0129, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "backstage-baseline.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "baseline-again": {
+     "file": "backstage-baseline-again.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "constant-irradiance": {
+     "file": "backstage-constant-irradiance.png",
+     "sha256": "e75d0c521145e26d8cf3b019c64298ca252c3d3816410dfc232fcf967553bee4"
+    },
+    "hidden-target": {
+     "file": "backstage-hidden-target.png",
+     "sha256": "6e43d5570459df8e6e077e2784170b5c8df0067d55e36ffad8f56c637fe270fc"
+    },
+    "irradiance-only": {
+     "file": "backstage-irradiance-only.png",
+     "sha256": "7fd2e26d6161935c0b5caf957c7042e1b0a0a63147f4d5f60f97fc53f974227c"
+    },
+    "lossless-256": {
+     "file": "backstage-lossless-256.png",
+     "sha256": "8ed18cd2476fa3acd5d6c202521ea8192598dd3c4d9a1ddeccf3ed06550658ea"
+    },
+    "lossless-512": {
+     "file": "backstage-lossless-512.png",
+     "sha256": "7e769c3b2054794b75ae8987c7d622dc35244195e8a6f38a56400a586311ec7a"
+    },
+    "lossless-native": {
+     "file": "backstage-lossless-native.png",
+     "sha256": "214223c483fc20ce94026cfdc3b0bfb9c25cc03a67e12174545b9ee5d7cbc737"
+    },
+    "no-normal": {
+     "file": "backstage-no-normal.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "no-specular": {
+     "file": "backstage-no-specular.png",
+     "sha256": "dfef680666534485d3058fdd3dc8118dfae04291a1f409b463331d425b0ad166"
+    },
+    "paint-only": {
+     "file": "backstage-paint-only.png",
+     "sha256": "83de107430883dd6f1099e45a56a24b9aeabd1c887c36008ce8e78b4b040983f"
+    },
+    "roof-mask": {
+     "file": "backstage-roof-mask.png",
+     "sha256": "4f45e39e3c6600961414a8f25dba3f159d530b46b5e63da309b499d588b43602"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "392521d9559d39d2267defecfa652ce6f11f84e0f1d639816d95e944fff09612",
+   "mesh": "SITE_xiaoxiang-guan_MAT_backstage",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  },
+  "lattice_wood": {
+   "base_color": "(0.2348, 0.2934, 0.1718, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "lattice_wood-baseline.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "baseline-again": {
+     "file": "lattice_wood-baseline-again.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "constant-irradiance": {
+     "file": "lattice_wood-constant-irradiance.png",
+     "sha256": "113eae849e65c661eb918f7ac1753410afa19bac62a10cb4f9fd6f3c92ef1e65"
+    },
+    "hidden-target": {
+     "file": "lattice_wood-hidden-target.png",
+     "sha256": "5d450bf7c4d446bc3c5334c8a765773702743028ed6751f24bdf98b78f633405"
+    },
+    "irradiance-only": {
+     "file": "lattice_wood-irradiance-only.png",
+     "sha256": "169b092cfca1224ddf3176375cbfc8e60cda8f08cb5c47bbc29d584104868fe5"
+    },
+    "lossless-256": {
+     "file": "lattice_wood-lossless-256.png",
+     "sha256": "9d8df5101ce578db82d5dd8aa386532e7b9bcc4da5d4cc9707485c0f8f42f54a"
+    },
+    "lossless-512": {
+     "file": "lattice_wood-lossless-512.png",
+     "sha256": "9d8df5101ce578db82d5dd8aa386532e7b9bcc4da5d4cc9707485c0f8f42f54a"
+    },
+    "lossless-native": {
+     "file": "lattice_wood-lossless-native.png",
+     "sha256": "9d8df5101ce578db82d5dd8aa386532e7b9bcc4da5d4cc9707485c0f8f42f54a"
+    },
+    "no-normal": {
+     "file": "lattice_wood-no-normal.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "no-specular": {
+     "file": "lattice_wood-no-specular.png",
+     "sha256": "2deb63c98bd9d6a7dc3f5ad08baf16ecbc269294d56c16842841e4085af7a282"
+    },
+    "paint-only": {
+     "file": "lattice_wood-paint-only.png",
+     "sha256": "8c9f7e85ac0bbd3efddc97e2f9ed0d5190421942b43f15cd74572b45a7fe3851"
+    },
+    "roof-mask": {
+     "file": "lattice_wood-roof-mask.png",
+     "sha256": "bbe6b2d3d1f86f5a7e9a6e1410593fe572cb7d4fcf27bce6cdd8fb8342eb25fe"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "8a9808dd9545cbf2b80d4a0033c1eb6669efb84d1fbc492bca4e378d6a77dfd5",
+   "mesh": "SITE_xiaoxiang-guan_MAT_lattice_wood",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    256,
+    256
+   ]
+  },
+  "plaster_rock": {
+   "base_color": "(0.4236, 0.5271, 0.3811, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "plaster_rock-baseline.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "baseline-again": {
+     "file": "plaster_rock-baseline-again.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "constant-irradiance": {
+     "file": "plaster_rock-constant-irradiance.png",
+     "sha256": "fff915d481762462d05e11d903f223bc6a070ea9ad0da5d51e3bc9ca0ba71022"
+    },
+    "hidden-target": {
+     "file": "plaster_rock-hidden-target.png",
+     "sha256": "422da2c16de2a2d390b57a1a3b10b5e4faa03c20e24e1790c8a5301afad3a0b4"
+    },
+    "irradiance-only": {
+     "file": "plaster_rock-irradiance-only.png",
+     "sha256": "422f58d6ed5386df195c655b6edd1ebd69098e16c3e59a2849753c80fa01e134"
+    },
+    "lossless-256": {
+     "file": "plaster_rock-lossless-256.png",
+     "sha256": "a9fa7ff1d7cb4dcbd1ac297dd84f9d04417728f17e44191a266d1e2fbe4c6737"
+    },
+    "lossless-512": {
+     "file": "plaster_rock-lossless-512.png",
+     "sha256": "916a3b7f7410af9edb99a727084ee8c472ac01867f332f6e54c34fd7b7154c5a"
+    },
+    "lossless-native": {
+     "file": "plaster_rock-lossless-native.png",
+     "sha256": "60ffe0ce6d4c00a4bfcd2514d4b77365aeb8e80f613ed667a8475e1038f8d455"
+    },
+    "no-normal": {
+     "file": "plaster_rock-no-normal.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "no-specular": {
+     "file": "plaster_rock-no-specular.png",
+     "sha256": "c31425c9e27e60891aff6f86f1ecc170da84d72d587b8e5064d005ddabc5d2a3"
+    },
+    "paint-only": {
+     "file": "plaster_rock-paint-only.png",
+     "sha256": "87c4d6270781cacd433b530147839194eb9c1660f3110c19eacf25d7c4f5345e"
+    },
+    "roof-mask": {
+     "file": "plaster_rock-roof-mask.png",
+     "sha256": "254e704a0da8a42ba487bc7c38e1d256904def9ee20ec94847783b920cc9a30f"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "52d27c34bbf124230a936ca1daef1a3a719c07823ed654c066f1b044ee24b567",
+   "mesh": "SITE_xiaoxiang-guan_MAT_plaster_rock",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  },
+  "whitewash": {
+   "base_color": "(0.5838, 0.6576, 0.5169, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "whitewash-baseline.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "baseline-again": {
+     "file": "whitewash-baseline-again.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "constant-irradiance": {
+     "file": "whitewash-constant-irradiance.png",
+     "sha256": "d439e2469738447c0c8313133c543d1f6a994cf80bcf104789928caea45b9861"
+    },
+    "hidden-target": {
+     "file": "whitewash-hidden-target.png",
+     "sha256": "dcb8c0a1f6b9568debcb8760c9e9258ed6ba2646cfd70c6ebebd2fa22dd1b8ad"
+    },
+    "irradiance-only": {
+     "file": "whitewash-irradiance-only.png",
+     "sha256": "6f3d55c49c72c76b99b7dd89ebd731cba6e24e6a8dfb8639bb903d36e3cea36f"
+    },
+    "lossless-256": {
+     "file": "whitewash-lossless-256.png",
+     "sha256": "1508dd82ed89b54c395c121e51764afd6024f3063ad0d913ec40ec3dfafef729"
+    },
+    "lossless-512": {
+     "file": "whitewash-lossless-512.png",
+     "sha256": "ed903e9d8673b248cb1947221cdc088a164b2c946c81adff431321db9be0ba76"
+    },
+    "lossless-native": {
+     "file": "whitewash-lossless-native.png",
+     "sha256": "d50fce599d45cdcd840f8ee77879a55356f4ab4fed8c92b811b2c5ec857a43f0"
+    },
+    "no-normal": {
+     "file": "whitewash-no-normal.png",
+     "sha256": "733c112067bafdb9f8b08486a0c3d5ce33d1147399ad617a760cfb2824cda86b"
+    },
+    "no-specular": {
+     "file": "whitewash-no-specular.png",
+     "sha256": "83fc013b940797c42ad0a079f8923112b1e397b18f655791eddcce1826221987"
+    },
+    "paint-only": {
+     "file": "whitewash-paint-only.png",
+     "sha256": "a87789fe817ead400f989b700bf2eff461bbf0aa6e4b2c0a39fe2fb5e2579426"
+    },
+    "roof-mask": {
+     "file": "whitewash-roof-mask.png",
+     "sha256": "85ce3cf29b4b4b32e9f49c4abb40ac8d003b704c7dc61b0e204bc60e3d92202e"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "31445c99d6c92f8e43c1d1c06b231729ba786ce1197599b0c006068149a7b5e8",
+   "mesh": "SITE_xiaoxiang-guan_MAT_whitewash",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ "route_sha256": "af03a764c78b8d5ee9bef72419282cae7be8649b1a2f1fb8151f5b83921f18c6",
+ "scope": "Isolated current-source native courtyard wall material/filter/hide counterfactuals at one arrival view; no production edits, traversal, final art or target-device performance claim. Source PNG readbacks used by lossless trials are Godot-decoded images; their format is recorded.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+ "status": "captured",
+ "viewport": [
+  540,
+  960
+ ]
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "production-import",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--editor",
+      "--import"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-import.log"
+  },
+  {
+    "name": "production-source-contract",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_import_source_contract.gd",
+      "--",
+      "res://assets/garden-of-dreams.glb",
+      "res://tests/source-contract.json",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-source-contract.json"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-source-contract.log"
+  },
+  {
+    "name": "production-full-lighting",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_full_scene_lighting.gd"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-full-lighting.log"
+  },
+  {
+    "name": "production-wash-normal",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_baked_backdrop_wash.gd"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-wash-normal.log"
+  },
+  {
+    "name": "production-wash-demo",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_baked_backdrop_wash.gd",
+      "--",
+      "--demo"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-wash-demo.log"
+  },
+  {
+    "name": "production-spill-normal",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_terminal_spill.gd"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-spill-normal.log"
+  },
+  {
+    "name": "production-spill-demo",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--headless",
+      "--script",
+      "res://tests/test_terminal_spill.gd",
+      "--",
+      "--demo"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-spill-demo.log"
+  },
+  {
+    "name": "production-capture",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/capture_courtyard_imports.gd",
+      "--",
+      "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-captures"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-capture.log"
+  },
+  {
+    "name": "production-inventory",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/audit_runtime_textures.gd",
+      "--",
+      "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.json"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed",
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.log"
+  }
+]

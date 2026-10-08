@@ -1,0 +1,98 @@
+{
+  "status": "four_corrupted_archive_cases_rejected",
+  "scope": "Synthetic modified copies of the current actual APK; original APK, fixture and production unchanged. No install or device sampling.",
+  "cases": [
+    {
+      "case": "wrong-manifest",
+      "status": "rejected_before_acceptance_output",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py",
+        "--build-report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/wrong-manifest-build.json",
+        "--inventory",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.json",
+        "--previous-build-report",
+        "/tmp/garden-current-8d-android-filtered-v2-build.json",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/wrong-manifest-acceptance.json"
+      ],
+      "exit_code": 1,
+      "acceptance_output_created": false,
+      "changed_entry": "assets/phone-profile-build.json",
+      "mutation": "change",
+      "apk_sha256": "64ba2e5c4e8d32168f603828ca5877c74c107be7ff08f7166ce433c9277f1da7",
+      "apk_bytes": 91571974,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/wrong-manifest.log"
+    },
+    {
+      "case": "missing-wall-import",
+      "status": "rejected_before_acceptance_output",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py",
+        "--build-report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/missing-wall-import-build.json",
+        "--inventory",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.json",
+        "--previous-build-report",
+        "/tmp/garden-current-8d-android-filtered-v2-build.json",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/missing-wall-import-acceptance.json"
+      ],
+      "exit_code": 1,
+      "acceptance_output_created": false,
+      "changed_entry": "assets/lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png.import",
+      "mutation": "remove",
+      "apk_sha256": "eaf8b5c3cd5073459e385ac5e9023deb0b300b170790eabb2e35a663a3d23422",
+      "apk_bytes": 91571588,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/missing-wall-import.log"
+    },
+    {
+      "case": "changed-wall-payload",
+      "status": "rejected_before_acceptance_output",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py",
+        "--build-report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-wall-payload-build.json",
+        "--inventory",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.json",
+        "--previous-build-report",
+        "/tmp/garden-current-8d-android-filtered-v2-build.json",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-wall-payload-acceptance.json"
+      ],
+      "exit_code": 1,
+      "acceptance_output_created": false,
+      "changed_entry": "assets/.godot/imported/SITE_xiaoxiang-guan_MAT_whitewash.png-05d3e5e039c295e28c3c96cc68a76c86.ctex",
+      "mutation": "change",
+      "apk_sha256": "a9aeb51f3d8404542e2fc280b545b5011b5edec37c282c922da2fd880706a989",
+      "apk_bytes": 91571973,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-wall-payload.log"
+    },
+    {
+      "case": "changed-flora-catalog",
+      "status": "rejected_before_acceptance_output",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py",
+        "--build-report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-flora-catalog-build.json",
+        "--inventory",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/production-inventory.json",
+        "--previous-build-report",
+        "/tmp/garden-current-8d-android-filtered-v2-build.json",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-flora-catalog-acceptance.json"
+      ],
+      "exit_code": 1,
+      "acceptance_output_created": false,
+      "changed_entry": "assets/assets/flora-placements.json",
+      "mutation": "change-json",
+      "apk_sha256": "f05d15ca962ef646106ebd54fa8d622fba776cc92a83ae85922ed101f4c75115",
+      "apk_bytes": 91571974,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-courtyard-apk-rejections-_jwb50o_/changed-flora-catalog.log"
+    }
+  ]
+}

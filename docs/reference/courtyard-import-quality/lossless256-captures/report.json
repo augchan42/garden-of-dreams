@@ -1,0 +1,106 @@
+{
+ "diagnostic_script_sha256": "e1673a9de2bafe812ccdae4fe37854dc97246de817d5f5b916cc005db8361f5f",
+ "rooms": {
+  "daguan_lou": {
+   "base_color": "(0.1718, 0.2717, 0.206, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "daguan_lou-baseline.png",
+     "sha256": "b1ae07b7cebb10fa83a309e444ece394bd151ae267eb5aa1b9c467f482668b39"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "3b3a2709a6394b1da8dcfc8ec12b4b9ad3ad4cf6fdce5ebf625be20f67499f8b",
+   "mesh": "SITE_daguan-lou_MAT_rooftile",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  },
+  "daoxiang_cun": {
+   "base_color": "(0.4614, 0.4731, 0.3035, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "daoxiang_cun-baseline.png",
+     "sha256": "c215fed299fec39f08f6830e3d476d20f5353fcc26bdad71dafc45877d1f5650"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "444b75377c139e491168c0cf1ae77d48c492a4b4a1f18cece3041721f74c6132",
+   "mesh": "SITE_daoxiang-cun_MAT_thatch",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  },
+  "qinfang_ting": {
+   "base_color": "(1.0, 1.0, 1.0, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "qinfang_ting-baseline.png",
+     "sha256": "b35c5a9b678cc0caa44c20c571d60f0b6545e38c09dfa40f01d78ebdf744a085"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "a4d3c3ddc13fe7759a3904fbb8e9db3b790fe95235cc7a1ffe8e12500ce8a543",
+   "mesh": "SITE_qinfang-ting_MAT_pavilion_atlas",
+   "normal_enabled": true,
+   "normal_scale": 0.400000005960464,
+   "orm_enabled": true,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  },
+  "xiaoxiang_guan": {
+   "base_color": "(0.1718, 0.2717, 0.206, 1.0)",
+   "cases": {
+    "baseline": {
+     "file": "xiaoxiang_guan-baseline.png",
+     "sha256": "55b65e240c2dce7c486a58d25c3b2519c8dff4f508d794cf081a11db4ce04850"
+    }
+   },
+   "decoded_image_format": 4,
+   "lightmap_sha256": "6015012d3f338c9d4e327401b64c27ba3daa2905c697b26c59ef35dbc2563abe",
+   "mesh": "SITE_xiaoxiang-guan_MAT_rooftile",
+   "normal_enabled": null,
+   "normal_scale": null,
+   "orm_enabled": null,
+   "production_lightmap_size": [
+    256,
+    256
+   ],
+   "source_image_size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ "route_sha256": "af03a764c78b8d5ee9bef72419282cae7be8649b1a2f1fb8151f5b83921f18c6",
+ "scope": "Isolated current-source native material/filter counterfactuals at four arrival views; no production edits, traversal, final art or target-device performance claim. Source PNG readbacks used by lossless trials are Godot-decoded images; their format is recorded.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+ "status": "captured",
+ "viewport": [
+  540,
+  960
+ ]
+}

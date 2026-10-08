@@ -1,0 +1,32 @@
+[
+  {
+    "name": "lossless256-import",
+    "exit_code": 0,
+    "status": "passed",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--headless",
+      "--path",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/godot",
+      "--editor",
+      "--import"
+    ],
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/lossless256-import.log"
+  },
+  {
+    "name": "lossless256-capture",
+    "exit_code": 0,
+    "status": "passed",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/godot",
+      "--script",
+      "res://tests/capture_material_import_trial.gd",
+      "--",
+      "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/lossless256-captures",
+      "--maps=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/maps"
+    ],
+    "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/lossless256-capture.log"
+  }
+]

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py", line 108, in <module>
+    main()
+    ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py", line 102, in main
+    report=verify(args.build_report,args.inventory,args.previous_build_report)
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_profile_inputs.py", line 67, in verify
+    assert hashlib.sha256(package.read(archive_name)).hexdigest() == expected, 'Changed bound payload: '+path
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Changed bound payload: lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png

@@ -1,0 +1,48 @@
+{
+  "status": "three_preflight_cases_passed",
+  "scope": "Actual local build/texture/runtime inputs with mocked installed APK responses; no ADB invocation, phone data, taps or device acceptance.",
+  "cases": [
+    {
+      "case": "current-local-and-installed",
+      "accepted": true,
+      "reason": "",
+      "mocked_adb_calls": [
+        [
+          "shell",
+          "pm",
+          "path",
+          "org.godotengine.gardendreams.profile"
+        ],
+        [
+          "shell",
+          "sha256sum",
+          "/data/app/task/base.apk"
+        ]
+      ]
+    },
+    {
+      "case": "wrong-installed-apk",
+      "accepted": false,
+      "reason": "Installed profiling APK differs from the build report",
+      "mocked_adb_calls": [
+        [
+          "shell",
+          "pm",
+          "path",
+          "org.godotengine.gardendreams.profile"
+        ],
+        [
+          "shell",
+          "sha256sum",
+          "/data/app/task/base.apk"
+        ]
+      ]
+    },
+    {
+      "case": "old-build-without-texture-provenance",
+      "accepted": false,
+      "reason": "APK lacks finalized texture provenance; rebuild the profiler",
+      "mocked_adb_calls": []
+    }
+  ]
+}
