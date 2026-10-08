@@ -1,0 +1,2318 @@
+{
+ "kits": {
+  "corridor": {
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-palettes-final/corridor.png",
+   "capture_pixels": [
+    1600,
+    680
+   ],
+   "capture_sha256": "df9174449d03fb397c2f512daef4120a87377b51fe58c312470dfb4f6d5b3551",
+   "logical_viewport": [
+    1600,
+    900
+   ],
+   "modules": {
+    "corner": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "2c9103c639563cb4479ea08bdcea963d19083f9c9d41f9ec46930560819643ec",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "corner_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "3062374cb7e1109a093934f40f72b55f3347c596e0921a153a5379b9cf1be4bc",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "stair": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "9bfb33ef5f47dee98eb31e0b12ea296b560b7df0d9903eefff9f368823d30429",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "stair_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "2520bb09d7344292294fe0981879c71c0fcfd88fea444b86a5dbf62af5e0864f",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "straight": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "171f96be1268c64216abdcd2ed4f0ae1a86b84aa0fb55654e4d29f1b898ffbd5",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "straight_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "e3f5c41420ee4dca4c838a21b53e7dd18c431a902b29f43e36db48863d89e802",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "tee": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "62ff9601de0f113d9484225edccaf7070a059aa1cf6eced582d00aa2b600631f",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "tee_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "f81d65a91b335fa3e1a1f8f88059834b0139a700df7532419812bb112e338908",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    }
+   }
+  },
+  "pavilion": {
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-palettes-final/pavilion.png",
+   "capture_pixels": [
+    1600,
+    680
+   ],
+   "capture_sha256": "608128afe421c41f471421dff1a59460c2807f303748726ca2baf9c72a30eea8",
+   "logical_viewport": [
+    1600,
+    900
+   ],
+   "modules": {
+    "bench": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "35b9711b646b4bf7154aa236f8434da0b758b3751118542fe27db9f8dfcc0ef4",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "bench_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "aa6fb4751f772b6ca407f9a2909208679793af55f24776416c8cb52cf1c0b59d",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "bracket": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "3edad7bd4ac7f2961b6f3c6282f7c4d51e151ed177458b18eef88aa66590288a",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "bracket_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "aa9d39a6381663759eeb310926febd9a7ec6602880477fd0398629e94ff310d2",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "eave_strip": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "1ac7d66c10c8d8d1f2188f113f629dfbf2bf3603905dc7c7f6d8476401f599df",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "eave_strip_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "580612d825532e6daef6e89abf0074530da25f41184d12fb6747979427d40df2",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "post": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "9001dec588a319f9cb9b29d637b8c52bc8fc813d98d9f80a053736a1b911d77c",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "post_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "087f331af160e2e0fdc6b525ded08f980fe9b2cada240d2016c17226bf786d41",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "roof_hex": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "9b0c36332e41fe69ef7599de75ca6777ef6ee9cbbddb9d1c991c2901632a8b5f",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "roof_hex_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "bf0c1bbde90aaaefcbbae8b781503f33313afe7b3043c6252ce2bdab0e8ef287",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "roof_square": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "6fcf8d52982bdf8e97b110b8049836eefa37df3da8ce6ed37baad19f0b21bbbd",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "roof_square_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "65045fc7663d27ab944edd963813387e9ea017d299764f373cc862b881f4d074",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    }
+   }
+  },
+  "rockery": {
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-palettes-final/rockery.png",
+   "capture_pixels": [
+    1600,
+    680
+   ],
+   "capture_sha256": "3afa446fc2d1e8e873fa350c1bd9305888b0013ac8a82caa6d3c4530fca4cfdb",
+   "logical_viewport": [
+    1600,
+    900
+   ],
+   "modules": {
+    "arch": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "9bd8cce03545c5217b9b9ada831dfbb160ec266e0789f5dcc52a274950b183ad",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "arch_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "78d6f9e1ad25695572ebf69b8a91efa5406690753b906721c605fe6c95bb561d",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "cliff": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "e2d5d41d995b20f389736f84d7610bac5fe069da001cd741dd7723d25ae1a948",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "cliff_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "85139e5d13ff1660a133f507ff2b8b21b238b4c8f8040cdbd305ef0368289885",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "large": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "01d5e70919d3949f81ea5adcd60debcceddf429396b62cf58e5373b5a9e464d1",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "large_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "fa78da05688250a44ee9170fa4eab65ba2e01712bb9d714ebdf79c2e540ff417",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "medium": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "fadb7252aad963920a1389892aef9211a303d50bd1ca113f58bad7311a79fff6",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "medium_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "f782a2f291da5a44413ef49c851ba85cd5fdb73709c0d3950212e56b737923d4",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "small": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "fa5357bc0dcd73c606b2d0791475f1f87f06503b60b5145a07d83ac28886b98e",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "small_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "0d40bd3c4449feadd20986488e10b65419935603cceeb83c7526102b00b4704f",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "tunnel": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "2f67c6a9ca8633d53b19dc9b1e6e80e47e6f5ca41c65d2e2ab0c74d92158381c",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    },
+    "tunnel_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "89aa75faf38d12057bf5619ad46ab1804bdceb0ab268804e1a4fceb275060c70",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_plaster_rock": {
+       "mean_linear_rgb": [
+        0.208248257637024,
+        0.203782230615616,
+        0.187283173203468
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.21,
+        0.205,
+        0.19
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      }
+     }
+    }
+   }
+  },
+  "wall": {
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-palettes-final/wall.png",
+   "capture_pixels": [
+    1600,
+    680
+   ],
+   "capture_sha256": "706f626227091df6a76022dd3bb71c6ca5b1781f092accb316705b059cb4a953",
+   "logical_viewport": [
+    1600,
+    900
+   ],
+   "modules": {
+    "bay": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "68c7e54718b70936d5ec138118fba2d60344bd7571cb867a5bf99fc15bcbf5a7",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "bay_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "b8a017b4be1394eccb68262f907e4d5f5d9bfbf316f6eb271876964110de1bdb",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "moon_gate": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "12c8c0eeba4fe24e35cae4519e87d07c5830874cf86f5bebb5f05c81ba8a2736",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "moon_gate_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "51f6ef9ed15176e78c323b13aa4660ef7e6d0493dfeb06a28a157a1a1b955e49",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "roof_cap": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "ade2c8af1f7ede8dd32b8dd358385d81c0b1e4098205b44a571a57816af778d8",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "roof_cap_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "f712f54ae12d415f7d3970ac22ca109e2ee261d48bbd4725041a3674db63ace3",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "vase_gate": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "8b2254b63bbcfdb009438d46b6d49c685cee944b4269afaeb02266b17393e1f9",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "vase_gate_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "3c0d9696a404e19b8101df4fdc3a1f2b4309385e2b509eba8c61a0e2ca0df3fa",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_diamond": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "6b87f33aa5df3a6748c27bcc9ae7b702aca3ac78ffc9bdf4075466693ef1ac26",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_diamond_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "56a754280322ed28aa0ea3668614708f18310cc12b753bd9ab067c10b0680320",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_hex": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "d88af430be2a64413b336bb96d9d79987cbad132d2f0d23a6761b92b3730b75d",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_hex_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "a5857ed7dd3341e6c6d32a398a2bf378418955c708158f1584b974ec31f1b9f5",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_ice": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "13815c39cb6075a8baf146865976c0674aac365d7eee63fcc5d439271f7c1bb1",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_ice_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "3aebaa2ad8a6fc7b3cf34428b659aca2bf16cc523c5600b0ad5702ff367ad468",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_square": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "b64bb322f90f57f147a4e551a8fb7a8c9f954ffad6c9ed809595ef9dc3053812",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    },
+    "window_square_LOD1": {
+     "normal_enabled": true,
+     "orm_channels": "roughness=green, metallic=blue",
+     "source_glb_sha256": "66a193cc55c1487522c34ac34590f98ad2c3db26d7504b74127d07b773845e32",
+     "surface_count": 1,
+     "swatches": {
+      "MAT_lattice_wood": {
+       "mean_linear_rgb": [
+        0.0804361030459404,
+        0.0436357781291008,
+        0.0183790773153305
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.085,
+        0.045,
+        0.022
+       ]
+      },
+      "MAT_rooftile": {
+       "mean_linear_rgb": [
+        0.0421285331249237,
+        0.0535961762070656,
+        0.0610432736575603
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.045,
+        0.055,
+        0.065
+       ]
+      },
+      "MAT_whitewash": {
+       "mean_linear_rgb": [
+        0.362571895122528,
+        0.335395932197571,
+        0.290022045373917
+       ],
+       "samples": 1024,
+       "target_linear_rgb": [
+        0.36,
+        0.335,
+        0.29
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "scope": "Imported palette/PBR bindings and four neutral-lighting galleries. Physics and final artistic acceptance are separate.",
+ "status": "48_native_kit_palette_and_pbr_bindings_passed"
+}

@@ -1,0 +1,167 @@
+{
+  "status": "ten_native_kit_phases_passed",
+  "started_at": "2026-10-08T18:09:34.854502+00:00",
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/cold-import.log"
+    },
+    {
+      "name": "pbr-pavilion",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--script",
+        "res://tests/test_pavilion_atlas.gd",
+        "--"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/pbr-pavilion.log"
+    },
+    {
+      "name": "physics-pavilion",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_pavilion_kit.gd"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/physics-pavilion.log"
+    },
+    {
+      "name": "pbr-corridor",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--script",
+        "res://tests/test_pavilion_atlas.gd",
+        "--",
+        "--corridor"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/pbr-corridor.log"
+    },
+    {
+      "name": "physics-corridor",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_corridor_kit.gd"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/physics-corridor.log"
+    },
+    {
+      "name": "pbr-wall",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--script",
+        "res://tests/test_pavilion_atlas.gd",
+        "--",
+        "--wall"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/pbr-wall.log"
+    },
+    {
+      "name": "physics-wall",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_wall_kit.gd"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/physics-wall.log"
+    },
+    {
+      "name": "pbr-rockery",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--script",
+        "res://tests/test_pavilion_atlas.gd",
+        "--",
+        "--rockery"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/pbr-rockery.log"
+    },
+    {
+      "name": "physics-rockery",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_rockery_kit.gd"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/physics-rockery.log"
+    },
+    {
+      "name": "corrupt-palette",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_standalone_kit_palette.gd",
+        "--",
+        "--corrupt-color",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/rejected-palette"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/native-checks/corrupt-palette.log"
+    }
+  ],
+  "finished_at": "2026-10-08T18:09:41.378858+00:00"
+}

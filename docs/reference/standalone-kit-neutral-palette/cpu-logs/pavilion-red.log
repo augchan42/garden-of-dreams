@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_pavilion_atlas.py", line 31, in <module>
+    assert np.max(np.abs(np.asarray(decoded.convert('RGB'),dtype=int)-np.asarray(source.convert('RGB'),dtype=int)))<=1,(path,image['name'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (PosixPath('/Users/auchan/projects/garden-of-dreams/export/kits/pavilion/KIT_pavilion_bench.glb'), 'pavilion_basecolor')

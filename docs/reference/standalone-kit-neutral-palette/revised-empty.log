@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_pavilion_atlas.py", line 21, in <module>
+    assert {p.name for p in paths}==expected, ('Missing or unexpected kit exports',kit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Missing or unexpected kit exports', 'wall')

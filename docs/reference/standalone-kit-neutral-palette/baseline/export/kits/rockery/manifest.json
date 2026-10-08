@@ -1,0 +1,136 @@
+{
+  "units": "metres",
+  "variants": {
+    "small": {
+      "triangles_lod0": 448,
+      "triangles_lod1": 178,
+      "ratio": 0.39732142857142855,
+      "connectors": {},
+      "holes": [
+        [
+          0,
+          0.58,
+          0.17
+        ]
+      ],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    },
+    "medium": {
+      "triangles_lod0": 534,
+      "triangles_lod1": 213,
+      "ratio": 0.398876404494382,
+      "connectors": {},
+      "holes": [
+        [
+          -0.22,
+          0.65,
+          0.22
+        ],
+        [
+          0.2,
+          1.4,
+          0.23
+        ]
+      ],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    },
+    "large": {
+      "triangles_lod0": 634,
+      "triangles_lod1": 252,
+      "ratio": 0.39747634069400634,
+      "connectors": {},
+      "holes": [
+        [
+          -0.35,
+          0.75,
+          0.28
+        ],
+        [
+          0.36,
+          1.65,
+          0.3
+        ],
+        [
+          -0.2,
+          2.65,
+          0.26
+        ]
+      ],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    },
+    "arch": {
+      "triangles_lod0": 500,
+      "triangles_lod1": 200,
+      "ratio": 0.4,
+      "connectors": {
+        "front": [
+          0,
+          -0.7,
+          0
+        ],
+        "back": [
+          0,
+          0.7,
+          0
+        ]
+      },
+      "holes": [
+        [
+          -1.75,
+          1.15,
+          0.18
+        ],
+        [
+          1.7,
+          0.75,
+          0.18
+        ]
+      ],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    },
+    "tunnel": {
+      "triangles_lod0": 824,
+      "triangles_lod1": 328,
+      "ratio": 0.39805825242718446,
+      "connectors": {
+        "front": [
+          0,
+          -2.0,
+          0
+        ],
+        "back": [
+          0,
+          2.0,
+          0
+        ]
+      },
+      "holes": [],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    },
+    "cliff": {
+      "triangles_lod0": 1024,
+      "triangles_lod1": 408,
+      "ratio": 0.3984375,
+      "connectors": {},
+      "holes": [
+        [
+          -1.6,
+          1.3,
+          0.3
+        ],
+        [
+          1.5,
+          2.2,
+          0.35
+        ]
+      ],
+      "colliders": 1,
+      "render_piercing_rays_pass": true
+    }
+  }
+}
