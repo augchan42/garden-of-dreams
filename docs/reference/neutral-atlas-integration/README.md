@@ -1,0 +1,9 @@
+# Neutral architectural atlas integration preparation
+
+The pavilion and wall color atlases now have a scene export gate. The CPU control substitutes the two exact candidate PNGs into the preceding neutral-material/paving GLB. All 717 nodes, 567 meshes, 245,474 indexed triangles and their expanded attributes are preserved. The two color images change; the other 33 embedded images, materials and texture/sampler contracts remain unchanged. These triangle counts include collision meshes and are not a visible-triangle performance measurement.
+
+Nine negative fixtures reject unchanged old colors, a changed camera, position, primary UV, secondary UV, normal image, emission, sampler and image MIME type. The gate also passes CPU substitutions for every affected site among all fifteen site fixtures. Unaffected fixtures require no substitution. This is verifier evidence, not a native Blender export or scene acceptance.
+
+The separate queued source contains frozen previous authoring/export/site bytes, both candidate atlases, baseline textures and scripts. Its CPU atlas check passes. Before starting native work it requires the preceding six-phase source bake and 37-phase native review to pass and both source orchestration processes and the review process to exit. It then saves a separate packed Blender source, exports and checks all sites, packages libraries and bakes all lighting. The saved checkpoint says waiting; consult the live report in checkpoint.json for subsequent status. No production source, textures, maps or user application are changed by this checkpoint.
+
+The saved Blender image replacement and native queue code have passed Python syntax checks but have not yet executed their native phases. Native export agreement, fresh lighting, visual review, adoption, phone budgets and services remain required. The candidate atlas imagery is in ../neutral-architecture-atlases/; source preparation is in ../neutral-path-full-preparation/.

@@ -1169,3 +1169,14 @@ Separate5ae484f9/42579f68source combines the controlled paving repair and four n
 ## Neutral pavilion and wall atlas candidates — 2026-10-08
 
 Separate procedural atlas candidates replace green wood/tile/stone/whitewash swatches with the reviewed brown, slate and neutral palette. UV regions, 2048² size, padding and ORM channel conventions match; normal and ORM PNGs are byte-identical, and bronze/unused quarters are unchanged. The CPU verifier passes and rejects the original atlas as an unrevised candidate. Originals were visually viewed; saved-source attachment, native texture/geometry checks and fresh lighting remain pending. The current 5ae bake and working be8 scene are unchanged. Evidence: `reference/neutral-architecture-atlases/README.md`, `export/neutral-architecture-atlas-evidence.json`.
+
+
+## Neutral architectural atlas source preparation — 2026-10-08
+
+The new wall and pavilion color textures have an export preservation gate. A CPU substitution of the exact two candidate PNGs into neutral-material/paving source `5ae484f9` preserves all 717 nodes, 567 meshes and 245,474 indexed triangles, including collision geometry, plus both UV channels. Only two embedded color images change; the other 33 images, material properties and texture/sampler contracts remain unchanged. This is a CPU fixture, not a Blender export or a rendering-budget measurement.
+
+Nine unwanted-change controls reject. All fifteen site fixtures are covered; four contain the changed architectural atlases. The packed-image Blender update helper and sequential source-preparation runner pass Python syntax checks. Their native phases have not yet run.
+
+A separate source update is queued behind the existing neutral-material/paving bake and native review. It has 238 frozen input files and a passing CPU atlas check. It requires the preceding six bake phases and 37 review phases to pass and their orchestration processes to exit before starting Blender. It will then save/export the two-image revision, check complete and site exports, package the site libraries and bake lighting for that exact source. It does not install any assets. Live status is referenced by the archived checkpoint.
+
+Production remains `be80374c` / saved authoring `9356f6ec`. The new paving, plain colors and architectural atlas colors are still candidates. Native source agreement, fresh lighting, scene visual acceptance and adoption remain required, as do remaining site art, six references, current phone/2020 Adreno/sustained performance, release and authenticated services. Evidence: `../export/neutral-atlas-integration-evidence.json` and `reference/neutral-atlas-integration/README.md`.

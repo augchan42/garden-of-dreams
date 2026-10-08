@@ -1,0 +1,191 @@
+{
+  "status": "atlas_export_gate_controls_passed",
+  "scope": "CPU substitution of two actual candidate PNGs into the actual neutral scene. No Blender source save, native import, lighting bake or production adoption claimed.",
+  "positive_fixture_sha256": "65a95344c75fd498306583af9910fc26e3ccaea3d3b6d39b9b85a400f9b11646",
+  "positive": {
+    "status": "architecture_atlas_export_preservation_passed",
+    "before_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+    "after_sha256": "65a95344c75fd498306583af9910fc26e3ccaea3d3b6d39b9b85a400f9b11646",
+    "nodes_checked": 717,
+    "meshes_checked": 567,
+    "indexed_triangles_checked": 245474,
+    "changed_images": {
+      "pavilion_basecolor": {
+        "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+        "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+      },
+      "wall_basecolor": {
+        "before_sha256": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+        "after_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354"
+      }
+    },
+    "unchanged_images": 33,
+    "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+  },
+  "negative_cases": [
+    {
+      "case": "unchanged-old-palette",
+      "rejected": true,
+      "reason": "('Wrong candidate color image', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "078df5e3c55098ba7f2e7a324e381f9b2da079638f7277909ad1571a9bb29444"
+    },
+    {
+      "case": "changed-camera",
+      "rejected": true,
+      "reason": "Node/camera/collision/light contract changed",
+      "fixture_sha256": "13b71ee1019632307e8fd2d9f31461f2bbe299dd08d1f9c567bc821afc7058b1"
+    },
+    {
+      "case": "changed-position",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'COL_aojing_approach.001', 'POSITION')",
+      "fixture_sha256": "76129694e9cc4ed85a57b2acb54e4b33a81f2343a0fe635f507795c8e310b5d3"
+    },
+    {
+      "case": "changed-texcoord_0",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'Cube.147', 'TEXCOORD_0')",
+      "fixture_sha256": "a3e0d548596f6644c7cd5e5e1f386297f3c51672b154e90ea1b354dd35f6b4f7"
+    },
+    {
+      "case": "changed-texcoord_1",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'HERO_aojing-guan_title.002', 'TEXCOORD_1')",
+      "fixture_sha256": "6f579112d95c48bffe58cbd2807ec17e048a0f9df2e4d035029a8ec16cfd5c70"
+    },
+    {
+      "case": "changed-normal-image",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "f7d7ee9f7b1210d628244d5d8b6551dbd790be2bbdcff22d4e2ced673233a26f"
+    },
+    {
+      "case": "changed-emission",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "a9ef79a8efe52b8d288415dce83df09fba2bc7ed22f3519f7301cfcbff4d9aa2"
+    },
+    {
+      "case": "changed-sampler",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_aojing-guan_title_paint')",
+      "fixture_sha256": "d8cda0719b04f26ad6b27d607f7d2a443c4851753b0b17f8447f705f60592c84"
+    },
+    {
+      "case": "changed-image-mime-type",
+      "rejected": true,
+      "reason": "Image metadata changed",
+      "fixture_sha256": "b6e88afadba7f66ec7b39c417283a4ca6d6ebeeec125f560b6e1fa43ba2c93b7"
+    }
+  ],
+  "site_controls": {
+    "SITE_aojing-guan.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_daguan-lou.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_daoxiang-cun.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_hengwu-yuan.glb": {
+      "status": "architecture_atlas_export_preservation_passed",
+      "before_sha256": "695134a232f7fd21fb172390de13b1efa8c056c281a0db248cab88192c130947",
+      "after_sha256": "5f2c96d0f6417512900b9aa1284a798b2ca393f7829e7b197d537b53ffcfd60f",
+      "nodes_checked": 43,
+      "meshes_checked": 34,
+      "indexed_triangles_checked": 21030,
+      "changed_images": {
+        "wall_basecolor": {
+          "before_sha256": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+          "after_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354"
+        }
+      },
+      "unchanged_images": 6,
+      "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+    },
+    "SITE_longcui-an.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_ouxiang-xie.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_qinfang-ting.glb": {
+      "status": "architecture_atlas_export_preservation_passed",
+      "before_sha256": "5bdcd62907f5b5a4def5addbbf3d782ab44f87a2cf30cfe74e47b7dff7e55e2f",
+      "after_sha256": "dfc7a9ea8ce9d497add131ba5dda72dc24558cba5ec936245899ed139f02f5ea",
+      "nodes_checked": 145,
+      "meshes_checked": 130,
+      "indexed_triangles_checked": 42558,
+      "changed_images": {
+        "pavilion_basecolor": {
+          "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+        }
+      },
+      "unchanged_images": 7,
+      "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+    },
+    "SITE_qiushuang-zhai.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_rockery-gate.glb": {
+      "status": "architecture_atlas_export_preservation_passed",
+      "before_sha256": "92120db5fe544aa66ba82da5edb64c052fce7264703dfd5363586150dba2cf6b",
+      "after_sha256": "e4ad86447a530552a39a97f4fee8c4870ba7e3245f40ad9db93ab5c82780e9ad",
+      "nodes_checked": 27,
+      "meshes_checked": 18,
+      "indexed_triangles_checked": 22196,
+      "changed_images": {
+        "pavilion_basecolor": {
+          "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+        }
+      },
+      "unchanged_images": 9,
+      "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+    },
+    "SITE_stage.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_terminal-cells.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_tubi-tang.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_xiaoxiang-guan.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_yihong-yuan.glb": {
+      "atlas_color_images_present": false,
+      "scope": "No atlas substitution needed; native site export still required."
+    },
+    "SITE_ziling-zhou.glb": {
+      "status": "architecture_atlas_export_preservation_passed",
+      "before_sha256": "951507a235ae72a5268442e9f2efdef5205d6aa7fd5dabe0383a930f55950b74",
+      "after_sha256": "9bc9e709cbec15412aac2a659505f8c123ab1e0712b023550e9befd528580819",
+      "nodes_checked": 23,
+      "meshes_checked": 17,
+      "indexed_triangles_checked": 7112,
+      "changed_images": {
+        "pavilion_basecolor": {
+          "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+        }
+      },
+      "unchanged_images": 3,
+      "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+    }
+  }
+}
