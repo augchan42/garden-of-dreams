@@ -1,0 +1,13 @@
+00:00.993  blend            | Read blend: "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend"
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_saved_roof_ridges.py", line 28, in <module>
+    values = [float(obj.data.polygons[index].normal.z) for index in faces]
+                    ~~~~~~~~~~~~~~~~~^^^^^^^
+TypeError: bpy_prop_collection[key]: invalid key, must be a string or an int, not MeshPolygon
+BlenderMCP addon registered
+
+Error: script failed, file: '/Users/auchan/projects/garden-of-dreams/scripts/audit_saved_roof_ridges.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit
