@@ -7,7 +7,7 @@
   "candidate_preserved_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
   "scope": "Reproducible candidate export, current-source incremental portrait acceptance and separate full-source preparation. No completed candidate bake/adoption/phone/final-art/full-goal claim.",
   "files": {
-    "docs/reference/ouxiang-export-camera/README.md": "8f6d3e95434390b20c3e90b41482b5f5a34943294b5fd9b58474459fcdd0418b",
+    "docs/reference/ouxiang-export-camera/README.md": "1224d9777b071147e6bae194f20dff16fd81870f9821a593f72c59aba0d4d78c",
     "docs/reference/ouxiang-export-camera/camera/cold-import.log": "209d77aa91daad83239a593c10c56fa1c672ac2706c6920d107db834acb1eaba",
     "docs/reference/ouxiang-export-camera/camera/current-test_oux_portrait_framing.gd": "775cc6f12083f238f4ff88eabb6fe5e1e809c50c5056b2faef5ca9a63c99b2d3",
     "docs/reference/ouxiang-export-camera/camera/density-framing/ouxiang-1080x2340.png": "dbb9a87817494f699595a7de0061402d02cd8395eeb3e0c7705d65b6be6b073b",
@@ -36,6 +36,7 @@
     "docs/reference/ouxiang-export-camera/camera/green-phases.json": "333fa5a77b8c6fe3001f716e1a08ba1ee5730419c503cc12825a429f48dd1dec",
     "docs/reference/ouxiang-export-camera/camera/initial-test_oux_portrait_framing.gd": "ed3167e74375f3676700075a7b29ea071c1bc7e7733e20f58604d2696f455fde",
     "docs/reference/ouxiang-export-camera/camera/mobile-ui.log": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+    "docs/reference/ouxiang-export-camera/camera/native-window-capture-dimensions.json": "cd007e8f7255da729b64791f45b09e7c43d5fcd6f64be9a68d42d13fb679c157",
     "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-1410x600.png": "6695c3203457edd6f2bd29c524c7f9a93b84759a333cc4e449e06531ea261286",
     "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-360x800.png": "8a5b325ca63bcfd2a390a39ba68d8e92eb3ebb25964ffdf63bdf71bfa4c767b8",
     "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-390x844.png": "56ee13a12b037cbc7b6fee76c5ec72b92c8b2de77458b3077d5aa8da74390f70",
@@ -87,5 +88,14 @@
     "native_executed_sha256": "176cf9e1de04d7f91e9a63ee7431ce4d6929af0df316eff8995faf844a743d54",
     "current_source_sha256": "110a5454dad68da9ec0c5652205bc56b1cb423c313c7d0e3f959877e69296f2d",
     "scope": "Only trailing whitespace removed after native execution; exact executed archive and frozen source retain original bytes. Geometry-fixture tests rerun on cleaned canonical helper."
-  }
+  },
+  "native_density_capture_size": [
+    1080,
+    1976
+  ],
+  "native_density_requested_size": [
+    1080,
+    2340
+  ],
+  "native_density_scope": "Actual constrained desktop native window; full2340 layout checked separately headless. No phone acceptance."
 }

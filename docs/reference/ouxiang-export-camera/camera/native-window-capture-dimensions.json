@@ -1,0 +1,132 @@
+{
+  "status": "actual_capture_dimensions_verified",
+  "scope": "PNG header dimensions checked from original native captures. macOS constrained only the requested1080x2340 density case to1080x1976; its camera/UI projection checks use the actual logical viewport411x753. Separate headless UI test covers logical411x891 at1080x2340, and no real-phone acceptance is claimed.",
+  "captures": [
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/old-framing/ouxiang-390x844.png",
+      "sha256": "9ff4cabb4c4448aa67f653174171246062a34c21b24067477f046aeb23e04526",
+      "requested_physical_size": [
+        390,
+        844
+      ],
+      "actual_png_size": [
+        390,
+        844
+      ],
+      "logical_viewport": [
+        390.0,
+        844.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/old-framing/ouxiang-360x800.png",
+      "sha256": "d1bcfabd841b67f063946019d6b5c2a6c3243ad14d8d24b94c8fd6e8cefa6d71",
+      "requested_physical_size": [
+        360,
+        800
+      ],
+      "actual_png_size": [
+        360,
+        800
+      ],
+      "logical_viewport": [
+        360.0,
+        800.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/old-framing/ouxiang-1410x600.png",
+      "sha256": "184153d89c05cc7b02101aad0091f4c6013fe6ae0b870fc53c78e2189305ab5b",
+      "requested_physical_size": [
+        1410,
+        600
+      ],
+      "actual_png_size": [
+        1410,
+        600
+      ],
+      "logical_viewport": [
+        1410.0,
+        600.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-390x844.png",
+      "sha256": "56ee13a12b037cbc7b6fee76c5ec72b92c8b2de77458b3077d5aa8da74390f70",
+      "requested_physical_size": [
+        390,
+        844
+      ],
+      "actual_png_size": [
+        390,
+        844
+      ],
+      "logical_viewport": [
+        390.0,
+        844.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-360x800.png",
+      "sha256": "8a5b325ca63bcfd2a390a39ba68d8e92eb3ebb25964ffdf63bdf71bfa4c767b8",
+      "requested_physical_size": [
+        360,
+        800
+      ],
+      "actual_png_size": [
+        360,
+        800
+      ],
+      "logical_viewport": [
+        360.0,
+        800.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/new-framing/ouxiang-1410x600.png",
+      "sha256": "6695c3203457edd6f2bd29c524c7f9a93b84759a333cc4e449e06531ea261286",
+      "requested_physical_size": [
+        1410,
+        600
+      ],
+      "actual_png_size": [
+        1410,
+        600
+      ],
+      "logical_viewport": [
+        1410.0,
+        600.0
+      ],
+      "density_equivalent_dpi": 160,
+      "window_was_constrained": false
+    },
+    {
+      "capture": "docs/reference/ouxiang-export-camera/camera/density-framing/ouxiang-1080x2340.png",
+      "sha256": "dbb9a87817494f699595a7de0061402d02cd8395eeb3e0c7705d65b6be6b073b",
+      "requested_physical_size": [
+        1080,
+        2340
+      ],
+      "actual_png_size": [
+        1080,
+        1976
+      ],
+      "logical_viewport": [
+        411.428558349609,
+        752.761901855469
+      ],
+      "density_equivalent_dpi": 420,
+      "window_was_constrained": true
+    }
+  ]
+}
