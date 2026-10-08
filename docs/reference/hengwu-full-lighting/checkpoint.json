@@ -1,0 +1,2166 @@
+{
+  "status": "complete_hengwu_source_lighting_native_review_separate",
+  "scope": "Complete fresh lighting for isolated compact Hengwu stone source26033/author19eb, with saved libraries/shared receiver master and all 240 frozen inputs. Native visual/material/physics review, canonical reexport and production adoption remain separate. Final all-site art, five references, devices, release and authenticated services remain open.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "authoring_sha256": "19eb386d8e93007ebd8e4ae2d9ee59ec7daa07dcd8dbe3c3a88d4ec84b5e5a08",
+  "ordinary_receivers": 124,
+  "source_png_files": 141,
+  "source_phases": 6,
+  "verified_frozen_inputs": 240,
+  "artifact_locations": {
+    "frozen-source/blender/authoring.blend": {
+      "path": "docs/reference/hengwu-rock-preparation/candidate/authoring.blend",
+      "sha256": "19eb386d8e93007ebd8e4ae2d9ee59ec7daa07dcd8dbe3c3a88d4ec84b5e5a08"
+    },
+    "frozen-source/blender/master.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/master.blend",
+      "sha256": "c9e3668dfc8ca548ad67167c20bcc128db3e06b6a54c06008b7a9dd80b1efcee"
+    },
+    "frozen-source/blender/master.blend1": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/master.blend1",
+      "sha256": "47c65b656329841b125e18834091332c99fde5ed26e4b1427cd76df398feb7de"
+    },
+    "frozen-source/blender/sites/SITE_aojing-guan.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_aojing-guan.blend",
+      "sha256": "30b73e79d2099422cb0a67ff2d9d07be921b681e8db971f2061aac2921e69e9a"
+    },
+    "frozen-source/blender/sites/SITE_daguan-lou.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_daguan-lou.blend",
+      "sha256": "199064124662a3aca117e8206d4ee273e3a17e43fabd7363bf9d99fcf7441c5e"
+    },
+    "frozen-source/blender/sites/SITE_daoxiang-cun.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_daoxiang-cun.blend",
+      "sha256": "bbc196df249ea68059ac3b0cb75c38ce7bfcd51e54a3dfe922833ceb31fbeb97"
+    },
+    "frozen-source/blender/sites/SITE_hengwu-yuan.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_hengwu-yuan.blend",
+      "sha256": "c16322e0be1cb1c6706daa2d7842ce12dcc7a507f65350dcd5f79011211dc0f3"
+    },
+    "frozen-source/blender/sites/SITE_longcui-an.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_longcui-an.blend",
+      "sha256": "abe059f353a763aabf7a43b62dd5ae2b117a21874051257fc637646fcdc9ab78"
+    },
+    "frozen-source/blender/sites/SITE_ouxiang-xie.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_ouxiang-xie.blend",
+      "sha256": "a16b339c01f48cb7eae8dfc9b9e50d53f6893b1ad41e10523dca166084152759"
+    },
+    "frozen-source/blender/sites/SITE_qinfang-ting.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_qinfang-ting.blend",
+      "sha256": "7f42a44f867015fd8805ff52def1ee67e5b77eb9f5de7c890395f51aeabeebbb"
+    },
+    "frozen-source/blender/sites/SITE_qiushuang-zhai.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_qiushuang-zhai.blend",
+      "sha256": "5a648072132976b60c0feab72ed8568f8128331d95ac7227e87430079b239080"
+    },
+    "frozen-source/blender/sites/SITE_rockery-gate.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_rockery-gate.blend",
+      "sha256": "20762126b4be80678e0168176374adbc3360fbdbeb568691a3e99e7f2644a156"
+    },
+    "frozen-source/blender/sites/SITE_stage.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_stage.blend",
+      "sha256": "c7dd2313f75afdc127858b9dfc6d9bd37e0d344f2c8cc4834d2b3c2b28c0de8c"
+    },
+    "frozen-source/blender/sites/SITE_terminal-cells.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_terminal-cells.blend",
+      "sha256": "ef26f81ad9d212d9f7faca25023c983b46f4fbc02a0d1631bd5f491ce16c094e"
+    },
+    "frozen-source/blender/sites/SITE_tubi-tang.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_tubi-tang.blend",
+      "sha256": "10399e4f3393766af59787df65d4ae94c1d78ee442bcc22c73c7770185cd3d47"
+    },
+    "frozen-source/blender/sites/SITE_xiaoxiang-guan.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_xiaoxiang-guan.blend",
+      "sha256": "1f4960fd9618394e9ef1175913310a06b1f403202d98ed151ccc1ea7a02c1fd4"
+    },
+    "frozen-source/blender/sites/SITE_yihong-yuan.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_yihong-yuan.blend",
+      "sha256": "2ec7a47c44d4bd2c4888538f905b2b98fe6fd2e1f6ac1918f6cc95be52cc7e70"
+    },
+    "frozen-source/blender/sites/SITE_ziling-zhou.blend": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/blender/sites/SITE_ziling-zhou.blend",
+      "sha256": "ee4e21e8eae927a6be1fabe8d3de7bc27b1bb7da22a7cabc13e33cb2b526277b"
+    },
+    "frozen-source/scripts/add_backdrop_wash.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/add_backdrop_wash.py",
+      "sha256": "513c273ac9c6f58326bed55711710ba6e6c152e71be59a854d40fe03a5a3ac98"
+    },
+    "frozen-source/scripts/add_gate_reveal_cameras.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/add_gate_reveal_cameras.py",
+      "sha256": "99a0af976695a39330faa2f2e75f19cb7b0eb944ecf37650b65119b13c80a546"
+    },
+    "frozen-source/scripts/add_hilltop_view_benches.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/add_hilltop_view_benches.py",
+      "sha256": "d1879331205c4938dcf0fef3be59c28e8836cf9a3cc3f2ecc2be267cbe41248c"
+    },
+    "frozen-source/scripts/align_reflection_cameras.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/align_reflection_cameras.py",
+      "sha256": "fbe4a1e3ea9b2b0c401a77a5cdbc7de54874fea61d24764828184b00e6e4cd01"
+    },
+    "frozen-source/scripts/android_texture_provenance.py": {
+      "path": "docs/reference/courtyard-android-provenance/android_texture_provenance.py",
+      "sha256": "4716c1b224d9df49c8083f892a233c76674ee01af8335274a712396a95845450"
+    },
+    "frozen-source/scripts/apply_garden_architecture_atlases.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/apply_garden_architecture_atlases.py",
+      "sha256": "649affe3662faa267b8be7ee5dafe6f85b58c346e75195da6a4c9401828f02b7"
+    },
+    "frozen-source/scripts/apply_garden_material_palette.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/apply_garden_material_palette.py",
+      "sha256": "e74885356b9d94359be46b31a36e55e8bbbfdbd2331ad08f2af606bc65d903ee"
+    },
+    "frozen-source/scripts/assemble_demo_capture.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/assemble_demo_capture.py",
+      "sha256": "827c6c2e2e3f3b269884da774ccb1f8ff48a28f3e56e7b1b312461b728844ce4"
+    },
+    "frozen-source/scripts/audit_external_references.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/audit_external_references.py",
+      "sha256": "9a998a6ae1820963e84ed89a7ed0193a694f97330ea5c70f43671ebea1e752f4"
+    },
+    "frozen-source/scripts/audit_lighting_rig.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/audit_lighting_rig.py",
+      "sha256": "8e9c0d97a19c4259b48bef71d9481698eea6c2d8824ee1300981fcaa0d8e8714"
+    },
+    "frozen-source/scripts/audit_roof_lightmap_sampling.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/audit_roof_lightmap_sampling.py",
+      "sha256": "cbfdc7e6f94225765dcab305afa647c7cb3817c3f15f543a2addea8ac7e9ecb2"
+    },
+    "frozen-source/scripts/audit_site_sources.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/audit_site_sources.py",
+      "sha256": "c464c377b548c761214a1b95f540be14125707b3f1634b06b2fd9aeec9e0d0bb"
+    },
+    "frozen-source/scripts/author_moon_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/author_moon_paint.py",
+      "sha256": "f4d3d13a13d6cef87aa6ce19e45c5f8dd8863d055a42d844b12d8800404a1746"
+    },
+    "frozen-source/scripts/author_mountain_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/author_mountain_paint.py",
+      "sha256": "c9144a2fc7468e518c61e9175766c2950ca938abedc614e938c34252afc06859"
+    },
+    "frozen-source/scripts/author_roof_and_cone_fix.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/author_roof_and_cone_fix.py",
+      "sha256": "b3b4477f72c18aac68a736e1a5bb00a2f5b1729f9bb5d6d4486a8ac7f0b68be9"
+    },
+    "frozen-source/scripts/author_site_keys.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/author_site_keys.py",
+      "sha256": "a251a40d52125c954e2d55de3665b52d72a6d0bd222c3820b45cc73abd36e14e"
+    },
+    "frozen-source/scripts/author_site_washes.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/author_site_washes.py",
+      "sha256": "0294dbbb66075ac325ba030c923ec22bd325754abe34140b2a9cbf5d8f752604"
+    },
+    "frozen-source/scripts/bake_backdrop_wash.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/bake_backdrop_wash.py",
+      "sha256": "c990ca7991a6aa52f695030f6af0a45d8dfa34ccc7d3aeed0d7c7573f2902122"
+    },
+    "frozen-source/scripts/bake_lightmaps.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/bake_lightmaps.py",
+      "sha256": "d1f03a2e7951fb2c97f578afb425ad6155b5f935e52a9cb43e9f197685bcd1d5"
+    },
+    "frozen-source/scripts/bake_terminal_spill.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/bake_terminal_spill.py",
+      "sha256": "688156b3a13c6f828db68033e16aa1c8a6f9d25062d3caf55fee796bc7e11634"
+    },
+    "frozen-source/scripts/bake_transfer_fixture.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/bake_transfer_fixture.py",
+      "sha256": "284b7a25f8ca4e5c72e5f02a8a23039518b5955d121d650468b43b2c6339a526"
+    },
+    "frozen-source/scripts/build_android_identity.py": {
+      "path": "docs/reference/android-identity/current-source/scripts/build_android_identity.py",
+      "sha256": "b5a2b849d95498c20a286594da8085e28b072615d8a350a17c28c0d59fee636d"
+    },
+    "frozen-source/scripts/build_android_profile.py": {
+      "path": "docs/reference/courtyard-android-provenance/build_android_profile.py",
+      "sha256": "2c9beffa31fbf0bf829bc25da31977a2aecc9a416b3600de1dc3d7af02848ae2"
+    },
+    "frozen-source/scripts/build_demo_hexagram_catalog.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/build_demo_hexagram_catalog.py",
+      "sha256": "162d003ec15e516088745d6622baba435d8743a5ac3a852ba157daeb771480f9"
+    },
+    "frozen-source/scripts/build_garden.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_garden.py",
+      "sha256": "57eed9bbac10c8902049988104618d5fdc8ef3dc1da3910f74eb2ff7eda9311d"
+    },
+    "frozen-source/scripts/build_garden_palette_contract.py": {
+      "path": "docs/reference/garden-palette-transfer-preparation/build_garden_palette_contract.py",
+      "sha256": "fd8ef0a5c38a7eb437a1ee35e53820d4efecc28fbcd807e9a3e8257ae95f18ce"
+    },
+    "frozen-source/scripts/build_godot_import_contract.py": {
+      "path": "docs/reference/full-garden-traversal/build-import-source-contract.py",
+      "sha256": "730383c4ba66706d9db8b9fb1cd9697cf5ffb63b5f0e3c1bceb3d99189ced2a1"
+    },
+    "frozen-source/scripts/collect_android_profile.py": {
+      "path": "docs/reference/courtyard-android-provenance/collect_android_profile.py",
+      "sha256": "44200c29e421bb20bb3f7d6570fc8228d13339ced88f69a3e42c5d7aea94607b"
+    },
+    "frozen-source/scripts/compare_lightmap_renders.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/compare_lightmap_renders.py",
+      "sha256": "b12ae1ac782ea47a580a05dae623a9fa8e955cca41335b76347c63d955e201b0"
+    },
+    "frozen-source/scripts/complete_corridor_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_corridor_kit.py",
+      "sha256": "e43c782d9ed9385cac597c558cebd2f0ea8150acb5e5d794895755f22afe8aed"
+    },
+    "frozen-source/scripts/complete_flora_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_flora_kit.py",
+      "sha256": "8b64d15abc53ab8ea048401dcba512e2903b37c06be571ba4d5f8c0297a2aaea"
+    },
+    "frozen-source/scripts/complete_garden.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_garden.py",
+      "sha256": "f1ba9dca946dc16f5bdb7af194468d930ab79667fc0a72b508bf217f04f2d9d4"
+    },
+    "frozen-source/scripts/complete_hexagram_lines.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_hexagram_lines.py",
+      "sha256": "21f14ff4d571817398546540f2696cf6cb8fd615da7a8c108237d3096dbe57ca"
+    },
+    "frozen-source/scripts/complete_pavilion_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_pavilion_kit.py",
+      "sha256": "4ba0df82ed1d4c57894b10e21029df60fd46e27627a2f8b8c8188201d7d9f9df"
+    },
+    "frozen-source/scripts/complete_props_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_props_kit.py",
+      "sha256": "b78d83b1b48708739b37663a94e1fe26d431f29894a148fe6d2769649e41519c"
+    },
+    "frozen-source/scripts/complete_rockery_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_rockery_kit.py",
+      "sha256": "a73c4bf0daae5d054411a97c731195bdd77a9d6ee3a2d893c231c87af9617ab3"
+    },
+    "frozen-source/scripts/complete_stage_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_stage_kit.py",
+      "sha256": "05a90c4177fbeec793c4ad8d46227678a7b2f4a81d61d266accdb14b554e6f9a"
+    },
+    "frozen-source/scripts/complete_tech_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_tech_kit.py",
+      "sha256": "903bc8da8414dd8806616397932920ecdadebfa10717d092de898212417d1292"
+    },
+    "frozen-source/scripts/complete_wall_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_wall_kit.py",
+      "sha256": "af4206b6f6f1d4ec50ead544cf21217102bec286a08850a8b90de807de9700f7"
+    },
+    "frozen-source/scripts/complete_water_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/complete_water_kit.py",
+      "sha256": "5590fb8561b50c5025bf9ec13084c0e51ac7fbd19f7abf72622f03e9b0486424"
+    },
+    "frozen-source/scripts/configure_flora_placements.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_flora_placements.py",
+      "sha256": "6092014091b900e77bc0a5fe0e1118c05c7496faee994a4f63b22acdc2fe65d3"
+    },
+    "frozen-source/scripts/configure_garden_sign_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_garden_sign_imports.py",
+      "sha256": "ef1a145dd69721ff3ac21bf735f91a9681f64c7661eedb5fc8f2ca54b08ce485"
+    },
+    "frozen-source/scripts/configure_gate_inscription_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_gate_inscription_imports.py",
+      "sha256": "4edc8977b767ff4697d3703fbfe498999d8566d39eb6d2ed52a251e649ed36de"
+    },
+    "frozen-source/scripts/configure_hilltop_art_import.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_hilltop_art_import.py",
+      "sha256": "cd9e008a727f500781f9eaa056ed607dc6dc236d3f4d94ecb0719fb5f7cfbd35"
+    },
+    "frozen-source/scripts/configure_imperial_art_import.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_imperial_art_import.py",
+      "sha256": "beb7d0c76e7a9c487e859b76a168ad7debf8d451b09c067c5aaa2477042ac0e4"
+    },
+    "frozen-source/scripts/configure_lightmap_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_lightmap_imports.py",
+      "sha256": "4780ac09c6e449d45ad300a0b8fe8c003fa8f2adaa2fd42540e22290ac79a824"
+    },
+    "frozen-source/scripts/configure_mountain_paint_import.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_mountain_paint_import.py",
+      "sha256": "0afbe8514db4724fc810ed8cf1e3fbf19a7a8bdad163e9f8ab6bdc615dcec654"
+    },
+    "frozen-source/scripts/configure_pavilion_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_pavilion_imports.py",
+      "sha256": "ffdd68514b103c2505bc463038a24fd45b8bda03b46b65c6165db1ff3e5adca7"
+    },
+    "frozen-source/scripts/configure_rockery_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_rockery_imports.py",
+      "sha256": "f0c763f6e8a01fc921b514b4ca3f7bb945d31f133ebefd3b028d50e3d92993f3"
+    },
+    "frozen-source/scripts/configure_study_art_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_study_art_imports.py",
+      "sha256": "acac296d078a4ae55d3886d41f344d3fb6d90f3774b29b078c28f43dc4e489e7"
+    },
+    "frozen-source/scripts/configure_wall_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_wall_imports.py",
+      "sha256": "7ebbe8915e80990ca30a0e530f3907bd43138e9b853bb2940126c44ff1981384"
+    },
+    "frozen-source/scripts/configure_water_imports.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/configure_water_imports.py",
+      "sha256": "e0d4cc99780cf0282946bedc99733f0b1003d63e4d081c730a1e1f8fdefbd23d"
+    },
+    "frozen-source/scripts/dress_rockery_gate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/dress_rockery_gate.py",
+      "sha256": "ef8feb62a06616150e70457d6d771b8e2a09f503311367c37ab6e618c964a70c"
+    },
+    "frozen-source/scripts/export_garden.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/export_garden.py",
+      "sha256": "d0eba9cf165f5d5203de60341d3636fe471944c5ab2f1cc3af5d50758c2a84f4"
+    },
+    "frozen-source/scripts/export_saved_pavilion_roofs.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/export_saved_pavilion_roofs.py",
+      "sha256": "139ed3da6f5016a64213b744ef414d3074dfe787403ce73f28ca628503430e1d"
+    },
+    "frozen-source/scripts/finalize_demo_capture.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finalize_demo_capture.py",
+      "sha256": "8c8fddd4d4448021eab333aecee90796c58a03794a631fce7cc1a4c95182532b"
+    },
+    "frozen-source/scripts/finish_assets.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finish_assets.py",
+      "sha256": "c158419110efac88b69d4d054c56dc51e50c64f73405b1a14efde699b9f6cb00"
+    },
+    "frozen-source/scripts/finish_garden_signs.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finish_garden_signs.py",
+      "sha256": "5ba25cacbc7b00954ab52b283a0ea957340eadc1e65f2cc4e26b8b77d0ab8a75"
+    },
+    "frozen-source/scripts/finish_hilltop_art.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finish_hilltop_art.py",
+      "sha256": "aa91c6cd00cbd381bf334293e659b9220ccf9ae6b900f6aa5aaf3244ac52ad7e"
+    },
+    "frozen-source/scripts/finish_imperial_art.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finish_imperial_art.py",
+      "sha256": "2b26f5f3d7b8e8818ea91fca7b50cd8686e1908e6beb4e6f0dd7b2fce82b7e71"
+    },
+    "frozen-source/scripts/finish_study_art.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/finish_study_art.py",
+      "sha256": "c5da0a468663f349ea2c1635bf9a560e78bc4904a10ed9f482c85d7f4b912a59"
+    },
+    "frozen-source/scripts/fit_stage_enclosure.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/fit_stage_enclosure.py",
+      "sha256": "11dacdf67d1ad340c6dec0eb6782044c81499c075140a50ff39692fdc8f542d5"
+    },
+    "frozen-source/scripts/garden_material_palette.py": {
+      "path": "docs/reference/garden-palette-transfer-preparation/garden_material_palette.py",
+      "sha256": "6a13bb9b153ab2742ca97fc300c0d4b83823127ac3dfa3a6e3820c6c972e3723"
+    },
+    "frozen-source/scripts/generate_demo_audio.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/generate_demo_audio.py",
+      "sha256": "6bcfc3e6e8bde35f134306a123c6929cbdd8da40c1e8d83e7d0f4f2d4667fb2e"
+    },
+    "frozen-source/scripts/generate_gate_drip.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/generate_gate_drip.py",
+      "sha256": "12302ddf64a47a7f0f4b3706ce0a6c0e196df0eb5e6191290bb582fb6c21287d"
+    },
+    "frozen-source/scripts/generate_pavilion_atlas.py": {
+      "path": "docs/reference/neutral-architecture-atlases/executed-source/generate_pavilion_atlas.py",
+      "sha256": "311a0f70b8fcb888fa8aec943601269cb7c4a5e61a6da32eb6f0de20e1f1a57d"
+    },
+    "frozen-source/scripts/generate_wall_atlas.py": {
+      "path": "docs/reference/neutral-architecture-atlases/executed-source/generate_wall_atlas.py",
+      "sha256": "81ca92ff8c1fdb4d834549cc285631b70d4c3cff689ba6925ea4d9e917b5aed9"
+    },
+    "frozen-source/scripts/gltf_paint_contract.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/gltf_paint_contract.py",
+      "sha256": "73a02aeb472a9d28a49c1b83f84ea31877e7262ffbf5a2cebcb45d0213f5934e"
+    },
+    "frozen-source/scripts/gltf_shadow_contract.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/gltf_shadow_contract.py",
+      "sha256": "b97201f5901a1a21314a626e60e35a16890ea2d3dd8cca6ef727df6da43a1798"
+    },
+    "frozen-source/scripts/grade_references.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/grade_references.py",
+      "sha256": "fcf4e50873cd4fc0feb391e76d242c10361135ec7e3dfa58fc89384a0993c2f3"
+    },
+    "frozen-source/scripts/imperial_tile_lightmap_uv.py": {
+      "path": "docs/reference/imperial-full-lighting/executed-scripts/imperial_tile_lightmap_uv.py",
+      "sha256": "767c193b737ef2bf649d2d785c3b2d8df31a1405731b808c127c27e95f99e5c5"
+    },
+    "frozen-source/scripts/inscribe_rockery_gate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/inscribe_rockery_gate.py",
+      "sha256": "5b7542c02f15737dbd4bbbbcc794fa3864c36328e39147439c4da80ea98d4ce2"
+    },
+    "frozen-source/scripts/inspect_lightmap_pixels.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/inspect_lightmap_pixels.py",
+      "sha256": "1d7681e3ce99e79f5db91e623c01fdc81f0e328310c81bffbf70ab8cc6d3181c"
+    },
+    "frozen-source/scripts/inspect_pavilion_roof.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/inspect_pavilion_roof.py",
+      "sha256": "6140eb9128143f98647a7fa1b5a5e4c1295939833fd51fb4619d61b681bed0ca"
+    },
+    "frozen-source/scripts/inspect_terminal_spill_pixels.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/inspect_terminal_spill_pixels.py",
+      "sha256": "59c96694a7891bebc7b5a788ad7ffb12f5a24f33b3bbff103bb7a82cf8932b7f"
+    },
+    "frozen-source/scripts/inspect_wash_scene.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/inspect_wash_scene.py",
+      "sha256": "ef65b055f812cab5ee134295c99593cd54a8b48607818a8250efe0ad7dd52472"
+    },
+    "frozen-source/scripts/integrate_gate_rockery.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/integrate_gate_rockery.py",
+      "sha256": "758f539d0ddf955877f6d74d64f6f03d284eb122cf4be5037a19725f6d1c487c"
+    },
+    "frozen-source/scripts/integrate_hengwu_walls.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/integrate_hengwu_walls.py",
+      "sha256": "420c9347c8d9cb6b042e8503689d679e36fa61c539cc3929d1c20bad8fc2eaf5"
+    },
+    "frozen-source/scripts/integrate_qinfang_corridors.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/integrate_qinfang_corridors.py",
+      "sha256": "b9e3533758c16c83ae438ff7d0b8c237df7750707b82e36418e8430ecba5e7c7"
+    },
+    "frozen-source/scripts/integrate_qinfang_pavilion.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/integrate_qinfang_pavilion.py",
+      "sha256": "7dd81846c026d8d86ae112777e45e1e0549640f931e28f759f882074263b0cfe"
+    },
+    "frozen-source/scripts/integrate_western_water_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/integrate_western_water_kit.py",
+      "sha256": "6ddabf37b3bdc7a2ee280fe64c0e6c154c2cf03fba68614bfd5b29e78376ff89"
+    },
+    "frozen-source/scripts/kit_geometry.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/kit_geometry.py",
+      "sha256": "423e07ba87b9c049e910fb54286de036374074884d84975485acea5a0b5c8adb"
+    },
+    "frozen-source/scripts/kit_lods.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/kit_lods.py",
+      "sha256": "fafaead677bf7717ffbff11ed985fd9ebf5346df9eb0cdce201cce18da92c237"
+    },
+    "frozen-source/scripts/light_study_hall.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/light_study_hall.py",
+      "sha256": "cbc91a5fd919c60e4c981ee9a34a0c192f0a9a7edf583198c6990af9dcae2923"
+    },
+    "frozen-source/scripts/lightmap_catalog.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/lightmap_catalog.py",
+      "sha256": "26ae8aed091f3c4dc9cf856c2948411cf5cd5b9338eafec40e217e38ee07acbb"
+    },
+    "frozen-source/scripts/make_flora_atlas.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_flora_atlas.py",
+      "sha256": "a7c6c72568896e632a2d54b1d6352b7b3cc59638b3d0359fd260d2caebb8fbf3"
+    },
+    "frozen-source/scripts/make_grade_atlas.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_grade_atlas.py",
+      "sha256": "54acd9623c631d4044bf6ee8fef46cb3f57265deefc30ebb4f805fedb2afd2ff"
+    },
+    "frozen-source/scripts/make_mountain_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_mountain_paint.py",
+      "sha256": "5f4cc8e88b3195e998039dc9d846632c8c661099c8d24a0d7a2a893d4bdca665"
+    },
+    "frozen-source/scripts/make_props_atlas.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_props_atlas.py",
+      "sha256": "474ea040c40c59cd29b63b82b601e7bb2adbe08331f502ee23c0ba29f75492be"
+    },
+    "frozen-source/scripts/make_stage_art.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_stage_art.py",
+      "sha256": "ec5cc411d0aab6248d9ead7a8b5690198885c60b20112e72ba50a6d588f60d3d"
+    },
+    "frozen-source/scripts/make_tech_atlas.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_tech_atlas.py",
+      "sha256": "d8e4a62ec079a09472da2a8b8e6ed34c4bf405edf7e8ef8001716650c9893b19"
+    },
+    "frozen-source/scripts/make_water_normal.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/make_water_normal.py",
+      "sha256": "a90166c3ef05526a3eadebb41708021b722cc221ae4315b05ea64c491fa42210"
+    },
+    "frozen-source/scripts/moon_paint_contract.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/moon_paint_contract.py",
+      "sha256": "fbcad31085558cb66869634e513c8ff5364579473cf30db9b98797ce97acfcdf"
+    },
+    "frozen-source/scripts/native_wash_scene.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/native_wash_scene.py",
+      "sha256": "9cb4f21d477d198e7c5dbcb447d223c64280145dd6984c08c53560bc6a1cb659"
+    },
+    "frozen-source/scripts/nunnery_path_layout.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/nunnery_path_layout.py",
+      "sha256": "172661c4cc828a840c45685117170ebae6bf29efae177d42778a5a7391da275d"
+    },
+    "frozen-source/scripts/open_bamboo_walk.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/open_bamboo_walk.py",
+      "sha256": "43716f61d98814bed8d404c9f424b8e34bf789a8a3baba783543ade96c416439"
+    },
+    "frozen-source/scripts/ouxiang_tile_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py",
+      "sha256": "110a5454dad68da9ec0c5652205bc56b1cb423c313c7d0e3f959877e69296f2d"
+    },
+    "frozen-source/scripts/package_flora_sites.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_flora_sites.py",
+      "sha256": "7f729a9af8734e0a915ffd81b00f22f4b8a57fd2bc9329aaede61b8c112d999a"
+    },
+    "frozen-source/scripts/package_hilltop_library.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_hilltop_library.py",
+      "sha256": "ec8c5827fc01a193e95f994f34d3f1b7f8040bf075434ee86c759a6fd16d980f"
+    },
+    "frozen-source/scripts/package_imperial_library.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_imperial_library.py",
+      "sha256": "2ce3baee8a39422a87f021612fa6732c4a6172b27b915845ccb47ad65be1cc78"
+    },
+    "frozen-source/scripts/package_libraries.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_libraries.py",
+      "sha256": "552e5e0ff608848e2c5fc32d6ece53fd90c8965cbaa3e0ba9754c3fddea39fc0"
+    },
+    "frozen-source/scripts/package_prop_sites.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_prop_sites.py",
+      "sha256": "5ca314715a0e1d053b05df179d769f2c7b22ebf17ea6582759051b2d0ca90f52"
+    },
+    "frozen-source/scripts/package_site_washes.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/package_site_washes.py",
+      "sha256": "dd6d6fe1cc409a6764766be8d2d2cf08bb1006439445f92a1a85eb94a4eff5ad"
+    },
+    "frozen-source/scripts/package_stage_library.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_stage_library.py",
+      "sha256": "12484edcf75a6dad3793a2668a1e1fe9436ab805211fed069d5f4e5d6d39f70a"
+    },
+    "frozen-source/scripts/package_stage_placements.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_stage_placements.py",
+      "sha256": "ad62686b639aabf706be5cf61349eb4e6dbac2d0ec6493f97cd2202ee53ce7f2"
+    },
+    "frozen-source/scripts/package_study_library.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_study_library.py",
+      "sha256": "cab00d3f2bc7aa765fe9a0a155691dc55c242b64d96dfada9499c25ab2c5b86e"
+    },
+    "frozen-source/scripts/package_tech_sites.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/package_tech_sites.py",
+      "sha256": "26da89aab64fa22df8b7a7d7c1ef714465b6ae269192e65f077a48e2de73ccc1"
+    },
+    "frozen-source/scripts/pavilion_material.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/pavilion_material.py",
+      "sha256": "f1922088344ff80e2296d59073ae24c79a17fd704f2802dd7add78c646cf0fec"
+    },
+    "frozen-source/scripts/pavilion_roof_geometry.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/pavilion_roof_geometry.py",
+      "sha256": "3c85681ec944f4ef49b5902e1dfc74d391dc5098651ead065a830d2b57aeadfb"
+    },
+    "frozen-source/scripts/pavilion_tile_lightmap_uv.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/pavilion_tile_lightmap_uv.py",
+      "sha256": "6eff0454e2aa1ccd52e6ab97b41561dc917d7ce56282cc7647959c7da1ee78cf"
+    },
+    "frozen-source/scripts/place_flora.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/place_flora.py",
+      "sha256": "24beb606c06c84245d3334b843509baf7c6a1c88028d3049e06d1ff1e507aa8c"
+    },
+    "frozen-source/scripts/place_props.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/place_props.py",
+      "sha256": "960dcbd5f88460051acc1afe9ef7157fb924c10dc930c3302277d7e55a9c2ed5"
+    },
+    "frozen-source/scripts/place_stage.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/place_stage.py",
+      "sha256": "4a40ea08c8d3ca0e0a8eda37df5e51fbfbba330f23d2a88ac50c6df93f27524e"
+    },
+    "frozen-source/scripts/place_tech.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/place_tech.py",
+      "sha256": "0037a603cb9c7fb41055cfe553ee148cc0414ba8c7a4aaf3634d84456a480f19"
+    },
+    "frozen-source/scripts/place_terminal_chair_collisions.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/place_terminal_chair_collisions.py",
+      "sha256": "6bc5075bd86712e66e218115bad39870babe2383e59b38ced57669492b762aef"
+    },
+    "frozen-source/scripts/prepare_candidate_libraries.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_candidate_libraries_frozen.py",
+      "sha256": "179442e350c5b5a47ffeaf7d29dea55c0c2576c1531a9667cdb7fa7ee5dfc164"
+    },
+    "frozen-source/scripts/prepare_canopy_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/prepare_canopy_candidate.py",
+      "sha256": "9fd916894597a724d1c2d4fa0a7b3c9a5f5fe5731d3bd1c263dcf5c0c33eaa1a"
+    },
+    "frozen-source/scripts/prepare_floor_seam_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/prepare_floor_seam_candidate.py",
+      "sha256": "8e36edb0d76abc2085711e3b13d00163e2721cf0cd7c05ffe7106ebff475e508"
+    },
+    "frozen-source/scripts/prepare_inscription_normal.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/prepare_inscription_normal.py",
+      "sha256": "d819d2b1de32ad6664aded6916bbf64c846dfb96475a78de6c1c7a1936061df3"
+    },
+    "frozen-source/scripts/prepare_moon_contrast_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/prepare_moon_contrast_candidate.py",
+      "sha256": "7f73344f5c94d287d7b74c7197c6db2521ba667cefabb842a1cf0b2a1a9b2b86"
+    },
+    "frozen-source/scripts/prepare_neutral_atlas_source.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/prepare_neutral_atlas_source.py",
+      "sha256": "ebe57dd935e274d30d34ffaf4df1ecda85690c1bb90914aad68fb04e8b1b2cbc"
+    },
+    "frozen-source/scripts/prepare_tile_ridge_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/prepare_tile_ridge_candidate.py",
+      "sha256": "8e2a6b2e604b7e8f7f4ca31e39863de6d3d6fcac5a6f3fc239bf49be63baa5e6"
+    },
+    "frozen-source/scripts/refine_bamboo_court.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_bamboo_court.py",
+      "sha256": "ed6bb86b9c973c5f126a66637255b6f06c4cea4a0859ff39a76877335bd99a2e"
+    },
+    "frozen-source/scripts/refine_bulletin_hall.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_bulletin_hall.py",
+      "sha256": "565a6830f6dcd9a63ad1d65c87472e156d0a77f2bb93e3002309e14989803536"
+    },
+    "frozen-source/scripts/refine_farmhouse.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_farmhouse.py",
+      "sha256": "55c186f74b39e7b6beb13f33157e2a9dcd55029b05715f398a2e3b7733b876bd"
+    },
+    "frozen-source/scripts/refine_hilltop_hall.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_hilltop_hall.py",
+      "sha256": "269b1904e40d46bb9016d828b0d4559e090e96c2f220c493f4d0f131f3f1e75c"
+    },
+    "frozen-source/scripts/refine_imperial_facade.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_imperial_facade.py",
+      "sha256": "cf43c51ce68f6ae2e6ebaed5991a822945001dfb2f69144d3fe591c5ce649945"
+    },
+    "frozen-source/scripts/refine_nunnery.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_nunnery.py",
+      "sha256": "d1966e9f01fd406e3d5e92c36414227ba728bffb49a0c3eed409f00311f403bb"
+    },
+    "frozen-source/scripts/refine_red_court.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_red_court.py",
+      "sha256": "f65c2ddde5cf67751ab1bb1bad2753a94a6d38c842fdeb8e77e26bf731013026"
+    },
+    "frozen-source/scripts/refine_reflection_hall.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_reflection_hall.py",
+      "sha256": "2231c463795fe321136ee2e2ab1a22e3aa4eb31fb94fe5e0d60005715407a5f3"
+    },
+    "frozen-source/scripts/refine_study_courtyard.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_study_courtyard.py",
+      "sha256": "0d9b35a3efc15190262b94899373f86b7be626c723e90ac796d947a562b00bcc"
+    },
+    "frozen-source/scripts/refine_western_sites.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refine_western_sites.py",
+      "sha256": "51075c485f3bb7f37c6d1f4744ae70cc7e95c46fbb0c0cb4aab3597ed5296a98"
+    },
+    "frozen-source/scripts/refresh_flora_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refresh_flora_lightmaps.py",
+      "sha256": "8b907beed3801c36bec6503611a1ff47f19cd0c9bcd2cc6d18abc3aae64021e4"
+    },
+    "frozen-source/scripts/refresh_full_lighting.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refresh_full_lighting.py",
+      "sha256": "4d5ae446ad0bcebd82b7401133caffa9b6f83ba332259ec96ce27049e7df0588"
+    },
+    "frozen-source/scripts/refresh_remaining_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refresh_remaining_lightmaps.py",
+      "sha256": "6c0e4bb96c572d2f6d1d13c31a45d202eabf98fd61e90d5322bb0f81351cb02a"
+    },
+    "frozen-source/scripts/refresh_scene_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/refresh_scene_lightmaps.py",
+      "sha256": "c99ba59f387ecd96c965d48f0b1bee48984564d4bf532a0855bc413a7de7308b"
+    },
+    "frozen-source/scripts/render_moon_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/render_moon_paint.py",
+      "sha256": "0dc9aeac57da0ad3bd72305cf87fd21728b8eb9f28f5e9e18816e4acf2985902"
+    },
+    "frozen-source/scripts/render_references.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/render_references.py",
+      "sha256": "09f9ab2c73cc71ed4f516bca56bcdedffa977f2ef5d96f6ea4dab388380c0fad"
+    },
+    "frozen-source/scripts/repair_nunnery_path_joins.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/repair_nunnery_path_joins.py",
+      "sha256": "c20e735150b04d1ce1cbfeeada33725d7a129727d5091b704d2d2003c394dba6"
+    },
+    "frozen-source/scripts/revalidate_camera_only_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/revalidate_camera_only_lightmaps.py",
+      "sha256": "c76901a050061bd5a8e7b3d0bbcd5c06b22e289d0049475c840e2a7c332bf886"
+    },
+    "frozen-source/scripts/run_android_identity_storage_tests.py": {
+      "path": "docs/reference/android-identity/current-source/scripts/run_android_identity_storage_tests.py",
+      "sha256": "b7e04393f3b432f6ff5fd1a95388e3be6be8fddf82e3375449e12e86933e27f6"
+    },
+    "frozen-source/scripts/soften_stage_green.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/soften_stage_green.py",
+      "sha256": "418e5a1c7bf3badf49744e7a96cc0961e8e5bf6bf51779e6b46be75ed0d39619"
+    },
+    "frozen-source/scripts/sync_backdrop_wash.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/sync_backdrop_wash.py",
+      "sha256": "2f48b4a16203ba695fa34623203b45a75962570be7e235bb382c85a6857446d5"
+    },
+    "frozen-source/scripts/sync_full_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/sync_full_lightmaps.py",
+      "sha256": "5b89a8cb20579cbb99abb5d12441937442508e05fbc5ebd9c18f34af0ead7a50"
+    },
+    "frozen-source/scripts/sync_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/sync_lightmaps.py",
+      "sha256": "dbdc14f96d912fe21cf2879bc38f548e25811fa5f4fc6a363c1f7e76fce5383d"
+    },
+    "frozen-source/scripts/sync_priority2_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/sync_priority2_lightmaps.py",
+      "sha256": "4231c59f0dce396704fb53bb37d0dd7e092f5ec861bc4348ba3a3cc3ded46f59"
+    },
+    "frozen-source/scripts/sync_softened_site_libraries.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/sync_softened_site_libraries.py",
+      "sha256": "b56a71f23001ba2a30c0819488d9fccca09f7bcf3a5d2e1b7685b52f11d0ece9"
+    },
+    "frozen-source/scripts/sync_terminal_spill.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/sync_terminal_spill.py",
+      "sha256": "ed8db30bb5d99a8be412c2293048192b3753f1c8c6be9a0760299e827e97078c"
+    },
+    "frozen-source/scripts/tap_android_profile.py": {
+      "path": "docs/reference/courtyard-android-provenance/tap_android_profile.py",
+      "sha256": "edef0ce5f2dc7c32693648c16224f725525005f74c7a0485bedbac8608ba610c"
+    },
+    "frozen-source/scripts/terminal_spill_catalog.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/terminal_spill_catalog.py",
+      "sha256": "29d6967c2ad475afc996b78c21aa0beb4446e54465a6fe1c7951ec66b64931b4"
+    },
+    "frozen-source/scripts/test_android_identity_core.py": {
+      "path": "docs/reference/android-identity/current-source/scripts/test_android_identity_core.py",
+      "sha256": "cc0ef49d81568f83a71f36dcbf316464a8fbe23d7d938f29c3c60dd1f463722c"
+    },
+    "frozen-source/scripts/test_garden_atlas_export_rejections.py": {
+      "path": "docs/reference/neutral-atlas-full-lighting/executed-source/test_garden_atlas_export_rejections.py",
+      "sha256": "fc16a24449738ca9213388b145d474895ecd5ee8b6d6b96066066e72282d0f9b"
+    },
+    "frozen-source/scripts/test_gltf_shadow_transfer.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_gltf_shadow_transfer.py",
+      "sha256": "dda9fec42287236d62e3eff5dfd280458a1996acaab9130e426f508508bd63fc"
+    },
+    "frozen-source/scripts/test_imperial_lightmap_imports.py": {
+      "path": "docs/reference/imperial-full-lighting/policy-checks/test_imperial_lightmap_imports.py",
+      "sha256": "c0acab28e906168fe91ddde85a96d82430f07c930160e3dc2ebffe40f473bc79"
+    },
+    "frozen-source/scripts/test_moon_contrast_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_moon_contrast_export.py",
+      "sha256": "649d657efa213241c4b82cc8fdb567d5b2fbab5d838fa106f49069a65422061a"
+    },
+    "frozen-source/scripts/test_moon_contrast_source.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_moon_contrast_source.py",
+      "sha256": "93bc732246f1d6ed5ae3eeac04e2f32ff9af25b5472d71a301fdf7964c0f5b00"
+    },
+    "frozen-source/scripts/test_moon_export_rejections.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_moon_export_rejections.py",
+      "sha256": "b32d7836c2a68f909954d974f92f685ce48b0811d4c8e744aee2503beb10dbca"
+    },
+    "frozen-source/scripts/test_oux_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_oux_lightmap_uv.py",
+      "sha256": "bb22653d6de89f8d9e05288900a319caf4dc507b43cb5bf292416b08e52d66d1"
+    },
+    "frozen-source/scripts/test_ouxiang_lightmap_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_ouxiang_lightmap_imports.py",
+      "sha256": "843522e041e45f0280dbaf0475d4c9b32965c1fb43cbe8ea5cafbdcd0481eb49"
+    },
+    "frozen-source/scripts/test_pavilion_tile_ridges.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_pavilion_tile_ridges.py",
+      "sha256": "a5355fa1ef39fb74a38eb704a9ec13fdee65abd87bb58fef7ba24633fd79ee6d"
+    },
+    "frozen-source/scripts/test_roof_cone_export_rejections.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/test_roof_cone_export_rejections.py",
+      "sha256": "80d0ce5e0c3965815cbc8a46e89956e823d004cb2b442be6acb30df2fc170621"
+    },
+    "frozen-source/scripts/test_wash_receiver_contract.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/test_wash_receiver_contract.py",
+      "sha256": "edb346aeea92871e7667713107e313033a9cc02631a3b73a449852ce65cf454b"
+    },
+    "frozen-source/scripts/tests/test_android_texture_provenance.py": {
+      "path": "docs/reference/courtyard-android-provenance/test_android_texture_provenance.py",
+      "sha256": "96793656a52056f5962f3dca28a6401d7b1f4ac0fb6e4ef4bbda9f5a5ebc0aa3"
+    },
+    "frozen-source/scripts/update_standalone_kit_palette.py": {
+      "path": "docs/reference/standalone-kit-neutral-palette/executed-source/update_standalone_kit_palette.py",
+      "sha256": "608d2c09667bbd5b3d8ebe793b44e56c82724e89b481287ef81862d6c6a143fc"
+    },
+    "frozen-source/scripts/verify_android_apk_payload.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_android_apk_payload.py",
+      "sha256": "44d5a25b0eb87daffd4648fc7638e016feb25b626aab523f3bc4b21c9214d9a0"
+    },
+    "frozen-source/scripts/verify_android_normal_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_android_normal_candidate.py",
+      "sha256": "1ee877319b06cb74d30a1c4112fde7aaee5d5b41ca4d6a2a2478433a92750889"
+    },
+    "frozen-source/scripts/verify_android_pbr_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_android_pbr_candidate.py",
+      "sha256": "f3a6141e554e73dd53024a863c7c9b9aa0df7758a06d56a2bf61b49d3aeffbc7"
+    },
+    "frozen-source/scripts/verify_android_profile_inputs.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_android_profile_inputs.py",
+      "sha256": "58f202627bec9c464096e3db7ee15d46b1bcef9d9aeb53818fb19bda76e37e02"
+    },
+    "frozen-source/scripts/verify_assets.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_assets.py",
+      "sha256": "1615de905e4079f9a7289404afa7b3d312a8ce49cf5e6aa5bc600dea1b930bf1"
+    },
+    "frozen-source/scripts/verify_backdrop_wash.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_backdrop_wash.py",
+      "sha256": "485fe1ec4f612984f265fe4758eca30dada41bb5a65024cebdbb9ed935c0cbb2"
+    },
+    "frozen-source/scripts/verify_canopy_candidate.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_canopy_candidate.py",
+      "sha256": "3196792a3fea0d49101667ef707cc876cc72e358f98d9381dff8023ce7a792be"
+    },
+    "frozen-source/scripts/verify_corridor_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_corridor_kit.py",
+      "sha256": "9fcc30df075c16c9fca21bd2053d3766ee0362a541122d8e7d6d4004c94dc535"
+    },
+    "frozen-source/scripts/verify_engine_grade.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_engine_grade.py",
+      "sha256": "039012892cf7fb8e4765ce76f095a1587be26ed74a575de4fc7dea253d5c7365"
+    },
+    "frozen-source/scripts/verify_flora_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_flora_kit.py",
+      "sha256": "03a7b853b324ff584e947a4fab3358f6f68b9175f1d0f3ac2f2a512d2ce25c15"
+    },
+    "frozen-source/scripts/verify_garden_atlas_export.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/verify_garden_atlas_export.py",
+      "sha256": "bb82b6574104756c9505aef26bcee55a440c4b157c2ae0c38a5c289849a1127a"
+    },
+    "frozen-source/scripts/verify_garden_palette_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_garden_palette_export.py",
+      "sha256": "ca772b0a1eb1fce73666ca277aad6a56797472b1591d8cf9b3443e408a97a47d"
+    },
+    "frozen-source/scripts/verify_gate_inscription_cap.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_gate_inscription_cap.py",
+      "sha256": "43b24621bcb57b94fb9374fb2fda31feea8442ff93916b1e30c5970b55f2a7b7"
+    },
+    "frozen-source/scripts/verify_godot_reimport.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_godot_reimport.py",
+      "sha256": "f355e260621afeaf1ade7e72871c037cadb5d869ab0e039729f8fde93ce52479"
+    },
+    "frozen-source/scripts/verify_hexagram_lines.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_hexagram_lines.py",
+      "sha256": "7bda17edcd3305abdc4de89a0858d947e45ac701ed647614bac83ebbeeb80d17"
+    },
+    "frozen-source/scripts/verify_lightmaps.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_lightmaps.py",
+      "sha256": "0579e10dfcd7288ae11e63b30c5695e1af3d5200149abdd69b31b4ab83592bcd"
+    },
+    "frozen-source/scripts/verify_moon_contrast_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_moon_contrast_export.py",
+      "sha256": "6fb8072fe10c4bb729940a19c66fa42491f1c9bcdf098174ed5989acddd0b6db"
+    },
+    "frozen-source/scripts/verify_moon_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_moon_export.py",
+      "sha256": "ebaf8b932907f3bf3c5963e20712f0feb0f8c058851b0bdad35ada1a76046372"
+    },
+    "frozen-source/scripts/verify_moon_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_moon_paint.py",
+      "sha256": "3db241492891f93ef62d0942d16b715293203af4c8f15819e7d5d77e794fcf72"
+    },
+    "frozen-source/scripts/verify_mountain_export.py": {
+      "path": "docs/reference/garden-palette-transfer-preparation/verify_mountain_export.py",
+      "sha256": "5a1ae21613b3c79a22285f69b4d67f926f30b1c7f8a83ed425b0c73b44071e72"
+    },
+    "frozen-source/scripts/verify_mountain_paint.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_mountain_paint.py",
+      "sha256": "b88f2c7e612bbcc6c4aa0a90c2b0844b0a5a487656a97ee7693b89ed042010cc"
+    },
+    "frozen-source/scripts/verify_neutral_architecture_atlases.py": {
+      "path": "docs/reference/neutral-architecture-atlases/executed-source/verify_neutral_architecture_atlases.py",
+      "sha256": "3e677753d9faf5a821998dcdb403e5b1bcb60419f18d055cae87115bd7248b6e"
+    },
+    "frozen-source/scripts/verify_pavilion_atlas.py": {
+      "path": "docs/reference/standalone-kit-neutral-palette/executed-source/verify_pavilion_atlas.py",
+      "sha256": "a7fc425fe4205843b7452ebc74996b1247559275f624106f4f4a8cbe406b7719"
+    },
+    "frozen-source/scripts/verify_pavilion_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_pavilion_kit.py",
+      "sha256": "b40ce429a6a636c43fda72b64081f292fb9de9cc6cd882562043b5a7c655d5cd"
+    },
+    "frozen-source/scripts/verify_pavilion_roof_orientation.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_pavilion_roof_orientation.py",
+      "sha256": "b5641c1670695b5ca1bcc7cd751d27e8ad6c28d59a1fea78914bf4923981ad1e"
+    },
+    "frozen-source/scripts/verify_props_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_props_kit.py",
+      "sha256": "86722e5961a1d6290d19878ec66b71d1e4310139161988fdb3ce0d653ada9057"
+    },
+    "frozen-source/scripts/verify_reflection.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_reflection.py",
+      "sha256": "8e7368020a74e0ba95fd64bcaa334dc9f3fae598ed6417bca71799fa78c8a19a"
+    },
+    "frozen-source/scripts/verify_reflection_camera_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_reflection_camera_export.py",
+      "sha256": "80e4052ca73d644301c5b1fe9b5d9b9e43a8bb72566ec4fded786bc8a0feac7e"
+    },
+    "frozen-source/scripts/verify_rockery_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_rockery_kit.py",
+      "sha256": "8ec8f8e3ae39e7dd83cc25143d766eccc2c3688b1c68bac57f2a0dbe330b98ea"
+    },
+    "frozen-source/scripts/verify_roof_cone_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_roof_cone_export.py",
+      "sha256": "a48739771eaef0729ad9698ef1b6c23af53def2eeaf8864aaf72431397f32758"
+    },
+    "frozen-source/scripts/verify_saved_garden_candidate.py": {
+      "path": "docs/reference/neutral-atlas-native-review/source-verification/verify_saved_garden_candidate.py",
+      "sha256": "9649a4489cd7469b3965fd117ad25ab22cbf0cd67ee5dddd2087251263a44b71"
+    },
+    "frozen-source/scripts/verify_site_keys.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_site_keys.py",
+      "sha256": "c2136c008866024875646f8c67f8037a6e9738ac9b81bbcef503e704ed312eac"
+    },
+    "frozen-source/scripts/verify_stage_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_stage_kit.py",
+      "sha256": "c8691b72f515caa1c6da99b0fac256811cfed297bff05fc3ca934b3e5c6022fb"
+    },
+    "frozen-source/scripts/verify_surface_animation.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_surface_animation.py",
+      "sha256": "575f237829147298c6d586c717a84e22bad5808679bef02e928ef61c6194ff35"
+    },
+    "frozen-source/scripts/verify_tech_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_tech_kit.py",
+      "sha256": "48163fd66602a9ee42a0ff548181578304b9579a3341680a6d419a8fb2ef7703"
+    },
+    "frozen-source/scripts/verify_terminal_spill_install.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_terminal_spill_install.py",
+      "sha256": "f54f3987a1b96d1fe0a8c8c9ff7012b0df8c75638f4962e1a2f0c22991c66173"
+    },
+    "frozen-source/scripts/verify_tile_ridge_export.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_tile_ridge_export.py",
+      "sha256": "c54d90c3d682ea5afee05c5f85ba7677e82fbd359554a7fa7dc9da56ab7c0b44"
+    },
+    "frozen-source/scripts/verify_uv2.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_uv2.py",
+      "sha256": "7ee33d807bcbe16369ecb1508b9585ee738971ba78540388a0ee8fd4e7146bb4"
+    },
+    "frozen-source/scripts/verify_wall_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_wall_kit.py",
+      "sha256": "a33a566bd66b5bb4810a42ca4aec9db350df635ecdab3a3e81e23df5d6383bfc"
+    },
+    "frozen-source/scripts/verify_water_kit.py": {
+      "path": "docs/reference/imperial-full-preparation/source-scripts/verify_water_kit.py",
+      "sha256": "e84fe1439f8f71ee0266fb9f6c0a28911bf5123200967cb5a65fdb33de9d4a69"
+    },
+    "frozen-source/scripts/wash_receiver_contract.py": {
+      "path": "docs/reference/ceiling-lighting/tools/scripts/wash_receiver_contract.py",
+      "sha256": "d934c9444f43b842c6ee0d61b579e227461bd4116238b64738d417716df39952"
+    },
+    "frozen-source/export/sites/SITE_aojing-guan.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_aojing-guan.glb",
+      "sha256": "e054e82767ba06b5f180c0721d78615782f2215afb434ec79355bd2315a2ecda"
+    },
+    "frozen-source/export/sites/SITE_daguan-lou.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_daguan-lou.glb",
+      "sha256": "0e05a0aac9a10f3b4b3d3de3afa7f54c64e7b5a0c2e9d4536692551ac38cdd67"
+    },
+    "frozen-source/export/sites/SITE_daoxiang-cun.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_daoxiang-cun.glb",
+      "sha256": "2265c245e88e1425001fde72eeccaf85f4aef37ab76199366f6c56e53072b350"
+    },
+    "frozen-source/export/sites/SITE_hengwu-yuan.glb": {
+      "path": "docs/reference/hengwu-rock-preparation/candidate/SITE_hengwu-yuan.glb",
+      "sha256": "4933c28b1902b23c16e00dd2705eed41a2decb6bdae125153c3a9a1d8ade586f"
+    },
+    "frozen-source/export/sites/SITE_longcui-an.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_longcui-an.glb",
+      "sha256": "85392e44a1bf8424d8437c2000d4d6892e893c1bf529bebba56b503fd8f858d3"
+    },
+    "frozen-source/export/sites/SITE_ouxiang-xie.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_ouxiang-xie.glb",
+      "sha256": "1b0b5ab9b35ef001ce4a7e4a3e11ca34b8acb3d346ec1e7376aa4b08480dc00b"
+    },
+    "frozen-source/export/sites/SITE_qinfang-ting.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_qinfang-ting.glb",
+      "sha256": "f50d85ad6d61d8200865498c4d3da0f8403a0d27421a9e1a4e4eba9dd829e446"
+    },
+    "frozen-source/export/sites/SITE_qiushuang-zhai.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_qiushuang-zhai.glb",
+      "sha256": "11a7b69446b9f98abcb5d21f7c9b29fbf067e9ea871b6ddd4532cdac30caee66"
+    },
+    "frozen-source/export/sites/SITE_rockery-gate.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_rockery-gate.glb",
+      "sha256": "76afcb4dcf70bd4a46af12d53ed48640037bfd6b4c15bd734f2560fc2cbe7e4a"
+    },
+    "frozen-source/export/sites/SITE_stage.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_stage.glb",
+      "sha256": "9ee30592732f4129e446dcb821768d15744d1005389e075a97f017810e6ffe2e"
+    },
+    "frozen-source/export/sites/SITE_terminal-cells.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_terminal-cells.glb",
+      "sha256": "d5e5cf3137412cca7d33758609b640d0510c69c308391b6cf958c750a18943b9"
+    },
+    "frozen-source/export/sites/SITE_tubi-tang.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_tubi-tang.glb",
+      "sha256": "b7709624dc007a1a1d6dea4e237c6f76f933fc692b75d13fc6c429387de2e3fc"
+    },
+    "frozen-source/export/sites/SITE_xiaoxiang-guan.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_xiaoxiang-guan.glb",
+      "sha256": "6b1190dd38635c668713dc868bd2d9f88235783a6e3f686eb2e9643e2cbe1c0a"
+    },
+    "frozen-source/export/sites/SITE_yihong-yuan.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_yihong-yuan.glb",
+      "sha256": "1fc9c58f7d74f37bd04f03676058d4710b38f264e7eea8ed43bf8fa41f1bd843"
+    },
+    "frozen-source/export/sites/SITE_ziling-zhou.glb": {
+      "path": "docs/reference/neutral-atlas-native-review/default-reexport/sites/SITE_ziling-zhou.glb",
+      "sha256": "e27c9199b54eaa9ac9d4dabad2466a7b1bc98450a0da41b10d2b4eea6271fa97"
+    },
+    "frozen-source/export/garden-of-dreams.glb": {
+      "path": "docs/reference/hengwu-rock-preparation/candidate/garden-of-dreams.glb",
+      "sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38"
+    },
+    "frozen-source/export/site-wash-rig.json": {
+      "path": "docs/reference/hengwu-full-lighting/frozen-source/export/site-wash-rig.json",
+      "sha256": "3ead997eb77c47c52688b855ce8a5df184b6bfed2b7580276f142995edba1914"
+    },
+    "source-lightmaps/HERO_gate_water_drips.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_gate_water_drips.001.json",
+      "sha256": "a7a4cb4d039aaa068d62927c86333aa56abdb132f3e27e78fd9b29cae4773457"
+    },
+    "source-lightmaps/HERO_gate_water_drips.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_gate_water_drips.001.png",
+      "sha256": "2633b8b1126af49b30617e58cf9ad4c6be03921e24e5ade7b61a631ee381fd96"
+    },
+    "source-lightmaps/HERO_qinfang_bridge.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_qinfang_bridge.001.json",
+      "sha256": "ff87da7254abd3f98de1ab6aa1f7e8df09fb6d2dae448441f4105917d3507f85"
+    },
+    "source-lightmaps/HERO_qinfang_bridge.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_qinfang_bridge.001.png",
+      "sha256": "739d02e8bcc3ee7b7ae5156e4b110dd02a97236b9337ddc477017800af9a2213"
+    },
+    "source-lightmaps/HERO_study_scroll_bamboo.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_study_scroll_bamboo.001.json",
+      "sha256": "10939bc1c37eb65093a50829fe225e4d68725f0ddd72b120228bb7d1f45f88fa"
+    },
+    "source-lightmaps/HERO_study_scroll_bamboo.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_study_scroll_bamboo.001.png",
+      "sha256": "ae6c513b32766245865b5ba81e4474c51880e1b6c6dfdbfd4c9da23ab9ae20e9"
+    },
+    "source-lightmaps/HERO_study_scroll_plum.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_study_scroll_plum.001.json",
+      "sha256": "c80dfc676c6982f6db544db8039df57ce799751eb7ecda1f5b3bb8f3e319d039"
+    },
+    "source-lightmaps/HERO_study_scroll_plum.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_study_scroll_plum.001.png",
+      "sha256": "683dc2ed5c007f797bf443f8f8a56facf11a8deca25e6d32aefa488ab6bf0c1c"
+    },
+    "source-lightmaps/HERO_table_hexagram.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_hexagram.001.json",
+      "sha256": "8bebbf5cfc559b18c56b5eb91cdef14f644f70dba902157f7bac73a7835e7766"
+    },
+    "source-lightmaps/HERO_table_hexagram.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_hexagram.001.png",
+      "sha256": "66ff94fef9a399aed5a50850e69294d6ccf247e30c428f8325843f1cd2bac545"
+    },
+    "source-lightmaps/HERO_table_line_1_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_1_broken.001.json",
+      "sha256": "321c06e021979c3f54a539028d4c81666424f24efde78ea5bbdd424a7802c056"
+    },
+    "source-lightmaps/HERO_table_line_1_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_1_broken.001.png",
+      "sha256": "c6a09b1dede3f5790150b5a0b047a5a1fc2559cde2cf0c407a154d4f0c16256c"
+    },
+    "source-lightmaps/HERO_table_line_1_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_1_solid.001.json",
+      "sha256": "0074a8f15ccca7b9294eeeb11a3428851055ffc01dd2e661d4547de1c3232847"
+    },
+    "source-lightmaps/HERO_table_line_1_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_1_solid.001.png",
+      "sha256": "ff3f1e8470fa3d99c646b06166164cc16d1332286bb060bb84f54b62e5f46f6a"
+    },
+    "source-lightmaps/HERO_table_line_2_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_2_broken.001.json",
+      "sha256": "e3dd6637b9d1e02d200da8a1329be3c7f7dbed78e4321dbfaf471ec38f74d0a1"
+    },
+    "source-lightmaps/HERO_table_line_2_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_2_broken.001.png",
+      "sha256": "9d66f6c9df65096aec4369e51c5e5d084b7af3013e79d5af1627f8eed7fe7304"
+    },
+    "source-lightmaps/HERO_table_line_2_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_2_solid.001.json",
+      "sha256": "638cbea75527fb1bf5df293987cb3fe38bae98ee7c359f5ac38c82eefa17575f"
+    },
+    "source-lightmaps/HERO_table_line_2_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_2_solid.001.png",
+      "sha256": "61ba45f49e324cd3581aff8110e2c1a5a4bbcc0a6a934390899048dc5e4d9551"
+    },
+    "source-lightmaps/HERO_table_line_3_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_3_broken.001.json",
+      "sha256": "21f31ac9126ea5025db3d500bdbcd53a594bb85e4633ebcf131ddc60b3f0c17a"
+    },
+    "source-lightmaps/HERO_table_line_3_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_3_broken.001.png",
+      "sha256": "8844880bdd8f2d505fdb4557eaa5e047701338af0af5ebf640707b8de96ce0bf"
+    },
+    "source-lightmaps/HERO_table_line_3_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_3_solid.001.json",
+      "sha256": "e1e7b97be5b6833cb36b301f268497286c7d88eb09a28f364166f3f6bf906e5b"
+    },
+    "source-lightmaps/HERO_table_line_3_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_3_solid.001.png",
+      "sha256": "0e69d1aa14bb0ffde0e7b2dc784e3b97ac19b509d9ea5279341e5d7a1abf5e72"
+    },
+    "source-lightmaps/HERO_table_line_4_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_4_broken.001.json",
+      "sha256": "68f2ccbb52b6d71d62b38d65916f6cca07511fa12ed232e6510a9a00cc55e643"
+    },
+    "source-lightmaps/HERO_table_line_4_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_4_broken.001.png",
+      "sha256": "f416e9450ebaa64d30979966eab9661102bc16ee8067f6cc0b8f2dd218edcc6a"
+    },
+    "source-lightmaps/HERO_table_line_4_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_4_solid.001.json",
+      "sha256": "0cc3006aa0abffd82906bfd21d60e6c4b50d6caa51eff9afae2f63c981f508a2"
+    },
+    "source-lightmaps/HERO_table_line_4_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_4_solid.001.png",
+      "sha256": "dff7bf0dd4199a5aeb0251f8e95516ef77e2617ffbaca77e2f8d613b65fc47fc"
+    },
+    "source-lightmaps/HERO_table_line_5_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_5_broken.001.json",
+      "sha256": "2067f1e67d2c72408dd97434fc173609505e65f3b34a2175203ba47eef548f97"
+    },
+    "source-lightmaps/HERO_table_line_5_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_5_broken.001.png",
+      "sha256": "1f02c1300084be45a2e1a4e9c5f3f71bfe32ea7fe4c0cdd0274bc0a1fcc22bf1"
+    },
+    "source-lightmaps/HERO_table_line_5_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_5_solid.001.json",
+      "sha256": "24d4caf12d92e10d6fe9e60f77952ea91cd685993cafb17b56c70a1a799240c3"
+    },
+    "source-lightmaps/HERO_table_line_5_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_5_solid.001.png",
+      "sha256": "5f68337b6b8d8e290d5160df27cdeed99d40058de1c0cacde00a16235cc8f9b7"
+    },
+    "source-lightmaps/HERO_table_line_6_broken.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_6_broken.001.json",
+      "sha256": "ffa6c197ac23ae79748a9d97c1fc4fe658020030add23374cbbc090546a5dc37"
+    },
+    "source-lightmaps/HERO_table_line_6_broken.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_6_broken.001.png",
+      "sha256": "96cd9970a0e6ae100658deab89fd7bb9cbbaadcc323f60745786307b448a7fce"
+    },
+    "source-lightmaps/HERO_table_line_6_solid.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_6_solid.001.json",
+      "sha256": "9e510c82b7cc21de5a1a1f857028f40b8ee3c1078268f62c5f44f741959442a2"
+    },
+    "source-lightmaps/HERO_table_line_6_solid.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_line_6_solid.001.png",
+      "sha256": "3c62b1a84012eaaee5df279927ecbe0f9dcdccb988f64f83d80ce7e7e011c963"
+    },
+    "source-lightmaps/HERO_table_pedestal.001.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_pedestal.001.json",
+      "sha256": "d8615036e1d351a44ce85343ac6cf6863b0f9dd8f8b720419b788a50ef207db5"
+    },
+    "source-lightmaps/HERO_table_pedestal.001.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/HERO_table_pedestal.001.png",
+      "sha256": "82894f2203fb023ce4195c48743181cb572d5f9b9689a4c9d116dc208e2021d7"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_backstage.json",
+      "sha256": "1c2be3889974e0a0139c7f29c1b522dd701f9fcc771b083436df5350a10fffbb"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_backstage.png",
+      "sha256": "58907abe0aab2ca86c38ce78c27624f6bd85edd248c1f763ee00403cf13beba9"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_crt_amber.json",
+      "sha256": "b401ca744d996818f2851cfae68275656cc77d9f4e96b0086484591dc23f97b8"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_crt_amber.png",
+      "sha256": "6a87c119e0e6db1693fd6d46a4703c1835b48c629f3798a274ddc33843c6d154"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.json",
+      "sha256": "6ab9e58a04a73335cf314d166c7819334d97c200b4d9b6cd1b3de82e3a69632e"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.png",
+      "sha256": "db3ef555372bd6b916742a69c69707258006e881835b4f1cd927a37cb77978b0"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.json",
+      "sha256": "69fb2a28b5166f3c3ff1951ac1c5a381b4e6340b25e20e608d2493a0658bfbc4"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.png",
+      "sha256": "b9f512144209beba89f0bbb502cb2971a666834cc0569e7306d2b98cc2f86310"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_rooftile.json",
+      "sha256": "5d81a1a72d9d37b1bccb2c008547ba40c71756aadde805664024e606340b456e"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_rooftile.png",
+      "sha256": "31ec5dbf4faedde4d2c9175ecd4bf803f66fb2c75462e11ece4fb29d14906355"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_whitewash.json",
+      "sha256": "6faf9874547af0f46d5ca5d5b84c81cebcd11c0e048c75f707ebb61249a347aa"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_whitewash.png",
+      "sha256": "a09ae76e9a36ea16f8b1b60a7283030b365818f7958e081bfb439037c869fb39"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_backstage.json",
+      "sha256": "9d35d6736c95ce676098c6e38ef30a4b4e9c5f19516a4cda08d57452b5b552d2"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_backstage.png",
+      "sha256": "74a436d41eb14a8394c75bfbdebdff89be4bda68326a0b9f263ab3d54ed3a3ab"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_bronze.json",
+      "sha256": "c70c6118c959d90c012b41e5534864e60da15c29ae02db8e73032bc5d7617e6a"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_bronze.png",
+      "sha256": "188d8106c00f245048d2aa3d41c08eefffa0f22f7c2e7a47d0cc187f2b01ae16"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_crt_amber.json",
+      "sha256": "5ac6330f06efef79d90f2f0de8b57336e40b17573961e0e005aad5e974bc0774"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_crt_amber.png",
+      "sha256": "23b8fe8de6b03bcbeff1d8f43ed5c3e1c54994295671720f605f0f6e60c1269d"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.json",
+      "sha256": "97017be1ceae5839cb270548ad20c44311b268b5ee0cd045e1ed768e120d355d"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.png",
+      "sha256": "fb51943a0ead3c06fd1916e14b6bc890421b8fea96acd1a6720515e22d95bdf2"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.json",
+      "sha256": "81c85c0015d433530f63d58fb697ef812a01254fd35262db9425af566d930536"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.png",
+      "sha256": "05e3f25e4c0aebc1adc5ef75b57faf3d13b00c7de3fa8dd9af418ca34639a956"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.json",
+      "sha256": "7269dc531e08b9a1382d78bdfa3696f2fb198b92bc8f87635c99e29e8f91db01"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.png",
+      "sha256": "754cacd02d0293d2bd194e30f4192f10033f4c5b9ce2c8da073587b192a7df35"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.json",
+      "sha256": "8732e2df7b3c263ce0afaba5c1ccf4208700bf0186ebc3494a56d8742f7d7e1f"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.png",
+      "sha256": "47424ddd967cb182a8a1fcd7b3428905b2dc4bd16609d8f62236a50a60cbbfab"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_rooftile.json",
+      "sha256": "bfe871cb6762a416303818348108c0ccdb79dc14f16945f05775779e165374cc"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_rooftile.png",
+      "sha256": "dd5581eaaf85861f93d8d2a2e6bd37e36a76138783c51995f30da0fbf5f5fe5f"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_whitewash.json",
+      "sha256": "c69c3276a79bd5663d2a35e0dffe47ed7adf3b52b5f411c48b69c410e5cd5a1c"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_whitewash.png",
+      "sha256": "64823b6dce699e138da30161653e854451befe099c6fc27d1e47a4aa2608045b"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_backstage.json",
+      "sha256": "6b39f1dde2626483f843776c6ff86e28d4a069d0c9a44956d95ad347bbb84edb"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_backstage.png",
+      "sha256": "0ca8d8364dfa969245850c0ae8c205eae3b64e8681d508363ceb215c5b807b3f"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_bronze.json",
+      "sha256": "aae9d66ab80019829323a5df768fdf074d3818fcfe32cca11fcf6128c3e84972"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_bronze.png",
+      "sha256": "0252df6089860d79b5fc97e61b0a0899d1a3db1f416363f6e5a1f1b92b25f57c"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.json",
+      "sha256": "8ea4f6922693eb8713e880a0e385ffd32d73e12fe8bb06f673307612fd9d5765"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.png",
+      "sha256": "500f6793aca4ecb37c9e457ad70ffc9800da0acb7de72ce3385668d478c541a7"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.json",
+      "sha256": "b70fdfaa95a7ca9fe9f56f3b7344d4a0eca5708a1be541f23de40df9555b8972"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.png",
+      "sha256": "1da28b9cb8f141c5f5f3cb20e62a1047965c98d6b967f8516d1663ba203acd63"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.json",
+      "sha256": "3303e1a6d283016f257b55cfd7457c58363c781c16f01b44eb666496d6bd313d"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.png",
+      "sha256": "4aaac4249c129ceefa086e5e9786e9f96b7fe671e48d0170901abf5322b848fe"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.json",
+      "sha256": "87246d5a7eafaa4ab072ea420b56e9b126a0866cb184a28aa4e92d79fd1df8a8"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.png",
+      "sha256": "c3f48c150cfe9e412efac193e599ab2658b6cf2a63dcdcba8781b8a39a56b5a0"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_thatch.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_thatch.json",
+      "sha256": "25a90fcc16cb0d10775bcf91efd9ac12cabe44d3b8ba291d2fcb3d88392ecf15"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_thatch.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_thatch.png",
+      "sha256": "30777e39f93b3e80acda66c83eb79afa20cb8a0a05d40b0a0bd39acc4f1d72ef"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.json",
+      "sha256": "b4d93e659791b647d4528cf014d3994d8338724c17ff664211106d8053ea9a4f"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.png",
+      "sha256": "9e6bc3955ab6ca83da0ad63f24d6b6f22df590abb49e8c023f072862f79e99ea"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_backstage.json",
+      "sha256": "fcfab5b170a5f3f794ae06f8103f4cb3c63d30e3a7305e5f233cc0e027235a49"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_backstage.png",
+      "sha256": "7ec0e612364e61962d437b64cefe4e4e01ced79df40ddeeb697ec28c25372aa2"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_bronze.json",
+      "sha256": "4a1cf99949e5b1a5d5a5713939a684a1a8c2f7c6655be35bd4445f911f10ca14"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_bronze.png",
+      "sha256": "fff27f7537f3e1123622cab3f1ad89f48f94e38bec281f4750a19d64f6afbf35"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.json",
+      "sha256": "208707fac3f4f60cc11c14702a951072c279177bf2ac1110b9a2ab29fa369fde"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.png",
+      "sha256": "ff08262cbb42473ddc33a95ee16fbf89290485dffa8134296148dfeecfaced6c"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.json",
+      "sha256": "ca42b6e60c1b48e4ef8ba71eeed321a7d9c78c22018b1050d15c5895cfdc4347"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.png",
+      "sha256": "ccef33c7d4578af142fcbc12b1976bbd18319b489dbd82812957287ba007e2dd"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.json",
+      "sha256": "d74fdeb6fdf154ef1a85eb3137b0229ee6d8e455d5219266304490c3cc31830a"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.png",
+      "sha256": "c6314038d90a2f27a2ba8d04053b16f150879a30c94bfacdba6d2965cfd06767"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.json",
+      "sha256": "6cccd98b476b7f6cc8421b56e3e9972eda83f4eb3988b202598a2ac78f63e110"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.png",
+      "sha256": "77b3ca4b62c0d7c5244715b13ee859f756930b2bb56a3ad10f3407b9f2f9956a"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.json",
+      "sha256": "2fb3e99ca9584d4854a9251c8b6ba8a5770e8b293396953fc6b21437841ab18d"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.png",
+      "sha256": "206fe370f53091992e005c67d9e6c3be1254bbd307fbf06612937a769957dbb5"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.json",
+      "sha256": "939e6f5185b059a59a7775c4c03ea425dca2d7f4bf151ea41be5def4ac93366c"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.png",
+      "sha256": "aa80d5dff42e78055accbbe2d3dd7da374bc2f949e12043cb6d1de2c7544739c"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.json",
+      "sha256": "804698815ca3f7e5da86c4d52916d1faf7f92729a3dd44341eab894a6d2fb9c8"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.png",
+      "sha256": "1c0d7a13cc803cb679e97a5473a98d4ab596ccb75cb7ab10e9e82bd5dc1dc545"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.json",
+      "sha256": "af5eb443e83ad83513013f4d37c75403a8499a576c7062156c7e1be1f44b79ed"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.png",
+      "sha256": "b6f24f02d5092a8c193c8d74b8c8e650e2dede99ba2a3e90802e30f46a1c0715"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_backstage.json",
+      "sha256": "2065238a82a006949d556627e703003e823a809b8bd4aae6ab125185291b6708"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_backstage.png",
+      "sha256": "ddfbd7c399b20629014dfcc6e8f000abc5f22a24487806df55ba6ea6d1c92411"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_bronze.json",
+      "sha256": "23c66c09bebbd8c387abd8ed84b6fba0c9787ea7c06674de4e8bedbb8ee3c595"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_bronze.png",
+      "sha256": "b6827e377f6cee60038d48cdbe07776362d0393ae8b25fde932feffc5dc45aba"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_lattice_wood.json",
+      "sha256": "5157d99ff2206ce0fd561fec0fd5065b6c4056fe229c5a8e4527bada1cc59b53"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_lattice_wood.png",
+      "sha256": "62686438d6fbc0fc5f584607550fd6ce2402a332df1c16eba32e27c74eac7417"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_plaster_rock.json",
+      "sha256": "da70c6b030b941fd3c2c4718b833e2514745dd0ec29a6464c98fcd33ecda1cdc"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_plaster_rock.png",
+      "sha256": "81636633c0f545aca7b22c47bad21be76b847bc0513c0381cbaf42db3d401a97"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_props_atlas.json",
+      "sha256": "5c7f69414f34cd8ff6ea61d19670613cfeb2c579ffd9df176372beeaa77276b9"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_props_atlas.png",
+      "sha256": "07f86e0c939ebc6db5b6606e0c65877402e1254a5ffafef9c66dfbce42510ba9"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_rooftile.json",
+      "sha256": "99b35d5a7fcfdd871b0523a969851f5e344b96a977db5b388ad0d4a222e30af4"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_rooftile.png",
+      "sha256": "7e7cb5b8a64ef9f572fc32544d76205be0f0c0f35ac499a26449292ae5755366"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_whitewash.json",
+      "sha256": "c2d7ac6511189c543a881b0407ec8c0605d86f513cf56788c059e46bf13dcb52"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_longcui-an_MAT_whitewash.png",
+      "sha256": "cbc93ed3a33cca949d26ee40ae4e68a7d618ccebf7d586d4780b83a48935ec52"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_bronze.json",
+      "sha256": "44161cd322ade89915aae25a1ed2212037cda1591ac93a5a6fae935d37ee9b01"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_bronze.png",
+      "sha256": "15cb3338197caf1c7f68696523990e29ff2131607efae1348eea6711b0c6b2b6"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.json",
+      "sha256": "006f01a606205476e3b2543c520b801f03823b13f29e68fecb84571e90acacc1"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.png",
+      "sha256": "dfd56b1ad487d97e6b72a6e5c187da1bb636becfa90db10d927a98b83c23feef"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.json",
+      "sha256": "a742d0aab9c83ff29275ec17d96bce2f8f27627508b330f478c4c40257150b55"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.png",
+      "sha256": "2fd485f6a168f114be2d9982fc81009b76ea84f319966f21f58e2b7bff9c8b85"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.json",
+      "sha256": "358f95306f6d3a42c962acbd621309513bb1ba28c8691b90bea4abb718fe471d"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.png",
+      "sha256": "79ee058bb808473f23419309f7429c40a87d2a48be944f98a4a8977f0c2d353e"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.json",
+      "sha256": "074cbf4709734968fb29d85b4e47a7d9b6e19b6cdf0221b4e5c6dee2d38df51e"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.png",
+      "sha256": "a53f244cc2f9837f58b15c9b09aa4a38b1f19b96e6bd6868e71eaa789a6b7ac7"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.json",
+      "sha256": "84968f5ab38f99e5c115862cb33f2dfd826984dc6639d13a103dd4aa51b9dbd6"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.png",
+      "sha256": "eee3b1172459585992d5f83dc5a09b4732476d8c4b6534c2368ee16a04daca4b"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.json",
+      "sha256": "e6c5694d1b4043ee54b117d327ad09a130e74911717885262d41d2fea93307e4"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.png",
+      "sha256": "1145b01e547df98b097a08c34fdf19364e54b0a3a63dc0ce9cef5cea93dc19c9"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.json",
+      "sha256": "82002fcc32cc7c363d3d6be8771916f8cdd81fee3fa5c7d14fc50f47d06793f8"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.png",
+      "sha256": "317c4a747dad91ec3d30e76dfa4063bb941d2948f865a84f3169763447b3e1a8"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.json",
+      "sha256": "129d8c7e769836399ae2a2c89fd359fe41255198828ae52152c41c1e1da5cd1d"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.png",
+      "sha256": "23b3e8c691d15e64ce98619b1fe5a60b2bb3fc83f2ea6d0241e5336d9bb2c739"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.json",
+      "sha256": "cba9aba51d92af0e650a18deff58ba9dc7bc539d6d803f8c4d6fc30b3ce4a57a"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.png",
+      "sha256": "42ca2ba9fc6c195c9d3fbf0de6f4e41a233a380dd64032cbe894dcbcfdcdb1cd"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.json",
+      "sha256": "d0d286f5581792e3cb5a423b6e3ebe667fa31206069d83d96a4eac5812fad027"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.png",
+      "sha256": "34e94cf256c0e2a18a3c54a26f30ac73ac659263ce0df847dcf1dd59526a3038"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.json",
+      "sha256": "1fd22bff5fb144a215543ca971a63579abdd2b5456ad790b57682b742e016811"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.png",
+      "sha256": "e59f6fe39426c8e33e187186326ccf2471e5026a7ba8253a4ec624fa14921385"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.json",
+      "sha256": "f3bf2851172fe1f6090412ae2c26d0342ae6cec5788134f2660661150f1f0cea"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.png",
+      "sha256": "07814431d2fec6823d9d6105fda509dc68a8f0bddb4e87e653d11c42f14ab6ba"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.json",
+      "sha256": "1277d79b8975581d26e661a3c31799ca64ce70cf65755019bb8c069a9ee1ffdf"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.png",
+      "sha256": "7fb2afb818b6057f654fdc571e531c92d12d319f9226c43b4ebf41f31e8409cb"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.json",
+      "sha256": "c8c64c08350eb14d104edc73db01277abf7590d73168b7bec37e943cc598693a"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.png",
+      "sha256": "b8c697063a90e0b82ff9d1d73745d42fb3d65687d2de8174fb22018b9d62a713"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.json",
+      "sha256": "6076a17233220c0e0e111836c40ded57312fd25b04d11408536a4a06e219f45a"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.png",
+      "sha256": "6b67ce744fc7bbd6449ee1327eb566701d3cc8a0bed2f11572c0ea6540b98f07"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.json",
+      "sha256": "92f54d28b53716d0728be8c5ea31b8eea26dd34e45ac0d6ed523672d2a3878d8"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.png",
+      "sha256": "5c5c87bfa4d54b7e2eac538c774c542fef8fe534af6699ecd46d20e78794c085"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.json",
+      "sha256": "ffa3553558bc2179e7cf34137104da0b320fb20d8f0bf118ade871e6df4ca9b6"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.png",
+      "sha256": "5158f5f93a46706bda8fd6027b87e1aa830e466d326a4fd22801b921b87da925"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.json",
+      "sha256": "ca3076a297f0173811d970f1572e0069ea984dee713adbb9cf83f6e591ab19c9"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.png",
+      "sha256": "4bef8b54e4bd6e3caed991a7e5157f04769bf157240fddcc19e7370e5f8a720d"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_foliage_card.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_foliage_card.json",
+      "sha256": "106af15ca49de4cfbee10cf131a8ac5603e3ee3b24bb0af13048654d369f9c02"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_foliage_card.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_foliage_card.png",
+      "sha256": "3ffaa864ceb978ccf8f8995083cb375b1073a956e5e4c514f3c39e68b5e0952a"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.json",
+      "sha256": "59c33faa82e283dfbcba974989f1ff407c47638ff8a9628d9530156b85ade3f4"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.png",
+      "sha256": "029804e68fe768c89035b022d372e93c2f677789f8dc3c71cb94f9fbc9a03df5"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.json",
+      "sha256": "c9cdd0602108704f9739603e26b1209224a830965566620d6e39ea8d138d099a"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.png",
+      "sha256": "a32ff87d1b5fc4d89fcb54d5b7650f0df2831502752923dbd63d1c5440a6c872"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.json",
+      "sha256": "d6ac7337a88cea98b890457f653a064578b40a9c2a9c59dc1064aa5a5dffdff8"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.png",
+      "sha256": "54e2cf2c5385d5b1f2a1767ba21dcd24ea031c24ef51e5e3b11dd6bb5c659e31"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_props_atlas.json",
+      "sha256": "b47cdafaedf7ddc9339167499caa51ec53003be709c9bf5bcff25e586ce05b9c"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_props_atlas.png",
+      "sha256": "38d19c5865c4342172f202266c5bcb7857188747d3c7aba1bc859accba9d1279"
+    },
+    "source-lightmaps/SITE_stage_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_backstage.json",
+      "sha256": "48737a31bf43a4b1af7624cccb94ca6fb9c199aad0f6731c8b7e1e56e279f38f"
+    },
+    "source-lightmaps/SITE_stage_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_backstage.png",
+      "sha256": "2d43b328b99052430fec2b124a1e5549076d2367835e02f00ea13eec1c835256"
+    },
+    "source-lightmaps/SITE_stage_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_lattice_wood.json",
+      "sha256": "bdecceeed70b56ba53c5a100b98cd1f5159a6760c65a181e565df4e9b49556b6"
+    },
+    "source-lightmaps/SITE_stage_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_lattice_wood.png",
+      "sha256": "52b857d3222af92484b0f246bacbf75590356b1be536a1386756890d137550df"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_moon.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_moon.json",
+      "sha256": "0c723e2f79746bd56bfc5df647befc64ad0a178a6850eec1baa7e7685bc07471"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_moon.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_moon.png",
+      "sha256": "391604a3cd3b555f2bc4c4ce01b50853703ebf344c0c366649e9ae09f427d666"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_0.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_0.json",
+      "sha256": "88dbea5bf0706da18ddab8498e2cd28703d90ed821cc5f6723315d822fd8ed5a"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_0.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_0.png",
+      "sha256": "d93852620cbb746ffb1767e4d75ae2cdc9fa796dd450e96c9f01cce55d1fc75d"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_1.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_1.json",
+      "sha256": "08dc8224a5c042802a476fd4adb47103b0c982627586a8dbc7db4ca02f30b064"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_1.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_1.png",
+      "sha256": "59cb1bf6147b753714075d58fc508c8fd10b99185f4d28986e445fc2d9703cd1"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_2.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_2.json",
+      "sha256": "117fa727df3ceca349ac2f7d0f9fbd9abd30dd1b0c4c5df054a908dd434967a0"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_2.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_2.png",
+      "sha256": "c689e2d4f46d5c9e0a7b3ee8fdf00334a21b8f6040c078d1757b233d3ab0683f"
+    },
+    "source-lightmaps/SITE_stage_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_plaster_rock.json",
+      "sha256": "b139438d33cacd37219e26105e9a70586dbf6d2c206c66c05dd2aec3d7f29b4b"
+    },
+    "source-lightmaps/SITE_stage_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_plaster_rock.png",
+      "sha256": "d71f10d1e043cff0f54c95af633870663b786b7b237d02021b581d57005b3c8d"
+    },
+    "source-lightmaps/SITE_stage_MAT_stage_canvas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_stage_canvas.json",
+      "sha256": "0077e5a845eb45f11781bd8f2c405cc89c02f50afb622a06ff47395e53c085f1"
+    },
+    "source-lightmaps/SITE_stage_MAT_stage_canvas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_stage_MAT_stage_canvas.png",
+      "sha256": "2c681f9db6199de120bdef3c51be2f39434c71575b313df2bd1eff371a43b653"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_backstage.json",
+      "sha256": "02e52ee74807cad024f3afd5e8363f5e56561431ca6af3d9a01cf7f0ecc1b1b3"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_backstage.png",
+      "sha256": "096b6b2222adf3bd7ebdea0ebd7ef00173ec1e205750b2e3188332efc645cfd5"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.json",
+      "sha256": "937870cd30d63165a8af66ca3eda2fdb86d96f0744d3717059beef8a890501e7"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.png",
+      "sha256": "2555af4cc56490ee5443af4c474de796da0115d2761d5a173c572d0e73ee69cd"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.json",
+      "sha256": "023844dd458a97eb279deb0c975960b002392178fd4929434e1002e17357e42a"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.png",
+      "sha256": "b43cae29a303642ed4a671e976d9cd7c0d8e9d657aa716dd74f9c34479b9ef0b"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_props_atlas.json",
+      "sha256": "7aa51001db2c5ab0cc5f549f0c0fe70b0cec85370cc1c9911004ac6c2e083916"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_props_atlas.png",
+      "sha256": "b78dff01b7a7be9c6a0799988ffde59611de358bcafa2ed8451f1481e0824d56"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.json",
+      "sha256": "6b0d1fee923ef14ee916584085919a1b9de69e6ba2c59a9015aef6ec7b63b093"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.png",
+      "sha256": "0b9adf9c1ca31a7ea8e7f2fa29738d22c6a1b79e171034202457448c983cb7c8"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.json",
+      "sha256": "003d5b5f2eab9125451c86ddca660639ebf776a38203c659ca3984113e67128a"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.png",
+      "sha256": "aa0ba45d12b332504ef2e51664b8cafc2eb08d0d2e26c23ea9d26f09d5aae7f3"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.json",
+      "sha256": "a81f77ff7f7185ec73cc3be3b3ba8eef9ff5a5ab63d76d5bba881420a51d89f2"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "sha256": "c5544d0d4d99ab667fbbe2aa29eb4f579e9500a23e5bb4887f8d88f6260d81ae"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_backstage.json",
+      "sha256": "3d3f6c742bdd4eee48b1b5897df2232cd94a206574098522d856dcb37e0f05e0"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_backstage.png",
+      "sha256": "800b768d8e670ffade11fa207de5358678507dc31f75748002eb77c8c55e9811"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_bronze.json",
+      "sha256": "62fabb437d829be6bb3993212969bbd138ca643dd878ce642d554dc49456ebe1"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_bronze.png",
+      "sha256": "4d04d196b29d2751ed4a50df2677758cc242108743547ba21d84a60d6b095a90"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_crt_amber.json",
+      "sha256": "18ca2355486a7e911946d7d7b4f5e98c2a7b32a02d76039c1bc6be4639db3684"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_crt_amber.png",
+      "sha256": "dbfc7c56f9b28c4036c56b76d510fd9e942012dc52b989478081506a9bfbc7eb"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lantern.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lantern.json",
+      "sha256": "caaa8305476e0e91e122c1d0a680f99dc75ebea963f3eb004f7a75c82255b63d"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lantern.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lantern.png",
+      "sha256": "c3fb1e1db8aa68db30d888ba07798f3397cac8d5b21f47aa3cd886291d542499"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.json",
+      "sha256": "055ad4348228f57078861028bbdb811486bd2dffe2a089834bdddfe96b915526"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.png",
+      "sha256": "7dc153d58ae402742d12f17ecad54a7bbaca14b2a7e44ab82ee90c9354e6ced8"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.json",
+      "sha256": "7a223514c80e0b8da985532180e5975738feda557904025dbe3768587c1e73b6"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.png",
+      "sha256": "fa5f5e163bba615099aa9b37463a2d52a287da9b04758c96cbcec277d2f281d4"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_props_atlas.json",
+      "sha256": "74cba9218464dadae7f90dd6985e6913e8ce817108e02a5d18ec24f99db6826b"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_props_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_props_atlas.png",
+      "sha256": "ef486802fccf9ab08ddc0b1349afe54f1c69e911157ab413aecfdeba8224cede"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_rooftile.json",
+      "sha256": "c06585df746d7daffc77d7363ea2e4b50bda894f6c4aed314eda9589a759eb87"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_rooftile.png",
+      "sha256": "b88c28dbcf69b47a7ae8e536a594b5d267fba98707455ef0465afb6ed18c033b"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.json",
+      "sha256": "8b1751ccfa3677b36fef9b40bf65567bda563d6567c3da0c02a32edb9f83f4e9"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.png",
+      "sha256": "8b45ab6fff5136cec83485aacee4cbfb8eec433cb5fe46e20cb123699cfc75b2"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_whitewash.json",
+      "sha256": "fd62dd5edc764001e9de53b02129db8a347d83ab48ac2bdda00348da8f012b12"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_whitewash.png",
+      "sha256": "26d3aec87a45f529f14688d74d47536e13e7ece004f9637d06a1295b9bdef4db"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.json",
+      "sha256": "d15cd135ea3ffcae57279777694c0e90e4242fff23aa53570ce55c8bc8d0d9f4"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.png",
+      "sha256": "dc62e7e858eff9676847157bbd95a3a4303379a1c140a2777b3d768d62cdece5"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.json",
+      "sha256": "f24932cb610ec811776a2ba5136453edcb447b5121c8ce7efd0f2a4a8ce582ad"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.png",
+      "sha256": "50868f6999c62753cbbc8981b684b009df24eb08171cc1349dc47d7ee12856b0"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.json",
+      "sha256": "3511f954e14f3078bc7b125b5161b09840b3655df9594504f66c48fab8aa04ae"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.png",
+      "sha256": "70f04d807b2c0cfeac2ffab58d67fc7ec8de81a3447df773ef4d92f7498b8472"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.json",
+      "sha256": "88a4ca05d6a079f7c42af91f8a332d39775e6fc08ee22bf6d28a0292dce1aa50"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.png",
+      "sha256": "e6d6046ec95425ea55ff1d7153b88d3062aeae0046566f436eec4cc52affe365"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.json",
+      "sha256": "12330a1352ea00562bb800150d9c34fceabce6c9769101a2a2b0039d01777549"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.png",
+      "sha256": "e002de9d0ce4f52871e86a32bc62b08bdfb985542e38a31ee89e9f65c3fb833a"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.json",
+      "sha256": "9fb53436d25b0b03f014c05882f0917ce2ad7cac73043873bea27ce0f938a417"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.png",
+      "sha256": "f2bbedf21708cee7d7a68760c98c1c12ee09e7998b1aedf03e4d5de472b07ec1"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.json",
+      "sha256": "34748dda8113622a7855b085615e34fd8663aca29179bb8b3c81742c3d217734"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png",
+      "sha256": "22256f4473dab0e76739afc20c76243ca91f035fa1b44f46b66e2d214c17cb40"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_backstage.json",
+      "sha256": "58d5bd6fbc318a876dd491f7db0569adf60624615c0d3bea9896b8c42b8580da"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_backstage.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_backstage.png",
+      "sha256": "b804c8a5cfb2cf0639e86f706313f4e8cad963000f7271824098594c656981c9"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_bronze.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_bronze.json",
+      "sha256": "dcb8ec7a99788c22ae6e52d0d348dec21391d2d6708d43d9b1b06704d7a705b8"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_bronze.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_bronze.png",
+      "sha256": "f2b427dae7272fcf95740d64742d2a3b1fb707c565d66323ddf89de954c0bd1e"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.json",
+      "sha256": "3f1a2ec93c812c7f311bf29dc999e906e1ee1ad9515f45cd468877cc27e30e6b"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.png",
+      "sha256": "c03a2e42d815537ce866f06fc3ea96140bb1e3423179a48748693b8df80e80b8"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.json",
+      "sha256": "ae6fc8a1305d1ede23594c0f1c4837c2ac6450578073b2cbdf5a32cdcb0472bd"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.png",
+      "sha256": "ce090773960b1c7e464c39018055f322ff79beca280b88e9a20256f0c47e1754"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.json",
+      "sha256": "817b8e03b48a2593d2b5bbde93e4d9dcc0f00bb0a84962c855fd5f6ea3a8b537"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.png",
+      "sha256": "71b3bdb00ee6beff32303673b74a0b65473763ee0cb19faebb1e98d341df0877"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_rooftile.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_rooftile.json",
+      "sha256": "7ee6528cb9266068e43328f467e80915ef1d73f44c2532691f7f51f61bdc289c"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_rooftile.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_rooftile.png",
+      "sha256": "66520ca0c198b9bd80784af362a690a59d5cfbb110d6b6612c43d81647bbe1b4"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.json",
+      "sha256": "d4c8e746897ef93484d11bf4a26fe215ca5327e88ae7fb1aa6928ed41c2deb2c"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.png",
+      "sha256": "0f7f22732f929582afa1c191c31f98f962bd1bf25a00b914193f5662f3284442"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.json",
+      "sha256": "930ae63731d5f14237776b989c01c17103d5b30e1e5cf04252a47fe309341a41"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.png",
+      "sha256": "b6351590ce4cff8b11b3419068093ab58d214faf6aa96369dde116a350eddb5c"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.json",
+      "sha256": "f3f9d0d93d4d48c89760ee930e60c612f2222fa71c810aa3ba8e9e0b1a7286fc"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.png",
+      "sha256": "09577735f81c1579f1ea610f2da17a51af020f42ca4eb7069a58425ca92c55c0"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.json",
+      "sha256": "5168bbbb9ad93f0f67096011d1fd8c8642dec71ae832e6f3168223cedf36268e"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.png",
+      "sha256": "06609c5288b1db6533fc1d1be37daddde63dc789ad08b3c467c04779fabb610a"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-back.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_moon-back.png",
+      "sha256": "d1de1fd43e9b50aeb7f1d61f3b317c280e87ae0e5481cc210009f6e947002ad8"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-front.png",
+      "sha256": "6e03e79c4e5539bebce3299186ebbce5be896a8086f416acbef0cf1f71f71e97"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon.json",
+      "sha256": "4c1536365b7ab2f5cd453b9ac2a3a5f680bbc6e9ff3aade2488778506698e627"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0.json",
+      "sha256": "13defe34b318d192c56218ad3531fe583e4ce16829021c0d081104e66ff72967"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_1-back.png",
+      "sha256": "f0d385997015691d5929ecbc6251bac694fd5ac19446bb21473f963a7841933b"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1.json",
+      "sha256": "55dd5502bec420413a2e3d7bcbc384c6c3125a95ee7970d8718086c0ff051933"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_2-back.png",
+      "sha256": "5c68a64834d9b664679e937b066429b04d7b990ba2d9b874c2ea3b2fd3c224d5"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2.json",
+      "sha256": "a6cc7cf74077caf9d74c88218986f65543f976f93a65996cbb4c90f90c7746f7"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint-front.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_stage_canopy_paint-front.png",
+      "sha256": "5fd81440353159f34f629d89d6e82f50a301bd7153e6eceaae375c6836b81f55"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint.json",
+      "sha256": "d6c55a322a0138860c2f56b19d79387e69942a7ea1f7b9b7150e73c801aa9cd5"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png": {
+      "path": "docs/reference/ceiling-lighting/fresh-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png",
+      "sha256": "1e1128c0dbbadcf607a88ed902e193da72feba6e4e6492668708bf7dd0dd36ca"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas.json",
+      "sha256": "777191a54d6c7e84b9f8b86473720f067d4ad01013419440d61622f75f980fe1"
+    },
+    "source-lightmaps/backdrop-wash/manifest.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/backdrop-wash/manifest.json",
+      "sha256": "8a8e8f0e0ba24d6de800e4d745bf4b2a6f9b17d3612225b82c418027ab2eae56"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.json",
+      "sha256": "02861d350ae2b928e7b69b1a7cd3d787e6bf04b18056006f22ca5aaa2153d7a9"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.png",
+      "sha256": "591a74708bfbfcbac9fd126e0cab450adabb9301ba744a52c606b8cf1c7e1d84"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.json",
+      "sha256": "b05063911dd2bdd752e893a50a78d474f0af6a1920d97a3be129f6f657936988"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png",
+      "sha256": "7d13517d06528d050d92f5edc2056eb4908e8594ac07ec88f3ff16ac0d83c16c"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.json",
+      "sha256": "50d1a153b6fe6721753f91bcb0bbcafc066dcafd62f9998e3c81fc4da7e44ab7"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png",
+      "sha256": "5ac492cf3e63ca259c5a1ab8bd04d126f75aa9e374a4b21b3ffb1ad07583d034"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.json",
+      "sha256": "98d398feb4795d5a09398b16d365dd28731ebe8173f0b14cd416c7048e56d737"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.png",
+      "sha256": "f9475a400b15d6bf5e57d36956a9059a0506c8a50924e8a9b8bf17aa1329bbf1"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.json",
+      "sha256": "95572eba75f2c8b4097ab5f0883411c9a4ea761d7d16f1901ae6eadf5493d390"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png",
+      "sha256": "e526cd04a0c8acea30a767e10e28769ba4e27296944144a2efe698542c273b93"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.json",
+      "sha256": "3158a5a93c6d8349542c5246783738a2f3a9fe65db3a15e37f69a21716c6b5a0"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png",
+      "sha256": "240c147d80a611f0498e1f335e0ec1896fae1a708c930b197bfad91d4ed2163c"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.json",
+      "sha256": "81ae4a4249229f13a8ccb1a7887dcc3de992d5eb06376a77f2acfc01f8492682"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "sha256": "0db4eab4257dc1eaab6a6904a698be03bd6bdfe38ad9da3ac4a28dbf64c36fc8"
+    },
+    "source-lightmaps/terminal-spill/manifest.json": {
+      "path": "docs/reference/hengwu-full-lighting/source-lightmaps/terminal-spill/manifest.json",
+      "sha256": "07193a314f4d8e1371a67637db8955c344b84f6be5f5f6e82f81b7830b6f699a"
+    },
+    "lighting-preparation.json": {
+      "path": "docs/reference/hengwu-full-lighting/lighting-preparation.json",
+      "sha256": "21de642f4d3c5836bf9294408685e4e6149b42496bf16728d7e93eab799e7dae"
+    },
+    "full-lighting-inputs.json": {
+      "path": "docs/reference/hengwu-rock-preparation/full-lighting-inputs.json",
+      "sha256": "a3b33bb11eafba53d7a612cef73e9fd3ff9acd85669caaaad842a6a6b1129286"
+    },
+    "export-preservation.json": {
+      "path": "docs/reference/hengwu-rock-preparation/export-preservation.json",
+      "sha256": "43c93674b595330e168d4294c62650b17953e4206db839f5f94e706e148819da"
+    },
+    "full-lighting-refresh.json": {
+      "path": "docs/reference/hengwu-full-lighting/full-lighting-refresh.json",
+      "sha256": "b34f6c2619b5ba135bc5a4bb92887d67be8f82a1ef38389b0f60ad58aa422ca9"
+    },
+    "lightmaps-coverage.json": {
+      "path": "docs/reference/hengwu-full-lighting/lightmaps-coverage.json",
+      "sha256": "5793e4a788728fbf0a11e55bdeb4f6617c2202e0ba39a05b01316aa6528e4893"
+    },
+    "lightmap-pixels.json": {
+      "path": "docs/reference/hengwu-full-lighting/lightmap-pixels.json",
+      "sha256": "e2f6d60a313cd9af56cffda39fa17776330607653eaf051f15eb89af54ade3d3"
+    },
+    "terminal-spill-pixels.json": {
+      "path": "docs/reference/hengwu-full-lighting/terminal-spill-pixels.json",
+      "sha256": "06888089aee04863eee23e00f40065076978bbf249f2d17bce9849443c67d815"
+    },
+    "preparation-logs/site-libraries.log": {
+      "path": "docs/reference/hengwu-rock-preparation/lighting-preparation/site-libraries.log",
+      "sha256": "4e69018492af82ec192916740d713bd382394b9ca0a8a59632f0a72697426224"
+    },
+    "preparation-logs/shared-wash-receivers.log": {
+      "path": "docs/reference/hengwu-rock-preparation/lighting-preparation/shared-wash-receivers.log",
+      "sha256": "4fde473160b3617d509ddbc9d7a032159075fff06da7dd23edbff019096a30c0"
+    },
+    "preparation-logs/full-lighting.log": {
+      "path": "docs/reference/hengwu-full-lighting/preparation-logs/full-lighting.log",
+      "sha256": "b5bff36740ffe8ebaf3b1e65fd3117e4940a84595e1a9bad6da9bf89a4ac9eff"
+    },
+    "native-bake-logs/ordinary.log": {
+      "path": "docs/reference/hengwu-full-lighting/native-bake-logs/ordinary.log",
+      "sha256": "55ea76f4eb161860a5104294d3e098d732bab8ffdc9050042e0a319460f60717"
+    },
+    "native-bake-logs/backdrop-wash.log": {
+      "path": "docs/reference/hengwu-full-lighting/native-bake-logs/backdrop-wash.log",
+      "sha256": "f48d0143b13dee446533b7d205689bf0ec339f83b1b7956131f568d0c1953168"
+    },
+    "native-bake-logs/terminal-spill.log": {
+      "path": "docs/reference/hengwu-full-lighting/native-bake-logs/terminal-spill.log",
+      "sha256": "0245d567f496c2216631f6e15aa7f54edb6fa39100d32c51e852657d1cf9bafb"
+    },
+    "native-bake-logs/terminal-spill-pixels.log": {
+      "path": "docs/reference/imperial-full-lighting/source-native-logs/terminal-spill-pixels.log",
+      "sha256": "6ff993a738c9e7b8c806df574e1b1ffab8eb794f7dbd5cb5e818744bc483be82"
+    },
+    "native-bake-logs/native-pixels.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/native-pixels.log",
+      "sha256": "630c39e85db7525f8c3208203939c9825e66c99e48385fccdb296fa95d75b9a3"
+    },
+    "native-bake-logs/coverage.log": {
+      "path": "docs/reference/hengwu-full-lighting/native-bake-logs/coverage.log",
+      "sha256": "31dca82d5417c8dc21070be263c2b1611168c2d82317e0c3202ea1d2a31b0e63"
+    },
+    "executed-preparation.py": {
+      "path": "docs/reference/hengwu-rock-preparation/executed-and-diagnostics/garden_prepare_hengwu_full_lighting.py",
+      "sha256": "266c4f12bb526351774483bf425b68c29ffc1486f68802b72d32183470e3982f"
+    },
+    "executed-archive.py": {
+      "path": "docs/reference/hengwu-full-lighting/executed-archive.py",
+      "sha256": "46a969acfaa59451d2510fcdd8996a3cb7367551ed6e9c7c7602dd3e9644efb6"
+    }
+  },
+  "native_review_pointer": "/tmp/garden-hengwu-full-review.json",
+  "archived_at": "2026-10-08T20:15:31.131728+00:00"
+}

@@ -1,0 +1,286 @@
+{
+  "status": "native_camera_wait_regression_passed_full_review_separate",
+  "scope": "Actual native RED five portrait errors and six incomplete Hengwu action poses, followed by completed camera-tween waits: nine exact action poses and fifteen zero-error portrait resize captures. Source26033 and runtime db32 unchanged; only camera-test waits corrected. Earlier outputs and all 48 original PNG hashes/dimensions retained. Full review/tours, adoption and final art remain separate.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "db32d9c058a732c330d9df910b22b961f755045c5904c47e8fde68fd3c056138",
+  "first_portrait_errors": 5,
+  "first_incomplete_action_poses": 6,
+  "completed_hengwu_captures": 9,
+  "completed_portrait_captures": 15,
+  "directly_viewed_completed_originals": [
+    "candidate-arrival-1410x600.png",
+    "candidate-rocks-390x844.png",
+    "candidate-read-1410x600.png"
+  ],
+  "visual_limits": "Compact stone leaves more of the right court visible. Pierced close view and book remain readable; lower rock/roof clipping, wall cap, broad ceiling and facade/filtering/art quality remain open. Selected source-matched originals only, not final all-site acceptance.",
+  "artifact_locations": {
+    "first-review-pipeline.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-review-pipeline.json",
+      "sha256": "c4c3709e6212def17f83fe2e42ca0a63dc85b3a7ba09eaac5c50f349baf72ab6"
+    },
+    "first-lit-capture-pose-rejection.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-lit-capture-pose-rejection.json",
+      "sha256": "8c99fe54f554917325c25089878e947ef5139a86a593f1254461cd404e7a94fc"
+    },
+    "first-test-inputs/render_hengwu_lit_candidate.gd": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-test-inputs/render_hengwu_lit_candidate.gd",
+      "sha256": "f64609c08dcf7737400cd09a0e778279f172981a796ca2a11b217f624f9916d7"
+    },
+    "first-test-inputs/test_portrait_architecture.gd": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-test-inputs/test_portrait_architecture.gd",
+      "sha256": "8c360366fb928c2073a2bd951edcaf3aa5a125a1a15665e421efc0a4369a4ab7"
+    },
+    "first-logs/hengwu-lit-actions.log": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-logs/hengwu-lit-actions.log",
+      "sha256": "626c906b968406e44138772739297e35beed8d9c882af2369936e6710ff58111"
+    },
+    "first-logs/portrait-architecture.log": {
+      "path": "docs/reference/hengwu-camera-wait-review/first-logs/portrait-architecture.log",
+      "sha256": "0bff75079195f9de07338127f73e795e63e64cdab0b40013fb0bfe916e738bea"
+    },
+    "completed-logs/hengwu-lit-actions-completed.log": {
+      "path": "docs/reference/hengwu-camera-wait-review/completed-logs/hengwu-lit-actions-completed.log",
+      "sha256": "626c906b968406e44138772739297e35beed8d9c882af2369936e6710ff58111"
+    },
+    "completed-logs/portrait-architecture-completed.log": {
+      "path": "docs/reference/hengwu-camera-wait-review/completed-logs/portrait-architecture-completed.log",
+      "sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6"
+    },
+    "review-captures/hengwu-lit-actions/candidate-arrival-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-arrival-1410x600.png",
+      "sha256": "9e83fb52f4518221eae6a5340eb5cf6e7ad07dd8db5bb4fdaa00bd85d7de136f"
+    },
+    "review-captures/hengwu-lit-actions/candidate-rocks-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-rocks-1410x600.png",
+      "sha256": "eb922925fd467ce64be7327ab6976c555e064c064c02719362ad6bda46936a97"
+    },
+    "review-captures/hengwu-lit-actions/candidate-read-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-read-1410x600.png",
+      "sha256": "a53b657443d8b5c7a77803c4581df9b67a2a0fbe86a76bc73be13216a70193dd"
+    },
+    "review-captures/hengwu-lit-actions/candidate-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-arrival-390x844.png",
+      "sha256": "696cb000ac8a56c209eac1254b2a6e36c995fe4c426ad6bf8eadbdb495a0fcb0"
+    },
+    "review-captures/hengwu-lit-actions/candidate-rocks-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-rocks-390x844.png",
+      "sha256": "850537acef4eb9800592535e8c201e2f083a5ec487f6c3153be15aa0ff195eb9"
+    },
+    "review-captures/hengwu-lit-actions/candidate-read-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-read-390x844.png",
+      "sha256": "04bad664d63d175a07a6f79f4cb2862f892d976225a71dcb3ca0d3c7dd99949c"
+    },
+    "review-captures/hengwu-lit-actions/candidate-arrival-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-arrival-360x800.png",
+      "sha256": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06"
+    },
+    "review-captures/hengwu-lit-actions/candidate-rocks-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-rocks-360x800.png",
+      "sha256": "d4abd17350474e42daddca126fe72bb2dd83bbf7d29197d889f6b6296e37e95e"
+    },
+    "review-captures/hengwu-lit-actions/candidate-read-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/candidate-read-360x800.png",
+      "sha256": "306273f9e6554b3d72cce14dc78dbe357b1d2f801539447cfbf04dcadd5edb78"
+    },
+    "review-captures/hengwu-lit-actions/report.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/hengwu-lit-actions/report.json",
+      "sha256": "33dfe014fc217cec67a77b5473aa78f194a67c626b0aeaf167ae71a76a086f2f"
+    },
+    "review-captures/portrait-architecture/daoxiang_cun-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daoxiang_cun-arrival-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff"
+    },
+    "review-captures/portrait-architecture/daoxiang_cun-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daoxiang_cun-doors-390x844.png",
+      "sha256": "9a2d2e9814490661ca998480c0d27b2572271bcd75c423009c66a8835a9ae02f"
+    },
+    "review-captures/portrait-architecture/daoxiang_cun-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daoxiang_cun-look-360x800.png",
+      "sha256": "80f3b251b0fa138fc5a400e314cba11b8e4b5a1e0deb8462561fda651df583f3"
+    },
+    "review-captures/portrait-architecture/daoxiang_cun-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daoxiang_cun-overview-landscape.png",
+      "sha256": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320"
+    },
+    "review-captures/portrait-architecture/daoxiang_cun-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daoxiang_cun-resized-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff"
+    },
+    "review-captures/portrait-architecture/daguan_lou-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daguan_lou-arrival-390x844.png",
+      "sha256": "4e79a81a2761d08217a90d3844ce1c36fb1b9302bc3c30bc1c522464e2875d8a"
+    },
+    "review-captures/portrait-architecture/daguan_lou-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daguan_lou-doors-390x844.png",
+      "sha256": "aa8ae6a51812b8b3320f171471e06308b4e1be56e2dc1bab89fa1e4edf1380e4"
+    },
+    "review-captures/portrait-architecture/daguan_lou-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daguan_lou-look-360x800.png",
+      "sha256": "3567f0a2520b963fb78ff4af5471756dcf632def0f3a6c5817abdd4edf4bd6d5"
+    },
+    "review-captures/portrait-architecture/daguan_lou-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daguan_lou-overview-landscape.png",
+      "sha256": "d27b81d94ab059c2ea0c78ab7157c238923f36b235dafdfccf0644a26f1964c6"
+    },
+    "review-captures/portrait-architecture/daguan_lou-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/daguan_lou-resized-390x844.png",
+      "sha256": "31f06148f8b95b1778028cc0836189c66b12c25db37ad7df88c5184ce0f36fa5"
+    },
+    "review-captures/portrait-architecture/longcui_an-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/longcui_an-arrival-390x844.png",
+      "sha256": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719"
+    },
+    "review-captures/portrait-architecture/longcui_an-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/longcui_an-doors-390x844.png",
+      "sha256": "9bb29f8231e9845d07d83848b91315b04a56eab9ef57eacbec1c45dbbf2faa9f"
+    },
+    "review-captures/portrait-architecture/longcui_an-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/longcui_an-look-360x800.png",
+      "sha256": "d9d674cfbdc62863748e61e35a3ea4dab26cd6f8d550ae0ba011abc8756761cc"
+    },
+    "review-captures/portrait-architecture/longcui_an-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/longcui_an-overview-landscape.png",
+      "sha256": "3ee74141dbf4dbc6598e874b872d1c49a5466c854d700ddaabf2ab3047f61ba7"
+    },
+    "review-captures/portrait-architecture/longcui_an-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/longcui_an-resized-390x844.png",
+      "sha256": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86"
+    },
+    "review-captures/portrait-architecture/report.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures/portrait-architecture/report.json",
+      "sha256": "884bbc623dda95b7c742d886784fb1b22cfe18e32b0220a6f034b066c3e783d8"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-1410x600.png",
+      "sha256": "9e83fb52f4518221eae6a5340eb5cf6e7ad07dd8db5bb4fdaa00bd85d7de136f"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-1410x600.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-1410x600.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-1410x600.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-390x844.png",
+      "sha256": "696cb000ac8a56c209eac1254b2a6e36c995fe4c426ad6bf8eadbdb495a0fcb0"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-390x844.png",
+      "sha256": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-arrival-360x800.png",
+      "sha256": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-rocks-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/candidate-read-360x800.png",
+      "sha256": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd"
+    },
+    "review-captures-completed-camera-waits/hengwu-lit-actions/report.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/hengwu-lit-actions/report.json",
+      "sha256": "83df968ab832f02d79c128b8381dfce3afb49aa905e705cae65014156dcd68e0"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-arrival-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-doors-390x844.png",
+      "sha256": "b23d8e65ad3d0535600dc8c1dc34954519a04f3d4ad94161049fde7f0ea7fa44"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-look-360x800.png",
+      "sha256": "f9f899d3a157411079921af7e7fccd9d6f94600267bb5e1c51b76febae48fc70"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-overview-landscape.png",
+      "sha256": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daoxiang_cun-resized-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daguan_lou-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daguan_lou-arrival-390x844.png",
+      "sha256": "fd0bc14b73fdda7494b7c16a0fcba425e6c6c052342a6f0e0ffe64edc99ebbbc"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daguan_lou-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daguan_lou-doors-390x844.png",
+      "sha256": "65c288bcb26188df9cabd415572ef52c2e51bbe64f32673a27f61d681249b1f2"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daguan_lou-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daguan_lou-look-360x800.png",
+      "sha256": "68a9cad01097a2f3fc31e7bfb6eadf3a49db3c7b3549a7c8b6bb921a1bc9d2a7"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daguan_lou-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daguan_lou-overview-landscape.png",
+      "sha256": "a1ec7c3500a3b23d5ccef0c77b42e50b4b423c3731ea06f25468815ec9e06728"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/daguan_lou-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/daguan_lou-resized-390x844.png",
+      "sha256": "e52e8e50acc3e8705d5b44e619a174693f53f00f11141329788c0226d0e8dc75"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/longcui_an-arrival-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/longcui_an-arrival-390x844.png",
+      "sha256": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/longcui_an-doors-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/longcui_an-doors-390x844.png",
+      "sha256": "df8c6d55b9e1e5a30c7c65898c3cd21f156ee80d4187bde6062217d66aa548b4"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/longcui_an-look-360x800.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/longcui_an-look-360x800.png",
+      "sha256": "6c86d8d8c78379a82fa8e15331313490276780eb99ddc603f027352e3ff0f219"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/longcui_an-overview-landscape.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/longcui_an-overview-landscape.png",
+      "sha256": "a9b16dcd70c34c959a90e1691428e613f5f81eaf2ae5d05e6504cab44b1a2cab"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/longcui_an-resized-390x844.png": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/longcui_an-resized-390x844.png",
+      "sha256": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86"
+    },
+    "review-captures-completed-camera-waits/portrait-architecture/report.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/review-captures-completed-camera-waits/portrait-architecture/report.json",
+      "sha256": "9b78ce7dc7551a63b6861ffa171d3e1fb4e3348a3a3dd97da43337c95a297bf5"
+    },
+    "completed-test-inputs/test_portrait_architecture.gd": {
+      "path": "docs/reference/hengwu-camera-wait-review/completed-test-inputs/test_portrait_architecture.gd",
+      "sha256": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3"
+    },
+    "completed-test-inputs/render_hengwu_lit_candidate.gd": {
+      "path": "docs/reference/hengwu-camera-wait-review/completed-test-inputs/render_hengwu_lit_candidate.gd",
+      "sha256": "a5e73ad8bf203112e44ee275851b353471e69810ced9724b7dcd9e195adced99"
+    },
+    "completed-test-inputs/portrait-architecture-contract.json": {
+      "path": "docs/reference/hengwu-camera-wait-review/completed-test-inputs/portrait-architecture-contract.json",
+      "sha256": "923dd46595bcce15e0a45fcf41f0ceb0938749f187e8c6c52c40245707e7da60"
+    },
+    "executed-helpers/garden_resume_hengwu_full.py": {
+      "path": "docs/reference/hengwu-camera-wait-review/executed-helpers/garden_resume_hengwu_full.py",
+      "sha256": "5c53c1731b5683dc4353c92da39b0e32eb4c05373b28f3a7aea59678d5ae55cc"
+    },
+    "executed-helpers/garden_build_hengwu_resume.py": {
+      "path": "docs/reference/hengwu-camera-wait-review/executed-helpers/garden_build_hengwu_resume.py",
+      "sha256": "899bb3811adeb3eb3781b535ca528b76ab93e59d38561eb71dafd888e0fa3a8b"
+    },
+    "executed-helpers/garden_archive_hengwu_camera_waits.py": {
+      "path": "docs/reference/hengwu-camera-wait-review/executed-helpers/garden_archive_hengwu_camera_waits.py",
+      "sha256": "5a16b081e4ddb7030e88155fe314828bfd37563f388f8aa5a6805171e17ca362"
+    },
+    "preceding-production-test.gd": {
+      "path": "docs/reference/hengwu-camera-wait-review/preceding-production-test.gd",
+      "sha256": "8c360366fb928c2073a2bd951edcaf3aa5a125a1a15665e421efc0a4369a4ab7"
+    }
+  }
+}

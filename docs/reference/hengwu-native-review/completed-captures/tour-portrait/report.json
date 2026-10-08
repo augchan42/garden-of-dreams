@@ -1,0 +1,3665 @@
+{
+ "arrival_signals": [
+  "rockery_gate",
+  "qinfang_ting",
+  "qiushuang_zhai",
+  "tubi_tang",
+  "qiushuang_zhai",
+  "qinfang_ting",
+  "ouxiang_xie",
+  "ziling_zhou",
+  "ouxiang_xie",
+  "longcui_an",
+  "ouxiang_xie",
+  "qinfang_ting",
+  "hengwu_yuan",
+  "daoxiang_cun",
+  "hengwu_yuan",
+  "qinfang_ting",
+  "daguan_lou",
+  "qinfang_ting",
+  "yihong_yuan",
+  "aojing_guan",
+  "yihong_yuan",
+  "qinfang_ting",
+  "xiaoxiang_guan",
+  "qinfang_ting",
+  "rockery_gate",
+  "terminal_room"
+ ],
+ "captures": [
+  {
+   "active_practicals": 2,
+   "arrival_count": 0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.29999995231628,
+    1.60000002384186,
+    38.7000007629395
+   ],
+   "destination": "",
+   "file": "000-terminal_room-arrival.png",
+   "phase": "arrival",
+   "room": "terminal_room",
+   "sha256": "ccadab2a1bafc6455e20b1b5323cbe11d2149c49ac883a6040b60a543ad9c690",
+   "travel_elapsed": 0.0,
+   "travelling": false,
+   "visitor_position": [
+    -1.29999995231628,
+    -0.00498264329507947,
+    37.9799995422363
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    1.08133351802826,
+    1.54467213153839,
+    39.1659507751465
+   ],
+   "destination": "rockery_gate",
+   "file": "001-terminal_room-travel.png",
+   "phase": "travel",
+   "room": "terminal_room",
+   "sha256": "5c75806e1b1048b67127d463b9edbbdaa5aca3165a583220edc28822bdfd44e5",
+   "travel_elapsed": 2.18333333333333,
+   "travelling": true,
+   "visitor_position": [
+    2.77972888946533,
+    -0.00533483596518636,
+    39.1865158081055
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.17343139648438,
+    1.54552102088928,
+    39.1404342651367
+   ],
+   "destination": "rockery_gate",
+   "file": "002-terminal_room-travel.png",
+   "phase": "travel",
+   "room": "terminal_room",
+   "sha256": "75c85f79170a9834aec55e00bca50cdb0d2dd81a77c3f8b57f56d8dd54dfdc5b",
+   "travel_elapsed": 5.18333333333332,
+   "travelling": true,
+   "visitor_position": [
+    8.28431129455566,
+    -0.0042164521291852,
+    37.5290908813477
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.23447513580322,
+    1.54578268527985,
+    33.1257133483887
+   ],
+   "destination": "rockery_gate",
+   "file": "003-terminal_room-travel.png",
+   "phase": "travel",
+   "room": "terminal_room",
+   "sha256": "dd88e1d16efa4371cb4f651c7ffa1b4f06b9484bcc64102b476fcec8a4a2a787",
+   "travel_elapsed": 8.18333333333332,
+   "travelling": true,
+   "visitor_position": [
+    5.54845905303955,
+    -0.0042164521291852,
+    33.085994720459
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 1,
+   "camera_fov": 55.0,
+   "camera_position": [
+    1.05680096149445,
+    1.54578268527985,
+    33.4519577026367
+   ],
+   "destination": "rockery_gate",
+   "file": "004-rockery_gate-arrival.png",
+   "phase": "arrival",
+   "room": "rockery_gate",
+   "sha256": "1fd2bc51df244974b6f62df6693df27c47c20f2dd35151301f0e9f45c7df5282",
+   "travel_elapsed": 10.6333333333334,
+   "travelling": false,
+   "visitor_position": [
+    0.0241048559546471,
+    -0.0042164521291852,
+    32.6108360290527
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 1,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0,
+    1.85000002384186,
+    35.7000007629395
+   ],
+   "destination": "rockery_gate",
+   "file": "005-rockery_gate-settled.png",
+   "phase": "settled",
+   "room": "rockery_gate",
+   "sha256": "6555b2de5c18ef7483c511c558747a95c5fa70a2d91ea02af92d073a4e0e9c2d",
+   "travel_elapsed": 10.6333333333334,
+   "travelling": false,
+   "visitor_position": [
+    0.0241048559546471,
+    -0.0042164521291852,
+    32.6108360290527
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 1,
+   "camera_fov": 55.0,
+   "camera_position": [
+    1.77484107017517,
+    1.54578638076782,
+    28.0748634338379
+   ],
+   "destination": "qinfang_ting",
+   "file": "006-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "5ba28036159c60b014da9713ac0532be3e271f2f7b5b5e2fbb628cfe9a442262",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    1.22912216186523,
+    -0.0042164521291852,
+    26.5102787017822
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 1,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.79796516895294,
+    1.5457843542099,
+    21.9326267242432
+   ],
+   "destination": "qinfang_ting",
+   "file": "007-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "68da033335708278edd721e0d20027c98924e4d487963c78642bf9275c80243b",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -1.15261495113373,
+    -0.0042164521291852,
+    20.4147338867188
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 1,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -2.49070024490356,
+    1.7990345954895,
+    16.7018241882324
+   ],
+   "destination": "qinfang_ting",
+   "file": "008-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "25164c92397efbf5dd334eaaba12c49192dc4bd42c365bfa971895ecaf4596b8",
+   "travel_elapsed": 8.01666666666664,
+   "travelling": true,
+   "visitor_position": [
+    -0.0325485616922379,
+    -0.0042164521291852,
+    15.4813604354858
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 1,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "009-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "80cc3a4fe06eedb68e403b48b0b2562d3fd5c9320013b3516a1ba4cb17e5a313",
+   "travel_elapsed": 8.01666666666664,
+   "travelling": true,
+   "visitor_position": [
+    -0.0325485616922379,
+    -0.0042164521291852,
+    15.4813604354858
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 1,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "010-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "9473cfaa7302797aba9c517c487cbb649b1cc0a066c35c55088bd7b2725b549f",
+   "travel_elapsed": 10.7833333333334,
+   "travelling": true,
+   "visitor_position": [
+    -0.000408522173529491,
+    -0.0042164521291852,
+    8.84152698516846
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 1,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "011-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "56969f97ffceeea0f32e8fde90004370a097aa0fa0e77ae43260f2361dffd6ec",
+   "travel_elapsed": 13.7833333333336,
+   "travelling": true,
+   "visitor_position": [
+    0.770318686962128,
+    -0.0042164521291852,
+    2.22284078598022
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 2,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "012-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "c28fa945d6361f09e1944e440f357ae9b176b1e84e908e628588d43c2267ea64",
+   "travel_elapsed": 14.216666666667,
+   "travelling": false,
+   "visitor_position": [
+    0.118462480604649,
+    -0.0042164521291852,
+    1.81548547744751
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 2,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "013-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "2a679c357f3df9b845d64a6520d942e40cf43b1b862886efc722538df7f7e999",
+   "travel_elapsed": 14.216666666667,
+   "travelling": false,
+   "visitor_position": [
+    0.118462480604649,
+    -0.0042164521291852,
+    1.81548547744751
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 2,
+   "camera_fov": 55.0,
+   "camera_position": [
+    3.57638001441956,
+    1.54583370685577,
+    0.0910720452666283
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "014-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "70dd8dd6c789e91e8bcb3d4d10406b5ac5970a37874a1040e7d1fd2bbf88b913",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    5.27055311203003,
+    -0.0042164521291852,
+    0.0431003198027611
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 2,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.7699918746948,
+    1.54582154750824,
+    0.00155826867558062
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "015-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "ad8939212082b1d7aec358dbd1a13f6bbaebc6762a4c8065c2abe16dcc32538d",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    12.4699850082397,
+    -0.0041668564081192,
+    0.00125249172560871
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 2,
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.3381977081299,
+    1.5458322763443,
+    0.371361136436462
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "016-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "73f28283a172f38b188c003800c6597dd1fc147f93213704849a722074a0715f",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    19.3923416137695,
+    -0.0041668564081192,
+    -0.279971152544022
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 2,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.4372005462646,
+    1.5458322763443,
+    -5.77978610992432
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "017-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "4c877ad12d15f243cfcfe829f5a2a5754603ed680fd630a3f164fea1ca839fca",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    19.4510498046875,
+    -0.0041668564081192,
+    -7.47972393035889
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 2,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.2647724151611,
+    1.5458322763443,
+    -13.2033176422119
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "018-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "f9f4946bb0aad4ab381ee1b79d8899878abfa3d11b68c0b2fd018b07926053bd",
+   "travel_elapsed": 14.8000000000003,
+   "travelling": true,
+   "visitor_position": [
+    20.7781753540039,
+    -0.0041668564081192,
+    -13.4509325027466
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    20.2254905700684,
+    1.5458322763443,
+    -13.4016609191895
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "019-qiushuang_zhai-arrival.png",
+   "phase": "arrival",
+   "room": "qiushuang_zhai",
+   "sha256": "aaa31a7a394030c8c9d1c9bef3207f44b00957491c6d5844332cf98f29c4a095",
+   "travel_elapsed": 15.2833333333337,
+   "travelling": false,
+   "visitor_position": [
+    21.8972930908203,
+    -0.0041668564081192,
+    -13.4958744049072
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "020-qiushuang_zhai-settled.png",
+   "phase": "settled",
+   "room": "qiushuang_zhai",
+   "sha256": "d26e3ba7f0a79a62eecbd4ea29f582361200e2a9eb0b943c198561b6c5b782ce",
+   "travel_elapsed": 15.2833333333337,
+   "travelling": false,
+   "visitor_position": [
+    21.8972930908203,
+    -0.0041668564081192,
+    -13.4958744049072
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    16.7614917755127,
+    1.54584836959839,
+    -13.3816251754761
+   ],
+   "destination": "tubi_tang",
+   "file": "021-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "669ecda86f575cf2abf0047171bdf8f77aa6dfca971f4e7722ef62c90acdb20c",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    16.5864791870117,
+    -0.0041668564081192,
+    -14.9396181106567
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    14.9561147689819,
+    1.54583394527435,
+    -18.9164752960205
+   ],
+   "destination": "tubi_tang",
+   "file": "022-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "6c51625fa5deeea9716af213c6cd1f5773cf061c7d79d1bc7cd074864a986305",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    13.262544631958,
+    -0.0041668564081192,
+    -18.9491996765137
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0137243270874,
+    2.43333172798157,
+    -20.9618301391602
+   ],
+   "destination": "tubi_tang",
+   "file": "023-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "352474f57dd25300e931d225a6a68ed8f67c738aa621855f9c4e5b611517c805",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    10.0094871520996,
+    1.09686875343323,
+    -22.5703372955322
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 3,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0036020278931,
+    5.00731039047241,
+    -27.0764465332031
+   ],
+   "destination": "tubi_tang",
+   "file": "024-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "e5ba732c73de4bcaf01d7e8a35e2a494de90eef5ea6b9020c27ca0bff2e51b60",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    10.0016059875488,
+    3.67190790176392,
+    -28.6860885620117
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.80930328369141,
+    5.5447359085083,
+    -30.910457611084
+   ],
+   "destination": "tubi_tang",
+   "file": "025-tubi_tang-arrival.png",
+   "phase": "arrival",
+   "room": "tubi_tang",
+   "sha256": "966f1ec4c1f92c513dd525be8abbf7f264f4ecd53d74b5805b14128f3f3f401b",
+   "travel_elapsed": 13.9833333333336,
+   "travelling": false,
+   "visitor_position": [
+    7.1226978302002,
+    3.99486589431763,
+    -30.9947261810303
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "destination": "tubi_tang",
+   "file": "026-tubi_tang-settled.png",
+   "phase": "settled",
+   "room": "tubi_tang",
+   "sha256": "62fc1b6297dbee3c72125f461bcb67c60c3c180b15158ed752d31108b9b94b54",
+   "travel_elapsed": 13.9833333333336,
+   "travelling": false,
+   "visitor_position": [
+    7.1226978302002,
+    3.99486589431763,
+    -30.9947261810303
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    9.98503017425537,
+    4.75755643844604,
+    -28.6918525695801
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "027-tubi_tang-travel.png",
+   "phase": "travel",
+   "room": "tubi_tang",
+   "sha256": "0b995ca6b158cac11697d6232f18896d4a3aeab1f1e83ffdb02050b97db3d7e8",
+   "travel_elapsed": 2.81666666666666,
+   "travelling": true,
+   "visitor_position": [
+    9.9898099899292,
+    2.9567723274231,
+    -26.9895477294922
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    9.99844741821289,
+    1.72240197658539,
+    -21.4480094909668
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "028-tubi_tang-travel.png",
+   "phase": "travel",
+   "room": "tubi_tang",
+   "sha256": "2bf9a87458599e49e213ddec26b76b41cb6e7a0f56a2f1981c5106842487c92a",
+   "travel_elapsed": 5.81666666666665,
+   "travelling": true,
+   "visitor_position": [
+    9.9998950958252,
+    -0.00406348891556263,
+    -19.745943069458
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.104660987854,
+    1.54593729972839,
+    -19.2726097106934
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "029-tubi_tang-travel.png",
+   "phase": "travel",
+   "room": "tubi_tang",
+   "sha256": "e380204b4cf92a0b0282aa58d350ead351593ed605d46436dfa8b0ad67031b52",
+   "travel_elapsed": 8.81666666666668,
+   "travelling": true,
+   "visitor_position": [
+    16.4020099639893,
+    -0.00406348891556263,
+    -18.8416709899902
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 4,
+   "camera_fov": 55.0,
+   "camera_position": [
+    16.814847946167,
+    1.54593729972839,
+    -13.6544427871704
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "030-tubi_tang-travel.png",
+   "phase": "travel",
+   "room": "tubi_tang",
+   "sha256": "f3650d03585d05383662598cdeea78a8f18de9fe611905dc53e356362af2887d",
+   "travel_elapsed": 11.8166666666668,
+   "travelling": true,
+   "visitor_position": [
+    18.4577903747559,
+    -0.00406348891556263,
+    -13.566011428833
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    20.1976547241211,
+    1.54593729972839,
+    -13.5337419509888
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "031-qiushuang_zhai-arrival.png",
+   "phase": "arrival",
+   "room": "qiushuang_zhai",
+   "sha256": "74d1608c0b677e3fec5dad3491dc6fe16133fedac2071ac8aca17718022b5a20",
+   "travel_elapsed": 13.2666666666669,
+   "travelling": false,
+   "visitor_position": [
+    21.8972129821777,
+    -0.00406348891556263,
+    -13.5019159317017
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "destination": "qiushuang_zhai",
+   "file": "032-qiushuang_zhai-settled.png",
+   "phase": "settled",
+   "room": "qiushuang_zhai",
+   "sha256": "d26e3ba7f0a79a62eecbd4ea29f582361200e2a9eb0b943c198561b6c5b782ce",
+   "travel_elapsed": 13.2666666666669,
+   "travelling": false,
+   "visitor_position": [
+    21.8972129821777,
+    -0.00406348891556263,
+    -13.5019159317017
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.594165802002,
+    1.54595172405243,
+    -10.759373664856
+   ],
+   "destination": "qinfang_ting",
+   "file": "033-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "df2c644a6f5d0dfb0ae5c69931373a6155f04d317cbfcccd30aebe6ebbfdf033",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    19.5786285400391,
+    -0.00406348891556263,
+    -9.06030941009521
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5309085845947,
+    1.54593729972839,
+    -3.56052112579346
+   ],
+   "destination": "qinfang_ting",
+   "file": "034-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "49a94e5d8ea62530f1b87a89de4715223ad2c0d5243d21e298fd768e88d87e0c",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    19.5161437988281,
+    -0.00406348891556263,
+    -1.86058616638184
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.7608127593994,
+    1.54593729972839,
+    -0.0706819146871567
+   ],
+   "destination": "qinfang_ting",
+   "file": "035-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "9e530777465537582284b5a0d24bd98440153228fcea0aeaf5ef7d01f77cbee3",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    14.0610065460205,
+    -0.00406348891556263,
+    -0.0568527057766914
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.56117820739746,
+    1.54643166065216,
+    -0.00991629529744387
+   ],
+   "destination": "qinfang_ting",
+   "file": "036-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "b9437c8cbbb4edaf9b58c8d66efbfb5e59a2cac9ce42dcebf992b4965e3da1c4",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    6.86127901077271,
+    -0.00219700066372752,
+    -0.000776419241447002
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 5,
+   "camera_fov": 55.0,
+   "camera_position": [
+    2.52848601341248,
+    1.54588031768799,
+    1.2142733335495
+   ],
+   "destination": "qinfang_ting",
+   "file": "037-qiushuang_zhai-travel.png",
+   "phase": "travel",
+   "room": "qiushuang_zhai",
+   "sha256": "af836a5db265b8ec6a4cc6a0b17acfd7670f9323e41a4a4685059d9a1e2015af",
+   "travel_elapsed": 14.8000000000003,
+   "travelling": true,
+   "visitor_position": [
+    1.28129911422729,
+    -0.00405983999371529,
+    1.73717069625854
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 6,
+   "camera_fov": 50.0,
+   "camera_position": [
+    1.7596937417984,
+    1.54593205451965,
+    1.65127289295197
+   ],
+   "destination": "qinfang_ting",
+   "file": "038-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "350e6d6f05a275aec80f88712c423f530f4d932cdbdb6f4038aef112f1e3fe36",
+   "travel_elapsed": 15.3000000000003,
+   "travelling": false,
+   "visitor_position": [
+    0.122690983116627,
+    -0.00405983999371529,
+    1.79398381710052
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 6,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "039-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "d3c831f1772fc5ee523a77ec81ebe12eba90f0d92db8f578b191ba118daeaa88",
+   "travel_elapsed": 15.3000000000003,
+   "travelling": false,
+   "visitor_position": [
+    0.122690983116627,
+    -0.00405983999371529,
+    1.79398381710052
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 6,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -3.33903574943542,
+    1.54599034786224,
+    0.098909854888916
+   ],
+   "destination": "ouxiang_xie",
+   "file": "040-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "02955b3127d3382964ee37bf428bdfbf4bd66825f62a603207e3db5da506891e",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -5.03065586090088,
+    -0.00405983999371529,
+    0.0485782399773598
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 6,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -10.5300378799438,
+    1.54505062103271,
+    0.0015589464455843
+   ],
+   "destination": "ouxiang_xie",
+   "file": "041-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "8ee32183c571bfe356f44796f16535605e8e7831b26e6996c0bde61d24705290",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -12.230037689209,
+    -0.00495011731982231,
+    0.0012425824534148
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 6,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.7300930023193,
+    1.54580271244049,
+    0.000145496014738455
+   ],
+   "destination": "ouxiang_xie",
+   "file": "042-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "1b8de0f0c3ac1c4d975e1b82057a5d9b408615775c7be565128cc5613db071d0",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -19.4301071166992,
+    -0.0040590213611722,
+    0.000020620042050723
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 7,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -21.1701717376709,
+    1.54594004154205,
+    0.0000108745061879745
+   ],
+   "destination": "ouxiang_xie",
+   "file": "043-ouxiang_xie-arrival.png",
+   "phase": "arrival",
+   "room": "ouxiang_xie",
+   "sha256": "e44b5db1afd57c946021940b99d2f1e1ed609b4e302d7c6ce9af35694dec9098",
+   "travel_elapsed": 10.2500000000001,
+   "travelling": false,
+   "visitor_position": [
+    -22.8701858520508,
+    -0.0040590213611722,
+    0.000000749878267924942
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 7,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "destination": "ouxiang_xie",
+   "file": "044-ouxiang_xie-settled.png",
+   "phase": "settled",
+   "room": "ouxiang_xie",
+   "sha256": "8837bf974f521f60cc7ebd912a3ffaa2eb707285871c6e508cc247ff7105d6b4",
+   "travel_elapsed": 10.2500000000001,
+   "travelling": false,
+   "visitor_position": [
+    -22.8701858520508,
+    -0.0040590213611722,
+    0.000000749878267924942
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 7,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -27.890193939209,
+    1.54601454734802,
+    0.000185035009053536
+   ],
+   "destination": "ziling_zhou",
+   "file": "045-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "f75c86a5ea987d9f4fc8a695fd850d35fb42eb4eeb221fa0d8ab79166195087e",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -29.5903396606445,
+    -0.0040590213611722,
+    0.00000000854337400824079
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 8,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -33.5704460144043,
+    1.54594171047211,
+    0.0000000106128101862168
+   ],
+   "destination": "ziling_zhou",
+   "file": "046-ziling_zhou-arrival.png",
+   "phase": "arrival",
+   "room": "ziling_zhou",
+   "sha256": "60c57ee3c84eef63eab02d014b4801ee95b7f83a92209c9a1144fda82903cded",
+   "travel_elapsed": 5.18333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -35.2704696655273,
+    -0.0040590213611722,
+    0.0000000000224698107342824
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 8,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "destination": "ziling_zhou",
+   "file": "047-ziling_zhou-settled.png",
+   "phase": "settled",
+   "room": "ziling_zhou",
+   "sha256": "bcc2c43abb1a32e74f2c4fa7654080b992c42f4f2a4f7dfb6afe022132d0b3e7",
+   "travel_elapsed": 5.18333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -35.2704696655273,
+    -0.0040590213611722,
+    0.0000000000224698107342824
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 8,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -30.2503814697266,
+    1.54596340656281,
+    0.0000777064851718023
+   ],
+   "destination": "ouxiang_xie",
+   "file": "048-ziling_zhou-travel.png",
+   "phase": "travel",
+   "room": "ziling_zhou",
+   "sha256": "c4ee60e38d20acaf4805b944c5f49459633899063f583f1ca1fa1adc42442e4e",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -28.5503158569336,
+    -0.0040590213611722,
+    0.00000000000028985334640276
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 9,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -24.8102188110352,
+    1.54594171047211,
+    0.00000000653821885521211
+   ],
+   "destination": "ouxiang_xie",
+   "file": "049-ouxiang_xie-arrival.png",
+   "phase": "arrival",
+   "room": "ouxiang_xie",
+   "sha256": "7ef17ae2ebecf693aed56f95180adc4f9faf4bf5c4bd86a29f31673f55849901",
+   "travel_elapsed": 5.08333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -23.1101913452148,
+    -0.0040590213611722,
+    0.000000000000000444038970208379
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 9,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "destination": "ouxiang_xie",
+   "file": "050-ouxiang_xie-settled.png",
+   "phase": "settled",
+   "room": "ouxiang_xie",
+   "sha256": "3cec4eb25a47254c7d57b93bfb65e9905682707d84420be2bf3581861e90f6e7",
+   "travel_elapsed": 5.08333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -23.1101913452148,
+    -0.0040590213611722,
+    0.000000000000000444038970208379
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 9,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -19.2954902648926,
+    1.54601979255676,
+    1.19174349308014
+   ],
+   "destination": "longcui_an",
+   "file": "051-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "57b596c3aaabf57447f6fd305f82f9adad079ca1b86f46342a10c7458f625d75",
+   "travel_elapsed": 2.78333333333333,
+   "travelling": true,
+   "visitor_position": [
+    -19.2466793060303,
+    -0.0040590213611722,
+    2.87930464744568
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 9,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -22.7021369934082,
+    1.54594171047211,
+    4.9517560005188
+   ],
+   "destination": "longcui_an",
+   "file": "052-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "e03caea2a27713545991d85261e7bab676f88670c3cc1887e0defd3fb583e8c1",
+   "travel_elapsed": 5.78333333333332,
+   "travelling": true,
+   "visitor_position": [
+    -24.4015464782715,
+    -0.0040590213611722,
+    4.98749208450317
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 10,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -24.9613018035889,
+    1.54594171047211,
+    8.77681159973145
+   ],
+   "destination": "longcui_an",
+   "file": "053-longcui_an-arrival.png",
+   "phase": "arrival",
+   "room": "longcui_an",
+   "sha256": "72a15a68ee4495c65b30502369bdada2e72e77e11d10438f0e6e65ae1f3ce315",
+   "travel_elapsed": 8.28333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -24.9973831176758,
+    -0.0040590213611722,
+    10.4763059616089
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 10,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "destination": "longcui_an",
+   "file": "054-longcui_an-settled.png",
+   "phase": "settled",
+   "room": "longcui_an",
+   "sha256": "7bf539aba266cb113425a1cb9ea3a6d7e3829dda10be5afab21e0b250a94ae34",
+   "travel_elapsed": 8.28333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -24.9973831176758,
+    -0.0040590213611722,
+    10.4763059616089
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 10,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -25.1770057678223,
+    1.54594171047211,
+    5.28261470794678
+   ],
+   "destination": "ouxiang_xie",
+   "file": "055-longcui_an-travel.png",
+   "phase": "travel",
+   "room": "longcui_an",
+   "sha256": "fd6b2236edf0bdff8655be9d478519db6a4c7e83daa64366f7487ea469793c78",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -23.6402339935303,
+    -0.0040590213611722,
+    5.0890417098999
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 10,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -19.3041076660156,
+    1.54594171047211,
+    3.81118845939636
+   ],
+   "destination": "ouxiang_xie",
+   "file": "056-longcui_an-travel.png",
+   "phase": "travel",
+   "room": "longcui_an",
+   "sha256": "2666ffbe6ffb16839398da751e7bcbebc96c711cee8bcb1673836df2cc290912",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -19.2514019012451,
+    -0.0040590213611722,
+    2.12327885627747
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 11,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -21.1851272583008,
+    1.54594171047211,
+    0.0621661879122257
+   ],
+   "destination": "ouxiang_xie",
+   "file": "057-ouxiang_xie-arrival.png",
+   "phase": "arrival",
+   "room": "ouxiang_xie",
+   "sha256": "fa78fbf0722e4864f3cc20f35e07d84c2b7530359c800a5422c0095a1a932d03",
+   "travel_elapsed": 8.18333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -22.881160736084,
+    -0.0040590213611722,
+    0.00387553730979562
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 11,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "destination": "ouxiang_xie",
+   "file": "058-ouxiang_xie-settled.png",
+   "phase": "settled",
+   "room": "ouxiang_xie",
+   "sha256": "a473e8a2d800a380919cdc62391fb043bb302ea80dd2e924c89a507c3facd83c",
+   "travel_elapsed": 8.18333333333332,
+   "travelling": false,
+   "visitor_position": [
+    -22.881160736084,
+    -0.0040590213611722,
+    0.00387553730979562
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 11,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.8608589172363,
+    1.54601454734802,
+    0.00030349544249475
+   ],
+   "destination": "qinfang_ting",
+   "file": "059-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "f15e9ef31d49ced15205055edb0d9fdc13df572fafd22e296ccb958d88b75853",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -16.1610069274902,
+    -0.0040590213611722,
+    0.0000913829208002426
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 11,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -10.661003112793,
+    1.54594171047211,
+    0.0000365201085514855
+   ],
+   "destination": "qinfang_ting",
+   "file": "060-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "a12b2acd3a1b3c6e7c4a96b5d7d69fe766ad52208cc076cfdf2ed6f82776362a",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -8.96100997924805,
+    -0.0040590213611722,
+    0.0000195614702533931
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 11,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -3.0634446144104,
+    1.54482853412628,
+    -0.425387054681778
+   ],
+   "destination": "qinfang_ting",
+   "file": "061-ouxiang_xie-travel.png",
+   "phase": "travel",
+   "room": "ouxiang_xie",
+   "sha256": "82cfc41b144c1663bb65d040068f3328fe32bfa752102bd530fd18c0792e52be",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -2.09698367118835,
+    -0.0051723001524806,
+    0.359187245368958
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 12,
+   "camera_fov": 50.0,
+   "camera_position": [
+    -1.76014578342438,
+    1.54532873630524,
+    1.64590549468994
+   ],
+   "destination": "qinfang_ting",
+   "file": "062-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "c666c7fb73e28dfccc6313ac43ffe02edb19b791297ecd147b16ad2a8f65a207",
+   "travel_elapsed": 10.1666666666668,
+   "travelling": false,
+   "visitor_position": [
+    -0.123046919703484,
+    -0.00425589364022017,
+    1.79358351230621
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 12,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "063-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "6f6b5ef0b389daf991c6c1126a51fd34805e5dbe7e1f3f19854e2bd7462802a9",
+   "travel_elapsed": 10.1666666666668,
+   "travelling": false,
+   "visitor_position": [
+    -0.123046919703484,
+    -0.00425589364022017,
+    1.79358351230621
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 12,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -3.57671904563904,
+    1.54579424858093,
+    0.0899171903729439
+   ],
+   "destination": "hengwu_yuan",
+   "file": "064-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "eabc23419eb55d238e035922e3c67a9752c2e99326b4c04c978b00922cc39d9c",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -5.27100515365601,
+    -0.00425589364022017,
+    0.0425124503672123
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 12,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -10.7705049514771,
+    1.54580986499786,
+    0.00220349035225809
+   ],
+   "destination": "hengwu_yuan",
+   "file": "065-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "c22ff76d675ec2bd9fff4dffdb37e1d28062e8fa00e84616b370d22f3ac8d8db",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -12.4704990386963,
+    -0.00417739897966385,
+    0.00177223281934857
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 12,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.3282051086426,
+    1.54582166671753,
+    0.371209681034088
+   ],
+   "destination": "hengwu_yuan",
+   "file": "066-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "6b0ede0cefabdd5ee124cb99bee4de02a2c7826c51d328664dd82e3350ff1899",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -19.4007759094238,
+    -0.00417739897966385,
+    -0.279794126749039
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 12,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0934772491455,
+    1.54582166671753,
+    -4.49748039245605
+   ],
+   "destination": "hengwu_yuan",
+   "file": "067-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "a899756c5a7c166660675d809c5e7118f1b7b777e5ba379354fbe57a59fcfac1",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -18.072826385498,
+    -0.00417739897966385,
+    -6.19171380996704
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 12,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0254821777344,
+    1.54541552066803,
+    -11.6894025802612
+   ],
+   "destination": "hengwu_yuan",
+   "file": "068-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "4e1e9ec60d67a78749f463a10eec6d2784004fe6f4789a60292e7d7846e57f99",
+   "travel_elapsed": 14.8000000000003,
+   "travelling": true,
+   "visitor_position": [
+    -18.0110931396484,
+    -0.00460033630952239,
+    -13.3893413543701
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0153255462646,
+    1.54540181159973,
+    -12.8893728256226
+   ],
+   "destination": "hengwu_yuan",
+   "file": "069-hengwu_yuan-arrival.png",
+   "phase": "arrival",
+   "room": "hengwu_yuan",
+   "sha256": "58e659673f2c0a844c4ea92a0d3b6ed80eb5ddc9b23e151aeddf3b8af0b2de4a",
+   "travel_elapsed": 15.316666666667,
+   "travelling": false,
+   "visitor_position": [
+    -18.0009365081787,
+    -0.00460033630952239,
+    -14.5893115997314
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "destination": "hengwu_yuan",
+   "file": "070-hengwu_yuan-settled.png",
+   "phase": "settled",
+   "room": "hengwu_yuan",
+   "sha256": "30695d099faf1e225836f239d1363ceeff29812ddea0478739b2e504273eed9f",
+   "travel_elapsed": 15.316666666667,
+   "travelling": false,
+   "visitor_position": [
+    -18.0009365081787,
+    -0.00460033630952239,
+    -14.5893115997314
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.6637992858887,
+    1.54580640792847,
+    -9.23584175109863
+   ],
+   "destination": "daoxiang_cun",
+   "file": "071-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "e51e7032510af63cb3dfab48389a20355d9d919cd832b669fb5ed85a124ba515",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -18.2399959564209,
+    -0.00406758673489094,
+    -8.10764312744141
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -23.7398796081543,
+    1.5459315776825,
+    -8.0646448135376
+   ],
+   "destination": "daoxiang_cun",
+   "file": "072-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "125cc75ed3f344c1dcf19cbe99940589eca686f74f9ff0a2baf0c1590ec91984",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -25.4398174285889,
+    -0.00406758673489094,
+    -8.05133819580078
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.4162406921387,
+    1.5459315776825,
+    -7.52286005020142
+   ],
+   "destination": "daoxiang_cun",
+   "file": "073-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "43d89bfc6220bbff2b034bbfb17bdf2e56e9ac7226959ef9a029dd5a8514fdd8",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -31.8877391815186,
+    -0.00406758673489094,
+    -8.76090526580811
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 13,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.9462909698486,
+    1.5459315776825,
+    -14.2606534957886
+   ],
+   "destination": "daoxiang_cun",
+   "file": "074-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "716a358c0f53f4e1f6e244f661b326ea7f76e02c5be0d547dc57efcaf2e75d04",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -31.9644088745117,
+    -0.00406758673489094,
+    -15.9605550765991
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.9808216094971,
+    1.5459315776825,
+    -17.5004215240479
+   ],
+   "destination": "daoxiang_cun",
+   "file": "075-daoxiang_cun-arrival.png",
+   "phase": "arrival",
+   "room": "daoxiang_cun",
+   "sha256": "cd35f7b98df647b18432747de48bb5b81324b6eac0555153b16ae7f6ffa177a4",
+   "travel_elapsed": 13.1666666666669,
+   "travelling": false,
+   "visitor_position": [
+    -31.9989376068115,
+    -0.00406758673489094,
+    -19.2003211975098
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.9684028625488,
+    1.89999997615814,
+    -12.8434429168701
+   ],
+   "destination": "daoxiang_cun",
+   "file": "076-daoxiang_cun-settled.png",
+   "phase": "settled",
+   "room": "daoxiang_cun",
+   "sha256": "1b846f78b2c9884890e0c1e670cbc5d39b4ba3de0e8c6c231fb001d6d67a7809",
+   "travel_elapsed": 13.1666666666669,
+   "travelling": false,
+   "visitor_position": [
+    -31.9989376068115,
+    -0.00406758673489094,
+    -19.2003211975098
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.9994049072266,
+    1.54593575000763,
+    -14.18017578125
+   ],
+   "destination": "hengwu_yuan",
+   "file": "077-daoxiang_cun-travel.png",
+   "phase": "travel",
+   "room": "daoxiang_cun",
+   "sha256": "419b96389ff010e89c1b6597ce4edb2f822821535c1505dedba43f2bdeed06a8",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -31.9995784759521,
+    -0.00406758673489094,
+    -12.4802513122559
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -30.8473262786865,
+    1.54593324661255,
+    -8.123046875
+   ],
+   "destination": "hengwu_yuan",
+   "file": "078-daoxiang_cun-travel.png",
+   "phase": "travel",
+   "room": "daoxiang_cun",
+   "sha256": "ff031322fc63ffd0df5cf4db7f49a261e180e79ab887c2ef16fe8cfcc769793c",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -29.1600608825684,
+    -0.00406758673489094,
+    -8.09587955474854
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -23.6601715087891,
+    1.54593324661255,
+    -8.04865074157715
+   ],
+   "destination": "hengwu_yuan",
+   "file": "079-daoxiang_cun-travel.png",
+   "phase": "travel",
+   "room": "daoxiang_cun",
+   "sha256": "b446c88fe1ee650a1673dac7b82e68a754dcd908ed01d09cc5392f6b218b488e",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -21.9602394104004,
+    -0.00406758673489094,
+    -8.03403949737549
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 14,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0950107574463,
+    1.5462167263031,
+    -9.66145038604736
+   ],
+   "destination": "hengwu_yuan",
+   "file": "080-daoxiang_cun-travel.png",
+   "phase": "travel",
+   "room": "daoxiang_cun",
+   "sha256": "8a8de73d3399541e5cd18a282ccf7760da7184a5700cc1ac9be842d83acb6d12",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -18.0595779418945,
+    -0.00479455292224884,
+    -11.3556280136108
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0321674346924,
+    1.54520916938782,
+    -12.8953819274902
+   ],
+   "destination": "hengwu_yuan",
+   "file": "081-hengwu_yuan-arrival.png",
+   "phase": "arrival",
+   "room": "hengwu_yuan",
+   "sha256": "e35f5d8e4fcb4527b3bdf903a234c1941936f3e8b6d1d60ee19b4680c1845108",
+   "travel_elapsed": 13.1666666666669,
+   "travelling": false,
+   "visitor_position": [
+    -18.0018692016602,
+    -0.00479455292224884,
+    -14.5950870513916
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "destination": "hengwu_yuan",
+   "file": "082-hengwu_yuan-settled.png",
+   "phase": "settled",
+   "room": "hengwu_yuan",
+   "sha256": "30695d099faf1e225836f239d1363ceeff29812ddea0478739b2e504273eed9f",
+   "travel_elapsed": 13.1666666666669,
+   "travelling": false,
+   "visitor_position": [
+    -18.0018692016602,
+    -0.00479455292224884,
+    -14.5950870513916
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -18.0007858276367,
+    1.54574680328369,
+    -9.57552146911621
+   ],
+   "destination": "qinfang_ting",
+   "file": "083-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "784d90fce6b2d5f76dd222c84d6e458ec6cbff66f1d4c98386a5d8142da12fca",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -18.000581741333,
+    -0.00407028896734118,
+    -7.87558650970459
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -19.1261348724365,
+    1.54592883586884,
+    -3.43010187149048
+   ],
+   "destination": "qinfang_ting",
+   "file": "084-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "27ef228b8e3a80c7bbf480db94421c21542db6d07358ca664d3f85242f67de25",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -19.4318599700928,
+    -0.00407028896734118,
+    -1.96864247322083
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.8355922698975,
+    1.54592883586884,
+    -0.0919052213430405
+   ],
+   "destination": "qinfang_ting",
+   "file": "085-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "cd8b1ed35f6ac5299c503cbfd4f7e5b7a8dbee93d6151ab6ab70e6e30fb6cd74",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -14.1358518600464,
+    -0.00407028896734118,
+    -0.0740931928157806
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -8.63614940643311,
+    1.54629182815552,
+    -0.0144418235868216
+   ],
+   "destination": "qinfang_ting",
+   "file": "086-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "5f71a661c4e911293d9984f9ad34143175ddfba47f70d4347784f8d9afe15609",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -6.93633031845093,
+    -0.00212962087243795,
+    -0.000967414234764874
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 15,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -2.5409824848175,
+    1.54457771778107,
+    1.14686322212219
+   ],
+   "destination": "qinfang_ting",
+   "file": "087-hengwu_yuan-travel.png",
+   "phase": "travel",
+   "room": "hengwu_yuan",
+   "sha256": "60a35be4315b44dd0759020d75104d36240f6797aba6bca7b31b52150f38355a",
+   "travel_elapsed": 14.8000000000003,
+   "travelling": true,
+   "visitor_position": [
+    -1.36116909980774,
+    -0.00563912326470017,
+    1.73419678211212
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 16,
+   "camera_fov": 50.0,
+   "camera_position": [
+    -1.75959289073944,
+    1.54534161090851,
+    1.65246677398682
+   ],
+   "destination": "qinfang_ting",
+   "file": "088-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "8d0e07d3f05f8640ca38d88074612bca73e412a482bd048278e62f5038ef8e3f",
+   "travel_elapsed": 15.3333333333337,
+   "travelling": false,
+   "visitor_position": [
+    -0.122620888054371,
+    -0.00425587967038155,
+    1.79407203197479
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 16,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "089-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "802c616a2df51e3760c847c8df401811c9764067bd26502821bcc406ac784a5f",
+   "travel_elapsed": 15.3333333333337,
+   "travelling": false,
+   "visitor_position": [
+    -0.122620888054371,
+    -0.00425587967038155,
+    1.79407203197479
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 16,
+   "camera_fov": 55.0,
+   "camera_position": [
+    1.9455269575119,
+    1.54579424858093,
+    -1.21989357471466
+   ],
+   "destination": "daguan_lou",
+   "file": "090-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "67e108b347bd96f4f5a2d9fbe29ceddf9b80d68d4097342b294ba1bb61da0ef8",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    1.98453688621521,
+    -0.00425587967038155,
+    -2.91912770271301
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 16,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.00972774997353554,
+    1.54574489593506,
+    -6.65114688873291
+   ],
+   "destination": "daguan_lou",
+   "file": "091-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "75989eea25f59580ca9d04f69ba5887b56b7114d3d6c7491f3dcc35f7b37821b",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    0.00402289815247059,
+    -0.00425587967038155,
+    -8.35064697265625
+   ]
+  },
+  {
+   "active_practicals": 0,
+   "arrival_count": 16,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.00194523669779301,
+    1.54574489593506,
+    -13.8506469726562
+   ],
+   "destination": "daguan_lou",
+   "file": "092-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "87e83af6b939070babb3c1fce872f359b731d364d0faa942e551245f0198e1c9",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    0.00130302598699927,
+    -0.00425587967038155,
+    -15.5506401062012
+   ]
+  },
+  {
+   "active_practicals": 0,
+   "arrival_count": 17,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0000972133057075553,
+    1.54574489593506,
+    -18.690731048584
+   ],
+   "destination": "daguan_lou",
+   "file": "093-daguan_lou-arrival.png",
+   "phase": "arrival",
+   "room": "daguan_lou",
+   "sha256": "5b4bc1a7e0cda132cc200fb984a7ee7fa0e45cafcebf6e872c04c97d7e60ff59",
+   "travel_elapsed": 10.8333333333335,
+   "travelling": false,
+   "visitor_position": [
+    0.00000327583711623447,
+    -0.00425587967038155,
+    -20.390739440918
+   ]
+  },
+  {
+   "active_practicals": 0,
+   "arrival_count": 17,
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.97683525085449,
+    2.0,
+    -6.67848110198975
+   ],
+   "destination": "daguan_lou",
+   "file": "094-daguan_lou-settled.png",
+   "phase": "settled",
+   "room": "daguan_lou",
+   "sha256": "0e04ded4c9c94e835011122c2ece56dc515dc5766557f61f685ca5893cb818c4",
+   "travel_elapsed": 10.8333333333335,
+   "travelling": false,
+   "visitor_position": [
+    0.00000327583711623447,
+    -0.00425587967038155,
+    -20.390739440918
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 17,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0000832232544780709,
+    1.54574823379517,
+    -15.3704996109009
+   ],
+   "destination": "qinfang_ting",
+   "file": "095-daguan_lou-travel.png",
+   "phase": "travel",
+   "room": "daguan_lou",
+   "sha256": "939c846bd645fa231513cd810bdfb6f5a895f8fa77c7488e5420ec57548fc2de",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    0.000000143645053185537,
+    -0.00425587967038155,
+    -13.6706428527832
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 17,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0000000151935761749655,
+    1.54574489593506,
+    -8.17064476013184
+   ],
+   "destination": "qinfang_ting",
+   "file": "096-daguan_lou-travel.png",
+   "phase": "travel",
+   "room": "daguan_lou",
+   "sha256": "04c0dcd0cee8fc355bf8f28b91abdb5370d32445f0d3bb9e011e1989f640a031",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    0.00000000194835525491044,
+    -0.00425587967038155,
+    -6.47065162658691
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 17,
+   "camera_fov": 55.0,
+   "camera_position": [
+    1.87741637229919,
+    1.54574489593506,
+    -2.72836780548096
+   ],
+   "destination": "qinfang_ting",
+   "file": "097-daguan_lou-travel.png",
+   "phase": "travel",
+   "room": "daguan_lou",
+   "sha256": "84d556c46afaf308d98cbcb379c754de468aafcf42f6f37b102c1cfcb1ec0a43",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    1.93528962135315,
+    -0.00425587967038155,
+    -1.04745674133301
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 18,
+   "camera_fov": 50.0,
+   "camera_position": [
+    1.74967551231384,
+    1.54574489593506,
+    1.62124395370483
+   ],
+   "destination": "qinfang_ting",
+   "file": "098-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "85cf2f12ef957ea388c169ef4c25f51bc064bd7ab9c8355f0349288c97fecb9b",
+   "travel_elapsed": 10.7333333333334,
+   "travelling": false,
+   "visitor_position": [
+    0.120945498347282,
+    -0.00425587967038155,
+    1.7922385931015
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 18,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "099-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "8a576e7cdd3e5115aac7273310d461958088d44d91122618ed072951f506a5e5",
+   "travel_elapsed": 10.7333333333334,
+   "travelling": false,
+   "visitor_position": [
+    0.120945498347282,
+    -0.00425587967038155,
+    1.7922385931015
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 18,
+   "camera_fov": 55.0,
+   "camera_position": [
+    3.57667517662048,
+    1.54579424858093,
+    0.0899438485503197
+   ],
+   "destination": "yihong_yuan",
+   "file": "100-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "1256d4ccfd8e30f4905671ab66e92ac9573be63ab917867869c9791c4395352e",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    5.27085638046265,
+    -0.00425587967038155,
+    0.0425280518829823
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 18,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.7703523635864,
+    1.54578924179077,
+    0.00216602929867804
+   ],
+   "destination": "yihong_yuan",
+   "file": "101-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "71b65c34dba77516da1658b9f424c1631a72ab3f2ac0dc74dbacd2113024c4b9",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    12.4703454971313,
+    -0.00419622473418713,
+    0.00171647930983454
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 18,
+   "camera_fov": 55.0,
+   "camera_position": [
+    17.9704170227051,
+    1.54580295085907,
+    0.00015165755758062
+   ],
+   "destination": "yihong_yuan",
+   "file": "102-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "8313a3062afa117c03859e34f8b49b6cf491a74c2ee8f6b22bdafa01784219ee",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    19.6704254150391,
+    -0.00419622473418713,
+    0.0000253602338489145
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 19,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.4275131225586,
+    1.54580295085907,
+    -0.269579470157623
+   ],
+   "destination": "yihong_yuan",
+   "file": "103-yihong_yuan-arrival.png",
+   "phase": "arrival",
+   "room": "yihong_yuan",
+   "sha256": "587edd7111be5fb42bc4d771ffe8d18aa0e249c7b25d47b1c707e348df2bcf5d",
+   "travel_elapsed": 10.2000000000001,
+   "travelling": false,
+   "visitor_position": [
+    22.5305671691895,
+    -0.00419622473418713,
+    0.904819905757904
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 19,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "destination": "yihong_yuan",
+   "file": "104-yihong_yuan-settled.png",
+   "phase": "settled",
+   "room": "yihong_yuan",
+   "sha256": "18f32445015ff7e27a20c6e4414416263b49cae6300d0b7cd386ec287dbb3e83",
+   "travel_elapsed": 10.2000000000001,
+   "travelling": false,
+   "visitor_position": [
+    22.5305671691895,
+    -0.00419622473418713,
+    0.904819905757904
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 19,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5842247009277,
+    1.54582345485687,
+    3.13851356506348
+   ],
+   "destination": "aojing_guan",
+   "file": "105-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "8ab655481d177fc326683e887aca3d5f8cefb288df5edbe1d73129cdff84b445",
+   "travel_elapsed": 2.81666666666666,
+   "travelling": true,
+   "visitor_position": [
+    19.5582809448242,
+    -0.00419622473418713,
+    4.83611011505127
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 19,
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.6352252960205,
+    1.54580461978912,
+    9.58658885955811
+   ],
+   "destination": "aojing_guan",
+   "file": "106-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "8153858e8434fbed6f172f5ee16eb2cd155de269922c26a8a23815cae561022a",
+   "travel_elapsed": 5.81666666666665,
+   "travelling": true,
+   "visitor_position": [
+    18.5573310852051,
+    -0.00419622473418713,
+    11.2629766464233
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 19,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2883777618408,
+    0.904495775699615,
+    13.0990400314331
+   ],
+   "destination": "aojing_guan",
+   "file": "107-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "70cf46f976b8f0a7f8e04973915bc525144486429df7428e918c1904c3896f0f",
+   "travel_elapsed": 8.81666666666668,
+   "travelling": true,
+   "visitor_position": [
+    23.9883785247803,
+    -0.654684841632843,
+    13.0997610092163
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 20,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    24.2084217071533,
+    0.895649790763855,
+    13.0997705459595
+   ],
+   "destination": "aojing_guan",
+   "file": "108-aojing_guan-arrival.png",
+   "phase": "arrival",
+   "room": "aojing_guan",
+   "sha256": "f3671a37748d87fefce34e7fe10e13015d039a9154836673041f2cff33e85b38",
+   "travel_elapsed": 9.63333333333339,
+   "travelling": false,
+   "visitor_position": [
+    25.9084224700928,
+    -0.654684841632843,
+    13.0999898910522
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 20,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "destination": "aojing_guan",
+   "file": "109-aojing_guan-settled.png",
+   "phase": "settled",
+   "room": "aojing_guan",
+   "sha256": "0c1f8d872b50bc02b013d9f8d89d55e69440ccf0694b627e4cdc983276ca78cb",
+   "travel_elapsed": 9.63333333333339,
+   "travelling": false,
+   "visitor_position": [
+    25.9084224700928,
+    -0.654684841632843,
+    13.0999898910522
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 20,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.0103340148926,
+    1.49287593364716,
+    13.1000776290894
+   ],
+   "destination": "yihong_yuan",
+   "file": "110-aojing_guan-travel.png",
+   "phase": "travel",
+   "room": "aojing_guan",
+   "sha256": "1f8ddd0f077d3c9bfa879ad682fe618b2b05f632e83039a04f59da3f5926ed5a",
+   "travel_elapsed": 2.81666666666666,
+   "travelling": true,
+   "visitor_position": [
+    19.3246955871582,
+    -0.00463697733357549,
+    13.0999984741211
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 20,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.2887878417969,
+    1.54536211490631,
+    9.0714168548584
+   ],
+   "destination": "yihong_yuan",
+   "file": "111-aojing_guan-travel.png",
+   "phase": "travel",
+   "room": "aojing_guan",
+   "sha256": "0c2beff113cd14af3b473247c8eadf471acb479afa263e920266a69d9262a136",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    19.4018058776855,
+    -0.00463697733357549,
+    7.45257472991943
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 20,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.0457172393799,
+    1.54536211490631,
+    1.47934889793396
+   ],
+   "destination": "yihong_yuan",
+   "file": "112-aojing_guan-travel.png",
+   "phase": "travel",
+   "room": "aojing_guan",
+   "sha256": "c8c7fdf6d822e04c8107f0cc1349ef661e6908d9a6cedc8949c8ac29256e0423",
+   "travel_elapsed": 8.81666666666668,
+   "travelling": true,
+   "visitor_position": [
+    20.3781795501709,
+    -0.00463697733357549,
+    1.06685614585876
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 21,
+   "camera_fov": 55.0,
+   "camera_position": [
+    20.8074531555176,
+    1.54536211490631,
+    1.06355535984039
+   ],
+   "destination": "yihong_yuan",
+   "file": "113-yihong_yuan-arrival.png",
+   "phase": "arrival",
+   "room": "yihong_yuan",
+   "sha256": "ef39a55f41693080e3d58f86461ea545269526ddbe8b5882b2d912443d049cc0",
+   "travel_elapsed": 9.71666666666673,
+   "travelling": false,
+   "visitor_position": [
+    22.4972152709961,
+    -0.00463697733357549,
+    1.00309300422668
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 21,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "destination": "yihong_yuan",
+   "file": "114-yihong_yuan-settled.png",
+   "phase": "settled",
+   "room": "yihong_yuan",
+   "sha256": "ed5dc0ddf0fc3117e0184c9ab78d81d8c752945a01b8146c7ce3002e4b8d164c",
+   "travel_elapsed": 9.71666666666673,
+   "travelling": false,
+   "visitor_position": [
+    22.4972152709961,
+    -0.00463697733357549,
+    1.00309300422668
+   ]
+  },
+  {
+   "active_practicals": 1,
+   "arrival_count": 21,
+   "camera_fov": 55.0,
+   "camera_position": [
+    17.9946727752686,
+    1.54538261890411,
+    0.0036041543353349
+   ],
+   "destination": "qinfang_ting",
+   "file": "115-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "5af081eb36eb857123e16a991a4aa8150cb8be223d432e6380bb2a43cd6535ed",
+   "travel_elapsed": 2.81666666666666,
+   "travelling": true,
+   "visitor_position": [
+    16.2947788238525,
+    -0.00463697733357549,
+    0.0025576890911907
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 21,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.8347816467285,
+    1.54536378383636,
+    0.00105523690581322
+   ],
+   "destination": "qinfang_ting",
+   "file": "116-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "1dc58ed37dcf95a3bed86dea103e1fe5f1988c93b41a54208e143c56d21d73be",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    9.13478183746338,
+    -0.00463697733357549,
+    0.000587437476497144
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 21,
+   "camera_fov": 55.0,
+   "camera_position": [
+    3.31457877159119,
+    1.54575252532959,
+    -0.29556468129158
+   ],
+   "destination": "qinfang_ting",
+   "file": "117-yihong_yuan-travel.png",
+   "phase": "travel",
+   "room": "yihong_yuan",
+   "sha256": "afa8b2dd7f564efa7ce1aa910e8ce652f55b8b1ec328ab464cb46426bde47d83",
+   "travel_elapsed": 8.81666666666668,
+   "travelling": true,
+   "visitor_position": [
+    2.08443140983582,
+    -0.00417973566800356,
+    0.199722692370415
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 22,
+   "camera_fov": 50.0,
+   "camera_position": [
+    1.75956273078918,
+    1.5459418296814,
+    1.65276181697845
+   ],
+   "destination": "qinfang_ting",
+   "file": "118-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "56e21e3a8deee94f3dd0252f17fa90d2718e7a71a46e4a5be13d18c9e339b94b",
+   "travel_elapsed": 10.2500000000001,
+   "travelling": false,
+   "visitor_position": [
+    0.122599914669991,
+    -0.00405599316582084,
+    1.79409396648407
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 22,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "119-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "0bd2d4d355387cd89d67be1684459761f554af2ebf1d356eb4f20a5cb7b0c1e8",
+   "travel_elapsed": 10.2500000000001,
+   "travelling": false,
+   "visitor_position": [
+    0.122599914669991,
+    -0.00405599316582084,
+    1.79409396648407
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 22,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0296239573508501,
+    1.5459908246994,
+    5.72098159790039
+   ],
+   "destination": "xiaoxiang_guan",
+   "file": "120-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "fe8f081602b4d368360fe7d6be86317c27c4f604ab320e83e1bb87de4527d7f9",
+   "travel_elapsed": 2.81666666666666,
+   "travelling": true,
+   "visitor_position": [
+    0.00324527127668262,
+    -0.00405599316582084,
+    7.41904020309448
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 22,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -0.107389666140079,
+    1.54594480991364,
+    12.8137092590332
+   ],
+   "destination": "xiaoxiang_guan",
+   "file": "121-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "4b8dbe75eec4d516f8fb00a816b71149a67d9f39bf93068ea4309304ce5c8e5c",
+   "travel_elapsed": 5.81666666666665,
+   "travelling": true,
+   "visitor_position": [
+    -1.71960866451263,
+    -0.00405599316582084,
+    12.9337692260742
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 23,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -4.77901029586792,
+    1.54594480991364,
+    12.9953727722168
+   ],
+   "destination": "xiaoxiang_guan",
+   "file": "122-xiaoxiang_guan-arrival.png",
+   "phase": "arrival",
+   "room": "xiaoxiang_guan",
+   "sha256": "0e88a3bebf7da46c8e5c3a07b5e2b2bc20017fb574eb6b5e9f35d5b5518b8fad",
+   "travel_elapsed": 7.81666666666664,
+   "travelling": false,
+   "visitor_position": [
+    -6.47896385192871,
+    -0.00405599316582084,
+    12.999828338623
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 23,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -2.0,
+    2.29999995231628,
+    13.0
+   ],
+   "destination": "xiaoxiang_guan",
+   "file": "123-xiaoxiang_guan-settled.png",
+   "phase": "settled",
+   "room": "xiaoxiang_guan",
+   "sha256": "15e3d59d434907e8abe0b33a7f2689a9cb6e5e2c0d6bb414038f0b30c8e8263f",
+   "travel_elapsed": 7.81666666666664,
+   "travelling": false,
+   "visitor_position": [
+    -6.47896385192871,
+    -0.00405599316582084,
+    12.999828338623
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 23,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.04101371765137,
+    1.54595100879669,
+    13.4262533187866
+   ],
+   "destination": "qinfang_ting",
+   "file": "124-xiaoxiang_guan-travel.png",
+   "phase": "travel",
+   "room": "xiaoxiang_guan",
+   "sha256": "101337bbd2193f742960cba9393c0bc0ede14de29c105c9db4aaf46b853dead3",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    -0.111832030117512,
+    -0.00405599316582084,
+    12.6400680541992
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 23,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -0.00421369262039661,
+    1.54594480991364,
+    7.14110517501831
+   ],
+   "destination": "qinfang_ting",
+   "file": "125-xiaoxiang_guan-travel.png",
+   "phase": "travel",
+   "room": "xiaoxiang_guan",
+   "sha256": "98b3b7b4fbfb8e3ab502cfbc35bca15708012d63ecebecbc44107abc3e5aa12c",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    -0.00125582655891776,
+    -0.00405599316582084,
+    5.44112777709961
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 24,
+   "camera_fov": 50.0,
+   "camera_position": [
+    1.22901141643524,
+    1.54594480991364,
+    2.47652626037598
+   ],
+   "destination": "qinfang_ting",
+   "file": "126-qinfang_ting-arrival.png",
+   "phase": "arrival",
+   "room": "qinfang_ting",
+   "sha256": "c8489bdac2f4aa1dc966feaabc3a067ee98a1948f06951a14143be600868b169",
+   "travel_elapsed": 7.81666666666664,
+   "travelling": false,
+   "visitor_position": [
+    0.118457980453968,
+    -0.00405599316582084,
+    1.81547582149506
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 24,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "destination": "qinfang_ting",
+   "file": "127-qinfang_ting-settled.png",
+   "phase": "settled",
+   "room": "qinfang_ting",
+   "sha256": "0238ea2b315d68fb197284fb2e6964cea1b7345177c4d0a9614d6fa138107f3e",
+   "travel_elapsed": 7.81666666666664,
+   "travelling": false,
+   "visitor_position": [
+    0.118457980453968,
+    -0.00405599316582084,
+    1.81547582149506
+   ]
+  },
+  {
+   "active_practicals": 4,
+   "arrival_count": 24,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0313653312623501,
+    1.54599416255951,
+    5.68177080154419
+   ],
+   "destination": "rockery_gate",
+   "file": "128-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "88c5fc5b2019c730b7d07f98e78f57b9dfafb63cd8f2fd36c891898eb32d2846",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    0.00317988428287208,
+    -0.00405599316582084,
+    7.37968730926514
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 24,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0000514861458214,
+    1.54596185684204,
+    12.8796873092651
+   ],
+   "destination": "rockery_gate",
+   "file": "129-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "9728fcef48e131d7197c2a1643b17e49f7b86206e3dd80826c7629ee87b40d6e",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    0.0000286201466224156,
+    -0.00403726333752275,
+    14.5796804428101
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 24,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -0.85353010892868,
+    1.54580688476562,
+    19.7572116851807
+   ],
+   "destination": "rockery_gate",
+   "file": "130-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "bc6be68ba3e81a90d869c0e5f79687591eae12a50b296ff92e6cd6e8f82ed8d0",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    -1.53511345386505,
+    -0.00419384660199285,
+    21.3001651763916
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 24,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.898731529712677,
+    1.54580688476562,
+    25.8739223480225
+   ],
+   "destination": "rockery_gate",
+   "file": "131-qinfang_ting-travel.png",
+   "phase": "travel",
+   "room": "qinfang_ting",
+   "sha256": "27e4a95b991df08e7d0716b05e5f488034f39a438b0554d8cc26a8a8e4122145",
+   "travel_elapsed": 11.8000000000002,
+   "travelling": true,
+   "visitor_position": [
+    1.57893764972687,
+    -0.00419384660199285,
+    27.4180183410645
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 25,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.154037311673164,
+    1.54580688476562,
+    30.7248058319092
+   ],
+   "destination": "rockery_gate",
+   "file": "132-rockery_gate-arrival.png",
+   "phase": "arrival",
+   "room": "rockery_gate",
+   "sha256": "8e12f2ce91eb162cde09b412a2e00e4021a4f9fc9c5b38543eb64736bf9e75d6",
+   "travel_elapsed": 14.1166666666669,
+   "travelling": false,
+   "visitor_position": [
+    0.00455996347591281,
+    -0.00419384660199285,
+    32.3944664001465
+   ]
+  },
+  {
+   "active_practicals": 3,
+   "arrival_count": 25,
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0,
+    1.85000002384186,
+    35.7000007629395
+   ],
+   "destination": "rockery_gate",
+   "file": "133-rockery_gate-settled.png",
+   "phase": "settled",
+   "room": "rockery_gate",
+   "sha256": "713879f72b2bd52a44db29834f2ed13ec2eaec11ecb0805329702c508b9d8878",
+   "travel_elapsed": 14.1166666666669,
+   "travelling": false,
+   "visitor_position": [
+    0.00455996347591281,
+    -0.00419384660199285,
+    32.3944664001465
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 25,
+   "camera_fov": 55.0,
+   "camera_position": [
+    4.54047298431396,
+    1.54580891132355,
+    32.9427833557129
+   ],
+   "destination": "terminal_room",
+   "file": "134-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "367fc51e72ed89d9a6f00d1c9cac89c6a70697ed76c494eb673934156b39096d",
+   "travel_elapsed": 2.79999999999999,
+   "travelling": true,
+   "visitor_position": [
+    6.24024772644043,
+    -0.00419384660199285,
+    32.9683074951172
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 25,
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.30138683319092,
+    1.54580688476562,
+    36.4979591369629
+   ],
+   "destination": "terminal_room",
+   "file": "135-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "c6d90554e39fd7998b77aac0f21e586a0f0b7e2eb260debfc6e298bf7f0d6f4b",
+   "travel_elapsed": 5.79999999999998,
+   "travelling": true,
+   "visitor_position": [
+    8.3314905166626,
+    -0.00419384660199285,
+    38.1974754333496
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 25,
+   "camera_fov": 55.0,
+   "camera_position": [
+    3.80855774879456,
+    1.54580688476562,
+    39.2009925842285
+   ],
+   "destination": "terminal_room",
+   "file": "136-rockery_gate-travel.png",
+   "phase": "travel",
+   "room": "rockery_gate",
+   "sha256": "d2ae1c3701d360b6599c55cff169144b6c9450b39b6cfc6329e36c976c28d772",
+   "travel_elapsed": 8.80000000000002,
+   "travelling": true,
+   "visitor_position": [
+    2.10867404937744,
+    -0.00419384660199285,
+    39.2173271179199
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 26,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -0.909980952739716,
+    1.54654681682587,
+    39.5551376342773
+   ],
+   "destination": "terminal_room",
+   "file": "137-terminal_room-arrival.png",
+   "phase": "arrival",
+   "room": "terminal_room",
+   "sha256": "e8b089d94db32137fad9407e67ab75ae09c942a03d4440238df4ad17c70d21b4",
+   "travel_elapsed": 10.6666666666668,
+   "travelling": false,
+   "visitor_position": [
+    -1.28835368156433,
+    -0.00434855837374926,
+    38.0947265625
+   ]
+  },
+  {
+   "active_practicals": 2,
+   "arrival_count": 26,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.29999995231628,
+    1.60000002384186,
+    38.7000007629395
+   ],
+   "destination": "terminal_room",
+   "file": "138-terminal_room-settled.png",
+   "phase": "settled",
+   "room": "terminal_room",
+   "sha256": "73d7a878c64776790d3c916281b08cb1571c88f0d86eb9140445f368a526a12f",
+   "travel_elapsed": 10.6666666666668,
+   "travelling": false,
+   "visitor_position": [
+    -1.28835368156433,
+    -0.00434855837374926,
+    38.0947265625
+   ]
+  }
+ ],
+ "catalogs": {
+  "backdrop-wash-index.json": {
+   "receivers": 6,
+   "sha256": "a7cfcd35e7080b800d875f5382fc9fa9ecb176a4408390499d6790f593c8057e"
+  },
+  "full-index.json": {
+   "receivers": 124,
+   "sha256": "3a79dd3b8eecdf563fa3aab4f8f7d58e4ec03698bb1eda0eae98329770fa5dc0"
+  },
+  "terminal-spill-index.json": {
+   "receivers": 7,
+   "sha256": "6ba8007a913db5ae7b1d7ead85a869e65b471e57822e5183fbcf58d496244073"
+  }
+ },
+ "error": "",
+ "floor_failures": [],
+ "legs": [
+  {
+   "centre_ray_misses": [],
+   "command": "exit",
+   "end_position": [
+    0.0241048559546471,
+    -0.0042164521291852,
+    32.6108360290527
+   ],
+   "from": "terminal_room",
+   "grounded_ray_samples": 638,
+   "longest_air_frames": 0,
+   "max_y": -0.00220983591862023,
+   "min_y": -0.00533483596518636,
+   "physics_frames": 638,
+   "supported_ray_samples": 638,
+   "to": "rockery_gate",
+   "trace_sha256": "45e58520655a14932e835cf82c372cb95836f6d270f90baf775fe1d6684b3835",
+   "walking_distance_m": 25.4802904129028
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "enter",
+   "end_position": [
+    0.118462480604649,
+    -0.0042164521291852,
+    1.81548547744751
+   ],
+   "from": "rockery_gate",
+   "grounded_ray_samples": 1095,
+   "longest_air_frames": 0,
+   "max_y": -0.0042164521291852,
+   "min_y": -0.0042164521291852,
+   "physics_frames": 1095,
+   "supported_ray_samples": 1095,
+   "to": "qinfang_ting",
+   "trace_sha256": "8bafe5007761c8b241e1107af9bdc2b07ca1af112efbf5e62e21960d9bcc0261",
+   "walking_distance_m": 34.0800865106285
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "board",
+   "end_position": [
+    21.8972930908203,
+    -0.0041668564081192,
+    -13.4958744049072
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 918,
+   "longest_air_frames": 0,
+   "max_y": -0.00212009018287063,
+   "min_y": -0.00495212152600288,
+   "physics_frames": 918,
+   "supported_ray_samples": 918,
+   "to": "qiushuang_zhai",
+   "trace_sha256": "b703256d494a127297f24e9951834e338925bfd40aea20a98008c7be740b9b33",
+   "walking_distance_m": 36.6401765905321
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "hill",
+   "end_position": [
+    7.1226978302002,
+    3.99486589431763,
+    -30.9947261810303
+   ],
+   "from": "qiushuang_zhai",
+   "grounded_ray_samples": 840,
+   "longest_air_frames": 0,
+   "max_y": 3.9959888458252,
+   "min_y": -0.0041668564081192,
+   "physics_frames": 840,
+   "supported_ray_samples": 840,
+   "to": "tubi_tang",
+   "trace_sha256": "0fafde64d6c50fc3c0e1e73f5778b470d6a76173ad1ddc91d6e3f47d131a6e6e",
+   "walking_distance_m": 32.644384175539
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    21.8972129821777,
+    -0.00406348891556263,
+    -13.5019159317017
+   ],
+   "from": "tubi_tang",
+   "grounded_ray_samples": 797,
+   "longest_air_frames": 0,
+   "max_y": 3.99593162536621,
+   "min_y": -0.00485547445714474,
+   "physics_frames": 797,
+   "supported_ray_samples": 797,
+   "to": "qiushuang_zhai",
+   "trace_sha256": "efa37adf1283a0817a17df9f30a46c241678c4ee681c0ef203378f7b17af07c0",
+   "walking_distance_m": 32.6662732362747
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.122690983116627,
+    -0.00405983999371529,
+    1.79398381710052
+   ],
+   "from": "qiushuang_zhai",
+   "grounded_ray_samples": 919,
+   "longest_air_frames": 0,
+   "max_y": -0.00219700066372752,
+   "min_y": -0.00463840691372752,
+   "physics_frames": 919,
+   "supported_ray_samples": 919,
+   "to": "qinfang_ting",
+   "trace_sha256": "7a48625bc86d6618da4df72ecc8f24f63abafb80fe37661b09b7656a9e5ba205",
+   "walking_distance_m": 36.6717936471105
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "west",
+   "end_position": [
+    -22.8701858520508,
+    -0.0040590213611722,
+    0.000000749878267924942
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 616,
+   "longest_air_frames": 0,
+   "max_y": -0.00211808574385941,
+   "min_y": -0.00495011731982231,
+   "physics_frames": 616,
+   "supported_ray_samples": 616,
+   "to": "ouxiang_xie",
+   "trace_sha256": "fedd16cd501fe70ab73598590afd1b7a9c8f75f806a01b009ce856466292be7e",
+   "walking_distance_m": 24.5601892657578
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "island",
+   "end_position": [
+    -35.2704696655273,
+    -0.0040590213611722,
+    0.0000000000224698107342824
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 312,
+   "longest_air_frames": 0,
+   "max_y": -0.0040590213611722,
+   "min_y": -0.0040590213611722,
+   "physics_frames": 312,
+   "supported_ray_samples": 312,
+   "to": "ziling_zhou",
+   "trace_sha256": "9668f267c4ed6f3baedb82044accc129e44c9c422abe7afeb70edf93827c33f4",
+   "walking_distance_m": 12.4002838134766
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -23.1101913452148,
+    -0.0040590213611722,
+    0.000000000000000444038970208379
+   ],
+   "from": "ziling_zhou",
+   "grounded_ray_samples": 306,
+   "longest_air_frames": 0,
+   "max_y": -0.0040590213611722,
+   "min_y": -0.0040590213611722,
+   "physics_frames": 306,
+   "supported_ray_samples": 306,
+   "to": "ouxiang_xie",
+   "trace_sha256": "24358f5e876f33b143f0aa3127ab8dfd34d223f053a9f6bd763ac929bb53ef45",
+   "walking_distance_m": 12.1602783203125
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "nunnery",
+   "end_position": [
+    -24.9973831176758,
+    -0.0040590213611722,
+    10.4763059616089
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 498,
+   "longest_air_frames": 0,
+   "max_y": -0.0040590213611722,
+   "min_y": -0.0040590213611722,
+   "physics_frames": 498,
+   "supported_ray_samples": 498,
+   "to": "longcui_an",
+   "trace_sha256": "5c65f8354615d647dfeea6943df2b73c53f02be8f30678b4cd2519df131e10f2",
+   "walking_distance_m": 19.8401215523481
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -22.881160736084,
+    -0.0040590213611722,
+    0.00387553730979562
+   ],
+   "from": "longcui_an",
+   "grounded_ray_samples": 492,
+   "longest_air_frames": 0,
+   "max_y": -0.0040590213611722,
+   "min_y": -0.0040590213611722,
+   "physics_frames": 492,
+   "supported_ray_samples": 492,
+   "to": "ouxiang_xie",
+   "trace_sha256": "444847f84445cb67ea6ef9233c9de50b4ad8156ede94c20a07a25356409030f9",
+   "walking_distance_m": 19.5998926237226
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -0.123046919703484,
+    -0.00425589364022017,
+    1.79358351230621
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 611,
+   "longest_air_frames": 0,
+   "max_y": -0.00166003464255482,
+   "min_y": -0.00563911348581314,
+   "physics_frames": 611,
+   "supported_ray_samples": 611,
+   "to": "qinfang_ting",
+   "trace_sha256": "db3f1dd29a0235593eaecda496251d8184976a3baca6dd2930c4fc0278960282",
+   "walking_distance_m": 24.3482317663729
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "study",
+   "end_position": [
+    -18.0009365081787,
+    -0.00460033630952239,
+    -14.5893115997314
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 920,
+   "longest_air_frames": 0,
+   "max_y": 0.00653247628360987,
+   "min_y": -0.00503333192318678,
+   "physics_frames": 920,
+   "supported_ray_samples": 920,
+   "to": "hengwu_yuan",
+   "trace_sha256": "973b57a0af6be48148b30ea1205645b3122537f5ab3343d35d22a4dd37cb98f1",
+   "walking_distance_m": 36.7195043824613
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "farm",
+   "end_position": [
+    -31.9989376068115,
+    -0.00406758673489094,
+    -19.2003211975098
+   ],
+   "from": "hengwu_yuan",
+   "grounded_ray_samples": 791,
+   "longest_air_frames": 0,
+   "max_y": -0.000949621899053454,
+   "min_y": -0.0051000127568841,
+   "physics_frames": 791,
+   "supported_ray_samples": 791,
+   "to": "daoxiang_cun",
+   "trace_sha256": "eb5c80d68f64448b1e1c124c169a74813192bdfb9fc3b879b5adaf506784f1e7",
+   "walking_distance_m": 31.5601852536201
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -18.0018692016602,
+    -0.00479455292224884,
+    -14.5950870513916
+   ],
+   "from": "daoxiang_cun",
+   "grounded_ray_samples": 791,
+   "longest_air_frames": 0,
+   "max_y": 0.0115628689527512,
+   "min_y": -0.00479455292224884,
+   "physics_frames": 791,
+   "supported_ray_samples": 791,
+   "to": "hengwu_yuan",
+   "trace_sha256": "576b3d7c9f287ace282b74227d38f959a759e2b3df536666ce431797a983d2f6",
+   "walking_distance_m": 31.5592202804983
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -0.122620888054371,
+    -0.00425587967038155,
+    1.79407203197479
+   ],
+   "from": "hengwu_yuan",
+   "grounded_ray_samples": 921,
+   "longest_air_frames": 0,
+   "max_y": -0.000025841174647212,
+   "min_y": -0.00563912326470017,
+   "physics_frames": 921,
+   "supported_ray_samples": 921,
+   "to": "qinfang_ting",
+   "trace_sha256": "4c88c0104cbf0eeb60aff206f5cbf45dcfdad2d3c3931a34914c79cb124f8d38",
+   "walking_distance_m": 36.7530274800956
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "north",
+   "end_position": [
+    0.00000327583711623447,
+    -0.00425587967038155,
+    -20.390739440918
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 651,
+   "longest_air_frames": 0,
+   "max_y": -0.00425587967038155,
+   "min_y": -0.00425587967038155,
+   "physics_frames": 651,
+   "supported_ray_samples": 651,
+   "to": "daguan_lou",
+   "trace_sha256": "d54f9832eb2ec612b430a01571fea5f335ab80944ba8f8baa91281cc7de5952b",
+   "walking_distance_m": 25.9601110853255
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.120945498347282,
+    -0.00425587967038155,
+    1.7922385931015
+   ],
+   "from": "daguan_lou",
+   "grounded_ray_samples": 645,
+   "longest_air_frames": 0,
+   "max_y": -0.00425587967038155,
+   "min_y": -0.00425587967038155,
+   "physics_frames": 645,
+   "supported_ray_samples": 645,
+   "to": "qinfang_ting",
+   "trace_sha256": "afc0933a4c406c6b62a33058af6bf0f92995d00ee1d8cede79d4b31a2c6afc4c",
+   "walking_distance_m": 25.7200904078782
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "east",
+   "end_position": [
+    22.5305671691895,
+    -0.00419622473418713,
+    0.904819905757904
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 613,
+   "longest_air_frames": 0,
+   "max_y": -0.00220019486732781,
+   "min_y": -0.00517871044576168,
+   "physics_frames": 613,
+   "supported_ray_samples": 613,
+   "to": "yihong_yuan",
+   "trace_sha256": "0489342a899272c5dd75e1ece5e4d3899406e0c1d4b89c507cc5b115142bbff9",
+   "walking_distance_m": 24.4402029961348
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "pond",
+   "end_position": [
+    25.9084224700928,
+    -0.654684841632843,
+    13.0999898910522
+   ],
+   "from": "yihong_yuan",
+   "grounded_ray_samples": 579,
+   "longest_air_frames": 0,
+   "max_y": -0.00419622473418713,
+   "min_y": -0.654684841632843,
+   "physics_frames": 579,
+   "supported_ray_samples": 579,
+   "to": "aojing_guan",
+   "trace_sha256": "41a28ac017c4218c93fb67ad3d5ca09cd4a4065f3f0740d073a4268f18915ca0",
+   "walking_distance_m": 23.1750601753592
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    22.4972152709961,
+    -0.00463697733357549,
+    1.00309300422668
+   ],
+   "from": "aojing_guan",
+   "grounded_ray_samples": 584,
+   "longest_air_frames": 0,
+   "max_y": -0.00307447742670774,
+   "min_y": -0.654684841632843,
+   "physics_frames": 584,
+   "supported_ray_samples": 584,
+   "to": "yihong_yuan",
+   "trace_sha256": "7be95e72da3525ceb4bf9021e16d031aac04a293d40125287425aab091688882",
+   "walking_distance_m": 23.1900311671197
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.122599914669991,
+    -0.00405599316582084,
+    1.79409396648407
+   ],
+   "from": "yihong_yuan",
+   "grounded_ray_samples": 616,
+   "longest_air_frames": 0,
+   "max_y": -0.00202417932450771,
+   "min_y": -0.00505152344703674,
+   "physics_frames": 616,
+   "supported_ray_samples": 616,
+   "to": "qinfang_ting",
+   "trace_sha256": "16baa0ad56b8ab22e5b8b39ffcc188766080361a8f5eda1d0efec382b5fb98dd",
+   "walking_distance_m": 24.5531062856317
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "bamboo",
+   "end_position": [
+    -6.47896385192871,
+    -0.00405599316582084,
+    12.999828338623
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 470,
+   "longest_air_frames": 0,
+   "max_y": -0.00405599316582084,
+   "min_y": -0.00405599316582084,
+   "physics_frames": 470,
+   "supported_ray_samples": 470,
+   "to": "xiaoxiang_guan",
+   "trace_sha256": "c4b94b5c5daa5f3f441a64a59a23f1fc876206e4190973bde47c50f920155026",
+   "walking_distance_m": 18.7200063467026
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.118457980453968,
+    -0.00405599316582084,
+    1.81547582149506
+   ],
+   "from": "xiaoxiang_guan",
+   "grounded_ray_samples": 470,
+   "longest_air_frames": 0,
+   "max_y": -0.00405599316582084,
+   "min_y": -0.00405599316582084,
+   "physics_frames": 470,
+   "supported_ray_samples": 470,
+   "to": "qinfang_ting",
+   "trace_sha256": "c2a1d909c252a36bccf49f32ef7b33673c7ac7891d2325f5dbbc731f9db3a7b8",
+   "walking_distance_m": 18.7200198322535
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.00455996347591281,
+    -0.00419384660199285,
+    32.3944664001465
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 848,
+   "longest_air_frames": 0,
+   "max_y": -0.00403726333752275,
+   "min_y": -0.005160310305655,
+   "physics_frames": 848,
+   "supported_ray_samples": 848,
+   "to": "rockery_gate",
+   "trace_sha256": "cc1f556b216f6ab6b3013eb43e2eb33133507d1e34b16dd9341b0315cad728d5",
+   "walking_distance_m": 33.8401517085731
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -1.28835368156433,
+    -0.00434855837374926,
+    38.0947265625
+   ],
+   "from": "rockery_gate",
+   "grounded_ray_samples": 641,
+   "longest_air_frames": 0,
+   "max_y": -0.00220012059435248,
+   "min_y": -0.00434855837374926,
+   "physics_frames": 641,
+   "supported_ray_samples": 641,
+   "to": "terminal_room",
+   "trace_sha256": "eca83fd949b2f16e752c69c98665e5774e3157fa000b38f4730120c3b91c4129",
+   "walking_distance_m": 25.5599513947964
+  }
+ ],
+ "maximum_practicals": 4,
+ "physics_ticks_per_second": 60,
+ "render_test_sha256": "c8460b757a23c381406837b9358f3f29276c6f11efd6e699e67745c8e302f34f",
+ "renderer": "gl_compatibility",
+ "route_sha256": "db32d9c058a732c330d9df910b22b961f755045c5904c47e8fde68fd3c056138",
+ "scope": "Native rendered continuous fourteen-room, twenty-six-leg public-command tour with production imported materials, cameras, lighting and UI. PNGs sample motion and arrival state; they are not continuous-video art acceptance or target-device performance evidence. Existing strict physics/state checks run throughout.",
+ "settled_arrivals": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26
+ ],
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "start_position": [
+  -1.29999995231628,
+  -0.00498264329507947,
+  37.9799995422363
+ ],
+ "status": "passed",
+ "test_sha256": "be92a970338619f635c42537b4457da74400d11974268de854b42e1d04e6f932",
+ "time_scale": 1.0,
+ "viewport": [
+  540,
+  960
+ ],
+ "visited_rooms": [
+  "terminal_room",
+  "rockery_gate",
+  "qinfang_ting",
+  "qiushuang_zhai",
+  "tubi_tang",
+  "ouxiang_xie",
+  "ziling_zhou",
+  "longcui_an",
+  "hengwu_yuan",
+  "daoxiang_cun",
+  "daguan_lou",
+  "yihong_yuan",
+  "aojing_guan",
+  "xiaoxiang_guan"
+ ]
+}

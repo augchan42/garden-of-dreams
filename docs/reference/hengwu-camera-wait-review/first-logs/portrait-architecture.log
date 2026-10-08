@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: daoxiang_cun resize replaced selected detail view
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:17)
+       [1] run (res://tests/test_portrait_architecture.gd:80)
+       [2] settle (res://tests/test_portrait_architecture.gd:22)
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: daoxiang_cun architecture obscured/clipped: look-360x800
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:17)
+       [1] inspect (res://tests/test_portrait_architecture.gd:43)
+       [2] run (res://tests/test_portrait_architecture.gd:84)
+       [3] settle (res://tests/test_portrait_architecture.gd:22)
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: daguan_lou resize replaced selected detail view
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:17)
+       [1] run (res://tests/test_portrait_architecture.gd:80)
+       [2] settle (res://tests/test_portrait_architecture.gd:22)
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: daguan_lou architecture obscured/clipped: look-360x800
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:17)
+       [1] inspect (res://tests/test_portrait_architecture.gd:43)
+       [2] run (res://tests/test_portrait_architecture.gd:84)
+       [3] settle (res://tests/test_portrait_architecture.gd:22)
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: longcui_an resize replaced selected detail view
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:17)
+       [1] run (res://tests/test_portrait_architecture.gd:80)
+       [2] settle (res://tests/test_portrait_architecture.gd:22)
+PORTRAIT_ARCHITECTURE_RESULT 15 captures; 5 failures
