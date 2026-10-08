@@ -1,0 +1,33 @@
+{
+  "status": "candidate_verified_old_palette_rejected",
+  "checks": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/verify_neutral_architecture_atlases.py",
+        "--baseline-root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--candidate-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da/atlas-preservation.json"
+      ],
+      "exit_code": 0,
+      "log": "verification.log"
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/verify_neutral_architecture_atlases.py",
+        "--baseline-root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--candidate-root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da/rejected-old-atlas.json"
+      ],
+      "exit_code": 1,
+      "log": "reject-baseline.log"
+    }
+  ]
+}

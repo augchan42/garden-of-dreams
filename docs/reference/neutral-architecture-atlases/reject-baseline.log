@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_neutral_architecture_atlases.py", line 23, in <module>
+    assert 'base_colors_linear' in b, 'Palette manifest missing expected colors'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Palette manifest missing expected colors

@@ -1,0 +1,9 @@
+# Neutral architectural atlas candidates — 2026-10-08
+
+The shared-material preview leaves the original green pavilion and wall atlas swatches visible. These procedural candidates bring their wood, tile, stone and whitewash colors into the reviewed palette: brown wood, slate tiles and neutral stone/plaster. The canonical generator scripts now read the shared linear-color table and accept a separate `--output-root`.
+
+Both candidates keep the original 2048² size, UV regions, 32px inset and ORM channel conventions. Every normal and ORM PNG is byte-identical to the current canonical atlas. The bronze quarter and wall's unused quarter have identical decoded pixels. Only the three intended base-color swatches in each atlas change; their decoded linear mean colors agree with the recorded palette within0.006 per channel. Original texture detail, metallic/roughness values, normals, sampling layout and sizes are retained.
+
+The native scene integration is pending. These files have been generated and checked on the CPU, and the original pavilion plus both candidate color atlases were visually viewed. They are not attached to the saved source, exported GLB, working Godot project or running 5ae lighting bake. That source and its code remain frozen. Native texture-binding/geometry checks and fresh source-matched lighting are required before adoption; no memory or frame-time result is claimed from atlas generation.
+
+`atlas-preservation.json` and exact executed scripts/logs are retained. The candidate passes; using the original atlas as a candidate correctly rejects the missing new palette metadata before writing a result. The complete garden goal still includes final site art/framing, six reference slots, current Android/device/2020 Adreno and sustained performance, release and authenticated services.
