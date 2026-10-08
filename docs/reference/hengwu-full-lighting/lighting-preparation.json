@@ -1,0 +1,71 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil",
+  "orchestrator_pid": 32265,
+  "started_at": "2026-10-08T19:21:45.330521+00:00",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "authoring_sha256": "19eb386d8e93007ebd8e4ae2d9ee59ec7daa07dcd8dbe3c3a88d4ec84b5e5a08",
+  "library_helper_original_sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146",
+  "library_helper_frozen_sha256": "179442e350c5b5a47ffeaf7d29dea55c0c2576c1531a9667cdb7fa7ee5dfc164",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/lighting-preparation-logs/site-libraries.log",
+      "pid": 32267,
+      "exit_code": 0,
+      "log_sha256": "4e69018492af82ec192916740d713bd382394b9ca0a8a59632f0a72697426224"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 32270,
+      "exit_code": 0,
+      "log_sha256": "4fde473160b3617d509ddbc9d7a032159075fff06da7dd23edbff019096a30c0"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/lighting-preparation-logs/full-lighting.log",
+      "pid": 32280,
+      "exit_code": 0,
+      "log_sha256": "b5bff36740ffe8ebaf3b1e65fd3117e4940a84595e1a9bad6da9bf89a4ac9eff"
+    }
+  ],
+  "scope": "Separate saved-source libraries/shared receiver packaging and complete fresh six-phase lighting for compact Hengwu stone. No production adoption; final art, cameras, all native rendered checks and full goal requirements remain open.",
+  "finished_at": "2026-10-08T20:13:36.321893+00:00"
+}
