@@ -1,0 +1,1 @@
+Initial native comparison completes with no engine errors but warns that raw res:// Image.load_from_file readbacks would not work in exported packages. This diagnostic is not an exported-package check. Retained unchanged; the final run uses absolute source PNG paths outside the project and checks their hashes. No current package acceptance is inferred.

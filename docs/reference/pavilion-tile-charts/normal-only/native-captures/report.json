@@ -1,0 +1,114 @@
+{
+  "candidate_glb_sha256": "b7c4a2bf17de4c30e7b56759ae7d2359166d8e189dd843c92f1dcfcc2384d922",
+  "candidate_lightmap_record": {
+    "mesh": "SITE_qinfang-ting_MAT_pavilion_atlas",
+    "nonzero_fraction": 0.054692268371582,
+    "point_lights_baked": false,
+    "samples": 128.0,
+    "scale": 1.0,
+    "shadow_intent": {
+      "SITE_stage_MAT_stage_canopy_paint": false
+    },
+    "site": null,
+    "size": 1024.0,
+    "source_glb_sha256": "b7c4a2bf17de4c30e7b56759ae7d2359166d8e189dd843c92f1dcfcc2384d922",
+    "status": "Cycles bake produced; engine look verification pending",
+    "texture": "SITE_qinfang-ting_MAT_pavilion_atlas.png",
+    "uv_channel": 1.0,
+    "uv_sha256": "69b61fdf54fc9e7ad8ac0374aef9d551f7d2d4c089962ab09eeba26b0748ef01"
+  },
+  "candidate_lightmap_sha256": "d0f87b9563b9b8fd604b486b5cd25446f590d1411b1a1fc8b19e371082c1ae3b",
+  "scope": "Only the Qinfang atlas mesh and its actual fresh candidate bake are swapped in the isolated current scene. Other geometry/maps/lights/materials/UI remain the baseline. No old map relabelling, whole-candidate lighting, production adoption, traversal, final art or performance claim.",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "status": "passed",
+  "test_script_sha256": "a4acde17d8e2f5f4c1400dc2c85f7f535834a014c3a4d9a921aa4ad4c9ce3ec4",
+  "views": {
+    "desktop": {
+      "camera_transform": "[X: (0.768221, 0.0, -0.640184), Y: (-0.147556, 0.973075, -0.177068), Z: (0.622947, 0.23049, 0.747537), O: (10.0, 5.5, 12.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/desktop-baseline.png",
+          "sha256": "e5274af2a60c990ff749d2d032b27504b918a9b831783cc8d791423431191190"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/desktop-baseline-again.png",
+          "sha256": "e5274af2a60c990ff749d2d032b27504b918a9b831783cc8d791423431191190"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/desktop-baseline-lossless256.png",
+          "sha256": "9db91402f886e80a8fbbcb42e167696158fbe41a0d35ec6df7c758a568e45469"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/desktop-candidate-import256.png",
+          "sha256": "209d25220f600bc8063cf5be1e223cb573f56fd595fe65656d3cbd796ecc092e"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/desktop-candidate-lossless-native.png",
+          "sha256": "ae289ee5ec6ca5ebd98a9c1d987105d98bc7bfa8b752ad1f53334c9586065d4d"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    },
+    "portrait": {
+      "camera_transform": "[X: (0.957826, 0.0, -0.287348), Y: (-0.069187, 0.97058, -0.230624), Z: (0.278894, 0.240779, 0.929647), O: (6.0, 6.98, 20.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/portrait-baseline.png",
+          "sha256": "b35c5a9b678cc0caa44c20c571d60f0b6545e38c09dfa40f01d78ebdf744a085"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/portrait-baseline-again.png",
+          "sha256": "b35c5a9b678cc0caa44c20c571d60f0b6545e38c09dfa40f01d78ebdf744a085"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/portrait-baseline-lossless256.png",
+          "sha256": "01cfdb5a974b222625524c4fdf936208d70b7501f8a6a4b615cd75d27a3ca853"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/portrait-candidate-import256.png",
+          "sha256": "9c38469c5e2cef20ff10e67d97a5e5d110c4559b46c93b52e46af7ce501f2654"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/portrait-candidate-lossless-native.png",
+          "sha256": "ecbf428554045ac222bb26752d6dab4d7b30cd09c92b78f3e044419a935f4aec"
+        }
+      },
+      "viewport": [
+        540,
+        960
+      ]
+    },
+    "roof-close": {
+      "camera_transform": "[X: (0.871576, 0.0, -0.490261), Y: (-0.063554, 0.991562, -0.112985), Z: (0.486124, 0.129633, 0.864221), O: (4.5, 5.3, 8.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/roof-close-baseline.png",
+          "sha256": "dadf8ee89a2831afd0f0e6c94309e8f31ccc42edbe297cc7498a7ab2c46ffa66"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/roof-close-baseline-again.png",
+          "sha256": "dadf8ee89a2831afd0f0e6c94309e8f31ccc42edbe297cc7498a7ab2c46ffa66"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/roof-close-baseline-lossless256.png",
+          "sha256": "d352b22cbf2261fabdc9dcb46df3ebbd52a64126518cbd8f918ea6a2516df343"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/roof-close-candidate-import256.png",
+          "sha256": "da81208a62de590185f0ce5a549c67f9fa70a4884232c1cadfbd5c9b1a79ca20"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/native-captures/roof-close-candidate-lossless-native.png",
+          "sha256": "430bcb51020a3e946985373442c1847baf174d86be6ff51514d8b2d1ea1bfa67"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    }
+  }
+}

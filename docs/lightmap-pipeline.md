@@ -24,3 +24,18 @@ After the direct wash, run native Blender with `scripts/bake_terminal_spill.py` 
 The nine painted-mountain maps (three ordinary, six front/back wash) use lossless runtime import at the existing 256px cap. DXT1 compression created a visible checker pattern in their dark gradients. BPTC improved the result but this Mac decoded it to RGBA8, so production uses lossless import directly. `configure_lightmap_imports.py` preserves this per-map exception when catalogs are refreshed. Native PNGs, UVs and scales are unchanged. `test_mountain_lightmap_filtering.gd` compares the actual portrait view with same-resolution native images; source, import hashes, RED/GREEN and memory evidence are in `export/mountain-filtering-checks.json`.
 
 Xiaoxiang's whitewash and lattice-wood maps also use lossless import. A controlled actual 256px import removes the pink checker in their shadows; the adopted `--facade-size-limit 512` default improves wall shadow detail. Whitewash allocates 512² RGB8; the timber source remains 256². Other maps retain their existing compression and caps. Production native import/lighting checks and four arrival captures pass, with 50,507,483 renderer texture bytes on this Mac. This is not phone or demo-finale acceptance. Source PNGs and source scene bytes are unchanged. Evidence: `export/courtyard-import-quality-evidence.json`.
+
+
+### Narrow pavilion tile charts
+
+`export_garden.py --pavilion-tile-uvs` is an opt-in candidate export rule for the
+Qinfang atlas batch. Forty-two open tile strips receive explicit 24×60px charts
+at a 1024px reference size, with 4px padding; remaining charts fit above their
+reserved strip. It preserves positions and primary paint UVs. The default
+export remains unchanged while whole-source validation is pending.
+
+Smart projection made all 672 cap triangles narrower than one source texel.
+Correct normals alone did not remove the rendered bands. The explicit charts
+produce 9.370px minimum triangle altitudes and visibly lit ribs in native Godot
+256px-import controls. See `pavilion-tile-chart-evidence.json`; final adoption
+requires fresh complete lighting for the changed GLB and native validation.

@@ -1021,3 +1021,27 @@ the pending unlock reply is unanswered. Evidence:
 `export/courtyard-android-provenance-evidence.json`. Full scene art, twenty reference
 slots, current release, mobile/sustained performance and authenticated services
 remain open.
+
+
+## Pavilion tile chart correction — 2026-10-08
+
+A separate candidate corrects 336 inward tile faces and reserves actual lighting
+pixels for Qinfang’s 42 raised strips. The old exported triangles are only
+0.113–0.130 source pixels wide; normal correction and a shallower geometry
+control both retain dark bands. Explicit charts give each triangle a 9.370px
+minimum altitude, and black centroid samples fall from 76.8% in the shallow
+control to 1.79% with the original tile shape and revised charts.
+
+Native roof/portrait comparisons show the broad black ribs replaced by lit
+thin tile strips, including the 256px imported map. The selected candidate keeps
+all original vertex positions and primary paint UVs. All 716 unrelated nodes and
+fourteen other site exports match production. These are frozen target-mesh
+comparisons, not a full new lighting installation or final site acceptance.
+
+Matching fifteen Blender libraries and portable master are prepared; a full
+fresh ordinary/wash/spill lighting refresh is running separately for source
+`b540496a…`. Production remains `8d1d9b4e…` until matching lighting and native
+validation pass. Evidence: `export/pavilion-tile-chart-evidence.json` and
+`docs/reference/pavilion-tile-charts/README.md`. Final palette/site art, twenty
+reference slots, current release, device/sustained performance and authenticated
+services remain open.

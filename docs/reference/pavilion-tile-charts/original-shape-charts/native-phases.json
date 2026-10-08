@@ -1,0 +1,45 @@
+[
+  {
+    "name": "candidate-import",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/godot",
+      "--headless",
+      "--editor",
+      "--import"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  },
+  {
+    "name": "candidate-map-import",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/godot",
+      "--headless",
+      "--editor",
+      "--import"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  },
+  {
+    "name": "native-comparison",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-detail-yhh1iheu/godot",
+      "--script",
+      "res://tests/diagnose_tile_ridge_candidate.gd",
+      "--",
+      "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-normal-tile-chart-candidate-h31_ah95/native-captures"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  }
+]

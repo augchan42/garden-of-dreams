@@ -1,0 +1,133 @@
+{
+  "scope": "Saved-source geometric ray visibility at ridge face centres; skips non-rendering/collision/no-shadow objects. Does not evaluate Cycles light linking, diffuse/normal mapping, UV filtering or full radiometry. No art acceptance.",
+  "sources": [
+    {
+      "source": "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+      "tile_faces": 336,
+      "suns": {
+        "LGT_stage_green_key": {
+          "energy": 1.399999976158142,
+          "direction_to_light": [
+            0.42426419258117676,
+            -0.5656854510307312,
+            0.7071067690849304
+          ],
+          "normal_dot_range": [
+            -0.9947740882635117,
+            0.2307511568069458
+          ],
+          "counts": {
+            "backfacing": 274,
+            "occluded": 62
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 62
+          }
+        },
+        "LGT_stage_amber_rim": {
+          "energy": 1.0,
+          "direction_to_light": [
+            -0.6861610412597656,
+            0.37426990270614624,
+            0.6237829327583313
+          ],
+          "normal_dot_range": [
+            -0.9987157881259918,
+            0.33332744240760803
+          ],
+          "counts": {
+            "occluded": 98,
+            "backfacing": 238
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 98
+          }
+        },
+        "LGT_qinfang-ting_key": {
+          "energy": 0.6000000238418579,
+          "direction_to_light": [
+            0.5792281031608582,
+            -0.5792279839515686,
+            0.5735762715339661
+          ],
+          "normal_dot_range": [
+            -0.9988881647586823,
+            0.40468040108680725
+          ],
+          "counts": {
+            "backfacing": 230,
+            "occluded": 106
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 106
+          }
+        }
+      }
+    },
+    {
+      "source": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/blender/authoring.blend",
+      "tile_faces": 336,
+      "suns": {
+        "LGT_stage_green_key": {
+          "energy": 1.399999976158142,
+          "direction_to_light": [
+            0.42426419258117676,
+            -0.5656854510307312,
+            0.7071067690849304
+          ],
+          "normal_dot_range": [
+            0.08166259527206421,
+            0.9912720322608948
+          ],
+          "counts": {
+            "unoccluded": 313,
+            "occluded": 23
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 23
+          }
+        },
+        "LGT_stage_amber_rim": {
+          "energy": 1.0,
+          "direction_to_light": [
+            -0.6861610412597656,
+            0.37426990270614624,
+            0.6237829327583313
+          ],
+          "normal_dot_range": [
+            -0.023669295012950897,
+            0.9701721593737602
+          ],
+          "counts": {
+            "unoccluded": 306,
+            "occluded": 26,
+            "backfacing": 4
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 26
+          }
+        },
+        "LGT_qinfang-ting_key": {
+          "energy": 0.6000000238418579,
+          "direction_to_light": [
+            0.5792281031608582,
+            -0.5792279839515686,
+            0.5735762715339661
+          ],
+          "normal_dot_range": [
+            -0.09840479493141174,
+            0.9687257707118988
+          ],
+          "counts": {
+            "unoccluded": 288,
+            "occluded": 35,
+            "backfacing": 13
+          },
+          "blockers": {
+            "QINFANG_kit_roof_hex": 35
+          }
+        }
+      }
+    }
+  ]
+}

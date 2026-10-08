@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-chart-candidate-0faou2cl/blender/authoring.blend",
+    "--threads",
+    "8",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/Users/auchan/projects/garden-of-dreams/scripts/export_garden.py",
+    "--",
+    "--output-root",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-chart-candidate-0faou2cl",
+    "--pavilion-tile-uvs"
+  ],
+  "exit_code": 0,
+  "script_sha256": "d3bdc70ef3675e7eaf4a92fe9158eb9e23b9b858a9bcfc68c8e2c1c552715ad9"
+}

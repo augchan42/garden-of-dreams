@@ -1,0 +1,114 @@
+{
+  "candidate_glb_sha256": "e552ecf9b8600e8407404787eebf42b2455db27f25e241b033a5048b77cdb7e3",
+  "candidate_lightmap_record": {
+    "mesh": "SITE_qinfang-ting_MAT_pavilion_atlas",
+    "nonzero_fraction": 0.0533847808837891,
+    "point_lights_baked": false,
+    "samples": 128.0,
+    "scale": 1.0,
+    "shadow_intent": {
+      "SITE_stage_MAT_stage_canopy_paint": false
+    },
+    "site": null,
+    "size": 1024.0,
+    "source_glb_sha256": "e552ecf9b8600e8407404787eebf42b2455db27f25e241b033a5048b77cdb7e3",
+    "status": "Cycles bake produced; engine look verification pending",
+    "texture": "SITE_qinfang-ting_MAT_pavilion_atlas.png",
+    "uv_channel": 1.0,
+    "uv_sha256": "f4021dc18de0e0b8a31de7aac3159f06dd352ec84392fb72409e9b7ddababc8d"
+  },
+  "candidate_lightmap_sha256": "20dcedd0ce9e9d7a457ade32144a4eca1d4e9e1eb289a2a72edcb9f27d05f19c",
+  "scope": "Only the Qinfang atlas mesh and its actual fresh candidate bake are swapped in the isolated current scene. Other geometry/maps/lights/materials/UI remain the baseline. No old map relabelling, whole-candidate lighting, production adoption, traversal, final art or performance claim.",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "status": "passed",
+  "test_script_sha256": "a4acde17d8e2f5f4c1400dc2c85f7f535834a014c3a4d9a921aa4ad4c9ce3ec4",
+  "views": {
+    "desktop": {
+      "camera_transform": "[X: (0.768221, 0.0, -0.640184), Y: (-0.147556, 0.973075, -0.177068), Z: (0.622947, 0.23049, 0.747537), O: (10.0, 5.5, 12.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/desktop-baseline.png",
+          "sha256": "e5274af2a60c990ff749d2d032b27504b918a9b831783cc8d791423431191190"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/desktop-baseline-again.png",
+          "sha256": "e5274af2a60c990ff749d2d032b27504b918a9b831783cc8d791423431191190"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/desktop-baseline-lossless256.png",
+          "sha256": "9db91402f886e80a8fbbcb42e167696158fbe41a0d35ec6df7c758a568e45469"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/desktop-candidate-import256.png",
+          "sha256": "a63d5be772a3fcb7914c068b49d86a14de586d5c33b628e7912f4bc9c1d71d2b"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/desktop-candidate-lossless-native.png",
+          "sha256": "26ec6bc4be03b880d73b8cc10232d2a598ed9dd8176213cfabfc7e55d06e93da"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    },
+    "portrait": {
+      "camera_transform": "[X: (0.957826, 0.0, -0.287348), Y: (-0.069187, 0.97058, -0.230624), Z: (0.278894, 0.240779, 0.929647), O: (6.0, 6.98, 20.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/portrait-baseline.png",
+          "sha256": "b35c5a9b678cc0caa44c20c571d60f0b6545e38c09dfa40f01d78ebdf744a085"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/portrait-baseline-again.png",
+          "sha256": "b35c5a9b678cc0caa44c20c571d60f0b6545e38c09dfa40f01d78ebdf744a085"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/portrait-baseline-lossless256.png",
+          "sha256": "01cfdb5a974b222625524c4fdf936208d70b7501f8a6a4b615cd75d27a3ca853"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/portrait-candidate-import256.png",
+          "sha256": "6269c7b7c3ab25daede5f4ffbd3cc67ff36a86ac1c2e366f677f3d736410d577"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/portrait-candidate-lossless-native.png",
+          "sha256": "207755c219f7fbbbeab17ede61706ed1a62c0367fb28ddbb7472baa8eb9ebe3d"
+        }
+      },
+      "viewport": [
+        540,
+        960
+      ]
+    },
+    "roof-close": {
+      "camera_transform": "[X: (0.871576, 0.0, -0.490261), Y: (-0.063554, 0.991562, -0.112985), Z: (0.486124, 0.129633, 0.864221), O: (4.5, 5.3, 8.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/roof-close-baseline.png",
+          "sha256": "dadf8ee89a2831afd0f0e6c94309e8f31ccc42edbe297cc7498a7ab2c46ffa66"
+        },
+        "baseline-again": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/roof-close-baseline-again.png",
+          "sha256": "dadf8ee89a2831afd0f0e6c94309e8f31ccc42edbe297cc7498a7ab2c46ffa66"
+        },
+        "baseline-lossless256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/roof-close-baseline-lossless256.png",
+          "sha256": "d352b22cbf2261fabdc9dcb46df3ebbd52a64126518cbd8f918ea6a2516df343"
+        },
+        "candidate-import256": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/roof-close-candidate-import256.png",
+          "sha256": "b0a684acc235981e95ae54676d5bace3fe834981f3638744eac20c288cbab39e"
+        },
+        "candidate-lossless-native": {
+          "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/native-captures/roof-close-candidate-lossless-native.png",
+          "sha256": "5e32aa1e963ba51e2e8118c4bb7451fac0ff37d7ba4ef75e91c567bd1a062dc5"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    }
+  }
+}

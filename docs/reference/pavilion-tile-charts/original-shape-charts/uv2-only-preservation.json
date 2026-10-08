@@ -1,0 +1,13 @@
+{
+  "status": "uv2_only_delta_passed",
+  "previous_glb_sha256": "b7c4a2bf17de4c30e7b56759ae7d2359166d8e189dd843c92f1dcfcc2384d922",
+  "candidate_glb_sha256": "b540496a9129879389a96f5fff0cf59c04c0ff116fa44f2a2389fee3f643f4f1",
+  "other_resolved_nodes": 716,
+  "target_triangles_preserving_non_uv2_attributes": 23930,
+  "preserved_attributes": [
+    "NORMAL",
+    "POSITION",
+    "TEXCOORD_0"
+  ],
+  "scope": "Exact unordered triangle vertex contracts against preceding normal-only export. Target UV2 is sole intended delta; no lighting or art acceptance."
+}

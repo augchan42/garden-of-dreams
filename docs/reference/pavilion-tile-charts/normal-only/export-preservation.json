@@ -1,0 +1,30 @@
+{
+  "status": "scratch_export_preservation_passed",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "candidate_glb_sha256": "b7c4a2bf17de4c30e7b56759ae7d2359166d8e189dd843c92f1dcfcc2384d922",
+  "unchanged_resolved_node_contracts": 716,
+  "changed_mesh": "SITE_qinfang-ting_MAT_pavilion_atlas",
+  "positions_primary_uv_pairs_preserved": 35323,
+  "target_surface_area": [
+    656.9830322265625,
+    656.9830322265625
+  ],
+  "target_index_count": 71790,
+  "byte_identical_other_site_exports": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_ziling-zhou.glb"
+  ],
+  "scope": "Native source preserves vertex positions/UV ownership and only reverses 336 inward ridge faces. Actual GLB preserves every other resolved node, embedded material/image, camera/collision/light and all fourteen other site exports. Target batch normals/tangents and freshly packed UV2 change; all matching lighting and actual engine art remain required before adoption."
+}

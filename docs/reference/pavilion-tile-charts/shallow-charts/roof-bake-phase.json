@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Applications/Blender.app/Contents/MacOS/Blender",
+    "--background",
+    "--threads",
+    "8",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-chart-candidate-0faou2cl/scripts/bake_lightmaps.py",
+    "--",
+    "--mesh",
+    "SITE_qinfang-ting_MAT_pavilion_atlas",
+    "--size",
+    "1024",
+    "--samples",
+    "128"
+  ],
+  "exit_code": 0,
+  "script_sha256": "d1f03a2e7951fb2c97f578afb425ad6155b5f935e52a9cb43e9f197685bcd1d5"
+}

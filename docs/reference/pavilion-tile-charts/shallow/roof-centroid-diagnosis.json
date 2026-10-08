@@ -1,0 +1,57 @@
+{
+  "scope": "CPU roof triangle-centroid samples of matching source/native RGB16 irradiance. Omits realtime practicals, tone mapping, visibility and filtering; not final art acceptance.",
+  "source_glb_sha256": "e552ecf9b8600e8407404787eebf42b2455db27f25e241b033a5048b77cdb7e3",
+  "lightmap_sha256": "20dcedd0ce9e9d7a457ade32144a4eca1d4e9e1eb289a2a72edcb9f27d05f19c",
+  "irradiance_bit_depth": 16,
+  "mesh": "SITE_qinfang-ting_MAT_pavilion_atlas",
+  "roof_triangle_count": 2180,
+  "bins": {
+    "upward": {
+      "triangles": 1844,
+      "mean_linear_albedo_rgb": [
+        0.025018764563261024,
+        0.06017619256413186,
+        0.03512417331998622
+      ],
+      "median_irradiance_rgb": [
+        0.10897993438620585,
+        0.09260700389105059,
+        0.07506675822079806
+      ],
+      "baked_diffuse_luminance_quantiles": [
+        0.0,
+        0.0,
+        0.015338782298426556,
+        0.058820193352851116,
+        0.09360840622378967
+      ],
+      "zero_light_fraction": 0.4625813449023861,
+      "opposing_shading_normals_fraction": 0.0
+    },
+    "downward": {
+      "triangles": 336,
+      "mean_linear_albedo_rgb": [
+        0.025005085469213775,
+        0.06004111444200837,
+        0.0349752669899084
+      ],
+      "median_irradiance_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "baked_diffuse_luminance_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.04335811317712013
+      ],
+      "zero_light_fraction": 0.9196428571428571,
+      "opposing_shading_normals_fraction": 0.0
+    },
+    "edge": {
+      "triangles": 0
+    }
+  }
+}

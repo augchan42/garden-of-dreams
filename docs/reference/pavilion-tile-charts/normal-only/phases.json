@@ -1,0 +1,62 @@
+[
+  {
+    "name": "author",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/prepare_tile_ridge_candidate.py",
+      "--",
+      "--output-root",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0"
+    ],
+    "pid": 36246,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "b0e164811e68f8346be9cb17f857350f0c12762a4a20e42da7933a1f97b953b7"
+  },
+  {
+    "name": "reopen-regression",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/test_pavilion_tile_ridges.py"
+    ],
+    "pid": 36267,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "97f3c8472291d0dfe0e9411c70dae9c068f391c88f89600bd42c8013b57a11df"
+  },
+  {
+    "name": "export",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/export_garden.py",
+      "--",
+      "--output-root",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tile-ridge-candidate-9bvc9ci0"
+    ],
+    "pid": 36275,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "51f01a173c00d4c39aff14c229d61713eec66a279e698cb1db14847df80d7e07"
+  }
+]

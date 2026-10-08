@@ -1,0 +1,66 @@
+[
+  {
+    "name": "author",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/prepare_tile_ridge_candidate.py",
+      "--",
+      "--output-root",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct",
+      "--ridge-rise",
+      ".009",
+      "--ridge-half-width",
+      ".038"
+    ],
+    "pid": 44213,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "ab980de16ec9d3bcab4650a0d5fc8c8b7401d8248d68d5f829bb5c94f55930fe"
+  },
+  {
+    "name": "reopen-regression",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/test_pavilion_tile_ridges.py"
+    ],
+    "pid": 44226,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "2cb40508d170cbdf2d3f9d4495da3268cb8a4fdd46f806f683a9588bc56c7232"
+  },
+  {
+    "name": "export",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct/blender/authoring.blend",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/export_garden.py",
+      "--",
+      "--output-root",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shallow-tile-candidate-5e8q02ct"
+    ],
+    "pid": 44229,
+    "status": "passed",
+    "exit_code": 0,
+    "log_sha256": "36ae1b93ef8130f4b1f1adae9200e534384252cc891ba49be4ac408a28569cd3"
+  }
+]

@@ -1,0 +1,1 @@
+Rounded world-coordinate keys classified 654 rather than all 672 expected tile triangles. Native exit1 is rejected. Final probe uses bounded nearest-position matching, not rounded-key equality. No texel conclusion is drawn from this incomplete attempt.
