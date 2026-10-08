@@ -94,3 +94,7 @@ The original brush lettering and recessed-normal source images are retained. The
 ## Beijing reconstruction reference — 2026-10-08
 
 Slot 1 is collected and directly reviewed in `../reference/external/rockery-gate/README.md`. The original photograph shows a dry narrow path concealed by piled stone and overhangs, with irregular openings, vines and pine branches. It guides the entry's obstructed view and rock treatment, rather than measured clearance or lighting. This daytime frame does not establish the full twelve-metre/two-bend route, amber lanterns or fog. The Sipa copyright/watermark and primary article attribution are retained. The Shaw cave and moon-gate-in-fog slots remain missing.
+
+## External references — 2026-10-09
+
+Slots 1 and 3 are collected. The new directly reviewed dark-gate/fog image retains its original bytes and credited project context. The specified *The Magic Blade* cave corridor remains missing. See `../reference/external/rockery-gate/README.md`. Reference collection does not establish final rock surface, fog, lantern or tunnel-reveal acceptance.

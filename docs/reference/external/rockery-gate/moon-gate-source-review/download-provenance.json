@@ -1,0 +1,65 @@
+{
+  "scope": "Reference candidates only; not accepted slots until direct original-image and source review. Original response bytes retained without edits.",
+  "rows": [
+    {
+      "file": "sohu-moon-gate.jpeg",
+      "url": "https://5b0988e595225.cdn.sohucs.com/images/20190922/060d5b51cc0645b784e5b81aa13fb22e.jpeg",
+      "retrieved_at": "2026-10-08T20:03:43.604893+00:00",
+      "http_status": 200,
+      "response_url": "https://5b0988e595225.cdn.sohucs.com/images/20190922/060d5b51cc0645b784e5b81aa13fb22e.jpeg",
+      "headers": {
+        "Server": "Tengine",
+        "Content-Type": "image/jpeg",
+        "Content-Length": "195876",
+        "Connection": "close",
+        "Date": "Thu, 08 Oct 2026 20:03:44 GMT",
+        "x-oss-request-id": "6AC7F7209EEF6138357736C5",
+        "x-oss-cdn-auth": "success",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"C17C8E11EE4EE564FCA262EA94DD204B\"",
+        "Last-Modified": "Sun, 22 Sep 2019 08:54:29 GMT",
+        "x-oss-object-type": "Normal",
+        "x-oss-hash-crc64ecma": "3736068234433290215",
+        "x-oss-storage-class": "Standard",
+        "x-oss-meta-createtime": "2019-09-22 16:54:29",
+        "x-oss-meta-etag": "c17c8e11ee4ee564fca262ea94dd204b",
+        "x-oss-meta-owner": "1487920685840",
+        "x-oss-meta-size": "195876",
+        "Content-MD5": "wXyOEe5O5WT8omLqlN0gSw==",
+        "x-oss-server-time": "50",
+        "Via": "cache6.l2jp1[408,408,200-0,M], cache22.l2jp1[410,0], ens-cache13.jp14[411,411,200-0,M], ens-cache17.jp14[413,0]",
+        "Ali-Swift-Global-Savetime": "1791489824",
+        "X-Cache": "MISS TCP_MISS dirn:-2:-2",
+        "X-Swift-SaveTime": "Thu, 08 Oct 2026 20:03:44 GMT",
+        "X-Swift-CacheTime": "2592000",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
+        "Access-Control-Allow-Headers": "*",
+        "Access-Control-Max-Age": "600",
+        "Cache-Control": "max-age=2592000",
+        "Timing-Allow-Origin": "*",
+        "EagleId": "9b66d1a517914898242261589e"
+      },
+      "sha256": "8b2355d4abdefc1c64d0d5508ee1cc374e6f7d674d60dc4a7cc78dea8dd63e9d",
+      "bytes": 195876
+    },
+    {
+      "file": "yuanye-moon-gate.jpg",
+      "url": "https://www.yuanyebei.com/bbs/data/attachment/forum/202411/06/162053nszlkoslses6t2ll.jpg",
+      "retrieved_at": "2026-10-08T20:03:43.605521+00:00",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.yuanyebei.com'. (_ssl.c:1082)>"
+    },
+    {
+      "file": "sohu-source.html",
+      "url": "https://www.sohu.com/picture/342607749",
+      "retrieved_at": "2026-10-08T20:03:43.605662+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "yuanye-source.html",
+      "url": "https://www.yuanyebei.com/bbs/forum.php?mod=viewthread&tid=26589",
+      "retrieved_at": "2026-10-08T20:03:43.605756+00:00",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.yuanyebei.com'. (_ssl.c:1082)>"
+    }
+  ]
+}

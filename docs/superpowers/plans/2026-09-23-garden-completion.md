@@ -77,3 +77,5 @@ Daoxiang, Daguan and Longcui have reviewed adaptive portrait camera poses, publi
 ## Prepared checkpoint: Hengwu foreground stone — 2026-10-09
 
 The separate compact-stone candidate has saved/reopened source preservation, controlled complete/site exports, native surface identity, unbaked arrival/action comparisons and real adjacent-route/capsule checks. Fifteen site libraries and portable shared-light receiver master are prepared. Full matching six-phase lighting is running for that source; source agreement, complete rendered review and recoverable adoption remain required. No production geometry or camera changed. See `../../reference/hengwu-rock-preparation/README.md`. Full goal scope remains unchanged.
+
+Reference checkpoint (2026-10-09): rockery slot 3 is collected with original JPEG, direct visual review and project-level attribution. Coverage is 37/42; five specified references remain. Immutable collection-time source/coverage snapshots are indexed by `moon-gate-reference-evidence.json`. Hengwu matching lighting/native review and all other scene, device, release and service requirements remain open.

@@ -1,0 +1,6 @@
+EXTERNAL_REFERENCE_COVERAGE 37 / 42
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_external_references.py", line 49, in <module>
+    assert report['complete_slot_coverage'], 'External reference collection is incomplete'
+           ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: External reference collection is incomplete

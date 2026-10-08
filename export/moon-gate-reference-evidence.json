@@ -1,0 +1,98 @@
+{
+  "status": "one_additional_required_reference_directly_reviewed_and_saved",
+  "scope": "Rockery slot 3 collection with original JPEG, project-level attribution limits and directly reviewed dark gate/fog composition. Immutable collection-time metadata/coverage snapshots preserve earlier and current bytes. No production scene, lighting, runtime, device or service change.",
+  "reviewed_at": "2026-10-08T20:09:35.953274+00:00",
+  "coverage_at_collection": {
+    "collected": 37,
+    "expected": 42,
+    "missing_slots": {
+      "qinfang-ting": [
+        1
+      ],
+      "rockery-gate": [
+        2
+      ],
+      "terminal-cells": [
+        1,
+        2,
+        3
+      ]
+    },
+    "complete": false
+  },
+  "image": {
+    "sha256": "8b2355d4abdefc1c64d0d5508ee1cc374e6f7d674d60dc4a7cc78dea8dd63e9d",
+    "pixels": [
+      1080,
+      1558
+    ],
+    "reference_slot": 3
+  },
+  "artifacts": [
+    {
+      "path": "docs/reference/external/rockery-gate/dark-moon-gate-fog.jpeg",
+      "bytes": 195876,
+      "sha256": "8b2355d4abdefc1c64d0d5508ee1cc374e6f7d674d60dc4a7cc78dea8dd63e9d"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/before-README.md",
+      "bytes": 1250,
+      "sha256": "3d38188aea8f494e23373bc70d1321a55e385f6e35dda7ad22ad7bc8ce280c12"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/before-sources.json",
+      "bytes": 2039,
+      "sha256": "cf3346fa975a50360cbcbbd59e3161a6c2da6ce69a066d53d1e475f72d045277"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/collected-README.md",
+      "bytes": 2996,
+      "sha256": "575e5cec34eefb502c118dd6469d25fbe083c42428ba24798bb80c6eb48134d4"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/collected-sources.json",
+      "bytes": 4414,
+      "sha256": "1e14e8c8bcb01dd139a2da9e3bc87009675f1dfb24c4938f73d8dc9780442ae5"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/coverage-at-collection.json",
+      "bytes": 4567,
+      "sha256": "ae2eb91ec25143a6ee735192f84a30f7474454dcf4b5bccd9d1405f1d5bb0001"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/download-provenance.json",
+      "bytes": 3128,
+      "sha256": "998bea448948a5ec09a7d0cb7104683acff3abae8dd252bd16b9f1e8dbfce680"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/executed-candidate-collector.py",
+      "bytes": 1371,
+      "sha256": "48823688f68991949ac7c04bd99b81a3ec5446864fae898478ed84cfd2d00fea"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/executed-evidence-writer.py",
+      "bytes": 4265,
+      "sha256": "ed1c4ffed352f5481d0a227d5d28fb731e263aa84bcf03e0bed3a34d98c91924"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/executed-reference-writer.py",
+      "bytes": 7324,
+      "sha256": "dd6763ba01ad1db05c0b825608549cafc7ddd97329aac1d3f3c761fa7ab24a96"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/require-all-rejection.log",
+      "bytes": 374,
+      "sha256": "a4734a335cbf3d5f8d2e4a4bd61ec5a40d86d14d0db35310b28fdb31df886f67"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/source-attribution.json",
+      "bytes": 1523,
+      "sha256": "3eca0baeac6d8c2e02fdc1d8e52261e230afadb83131974c23d2d6ec50bed4e2"
+    },
+    {
+      "path": "docs/reference/external/rockery-gate/moon-gate-source-review/visual-review.json",
+      "bytes": 1171,
+      "sha256": "26555923d0d7cb079ca6caad9597470ea0d7f12897af4d1c0a683e360d658ad1"
+    }
+  ]
+}
