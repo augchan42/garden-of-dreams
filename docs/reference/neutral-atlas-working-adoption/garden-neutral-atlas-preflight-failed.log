@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/garden_apply_neutral_atlas_adoption.py", line 77, in <module>
+    for name,digest in v['canonical_inputs'].items():require(sha(repo/'scripts'/name)==digest,'Canonical source input changed '+name)
+                       ~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'canonical_inputs'

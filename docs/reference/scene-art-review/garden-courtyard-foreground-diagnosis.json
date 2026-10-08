@@ -1,0 +1,180 @@
+{
+  "scope": "CPU closest geometric intersections for the courtyard foreground; no alpha/occlusion or native surface-ID proof. Geometry is identical between 5ae and 59de.",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "camera_pose": {
+    "basis": [
+      [
+        0.994388937950134,
+        0.0,
+        -0.105786062777042
+      ],
+      [
+        -0.0319992937147617,
+        0.953152358531952,
+        -0.300793349742889
+      ],
+      [
+        0.100830227136612,
+        0.302490651607513,
+        0.947804093360901
+      ]
+    ],
+    "fov": 55.0,
+    "keep_aspect": 1,
+    "position": [
+      -17.5,
+      2.59999990463257,
+      -10.5
+    ]
+  },
+  "viewport": [
+    1410,
+    600
+  ],
+  "samples": [
+    {
+      "pixel": [
+        1300,
+        120
+      ],
+      "closest_geometric_hits": [
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "distance": 2.370311506058881,
+          "point": [
+            -16.023136065877704,
+            2.590962463192585,
+            -12.353960053640897
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "distance": 2.9615108329105877,
+          "point": [
+            -15.65477901176358,
+            2.588708358918896,
+            -12.816371822271623
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 6.2272546387167145,
+          "point": [
+            -13.62000036239624,
+            2.576256844285682,
+            -15.370702148017152
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 6.6124460812334345,
+          "point": [
+            -13.380000114440918,
+            2.57478819972313,
+            -15.671983032662434
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        1150,
+        100
+      ],
+      "closest_geometric_hits": [
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 7.64200931047737,
+          "point": [
+            -13.670000076293945,
+            2.760179909113193,
+            -17.111032389271664
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 7.660081030481333,
+          "point": [
+            -13.660942944403054,
+            2.7605587006160035,
+            -17.12666606903076
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 7.741774779763621,
+          "point": [
+            -13.61999990955364,
+            2.7622710389022362,
+            -17.19733858466952
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 7.75255677795933,
+          "point": [
+            -13.61459621916421,
+            2.762497034507467,
+            -17.206665992736816
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        1250,
+        300
+      ],
+      "closest_geometric_hits": [
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "distance": 2.209609192817747,
+          "point": [
+            -16.15131575767003,
+            2.1132614443378412,
+            -12.181222552414
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "distance": 3.199955232821645,
+          "point": [
+            -15.546835968688038,
+            1.8951054427076297,
+            -12.934745891545846
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 6.356775439570422,
+          "point": [
+            -13.62000036239624,
+            1.1997128765223186,
+            -15.336671690349323
+          ]
+        },
+        {
+          "mesh": "SITE_hengwu-yuan_MAT_wall_atlas",
+          "material": "MAT_wall_atlas",
+          "distance": 6.7499784870416875,
+          "point": [
+            -13.380000114440918,
+            1.113097086485123,
+            -15.63584759586029
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,7 @@
 - Metres, source Z-up, glTF Y-up. No rigged character required.
 - 2.35:1 camera framing; fixed rails rather than free look.
 - Click/tap commands with optional typed commands. AI-driven decisions require an actual service integration; do not misrepresent local authored responses as AI output.
-- Green/amber/black rendered palette; retain visible architectural detail.
+- Neutral wood/plaster/slate with amber practicals and selective green CRT/gel accents, following the user's reduced-green revision; retain visible architectural detail.
 - 300k visible triangles and 150 draw-call targets require measured engine evidence, not mesh-count inference.
 - Keep game logic out of Blender assets. Room markers retain room_id.
 
@@ -65,3 +65,5 @@ Current evidence (2026-10-08): installed GLB `be80374c`, authoring `9356f6ec`, h
 
 
 Pending candidate evidence (2026-10-09): paving/plain colors `5ae484f9` has six completed source phases and 37 passed native phases, both full walks with no floor-ray misses, and partial named visual review. Combined architectural colors are now saved as authoring `3a3ae253` / export `59de1ca2`; complete/site export preservation and portable libraries pass. Fresh lighting is running and a 42-phase native review, including palette-transfer controls, is queued. The new GDScript is not yet executed. Neither candidate is adopted; installed source remains `be80374c`. Full art, six references, target devices/sustained/release and services scope remains required.
+
+Later checkpoint (2026-10-09): `59de1ca2` / authoring `3a3ae253` is now installed after six source phases, all 42 native phases, exact default reproduction of all sixteen GLBs, selected visual inspection and ten production checks. Both full walks have no floor-ray misses. See `neutral-atlas-full-lighting-evidence.json`, `neutral-atlas-native-review-evidence.json` and `neutral-atlas-working-adoption-evidence.json`. All fourteen intermediate-source desktop/portrait arrivals were inspected for remaining art. Twelve actual camera-only comparisons for three sites are recorded but not installed; action/resize/authored-camera acceptance is pending. Final art/framing, six references, standalone kit palettes, current target devices/sustained/release and authenticated services remain open.
