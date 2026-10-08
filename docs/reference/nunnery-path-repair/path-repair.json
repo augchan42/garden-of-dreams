@@ -1,0 +1,85 @@
+{
+  "status": "native_candidate_path_repaired_not_adopted",
+  "source_authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "candidate_authoring_sha256": "a0972bd31ecbe7f0d2cb9ab3c6a9272eb205cb5b4248470c8c2ffa5fa2f5a9f3",
+  "changed_objects": [
+    "LONGCUI_approach",
+    "LONGCUI_approach.002"
+  ],
+  "unchanged_objects": 4359,
+  "old_rectangles_xz": [
+    [
+      -20.100000381469727,
+      -18.299999237060547,
+      -0.0,
+      5.0
+    ],
+    [
+      -25.899999618530273,
+      -18.299999237060547,
+      4.099999904632568,
+      5.900000095367432
+    ],
+    [
+      -25.899999618530273,
+      -24.100000381469727,
+      4.099999904632568,
+      11.699999809265137
+    ]
+  ],
+  "new_rectangles_xz": [
+    [
+      -20.100000381469727,
+      -18.299999237060547,
+      -0.0,
+      4.099999904632568
+    ],
+    [
+      -25.899999618530273,
+      -18.299999237060547,
+      4.099999904632568,
+      5.900000095367432
+    ],
+    [
+      -25.899999618530273,
+      -24.100000381469727,
+      5.900000095367432,
+      11.699999809265137
+    ]
+  ],
+  "old_pairwise_overlap_m2": [
+    1.6200012016297478,
+    0.0,
+    3.2399989700315928
+  ],
+  "new_pairwise_overlap_m2": [
+    0.0,
+    0,
+    0.0
+  ],
+  "footprint_membership_classes": 63,
+  "coordinate_tolerance_m": 1e-05,
+  "collision_snapshot_sha256": {
+    "COL_longcui_approach": "bc637c1ddc1305071006ff6a0561f16b61ff1f8817f8af77ca51ff87291d316c",
+    "COL_longcui_approach.001": "a42a97fe04231ef9f2addcbe2d8adf6db3d77c097324580f458bb770da9a8a64",
+    "COL_longcui_approach.002": "d508a8ba166c6408ed9144204834dbb164868ecadbbdb171ff609628e0001367"
+  },
+  "scope": "Separate saved source candidate. Only two render slab meshes trimmed; source/colliders/all other object geometry unchanged. Fresh source-matched lighting and native visual validation still required.",
+  "candidate_glb_sha256": "47ac858ef7bca32413742bb7962c8c0f60f0cd3ac606f2e595f5bd4cf2fc03f9",
+  "unrelated_site_glbs": {
+    "SITE_daoxiang-cun.glb": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a",
+    "SITE_daguan-lou.glb": "60db742456a336fd95cb0c58714d376cb289ef8d80b17fe33e2fa5002378b8c4",
+    "SITE_xiaoxiang-guan.glb": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e",
+    "SITE_qinfang-ting.glb": "9e98cabed178582bdb53f0b5d0c33365c1516170e2df8bb7a491d2bcaab004bc",
+    "SITE_qiushuang-zhai.glb": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01",
+    "SITE_ziling-zhou.glb": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34",
+    "SITE_terminal-cells.glb": "acb433bb9f075bdafeabf2436eb9d742dba8ed909e5bb52f3cfcad35996b5eeb",
+    "SITE_aojing-guan.glb": "7a4850b335d0fbd57a103b99bb6c5262d6cc00c41602bda41338c63733d62bee",
+    "SITE_hengwu-yuan.glb": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b",
+    "SITE_yihong-yuan.glb": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3",
+    "SITE_tubi-tang.glb": "c729d716961dc18b9059c8bedfc71703adfc649c24ac591431218e51af2d9495",
+    "SITE_rockery-gate.glb": "e996af42022626a5dd791e2e32e66eb01b0579eb980995896674fe15e739ce19",
+    "SITE_longcui-an.glb": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9",
+    "SITE_ouxiang-xie.glb": "6eee9c065271d3e0a6ca10f78e9de0e4fa242b0d27471a2e398601de26be0934"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "native_captures_complete_visual_review_pending",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/control-godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/native-control/import.log",
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "82c4ba491e5a176188d34233a01d6e683b49ed0fbc17f67d7f1ecd1ea5245b9d"
+    },
+    {
+      "name": "render",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/control-godot",
+        "--script",
+        "res://render_path_control.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/native-control"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/native-control/render.log",
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "790cf7f93bb91531b45e12fcea04317ff04e1759a000e3bfad0223c4675a6af2"
+    }
+  ],
+  "scope": "Separate source-matched controlled paving render only. No production changes."
+}

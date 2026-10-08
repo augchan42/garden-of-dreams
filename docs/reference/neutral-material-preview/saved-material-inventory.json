@@ -1,0 +1,938 @@
+{
+  "MAT_aojing-guan_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "aojing-guan-title.png"
+    ]
+  },
+  "MAT_aojing_water": {
+    "base": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "emission": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.15000000596046448,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_backstage": {
+    "base": [
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      1.0
+    ],
+    "emission": [
+      0.0010000000474974513,
+      0.0020000000949949026,
+      0.0010000000474974513,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.699999988079071,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_bronze": {
+    "base": [
+      0.44999998807907104,
+      0.23000000417232513,
+      0.02500000037252903,
+      1.0
+    ],
+    "emission": [
+      0.44999998807907104,
+      0.23000000417232513,
+      0.02500000037252903,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.4000000059604645,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_crt_amber": {
+    "base": [
+      1.0,
+      0.375,
+      0.004999999888241291,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      0.375,
+      0.004999999888241291,
+      1.0
+    ],
+    "strength": 3.0,
+    "roughness": 0.4000000059604645,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_daguan_lacquer": {
+    "base": [
+      0.20000000298023224,
+      0.054999999701976776,
+      0.03500000014901161,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.41999998688697815,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_daguan_recess": {
+    "base": [
+      0.05999999865889549,
+      0.017999999225139618,
+      0.012000000104308128,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.6200000047683716,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_daguan_title_paint": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "daguan-title.png"
+    ]
+  },
+  "MAT_daoxiang-cun_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "daoxiang-cun-title.png"
+    ]
+  },
+  "MAT_flora_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.8500000238418579,
+    "base_linked": true,
+    "textures": [
+      "flora-basecolor.png"
+    ]
+  },
+  "MAT_foliage_card": {
+    "base": [
+      0.03500000014901161,
+      0.1899999976158142,
+      0.04500000178813934,
+      1.0
+    ],
+    "emission": [
+      0.03500000014901161,
+      0.1899999976158142,
+      0.04500000178813934,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.699999988079071,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_gate_drips": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.25,
+    "base_linked": true,
+    "textures": [
+      "gate-water-drips.png",
+      "gate-water-drips.png",
+      "gate-water-drips.png"
+    ]
+  },
+  "MAT_gate_inscription": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.8500000238418579,
+    "base_linked": true,
+    "textures": [
+      "gate-inscription.png",
+      "gate-inscription-normal.png"
+    ]
+  },
+  "MAT_hengwu-yuan_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "hengwu-yuan-title.png"
+    ]
+  },
+  "MAT_lantern": {
+    "base": [
+      1.0,
+      0.375,
+      0.004999999888241291,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      0.375,
+      0.004999999888241291,
+      1.0
+    ],
+    "strength": 3.0,
+    "roughness": 0.5,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_lattice_wood": {
+    "base": [
+      0.04500000178813934,
+      0.07000000029802322,
+      0.02500000037252903,
+      1.0
+    ],
+    "emission": [
+      0.04500000178813934,
+      0.07000000029802322,
+      0.02500000037252903,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.699999988079071,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_longcui-an_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "longcui-an-title.png"
+    ]
+  },
+  "MAT_paddy_painted_texture": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.3499999940395355,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "daoxiang-paddy-v1.png"
+    ]
+  },
+  "MAT_painted_moon": {
+    "base": [
+      0.6200000047683716,
+      0.5799999833106995,
+      0.3799999952316284,
+      1.0
+    ],
+    "emission": [
+      0.41999998688697815,
+      0.550000011920929,
+      0.20000000298023224,
+      1.0
+    ],
+    "strength": 0.800000011920929,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "moon-paint.png"
+    ]
+  },
+  "MAT_painted_mountains_0": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.6000000238418579,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "mountain-paint.png"
+    ]
+  },
+  "MAT_painted_mountains_1": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.6000000238418579,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "mountain-paint.png"
+    ]
+  },
+  "MAT_painted_mountains_2": {
+    "base": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.6000000238418579,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "mountain-paint.png"
+    ]
+  },
+  "MAT_pavilion_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "pavilion_basecolor.png",
+      "pavilion_orm.png",
+      "pavilion_normal.png"
+    ]
+  },
+  "MAT_plaster_rock": {
+    "base": [
+      0.15000000596046448,
+      0.23999999463558197,
+      0.11999999731779099,
+      1.0
+    ],
+    "emission": [
+      0.15000000596046448,
+      0.23999999463558197,
+      0.11999999731779099,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.3499999940395355,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_props_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 1.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "props-basecolor.png",
+      "props-orm.png",
+      "props-emission.png"
+    ]
+  },
+  "MAT_qinfang-ting_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "qinfang-ting-title.png"
+    ]
+  },
+  "MAT_rooftile": {
+    "base": [
+      0.02500000037252903,
+      0.05999999865889549,
+      0.03500000014901161,
+      1.0
+    ],
+    "emission": [
+      0.02500000037252903,
+      0.05999999865889549,
+      0.03500000014901161,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.4300000071525574,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_stage_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "stage-basecolor.png",
+      "stage-orm.png"
+    ]
+  },
+  "MAT_stage_backstage": {
+    "base": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 1.0,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_stage_canopy_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.6000000238418579,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "cyclorama-moonlit.png"
+    ]
+  },
+  "MAT_stage_canvas": {
+    "base": [
+      0.054999999701976776,
+      0.0949999988079071,
+      0.03700000047683716,
+      1.0
+    ],
+    "emission": [
+      0.054999999701976776,
+      0.0949999988079071,
+      0.03700000047683716,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.699999988079071,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_stage_cyclorama_moonlit": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.6000000238418579,
+    "roughness": 1.0,
+    "base_linked": true,
+    "textures": [
+      "cyclorama-moonlit.png"
+    ]
+  },
+  "MAT_stage_fog": {
+    "base": [
+      0.5,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 1.0,
+    "base_linked": false,
+    "textures": [
+      "fog-mask.png"
+    ]
+  },
+  "MAT_stage_gel": {
+    "base": [
+      0.8999999761581421,
+      0.550000011920929,
+      0.20000000298023224,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.44999998807907104,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_study_scroll_bamboo": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "bamboo-scroll.png"
+    ]
+  },
+  "MAT_study_scroll_plum": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "plum-scroll.png"
+    ]
+  },
+  "MAT_study_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "hall-title.png"
+    ]
+  },
+  "MAT_tech_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 4.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "tech-basecolor.png",
+      "tech-orm.png",
+      "tech-emission.png"
+    ]
+  },
+  "MAT_terminal_scroll": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 1.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "props-basecolor.png",
+      "props-orm.png",
+      "props-emission.png"
+    ]
+  },
+  "MAT_thatch": {
+    "base": [
+      0.18000000715255737,
+      0.1899999976158142,
+      0.07500000298023224,
+      1.0
+    ],
+    "emission": [
+      0.18000000715255737,
+      0.1899999976158142,
+      0.07500000298023224,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 1.0,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_tubi_terrace_plaster": {
+    "base": [
+      0.41999998688697815,
+      0.2800000011920929,
+      0.17000000178813934,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.7200000286102295,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_tubi_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "tubi-title.png"
+    ]
+  },
+  "MAT_wall_atlas": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.5,
+    "base_linked": true,
+    "textures": [
+      "wall_basecolor.png",
+      "wall_orm.png",
+      "wall_normal.png"
+    ]
+  },
+  "MAT_water": {
+    "base": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "emission": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.15000000596046448,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_whitewash": {
+    "base": [
+      0.30000001192092896,
+      0.38999998569488525,
+      0.23000000417232513,
+      1.0
+    ],
+    "emission": [
+      0.30000001192092896,
+      0.38999998569488525,
+      0.23000000417232513,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.699999988079071,
+    "base_linked": false,
+    "textures": []
+  },
+  "MAT_xiaoxiang-guan_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "xiaoxiang-guan-title.png"
+    ]
+  },
+  "MAT_yihong-yuan_title_paint": {
+    "base": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929,
+      1.0
+    ],
+    "emission": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "strength": 0.550000011920929,
+    "roughness": 0.8999999761581421,
+    "base_linked": true,
+    "textures": [
+      "yihong-yuan-title.png"
+    ]
+  },
+  "MAT_yihong_lacquer": {
+    "base": [
+      0.25,
+      0.06499999761581421,
+      0.02500000037252903,
+      1.0
+    ],
+    "emission": [
+      0.25,
+      0.06499999761581421,
+      0.02500000037252903,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.2800000011920929,
+    "base_linked": false,
+    "textures": []
+  }
+}

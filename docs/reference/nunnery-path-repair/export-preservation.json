@@ -1,0 +1,14 @@
+{
+  "status": "path_export_preservation_passed",
+  "before_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+  "after_sha256": "47ac858ef7bca32413742bb7962c8c0f60f0cd3ac606f2e595f5bd4cf2fc03f9",
+  "nodes_checked": 717,
+  "triangles_checked": 245474,
+  "changed_node": "SITE_stage_MAT_plaster_rock",
+  "changed_attributes": [
+    "POSITION",
+    "TEXCOORD_1"
+  ],
+  "materials_and_images_unchanged": true,
+  "scope": "Expanded indexed attributes, node/marker/collision/camera/light contracts and all materials/images. Only two rendered slabs change; changed batch UVs require fresh lighting."
+}

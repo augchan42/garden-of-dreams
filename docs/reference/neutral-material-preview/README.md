@@ -1,0 +1,7 @@
+# Less-green shared-material preview — 2026-10-08
+
+Saved source inspection found green base colors in the four plain wood, whitewash, roof tile and plaster-rock materials. A native Godot preview changes only those four base-color uniforms on49baked surfaces. Wood becomes brown, whitewash warm neutral, roof tiles slate blue-gray, and stone neutral gray. CRTs, foliage, amber lamps, geometry, cameras, UI, grade and the complete installedbe8 lighting are retained. Water/fog timeline uniforms are fixed at3seconds.
+
+Sixteen originals cover baseline and revised colors at four rooms in1410×600 and390×844. Ouxiang baseline/revisedportrait, bulletin hall baseline/reviseddesktop, revisedstudy courtyarddesktop and revisedQinfangportrait were directly viewed. The roof and paving are visibly lessgreen; warm wood separates from slate roofs. This is a color preview with old indirect lighting, not a matching fresh-source result. Painted pavilion/corridor and other atlas colors still need a later material pass; this does not finish all-site palette acceptance.
+
+No production scene/material is changed by the preview. Selected colors are linear RGB: wood(0.085,0.045,0.022), whitewash(0.36,0.335,0.29), tile(0.045,0.055,0.065), stone(0.21,0.205,0.19). The script checks imported display-color representation before setting source-color shader uniforms. Saved-source application and all affected fresh lighting remain required before adoption.
