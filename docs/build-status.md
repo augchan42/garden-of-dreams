@@ -878,3 +878,9 @@ Original metadata, attribution, licence and byte checks are retained. Two
 misidentified architecture candidates are explicitly rejected. Current reference
 coverage is 17/42, leaving 25; daylight photos do not fill the required night-set
 slots. The fresh candidate lighting bake remains separate from production.
+
+Xiaoxiang now has all three collected references. An official Archive night-set
+still supplies bamboo silhouettes and warm torch/cool fill separation with
+explicit copyright attribution and reference-only scope. Three daylight film
+stills are rejected for bridge/night/cave slots. Current total is 18/42, leaving
+24; reference collection does not establish completed scene art.

@@ -28,3 +28,9 @@ Direct review also rejects two proposed architecture matches. The apparent Ouxia
 The Met's original image of Wu Zhen's [Bamboo, old tree, and rock](https://www.metmuseum.org/art/collection/search/39547), dated 1338, fills Qiushuang material slot 3. Its ink density, brush marks and visible silk weave inform the painted scroll rather than architecture or a botanical model. The saved museum object record identifies it as public domain; the [Met image policy](https://www.metmuseum.org/policies/image-resources) supplies its CC0 Open Access terms. The image provider is credited separately from the artist. The local SHA-256 records the retained original bytes; the provider supplies no published content hash for comparison.
 
 Required coverage is now 17/42, leaving 25. None of these daylight or artwork references fills a Shaw Brothers night-set slot. No scene, lighting or runtime assets changed during this collection.
+
+## First collected Shaw night-set reference
+
+Direct review of four official Hong Kong Film Archive originals accepts the night bamboo/temple exterior from *The 36th Chamber of Shaolin* for Xiaoxiang slot 1. The warm torch and cool stem/ground separation supply lighting and built-set evidence; it does not fill the terminal-cell slot because no cell is shown. Copyright attribution is retained as Celestial Pictures Limited, all rights reserved, with no invented open licence or production-texture reuse. The provider page's year field is recorded without relying on it for slot acceptance.
+
+Two *Come Drink with Me* images show daylight character/courtyard action, and the *Magic Blade* image shows a daylight courtyard rather than a cave. None fills the required bridge, night or cave slot. `film-still-review-2026-10-08.json` records all four original URLs, retained-byte hashes and decisions. Required coverage is now 18/42, leaving 24; Xiaoxiang's three-reference collection is complete while its scene art acceptance remains open.

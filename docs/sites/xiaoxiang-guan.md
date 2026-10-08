@@ -72,3 +72,8 @@ The close foliage/material slot is filled by Franzo’s original bamboo culm pho
 ## Collected architecture reference — 2026-10-08
 
 Slot 2: [original entrance photograph](../reference/external/xiaoxiang-guan/xiaoxiang-entrance-plaque.jpg), 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 瀟湘館 from right to left, identifying Xiaoxiang Guan. Green door leaves, red columns, blue/green/gold beam painting, narrow geometric transom lattice, painted plant panels and a bamboo view through the doorway supply site-specific entrance and woodwork details. This cropped daylight photograph does not establish the whole bamboo court, measured dimensions, roof layout or night lighting. Full attribution, license and original-byte hashes are saved beside the image. The night-set still remains uncollected.
+
+
+## Collected night-set reference — 2026-10-08
+
+Slot 1 is filled by the official Hong Kong Film Archive still from *The 36th Chamber of Shaolin*, produced by Shaw Brothers. Upright bamboo and dark lattice-fronted architecture receive cool fill beside a warm torch. It supports stem silhouettes and distinct warm/cool pools without prescribing a return to the strong green cast. The copyrighted still remains a design reference outside shipped game assets; exact source and rights attribution are in `../reference/external/xiaoxiang-guan/README.md`. All three reference slots are now collected, but current foliage, night lighting and final scene art still need acceptance.

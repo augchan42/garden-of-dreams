@@ -55,7 +55,7 @@ libraries, exports, atlas and lighting together if the result passes.
 
 Canonical Blender/export and production Godot retain the preceding painted-moon
 source. The local playable package still needs a separate rebuild. Site art,
-25 required external references, texture/device/performance acceptance and
+24 required external references, texture/device/performance acceptance and
 authenticated room services remain unfinished. The full goal remains active.
 
 Raw source/export/native checks and exact tools are retained under
