@@ -1,0 +1,115 @@
+{
+  "status": "complete_source_bake_passed_native_review_pending",
+  "folder": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate",
+  "orchestrator_pid": 41132,
+  "started_at": "2026-10-08T15:33:51.163076+00:00",
+  "input_source_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+  "input_authoring_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+  "prior_review_report": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-review-t2m9aow_/review-pipeline.json",
+  "phases": [
+    {
+      "name": "candidate-atlas-preservation",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/scripts/verify_neutral_architecture_atlases.py",
+        "--baseline-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/baseline",
+        "--candidate-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/atlas-preservation.json"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/preparation-logs/candidate-atlas-preservation.log",
+      "pid": 41133,
+      "exit_code": 0,
+      "log_sha256": "468722d4518a53db99f5b8342d4147002b9158ec829085799622040e5bc18ff0"
+    },
+    {
+      "name": "atlas-source-export",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/input/blender/authoring.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/scripts/apply_garden_architecture_atlases.py",
+        "--",
+        "--baseline-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/baseline",
+        "--candidate-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate",
+        "--output-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate",
+        "--before-export",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/input/export/garden-of-dreams.glb"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/preparation-logs/atlas-source-export.log",
+      "pid": 58064,
+      "exit_code": 0,
+      "log_sha256": "7032fee5373532d87cce9d481ccd35376b124bfe39597986953a02d61f10ebaf"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/scripts/prepare_candidate_libraries_frozen.py",
+        "--",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/preparation-logs/site-libraries.log",
+      "pid": 58086,
+      "exit_code": 0,
+      "log_sha256": "840c7004d3fb5682bc7f168723d73d2e55d9e46c7b5c684ae80032f8b3bd7e06"
+    },
+    {
+      "name": "wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/preparation-logs/wash-receivers.log",
+      "pid": 58090,
+      "exit_code": 0,
+      "log_sha256": "05b3d634f1a47e5f21b35a7cd16596007a06b4d122eea6a535f426c47dd94214"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-atlas-full-source-ncsvy1b8/candidate/preparation-logs/full-lighting.log",
+      "pid": 58099,
+      "exit_code": 0,
+      "log_sha256": "ebfe9fc1a38397cf3b6eeeb330a962b566d23bfe66e5a0a2aa1682a599a07c86"
+    }
+  ],
+  "scope": "Only two architectural atlas color images change on the paving and neutral-material candidate. Sequential native work starts only after the prior complete source bake and native review exit successfully. No production adoption; scene/device/art/service acceptance remains required.",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "authoring_sha256": "3a3ae2536f17cf8f19b8e5c1c811b080fe05c25615297fa20cb24019c0709621"
+}

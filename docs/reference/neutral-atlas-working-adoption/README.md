@@ -1,0 +1,7 @@
+# Working neutral palette and paving installed
+
+Saved Blender authoring is now `3a3ae253`; complete export and Godot source are `59de1ca2`. Twenty-six changed targets were installed from the reviewed bundle with exact staged/current hash guards and recoverable local backups. The original preflight helper's variable-shadowing failure occurred before asset mutation; its executed version and rejection log are retained, followed by the repaired passing preflight.
+
+Ten production checks pass: cold import, source cameras/collisions/markers, complete lighting with both lossless 512 roof exceptions, normal/demo wash, normal/demo terminal spill, animated surface materials and normal/demo palette transfer. The two architectural base-color images and metadata, four plain shared colors, repaired paving, saved authoring, fifteen site exports/libraries, portable master and matching source/engine maps are installed together. Runtime cameras and game logic retain the reviewed code.
+
+Seven named original candidate views were inspected for this working update. Fine art and other framing issues are recorded in ../../scene-art-review.md. Separate portrait camera proposals are not installed. Standalone kit libraries/exports still need their palette synchronization; this update accepts the assembled scene, not every separately exported kit. Current phone/2020 Adreno/sustained performance, six references, release and authenticated services remain open. Existing Android packages are stale for this source. The full goal remains active.

@@ -1,0 +1,2016 @@
+{
+  "status": "complete_atlas_source_lighting_native_review_separate",
+  "scope": "Completed exact-source six-phase lighting for paving, four neutral plain colors and two neutral architectural color atlases. Native review/reexport and adoption are separate; final art, devices, release and services remain open.",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "authoring_sha256": "3a3ae2536f17cf8f19b8e5c1c811b080fe05c25615297fa20cb24019c0709621",
+  "ordinary_receivers": 124,
+  "source_png_files": 141,
+  "source_phases": 6,
+  "artifact_locations": {
+    "source-lightmaps/HERO_gate_water_drips.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_gate_water_drips.001.json",
+      "sha256": "203dd3052ccc7703838a0eda749823d790ecef8525fbbdd1f7b4fcb47c49ed33"
+    },
+    "source-lightmaps/HERO_gate_water_drips.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_gate_water_drips.001.png",
+      "sha256": "2633b8b1126af49b30617e58cf9ad4c6be03921e24e5ade7b61a631ee381fd96"
+    },
+    "source-lightmaps/HERO_qinfang_bridge.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_qinfang_bridge.001.json",
+      "sha256": "0da4268ca4c85dd1220054108a80bc4e6f2506b84f97324545c5d299bff304d9"
+    },
+    "source-lightmaps/HERO_qinfang_bridge.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_qinfang_bridge.001.png",
+      "sha256": "c1b119951f64b4988f86ca3264dd4cb4b11ebb63e670d1ed79c5c67933e7110c"
+    },
+    "source-lightmaps/HERO_study_scroll_bamboo.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_study_scroll_bamboo.001.json",
+      "sha256": "b719bd84cad2c5aaf71845affff82bfb595e7cf7aa1607d4385bbad795a14f13"
+    },
+    "source-lightmaps/HERO_study_scroll_bamboo.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_study_scroll_bamboo.001.png",
+      "sha256": "871db13030a884a1e3028647ff3fc0ee96235e6af32ea6a60a76262e2d139550"
+    },
+    "source-lightmaps/HERO_study_scroll_plum.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_study_scroll_plum.001.json",
+      "sha256": "062902da244a4aa25df32e4233c0ed337951f35488ef7303aff32f4cc40b7944"
+    },
+    "source-lightmaps/HERO_study_scroll_plum.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_study_scroll_plum.001.png",
+      "sha256": "1a029b75475aaa9c9f0d7e4f59b66ead6f796c8c46ccec240e53d5169b9254de"
+    },
+    "source-lightmaps/HERO_table_hexagram.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_hexagram.001.json",
+      "sha256": "1cdb395eb7d2f21f4fcbb7b074a341c125e9a0d41517ffb85adf49aa725826e7"
+    },
+    "source-lightmaps/HERO_table_hexagram.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_hexagram.001.png",
+      "sha256": "fd435796a76dc2b53c704f418a7616aa4916ee516b9a6fc7465a92a75640a242"
+    },
+    "source-lightmaps/HERO_table_line_1_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_1_broken.001.json",
+      "sha256": "34f1f043da9af2823a7a0779518691b27a396243a2e7cf27c76895e9f18487d5"
+    },
+    "source-lightmaps/HERO_table_line_1_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_1_broken.001.png",
+      "sha256": "6807a79dc266b12e6647fc8fc0581b1019b3dad939cb2442b02e1bd34a1a9013"
+    },
+    "source-lightmaps/HERO_table_line_1_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_1_solid.001.json",
+      "sha256": "0768d3aec411e2abe989bc6711da462e94ebf4893ad0f6aeaac5065fa1836d9e"
+    },
+    "source-lightmaps/HERO_table_line_1_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_1_solid.001.png",
+      "sha256": "5b15fe27c95dffaeb14379b4c29b54d7f2ecbeac984be7933f2e29db0edf693a"
+    },
+    "source-lightmaps/HERO_table_line_2_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_2_broken.001.json",
+      "sha256": "ab705b44179694888c2a692b496dc18d141773af4a8cbe110017e7b992d361d3"
+    },
+    "source-lightmaps/HERO_table_line_2_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_2_broken.001.png",
+      "sha256": "3816393ff0097b1e1635a58ec31ae0793dbc67372676bcb85979453bc0cfafc6"
+    },
+    "source-lightmaps/HERO_table_line_2_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_2_solid.001.json",
+      "sha256": "3ff2bef4af697b82ec8e76f4706e1504834ce4fb51f14fc0dfcb4c27892ee144"
+    },
+    "source-lightmaps/HERO_table_line_2_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_2_solid.001.png",
+      "sha256": "e3bc1f8765753f8fc01d6a8761ef38fc98083a20fb47aefec2d5c5072d871bbd"
+    },
+    "source-lightmaps/HERO_table_line_3_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_3_broken.001.json",
+      "sha256": "2ee47e86e7eabbe150bb327cceb1e05f00b3489b4f9216bcca5312d3affcb9ef"
+    },
+    "source-lightmaps/HERO_table_line_3_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_3_broken.001.png",
+      "sha256": "bc4437b2585f12452b2af36d03740ebadffb4a34fcd763b742e7352d92002a6c"
+    },
+    "source-lightmaps/HERO_table_line_3_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_3_solid.001.json",
+      "sha256": "5a910ab3ab0364f232af17649e8c4665e2b3c05e70fa501c3755e1a6fd756b0b"
+    },
+    "source-lightmaps/HERO_table_line_3_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_3_solid.001.png",
+      "sha256": "ad6be87b1c6397f57c48ecb6378863c062471abf1b453fb43038599563e96030"
+    },
+    "source-lightmaps/HERO_table_line_4_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_4_broken.001.json",
+      "sha256": "70cc0ebdf89fab7a6e6258177d146b39395fdf596e116277c2e752cbb8e7f4a9"
+    },
+    "source-lightmaps/HERO_table_line_4_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_4_broken.001.png",
+      "sha256": "13e57c4255f5b7496bd2d19c796b191aeed2cfe2a9491749601774c1a80f3b0b"
+    },
+    "source-lightmaps/HERO_table_line_4_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_4_solid.001.json",
+      "sha256": "5d8d24c5e5699e5203f940e9b5fc5a6dc942be8ecd7e1f157101277fedc1c3ae"
+    },
+    "source-lightmaps/HERO_table_line_4_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_4_solid.001.png",
+      "sha256": "cce5a6d2b15152ec6f2e299f4ec81bab07d9df4afabdbf5715f3cbe5f19c26e2"
+    },
+    "source-lightmaps/HERO_table_line_5_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_5_broken.001.json",
+      "sha256": "2d3a95505662c7fe2d04133c80acb5a663c3dc00559465238c9e51dba02d68a2"
+    },
+    "source-lightmaps/HERO_table_line_5_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_5_broken.001.png",
+      "sha256": "e60666370e686667d73780cfde1e1457e6e92a30411a459bbfc964660fe2cee9"
+    },
+    "source-lightmaps/HERO_table_line_5_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_5_solid.001.json",
+      "sha256": "ee03bd28d1c465a08c039eaac03429bab58649f2252c55f46df7c6aa8aaa2350"
+    },
+    "source-lightmaps/HERO_table_line_5_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_5_solid.001.png",
+      "sha256": "e379e3a264965314467afa557389a777f5347850217100b0d098f2a04478d649"
+    },
+    "source-lightmaps/HERO_table_line_6_broken.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_6_broken.001.json",
+      "sha256": "083d2da42e3fe1698b9903bb8d0d6c3858d81d15b69fabcd1d50079eb946cc45"
+    },
+    "source-lightmaps/HERO_table_line_6_broken.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_6_broken.001.png",
+      "sha256": "94c3d55a1cf65950e7b730695447ca02410d39d7e79aba09ba58e394d96f9541"
+    },
+    "source-lightmaps/HERO_table_line_6_solid.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_6_solid.001.json",
+      "sha256": "4c44b47b665051faabf195cbda403b34286f29a2b837c943f6696699b866f3c0"
+    },
+    "source-lightmaps/HERO_table_line_6_solid.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_line_6_solid.001.png",
+      "sha256": "f112203fb36ac64159efd64ccf50bba10073912c1445e504057abcfdf198948c"
+    },
+    "source-lightmaps/HERO_table_pedestal.001.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_pedestal.001.json",
+      "sha256": "25c13a25669531f17c9157f950d7c88f8cbc10799cb73f1263802ef943c0d481"
+    },
+    "source-lightmaps/HERO_table_pedestal.001.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/HERO_table_pedestal.001.png",
+      "sha256": "325e574c1fb06eb329a712a40f04171cee1c3581ef992b2a2f09f64500510c29"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_backstage.json",
+      "sha256": "a37e3cf3ebb24b36bc4c09ed183e3d9e8485da308717d40d899c1c216e766aea"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_backstage.png",
+      "sha256": "2a05f4caa70345a5cb89ef9e29ac562e84deadeec6f74908a6155861b6668a5a"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_crt_amber.json",
+      "sha256": "d67629ace9204891844fbc73b053494910b2fe7730df1f1449d7bdb01d064866"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_crt_amber.png",
+      "sha256": "9bd41aa5114eea50252c9c232f96443fe3db0962dab2615b0e272079bbbd6ec9"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.json",
+      "sha256": "85ce631f4444fd69b8180b287064afbecb8a7873c0db2db34ee0c0454939c533"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_lattice_wood.png",
+      "sha256": "66b0c8e45771449330c6d92bdc21741987ddefa2a9a18b4a4240b34661e90135"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.json",
+      "sha256": "038cac41bf02eb784edd6ca9b646e37c1ff717c3b29e891cef80b799f7507922"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_plaster_rock.png",
+      "sha256": "ccf0ea55dc49c8fcbb23c5f88ba7e99d39d164f4709cf106c3ae229cb5fa96a6"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_rooftile.json",
+      "sha256": "c5e19aa6685ab62a49adc6a5b635f21037fbb843c58d7bdccb489ad422806a32"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_rooftile.png",
+      "sha256": "aa498716f74ac3d679c4479c5b6f5c701adfb03e51e3cd4d368fce857dde1149"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_whitewash.json",
+      "sha256": "2321974cd2bb8fc41d7221d4eaa899c4142dc060bd044c12656dd6d07ae5288c"
+    },
+    "source-lightmaps/SITE_aojing-guan_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_aojing-guan_MAT_whitewash.png",
+      "sha256": "e1f440643e5538c8f660e254599efa5c9c035f944d10885302faef9fbdde85b6"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_backstage.json",
+      "sha256": "75447437d89f038bec7c1b37d62927969757ee0da85499c0c3132990fa75e90a"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_backstage.png",
+      "sha256": "f7c8bcab2449b82d91e3cf0959f1fcc6119496bce2822024d32a7ff37a2fd431"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_bronze.json",
+      "sha256": "4068977e763c0417613dd59f6cc6e56ad18975d7363fcc509d807748d79d646e"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_bronze.png",
+      "sha256": "1b0675ab3dd8f02c37bfd2fa6fca79a135275f7134f5e160476f2df77dfcdc49"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_crt_amber.json",
+      "sha256": "e1600b9c9a139ae64e1b640058ebba75af1d18da4e37158240c46ef568009e8d"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_crt_amber.png",
+      "sha256": "3f00ac2b4db7572d47230c5cc549162debdeb8de47dc3015bc1e870974faaffe"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.json",
+      "sha256": "7e4aea3999218eaccc5d4b0e302277cd3e246b10407ab0d1c7b217ffe2a8f623"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.png",
+      "sha256": "fb76424725863c94549faa4a9bb7dc25aa57b9ecef2a8b793cc179396b3bd963"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.json",
+      "sha256": "54a0b3c6219086d268caa95f9a1a63b21083a741bf829eb91c9f866e38906ab5"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_daguan_recess.png",
+      "sha256": "fb791fbb5d81108fc44625e7e2e8326f0f47aa43caa8e0aa054e2d2da80aab8d"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.json",
+      "sha256": "876bd7106fbfc580441beddb4f1adf1a1cfc77779eeda61e1a107c688a240454"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_lattice_wood.png",
+      "sha256": "e220cfb50a94b34e98bceb5d3dbce27fd026b3d382d5eac247ce38e411b056d7"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.json",
+      "sha256": "64a20441bcd5798c8ff6590c183e840fbcd365af0592aae213d23d9fc764a00d"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_plaster_rock.png",
+      "sha256": "45d625ae72702c3cc50f91af5fac776c1b111febc3154df8b439b0d562be60cf"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_rooftile.json",
+      "sha256": "1a6c1ad17e1089f973d10dd59caf778a4d3651baa20a60b66a6c798543954cfe"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_rooftile.png",
+      "sha256": "786eb85d141b59ac9101702bafa1acf2366da57f8f883f65eb9242cde8a29da8"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_whitewash.json",
+      "sha256": "25d4582684be52d7f2176ec954694165fec40e63d47a77e23b58ed506b6ff136"
+    },
+    "source-lightmaps/SITE_daguan-lou_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daguan-lou_MAT_whitewash.png",
+      "sha256": "2e4f3b6d97f3d2f8aeb06f68e9e9d96f5646610066561b60191cc9b55d889ea4"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_backstage.json",
+      "sha256": "728345b3813133c61147fa0530bb88653326bd12953b5d8cc83bd1c32b3b7a7e"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_backstage.png",
+      "sha256": "6f6e313ffdd5c4c923ce282fca4f7b5bcb5fa1e62bd11225a0e2ca31f233c4bc"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_bronze.json",
+      "sha256": "91057f97f4fc1a9356ee9e8b053b0e8073426228caa1670635d5976f40bb6f90"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_bronze.png",
+      "sha256": "f2f8a62e3127050d9f8b902fecf876dad06035c90ecae257902c779c2b7e29fb"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.json",
+      "sha256": "63824672f4391a4f9f629078849f937654878777e1987361fa05e39cd50d7ed7"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_crt_amber.png",
+      "sha256": "99ca3a961ed895cf1e3fb036889966e204ea7bd802a3767b12f21aff32356c1c"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.json",
+      "sha256": "effd8babdafa54cca0f0b1e403bf571c7d83d1e0a8e7f37b24eb400bfb6c0734"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.png",
+      "sha256": "258af0b1933da56674fdd33fc3050f482da4bd6ea41a7c77865bc9c8fb6c8b37"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.json",
+      "sha256": "ca88bfc5659e822d7c6f600f5c3e0dca87e2f8ae9d99aacfa2ccfdbc51070bbd"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.png",
+      "sha256": "ffc548a1c60dfacd51d4fd311e7d7d21a7d797bfad1c0c5ac319aea00e73b258"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.json",
+      "sha256": "69b46b9f70f5e361acbedc29018afa36551cf9a1a023c57241a1e9dbf717786c"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.png",
+      "sha256": "0e99df70f746a8b38b0691adc4dcff6082df4e34c243b688dda745e4c6ae12b4"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_thatch.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_thatch.json",
+      "sha256": "b4c72b6624c5bbff695d92b65ebd11cc4a51b953d60817024f4d2b9f855f82f4"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_thatch.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_thatch.png",
+      "sha256": "12956332453341c0ba99e571ecb8fa8373d13f1af2c254922dbdbc84db8864d5"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.json",
+      "sha256": "7bda5e018b93ab494891f28f8f51a35302e67c7867fd87b860d57a14df37269b"
+    },
+    "source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_daoxiang-cun_MAT_whitewash.png",
+      "sha256": "0ffbc1a9c3e193672e16d18aed1ef7952ba1ec9a51513c436c020c55b058cffc"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_backstage.json",
+      "sha256": "b50eb6af254405e0866344268b4e22a515aae2bdfc772eca37003a17443f64cf"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_backstage.png",
+      "sha256": "f2d66b327b9fc8a4d6037a6bc46f76f017ae986e1029dcd6e0048dcf999dc67f"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_bronze.json",
+      "sha256": "7709aff3109f401bbf8c215d8cef1dd25f23dc132b9ab2c93cfad208af70cc75"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_bronze.png",
+      "sha256": "a47e66ea87afc88f9e995208517a96d51445d237ccfa874a6b9a159664812ca0"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.json",
+      "sha256": "acf5b7cf724b9219c74a60eead23243c2747460c8003986595090121d42a57d8"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_crt_amber.png",
+      "sha256": "5d90ae94ac1675d4d1946b2551f891242d87bd3f7faa4eab3fd62970e14e5c90"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.json",
+      "sha256": "e54e8839de9686d5f1848ba60984e36d68141e5c021ba62c7c515ebfd3e27b93"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_foliage_card.png",
+      "sha256": "5b8125988ef06d0df9fda96067a16e041abcf96441dcfb257989c96cb103cfa8"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.json",
+      "sha256": "70e2eec1379ad93312890e807c58369592c13797d6ff45676d58f6563581f169"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.png",
+      "sha256": "feb54f710622cb0ae124c9f639505f64176999005662052cfea7621ef1a67639"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.json",
+      "sha256": "9fa3d298b59a13907bd35df54c1a9f4749335f6ef5daf7ee3c70ff9a7d2c89e7"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.png",
+      "sha256": "0e08e267d90bbb4d02aebf1e55ead79e1f2ee7fea6064470e6ec61eecca7f563"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.json",
+      "sha256": "7779ce09e9b5d36aa17d1b4d68b23f3dad564b43e5db64c29dfff502a9e8bd57"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_props_atlas.png",
+      "sha256": "8d4a79ad777ad16fe886c709203f83f4db91718179c85fff5c22edaeb6398699"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.json",
+      "sha256": "033a44aaf3e773148edb6b9740f5bd905245dfcead0979ea0ac094792366fd6a"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_rooftile.png",
+      "sha256": "6593deaa7137c15a30101e7a04e6f9cf3856c3626ce5c6c70d297f8bdff40e43"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.json",
+      "sha256": "e4774a13f2c0492469b8f0a650f4d8728f12d04b670b975f620b9f507cd25fc2"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.png",
+      "sha256": "62df54d50ed66838da3bb06c399cf6d55396c826ed9c7cff0074d2c680396a63"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.json",
+      "sha256": "2b4214a41ac3a3e572214f29e8faa9b405a9096e2e0f0e1aaff7eba413a47b43"
+    },
+    "source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_hengwu-yuan_MAT_whitewash.png",
+      "sha256": "17ef8f6c0b7fe34bb83b6bdb7039ef95b5f6c47cbcfd8e89ba99c597fecf2b6f"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_backstage.json",
+      "sha256": "457bc7c9df89f9183a3db4a2aeffdcfc00225d5ba3fdded2c98df77fd2a2ca64"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_backstage.png",
+      "sha256": "a90782d17d84b3f5eb7f58ed06712be987ff9845e755206cb575e0ab6019777b"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_bronze.json",
+      "sha256": "4e87556613b51b68bbf36091c10cefd4c1eea1cbb893e3304fa3efd10cf67bfc"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_bronze.png",
+      "sha256": "9dc2ac10d587b897749f298d029eb4400aba9ddacef5596962e6ff436ea8edd5"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_lattice_wood.json",
+      "sha256": "6647a51d8fd8e107dea28e38d7a6f2005142c6cd12d33204fa99e3b65949d178"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_lattice_wood.png",
+      "sha256": "733cce5c72115646469af4d4155fcc66951b06eb67dbc4cee674130fc9eb7472"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_plaster_rock.json",
+      "sha256": "41e534d95f3895e31fc85de9fed87125c09cb692666bb100522b86145a68d93c"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_plaster_rock.png",
+      "sha256": "19484104bd44a11749ba51def3369d6e27cde9fde2b1ba689b94e8d5b35c6121"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_props_atlas.json",
+      "sha256": "fa4f3d0fd1140469b9b0bb9c9ea2936507bca13d5a08c9c691c5f51425f74226"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_props_atlas.png",
+      "sha256": "c1f0a396a152ff9d4eca9c18703c8df3d6b8d00744bcad551ec1b08d209dab54"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_rooftile.json",
+      "sha256": "18e66757d64c35f2b68095bd470c8e35784e2e9f5472770084fe5a0dc4c59a42"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_rooftile.png",
+      "sha256": "3aa6730d40266b1d8e24431067de840ef2ddacd5d4f3a9568cd5a937858ea431"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_whitewash.json",
+      "sha256": "c03bf4c4d0e1858e8651b70c7325385c9c18274ad23b11d953951e58dba3a6be"
+    },
+    "source-lightmaps/SITE_longcui-an_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_longcui-an_MAT_whitewash.png",
+      "sha256": "19937fa8743c1640f10bb4ef1e09282ed1b48726cadb511561c1f19f458e9db4"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_bronze.json",
+      "sha256": "a659dd438be6a516d8d22721567ef8c87a7631b7eb7b1829f2a79b0ae0870ad7"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_bronze.png",
+      "sha256": "076928d5c26af0ece3beeb009f26b7475b2afa2698077bca1c1448111ae3a8b5"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.json",
+      "sha256": "5f502dd956b83083a745a2184c06e1c97e5b7497a987c662d1c9c3b15a4032b0"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_foliage_card.png",
+      "sha256": "18b19227f5870ba29786ec7ec6e2fc5e09b77887171848ec93bb76e824e57b21"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.json",
+      "sha256": "68ac6463cde702033252837121abbae18262858655842d70d11b4562f89d6c09"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.png",
+      "sha256": "89af2d58278a2a93cdb9fa60cedea8a1ecf8e044310e56a393cbe5ff7570ef63"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.json",
+      "sha256": "b09084b5e60bf3138af6c2bb92749a6f41b1e547687ee457aa157fcfe186ae1d"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.png",
+      "sha256": "e127d88eab9dd98c15f661f39ce590a278f6295bf368247c64a348eff49867eb"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.json",
+      "sha256": "7342f89d43979fb331681a467cb4f9fb27ef0642af6e28dfa60431eda0e62d50"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_props_atlas.png",
+      "sha256": "75b9974664e41d196544e4899cd8a47dde1e36c9a88dd66cdf35bfe8fb7e41c6"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.json",
+      "sha256": "4d77b01dc1b7b2f9b60dc0673544d1fa7e71cc80eb45446ded23c82faa74965b"
+    },
+    "source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ouxiang-xie_MAT_rooftile.png",
+      "sha256": "70c6375f1005d5fa143432c0d9618a4cfd26bd648105f49478614796eb468c05"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.json",
+      "sha256": "1b5d55038cbe450a7aa2ce381d7005498efba9b3d1a511525097e17d66d1bbb9"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_foliage_card.png",
+      "sha256": "2d4bbc1e96cfc6e62730ea87299d31547db491c7ee56ad5b052706187764aded"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.json",
+      "sha256": "04b790491c67a9f5ad9b1c8c2e1e20fe1649a667227684d87613af8b001d2092"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_lattice_wood.png",
+      "sha256": "66d89846a6fa2c995e0b07dacb88434451ebb3d58b5b6a6361f977bb2db5df0b"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.json",
+      "sha256": "24eb1b9457ac01630a24b4ca3574c284682ef30c906f933dc325cdb03bdfc413"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.png",
+      "sha256": "395792db15bda34b304d2162a24447d59977d878aa1c67d82a1886a6fd0e663f"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.json",
+      "sha256": "72d3a1f8df56dbaf89d8eb6971d48083a2bff14f36eac5741ddc1cc58dd8e345"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_plaster_rock.png",
+      "sha256": "3e24d0b13bddf4aa5d3000b3edde1a6cf99f0e5688bd15d36bfd89e7536b7b2f"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.json",
+      "sha256": "6c291df38f86b841efe1b16493085f6fee9503cf5441db77a7dc2d1d57eaeea4"
+    },
+    "source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qinfang-ting_MAT_props_atlas.png",
+      "sha256": "0bee29dd3f2ce3e900329797a1fb788e001f98a381bfd89338132300b820d25d"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.json",
+      "sha256": "16a95d5fa7bd2a4943c938e7d4bb9f8ac17594b36b1b2c16e37b1b7c0d764199"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_backstage.png",
+      "sha256": "c37d52adb002568e8bc2bc814c24349159743dde3162c3c712043b263160712b"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.json",
+      "sha256": "97dd51b18eb0f845dfd8fb7ae9e24ec33123ea21c649d897e532d276a75e2d6e"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_bronze.png",
+      "sha256": "7d2505da44482698423a8e12d5a843c22d87868a21286fdca52d758a445a95e1"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.json",
+      "sha256": "7da65d9622988280ff116998ab1daf89a5816f7acc57bd3db34c9df10cd79a95"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.png",
+      "sha256": "ad0690db0eb22fbb3a437131ba106c4e621de966f31786991f996bac7b5db6e6"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.json",
+      "sha256": "b083b8540cfbd1b7dc4d2294585f5b60d91a4b15bafe5e49309dcc3b92bfe1d9"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.png",
+      "sha256": "5dc8ce4f865fbd8475addf5bac42362b67c637f151cbdea91368dc558a0360d1"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.json",
+      "sha256": "901c65e8b3583539623d1f1debcb4812be0b9266fced0ed128d156f0303325b3"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.png",
+      "sha256": "1197d349b3a281364e91bd87c2263d31400aa665acd89f0fa5c92463230eb889"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.json",
+      "sha256": "2cce3b2dfa4e6edc2a3f8c012a44e1fe99db716a9e2c1ac829eefc8bec0b9582"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_rooftile.png",
+      "sha256": "c1e1527cc468a6b579c84dafce0ac54842803c299e0f253bb83c559b50c1417a"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.json",
+      "sha256": "fac54ee349ff479b162d628a81a1ac376fddfaa112601e754d5d249c3513d0d7"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.png",
+      "sha256": "49fcac71decc4e7da7995ae1195814ad525e8db039b9825e78ba495a8611dbb4"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.json",
+      "sha256": "5c4bc2b1e04e9c5cd7eb0d24f83392ecbc6f4f308ab026ff9a1c4895041c599c"
+    },
+    "source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_qiushuang-zhai_MAT_whitewash.png",
+      "sha256": "4c384abbebaec17fda3334f988d3a375dc8311e029c6982f09bde7e0187cee86"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_foliage_card.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_foliage_card.json",
+      "sha256": "6966e650ea618a60eeb3d38d566da353321eb1218780b013a0e0fe3ac727804c"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_foliage_card.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_foliage_card.png",
+      "sha256": "844e983fc64ebf5260a8750bd3b838b283362797e3624ea47468db29741d9cd2"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.json",
+      "sha256": "7b5e69fa121395222f8fc62fa302fda0108b8bec8b65a66429fce7493dd916bd"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_lattice_wood.png",
+      "sha256": "5615e9ff60564affade6c58423a08d7ba6b0b9e82571db0d23ff92731f246588"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.json",
+      "sha256": "b9bf9c10fdb04d17f2476f42ea895458db33d4aa55258da3b8498a128af9cda2"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.png",
+      "sha256": "6ff6006050126949e3a63354416eccc62bd2c14c4f8f4167295068f257bbd32e"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.json",
+      "sha256": "f67753265645422f58d565e8d1684702bbf7b396c1f4532df23e4440a030d8e2"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_plaster_rock.png",
+      "sha256": "410d7d28c16ac6713fbe36e36b504de97a479a357a190799246ef0baaf050fb1"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_props_atlas.json",
+      "sha256": "c22756b3ed50c47c88695c1247214c8d160864ef7dd81366a2838d0bdd397f4e"
+    },
+    "source-lightmaps/SITE_rockery-gate_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_rockery-gate_MAT_props_atlas.png",
+      "sha256": "b344670b2f524d1d66d1afddf7a4c3c8aaff8ffbc582ec2f35005c37b3d85fe9"
+    },
+    "source-lightmaps/SITE_stage_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_backstage.json",
+      "sha256": "ffda748b286d33154fad19511a89a90a58b85ff539e93eb1daf67c107e1f35bd"
+    },
+    "source-lightmaps/SITE_stage_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_backstage.png",
+      "sha256": "dd83555b29cafec797ff65e70fa2b2cd8447f481416062db24d3078b6f45f664"
+    },
+    "source-lightmaps/SITE_stage_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_lattice_wood.json",
+      "sha256": "5783ce4b04c227d23062072920f789f6d31384723f5bfd08444230276cd54f77"
+    },
+    "source-lightmaps/SITE_stage_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_lattice_wood.png",
+      "sha256": "dc7b26c2500cb0d3fa2bec67bc8a115cd15821d0923d911cb45a407ad55b0a76"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_moon.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_moon.json",
+      "sha256": "cc75f6cbccac709f6a6f4e8d9f6cdf427db1451a87a6672316f7342dac2f33a0"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_moon.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_moon.png",
+      "sha256": "a6a7eb56bbf8d80bf40179878b9ef95ed9aa1c3b58f2c7b29b9760d75fbc14a0"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_0.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_0.json",
+      "sha256": "add89b98688cb9071f195c13ed3af81b3d0167cdd03f1692602802c040e6ee29"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_0.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_0.png",
+      "sha256": "d93852620cbb746ffb1767e4d75ae2cdc9fa796dd450e96c9f01cce55d1fc75d"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_1.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_1.json",
+      "sha256": "68754df6b1865b9020337f45baf198d6c1c037579ed804b5ee078f58aad5be19"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_1.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_1.png",
+      "sha256": "9991c8d0910c7e30a9614a4091ad07478d11f72276c0205e61f1f162963da72c"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_2.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_2.json",
+      "sha256": "4adeeaf44cf54eec8cf0b5cd955eef3ff30e8ca805136276f4682554fa067913"
+    },
+    "source-lightmaps/SITE_stage_MAT_painted_mountains_2.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_painted_mountains_2.png",
+      "sha256": "ccd80d402bcc44b611a832d718fe47e58f552cb9c1c623ca3bb1eef00ab769ac"
+    },
+    "source-lightmaps/SITE_stage_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_plaster_rock.json",
+      "sha256": "7891b1914d49f87d51d393e2ea2677d04e4e4be26b98978862f53126e1102d4d"
+    },
+    "source-lightmaps/SITE_stage_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_plaster_rock.png",
+      "sha256": "3fb043529793680668c11123dab682351ae8d2eb0893f9fe6c6a52d0a4fcdee1"
+    },
+    "source-lightmaps/SITE_stage_MAT_stage_canvas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_stage_canvas.json",
+      "sha256": "80769655726bf6e3c41f85f522e64e28c42f22f4e7d2ba3a7a84041b39577219"
+    },
+    "source-lightmaps/SITE_stage_MAT_stage_canvas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_stage_MAT_stage_canvas.png",
+      "sha256": "12b1a8671f5d09d77efccfcae7f3735a48628869bc44fbcadd66479fa8beecea"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_backstage.json",
+      "sha256": "80905740caf7d453a49ee553896f78e1db780c3eb18d80db0a3e4743b3d25590"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_backstage.png",
+      "sha256": "e07df35fb9624e90e191e889d3d6e1a797ed49f42058e93af4bd3cf20128327c"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.json",
+      "sha256": "0e637a0fb0444f93179b7aebb7bc146cf0e25093d9aa0608e78f64605f2d831c"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_lattice_wood.png",
+      "sha256": "d5b8321c1daa89932653b281da113287646ba1eaae2c4306910583c9fb50be45"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.json",
+      "sha256": "cd37e4db7a5f3ef112da2a805a602230c90ee904f5bbd7178c036f2838d3fe2d"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_plaster_rock.png",
+      "sha256": "e52ee7af0b7b13bc4ea37d21b46a79311db701fca0ceef691fb92f26545b9f05"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_props_atlas.json",
+      "sha256": "5113fc68f65450ba7a5cf89be293e2b3f1cb1364cbff764bfff40d80c208406b"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_props_atlas.png",
+      "sha256": "67f125a312c1f0faccf318e1630cfe1f846c10c02acbf24050bb42581e69ee76"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.json",
+      "sha256": "67493d3ca5401820e822c7bec576a12dde50c99a1a18b107002d5dde232da462"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_stage_atlas.png",
+      "sha256": "c6654256c761988cbf3e935862bb5e37999f32a6139ac58b7c509b539d00112b"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.json",
+      "sha256": "c60bc7bc56b8015f27369b6dfed90cbfed383ddeca471b1610ec8e09cf62be52"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_tech_atlas.png",
+      "sha256": "90be8cacd7c0244874282f1b6e51c4c688cae86f280a3b9ff7c2f865ac10fe6e"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.json",
+      "sha256": "91345232e51d54561d3e933f42707b0365451b990f9635bc17a87739e19ed1c7"
+    },
+    "source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "sha256": "c5544d0d4d99ab667fbbe2aa29eb4f579e9500a23e5bb4887f8d88f6260d81ae"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_backstage.json",
+      "sha256": "7eafc83f2fe9afccdf55386ad572fb1fe1cfa8148b55b07a3cdc7a712b3c6db5"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_backstage.png",
+      "sha256": "bc086b73c8e841225e832ae798e3af06fd708250143c10a444e8709cbcbf2727"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_bronze.json",
+      "sha256": "ab5a4f4d5e3a447848747ee4695b8ff1c21f08b05d832a631030b80476d0106f"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_bronze.png",
+      "sha256": "e3a3b11e7fd0a7581cbbdb5f8f02e507bc73b262108837c32beaa89d6a2db58b"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_crt_amber.json",
+      "sha256": "f41c339a55e700d87aa290acce2870812c6a5be7c635c77b77bdab5691261630"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_crt_amber.png",
+      "sha256": "1a0b4ba8d32f1473e685d2a26339c0934b641bf0c4f6e6e47f31431ba13187c1"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lantern.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lantern.json",
+      "sha256": "7b0ea10ed923c3aedd6285189540c3caf19cf29bd7d58085bf33d300c8a55bf7"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lantern.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lantern.png",
+      "sha256": "47417b11835a4e187b3f47612b0b99405f311f1969f92aaebc9e21d7b991fc13"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.json",
+      "sha256": "d739c902dba9f4d8cd340651c5db1723f90c9a54ef11d7a54b79963664b3af4e"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_lattice_wood.png",
+      "sha256": "6778df6b21c3b7074cad310d6fab1d456e2c4da6b259d937d97d3b9a0dcb61c7"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.json",
+      "sha256": "dc9456e2dd548990a77b4d729e8a298dba31f01b9d8d8449e9803cc34c0daac1"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_plaster_rock.png",
+      "sha256": "87f5ea2e4f05dd5c0352159dfae679879b4643818f0d4845de3ac80278e48100"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_props_atlas.json",
+      "sha256": "ebcc8cf522a5771e1acf614cac8963e654df34df35fbb1e85beb3fa14e3041a1"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_props_atlas.png",
+      "sha256": "ed0748f9cfd84d8a7176cbd693e3db3a6cc13718c36837d787d83db5118d6060"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_rooftile.json",
+      "sha256": "8a770263b4df961d696f23582196f67db409ac8600fd87eecff3f1f4255c0a17"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_rooftile.png",
+      "sha256": "55d9a78ca194d2f50a157e98d3ca0869edd5c7cbc384375db5ac51f2edd9b45a"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.json",
+      "sha256": "9d375ead0a5a5bc650c00c219596aa493b69b3d4691c5d32a9230ff15f7373a5"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.png",
+      "sha256": "aa7b8122578a760e62c7c4ba761b79d5bd6a07fd8b94cde9d779db25ca5ca867"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_whitewash.json",
+      "sha256": "2a6bb97c0e0131ccbd14146eb9518cbc82143eb18da203ede690248bf94c93bc"
+    },
+    "source-lightmaps/SITE_tubi-tang_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_tubi-tang_MAT_whitewash.png",
+      "sha256": "1bddc5164c304300165d8ff4835dc8f5bc866edab20b74c5c857875f09dc8b89"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.json",
+      "sha256": "a2273353504a799962cd5263b17c689e482caa1ac78f86a88394accc546eead1"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_backstage.png",
+      "sha256": "acf1d1cc6b5c260ae0e36ec533ba4892599c03e5cbf1c6fa853bce216aa4d229"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.json",
+      "sha256": "31c20b1454faea9775312b22124f12a727f0b1d8a68bc99b1311534342f06e71"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_bronze.png",
+      "sha256": "4c526d1c284af09e4f3db3ea84a11bc172f4b3f3eaa7a8b0cca0d8c979687e5f"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.json",
+      "sha256": "b1327b4cb6a9c828b48b211dc97c989416439b7921d452d2bb9ce43616c808e0"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.png",
+      "sha256": "c60d3f4d94272d9c7dc6a699cd6f86d944f2c7bc3047640fdef88cbffadd6c32"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.json",
+      "sha256": "f8231bb793fd323cdcd3e48b49e8c157eb5b3cdc57e8e76362f2c2c9887a8b04"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.png",
+      "sha256": "26d321bcb250f088e1fba9a1f90bfd7597ab505cead0fdc0a1c29f4a11ae29a1"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.json",
+      "sha256": "92d4eafe589a519a48c44e6569e99cfe4e370970995aadb605ba79f229045475"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.png",
+      "sha256": "72a82d7025da809ea0d92b081b1d48ad558e3a53da627d6ba50cf0e6eab85bf5"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.json",
+      "sha256": "570c223d2ef54543d0e249fc2c6c8a81d10ef5c900867353efbb3a5bae1ec627"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.png",
+      "sha256": "dc690f6427b4dfa02e3607ab1e5a9897ebd8cc6ce6fcb80bd8d59d5cdeff7dcb"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.json",
+      "sha256": "fc36873df0cd7943c6f1453c7478ba1cb98e54ce17cd6b5f9641dc8e197f9b03"
+    },
+    "source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png",
+      "sha256": "fd9e16abdfa1998ec1afd2ecee9ed093356ff50bae80c93843606f7e6b7b4b12"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_backstage.json",
+      "sha256": "2b906ac5a1a916d6332cb1e2061fc9e63cfeb7a7d158e7a7f6f3630c01cdeb92"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_backstage.png",
+      "sha256": "5a4610405cd4e19d6c5c6f8765d32f9a22512e0bea6ae65cbc5d23ab33cd01cf"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_bronze.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_bronze.json",
+      "sha256": "9343e6269305ba84b81251fadc1949f6a595e6cd4c09659ad0d996ad2259a859"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_bronze.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_bronze.png",
+      "sha256": "4d05e90b9061b04f5af021db3d1cd1e0a66f9325e2641adbaee7612d83251ccb"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.json",
+      "sha256": "a5181236e47fc86d79237770d1cdfd6c58f840731b8539bc7158b71cc32a4ddf"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_crt_amber.png",
+      "sha256": "800d680bdad039497426544151aefe5fc0e81eb1a20349c2d937f1bfc48de886"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.json",
+      "sha256": "2b29262bdb72d5d2f6406d00dcc850d920c0b82ccf8f619a7ccb6901b8625cc8"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_lattice_wood.png",
+      "sha256": "568b8525b42d8b18a2f6f9cc3573a2260d0a834cc8ec863068e8ba9137c0e55a"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.json",
+      "sha256": "830f4ae2c0c317cd6e75c00ccec9be7d31b1056841b6fc97ffd132fbf291cd00"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_plaster_rock.png",
+      "sha256": "e88917a101341e21503fe05ca4914c34acbe88fb4a185e28c9a1b5b285131680"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_rooftile.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_rooftile.json",
+      "sha256": "84915f472e4cde4e58644a67ec1bd2cd791852d649fb92841437b054a183c456"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_rooftile.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_rooftile.png",
+      "sha256": "548792438ad766289d41373ff928882e8030193061826697cae612083e9eb388"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.json",
+      "sha256": "40b7bd4ffdfa9d9fb7eaf64f50ca8372c17cd2bcba895a1cbb681fb76c183e95"
+    },
+    "source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.png",
+      "sha256": "61b538b2c82d909efb74b393b1c92d95c264ee3e9a08595caa86289930fbfae2"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.json",
+      "sha256": "8e866d1e042264c08904bc1c7442994023d346cb9243859ce128f10adde492e5"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_foliage_card.png",
+      "sha256": "9f95cded46f42f375931d3ec2c26641011b041cf0bf956af1939aac99ba7fef5"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.json",
+      "sha256": "1f3a496145982fe10a53e90bd968053591431426f75f9d2b7fcdbfb2a5d4072a"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.png",
+      "sha256": "75f5b7c77debe184098d5892eb23b3dde157d04b8b598a07656cf6c15a42f14b"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.json",
+      "sha256": "9fdf351da498595ac9106542fdc9f95ceb49702fc4ad99f6ca42e02e94a2afa1"
+    },
+    "source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/SITE_ziling-zhou_MAT_plaster_rock.png",
+      "sha256": "ff218440735b6d1b537d2b519f00910a480869adc51d2dc2a909bca4949f0942"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-back.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-back.png",
+      "sha256": "d1de1fd43e9b50aeb7f1d61f3b317c280e87ae0e5481cc210009f6e947002ad8"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-front.png",
+      "sha256": "6e03e79c4e5539bebce3299186ebbce5be896a8086f416acbef0cf1f71f71e97"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon.json",
+      "sha256": "a080c6b68de1ab47b6897789fbc5c8faf462bb7430b8248dd95ae5e17b66c285"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0.json",
+      "sha256": "9d8f737683780dc486a4ad325ae7d2a1049f11d56156e6d620498b37bd6aa06c"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png",
+      "sha256": "f0d385997015691d5929ecbc6251bac694fd5ac19446bb21473f963a7841933b"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1.json",
+      "sha256": "6ea8387451d27960a59ad76d294c7ba6af63ef0d2706e03ed3f25ad9288f7381"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png",
+      "sha256": "5c68a64834d9b664679e937b066429b04d7b990ba2d9b874c2ea3b2fd3c224d5"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2.json",
+      "sha256": "f86ac7b2a383707a92b92d5e1024ff665dbbfe51fc247cf3fddd5b6f63a83fc9"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint-front.png",
+      "sha256": "5fd81440353159f34f629d89d6e82f50a301bd7153e6eceaae375c6836b81f55"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint.json",
+      "sha256": "40b3f19412dcff4cf9e1bc8b830a2588ca4c206fbf8844bebab94a7f2f49e639"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png": {
+      "path": "docs/reference/neutral-path-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png",
+      "sha256": "1e1128c0dbbadcf607a88ed902e193da72feba6e4e6492668708bf7dd0dd36ca"
+    },
+    "source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas.json",
+      "sha256": "f47463e3cdc6726051d6dd25f578dad25deea061334c30601a8f4ce58eb313a9"
+    },
+    "source-lightmaps/backdrop-wash/manifest.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/backdrop-wash/manifest.json",
+      "sha256": "ef023f8d48a50592e930c02b387f7befdd5f0dd09582fdf1b20496ed7a30d506"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.json",
+      "sha256": "f3823030418ec76a3ae00e2b01a461b08a531d911fee9d2f0b04a50f076246c5"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.png",
+      "sha256": "591a74708bfbfcbac9fd126e0cab450adabb9301ba744a52c606b8cf1c7e1d84"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.json",
+      "sha256": "ec1ff35d118df2de896969acad1f319b408ae6757697285dbf258a8665c52632"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png",
+      "sha256": "a6fd1e5d03cc415372e4a1447e0ac7065163e9ff7a142b0d41666d7b73e474a4"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.json",
+      "sha256": "3c9fa25ec62b49b97d1be57b27b744779a46ee1bc3f0e691919bc006b09f918a"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png",
+      "sha256": "0da47b183e929a222fa8ba66a9facde2eb6547c3d4bef087a5e1d23dd4170ac1"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.json",
+      "sha256": "f85e53d7741a5ec4342436ab39c2b4648181a27e410f16fe2fa0de6adfb0622e"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.png",
+      "sha256": "f9475a400b15d6bf5e57d36956a9059a0506c8a50924e8a9b8bf17aa1329bbf1"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.json",
+      "sha256": "f4bf5857632dca0b3427aefaf24f42a16981e65fd3f10341343e5fe5e65f1415"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png",
+      "sha256": "e526cd04a0c8acea30a767e10e28769ba4e27296944144a2efe698542c273b93"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.json",
+      "sha256": "2b0cfd3a29baafc23f03e3d35cf8ff6a02a259e9b8e25db67d84af4422d0ba75"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png",
+      "sha256": "240c147d80a611f0498e1f335e0ec1896fae1a708c930b197bfad91d4ed2163c"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.json",
+      "sha256": "c84b77719560f38060cf7f2e1b3f2afe2651d1cc27cdbce0bf4079a2daa068f3"
+    },
+    "source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "sha256": "0db4eab4257dc1eaab6a6904a698be03bd6bdfe38ad9da3ac4a28dbf64c36fc8"
+    },
+    "source-lightmaps/terminal-spill/manifest.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-lightmaps/terminal-spill/manifest.json",
+      "sha256": "ac0ab46fcd888685d7b1be2dbfedd0cab499b2abe8efaf38ceaf4c7e10b1f458"
+    },
+    "executed-source/add_backdrop_wash.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/add_backdrop_wash.py",
+      "sha256": "513c273ac9c6f58326bed55711710ba6e6c152e71be59a854d40fe03a5a3ac98"
+    },
+    "executed-source/add_gate_reveal_cameras.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/add_gate_reveal_cameras.py",
+      "sha256": "99a0af976695a39330faa2f2e75f19cb7b0eb944ecf37650b65119b13c80a546"
+    },
+    "executed-source/add_hilltop_view_benches.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/add_hilltop_view_benches.py",
+      "sha256": "d1879331205c4938dcf0fef3be59c28e8836cf9a3cc3f2ecc2be267cbe41248c"
+    },
+    "executed-source/align_reflection_cameras.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/align_reflection_cameras.py",
+      "sha256": "fbe4a1e3ea9b2b0c401a77a5cdbc7de54874fea61d24764828184b00e6e4cd01"
+    },
+    "executed-source/android_texture_provenance.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/android_texture_provenance.py",
+      "sha256": "4716c1b224d9df49c8083f892a233c76674ee01af8335274a712396a95845450"
+    },
+    "executed-source/apply_garden_architecture_atlases.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/apply_garden_architecture_atlases.py",
+      "sha256": "649affe3662faa267b8be7ee5dafe6f85b58c346e75195da6a4c9401828f02b7"
+    },
+    "executed-source/apply_garden_material_palette.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/apply_garden_material_palette.py",
+      "sha256": "e74885356b9d94359be46b31a36e55e8bbbfdbd2331ad08f2af606bc65d903ee"
+    },
+    "executed-source/assemble_demo_capture.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/assemble_demo_capture.py",
+      "sha256": "827c6c2e2e3f3b269884da774ccb1f8ff48a28f3e56e7b1b312461b728844ce4"
+    },
+    "executed-source/audit_external_references.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/audit_external_references.py",
+      "sha256": "9a998a6ae1820963e84ed89a7ed0193a694f97330ea5c70f43671ebea1e752f4"
+    },
+    "executed-source/audit_lighting_rig.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/audit_lighting_rig.py",
+      "sha256": "8e9c0d97a19c4259b48bef71d9481698eea6c2d8824ee1300981fcaa0d8e8714"
+    },
+    "executed-source/audit_roof_lightmap_sampling.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/audit_roof_lightmap_sampling.py",
+      "sha256": "cbfdc7e6f94225765dcab305afa647c7cb3817c3f15f543a2addea8ac7e9ecb2"
+    },
+    "executed-source/audit_site_sources.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/audit_site_sources.py",
+      "sha256": "c464c377b548c761214a1b95f540be14125707b3f1634b06b2fd9aeec9e0d0bb"
+    },
+    "executed-source/author_moon_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/author_moon_paint.py",
+      "sha256": "f4d3d13a13d6cef87aa6ce19e45c5f8dd8863d055a42d844b12d8800404a1746"
+    },
+    "executed-source/author_mountain_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/author_mountain_paint.py",
+      "sha256": "c9144a2fc7468e518c61e9175766c2950ca938abedc614e938c34252afc06859"
+    },
+    "executed-source/author_roof_and_cone_fix.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/author_roof_and_cone_fix.py",
+      "sha256": "b3b4477f72c18aac68a736e1a5bb00a2f5b1729f9bb5d6d4486a8ac7f0b68be9"
+    },
+    "executed-source/author_site_keys.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/author_site_keys.py",
+      "sha256": "a251a40d52125c954e2d55de3665b52d72a6d0bd222c3820b45cc73abd36e14e"
+    },
+    "executed-source/author_site_washes.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/author_site_washes.py",
+      "sha256": "0294dbbb66075ac325ba030c923ec22bd325754abe34140b2a9cbf5d8f752604"
+    },
+    "executed-source/bake_backdrop_wash.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/bake_backdrop_wash.py",
+      "sha256": "c990ca7991a6aa52f695030f6af0a45d8dfa34ccc7d3aeed0d7c7573f2902122"
+    },
+    "executed-source/bake_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/bake_lightmaps.py",
+      "sha256": "d1f03a2e7951fb2c97f578afb425ad6155b5f935e52a9cb43e9f197685bcd1d5"
+    },
+    "executed-source/bake_terminal_spill.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/bake_terminal_spill.py",
+      "sha256": "688156b3a13c6f828db68033e16aa1c8a6f9d25062d3caf55fee796bc7e11634"
+    },
+    "executed-source/bake_transfer_fixture.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/bake_transfer_fixture.py",
+      "sha256": "284b7a25f8ca4e5c72e5f02a8a23039518b5955d121d650468b43b2c6339a526"
+    },
+    "executed-source/build_android_identity.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_android_identity.py",
+      "sha256": "b5a2b849d95498c20a286594da8085e28b072615d8a350a17c28c0d59fee636d"
+    },
+    "executed-source/build_android_profile.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_android_profile.py",
+      "sha256": "2c9beffa31fbf0bf829bc25da31977a2aecc9a416b3600de1dc3d7af02848ae2"
+    },
+    "executed-source/build_demo_hexagram_catalog.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_demo_hexagram_catalog.py",
+      "sha256": "162d003ec15e516088745d6622baba435d8743a5ac3a852ba157daeb771480f9"
+    },
+    "executed-source/build_garden.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_garden.py",
+      "sha256": "57eed9bbac10c8902049988104618d5fdc8ef3dc1da3910f74eb2ff7eda9311d"
+    },
+    "executed-source/build_godot_import_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/build_godot_import_contract.py",
+      "sha256": "730383c4ba66706d9db8b9fb1cd9697cf5ffb63b5f0e3c1bceb3d99189ced2a1"
+    },
+    "executed-source/collect_android_profile.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/collect_android_profile.py",
+      "sha256": "44200c29e421bb20bb3f7d6570fc8228d13339ced88f69a3e42c5d7aea94607b"
+    },
+    "executed-source/compare_lightmap_renders.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/compare_lightmap_renders.py",
+      "sha256": "b12ae1ac782ea47a580a05dae623a9fa8e955cca41335b76347c63d955e201b0"
+    },
+    "executed-source/complete_corridor_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_corridor_kit.py",
+      "sha256": "e43c782d9ed9385cac597c558cebd2f0ea8150acb5e5d794895755f22afe8aed"
+    },
+    "executed-source/complete_flora_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_flora_kit.py",
+      "sha256": "8b64d15abc53ab8ea048401dcba512e2903b37c06be571ba4d5f8c0297a2aaea"
+    },
+    "executed-source/complete_garden.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_garden.py",
+      "sha256": "f1ba9dca946dc16f5bdb7af194468d930ab79667fc0a72b508bf217f04f2d9d4"
+    },
+    "executed-source/complete_hexagram_lines.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_hexagram_lines.py",
+      "sha256": "21f14ff4d571817398546540f2696cf6cb8fd615da7a8c108237d3096dbe57ca"
+    },
+    "executed-source/complete_pavilion_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_pavilion_kit.py",
+      "sha256": "4ba0df82ed1d4c57894b10e21029df60fd46e27627a2f8b8c8188201d7d9f9df"
+    },
+    "executed-source/complete_props_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_props_kit.py",
+      "sha256": "b78d83b1b48708739b37663a94e1fe26d431f29894a148fe6d2769649e41519c"
+    },
+    "executed-source/complete_rockery_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_rockery_kit.py",
+      "sha256": "a73c4bf0daae5d054411a97c731195bdd77a9d6ee3a2d893c231c87af9617ab3"
+    },
+    "executed-source/complete_stage_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_stage_kit.py",
+      "sha256": "05a90c4177fbeec793c4ad8d46227678a7b2f4a81d61d266accdb14b554e6f9a"
+    },
+    "executed-source/complete_tech_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_tech_kit.py",
+      "sha256": "903bc8da8414dd8806616397932920ecdadebfa10717d092de898212417d1292"
+    },
+    "executed-source/complete_wall_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_wall_kit.py",
+      "sha256": "af4206b6f6f1d4ec50ead544cf21217102bec286a08850a8b90de807de9700f7"
+    },
+    "executed-source/complete_water_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/complete_water_kit.py",
+      "sha256": "5590fb8561b50c5025bf9ec13084c0e51ac7fbd19f7abf72622f03e9b0486424"
+    },
+    "executed-source/configure_flora_placements.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_flora_placements.py",
+      "sha256": "6092014091b900e77bc0a5fe0e1118c05c7496faee994a4f63b22acdc2fe65d3"
+    },
+    "executed-source/configure_garden_sign_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_garden_sign_imports.py",
+      "sha256": "ef1a145dd69721ff3ac21bf735f91a9681f64c7661eedb5fc8f2ca54b08ce485"
+    },
+    "executed-source/configure_gate_inscription_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_gate_inscription_imports.py",
+      "sha256": "4edc8977b767ff4697d3703fbfe498999d8566d39eb6d2ed52a251e649ed36de"
+    },
+    "executed-source/configure_hilltop_art_import.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_hilltop_art_import.py",
+      "sha256": "cd9e008a727f500781f9eaa056ed607dc6dc236d3f4d94ecb0719fb5f7cfbd35"
+    },
+    "executed-source/configure_imperial_art_import.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_imperial_art_import.py",
+      "sha256": "beb7d0c76e7a9c487e859b76a168ad7debf8d451b09c067c5aaa2477042ac0e4"
+    },
+    "executed-source/configure_lightmap_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_lightmap_imports.py",
+      "sha256": "4780ac09c6e449d45ad300a0b8fe8c003fa8f2adaa2fd42540e22290ac79a824"
+    },
+    "executed-source/configure_mountain_paint_import.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_mountain_paint_import.py",
+      "sha256": "0afbe8514db4724fc810ed8cf1e3fbf19a7a8bdad163e9f8ab6bdc615dcec654"
+    },
+    "executed-source/configure_pavilion_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_pavilion_imports.py",
+      "sha256": "ffdd68514b103c2505bc463038a24fd45b8bda03b46b65c6165db1ff3e5adca7"
+    },
+    "executed-source/configure_rockery_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_rockery_imports.py",
+      "sha256": "f0c763f6e8a01fc921b514b4ca3f7bb945d31f133ebefd3b028d50e3d92993f3"
+    },
+    "executed-source/configure_study_art_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_study_art_imports.py",
+      "sha256": "acac296d078a4ae55d3886d41f344d3fb6d90f3774b29b078c28f43dc4e489e7"
+    },
+    "executed-source/configure_wall_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_wall_imports.py",
+      "sha256": "7ebbe8915e80990ca30a0e530f3907bd43138e9b853bb2940126c44ff1981384"
+    },
+    "executed-source/configure_water_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/configure_water_imports.py",
+      "sha256": "e0d4cc99780cf0282946bedc99733f0b1003d63e4d081c730a1e1f8fdefbd23d"
+    },
+    "executed-source/dress_rockery_gate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/dress_rockery_gate.py",
+      "sha256": "ef8feb62a06616150e70457d6d771b8e2a09f503311367c37ab6e618c964a70c"
+    },
+    "executed-source/export_garden.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/export_garden.py",
+      "sha256": "d0eba9cf165f5d5203de60341d3636fe471944c5ab2f1cc3af5d50758c2a84f4"
+    },
+    "executed-source/export_saved_pavilion_roofs.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/export_saved_pavilion_roofs.py",
+      "sha256": "139ed3da6f5016a64213b744ef414d3074dfe787403ce73f28ca628503430e1d"
+    },
+    "executed-source/finalize_demo_capture.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finalize_demo_capture.py",
+      "sha256": "8c8fddd4d4448021eab333aecee90796c58a03794a631fce7cc1a4c95182532b"
+    },
+    "executed-source/finish_assets.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finish_assets.py",
+      "sha256": "c158419110efac88b69d4d054c56dc51e50c64f73405b1a14efde699b9f6cb00"
+    },
+    "executed-source/finish_garden_signs.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finish_garden_signs.py",
+      "sha256": "5ba25cacbc7b00954ab52b283a0ea957340eadc1e65f2cc4e26b8b77d0ab8a75"
+    },
+    "executed-source/finish_hilltop_art.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finish_hilltop_art.py",
+      "sha256": "aa91c6cd00cbd381bf334293e659b9220ccf9ae6b900f6aa5aaf3244ac52ad7e"
+    },
+    "executed-source/finish_imperial_art.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finish_imperial_art.py",
+      "sha256": "2b26f5f3d7b8e8818ea91fca7b50cd8686e1908e6beb4e6f0dd7b2fce82b7e71"
+    },
+    "executed-source/finish_study_art.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/finish_study_art.py",
+      "sha256": "c5da0a468663f349ea2c1635bf9a560e78bc4904a10ed9f482c85d7f4b912a59"
+    },
+    "executed-source/fit_stage_enclosure.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/fit_stage_enclosure.py",
+      "sha256": "11dacdf67d1ad340c6dec0eb6782044c81499c075140a50ff39692fdc8f542d5"
+    },
+    "executed-source/garden_material_palette.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/garden_material_palette.py",
+      "sha256": "6a13bb9b153ab2742ca97fc300c0d4b83823127ac3dfa3a6e3820c6c972e3723"
+    },
+    "executed-source/generate_demo_audio.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/generate_demo_audio.py",
+      "sha256": "6bcfc3e6e8bde35f134306a123c6929cbdd8da40c1e8d83e7d0f4f2d4667fb2e"
+    },
+    "executed-source/generate_gate_drip.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/generate_gate_drip.py",
+      "sha256": "12302ddf64a47a7f0f4b3706ce0a6c0e196df0eb5e6191290bb582fb6c21287d"
+    },
+    "executed-source/generate_pavilion_atlas.py": {
+      "path": "docs/reference/neutral-atlas-full-lighting/executed-source/generate_pavilion_atlas.py",
+      "sha256": "311a0f70b8fcb888fa8aec943601269cb7c4a5e61a6da32eb6f0de20e1f1a57d"
+    },
+    "executed-source/generate_wall_atlas.py": {
+      "path": "docs/reference/neutral-atlas-full-lighting/executed-source/generate_wall_atlas.py",
+      "sha256": "81ca92ff8c1fdb4d834549cc285631b70d4c3cff689ba6925ea4d9e917b5aed9"
+    },
+    "executed-source/gltf_paint_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/gltf_paint_contract.py",
+      "sha256": "73a02aeb472a9d28a49c1b83f84ea31877e7262ffbf5a2cebcb45d0213f5934e"
+    },
+    "executed-source/gltf_shadow_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/gltf_shadow_contract.py",
+      "sha256": "b97201f5901a1a21314a626e60e35a16890ea2d3dd8cca6ef727df6da43a1798"
+    },
+    "executed-source/grade_references.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/grade_references.py",
+      "sha256": "fcf4e50873cd4fc0feb391e76d242c10361135ec7e3dfa58fc89384a0993c2f3"
+    },
+    "executed-source/imperial_tile_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/imperial_tile_lightmap_uv.py",
+      "sha256": "767c193b737ef2bf649d2d785c3b2d8df31a1405731b808c127c27e95f99e5c5"
+    },
+    "executed-source/inscribe_rockery_gate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/inscribe_rockery_gate.py",
+      "sha256": "5b7542c02f15737dbd4bbbbcc794fa3864c36328e39147439c4da80ea98d4ce2"
+    },
+    "executed-source/inspect_lightmap_pixels.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/inspect_lightmap_pixels.py",
+      "sha256": "1d7681e3ce99e79f5db91e623c01fdc81f0e328310c81bffbf70ab8cc6d3181c"
+    },
+    "executed-source/inspect_pavilion_roof.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/inspect_pavilion_roof.py",
+      "sha256": "6140eb9128143f98647a7fa1b5a5e4c1295939833fd51fb4619d61b681bed0ca"
+    },
+    "executed-source/inspect_terminal_spill_pixels.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/inspect_terminal_spill_pixels.py",
+      "sha256": "59c96694a7891bebc7b5a788ad7ffb12f5a24f33b3bbff103bb7a82cf8932b7f"
+    },
+    "executed-source/inspect_wash_scene.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/inspect_wash_scene.py",
+      "sha256": "ef65b055f812cab5ee134295c99593cd54a8b48607818a8250efe0ad7dd52472"
+    },
+    "executed-source/integrate_gate_rockery.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/integrate_gate_rockery.py",
+      "sha256": "758f539d0ddf955877f6d74d64f6f03d284eb122cf4be5037a19725f6d1c487c"
+    },
+    "executed-source/integrate_hengwu_walls.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/integrate_hengwu_walls.py",
+      "sha256": "420c9347c8d9cb6b042e8503689d679e36fa61c539cc3929d1c20bad8fc2eaf5"
+    },
+    "executed-source/integrate_qinfang_corridors.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/integrate_qinfang_corridors.py",
+      "sha256": "b9e3533758c16c83ae438ff7d0b8c237df7750707b82e36418e8430ecba5e7c7"
+    },
+    "executed-source/integrate_qinfang_pavilion.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/integrate_qinfang_pavilion.py",
+      "sha256": "7dd81846c026d8d86ae112777e45e1e0549640f931e28f759f882074263b0cfe"
+    },
+    "executed-source/integrate_western_water_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/integrate_western_water_kit.py",
+      "sha256": "6ddabf37b3bdc7a2ee280fe64c0e6c154c2cf03fba68614bfd5b29e78376ff89"
+    },
+    "executed-source/kit_geometry.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/kit_geometry.py",
+      "sha256": "423e07ba87b9c049e910fb54286de036374074884d84975485acea5a0b5c8adb"
+    },
+    "executed-source/kit_lods.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/kit_lods.py",
+      "sha256": "fafaead677bf7717ffbff11ed985fd9ebf5346df9eb0cdce201cce18da92c237"
+    },
+    "executed-source/light_study_hall.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/light_study_hall.py",
+      "sha256": "cbc91a5fd919c60e4c981ee9a34a0c192f0a9a7edf583198c6990af9dcae2923"
+    },
+    "executed-source/lightmap_catalog.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/lightmap_catalog.py",
+      "sha256": "26ae8aed091f3c4dc9cf856c2948411cf5cd5b9338eafec40e217e38ee07acbb"
+    },
+    "executed-source/make_flora_atlas.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_flora_atlas.py",
+      "sha256": "a7c6c72568896e632a2d54b1d6352b7b3cc59638b3d0359fd260d2caebb8fbf3"
+    },
+    "executed-source/make_grade_atlas.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_grade_atlas.py",
+      "sha256": "54acd9623c631d4044bf6ee8fef46cb3f57265deefc30ebb4f805fedb2afd2ff"
+    },
+    "executed-source/make_mountain_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_mountain_paint.py",
+      "sha256": "5f4cc8e88b3195e998039dc9d846632c8c661099c8d24a0d7a2a893d4bdca665"
+    },
+    "executed-source/make_props_atlas.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_props_atlas.py",
+      "sha256": "474ea040c40c59cd29b63b82b601e7bb2adbe08331f502ee23c0ba29f75492be"
+    },
+    "executed-source/make_stage_art.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_stage_art.py",
+      "sha256": "ec5cc411d0aab6248d9ead7a8b5690198885c60b20112e72ba50a6d588f60d3d"
+    },
+    "executed-source/make_tech_atlas.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_tech_atlas.py",
+      "sha256": "d8e4a62ec079a09472da2a8b8e6ed34c4bf405edf7e8ef8001716650c9893b19"
+    },
+    "executed-source/make_water_normal.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/make_water_normal.py",
+      "sha256": "a90166c3ef05526a3eadebb41708021b722cc221ae4315b05ea64c491fa42210"
+    },
+    "executed-source/moon_paint_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/moon_paint_contract.py",
+      "sha256": "fbcad31085558cb66869634e513c8ff5364579473cf30db9b98797ce97acfcdf"
+    },
+    "executed-source/native_wash_scene.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/native_wash_scene.py",
+      "sha256": "9cb4f21d477d198e7c5dbcb447d223c64280145dd6984c08c53560bc6a1cb659"
+    },
+    "executed-source/nunnery_path_layout.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/nunnery_path_layout.py",
+      "sha256": "172661c4cc828a840c45685117170ebae6bf29efae177d42778a5a7391da275d"
+    },
+    "executed-source/open_bamboo_walk.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/open_bamboo_walk.py",
+      "sha256": "43716f61d98814bed8d404c9f424b8e34bf789a8a3baba783543ade96c416439"
+    },
+    "executed-source/ouxiang_tile_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py",
+      "sha256": "110a5454dad68da9ec0c5652205bc56b1cb423c313c7d0e3f959877e69296f2d"
+    },
+    "executed-source/package_flora_sites.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_flora_sites.py",
+      "sha256": "7f729a9af8734e0a915ffd81b00f22f4b8a57fd2bc9329aaede61b8c112d999a"
+    },
+    "executed-source/package_hilltop_library.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_hilltop_library.py",
+      "sha256": "ec8c5827fc01a193e95f994f34d3f1b7f8040bf075434ee86c759a6fd16d980f"
+    },
+    "executed-source/package_imperial_library.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_imperial_library.py",
+      "sha256": "2ce3baee8a39422a87f021612fa6732c4a6172b27b915845ccb47ad65be1cc78"
+    },
+    "executed-source/package_libraries.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_libraries.py",
+      "sha256": "552e5e0ff608848e2c5fc32d6ece53fd90c8965cbaa3e0ba9754c3fddea39fc0"
+    },
+    "executed-source/package_prop_sites.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_prop_sites.py",
+      "sha256": "5ca314715a0e1d053b05df179d769f2c7b22ebf17ea6582759051b2d0ca90f52"
+    },
+    "executed-source/package_site_washes.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_site_washes.py",
+      "sha256": "dd6d6fe1cc409a6764766be8d2d2cf08bb1006439445f92a1a85eb94a4eff5ad"
+    },
+    "executed-source/package_stage_library.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_stage_library.py",
+      "sha256": "12484edcf75a6dad3793a2668a1e1fe9436ab805211fed069d5f4e5d6d39f70a"
+    },
+    "executed-source/package_stage_placements.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_stage_placements.py",
+      "sha256": "ad62686b639aabf706be5cf61349eb4e6dbac2d0ec6493f97cd2202ee53ce7f2"
+    },
+    "executed-source/package_study_library.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_study_library.py",
+      "sha256": "cab00d3f2bc7aa765fe9a0a155691dc55c242b64d96dfada9499c25ab2c5b86e"
+    },
+    "executed-source/package_tech_sites.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/package_tech_sites.py",
+      "sha256": "26da89aab64fa22df8b7a7d7c1ef714465b6ae269192e65f077a48e2de73ccc1"
+    },
+    "executed-source/pavilion_material.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/pavilion_material.py",
+      "sha256": "f1922088344ff80e2296d59073ae24c79a17fd704f2802dd7add78c646cf0fec"
+    },
+    "executed-source/pavilion_roof_geometry.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/pavilion_roof_geometry.py",
+      "sha256": "3c85681ec944f4ef49b5902e1dfc74d391dc5098651ead065a830d2b57aeadfb"
+    },
+    "executed-source/pavilion_tile_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/pavilion_tile_lightmap_uv.py",
+      "sha256": "6eff0454e2aa1ccd52e6ab97b41561dc917d7ce56282cc7647959c7da1ee78cf"
+    },
+    "executed-source/place_flora.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/place_flora.py",
+      "sha256": "24beb606c06c84245d3334b843509baf7c6a1c88028d3049e06d1ff1e507aa8c"
+    },
+    "executed-source/place_props.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/place_props.py",
+      "sha256": "960dcbd5f88460051acc1afe9ef7157fb924c10dc930c3302277d7e55a9c2ed5"
+    },
+    "executed-source/place_stage.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/place_stage.py",
+      "sha256": "4a40ea08c8d3ca0e0a8eda37df5e51fbfbba330f23d2a88ac50c6df93f27524e"
+    },
+    "executed-source/place_tech.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/place_tech.py",
+      "sha256": "0037a603cb9c7fb41055cfe553ee148cc0414ba8c7a4aaf3634d84456a480f19"
+    },
+    "executed-source/place_terminal_chair_collisions.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/place_terminal_chair_collisions.py",
+      "sha256": "6bc5075bd86712e66e218115bad39870babe2383e59b38ced57669492b762aef"
+    },
+    "executed-source/prepare_candidate_libraries.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_candidate_libraries.py",
+      "sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146"
+    },
+    "executed-source/prepare_candidate_libraries_frozen.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_candidate_libraries_frozen.py",
+      "sha256": "179442e350c5b5a47ffeaf7d29dea55c0c2576c1531a9667cdb7fa7ee5dfc164"
+    },
+    "executed-source/prepare_canopy_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_canopy_candidate.py",
+      "sha256": "9fd916894597a724d1c2d4fa0a7b3c9a5f5fe5731d3bd1c263dcf5c0c33eaa1a"
+    },
+    "executed-source/prepare_floor_seam_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_floor_seam_candidate.py",
+      "sha256": "8e36edb0d76abc2085711e3b13d00163e2721cf0cd7c05ffe7106ebff475e508"
+    },
+    "executed-source/prepare_inscription_normal.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_inscription_normal.py",
+      "sha256": "d819d2b1de32ad6664aded6916bbf64c846dfb96475a78de6c1c7a1936061df3"
+    },
+    "executed-source/prepare_moon_contrast_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_moon_contrast_candidate.py",
+      "sha256": "7f73344f5c94d287d7b74c7197c6db2521ba667cefabb842a1cf0b2a1a9b2b86"
+    },
+    "executed-source/prepare_neutral_atlas_source.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/prepare_neutral_atlas_source.py",
+      "sha256": "ebe57dd935e274d30d34ffaf4df1ecda85690c1bb90914aad68fb04e8b1b2cbc"
+    },
+    "executed-source/prepare_tile_ridge_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/prepare_tile_ridge_candidate.py",
+      "sha256": "8e2a6b2e604b7e8f7f4ca31e39863de6d3d6fcac5a6f3fc239bf49be63baa5e6"
+    },
+    "executed-source/refine_bamboo_court.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_bamboo_court.py",
+      "sha256": "ed6bb86b9c973c5f126a66637255b6f06c4cea4a0859ff39a76877335bd99a2e"
+    },
+    "executed-source/refine_bulletin_hall.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_bulletin_hall.py",
+      "sha256": "565a6830f6dcd9a63ad1d65c87472e156d0a77f2bb93e3002309e14989803536"
+    },
+    "executed-source/refine_farmhouse.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_farmhouse.py",
+      "sha256": "55c186f74b39e7b6beb13f33157e2a9dcd55029b05715f398a2e3b7733b876bd"
+    },
+    "executed-source/refine_hilltop_hall.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_hilltop_hall.py",
+      "sha256": "269b1904e40d46bb9016d828b0d4559e090e96c2f220c493f4d0f131f3f1e75c"
+    },
+    "executed-source/refine_imperial_facade.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_imperial_facade.py",
+      "sha256": "cf43c51ce68f6ae2e6ebaed5991a822945001dfb2f69144d3fe591c5ce649945"
+    },
+    "executed-source/refine_nunnery.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_nunnery.py",
+      "sha256": "d1966e9f01fd406e3d5e92c36414227ba728bffb49a0c3eed409f00311f403bb"
+    },
+    "executed-source/refine_red_court.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_red_court.py",
+      "sha256": "f65c2ddde5cf67751ab1bb1bad2753a94a6d38c842fdeb8e77e26bf731013026"
+    },
+    "executed-source/refine_reflection_hall.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_reflection_hall.py",
+      "sha256": "2231c463795fe321136ee2e2ab1a22e3aa4eb31fb94fe5e0d60005715407a5f3"
+    },
+    "executed-source/refine_study_courtyard.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_study_courtyard.py",
+      "sha256": "0d9b35a3efc15190262b94899373f86b7be626c723e90ac796d947a562b00bcc"
+    },
+    "executed-source/refine_western_sites.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refine_western_sites.py",
+      "sha256": "51075c485f3bb7f37c6d1f4744ae70cc7e95c46fbb0c0cb4aab3597ed5296a98"
+    },
+    "executed-source/refresh_flora_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refresh_flora_lightmaps.py",
+      "sha256": "8b907beed3801c36bec6503611a1ff47f19cd0c9bcd2cc6d18abc3aae64021e4"
+    },
+    "executed-source/refresh_full_lighting.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refresh_full_lighting.py",
+      "sha256": "4d5ae446ad0bcebd82b7401133caffa9b6f83ba332259ec96ce27049e7df0588"
+    },
+    "executed-source/refresh_remaining_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refresh_remaining_lightmaps.py",
+      "sha256": "6c0e4bb96c572d2f6d1d13c31a45d202eabf98fd61e90d5322bb0f81351cb02a"
+    },
+    "executed-source/refresh_scene_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/refresh_scene_lightmaps.py",
+      "sha256": "c99ba59f387ecd96c965d48f0b1bee48984564d4bf532a0855bc413a7de7308b"
+    },
+    "executed-source/render_moon_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/render_moon_paint.py",
+      "sha256": "0dc9aeac57da0ad3bd72305cf87fd21728b8eb9f28f5e9e18816e4acf2985902"
+    },
+    "executed-source/render_references.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/render_references.py",
+      "sha256": "09f9ab2c73cc71ed4f516bca56bcdedffa977f2ef5d96f6ea4dab388380c0fad"
+    },
+    "executed-source/repair_nunnery_path_joins.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/repair_nunnery_path_joins.py",
+      "sha256": "c20e735150b04d1ce1cbfeeada33725d7a129727d5091b704d2d2003c394dba6"
+    },
+    "executed-source/revalidate_camera_only_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/revalidate_camera_only_lightmaps.py",
+      "sha256": "c76901a050061bd5a8e7b3d0bbcd5c06b22e289d0049475c840e2a7c332bf886"
+    },
+    "executed-source/run_android_identity_storage_tests.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/run_android_identity_storage_tests.py",
+      "sha256": "b7e04393f3b432f6ff5fd1a95388e3be6be8fddf82e3375449e12e86933e27f6"
+    },
+    "executed-source/soften_stage_green.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/soften_stage_green.py",
+      "sha256": "418e5a1c7bf3badf49744e7a96cc0961e8e5bf6bf51779e6b46be75ed0d39619"
+    },
+    "executed-source/sync_backdrop_wash.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_backdrop_wash.py",
+      "sha256": "2f48b4a16203ba695fa34623203b45a75962570be7e235bb382c85a6857446d5"
+    },
+    "executed-source/sync_full_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_full_lightmaps.py",
+      "sha256": "5b89a8cb20579cbb99abb5d12441937442508e05fbc5ebd9c18f34af0ead7a50"
+    },
+    "executed-source/sync_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_lightmaps.py",
+      "sha256": "dbdc14f96d912fe21cf2879bc38f548e25811fa5f4fc6a363c1f7e76fce5383d"
+    },
+    "executed-source/sync_priority2_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_priority2_lightmaps.py",
+      "sha256": "4231c59f0dce396704fb53bb37d0dd7e092f5ec861bc4348ba3a3cc3ded46f59"
+    },
+    "executed-source/sync_softened_site_libraries.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_softened_site_libraries.py",
+      "sha256": "b56a71f23001ba2a30c0819488d9fccca09f7bcf3a5d2e1b7685b52f11d0ece9"
+    },
+    "executed-source/sync_terminal_spill.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/sync_terminal_spill.py",
+      "sha256": "ed8db30bb5d99a8be412c2293048192b3753f1c8c6be9a0760299e827e97078c"
+    },
+    "executed-source/tap_android_profile.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/tap_android_profile.py",
+      "sha256": "edef0ce5f2dc7c32693648c16224f725525005f74c7a0485bedbac8608ba610c"
+    },
+    "executed-source/terminal_spill_catalog.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/terminal_spill_catalog.py",
+      "sha256": "29d6967c2ad475afc996b78c21aa0beb4446e54465a6fe1c7951ec66b64931b4"
+    },
+    "executed-source/test_android_identity_core.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_android_identity_core.py",
+      "sha256": "cc0ef49d81568f83a71f36dcbf316464a8fbe23d7d938f29c3c60dd1f463722c"
+    },
+    "executed-source/test_garden_atlas_export_rejections.py": {
+      "path": "docs/reference/neutral-atlas-full-lighting/executed-source/test_garden_atlas_export_rejections.py",
+      "sha256": "fc16a24449738ca9213388b145d474895ecd5ee8b6d6b96066066e72282d0f9b"
+    },
+    "executed-source/test_gltf_shadow_transfer.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_gltf_shadow_transfer.py",
+      "sha256": "dda9fec42287236d62e3eff5dfd280458a1996acaab9130e426f508508bd63fc"
+    },
+    "executed-source/test_imperial_lightmap_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_imperial_lightmap_imports.py",
+      "sha256": "c0acab28e906168fe91ddde85a96d82430f07c930160e3dc2ebffe40f473bc79"
+    },
+    "executed-source/test_moon_contrast_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_moon_contrast_export.py",
+      "sha256": "649d657efa213241c4b82cc8fdb567d5b2fbab5d838fa106f49069a65422061a"
+    },
+    "executed-source/test_moon_contrast_source.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_moon_contrast_source.py",
+      "sha256": "93bc732246f1d6ed5ae3eeac04e2f32ff9af25b5472d71a301fdf7964c0f5b00"
+    },
+    "executed-source/test_moon_export_rejections.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_moon_export_rejections.py",
+      "sha256": "b32d7836c2a68f909954d974f92f685ce48b0811d4c8e744aee2503beb10dbca"
+    },
+    "executed-source/test_oux_lightmap_uv.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_oux_lightmap_uv.py",
+      "sha256": "bb22653d6de89f8d9e05288900a319caf4dc507b43cb5bf292416b08e52d66d1"
+    },
+    "executed-source/test_ouxiang_lightmap_imports.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_ouxiang_lightmap_imports.py",
+      "sha256": "843522e041e45f0280dbaf0475d4c9b32965c1fb43cbe8ea5cafbdcd0481eb49"
+    },
+    "executed-source/test_pavilion_tile_ridges.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_pavilion_tile_ridges.py",
+      "sha256": "a5355fa1ef39fb74a38eb704a9ec13fdee65abd87bb58fef7ba24633fd79ee6d"
+    },
+    "executed-source/test_roof_cone_export_rejections.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_roof_cone_export_rejections.py",
+      "sha256": "80d0ce5e0c3965815cbc8a46e89956e823d004cb2b442be6acb30df2fc170621"
+    },
+    "executed-source/test_wash_receiver_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/test_wash_receiver_contract.py",
+      "sha256": "edb346aeea92871e7667713107e313033a9cc02631a3b73a449852ce65cf454b"
+    },
+    "executed-source/tests/test_android_texture_provenance.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/tests/test_android_texture_provenance.py",
+      "sha256": "96793656a52056f5962f3dca28a6401d7b1f4ac0fb6e4ef4bbda9f5a5ebc0aa3"
+    },
+    "executed-source/verify_android_apk_payload.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_android_apk_payload.py",
+      "sha256": "44d5a25b0eb87daffd4648fc7638e016feb25b626aab523f3bc4b21c9214d9a0"
+    },
+    "executed-source/verify_android_normal_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_android_normal_candidate.py",
+      "sha256": "1ee877319b06cb74d30a1c4112fde7aaee5d5b41ca4d6a2a2478433a92750889"
+    },
+    "executed-source/verify_android_pbr_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_android_pbr_candidate.py",
+      "sha256": "f3a6141e554e73dd53024a863c7c9b9aa0df7758a06d56a2bf61b49d3aeffbc7"
+    },
+    "executed-source/verify_android_profile_inputs.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_android_profile_inputs.py",
+      "sha256": "58f202627bec9c464096e3db7ee15d46b1bcef9d9aeb53818fb19bda76e37e02"
+    },
+    "executed-source/verify_assets.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_assets.py",
+      "sha256": "1615de905e4079f9a7289404afa7b3d312a8ce49cf5e6aa5bc600dea1b930bf1"
+    },
+    "executed-source/verify_backdrop_wash.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_backdrop_wash.py",
+      "sha256": "485fe1ec4f612984f265fe4758eca30dada41bb5a65024cebdbb9ed935c0cbb2"
+    },
+    "executed-source/verify_canopy_candidate.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_canopy_candidate.py",
+      "sha256": "3196792a3fea0d49101667ef707cc876cc72e358f98d9381dff8023ce7a792be"
+    },
+    "executed-source/verify_corridor_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_corridor_kit.py",
+      "sha256": "9fcc30df075c16c9fca21bd2053d3766ee0362a541122d8e7d6d4004c94dc535"
+    },
+    "executed-source/verify_engine_grade.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_engine_grade.py",
+      "sha256": "039012892cf7fb8e4765ce76f095a1587be26ed74a575de4fc7dea253d5c7365"
+    },
+    "executed-source/verify_flora_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_flora_kit.py",
+      "sha256": "03a7b853b324ff584e947a4fab3358f6f68b9175f1d0f3ac2f2a512d2ce25c15"
+    },
+    "executed-source/verify_garden_atlas_export.py": {
+      "path": "docs/reference/neutral-atlas-full-preparation/executed-source/verify_garden_atlas_export.py",
+      "sha256": "bb82b6574104756c9505aef26bcee55a440c4b157c2ae0c38a5c289849a1127a"
+    },
+    "executed-source/verify_garden_palette_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_garden_palette_export.py",
+      "sha256": "ca772b0a1eb1fce73666ca277aad6a56797472b1591d8cf9b3443e408a97a47d"
+    },
+    "executed-source/verify_gate_inscription_cap.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_gate_inscription_cap.py",
+      "sha256": "43b24621bcb57b94fb9374fb2fda31feea8442ff93916b1e30c5970b55f2a7b7"
+    },
+    "executed-source/verify_godot_reimport.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_godot_reimport.py",
+      "sha256": "f355e260621afeaf1ade7e72871c037cadb5d869ab0e039729f8fde93ce52479"
+    },
+    "executed-source/verify_hexagram_lines.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_hexagram_lines.py",
+      "sha256": "7bda17edcd3305abdc4de89a0858d947e45ac701ed647614bac83ebbeeb80d17"
+    },
+    "executed-source/verify_lightmaps.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_lightmaps.py",
+      "sha256": "0579e10dfcd7288ae11e63b30c5695e1af3d5200149abdd69b31b4ab83592bcd"
+    },
+    "executed-source/verify_moon_contrast_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_moon_contrast_export.py",
+      "sha256": "6fb8072fe10c4bb729940a19c66fa42491f1c9bcdf098174ed5989acddd0b6db"
+    },
+    "executed-source/verify_moon_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_moon_export.py",
+      "sha256": "ebaf8b932907f3bf3c5963e20712f0feb0f8c058851b0bdad35ada1a76046372"
+    },
+    "executed-source/verify_moon_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_moon_paint.py",
+      "sha256": "3db241492891f93ef62d0942d16b715293203af4c8f15819e7d5d77e794fcf72"
+    },
+    "executed-source/verify_mountain_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_mountain_export.py",
+      "sha256": "5a1ae21613b3c79a22285f69b4d67f926f30b1c7f8a83ed425b0c73b44071e72"
+    },
+    "executed-source/verify_mountain_paint.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_mountain_paint.py",
+      "sha256": "b88f2c7e612bbcc6c4aa0a90c2b0844b0a5a487656a97ee7693b89ed042010cc"
+    },
+    "executed-source/verify_neutral_architecture_atlases.py": {
+      "path": "docs/reference/neutral-atlas-full-lighting/executed-source/verify_neutral_architecture_atlases.py",
+      "sha256": "3e677753d9faf5a821998dcdb403e5b1bcb60419f18d055cae87115bd7248b6e"
+    },
+    "executed-source/verify_pavilion_atlas.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_pavilion_atlas.py",
+      "sha256": "d64752db59d106bcb5c21fe7b2e670d5cd331c473041dde519d2ee8b5b00b49e"
+    },
+    "executed-source/verify_pavilion_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_pavilion_kit.py",
+      "sha256": "b40ce429a6a636c43fda72b64081f292fb9de9cc6cd882562043b5a7c655d5cd"
+    },
+    "executed-source/verify_pavilion_roof_orientation.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_pavilion_roof_orientation.py",
+      "sha256": "b5641c1670695b5ca1bcc7cd751d27e8ad6c28d59a1fea78914bf4923981ad1e"
+    },
+    "executed-source/verify_props_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_props_kit.py",
+      "sha256": "86722e5961a1d6290d19878ec66b71d1e4310139161988fdb3ce0d653ada9057"
+    },
+    "executed-source/verify_reflection.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_reflection.py",
+      "sha256": "8e7368020a74e0ba95fd64bcaa334dc9f3fae598ed6417bca71799fa78c8a19a"
+    },
+    "executed-source/verify_reflection_camera_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_reflection_camera_export.py",
+      "sha256": "80e4052ca73d644301c5b1fe9b5d9b9e43a8bb72566ec4fded786bc8a0feac7e"
+    },
+    "executed-source/verify_rockery_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_rockery_kit.py",
+      "sha256": "8ec8f8e3ae39e7dd83cc25143d766eccc2c3688b1c68bac57f2a0dbe330b98ea"
+    },
+    "executed-source/verify_roof_cone_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_roof_cone_export.py",
+      "sha256": "a48739771eaef0729ad9698ef1b6c23af53def2eeaf8864aaf72431397f32758"
+    },
+    "executed-source/verify_site_keys.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_site_keys.py",
+      "sha256": "c2136c008866024875646f8c67f8037a6e9738ac9b81bbcef503e704ed312eac"
+    },
+    "executed-source/verify_stage_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_stage_kit.py",
+      "sha256": "c8691b72f515caa1c6da99b0fac256811cfed297bff05fc3ca934b3e5c6022fb"
+    },
+    "executed-source/verify_surface_animation.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_surface_animation.py",
+      "sha256": "575f237829147298c6d586c717a84e22bad5808679bef02e928ef61c6194ff35"
+    },
+    "executed-source/verify_tech_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_tech_kit.py",
+      "sha256": "48163fd66602a9ee42a0ff548181578304b9579a3341680a6d419a8fb2ef7703"
+    },
+    "executed-source/verify_terminal_spill_install.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_terminal_spill_install.py",
+      "sha256": "f54f3987a1b96d1fe0a8c8c9ff7012b0df8c75638f4962e1a2f0c22991c66173"
+    },
+    "executed-source/verify_tile_ridge_export.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_tile_ridge_export.py",
+      "sha256": "c54d90c3d682ea5afee05c5f85ba7677e82fbd359554a7fa7dc9da56ab7c0b44"
+    },
+    "executed-source/verify_uv2.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_uv2.py",
+      "sha256": "7ee33d807bcbe16369ecb1508b9585ee738971ba78540388a0ee8fd4e7146bb4"
+    },
+    "executed-source/verify_wall_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_wall_kit.py",
+      "sha256": "a33a566bd66b5bb4810a42ca4aec9db350df635ecdab3a3e81e23df5d6383bfc"
+    },
+    "executed-source/verify_water_kit.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/verify_water_kit.py",
+      "sha256": "e84fe1439f8f71ee0266fb9f6c0a28911bf5123200967cb5a65fdb33de9d4a69"
+    },
+    "executed-source/wash_receiver_contract.py": {
+      "path": "docs/reference/neutral-path-full-lighting/executed-source/wash_receiver_contract.py",
+      "sha256": "d934c9444f43b842c6ee0d61b579e227461bd4116238b64738d417716df39952"
+    },
+    "source-preparation.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/source-preparation.json",
+      "sha256": "db4b4f7f78e2c0e59e2b57fd6e3f27eb77e0445a087d51179ed6843b3baab543"
+    },
+    "source-preparation-snapshot.json": {
+      "path": "docs/reference/neutral-atlas-full-preparation/source-preparation-snapshot.json",
+      "sha256": "b0c96c46792141238277027065881ef7add5723c82107c8d6ddf85c337b64853"
+    },
+    "full-refresh-inputs.json": {
+      "path": "docs/reference/neutral-atlas-full-preparation/full-refresh-inputs.json",
+      "sha256": "de897ba97295f66cd5d68fc10eae9ec08c0b803c7b7002fd5bb2d572791b5064"
+    },
+    "architecture-atlas-application.json": {
+      "path": "docs/reference/neutral-atlas-full-preparation/architecture-atlas-application.json",
+      "sha256": "81e3763092d9eed46b47959d41239f104ca7a6ca8c678ea68ec21071ca6c5fc8"
+    },
+    "full-lighting-refresh.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/full-lighting-refresh.json",
+      "sha256": "7b8cc2bcaf4c386376dedb694f14ffc629dbb43a3ffa12c43924ab4ba2bfd3bb"
+    },
+    "lightmaps-coverage.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/lightmaps-coverage.json",
+      "sha256": "ad49fbb1dae029a31819a1ccb037a5321110da415cf0a798bd0d06b1264ef6dd"
+    },
+    "lightmap-pixels.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/lightmap-pixels.json",
+      "sha256": "aa67df8f122573b3d27fc0829efacd9838f38f5304435ac0f1d2c9978bafc061"
+    },
+    "terminal-spill-pixels.json": {
+      "path": "docs/reference/neutral-atlas-full-lighting/terminal-spill-pixels.json",
+      "sha256": "d025b0f6cd9672b8e7c9e137fb5fc1b56966c1d737c6abc4c27ed7f747b6ff29"
+    },
+    "atlas-export-preservation.json": {
+      "path": "docs/reference/neutral-atlas-full-preparation/atlas-export-preservation.json",
+      "sha256": "3ff45a43039c943f6849a9dfd24593754f9ee75a49d7eee91424087f179051f0"
+    },
+    "atlas-site-preservation.json": {
+      "path": "docs/reference/neutral-atlas-full-preparation/atlas-site-preservation.json",
+      "sha256": "8644f0551b854b384f707f5925bb712cf231e4ba32bcdc7e2a837bc4e9024dd3"
+    },
+    "native-logs/ordinary.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/ordinary.log",
+      "sha256": "cee183b6e7e3615ec45867801545a7be70b3fef0a4792380f2f5ecca62d6f3d5"
+    },
+    "native-logs/backdrop-wash.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/backdrop-wash.log",
+      "sha256": "eb92fd61eb29692f2960085a43c30732374d91d1bf528bf0cb10d4961870d898"
+    },
+    "native-logs/terminal-spill.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/terminal-spill.log",
+      "sha256": "ed42dcb24f658043c9db03e5b7f9d8065d8cafc1ecdfb969e204357836da48d8"
+    },
+    "native-logs/terminal-spill-pixels.log": {
+      "path": "docs/reference/neutral-path-full-lighting/native-logs/terminal-spill-pixels.log",
+      "sha256": "6ff993a738c9e7b8c806df574e1b1ffab8eb794f7dbd5cb5e818744bc483be82"
+    },
+    "native-logs/native-pixels.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/native-pixels.log",
+      "sha256": "630c39e85db7525f8c3208203939c9825e66c99e48385fccdb296fa95d75b9a3"
+    },
+    "native-logs/coverage.log": {
+      "path": "docs/reference/neutral-atlas-full-lighting/native-logs/coverage.log",
+      "sha256": "3cffe27e413a4892e3aade4962dba3c905701a592b548db8e480fc6bc7e2e3c0"
+    },
+    "candidate-authoring.blend": {
+      "path": "docs/reference/neutral-atlas-full-preparation/source/authoring.blend",
+      "sha256": "3a3ae2536f17cf8f19b8e5c1c811b080fe05c25615297fa20cb24019c0709621"
+    },
+    "candidate-complete.glb": {
+      "path": "docs/reference/neutral-atlas-full-preparation/source/garden-of-dreams.glb",
+      "sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8"
+    }
+  },
+  "native_review_pointer": "/tmp/garden-neutral-atlas-full-review.json"
+}
