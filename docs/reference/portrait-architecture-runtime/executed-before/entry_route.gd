@@ -66,11 +66,6 @@ var pond_view_active = false
 var pond_return_button: Button
 var touch_ui_enabled = false
 var pavilion_overview_active = false
-var architecture_overview_active = false
-const PORTRAIT_ARCHITECTURE_VIEWS = {
- "daoxiang_cun": [Vector3(-31.968402,1.9,-12.843443),Vector3(-31.968402,-.703797,-23)],
- "daguan_lou": [Vector3(8.976835,2,-6.678481),Vector3(0,-.751899,-23)],
- "longcui_an": [Vector3(-23.587955,1.65,5.246902),Vector3(-25,-.8,13.255)]}
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
 
@@ -234,9 +229,7 @@ func execute_command(text: String) -> void:
  match cmd:
   "look":
    if room_id=="qinfang_ting":_arrive(room_id)
-   else:
-    output_label.text = ROOMS[room_id].text
-    if PORTRAIT_ARCHITECTURE_VIEWS.has(room_id):_frame_arrival_camera(room_id)
+   else:output_label.text = ROOMS[room_id].text
   "help": output_label.text = "Choose an action below or type its command. Movement follows the garden paths; the camera moves with you."
   "terminal":
    output_label.text = "The screen invites you to enter the garden. Follow the lanterns to Qinfang Pavilion, then cast six lines at the bronze table." if demo_mode else ("The terminal is ready. Personal readings and history are not connected yet." if room_id == "terminal_room" else "Your personal terminal is in the cell.")
@@ -631,10 +624,6 @@ func _on_viewport_resized() -> void:
  call_deferred("_fit_action_list")
  if pond_view_active:call_deferred("_refresh_pond_view")
  elif pavilion_overview_active and not travelling:call_deferred("_refresh_pavilion_overview")
- elif architecture_overview_active and not travelling:call_deferred("_refresh_architecture_overview")
-
-func _refresh_architecture_overview() -> void:
- if architecture_overview_active and not travelling:_frame_arrival_camera(room_id,true)
 
 func _pavilion_camera_view() -> Array:
  var size=get_viewport().get_visible_rect().size
@@ -664,10 +653,6 @@ func _arrive(id: String, immediate = false) -> void:
  input.editable = true
  if demo_mode:demo_audio.enter_room(id)
  _refresh_actions()
- _frame_arrival_camera(id,immediate)
- transition_finished.emit(id)
-
-func _frame_arrival_camera(id: String, immediate = false) -> void:
  var views = {
   "daoxiang_cun": [Vector3(-34,3.4,-13),Vector3(-34,1.7,-22)],
   "aojing_guan": _reflection_view(),
@@ -697,14 +682,11 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
  elif portrait and id=="ouxiang_xie":
   view_target=Vector3(-23,.5,0)
   view_position=view_target+(view_position-view_target)*2.0
- elif portrait and PORTRAIT_ARCHITECTURE_VIEWS.has(id):
-  view_position=PORTRAIT_ARCHITECTURE_VIEWS[id][0]
-  view_target=PORTRAIT_ARCHITECTURE_VIEWS[id][1]
  elif portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
  pavilion_overview_active=id=="qinfang_ting"
- architecture_overview_active=PORTRAIT_ARCHITECTURE_VIEWS.has(id)
+ transition_finished.emit(id)
 
 func _refresh_actions() -> void:
  for button in actions.get_children():
@@ -778,7 +760,6 @@ func _fit_action_list() -> void:
 
 func _camera_to(position: Vector3, target: Vector3, immediate = false) -> void:
  pavilion_overview_active=false
- architecture_overview_active=false
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
  var transform_target = Transform3D(camera.basis,position).looking_at(target,Vector3.UP)
  if immediate:

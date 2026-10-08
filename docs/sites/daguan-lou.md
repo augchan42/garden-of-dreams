@@ -85,3 +85,8 @@ The complete `361a67c7` working bundle now uses the verified imperial UV2 alloca
 Slot 1 now has a directly reviewed frame from the published *The Enchanting Shadow* trailer at 17.0 seconds. The court detail shows red posts, cream stone railing, a tiered gold ornament/table and localized warm candles against blue-lit foliage and dark structural recesses. The retained subtitle refers to midnight; the night treatment is also visible. It supplies a generic court night-set/material-separation reference, not Daguan identity, its full imperial facade, two-storey structure, roof geometry or surveyed proportions. The low-resolution source supports broad color and lighting hierarchy rather than fine painted-bracket or tile detail.
 
 Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/daguan-lou/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.
+
+
+## Runtime portrait framing — 2026-10-09
+
+The runtime portrait view now fits the complete measured imperial roof/facade above the command panel at both narrow sizes. The inspected full-walk arrival confirms the roof is retained. Ceiling/floor dominance, facade mottling and final art remain open. “Look” restores this overview after a detail action; resizing preserves details or adapts the overview. Existing desktop and authored Blender cameras remain unchanged. See `../reference/portrait-architecture-runtime/README.md`.

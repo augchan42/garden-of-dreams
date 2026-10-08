@@ -70,7 +70,7 @@ var architecture_overview_active = false
 const PORTRAIT_ARCHITECTURE_VIEWS = {
  "daoxiang_cun": [Vector3(-31.968402,1.9,-12.843443),Vector3(-31.968402,-.703797,-23)],
  "daguan_lou": [Vector3(8.976835,2,-6.678481),Vector3(0,-.751899,-23)],
- "longcui_an": [Vector3(-23.587955,1.65,5.246902),Vector3(-25,-.8,13.255)]}
+ "longcui_an": [Vector3(-25,1.65,5.123364),Vector3(-25,-.8,13.255)]}
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
 

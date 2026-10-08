@@ -1,0 +1,37 @@
+{
+  "status": "three_portrait_overviews_and_camera_behavior_verified",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "route_sha256": "db32d9c058a732c330d9df910b22b961f755045c5904c47e8fde68fd3c056138",
+  "red_failures": 13,
+  "final_behavior_captures": 15,
+  "regression_phases": 9,
+  "tours": {
+    "desktop": {
+      "rooms": 14,
+      "legs": 26,
+      "all_original_hashes_verified": 139,
+      "settled_originals_archived": 26,
+      "actual_capture_pixels": [
+        1410,
+        600
+      ],
+      "grounded_ray_samples": 17581,
+      "supported_ray_samples": 17581,
+      "floor_misses": 0
+    },
+    "portrait": {
+      "rooms": 14,
+      "legs": 26,
+      "all_original_hashes_verified": 139,
+      "settled_originals_archived": 26,
+      "actual_capture_pixels": [
+        540,
+        960
+      ],
+      "grounded_ray_samples": 17581,
+      "supported_ray_samples": 17581,
+      "floor_misses": 0
+    }
+  },
+  "archive_scope": "All red, intermediate, selected and angle originals; all reports and logs; all 26 settled originals per walk. All 139 originals per walk verified; transient travel originals remain in the recorded local review folder. Runtime cameras only; final art, device budgets and services remain open."
+}
