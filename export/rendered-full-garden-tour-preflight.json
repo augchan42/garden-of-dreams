@@ -1,0 +1,22 @@
+{
+  "scope": "Native Godot parses the complete capture harness and rejects headless mode before directory creation, scene load or capture. This is a negative guard check, not a rendered tour pass. Desktop/portrait positive runs require the completed candidate 124/6/7 lighting catalogs and remain pending.",
+  "native_exit_code": 1,
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--headless",
+    "--path",
+    ".",
+    "--script",
+    "res://tests/render_full_garden_traversal.gd",
+    "--",
+    "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-rendered-tour-check-4e1ywdk_/headless-rejection.json",
+    "--capture-directory=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-rendered-tour-check-4e1ywdk_/must-not-render"
+  ],
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-rendered-tour-check-4e1ywdk_",
+  "artifacts_sha256": {
+    "docs/reference/rendered-full-garden-tour/headless-rejection.json": "4082b858be0ff574cda04362cba4f6cace7ea803367da732bb6f0eba5f983b93",
+    "docs/reference/rendered-full-garden-tour/render_full_garden_traversal.gd": "bb10d8c029bfc087f7fac33a7ea2f7dc61ecf43558677ab4a3c86731eefa92b9",
+    "docs/reference/rendered-full-garden-tour/test_full_garden_traversal.gd": "d1285687cd213c41f344905f43d77f9bbd1b5675a77cd111bbdbab2b21084aee",
+    "docs/reference/rendered-full-garden-tour/headless-rejection.log": "135edbb98ef2865a62a3792b187656ea0bb3a6c4dfc72fcd0c9e8cb855cac8f7"
+  }
+}

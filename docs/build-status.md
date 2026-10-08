@@ -884,3 +884,11 @@ still supplies bamboo silhouettes and warm torch/cool fill separation with
 explicit copyright attribution and reference-only scope. Three daylight film
 stills are rejected for bridge/night/cave slots. Current total is 18/42, leaving
 24; reference collection does not establish completed scene art.
+
+The complete-route native capture harness is prepared for desktop and portrait
+inspection after the candidate bake. It reuses the strict fourteen-room,
+twenty-six-leg physics tour and requires matching 124/6/7 lighting catalogs.
+Native parsing and its headless refusal guard pass; positive rendered runs are
+pending. Existing physics proof is unchanged, and no final visual/traversal or
+performance acceptance is claimed. See `docs/full-garden-traversal.md` and
+`export/rendered-full-garden-tour-preflight.json`.

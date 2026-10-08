@@ -74,3 +74,40 @@ Prepare a new separate Blender candidate, using the matching diagnosed source:
 
 The preparer rejects workspace destinations and existing candidate files. It
 does not modify canonical authoring, libraries, GLBs or lightmaps.
+
+## Rendered complete-route harness — 2026-10-08
+
+`godot/tests/render_full_garden_traversal.gd` extends the strict physics tour
+above. It records the real route camera and command UI during all twenty-six
+legs and each arrival, retaining the same visitor, public commands and normal
+simulation time. It does not override lights, materials, positions or paths.
+The harness requires source-matched 124 ordinary, six backdrop and seven spill
+receiver catalogs for the separate ceiling/contrast candidate and checks the
+four-practical limit. Its sampled PNGs carry hashes and camera/visitor state.
+
+Native Godot parses the complete harness and correctly rejects headless mode
+before creating a capture directory or loading the scene. Exact scripts, log
+and rejection report are retained under `reference/rendered-full-garden-tour/`,
+indexed by `../export/rendered-full-garden-tour-preflight.json`. This proves the
+headless guard only. No rendered candidate tour has passed yet: the complete
+fresh candidate bake and native import must finish first.
+
+Run each view sequentially in the prepared candidate acceptance project after
+all matching lighting is installed. Do not run another host graphics job while
+the source baker is active:
+
+```sh
+/Applications/Godot.app/Contents/MacOS/Godot --path /path/to/candidate/godot \
+  --script res://tests/render_full_garden_traversal.gd -- \
+  --output=/tmp/garden-rendered-tour-desktop.json \
+  --capture-directory=/tmp/garden-rendered-tour-desktop
+
+/Applications/Godot.app/Contents/MacOS/Godot --path /path/to/candidate/godot \
+  --script res://tests/render_full_garden_traversal.gd -- \
+  --output=/tmp/garden-rendered-tour-portrait.json \
+  --capture-directory=/tmp/garden-rendered-tour-portrait --portrait
+```
+
+Successful captures still require direct review for backdrop joins, floor
+seams, architecture intersections, UI and camera transitions. Sampled frames
+do not prove continuous-video art acceptance or target-device performance.
