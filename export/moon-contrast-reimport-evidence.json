@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "scope": "Two forced cold imports: source camera/collider/marker contracts, one actual isolated ray per collider, all render mesh array persistence, calibrated keys and shared painted material/adapter properties. Not final baked lighting, rendered materials, continuous traversal or target-device acceptance.",
+  "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+  "checked": {
+    "cameras_checked": 42,
+    "colliders_checked": 400,
+    "marker_metadata_checked": 71,
+    "passed": true,
+    "physics_rays_passed": 400,
+    "render_meshes_snapshotted": 167,
+    "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38"
+  },
+  "files": {
+    "docs/reference/moon-contrast/reimport/second-cold-import.log": "2d23d665ac226edfa4964ee96c5876811453beb61bf3157ef1debdc0718559dc",
+    "docs/reference/moon-contrast/reimport/second-paint.log": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de",
+    "docs/reference/moon-contrast/reimport/first-paint.log": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de",
+    "docs/reference/moon-contrast/reimport/report.json": "44d1535be88f812ba1e25fdf0bec4ce8aaea4b3d7018f7c638c6b23646659685",
+    "docs/reference/moon-contrast/reimport/garden_import.gd": "d3e30e70989a073be7d045e7114f59bb5f7460922505646b09bb65f2761f6b5d",
+    "docs/reference/moon-contrast/reimport/first-keys.log": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4",
+    "docs/reference/moon-contrast/reimport/reject-collider.log": "9756bd2e729a81cef0c9b865405586eaf5b0dfcaf2a1e5af2d076f67085d4043",
+    "docs/reference/moon-contrast/reimport/first-source-physics.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/moon-contrast/reimport/second-keys.log": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4",
+    "docs/reference/moon-contrast/reimport/second-source-physics.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/moon-contrast/reimport/first-cold-import.log": "a782efd729becc98bc502073831d17371a8035b1275ed63ba7f57522ab983858",
+    "docs/reference/moon-contrast/reimport/reject-marker.log": "86bff64a536d7baa5d001a21b0489dff9af894042355de7e161eabc8f558db39",
+    "docs/reference/moon-contrast/reimport/reject-camera.log": "28f4d5175a992af6ee8c32689845692050c849436da167959606886bf3ce5bf8",
+    "docs/reference/moon-contrast/reimport/first-contract.json": "53351d194fbbadd20d18b40339289ef8f0beddc09fdcd648abcf0bab1f95f94a",
+    "docs/reference/moon-contrast/reimport/second-contract.json": "53351d194fbbadd20d18b40339289ef8f0beddc09fdcd648abcf0bab1f95f94a",
+    "docs/reference/moon-contrast/reimport/runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "docs/reference/moon-contrast/reimport/tests/test_import_source_contract.gd": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
+    "docs/reference/moon-contrast/reimport/tests/test_site_key_import.gd": "3bed40327fd0a55681dd78f93eff08534aab8c274bc2daddc394b4428e629993",
+    "docs/reference/moon-contrast/reimport/tests/test_mountain_paint.gd": "603b2fd6a452850842a3d86ab3f6052f660bfb194d1c73c4800e4243a99fda43",
+    "docs/reference/moon-contrast/reimport/tests/import-source-contract.json": "ca805ea3b7c7fc3b7d1f95788699978b276564ea5532422e86798eb9b57318cf",
+    "docs/reference/moon-contrast/reimport/scripts/build_godot_import_contract.py": "730383c4ba66706d9db8b9fb1cd9697cf5ffb63b5f0e3c1bceb3d99189ced2a1",
+    "docs/reference/moon-contrast/reimport/scripts/verify_mountain_export.py": "5a1ae21613b3c79a22285f69b4d67f926f30b1c7f8a83ed425b0c73b44071e72",
+    "docs/reference/moon-contrast/reimport/scripts/verify_godot_reimport.py": "f355e260621afeaf1ade7e72871c037cadb5d869ab0e039729f8fde93ce52479"
+  }
+}

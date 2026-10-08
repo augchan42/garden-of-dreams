@@ -64,3 +64,8 @@ All eligible opaque meshes in this saved site now have current source-matched Cy
 `LGT_yihong_yuan_backdrop_wash` is saved in authoring and `SITE_yihong-yuan.blend`: a 150 W, 15 × 10 m Area light, neutral gray-blue (linear RGB 0.72, 0.78, 0.84), aimed at the painted enclosure along `CAM_yihong-yuan_wide`. The reduced-green direction follows the user’s palette revision. It links only to the five shared stage backdrop objects. The directly openable library links those receiver IDs from `SITE_stage.blend`; all twelve lights resolve to the visible stage objects in the linked master.
 
 The combined native Cycles direct pass uses 128 samples and nine 512² front/back maps, imported at compressed 256px. Current desktop and portrait arrival views are refreshed. The canonical site/master GLBs are unchanged byte for byte. This establishes the authored wash and its engine transfer; final palette, material, noise/filtering and moving-camera acceptance remain open. Details: `../baked-lighting.md`.
+
+
+## External foliage surface reference — 2026-10-08
+
+Slot 3 now contains a directly reviewed banana-leaf close-up by Hysocc, with CC BY-SA 3.0 attribution and original-byte verification in `../reference/external/yihong-yuan/README.md`. The central rib, lateral veins, fine ridges and subtle blade undulation inform the banana material. Daylight backlighting does not set the nighttime palette, and the close-up does not prove a whole-plant silhouette. Night-set reference and final foliage art remain unfinished.

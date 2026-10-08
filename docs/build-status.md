@@ -892,3 +892,60 @@ Native parsing and its headless refusal guard pass; positive rendered runs are
 pending. Existing physics proof is unchanged, and no final visual/traversal or
 performance acceptance is claimed. See `docs/full-garden-traversal.md` and
 `export/rendered-full-garden-tour-preflight.json`.
+
+
+### Complete candidate bake and rejected moon appearance — 2026-10-08
+
+The separate 41b81c17 candidate has completed all six source lighting phases:
+124 ordinary maps, six wash receivers, seven terminal-spill maps and native
+pixel/coverage checks. Two forced cold imports preserve 42 cameras, 400
+colliders/ground rays, 71 markers and 167 render mesh snapshots. Five actual
+fully baked headless lighting contracts pass after matching catalogs and
+original PNG bytes are installed in a separate acceptance project.
+
+The 28 native desktop/portrait arrival captures pass capture checks but fail
+final moon appearance. Direct review and pixel measurements show near-flat
+white paint: 99.90% raw interior clipping, graded p05/p95 0.915020/0.915304.
+An additional 0.45 linear multiplier on both base and emission restores
+visible detail with no raw clipped samples in the tested Qinfang portrait.
+The next source candidate targets 0.2025 of the original calibrated luminance;
+new source/export/full lighting/art checks are required. The ceiling is present,
+but visible paint joins remain unfinished. No canonical source or package
+adoption is claimed. Evidence: `docs/moon-contrast.md` and the three new
+moon-contrast lighting, reimport and baked-review indexes.
+
+A Sun Wen painting labelled Longcui was directly reviewed and rejected as the
+required architectural reference: it shows an interior rather than the closed
+gate, exterior whitewash or plum frontage. Required coverage remains 18/42,
+with 24 references missing. Full site art, continuous rendered traversal,
+texture/device/performance/release acceptance and authenticated services remain
+in scope. The full goal stays active.
+
+
+The complete native desktop and portrait walks now pass on 41b81c17 and its
+matching lighting: fourteen rooms, twenty-six legs and 17,581 supported
+floor-ray samples per run, no misses, true cell return, controls/signals checked
+and at most four practicals. Desktop has 114 captures; portrait has 139,
+including all twenty-six settled arrivals. A too-short fixed-pause portrait
+attempt was explicitly stopped/rejected; the corrected harness waits for the
+actual camera tween completion. Raw results and scope are retained in
+`export/moon-contrast-rendered-traversal-evidence.json`. These remain separate
+candidate results; canonical production adoption and final art are pending.
+
+The additional lower moon is actually authored and reopened, not just a shader
+override: saved source a273a4c0, actual export 8d1d9b4e, explicit absolute
+luminance ratio 0.2025. All 4,361 objects and 47 other materials are preserved;
+717 complete export node contracts and fourteen identical other site GLBs pass.
+Seven source and eight export corruptions reject. Fifteen libraries and the
+portable master preserve twelve Areas linked to six actual stage receivers,
+and all fourteen saved site structures match. Fresh whole-source lighting is
+running in its own frozen tree; native final art/adoption is still required.
+Evidence: `export/moon-intensity-final-source-evidence.json` and
+`docs/moon-contrast.md`.
+
+Yihong's banana-leaf close-up is now collected and directly reviewed with Hysocc
+CC BY-SA 3.0 attribution and verified original bytes. Current required reference
+coverage is 19/42, leaving 23 slots. A different Dicuiting pavilion photo was
+reviewed but not accepted as the required Ouxiang architecture. The full goal
+remains active for art, references, texture/device/performance/current release
+and authenticated room services.

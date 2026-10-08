@@ -1,0 +1,186 @@
+{
+  "status": "source_and_export_prepared_fresh_lighting_pending",
+  "scope": "Additional separate authored moon correction from actual full-scene intensity sweep. No canonical adoption or fresh final lighting acceptance.",
+  "preceding_authoring_sha256": "3d2c2f85ae769767de8d902810b3927870fa0e464f09a287b070dd8a0d9d014a",
+  "preceding_export_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+  "selected_multiplier": 0.45,
+  "absolute_target": 0.2025,
+  "pid": 35827,
+  "phases": [
+    {
+      "name": "author",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-contrast-final-jvk0c3f5/blender/authoring.blend",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-context-u2dnggjz/scripts/prepare_moon_contrast_candidate.py",
+        "--",
+        "--output-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o",
+        "--multiplier",
+        ".45",
+        "--evidence",
+        "docs/reference/moon-contrast/baked-review/acceptance-captures/moon-sweep/report.json",
+        "--reason",
+        "Fresh 45% source lighting still clips the moon. Full-scene additional 0.45 linear intensity counterfactual restores brush detail with zero raw interior clipping. Separate 20.25% source requires fresh matching lighting and visual acceptance."
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/author.log",
+      "pid": 35828,
+      "exit_code": 0,
+      "log_sha256": "a651fea5459cad86610f013c8d23358160229c1003c3519c8e0b8e200cc175b9"
+    },
+    {
+      "name": "reopen-source",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/test_moon_contrast_source.py",
+        "--",
+        "--root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o",
+        "--expected-target",
+        ".2025",
+        "--report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-contract.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/reopen-source.log",
+      "pid": 35839,
+      "exit_code": 0,
+      "log_sha256": "423dee21a2ca3135c87b30353b7e91d346b23f59d6d3d3e52e137f195ed68007"
+    },
+    {
+      "name": "export",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/blender/authoring.blend",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/export_garden.py",
+        "--",
+        "--output-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/export.log",
+      "pid": 35847,
+      "exit_code": 0,
+      "log_sha256": "ed2882d43bf8c274c1498b1e0abc434757ededfd4648972933052156307c2e52"
+    },
+    {
+      "name": "export-preservation",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_moon_contrast_export.py",
+        "--before-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-contrast-final-jvk0c3f5",
+        "--candidate-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o",
+        "--report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/export-preservation.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/export-preservation.log",
+      "pid": 35871,
+      "exit_code": 0,
+      "log_sha256": "abb92308499aad4126d1350f874cd4ecfcb2a41c9f622ceec308776213b113ec"
+    },
+    {
+      "name": "export-rejections",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/test_moon_contrast_export.py",
+        "--before",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-contrast-final-jvk0c3f5/export/garden-of-dreams.glb",
+        "--candidate",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/export/garden-of-dreams.glb",
+        "--atlas",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/textures/backdrops/moon-paint/atlas.json",
+        "--report",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/export-rejections.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/export-rejections.log",
+      "pid": 35874,
+      "exit_code": 0,
+      "log_sha256": "82303c767be2613bf3a3d29753dac55c132f8f699aabe6c297527fe770748977"
+    },
+    {
+      "name": "extract-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/extract-libraries.log",
+      "pid": 35887,
+      "exit_code": 0,
+      "log_sha256": "9b06a8ebc5faf2e313992be0ee69152204cedc7051c2f59f0010ac351d8fd079"
+    },
+    {
+      "name": "package-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/package-receivers.log",
+      "pid": 35893,
+      "exit_code": 0,
+      "log_sha256": "13dbe9a60dc9d97656ab7b5b64313dde97dea71f7c234aecf79d01dd006e2e29"
+    },
+    {
+      "name": "audit-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/scripts/audit_site_sources.py",
+        "--"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-final-jss1gw4o/source-preparation-logs/audit-libraries.log",
+      "pid": 35902,
+      "exit_code": 0,
+      "log_sha256": "b8b544d2e7c007a1bec2ceb69256a529596f9cebebe41b3cdc24f4648d1fb54c"
+    }
+  ],
+  "authoring_sha256": "a273a4c0ea33c9897f3096f51b5833b905e04a6d0ca62cab001e8291aa93b8de",
+  "export_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f"
+}

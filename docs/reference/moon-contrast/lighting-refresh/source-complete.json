@@ -1,0 +1,62 @@
+{
+  "status": "source_complete",
+  "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+  "samples": 128,
+  "maximum_source_map_size": 1024,
+  "engine_installed": false,
+  "started_at": "2026-10-08T02:21:16.113957+00:00",
+  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m",
+  "orchestrator_pid": 45287,
+  "phases": [
+    {
+      "name": "ordinary",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/ordinary.log",
+      "pid": 45288,
+      "exit_code": 0
+    },
+    {
+      "name": "backdrop-wash",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/backdrop-wash.log",
+      "pid": 8109,
+      "exit_code": 0
+    },
+    {
+      "name": "terminal-spill",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/terminal-spill.log",
+      "pid": 9050,
+      "exit_code": 0
+    },
+    {
+      "name": "terminal-spill-pixels",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/terminal-spill-pixels.log",
+      "pid": 11056,
+      "exit_code": 0
+    },
+    {
+      "name": "native-pixels",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/native-pixels.log",
+      "pid": 11063,
+      "exit_code": 0
+    },
+    {
+      "name": "coverage",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-ctnaxe0m/coverage.log",
+      "pid": 11138,
+      "exit_code": 0
+    }
+  ],
+  "coverage": {
+    "expected_meshes": 124,
+    "baked_meshes": 124,
+    "missing": [],
+    "unexpected": [],
+    "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38"
+  },
+  "finished_at": "2026-10-08T03:29:43.615017+00:00"
+}

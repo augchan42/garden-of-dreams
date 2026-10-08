@@ -1,0 +1,20 @@
+{
+  "status": "native_desktop_and_portrait_traversal_passed",
+  "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+  "desktop": {
+    "grounded_ray_samples": 17581,
+    "captures": 114,
+    "legs": 26,
+    "rooms": 14,
+    "maximum_practicals": 4
+  },
+  "scope": "Actual desktop and portrait continuous public-command walks through fourteen rooms and twenty-six legs, with complete source-matched lighting, strict floor/state checks and camera/UI PNG sampling. Portrait waits for actual production camera tween completion and captures all twenty-six settled arrivals. Desktop arrival samples precede tween completion. Moon and paint joins remain rejected/unfinished art; no continuous-video, current production adoption or device/performance acceptance.",
+  "portrait": {
+    "grounded_ray_samples": 17581,
+    "captures": 139,
+    "settled_arrivals": 26,
+    "legs": 26,
+    "rooms": 14,
+    "maximum_practicals": 4
+  }
+}

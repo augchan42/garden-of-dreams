@@ -1,0 +1,37 @@
+{
+  "scope": "Actual export inputs plus constructed corruptions, rejected before source adoption/baking. Not native pixels or art acceptance.",
+  "cases": [
+    {
+      "case": "camera",
+      "reason": "('Scene/camera/light contract changed', 'cameras')"
+    },
+    {
+      "case": "floor-transform",
+      "reason": "('Geometry/UV/index/camera/light/extras/transform contract changed', 'COL_floor_joint_cell_threshold_0-colonly')"
+    },
+    {
+      "case": "ceiling-shadow",
+      "reason": "('Geometry/UV/index/camera/light/extras/transform contract changed', 'SITE_stage_MAT_stage_canopy_paint')"
+    },
+    {
+      "case": "unrelated-material",
+      "reason": "('Unrelated material changed', 'MAT_aojing-guan_title_paint')"
+    },
+    {
+      "case": "moon-factor",
+      "reason": ""
+    },
+    {
+      "case": "moon-sampler",
+      "reason": "Moon texture/sampler/alpha/sidedness/roughness contract changed"
+    },
+    {
+      "case": "duplicate-node",
+      "reason": ""
+    },
+    {
+      "case": "floor-uv",
+      "reason": "('Geometry/UV/index/camera/light/extras/transform contract changed', 'SITE_terminal-cells_MAT_lattice_wood')"
+    }
+  ]
+}

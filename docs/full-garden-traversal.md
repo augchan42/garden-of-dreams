@@ -89,8 +89,8 @@ Native Godot parses the complete harness and correctly rejects headless mode
 before creating a capture directory or loading the scene. Exact scripts, log
 and rejection report are retained under `reference/rendered-full-garden-tour/`,
 indexed by `../export/rendered-full-garden-tour-preflight.json`. This proves the
-headless guard only. No rendered candidate tour has passed yet: the complete
-fresh candidate bake and native import must finish first.
+headless guard only. The subsequent native passes below use the completed
+candidate lighting and a separately imported acceptance project.
 
 Run each view sequentially in the prepared candidate acceptance project after
 all matching lighting is installed. Do not run another host graphics job while
@@ -111,3 +111,38 @@ the source baker is active:
 Successful captures still require direct review for backdrop joins, floor
 seams, architecture intersections, UI and camera transitions. Sampled frames
 do not prove continuous-video art acceptance or target-device performance.
+
+
+## Native continuous candidate walks — 2026-10-08
+
+The 41b81c17 source with complete fresh 124/6/7 lighting passes both actual
+native tours. Each covers fourteen rooms, twenty-six public-command legs,
+17,581 supported grounded-ray samples with no misses, and a true return to the
+original cell. Unsupported/busy commands, signals and restored controls are
+checked. At most four practicals are visible. No visitor reset, private arrival
+placement, fixture floors or lighting/material overrides are used.
+
+Desktop records 114 PNGs at 1410 × 600. These sample travel and immediate
+arrival state; an arrival signal precedes the camera's normal 1.4-second tween,
+so they do not prove settled framing. The final portrait harness waits for the
+actual tween's `finished` signal before proceeding. It records 139 PNGs at
+540 × 960, including all twenty-six settled arrivals. The strict headless tour's
+new `after_leg` hook defaults to no pause; native captures override it without
+changing the production visitor, camera or simulation speed.
+
+The first portrait attempt used a fixed 1.2-second hold, shorter than that
+camera tween. Its specifically identified process was stopped after verifying
+the capture defect. Exact partial-run log, scripts and rejection are retained;
+that run is not accepted as settled framing. The corrected run passes.
+
+The complete portrait settled-view contact sheet and desktop travel samples
+were directly reviewed. Floor support and sampled framing improve confidence
+in the separate repair, but the moon is still flat white and some ceiling paint
+joins are visible. Site art, continuous-video quality and device performance
+remain open. The canonical production assets still lack the repair; these
+passes are not production adoption.
+
+Raw reports, PNGs and exact test variants are retained in the desktop/portrait
+subdirectories of `reference/rendered-full-garden-tour/`, indexed by
+`../export/moon-contrast-rendered-traversal-evidence.json`. The original four
+headless-preflight artifacts remain unchanged.

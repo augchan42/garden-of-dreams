@@ -46,18 +46,74 @@ subsequent launch from the fixture's working directory, with editor/headless
 import flags, completed cleanly. Both logs are retained. The exact cause of the
 first launch failure is not established.
 
-Fresh complete lighting is running in a separate frozen tree. It must finish
-124 ordinary maps, the six-receiver wash, terminal spill and native pixel and
-coverage checks against the actual candidate hash. No partial maps are installed
-or labelled current. Afterward, inspect the fully baked moon and paint joins,
-verify rendered traversal and import behavior, and adopt matching source,
-libraries, exports, atlas and lighting together if the result passes.
+The complete fresh bake has finished: 124 ordinary maps, six-receiver wash,
+seven terminal-spill maps and all native pixel/coverage phases passed. Two
+forced cold imports also pass 42 camera contracts, 400 colliders and isolated
+rays, 71 markers and 167 render mesh snapshots. Five fully baked headless
+lighting checks pass in a separate Godot acceptance project.
+
+Twenty-eight native desktop/portrait arrival captures were directly reviewed.
+They retain production materials, lighting and UI. These captures use arrival
+state placement; continuous rendered traversal is checked separately. The
+physical ceiling closes the previously exposed upper edge, but its painted
+join remains visible in some shots and needs art refinement.
+
+The 45% authored moon is rejected as final art. In the freshly baked Qinfang
+portrait, 99.90% of the sampled raw interior clips. Grading changes its color
+but leaves an almost constant disc: display luminance p05/p95 is
+0.915020/0.915304. Removing emission or ordinary lighting restores brush detail;
+technical lighting checks do not establish visual acceptance.
+
+A native intensity sweep scales both base and emission in linear space on the
+actual baked material. A further multiplier of 0.45 has no clipped raw interior
+samples and graded p05/p95 of 0.581173/0.704362. It was directly reviewed and
+selected for the next separately authored candidate: absolute source luminance
+ratio 0.2025. This is counterfactual evidence, not a fresh source bake. The
+original 1254-pixel painting is retained, and all matching lighting must be
+regenerated before adopting that source.
+
+Complete bake, cold import and rejected native appearance evidence is indexed
+in `../export/moon-contrast-lighting-evidence.json`,
+`../export/moon-contrast-reimport-evidence.json` and
+`../export/moon-contrast-baked-review-evidence.json`. The previous candidate
+and its evidence remain unchanged.
 
 Canonical Blender/export and production Godot retain the preceding painted-moon
 source. The local playable package still needs a separate rebuild. Site art,
-24 required external references, texture/device/performance acceptance and
+23 required external references, texture/device/performance acceptance and
 authenticated room services remain unfinished. The full goal remains active.
 
 Raw source/export/native checks and exact tools are retained under
 `reference/moon-contrast/`, indexed by `../export/moon-contrast-evidence.json`.
 The user's open Blender scene was not saved or reloaded.
+
+
+## Additional authored correction — 2026-10-08
+
+The new complete candidate is saved separately at
+`../blender/candidates/moon-intensity-final/authoring.blend`, SHA-256
+`a273a4c0ea33c9897f3096f51b5833b905e04a6d0ca62cab001e8291aa93b8de`.
+Its paired `moon-atlas.json` explicitly targets 0.2025 of the original
+calibrated source luminance. Base factor is 0.1719959922 and emission factor
+0.1489343204; strength remains 0.8. The original packed 1254² PNG is unchanged.
+
+Native source preparation preserves 4,361 objects, 47 other materials and the
+complete moon geometry/UVs. Reopened source checks reject seven metadata/UV
+corruptions. The actual full export `8d1d9b4e…` preserves all 717 resolved node
+contracts and all fourteen other site GLBs byte for byte; eight export
+corruptions reject. Fifteen libraries and a portable linked master are prepared,
+with twelve Areas sharing six visible stage receivers. The fourteen-site
+saved-library audit reports no structural differences.
+
+A new complete 124-map/wash/spill refresh is running against this frozen source
+in a separate tree. No old maps are relabelled, and no partial maps enter
+production. The saved native source/export evidence is indexed in
+`../export/moon-intensity-final-source-evidence.json`. Final fully baked
+appearance still requires direct review before matching source adoption.
+
+The preceding 41b81c17 candidate now passes complete native desktop and
+portrait walks with matching lighting, 17,581 supported grounded-ray samples
+per run, no misses and at most four practicals. Portrait includes all twenty-six
+settled camera views. That verifies the separate floor repair and traversal
+behavior; it does not turn the rejected moon or visible paint joins into final
+art. Details: `full-garden-traversal.md`.
