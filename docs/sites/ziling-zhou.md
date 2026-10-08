@@ -32,7 +32,7 @@ Low view across reeds with distant roofs separated from the island silhouette. S
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -85,3 +85,9 @@ The slot-3 close reference is collected, directly reviewed and attributed in `..
 ## Collected entrance architecture reference — 2026-10-08
 
 Slot 2: [original photograph](../reference/external/ziling-zhou/ziling-entrance-plaque.jpg), 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 紫菱洲 from right to left, identifying the modern Ziling entrance. Paired red timber doors, a gray barrel-tile eave, painted crossbeams and white plaster side walls supply site-specific entrance construction. This photo does not show the island, reeds, landing or footbridge and does not prescribe replacing the project's low island with a gatehouse. Island/bridge composition and night lighting still need separate art review. Full attribution and original-byte hashes are saved beside the image. The night-set slot remains open.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Enchanting Shadow* trailer at 11.0 seconds. A ruined brick opening and sparse table/bench dressing are framed by dark foliage; blue-lit leaves and masonry edges sit beside a warmer lit figure. Large black gaps keep the foreground sparse and layered. Night appearance is visually inferred from the dark exterior and directed cool/warm treatment. This guides generic night foliage and built-set composition, not Ziling identity, reed species, island geometry, waterline or footbridge construction. The separate close reed reference supplies botanical form; the saturated source blue is qualitative lighting guidance.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/ziling-zhou/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

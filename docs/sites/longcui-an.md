@@ -32,7 +32,7 @@ A still, slightly off-axis view keeps the branches and lantern separate. Ship a 
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -77,3 +77,9 @@ The slot-3 close reference is collected, directly reviewed and attributed in `..
 ## External entrance architecture reference — 2026-10-08
 
 The slot-2 entrance reference is collected and directly reviewed in `../reference/external/longcui-an/README.md`. Its gray tiled eave, painted brackets/lintel, red timber and lanterns, and whitewash guide structural and material separation. The publisher identifies Longcui; the image is daylight and cropped above the ground, with an open entrance. It does not establish the sheet's dimensions, closed gate leaves, collision or final palette. Copyright and the Sipa watermark are retained; this is not a shipped asset. Only the night-set slot remains uncollected.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Magic Blade* trailer at 3.0 seconds. An upward view of a timber inn entrance shows a sign, exposed roof members, dark recesses and a bare branch against a mostly black background. Cool edges contrast with brown/gold timber and lettering. Night appearance is inferred visually, not a verified scene caption. It guides sparse branch silhouettes, timber separation and dark entrance framing. It is not the Longcui nunnery, its paired closed gates, its measured frontage or plum blossom material, and the low-resolution image cannot supply detailed joinery.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/longcui-an/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

@@ -32,7 +32,7 @@ The facade must read as one large hall, not two adjacent identical pavilions. Sh
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 The architectural slot now has a collected and visually inspected photograph of Daguanlou in Beijing Daguanyuan, by 刻意 (2010), with attribution and CC BY-SA 3.0 terms in `../reference/external/daguan-lou/README.md`. It shows the repeated red columns and lattice bays, balcony, grey tiled eave and blue/gold painted brackets. The photograph guides structure and material separation; it does not establish the game's night lighting. The night-set still and separate detail reference remain uncollected.
 
@@ -79,3 +79,9 @@ See [the recorded experiment](../reference/imperial-roof-charts/README.md).
 ## Working roof correction installed — 2026-10-08
 
 The complete `361a67c7` working bundle now uses the verified imperial UV2 allocation and lossless 512 roof import. Matching complete source lighting, cold/reimport contracts, saved libraries, both full rendered walks and post-install production checks pass. The canonical Blender exporter reproduces all 16 GLBs exactly. The directly compared desktop/portrait originals show lit narrow tile ribs in place of broad black stripes. Facade mottling, dark eave joins, final palette/materials, gutters, device and sustained budgets remain unaccepted. See [the full recorded review](../reference/imperial-full-lighting/README.md).
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Enchanting Shadow* trailer at 17.0 seconds. The court detail shows red posts, cream stone railing, a tiered gold ornament/table and localized warm candles against blue-lit foliage and dark structural recesses. The retained subtitle refers to midnight; the night treatment is also visible. It supplies a generic court night-set/material-separation reference, not Daguan identity, its full imperial facade, two-storey structure, roof geometry or surveyed proportions. The low-resolution source supports broad color and lighting hierarchy rather than fine painted-bracket or tile detail.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/daguan-lou/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

@@ -2,40 +2,38 @@
   "scope": "Saved external reference metadata, unique slots and original-byte integrity; direct attribution/relevance review remains separate.",
   "expected_sites": 14,
   "expected_references": 42,
-  "collected_references": 26,
+  "collected_references": 34,
   "sites": {
     "aojing-guan": {
-      "site_sheet_sha256": "447d3ad61ed3d9a745451ba426277e05edfca0cee34165f005f2b8c8512aeb50",
+      "site_sheet_sha256": "52319f892344c651e38a64047bf08e2b90f96ee2dc715b89df8382ca68ab715b",
       "collected_slots": [
+        1,
         2
       ],
       "missing_slots": [
-        1,
         3
       ],
-      "sources_sha256": "6a01a11d547c3780070ccc0a3a279454db930870ca7087be7856f227fd7b69c5"
+      "sources_sha256": "71d4e62cd9f4c2923e96cedf0798856aa73ac80211a1ce203d768d2b04c3c625"
     },
     "daguan-lou": {
-      "site_sheet_sha256": "887cb348802a667edb86c21bd73342203081491a60f3467a39b78c01d9b15fac",
+      "site_sheet_sha256": "17cf3e4a09318563b2914000c0da40427c17d4897a808a6ee75d37e81c3f6667",
       "collected_slots": [
+        1,
         2,
         3
       ],
-      "missing_slots": [
-        1
-      ],
-      "sources_sha256": "90635b9fe65864fcd641e7fd0dc9c04957528a8843bc1dff9698187628cdaf8c"
+      "missing_slots": [],
+      "sources_sha256": "1909291795d11d880defb6e64f32ded598df3ec860744aef65675546f7dba97c"
     },
     "daoxiang-cun": {
-      "site_sheet_sha256": "59528ea24166927ccb6480102523ebc41d516f52a46cdd9c71e9f4a0cccde5b0",
+      "site_sheet_sha256": "ba2c98bbff1f055b77971a01cc668b518ef555f85bd6246606fbdabae1fb4929",
       "collected_slots": [
+        1,
         2,
         3
       ],
-      "missing_slots": [
-        1
-      ],
-      "sources_sha256": "f12d1b7288bd601ee9ac96a479a347f82885395890c3c4ee30f56ed13b6a0db1"
+      "missing_slots": [],
+      "sources_sha256": "935e35ffdcce9de797a5d58cc561e1fe35de6c6221dc26d4aa1b443be098228f"
     },
     "hengwu-yuan": {
       "site_sheet_sha256": "fed45ca15dcf2b2114db8e21279fa762cff8fbae391eafa51cc92732ad626fce",
@@ -49,18 +47,27 @@
       "sources_sha256": "36d5830fe6a94d7e84098e57c67cf943007aaeae904e8fd221dc6ddfd830aed0"
     },
     "longcui-an": {
-      "site_sheet_sha256": "d282fa154426cdee5397c745cd00010998c37c3844189d596bc3170eb0215108",
+      "site_sheet_sha256": "c2999b69da9bb791efd7b3ac87bab5f2f4c724a5b4222e3f4aa4dc10841cb98d",
       "collected_slots": [
+        1,
         2,
         3
       ],
-      "missing_slots": [
-        1
-      ],
-      "sources_sha256": "4491aa832dd81612ea8248e8ba226c87929e2f9c95eff2e96958c6a7f001ada2"
+      "missing_slots": [],
+      "sources_sha256": "3302e750cd010e3ec6246163ab19be0e085da45c49475b7a46ce98b76c86717b"
     },
     "ouxiang-xie": {
-      "site_sheet_sha256": "a78d563da2eea0e4a845cc124128469a3997d565301ee1d0a5bfddc22e7c4217",
+      "site_sheet_sha256": "ee626f4ca9933ca7ad52299e86d0fe119e1428b7d7089cf4a1be276237c5a1c7",
+      "collected_slots": [
+        1,
+        2,
+        3
+      ],
+      "missing_slots": [],
+      "sources_sha256": "b6dc72c5063f3856d7fbd37003a858f209bacec748d2539e79f98e3dfd96651e"
+    },
+    "qinfang-ting": {
+      "site_sheet_sha256": "221dfd84ec5889dc9c0af67c067697ae655f28fb87d78b6615af0ba04b4555e9",
       "collected_slots": [
         2,
         3
@@ -68,18 +75,7 @@
       "missing_slots": [
         1
       ],
-      "sources_sha256": "4b1fa86346e95fc98102f09a687c9765830e81ca650eee3faf3cbe508cf5a479"
-    },
-    "qinfang-ting": {
-      "site_sheet_sha256": "22367fdcedfb45cd4b74c321c790bf46ebc5590dfa3ca6827903628dd8c3691e",
-      "collected_slots": [
-        3
-      ],
-      "missing_slots": [
-        1,
-        2
-      ],
-      "sources_sha256": "3b83fa0c9c773d0918e4d4ea528fc3ef30283543de4bda636939c724d023864d"
+      "sources_sha256": "823fe69d7331379bc54359f83221b918ee189c976b05d7d81bef9d31335bf6f7"
     },
     "qiushuang-zhai": {
       "site_sheet_sha256": "aff5da0e6a4d712068fd0076123a07268a1e4ea60e8e3c6dc6e5bf15b59411b3",
@@ -113,15 +109,14 @@
       "sources_sha256": null
     },
     "tubi-tang": {
-      "site_sheet_sha256": "4fd89183568c85cd7d3d889dda03e41910eaa21981d46ffd54fb19d01c971bc9",
+      "site_sheet_sha256": "f79fa9808590d7e649e7245db9c32b69bc1e461f310359be6d1a1b1b09d08776",
       "collected_slots": [
+        1,
         2,
         3
       ],
-      "missing_slots": [
-        1
-      ],
-      "sources_sha256": "daaf46dc0e05758a12dd08c709e9e71040c02d76c690627b719e940ff7eac0bb"
+      "missing_slots": [],
+      "sources_sha256": "5b2e0ad52b1638408bad0c4b4105c587b50744be77bb0c325970782e907e4dfe"
     },
     "xiaoxiang-guan": {
       "site_sheet_sha256": "f5fdb9601ea5124f33481d462d238e325a8191a1c6e6b009921e6e8af695e58d",
@@ -144,15 +139,14 @@
       "sources_sha256": "e85675dbd8d3ccca96f22ffad19945ece582a47f15e8a9e7d6daaef19feb9c31"
     },
     "ziling-zhou": {
-      "site_sheet_sha256": "e3dc133e17149e25ba1c1a4144d7310303e022a45aa324ea3228df84ccbb2732",
+      "site_sheet_sha256": "95736aeca762572d5e9f62abba03363543450d9227e61715764bfd4736aba7b8",
       "collected_slots": [
+        1,
         2,
         3
       ],
-      "missing_slots": [
-        1
-      ],
-      "sources_sha256": "4c987d3ccc75fbe5f6b3da3b6032676b0a2e61d1d79f4f51f9d0869637484ad4"
+      "missing_slots": [],
+      "sources_sha256": "496be3b759a3892d1a5439f4da2fcee3e2a1c6f8409843bda041f455ca0051cb"
     }
   },
   "complete_slot_coverage": false

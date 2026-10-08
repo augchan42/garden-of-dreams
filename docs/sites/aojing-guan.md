@@ -32,7 +32,7 @@ Keep the horizon high enough to give water and reflection half the frame. Ship a
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -83,3 +83,9 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## Collected facade reference — 2026-10-08
 
 Architecture slot 2 now retains Beijing Tourism's named facade image. Direct review reads 凹晶溪館 on the plaque and shows a broad gray-tiled roof, painted lintel members, timber columns and glazed lattice doors. It supports facade/window construction, without proving the measured frontage, waterline, reflection, complete dry ledge or one amber nighttime window. The publisher watermark and copyright attribution remain; no open reuse licence or individual photographer is invented. Original bytes and source version: `../reference/external/aojing-guan/README.md`. Night-set/material close-view references and final scene art remain open.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Magic Blade* trailer at 5.0 seconds. A wet night lane has pale plaster walls, octagonal openings, puddle highlights, dark foreground cart/timber silhouettes and small warm lights at the distant gate. Blue/cool wall light and warm practicals separate materials without lighting the entire foreground. Night appearance is a visual inference from the dark exterior and visible lamps. This supplies the generic night-set lighting slot only: it is a street, not Aojing or a water-level reflection hall, and proves no pond waterline, dry ledge, facade dimensions or one-window placement. The low-resolution frame cannot establish fine plaster texture.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/aojing-guan/README.md`. Remaining reference slots: 3. This does not establish final scene art, lighting, performance or service acceptance.

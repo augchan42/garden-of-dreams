@@ -1,0 +1,204 @@
+{
+  "status": "eight_directly_reviewed_reference_frames_saved",
+  "scope": "External design references only. No Garden geometry, Godot assets, lighting, application data, phone build or release changed.",
+  "coverage": {
+    "collected": 34,
+    "expected": 42,
+    "missing_slots": {
+      "aojing-guan": [
+        3
+      ],
+      "hengwu-yuan": [
+        1
+      ],
+      "qinfang-ting": [
+        1
+      ],
+      "rockery-gate": [
+        2,
+        3
+      ],
+      "terminal-cells": [
+        1,
+        2,
+        3
+      ]
+    },
+    "complete": false
+  },
+  "provenance": "docs/reference/external/supporting/shaw-trailers/selected-frame-provenance.json",
+  "verification": {
+    "eight_distinct_frame_sha256": true,
+    "saved_video_frame_log_hashes_verified": true,
+    "png_header_dimensions_verified": true,
+    "require_all_exit_code": 1,
+    "require_all_rejection": "External reference collection is incomplete"
+  },
+  "artifacts": [
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/README.md",
+      "sha256": "fb6c7e4e77026f411350f4201213310c71975f0bfbbcc30c85e290a94ce67074",
+      "bytes": 3553
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/aojing-guan-extraction.log",
+      "sha256": "e236c9633312c9013867b2ef2728ed6253904aa230821a0a1749fd218723005c",
+      "bytes": 3988
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/celestial-company-source.json",
+      "sha256": "0b65c8f02dc2ef013da4c1e6b7199b2531a6f227df608185cb842dbf4ea3c45d",
+      "bytes": 244
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/celestial-company.html",
+      "sha256": "b2c5599476258c0d7fe6127d956bb1dced89333c9c9d0ec669d0127e6e2016e7",
+      "bytes": 9952
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/come-drink-publisher.json",
+      "sha256": "3f73e352741c046f83c0445275f9e33253bfe85731791224165e0f404cc89b29",
+      "bytes": 3243
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/come-drink.mp4",
+      "sha256": "05282267d3073ea61e676efabdbeedc5b9e8d98476dde8ea6777b407214bce12",
+      "bytes": 10963740
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/daguan-lou-extraction.log",
+      "sha256": "b602a773173dcec18d7066f3bbc1373876007c0a84c9040e9b7521204b1d2b63",
+      "bytes": 3992
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/daoxiang-cun-extraction.log",
+      "sha256": "232bd3d2919173b335539e9e2d2fe41ca9bcf67b0197a1a1bc07a10cdaf437ee",
+      "bytes": 4003
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+      "sha256": "c96578b0657d2124ef6e7e2c2554504a41b6a12622ec16a945c2e38c296fca77",
+      "bytes": 3100
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+      "sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+      "bytes": 4246617
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/executed-frame-extractor.py",
+      "sha256": "8d349cb91d1261a4667e70308f098016b78d4c169477d0793ca0cbe6e53c7949",
+      "bytes": 2173
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/executed-reference-saver.py",
+      "sha256": "6589671367a92397a941745b897f6ee76080fd3f4f6d0c7c6603c2fb04a40f8d",
+      "bytes": 22574
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/longcui-an-extraction.log",
+      "sha256": "07c27164d2c0db787ae39c31a55566bfadfc0bcb869c25d6ce2b8e77c93c19f5",
+      "bytes": 3985
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/magic-blade-publisher.json",
+      "sha256": "b5ea2cb522f62dfaa9e0be38271376adb43f75b31822e4d8c3bf4c22bf901a2b",
+      "bytes": 2625
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/magic-blade.mp4",
+      "sha256": "66f6a810a60e3d187494f9a1e343414924e087c7ebe3ef491314b74b7dbb528e",
+      "bytes": 4123331
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/ouxiang-xie-extraction.log",
+      "sha256": "407647ef1283f96ef86a25294394e01b1ff971ccdfef914c7630ff3971c5b029",
+      "bytes": 3998
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/qinfang-ting-extraction.log",
+      "sha256": "8d295efde5dcfab9ccb7363ff812fd6905a0b59119b916b113c2e84e463cb53a",
+      "bytes": 3987
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/rejected-come-drink-frame-002.png",
+      "sha256": "196b94d5dd43f716edd4845bd58dd3b3153b1cec9c056d149c58e31ea369e448",
+      "bytes": 1513559
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/rejected-enchanting-shadow-frame-017.png",
+      "sha256": "ab90cbf4064bda6e3d5e8845e73063e9228d99d28181854a02b0a24eb31e3b98",
+      "bytes": 223627
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/rejected-magic-blade-frame-022.png",
+      "sha256": "6088403117d8bfcb6f910caea771e7d3dd716c3043cf4fa4437e1735d9c36b16",
+      "bytes": 124361
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/rejected-samples.json",
+      "sha256": "b921e41e76e7b8af3960c95ad5237aa08ea47f40efaf257bdf9ae1255609d361",
+      "bytes": 3317
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/rejected-shaolin36-frame-022.png",
+      "sha256": "844d81e4071b7c2e0029cab9a4d52fd4eef127870f5328d3a1a984393c3076ec",
+      "bytes": 77394
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/selected-frame-provenance.json",
+      "sha256": "3b0f01527eebf28c275918de866fbd41ce52f137aa56a5c4c232cdc5afb44db9",
+      "bytes": 18819
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/tubi-tang-extraction.log",
+      "sha256": "191776b898d811421418c08b410d87eed79524a46496e3bed3e472eae44561cf",
+      "bytes": 3988
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/ziling-zhou-extraction.log",
+      "sha256": "5e96916cf5e4cbdb34cd92cf6ceb34004bbf2d91a4f951a8f460109e05750076",
+      "bytes": 3994
+    },
+    {
+      "path": "docs/reference/external/daoxiang-cun/come-drink-night-set.png",
+      "sha256": "96e8dffc14a14a027b9b6174c9fcde0fcc1146e3c4563d1a2106dac311dd0deb",
+      "bytes": 1164557
+    },
+    {
+      "path": "docs/reference/external/aojing-guan/magic-blade-night-set.png",
+      "sha256": "dc42552a37d1db0d4cad9c1b6fd3d470983a4c28452d530999685ab647e1398e",
+      "bytes": 153179
+    },
+    {
+      "path": "docs/reference/external/longcui-an/magic-blade-night-set.png",
+      "sha256": "af9812df36702e49f64db6051ab6a0e53b660dca15b1a2104a4668bd8a4a6409",
+      "bytes": 95875
+    },
+    {
+      "path": "docs/reference/external/qinfang-ting/magic-blade-night-set.png",
+      "sha256": "2e64bb8ab949c47a3077aa9c8d6b669c68081de31c8716bdd8c1afa0012cc4b4",
+      "bytes": 44068
+    },
+    {
+      "path": "docs/reference/external/ouxiang-xie/enchanting-shadow-night-set.png",
+      "sha256": "ea70f2d3eb0361aa91aaa9f9faee290a42188b56df1afc2a7824216ca3ede235",
+      "bytes": 268282
+    },
+    {
+      "path": "docs/reference/external/daguan-lou/enchanting-shadow-night-set.png",
+      "sha256": "4597c1d54ab33e526ac551acf920c5fc56ae7030edccddd27068e25e26d28053",
+      "bytes": 213102
+    },
+    {
+      "path": "docs/reference/external/tubi-tang/enchanting-shadow-night-set.png",
+      "sha256": "3ca8bdff92712dd03a4bb907397246042ebd58e08e4a1d02c450dfb6b02c33c2",
+      "bytes": 70079
+    },
+    {
+      "path": "docs/reference/external/ziling-zhou/enchanting-shadow-night-set.png",
+      "sha256": "6835fb63c3df14e0905ec2784c12f26154543add44fff01058a61b7cc93458c7",
+      "bytes": 186591
+    }
+  ]
+}

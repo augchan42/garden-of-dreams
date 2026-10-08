@@ -1,0 +1,46 @@
+ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.0.123.102)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.1 --enable-shared --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libaom --enable-libdav1d --enable-libharfbuzz --enable-libmp3lame --enable-libopus --enable-libsnappy --enable-libsvtav1 --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-demuxer=dash --enable-neon --enable-opencl --enable-audiotoolbox --enable-videotoolbox --disable-htmlpages --enable-libzimg
+  libavutil      61.  1.101 / 61.  1.101
+  libavcodec     63.  1.101 / 63.  1.101
+  libavformat    63.  1.101 / 63.  1.101
+  libavdevice    63.  1.101 / 63.  1.101
+  libavfilter    12.  1.101 / 12.  1.101
+  libswscale     10.  1.101 / 10.  1.101
+  libswresample   7.  1.101 /  7.  1.101
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/magic-blade.mp4':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    creation_time   : 2024-07-13T16:12:55.000000Z
+  Duration: 00:00:54.24, start: 0.000000, bitrate: 608 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, smpte170m/smpte170m/bt709, progressive), 600x480 [SAR 1:1 DAR 5:4], 201 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      creation_time   : 2024-07-13T16:12:55.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0x987400d80] config in time_base: 1/12800, frame_rate: 25/1
+[Parsed_showinfo_1 @ 0x987400d80] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0x987400d80] n:   0 pts: 678400 pts_time:53      duration:    512 duration_time:0.04    fmt:yuv420p cl:left sar:1/1 s:600x480 i:P iskey:0 type:B checksum:DE893361 plane_checksum:[359EFC0C AE26CDA5 63B16992] mean:[21 130 129] stdev:[8.7 3.2 3.6]
+[Parsed_showinfo_1 @ 0x987400d80] color_range:tv color_space:smpte170m color_primaries:smpte170m color_trc:bt709
+[swscaler @ 0x987cc0000] No accelerated colorspace conversion found from yuv420p to rgb24.
+Output #0, image2, to '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/selected/qinfang-ting-night.png':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    encoder         : Lavf63.1.101
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/smpte170m/bt709, progressive), 600x480 [SAR 1:1 DAR 5:4], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.101 png
+      creation_time   : 2024-07-13T16:12:55.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+[Parsed_showinfo_1 @ 0x987400d80] n:   1 pts: 678912 pts_time:53.04   duration:    512 duration_time:0.04    fmt:yuv420p cl:left sar:1/1 s:600x480 i:P iskey:0 type:B checksum:B0CC47F9 plane_checksum:[2CBF1D46 5C3AC104 014369A0] mean:[21 130 129] stdev:[8.5 3.2 3.6]
+[Parsed_showinfo_1 @ 0x987400d80] color_range:tv color_space:smpte170m color_primaries:smpte170m color_trc:bt709
+[image2 @ 0x987038500] The specified filename '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/selected/qinfang-ting-night.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x987038500] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x987400180] video:43KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:53.04 bitrate=N/A speed=66.5x elapsed=0:00:00.79    

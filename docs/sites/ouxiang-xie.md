@@ -32,7 +32,7 @@ Camera crosses the bridge axis and settles on the table without revealing the ba
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -97,3 +97,9 @@ The lower/further portrait pose now has a matching actual 512px lossless compari
 ## Export and runtime portrait progress — 2026-10-08
 
 The roof correction now has a reproducible default export, with a native disabled-option control and four fixture tests. Candidate `be80374c` still awaits complete matching lighting and engine adoption. The portrait camera is installed on current `361a67c7` lighting: target (-23,.5,0), original camera offset multiplied by two. Its 128-unit scrollable action area preserves support visibility at 360px; Qinfang keeps its existing 152-unit limit. Tea/look, reachable final return action, both western and nunnery physics routes, two portrait widths and simulated touch density pass. Desktop and other room poses are unchanged. Wider framing exposes unfinished water/paving/backdrop work; final visual and actual phone acceptance remain open. See [export/camera evidence](../reference/ouxiang-export-camera/README.md).
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Enchanting Shadow* trailer at 15.0 seconds. An open red-column pavilion has cream stone balustrades and a raised platform, a dark roof with gold beam details, a warm floor/column treatment and saturated blue foliage behind it. The table and open bays read against dark roof recesses. Night appearance is inferred from the dark exterior and cool/warm separation. This fills the generic night-set/built-structure lighting slot, not Ouxiang identity: water, support heights, exact dimensions, six seats and two lanterns are not established. Preserve warm wood, neutral stone and restrained blue background separation rather than reproducing the saturated source hue.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/ouxiang-xie/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

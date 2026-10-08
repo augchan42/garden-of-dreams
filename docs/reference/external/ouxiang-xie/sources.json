@@ -1,5 +1,41 @@
 [
   {
+    "reference_slot": 1,
+    "title": "The Enchanting Shadow — night-set frame at 15.0 s in the published trailer",
+    "photographer": "Individual frame/still photographer uncredited; film produced by Shaw Brothers, trailer published by Shaw Brothers Clips",
+    "date": "Trailer upload 20121018; original capture date not supplied",
+    "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "original_source": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "publisher": "Shaw Brothers Clips",
+    "publisher_channel": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+    "license": "Copyrighted Shaw Brothers film/trailer reference. Celestial library rights are documented; no open licence or redistribution permission is asserted.",
+    "license_url": "https://www.celestialpictures.com/company.php",
+    "local_file": "enchanting-shadow-night-set.png",
+    "sha256": "ea70f2d3eb0361aa91aaa9f9faee290a42188b56df1afc2a7824216ca3ede235",
+    "dimensions": [
+      600,
+      480
+    ],
+    "source_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+    "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+    "actual_stream_pts": 192000,
+    "actual_stream_pts_seconds": 15.0,
+    "publisher_metadata": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+    "extraction_log": "docs/reference/external/supporting/shaw-trailers/ouxiang-xie-extraction.log",
+    "extraction_log_sha256": "407647ef1283f96ef86a25294394e01b1ff971ccdfef914c7630ff3971c5b029",
+    "changes": "One frame decoded from the retained downloaded video stream to PNG with FFmpeg. No crop, resize or color grade was applied; publisher framing, bars and subtitles are retained. The PNG is a decoded video frame, not an original publisher JPEG.",
+    "scope": "Collected Shaw night-set lighting/built-set reference only; not a shipped game texture, measured model or named-site identification.",
+    "visual_review": "An open red-column pavilion has cream stone balustrades and a raised platform, a dark roof with gold beam details, a warm floor/column treatment and saturated blue foliage behind it. The table and open bays read against dark roof recesses. Night appearance is inferred from the dark exterior and cool/warm separation. This fills the generic night-set/built-structure lighting slot, not Ouxiang identity: water, support heights, exact dimensions, six seats and two lanterns are not established. Preserve warm wood, neutral stone and restrained blue background separation rather than reproducing the saturated source hue.",
+    "reviewed_at": "2026-10-08",
+    "year_discrepancy": {
+      "channel_title_and_description_year": 1959,
+      "hkfa_film_record_year": 1960,
+      "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+      "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+      "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+    }
+  },
+  {
     "title": "北京大观园藕香榭 — open water pavilion and connecting gallery",
     "photographer": "Sipa Photo (watermarked image provider; individual photographer not supplied)",
     "date": "2022-05-20 (gallery publication; capture date not supplied)",

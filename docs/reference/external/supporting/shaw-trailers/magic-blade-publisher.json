@@ -1,0 +1,39 @@
+{
+  "id": "FU-5zusTJSY",
+  "title": "The Magic Blade (1976) Shaw Brothers **Official Trailer** 天涯明月刀",
+  "channel": "Shaw Brothers Clips",
+  "channel_url": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+  "uploader": "Shaw Brothers Clips",
+  "upload_date": "20140703",
+  "duration": 54,
+  "description": "Title:  The Magic Blade 天涯明月刀\nYear:1976\nDirector: Chu Yuan 楚原\nCasts: Ti Lung, 狄龍, Ching Li, 井莉, Lo Lieh, 羅烈 \n\nAs all kung-fu fans know, action is supreme but a good story helps keep things moving. Ku Lung, the most famous marital arts novelist, provides The Magic Blade with just the right plot to give the brilliant swordplay an interesting context, and director Chu Yuan, an acknowledged master of the genre, provides the style to make this one shine above its kung-fu competitors. Of course, having martial arts superstars Ti Lung and Lo Lieh as the heroes doesn't hurt. They play rival swordsmen in imperial China who battle it out with a power-hungry villain for possession of the Peacock Dart, a secret weapon which must never fall into the wrong hands. But that is precisely what happens, and the rivals must unite to wrest the magic blade from their common enemy. There are plenty of brilliantly choreographed fights, leading up to a final showdown that stands out as a highpoint in kung-fu cinema. \n\nCheck us out at the iTunes Store: www.itunes.com/shawbrothers",
+  "film": "The Magic Blade",
+  "source_page": "https://www.youtube.com/watch?v=FU-5zusTJSY",
+  "saved_video": "docs/reference/external/supporting/shaw-trailers/magic-blade.mp4",
+  "saved_video_sha256": "66f6a810a60e3d187494f9a1e343414924e087c7ebe3ef491314b74b7dbb528e",
+  "saved_video_bytes": 4123331,
+  "raw_metadata_sha256": "d07291d9027d33e285c8ebaebcf28e15051778a886205cb1219209b16d152b87",
+  "metadata_scope": "Stable publisher fields from the downloaded metadata. Temporary stream URLs and format lists are omitted. Full downloaded video bytes are retained.",
+  "metadata_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--skip-download",
+    "--dump-single-json",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "https://www.youtube.com/watch?v=FU-5zusTJSY"
+  ],
+  "download_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "-f",
+    "bestvideo[height<=1080]/best[height<=1080]",
+    "-o",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/magic-blade.%(ext)s",
+    "https://www.youtube.com/watch?v=FU-5zusTJSY"
+  ],
+  "metadata_exit_code": 0,
+  "download_exit_code": 0
+}

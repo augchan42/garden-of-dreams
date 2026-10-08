@@ -1,5 +1,41 @@
 [
   {
+    "reference_slot": 1,
+    "title": "The Enchanting Shadow — night-set frame at 3.0 s in the published trailer",
+    "photographer": "Individual frame/still photographer uncredited; film produced by Shaw Brothers, trailer published by Shaw Brothers Clips",
+    "date": "Trailer upload 20121018; original capture date not supplied",
+    "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "original_source": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "publisher": "Shaw Brothers Clips",
+    "publisher_channel": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+    "license": "Copyrighted Shaw Brothers film/trailer reference. Celestial library rights are documented; no open licence or redistribution permission is asserted.",
+    "license_url": "https://www.celestialpictures.com/company.php",
+    "local_file": "enchanting-shadow-night-set.png",
+    "sha256": "3ca8bdff92712dd03a4bb907397246042ebd58e08e4a1d02c450dfb6b02c33c2",
+    "dimensions": [
+      600,
+      480
+    ],
+    "source_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+    "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+    "actual_stream_pts": 38400,
+    "actual_stream_pts_seconds": 3.0,
+    "publisher_metadata": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+    "extraction_log": "docs/reference/external/supporting/shaw-trailers/tubi-tang-extraction.log",
+    "extraction_log_sha256": "191776b898d811421418c08b410d87eed79524a46496e3bed3e472eae44561cf",
+    "changes": "One frame decoded from the retained downloaded video stream to PNG with FFmpeg. No crop, resize or color grade was applied; publisher framing, bars and subtitles are retained. The PNG is a decoded video frame, not an original publisher JPEG.",
+    "scope": "Collected Shaw night-set lighting/built-set reference only; not a shipped game texture, measured model or named-site identification.",
+    "visual_review": "A tiered pagoda-like upright form is illuminated blue through a dark mesh of branches, with near-black surroundings and small warm/red detail. Night appearance is visually inferred. It demonstrates separating an elevated architectural silhouette from foreground foliage with a restricted cool wash while retaining darkness. This fills the generic Shaw night-set lighting slot, not Tubi identity, hill height, stair count, terrace dimensions or the required stone table. It is not a source model or a detailed construction photograph.",
+    "reviewed_at": "2026-10-08",
+    "year_discrepancy": {
+      "channel_title_and_description_year": 1959,
+      "hkfa_film_record_year": 1960,
+      "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+      "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+      "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+    }
+  },
+  {
     "title": "Aobishanzhuang, Daguanyuan.jpg",
     "photographer": "刻意",
     "date": "2010-12-20",

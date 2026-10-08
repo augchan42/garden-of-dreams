@@ -1,0 +1,46 @@
+{
+  "id": "oJ_Sy5j1XYU",
+  "title": "Enchanting Shadow  倩女幽魂 (1959) **Official Trailer** by Shaw Brothers",
+  "channel": "Shaw Brothers Clips",
+  "channel_url": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+  "uploader": "Shaw Brothers Clips",
+  "upload_date": "20121018",
+  "duration": 66,
+  "description": "Title: Enchanting Shadow  倩女幽魂\r\nYear: 1959\r\nDirector: Li Han-hsiang 李翰祥\r\nCasts: Lo Tih 樂蒂, Chao Lei 趙雷, Yang Chi-ching 楊志卿, Lo Chi 洛奇\r\n\r\nPossibly the most famous ghost in Chinese literature, the beautiful phantom Hsiao Chien has haunted readers since her appearance in the 17th century collection of occult stories entitled Strange Tales From A Chinese Studios. Many filmmakers have brought Hsiao Chien to the screen, including Tsui Hark in A Chinese Ghost Story (1987) and the animated feature of the same name in 1997. But none has captured the eerie beauty and horror of this otherworldly love story as well as Enchanting Shadow. In every frame, from the expressive art direction to vivid cinematography, director Li Han-hsiang demonstrates why he is considered the master of the classic ghost genre. A prime factor in the film's exquisiteness is the perfect casting of the ethereal Betty Loh Ti as the enchanting shadow who falls in love with a mortal and suffers the consequences. The role established the 21-year-old actress as one of Hong Kong's major stars, earning her the nickname of \"classic beauty\".",
+  "film": "The Enchanting Shadow",
+  "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+  "saved_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+  "saved_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+  "saved_video_bytes": 4246617,
+  "raw_metadata_sha256": "47be8cdfa89af1a23faebb547b1bfcba9a5a33317e08f919748a49bca4cf0de0",
+  "metadata_scope": "Stable publisher fields from the downloaded metadata. Temporary stream URLs and format lists are omitted. Full downloaded video bytes are retained.",
+  "metadata_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--skip-download",
+    "--dump-single-json",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "https://www.youtube.com/watch?v=oJ_Sy5j1XYU"
+  ],
+  "download_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "-f",
+    "bestvideo[height<=1080]/best[height<=1080]",
+    "-o",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/enchanting-shadow.%(ext)s",
+    "https://www.youtube.com/watch?v=oJ_Sy5j1XYU"
+  ],
+  "metadata_exit_code": 0,
+  "download_exit_code": 0,
+  "year_discrepancy": {
+    "channel_title_and_description_year": 1959,
+    "hkfa_film_record_year": 1960,
+    "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+    "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+    "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+  }
+}

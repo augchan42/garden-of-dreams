@@ -32,7 +32,7 @@ Establishing view includes the central pavilion below and the edge of the painte
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 Sourced leads reviewed: [Beijing municipal tourism’s Grand View Garden page](https://s.visitbeijing.com.cn/attraction/101918) describes the elevated viewing hall and perimeter seating in the modern reconstruction. The [National Museum’s *Grand View Garden* painting record](https://www.chnmuseum.cn/zp/zpml/ysp/202101/t20210112_248877.shtml) supports its moon-viewing role, not measured architecture. Neither is a Shaw night-set still or a material close-up. The current collected references and remaining night-set slot are documented below.
 
@@ -69,3 +69,9 @@ The slot-2 hilltop photograph is collected, directly reviewed and attributed in 
 ## Collected table material reference — 2026-10-08
 
 Slot 3 now retains an unmodified, directly reviewed original by Pseudopanax with an author public-domain release. Its close foreground stone table supplies granular surface, rounded edge, perimeter groove and pedestal/stool finish observations. The photograph is from Hamilton Gardens, not Tubi; it supplies material evidence only. No architectural identity, nighttime lighting, measured proportions or scanned production texture is claimed. Attribution and byte checks: `../reference/external/tubi-tang/README.md`. Tubi now has two of three collected references; the Shaw Brothers night-set slot and final scene art acceptance remain open.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *The Enchanting Shadow* trailer at 3.0 seconds. A tiered pagoda-like upright form is illuminated blue through a dark mesh of branches, with near-black surroundings and small warm/red detail. Night appearance is visually inferred. It demonstrates separating an elevated architectural silhouette from foreground foliage with a restricted cool wash while retaining darkness. This fills the generic Shaw night-set lighting slot, not Tubi identity, hill height, stair count, terrace dimensions or the required stone table. It is not a source model or a detailed construction photograph.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/tubi-tang/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

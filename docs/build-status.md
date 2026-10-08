@@ -1125,3 +1125,9 @@ A separate complete Ouxiang source now has fifteen freshly saved site libraries 
 Evidence: `export/ouxiang-export-camera-evidence.json` and `docs/reference/ouxiang-export-camera/README.md`. Reference coverage remains 26/42. Current Android/device/2020 Adreno/sustained performance/release, final art and authenticated services remain required; the full goal is active.
 
 The native density window requested 1080×2340 but macOS constrained it to 1080×1976 (logical 411×753). Original PNG headers confirm this; the projection checks used that actual logical viewport. The separate headless UI test passes at full 1080×2340/logical 411×891. Neither is real-device acceptance. The earlier requested-size wording is corrected above.
+
+## Sourced night-set references — 2026-10-08
+
+Eight distinct frames from the published Arrow Video and Shaw Brothers Clips trailers were directly reviewed and saved with unchanged source streams, exact decoder PTS, publisher attribution, rights information and hashes. Required reference coverage is now 34/42. The new frames fill seven generic Shaw night-set slots and Qinfang's night-exterior lighting slot. They guide warm wood/lamps, neutral plaster/stone, limited blue background/foliage light and dark unlit areas for the less-green revision. No production scene or lighting is changed by this collection.
+
+Remaining slots: Aojing 3 (material close view), Hengwu 1 (night set), Qinfang 1 (the specified *Come Drink With Me* bridge pavilion), rockery 2–3 (film cave and dark fog/moon gate), and terminal 1–3 (film cell, historical studio dressing room and dark-room green VT100). Rejected coarse samples do not count, and do not establish that a suitable view is absent from a film. Reference collection is still incomplete. Evidence: `reference/external/supporting/shaw-trailers/README.md` and `export/shaw-night-reference-evidence.json`. Final art, device budgets, services and release acceptance remain open.

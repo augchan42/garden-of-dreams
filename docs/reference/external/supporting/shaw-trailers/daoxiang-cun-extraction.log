@@ -1,0 +1,45 @@
+ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.0.123.102)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.1 --enable-shared --cc=clang --host-cflags= --host-ldflags= --enable-gpl --enable-libaom --enable-libdav1d --enable-libharfbuzz --enable-libmp3lame --enable-libopus --enable-libsnappy --enable-libsvtav1 --enable-libtheora --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-demuxer=dash --enable-neon --enable-opencl --enable-audiotoolbox --enable-videotoolbox --disable-htmlpages --enable-libzimg
+  libavutil      61.  1.101 / 61.  1.101
+  libavcodec     63.  1.101 / 63.  1.101
+  libavformat    63.  1.101 / 63.  1.101
+  libavdevice    63.  1.101 / 63.  1.101
+  libavfilter    12.  1.101 / 12.  1.101
+  libswscale     10.  1.101 / 10.  1.101
+  libswresample   7.  1.101 /  7.  1.101
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-nhninmop/come-drink.mp4':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6av01mp41
+    creation_time   : 2026-07-09T18:33:44.000000Z
+  Duration: 00:01:26.88, start: 0.000000, bitrate: 1009 kb/s
+  Stream #0:0[0x1](und): Video: av1 (libdav1d) (Main) (av01 / 0x31307661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 451 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)
+    Metadata:
+      creation_time   : 2026-07-09T18:33:44.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (av1 (libdav1d) -> png (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0x769400a80] config in time_base: 1/24000, frame_rate: 24000/1001
+[Parsed_showinfo_1 @ 0x769400a80] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0x769400a80] n:   0 pts: 590590 pts_time:24.607917 duration:   1001 duration_time:0.0417083 fmt:yuv420p cl:unspecified sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:4B492349 plane_checksum:[304CD2E3 B91A4275 57E10DE2] mean:[42 128 130] stdev:[24.7 3.6 3.3]
+[Parsed_showinfo_1 @ 0x769400a80] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/selected/daoxiang-cun-night.png':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6av01mp41
+    encoder         : Lavf63.1.101
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.101 png
+      creation_time   : 2026-07-09T18:33:44.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+[Parsed_showinfo_1 @ 0x769400a80] n:   1 pts: 591591 pts_time:24.649625 duration:   1001 duration_time:0.0417083 fmt:yuv420p cl:unspecified sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:CAFF8E40 plane_checksum:[84F4118D 216B6E1D C3900E96] mean:[42 128 130] stdev:[24.6 3.6 3.3]
+[Parsed_showinfo_1 @ 0x769400a80] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.53    [image2 @ 0x768c24500] The specified filename '/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/selected/daoxiang-cun-night.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x768c24500] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x769400180] video:1137KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.4 q=-0.0 Lsize=N/A time=00:00:24.64 bitrate=N/A speed=9.54x elapsed=0:00:02.58    

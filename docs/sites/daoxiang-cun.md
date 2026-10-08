@@ -32,7 +32,7 @@ Show enough backdrop to reveal the painted rice field without exposing empty spa
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -67,3 +67,9 @@ Slot 2: [original photograph](../reference/external/daoxiang-cun/daoxiang-modern
 ## Collected thatch material reference — 2026-10-08
 
 Slot 3: [original reed close-up](../reference/external/daoxiang-cun/reed-thatch-close.jpg), Titus Tscharntke, published author public-domain release. Close reed thatch shows packed narrow stems, exposed blunt and hollow ends, uneven stalk lengths and parallel bundles. Dark gaps between stems supply small-scale relief and roughness guidance for the required farmhouse thatch. The photo does not establish Daoxiang identity, Chinese roof construction, ridge/eave silhouette, roof thickness or night lighting; use it only for the distinguishing material slot. Attribution and original-byte hashes are saved beside the image. The night-set slot remains open.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 1 now has a directly reviewed frame from the published *Come Drink With Me* trailer at 24.607917 seconds. The frame shows a thatched rustic dwelling with exposed bundles along the eave, rough matte walls, narrow timber/bamboo poles and a simple rail. Cool blue-gray fog separates the dark foreground and warm brown timber/red costume. Night or dusk appearance is inferred from the dark, cool scene treatment; no source caption supplies its time of day. This fills the generic Shaw built-set/lighting slot, not Daoxiang identity, measured thatch thickness, roof dimensions or an amber-door practical. Use neutral rough walls and brown thatch against restrained cool background rather than copying a uniform green grade.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/daoxiang-cun/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.

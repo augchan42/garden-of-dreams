@@ -1,0 +1,39 @@
+{
+  "id": "astCEpTZTiw",
+  "title": "Come Drink With Me Official Trailer",
+  "channel": "Arrow Video",
+  "channel_url": "https://www.youtube.com/channel/UCGmqALkj6Zij2PNcvpHLVZg",
+  "uploader": "Arrow Video",
+  "upload_date": "20220525",
+  "duration": 87,
+  "description": "Order in the US: https://bit.ly/3tgQT2D\nOrder in Canada: https://bit.ly/3q89YRW\nStreaming on ARROW in the US and Canada: https://www.arrow-player.com \n\nYears before Shaw Brothers’ kung fu films made them the biggest film studio in Hong Kong, local audiences flocked to their wuxia pian films: mythic tales of swordfighting (and often gravity-defying) heroes fighting for honor. In his final film for the studio, Come Drink With Me, director King Hu (A Touch of Zen) broke fresh new ground in martial arts storytelling, and catapulted fresh-faced lead actress Cheng Pei-pei to stardom in the process.\n\nWhen the Governor’s son is taken hostage by bandits, a mysterious swordsman named Golden Swallow (Cheng) is hot on their trail to ensure the son’s release. What the bandits don’t realize, however, is that Golden Swallow is actually a woman, and that the hostage is her brother. Determined to set him free, no matter how many goons she has to fight her way through in doing so, she is aided in her quest by a drunken beggar (Yueh Hua) who may have a closer connection to the bandits’ leader than he initially lets on.\n\nDecades before Ang Lee brought the wuxia genre to international attention with Crouching Tiger, Hidden Dragon (in which Cheng played the villainous Jade Fox), King Hu set the original template in what is still considered one of Shaw Brothers’ greatest and most influential action masterpieces.\n\nFollow us on Twitter: https://twitter.com/ArrowFilmsVideo​​   \nLike us on Facebook: https://www.facebook.com/ArrowVideo​​  \nFollows us on Instagram: https://instagram.com/arrowvideo​​  \nShop now in the UK: https://arrowfilms.com\nShop now in the US: https://arrowvideo.com\n\n#ComeDrinkWithMe #ShawBrothers #KingHu #Kungfu",
+  "film": "Come Drink With Me",
+  "source_page": "https://www.youtube.com/watch?v=astCEpTZTiw",
+  "saved_video": "docs/reference/external/supporting/shaw-trailers/come-drink.mp4",
+  "saved_video_sha256": "05282267d3073ea61e676efabdbeedc5b9e8d98476dde8ea6777b407214bce12",
+  "saved_video_bytes": 10963740,
+  "raw_metadata_sha256": "675ecfaf466148800fdf9bc6e8f59c82a4491f766dc8ab4fd9227ef87b6907e1",
+  "metadata_scope": "Stable publisher fields from the downloaded metadata. Temporary stream URLs and format lists are omitted. Full downloaded video bytes are retained.",
+  "metadata_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--skip-download",
+    "--dump-single-json",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "https://www.youtube.com/watch?v=astCEpTZTiw"
+  ],
+  "download_command": [
+    "/opt/homebrew/bin/yt-dlp",
+    "--no-playlist",
+    "--socket-timeout",
+    "15",
+    "-f",
+    "bestvideo[height<=1080]/best[height<=1080]",
+    "-o",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-nhninmop/come-drink.%(ext)s",
+    "https://www.youtube.com/watch?v=astCEpTZTiw"
+  ],
+  "metadata_exit_code": 0,
+  "download_exit_code": 0
+}

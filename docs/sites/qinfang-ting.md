@@ -144,3 +144,9 @@ Resizing an overview updates its camera without replacing room text or actions. 
 
 
 The shared physical moon now has original ivory/amber painting with gray-blue washes in the saved Blender source, replacing its constant green emission. Its 5.4 m geometry and all authored/runtime cameras are preserved. Packed base/emission factors and shared texture transfer are verified; complete fresh lighting is running before engine adoption. See `../moon-paint.md`. The playable demo still uses the preceding complete source. Backdrop-edge exposure and final site art remain open.
+
+## Collected Shaw night-set reference — 2026-10-08
+
+Slot 2 now has a directly reviewed frame from the published *The Magic Blade* trailer at 53.0 seconds. A low-key terrace exterior has a warm round lamp at the left, cool blue light at the right, near-black sky and roof/figure silhouettes, and a broad central area that remains unlit. This fills the specified Shaw night-exterior lighting reference: limited cool wash, localized warm practical and dark space between. Night appearance is visually inferred. It does not identify Qinfang or show the four-exit Come Drink With Me bridge pavilion, and it provides no measured colors, light-linking configuration or lamp energy. Use the contrast pattern while reducing the green contribution as the user requested.
+
+Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/qinfang-ting/README.md`. Remaining reference slots: 1. This does not establish final scene art, lighting, performance or service acceptance.

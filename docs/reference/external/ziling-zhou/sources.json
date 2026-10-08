@@ -1,20 +1,39 @@
 [
   {
-    "title": "Phragmites australis (inflorescences).jpg",
-    "photographer": "Le.Loup.Gris",
-    "date": "2011-08-26",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Phragmites_australis_(inflorescences).jpg",
-    "original_source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Phragmites_australis_%28inflorescences%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "local_file": "common-reed-plumes.jpg",
-    "sha256": "e52f12b726dde7182c32e3460f8c4add82d8a02c38aeab74715a240c239aa1b3",
-    "commons_sha1": "a67f43db3b9babbbd4c99291cbcb21f784bd4b8e",
-    "changes": "None; unmodified original bytes verified against Commons imageinfo SHA-1.",
-    "scope": "Collected close foliage/material reference; not a shipped texture or source model.",
-    "visual_review": "Tall jointed stems, long narrow drooping leaves and fine tawny-purple branching plumes, with varied angles and clear gaps between stems. Useful for reed silhouette and plume/leaf density; the daylight sky and lighting are not the scene palette.",
+    "reference_slot": 1,
+    "title": "The Enchanting Shadow — night-set frame at 11.0 s in the published trailer",
+    "photographer": "Individual frame/still photographer uncredited; film produced by Shaw Brothers, trailer published by Shaw Brothers Clips",
+    "date": "Trailer upload 20121018; original capture date not supplied",
+    "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "original_source": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "publisher": "Shaw Brothers Clips",
+    "publisher_channel": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+    "license": "Copyrighted Shaw Brothers film/trailer reference. Celestial library rights are documented; no open licence or redistribution permission is asserted.",
+    "license_url": "https://www.celestialpictures.com/company.php",
+    "local_file": "enchanting-shadow-night-set.png",
+    "sha256": "6835fb63c3df14e0905ec2784c12f26154543add44fff01058a61b7cc93458c7",
+    "dimensions": [
+      600,
+      480
+    ],
+    "source_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+    "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+    "actual_stream_pts": 140800,
+    "actual_stream_pts_seconds": 11.0,
+    "publisher_metadata": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+    "extraction_log": "docs/reference/external/supporting/shaw-trailers/ziling-zhou-extraction.log",
+    "extraction_log_sha256": "5e96916cf5e4cbdb34cd92cf6ceb34004bbf2d91a4f951a8f460109e05750076",
+    "changes": "One frame decoded from the retained downloaded video stream to PNG with FFmpeg. No crop, resize or color grade was applied; publisher framing, bars and subtitles are retained. The PNG is a decoded video frame, not an original publisher JPEG.",
+    "scope": "Collected Shaw night-set lighting/built-set reference only; not a shipped game texture, measured model or named-site identification.",
+    "visual_review": "A ruined brick opening and sparse table/bench dressing are framed by dark foliage; blue-lit leaves and masonry edges sit beside a warmer lit figure. Large black gaps keep the foreground sparse and layered. Night appearance is visually inferred from the dark exterior and directed cool/warm treatment. This guides generic night foliage and built-set composition, not Ziling identity, reed species, island geometry, waterline or footbridge construction. The separate close reed reference supplies botanical form; the saturated source blue is qualitative lighting guidance.",
     "reviewed_at": "2026-10-08",
-    "reference_slot": 3
+    "year_discrepancy": {
+      "channel_title_and_description_year": 1959,
+      "hkfa_film_record_year": 1960,
+      "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+      "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+      "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+    }
   },
   {
     "title": "大观园 Beijing, China (25931034492).jpg",
@@ -33,5 +52,22 @@
     "visual_review": "The visible plaque reads 紫菱洲 from right to left, identifying the modern Ziling entrance. Paired red timber doors, a gray barrel-tile eave, painted crossbeams and white plaster side walls supply site-specific entrance construction. This photo does not show the island, reeds, landing or footbridge and does not prescribe replacing the project's low island with a gatehouse. Island/bridge composition and night lighting still need separate art review.",
     "reviewed_at": "2026-10-08",
     "reference_slot": 2
+  },
+  {
+    "title": "Phragmites australis (inflorescences).jpg",
+    "photographer": "Le.Loup.Gris",
+    "date": "2011-08-26",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Phragmites_australis_(inflorescences).jpg",
+    "original_source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Phragmites_australis_%28inflorescences%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "local_file": "common-reed-plumes.jpg",
+    "sha256": "e52f12b726dde7182c32e3460f8c4add82d8a02c38aeab74715a240c239aa1b3",
+    "commons_sha1": "a67f43db3b9babbbd4c99291cbcb21f784bd4b8e",
+    "changes": "None; unmodified original bytes verified against Commons imageinfo SHA-1.",
+    "scope": "Collected close foliage/material reference; not a shipped texture or source model.",
+    "visual_review": "Tall jointed stems, long narrow drooping leaves and fine tawny-purple branching plumes, with varied angles and clear gaps between stems. Useful for reed silhouette and plume/leaf density; the daylight sky and lighting are not the scene palette.",
+    "reviewed_at": "2026-10-08",
+    "reference_slot": 3
   }
 ]

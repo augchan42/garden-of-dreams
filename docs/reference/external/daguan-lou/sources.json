@@ -1,5 +1,41 @@
 [
   {
+    "reference_slot": 1,
+    "title": "The Enchanting Shadow — night-set frame at 17.0 s in the published trailer",
+    "photographer": "Individual frame/still photographer uncredited; film produced by Shaw Brothers, trailer published by Shaw Brothers Clips",
+    "date": "Trailer upload 20121018; original capture date not supplied",
+    "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "original_source": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "publisher": "Shaw Brothers Clips",
+    "publisher_channel": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+    "license": "Copyrighted Shaw Brothers film/trailer reference. Celestial library rights are documented; no open licence or redistribution permission is asserted.",
+    "license_url": "https://www.celestialpictures.com/company.php",
+    "local_file": "enchanting-shadow-night-set.png",
+    "sha256": "4597c1d54ab33e526ac551acf920c5fc56ae7030edccddd27068e25e26d28053",
+    "dimensions": [
+      600,
+      480
+    ],
+    "source_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+    "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+    "actual_stream_pts": 217600,
+    "actual_stream_pts_seconds": 17.0,
+    "publisher_metadata": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+    "extraction_log": "docs/reference/external/supporting/shaw-trailers/daguan-lou-extraction.log",
+    "extraction_log_sha256": "b602a773173dcec18d7066f3bbc1373876007c0a84c9040e9b7521204b1d2b63",
+    "changes": "One frame decoded from the retained downloaded video stream to PNG with FFmpeg. No crop, resize or color grade was applied; publisher framing, bars and subtitles are retained. The PNG is a decoded video frame, not an original publisher JPEG.",
+    "scope": "Collected Shaw night-set lighting/built-set reference only; not a shipped game texture, measured model or named-site identification.",
+    "visual_review": "The court detail shows red posts, cream stone railing, a tiered gold ornament/table and localized warm candles against blue-lit foliage and dark structural recesses. The retained subtitle refers to midnight; the night treatment is also visible. It supplies a generic court night-set/material-separation reference, not Daguan identity, its full imperial facade, two-storey structure, roof geometry or surveyed proportions. The low-resolution source supports broad color and lighting hierarchy rather than fine painted-bracket or tile detail.",
+    "reviewed_at": "2026-10-08",
+    "year_discrepancy": {
+      "channel_title_and_description_year": 1959,
+      "hkfa_film_record_year": 1960,
+      "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+      "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+      "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+    }
+  },
+  {
     "title": "Daguanlou, Daguanyuan",
     "photographer": "刻意",
     "date": "2010-12-20",
