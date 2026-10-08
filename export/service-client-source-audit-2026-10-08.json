@@ -1,0 +1,59 @@
+{
+  "reviewed_at": "2026-10-08",
+  "scope": "Read-only source inspection of provider acquisition, client signing, installation proof and account-scoped history. No runtime credentials, private history, deployed configuration, identity tokens or remote requests accessed. Source hashes include actual working-tree bytes; commits alone do not establish cleanliness.",
+  "projects": {
+    "server": {
+      "repository": "/Users/auchan/projects/8bitoracle-next",
+      "commit": "8322d15658ed6d0ac05fcb11efba9ee483d30504",
+      "source_files_sha256": {
+        "src/app/api/gua/shared/security.ts": "d9f2d1a0e702036ce773762512a6e3f196985385682ab7b6673bc5b86c7b58fd",
+        "src/app/api/gua/shared/resolveDevice.ts": "40b1ac1b5dc6960106ffd701fdcad3ce9be12ea3b140ed51398ab2294fa499a1",
+        "src/app/api/device/claim/route.ts": "8b9ed7e9eab3abb3a6a6f6972eea6608ccbb7c629da5f4809b195b9a74e4ecc6",
+        "src/app/api/records/session/route.ts": "ddafc30ec3c59ede3c34ae788775edeee0b49d0f63b4bf117de44892253023a5",
+        "src/app/api/records/shared/googleIdentity.ts": "aec423403cd8ddceab8458940d6474cf14b00b1339263d582ece4e2523e7e979",
+        "src/app/api/records/shared/session.ts": "82b975c9fb6598f81237f915c894295413a7ee3e5839992e35f35925eaf4d267",
+        "src/lib/appAttest/middleware.ts": "cbfdcdef5a5781d8de0f1714f4fc3248c12f4de82b8d7c28fbfd74136d7eee3d"
+      }
+    },
+    "android": {
+      "repository": "/Users/auchan/projects/sixlines-android",
+      "commit": "6d52d1fc3ab6a99b6a0273f3a293205d8b6c3310",
+      "source_files_sha256": {
+        "app/src/main/java/online/sixlines/app/data/AuthService.kt": "a07b229768fd9a84ad1f6abd1c7c10a19b75ef7565e2c6bf4119f0f1fc5cf916",
+        "app/src/main/java/online/sixlines/app/data/RecordsSessionStore.kt": "e3bf27ccbe0ad0368a6ec6f76b209cb0cba4e19a440da21626f5c9dc75c529ac",
+        "app/src/main/java/online/sixlines/app/data/RecordsSessionAuthorization.kt": "e502b17e8dd99f2a732ed47273a0ee3c18c590b3e700016beb35e43a97622cb5",
+        "app/src/main/java/online/sixlines/app/data/JournalSessionService.kt": "da773e18699baadccf16d14e88a9492479d0bbceeb06b4b660756053911b5a9c",
+        "app/src/main/java/online/sixlines/app/data/JournalSyncService.kt": "4f141bb95ab9f52e330d74a42ba040812ed5e9ec93c87bfac4287b7af09823fa",
+        "app/src/main/java/online/sixlines/app/DeviceIdentityImpl.kt": "a7e298cb94e7f9f5b9403188a83f4f5f121e2f249300a9e5d6857acecce8e105",
+        "app/src/main/java/online/sixlines/app/DeviceCredentialPersistence.kt": "6d331e6412b78737f6dc829c77973257be83f1dcaa98fc672420a18b3ac3f7b1",
+        "app/src/main/java/online/sixlines/app/di/NetworkModule.kt": "4f04ff7d288232f7b7438cbae43ea04b2bc2b9b8f40cfd4af608a6f59736c07d",
+        "network/src/main/java/online/sixlines/network/SigningInterceptor.kt": "05ecab47cfa1a8bc811fbaf84ba86653dddd3684fc69edf7d6eb82c8827508b5",
+        "network/src/main/java/online/sixlines/network/DeviceCredential.kt": "a95958f8c84d6354b4c842d03ebff80bad68fa6663df12600d0c00f895e2fcef",
+        "network/src/main/java/online/sixlines/network/GuaApiClient.kt": "741cab296e4799f3fbc4752dd7a37c70ca117f6bd13423a31e1638306dc172e3",
+        "network/src/main/java/online/sixlines/network/model/RecordsModels.kt": "001fc6af728e539aa260b9fc5a4300c7358b5d79be78c126bd3ef6ff7810a049"
+      }
+    }
+  },
+  "garden": {
+    "commit": "3cda89ef1ea8aef6ae26e78a4f4419f48dbb5d49",
+    "source_files_sha256": {
+      "godot/project.godot": "f26f85dcee29df0ffde3a1eb14f6f6d5b02ae27440d9b5243ddf18f8b62b556a",
+      "godot/export_presets.cfg": "792d7ca2c70b897a52b734236cd3d1cc263509c2a088e687846f54c9351d1f73",
+      "godot/services/topics.gd": "ed19608b3f6aefb162a8c46d2c2166f17ef2b2942400d0f7ece318206e6968d9"
+    },
+    "service_files": [
+      "godot/services/topics.gd",
+      "godot/services/topics.gd.uid"
+    ],
+    "addon_files": [],
+    "native_identity_bridge": "not present in current project"
+  },
+  "conclusions": {
+    "android_provider": "Credential Manager obtains Google ID token for configured server client ID; RecordsSessionRequest explicitly defaults provider to google. Not evidence of a working Garden sign-in.",
+    "device_provisioning": "UUID v4 plus persisted random 32-byte installation secret; claim sends SHA256 and ios/android platform; later requests send the base64url secret. Server rejects desktop as a claim platform.",
+    "signing": "X-API-Key, Unix-seconds X-Timestamp, HMAC-SHA256(timestamp+exact body) lowercase hex X-Signature. No credential values inspected or copied.",
+    "owner_boundary": "Encrypted Android credentials are keyed to local account identity; publication guards and owner leases reject stale responses during account changes. Signed-in renewal failure must not downgrade requests to anonymous history.",
+    "desktop": "Existing claim endpoint does not offer a desktop platform; a supported desktop identity/device contract is still required.",
+    "acceptance": "Provider acquisition and device claim/Records exchange must be verified in Garden with its own provisioned app identity before private history or reading writes are attached. No source-audit checkbox is treated as end-to-end authentication."
+  }
+}
