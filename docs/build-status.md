@@ -955,3 +955,6 @@ Tubi's close foreground stone table material reference is collected with directl
 
 
 Aojing's named windowed facade is now collected from Beijing Tourism with direct plaque/structure review, publisher copyright attribution and original bytes. Required coverage is 21/42, leaving 21 slots. The Longcui gallery's lake/flower/open-hall images do not establish its specified closed outer gate; that slot remains open. Scene assets, production lighting and release remain unchanged by reference collection.
+
+
+Qiushuang now has all three collected references. The Archive zither interior supplies a local candle against a blue opening and dark built-set panels; the scene/night match is recorded as an inference with primary newsletter context and the low-resolution limit. Original bytes and copyright credit are preserved. Required reference coverage is 22/42, leaving 20 slots. Two blue-text terminal photos are rejected for the specified green-phosphor dark-room reference. Final art/adoption, memory/device/performance/current release and authenticated room services remain open.

@@ -21,4 +21,12 @@ Wu Zhen, *Bamboo, old tree, and rock*, dated 1338, ink on silk. Image supplied b
 
 The original ink-on-silk hanging scroll shows grouped tapered bamboo leaves, articulated stalks, varied wet/dry ink density, calligraphic marks and visible warm silk weave. It provides a close painted-scroll material and brush-treatment reference for the study's bamboo scroll. It is not a photograph of Qiushuang architecture, a botanical model, measured pigment values or evidence of night lighting.
 
-Architecture and painted-scroll material slots are collected. The Shaw night-set still remains open.
+All three reference slots are collected. Final scene art acceptance remains open.
+
+## Slot 1 — Shaw night interior
+
+[Original Archive still](enchanting-shadow-night-interior.jpg), *The Enchanting Shadow* (1960), directed by Li Han-hsiang. [Archive source](https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html). Copyright: licensed by Celestial Pictures Limited, all rights reserved; no open reuse licence is asserted. The image is a design reference only. Original source HTML, context metadata and unchanged JPEG bytes are retained. SHA-256: `00a06391a9e3b5d09220d6e0d07ccc8279253bbbae85dca7fe4df1279d30d250`.
+
+The still shows a seated zither player, a candle held by the standing figure, dark patterned wall panels and lattice, and saturated blue/purple light beyond the left opening. It supplies a built interior with a localized warm practical against cool exterior light, rather than an evenly green-lit room. The Archive newsletter describes the film's zither encounter as occurring at night; matching this untimed still to that described scene is an inference, not a verified frame/timecode. At 240 by 156 pixels it supports broad lighting and flat-set treatment, not fine carpentry, measured colors, Qiushuang architecture, screen-bank spacing or a specific lamp-energy recipe.
+
+Night context: [Archive Newsletter 29](https://www.filmarchive.gov.hk/documents/18995340/19057014/newsletter29_e.pdf), PDF page 18, Lane, *The Female Gaze in The Enchanting Shadow*. Scene matching is inferred; the provider original is only 240 × 156 pixels.

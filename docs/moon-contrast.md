@@ -80,7 +80,7 @@ and its evidence remain unchanged.
 
 Canonical Blender/export and production Godot retain the preceding painted-moon
 source. The local playable package still needs a separate rebuild. Site art,
-21 required external references, texture/device/performance acceptance and
+20 required external references, texture/device/performance acceptance and
 authenticated room services remain unfinished. The full goal remains active.
 
 Raw source/export/native checks and exact tools are retained under
@@ -117,3 +117,6 @@ per run, no misses and at most four practicals. Portrait includes all twenty-six
 settled camera views. That verifies the separate floor repair and traversal
 behavior; it does not turn the rejected moon or visible paint joins into final
 art. Details: `full-garden-traversal.md`.
+
+
+A separate exact-source review fixture is prepared for the 8d1d9b4e correction. Its static evidence verifies identical engine/export GLB bytes, the actual moon atlas, normal site-bake configuration, no import cache and no installed old maps. The runner waits for all six source phases and baker exit before sequential import, preservation, lighting and native capture jobs. Preparation evidence and the exact launched runner are retained in `reference/moon-intensity-review-preparation/`, indexed by `../export/moon-intensity-review-preparation.json`. Native results, pixel review and production adoption remain pending.

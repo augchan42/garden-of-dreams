@@ -49,3 +49,10 @@ Pseudopanax's original foreground stone table fills Tubi slot 3 after direct ful
 The Beijing Tourism gallery's facade photo visibly bears 凹晶溪館 and fills Aojing architecture slot 2. Gray roof tiles, painted lintel, columns and glazed lattice doors are directly visible. The waterline/reflection and measured frontage are not established by this frame. Publisher bytes, watermark, source HTML and copyright attribution are retained; no open reuse licence or individual photographer is supplied. Two direct image attempts completed with read timeouts; a later query-parameter request succeeded. Current coverage is 21/42, leaving 21 slots.
 
 The named Longcui gallery does not fill its required closed-gate architecture: one URL returns an identical lake image to an Aojing URL, another shows flowers/lintel, and the last shows an open-bay temple hall with incense burner rather than the specified outer gate/whitewash/plum frontage. These source and byte decisions are retained in `beijing-tourism-review-2026-10-08.json`; the originals remain outside accepted reference folders.
+
+
+## Study night interior
+
+The original Archive still from *The Enchanting Shadow* fills Qiushuang slot 1 for dark built-set panels, blue exterior light and a local candle. The Archive newsletter places the zither encounter at night; matching this untimed still is explicitly recorded as an inference. The provider original is 240 × 156 pixels, so it supports broad lighting and composition rather than carpentry or measured values. Exact bytes, primary source HTML, copyright credit and scene-context metadata are retained. A lower-resolution alternate is not counted again. Qiushuang now has all three reference slots; total coverage is 22/42, leaving 20 slots.
+
+Two Commons terminal photographs were directly inspected and rejected for the required green-phosphor dark-room/desk-light slot: both have blue/cyan text and visible ambient case lighting, and one visible badge reads VT101. These decisions are retained in `terminal-shadow-review-2026-10-08.json`. No source, lighting or runtime asset changes in this reference pass.

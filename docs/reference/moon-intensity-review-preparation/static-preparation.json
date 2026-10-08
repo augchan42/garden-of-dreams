@@ -1,0 +1,23 @@
+{
+  "status": "static_preparation_verified",
+  "scope": "Exact-source isolated fixture preparation only. This is not proof of completed bake, native import/render tests, art acceptance, production adoption or final release.",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-baked-review-qvaz0nx6",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "engine_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "authoring_sha256": "a273a4c0ea33c9897f3096f51b5833b905e04a6d0ca62cab001e8291aa93b8de",
+  "moon_atlas_sha256": "746b1719b0731a7bf7e17d75d1371c1f381ab442bd6dcad48338426e8fab07e4",
+  "import_cache_present": false,
+  "installed_lightmap_files": 0,
+  "main_scene": "res://runtime/entry_route.tscn",
+  "normal_route_site_bakes_enabled": true,
+  "runtime_files_hash_verified": 165,
+  "source_bake_required_phases": [
+    "ordinary",
+    "backdrop-wash",
+    "terminal-spill",
+    "terminal-spill-pixels",
+    "native-pixels",
+    "coverage"
+  ],
+  "native_work_pending": true
+}
