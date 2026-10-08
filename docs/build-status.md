@@ -1083,3 +1083,21 @@ No new full bake or Android package was started. All experiment jobs exited.
 See docs/reference/imperial-roof-charts/README.md and
 export/imperial-roof-charts-evidence.json for source/maps/code/logs and failed
 attempts. Full Garden scope, 20 missing references and service work remain open.
+
+
+## Complete imperial candidate preparation and two references — 2026-10-08
+
+The separate `361a67c7…` export now has fifteen saved libraries and a portable master. The twelve Area washes share the six visible stage receivers. Both native preparation commands exited successfully. The complete GLB, unchanged `9356f6ec…` authoring, libraries/master, 187 source scripts and 169 runtime inputs match their frozen hashes. Exact logs, scripts and preparation records are in `docs/reference/imperial-full-preparation/README.md` and `export/imperial-full-preparation-evidence.json`.
+
+A fresh complete bake is running from an empty lightmap folder. The separate Godot review waits for all six source phases and the baker exit, then runs sequential native imports, corruption controls, saved-library checks, actual normal/demo memory, arrival captures and full rendered walks. The imperial roof uses the previously inspected 512px lossless import policy in that fixture. Preparation is not finished lighting, visual/device acceptance or adoption; production remains b540/9356.
+
+Ouxiang's open water-pavilion photograph and Longcui's upper gateway photograph now fill their architecture slots. Both publisher originals were directly inspected; source HTML, hashes, Sipa credit/copyright and framing/daylight limits are saved. Neither is a shipped asset or a night reference. Collection is now **24/42**, with **18** slots missing. Final scene art, performance/device/release and authenticated room services remain open.
+
+
+## Rockery and courtyard lighting references — 2026-10-08
+
+The Beijing south-entrance rockery reference fills rockery slot 1. Its directly reviewed dry path, piled stone, overhangs and dark gaps support the obstructed reveal and organic surface work. A different pool/overhang photograph does not fill another slot. Original publisher bytes, Sipa copyright/watermark and article attribution are saved.
+
+The Film Archive's credited *The Magic Blade* courtyard still fills Yihong's night-set lighting slot. Its black sky/tree masses, directional blue-violet light on pale walls and warm/red figure accents guide courtyard contrast. Night appearance is a visual inference; no warm window/lantern is visible. The original encoded JPX stream, full source PDF and credited full-page/colophon renders are retained. The courtyard is not the specified cave corridor; the separate *36th Chamber* training still is not the required cell. Neither rejected slot is counted.
+
+All three Yihong references are now collected. Total collection passes original-byte/slot checks at **26/42**, leaving **16** missing. This does not accept the finished site art, lighting, phone performance, release or service integration.

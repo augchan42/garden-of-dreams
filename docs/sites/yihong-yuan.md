@@ -69,3 +69,8 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## External foliage surface reference — 2026-10-08
 
 Slot 3 now contains a directly reviewed banana-leaf close-up by Hysocc, with CC BY-SA 3.0 attribution and original-byte verification in `../reference/external/yihong-yuan/README.md`. The central rib, lateral veins, fine ridges and subtle blade undulation inform the banana material. Daylight backlighting does not set the nighttime palette, and the close-up does not prove a whole-plant silhouette. Night-set reference and final foliage art remain unfinished.
+
+
+## Courtyard night-set reference — 2026-10-08
+
+The third collected reference fills slot 1: *The Magic Blade* courtyard still identified in the Hong Kong Film Archive's publication. Direct page review shows cool directional illumination on pale walls and curved gates against black sky/tree masses, with warm/red accents. It guides the courtyard's night contrast after the reduced-green revision. Night appearance is inferred visually; no warm window/lantern or measured light is established. The original JPX stream, complete credited source and interpretation limits are recorded in `../reference/external/yihong-yuan/README.md`. All three slots are collected; final scene art is still unaccepted.

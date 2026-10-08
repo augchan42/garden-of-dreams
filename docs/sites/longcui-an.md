@@ -72,3 +72,8 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## External foliage/material reference — 2026-10-08
 
 The slot-3 close reference is collected, directly reviewed and attributed in `../reference/external/longcui-an/README.md`. White five-petal plum flowers with rounded overlapping petals, dense pale stamens with yellow anthers, pink-red central cups, small buds and rough dark bark. Useful for blossom construction and sparse branch dressing; daylight color is not a night-lighting reference. Original bytes match the Commons SHA-1. The night-set and architecture slots remain uncollected. This is reference collection, not acceptance of the current foliage mesh or material.
+
+
+## External entrance architecture reference — 2026-10-08
+
+The slot-2 entrance reference is collected and directly reviewed in `../reference/external/longcui-an/README.md`. Its gray tiled eave, painted brackets/lintel, red timber and lanterns, and whitewash guide structural and material separation. The publisher identifies Longcui; the image is daylight and cropped above the ground, with an open entrance. It does not establish the sheet's dimensions, closed gate leaves, collision or final palette. Copyright and the Sipa watermark are retained; this is not a shipped asset. Only the night-set slot remains uncollected.

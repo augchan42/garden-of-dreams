@@ -3,3 +3,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 # Archived native diagnostics retain the tool's exact whitespace.
 docs/reference/**/*.log -whitespace
+# Publisher HTML snapshots retain their original bytes and source hashes.
+docs/reference/external/**/beijing-tourism-*.html -whitespace

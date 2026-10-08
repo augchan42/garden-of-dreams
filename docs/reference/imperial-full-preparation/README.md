@@ -1,0 +1,9 @@
+# Complete imperial-chart scene preparation
+
+The separate complete source uses the verified `361a67c7…` export and unchanged `9356f6ec…` authoring geometry. Fifteen site libraries were saved, then twelve backdrop washes were packaged against six shared visible stage receivers. Both native preparation commands exited successfully; original logs are retained. The canonical scene is unchanged.
+
+`frozen-input-verification.json` checks the actual GLB, authoring file, fifteen libraries, master, every frozen source script and 169 runtime inputs. `full-refresh-inputs.json` retains the pre-bake hashes. All frozen source scripts and the exact review runner/import helper are archived here. GLB geometry-preservation evidence is in `../imperial-roof-charts/README.md`. Large source libraries remain in the recorded separate folder pending final evidence/adoption.
+
+The fresh full bake started with no previous maps. The review waits for all six source phases to pass and the baker to exit before starting any native import/render job. It checks full/demo catalogs, cold-reimport and corruption controls, saved-library contracts, actual texture memory, moon transfer, fourteen desktop/portrait arrivals and complete rendered walks. Native precision reports are linked only to the exact future source outputs; provisioning is recorded, and PNG hashes must match before use.
+
+The imperial roof import uses lossless 512px in the separate fixture. Actual format, allocation and appearance still require engine checks. Other maps retain the existing configured policy. These preparation files and pending snapshots do not prove complete lighting, a running process at a later time, finished engine validation, visual acceptance, phone performance or adoption. Production and the user's live Blender/Godot sessions remain untouched.

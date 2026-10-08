@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <link href="//r1.visitbeijing.com.cn/images/a4c09cdee78007d1ee26039bd25dc440.ico" rel="shortcut icon" />
+  <meta property="og:title" content="大观园拢翠庵 领略古典建筑之美">
+  <meta property="og:description" content="1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园...">
+  <meta property="og:url" content="https://www.visitbeijing.com.cn/">
+  <meta property="og:image" content="https://r1.visitbeijing.com.cn/vbj-s/2021/1026/ebebb5f59fe40abff5186935d3a384da.jpg">
+  <meta property="og:image:width" content="200">
+  <meta property="og:image:height" content="200">
+  <meta property="og:site_name" content="北京旅游网资源库">
+  <meta name="keywords" content="">
+  <meta name="description" content="1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园...">
+  <meta name="baidu-site-verification" content="codeva-l3Vn4Lwfgj" />
+  <title>大观园拢翠庵 领略古典建筑之美</title>
+    <!--build:css css/styles.min1.css-->
+  <link rel="stylesheet" href="https://s.visitbeijing.com.cn/web/css/common.css">
+  <!--endbuild-->
+          <link rel="stylesheet" href="https://s.visitbeijing.com.cn/web/css/gallery.css">
+      <script type="text/javascript" src="https://s.visitbeijing.com.cn/web/js/jquery.min.js?v=3.7.1"></script>
+  <script type="text/javascript" src="https://s.visitbeijing.com.cn/web/js/auto.js"></script>
+</head>
+
+<body>
+    
+    <div class="head">
+  <div class="center">
+    <div class="logo-search">
+      <a href="http://www.visitbeijing.com.cn" class="logo">北京旅游网</a>
+      <div class="search">
+        <input style="background: 0 none;" autocomplete="off" class="input" id="q" name="q" placeholder="故宫">
+        <span></span>
+      </div>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="/" target="_blank"><span>首页</span></a></li>
+        <li><a href="https://s.visitbeijing.com.cn/cultures" ><span>文化</span></a></li>
+        <li>
+            <a href="https://s.visitbeijing.com.cn/attractions" ><span>景区</span></a>
+        </li>
+        <li><a href="https://s.visitbeijing.com.cn/foods" ><span>美食</span></a></li>
+        <li><a href="https://s.visitbeijing.com.cn/hotels" ><span>住宿</span></a></li>
+        <li><a href="https://s.visitbeijing.com.cn/gifts" ><span>购物</span></a></li>
+        <li><a href="https://s.visitbeijing.com.cn/lines" ><span>游玩路线</span></a></li>
+        <li><a href="https://s.visitbeijing.com.cn/gallerys" ><span>京城美景</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  $(function() {
+    function isIE() { //ie?
+      if ( !! window.ActiveXObject || "ActiveXObject" in window) return true;
+      else return false;
+    }
+    if (isIE()) {
+      $('.box .scenic-pictures .picUi ul li img').css({
+        "width": "auto",
+        "min-width": "100%",
+        "height": "100%",
+      });
+            $('.picFocus .bd img,.picFocus .hd ul li img').css({
+        "height": "auto",
+        "min-height": "100%",
+        "width": "100%",
+      })
+    }
+    // 顶部搜索
+    var $searchBtn = $(".search span");
+    var $searchInput = $(".search input");
+    var input = document.getElementById("q");
+
+    $searchBtn.on("click",
+    function() {
+      var key = $searchInput.val();
+      if (key == '') {
+        if (window.location.pathname === '/search') {
+          window.location.href = '//' + window.location.host + '/search';
+        } else {
+          window.open('//' + window.location.host + '/search');
+        }
+      } else {
+        if (window.location.pathname === '/search') {
+          window.location.href = '//' + window.location.host + '/search?key=' + encodeURIComponent(key);
+        } else {
+          window.open('//' + window.location.host + '/search?key=' + encodeURIComponent(key));
+        }
+
+      }
+    });
+    document.onkeydown = function(event) {
+      if (event.keyCode == 13) {
+        var hasFocus = document.hasFocus() && document.activeElement === input;
+        if (hasFocus) {
+          $searchBtn.click();
+        }
+      }
+    };
+  })
+
+  /* ============================================================
+     移动端适配（≤800px，断点与 CSS 媒体查询一致）
+     ============================================================ */
+  $(function () { // 注册顺序晚于上方 PC ready 块 → 后执行，off 才能正确摘除 PC 绑定
+    if (window.innerWidth > 800) return;
+
+    // 移动端导航：读取 PC 导航（.head .nav ul li > a）生成汉堡菜单（本站为单层菜单）
+    var $nav = $('.head .nav');
+    if ($nav.length) {
+      var html = '<div class="mobile-menu" id="mobileMenu"><ul>';
+      $nav.find('ul li a').each(function () {
+        var href = $(this).attr('href') || 'javascript:;';
+        var text = $.trim($(this).find('span').text()) || $.trim($(this).text());
+        html += '<li><a href="' + href + '">' + text + '</a></li>';
+      });
+      html += '</ul></div>';
+      $('.head .center').append(html); /* 抽屉菜单挂在 .head .center 下（绝对定位 top:100%） */
+      $('.head .logo-search').append('<div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>'); /* 按钮为 logo-search 的 flex 子项，与 logo 同行靠右 */
+      $('#navToggle').on('click', function (e) {
+        e.stopPropagation();
+        $(this).toggleClass('open');
+        $('#mobileMenu').slideToggle(200);
+      });
+      $(document).on('click', function (e) {
+        if (!$(e.target).closest('.head').length) {
+          $('#navToggle').removeClass('open');
+          $('#mobileMenu').slideUp(200);
+        }
+      });
+    }
+
+    // 搜索：window.open 在移动端有弹窗拦截风险，摘除 PC 绑定后改当前页跳转
+    var $searchBtn = $('.head .search span'),
+        $searchInput = $('.head .search input');
+    $searchBtn.off('click').on('click', function () {
+      var key = $.trim($searchInput.val());
+      location.href = '//' + location.host + '/search' + (key ? '?key=' + encodeURIComponent(key) : '');
+    });
+
+    // 回车搜索：部分安卓输入法回车 keyCode 为 229，补 e.key 判断
+    document.onkeydown = null;
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.keyCode === 13) {
+        var input = document.getElementById('q');
+        if (document.hasFocus() && document.activeElement === input) {
+          $searchBtn.click();
+        }
+      }
+    });
+  })
+</script>
+
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="/">首页</a></li>
+            <li><a href="/gallerys">京城美景</a></li>
+            <li class="active">大观园拢翠庵 领略古典建筑之美</li>
+        </ol>
+
+        <!-- 图集 -->
+        <div class="gallery">
+            <div class="gallery-top">
+                <h1>大观园拢翠庵 领略古典建筑之美</h1>
+                <div class="content">
+                    <div class="metadata">
+                        <span class="time">2025-01-07 17:27:22</span>
+                        <div class="tool">
+                            <span class="too_page">支持<i></i>键翻阅图片</span>
+                        </div>
+                    </div>
+                    <div class="gallery-swiper-box">
+                        <div class="sp-slides">
+                            <!-- 大图 -->
+
+                                                            <div class="sp-slide">
+                                    <div class="image image-contain">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/abcccbf9209e6bc59c8dd372608f9fb8.jpg">
+                                    </div>
+                                    <div class="sp-slide-mask"><h3 class="title">1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园林中点景的尼姑庵。后来惜春出家，便住在此处。对于此建筑布局，书中并未展开描述，只是点到山门、东禅堂、耳房这三处，其中给读者留下深刻印象的是栊翠庵中的红梅。</h3>
+                                    </div>
+                                </div>
+                                                        <div class="sp-slide">
+                                    <div class="image image-contain">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/3be75aa7ecef94c8223700d3dea973e8.jpg">
+                                    </div>
+                                    <div class="sp-slide-mask"><h3 class="title">1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园林中点景的尼姑庵。后来惜春出家，便住在此处。对于此建筑布局，书中并未展开描述，只是点到山门、东禅堂、耳房这三处，其中给读者留下深刻印象的是栊翠庵中的红梅。</h3>
+                                    </div>
+                                </div>
+                                                        <div class="sp-slide">
+                                    <div class="image image-contain">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/629054759ba386bce228cc899f74b68a.jpg">
+                                    </div>
+                                    <div class="sp-slide-mask"><h3 class="title">1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园林中点景的尼姑庵。后来惜春出家，便住在此处。对于此建筑布局，书中并未展开描述，只是点到山门、东禅堂、耳房这三处，其中给读者留下深刻印象的是栊翠庵中的红梅。</h3>
+                                    </div>
+                                </div>
+                                                        <div class="sp-slide">
+                                    <div class="image image-contain">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/02822cdf7662cdc831f8fba416f2c325.jpg">
+                                    </div>
+                                    <div class="sp-slide-mask"><h3 class="title">1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园林中点景的尼姑庵。后来惜春出家，便住在此处。对于此建筑布局，书中并未展开描述，只是点到山门、东禅堂、耳房这三处，其中给读者留下深刻印象的是栊翠庵中的红梅。</h3>
+                                    </div>
+                                </div>
+                                                        <div class="sp-slide">
+                                    <div class="image image-contain">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/e2681be70d1bf165cde2e80bf5956207.jpg">
+                                    </div>
+                                    <div class="sp-slide-mask"><h3 class="title">1月3日，大观园拢翠庵。栊翠庵是中国古典名著《红楼梦》中的一处建筑，是妙玉在大观园中的修行处，是一所园林中点景的尼姑庵。后来惜春出家，便住在此处。对于此建筑布局，书中并未展开描述，只是点到山门、东禅堂、耳房这三处，其中给读者留下深刻印象的是栊翠庵中的红梅。</h3>
+                                    </div>
+                                </div>
+                                                <!-- end 大图 -->
+                        </div>
+                        <div class="sp-pagination sp-pagination-fraction"></div>
+                        <div class="sp-thumbnails">
+                            <!-- 小缩略图 -->
+                                                            <div class="sp-thumbnail">
+                                    <div class="image image-cover">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/abcccbf9209e6bc59c8dd372608f9fb8.jpg">
+                                    </div>
+                                </div>
+                                                        <div class="sp-thumbnail">
+                                    <div class="image image-cover">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/3be75aa7ecef94c8223700d3dea973e8.jpg">
+                                    </div>
+                                </div>
+                                                        <div class="sp-thumbnail">
+                                    <div class="image image-cover">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/629054759ba386bce228cc899f74b68a.jpg">
+                                    </div>
+                                </div>
+                                                        <div class="sp-thumbnail">
+                                    <div class="image image-cover">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/02822cdf7662cdc831f8fba416f2c325.jpg">
+                                    </div>
+                                </div>
+                                                        <div class="sp-thumbnail">
+                                    <div class="image image-cover">
+                                        <img src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/e2681be70d1bf165cde2e80bf5956207.jpg">
+                                    </div>
+                                </div>
+                                                <!-- end 小缩略图 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end 图集 -->
+    </div>
+
+    <!-- 上一个图集&下一个图集 -->
+    <div class="fix-con">
+                    <div class="fix-con-left sibling">
+                <a class="link" target="_blank" href="https://s.visitbeijing.com.cn/gallery/24566">
+                    <div class="thumbnail"><img
+                            src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/a73f714bb7ee07f76785d8e8977e626f.jpg"
+                            alt="团结湖冰场人气爆棚 游客尽享滑冰快乐"></div>
+                    <div class="headline">
+                        <p>团结湖冰场人气爆棚 游客尽享滑冰快乐</p>
+                    </div>
+                </a>
+            </div>
+        
+                    <div class="fix-con-right sibling">
+                <a class="link" target="_blank" href="https://s.visitbeijing.com.cn/gallery/24574">
+                    <div class="thumbnail"><img
+                            src="https://r1.visitbeijing.com.cn/vbj-s/2025/0107/abf6b89f77e70232cde8fcfe9b8ea361.jpg"
+                            alt="全龄友好 西便门城墙遗址公园新年新气象"></div>
+                    <div class="headline">
+                        <p>全龄友好 西便门城墙遗址公园新年新气象</p>
+                    </div>
+                </a>
+            </div>
+            </div>
+    <!-- end 上一个图集&下一个图集 -->
+
+            
+    
+    <div class="foot">
+  <p>
+    <a href="https://www.visitbeijing.com.cn/about-us" target="_blank">关于北京旅游网</a><span>/</span>  
+    <a href="https://www.visitbeijing.com.cn/business-cooperation" target="_blank">商务合作</a><span>/</span>  
+    <a href="https://www.visitbeijing.com.cn/website-statement" target="_blank">网站声明</a><span>/</span>  
+    <a href="https://www.visitbeijing.com.cn/privacy-policy" target="_blank">隐私政策</a><span>/</span>  
+    <a href="https://www.visitbeijing.com.cn/contact-us" target="_blank">联系我们</a>
+  </p>
+  <p><span>北京旅游网京ICP备17049735号-1</span><span>京公网安备 11010502035003号</span></p>
+  <p>版权所有：北京市文化和旅游局宣传中心（北京市旅游运行监测中心）</p>
+</div>
+
+<!-- 百度统计 -->
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?69214f36a61ec4f20dc70b71487a8333";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+            <script type="text/javascript" src=" https://s.visitbeijing.com.cn/web/js/jquery.sliderPro.js"></script>
+            <script type="text/javascript" src=" https://s.visitbeijing.com.cn/web/js/gallery.js"></script>
+        </body>
+
+</html>

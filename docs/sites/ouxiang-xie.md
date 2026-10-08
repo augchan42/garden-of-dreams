@@ -80,3 +80,8 @@ The saved key edge blend is now 0.0001 instead of zero: glTF requires an inner a
 ## External foliage/material reference — 2026-10-08
 
 The slot-3 close reference is collected, directly reviewed and attributed in `../reference/external/ouxiang-xie/README.md`. A broad rounded lotus leaf with a gently undulating edge, radial veins, matte waxy surface and distinct water beads; a pale pink petal provides scale and color contrast. Useful for leaf/material detail, not architecture or night lighting. Original bytes match the Commons SHA-1. The night-set and architecture slots remain uncollected. This is reference collection, not acceptance of the current foliage mesh or material.
+
+
+## Collected water-pavilion architecture reference — 2026-10-08
+
+Slot 2: [original water-pavilion view](../reference/external/ouxiang-xie/oux-pavilion-over-water.jpg), a Sipa Photo image published in the [Beijing Tourism Ouxiang gallery](https://s.visitbeijing.com.cn/gallery/19014), 2022-05-20. The open red-column pavilions, connecting covered gallery, low geometric rails and raised platforms above water guide structure and access. Gray tiled eaves, painted blue/green/gold beams and lanterns guide material separation; the visible reflections expose platform supports. The gallery supplies the site identification. Exact dimensions, six-seat furniture, original historical construction and night lighting are not established. The watermark and original bytes are retained with copyrighted-source attribution. The night-set slot remains missing.
