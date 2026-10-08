@@ -1,21 +1,39 @@
 [
   {
-    "title": "大观园 Beijing, China (25419687734).jpg",
-    "photographer": "朱華龍 - Zhu Hua Long",
-    "date": "2016-02-16 11:40",
-    "source_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%A7%82%E5%9B%AD_Beijing,_China_(25419687734).jpg",
-    "original_source": "https://upload.wikimedia.org/wikipedia/commons/2/20/%E5%A4%A7%E8%A7%82%E5%9B%AD_Beijing%2C_China_%2825419687734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "photographer_source": "https://www.flickr.com/photos/mfaris01/25419687734/",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "local_file": "ice-crack-lattice-close.jpg",
-    "sha256": "5ca18fc7bed1e92c45352955afed1a582589ea3817c9db54905ac819a60d06a1",
-    "commons_sha1": "ebe1eef9a45455509325acdb834139b1c5527a09",
-    "changes": "None; unmodified original bytes verified against Commons imageinfo SHA-1.",
-    "scope": "Collected close material reference; not a site-identification claim",
-    "visual_review": "A close view of four pale painted wood screen leaves with irregular ice-crack lattice around two rectangular clear panes per leaf, carved lower panels and visible joints/hinges. It supports the Hengwu courtyard leak-window material and pattern specified in its wall kit. The photographed building is not identified as Hengwu; this is a distinguishing lattice/material reference, not site-specific architecture, plaster-rock detail or night lighting.",
+    "reference_slot": 1,
+    "title": "The Enchanting Shadow — night wall/window frame at 53.0 s in the published trailer",
+    "photographer": "Individual frame/still photographer uncredited; film produced by Shaw Brothers, trailer published by Shaw Brothers Clips",
+    "date": "Trailer upload 2012-10-18; original capture date not supplied",
+    "source_page": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "original_source": "https://www.youtube.com/watch?v=oJ_Sy5j1XYU",
+    "publisher": "Shaw Brothers Clips",
+    "publisher_channel": "https://www.youtube.com/channel/UCNggjvVJyYfVV4kl2gdR7dQ",
+    "license": "Copyrighted Shaw Brothers film/trailer reference; no open licence or redistribution permission is asserted.",
+    "license_url": "https://www.celestialpictures.com/company.php",
+    "local_file": "enchanting-shadow-night-wall.png",
+    "sha256": "0181b4387795d58f4bd187e9c23d9bd40748f41c1a5e6dab10496d3b84b890ad",
+    "dimensions": [
+      600,
+      480
+    ],
+    "source_video": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+    "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+    "actual_stream_pts": 678400,
+    "actual_stream_pts_seconds": 53.0,
+    "publisher_metadata": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+    "extraction_log": "enchanting-shadow-night-extraction.log",
+    "extraction_log_sha256": "4068fa10d6bb14dc686a313581e62012cb5952ebab02c26fb903eaec2e98b58a",
+    "changes": "One entire frame decoded from the retained downloaded stream to PNG. No crop, resize or color grade added; publisher bars/framing/subtitles retained. This is a decoded video frame, not an original publisher JPEG.",
+    "scope": "Collected night-set lighting/built-set reference only; not a shipped texture, source model or Hengwu identification.",
+    "visual_review": "The frame shows a figure beside broken brick/plaster masonry and a dark geometric lattice opening. Restricted blue light picks out the window and rough masonry edges; warmer brown/amber accents distinguish the near wall and costume while branches and deep openings stay near black. Night appearance is inferred visually from the directed blue light and dark setting; no shot caption supplies the time of day. It fills the generic Shaw night-set lighting/built-set slot, not Hengwu identity, its complete courtyard, herb species, perforated rocks or dimensions. No amber room lamp is visible, and the reference branches do not authorize adding trees to Hengwu's required clear skyline. Use neutral stone/plaster against limited cool fill and warm accents without copying the saturated blue source grade.",
     "reviewed_at": "2026-10-08",
-    "reference_slot": 3
+    "year_discrepancy": {
+      "channel_title_and_description_year": 1959,
+      "hkfa_film_record_year": 1960,
+      "hkfa_source_page": "https://www.filmarchive.gov.hk/en/web/hkfa/pe-event-2017-9-1-7.html",
+      "saved_hkfa_record": "docs/reference/external/qiushuang-zhai/hkfa-enchanting-shadow-source.json",
+      "scope": "The channel year is preserved verbatim, not adopted as verified release year."
+    }
   },
   {
     "title": "大观园 Beijing, China (25932181142).jpg",
@@ -34,5 +52,23 @@
     "visual_review": "The visible entrance plaque reads 蘅蕪苑 from right to left, identifying the site. A low gray barrel-tile eave, red columns and door surround, blue/green/gold painted beams and irregular ice-crack lattice flank the opening. This supports courtyard entrance, fretwork and beam construction. The cropped daylight photograph does not establish the whole courtyard, herb/rock layout, dimensions or night lighting.",
     "reviewed_at": "2026-10-08",
     "reference_slot": 2
+  },
+  {
+    "title": "大观园 Beijing, China (25419687734).jpg",
+    "photographer": "朱華龍 - Zhu Hua Long",
+    "date": "2016-02-16 11:40",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E8%A7%82%E5%9B%AD_Beijing,_China_(25419687734).jpg",
+    "original_source": "https://upload.wikimedia.org/wikipedia/commons/2/20/%E5%A4%A7%E8%A7%82%E5%9B%AD_Beijing%2C_China_%2825419687734%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "photographer_source": "https://www.flickr.com/photos/mfaris01/25419687734/",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "local_file": "ice-crack-lattice-close.jpg",
+    "sha256": "5ca18fc7bed1e92c45352955afed1a582589ea3817c9db54905ac819a60d06a1",
+    "commons_sha1": "ebe1eef9a45455509325acdb834139b1c5527a09",
+    "changes": "None; unmodified original bytes verified against Commons imageinfo SHA-1.",
+    "scope": "Collected close material reference; not a site-identification claim",
+    "visual_review": "A close view of four pale painted wood screen leaves with irregular ice-crack lattice around two rectangular clear panes per leaf, carved lower panels and visible joints/hinges. It supports the Hengwu courtyard leak-window material and pattern specified in its wall kit. The photographed building is not identified as Hengwu; this is a distinguishing lattice/material reference, not site-specific architecture, plaster-rock detail or night lighting.",
+    "reviewed_at": "2026-10-08",
+    "reference_slot": 3
   }
 ]

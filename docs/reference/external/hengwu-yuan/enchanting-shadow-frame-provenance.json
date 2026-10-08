@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-v",
+    "info",
+    "-threads",
+    "1",
+    "-i",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/enchanting-shadow.mp4",
+    "-map",
+    "0:v:0",
+    "-vf",
+    "select=gte(t\\,53.0),showinfo",
+    "-frames:v",
+    "1",
+    "-threads",
+    "1",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/hengwu-night-exact.png"
+  ],
+  "exit_code": 0,
+  "source_video_sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b",
+  "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/hengwu-night-exact.png",
+  "frame_sha256": "0181b4387795d58f4bd187e9c23d9bd40748f41c1a5e6dab10496d3b84b890ad",
+  "actual_stream_pts": 678400,
+  "actual_stream_pts_seconds": 53.0,
+  "requested_seconds": 53.0,
+  "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-official-trailer-reference-9yi0pqw9/hengwu-extraction.log",
+  "log_sha256": "4068fa10d6bb14dc686a313581e62012cb5952ebab02c26fb903eaec2e98b58a",
+  "scope": "Decoded whole video frame only; relevance review pending."
+}

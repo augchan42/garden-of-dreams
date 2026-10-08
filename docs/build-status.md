@@ -1135,3 +1135,7 @@ Remaining slots: Aojing 3 (material close view), Hengwu 1 (night set), Qinfang 1
 ## Ouxiang paving-join diagnosis — 2026-10-08
 
 CPU pixel rays through the existing native 390 × 844 capture identify two overlapping stone-path top-face pairs at the nearly black foreground rectangles. Their exact RGB16 source-map samples are much darker than adjacent paving; separate sampled water pixels intersect the animated water mesh. A source-constructor trim proposal removes 4.86m² of path overlap while preserving its union across 99 rectangular partition classes. This is diagnostic evidence and an unapplied proposal. Native saved-object ownership, causal control render, source repair/fresh lighting/visual and route acceptance are pending. No production scene or shader changed. Evidence: `reference/ouxiang-path-joins/README.md` and `export/ouxiang-path-join-evidence.json`.
+
+## Reference collection: 36/42 — 2026-10-08
+
+Aojing's close timber/glazing photograph and Hengwu's night wall/window frame are now directly reviewed and saved with original bytes, attribution and hashes. Both sites have all three required references. Remaining six slots: Qinfang 1, rockery 2–3 and terminal 1–3. Source originals and exact film PTS are documented in the two site reference READMEs. These material/lighting observations do not establish scene identity, measured architecture or final art acceptance. Evidence: `export/aojing-hengwu-reference-evidence.json`.

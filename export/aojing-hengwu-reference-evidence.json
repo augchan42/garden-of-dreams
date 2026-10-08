@@ -1,0 +1,90 @@
+{
+  "status": "two_additional_references_directly_reviewed_and_saved",
+  "scope": "Reference collection only; no production geometry, materials, lighting, runtime, device build or release changes. Existing earlier reference coverage indexes record their collection-time snapshot.",
+  "coverage_at_collection": {
+    "collected": 36,
+    "expected": 42,
+    "missing_slots": {
+      "qinfang-ting": [
+        1
+      ],
+      "rockery-gate": [
+        2,
+        3
+      ],
+      "terminal-cells": [
+        1,
+        2,
+        3
+      ]
+    },
+    "complete": false
+  },
+  "artifacts": [
+    {
+      "path": "docs/reference/external/aojing-guan/weathered-timber-glazing-close.jpg",
+      "bytes": 1264725,
+      "sha256": "3f8277316a342907027a9e9489504f29d825352061d6958039ff170d49cacb5a"
+    },
+    {
+      "path": "docs/reference/external/aojing-guan/timber-glazing-commons-source.json",
+      "bytes": 2046,
+      "sha256": "ecce420ab530a731e1a7bcb3971b09f2858666b211d38c175c724ed1a586b62f"
+    },
+    {
+      "path": "docs/reference/external/aojing-guan/executed-material-collector.py",
+      "bytes": 1519,
+      "sha256": "e54506d46090407763b3166c39f80fc6a652ab41cc18331eb2bbcebc38e4aef8"
+    },
+    {
+      "path": "docs/reference/external/aojing-guan/sources.json",
+      "bytes": 6602,
+      "sha256": "c37e1a715026abfdf11451c77ed1be0a5a8f315c0ca822ea528b43baa496de72"
+    },
+    {
+      "path": "docs/reference/external/aojing-guan/README.md",
+      "bytes": 4115,
+      "sha256": "480bd36311102a1ecd28c3186465c721e72ffb9183f98f66a896fca8831dcfce"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/enchanting-shadow-night-wall.png",
+      "bytes": 222599,
+      "sha256": "0181b4387795d58f4bd187e9c23d9bd40748f41c1a5e6dab10496d3b84b890ad"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/enchanting-shadow-night-extraction.log",
+      "bytes": 3978,
+      "sha256": "4068fa10d6bb14dc686a313581e62012cb5952ebab02c26fb903eaec2e98b58a"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/enchanting-shadow-frame-provenance.json",
+      "bytes": 1182,
+      "sha256": "552abda76eda8cb6e3496eb95bdb87d7fa706cced43d64229664641f4275ff60"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/executed-reference-saver.py",
+      "bytes": 9133,
+      "sha256": "5029a0d4313a255992b80b22895770e42e8233d764751963676158f1c023672a"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/sources.json",
+      "bytes": 6239,
+      "sha256": "e72d6d7754c52ddc8cb700739f29fa9cc7e9cd1ce7268c535e5e923085a95d73"
+    },
+    {
+      "path": "docs/reference/external/hengwu-yuan/README.md",
+      "bytes": 4022,
+      "sha256": "62c447263c6a29173e04833db8fc2c68765eeca2b535ebca4b2328371ee709b2"
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow.mp4",
+      "bytes": 4246617,
+      "sha256": "f6801f918435e7b77df303f6698497af0e1796677e8f8faf274b2ba32b9cb45b"
+    },
+    {
+      "path": "docs/reference/external/supporting/shaw-trailers/enchanting-shadow-publisher.json",
+      "bytes": 3100,
+      "sha256": "c96578b0657d2124ef6e7e2c2554504a41b6a12622ec16a945c2e38c296fca77"
+    }
+  ]
+}

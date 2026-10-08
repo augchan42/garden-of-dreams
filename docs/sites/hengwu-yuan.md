@@ -32,7 +32,7 @@ A low, still camera makes the stones prominent without blocking the table. Ship 
 2. A sourced architectural reference specific to this site's structure.
 3. A sourced close view of its distinguishing material or foliage.
 
-These are collection requirements, not claims that reference stills have been collected.
+Current saved references and any unfilled slots are recorded below and in the external reference README.
 
 ## Current build and acceptance
 
@@ -81,3 +81,9 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 Slot 2: [original photograph](../reference/external/hengwu-yuan/hengwu-entrance-plaque.jpg), by 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible entrance plaque reads 蘅蕪苑 from right to left, identifying the site. A low gray barrel-tile eave, red columns and door surround, blue/green/gold painted beams and irregular ice-crack lattice flank the opening. This supports courtyard entrance, fretwork and beam construction. The cropped daylight photograph does not establish the whole courtyard, herb/rock layout, dimensions or night lighting. Attribution, license and original-byte integrity are saved beside the image. Other reference slots remain open.
 
 Slot 3: [original photograph](../reference/external/hengwu-yuan/ice-crack-lattice-close.jpg), by 朱華龍 - Zhu Hua Long, CC BY 2.0. A close view of four pale painted wood screen leaves with irregular ice-crack lattice around two rectangular clear panes per leaf, carved lower panels and visible joints/hinges. It supports the Hengwu courtyard leak-window material and pattern specified in its wall kit. The photographed building is not identified as Hengwu; this is a distinguishing lattice/material reference, not site-specific architecture, plaster-rock detail or night lighting. Attribution, license and original-byte integrity are saved beside the image. Other reference slots remain open.
+
+## Completed reference collection — 2026-10-08
+
+Slot 1 now has a directly reviewed sourced reference. The frame shows a figure beside broken brick/plaster masonry and a dark geometric lattice opening. Restricted blue light picks out the window and rough masonry edges; warmer brown/amber accents distinguish the near wall and costume while branches and deep openings stay near black. Night appearance is inferred visually from the directed blue light and dark setting; no shot caption supplies the time of day. It fills the generic Shaw night-set lighting/built-set slot, not Hengwu identity, its complete courtyard, herb species, perforated rocks or dimensions. No amber room lamp is visible, and the reference branches do not authorize adding trees to Hengwu's required clear skyline. Use neutral stone/plaster against limited cool fill and warm accents without copying the saturated blue source grade.
+
+All three slots are collected; attribution, rights, originals and hashes are recorded in `../reference/external/hengwu-yuan/README.md`. This does not establish final scene art or rendering/device/service acceptance.

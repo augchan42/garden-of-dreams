@@ -89,3 +89,9 @@ Architecture slot 2 now retains Beijing Tourism's named facade image. Direct rev
 Slot 1 now has a directly reviewed frame from the published *The Magic Blade* trailer at 5.0 seconds. A wet night lane has pale plaster walls, octagonal openings, puddle highlights, dark foreground cart/timber silhouettes and small warm lights at the distant gate. Blue/cool wall light and warm practicals separate materials without lighting the entire foreground. Night appearance is a visual inference from the dark exterior and visible lamps. This supplies the generic night-set lighting slot only: it is a street, not Aojing or a water-level reflection hall, and proves no pond waterline, dry ledge, facade dimensions or one-window placement. The low-resolution frame cannot establish fine plaster texture.
 
 Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/aojing-guan/README.md`. Remaining reference slots: 3. This does not establish final scene art, lighting, performance or service acceptance.
+
+## Completed reference collection — 2026-10-08
+
+Slot 3 now has a directly reviewed sourced reference. The close photograph shows dull weathered timber grain, chipped pale paint along the jambs and glazing bars, recessed clear panes, dark reflected foliage and thin surface dirt/webs. It supplies a timber-and-glazing surface reference for Aojing's shutter/window dressing. This is not verified Chinese or Aojing architecture, a survey, night lighting or a prescription to copy the shingle facade, pediment, grid proportions or extreme paint decay. Use grain/roughness and glass contrast only; retain the game's authored dark shutters, single amber window and stage-set treatment.
+
+All three slots are collected; attribution, rights, originals and hashes are recorded in `../reference/external/aojing-guan/README.md`. This does not establish final scene art or rendering/device/service acceptance.
