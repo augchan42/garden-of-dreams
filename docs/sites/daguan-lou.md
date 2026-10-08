@@ -74,3 +74,8 @@ patchy shading; the actual 512px lossless RGB8 import is selected for further
 validation. Production remains unchanged. Complete lighting, gutter/noise
 review, joins, palette, memory and phone acceptance are still required.
 See [the recorded experiment](../reference/imperial-roof-charts/README.md).
+
+
+## Working roof correction installed — 2026-10-08
+
+The complete `361a67c7` working bundle now uses the verified imperial UV2 allocation and lossless 512 roof import. Matching complete source lighting, cold/reimport contracts, saved libraries, both full rendered walks and post-install production checks pass. The canonical Blender exporter reproduces all 16 GLBs exactly. The directly compared desktop/portrait originals show lit narrow tile ribs in place of broad black stripes. Facade mottling, dark eave joins, final palette/materials, gutters, device and sustained budgets remain unaccepted. See [the full recorded review](../reference/imperial-full-lighting/README.md).

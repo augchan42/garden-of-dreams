@@ -1,0 +1,75 @@
+{
+  "status": "actual_import_checks_complete_visual_review_pending",
+  "started_at": "2026-10-08T12:00:54.840988+00:00",
+  "orchestrator_pid": 50307,
+  "phases": [
+    {
+      "name": "lossless256-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/import-comparison-logs/lossless256-import.log",
+      "status": "passed",
+      "pid": 50309,
+      "exit_code": 0,
+      "log_sha256": "d45aaf811549185683d387c864aed34d947e6b8113cb4658782e03cc6eeefa50"
+    },
+    {
+      "name": "lossless256-render",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--script",
+        "res://tests/diagnose_oux_lossless256.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/lossless256-captures"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/import-comparison-logs/lossless256-render.log",
+      "status": "passed",
+      "pid": 50317,
+      "exit_code": 0,
+      "log_sha256": "09581d463c665ba8bfd26f04d04747a0b3068806656b32a140031a81cc8a0195"
+    },
+    {
+      "name": "compressed256-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/import-comparison-logs/compressed256-import.log",
+      "status": "passed",
+      "pid": 50331,
+      "exit_code": 0,
+      "log_sha256": "d45aaf811549185683d387c864aed34d947e6b8113cb4658782e03cc6eeefa50"
+    },
+    {
+      "name": "compressed256-render",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--script",
+        "res://tests/diagnose_oux_compressed256.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/compressed256-captures"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/import-comparison-logs/compressed256-render.log",
+      "status": "passed",
+      "pid": 50334,
+      "exit_code": 0,
+      "log_sha256": "09581d463c665ba8bfd26f04d04747a0b3068806656b32a140031a81cc8a0195"
+    }
+  ],
+  "scope": "Actual lossless256 and compressed256 Ouxiang target imports with unchanged complete361a baseline and fresh be80374c target mesh/map. New portrait-water comparison targets height0.5 with2.0distance multiplier. No complete candidate lighting, production adoption or final camera acceptance.",
+  "finished_at": "2026-10-08T12:01:46.796499+00:00"
+}

@@ -85,3 +85,8 @@ The slot-3 close reference is collected, directly reviewed and attributed in `..
 ## Collected water-pavilion architecture reference — 2026-10-08
 
 Slot 2: [original water-pavilion view](../reference/external/ouxiang-xie/oux-pavilion-over-water.jpg), a Sipa Photo image published in the [Beijing Tourism Ouxiang gallery](https://s.visitbeijing.com.cn/gallery/19014), 2022-05-20. The open red-column pavilions, connecting covered gallery, low geometric rails and raised platforms above water guide structure and access. Gray tiled eaves, painted blue/green/gold beams and lanterns guide material separation; the visible reflections expose platform supports. The gallery supplies the site identification. Exact dimensions, six-seat furniture, original historical construction and night lighting are not established. The watermark and original bytes are retained with copyrighted-source attribution. The night-set slot remains missing.
+
+
+## Isolated roof and portrait comparison — 2026-10-08
+
+Saved-source inspection matches all 168 closed tile cylinders and the roof shell to unique exported components. Their subpixel UV2 charts have a separate geometry-preserving proposal with fresh 128-sample roof lighting. Upward side zero samples fall 117/1344 to 0/1344; cap zeros persist. Actual 512px lossless native views look cleaner than actual 256px lossless or compressed imports. A lower/further portrait pose reveals more platform and water. This roof/camera proposal is uninstalled: default exporter equivalence, complete matching lighting, final framing/materials and memory/device checks remain open. See [the native comparison](../reference/ouxiang-roof-native/README.md).

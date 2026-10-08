@@ -1,0 +1,25 @@
+{
+  "status": "lossless512_selected_for_complete_candidate_validation",
+  "candidate_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+  "directly_viewed": {
+    "native-captures/desktop-baseline.png": "7ed76ac56277720b9b766fddb2a03bb191960383e19f73ce381f96d132fbbfc1",
+    "native-captures/desktop-candidate-import512.png": "7b157a864cd32393d5e16b61f376f52ccc34ef9900208dbd7a9a6b19ae8d3963",
+    "native-captures/roof-close-baseline.png": "6841d974d52d54c643cf0df28101d3206b5570094c1e05459e7f723ed0d69bae",
+    "native-captures/roof-close-candidate-import512.png": "2553f85e225f33388612ef150e5af0ddfc82db9791855fe7d407655572a1beb4",
+    "native-captures/portrait-baseline.png": "963d5650e7e5a2c5b5e2cc71b483b3fd6b8b1ced2b25779db28761ea9f106a6a",
+    "native-captures/portrait-candidate-import512.png": "da1b7d6a3484383559a8bf80c0ac56c71ab00218760b229ad92e3caad62ce380",
+    "native-captures/portrait-water-candidate-import512.png": "a9abf3edc0aa4726381a974275d6c5c3e9425aa67f1e2bb1b2a37a81db30fd05",
+    "native-captures/roof-close-candidate-lossless256.png": "5c26d6982bee605dace313ab176c47b1ba0f065f2b52777c62b352b9ae2da31e",
+    "lossless256-captures/roof-close-candidate-import256.png": "2e2b15857cb30dce8541e38ee427288fda42fffcb2a1a2a1e55218657bd1dbe8",
+    "compressed256-captures/roof-close-candidate-import256.png": "702a4aa4e55c0ab5d40f670c7f457656ba5ac7e58b0a9dd3d219237a87b4ecd8",
+    "compressed256-captures/portrait-candidate-import256.png": "b59c5de560ba869fe4f41e56ec5a43c7dc4dcdd719d4f0f2c7604b939d13adf8",
+    "compressed256-captures/portrait-water-candidate-import256.png": "2bde2437160494745804eb722905c26372e4d01e5fa0710cc04bf97c721b13a1"
+  },
+  "notes": [
+    "Actual lossless512 removes the large patchy strips and retains clean narrow tile lines in desktop, close and portrait views.",
+    "Manual resized256 preview looks smoother than both actual256 imports; both actual lossless256 and compressed256 retain patchy/alternating shading. Retain512 for next complete validation.",
+    "Upward side zero RGB16 centroids117/1344 to0/1344; upward cap zeros218/1008 to229/1008. Cap occlusion/raster/filter cause remains unproven.",
+    "First portrait-water proposal height1.0/distancemultiplier1.75 reveals more platform but remains tight on the left eave. Second proposal height0.5/multiplier2.0 fits more roof/platform/water. It still uses unaccepted256 texture;512version and dynamic/native fullwalk camera acceptance remain pending.",
+    "No Ouxiang production install or final-art acceptance."
+  ]
+}

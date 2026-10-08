@@ -1,0 +1,37 @@
+.FFF
+======================================================================
+FAIL: test_stale_engine_source_rejected_before_import_mutation (__main__.ImperialImportPolicy.test_stale_engine_source_rejected_before_import_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_imperial_lightmap_imports.py", line 72, in test_stale_engine_source_rejected_before_import_mutation
+    self.assertIn('catalog/source mismatch', result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'catalog/source mismatch' not found in 'usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]\n                                     [--facade-size-limit {0,256,512,1024}]\n                                     [--uncompressed] [--demo]\n                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]\nconfigure_lightmap_imports.py: error: unrecognized arguments: --imperial-lossless512\n'
+
+======================================================================
+FAIL: test_verified_exception_preserves_other_roof (__main__.ImperialImportPolicy.test_verified_exception_preserves_other_roof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_imperial_lightmap_imports.py", line 55, in test_verified_exception_preserves_other_roof
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]
+                                     [--facade-size-limit {0,256,512,1024}]
+                                     [--uncompressed] [--demo]
+                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]
+configure_lightmap_imports.py: error: unrecognized arguments: --imperial-lossless512
+
+
+======================================================================
+FAIL: test_wrong_uv_rejected_before_import_mutation (__main__.ImperialImportPolicy.test_wrong_uv_rejected_before_import_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_imperial_lightmap_imports.py", line 64, in test_wrong_uv_rejected_before_import_mutation
+    self.assertIn('requires the verified tile charts', result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'requires the verified tile charts' not found in 'usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]\n                                     [--facade-size-limit {0,256,512,1024}]\n                                     [--uncompressed] [--demo]\n                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]\nconfigure_lightmap_imports.py: error: unrecognized arguments: --imperial-lossless512\n'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.198s
+
+FAILED (failures=3)
