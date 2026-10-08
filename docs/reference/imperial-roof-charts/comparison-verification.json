@@ -1,0 +1,38 @@
+{
+  "status": "isolated_comparisons_verified",
+  "runs": {
+    "native-captures": {
+      "status": "passed",
+      "baseline_restorations_byte_identical": 3,
+      "capture_cases": 18
+    },
+    "filter-captures": {
+      "status": "passed",
+      "baseline_restorations_byte_identical": 3,
+      "capture_cases": 24
+    },
+    "lossless-import-captures": {
+      "status": "passed",
+      "baseline_restorations_byte_identical": 3,
+      "capture_cases": 24
+    },
+    "lossless512-import-captures": {
+      "status": "passed",
+      "baseline_restorations_byte_identical": 3,
+      "capture_cases": 24
+    }
+  },
+  "selected_next_candidate": "UV2 correction with actual 512px lossless RGB8 import, pending full-source lighting and acceptance",
+  "actual_import": {
+    "data_bytes": 786432,
+    "format": 4,
+    "height": 512,
+    "image_sha256": "76912906dab8fcc7d46dd8b00b93b5205502b972301bab65926c0b53321a0203",
+    "import_params_sha256": "0b30d0cbf691327794e91977282b93ba5e8c021e06a05d09e056b18d329e519c",
+    "width": 512
+  },
+  "production_authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "production_glb_sha256": "b540496a9129879389a96f5fff0cf59c04c0ff116fa44f2a2389fee3f643f4f1",
+  "candidate_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "scope": "Roof-only diagnostic comparison in current full scene. All workers terminal; no production adoption, full fresh bake, all-room acceptance, target-device, memory-budget or release claim."
+}

@@ -1,0 +1,125 @@
+{
+  "status": "source_owned_imperial_roof_sampled",
+  "source_authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "source_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "source_map_sha256": "a4eca301b28c123285720b95526ac6c14bdaab968a6842d770d9487b184af532",
+  "source_map_size": 1024,
+  "matched_saved_objects": 578,
+  "groups": {
+    "shell_all": {
+      "triangles": 52,
+      "altitude_source_pixels_quantiles": [
+        1.9337762594223022,
+        23.622398376464844,
+        33.561805725097656,
+        55.483144760131836,
+        88.68873596191406
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 6,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.037434592001306256,
+        0.18414350473755364,
+        0.3523040485796317,
+        0.4973199896076304
+      ]
+    },
+    "shell_upward": {
+      "triangles": 52,
+      "altitude_source_pixels_quantiles": [
+        1.9337762594223022,
+        23.622398376464844,
+        33.561805725097656,
+        55.483144760131836,
+        88.68873596191406
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 6,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.037434592001306256,
+        0.18414350473755364,
+        0.3523040485796317,
+        0.4973199896076304
+      ]
+    },
+    "cylinder_sides_all": {
+      "triangles": 9216,
+      "altitude_source_pixels_quantiles": [
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 26,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.009702194496575197,
+        0.04061310874287684,
+        0.19929562591284394,
+        0.6377454233466842
+      ]
+    },
+    "cylinder_sides_upward": {
+      "triangles": 4520,
+      "altitude_source_pixels_quantiles": [
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531,
+        1.9930915832519531
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 15,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.04284015114996666,
+        0.19373817867865795,
+        0.35197664524989036,
+        0.5702747110462486
+      ]
+    },
+    "cylinder_caps_all": {
+      "triangles": 6912,
+      "altitude_source_pixels_quantiles": [
+        1.17156982421875,
+        1.1715772151947021,
+        2.164783239364624,
+        2.8284270763397217,
+        4.000004291534424
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 2936,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.0,
+        0.0012727026630282865,
+        0.03126639843158084,
+        0.9210373664217408
+      ]
+    },
+    "cylinder_caps_upward": {
+      "triangles": 3456,
+      "altitude_source_pixels_quantiles": [
+        1.17156982421875,
+        1.17156982421875,
+        2.164783239364624,
+        2.8284270763397217,
+        4.000004291534424
+      ],
+      "triangles_under_one_source_pixel_altitude": 0,
+      "zero_irradiance_centroids": 1543,
+      "irradiance_luminance_quantiles": [
+        0.0,
+        0.0,
+        0.00039164345307254476,
+        0.2063340346334982,
+        0.9210373664217408
+      ]
+    }
+  },
+  "scope": "Exact saved-object ownership of all exported roof triangles; UV2 source-pixel altitudes and RGB16 triangle-centroid irradiance. Does not prove camera visibility, filtered native appearance or final art acceptance."
+}

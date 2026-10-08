@@ -1061,3 +1061,25 @@ The stationary Mac normal-route texture audit remains 178 textures, 35,018,254 i
 ## Current pavilion-source Android preparation — 2026-10-08
 
 A fresh diagnostic Android import/export passes for the installed b540496a source. The APK is 91,579,996 bytes (`5a0aa30e…`), with finalized embedded texture provenance and all 177 normal-route bound file imports, their actual cache payloads and required foliage LODs verified. A byte-matched copy is in `build/garden-phone-profile.apk`. The Pixel remains locked; this APK is uninstalled and has no fresh device samples. Evidence: `export/pavilion-tile-android-evidence.json`. This is a diagnostic package, not release or authentication acceptance.
+
+
+## Isolated imperial roof chart correction — 2026-10-08
+
+Production authoring9356/export+Godot b540 remains installed. The separate
+361a67c7 Daguan candidate preserves geometry/normals/primary UVs, 716 other
+resolved nodes and fourteen other site GLB bytes. All 576 closed tile cylinders
+have outward normals; their original side charts were under 0.1 source pixel.
+Explicit UV2 charts plus a fresh 128-sample roof bake reduce zero upward-side
+centroids from 4065/4520 to 15/4520. These are RGB16 centroid diagnostics.
+
+Four native Godot fixed-clock comparisons pass: portrait, desktop and close-up,
+90 captures and twelve byte-identical baseline restorations. Sixteen originals
+were directly inspected. Actual 256px imports retain patchy shading; actual
+512px lossless RGB8 improves the inspected roof views and is selected for
+complete-source validation. Its decoded image is 786432 bytes, not a renderer
+or device budget measurement. Full matching lighting, gutters/noise, moving
+camera, all-site art, memory/device acceptance and adoption remain pending.
+No new full bake or Android package was started. All experiment jobs exited.
+See docs/reference/imperial-roof-charts/README.md and
+export/imperial-roof-charts-evidence.json for source/maps/code/logs and failed
+attempts. Full Garden scope, 20 missing references and service work remain open.

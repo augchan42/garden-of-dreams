@@ -1,0 +1,45 @@
+[
+  {
+    "name": "candidate-import",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/godot",
+      "--headless",
+      "--editor",
+      "--import"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  },
+  {
+    "name": "candidate-map-import",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/godot",
+      "--headless",
+      "--editor",
+      "--import"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  },
+  {
+    "name": "native-comparison",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/godot",
+      "--script",
+      "res://tests/diagnose_imperial_chart_candidate.gd",
+      "--",
+      "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/native-captures"
+    ],
+    "exit_code": 0,
+    "native_errors": [],
+    "status": "passed"
+  }
+]

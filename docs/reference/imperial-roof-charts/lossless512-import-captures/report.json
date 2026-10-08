@@ -1,0 +1,158 @@
+{
+  "candidate_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "candidate_import": {
+    "data_bytes": 786432,
+    "format": 4,
+    "height": 512,
+    "image_sha256": "76912906dab8fcc7d46dd8b00b93b5205502b972301bab65926c0b53321a0203",
+    "import_params_sha256": "0b30d0cbf691327794e91977282b93ba5e8c021e06a05d09e056b18d329e519c",
+    "width": 512
+  },
+  "candidate_lightmap_record": {
+    "mesh": "SITE_daguan-lou_MAT_rooftile",
+    "nonzero_fraction": 0.615775108337402,
+    "point_lights_baked": false,
+    "samples": 128.0,
+    "scale": 1.03777074813843,
+    "shadow_intent": {
+      "SITE_stage_MAT_stage_canopy_paint": false
+    },
+    "site": null,
+    "size": 1024.0,
+    "source_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+    "status": "Cycles bake produced; engine look verification pending",
+    "texture": "SITE_daguan-lou_MAT_rooftile.png",
+    "uv_channel": 1.0,
+    "uv_sha256": "001c6e9d40bd62cabdb887995a624e9ae5c7edcfddc0351f4016e59fc06f3989"
+  },
+  "candidate_lightmap_sha256": "a4eca301b28c123285720b95526ac6c14bdaab968a6842d770d9487b184af532",
+  "scope": "Only the Daguan roof mesh and its actual fresh candidate bake are swapped in the isolated current scene. Other geometry/maps/lights/materials/UI remain the baseline. No old map relabelling, whole-candidate lighting, production adoption, traversal, final art or performance claim.",
+  "source_glb_sha256": "b540496a9129879389a96f5fff0cf59c04c0ff116fa44f2a2389fee3f643f4f1",
+  "status": "passed",
+  "test_script_sha256": "ad91987de613608998b667189abe2a6118d5659fbc522bfa87b1277ab29e79a5",
+  "views": {
+    "desktop": {
+      "camera_transform": "[X: (0.876216, 0.0, -0.481919), Y: (0.008444, 0.999847, 0.015353), Z: (0.481845, -0.017522, 0.876081), O: (5.5, 2.5, -13.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-baseline.png",
+          "sha256": "e27c245999b0a72c9feb470d2543db2333bab39739ca14a17ab1dcd700fc7fb3"
+        },
+        "baseline-again": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-baseline-again.png",
+          "sha256": "e27c245999b0a72c9feb470d2543db2333bab39739ca14a17ab1dcd700fc7fb3"
+        },
+        "baseline-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-baseline-lossless-native.png",
+          "sha256": "64e49ac2a6a3cfe5687a646bd442ed543fadd53385147a677c1298bb5e7b968d"
+        },
+        "baseline-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-baseline-lossless256.png",
+          "sha256": "c489380412216345473658e10ebc3d162c4d064e76f9e1a48afa5739c71fe817"
+        },
+        "candidate-import512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-candidate-import512.png",
+          "sha256": "97f48376ebc8504a788f3c4ef543ac1fbd6c88ceb0581ecdc70da4ff488ae281"
+        },
+        "candidate-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-candidate-lossless-native.png",
+          "sha256": "10501788cedf5dc4e1f87b5d2debab83248a4fbeaa0b5f54b082037f9cf4a98e"
+        },
+        "candidate-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-candidate-lossless256.png",
+          "sha256": "72de6a6778dbd3a40aad1360b3c605243f5ada46a77815e62e2e7a27136e2540"
+        },
+        "candidate-lossless512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/desktop-candidate-lossless512.png",
+          "sha256": "299967915ae5762470277ac8c3789382122b021c9fb4a8169fae8fd8c077464f"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    },
+    "portrait": {
+      "camera_transform": "[X: (0.876216, 0.0, -0.481919), Y: (0.008444, 0.999847, 0.015353), Z: (0.481845, -0.017522, 0.876081), O: (7.7, 2.42, -9.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-baseline.png",
+          "sha256": "816544be0dbfb5cd565e0e785eb5231dd6c69d6aeb7c7285fcadb2302f9ce8db"
+        },
+        "baseline-again": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-baseline-again.png",
+          "sha256": "816544be0dbfb5cd565e0e785eb5231dd6c69d6aeb7c7285fcadb2302f9ce8db"
+        },
+        "baseline-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-baseline-lossless-native.png",
+          "sha256": "15ea73835be868abde442b40374bbbf99a88833961e2ce72fdd4214978b9911c"
+        },
+        "baseline-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-baseline-lossless256.png",
+          "sha256": "b83ad348d369222051b7cb86364930cc6ceabde79371f9f39741cbaa0f37f4ba"
+        },
+        "candidate-import512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-candidate-import512.png",
+          "sha256": "a92647841ca35a411d8e95993c105862e6a5913e13b30c468c60a63cbe337e61"
+        },
+        "candidate-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-candidate-lossless-native.png",
+          "sha256": "ebdfe0ea17278c08bc16ea2427a7a168b68320b1b4005d05eead64b9dae380b6"
+        },
+        "candidate-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-candidate-lossless256.png",
+          "sha256": "8b721a9664f534620006a0f6c0eb64c71ff77d9e1e503bdd82ffe7e5c19369c8"
+        },
+        "candidate-lossless512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/portrait-candidate-lossless512.png",
+          "sha256": "c855c22d991f1a0e168884c89ad782fbd0842d79836893f8e7f2cde4dc6ce990"
+        }
+      },
+      "viewport": [
+        540,
+        960
+      ]
+    },
+    "roof-close": {
+      "camera_transform": "[X: (0.640184, 0.0, -0.768221), Y: (-0.190572, 0.968742, -0.15881), Z: (0.744208, 0.248069, 0.620174), O: (6.0, 6.5, -18.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-baseline.png",
+          "sha256": "cf0577d39b910bdf835e9da2b10bd225d6c3e5f5eaad6b1debfd44f880b51e97"
+        },
+        "baseline-again": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-baseline-again.png",
+          "sha256": "cf0577d39b910bdf835e9da2b10bd225d6c3e5f5eaad6b1debfd44f880b51e97"
+        },
+        "baseline-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-baseline-lossless-native.png",
+          "sha256": "ab3bd1bf1f9ff82679840e6dd7eeeed7de36b74b67ebf611d97fd980c8154b0f"
+        },
+        "baseline-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-baseline-lossless256.png",
+          "sha256": "19cec224fc60d3a97f15fd0834f3ec39617398ca1c54728baaa90b34d1661955"
+        },
+        "candidate-import512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-candidate-import512.png",
+          "sha256": "284d2119b9988228a9542b33b619632dea46416a982fa6857afaddf7d1a276b7"
+        },
+        "candidate-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-candidate-lossless-native.png",
+          "sha256": "2cc457446f09320e8682754f7b78e28efefa0ae0db327d062cae986f4d85b9e5"
+        },
+        "candidate-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-candidate-lossless256.png",
+          "sha256": "f97896d54f42bbf41da601dbde35d3be4def55907746829f610c2a9795447d5f"
+        },
+        "candidate-lossless512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-imperial-roof-probe-93_xr5w_/lossless512-import-captures/roof-close-candidate-lossless512.png",
+          "sha256": "b06a6120e3fcac87aca287615ec7c945b48f7f355acdfc61cb09596186407dd1"
+        }
+      },
+      "viewport": [
+        1410,
+        600
+      ]
+    }
+  }
+}

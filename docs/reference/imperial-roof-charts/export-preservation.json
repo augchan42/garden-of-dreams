@@ -1,0 +1,46 @@
+{
+  "status": "scratch_imperial_uv_only_export_verified",
+  "source_glb_sha256": "b540496a9129879389a96f5fff0cf59c04c0ff116fa44f2a2389fee3f643f4f1",
+  "candidate_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "unchanged_resolved_nodes": 716,
+  "unchanged_other_site_export_names": [
+    "SITE_aojing-guan.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qinfang-ting.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_ziling-zhou.glb"
+  ],
+  "target_triangles_preserved": 16180,
+  "source_chart_sampling": {
+    "triangles": 16180,
+    "minimum_altitude_source_pixel_quantiles": [
+      0.031041070818901062,
+      0.06397796794772148,
+      0.08867381885647774,
+      0.0907592847943306,
+      11.004058837890625
+    ],
+    "triangles_under_one_source_pixel": 16132
+  },
+  "candidate_chart_sampling": {
+    "triangles": 16180,
+    "minimum_altitude_source_pixel_quantiles": [
+      1.17156982421875,
+      1.9930915832519531,
+      1.9930915832519531,
+      1.9930915832519531,
+      88.68873596191406
+    ],
+    "triangles_under_one_source_pixel": 0
+  },
+  "scope": "Exact expanded non-UV2 attribute triangle multisets preserve all target geometry, normals, primary UVs and orientation; all 716 other resolved node contracts and 14 other site GLBs unchanged. Native bake, filtering and art acceptance pending. Production unchanged."
+}

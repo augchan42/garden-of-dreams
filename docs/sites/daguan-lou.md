@@ -61,3 +61,16 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## Collected painted-wood material reference — 2026-10-08
 
 Slot 3: [original photograph](../reference/external/daguan-lou/painted-wood-roof-detail.jpg), 朱華龍 - Zhu Hua Long, CC BY 2.0. The close upward view shows red lacquer posts and rails, blue/green/gold painted beams, exposed roof members, gray tile edges and carved bracket shapes. Paint wear exposes timber variation rather than a uniform flat surface. It supplies material separation and roof/beam detail for the imperial facade. No exact Daguan building identity, structural dimensions or night lighting are asserted. Full attribution and original-byte hashes are saved beside the image. The night-set slot remains open.
+
+## Isolated roof chart correction — 2026-10-08
+
+The saved two-tier roof uses 576 closed eight-sided cylinders with outward
+normals. Their original UV2 side charts are under 0.1 source pixel wide;
+89.9% of upward-facing side centroids sample zero baked light. A separate
+UV2-only export with a fresh roof bake reduces this to 0.3%, preserving all
+geometry, normals, primary UVs and other sites. Native portrait, desktop and
+close-up comparisons show thinner, lit ribs. Actual 256px imports retain
+patchy shading; the actual 512px lossless RGB8 import is selected for further
+validation. Production remains unchanged. Complete lighting, gutter/noise
+review, joins, palette, memory and phone acceptance are still required.
+See [the recorded experiment](../reference/imperial-roof-charts/README.md).
