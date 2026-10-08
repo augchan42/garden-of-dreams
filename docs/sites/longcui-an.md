@@ -87,3 +87,8 @@ Attribution, rights information, original stream hash and exact decoded-frame pr
 ## Approach join proposal — 2026-10-08
 
 The construction script creates three intersecting stone approach slabs. CPU exported-geometry and source-lightmap probes identify nearly black sampled overlaps in the Ouxiang foreground. Shortening only the two vertical render slabs to the horizontal crosspiece boundaries preserves the decimal-constructor walking footprint and removes positive-area overlap. The proposal is not applied; saved Blender ownership, collider preservation, fresh native lighting/render and route checks remain required. Evidence: `../reference/ouxiang-path-joins/README.md`.
+
+
+## Runtime portrait framing — 2026-10-09
+
+The runtime portrait view now uses the inspected 10-degree angle: the title stays clear while preserving the specified slight off-axis composition. It fits above the command panel at both narrow sizes and was inspected during the full walk. Blossom/branch detail, floor/lighting treatment and final art remain open. “Look” restores this overview after a detail action; resizing preserves details or adapts the overview. Existing desktop and authored Blender cameras remain unchanged. See `../reference/portrait-architecture-runtime/README.md`.

@@ -1,0 +1,229 @@
+{
+  "status": "native_compared_three_portrait_views_runtime_checks_pending",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "scope": "Three reviewed portrait camera proposals. Nunnery uses the inspected 10-degree angle to retain its specified slight off-axis view and clear title. Runtime action/resize/travel checks required separately.",
+  "rooms": {
+    "daoxiang_cun": {
+      "meshes": [
+        "SITE_daoxiang-cun_MAT_thatch",
+        "SITE_daoxiang-cun_MAT_whitewash",
+        "SITE_daoxiang-cun_MAT_crt_amber"
+      ],
+      "vertices": 15434,
+      "baseline_position": [
+        -34.0,
+        4.07999992370605,
+        -9.40000057220459
+      ],
+      "baseline_target": [
+        -34.0,
+        1.7,
+        -22.0
+      ],
+      "baseline_bounds": {
+        "(390, 844)": [
+          [
+            144.63578579186392,
+            348.9591765398237
+          ],
+          [
+            374.27360391425555,
+            471.8552850509128
+          ]
+        ],
+        "(360, 800)": [
+          [
+            133.5099561155667,
+            332.57770142137576
+          ],
+          [
+            345.48332669008204,
+            446.0202631239195
+          ]
+        ]
+      },
+      "candidate_position": [
+        -31.96840190887451,
+        1.9,
+        -12.843443499215041
+      ],
+      "candidate_target": [
+        -31.96840190887451,
+        -0.7037974683544305,
+        -23.0
+      ],
+      "candidate_fov": 55,
+      "keep_aspect": "KEEP_WIDTH",
+      "candidate_bounds": {
+        "(390, 844)": [
+          [
+            23.76739375842871,
+            231.76242501824137
+          ],
+          [
+            367.68606505010655,
+            406.4365538489236
+          ]
+        ],
+        "(360, 800)": [
+          [
+            21.93913270008801,
+            224.3960846322228
+          ],
+          [
+            339.4025215847138,
+            385.63374201439103
+          ]
+        ]
+      }
+    },
+    "daguan_lou": {
+      "meshes": [
+        "SITE_daguan-lou_MAT_rooftile",
+        "SITE_daguan-lou_MAT_daguan_lacquer",
+        "SITE_daguan-lou_MAT_crt_amber"
+      ],
+      "vertices": 46630,
+      "baseline_position": [
+        7.69999980926514,
+        2.42000007629395,
+        -9.0
+      ],
+      "baseline_target": [
+        0.0,
+        2.7,
+        -23.0
+      ],
+      "baseline_bounds": {
+        "(390, 844)": [
+          [
+            25.627129227135157,
+            329.44022300999967
+          ],
+          [
+            399.74934163285957,
+            499.8241073356959
+          ]
+        ],
+        "(360, 800)": [
+          [
+            23.655811594278617,
+            314.5602058553843
+          ],
+          [
+            368.9993922764857,
+            471.83763754064233
+          ]
+        ]
+      },
+      "candidate_position": [
+        8.976835220674928,
+        2.0,
+        -6.678481012658228
+      ],
+      "candidate_target": [
+        0.0,
+        -0.7518987341772152,
+        -23.0
+      ],
+      "candidate_fov": 55,
+      "keep_aspect": "KEEP_WIDTH",
+      "candidate_bounds": {
+        "(390, 844)": [
+          [
+            44.598973105300075,
+            267.55990049757605
+          ],
+          [
+            372.0040623639719,
+            415.3810904511171
+          ]
+        ],
+        "(360, 800)": [
+          [
+            41.16828286643084,
+            257.4399081516087
+          ],
+          [
+            343.38836525905094,
+            393.89023733949267
+          ]
+        ]
+      }
+    },
+    "longcui_an": {
+      "meshes": [
+        "SITE_longcui-an_MAT_rooftile",
+        "SITE_longcui-an_MAT_whitewash",
+        "SITE_longcui-an_MAT_lattice_wood"
+      ],
+      "vertices": 2432,
+      "baseline_position": [
+        -20.7999992370605,
+        3.05999994277954,
+        3.52000045776367
+      ],
+      "baseline_target": [
+        -25.0,
+        1.45,
+        12.2
+      ],
+      "baseline_bounds": {
+        "(390, 844)": [
+          [
+            57.26363258135834,
+            356.00224506595697
+          ],
+          [
+            282.49615007215994,
+            484.3517905932838
+          ]
+        ],
+        "(360, 800)": [
+          [
+            52.8587377674077,
+            339.0789954454988
+          ],
+          [
+            260.7656769896861,
+            457.55549900918504
+          ]
+        ]
+      },
+      "candidate_position": [
+        -23.5879554748535,
+        1.64999997615814,
+        5.24690198898315
+      ],
+      "candidate_target": [
+        -25.0,
+        -0.8,
+        13.25500007569493
+      ],
+      "candidate_fov": 55,
+      "keep_aspect": "KEEP_WIDTH",
+      "candidate_bounds": {
+        "(390, 844)": [
+          [
+            17.4773979187012,
+            226.68115234375
+          ],
+          [
+            356.984191894531,
+            396.232360839844
+          ]
+        ],
+        "(360, 800)": [
+          [
+            16.1329612731934,
+            219.705673217773
+          ],
+          [
+            329.523864746094,
+            376.214477539062
+          ]
+        ]
+      }
+    }
+  }
+}

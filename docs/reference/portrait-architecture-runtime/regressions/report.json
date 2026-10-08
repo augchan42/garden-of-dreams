@@ -1,0 +1,155 @@
+{
+  "status": "seven_regressions_and_both_full_native_tours_passed",
+  "started_at": "2026-10-08T18:33:23.372403+00:00",
+  "phases": [
+    {
+      "name": "test_entry_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_entry_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_entry_route.log"
+    },
+    {
+      "name": "test_farmhouse_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_farmhouse_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_farmhouse_route.log"
+    },
+    {
+      "name": "test_imperial_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_imperial_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_imperial_route.log"
+    },
+    {
+      "name": "test_nunnery_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_nunnery_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_nunnery_route.log"
+    },
+    {
+      "name": "test_mobile_ui_scaling",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_mobile_ui_scaling.log"
+    },
+    {
+      "name": "test_pavilion_portrait_framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_pavilion_portrait_framing.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_pavilion_portrait_framing.log"
+    },
+    {
+      "name": "test_pond_view",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "res://tests/test_pond_view.gd"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/test_pond_view.log"
+    },
+    {
+      "name": "full-rendered-tour-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-portrait-architecture-review/desktop-tour.json",
+        "--capture-directory=/tmp/garden-portrait-architecture-review/tour-desktop",
+        "--diagnose-floor"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/full-rendered-tour-desktop.log"
+    },
+    {
+      "name": "full-rendered-tour-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-portrait-architecture-review/portrait-tour.json",
+        "--capture-directory=/tmp/garden-portrait-architecture-review/tour-portrait",
+        "--diagnose-floor",
+        "--portrait"
+      ],
+      "exit_code": 0,
+      "log": "/tmp/garden-portrait-architecture-review/full-rendered-tour-portrait.log"
+    }
+  ],
+  "finished_at": "2026-10-08T18:45:01.032510+00:00"
+}
