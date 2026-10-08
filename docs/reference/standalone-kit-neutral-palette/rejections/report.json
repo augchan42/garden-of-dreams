@@ -1,0 +1,72 @@
+{
+  "status": "kit_palette_preservation_controls_passed",
+  "positive_fixture_sha256": "9b0c36332e41fe69ef7599de75ca6777ef6ee9cbbddb9d1c991c2901632a8b5f",
+  "cases": [
+    {
+      "case": "old-color",
+      "rejected": true,
+      "reason": "('Wrong candidate color image', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "09739ec3a4e31e1a23f619be65f182ef46e01bd4a4fb110d4636663b9b6a687e"
+    },
+    {
+      "case": "connector",
+      "rejected": true,
+      "reason": "Node/camera/collision/light contract changed",
+      "fixture_sha256": "1008ed4dade395ae1f15bd4d549bc4622f95242986bb14bf5665ba440050d45b"
+    },
+    {
+      "case": "collision",
+      "rejected": true,
+      "reason": "Node/camera/collision/light contract changed",
+      "fixture_sha256": "15cf11033b133fa760c29376ec850eeb109fd752aa5c9fc43f4cfee16bc2b84d"
+    },
+    {
+      "case": "POSITION",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'COL_pavilion_roof.002', 'POSITION')",
+      "fixture_sha256": "dd7e037a9a9eae4750f6448a2d930349ab4b1485ff77e5578b34817ba09b45c1"
+    },
+    {
+      "case": "NORMAL",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'COL_pavilion_roof.002', 'NORMAL')",
+      "fixture_sha256": "da64a0245a314cdacfd06e43cd4a646fd707948e19cbb8983975600fd78b9fda"
+    },
+    {
+      "case": "TEXCOORD_0",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'KIT_pavilion_roof_shell.002', 'TEXCOORD_0')",
+      "fixture_sha256": "09b360e1107bbdbe195a0bd9dc9c06d0ca9bb3c309d3d48dc17b293e71a0354f"
+    },
+    {
+      "case": "TEXCOORD_1",
+      "rejected": true,
+      "reason": "('Physical attribute changed', 'KIT_pavilion_roof_shell.002', 'TEXCOORD_1')",
+      "fixture_sha256": "9cea43d557029afbb721989b8371c38736b6d3b83fd4f1a352f7ac6e094fdf80"
+    },
+    {
+      "case": "normal-image",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "17b945d5beb07f34f7e77bdc079768913ce08ce6de728497b3631ce849e5937b"
+    },
+    {
+      "case": "orm-image",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "2fd02fe6d93a9e8f599747aeb49ead8ef4892d005784fb263cfb2210210d0e10"
+    },
+    {
+      "case": "color-multiplier",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "51d19f5ffdee6822f683de50b491c3fbdc97dfd03289d8a2185405dc8f590653"
+    },
+    {
+      "case": "sampler",
+      "rejected": true,
+      "reason": "('Other material or texture property changed', 'MAT_pavilion_atlas')",
+      "fixture_sha256": "2adbaa5be35eb9ce17ebc5dcd013b7b82321e633e11b7669f7ff0c81c1764e47"
+    }
+  ]
+}

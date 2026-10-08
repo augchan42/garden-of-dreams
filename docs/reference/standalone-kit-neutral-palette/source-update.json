@@ -1,0 +1,373 @@
+{
+  "status": "four_saved_kits_updated_exported_preserved",
+  "kits": {
+    "pavilion": {
+      "source_sha256": "1135211f29ce6628fe0618e4b45e463768dacc89ae59b91a9077142ffeb32118",
+      "candidate_sha256": "691dfb7ca41e167724282245ba42d4a8ea98dc947f8857f1bd52ce38a97b7c2e",
+      "native_snapshot_sha256": "a267b86b90112d31d32a42908cf4297c037524fb8e1b291051a9bb10d27392df",
+      "baseline_exports_reproduced": {
+        "KIT_pavilion_roof_hex.glb": "09739ec3a4e31e1a23f619be65f182ef46e01bd4a4fb110d4636663b9b6a687e",
+        "KIT_pavilion_roof_hex_LOD1.glb": "13e4caa32c41de6ab0d71c3529b734673c8b253e9bc73653adc5c29447432b2a",
+        "KIT_pavilion_roof_square.glb": "117837a7d72ffb499602701c1a0b514c290071f5a6ef5fe8919839fbb100dff5",
+        "KIT_pavilion_roof_square_LOD1.glb": "85960512fbf74b4cebbb2f8c438bba4fe1524c315b5e250257691f99a0d9fc1b",
+        "KIT_pavilion_post.glb": "f840052ea11db9d626114567317908284a8e7ce0d207b151a09e9c8573186e84",
+        "KIT_pavilion_post_LOD1.glb": "afb478b4e514c424755b598ba8406de352d34398bdf93ef77b75e92ec15adbd9",
+        "KIT_pavilion_bracket.glb": "8163562bd4378604ff4fd95e7e681ae13c4bde1bfdd796f8c2ff42b64478e1c0",
+        "KIT_pavilion_bracket_LOD1.glb": "75d7797be3b70073dc52c32e685d6ab26ea354f043aa0522fba962334c589175",
+        "KIT_pavilion_eave_strip.glb": "57dd67796a69cbe506b5a058909f411bf8e20057739dfbb046b70b6ae569d3fa",
+        "KIT_pavilion_eave_strip_LOD1.glb": "a3d878fe22004690467a97a47d0e780e85ae4b1545c79ad859b244b30c54ba04",
+        "KIT_pavilion_bench.glb": "b208045c0a0ff17c9d70ac4a04c224ee4bb06d70f9fb5acf3fb6e186abc3c95a",
+        "KIT_pavilion_bench_LOD1.glb": "a7a56cf47fc57fa06dfb70aed2b6d17ceba99b50ba3d6a673d59581828028549"
+      },
+      "candidate_exports": {
+        "KIT_pavilion_roof_hex.glb": "9b0c36332e41fe69ef7599de75ca6777ef6ee9cbbddb9d1c991c2901632a8b5f",
+        "KIT_pavilion_roof_hex_LOD1.glb": "bf0c1bbde90aaaefcbbae8b781503f33313afe7b3043c6252ce2bdab0e8ef287",
+        "KIT_pavilion_roof_square.glb": "6fcf8d52982bdf8e97b110b8049836eefa37df3da8ce6ed37baad19f0b21bbbd",
+        "KIT_pavilion_roof_square_LOD1.glb": "65045fc7663d27ab944edd963813387e9ea017d299764f373cc862b881f4d074",
+        "KIT_pavilion_post.glb": "9001dec588a319f9cb9b29d637b8c52bc8fc813d98d9f80a053736a1b911d77c",
+        "KIT_pavilion_post_LOD1.glb": "087f331af160e2e0fdc6b525ded08f980fe9b2cada240d2016c17226bf786d41",
+        "KIT_pavilion_bracket.glb": "3edad7bd4ac7f2961b6f3c6282f7c4d51e151ed177458b18eef88aa66590288a",
+        "KIT_pavilion_bracket_LOD1.glb": "aa9d39a6381663759eeb310926febd9a7ec6602880477fd0398629e94ff310d2",
+        "KIT_pavilion_eave_strip.glb": "1ac7d66c10c8d8d1f2188f113f629dfbf2bf3603905dc7c7f6d8476401f599df",
+        "KIT_pavilion_eave_strip_LOD1.glb": "580612d825532e6daef6e89abf0074530da25f41184d12fb6747979427d40df2",
+        "KIT_pavilion_bench.glb": "35b9711b646b4bf7154aa236f8434da0b758b3751118542fe27db9f8dfcc0ef4",
+        "KIT_pavilion_bench_LOD1.glb": "aa6fb4751f772b6ca407f9a2909208679793af55f24776416c8cb52cf1c0b59d"
+      },
+      "images_before": {
+        "pavilion_basecolor.png": {
+          "sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "images_after": {
+        "pavilion_basecolor.png": {
+          "sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "saved_native_contract_equal": true
+    },
+    "corridor": {
+      "source_sha256": "2521b13bd0bf7269ae0ae53d2284cdd99bcd48105300b028b3e2ff085bc80380",
+      "candidate_sha256": "f9640a00920699799ab86f0e95f2d4802d0d4f891c9b1b1046fbba2eaff772e4",
+      "native_snapshot_sha256": "964574e40304ff8ba1da19abab514e2c69ebe21f42c7cb0320cb847cef635ace",
+      "baseline_exports_reproduced": {
+        "KIT_corridor_straight.glb": "e9d98ca69bca0d171809960c47c2a16dcd3989feaecb672e586f05c281545af2",
+        "KIT_corridor_straight_LOD1.glb": "591bf1f861f5056bcf1f5de9f3c0791e2e79d376424c901fdad5101835a40cc6",
+        "KIT_corridor_corner.glb": "40e6c5e459af3b2928a6556239281f5772e1544191a94ea2dbec660f57109bf6",
+        "KIT_corridor_corner_LOD1.glb": "1ce0b01040aafdb93075e1f3c3b792fc9399eee0a6b8ba472f344b48054dd46a",
+        "KIT_corridor_tee.glb": "af428c6427d42ace70af93ffd26636b855e443175b1b2c6483562a3cd6f17d8c",
+        "KIT_corridor_tee_LOD1.glb": "85a5dc9572b2a2c14c298b59c2f711e44aa86648f7d55af624aa40445635f72f",
+        "KIT_corridor_stair.glb": "3b68c7755365db049a600ee53b2679c4683aae4dfea68ab1d8b35ca02773e110",
+        "KIT_corridor_stair_LOD1.glb": "8984cca6766c54c3c6297fb5b0369676278f1e459fbb702421eb68291342fea9"
+      },
+      "candidate_exports": {
+        "KIT_corridor_straight.glb": "171f96be1268c64216abdcd2ed4f0ae1a86b84aa0fb55654e4d29f1b898ffbd5",
+        "KIT_corridor_straight_LOD1.glb": "e3f5c41420ee4dca4c838a21b53e7dd18c431a902b29f43e36db48863d89e802",
+        "KIT_corridor_corner.glb": "2c9103c639563cb4479ea08bdcea963d19083f9c9d41f9ec46930560819643ec",
+        "KIT_corridor_corner_LOD1.glb": "3062374cb7e1109a093934f40f72b55f3347c596e0921a153a5379b9cf1be4bc",
+        "KIT_corridor_tee.glb": "62ff9601de0f113d9484225edccaf7070a059aa1cf6eced582d00aa2b600631f",
+        "KIT_corridor_tee_LOD1.glb": "f81d65a91b335fa3e1a1f8f88059834b0139a700df7532419812bb112e338908",
+        "KIT_corridor_stair.glb": "9bfb33ef5f47dee98eb31e0b12ea296b560b7df0d9903eefff9f368823d30429",
+        "KIT_corridor_stair_LOD1.glb": "2520bb09d7344292294fe0981879c71c0fcfd88fea444b86a5dbf62af5e0864f"
+      },
+      "images_before": {
+        "pavilion_basecolor.png": {
+          "sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "images_after": {
+        "pavilion_basecolor.png": {
+          "sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "saved_native_contract_equal": true
+    },
+    "wall": {
+      "source_sha256": "0c5e6824d8fa76ffbe0cc1ee1515b98493203c1be566c6c225a62272d11fc58b",
+      "candidate_sha256": "46e9b17f4b363e63ef3da300c21d4bfee6fe13fe09897e97804945ac2e2a3461",
+      "native_snapshot_sha256": "ee839d4771ad8ec723548540911979a2830d2d592e8ab09ebb0341a8a41eca48",
+      "baseline_exports_reproduced": {
+        "KIT_wall_bay.glb": "99a5494304eb6fd101be29cb734dbcdf7bc064bb12434fe43fd63c96680f6a40",
+        "KIT_wall_bay_LOD1.glb": "4210ac93124a4b59030a0bd68545df2ed105f8198371d83fdf9d35923f50f8de",
+        "KIT_wall_moon_gate.glb": "0477a3ad4e92631556a55d83059d4458f7282beaaae92ffecf3d3a69cf53d058",
+        "KIT_wall_moon_gate_LOD1.glb": "6502cedacd215b75801541d8d1d07a30d1d280f7bb370c4b9b6c35a5f14c0e64",
+        "KIT_wall_vase_gate.glb": "4c1b637a0cac8e591b759dd6d727941ebff2804b93f31338a9cea5336e509a07",
+        "KIT_wall_vase_gate_LOD1.glb": "0e9c3155e732970616fb95d93352a357b05e797d68289e5fc60631298fa3fa5a",
+        "KIT_wall_window_square.glb": "ad422239dff3c71b325af2345984002adccdc4e406395ba2faba2f0b7b0a3897",
+        "KIT_wall_window_square_LOD1.glb": "1929ccaa6cb2cd111cf60c5b7e90c38e56d5ba77fa4f22bdfd79c0725bba9060",
+        "KIT_wall_window_diamond.glb": "31ed23099557fc8b594abcc76c0ba71a12633d65a0a94b0f850e97278ab6e3d2",
+        "KIT_wall_window_diamond_LOD1.glb": "e4e0c83f8a70120d774e0f87cf1d555132d728334418be03a58d921170a77ff9",
+        "KIT_wall_window_ice.glb": "d9d5bc174607135166a240846c61568121eba021634018c634d9536a16274e4a",
+        "KIT_wall_window_ice_LOD1.glb": "184268a01c415d4421a0f3d5eb5efe001d676b89818f0477d10906e377d70030",
+        "KIT_wall_window_hex.glb": "d9406dc45c6fa91b23438c9bf82ca261b4388c68845b671e716154ad6d684771",
+        "KIT_wall_window_hex_LOD1.glb": "de809704e4647ab4c74d50aaff8ac1a7bff033d4d42c351df2ec598871ff7391",
+        "KIT_wall_roof_cap.glb": "635ac7ba0abf68384958911034f100f1bc7ab926d5af45198847de1c4b202125",
+        "KIT_wall_roof_cap_LOD1.glb": "f19db3cdcb7b0091475a7950e66af77857417a996de5327010c9c0fd42a9642a"
+      },
+      "candidate_exports": {
+        "KIT_wall_bay.glb": "68c7e54718b70936d5ec138118fba2d60344bd7571cb867a5bf99fc15bcbf5a7",
+        "KIT_wall_bay_LOD1.glb": "b8a017b4be1394eccb68262f907e4d5f5d9bfbf316f6eb271876964110de1bdb",
+        "KIT_wall_moon_gate.glb": "12c8c0eeba4fe24e35cae4519e87d07c5830874cf86f5bebb5f05c81ba8a2736",
+        "KIT_wall_moon_gate_LOD1.glb": "51f6ef9ed15176e78c323b13aa4660ef7e6d0493dfeb06a28a157a1a1b955e49",
+        "KIT_wall_vase_gate.glb": "8b2254b63bbcfdb009438d46b6d49c685cee944b4269afaeb02266b17393e1f9",
+        "KIT_wall_vase_gate_LOD1.glb": "3c0d9696a404e19b8101df4fdc3a1f2b4309385e2b509eba8c61a0e2ca0df3fa",
+        "KIT_wall_window_square.glb": "b64bb322f90f57f147a4e551a8fb7a8c9f954ffad6c9ed809595ef9dc3053812",
+        "KIT_wall_window_square_LOD1.glb": "66a193cc55c1487522c34ac34590f98ad2c3db26d7504b74127d07b773845e32",
+        "KIT_wall_window_diamond.glb": "6b87f33aa5df3a6748c27bcc9ae7b702aca3ac78ffc9bdf4075466693ef1ac26",
+        "KIT_wall_window_diamond_LOD1.glb": "56a754280322ed28aa0ea3668614708f18310cc12b753bd9ab067c10b0680320",
+        "KIT_wall_window_ice.glb": "13815c39cb6075a8baf146865976c0674aac365d7eee63fcc5d439271f7c1bb1",
+        "KIT_wall_window_ice_LOD1.glb": "3aebaa2ad8a6fc7b3cf34428b659aca2bf16cc523c5600b0ad5702ff367ad468",
+        "KIT_wall_window_hex.glb": "d88af430be2a64413b336bb96d9d79987cbad132d2f0d23a6761b92b3730b75d",
+        "KIT_wall_window_hex_LOD1.glb": "a5857ed7dd3341e6c6d32a398a2bf378418955c708158f1584b974ec31f1b9f5",
+        "KIT_wall_roof_cap.glb": "ade2c8af1f7ede8dd32b8dd358385d81c0b1e4098205b44a571a57816af778d8",
+        "KIT_wall_roof_cap_LOD1.glb": "f712f54ae12d415f7d3970ac22ca109e2ee261d48bbd4725041a3674db63ace3"
+      },
+      "images_before": {
+        "wall_basecolor.png": {
+          "sha256": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "wall_normal.png": {
+          "sha256": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "wall_orm.png": {
+          "sha256": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "images_after": {
+        "wall_basecolor.png": {
+          "sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "wall_normal.png": {
+          "sha256": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "wall_orm.png": {
+          "sha256": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "saved_native_contract_equal": true
+    },
+    "rockery": {
+      "source_sha256": "c37f4996035c8ff9cc7a88b3a6c416efb02689cd1f37dc7b3c5fcd7a058a860e",
+      "candidate_sha256": "2596235030dac61ee986781d377bce29b4630ee7dd584481c2f6a7cf95a1204b",
+      "native_snapshot_sha256": "f817bf07ce1658bfd3fb8b0ce07ed3bd6fb13fa38273c82a537493758238859c",
+      "baseline_exports_reproduced": {
+        "KIT_rockery_small.glb": "349b4a3067de0f18286fa08f71cda46f83c4f9d1387ffdefd83963bda9921c13",
+        "KIT_rockery_small_LOD1.glb": "a1579ba15671f354296131fdca088162ab49fa826b9848b7c03a55865488a510",
+        "KIT_rockery_medium.glb": "f51652bb856f106a4d4d262cb5857becf354421820382e20ff0fc5aa97cb8c7f",
+        "KIT_rockery_medium_LOD1.glb": "2ddc8aa46c1e22dbea5a39be7c7715a3b3dde2e939cfe3cfb5986f31bb10bd27",
+        "KIT_rockery_large.glb": "10d8d1aaa744032e8f8ac74afa748ba9dfa2e45e9ec9d70d643e955bcbd29d1e",
+        "KIT_rockery_large_LOD1.glb": "8658fa638b1ec653612ae6b7b8829c61bd7fd7bce8f6f1f027fa6a966db90f3a",
+        "KIT_rockery_arch.glb": "b129b64868e509182d63eea0916c510f7a7fcb66c8fcee58d14945fbd47ae356",
+        "KIT_rockery_arch_LOD1.glb": "f175f55be29c0fec34815327b4dc93181bfbe3959ca30042ddd0934f21d7f60b",
+        "KIT_rockery_tunnel.glb": "e1bc9d57cef48f2f0acbea8be8539db2ece8d1ca77bf3727e3e51a9e42a27dc7",
+        "KIT_rockery_tunnel_LOD1.glb": "7a5dbf088f333374113c4fa80d90a37a9292f3277f548071a27ae6d245531a3a",
+        "KIT_rockery_cliff.glb": "04964d1534bf68fcdcdb82dc86d0de5fe0165127fbf64e354d61bcbb7e1245c2",
+        "KIT_rockery_cliff_LOD1.glb": "81b34f9dd521c1cc8e2a4b80fc885f1025b1bf5a50052eeb9accd7161405f7f1"
+      },
+      "candidate_exports": {
+        "KIT_rockery_small.glb": "fa5357bc0dcd73c606b2d0791475f1f87f06503b60b5145a07d83ac28886b98e",
+        "KIT_rockery_small_LOD1.glb": "0d40bd3c4449feadd20986488e10b65419935603cceeb83c7526102b00b4704f",
+        "KIT_rockery_medium.glb": "fadb7252aad963920a1389892aef9211a303d50bd1ca113f58bad7311a79fff6",
+        "KIT_rockery_medium_LOD1.glb": "f782a2f291da5a44413ef49c851ba85cd5fdb73709c0d3950212e56b737923d4",
+        "KIT_rockery_large.glb": "01d5e70919d3949f81ea5adcd60debcceddf429396b62cf58e5373b5a9e464d1",
+        "KIT_rockery_large_LOD1.glb": "fa78da05688250a44ee9170fa4eab65ba2e01712bb9d714ebdf79c2e540ff417",
+        "KIT_rockery_arch.glb": "9bd8cce03545c5217b9b9ada831dfbb160ec266e0789f5dcc52a274950b183ad",
+        "KIT_rockery_arch_LOD1.glb": "78d6f9e1ad25695572ebf69b8a91efa5406690753b906721c605fe6c95bb561d",
+        "KIT_rockery_tunnel.glb": "2f67c6a9ca8633d53b19dc9b1e6e80e47e6f5ca41c65d2e2ab0c74d92158381c",
+        "KIT_rockery_tunnel_LOD1.glb": "89aa75faf38d12057bf5619ad46ab1804bdceb0ab268804e1a4fceb275060c70",
+        "KIT_rockery_cliff.glb": "e2d5d41d995b20f389736f84d7610bac5fe069da001cd741dd7723d25ae1a948",
+        "KIT_rockery_cliff_LOD1.glb": "85139e5d13ff1660a133f507ff2b8b21b238b4c8f8040cdbd305ef0368289885"
+      },
+      "images_before": {
+        "pavilion_basecolor.png": {
+          "sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "images_after": {
+        "pavilion_basecolor.png": {
+          "sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "fake_user": false
+        },
+        "pavilion_normal.png": {
+          "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        },
+        "pavilion_orm.png": {
+          "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "fake_user": false
+        }
+      },
+      "saved_native_contract_equal": true
+    }
+  }
+}

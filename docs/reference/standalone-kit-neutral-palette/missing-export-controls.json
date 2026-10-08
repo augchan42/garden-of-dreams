@@ -1,0 +1,29 @@
+{
+  "status": "empty_kit_false_pass_fixed_red_to_green",
+  "runs": [
+    {
+      "name": "original-empty",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/missing-export/scripts/old.py",
+        "--kit",
+        "wall"
+      ],
+      "exit_code": 0,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/original-empty.log"
+    },
+    {
+      "name": "revised-empty",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_pavilion_atlas.py",
+        "--kit",
+        "wall",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/missing-export"
+      ],
+      "exit_code": 1,
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-kit-neutral-palette-w3eng7wx/revised-empty.log"
+    }
+  ]
+}

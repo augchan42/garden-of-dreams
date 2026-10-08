@@ -1,0 +1,66 @@
+{
+  "size": [
+    2048,
+    2048
+  ],
+  "provenance": "Original deterministic procedural raster textures; no downloaded or generated source images. Seed 7341.",
+  "base_colors_linear": {
+    "MAT_lattice_wood": [
+      0.085,
+      0.045,
+      0.022
+    ],
+    "MAT_rooftile": [
+      0.045,
+      0.055,
+      0.065
+    ],
+    "MAT_plaster_rock": [
+      0.21,
+      0.205,
+      0.19
+    ],
+    "MAT_bronze": [
+      0.45,
+      0.23,
+      0.025
+    ]
+  },
+  "uv_regions": {
+    "MAT_lattice_wood": [
+      0.015625,
+      0.515625,
+      0.46875,
+      0.46875
+    ],
+    "MAT_rooftile": [
+      0.515625,
+      0.515625,
+      0.46875,
+      0.46875
+    ],
+    "MAT_plaster_rock": [
+      0.015625,
+      0.015625,
+      0.46875,
+      0.46875
+    ],
+    "MAT_bronze": [
+      0.515625,
+      0.015625,
+      0.46875,
+      0.46875
+    ]
+  },
+  "padding_pixels": 32,
+  "orm_channels": {
+    "R": "constant unoccluded",
+    "G": "roughness",
+    "B": "metallic"
+  },
+  "files": {
+    "pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "pavilion_orm.png": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+    "pavilion_basecolor.png": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+  }
+}

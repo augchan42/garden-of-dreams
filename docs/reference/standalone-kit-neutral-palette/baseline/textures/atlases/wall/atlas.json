@@ -1,0 +1,38 @@
+{
+  "size": [
+    2048,
+    2048
+  ],
+  "provenance": "Original deterministic limewash texture, seed 8173. Wood and tile swatches copied from the original pavilion atlas, seed 7341. No external imagery.",
+  "uv_regions": {
+    "MAT_lattice_wood": [
+      0.015625,
+      0.515625,
+      0.46875,
+      0.46875
+    ],
+    "MAT_rooftile": [
+      0.515625,
+      0.515625,
+      0.46875,
+      0.46875
+    ],
+    "MAT_whitewash": [
+      0.015625,
+      0.015625,
+      0.46875,
+      0.46875
+    ]
+  },
+  "padding_pixels": 32,
+  "orm_channels": {
+    "R": "constant unoccluded",
+    "G": "roughness",
+    "B": "metallic"
+  },
+  "files": {
+    "wall_basecolor.png": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+    "wall_orm.png": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43",
+    "wall_normal.png": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb"
+  }
+}

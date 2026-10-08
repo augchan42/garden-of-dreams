@@ -1,6 +1,6 @@
 # Build status — 2026-09-23
 
-The first modelling pass is saved and exported. It does not yet satisfy every production requirement in the scene spec.
+The working garden and standalone kits are saved and exported. Final art, device performance, release and service integration requirements remain open.
 
 ## Delivered
 
@@ -1207,3 +1207,13 @@ Twenty-six targets were installed with recoverable local backups. Ten production
 All fourteen intermediate-source arrival views were directly inspected in desktop and portrait, with remaining issues recorded in `scene-art-review.md`. Twelve new native camera-only comparisons cover Daoxiang, Daguan and Longcui at two portrait sizes. All six proposals fit the measured architecture above the interface; composition, action/resize behavior and authored-camera synchronization remain pending, so no camera proposal is installed. See `../export/portrait-framing-comparison-evidence.json`.
 
 Final art/framing, six references, standalone kit palette synchronization, current Android/phone/2020 Adreno/sustained performance, release and authenticated readings/history/AI/presence/social remain required. Existing Android packages are stale for this source. The full goal remains active.
+
+## Standalone architectural kit palette installed — 2026-10-09
+
+Pavilion, corridor, wall and rockery now use the same neutral architectural colors as the assembled garden. Four saved Blender libraries, 48 module/LOD exports, eight legacy aliases and matching Godot assets were updated. Each saved baseline reproduced all its preceding exports exactly; reopened candidates preserve native geometry, UVs, metadata and scene contracts. Export comparison checks all 39,175 indexed triangles, both UV channels and every node/material/texture binding. Only one exact packed base-color image changes per library/export; normal and ORM images remain unchanged.
+
+The four CPU atlas checks changed from pixel-mismatch failures to passes. Missing exports now reject instead of allowing an empty directory to pass. Eleven deliberately corrupted inputs reject. Ten isolated native phases cover cold import, each kit's PBR and actual collision/connector behavior at both LODs, and wrong-color rejection. All 48 decoded imported atlases match the reviewed swatches, with actual normal and ORM channel checks. Four original kit galleries were inspected; their actual pixels are 1600×680, with a logical 1600×900 viewport. Revised and installed captures are byte-identical to those inspected originals.
+
+204 changed kit files were installed with recoverable local backups and hash guards. All ten post-install checks pass. The assembled authoring/master, complete GLBs, site libraries/exports, runtime and lighting are hash-unchanged. Original failed diagnostic attempts and corrections are retained with completed evidence: `../export/standalone-kit-neutral-palette-evidence.json` and `reference/standalone-kit-neutral-palette/README.md`.
+
+Standalone palette synchronization is complete. Final rock/foliage/architecture art and scene framing, six references, current phone/2020 Adreno/sustained performance, release and authenticated services remain required. The full goal stays active.

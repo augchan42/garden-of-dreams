@@ -1,0 +1,91 @@
+{
+  "units": "metres",
+  "variants": {
+    "bay": {
+      "triangles_lod0": 448,
+      "triangles_lod1": 178,
+      "ratio": 0.39732142857142855,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "moon_gate": {
+      "triangles_lod0": 1040,
+      "triangles_lod1": 416,
+      "ratio": 0.4,
+      "connectors": {
+        "front": [
+          0,
+          -0.5,
+          0
+        ],
+        "back": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "vase_gate": {
+      "triangles_lod0": 1040,
+      "triangles_lod1": 416,
+      "ratio": 0.4,
+      "connectors": {
+        "front": [
+          0,
+          -0.5,
+          0
+        ],
+        "back": [
+          0,
+          0.5,
+          0
+        ]
+      },
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "window_square": {
+      "triangles_lod0": 1276,
+      "triangles_lod1": 510,
+      "ratio": 0.3996865203761755,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "window_diamond": {
+      "triangles_lod0": 1528,
+      "triangles_lod1": 610,
+      "ratio": 0.3992146596858639,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "window_ice": {
+      "triangles_lod0": 1192,
+      "triangles_lod1": 476,
+      "ratio": 0.39932885906040266,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "window_hex": {
+      "triangles_lod0": 1584,
+      "triangles_lod1": 632,
+      "ratio": 0.398989898989899,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    },
+    "roof_cap": {
+      "triangles_lod0": 316,
+      "triangles_lod1": 126,
+      "ratio": 0.3987341772151899,
+      "connectors": {},
+      "colliders": 1,
+      "within_2000_triangle_target": true
+    }
+  }
+}
