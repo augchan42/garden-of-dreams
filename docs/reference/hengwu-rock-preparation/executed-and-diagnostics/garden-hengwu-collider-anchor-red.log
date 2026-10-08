@@ -1,0 +1,6 @@
+COLLIDER_WORLD_BOUNDS [-13.117999463051547, 0.0, -13.074999809265137] [-11.522000293761494, 2.099999964237213, -11.925000190734863]
+Traceback (most recent call last):
+  File "/tmp/garden_check_hengwu_collider_anchor.py", line 6, in <module>
+    print('COLLIDER_WORLD_BOUNDS',low.tolist(),high.tolist());assert np.allclose(center,[-15.4,1.05,-12.5],atol=1e-5),('Moved collider anchor',center.tolist());assert np.allclose(dimensions,[1.995*.8,2.8*.75,1.15],atol=1e-5),('Wrong collider dimensions',dimensions.tolist());print('HENGWU_COLLIDER_ANCHOR_PASS')
+                                                                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Moved collider anchor', [-12.31999987840652, 1.0499999821186066, -12.5])

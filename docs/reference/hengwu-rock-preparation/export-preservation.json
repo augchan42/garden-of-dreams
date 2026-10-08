@@ -1,0 +1,41 @@
+{
+  "status": "controlled_hengwu_rock_export_preserved",
+  "source_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "candidate_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "expanded_indexed_triangles": 247190,
+  "changed_nodes": [],
+  "changed_meshes": [
+    {
+      "name": "COL_hengwu_rock-colonly",
+      "changed_attributes": [
+        "POSITION"
+      ]
+    },
+    {
+      "name": "SITE_hengwu-yuan_MAT_plaster_rock",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    }
+  ],
+  "unchanged_site_exports_byte_identical": [
+    "SITE_daoxiang-cun.glb",
+    "SITE_stage.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_qinfang-ting.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_ziling-zhou.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_aojing-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb"
+  ],
+  "scope": "Only Hengwu plaster batch geometry/normals/UV channels and first rock collider vertices differ; collider world anchor is checked separately. Other node/camera/light/material/image/texture and expanded geometry contracts retained. Fresh lighting, native visual/physics acceptance and adoption remain pending."
+}

@@ -1,0 +1,63 @@
+{
+  "status": "native_compact_collider_and_adjacent_route_checks_passed",
+  "phases": [
+    {
+      "name": "test_courtyard_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-physics-review/test_courtyard_route.gd"
+      ],
+      "exit_code": 0,
+      "script_sha256": "a9ff4cf7e202ac9d32710ed124d50c153a8671fc3b6d80e38c53cbcb7766368a"
+    },
+    {
+      "name": "test_farmhouse_route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-physics-review/test_farmhouse_route.gd"
+      ],
+      "exit_code": 0,
+      "script_sha256": "87bb803653d567fa8faa5c0c86c04fd961c87151cccb346c6b8d72f220f97cab"
+    },
+    {
+      "name": "compact-rock-collider",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "/tmp/garden_test_hengwu_compact_collider.gd"
+      ],
+      "exit_code": 0,
+      "script_sha256": "70e52ef461afb27fc46f6bd7b4c528aaa3b625ee77b6cbfe8efc251093473a3e"
+    }
+  ],
+  "adapted_inputs": {
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-physics-review/test_courtyard_route.gd": {
+      "original_sha256": "02f3eb305a93b450f0188f3541b6231527d4f18ebf195550014f15a0af96e44a",
+      "executed_sha256": "a9ff4cf7e202ac9d32710ed124d50c153a8671fc3b6d80e38c53cbcb7766368a",
+      "only_change": "Disable site bakes before scene initialization; candidate has no fresh lighting yet."
+    },
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-physics-review/test_farmhouse_route.gd": {
+      "original_sha256": "7a88a2f4e03c0bdf822058110f0ef5da6c52d20616636bbc5cf6e7392895229c",
+      "executed_sha256": "87bb803653d567fa8faa5c0c86c04fd961c87151cccb346c6b8d72f220f97cab",
+      "only_change": "Disable site bakes before scene initialization; candidate has no fresh lighting yet."
+    }
+  },
+  "scope": "Actual imported compact-rock collider bounds/blocking and courtyard/farmhouse bidirectional physics. Site bakes disabled only; lighting and complete garden walk remain separate."
+}
