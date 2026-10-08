@@ -1,0 +1,109 @@
+{
+  "status": "scratch_export_verified",
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "candidate_glb_sha256": "6fb32a6d57b59f0bcc4134da2c132a0aaa6abd2a6ca8bbc2324441dffcd7c498",
+  "existing_complete_node_contracts_preserved": 708,
+  "byte_identical_site_exports": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qinfang-ting.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_ziling-zhou.glb"
+  ],
+  "canopy_triangles": 2240,
+  "canopy_node": {
+    "extras": {
+      "godot_cast_shadow": false,
+      "canopy_candidate": "exact-rim-cove-planar-sky",
+      "paint_quality": "prototype; final paint and fresh wash pending"
+    },
+    "name": "SITE_stage_MAT_stage_canopy_paint",
+    "mesh": [
+      {
+        "attributes": {
+          "POSITION": {
+            "componentType": 5126,
+            "count": 6720,
+            "max": [
+              48,
+              38,
+              48
+            ],
+            "min": [
+              -48,
+              20,
+              -48
+            ],
+            "type": "VEC3",
+            "values_sha256": "acdfcc2d1ef3572c343598e63b62518068b0b473ae9095fbc2aceb343f743c66"
+          },
+          "NORMAL": {
+            "componentType": 5126,
+            "count": 6720,
+            "type": "VEC3",
+            "values_sha256": "1c23fbd4438dd8b8d5fafe94721b50f2865a09fb4b159f7554f97ef2202de0a4"
+          },
+          "TEXCOORD_0": {
+            "componentType": 5126,
+            "count": 6720,
+            "type": "VEC2",
+            "values_sha256": "7ef5740176a01474534948eb1991fd0809be0f270bd978b87973f179d0eb1b00"
+          },
+          "TEXCOORD_1": {
+            "componentType": 5126,
+            "count": 6720,
+            "type": "VEC2",
+            "values_sha256": "4898eeb1f092efd69debfe295375ec5bda8429489da8fa8d2387b471a8586ea8"
+          }
+        },
+        "indices": {
+          "componentType": 5123,
+          "count": 6720,
+          "type": "SCALAR",
+          "values_sha256": "423b1c43e1d0141aa098008c6d0679a831dcbc7357017d8bd30d360d1b4dbb9e"
+        },
+        "material": {
+          "emissiveFactor": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.6000000238418579
+          ],
+          "emissiveTexture": {
+            "index": {
+              "image_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1",
+              "mime": "image/png",
+              "sampler": {
+                "magFilter": 9729,
+                "minFilter": 9987
+              }
+            }
+          },
+          "name": "MAT_stage_canopy_paint",
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": {
+                "image_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1",
+                "mime": "image/png",
+                "sampler": {
+                  "magFilter": 9729,
+                  "minFilter": 9987
+                }
+              }
+            },
+            "metallicFactor": 0
+          }
+        }
+      }
+    ]
+  },
+  "scope": "Actual separate export preserves existing mesh data including both UV channels, embedded paint bytes/material factors, cameras, lights, transforms, extras and node children. New canopy carries no-shadow intent. Not Godot importer/baker shadow behavior, fresh lighting, adoption or final paint acceptance."
+}
