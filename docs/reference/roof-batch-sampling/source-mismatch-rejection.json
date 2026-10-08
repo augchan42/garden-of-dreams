@@ -1,0 +1,15 @@
+{
+  "scope": "Actual current GLB with copied-map source hash corruption; production unchanged. This control tests source pinning only.",
+  "command": [
+    "python3",
+    "scripts/audit_roof_lightmap_sampling.py",
+    "--maps",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-sampling-rejection-e3inhajk/maps",
+    "--output",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-roof-sampling-rejection-e3inhajk/must-not-exist.json"
+  ],
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/Users/auchan/projects/garden-of-dreams/scripts/audit_roof_lightmap_sampling.py\", line 93, in <module>\n    main()\n    ~~~~^^\n  File \"/Users/auchan/projects/garden-of-dreams/scripts/audit_roof_lightmap_sampling.py\", line 55, in main\n    assert record['source_glb_sha256'] == source_hash and record['uv_channel'] == 1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "output_created": false
+}

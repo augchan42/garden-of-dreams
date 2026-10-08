@@ -1,0 +1,189 @@
+{
+  "status": "chart_sampling_measured",
+  "source_glb_sha256": "b540496a9129879389a96f5fff0cf59c04c0ff116fa44f2a2389fee3f643f4f1",
+  "scope": "UV2 chart geometry of whole roof material batches at actual source map sizes. Includes non-roof parts sharing these batches; not isolated cap coverage, overlap/gutter proof, baked irradiance, rendered artifact diagnosis, import-filter quality or final art acceptance.",
+  "batches": {
+    "SITE_aojing-guan_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 2300,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 1512,
+      "minimum_altitude_source_pixels": {
+        "0": 0.34643087425076363,
+        "0.25": 0.396093694826125,
+        "0.5": 0.9086913836415831,
+        "0.75": 1.024751050031586,
+        "1": 111.9292059177352
+      },
+      "source_map_sha256": "02a67b719ed54d15389dfa12a9e6c0d8f618dfdebe2498e79082ad6986e2146a"
+    },
+    "SITE_daguan-lou_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 16180,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 16132,
+      "minimum_altitude_source_pixels": {
+        "0": 0.03104107108126446,
+        "0.25": 0.06398005125609696,
+        "0.5": 0.08867381411679083,
+        "0.75": 0.09075927734375,
+        "1": 11.004058837890625
+      },
+      "source_map_sha256": "309a1075fe06ed1a872bf199a5ba7cb1eb0cb24cc79e4f407eabc7948222bb8d"
+    },
+    "SITE_daoxiang-cun_MAT_thatch": {
+      "source_map_size": 1024,
+      "triangles": 8946,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 8912,
+      "minimum_altitude_source_pixels": {
+        "0": 0.18935002520207095,
+        "0.25": 0.19402225049036215,
+        "0.5": 0.465667724609375,
+        "0.75": 0.4737548828125,
+        "1": 30.21709587584645
+      },
+      "source_map_sha256": "05b129c89f84cb91918c08c3e64560666462e15fae0e7c1e3f15700b44a71f3e"
+    },
+    "SITE_hengwu-yuan_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 6112,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 6048,
+      "minimum_altitude_source_pixels": {
+        "0": 0.09896202323834959,
+        "0.25": 0.20200267263955782,
+        "0.5": 0.47385983910079243,
+        "0.75": 0.5228011016334926,
+        "1": 35.903502292322706
+      },
+      "source_map_sha256": "add51744b047ad5672db913f3a5e90d35f722a76e22f494a650ca6697329e7ac"
+    },
+    "SITE_longcui-an_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 1192,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 336,
+      "minimum_altitude_source_pixels": {
+        "0": 0.4641538446986437,
+        "0.25": 0.8505616694706848,
+        "0.5": 2.0404052734375,
+        "0.75": 2.0858452497263236,
+        "1": 143.18044616554403
+      },
+      "source_map_sha256": "979ef5a93dd2d3017cc46e8fc1616e162e6f1abf248e02f8cb293adef79f15a7"
+    },
+    "SITE_ouxiang-xie_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 4730,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 4704,
+      "minimum_altitude_source_pixels": {
+        "0": 0.11953260048102192,
+        "0.25": 0.20143093785616376,
+        "0.5": 0.47125356924956263,
+        "0.75": 0.5229558104588911,
+        "1": 53.957000732421875
+      },
+      "source_map_sha256": "8a1955a41dce61b94cc8008d2864de617df968f5505e23438109cf13c9279db0"
+    },
+    "SITE_qinfang-ting_MAT_pavilion_atlas": {
+      "source_map_size": 1024,
+      "triangles": 23930,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 22858,
+      "minimum_altitude_source_pixels": {
+        "0": 0.010454793271179066,
+        "0.25": 0.02587890625,
+        "0.5": 0.05371645662832041,
+        "0.75": 0.09304308869408338,
+        "1": 9.370425713316363
+      },
+      "source_map_sha256": "5cf4ea17a1575aa89d59ae1ca18900f2b7d1fd3fda93d5b264746dbb60fb387d"
+    },
+    "SITE_qiushuang-zhai_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 6112,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 6048,
+      "minimum_altitude_source_pixels": {
+        "0": 0.11033162259840538,
+        "0.25": 0.18031299600592626,
+        "0.5": 0.41876220703125,
+        "0.75": 0.4675639485034549,
+        "1": 37.07375473271884
+      },
+      "source_map_sha256": "a350e6db1a6f6e391b90ee9c4d3ec553e72b93c38dab9d0208ee7ae3b5b7d9aa"
+    },
+    "SITE_rockery-gate_MAT_pavilion_atlas": {
+      "source_map_size": 1024,
+      "triangles": 6344,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 576,
+      "minimum_altitude_source_pixels": {
+        "0": 0.04887170675379391,
+        "0.25": 1.5871900942764599,
+        "0.5": 2.550234518164007,
+        "0.75": 3.324186010189625,
+        "1": 10.503305607615724
+      },
+      "source_map_sha256": "4076d493b89f85d509e0d9455a46b62fb05237a937971ac19f1879215b4176de"
+    },
+    "SITE_tubi-tang_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 6112,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 6048,
+      "minimum_altitude_source_pixels": {
+        "0": 0.09883403088393358,
+        "0.25": 0.20166646087519732,
+        "0.5": 0.47268275430284257,
+        "0.75": 0.521453857421875,
+        "1": 35.84361442191522
+      },
+      "source_map_sha256": "d3e22803858297f90bf96427568e9fe627dd67ab3e9969ec989aafe14df288b3"
+    },
+    "SITE_xiaoxiang-guan_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 1976,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 560,
+      "minimum_altitude_source_pixels": {
+        "0": 0.5441869728370973,
+        "0.25": 0.5744237235930229,
+        "0.5": 1.341116642805937,
+        "0.75": 1.491363511536622,
+        "1": 103.19765710830676
+      },
+      "source_map_sha256": "35f7d25c321df04de024a27353ad94d1f012c8d74b504665f41cd58c9f04e328"
+    },
+    "SITE_yihong-yuan_MAT_rooftile": {
+      "source_map_size": 1024,
+      "triangles": 1216,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 336,
+      "minimum_altitude_source_pixels": {
+        "0": 0.5975068435785893,
+        "0.25": 0.8018982904008365,
+        "0.5": 1.9362670052052922,
+        "0.75": 1.9943237045110613,
+        "1": 87.66200447082814
+      },
+      "source_map_sha256": "c9215311f8501bb636f2e57d82166c1b7b565014484a1ec52732d0ba15afbe94"
+    },
+    "SITE_ziling-zhou_MAT_pavilion_atlas": {
+      "source_map_size": 1024,
+      "triangles": 704,
+      "degenerate_uv_triangles": 0,
+      "source_triangles_under_one_pixel_altitude": 32,
+      "minimum_altitude_source_pixels": {
+        "0": 0.6788510390036993,
+        "0.25": 2.317810491888492,
+        "0.5": 3.476713318982322,
+        "0.75": 7.714178835013431,
+        "1": 18.530429541973035
+      },
+      "source_map_sha256": "14249139d65e31af89c9471ece80998cd837144bb09229be5b3ce65cc604fc5a"
+    }
+  }
+}
