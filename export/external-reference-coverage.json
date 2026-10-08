@@ -2,7 +2,7 @@
   "scope": "Saved external reference metadata, unique slots and original-byte integrity; direct attribution/relevance review remains separate.",
   "expected_sites": 14,
   "expected_references": 42,
-  "collected_references": 14,
+  "collected_references": 17,
   "sites": {
     "aojing-guan": {
       "site_sheet_sha256": "f45bf8a945c1e220b208df4987579744ed76b0bd530c423913c60eb02396321c",
@@ -15,15 +15,15 @@
       "sources_sha256": null
     },
     "daguan-lou": {
-      "site_sheet_sha256": "24cacf9a417e8abd4dd369c55788f54ef1449bdf75bebca2e74f369de6537a5e",
+      "site_sheet_sha256": "99bff3552eec6bce419b718cb02a97cbcf539a7e025d07dc9d609aed7a74860b",
       "collected_slots": [
-        2
-      ],
-      "missing_slots": [
-        1,
+        2,
         3
       ],
-      "sources_sha256": "153bdc3ec2f11db0a803a78094dc1f7ceacdc42eb9e7d7c245dbcfa2faf24c9d"
+      "missing_slots": [
+        1
+      ],
+      "sources_sha256": "90635b9fe65864fcd641e7fd0dc9c04957528a8843bc1dff9698187628cdaf8c"
     },
     "daoxiang-cun": {
       "site_sheet_sha256": "59528ea24166927ccb6480102523ebc41d516f52a46cdd9c71e9f4a0cccde5b0",
@@ -81,15 +81,15 @@
       "sources_sha256": "3b83fa0c9c773d0918e4d4ea528fc3ef30283543de4bda636939c724d023864d"
     },
     "qiushuang-zhai": {
-      "site_sheet_sha256": "25edd80199d29fa97796cd8ba36fc4e9ed06198da54589b7ec28472d0f2e2289",
+      "site_sheet_sha256": "93d47b817bf2a73041c191c76f59b8e055590f06ef01c014d3271c26bdc6fe67",
       "collected_slots": [
-        2
-      ],
-      "missing_slots": [
-        1,
+        2,
         3
       ],
-      "sources_sha256": "c403b234f19e12310fab73fe27296f21dd6557b1a31cfd9207039847b2ca8c7c"
+      "missing_slots": [
+        1
+      ],
+      "sources_sha256": "d1d13628039e23f2a60aed96a940bc5e7b24705f152f7948b8cb7c360acc27b4"
     },
     "rockery-gate": {
       "site_sheet_sha256": "c91b5b322b44f5f01e53bc082065eed48e38329ae17b6fada9bf000579153bcc",
@@ -145,15 +145,15 @@
       "sources_sha256": "3bc44a7ab660def9ea31ba97f82c94efcad4a2bf12956537c2adc8c464a80745"
     },
     "ziling-zhou": {
-      "site_sheet_sha256": "a2d72d14d7d7e4a110c7e9de8970427ca6c9e0a2cd1dc6c3d3dc56a3731085c8",
+      "site_sheet_sha256": "e3dc133e17149e25ba1c1a4144d7310303e022a45aa324ea3228df84ccbb2732",
       "collected_slots": [
+        2,
         3
       ],
       "missing_slots": [
-        1,
-        2
+        1
       ],
-      "sources_sha256": "ec834e04c3c014baa9e8edaf3145bba9de9f44bc547de92e798ff57e54fa3f12"
+      "sources_sha256": "4c987d3ccc75fbe5f6b3da3b6032676b0a2e61d1d79f4f51f9d0869637484ad4"
     }
   },
   "complete_slot_coverage": false

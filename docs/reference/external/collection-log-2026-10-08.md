@@ -18,3 +18,13 @@ The second photograph shows a pierced rock surround around a circular portal. It
 ## Thatch material collection
 
 The directly reviewed original [Reed roof.jpg](https://commons.wikimedia.org/wiki/File:Reed_roof.jpg), by Titus Tscharntke, fills Daoxiang material slot 3. Commons records an author public-domain release; its licensing section is linked without substituting CC0. Packed stems, hollow cut ends and length variation supply material construction evidence. The photograph does not identify Daoxiang or establish Chinese roof structure. Original SHA-1 and local SHA-256 pass. Required coverage is now 14/42, leaving 28; night-set coverage remains incomplete.
+
+## Entrance, painted timber and scroll references
+
+Two more verified Commons originals by 朱華龍 - Zhu Hua Long (CC BY 2.0) fill Ziling architecture slot 2 and Daguan material slot 3. Ziling's legible plaque identifies its modern entrance; the view supplies doors, eaves, beams and plaster detail, but does not show the required low island, reeds or footbridge. Daguan's material reference supplies lacquer wear, painted beams, exposed roof members and tile edges without claiming that the photographed building is Daguan. Both originals pass published SHA-1 and local SHA-256 checks.
+
+Direct review also rejects two proposed architecture matches. The apparent Ouxiang candidate's plaque reads 綴錦樓, and the green porch candidate has no legible plaque identifying Longcui. Neither fills a required slot. `architecture-followup-review-2026-10-08.json` records these decisions; rejected originals remain outside the accepted collection.
+
+The Met's original image of Wu Zhen's [Bamboo, old tree, and rock](https://www.metmuseum.org/art/collection/search/39547), dated 1338, fills Qiushuang material slot 3. Its ink density, brush marks and visible silk weave inform the painted scroll rather than architecture or a botanical model. The saved museum object record identifies it as public domain; the [Met image policy](https://www.metmuseum.org/policies/image-resources) supplies its CC0 Open Access terms. The image provider is credited separately from the artist. The local SHA-256 records the retained original bytes; the provider supplies no published content hash for comparison.
+
+Required coverage is now 17/42, leaving 25. None of these daylight or artwork references fills a Shaw Brothers night-set slot. No scene, lighting or runtime assets changed during this collection.

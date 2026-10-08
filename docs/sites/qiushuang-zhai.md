@@ -65,3 +65,8 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## Collected reference — 2026-10-08
 
 Slot 2: [original photograph](../reference/external/qiushuang-zhai/qiushuang-entrance-plaque.jpg), by 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 秋爽齋 from right to left. The close entrance view shows a red structural frame, green rectangular return-pattern door lattices and a blue/turquoise/yellow painted upper beam and open fretwork. It supports the study hall frontage and patterned screen treatment; the cropped view does not establish the complete roof, plan, dimensions or the required night lighting. Attribution, license and original-byte integrity are saved beside the image. Other reference slots remain open.
+
+
+## Collected painted-scroll material — 2026-10-08
+
+Slot 3: [original museum image](../reference/external/qiushuang-zhai/wu-zhen-bamboo-scroll.jpg), Wu Zhen, *Bamboo, old tree, and rock* (1338), Metropolitan Museum of Art, CC0 Open Access. The original ink-on-silk hanging scroll shows grouped tapered bamboo leaves, articulated stalks, varied wet/dry ink density, calligraphic marks and visible warm silk weave. It provides a close painted-scroll material and brush-treatment reference for the study's bamboo scroll. It is not a photograph of Qiushuang architecture, a botanical model, measured pigment values or evidence of night lighting. Full source record, credit and retained-byte hash are saved beside the image. The night-set still remains open.

@@ -13,3 +13,12 @@ SHA-256: `56483088ef591abccac076f8752aa79ac554ad3d3952d6ea9e0d276893be58c6`. Com
 The visible plaque reads 秋爽齋 from right to left. The close entrance view shows a red structural frame, green rectangular return-pattern door lattices and a blue/turquoise/yellow painted upper beam and open fretwork. It supports the study hall frontage and patterned screen treatment; the cropped view does not establish the complete roof, plan, dimensions or the required night lighting.
 
 These are design references, not shipped textures or measured source models. Unfilled reference slots remain open.
+
+
+## Collected painted-scroll material — 2026-10-08
+
+Wu Zhen, *Bamboo, old tree, and rock*, dated 1338, ink on silk. Image supplied by the Metropolitan Museum of Art, object 2012.526.1. [Collection record](https://www.metmuseum.org/art/collection/search/39547); [CC0 Open Access policy](https://www.metmuseum.org/policies/image-resources). Original image bytes are retained with SHA-256 `cd1b3d8d27eea587d80cf2e69a98955b246cc56fbeaa81598ef1843928bcb6c0`. The provider catalog does not supply a content hash; this local hash proves retained-byte integrity, not comparison with a published digest.
+
+The original ink-on-silk hanging scroll shows grouped tapered bamboo leaves, articulated stalks, varied wet/dry ink density, calligraphic marks and visible warm silk weave. It provides a close painted-scroll material and brush-treatment reference for the study's bamboo scroll. It is not a photograph of Qiushuang architecture, a botanical model, measured pigment values or evidence of night lighting.
+
+Architecture and painted-scroll material slots are collected. The Shaw night-set still remains open.

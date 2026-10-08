@@ -80,3 +80,8 @@ The saved key edge blend is now 0.0001 instead of zero: glTF requires an inner a
 ## External foliage/material reference — 2026-10-08
 
 The slot-3 close reference is collected, directly reviewed and attributed in `../reference/external/ziling-zhou/README.md`. Tall jointed stems, long narrow drooping leaves and fine tawny-purple branching plumes, with varied angles and clear gaps between stems. Useful for reed silhouette and plume/leaf density; the daylight sky and lighting are not the scene palette. Original bytes match the Commons SHA-1. The night-set and architecture slots remain uncollected. This is reference collection, not acceptance of the current foliage mesh or material.
+
+
+## Collected entrance architecture reference — 2026-10-08
+
+Slot 2: [original photograph](../reference/external/ziling-zhou/ziling-entrance-plaque.jpg), 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 紫菱洲 from right to left, identifying the modern Ziling entrance. Paired red timber doors, a gray barrel-tile eave, painted crossbeams and white plaster side walls supply site-specific entrance construction. This photo does not show the island, reeds, landing or footbridge and does not prescribe replacing the project's low island with a gatehouse. Island/bridge composition and night lighting still need separate art review. Full attribution and original-byte hashes are saved beside the image. The night-set slot remains open.

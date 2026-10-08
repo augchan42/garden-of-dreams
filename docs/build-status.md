@@ -871,3 +871,10 @@ Daoxiang's close material slot is now filled by an original reed-thatch
 photograph with verified bytes and linked author public-domain release. It
 supplies stem/bundle/roughness detail rather than Chinese roof structure or site
 identity. Required reference coverage is 14/42, leaving 28 slots.
+
+Three more directly reviewed originals fill Ziling's entrance architecture,
+Daguan's painted timber material and Qiushuang's painted-scroll material slots.
+Original metadata, attribution, licence and byte checks are retained. Two
+misidentified architecture candidates are explicitly rejected. Current reference
+coverage is 17/42, leaving 25; daylight photos do not fill the required night-set
+slots. The fresh candidate lighting bake remains separate from production.
