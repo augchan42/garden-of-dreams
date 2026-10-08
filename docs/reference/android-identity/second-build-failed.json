@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-build-i7z0vqdn",
+  "command": [
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-build-i7z0vqdn/gradlew",
+    "--no-daemon",
+    "--console=plain",
+    ":identity:assembleDebug",
+    ":identity:assembleRelease"
+  ],
+  "template_sha256": "a15416b528efb0a19a7d187e4d9f4e5336d0689144b111329fb4bd12c4447ad3",
+  "godot_classes_sha256": "ab5ee25c3f836ed51d562806be2c45a7d7776a63bcc4dabd0d4c6bf4a52787c5",
+  "source_files_sha256": {
+    "native/android/gradle.properties": "c09c0eeac8e9df0eabb852f344d79d2518da2682b634a85a03b00fd363a0e1ca",
+    "native/android/identity/build.gradle": "b1121b58483a5c90517b140d61385c6724b221aad4888f4fbfb6030c2ab63a35",
+    "native/android/identity/src/main/AndroidManifest.xml": "609c9dd53a2723531dc67646a2ee343e513603f097ae430a0dc16ea373287652",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java": "6aa88ce455d6412dfe84ddf1a02d247d9452396160d8b45321400c69d87e6b88",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/DeviceIdentityStore.java": "2c8471dad8c1c92b7d36dbf5f04dc6ccc7b345635896cff1066933cb06cfbedf",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/GardenIdentityPlugin.java": "bc10c9adbd07428a88305f85eca98d806ca3904a143ff7f658693f5a2452b21c",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java": "43fa4cf0d5d81470b141d8ead9e085a0f7831a9cbceb425f0156dba8bab89927",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java": "070730db768d58ab7d0f2836faa2142e34e96f425c43eb7f7c39ea6794fa0509",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java": "1557a3f90962de0866d681fd00b455c39e0b745818ada1d6c843dda7afba6ec6",
+    "native/android/settings.gradle": "26e4067c4e3ab2c8aa2186cd90c84e5c2be82b87913f0ae8f0a5fb660720be89"
+  },
+  "scope": "Actual Android library compile against installed Godot ABI. No plugin registration/device/sign-in/keystore/server/history acceptance.",
+  "exit_code": 1
+}

@@ -1,0 +1,21 @@
+{
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-godot-5d42z22z",
+  "status": "failed",
+  "source_files_sha256": {
+    "godot/services/android_identity.gd": "5dac4f426c9172ada7380acbade152cab0cc44c62d8ea192017b4e81b59ab1a6",
+    "godot/tests/test_android_identity.gd": "e7f2836034d73a3f0bf4ddf8ea1f50ea3bba34fab7de52cd5aafc3cc0bf68926",
+    "godot/addons/garden_identity/export_plugin.gd": "61e50f7637325cbf6bae91800c1c61495f32c625f6b3323ba35ad6e589e57bdf"
+  },
+  "scope": "Isolated Godot wrapper and addon parsing; fake native transport; no actual Android registration/provider/server acceptance",
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--headless",
+    "--editor",
+    "--path",
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-godot-5d42z22z",
+    "--script",
+    "res://tests/test_android_identity.gd"
+  ],
+  "exit_code": 0,
+  "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-godot-5d42z22z/test.log"
+}

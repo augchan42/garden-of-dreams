@@ -1045,3 +1045,9 @@ validation pass. Evidence: `export/pavilion-tile-chart-evidence.json` and
 `docs/reference/pavilion-tile-charts/README.md`. Final palette/site art, twenty
 reference slots, current release, device/sustained performance and authenticated
 services remain open.
+
+## Android identity bridge and storage checks — 2026-10-08
+
+The native Godot v2 Android addon compiles in debug and release against the installed 4.7.2 template. Twelve JVM cancellation/signing assertions and thirteen actual Godot wrapper checks pass; the wrapper uses a fake native transport. Three dedicated-package Android Keystore tests pass on the Pixel, with exact installed APK hash verification. Persistence, tampered ciphertext and missing-key behavior are verified. The first rejected SDK 24 installation, corrected SDK 36 build, compact-result collector rejection and editor-shutdown rejection remain archived. No device security settings were changed.
+
+The addon is disabled and room controls remain unconnected. Real Android Godot registration/Google provider operation, server provisioning/device claim/Records exchange, encrypted account credentials, refresh rotation and owner-scoped history remain required. No session or reading was created. Evidence: `export/android-identity-evidence.json` and `docs/reference/android-identity/README.md`. The full goal remains active.

@@ -1,0 +1,17 @@
+plugins { id 'com.android.library' }
+android {
+    namespace 'ai.eightbitoracle.garden.identity'
+    compileSdk 36
+    defaultConfig { minSdk 24 }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    compileOnly files('../sdk/godot-classes.jar')
+    implementation 'androidx.fragment:fragment:1.8.6'
+    implementation 'androidx.credentials:credentials:1.5.0'
+    implementation 'androidx.credentials:credentials-play-services-auth:1.5.0'
+    implementation 'com.google.android.libraries.identity.googleid:googleid:1.1.1'
+}

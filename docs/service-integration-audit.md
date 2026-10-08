@@ -46,4 +46,19 @@ The sibling Android source implements the provider and client steps that Garden 
 - Android stores server access/refresh credentials in encrypted preferences under the current local account identity. Its publication guard and owner leases prevent late sign-in, refresh or history responses from being published after an account change. A signed-in renewal refusal or outage stays an error rather than downgrading to device-only history. Refresh rotation must replace its predecessor.
 - Server App Attest verification is optional when no assertion header is supplied in the inspected wrapper. This does not prove the deployment's gate configuration or justify forging an assertion.
 
-Garden currently contains only the public topic service and no native identity addon; its checked-in export preset is macOS. The next integration step is a Garden Android provider/device bridge with its own provisioned app identity, encrypted credential persistence and account-change cancellation, followed by an actual provider/device/Records exchange and owner-scoped history check. Desktop also needs a supported device/sign-in contract. Private-history and write-contract acceptance remain open; a local mock, copied token or caller-supplied account id would not satisfy them.
+At the time of that source snapshot, Garden contained only the public topic service and no native identity addon; its checked-in export preset was macOS. Desktop also needs a supported device/sign-in contract. Private-history and write-contract acceptance remain open; a local mock, copied token or caller-supplied account id would not satisfy them.
+
+## Garden Android identity bridge — 2026-10-08
+
+`native/android/identity` now builds a Godot v2 addon against the classes from the installed 4.7.2 Android template. `godot/services/android_identity.gd` wraps its transient Google provider proof, installation identity and exact-body request signing. The addon is not enabled in `project.godot` and is not connected to room controls or deployed services.
+
+The installation identity uses an app-owned UUID v4 and random 32-byte secret. Its AES-256-GCM envelope lives in the app's no-backup directory with an Android Keystore key. The server claim body contains the SHA-256 of the raw secret bytes; later headers contain the base64url secret, matching the inspected server decoder. Only absence creates a new identity: ciphertext corruption and loss of its key fail without replacing an existing identity. This store does not yet persist Records access or refresh credentials.
+
+Verified evidence in `export/android-identity-evidence.json`:
+
+- Both debug and release libraries compile against the installed Godot ABI. Gradle retains its warning that AGP 8.6.1 was tested through compile SDK 35; the installed Godot template itself uses SDK 36.
+- Twelve JVM assertions cover cancelled/replaced/duplicate provider callbacks, publication after cancellation and independent exact-body HMAC vectors.
+- Thirteen actual Godot checks exercise the wrapper's unavailable state, stale and duplicate callback filtering, failure completion, native-header conversion, removal/disconnection and addon parsing. Their native transport is a fake; they do not prove Android plugin registration or Google sign-in.
+- Three Android instrumentation tests pass on Pixel 7 Pro `2B011FDH300KNR` in the separate `ai.eightbitoracle.garden.identity.tests` package. Installed APK bytes match the current build. These test persistence, corrupted ciphertext and a missing Keystore key. They do not open Garden, acquire a Google proof, send a device claim, create a Records session or read private history.
+
+Garden still requires its own provisioned Android application identity and signing certificate registration, supported server client configuration, actual provider/device/Records exchange, encrypted account credentials and refresh rotation, owner-scoped request cancellation and paginated history. The desktop identity contract, reading writes, AI movement, presence and social services remain open. Native source compilation and storage tests do not establish those end-to-end flows.

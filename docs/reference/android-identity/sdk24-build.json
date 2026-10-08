@@ -1,0 +1,38 @@
+{
+  "status": "compiled",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-build-wq5gqmf8",
+  "command": [
+    "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-build-wq5gqmf8/gradlew",
+    "--no-daemon",
+    "--console=plain",
+    ":identity:assembleDebug",
+    ":identity:assembleRelease",
+    ":identity:assembleDebugAndroidTest"
+  ],
+  "template_sha256": "a15416b528efb0a19a7d187e4d9f4e5336d0689144b111329fb4bd12c4447ad3",
+  "godot_classes_sha256": "ab5ee25c3f836ed51d562806be2c45a7d7776a63bcc4dabd0d4c6bf4a52787c5",
+  "source_files_sha256": {
+    "native/android/gradle.properties": "c09c0eeac8e9df0eabb852f344d79d2518da2682b634a85a03b00fd363a0e1ca",
+    "native/android/identity/build.gradle": "84ebd34bf77fbbce5b9e43372bb779a6a0f6bc9d9d40189211de0dd327b63693",
+    "native/android/identity/src/androidTest/java/ai/eightbitoracle/garden/identity/DeviceIdentityStoreTest.java": "458c33b31a5074e4335fba0d2af4f7f3301cc6a1070b521bc1a4b35247f5be60",
+    "native/android/identity/src/main/AndroidManifest.xml": "609c9dd53a2723531dc67646a2ee343e513603f097ae430a0dc16ea373287652",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java": "6aa88ce455d6412dfe84ddf1a02d247d9452396160d8b45321400c69d87e6b88",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/DeviceIdentityStore.java": "2c8471dad8c1c92b7d36dbf5f04dc6ccc7b345635896cff1066933cb06cfbedf",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/GardenIdentityPlugin.java": "bc10c9adbd07428a88305f85eca98d806ca3904a143ff7f658693f5a2452b21c",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java": "43fa4cf0d5d81470b141d8ead9e085a0f7831a9cbceb425f0156dba8bab89927",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java": "070730db768d58ab7d0f2836faa2142e34e96f425c43eb7f7c39ea6794fa0509",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java": "1557a3f90962de0866d681fd00b455c39e0b745818ada1d6c843dda7afba6ec6",
+    "native/android/settings.gradle": "26e4067c4e3ab2c8aa2186cd90c84e5c2be82b87913f0ae8f0a5fb660720be89"
+  },
+  "scope": "Actual Android library compile against installed Godot ABI. No plugin registration/device/sign-in/keystore/server/history acceptance.",
+  "exit_code": 0,
+  "artifacts": {
+    "godot/addons/garden_identity/bin/debug/garden-identity.aar": "826346ba3afbe02b3d29ce14a2ad2fabe1b3128f4df03cb461c3d93863b5fe90",
+    "godot/addons/garden_identity/bin/release/garden-identity.aar": "b354a1912ce0cee096856e131bc3e2832b64353d67312c0326e99a2748c74430"
+  },
+  "device_test_apk": {
+    "path": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-build-wq5gqmf8/identity/build/outputs/apk/androidTest/debug/identity-debug-androidTest.apk",
+    "sha256": "a16bd5c7dd131cb8a51fd9a9d7da9ca14a8d4ae278dd6b9444fbcbb388f1fc7a",
+    "package": "ai.eightbitoracle.garden.identity.tests"
+  }
+}

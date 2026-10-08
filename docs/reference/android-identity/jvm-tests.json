@@ -1,0 +1,47 @@
+{
+  "scope": "JVM callback race/signing core only; Android Keystore, provider UI, Godot registration, server exchange and history untested.",
+  "source_files_sha256": {
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java": "6aa88ce455d6412dfe84ddf1a02d247d9452396160d8b45321400c69d87e6b88",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java": "43fa4cf0d5d81470b141d8ead9e085a0f7831a9cbceb425f0156dba8bab89927",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java": "070730db768d58ab7d0f2836faa2142e34e96f425c43eb7f7c39ea6794fa0509",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java": "1557a3f90962de0866d681fd00b455c39e0b745818ada1d6c843dda7afba6ec6"
+  },
+  "phases": [
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/javac",
+        "--release",
+        "17",
+        "-d",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-krs_4roa",
+        "/Users/auchan/projects/garden-of-dreams/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java",
+        "/Users/auchan/projects/garden-of-dreams/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java",
+        "/Users/auchan/projects/garden-of-dreams/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java",
+        "/Users/auchan/projects/garden-of-dreams/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-krs_4roa",
+        "ai.eightbitoracle.garden.identity.IdentityCoreTest"
+      ],
+      "exit_code": 0,
+      "output": "IDENTITY_ATTEMPT_GATE_PASS 8\n"
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-krs_4roa",
+        "ai.eightbitoracle.garden.identity.RequestSignerTest"
+      ],
+      "exit_code": 0,
+      "output": "IDENTITY_REQUEST_SIGNER_PASS 4\n"
+    }
+  ],
+  "status": "passed"
+}
