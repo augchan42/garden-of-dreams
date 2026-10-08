@@ -62,3 +62,8 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## Collected reference — 2026-10-08
 
 Slot 2: [original photograph](../reference/external/daoxiang-cun/daoxiang-modern-frontage.jpg), by 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 稻香村 from right to left. The modern reconstruction has a low tiled hall, red columns and rails, stepped stone approach, rectangular green lattice and a shallow porch. It supplies site-specific entry/frontage construction evidence. Its tiled roof differs from the project's required actual thatch silhouette: retain thatch, rough low fence and painted paddy, and collect the separate close thatch/material reference. This photo does not establish farmhouse dimensions or the required night lighting. Attribution, license and original-byte integrity are saved beside the image. Other reference slots remain open.
+
+
+## Collected thatch material reference — 2026-10-08
+
+Slot 3: [original reed close-up](../reference/external/daoxiang-cun/reed-thatch-close.jpg), Titus Tscharntke, published author public-domain release. Close reed thatch shows packed narrow stems, exposed blunt and hollow ends, uneven stalk lengths and parallel bundles. Dark gaps between stems supply small-scale relief and roughness guidance for the required farmhouse thatch. The photo does not establish Daoxiang identity, Chinese roof construction, ridge/eave silhouette, roof thickness or night lighting; use it only for the distinguishing material slot. Attribution and original-byte hashes are saved beside the image. The night-set slot remains open.

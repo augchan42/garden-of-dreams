@@ -13,3 +13,8 @@ Each final site folder retains the complete imageinfo metadata for its accepted 
 The later sequential request succeeds for two more originals, with published SHA-1 and local SHA-256 verified. The Xiaoxiang entrance plaque identifies the site; its door, transom and painted beams fill architecture slot 2. Required coverage is now 13/42, leaving 29 slots. The photograph is daylight and does not fill the night-set slot.
 
 The second photograph shows a pierced rock surround around a circular portal. It is retained under `supporting/rockery-gate/` with attribution and original metadata, outside the required-reference catalog. It supplies visible rock cavities, silhouette and path construction, but has no deep tunnel, fog or dark-side view. None of the rockery sheet's three required slots is marked collected by this supporting photograph. Both originals are by 朱華龍 - Zhu Hua Long, CC BY 2.0.
+
+
+## Thatch material collection
+
+The directly reviewed original [Reed roof.jpg](https://commons.wikimedia.org/wiki/File:Reed_roof.jpg), by Titus Tscharntke, fills Daoxiang material slot 3. Commons records an author public-domain release; its licensing section is linked without substituting CC0. Packed stems, hollow cut ends and length variation supply material construction evidence. The photograph does not identify Daoxiang or establish Chinese roof structure. Original SHA-1 and local SHA-256 pass. Required coverage is now 14/42, leaving 28; night-set coverage remains incomplete.

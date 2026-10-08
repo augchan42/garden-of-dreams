@@ -866,3 +866,8 @@ slot with attribution and verified original bytes. Required references are now
 13/42, leaving 29. A daylight rock portal is retained as supporting modelling
 evidence only; it does not fill the rockery tunnel/fog slots. Full site art,
 texture/device/performance acceptance and authenticated services remain in scope.
+
+Daoxiang's close material slot is now filled by an original reed-thatch
+photograph with verified bytes and linked author public-domain release. It
+supplies stem/bundle/roughness detail rather than Chinese roof structure or site
+identity. Required reference coverage is 14/42, leaving 28 slots.
