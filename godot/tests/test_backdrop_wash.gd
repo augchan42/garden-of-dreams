@@ -18,8 +18,8 @@ func run() -> void:
   var node = stack.pop_back()
   stack.append_array(node.get_children())
   if node is MeshInstance3D and node.layers & 4:
-   assert((str(node.name).begins_with("SITE_stage_MAT_cyclorama") or str(node.name).begins_with("SITE_stage_MAT_stage_cyclorama_")) or str(node.name).begins_with("SITE_stage_MAT_painted_mountains_") or str(node.name).begins_with("SITE_stage_MAT_painted_moon"))
+   assert(str(node.name) in preload("res://runtime/backdrop_wash.gd").receiver_names(garden))
    receivers += 1
- assert(receivers == 5)
- print("DYNAMIC_BACKDROP_DIAGNOSTIC_PASS: five painted receivers, no building receivers")
+ assert(receivers == preload("res://runtime/backdrop_wash.gd").receiver_names(garden).size())
+ print("DYNAMIC_BACKDROP_DIAGNOSTIC_PASS: ",receivers," exact painted receivers, no building receivers")
  quit(0)

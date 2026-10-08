@@ -1,0 +1,36 @@
+{
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "scope": "Native headless material/catalog checks on installed five-receiver scene, not rendered pixels, candidate fresh maps or release acceptance.",
+  "checks": [
+    {
+      "label": "full-lighting",
+      "exit_code": 0,
+      "log": "/tmp/garden-six-receiver-current-full-lighting.log",
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86"
+    },
+    {
+      "label": "wash-normal",
+      "exit_code": 0,
+      "log": "/tmp/garden-six-receiver-current-wash-normal.log",
+      "log_sha256": "64e8d578e896990b80e0f173a3eeacc8e622de43455e04f7d7b142700c45fa58"
+    },
+    {
+      "label": "wash-demo",
+      "exit_code": 0,
+      "log": "/tmp/garden-six-receiver-current-wash-demo.log",
+      "log_sha256": "64e8d578e896990b80e0f173a3eeacc8e622de43455e04f7d7b142700c45fa58"
+    },
+    {
+      "label": "retained-layers",
+      "exit_code": 0,
+      "log": "/tmp/garden-six-receiver-current-retained-layers.log",
+      "log_sha256": "d3b00b797eed98718ae8880663b00ed524f94f4b91f237204b2b4bf039f56d2c"
+    },
+    {
+      "label": "dynamic-wash",
+      "exit_code": 0,
+      "log": "/tmp/garden-six-receiver-current-dynamic-wash.log",
+      "log_sha256": "17949bf447394c619e519d1407706254de7708914a04fd5a620ec85129b2ffe7"
+    }
+  ]
+}

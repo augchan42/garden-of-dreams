@@ -1,0 +1,18 @@
+{
+ "expected_count": 6,
+ "missing_catalog_rejected": true,
+ "receivers": [
+  "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas",
+  "SITE_stage_MAT_painted_moon",
+  "SITE_stage_MAT_painted_mountains_0",
+  "SITE_stage_MAT_painted_mountains_1",
+  "SITE_stage_MAT_painted_mountains_2",
+  "SITE_stage_MAT_stage_canopy_paint"
+ ],
+ "runtime_sha256": "58c671e8e1cb2ebed24db1cd26ffe69b783b07dbdd3131ccd484a1204ad9928a",
+ "same_count_substitution_rejected": true,
+ "scope": "Actual native imported receiver metadata and dynamic layer isolation. Catalog key rejection only; no fresh baked lighting, pixels or production acceptance.",
+ "source_glb_sha256": "33b20efadae58c5eb137eda3e21236211a5fb9a1047a1ba41d6338cb48fefbce",
+ "test_sha256": "d9a6b36cefb284afff94d1765a098dea354dba03e369fc486dce0775e264816c",
+ "unchanged_other_meshes": 161
+}

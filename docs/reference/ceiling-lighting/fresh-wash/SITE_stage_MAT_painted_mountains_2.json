@@ -1,0 +1,53 @@
+{
+  "mesh": "SITE_stage_MAT_painted_mountains_2",
+  "texture": "SITE_stage_MAT_painted_mountains_2-front.png",
+  "scale": 1.0,
+  "sides": {
+    "front": {
+      "texture": "SITE_stage_MAT_painted_mountains_2-front.png",
+      "scale": 1.0,
+      "linear_max": 0.0,
+      "nonzero_fraction": 0.0,
+      "png_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    "back": {
+      "texture": "SITE_stage_MAT_painted_mountains_2-back.png",
+      "scale": 1.0,
+      "linear_max": 0.2248643934726715,
+      "nonzero_fraction": 0.4390220642089844,
+      "png_sha256": "5c68a64834d9b664679e937b066429b04d7b990ba2d9b874c2ea3b2fd3c224d5"
+    }
+  },
+  "double_sided": true,
+  "backface_uv_mapping_verified": true,
+  "unoccluded_control_max": null,
+  "size": 512,
+  "samples": 128,
+  "uv_channel": 1,
+  "uv_sha256": "91e8509c3d646b6172c291d80ea0e0e5c0a5321b8a6a1c587effd0afe71869c5",
+  "source_glb_sha256": "33b20efadae58c5eb137eda3e21236211a5fb9a1047a1ba41d6338cb48fefbce",
+  "stage_blend_sha256": "b3016c83f6468371d86be2e9f872d008e9118fa2869ac154d9acef04e1228547",
+  "authoring_blend_sha256": "2730f63b0f40c930ed93ce3272c7936b9da75ea7d2c46d68c95e3f8ae8ba253f",
+  "site_blend_sha256": {
+    "aojing-guan": "4d87e595c51d665e42376c9d002e4c79e3b9d116ec6199af0b846642ea71150e",
+    "daguan-lou": "25b63afa96402306478d1e6fbf789483a8bfc3c91915ebe17994b47203d76658",
+    "daoxiang-cun": "1c39a5ad8cf28043e6618e0c2404ceb5e8194cc6d4c6e19b66f14c72e28d98a1",
+    "hengwu-yuan": "c811c892d30e8a2f7a791972d6185c643194e2f3d168e6199caf1c850d944c47",
+    "longcui-an": "0b798b2ade927460841cbbddc8ca4ae5bb8d4ef454f095a33d2c06c895843ad4",
+    "ouxiang-xie": "c1d367357c9a3169fa77a11df1a480aa775b72ecc50187a4d0f09032026c620d",
+    "qinfang-ting": "8a617a2f93891f5a9092789857142e3bf7c3cc921e91a3572cec61a99b4bf683",
+    "qiushuang-zhai": "07660a605f962cd3d942dfc05a489a41b32eabaa81e0c65b30c32c356c908ab1",
+    "tubi-tang": "e812eb291acc7f44d094ab2db0d48e149b6d822d7fb97b047f67f3560a69b610",
+    "xiaoxiang-guan": "9853e943ab4ba63261bb7f21663e8c68dfa7ab53824858d7ff2be49f9ba183ea",
+    "yihong-yuan": "1932941bad5458e2e353b33048ca236cedd0bb24ac84a378d55ae29577fa4c97",
+    "ziling-zhou": "291fa54e0178b5f232e8e855099448bebca9c6439a1f5f023dbc93ee783b5e55"
+  },
+  "lights_baked": 12,
+  "point_lights_baked": false,
+  "pass_filter": [
+    "DIRECT"
+  ],
+  "shadow_intent": {
+    "SITE_stage_MAT_stage_canopy_paint": false
+  }
+}

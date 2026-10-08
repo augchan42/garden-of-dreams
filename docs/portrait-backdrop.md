@@ -62,8 +62,11 @@ lifts both visible inserts and colliders by 2 mm, removes the observed artifacts
 and passes the full twenty-six-leg walk. It has been combined with this ceiling
 in a separate saved/exported source; that combined source is not installed.
 
-Before adoption: extend the wash contracts to the sixth receiver, inspect final
-paint/moon contrast and bake genuinely fresh matching lighting, then repeat
+The combined source now passes actual imported material/shadow settings,
+sampled portrait coverage and the continuous twenty-six-leg physics walk. Strict
+six-receiver wash support and genuine direct maps also pass. See
+`ceiling-lighting.md` for source hashes and scope. Before adoption, adjust the
+authored moon/paint contrast and bake complete matching lighting, then repeat
 production traversal, arrival/transition renders and device/package checks.
 Final moon contrast, site art, thirty missing references, authenticated room
 services and full performance acceptance remain part of the active goal.

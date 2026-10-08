@@ -49,7 +49,7 @@ func run() -> void:
    push_error("Incomplete route bake")
    quit(1)
    return
-  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(route.get_node("GardenOfDreams"))==5)
+  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(route.get_node("GardenOfDreams"))==preload("res://runtime/backdrop_wash.gd").receiver_names(route.get_node("GardenOfDreams")).size())
   assert(preload("res://runtime/terminal_spill.gd").apply_baked(route.get_node("GardenOfDreams"))==7)
   var nodes:Array[Node]=[route]
   while not nodes.is_empty():

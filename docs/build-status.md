@@ -813,3 +813,27 @@ Corrected-source pack follow-up: the separate `build/garden-roof-current.pck` ex
 - Godot import and all three native bake paths now restore explicit boolean mesh shadow intent. Native ceiling pixel controls pass after a cold isolated import; shared unshaded paint/color/texture matches the existing cyclorama. Blender restores the actual ceiling's false flag, with positive shadow controls and preservation of 558 unflagged mesh settings. The current source has no flags and remains unchanged. Rejected directional/stale-cache/luminance-label diagnostics are retained.
 - Actual floor inspection exposed coplanar overlap artifacts. A separate revised source raises matching visible and collision inserts by 2 mm. The observed pavilion artifacts disappear; sixteen native captures and centre rays inspect all eight joints. The actual revised export passes the strict fourteen-room, twenty-six-leg continuous walk with 17,581 supported ray samples and no misses. Old lighting remains disabled in that fixture; this is not production traversal or final lighting acceptance.
 - A separately saved combined floor/ceiling export is prepared at `33b20efa…`, 233,552 render-only triangles. Both floor-site exports preserve the verified revised bytes, and twelve other site exports remain canonical. Source snapshots preserve existing objects/materials/cameras. The combined source is not installed or freshly baked; strict six-receiver wash support, combined import/walk/render and final moon/paint checks precede lighting adoption. Remaining art, thirty references, performance/package/device and authenticated services remain open. Details: `docs/scene-adoption.md`, `export/scene-adoption-evidence.json`.
+
+
+### Combined candidate lighting and contrast — 2026-10-08
+
+The separate floor/ceiling candidate passes actual native import, fourteen-room
+continuous physics traversal (26 legs, 17,581 grounded rays, zero misses), and
+portrait upper-image coverage with production imported materials/shadows.
+Strict five/six receiver contracts reject missing and substituted surfaces;
+the ordinary catalog remains 124 targets. All fifteen candidate libraries
+are packaged, with twelve linked washes sharing six visible stage objects.
+Fresh 128-sample/512-pixel direct wash maps pass all source/library checks and
+the zero building-leak control. Fresh wash combined with stale ordinary maps
+is rejected without material/layer changes. Installed-source normal/demo
+lighting and receiver-layer regression checks pass.
+
+Actual currently baked moon counterfactuals show complete ungraded white
+clipping; lower linear base/emission restores brush detail. This diagnostic
+change is not installed or authored. Final moon/paint source adjustments and
+complete matching lighting must precede production adoption. The canonical
+source/GLB and preceding packaged release remain unchanged; its runtime
+provenance is older than the current source code. `docs/ceiling-lighting.md`
+and `export/ceiling-lighting-evidence.json` retain the current evidence. Full
+site art, thirty references, device/performance/package acceptance and room
+services remain part of the active goal.

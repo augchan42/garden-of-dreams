@@ -1,0 +1,25 @@
+{
+  "scope": "Exact receiver validation on actual source exports plus constructed rejection cases. Not fresh lighting or scene acceptance.",
+  "current_source_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "candidate_source_sha256": "33b20efadae58c5eb137eda3e21236211a5fb9a1047a1ba41d6338cb48fefbce",
+  "test_sha256": "edb346aeea92871e7667713107e313033a9cc02631a3b73a449852ce65cf454b",
+  "helper_sha256": "d934c9444f43b842c6ee0d61b579e227461bd4116238b64738d417716df39952",
+  "ordinary_receivers": 124,
+  "current_wash_receivers": 5,
+  "candidate_wash_receivers": 6,
+  "rejected": [
+    "five-map catalog on six-surface export",
+    "omitted receiver",
+    "duplicate receiver",
+    "substituted source object",
+    "missing map",
+    "foreign map",
+    "missing scene shadow intent",
+    "wrong map shadow intent",
+    "omitted exported moon",
+    "duplicate exported receiver",
+    "unknown painted batch",
+    "missing ceiling flag",
+    "nonboolean ceiling flag"
+  ]
+}

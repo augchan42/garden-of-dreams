@@ -13,8 +13,8 @@ func run():
   quit(1)
   return
  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/backdrop-wash-index.json"))
- if not records is Dictionary or records.size()!=5:
-  push_error("Missing native Area-light bakes for the five backdrop receivers")
+ if not records is Dictionary or not preload("res://runtime/backdrop_wash.gd").matches_receivers(records,route.get_node("GardenOfDreams")):
+  push_error("Missing native Area-light bakes for the exported backdrop receivers")
   quit(1)
   return
  for name in records:
@@ -46,7 +46,7 @@ func run():
      push_error("Back-face native wash is missing: "+name)
      quit(1)
      return
-   if "cyclorama" in name:
+   if "cyclorama" in name or name==preload("res://runtime/backdrop_wash.gd").CANOPY_RECEIVER:
     var original=reference.find_child(name,true,false).get_active_material(surface) as BaseMaterial3D
     if material.get_shader_parameter("source_unshaded")!=(original.shading_mode==BaseMaterial3D.SHADING_MODE_UNSHADED):
      push_error("Painted sky lost its unshaded base")
@@ -69,7 +69,7 @@ func run():
      push_error("Backdrop wash leaked onto a building or floor: "+str(mesh.name))
      quit(1)
      return
- print("BAKED_BACKDROP_WASH_PASS: five Area-light maps, no realtime wash, no building receivers")
+ print("BAKED_BACKDROP_WASH_PASS: ",records.size()," exact Area-light maps, no realtime wash, no building receivers")
  if route.demo_audio:
   for player in route.demo_audio.players.values():player.stop()
  await create_timer(.2).timeout

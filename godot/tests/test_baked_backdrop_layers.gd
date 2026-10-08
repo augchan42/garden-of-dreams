@@ -6,7 +6,7 @@ func run():
  var records=JSON.parse_string(FileAccess.get_file_as_string("res://lightmaps/demo-index.json"))
  var probe_record=records.values()[0]
  var baked={}
- var names=["SITE_stage_MAT_painted_mountains_0","SITE_stage_MAT_painted_mountains_1","SITE_stage_MAT_painted_mountains_2","SITE_stage_MAT_painted_moon","SITE_stage_MAT_stage_cyclorama_blue"]
+ var names=["SITE_stage_MAT_painted_mountains_0","SITE_stage_MAT_painted_mountains_1","SITE_stage_MAT_painted_mountains_2","SITE_stage_MAT_painted_moon","SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas"]
  for name in names:
   var mesh=MeshInstance3D.new()
   mesh.name=name

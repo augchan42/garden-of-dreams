@@ -55,10 +55,13 @@ measured visible-triangle or draw budget. Scratch pointers are
 
 Canonical authoring/export, the installed GLB and previous local release remain
 unchanged. The new code and unshaded material are prepared for adoption.
-The wash pipeline still requires five receivers; extend its strict contracts
-to the sixth ceiling receiver before using the combined source. The combined
-import, continuous walk/render, final moon/paint contrast, genuinely fresh
-lighting, production verification and package/device checks remain open.
+The wash pipeline now validates six exact candidate receivers; the unshaded
+ceiling remains outside the 124 ordinary targets. Combined native import,
+continuous physics walk, sampled portrait coverage and fresh direct wash pass.
+The actual current baked garden also exposes moon clipping, and a material
+intensity counterfactual restores its brush texture. See `ceiling-lighting.md`.
+Authored moon/paint adjustments, complete fresh lighting, production verification
+and package/device checks remain open.
 Thirty missing references, final site art, performance and authenticated room
 services remain part of the full active goal. Evidence is indexed by
 `export/scene-adoption-evidence.json`.
