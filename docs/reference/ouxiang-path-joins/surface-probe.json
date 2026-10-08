@@ -1,0 +1,661 @@
+{
+  "scope": "CPU ray/triangle geometry attribution at chosen pixels of the existing 390x844 Ouxiang portrait. Transparent blends/fog are excluded; material shading, GPU visibility/culling and exact runtime view must be confirmed natively. No production edits.",
+  "source_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "reference_png": "docs/reference/ouxiang-portrait512/captures/portrait-water-candidate-import512.png",
+  "reference_png_sha256": "04f00044a05d02c5818196a2fd72bb6cc9ba1feef1bab5415d8396e23fc896cb",
+  "camera_assumption": {
+    "position": [
+      -7.0,
+      9.5,
+      20.0
+    ],
+    "target": [
+      -23.0,
+      0.5,
+      0.0
+    ],
+    "fov": 55,
+    "keep_aspect": "KEEP_HEIGHT",
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "triangles_checked": 226220,
+  "pixels": [
+    {
+      "pixel": [
+        34,
+        468
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 171,
+          "distance": 25.152512847379697,
+          "world_y_up": [
+            -25.034768385344524,
+            1.7763568394002505e-15,
+            5.264124327866416
+          ],
+          "uv2": [
+            0.09789481300826056,
+            0.3560964229163156
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 183,
+          "distance": 25.1525128473797,
+          "world_y_up": [
+            -25.034768385344524,
+            0.0,
+            5.264124327866414
+          ],
+          "uv2": [
+            0.7491387681659416,
+            0.2947987717005336
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 180,
+          "distance": 25.787944736689436,
+          "world_y_up": [
+            -25.490383576474695,
+            -0.2399999946355802,
+            4.891849582365085
+          ],
+          "uv2": [
+            0.20203284567573815,
+            0.42937131073676565
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 168,
+          "distance": 25.78794473668944,
+          "world_y_up": [
+            -25.4903835764747,
+            -0.23999999463558197,
+            4.891849582365083
+          ],
+          "uv2": [
+            0.0331110842416503,
+            0.36695938043390747
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 2,
+          "distance": 28.011956526811154,
+          "world_y_up": [
+            -27.085036872727724,
+            -1.0800000429153442,
+            3.588887869098052
+          ],
+          "uv2": [
+            0.14575770231773588,
+            0.16221493484053912
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        193,
+        512
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 170,
+          "distance": 21.88202056495264,
+          "world_y_up": [
+            -19.34554144365569,
+            0.0,
+            4.632487824374758
+          ],
+          "uv2": [
+            0.08283399919650516,
+            0.22045236917470762
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 158,
+          "distance": 21.882020564952644,
+          "world_y_up": [
+            -19.34554144365569,
+            0.0,
+            4.632487824374756
+          ],
+          "uv2": [
+            0.454503543529019,
+            0.2568079927138822
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 157,
+          "distance": 22.434829493184672,
+          "world_y_up": [
+            -19.657428799471553,
+            -0.2399999946355802,
+            4.244255946510307
+          ],
+          "uv2": [
+            0.3860060330426321,
+            0.16437048843628763
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 168,
+          "distance": 22.434829493184676,
+          "world_y_up": [
+            -19.657428799471557,
+            -0.23999999463558197,
+            4.244255946510306
+          ],
+          "uv2": [
+            0.04855238243238277,
+            0.2278885296217381
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 2,
+          "distance": 24.369660896449833,
+          "world_y_up": [
+            -20.749034631967408,
+            -1.080000042915346,
+            2.885444265513982
+          ],
+          "uv2": [
+            0.15453055106094166,
+            0.24123298970982107
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        12,
+        485
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 182,
+          "distance": 24.08891178986907,
+          "world_y_up": [
+            -24.549466378508505,
+            1.7763568394002505e-15,
+            6.507709569917617
+          ],
+          "uv2": [
+            0.7607094553317798,
+            0.32445096174122323
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_stage_canvas",
+          "material": "MAT_stage_canvas",
+          "primitive_triangle": 15,
+          "distance": 24.418549518060452,
+          "world_y_up": [
+            -24.789616962247848,
+            -0.12999999523162842,
+            6.323078233962409
+          ],
+          "uv2": [
+            0.9253999834894915,
+            0.1510687808138988
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 180,
+          "distance": 24.697473758326502,
+          "world_y_up": [
+            -24.99282130868739,
+            -0.23999999463558197,
+            6.166851714039565
+          ],
+          "uv2": [
+            0.2138958548075897,
+            0.3989700027544171
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_stage_canvas",
+          "material": "MAT_stage_canvas",
+          "primitive_triangle": 12,
+          "distance": 25.68638698068514,
+          "world_y_up": [
+            -25.713273087432505,
+            -0.6299999952316284,
+            5.612957685010706
+          ],
+          "uv2": [
+            0.9311164659995201,
+            0.8563665745086211
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 25,
+          "distance": 25.97732927211012,
+          "world_y_up": [
+            -25.92523293045025,
+            -0.7447395813386155,
+            5.449999809265135
+          ],
+          "uv2": [
+            0.006090983777478675,
+            0.8229006300332433
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        83,
+        493
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 170,
+          "distance": 23.21012997574684,
+          "world_y_up": [
+            -22.54207989383899,
+            1.7763568394002505e-15,
+            5.615846008034129
+          ],
+          "uv2": [
+            0.10628130541216832,
+            0.296665084499273
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 169,
+          "distance": 23.796491140975302,
+          "world_y_up": [
+            -22.934721903433427,
+            -0.23999999463558197,
+            5.252456862675265
+          ],
+          "uv2": [
+            0.024512722187537587,
+            0.3060266187640993
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 23,
+          "distance": 24.18739862086704,
+          "world_y_up": [
+            -23.196483267541478,
+            -0.4000000059604645,
+            5.0101974098738555
+          ],
+          "uv2": [
+            0.06634871105166379,
+            0.21108614214812974
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 29,
+          "distance": 24.28453287951978,
+          "world_y_up": [
+            -23.26152678129979,
+            -0.4397574505833628,
+            4.949999809265137
+          ],
+          "uv2": [
+            0.014605319418487767,
+            0.2102760205330808
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 2,
+          "distance": 25.848755383102347,
+          "world_y_up": [
+            -24.308969046716868,
+            -1.0800000429153442,
+            3.9805947523894893
+          ],
+          "uv2": [
+            0.14087261829511025,
+            0.19683605261499415
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        100,
+        484
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 171,
+          "distance": 23.728281583089164,
+          "world_y_up": [
+            -22.61398719664104,
+            0.0,
+            4.867757908707052
+          ],
+          "uv2": [
+            0.08844380628652784,
+            0.2983795174346555
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 168,
+          "distance": 24.327732893894737,
+          "world_y_up": [
+            -23.008445811739346,
+            -0.2399999946355802,
+            4.485469695998145
+          ],
+          "uv2": [
+            0.042800853653644735,
+            0.30778436368845996
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 2,
+          "distance": 26.42581264919902,
+          "world_y_up": [
+            -24.38905107479388,
+            -1.0800000429153425,
+            3.147460844706867
+          ],
+          "uv2": [
+            0.15126286528722693,
+            0.19583732725976566
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 1,
+          "distance": 26.525721107952858,
+          "world_y_up": [
+            -24.454794116082226,
+            -1.1200000047683698,
+            3.0837462019276565
+          ],
+          "uv2": [
+            0.025047014685529133,
+            0.8049825725834475
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_backstage",
+          "material": "MAT_backstage",
+          "primitive_triangle": 3,
+          "distance": 27.4748523593664,
+          "world_y_up": [
+            -25.079353596110682,
+            -1.5,
+            2.478456525871323
+          ],
+          "uv2": [
+            0.6020695415419609,
+            0.7402467322505427
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        280,
+        517
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 3,
+          "distance": 24.197732111038672,
+          "world_y_up": [
+            -18.5347991017575,
+            -1.080000042915346,
+            1.5462131774641534
+          ],
+          "uv2": [
+            0.17123247918710388,
+            0.2688473398901396
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 0,
+          "distance": 24.289216832914402,
+          "world_y_up": [
+            -18.578408886462707,
+            -1.1200000047683734,
+            1.4764446740661192
+          ],
+          "uv2": [
+            0.04509211620566747,
+            0.7316965299239375
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_backstage",
+          "material": "MAT_backstage",
+          "primitive_triangle": 3,
+          "distance": 25.158322508671766,
+          "world_y_up": [
+            -18.992702231064417,
+            -1.5,
+            0.8136432680051797
+          ],
+          "uv2": [
+            0.6351076511085452,
+            0.7312101902327313
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_backstage",
+          "material": "MAT_backstage",
+          "primitive_triangle": 0,
+          "distance": 25.844458468031696,
+          "world_y_up": [
+            -19.3197758762883,
+            -1.7999999523162842,
+            0.2903790766668486
+          ],
+          "uv2": [
+            0.35093343322622544,
+            0.728369932426576
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        190,
+        491
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 3,
+          "distance": 25.748951929395094,
+          "world_y_up": [
+            -21.775603073166405,
+            -1.0800000429153442,
+            1.7584628285211146
+          ],
+          "uv2": [
+            0.16858545084270796,
+            0.22843036775178296
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 0,
+          "distance": 25.846301370865177,
+          "world_y_up": [
+            -21.831465413136613,
+            -1.1200000047683716,
+            1.689496780502207
+          ],
+          "uv2": [
+            0.042435086815390974,
+            0.7722663071036163
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_backstage",
+          "material": "MAT_backstage",
+          "primitive_triangle": 3,
+          "distance": 26.771121935203603,
+          "world_y_up": [
+            -22.362158142302285,
+            -1.5,
+            1.0343187077174854
+          ],
+          "uv2": [
+            0.6168183739840938,
+            0.7324080079902707
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_backstage",
+          "material": "MAT_backstage",
+          "primitive_triangle": 0,
+          "distance": 27.50124332647765,
+          "world_y_up": [
+            -22.781126025044635,
+            -1.7999999523162842,
+            0.5170729365056133
+          ],
+          "uv2": [
+            0.369721509213016,
+            0.7296004179359469
+          ]
+        }
+      ]
+    },
+    {
+      "pixel": [
+        120,
+        502
+      ],
+      "nearest_geometric_intersections": [
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 170,
+          "distance": 22.545688663823693,
+          "world_y_up": [
+            -21.31157043308888,
+            0.0,
+            5.397362256605687
+          ],
+          "uv2": [
+            0.10107175358454659,
+            0.26732695242363536
+          ]
+        },
+        {
+          "node": "SITE_stage_MAT_plaster_rock",
+          "material": "MAT_plaster_rock",
+          "primitive_triangle": 169,
+          "distance": 23.11526394365245,
+          "world_y_up": [
+            -21.673125888580262,
+            -0.23999999463558197,
+            5.028453521860424
+          ],
+          "uv2": [
+            0.0298538839743991,
+            0.27594731284206425
+          ]
+        },
+        {
+          "node": "SITE_ouxiang-xie_MAT_foliage_card",
+          "material": "MAT_foliage_card",
+          "primitive_triangle": 1197,
+          "distance": 25.007535827616806,
+          "world_y_up": [
+            -22.874303761197826,
+            -1.0373401498070756,
+            3.8028462119413575
+          ],
+          "uv2": [
+            0.1052456236989404,
+            0.974059171688867
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 2,
+          "distance": 25.108777582190598,
+          "world_y_up": [
+            -22.938570083817513,
+            -1.0800000429153442,
+            3.7372728471800976
+          ],
+          "uv2": [
+            0.14390715542277638,
+            0.2139266811104465
+          ]
+        },
+        {
+          "node": "SITE_qinfang-ting_MAT_water",
+          "material": "MAT_water",
+          "primitive_triangle": 1,
+          "distance": 25.20370670708567,
+          "world_y_up": [
+            -22.998829270278613,
+            -1.1200000047683716,
+            3.6757881153180634
+          ],
+          "uv2": [
+            0.017663492943001298,
+            0.7868248280464677
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -83,3 +83,7 @@ The slot-2 entrance reference is collected and directly reviewed in `../referenc
 Slot 1 now has a directly reviewed frame from the published *The Magic Blade* trailer at 3.0 seconds. An upward view of a timber inn entrance shows a sign, exposed roof members, dark recesses and a bare branch against a mostly black background. Cool edges contrast with brown/gold timber and lettering. Night appearance is inferred visually, not a verified scene caption. It guides sparse branch silhouettes, timber separation and dark entrance framing. It is not the Longcui nunnery, its paired closed gates, its measured frontage or plum blossom material, and the low-resolution image cannot supply detailed joinery.
 
 Attribution, rights information, original stream hash and exact decoded-frame provenance: `../reference/external/longcui-an/README.md`. All three reference slots are collected. This does not establish final scene art, lighting, performance or service acceptance.
+
+## Approach join proposal — 2026-10-08
+
+The construction script creates three intersecting stone approach slabs. CPU exported-geometry and source-lightmap probes identify nearly black sampled overlaps in the Ouxiang foreground. Shortening only the two vertical render slabs to the horizontal crosspiece boundaries preserves the decimal-constructor walking footprint and removes positive-area overlap. The proposal is not applied; saved Blender ownership, collider preservation, fresh native lighting/render and route checks remain required. Evidence: `../reference/ouxiang-path-joins/README.md`.
