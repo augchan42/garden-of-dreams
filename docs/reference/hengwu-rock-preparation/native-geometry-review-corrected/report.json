@@ -1,0 +1,55 @@
+{
+  "status": "unbaked_native_comparison_phases_passed",
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "baseline",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "/tmp/garden_render_hengwu_rock_candidate.gd",
+        "--",
+        "--variant=baseline",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-geometry-review-corrected"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "candidate",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--fixed-fps",
+        "60",
+        "--script",
+        "/tmp/garden_render_hengwu_rock_candidate.gd",
+        "--",
+        "--variant=candidate",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-compact-rock-s_miidil/native-geometry-review-corrected"
+      ],
+      "exit_code": 0
+    }
+  ]
+}

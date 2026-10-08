@@ -73,3 +73,7 @@ Standalone kit checkpoint (2026-10-09): all four architectural kit libraries, 48
 ## Completed checkpoint: three portrait overviews — 2026-10-09
 
 Daoxiang, Daguan and Longcui have reviewed adaptive portrait camera poses, public Look restoration and resize behavior that preserves details/text. The final nunnery angle retains its specified slight off-axis composition. A focused 13-error regression now passes; seven existing regressions and both complete 14-room/26-leg native walks pass, with zero floor-support misses. Cold import and unchanged runtime/source hashes were checked. Source geometry, saved Blender cameras and lighting are retained. See `../../reference/portrait-architecture-runtime/README.md` for original captures, code, reports and scope. Final all-site art, remaining references, device/sustained budgets, release and services are not complete.
+
+## Prepared checkpoint: Hengwu foreground stone — 2026-10-09
+
+The separate compact-stone candidate has saved/reopened source preservation, controlled complete/site exports, native surface identity, unbaked arrival/action comparisons and real adjacent-route/capsule checks. Fifteen site libraries and portable shared-light receiver master are prepared. Full matching six-phase lighting is running for that source; source agreement, complete rendered review and recoverable adoption remain required. No production geometry or camera changed. See `../../reference/hengwu-rock-preparation/README.md`. Full goal scope remains unchanged.
