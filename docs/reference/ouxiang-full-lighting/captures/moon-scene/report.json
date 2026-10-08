@@ -1,0 +1,82 @@
+{
+ "cases": {
+  "baseline": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.844883930814266,
+   "display_luminance_min": 0.578188260436058,
+   "display_luminance_p05": 0.662943549501896,
+   "display_luminance_p95": 0.805189815533161,
+   "image_sha256": "5f157c4dc4ce5da8f6c45e352f2a253a97a8a10dd88f5d44fcedee0769002cc0",
+   "interior_samples": 3005
+  },
+  "material-0.45": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.506076105719805,
+   "display_luminance_min": 0.346260401320457,
+   "display_luminance_p05": 0.396355300295353,
+   "display_luminance_p95": 0.480061177659035,
+   "image_sha256": "d0ae85f723b8461b291540044202a6a8c13484fa00d8c365810a2d105b001664",
+   "interior_samples": 3005
+  },
+  "no-bakes": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.288450207611918,
+   "display_luminance_min": 0.211753727769852,
+   "display_luminance_p05": 0.236384314537048,
+   "display_luminance_p95": 0.284245501980185,
+   "image_sha256": "bb270f20201e12c491a40af42323ddc68cbeb8fd7b2328ccfa66b26f3485f1b3",
+   "interior_samples": 3005
+  },
+  "no-emission": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.554802377325296,
+   "display_luminance_min": 0.366738047158718,
+   "display_luminance_p05": 0.422992945766449,
+   "display_luminance_p95": 0.518479242235422,
+   "image_sha256": "88b60db310ebe4669b65242c139fca01bdc0e300241a29e52e14906ab444b450",
+   "interior_samples": 3005
+  },
+  "no-grade": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.938327846813202,
+   "display_luminance_min": 0.661143549609184,
+   "display_luminance_p05": 0.744844721090794,
+   "display_luminance_p95": 0.903301182234287,
+   "image_sha256": "02d0b88cb313a91335227813cd63b1c340715d9c4204b16f20abec2008ce01e8",
+   "interior_samples": 3005
+  },
+  "no-ordinary": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.478022752743959,
+   "display_luminance_min": 0.340069029140472,
+   "display_luminance_p05": 0.377261968100071,
+   "display_luminance_p95": 0.457632943701744,
+   "image_sha256": "22a71b84ce942bdff91f32b6e5b326e1d6c681f9787e8cd55dc610f944c37c7b",
+   "interior_samples": 3005
+  },
+  "no-wash": {
+   "channel_clip_fraction": 0.0,
+   "display_luminance_max": 0.65225962857008,
+   "display_luminance_min": 0.452960787117481,
+   "display_luminance_p05": 0.520110614687204,
+   "display_luminance_p95": 0.628997669172287,
+   "image_sha256": "278b3575d82132fb1023fa1352058c2a10b8edf8ba8e2b3c48aad7105ea5ddff",
+   "interior_samples": 3005
+  }
+ },
+ "moon_bounds_pixels": [
+  [
+   134.250686645508,
+   82.7552261352539
+  ],
+  [
+   207.463623046875,
+   164.496841430664
+  ]
+ ],
+ "route_sha256": "14c007b304a739c5ef052f722382a53144e5bf95daff94733d1c4f4b9d520ab1",
+ "scope": "Actual production-baked garden portrait arrival with isolated moon material counterfactuals. View/state placement only, no source edits or installed look changes. Interior projected-disc pixel statistics are display RGB, not linear radiometry or final art acceptance.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+ "test_sha256": "9a520e647cf32391124fd7f6af1b7e7f339bd23e7ef488d78eed236b65f6f67b"
+}

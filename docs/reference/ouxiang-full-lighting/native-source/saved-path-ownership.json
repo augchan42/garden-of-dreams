@@ -1,0 +1,549 @@
+{
+  "status": "native_saved_path_ownership_verified",
+  "scope": "Read-only native saved-object ownership. No source repair applied.",
+  "authoring": [
+    {
+      "name": "LONGCUI_approach",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -20.100000381469727,
+        -0.23999999463558197,
+        -0.0
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.0
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "LONGCUI_approach.001",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.900000095367432
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "LONGCUI_approach.002",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -24.100000381469727,
+        0.0,
+        11.699999809265137
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "COL_longcui_approach",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -20.100000381469727,
+        -0.23999999463558197,
+        -0.0
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.0
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    },
+    {
+      "name": "COL_longcui_approach.001",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.900000095367432
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    },
+    {
+      "name": "COL_longcui_approach.002",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -24.100000381469727,
+        0.0,
+        11.699999809265137
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    }
+  ],
+  "stage_library": [
+    {
+      "name": "LONGCUI_approach",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -20.100000381469727,
+        -0.23999999463558197,
+        -0.0
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.0
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "LONGCUI_approach.001",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.900000095367432
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "LONGCUI_approach.002",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -24.100000381469727,
+        0.0,
+        11.699999809265137
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": false,
+      "collision": false
+    },
+    {
+      "name": "COL_longcui_approach",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -20.100000381469727,
+        -0.23999999463558197,
+        -0.0
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.0
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    },
+    {
+      "name": "COL_longcui_approach.001",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -18.299999237060547,
+        0.0,
+        5.900000095367432
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    },
+    {
+      "name": "COL_longcui_approach.002",
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_min_y_up": [
+        -25.899999618530273,
+        -0.23999999463558197,
+        4.099999904632568
+      ],
+      "bounds_max_y_up": [
+        -24.100000381469727,
+        0.0,
+        11.699999809265137
+      ],
+      "materials": [],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "hide_render": true,
+      "collision": true
+    }
+  ],
+  "saved_stage_library_sha256": "b110420844ad4a0d4627afb7cc9a94bcd41e5f81445c3cf2d2c1cc6004525a5d"
+}
