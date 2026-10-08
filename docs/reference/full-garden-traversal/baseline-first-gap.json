@@ -1,0 +1,41 @@
+{
+ "arrival_signals": [
+  "rockery_gate"
+ ],
+ "error": "Arrival height or grounded ray proof failed at rockery_gate",
+ "legs": [
+  {
+   "command": "exit",
+   "end_position": [
+    0.024104680866003,
+    -0.00471241399645805,
+    32.6108360290527
+   ],
+   "from": "terminal_room",
+   "grounded_ray_samples": 638,
+   "longest_air_frames": 0,
+   "max_y": -0.00471241399645805,
+   "min_y": -0.0286154560744762,
+   "physics_frames": 638,
+   "supported_ray_samples": 633,
+   "to": "rockery_gate",
+   "trace_sha256": "e589d724984666a6a3c685b687ea2e51f88515e39261e0eae56997bcf5f9c33c",
+   "walking_distance_m": 25.4789713509381
+  }
+ ],
+ "physics_ticks_per_second": 60,
+ "route_sha256": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+ "scope": "Continuous command-driven actual physics through fourteen rooms and all thirteen connections both ways, without resetting the visitor. Headless state/floor/collision checks; not rendered UI, performance, live services or final scene art acceptance.",
+ "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+ "start_position": [
+  -1.29999995231628,
+  -0.00498264329507947,
+  37.9799995422363
+ ],
+ "status": "failed",
+ "test_sha256": "eed1e406a3f9e64222bee9ab9e900f0379a2cf83163690c106fc4c6fad5895ba",
+ "time_scale": 1.0,
+ "visited_rooms": [
+  "terminal_room"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "scope": "Actual installed painted-moon source and fresh lighting runtime checks, isolated native paint transfer and desktop/portrait arrival captures. Known physical floor seams remain; not final full-garden continuous art/device/performance/release acceptance.",
+  "phases": [
+    {
+      "name": "full-lighting",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/docs/reference/moon-paint/current-garden/full-lighting.log",
+      "pid": 9426,
+      "exit_code": 0,
+      "log_sha256": "ad7c6877239416bcb06be1a1af303b9f8c4dbb0be0129c064d48ffd282c10f86"
+    },
+    {
+      "name": "wash-normal",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/docs/reference/moon-paint/current-garden/wash-normal.log",
+      "pid": 9548,
+      "exit_code": 0,
+      "log_sha256": "30c5b0241466558ba3f46d2ae7702f78fd6937d5ecc38679c022159139105c15"
+    },
+    {
+      "name": "wash-demo",
+      "status": "failed",
+      "log": "/Users/auchan/projects/garden-of-dreams/docs/reference/moon-paint/current-garden/wash-demo.log",
+      "pid": 9702,
+      "exit_code": 0,
+      "log_sha256": "7983cbe15f1ee126cd65e3cda0ea9bc69e4a5e8df1a26aab4c3d522e09844a06"
+    }
+  ],
+  "error": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nBAKED_BACKDROP_WASH_PASS: five Area-light maps, no realtime wash, no building receivers\nWARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).\n   at: cleanup (core/object/object.cpp:2536)\nERROR: 1 resources still in use at exit (run with --verbose for details).\n   at: clear (core/io/resource.cpp:822)\n"
+}

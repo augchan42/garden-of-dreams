@@ -1,53 +1,53 @@
 {
   "status": "source_complete",
-  "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
   "samples": 128,
   "maximum_source_map_size": 1024,
   "engine_installed": true,
-  "started_at": "2026-10-07T16:08:28.480482+00:00",
-  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56",
-  "orchestrator_pid": 69383,
+  "started_at": "2026-10-07T23:08:48.597105+00:00",
+  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp",
+  "orchestrator_pid": 80994,
   "phases": [
     {
       "name": "ordinary",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/ordinary.log",
-      "pid": 69390,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/ordinary.log",
+      "pid": 80995,
       "exit_code": 0
     },
     {
       "name": "backdrop-wash",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/backdrop-wash.log",
-      "pid": 90640,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/backdrop-wash.log",
+      "pid": 4446,
       "exit_code": 0
     },
     {
       "name": "terminal-spill",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/terminal-spill.log",
-      "pid": 91006,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/terminal-spill.log",
+      "pid": 4539,
       "exit_code": 0
     },
     {
       "name": "terminal-spill-pixels",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/terminal-spill-pixels.log",
-      "pid": 94567,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/terminal-spill-pixels.log",
+      "pid": 6232,
       "exit_code": 0
     },
     {
       "name": "native-pixels",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/native-pixels.log",
-      "pid": 94573,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/native-pixels.log",
+      "pid": 6238,
       "exit_code": 0
     },
     {
       "name": "coverage",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-v5eirs56/coverage.log",
-      "pid": 94600,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/coverage.log",
+      "pid": 6385,
       "exit_code": 0
     }
   ],
@@ -56,17 +56,8 @@
     "baked_meshes": 124,
     "missing": [],
     "unexpected": [],
-    "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3"
+    "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2"
   },
-  "finished_at": "2026-10-07T19:47:55.619270+00:00",
-  "engine_installation_scope": "Complete current-source catalogs and matching master/four roof GLBs installed. Native import/material/entry/UI/pixel checks and desktop/portrait arrivals verified. Final art, release, continuous traversal and performance acceptance remain pending.",
-  "installed_catalog_sizes": {
-    "full": 124,
-    "demo": 33,
-    "priority2": 29,
-    "wash": 5,
-    "spill": 7
-  },
-  "runtime_checks_sha256": "06ed1cc1d12334444baa963a1f2b3225d22cd815b4b89e33f6142d88831ae0b4",
-  "current_phone_route_evidence_sha256": "8ed2f49b26e37bb8de27fbf8e5b8e27bd0883cb232e9a15e795d5dd19587f94c"
+  "finished_at": "2026-10-07T23:56:35.447893+00:00",
+  "runtime_checks": "export/moon-paint-current-runtime.json"
 }

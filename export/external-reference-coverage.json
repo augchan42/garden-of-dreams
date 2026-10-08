@@ -2,7 +2,7 @@
   "scope": "Saved external reference metadata, unique slots and original-byte integrity; direct attribution/relevance review remains separate.",
   "expected_sites": 14,
   "expected_references": 42,
-  "collected_references": 8,
+  "collected_references": 12,
   "sites": {
     "aojing-guan": {
       "site_sheet_sha256": "f45bf8a945c1e220b208df4987579744ed76b0bd530c423913c60eb02396321c",
@@ -26,24 +26,26 @@
       "sources_sha256": "153bdc3ec2f11db0a803a78094dc1f7ceacdc42eb9e7d7c245dbcfa2faf24c9d"
     },
     "daoxiang-cun": {
-      "site_sheet_sha256": "4b6b1c33d23545449bae29454b0bb1471a6417f7f25fe8504a7a2d5f4f601c23",
-      "collected_slots": [],
+      "site_sheet_sha256": "2b3134cc04bb61ad16030419e43d7905e642977020f73b25a32694bd59dc4696",
+      "collected_slots": [
+        2
+      ],
       "missing_slots": [
         1,
-        2,
         3
       ],
-      "sources_sha256": null
+      "sources_sha256": "0faf4c5144882bc48028ae7ccd27718c38b1563f3bbcd635df83d3a14b59bdf3"
     },
     "hengwu-yuan": {
-      "site_sheet_sha256": "e84dcb9cfe200531eb8a17bf1a1f11cb1eafe6e2dc5329af147399d0c1704e47",
-      "collected_slots": [],
-      "missing_slots": [
-        1,
+      "site_sheet_sha256": "fed45ca15dcf2b2114db8e21279fa762cff8fbae391eafa51cc92732ad626fce",
+      "collected_slots": [
         2,
         3
       ],
-      "sources_sha256": null
+      "missing_slots": [
+        1
+      ],
+      "sources_sha256": "36d5830fe6a94d7e84098e57c67cf943007aaeae904e8fd221dc6ddfd830aed0"
     },
     "longcui-an": {
       "site_sheet_sha256": "c9a341ad5812c09caf240cc186366af1aace418b002c5eaf72c000003ae89ec0",
@@ -68,7 +70,7 @@
       "sources_sha256": "7de7e48228d5075156901fd62072fc2758d5791a75c13175f84ed103b2a810a5"
     },
     "qinfang-ting": {
-      "site_sheet_sha256": "c7e3b2bb9124dc0941cd413f54d53d34cb3998796f93d4941fc6e3f230eb3e36",
+      "site_sheet_sha256": "22367fdcedfb45cd4b74c321c790bf46ebc5590dfa3ca6827903628dd8c3691e",
       "collected_slots": [
         3
       ],
@@ -79,14 +81,15 @@
       "sources_sha256": "3b83fa0c9c773d0918e4d4ea528fc3ef30283543de4bda636939c724d023864d"
     },
     "qiushuang-zhai": {
-      "site_sheet_sha256": "cb5fb694f40a6eb2a1a284bb91266a0b06c2b70aa44cffc00f316c900108ed23",
-      "collected_slots": [],
+      "site_sheet_sha256": "25edd80199d29fa97796cd8ba36fc4e9ed06198da54589b7ec28472d0f2e2289",
+      "collected_slots": [
+        2
+      ],
       "missing_slots": [
         1,
-        2,
         3
       ],
-      "sources_sha256": null
+      "sources_sha256": "c403b234f19e12310fab73fe27296f21dd6557b1a31cfd9207039847b2ca8c7c"
     },
     "rockery-gate": {
       "site_sheet_sha256": "c91b5b322b44f5f01e53bc082065eed48e38329ae17b6fada9bf000579153bcc",

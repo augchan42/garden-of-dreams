@@ -1,0 +1,52 @@
+{
+ "adapter_sha256": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+ "base_linear": [
+  0.849362909793854,
+  0.849362909793854,
+  0.849362909793854
+ ],
+ "cases": {
+  "emission": {
+   "adapted_sha256": "979b71de7b1a9bc8688992f98a1dedd0164992c909c13ed90feba5912b6c4022",
+   "maximum": 0.0,
+   "missing-paint_sha256": "cd2c39d23674546709fec0c5f5016bf1d16e46cf6c3b90f289fffb884e69295a",
+   "missing_paint_rmse": 0.291718251311677,
+   "native_sha256": "979b71de7b1a9bc8688992f98a1dedd0164992c909c13ed90feba5912b6c4022",
+   "passed": true,
+   "rmse": 0.0
+  },
+  "graded": {
+   "adapted_sha256": "91bb4d3f0a1b00b2de14d6140ea2e227a13b5585d331901ac87b48a5da3e921e",
+   "maximum": 0.0,
+   "missing-paint_sha256": "c7d6e1c8f3807698a2daf75adfca4fdfefdf94d0e9bfb7677972d28ef76b04e4",
+   "missing_paint_rmse": 0.0687014816121266,
+   "native_sha256": "91bb4d3f0a1b00b2de14d6140ea2e227a13b5585d331901ac87b48a5da3e921e",
+   "passed": true,
+   "rmse": 0.0
+  },
+  "key": {
+   "adapted_sha256": "a10c9ab64d7a1cc8feb2cac45e63e495e3013988d02d4a3789be271355b781d7",
+   "maximum": 0.0,
+   "missing-paint_sha256": "801eefdeaff33fef02b3ca52b75805196f98dd8f4321b85f320b536475bfbd80",
+   "missing_paint_rmse": 0.0669219998141804,
+   "native_sha256": "a10c9ab64d7a1cc8feb2cac45e63e495e3013988d02d4a3789be271355b781d7",
+   "passed": true,
+   "rmse": 0.0
+  }
+ },
+ "emission_energy": 1.0,
+ "emission_linear": [
+  0.588382482528687,
+  0.588382482528687,
+  0.588382482528687
+ ],
+ "moon_diameter_pixels": 130.0,
+ "scope": "Actual imported moon native versus existing baked-material adapter with ordinary bake disabled, in emissive/key/graded views; positive missing-paint control. Not final baked garden lighting or site art acceptance.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+ "status": "passed",
+ "texture_size": [
+  512,
+  512
+ ]
+}

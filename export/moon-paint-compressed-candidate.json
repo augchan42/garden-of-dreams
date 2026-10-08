@@ -1,0 +1,75 @@
+{
+  "adapter_sha256": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+  "base_linear": [
+    0.849362909793854,
+    0.849362909793854,
+    0.849362909793854
+  ],
+  "cases": {
+    "emission": {
+      "adapted_sha256": "13fb001047e3f7b60f94b4c86527e5f5ff6ba27ef92c6d6037770908625e15b9",
+      "maximum": 0.0,
+      "missing-paint_sha256": "cd2c39d23674546709fec0c5f5016bf1d16e46cf6c3b90f289fffb884e69295a",
+      "missing_paint_rmse": 0.294310938043557,
+      "native_sha256": "13fb001047e3f7b60f94b4c86527e5f5ff6ba27ef92c6d6037770908625e15b9",
+      "passed": true,
+      "rmse": 0.0
+    },
+    "graded": {
+      "adapted_sha256": "8ecd8c2d1a07a85085e3e9066a66a44b489f02d572fa4efdf5241963fda19bdb",
+      "maximum": 0.0,
+      "missing-paint_sha256": "c7d6e1c8f3807698a2daf75adfca4fdfefdf94d0e9bfb7677972d28ef76b04e4",
+      "missing_paint_rmse": 0.0716306062768734,
+      "native_sha256": "8ecd8c2d1a07a85085e3e9066a66a44b489f02d572fa4efdf5241963fda19bdb",
+      "passed": true,
+      "rmse": 0.0
+    },
+    "key": {
+      "adapted_sha256": "a58a1529974451893a5529d777e034adf6a56a42b916a240e800bc9ed560cacf",
+      "maximum": 0.00392156839370728,
+      "missing-paint_sha256": "801eefdeaff33fef02b3ca52b75805196f98dd8f4321b85f320b536475bfbd80",
+      "missing_paint_rmse": 0.0695038796673986,
+      "native_sha256": "1be3e1eaad49117902b6364d3e2cea45dedf38acf29b8ed8f04ca4786acd5c42",
+      "passed": true,
+      "rmse": 8.84421315528291e-06
+    }
+  },
+  "emission_energy": 1.0,
+  "emission_linear": [
+    0.588382482528687,
+    0.588382482528687,
+    0.588382482528687
+  ],
+  "moon_diameter_pixels": 130.0,
+  "renderer_texture_memory_bytes": 1383448,
+  "scope": "Actual imported moon native versus existing baked-material adapter with ordinary bake disabled, in emissive/key/graded views; positive missing-paint control. Not final baked garden lighting or site art acceptance.",
+  "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "status": "passed",
+  "texture_readback_bytes": 699064,
+  "texture_readback_format": 17,
+  "texture_size": [
+    1024,
+    1024
+  ],
+  "baseline_comparisons": {
+    "emission": {
+      "full_frame_rmse": 0.00481046367795549,
+      "moon_region_rmse": 0.010606685842370945,
+      "moon_region_p99": 0.027450980392156876,
+      "moon_region_max": 0.06274509803921569
+    },
+    "key": {
+      "full_frame_rmse": 0.005851682268579939,
+      "moon_region_rmse": 0.012878546589014044,
+      "moon_region_p99": 0.03529411764705881,
+      "moon_region_max": 0.08235294117647063
+    },
+    "graded": {
+      "full_frame_rmse": 0.00596739355787965,
+      "moon_region_rmse": 0.013136982985779654,
+      "moon_region_p99": 0.039215686274509776,
+      "moon_region_max": 0.09019607843137256
+    }
+  }
+}

@@ -1,6 +1,8 @@
 import bpy, bmesh, json, math, hashlib, collections, struct, argparse, sys
 from pathlib import Path
 from mathutils import Vector
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from gltf_paint_contract import share_moon_texture
 parser=argparse.ArgumentParser()
 parser.add_argument('--output-root',type=Path,default=Path(__file__).resolve().parents[1])
 options=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
@@ -17,7 +19,7 @@ def camera_contracts(path):
  # The exporter has one scene aspect ratio. Explicit per-camera viewports keep
  # portrait cameras correct without changing the other authored projections.
  blob=path.read_bytes();length=struct.unpack_from('<I',blob,12)[0]
- document=json.loads(blob[20:20+length]);changed=False
+ document=json.loads(blob[20:20+length]);changed=share_moon_texture(document,blob)
  for node in document.get('nodes',[]):
   extras=node.get('extras',{})
   if 'camera' not in node or 'runtime_camera_viewport' not in extras:continue

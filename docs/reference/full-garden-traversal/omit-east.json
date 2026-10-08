@@ -1,0 +1,229 @@
+{
+ "arrival_signals": [
+  "rockery_gate",
+  "qinfang_ting",
+  "qiushuang_zhai"
+ ],
+ "candidate_seams": [
+  {
+   "group": "cell",
+   "name": "cell_threshold_0",
+   "position_godot": [
+    -6.5,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "cell",
+   "name": "cell_threshold_1",
+   "position_godot": [
+    -3.9,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "cell",
+   "name": "cell_threshold_2",
+   "position_godot": [
+    -1.3,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "cell",
+   "name": "cell_threshold_3",
+   "position_godot": [
+    1.3,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "cell",
+   "name": "cell_threshold_4",
+   "position_godot": [
+    3.9,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "cell",
+   "name": "cell_threshold_5",
+   "position_godot": [
+    6.5,
+    -0.12,
+    38.3
+   ],
+   "site": "terminal-cells",
+   "size_godot": [
+    1.1,
+    0.24,
+    0.28
+   ],
+   "visible_material": "MAT_lattice_wood"
+  },
+  {
+   "group": "west",
+   "name": "pavilion_west_joint",
+   "position_godot": [
+    -6.95,
+    -0.12,
+    0.0
+   ],
+   "site": "qinfang-ting",
+   "size_godot": [
+    0.2,
+    0.24,
+    1.8
+   ],
+   "visible_material": "MAT_plaster_rock"
+  }
+ ],
+ "candidate_test_sha256": "8c76761af83059e6ba8fc7ffab1f9f08a82d685aeb992cc5d3dadb84a5b6cd30",
+ "collision_counterfactual": true,
+ "error": "Grounded centre-ray support failed qinfang_ting -> qiushuang_zhai",
+ "floor_failures": [
+  "Grounded centre-ray support failed qinfang_ting -> qiushuang_zhai"
+ ],
+ "legs": [
+  {
+   "centre_ray_misses": [],
+   "command": "exit",
+   "end_position": [
+    0.0241048559546471,
+    -0.00417081778869033,
+    32.6108360290527
+   ],
+   "from": "terminal_room",
+   "grounded_ray_samples": 638,
+   "longest_air_frames": 0,
+   "max_y": -0.00417081778869033,
+   "min_y": -0.00498264329507947,
+   "physics_frames": 638,
+   "supported_ray_samples": 638,
+   "to": "rockery_gate",
+   "trace_sha256": "64e55befa8a163ed537eab0d4fef63c53d42b1eae5ed5f4fc007fc6f072d6abc",
+   "walking_distance_m": 25.4802317582071
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "enter",
+   "end_position": [
+    0.118462473154068,
+    -0.00417081778869033,
+    1.81548547744751
+   ],
+   "from": "rockery_gate",
+   "grounded_ray_samples": 1094,
+   "longest_air_frames": 0,
+   "max_y": -0.00417081778869033,
+   "min_y": -0.00417081778869033,
+   "physics_frames": 1094,
+   "supported_ray_samples": 1094,
+   "to": "qinfang_ting",
+   "trace_sha256": "736b6208aa5fd0e18e76abca27ec9df586f415fce7dde800fa40221c4b54ec22",
+   "walking_distance_m": 34.0800909921527
+  },
+  {
+   "centre_ray_misses": [
+    {
+     "contacts": [],
+     "position": "(6.910056, -0.004171, 0.003228)"
+    },
+    {
+     "contacts": [],
+     "position": "(6.950056, -0.010421, 0.003218)"
+    },
+    {
+     "contacts": [
+      {
+       "body": "COL_QINFANG_corridor_east_0",
+       "normal": "(-0.207969, 0.978135, 0.0)",
+       "position": "(7.0, 0.0, 0.003217)"
+      },
+      {
+       "body": "COL_QINFANG_corridor_east_0",
+       "normal": "(-0.190591, 0.98167, 0.0)",
+       "position": "(7.0, 0.0, 0.003216)"
+      }
+     ],
+     "position": "(6.988426, -0.002186, 0.003208)"
+    }
+   ],
+   "command": "board",
+   "end_position": [
+    21.8972778320312,
+    -0.00420073233544827,
+    -13.4958734512329
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 918,
+   "longest_air_frames": 0,
+   "max_y": -0.00218612933531404,
+   "min_y": -0.0104208178818226,
+   "physics_frames": 918,
+   "supported_ray_samples": 915,
+   "to": "qiushuang_zhai",
+   "trace_sha256": "c2fed339a4b1ff3e6d401c2623feeb0da33698c042c8c64da943eaeb50f3bea4",
+   "walking_distance_m": 36.6399997584522
+  }
+ ],
+ "omitted_group": "east",
+ "physics_ticks_per_second": 60,
+ "proposal_sha256": "eda68804bd684355abc7764ad9d75b454be192ccc8f50a91bc63778dd7a30854",
+ "route_sha256": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+ "scope": "Test-only narrow floor collision inserts with the unchanged production route, source and strict continuous tour. Not adopted geometry, visual, lighting, performance or production traversal acceptance.",
+ "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+ "start_position": [
+  -1.29999995231628,
+  -0.00498264329507947,
+  37.9799995422363
+ ],
+ "status": "failed",
+ "test_sha256": "d1285687cd213c41f344905f43d77f9bbd1b5675a77cd111bbdbab2b21084aee",
+ "time_scale": 1.0,
+ "visited_rooms": [
+  "terminal_room",
+  "rockery_gate",
+  "qinfang_ting"
+ ]
+}

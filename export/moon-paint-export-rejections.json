@@ -1,0 +1,35 @@
+{
+  "scope": "Injected camera/collision/material/factor/image corruptions reject; optional actual legacy dropped-factor export rejects. Production files unchanged.",
+  "cases": [
+    {
+      "case": "camera",
+      "rejected": true,
+      "reason": "('Changed scene/camera/light contract', 'cameras')"
+    },
+    {
+      "case": "collider",
+      "rejected": true,
+      "reason": "('Changed node/transform/collision/metadata', 'COL_aojing_approach-colonly')"
+    },
+    {
+      "case": "unrelated-material",
+      "rejected": true,
+      "reason": "('Changed unrelated material', 'MAT_aojing-guan_title_paint')"
+    },
+    {
+      "case": "moon-factor",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "case": "actual-legacy-node-export",
+      "rejected": true,
+      "reason": "Export must share the base/emission painting"
+    },
+    {
+      "case": "different-shared-image",
+      "rejected": true,
+      "reason": "Moon base/emission images are not identical"
+    }
+  ]
+}

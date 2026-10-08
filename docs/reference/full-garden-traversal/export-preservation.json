@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "scope": "Candidate export has exactly eight new collision nodes; existing node transforms/metadata/cameras/lights/material definitions unchanged and thirteen unrelated site GLBs byte-identical. Two affected render meshes contain real visible floor inserts and need fresh UV-matched lighting. This is not source adoption or native rendering acceptance.",
+  "canonical_source_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "candidate_source_sha256": "e70d8aea230bf082dc693060aa1e325f8273bc0224fb15bfea25e25c0394ece7",
+  "added_collision_nodes": [
+    "COL_floor_joint_cell_threshold_0-colonly",
+    "COL_floor_joint_cell_threshold_1-colonly",
+    "COL_floor_joint_cell_threshold_2-colonly",
+    "COL_floor_joint_cell_threshold_3-colonly",
+    "COL_floor_joint_cell_threshold_4-colonly",
+    "COL_floor_joint_cell_threshold_5-colonly",
+    "COL_floor_joint_pavilion_east_joint-colonly",
+    "COL_floor_joint_pavilion_west_joint-colonly"
+  ],
+  "sites": [
+    {
+      "file": "SITE_aojing-guan.glb",
+      "byte_identical": true,
+      "before_sha256": "7a4850b335d0fbd57a103b99bb6c5262d6cc00c41602bda41338c63733d62bee",
+      "candidate_sha256": "7a4850b335d0fbd57a103b99bb6c5262d6cc00c41602bda41338c63733d62bee"
+    },
+    {
+      "file": "SITE_daguan-lou.glb",
+      "byte_identical": true,
+      "before_sha256": "da61c28f7f12798df6fffb5319f185d4f9e8e64e442a70c7b34411350e13825f",
+      "candidate_sha256": "da61c28f7f12798df6fffb5319f185d4f9e8e64e442a70c7b34411350e13825f"
+    },
+    {
+      "file": "SITE_daoxiang-cun.glb",
+      "byte_identical": true,
+      "before_sha256": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a",
+      "candidate_sha256": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a"
+    },
+    {
+      "file": "SITE_hengwu-yuan.glb",
+      "byte_identical": true,
+      "before_sha256": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b",
+      "candidate_sha256": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b"
+    },
+    {
+      "file": "SITE_longcui-an.glb",
+      "byte_identical": true,
+      "before_sha256": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9",
+      "candidate_sha256": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9"
+    },
+    {
+      "file": "SITE_ouxiang-xie.glb",
+      "byte_identical": true,
+      "before_sha256": "318aac5ad623d3e3cd01cabc0de3fa21f14f42d4e58727aa8f553d9c8d3cca0c",
+      "candidate_sha256": "318aac5ad623d3e3cd01cabc0de3fa21f14f42d4e58727aa8f553d9c8d3cca0c"
+    },
+    {
+      "file": "SITE_qinfang-ting.glb",
+      "byte_identical": false,
+      "before_sha256": "70686d64739c374e2c97cbb37309d1b3ce803f11730cb62edc87c053efbfb43c",
+      "candidate_sha256": "f7daaf06dba0393bd6cae94f891bd9686fe7b1b0ebd686a3e733c4c88b414025"
+    },
+    {
+      "file": "SITE_qiushuang-zhai.glb",
+      "byte_identical": true,
+      "before_sha256": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01",
+      "candidate_sha256": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01"
+    },
+    {
+      "file": "SITE_rockery-gate.glb",
+      "byte_identical": true,
+      "before_sha256": "e996af42022626a5dd791e2e32e66eb01b0579eb980995896674fe15e739ce19",
+      "candidate_sha256": "e996af42022626a5dd791e2e32e66eb01b0579eb980995896674fe15e739ce19"
+    },
+    {
+      "file": "SITE_stage.glb",
+      "byte_identical": true,
+      "before_sha256": "f16f9c7c06993e3308d0c4bf9b36677676ae214f05f585bf7bb6a2b1a381c258",
+      "candidate_sha256": "f16f9c7c06993e3308d0c4bf9b36677676ae214f05f585bf7bb6a2b1a381c258"
+    },
+    {
+      "file": "SITE_terminal-cells.glb",
+      "byte_identical": false,
+      "before_sha256": "bbf53da2e3b0bfbbb0412c91a05c891f4f375e7788ed027d065fc9057b974d39",
+      "candidate_sha256": "fc47d7985f77dec2e77ad8c880fa5760da4ddba049274c1cff857eb7cf4bb945"
+    },
+    {
+      "file": "SITE_tubi-tang.glb",
+      "byte_identical": true,
+      "before_sha256": "c729d716961dc18b9059c8bedfc71703adfc649c24ac591431218e51af2d9495",
+      "candidate_sha256": "c729d716961dc18b9059c8bedfc71703adfc649c24ac591431218e51af2d9495"
+    },
+    {
+      "file": "SITE_xiaoxiang-guan.glb",
+      "byte_identical": true,
+      "before_sha256": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e",
+      "candidate_sha256": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e"
+    },
+    {
+      "file": "SITE_yihong-yuan.glb",
+      "byte_identical": true,
+      "before_sha256": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3",
+      "candidate_sha256": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3"
+    },
+    {
+      "file": "SITE_ziling-zhou.glb",
+      "byte_identical": true,
+      "before_sha256": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34",
+      "candidate_sha256": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34"
+    }
+  ],
+  "before_expanded_render_triangles": 231216,
+  "candidate_expanded_render_triangles": 231312,
+  "candidate_manifest_triangles": 231312
+}

@@ -1,0 +1,126 @@
+{
+ "arrival_signals": [
+  "rockery_gate"
+ ],
+ "candidate_seams": [
+  {
+   "group": "west",
+   "name": "pavilion_west_joint",
+   "position_godot": [
+    -6.95,
+    -0.12,
+    0.0
+   ],
+   "site": "qinfang-ting",
+   "size_godot": [
+    0.2,
+    0.24,
+    1.8
+   ],
+   "visible_material": "MAT_plaster_rock"
+  },
+  {
+   "group": "east",
+   "name": "pavilion_east_joint",
+   "position_godot": [
+    6.95,
+    -0.12,
+    0.0
+   ],
+   "site": "qinfang-ting",
+   "size_godot": [
+    0.2,
+    0.24,
+    1.8
+   ],
+   "visible_material": "MAT_plaster_rock"
+  }
+ ],
+ "candidate_test_sha256": "8c76761af83059e6ba8fc7ffab1f9f08a82d685aeb992cc5d3dadb84a5b6cd30",
+ "collision_counterfactual": true,
+ "error": "Grounded centre-ray support failed terminal_room -> rockery_gate",
+ "floor_failures": [
+  "Grounded centre-ray support failed terminal_room -> rockery_gate"
+ ],
+ "legs": [
+  {
+   "centre_ray_misses": [
+    {
+     "contacts": [],
+     "position": "(-1.3, -0.004983, 38.22001)"
+    },
+    {
+     "contacts": [],
+     "position": "(-1.3, -0.01299, 38.26001)"
+    },
+    {
+     "contacts": [],
+     "position": "(-1.3, -0.028615, 38.30017)"
+    },
+    {
+     "contacts": [
+      {
+       "body": "COL_entry_corridor",
+       "normal": "(0.0, 0.895856, -0.444345)",
+       "position": "(-1.3, 0.0, 38.4)"
+      },
+      {
+       "body": "COL_entry_corridor",
+       "normal": "(0.0, 0.900487, -0.434883)",
+       "position": "(-1.3, 0.0, 38.4)"
+      }
+     ],
+     "position": "(-1.3, -0.012354, 38.3323)"
+    },
+    {
+     "contacts": [
+      {
+       "body": "COL_entry_corridor",
+       "normal": "(0.0, 0.966871, -0.255265)",
+       "position": "(-1.3, 0.0, 38.4)"
+      },
+      {
+       "body": "COL_entry_corridor",
+       "normal": "(0.0, 0.970832, -0.239762)",
+       "position": "(-1.3, 0.0, 38.4)"
+      }
+     ],
+     "position": "(-1.3, -0.004738, 38.3704)"
+    }
+   ],
+   "command": "exit",
+   "end_position": [
+    0.0241046231240034,
+    -0.00473801651969552,
+    32.6108360290527
+   ],
+   "from": "terminal_room",
+   "grounded_ray_samples": 638,
+   "longest_air_frames": 0,
+   "max_y": -0.00473801651969552,
+   "min_y": -0.0286154560744762,
+   "physics_frames": 638,
+   "supported_ray_samples": 633,
+   "to": "rockery_gate",
+   "trace_sha256": "38e7f39f2d647b6ce1862b9d9b47a400fcaa193d1847d75b425f682faf35eca8",
+   "walking_distance_m": 25.4789776541293
+  }
+ ],
+ "omitted_group": "cell",
+ "physics_ticks_per_second": 60,
+ "proposal_sha256": "eda68804bd684355abc7764ad9d75b454be192ccc8f50a91bc63778dd7a30854",
+ "route_sha256": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+ "scope": "Test-only narrow floor collision inserts with the unchanged production route, source and strict continuous tour. Not adopted geometry, visual, lighting, performance or production traversal acceptance.",
+ "source_glb_sha256": "90c4f70e5b56fbe4c4e0ef2733057bbf962d21b0187601d7e2fcd6a857574df3",
+ "start_position": [
+  -1.29999995231628,
+  -0.00498264329507947,
+  37.9799995422363
+ ],
+ "status": "failed",
+ "test_sha256": "d1285687cd213c41f344905f43d77f9bbd1b5675a77cd111bbdbab2b21084aee",
+ "time_scale": 1.0,
+ "visited_rooms": [
+  "terminal_room"
+ ]
+}

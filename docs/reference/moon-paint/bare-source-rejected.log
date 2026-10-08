@@ -1,0 +1,15 @@
+00:00.648  blend            | Read blend: "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend"
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_moon_paint.py", line 8, in <module>
+    report=check();report.update(status='passed',scope='Native packed moon painting, projected UVs and calibrated source luminance; runtime, bakes and final art acceptance remain separate.')
+  File "/Users/auchan/projects/garden-of-dreams/scripts/moon_paint_contract.py", line 55, in check
+    assert bsdf.inputs['Base Color'].is_linked,'Moon still has no paint texture'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Moon still has no paint texture
+BlenderMCP addon registered
+
+Error: script failed, file: 'scripts/verify_moon_paint.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

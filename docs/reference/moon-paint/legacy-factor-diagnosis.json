@@ -1,0 +1,25 @@
+{
+  "source_sha256": "53c9cb54f8c968c97fe426b48b6f56b8bb30eff72941680aea547fd2c4f648e9",
+  "moon_material": {
+    "doubleSided": true,
+    "emissiveFactor": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+    ],
+    "emissiveTexture": {
+      "index": 41
+    },
+    "extras": {
+      "paint_source": "textures/backdrops/moon-paint/atlas.json"
+    },
+    "name": "MAT_painted_moon",
+    "pbrMetallicRoughness": {
+      "baseColorTexture": {
+        "index": 42
+      },
+      "metallicFactor": 0
+    }
+  },
+  "scope": "Actual legacy MixRGB exporter result: baseColorFactor omitted (defaults to 1), emissiveFactor [0.8,0.8,0.8] drops the source texture multipliers. Rejected; not adopted."
+}

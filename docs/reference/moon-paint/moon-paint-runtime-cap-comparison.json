@@ -1,0 +1,31 @@
+{
+  "scope": "Isolated imported moon at 130px diameter, covering the measured 25\u2013121px width/25\u2013116px height range in the current fourteen arrival cameras; enlarged 223px diagnostics retained separately. Native material/light/grade and source PNG unchanged; not full baked garden/phone acceptance.",
+  "source_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "comparisons": {
+    "emission": {
+      "full_frame_rmse": 0.0026619467082752953,
+      "moon_region_rmse": 0.005847543639844818,
+      "moon_region_p99": 0.019607843137254943,
+      "moon_region_max": 0.05490196078431375,
+      "baseline_sha256": "94bbaf30ef1b25d7bc8a9ccdaee9da7e95ed2134ed3d3f84d3db228977408a81",
+      "capped_sha256": "979b71de7b1a9bc8688992f98a1dedd0164992c909c13ed90feba5912b6c4022"
+    },
+    "key": {
+      "full_frame_rmse": 0.0033809197538469398,
+      "moon_region_rmse": 0.00742338196262323,
+      "moon_region_p99": 0.02352941176470591,
+      "moon_region_max": 0.07058823529411762,
+      "baseline_sha256": "1ec69c1a119beb268156a7c5e8a8f3f1b4b7fc5dd980a5dbca8f5ba049591a70",
+      "capped_sha256": "a10c9ab64d7a1cc8feb2cac45e63e495e3013988d02d4a3789be271355b781d7"
+    },
+    "graded": {
+      "full_frame_rmse": 0.0032682929786996533,
+      "moon_region_rmse": 0.007181890022336958,
+      "moon_region_p99": 0.02352941176470591,
+      "moon_region_max": 0.07843137254901955,
+      "baseline_sha256": "857f2929c1c8a146e7f8a605bf76b4c58d200ba8a8bf63e87368fd7a253e9e14",
+      "capped_sha256": "91bb4d3f0a1b00b2de14d6140ea2e227a13b5585d331901ac87b48a5da3e921e"
+    }
+  },
+  "status": "measured"
+}

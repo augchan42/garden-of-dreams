@@ -1,0 +1,556 @@
+{
+ "arrival_signals": [
+  "rockery_gate",
+  "qinfang_ting",
+  "qiushuang_zhai",
+  "tubi_tang",
+  "qiushuang_zhai",
+  "qinfang_ting",
+  "ouxiang_xie",
+  "ziling_zhou",
+  "ouxiang_xie",
+  "longcui_an",
+  "ouxiang_xie",
+  "qinfang_ting",
+  "hengwu_yuan",
+  "daoxiang_cun",
+  "hengwu_yuan",
+  "qinfang_ting",
+  "daguan_lou",
+  "qinfang_ting",
+  "yihong_yuan",
+  "aojing_guan",
+  "yihong_yuan",
+  "qinfang_ting",
+  "xiaoxiang_guan",
+  "qinfang_ting",
+  "rockery_gate",
+  "terminal_room"
+ ],
+ "error": "",
+ "floor_failures": [],
+ "legs": [
+  {
+   "centre_ray_misses": [],
+   "command": "exit",
+   "end_position": [
+    0.0241048559546471,
+    -0.00417081778869033,
+    32.6108360290527
+   ],
+   "from": "terminal_room",
+   "grounded_ray_samples": 638,
+   "longest_air_frames": 0,
+   "max_y": -0.00417081778869033,
+   "min_y": -0.00498264329507947,
+   "physics_frames": 638,
+   "supported_ray_samples": 638,
+   "to": "rockery_gate",
+   "trace_sha256": "64e55befa8a163ed537eab0d4fef63c53d42b1eae5ed5f4fc007fc6f072d6abc",
+   "walking_distance_m": 25.4802317582071
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "enter",
+   "end_position": [
+    0.118462473154068,
+    -0.00417081778869033,
+    1.81548547744751
+   ],
+   "from": "rockery_gate",
+   "grounded_ray_samples": 1094,
+   "longest_air_frames": 0,
+   "max_y": -0.00417081778869033,
+   "min_y": -0.00417081778869033,
+   "physics_frames": 1094,
+   "supported_ray_samples": 1094,
+   "to": "qinfang_ting",
+   "trace_sha256": "736b6208aa5fd0e18e76abca27ec9df586f415fce7dde800fa40221c4b54ec22",
+   "walking_distance_m": 34.0800909921527
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "board",
+   "end_position": [
+    21.8972930908203,
+    -0.00417081778869033,
+    -13.4958744049072
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 918,
+   "longest_air_frames": 0,
+   "max_y": -0.00417081778869033,
+   "min_y": -0.00417081778869033,
+   "physics_frames": 918,
+   "supported_ray_samples": 918,
+   "to": "qiushuang_zhai",
+   "trace_sha256": "b7ef403e23e98db55ae0becc4ec86d3adf406e35658ebf1f0107c586aa919aef",
+   "walking_distance_m": 36.6401439532638
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "hill",
+   "end_position": [
+    7.12269020080566,
+    3.99487400054932,
+    -30.9947261810303
+   ],
+   "from": "qiushuang_zhai",
+   "grounded_ray_samples": 840,
+   "longest_air_frames": 0,
+   "max_y": 3.99599695205688,
+   "min_y": -0.00417081778869033,
+   "physics_frames": 840,
+   "supported_ray_samples": 840,
+   "to": "tubi_tang",
+   "trace_sha256": "edd421813bd81f58634559bc96e44ac8c3f2c6a85cf53a0943d3aa794558b7bf",
+   "walking_distance_m": 32.6506305448711
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    21.8972129821777,
+    -0.00406380370259285,
+    -13.5019159317017
+   ],
+   "from": "tubi_tang",
+   "grounded_ray_samples": 797,
+   "longest_air_frames": 0,
+   "max_y": 3.99593210220337,
+   "min_y": -0.00487612094730139,
+   "physics_frames": 797,
+   "supported_ray_samples": 797,
+   "to": "qiushuang_zhai",
+   "trace_sha256": "abfbda304b00e0bc97d45e1334f6fffcf5356857c5b83faddc336f5fdc778e50",
+   "walking_distance_m": 32.6650164537132
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.122700810432434,
+    -0.00405826373025775,
+    1.79398369789124
+   ],
+   "from": "qiushuang_zhai",
+   "grounded_ray_samples": 919,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00406380370259285,
+   "physics_frames": 919,
+   "supported_ray_samples": 919,
+   "to": "qinfang_ting",
+   "trace_sha256": "7d1bb22a771a43c1b02d83568a906269717954de4ad1d766f6b439c8d5cb52bf",
+   "walking_distance_m": 36.6717715226114
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "west",
+   "end_position": [
+    -22.8702545166016,
+    -0.00405826373025775,
+    0.00000107767141344084
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 616,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00405826373025775,
+   "physics_frames": 616,
+   "supported_ray_samples": 616,
+   "to": "ouxiang_xie",
+   "trace_sha256": "95d7afc9f5269fa71c2ea12009e2de080ba2e8460a87dcfd6227a05624411934",
+   "walking_distance_m": 24.5601622909307
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "island",
+   "end_position": [
+    -35.2705383300781,
+    -0.00405826373025775,
+    0.0000000000322423303333874
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 312,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00405826373025775,
+   "physics_frames": 312,
+   "supported_ray_samples": 312,
+   "to": "ziling_zhou",
+   "trace_sha256": "6246cb86caf073e769b7c2b5d2150ae580bceda772bf970c38671c7226eb61d2",
+   "walking_distance_m": 12.4002838134766
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -23.1102600097656,
+    -0.00405826373025775,
+    0.000000000000000638317729243296
+   ],
+   "from": "ziling_zhou",
+   "grounded_ray_samples": 306,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00405826373025775,
+   "physics_frames": 306,
+   "supported_ray_samples": 306,
+   "to": "ouxiang_xie",
+   "trace_sha256": "a312b01c75b5a41dc09e547d40c98447f479d7bae2f12de3e69213415480b978",
+   "walking_distance_m": 12.1602783203125
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "nunnery",
+   "end_position": [
+    -24.9973831176758,
+    -0.00405826373025775,
+    10.4763040542603
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 498,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00405826373025775,
+   "physics_frames": 498,
+   "supported_ray_samples": 498,
+   "to": "longcui_an",
+   "trace_sha256": "f147347c6d571a5a525bcdd6b4196a69ac00f30c30aae2db0bcfeebf2762b650",
+   "walking_distance_m": 19.8401109203696
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -22.881160736084,
+    -0.00405826373025775,
+    0.00387553730979562
+   ],
+   "from": "longcui_an",
+   "grounded_ray_samples": 492,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00405826373025775,
+   "physics_frames": 492,
+   "supported_ray_samples": 492,
+   "to": "ouxiang_xie",
+   "trace_sha256": "1a459e877a416e5d425e790a3e41415b28a366162d8c0a4c01b3d037d3628916",
+   "walking_distance_m": 19.5998925790191
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -0.123043544590473,
+    -0.00425427127629519,
+    1.79358446598053
+   ],
+   "from": "ouxiang_xie",
+   "grounded_ray_samples": 611,
+   "longest_air_frames": 0,
+   "max_y": -0.00405826373025775,
+   "min_y": -0.00562654715031385,
+   "physics_frames": 611,
+   "supported_ray_samples": 611,
+   "to": "qinfang_ting",
+   "trace_sha256": "682d0112c31858973d4497c6c9dc9917452fa4df23e8ad82128bd16bd38bb258",
+   "walking_distance_m": 24.3481646068394
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "study",
+   "end_position": [
+    -18.0009365081787,
+    -0.00409849546849728,
+    -14.5893287658691
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 920,
+   "longest_air_frames": 0,
+   "max_y": 0.00653541507199407,
+   "min_y": -0.00694114761427045,
+   "physics_frames": 920,
+   "supported_ray_samples": 920,
+   "to": "hengwu_yuan",
+   "trace_sha256": "c9e3d1ff8c71887cfcf5c2264c7c5dd71779a81e5821fef8e7d1ce420a76f535",
+   "walking_distance_m": 36.7199689149857
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "farm",
+   "end_position": [
+    -31.9989376068115,
+    -0.00406632525846362,
+    -19.2003211975098
+   ],
+   "from": "hengwu_yuan",
+   "grounded_ray_samples": 791,
+   "longest_air_frames": 0,
+   "max_y": -0.00102236517705023,
+   "min_y": -0.00502627156674862,
+   "physics_frames": 791,
+   "supported_ray_samples": 791,
+   "to": "daoxiang_cun",
+   "trace_sha256": "984fadf9fc3e22779e815673a7d52bfa5b18f8ff2e8fc5360b3c11f464542678",
+   "walking_distance_m": 31.5601537488401
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -18.0018692016602,
+    -0.00479501485824585,
+    -14.5950918197632
+   ],
+   "from": "daoxiang_cun",
+   "grounded_ray_samples": 791,
+   "longest_air_frames": 0,
+   "max_y": 0.0115624070167542,
+   "min_y": -0.00479501485824585,
+   "physics_frames": 791,
+   "supported_ray_samples": 791,
+   "to": "hengwu_yuan",
+   "trace_sha256": "42637822f2440dee7622000023c1c75dd2f53c22e085d2bc0d367e64805abcd8",
+   "walking_distance_m": 31.5592248700559
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -0.122616112232208,
+    -0.00425425777211785,
+    1.79407668113708
+   ],
+   "from": "hengwu_yuan",
+   "grounded_ray_samples": 921,
+   "longest_air_frames": 0,
+   "max_y": -0.0000252784229815006,
+   "min_y": -0.00562650989741087,
+   "physics_frames": 921,
+   "supported_ray_samples": 921,
+   "to": "qinfang_ting",
+   "trace_sha256": "3e2ab18b4b30b14e834495e374835eb70be6da1614f4a7f583d5d1da67d369e9",
+   "walking_distance_m": 36.7530209645629
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "north",
+   "end_position": [
+    0.00000327583711623447,
+    -0.00425425777211785,
+    -20.390739440918
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 651,
+   "longest_air_frames": 0,
+   "max_y": -0.00425425777211785,
+   "min_y": -0.00425425777211785,
+   "physics_frames": 651,
+   "supported_ray_samples": 651,
+   "to": "daguan_lou",
+   "trace_sha256": "ee448375d762dc9942e03b2a3cd527304305b69a7c2328d50e30a6ae10138b1e",
+   "walking_distance_m": 25.9601111374795
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.120945498347282,
+    -0.00425425777211785,
+    1.7922385931015
+   ],
+   "from": "daguan_lou",
+   "grounded_ray_samples": 645,
+   "longest_air_frames": 0,
+   "max_y": -0.00425425777211785,
+   "min_y": -0.00425425777211785,
+   "physics_frames": 645,
+   "supported_ray_samples": 645,
+   "to": "qinfang_ting",
+   "trace_sha256": "9e049c68c2272dd9e4d4473c363b35925b2a82df7784028c81addfea143a6658",
+   "walking_distance_m": 25.7200904078782
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "east",
+   "end_position": [
+    22.5305709838867,
+    -0.00425425777211785,
+    0.904826879501343
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 613,
+   "longest_air_frames": 0,
+   "max_y": -0.00425425777211785,
+   "min_y": -0.00425425777211785,
+   "physics_frames": 613,
+   "supported_ray_samples": 613,
+   "to": "yihong_yuan",
+   "trace_sha256": "239517ca7cd40796339691eac2236ea0de56422399d399b03fa2804ef46ce915",
+   "walking_distance_m": 24.4401285760105
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "pond",
+   "end_position": [
+    25.9081993103027,
+    -0.654742836952209,
+    13.0999889373779
+   ],
+   "from": "yihong_yuan",
+   "grounded_ray_samples": 579,
+   "longest_air_frames": 0,
+   "max_y": -0.00425425777211785,
+   "min_y": -0.654742836952209,
+   "physics_frames": 579,
+   "supported_ray_samples": 579,
+   "to": "aojing_guan",
+   "trace_sha256": "a81005ad56c62b7b6b38428230d48f1b13cc9e928812405bc6d75fa53062e2d7",
+   "walking_distance_m": 23.1748548932374
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    22.4972152709961,
+    -0.0042369058355689,
+    1.00309300422668
+   ],
+   "from": "aojing_guan",
+   "grounded_ray_samples": 584,
+   "longest_air_frames": 0,
+   "max_y": -0.00305121298879385,
+   "min_y": -0.654742836952209,
+   "physics_frames": 584,
+   "supported_ray_samples": 584,
+   "to": "yihong_yuan",
+   "trace_sha256": "e9a5ce1826a2f3f1392a75731180081511b0f7a5db6d7c3678487676a672bf71",
+   "walking_distance_m": 23.1900744885206
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.122606039047241,
+    -0.00405866093933582,
+    1.79409623146057
+   ],
+   "from": "yihong_yuan",
+   "grounded_ray_samples": 616,
+   "longest_air_frames": 0,
+   "max_y": -0.00405866093933582,
+   "min_y": -0.0042369058355689,
+   "physics_frames": 616,
+   "supported_ray_samples": 616,
+   "to": "qinfang_ting",
+   "trace_sha256": "eafc8830306c82560c6cd32cebc7e3f49c02ff8e0cac853d22b5033cfe4bcd95",
+   "walking_distance_m": 24.5530674345791
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "bamboo",
+   "end_position": [
+    -6.47896432876587,
+    -0.00405866093933582,
+    12.999828338623
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 470,
+   "longest_air_frames": 0,
+   "max_y": -0.00405866093933582,
+   "min_y": -0.00405866093933582,
+   "physics_frames": 470,
+   "supported_ray_samples": 470,
+   "to": "xiaoxiang_guan",
+   "trace_sha256": "38a796666a68187419bec6f5518706ec0657b314597b467766a8a9d1bda0f81d",
+   "walking_distance_m": 18.7200069539249
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.118457980453968,
+    -0.00405866093933582,
+    1.81547582149506
+   ],
+   "from": "xiaoxiang_guan",
+   "grounded_ray_samples": 470,
+   "longest_air_frames": 0,
+   "max_y": -0.00405866093933582,
+   "min_y": -0.00405866093933582,
+   "physics_frames": 470,
+   "supported_ray_samples": 470,
+   "to": "qinfang_ting",
+   "trace_sha256": "e6647f2a42eb17e8a2dbc0f4ad5cd27327fd3267108eaf86e03246f678457daa",
+   "walking_distance_m": 18.7200198322535
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    0.00455839233472943,
+    -0.00405866093933582,
+    32.3944816589355
+   ],
+   "from": "qinfang_ting",
+   "grounded_ray_samples": 848,
+   "longest_air_frames": 0,
+   "max_y": -0.00405866093933582,
+   "min_y": -0.00405866093933582,
+   "physics_frames": 848,
+   "supported_ray_samples": 848,
+   "to": "rockery_gate",
+   "trace_sha256": "8673df0b6128fc86c4148d7698296851bc372efa655af41b336a0e6917a109ea",
+   "walking_distance_m": 33.8401908874512
+  },
+  {
+   "centre_ray_misses": [],
+   "command": "back",
+   "end_position": [
+    -1.28835296630859,
+    -0.00405866093933582,
+    38.0947113037109
+   ],
+   "from": "rockery_gate",
+   "grounded_ray_samples": 641,
+   "longest_air_frames": 0,
+   "max_y": -0.00405866093933582,
+   "min_y": -0.00405866093933582,
+   "physics_frames": 641,
+   "supported_ray_samples": 641,
+   "to": "terminal_room",
+   "trace_sha256": "d0115d2265460ca4630ba902401bd6987f9df9702b5a45f1ed324e930d3f629b",
+   "walking_distance_m": 25.5598834380507
+  }
+ ],
+ "physics_ticks_per_second": 60,
+ "route_sha256": "d40fc7c98f50e6a1559fa9d3fbda6644f5cbe05a0ac51ffba23a9b8efe669b1e",
+ "scope": "Continuous command-driven actual physics through fourteen rooms and all thirteen connections both ways, without resetting the visitor. Headless state/floor/collision checks; not rendered UI, performance, live services or final scene art acceptance.",
+ "source_glb_sha256": "e70d8aea230bf082dc693060aa1e325f8273bc0224fb15bfea25e25c0394ece7",
+ "start_position": [
+  -1.29999995231628,
+  -0.00498264329507947,
+  37.9799995422363
+ ],
+ "status": "passed",
+ "test_sha256": "d1285687cd213c41f344905f43d77f9bbd1b5675a77cd111bbdbab2b21084aee",
+ "time_scale": 1.0,
+ "visited_rooms": [
+  "terminal_room",
+  "rockery_gate",
+  "qinfang_ting",
+  "qiushuang_zhai",
+  "tubi_tang",
+  "ouxiang_xie",
+  "ziling_zhou",
+  "longcui_an",
+  "hengwu_yuan",
+  "daoxiang_cun",
+  "daguan_lou",
+  "yihong_yuan",
+  "aojing_guan",
+  "xiaoxiang_guan"
+ ]
+}

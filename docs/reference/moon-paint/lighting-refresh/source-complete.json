@@ -1,0 +1,62 @@
+{
+  "status": "source_complete",
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "samples": 128,
+  "maximum_source_map_size": 1024,
+  "engine_installed": false,
+  "started_at": "2026-10-07T23:08:48.597105+00:00",
+  "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp",
+  "orchestrator_pid": 80994,
+  "phases": [
+    {
+      "name": "ordinary",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/ordinary.log",
+      "pid": 80995,
+      "exit_code": 0
+    },
+    {
+      "name": "backdrop-wash",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/backdrop-wash.log",
+      "pid": 4446,
+      "exit_code": 0
+    },
+    {
+      "name": "terminal-spill",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/terminal-spill.log",
+      "pid": 4539,
+      "exit_code": 0
+    },
+    {
+      "name": "terminal-spill-pixels",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/terminal-spill-pixels.log",
+      "pid": 6232,
+      "exit_code": 0
+    },
+    {
+      "name": "native-pixels",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/native-pixels.log",
+      "pid": 6238,
+      "exit_code": 0
+    },
+    {
+      "name": "coverage",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-bg2_1cdp/coverage.log",
+      "pid": 6385,
+      "exit_code": 0
+    }
+  ],
+  "coverage": {
+    "expected_meshes": 124,
+    "baked_meshes": 124,
+    "missing": [],
+    "unexpected": [],
+    "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2"
+  },
+  "finished_at": "2026-10-07T23:56:35.447893+00:00"
+}
