@@ -37,3 +37,15 @@ Two *Come Drink with Me* images show daylight character/courtyard action, and th
 
 
 Yihong slot 3: Hysocc's banana-leaf close-up was directly reviewed, downloaded as the unmodified original and matched to published SHA-1 `047c9249207ff3eef9ff7b75661e5beb24e9d8c0`. CC BY-SA 3.0 attribution is recorded. Useful central-rib, lateral-vein and fine-ridge detail; no night-color or whole-plant claim. Required coverage becomes 19/42, leaving 23 slots. Dicuiting was reviewed but not accepted as Ouxiang's specified open pavilion architecture.
+
+
+## Hilltop stone table material
+
+Pseudopanax's original foreground stone table fills Tubi slot 3 after direct full-image review. Published Commons SHA-1 and local SHA-256 match; metadata and the original image are saved with the author public-domain release. The close table supplies visible grain, rounded lip, perimeter groove and dull surface observations. It is a Hamilton Gardens material reference, without a Tubi identity, nighttime palette or production-scan claim. A foreign overwater pavilion does not fill Ouxiang/Aojing architecture, and a decorative mosaic tabletop does not fill Tubi material. All three decisions are retained in `stone-water-review-2026-10-08.json`. Current required coverage is 20/42, leaving 22 slots.
+
+
+## Named Aojing facade
+
+The Beijing Tourism gallery's facade photo visibly bears 凹晶溪館 and fills Aojing architecture slot 2. Gray roof tiles, painted lintel, columns and glazed lattice doors are directly visible. The waterline/reflection and measured frontage are not established by this frame. Publisher bytes, watermark, source HTML and copyright attribution are retained; no open reuse licence or individual photographer is supplied. Two direct image attempts completed with read timeouts; a later query-parameter request succeeded. Current coverage is 21/42, leaving 21 slots.
+
+The named Longcui gallery does not fill its required closed-gate architecture: one URL returns an identical lake image to an Aojing URL, another shows flowers/lintel, and the last shows an open-bay temple hall with incense burner rather than the specified outer gate/whitewash/plum frontage. These source and byte decisions are retained in `beijing-tourism-review-2026-10-08.json`; the originals remain outside accepted reference folders.

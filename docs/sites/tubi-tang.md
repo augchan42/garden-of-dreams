@@ -34,7 +34,7 @@ Establishing view includes the central pavilion below and the edge of the painte
 
 These are collection requirements, not claims that reference stills have been collected.
 
-Sourced leads reviewed: [Beijing municipal tourism’s Grand View Garden page](https://s.visitbeijing.com.cn/attraction/101918) describes the elevated viewing hall and perimeter seating in the modern reconstruction. The [National Museum’s *Grand View Garden* painting record](https://www.chnmuseum.cn/zp/zpml/ysp/202101/t20210112_248877.shtml) supports its moon-viewing role, not measured architecture. Neither is a Shaw night-set still or a material close-up. Those two references remain to be collected.
+Sourced leads reviewed: [Beijing municipal tourism’s Grand View Garden page](https://s.visitbeijing.com.cn/attraction/101918) describes the elevated viewing hall and perimeter seating in the modern reconstruction. The [National Museum’s *Grand View Garden* painting record](https://www.chnmuseum.cn/zp/zpml/ysp/202101/t20210112_248877.shtml) supports its moon-viewing role, not measured architecture. Neither is a Shaw night-set still or a material close-up. The current collected references and remaining night-set slot are documented below.
 
 ## Current build and acceptance
 
@@ -63,4 +63,9 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 
 ## Collected hilltop architecture reference — 2026-10-08
 
-The slot-2 hilltop photograph is collected, directly reviewed and attributed in `../reference/external/tubi-tang/README.md`. An elevated hall on a rocky rise, with thick red columns, a continuous gray tiled eave, painted blue-green brackets, pierced geometric lintel screens, a low green balustrade and hanging lanterns. The visible plaque reads 凸碧山莊. Useful for hilltop frontage, stock construction and roof/rail proportions; this close upward view does not establish terrace height, stair geometry or the required night lighting. Original bytes match the Commons SHA-1. The night-set and material close-up slots remain uncollected. This is reference collection, not scene acceptance.
+The slot-2 hilltop photograph is collected, directly reviewed and attributed in `../reference/external/tubi-tang/README.md`. An elevated hall on a rocky rise, with thick red columns, a continuous gray tiled eave, painted blue-green brackets, pierced geometric lintel screens, a low green balustrade and hanging lanterns. The visible plaque reads 凸碧山莊. Useful for hilltop frontage, stock construction and roof/rail proportions; this close upward view does not establish terrace height, stair geometry or the required night lighting. Original bytes match the Commons SHA-1. The night-set slot remains uncollected; the material slot is documented below. This is reference collection, not scene acceptance.
+
+
+## Collected table material reference — 2026-10-08
+
+Slot 3 now retains an unmodified, directly reviewed original by Pseudopanax with an author public-domain release. Its close foreground stone table supplies granular surface, rounded edge, perimeter groove and pedestal/stool finish observations. The photograph is from Hamilton Gardens, not Tubi; it supplies material evidence only. No architectural identity, nighttime lighting, measured proportions or scanned production texture is claimed. Attribution and byte checks: `../reference/external/tubi-tang/README.md`. Tubi now has two of three collected references; the Shaw Brothers night-set slot and final scene art acceptance remain open.

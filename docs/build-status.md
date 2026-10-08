@@ -949,3 +949,9 @@ coverage is 19/42, leaving 23 slots. A different Dicuiting pavilion photo was
 reviewed but not accepted as the required Ouxiang architecture. The full goal
 remains active for art, references, texture/device/performance/current release
 and authenticated room services.
+
+
+Tubi's close foreground stone table material reference is collected with directly reviewed original bytes and Pseudopanax's author public-domain release. Current coverage is 20/42, leaving 22 slots. Two mismatched pavilion/mosaic candidates are explicitly rejected. This reference pass changes no scene assets or lighting; the frozen 8d1d9b4e full bake remains separate and running. Final art/adoption, texture/device/performance/current release and authenticated room services remain open.
+
+
+Aojing's named windowed facade is now collected from Beijing Tourism with direct plaque/structure review, publisher copyright attribution and original bytes. Required coverage is 21/42, leaving 21 slots. The Longcui gallery's lake/flower/open-hall images do not establish its specified closed outer gate; that slot remains open. Scene assets, production lighting and release remain unchanged by reference collection.

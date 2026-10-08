@@ -2,17 +2,18 @@
   "scope": "Saved external reference metadata, unique slots and original-byte integrity; direct attribution/relevance review remains separate.",
   "expected_sites": 14,
   "expected_references": 42,
-  "collected_references": 19,
+  "collected_references": 21,
   "sites": {
     "aojing-guan": {
-      "site_sheet_sha256": "f45bf8a945c1e220b208df4987579744ed76b0bd530c423913c60eb02396321c",
-      "collected_slots": [],
+      "site_sheet_sha256": "447d3ad61ed3d9a745451ba426277e05edfca0cee34165f005f2b8c8512aeb50",
+      "collected_slots": [
+        2
+      ],
       "missing_slots": [
         1,
-        2,
         3
       ],
-      "sources_sha256": null
+      "sources_sha256": "6a01a11d547c3780070ccc0a3a279454db930870ca7087be7856f227fd7b69c5"
     },
     "daguan-lou": {
       "site_sheet_sha256": "99bff3552eec6bce419b718cb02a97cbcf539a7e025d07dc9d609aed7a74860b",
@@ -112,15 +113,15 @@
       "sources_sha256": null
     },
     "tubi-tang": {
-      "site_sheet_sha256": "b5780f8298dfb1cf2f79bef8d32ec05c45ce0749f5b053c8a5f0d385e650f062",
+      "site_sheet_sha256": "4fd89183568c85cd7d3d889dda03e41910eaa21981d46ffd54fb19d01c971bc9",
       "collected_slots": [
-        2
-      ],
-      "missing_slots": [
-        1,
+        2,
         3
       ],
-      "sources_sha256": "cf6a4fced958ee4842b15b4f19bb81498229e3bf01f8feab1c4c2ae9f7377a7c"
+      "missing_slots": [
+        1
+      ],
+      "sources_sha256": "daaf46dc0e05758a12dd08c709e9e71040c02d76c690627b719e940ff7eac0bb"
     },
     "xiaoxiang-guan": {
       "site_sheet_sha256": "f5fdb9601ea5124f33481d462d238e325a8191a1c6e6b009921e6e8af695e58d",

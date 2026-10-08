@@ -80,7 +80,7 @@ and its evidence remain unchanged.
 
 Canonical Blender/export and production Godot retain the preceding painted-moon
 source. The local playable package still needs a separate rebuild. Site art,
-23 required external references, texture/device/performance acceptance and
+21 required external references, texture/device/performance acceptance and
 authenticated room services remain unfinished. The full goal remains active.
 
 Raw source/export/native checks and exact tools are retained under
