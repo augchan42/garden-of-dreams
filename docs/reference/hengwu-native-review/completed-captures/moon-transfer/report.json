@@ -1,0 +1,55 @@
+{
+ "adapter_sha256": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+ "base_linear": [
+  0.171995982527733,
+  0.171995982527733,
+  0.171995982527733
+ ],
+ "cases": {
+  "emission": {
+   "adapted_sha256": "ee9ebb84d5a7238139e433c994434469339cae1d449158034620ba2c0c478f5c",
+   "maximum": 0.0,
+   "missing-paint_sha256": "b9d93ba9a117336ac7820996f52669b63d599ace9cfb467cabe231d96f93ca33",
+   "missing_paint_rmse": 0.240025562973404,
+   "native_sha256": "ee9ebb84d5a7238139e433c994434469339cae1d449158034620ba2c0c478f5c",
+   "passed": true,
+   "rmse": 0.0
+  },
+  "graded": {
+   "adapted_sha256": "be593ce4c55e54250a2a7e62044dcf6dffb8c09198c5eec6804cc4a013e7be07",
+   "maximum": 0.0,
+   "missing-paint_sha256": "d4a40d7ca207a593459dd6d7203542ea695ecdb13546225d19901195d0df0ee1",
+   "missing_paint_rmse": 0.0566805987357966,
+   "native_sha256": "be593ce4c55e54250a2a7e62044dcf6dffb8c09198c5eec6804cc4a013e7be07",
+   "passed": true,
+   "rmse": 0.0
+  },
+  "key": {
+   "adapted_sha256": "925bebc5020f260cf2e23b65ff1b8a349b57d446855dc52233ed2e9549e521da",
+   "maximum": 0.0,
+   "missing-paint_sha256": "2da3d8070ff73153d464ca23a956176ef181885187adec8e53ce8d9b0cf01da4",
+   "missing_paint_rmse": 0.0599516182380587,
+   "native_sha256": "925bebc5020f260cf2e23b65ff1b8a349b57d446855dc52233ed2e9549e521da",
+   "passed": true,
+   "rmse": 0.0
+  }
+ },
+ "emission_energy": 1.0,
+ "emission_linear": [
+  0.119147449731827,
+  0.119147449731827,
+  0.119147449731827
+ ],
+ "moon_diameter_pixels": 223.0,
+ "renderer_texture_memory_bytes": 6972438,
+ "scope": "Actual imported moon native versus existing baked-material adapter with ordinary bake disabled, in emissive/key/graded views; positive missing-paint control. Not final baked garden lighting or site art acceptance.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "passed",
+ "texture_readback_bytes": 6288054,
+ "texture_readback_format": 4,
+ "texture_size": [
+  1254,
+  1254
+ ]
+}

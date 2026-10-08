@@ -1,0 +1,821 @@
+{
+  "status": "technical_checks_complete_visual_review_pending",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "orchestrator_pid": 43551,
+  "started_at": "2026-10-08T20:19:33.502546+00:00",
+  "root": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc",
+  "first_review_report": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/first-review-pipeline.json",
+  "reused_completed_checks": [
+    {
+      "name": "palette-source-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/build_garden_palette_contract.py",
+        "--source",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/export/garden-of-dreams.glb",
+        "--atlas-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot/tests/garden-palette-contract.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/palette-source-contract.log",
+      "pid": 39720,
+      "exit_code": 0,
+      "log_sha256": "3acc85c61b6b992da5167ed60dfd23c54cb31e0488f5cb258737593451b17ac8"
+    },
+    {
+      "name": "source-import-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/build_godot_import_contract.py",
+        "--output",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot/tests/source-contract.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/source-import-contract.log",
+      "pid": 39723,
+      "exit_code": 0,
+      "log_sha256": "392b1b17a5f6ba6f84cb4e4ea4f7435763441fa082b29536973c566ff411d80c"
+    },
+    {
+      "name": "source-coverage",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/verify_lightmaps.py",
+        "--current",
+        "--require-all"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/source-coverage.log",
+      "pid": 42778,
+      "exit_code": 0,
+      "log_sha256": "31dca82d5417c8dc21070be263c2b1611168c2d82317e0c3202ea1d2a31b0e63"
+    },
+    {
+      "name": "sync-full",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/sync_full_lightmaps.py"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/sync-full.log",
+      "pid": 42781,
+      "exit_code": 0,
+      "log_sha256": "0941c3f69b0996c5446790f1e69834c18b01968b2c5588b3b15a737660affa38"
+    },
+    {
+      "name": "sync-demo",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/sync-demo.log",
+      "pid": 42782,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "sync-priority2",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/sync_priority2_lightmaps.py"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/sync-priority2.log",
+      "pid": 42783,
+      "exit_code": 0,
+      "log_sha256": "732664a78f5a9c6183b3b74f1891e59673daed9add2907bd5cbba56d8b01bb68"
+    },
+    {
+      "name": "sync-wash",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/sync_backdrop_wash.py"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/sync-wash.log",
+      "pid": 42784,
+      "exit_code": 0,
+      "log_sha256": "4856006dae308ec7b870c16d66e366a9f2910b5b618e002cb9336d1be0cb4342"
+    },
+    {
+      "name": "sync-spill",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/sync_terminal_spill.py"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/sync-spill.log",
+      "pid": 42786,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "initial-cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/initial-cold-import.log",
+      "pid": 42787,
+      "exit_code": 0,
+      "log_sha256": "72f25e22bc38af6b06f61911492a77aa4ab26ce87178cba0e1f49512eef38331"
+    },
+    {
+      "name": "configure-lightmap-cap",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/configure_lightmap_imports.py",
+        "--size-limit",
+        "256",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/configure-lightmap-cap.log",
+      "pid": 42807,
+      "exit_code": 0,
+      "log_sha256": "c4be36fd19a6d644e8b334d1c376ea52304b7522985a9b3cea2a95dc85d8420b"
+    },
+    {
+      "name": "configured-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/configured-import.log",
+      "pid": 42808,
+      "exit_code": 0,
+      "log_sha256": "462a5d0f6be9ac8489460c5ccc39b6aa7d43d1d17bb80907d01d521c032ced34"
+    },
+    {
+      "name": "first-source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/first-import.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/first-source-contract.log",
+      "pid": 42809,
+      "exit_code": 0,
+      "log_sha256": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa"
+    },
+    {
+      "name": "forced-cold-reimport",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/forced-cold-reimport.log",
+      "pid": 42811,
+      "exit_code": 0,
+      "log_sha256": "1dd6d33e9a5e9530256648807f317f1743276c9ee111aad8a41ed16bca84f640"
+    },
+    {
+      "name": "second-source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/second-import.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/second-source-contract.log",
+      "pid": 42834,
+      "exit_code": 0,
+      "log_sha256": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa"
+    },
+    {
+      "name": "reject-camera",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/rejected-camera.json",
+        "--corrupt-camera"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/reject-camera.log",
+      "pid": 42835,
+      "exit_code": 1,
+      "log_sha256": "28f4d5175a992af6ee8c32689845692050c849436da167959606886bf3ce5bf8"
+    },
+    {
+      "name": "reject-collider",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/rejected-collider.json",
+        "--corrupt-collider"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/reject-collider.log",
+      "pid": 42836,
+      "exit_code": 1,
+      "log_sha256": "9756bd2e729a81cef0c9b865405586eaf5b0dfcaf2a1e5af2d076f67085d4043"
+    },
+    {
+      "name": "reject-marker",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/rejected-marker.json",
+        "--corrupt-marker"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/reject-marker.log",
+      "pid": 42837,
+      "exit_code": 1,
+      "log_sha256": "86bff64a536d7baa5d001a21b0489dff9af894042355de7e161eabc8f558db39"
+    },
+    {
+      "name": "default-policy-rejection",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/default-policy-rejection.log",
+      "pid": 42838,
+      "exit_code": 1,
+      "log_sha256": "09f853b9c3de47c54ec22a817026262604b1f8670801146ec89bebb42012cf7d"
+    },
+    {
+      "name": "ouxiang-policy-rejection",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/ouxiang-policy-rejection.log",
+      "pid": 42840,
+      "exit_code": 1,
+      "log_sha256": "a2aa3a83ce4078a0d85c2ea7cd4231f4747f32f8714703cd7180890b2566504b"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/full-lighting.log",
+      "pid": 42844,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/wash-normal.log",
+      "pid": 42845,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "wash-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--",
+        "--demo"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/wash-demo.log",
+      "pid": 42846,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "spill-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/spill-normal.log",
+      "pid": 42847,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--",
+        "--demo"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/spill-demo.log",
+      "pid": 42857,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "saved-site-source-audit",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/scripts/audit_site_sources.py"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/saved-site-source-audit.log",
+      "pid": 42858,
+      "exit_code": 0,
+      "log_sha256": "9751bdfcb26e82d67a8d1a32a6813024edd96d8c214e73f06fc26d38779ab733"
+    },
+    {
+      "name": "native-texture-memory-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/runtime-texture-inventory-normal.json"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/native-texture-memory-normal.log",
+      "pid": 42861,
+      "exit_code": 0,
+      "log_sha256": "1cdd30415c284da915664723d5576bb7fbe22ef2e66bb3d63c757c1a1ec80cb4"
+    },
+    {
+      "name": "native-texture-memory-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/runtime-texture-inventory-demo.json",
+        "--demo"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/native-texture-memory-demo.log",
+      "pid": 42862,
+      "exit_code": 0,
+      "log_sha256": "682e57b6d47ad550d657823f3b762bfcec0e6aef258cd26f02293ef851083183"
+    },
+    {
+      "name": "saved-source-default-reexport",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/blender/authoring.blend",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc",
+        "--output-root",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-native-reexport-tdjuzc76"
+      ],
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-logs/saved-source-default-reexport.log",
+      "pid": 42871,
+      "exit_code": 0,
+      "log_sha256": "70240b6e0191048cd78701826ad8f6def43ebd6c05cd55bb32a2372969bf0f80"
+    }
+  ],
+  "invalidated_first_capture_report": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/first-lit-capture-pose-rejection.json",
+  "updated_test_inputs_sha256": {
+    "tests/test_portrait_architecture.gd": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+    "tests/render_hengwu_lit_candidate.gd": "a5e73ad8bf203112e44ee275851b353471e69810ced9724b7dcd9e195adced99"
+  },
+  "phases": [
+    {
+      "name": "hengwu-lit-actions-completed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/render_hengwu_lit_candidate.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/hengwu-lit-actions"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/hengwu-lit-actions-completed.log",
+      "pid": 43554,
+      "exit_code": 0,
+      "log_sha256": "626c906b968406e44138772739297e35beed8d9c882af2369936e6710ff58111"
+    },
+    {
+      "name": "portrait-architecture-completed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/portrait-architecture"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/portrait-architecture-completed.log",
+      "pid": 43564,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6"
+    },
+    {
+      "name": "route-courtyard",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_courtyard_route.gd"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/route-courtyard.log",
+      "pid": 43575,
+      "exit_code": 0,
+      "log_sha256": "0b59665d633d8f024ae53bd81cef866d93fdaeb8a2fb1981bdaf9d7005c393ee"
+    },
+    {
+      "name": "route-farmhouse",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_farmhouse_route.gd"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/route-farmhouse.log",
+      "pid": 43595,
+      "exit_code": 0,
+      "log_sha256": "19d5c8140e52ddb4eca49c1239141b24dbe261d3c41dde74ad7d35e069454eb7"
+    },
+    {
+      "name": "ouxiang-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/framing"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/ouxiang-framing.log",
+      "pid": 43615,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    },
+    {
+      "name": "ouxiang-framing-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/framing-density",
+        "--density"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/ouxiang-framing-density.log",
+      "pid": 43616,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    },
+    {
+      "name": "route-western",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_western_route.gd"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/route-western.log",
+      "pid": 43625,
+      "exit_code": 0,
+      "log_sha256": "16242fc0f851486b4c603d5fcf9875f9b04b9109db517ed3525dd6f8db15679b"
+    },
+    {
+      "name": "route-nunnery",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_nunnery_route.gd"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/route-nunnery.log",
+      "pid": 43647,
+      "exit_code": 0,
+      "log_sha256": "36dffce3ce7dac98cc7c1cadb9ab30234de842a637e52e78cf49a3df6110a177"
+    },
+    {
+      "name": "route-mobile-ui",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/route-mobile-ui.log",
+      "pid": 43658,
+      "exit_code": 0,
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0"
+    },
+    {
+      "name": "moon-source-transfer",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_moon_paint_transfer.gd",
+        "--",
+        "--source=res://assets/garden-of-dreams.glb",
+        "--atlas=res://tests/moon-paint-atlas.json",
+        "--output-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/moon-transfer"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/moon-source-transfer.log",
+      "pid": 43659,
+      "exit_code": 0,
+      "log_sha256": "bde040f9f92b13c5c2bd3d86afb368649a53ad1b16ec9510a6c73fff3a2606a7"
+    },
+    {
+      "name": "moon-baked-scene",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/diagnose_moon_scene_contrast.gd",
+        "--",
+        "--output-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/moon-scene"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/moon-baked-scene.log",
+      "pid": 43663,
+      "exit_code": 0,
+      "log_sha256": "823d25e57cd3b13833f774f60561974d3d139ffb6367b05d19a46791dd1c9863"
+    },
+    {
+      "name": "arrivals-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--output-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/arrivals-desktop"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/arrivals-desktop.log",
+      "pid": 43666,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--output-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/arrivals-portrait",
+        "--mobile"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/arrivals-portrait.log",
+      "pid": 43684,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "tour-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/tour-desktop",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/tour-desktop/report.json"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/tour-desktop.log",
+      "pid": 43707,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "name": "tour-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/tour-portrait",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-captures-completed-camera-waits/tour-portrait/report.json",
+        "--portrait"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/tour-portrait.log",
+      "pid": 45106,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "name": "reject-palette-plain",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/rejected-palette-plain.json",
+        "--corrupt-plain"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/reject-palette-plain.log",
+      "pid": 45491,
+      "exit_code": 1,
+      "log_sha256": "89fb7cdad942fcd7b9d0d6fd8ed861ed07b969fab6898b1315419c5c62590d43"
+    },
+    {
+      "name": "reject-palette-atlas",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/rejected-palette-atlas.json",
+        "--corrupt-atlas"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/reject-palette-atlas.log",
+      "pid": 45500,
+      "exit_code": 1,
+      "log_sha256": "c8e6e7203dc5b7081df9e6086cc87ea68226fdfdfd48bd27d0e6d4f8ec71b5fd"
+    },
+    {
+      "name": "palette-transfer-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/garden-palette-transfer-normal.json"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/palette-transfer-normal.log",
+      "pid": 45503,
+      "exit_code": 0,
+      "log_sha256": "8273e8921cff43aeddc3c80afe8ef8472162c13c224e6ec57b0e083fa7796b49"
+    },
+    {
+      "name": "palette-transfer-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/godot",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/garden-palette-transfer-demo.json",
+        "--demo"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-full-review-b0lakrrc/review-resume-logs/palette-transfer-demo.log",
+      "pid": 45504,
+      "exit_code": 0,
+      "log_sha256": "2d93a2da44d1c4aea7f78f3737760cbf2ac244c14fe66a3463230b67dccc7680"
+    }
+  ],
+  "scope": "Resume after a terminal native test failure. Runtime/source unchanged; test waits now use actual camera tween completion with timeout. Original failure and six rejected partial action captures are retained. Completed source/import/lighting/library/reexport/memory checks are reused after verifying their original logs. Final art, devices, references, release and services remain open.",
+  "finished_at": "2026-10-08T20:34:30.199411+00:00"
+}

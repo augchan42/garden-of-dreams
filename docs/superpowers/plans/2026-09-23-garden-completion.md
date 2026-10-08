@@ -81,3 +81,10 @@ The separate compact-stone candidate has saved/reopened source preservation, con
 Reference checkpoint (2026-10-09): rockery slot 3 is collected with original JPEG, direct visual review and project-level attribution. Coverage is 37/42; five specified references remain. Immutable collection-time source/coverage snapshots are indexed by `moon-gate-reference-evidence.json`. Hengwu matching lighting/native review and all other scene, device, release and service requirements remain open.
 
 Hengwu checkpoint (2026-10-09): complete fresh six-phase source lighting and 141 source PNGs are archived with all 240 frozen inputs. Native reimport/lighting/source library/default-sixteen-export checks pass. A real camera-wait regression changed from five portrait failures/six incomplete action poses to fifteen zero-error portrait captures/nine exact completed Hengwu poses. Runtime is unchanged; tests wait for tween completion rather than assuming rendered frames equal elapsed animation time. Full walks/palette checks and adoption remain separate; final all-site art, five references, devices/release/services remain required.
+
+
+### Hengwu adoption checkpoint — 2026-10-09
+
+Completed: compact nearest stone and floor-anchored collision, matching full source lighting, 47 review checks with seven intended negative controls, sixteen exact default GLB reexports, both full fourteen-room native walks, checked backups and eleven tests on the installed project. Current source `26033c99` / authoring `19eb386d`. Evidence: `../../reference/hengwu-native-review/README.md` and `../../../export/hengwu-native-review-evidence.json`.
+
+Remaining: final art/framing across the fourteen sites, including Hengwu wall-cap/roof/close-view composition; five reference slots (37/42 collected); current physical-phone/2020 Adreno and sustained budgets; release; authenticated reading/history/AI/presence/social flows. Do not mark the full goal complete from this checkpoint.

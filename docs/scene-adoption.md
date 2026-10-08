@@ -78,3 +78,14 @@ The baked moon retains brush variation with no measured channel clipping. Baseli
 Current normal-route Mac allocation is 49,284,173 renderer texture bytes (about 47 MiB), with a highest sampled room of 49,367,461 bytes. This is not target-phone, demo-finale, sustained-traversal or release evidence. The existing local package/movie still represents the earlier source. Twenty required reference slots, final texture/device/performance and authenticated room services remain unfinished.
 
 Evidence: `../export/moon-intensity-final-lighting-evidence.json`, `../export/moon-intensity-baked-review-evidence.json`, `../export/moon-intensity-rendered-traversal-evidence.json` and `../export/moon-intensity-working-adoption-evidence.json`. The original review's stale worker PID is preserved; a separate resume provenance record identifies its successful completion.
+
+
+## Hengwu stone and matching lighting installed — 2026-10-09
+
+The current working source is `26033c99`, with saved Blender authoring `19eb386d`. Hengwu's closest pierced stone is narrower and lower, with smoother faces and a small bevel. Its collider stays anchored to the original floor position. The table, four stools, two other stones, cameras and fourteen other site GLBs are preserved. Canonical default export reproduces all sixteen GLBs exactly.
+
+All six source-lighting phases passed, covering 124 ordinary receivers and 141 source PNGs. The combined review has 47 completed checks and seven deliberately rejected inputs. Both native Mac walks cover fourteen rooms, twenty-six legs and 139 original captures each, with 17,582 supported grounded samples, no floor misses and at most four practical lights at time scale 1. All 278 walk originals are archived. The first incomplete camera captures and portrait failures remain preserved; the corrected test waits for actual tween completion. Game runtime code is unchanged.
+
+Twenty-two targets were installed using checked staging hashes and local backups. Eleven checks on the installed project passed: import, source contract, complete lighting, both backdrop modes, both terminal-spill modes, surface materials, both palette modes and portrait architecture behavior. All nine completed Hengwu action originals and four settled walk originals were inspected. Evidence: `reference/hengwu-native-review/README.md` and `../export/hengwu-native-review-evidence.json`.
+
+The smaller stone reveals more court, but narrow book/rock framing, roof cropping, the foreground wall cap and facade lighting still need work. This is incremental scene progress, not final all-site art acceptance. Mac stationary normal allocation peaks at 52,600,513 bytes and demo at 43,512,435 bytes; phone, sustained and frame timing remain unverified for this source. Android packages are stale. Five reference slots, remaining site art/framing, physical-device/2020 Adreno budgets, release and authenticated services remain required. The full goal stays active.

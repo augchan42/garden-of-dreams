@@ -1,0 +1,159 @@
+{
+ "baked_surface_counts": {
+  "MAT_lattice_wood": 3,
+  "MAT_pavilion_atlas": 14,
+  "MAT_plaster_rock": 6
+ },
+ "contract_sha256": "17ee3f2098ec43823c6196b25cf07443269f002f9b62648f039db45231ce5fe0",
+ "decoded_atlases": {
+  "MAT_pavilion_atlas": {
+   "decoded_format": 5,
+   "size": [
+    2048,
+    2048
+   ],
+   "swatches": {
+    "MAT_lattice_wood": {
+     "mean_linear_rgb": [
+      0.0804361030459404,
+      0.0436357781291008,
+      0.0183790773153305
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.085,
+      0.045,
+      0.022
+     ]
+    },
+    "MAT_plaster_rock": {
+     "mean_linear_rgb": [
+      0.208248257637024,
+      0.203782230615616,
+      0.187283173203468
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.21,
+      0.205,
+      0.19
+     ]
+    },
+    "MAT_rooftile": {
+     "mean_linear_rgb": [
+      0.0421285331249237,
+      0.0535961762070656,
+      0.0610432736575603
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.045,
+      0.055,
+      0.065
+     ]
+    }
+   }
+  },
+  "MAT_wall_atlas": {
+   "decoded_format": 5,
+   "size": [
+    2048,
+    2048
+   ],
+   "swatches": {
+    "MAT_lattice_wood": {
+     "mean_linear_rgb": [
+      0.0804361030459404,
+      0.0436357781291008,
+      0.0183790773153305
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.085,
+      0.045,
+      0.022
+     ]
+    },
+    "MAT_rooftile": {
+     "mean_linear_rgb": [
+      0.0421285331249237,
+      0.0535961762070656,
+      0.0610432736575603
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.045,
+      0.055,
+      0.065
+     ]
+    },
+    "MAT_whitewash": {
+     "mean_linear_rgb": [
+      0.362571895122528,
+      0.335395932197571,
+      0.290022045373917
+     ],
+     "samples": 1024,
+     "target_linear_rgb": [
+      0.36,
+      0.335,
+      0.29
+     ]
+    }
+   }
+  }
+ },
+ "device": "Apple M2 Max",
+ "imported_srgb_colors": {
+  "MAT_lattice_wood": [
+   0.322726130485535,
+   0.234795093536377,
+   0.160077646374702,
+   1.0
+  ],
+  "MAT_pavilion_atlas": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MAT_plaster_rock": [
+   0.495609641075134,
+   0.490108847618103,
+   0.473120659589767,
+   1.0
+  ],
+  "MAT_rooftile": [
+   0.234795093536377,
+   0.260067462921143,
+   0.282779306173325,
+   1.0
+  ],
+  "MAT_wall_atlas": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "MAT_whitewash": [
+   0.634252727031708,
+   0.613889634609222,
+   0.574871063232422,
+   1.0
+  ]
+ },
+ "mode": "demo",
+ "renderer": "gl_compatibility",
+ "scope": "Actual imported plain factors, active baked shader uniforms/PBR texture bindings and decoded architectural swatches. This does not prove final rendered art, phone performance or service acceptance.",
+ "script_sha256": "3b98602dfc9fa574acdd9fb06853f6b7898f8f9de1771746d45e3274bc5e3d81",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "source_surface_counts": {
+  "MAT_lattice_wood": 14,
+  "MAT_pavilion_atlas": 15,
+  "MAT_plaster_rock": 18,
+  "MAT_rooftile": 9,
+  "MAT_wall_atlas": 1,
+  "MAT_whitewash": 8
+ },
+ "status": "passed"
+}
