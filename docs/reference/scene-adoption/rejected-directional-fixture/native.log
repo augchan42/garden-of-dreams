@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+WARNING: Adding 'SITE_stage_MAT_stage_canopy_paint' as child to '@Node3D@2' will make owner 'Garden Godot export' inconsistent. Consider unsetting the owner beforehand.
+     at: add_child (scene/main/node.cpp:1728)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/test_export_shadow_intent.gd:26)
+ERROR: Imported no-shadow intent or positive shadow pixel control failed
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_export_shadow_intent.gd:81)
+EXPORTED_SHADOW_INTENT_FAIL { "imported": { "setting": 1, "floor_luminance": 1.0, "image_sha256": "3c276768666dca126f46e8a19c1660793d9cf9fe7a8b476d6ea5a0b710955ed5" }, "forced-shadow-on": { "setting": 1, "floor_luminance": 1.0, "image_sha256": "3c276768666dca126f46e8a19c1660793d9cf9fe7a8b476d6ea5a0b710955ed5" }, "forced-shadow-off": { "setting": 0, "floor_luminance": 1.0, "image_sha256": "3c276768666dca126f46e8a19c1660793d9cf9fe7a8b476d6ea5a0b710955ed5" } }

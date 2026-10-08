@@ -1,0 +1,287 @@
+{
+  "status": "scratch_only",
+  "source_authoring_sha256": "fd60ff7de4f60b39749784599a623fd7f9d90c782083f88f8eecb2c73c1bca63",
+  "proposal_sha256": "eda68804bd684355abc7764ad9d75b454be192ccc8f50a91bc63778dd7a30854",
+  "scope": "Eight visible floor inserts with matching colliders in a separate saved candidate. Existing objects/materials/moon preserved. Not adopted or rendered; new geometry requires export, fresh lighting and engine verification.",
+  "unchanged_objects": 4344,
+  "added_objects": [
+    {
+      "name": "KIT_floor_joint_cell_threshold_0",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        -6.5,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_0",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        -6.5,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_cell_threshold_1",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        -3.9000000953674316,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_1",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        -3.9000000953674316,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_cell_threshold_2",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        -1.2999999523162842,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_2",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        -1.2999999523162842,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_cell_threshold_3",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        1.2999999523162842,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_3",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        1.2999999523162842,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_cell_threshold_4",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        3.9000000953674316,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_4",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        3.9000000953674316,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_cell_threshold_5",
+      "site": "terminal-cells",
+      "collision": false,
+      "position_source_z_up": [
+        6.5,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_lattice_wood"
+    },
+    {
+      "name": "COL_floor_joint_cell_threshold_5",
+      "site": "terminal-cells",
+      "collision": true,
+      "position_source_z_up": [
+        6.5,
+        -38.29999923706055,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        1.100000023841858,
+        0.2800000011920929,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_pavilion_west_joint",
+      "site": "qinfang-ting",
+      "collision": false,
+      "position_source_z_up": [
+        -6.949999809265137,
+        0.0,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        0.20000000298023224,
+        1.7999999523162842,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_plaster_rock"
+    },
+    {
+      "name": "COL_floor_joint_pavilion_west_joint",
+      "site": "qinfang-ting",
+      "collision": true,
+      "position_source_z_up": [
+        -6.949999809265137,
+        0.0,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        0.20000000298023224,
+        1.7999999523162842,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    },
+    {
+      "name": "KIT_floor_joint_pavilion_east_joint",
+      "site": "qinfang-ting",
+      "collision": false,
+      "position_source_z_up": [
+        6.949999809265137,
+        0.0,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        0.20000000298023224,
+        1.7999999523162842,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": "MAT_plaster_rock"
+    },
+    {
+      "name": "COL_floor_joint_pavilion_east_joint",
+      "site": "qinfang-ting",
+      "collision": true,
+      "position_source_z_up": [
+        6.949999809265137,
+        0.0,
+        -0.11800000071525574
+      ],
+      "size_source_z_up": [
+        0.20000000298023224,
+        1.7999999523162842,
+        0.23999999463558197
+      ],
+      "top_height": 0.002,
+      "material": null
+    }
+  ],
+  "surface_lift": 0.002,
+  "files": {
+    "authoring.blend": "325ee96df90be2ff3e6f0116d5f4e44191aca5d31310457c1295b90dcd2a57a2",
+    "SITE_terminal-cells.blend": "d9a37a194326ead10007d2c9f35fb833cfd22da27b6831e5ab95c5b99879bad3",
+    "SITE_qinfang-ting.blend": "2e236a2b4b91297182c7a5dd8deb9a1a9d000faa45a2d8f7efc5fa31f4d901c3"
+  }
+}

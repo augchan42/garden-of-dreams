@@ -1,0 +1,32 @@
+{
+  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
+  "candidate_glb_sha256": "6b001ccb2619f4eb0eab33510242e4d2094e17fb3e64fd1ed951515fe383577d",
+  "surface_lift": 0.002,
+  "unchanged_node_transforms_extras_cameras": 708,
+  "added_collider_nodes": [
+    "COL_floor_joint_cell_threshold_0-colonly",
+    "COL_floor_joint_cell_threshold_1-colonly",
+    "COL_floor_joint_cell_threshold_2-colonly",
+    "COL_floor_joint_cell_threshold_3-colonly",
+    "COL_floor_joint_cell_threshold_4-colonly",
+    "COL_floor_joint_cell_threshold_5-colonly",
+    "COL_floor_joint_pavilion_east_joint-colonly",
+    "COL_floor_joint_pavilion_west_joint-colonly"
+  ],
+  "byte_identical_site_exports": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_ziling-zhou.glb"
+  ],
+  "scope": "Revised separate floor geometry with 2 mm matching visible/collider lift. Existing source transforms/cameras/extras and thirteen other site exports preserved; source-authoring snapshot separately verifies all existing geometry/materials. Not adoption or fresh lighting."
+}

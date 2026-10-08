@@ -1,0 +1,36 @@
+{
+  "source_glb_sha256": "6fb32a6d57b59f0bcc4134da2c132a0aaa6abd2a6ca8bbc2324441dffcd7c498",
+  "contract": {
+    "source_glb_sha256": "6fb32a6d57b59f0bcc4134da2c132a0aaa6abd2a6ca8bbc2324441dffcd7c498",
+    "explicit_meshes": {
+      "SITE_stage_MAT_stage_canopy_paint": false
+    },
+    "unchanged_unflagged_meshes": 558
+  },
+  "helper_sha256": "b97201f5901a1a21314a626e60e35a16890ea2d3dd8cca6ef727df6da43a1798",
+  "test_sha256": "4e73dad46aada5f177d40bf0d83e99ae498ee07c7a4683dcfb04d88f9f5f4778",
+  "scope": "Actual native imported GLB mesh ray visibility. Unflagged mesh preservation and, unless inspect-only, isolated scaled canopy shadow pixels. Not full-garden GI/fresh lighting or final paint.",
+  "samples": {
+    "imported-before-contract": {
+      "visible_shadow": true,
+      "floor_linear_luminance": 0.0002400960526144018,
+      "image_sha256": "40a2b2f11bde0e9c540ca6bf0a70bbfbde231e43e06a263a199512d45af6c651"
+    },
+    "after-contract": {
+      "visible_shadow": false,
+      "floor_linear_luminance": 0.8878752163478306,
+      "image_sha256": "6394f42ad40200258e66d27aa1caa14797d27f3860ab51ff3c98f861412a3f9b"
+    },
+    "forced-shadow-on": {
+      "visible_shadow": true,
+      "floor_linear_luminance": 0.0002400960526144018,
+      "image_sha256": "f197e55d05e3930be93e40ca36c64222e849c16bfba2612dfc26546c361ee3c3"
+    },
+    "forced-shadow-off": {
+      "visible_shadow": false,
+      "floor_linear_luminance": 0.8878752163478306,
+      "image_sha256": "20bb28c20528b81d4b9274a051b280449e1d25d0e031ac1bb9fb61deb6595746"
+    }
+  },
+  "status": "passed"
+}

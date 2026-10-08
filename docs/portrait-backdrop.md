@@ -28,9 +28,12 @@ The actual Blender export is imported into an isolated Godot project and
 captured with all fourteen unchanged portrait arrival cameras. Old site and
 wash bakes are disabled. The ceiling explicitly uses the existing cyclorama's
 shared unshaded paint and its no-shadow intent in the fixture. These settings
-are not yet implemented as production importer/baker behavior. The source
+were explicit fixture overrides in that first comparison. The source
 stores `visible_shadow = false` and exports `godot_cast_shadow = false`; glTF
-alone does not transfer Blender ray visibility.
+alone does not transfer Blender ray visibility. The current import hook and
+three native bake paths now restore explicit mesh shadow intent; native pixel
+controls verify the flag and its effect. Shared unshaded ceiling paint also
+passes an actual cold import. See `scene-adoption.md` for the current evidence.
 
 The final coverage probe creates test-only triangle colliders on mask 128,
 with no visitor collision. Each surface's culling matches its active rendered
@@ -54,9 +57,13 @@ script and captured-image hashes. The first failed unindexed-mesh report is
 also retained. Canonical authoring/export, production Godot and the previous
 verified release are unchanged.
 
-Before adoption: implement and verify shadow intent through both import and
-native bakers, inspect the floor-joint candidate, combine accepted geometry
-changes, export and bake genuinely fresh matching lighting, then repeat
+The floor inspection exposed coplanar overlap artifacts. A revised candidate
+lifts both visible inserts and colliders by 2 mm, removes the observed artifacts
+and passes the full twenty-six-leg walk. It has been combined with this ceiling
+in a separate saved/exported source; that combined source is not installed.
+
+Before adoption: extend the wash contracts to the sixth receiver, inspect final
+paint/moon contrast and bake genuinely fresh matching lighting, then repeat
 production traversal, arrival/transition renders and device/package checks.
 Final moon contrast, site art, thirty missing references, authenticated room
 services and full performance acceptance remain part of the active goal.

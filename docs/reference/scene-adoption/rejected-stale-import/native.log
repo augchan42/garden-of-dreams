@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: Imported no-shadow intent or positive shadow pixel control failed
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_export_shadow_intent.gd:86)
+EXPORTED_SHADOW_INTENT_FAIL { "imported": { "setting": 1, "floor_luminance": 0.6745098233223, "image_sha256": "664291e8fd1cf18e0abb885c9ebb15c95b80c4ffc5cdb9ba7997c38dd9167110" }, "forced-shadow-on": { "setting": 2, "floor_luminance": 0.0, "image_sha256": "80b20d045c7e2cdb3346ba2c5d8fd36a84f246d85b0fcfa7013cfb59a169d530" }, "forced-shadow-off": { "setting": 0, "floor_luminance": 0.6745098233223, "image_sha256": "664291e8fd1cf18e0abb885c9ebb15c95b80c4ffc5cdb9ba7997c38dd9167110" } }
