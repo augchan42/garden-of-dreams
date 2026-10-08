@@ -77,12 +77,13 @@
     "scripts/test_moon_export_rejections.py": "b32d7836c2a68f909954d974f92f685ce48b0811d4c8e744aee2503beb10dbca",
     "scripts/render_moon_paint.py": "0dc9aeac57da0ad3bd72305cf87fd21728b8eb9f28f5e9e18816e4acf2985902",
     "scripts/export_garden.py": "f656a9c24abf455b4a9048655d6f74b1f7baff7d8c100868fd5b3a6571065f23",
-    "godot/tests/test_moon_paint_transfer.gd": "606f77354fe801b3b072b958b055284f867535ee37f31e277f4a16508dd84999",
     "textures/backdrops/moon-paint/moon-paint.png": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
     "textures/backdrops/moon-paint/atlas.json": "e42151133dcf713477ac0e5dd0b1ebae162ff58980f852dd696ce8a441c35695",
     "textures/backdrops/moon-paint/provenance.json": "2d76699652a01a260a4dd1ab825694575cac335a20313bef8dbd6559ff4ea6c3",
-    "docs/moon-paint.md": "1ed8b304ae5efac9c0dee457032fa1913e8951aae2deed877eb9b7978859ab63",
-    "docs/reference/moon-paint/legacy-factor-diagnosis.json": "0ff28fd6f7b731c6849ebada43a1af7c3a49915ea43c8b2da17935c7c9a3b8fe"
+    "docs/reference/moon-paint/legacy-factor-diagnosis.json": "0ff28fd6f7b731c6849ebada43a1af7c3a49915ea43c8b2da17935c7c9a3b8fe",
+    "docs/reference/moon-paint/initial-test-moon-paint-transfer.gd": "606f77354fe801b3b072b958b055284f867535ee37f31e277f4a16508dd84999",
+    "docs/reference/moon-paint/initial-moon-paint.md": "1ed8b304ae5efac9c0dee457032fa1913e8951aae2deed877eb9b7978859ab63"
   },
-  "file_count": 78
+  "file_count": 78,
+  "historical_context": "Initial isolated source/transfer evidence, recorded before complete lighting and engine adoption. Two evolving tool/document entries now point to exact archived initial bytes with their original hashes. Current installed runtime evidence is export/moon-paint-current-evidence.json."
 }
