@@ -1,0 +1,17 @@
+{
+  "cause": "The static export copy predates the native pixel phases. lightmap-pixels.json and terminal-spill-pixels.json were missing from the review fixture, although the completed bake generated both. The PNGs themselves match the finished source.",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "proof_texture": "SITE_terminal-cells_MAT_terminal_scroll.png",
+  "source_png_sha256": "318072e76844c5921629656009e8f60eba08b905f7fc7c978b7cf535bcd41c20",
+  "review_png_sha256": "318072e76844c5921629656009e8f60eba08b905f7fc7c978b7cf535bcd41c20",
+  "before": {
+    "lightmap-pixels.json": null,
+    "terminal-spill-pixels.json": null
+  },
+  "source_report_sha256": "c575de364ab3fefe6dfe7d3e8e3a038271a5fea3bcf7f84e013426b44f2f8673",
+  "scope": "Repair review-fixture metadata only; source baker is complete and is not rerun. No production asset adopted.",
+  "after": {
+    "lightmap-pixels.json": "61dfad935e5aff2bccbee1a98b3763af583fd73030ea74a51fd19b418a2be8e2",
+    "terminal-spill-pixels.json": "293298a6e7fa921e3b859723f99a11691148aa3126f2db37b085cf90b0e935ed"
+  }
+}

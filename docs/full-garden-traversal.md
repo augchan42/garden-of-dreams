@@ -146,3 +146,16 @@ Raw reports, PNGs and exact test variants are retained in the desktop/portrait
 subdirectories of `reference/rendered-full-garden-tour/`, indexed by
 `../export/moon-contrast-rendered-traversal-evidence.json`. The original four
 headless-preflight artifacts remain unchanged.
+
+
+## Matching working scene adopted — 2026-10-08
+
+Canonical Blender authoring is now `a273a4c0…`; export and Godot GLBs are both `8d1d9b4e…`. Fifteen site libraries, the portable master, source/engine atlases and all 141 source PNGs were installed together after exact staged/current byte checks. The full exploration route is the default scene; the focused reading demo remains separate. Production import, all camera/collision/marker snapshots and five lighting checks pass.
+
+Both matching native rendered walks visit fourteen rooms over twenty-six public-command legs, check 17,582 supported ground rays with no misses, capture all twenty-six settled arrivals and return to the original cell. Desktop and portrait each retain 139 PNGs. The earlier current-run count of 17,581 was incorrect; that count belongs to the preceding 41b candidate.
+
+The baked moon retains brush variation with no measured channel clipping. Baseline display p05/p95 is 0.662944/0.805190; the original 1254² painting remains unchanged. This accepts a working improvement, not final scene art. Roof striping, visible paint joins, some portrait framing and later-site detail remain open.
+
+Current normal-route Mac allocation is 49,284,173 renderer texture bytes (about 47 MiB), with a highest sampled room of 49,367,461 bytes. This is not target-phone, demo-finale, sustained-traversal or release evidence. The existing local package/movie still represents the earlier source. Twenty required reference slots, final texture/device/performance and authenticated room services remain unfinished.
+
+Evidence: `../export/moon-intensity-final-lighting-evidence.json`, `../export/moon-intensity-baked-review-evidence.json`, `../export/moon-intensity-rendered-traversal-evidence.json` and `../export/moon-intensity-working-adoption-evidence.json`. The original review's stale worker PID is preserved; a separate resume provenance record identifies its successful completion.

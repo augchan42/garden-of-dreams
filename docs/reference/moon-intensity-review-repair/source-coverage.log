@@ -1,0 +1,26 @@
+LIGHTMAP_DATA_PASS SITE_terminal-cells_MAT_stage_atlas (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_stage_MAT_painted_moon (256, 256) scale 1.0
+LIGHTMAP_DATA_PASS SITE_hengwu-yuan_MAT_props_atlas (1024, 1024) scale 2.4989607334136963
+LIGHTMAP_DATA_PASS SITE_aojing-guan_MAT_rooftile (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_terminal-cells_MAT_lattice_wood (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_qinfang-ting_MAT_lattice_wood (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS HERO_study_scroll_bamboo.001 (256, 256) scale 1.123000979423523
+LIGHTMAP_DATA_PASS SITE_daguan-lou_MAT_whitewash (1024, 1024) scale 3.0543482303619385
+LIGHTMAP_DATA_PASS SITE_ouxiang-xie_MAT_foliage_card (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_qiushuang-zhai_MAT_whitewash (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_hengwu-yuan_MAT_foliage_card (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_ziling-zhou_MAT_foliage_card (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_aojing-guan_MAT_crt_amber (256, 256) scale 1.567383050918579
+LIGHTMAP_DATA_PASS SITE_hengwu-yuan_MAT_crt_amber (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_daguan-lou_MAT_backstage (1024, 1024) scale 2.603400707244873
+LIGHTMAP_DATA_PASS SITE_qiushuang-zhai_MAT_backstage (1024, 1024) scale 1.9338425397872925
+LIGHTMAP_DATA_PASS SITE_hengwu-yuan_MAT_plaster_rock (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_daoxiang-cun_MAT_plaster_rock (1024, 1024) scale 2.7014122009277344
+LIGHTMAP_DATA_PASS SITE_ouxiang-xie_MAT_plaster_rock (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_yihong-yuan_MAT_plaster_rock (1024, 1024) scale 1.0
+LIGHTMAP_DATA_PASS SITE_ziling-zhou_MAT_plaster_rock (1024, 1024) scale 1.0
+Traceback (most recent call last):
+  File "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-baked-review-qvaz0nx6/scripts/verify_lightmaps.py", line 25, in <module>
+    assert native.get('sha256')==hashlib.sha256(texture_bytes).hexdigest(),('Run inspect_lightmap_pixels.py for native precision',path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Run inspect_lightmap_pixels.py for native precision', PosixPath('/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-moon-intensity-baked-review-qvaz0nx6/export/lightmaps/SITE_terminal-cells_MAT_terminal_scroll.json'))

@@ -77,13 +77,13 @@
     "scripts/render_moon_paint.py": "0dc9aeac57da0ad3bd72305cf87fd21728b8eb9f28f5e9e18816e4acf2985902",
     "scripts/export_garden.py": "f656a9c24abf455b4a9048655d6f74b1f7baff7d8c100868fd5b3a6571065f23",
     "textures/backdrops/moon-paint/moon-paint.png": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
-    "textures/backdrops/moon-paint/atlas.json": "e42151133dcf713477ac0e5dd0b1ebae162ff58980f852dd696ce8a441c35695",
     "textures/backdrops/moon-paint/provenance.json": "2d76699652a01a260a4dd1ab825694575cac335a20313bef8dbd6559ff4ea6c3",
     "docs/reference/moon-paint/legacy-factor-diagnosis.json": "0ff28fd6f7b731c6849ebada43a1af7c3a49915ea43c8b2da17935c7c9a3b8fe",
     "docs/reference/moon-paint/initial-test-moon-paint-transfer.gd": "606f77354fe801b3b072b958b055284f867535ee37f31e277f4a16508dd84999",
     "docs/reference/moon-paint/initial-moon-paint.md": "1ed8b304ae5efac9c0dee457032fa1913e8951aae2deed877eb9b7978859ab63",
-    "docs/reference/moon-contrast/historical/scripts/moon_paint_contract.py": "60ffb0fbee08301bc2d4a617a3de3a756b4a3fe2200b5557935231d6d8c0e960"
+    "docs/reference/moon-contrast/historical/scripts/moon_paint_contract.py": "60ffb0fbee08301bc2d4a617a3de3a756b4a3fe2200b5557935231d6d8c0e960",
+    "docs/reference/moon-paint/initial-atlas.json": "e42151133dcf713477ac0e5dd0b1ebae162ff58980f852dd696ce8a441c35695"
   },
   "file_count": 78,
-  "historical_context": "Initial isolated source/transfer evidence, recorded before complete lighting and engine adoption. Two evolving tool/document entries now point to exact archived initial bytes with their original hashes. Current installed runtime evidence is export/moon-paint-current-evidence.json."
+  "historical_context": "Initial isolated source/transfer evidence, recorded before complete lighting and engine adoption. Two evolving tool/document entries now point to exact archived initial bytes with their original hashes. Current installed runtime evidence is export/moon-paint-current-evidence.json. The initial live atlas is now archived byte-for-byte at docs/reference/moon-paint/initial-atlas.json after the 20.25% working-source adoption."
 }

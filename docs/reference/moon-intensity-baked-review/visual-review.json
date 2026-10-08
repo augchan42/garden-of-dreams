@@ -1,0 +1,30 @@
+{
+  "status": "moon_contrast_improved_remaining_scene_art_open",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "reviewed_at": "2026-10-08",
+  "inspected_originals": {
+    "moon_scene": [
+      "baseline.png",
+      "no-grade.png"
+    ],
+    "arrivals_desktop": 14,
+    "arrivals_portrait": 14
+  },
+  "moon_review": "The baked baseline and no-grade pavilion view show distinct ivory/gray-blue painted mottling rather than the previous flat white moon. Both measured interior pixel sets have zero channel clipping. The graded baseline p05/p95 display luminance is 0.6629435495/0.8051898155. This supports the authored 20.25% contrast correction; it is not a phone texture-cap decision.",
+  "remaining_findings": [
+    {
+      "scope": "Painted enclosure",
+      "finding": "Ceiling stripes and wall/mountain panel joins remain visibly abrupt, particularly in the portrait farmhouse, study, courtyard and imperial shots. Studio seams are permitted by the spec, but final paint continuity and composition still need review."
+    },
+    {
+      "scope": "Portrait composition",
+      "finding": "The red-court, farmhouse and nunnery establishing shots leave a large amount of sky and make their buildings relatively small. Close/action cameras and return views still need final framing review."
+    },
+    {
+      "scope": "Material detail",
+      "finding": "Bamboo frontage shows conspicuous pink/light speckling, roofs and thatch have strong repeated strip detail, and several lit walls show blocky variation. These visible patterns need targeted source/material/filtering diagnosis; this review does not assert their cause."
+    }
+  ],
+  "traversal_review": "Full desktop and portrait walks are still running; arrival captures alone do not prove approach/return or continuous traversal.",
+  "acceptance_scope": "Completed source bake, import preservation, lighting contracts and improved moon contrast. No whole-site art, production/release/device/performance/service acceptance claimed."
+}

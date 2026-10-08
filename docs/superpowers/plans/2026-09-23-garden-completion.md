@@ -24,7 +24,7 @@ Interfaces: room_id, execute_command(text), transition_finished(room_id), player
 - [x] Add collision-aware movement between the cell, gate and pavilion; stop rather than teleport on obstruction.
 - [x] Animate fixed cameras during travel; frame the pavilion at arrival.
 - [x] Test both directions using actual physics, command rejection during travel, unsupported commands, and no falling through floors.
-- [ ] Inspect the running scene visually at each location and at mobile window sizes.
+- [x] Inspect the running scene visually at each location and at mobile window sizes.
 
 ## Task 2: Site contracts and art completion
 Files: docs/sites/*.md, Blender site libraries, source scripts and GLB exports.
@@ -42,7 +42,7 @@ Files: godot/garden_import.gd, materials and shaders, export/lightmaps, grade/te
 - [x] Apply and verify the consistent in-engine grade (rendered color grid versus source cube; UI unchanged).
 - [ ] Complete atlases and final texture-memory audit.
 - [x] Limit realtime practicals to four nearby lamps; verify selection in runtime tests.
-- [ ] Verify that reimport retains lighting, material, collision and camera behavior.
+- [x] Verify that reimport retains lighting, material, collision and camera behavior.
 
 ## Task 4: Room interactions and data
 Files: Godot runtime room controllers, content resources and service adapters.
@@ -54,9 +54,11 @@ Files: Godot runtime room controllers, content resources and service adapters.
 - [ ] Add social/news/group functionality only against verified available services; document unresolved dependencies.
 
 ## Task 5: Acceptance
-- [ ] Automated traversal of collision routes and command/state behavior.
+- [x] Automated traversal of collision routes and command/state behavior.
 - [ ] Visual check of all rooms, UI and camera transitions.
 - [x] Measure desktop arrival-view draw calls, frame intervals and memory; record failed budgets.
 - [ ] Meet rendering budgets and complete target-device/mobile and traversal profiling.
 - [ ] Update build-status with evidence, preserving any unresolved requirements.
 - [ ] Complete the goal only after all accepted requirements are verified.
+
+Current evidence (2026-10-08): matching 8d working bundle is installed; both native fourteen-room walks and production import/lighting checks pass. Visual inspections expose unresolved art and framing work, so final visual acceptance remains unchecked. See moon-intensity-working-adoption-evidence.json and moon-intensity-rendered-traversal-evidence.json.

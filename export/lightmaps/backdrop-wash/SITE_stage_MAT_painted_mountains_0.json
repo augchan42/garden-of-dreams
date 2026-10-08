@@ -25,26 +25,29 @@
   "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "97a93dfe178ec8616ceae899da19646d791a25070984e7e1c52e562db883272c",
-  "source_glb_sha256": "c68f6d1eb115d167906d9fd9094b32df52cf05e2eb775e46cb07e521d20d36e2",
-  "stage_blend_sha256": "2ee025951be59aa1fd823457a4d44d8a513f65447d191217a07c66856f3dfdc6",
-  "authoring_blend_sha256": "fd60ff7de4f60b39749784599a623fd7f9d90c782083f88f8eecb2c73c1bca63",
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "stage_blend_sha256": "a6dbdca7bda8093f2b48cac181b7d2aa11900074f0132c1ce852b5dc2324039a",
+  "authoring_blend_sha256": "a273a4c0ea33c9897f3096f51b5833b905e04a6d0ca62cab001e8291aa93b8de",
   "site_blend_sha256": {
-    "aojing-guan": "3e22660973d2a8db6ee21665e93ebc167408ad4b020d440956cb95f4c9164ceb",
-    "daguan-lou": "708dfe2074f1dd34f43044cb5897985fd883b400590965b18a4595f8950d617d",
-    "daoxiang-cun": "be978e3ba86f1c1cd9a4f7e56c887c49ab0dc9da3b516c77e3230e9b408511c8",
-    "hengwu-yuan": "65951b67e53cbbcf0fe96078728b29492cec14b807d231ab2e1a7b4688be80e4",
-    "longcui-an": "92cc517ad5c276c08b8d9f3e0d05ce673f52a2ced16e14997898e65984fa7192",
-    "ouxiang-xie": "316666921e05fc319cf84e0ddb2c859fcfca0901cac5aaa47d9fea525dec26e9",
-    "qinfang-ting": "4ed56e6069c2021866587d6152e748937d2cc38414151efd79e90f51cd70aaff",
-    "qiushuang-zhai": "9f19fa3e2e4de5ac30432c03877b9ade2d555b636512530463198f38a7001f02",
-    "tubi-tang": "835abee5d3af84d40c60c437a1417c0785ed2920957a7179c6b4279f9bd5178b",
-    "xiaoxiang-guan": "8b201db19ce7d5a0c11e7db11c4aaff71d19d401021865a3618e3e2a573ca9cc",
-    "yihong-yuan": "28d5b3b43d49bd2d03f7469d8a58c097f135bef6040bcf3b06b3606d5502fb18",
-    "ziling-zhou": "621cad9a333a65a5104c09ca8a9bc5b429fbe93552a29b5ccddfe0df39243f8c"
+    "aojing-guan": "da9a2dce8f3fb92822433295716f6420940d9b2056c04ed655bbfe0b47d4d450",
+    "daguan-lou": "86fa04a4bfa51b49e6398ea2a47c766dbe6d3fb042d1ce05d7f53465fc2c1fd0",
+    "daoxiang-cun": "e48d8896eba877a5d961380c88f44873dff6932a269cd90b3b579919352c159a",
+    "hengwu-yuan": "51ff206f71f4bab3efb368a1df1012f6087224e299a068bc48a29a6a5cc552a3",
+    "longcui-an": "93ae2f374c2c2251f7e66f0988701b1ea940999c8ea759a2c7c96963460f7001",
+    "ouxiang-xie": "326e01b3be1b589bd426f898520bd3ec8069e7581e8a3e76c46d13d1d8b43581",
+    "qinfang-ting": "1b48645078f176178e80f8800d563dfb49a03723df740e70c56659d6baa7239a",
+    "qiushuang-zhai": "fabbff658dd92b9b653461bf5b8d22cc60894e8708fd41da02cb4eee79e4965e",
+    "tubi-tang": "22426cc2bd5f361823055c341b245870e4327e99aeeb151021ef9ccae714e35e",
+    "xiaoxiang-guan": "68a6804977d2f8febf07bfa73a8e489da1fc9f2c5d33f86df3da84bd703eb684",
+    "yihong-yuan": "86de6a21e9231df07dc1b74b8f18256cc6d915458e72d77648076b3c196cb53d",
+    "ziling-zhou": "e7d30b6aa068fff3f29cff203824a4f6345cfafba6450a3edf94294605a2b69d"
   },
   "lights_baked": 12,
   "point_lights_baked": false,
   "pass_filter": [
     "DIRECT"
-  ]
+  ],
+  "shadow_intent": {
+    "SITE_stage_MAT_stage_canopy_paint": false
+  }
 }
