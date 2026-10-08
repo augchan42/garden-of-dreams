@@ -971,3 +971,8 @@ The baked moon retains brush variation with no measured channel clipping. Baseli
 Current normal-route Mac allocation is 49,284,173 renderer texture bytes (about 47 MiB), with a highest sampled room of 49,367,461 bytes. This is not target-phone, demo-finale, sustained-traversal or release evidence. The existing local package/movie still represents the earlier source. Twenty required reference slots, final texture/device/performance and authenticated room services remain unfinished.
 
 Evidence: `export/moon-intensity-final-lighting-evidence.json`, `export/moon-intensity-baked-review-evidence.json`, `export/moon-intensity-rendered-traversal-evidence.json` and `export/moon-intensity-working-adoption-evidence.json`. The original review's stale worker PID is preserved; a separate resume provenance record identifies its successful completion.
+
+
+### Current Android diagnostic export — 2026-10-08
+
+The profiling builder now accepts the full exploration or focused-demo main scene before selecting its isolated profiler. Current 8d source Android import/export passes, and the diagnostic APK is installed on the Pixel. The locked device has not produced fresh samples; its existing report is the older 90c4 source and is explicitly rejected as current evidence. Unlock is required to resume the running diagnostic app. The broad APK export also contains about 453 MB of KIT imports; dependency-based packaging remains work. Exact evidence: `export/moon-intensity-android-preparation-evidence.json`.
