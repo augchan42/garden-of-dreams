@@ -1,0 +1,35 @@
+[
+  {
+    "name": "libraries",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+      "--",
+      "--root",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-normal-tile-chart-candidate-h31_ah95"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "receiver-package",
+    "command": [
+      "/Applications/Blender.app/Contents/MacOS/Blender",
+      "--background",
+      "--threads",
+      "8",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-normal-tile-chart-candidate-h31_ah95/scripts/package_site_washes.py",
+      "--",
+      "--portable-master"
+    ],
+    "exit_code": 0
+  }
+]
