@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_apk_payload.py", line 82, in <module>
+    main()
+    ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_apk_payload.py", line 76, in main
+    report = verify(args.build_report, args.baseline_build_report, args.inventory)
+  File "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_apk_payload.py", line 37, in verify
+    assert name in names, 'Missing bound texture import: ' + path
+           ^^^^^^^^^^^^^
+AssertionError: Missing bound texture import: res://assets/kits/props/props-basecolor.png

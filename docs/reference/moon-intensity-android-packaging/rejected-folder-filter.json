@@ -1,0 +1,14 @@
+{
+  "status": "rejected",
+  "apk_sha256": "f55a4059436da52958ef8fdd40a8304a6777644f69753397c4cb5e31576c6540",
+  "missing_bound_texture_imports": [
+    "res://assets/kits/props/props-basecolor.png",
+    "res://assets/kits/props/props-emission.png",
+    "res://assets/kits/props/props-orm.png",
+    "res://assets/kits/tech/tech-basecolor.png",
+    "res://assets/kits/tech/tech-emission.png",
+    "res://assets/kits/tech/tech-orm.png"
+  ],
+  "reason": "Broad kit-folder exclusion removes runtime shared props/tech atlases. APK not installed.",
+  "corrective_action": "Exclude KIT-prefixed preview assets only, retaining shared atlases and runtime flora."
+}

@@ -976,3 +976,6 @@ Evidence: `export/moon-intensity-final-lighting-evidence.json`, `export/moon-int
 ### Current Android diagnostic export — 2026-10-08
 
 The profiling builder now accepts the full exploration or focused-demo main scene before selecting its isolated profiler. Current 8d source Android import/export passes, and the diagnostic APK is installed on the Pixel. The locked device has not produced fresh samples; its existing report is the older 90c4 source and is explicitly rejected as current evidence. Unlock is required to resume the running diagnostic app. The broad APK export also contains about 453 MB of KIT imports; dependency-based packaging remains work. Exact evidence: `export/moon-intensity-android-preparation-evidence.json`.
+
+
+The corrected diagnostic export now filters KIT-prefixed previews and retains runtime shared atlases/foliage. Its APK is 91,542,782 bytes, saving 453,217,688 bytes. All 177 file-backed normal-route texture imports, generated reflection and every used foliage LOD survive the payload check. A too-broad filter that removed six used textures rejects. Native import/export passes; the filtered package awaits fresh device testing and is not a release. Evidence: `export/moon-intensity-android-packaging-evidence.json`.

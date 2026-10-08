@@ -1,0 +1,40 @@
+[
+  {
+    "name": "reject-shared-atlas-removal",
+    "command": [
+      "python3",
+      "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_apk_payload.py",
+      "--baseline-build-report",
+      "/tmp/garden-current-8d-android-build.json",
+      "--inventory",
+      "/tmp/garden-current-8d-texture-inventory.json",
+      "--build-report",
+      "/tmp/garden-current-8d-android-filtered-build.json",
+      "--output",
+      "/tmp/garden-apk-reject-shared-atlas-removal.json"
+    ],
+    "exit_code": 1,
+    "log": "reject-shared-atlas-removal.log",
+    "log_sha256": "15070e18e438958bb1d677ea940c79c7e13b6270820b62d85db4d6547daac512",
+    "status": "passed"
+  },
+  {
+    "name": "retain-runtime-payload",
+    "command": [
+      "python3",
+      "/Users/auchan/projects/garden-of-dreams/scripts/verify_android_apk_payload.py",
+      "--baseline-build-report",
+      "/tmp/garden-current-8d-android-build.json",
+      "--inventory",
+      "/tmp/garden-current-8d-texture-inventory.json",
+      "--build-report",
+      "/tmp/garden-current-8d-android-filtered-v2-build.json",
+      "--output",
+      "/tmp/garden-apk-retain-runtime-payload.json"
+    ],
+    "exit_code": 0,
+    "log": "retain-runtime-payload.log",
+    "log_sha256": "a3264a9f3addeb26de3da3ef80c55312af49381b08b712d441e986fcfbdc2a0b",
+    "status": "passed"
+  }
+]

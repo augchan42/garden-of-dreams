@@ -1,0 +1,49 @@
+{
+  "status": "built",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ewkrxcfe",
+  "apk": "/private/tmp/garden-current-8d-profile-filtered.apk",
+  "scope": "Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.",
+  "normal_atlas_size_limit": 0,
+  "orm_atlas_size_limit": 0,
+  "reuse_ui_font_sizes": false,
+  "production_normal_files_sha256": {
+    "garden-of-dreams_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "garden-of-dreams_pavilion_normal.png.import": "3338ec7f7c5473a2475d901ddf69d347e44073ec01bd08555247e9ab06ff0f17",
+    "garden-of-dreams_wall_normal.png": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb",
+    "garden-of-dreams_wall_normal.png.import": "ea88dc7f98a317a8c40a40711bcbf1300520535c606d48324babfd35f8f3ca86"
+  },
+  "production_orm_files_sha256": {
+    "garden-of-dreams_pavilion_orm.png": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+    "garden-of-dreams_pavilion_orm.png.import": "2a85688ec9f5cd2f9ba90f22b80e7ad6c4e406bab8b6a856ee5fd6d6bfb071ca",
+    "garden-of-dreams_wall_orm.png": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43",
+    "garden-of-dreams_wall_orm.png.import": "3a886c63fbc241ed08d550f7c1ac71899a3137cb47cfafa8be098d0bbe53d2ad"
+  },
+  "source_glb_sha256": "8d1d9b4e4372ee097199f0b8b0c1a33f72aa55cb6ce978cf5a847b75febadf3f",
+  "phases": [
+    {
+      "name": "mobile-texture-import",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ewkrxcfe/mobile-texture-import.log",
+      "pid": 64879,
+      "exit_code": 0,
+      "log_sha256": "bed16949d014706921eaf0f1e08d6ac3e086652908f273eeeb5cd3219cb9f247",
+      "engine_diagnostics": []
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-android-profile-ewkrxcfe/apk-export.log",
+      "pid": 65814,
+      "exit_code": 0,
+      "log_sha256": "22eb2ac7133522a217124bfd9f3dba2a77616bc99136b064138eeac2f9df70a5",
+      "engine_diagnostics": []
+    }
+  ],
+  "production_renderer_files_sha256": {
+    "runtime/baked_materials.gd": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+    "shaders/baked_diffuse.gdshader": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c"
+  },
+  "apk_sha256": "f55a4059436da52958ef8fdd40a8304a6777644f69753397c4cb5e31576c6540",
+  "apk_bytes": 90881995,
+  "device_tested": false
+}
