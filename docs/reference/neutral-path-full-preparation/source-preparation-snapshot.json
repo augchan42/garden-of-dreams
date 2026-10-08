@@ -1,0 +1,90 @@
+{
+  "status": "prepared_frozen_complete_source",
+  "folder": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4",
+  "orchestrator_pid": 24515,
+  "started_at": "2026-10-08T14:52:04.410377+00:00",
+  "phases": [
+    {
+      "name": "material-source-export",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/blender/authoring.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/scripts/apply_garden_material_palette.py",
+        "--",
+        "--output-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/preparation-logs/material-source-export.log",
+      "pid": 24521,
+      "exit_code": 0,
+      "log_sha256": "adf32ce462cbc28429cd5bea6aab12cc138e17fc09fee697b0b49505ace35f94"
+    },
+    {
+      "name": "palette-export-preservation",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/scripts/verify_garden_palette_export.py",
+        "--before",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-nunnery-path-candidate-c9i92kvs/export/garden-of-dreams.glb",
+        "--after",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/export/garden-of-dreams.glb",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/export/palette-export-preservation.json"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/preparation-logs/palette-export-preservation.log",
+      "pid": 24706,
+      "exit_code": 0,
+      "log_sha256": "52a69292cb39ba5490d8693d8a4aff0bda545154da043697bf5cb37680048f9e"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/scripts/prepare_candidate_libraries_frozen.py",
+        "--",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/preparation-logs/site-libraries.log",
+      "pid": 24708,
+      "exit_code": 0,
+      "log_sha256": "05e24b6a376947f3b9c383482ac6587f699bc3406c4be5e9e3d1a90fde5009b0"
+    },
+    {
+      "name": "wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/preparation-logs/wash-receivers.log",
+      "pid": 24745,
+      "exit_code": 0,
+      "log_sha256": "aea9e62b9a6ca03cbb414877cdffc476f7b46a612cd6bbc97e7c607ce628718a"
+    }
+  ],
+  "scope": "Isolated complete-source paving and four neutral plain-material changes, fresh all-scene lighting. No production scene/map adoption; atlas/final art/device/budgets/services remain open.",
+  "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+  "authoring_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb"
+}

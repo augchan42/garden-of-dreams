@@ -14,6 +14,9 @@ world=bpy.data.worlds.new('GOD_black_stage'); world.use_nodes=True
 next(n for n in world.node_tree.nodes if n.type=='BACKGROUND').inputs[0].default_value=(.025,.045,.022,1)
 next(n for n in world.node_tree.nodes if n.type=='BACKGROUND').inputs[1].default_value=.3
 scene.world=world
+import sys
+sys.path.insert(0,str(R/'scripts'))
+from garden_material_palette import COMMON_BASE_COLORS
 C=None
 sites={}
 def collection(slug):
@@ -31,8 +34,8 @@ def mat(name,col,rough=.7,em=0):
  p.inputs['Base Color'].default_value=(*col,1);p.inputs['Roughness'].default_value=rough
  p.inputs['Emission Color'].default_value=(*col,1);p.inputs['Emission Strength'].default_value=em
  return m
-wood=mat('MAT_lattice_wood',(.045,.07,.025)); plaster=mat('MAT_whitewash',(.3,.39,.23))
-roofmat=mat('MAT_rooftile',(.025,.06,.035),.43); stone=mat('MAT_plaster_rock',(.15,.24,.12),.35)
+wood=mat('MAT_lattice_wood',COMMON_BASE_COLORS['MAT_lattice_wood']); plaster=mat('MAT_whitewash',COMMON_BASE_COLORS['MAT_whitewash'])
+roofmat=mat('MAT_rooftile',COMMON_BASE_COLORS['MAT_rooftile'],.43); stone=mat('MAT_plaster_rock',COMMON_BASE_COLORS['MAT_plaster_rock'],.35)
 black=mat('MAT_backstage',(.001,.002,.001)); gold=mat('MAT_bronze',(.45,.23,.025),.4)
 amber=mat('MAT_lantern',(1,.375,.005),.5,3); green=mat('MAT_crt_green',(.027,.51,.027),.35,4)
 crtamber=mat('MAT_crt_amber',(1,.375,.005),.4,3)

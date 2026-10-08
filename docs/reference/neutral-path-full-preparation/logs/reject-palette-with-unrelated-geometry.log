@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/scripts/verify_garden_palette_export.py", line 34, in <module>
+    assert np.array_equal(old.accessor(pa['attributes'][attr])[ia], new.accessor(pb['attributes'][attr])[ib]), ('Physical attribute changed', node['name'], attr)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Physical attribute changed', 'SITE_stage_MAT_plaster_rock', 'POSITION')
