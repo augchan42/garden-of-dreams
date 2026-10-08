@@ -1,0 +1,20 @@
+{
+  "status": "architecture_atlas_export_preservation_passed",
+  "before_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+  "after_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "nodes_checked": 717,
+  "meshes_checked": 567,
+  "indexed_triangles_checked": 245474,
+  "changed_images": {
+    "pavilion_basecolor": {
+      "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+      "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+    },
+    "wall_basecolor": {
+      "before_sha256": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+      "after_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354"
+    }
+  },
+  "unchanged_images": 33,
+  "scope": "Every expanded indexed attribute, both UVs, node, material, sampler and unrelated embedded image preserved. Only two exact atlas color images change. Fresh lighting and native visual acceptance remain required."
+}

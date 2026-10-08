@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 65, in main
+    report = build(args.source, args.atlas_root)
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 41, in build
+    assert actual['source'] == expected_hash, ('Wrong embedded atlas color image', name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Wrong embedded atlas color image', 'MAT_pavilion_atlas')

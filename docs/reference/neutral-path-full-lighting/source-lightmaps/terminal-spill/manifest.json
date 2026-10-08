@@ -1,0 +1,1115 @@
+{
+  "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+  "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+  "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+  "site_blend_sha256": {
+    "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+    "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+    "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+    "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+    "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+    "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+    "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+    "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+    "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+    "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+    "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+    "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+  },
+  "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+  "samples": 2048,
+  "adaptive_sampling": false,
+  "path_guiding": false,
+  "size": 512,
+  "pass_filter": [
+    "INDIRECT"
+  ],
+  "point_lights_baked": false,
+  "emissive_geometry_baked": false,
+  "lights_baked": 12,
+  "lighting": {
+    "type": "AREA",
+    "lights": [
+      {
+        "name": "LGT_aojing_guan_backdrop_wash",
+        "site": "aojing-guan",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            26.0
+          ],
+          [
+            0.0,
+            0.24253559112548828,
+            -0.9701424837112427,
+            28.348480224609375
+          ],
+          [
+            0.0,
+            0.9701424837112427,
+            0.24253559112548828,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_daguan_lou_backdrop_wash",
+        "site": "daguan-lou",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.8762157559394836,
+            -0.11688247323036194,
+            0.46753016114234924,
+            -7.0117926597595215
+          ],
+          [
+            0.4819190502166748,
+            0.21251338720321655,
+            -0.850054144859314,
+            35.74871063232422
+          ],
+          [
+            1.3502621243333124e-08,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_daoxiang_cun_backdrop_wash",
+        "site": "daoxiang-cun",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -34.0
+          ],
+          [
+            0.0,
+            0.24253559112548828,
+            -0.9701424837112427,
+            21.88214874267578
+          ],
+          [
+            0.0,
+            0.9701424837112427,
+            0.24253559112548828,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_hengwu_yuan_backdrop_wash",
+        "site": "hengwu-yuan",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.9943889379501343,
+            -0.025656865909695625,
+            0.10262751579284668,
+            -19.70654296875
+          ],
+          [
+            0.10578601807355881,
+            0.241174578666687,
+            -0.9646989703178406,
+            31.241497039794922
+          ],
+          [
+            4.7681525394693836e-09,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_longcui_an_backdrop_wash",
+        "site": "longcui-an",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            -0.9001592397689819,
+            -0.1056390255689621,
+            0.42255619168281555,
+            -29.767353057861328
+          ],
+          [
+            0.435560941696167,
+            -0.21832051873207092,
+            0.873282790184021,
+            -22.052528381347656
+          ],
+          [
+            -5.589825136098625e-08,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_ouxiang_xie_backdrop_wash",
+        "site": "ouxiang-xie",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.7999998927116394,
+            -0.14552131295204163,
+            0.5820856690406799,
+            -34.11996841430664
+          ],
+          [
+            0.6000001430511475,
+            0.19402821362018585,
+            -0.7761139869689941,
+            14.826627731323242
+          ],
+          [
+            7.956935377251284e-08,
+            0.9701425433158875,
+            0.24253535270690918,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_qinfang_ting_backdrop_wash",
+        "site": "qinfang-ting",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.6800000071525574,
+          0.7799999713897705,
+          0.7300000190734863
+        ],
+        "matrix": [
+          [
+            0.8892877697944641,
+            -0.1109231635928154,
+            0.44369280338287354,
+            -14.406041145324707
+          ],
+          [
+            0.4573480486869812,
+            0.21568380296230316,
+            -0.86273592710495,
+            33.01173400878906
+          ],
+          [
+            4.3803744631532027e-08,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_qiushuang_zhai_backdrop_wash",
+        "site": "qiushuang-zhai",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            22.0
+          ],
+          [
+            0.0,
+            0.24253559112548828,
+            -0.9701424837112427,
+            30.661453247070312
+          ],
+          [
+            0.0,
+            0.9701424837112427,
+            0.24253559112548828,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_tubi_tang_backdrop_wash",
+        "site": "tubi-tang",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.7999998331069946,
+            -0.14552132785320282,
+            0.5820857286453247,
+            2.381824016571045
+          ],
+          [
+            0.6000002026557922,
+            0.1940283477306366,
+            -0.7761138677597046,
+            38.157569885253906
+          ],
+          [
+            -5.135216696317002e-10,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_xiaoxiang_guan_backdrop_wash",
+        "site": "xiaoxiang-guan",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.07333146780729294,
+            -0.24188247323036194,
+            0.9675305485725403,
+            -35.04398727416992
+          ],
+          [
+            0.9973075985908508,
+            0.01778542809188366,
+            -0.07114199548959732,
+            -10.570295333862305
+          ],
+          [
+            5.629695465358964e-08,
+            0.9701425433158875,
+            0.24253547191619873,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_yihong_yuan_backdrop_wash",
+        "site": "yihong-yuan",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.536007821559906,
+            0.20475175976753235,
+            -0.8190069198608398,
+            36.097267150878906
+          ],
+          [
+            -0.8442130088806152,
+            0.13000109791755676,
+            -0.5200039148330688,
+            6.490321159362793
+          ],
+          [
+            7.939789270494657e-08,
+            0.9701424837112427,
+            0.24253569543361664,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "LGT_ziling_zhou_backdrop_wash",
+        "site": "ziling-zhou",
+        "type": "AREA",
+        "shape": "RECTANGLE",
+        "size": 15.0,
+        "size_y": 10.0,
+        "energy": 150.0,
+        "color": [
+          0.7200000286102295,
+          0.7799999713897705,
+          0.8399999737739563
+        ],
+        "matrix": [
+          [
+            0.7071065306663513,
+            0.17149847745895386,
+            -0.6859946250915527,
+            4.675312042236328
+          ],
+          [
+            -0.7071070671081543,
+            0.17149831354618073,
+            -0.6859941482543945,
+            37.67530059814453
+          ],
+          [
+            -1.653184078520553e-08,
+            0.9701425433158875,
+            0.24253535270690918,
+            11.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "receivers": [
+      {
+        "source_object": "KIT_stage_cyclorama",
+        "mesh": "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas",
+        "bounds": [
+          [
+            -48.08000183105469,
+            -48.08000183105469,
+            -2.0
+          ],
+          [
+            48.08000183105469,
+            48.08000183105469,
+            20.0
+          ]
+        ]
+      },
+      {
+        "source_object": "KIT_stage_painted_canopy",
+        "mesh": "SITE_stage_MAT_stage_canopy_paint",
+        "bounds": [
+          [
+            -48.0,
+            -48.0,
+            20.0
+          ],
+          [
+            48.0,
+            48.0,
+            38.0
+          ]
+        ]
+      },
+      {
+        "source_object": "KIT_stage_painted_moon",
+        "mesh": "SITE_stage_MAT_painted_moon",
+        "bounds": [
+          [
+            -17.700000762939453,
+            43.99250030517578,
+            9.300000190734863
+          ],
+          [
+            -12.300000190734863,
+            44.00749969482422,
+            14.699999809265137
+          ]
+        ]
+      },
+      {
+        "source_object": "KIT_stage_painted_mountain_layer",
+        "mesh": "SITE_stage_MAT_painted_mountains_0",
+        "bounds": [
+          [
+            -47.70000076293945,
+            -47.70000076293945,
+            -1.5
+          ],
+          [
+            47.70000076293945,
+            47.70000076293945,
+            5.942647933959961
+          ]
+        ]
+      },
+      {
+        "source_object": "KIT_stage_painted_mountain_layer.001",
+        "mesh": "SITE_stage_MAT_painted_mountains_1",
+        "bounds": [
+          [
+            -47.599998474121094,
+            -47.599998474121094,
+            -1.5
+          ],
+          [
+            47.599998474121094,
+            47.599998474121094,
+            7.938836574554443
+          ]
+        ]
+      },
+      {
+        "source_object": "KIT_stage_painted_mountain_layer.002",
+        "mesh": "SITE_stage_MAT_painted_mountains_2",
+        "bounds": [
+          [
+            -47.5,
+            -47.5,
+            -1.5
+          ],
+          [
+            47.5,
+            47.5,
+            9.937967300415039
+          ]
+        ]
+      }
+    ],
+    "pass_filter": [
+      "INDIRECT"
+    ]
+  },
+  "shadow_intent": {
+    "SITE_stage_MAT_stage_canopy_paint": false
+  },
+  "controls": {
+    "direct": [
+      {
+        "pixels": 282,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 314,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 279,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 292,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 266,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 249,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "window_only": [
+      {
+        "pixels": 282,
+        "linear_max": 5.030837201047689e-05,
+        "linear_mean": [
+          1.0637586456141435e-06,
+          1.448129864911607e-06,
+          2.467864305799594e-06
+        ]
+      },
+      {
+        "pixels": 314,
+        "linear_max": 6.72836322337389e-05,
+        "linear_mean": [
+          1.0376026011726935e-06,
+          1.4393162928172387e-06,
+          2.6961590720020467e-06
+        ]
+      },
+      {
+        "pixels": 279,
+        "linear_max": 3.732814730028622e-05,
+        "linear_mean": [
+          7.64668470765173e-07,
+          1.0433403758725035e-06,
+          1.8446282865625108e-06
+        ]
+      },
+      {
+        "pixels": 292,
+        "linear_max": 9.717855573398992e-05,
+        "linear_mean": [
+          7.121190606085293e-07,
+          9.603290891391225e-07,
+          1.7727129488775972e-06
+        ]
+      },
+      {
+        "pixels": 266,
+        "linear_max": 5.091131606604904e-05,
+        "linear_mean": [
+          5.625265089292952e-07,
+          8.024760518310359e-07,
+          1.4495473124043201e-06
+        ]
+      },
+      {
+        "pixels": 249,
+        "linear_max": 0.00013205793220549822,
+        "linear_mean": [
+          1.0684177595976507e-06,
+          1.507553406554507e-06,
+          2.929247102656518e-06
+        ]
+      }
+    ],
+    "sealed": [
+      {
+        "pixels": 282,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 314,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 279,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 292,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 266,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 249,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "washes_off": [
+      {
+        "pixels": 282,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 314,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 279,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 292,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 266,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "pixels": 249,
+        "linear_max": 0.0,
+        "linear_mean": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "scope": "Native indirect diffuse from saved linked exterior washes; actual production openings retained.",
+  "engine_installed": false,
+  "records": {
+    "SITE_terminal-cells_MAT_backstage": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_backstage",
+      "texture": "SITE_terminal-cells_MAT_backstage.png",
+      "scale": 0.007564145606011152,
+      "linear_max": 0.007564145606011152,
+      "nonzero_fraction": 0.4060783386230469,
+      "uv_channel": 1,
+      "uv_sha256": "2dc61fb09bae78c5d0ac53fc6a0b63935ba983f5c154c6b329b0ad1d38efb28a",
+      "png_sha256": "0952d5af590b084dc726afa8bc80e40dbe5170d921bb6744007ef97768ecdfae"
+    },
+    "SITE_terminal-cells_MAT_lattice_wood": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_lattice_wood",
+      "texture": "SITE_terminal-cells_MAT_lattice_wood.png",
+      "scale": 0.0025242038536816835,
+      "linear_max": 0.0025242038536816835,
+      "nonzero_fraction": 0.249786376953125,
+      "uv_channel": 1,
+      "uv_sha256": "89f510a2221bad84a5d540cc40932c7c8c95a9c4c98c62ec877fa6d01b024343",
+      "png_sha256": "5062674f41588893ca8326df7b98ce79478426488ea701aa0f003b1d26382813"
+    },
+    "SITE_terminal-cells_MAT_plaster_rock": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_plaster_rock",
+      "texture": "SITE_terminal-cells_MAT_plaster_rock.png",
+      "scale": 0.001468248781748116,
+      "linear_max": 0.001468248781748116,
+      "nonzero_fraction": 0.2802238464355469,
+      "uv_channel": 1,
+      "uv_sha256": "48541897ab260a3e8610f313aaf23af8a9d2f8abe5f503937709c53c74054b11",
+      "png_sha256": "2f30f0a87bb96518341a8d726adc639a49778c02ec1fbf85f0572b93310e1575"
+    },
+    "SITE_terminal-cells_MAT_props_atlas": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_props_atlas",
+      "texture": "SITE_terminal-cells_MAT_props_atlas.png",
+      "scale": 0.00035744108026847243,
+      "linear_max": 0.00035744108026847243,
+      "nonzero_fraction": 0.43047332763671875,
+      "uv_channel": 1,
+      "uv_sha256": "3ab0969c69cdc04aebfe631238118851af0512bb4699e3350f7f5ddf17d9b6b9",
+      "png_sha256": "74acd04af3c83add5f1c3246dfa01ded91bbe8e923f6c750a2432a2759641f63"
+    },
+    "SITE_terminal-cells_MAT_stage_atlas": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_stage_atlas",
+      "texture": "SITE_terminal-cells_MAT_stage_atlas.png",
+      "scale": 0.0011361679062247276,
+      "linear_max": 0.0011361679062247276,
+      "nonzero_fraction": 0.11767196655273438,
+      "uv_channel": 1,
+      "uv_sha256": "aab1aa9be97fe81faed3c8c80e24eabef56c5cd51ccd7d1011b406e86dce50ac",
+      "png_sha256": "909e5987940387fb1ecb9990c2f25a94482135cf33dfe830fb38438dc0a66617"
+    },
+    "SITE_terminal-cells_MAT_tech_atlas": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_tech_atlas",
+      "texture": "SITE_terminal-cells_MAT_tech_atlas.png",
+      "scale": 0.001252953545190394,
+      "linear_max": 0.001252953545190394,
+      "nonzero_fraction": 0.14203262329101562,
+      "uv_channel": 1,
+      "uv_sha256": "54b1b6d76d0e453ebfe7bd703cd56ecf8baf771a6fc2e3551581c89eb866577e",
+      "png_sha256": "c2cc1ea9ba81ec0e0518480c8f5c69930d71746c408cb63cadc3ecfd7d806d2c"
+    },
+    "SITE_terminal-cells_MAT_terminal_scroll": {
+      "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+      "stage_blend_sha256": "92878a6755904dd898f718fe94b6363556c1e44c2dc265319e0b20ad8504a0bc",
+      "authoring_blend_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+      "site_blend_sha256": {
+        "aojing-guan": "0a39fd68fab6a3abc3d73cb79fac17f4a1ede525d256412503c1f8ab4e232f91",
+        "daguan-lou": "d5af500a73a83e44bddd2451cc1a15c597e68b363bf75865e9542cb0b73ea230",
+        "daoxiang-cun": "5b1fe95d00aa23cb0c49819a51101d59df9440937082f07b87a0c3399c2f381c",
+        "hengwu-yuan": "325b43927fa7f79b16c07160a0c9450575cb2ccbbd5242ad10796d2adfbbd3b2",
+        "longcui-an": "88f8f19768ef313bb5677cce15780d9b4554c82a2beda43c2d547aa2a2bfaaf2",
+        "ouxiang-xie": "af093bb6a0e5b4f189074e7e8459d62bbed6de367bcae7d06e967617682c629a",
+        "qinfang-ting": "b566bcda634f27bf913c1cce1928c85c2b65520f77df4609f64d41dc403ebbea",
+        "qiushuang-zhai": "3384d5d117988ec5a2ea7d687480d8d411e59cab02a3a0ee1b26af2181610bbc",
+        "tubi-tang": "77ebd52f29633d453f2f57a629d826e37ba083b3e1c395d0d282d44f9ef00525",
+        "xiaoxiang-guan": "87f194919aa4d47a3536efd2f593334eff36a23bccd591ba0970d7c9d877ab18",
+        "yihong-yuan": "5fe6d996149dbaed9f14593003fa10c90384df9c394b1bf3530bec382ecf19f3",
+        "ziling-zhou": "a49d48454d0a3ac5a7a16934d872c7d3c4377b097f505ba14a72a119670c564c"
+      },
+      "terminal_blend_sha256": "63b77ca7a08de6c839bf123ea0d510a4732d899b5ae03cf201edb3a2b8e12e1b",
+      "samples": 2048,
+      "adaptive_sampling": false,
+      "path_guiding": false,
+      "size": 512,
+      "pass_filter": [
+        "INDIRECT"
+      ],
+      "point_lights_baked": false,
+      "emissive_geometry_baked": false,
+      "lights_baked": 12,
+      "mesh": "SITE_terminal-cells_MAT_terminal_scroll",
+      "texture": "SITE_terminal-cells_MAT_terminal_scroll.png",
+      "scale": 0.0008598029962740839,
+      "linear_max": 0.0008598029962740839,
+      "nonzero_fraction": 0.2602119445800781,
+      "uv_channel": 1,
+      "uv_sha256": "6b9f932e1affb5c37124d81474285f0e888f6cf6e19341ec71f5de7a94bd9bb9",
+      "png_sha256": "d4496f64c2d3fde2b4317b08e40c006c3a3223d8ca5a0ff6c51689ba33c2ab75"
+    }
+  }
+}

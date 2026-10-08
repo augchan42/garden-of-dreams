@@ -12,3 +12,5 @@ docs/reference/external/supporting/shaw-trailers/celestial-company.html -whitesp
 docs/reference/ouxiang-export-camera/native-export/scripts/ouxiang_tile_lightmap_uv.py -whitespace
 # Frozen source bake used the allocator before whitespace cleanup.
 docs/reference/ouxiang-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py -whitespace
+# Preserve the exact allocator snapshot used by the completed neutral-source bake.
+docs/reference/neutral-path-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py -whitespace

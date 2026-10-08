@@ -1,0 +1,35 @@
+{
+  "status": "37_native_phases_passed_partial_visual_review_not_adopted",
+  "source_glb_sha256": "5ae484f9154861df0f5b0a43865f59ae549d1d9c5cbb255192f0d73f6c4c905f",
+  "native_phases": 37,
+  "expected_negative_cases": [
+    "default-policy-rejection",
+    "ouxiang-policy-rejection",
+    "reject-camera",
+    "reject-collider",
+    "reject-marker"
+  ],
+  "runtime_input_files": 170,
+  "matching_source_pngs": 141,
+  "tours": {
+    "desktop": {
+      "rooms": 14,
+      "legs": 26,
+      "captures": 139,
+      "floor_failures": 0,
+      "maximum_practicals": 4,
+      "time_scale": 1
+    },
+    "portrait": {
+      "rooms": 14,
+      "legs": 26,
+      "captures": 139,
+      "floor_failures": 0,
+      "maximum_practicals": 4,
+      "time_scale": 1
+    }
+  },
+  "m2_normal_peak_texture_bytes": 52600513,
+  "m2_demo_peak_texture_bytes": 43512435,
+  "scope": "Native import/reimport, source/library/material/lighting guards, both complete physics traversals and stationary M2 texture inventory for paving/plain colors. Five original views inspected. No final all-site visual acceptance, canonical reexport equality, adoption, new atlas acceptance, phone/sustained budgets, release or services claim."
+}

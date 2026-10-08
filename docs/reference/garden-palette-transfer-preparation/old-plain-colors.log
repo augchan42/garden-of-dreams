@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 72, in <module>
+    main()
+    ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 65, in main
+    report = build(args.source, args.atlas_root)
+  File "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py", line 26, in build
+    assert np.allclose(rgba, [*rgb, 1], atol=1e-7, rtol=0), ('Wrong plain palette', name)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Wrong plain palette', 'MAT_lattice_wood')

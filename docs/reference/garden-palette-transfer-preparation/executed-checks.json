@@ -1,0 +1,54 @@
+{
+  "status": "palette_contract_controls_passed",
+  "scope": "Actual CPU combined-color GLB accepts; actual preceding atlas and production plain colors reject. Native Godot transfer remains unexecuted.",
+  "checks": [
+    {
+      "case": "combined-colors",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py",
+        "--source",
+        "/Users/auchan/projects/garden-of-dreams/docs/reference/neutral-atlas-integration/cpu-atlas-color-substitution.glb",
+        "--atlas-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-palette-transfer-controls-d4wqp56m/combined-colors.json"
+      ],
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "success_marker_or_rejection": "GARDEN_PALETTE_SOURCE_CONTRACT_PASS"
+    },
+    {
+      "case": "old-atlas-colors",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py",
+        "--source",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-path-full-source-qerzvuc4/export/garden-of-dreams.glb",
+        "--atlas-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-palette-transfer-controls-d4wqp56m/old-atlas-colors.json"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "success_marker_or_rejection": "Wrong embedded atlas color image"
+    },
+    {
+      "case": "old-plain-colors",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_garden_palette_contract.py",
+        "--source",
+        "/Users/auchan/projects/garden-of-dreams/export/garden-of-dreams.glb",
+        "--atlas-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-neutral-architecture-atlases-un5b19da",
+        "--output",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-palette-transfer-controls-d4wqp56m/old-plain-colors.json"
+      ],
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "success_marker_or_rejection": "Wrong plain palette"
+    }
+  ]
+}

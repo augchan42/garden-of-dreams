@@ -1,0 +1,155 @@
+{
+  "status": "reviewed_garden_palette_source_contract",
+  "source_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8",
+  "plain_materials": {
+    "MAT_lattice_wood": {
+      "base_color_linear_rgba": [
+        0.08500000089406967,
+        0.04500000178813934,
+        0.02199999988079071,
+        1
+      ],
+      "source_surface_count": 14,
+      "roughness": 0.699999988079071,
+      "metallic": 0
+    },
+    "MAT_whitewash": {
+      "base_color_linear_rgba": [
+        0.36000001430511475,
+        0.33500000834465027,
+        0.28999999165534973,
+        1
+      ],
+      "source_surface_count": 8,
+      "roughness": 0.699999988079071,
+      "metallic": 0
+    },
+    "MAT_rooftile": {
+      "base_color_linear_rgba": [
+        0.04500000178813934,
+        0.054999999701976776,
+        0.06499999761581421,
+        1
+      ],
+      "source_surface_count": 9,
+      "roughness": 0.4300000071525574,
+      "metallic": 0
+    },
+    "MAT_plaster_rock": {
+      "base_color_linear_rgba": [
+        0.20999999344348907,
+        0.20499999821186066,
+        0.1899999976158142,
+        1
+      ],
+      "source_surface_count": 18,
+      "roughness": 0.3499999940395355,
+      "metallic": 0
+    }
+  },
+  "atlas_materials": {
+    "MAT_pavilion_atlas": {
+      "color_png_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+      "base_color_linear_rgba": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "source_surface_count": 15,
+      "swatches": {
+        "MAT_lattice_wood": {
+          "uv_region": [
+            0.015625,
+            0.515625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.085,
+            0.045,
+            0.022
+          ]
+        },
+        "MAT_rooftile": {
+          "uv_region": [
+            0.515625,
+            0.515625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.045,
+            0.055,
+            0.065
+          ]
+        },
+        "MAT_plaster_rock": {
+          "uv_region": [
+            0.015625,
+            0.015625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.21,
+            0.205,
+            0.19
+          ]
+        }
+      }
+    },
+    "MAT_wall_atlas": {
+      "color_png_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354",
+      "base_color_linear_rgba": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "source_surface_count": 1,
+      "swatches": {
+        "MAT_lattice_wood": {
+          "uv_region": [
+            0.015625,
+            0.515625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.085,
+            0.045,
+            0.022
+          ]
+        },
+        "MAT_rooftile": {
+          "uv_region": [
+            0.515625,
+            0.515625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.045,
+            0.055,
+            0.065
+          ]
+        },
+        "MAT_whitewash": {
+          "uv_region": [
+            0.015625,
+            0.015625,
+            0.46875,
+            0.46875
+          ],
+          "expected_linear_rgb": [
+            0.36,
+            0.335,
+            0.29
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Actual GLB plain factors, embedded atlas hashes and non-collision source surface counts. Native import, shader bindings, decoded atlas colors and visual acceptance remain separate."
+}

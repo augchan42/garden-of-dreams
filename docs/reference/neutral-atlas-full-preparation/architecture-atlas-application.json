@@ -1,0 +1,19 @@
+{
+  "status": "saved_architecture_atlas_candidate_exported_not_adopted",
+  "input_authoring_sha256": "42579f68da9d911180d756d5430065df6043adb4ac030f4b303bb137afae2bbb",
+  "candidate_authoring_sha256": "3a3ae2536f17cf8f19b8e5c1c811b080fe05c25615297fa20cb24019c0709621",
+  "changed_images": {
+    "pavilion": {
+      "image_name": "pavilion_basecolor.png",
+      "before_sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+      "after_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+    },
+    "wall": {
+      "image_name": "wall_basecolor.png",
+      "before_sha256": "3996b410148d2262b0e6ea292871d37983b1206a1b1ac44c4e7fa32a8c62df4f",
+      "after_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354"
+    }
+  },
+  "scope": "Only packed wall and pavilion color images replaced. Full fresh lighting and native scene acceptance required before adoption.",
+  "candidate_glb_sha256": "59de1ca29bc9d02235fc29a18b78c7b2c3dfde893a27f3b8fb318af6e042ddc8"
+}
