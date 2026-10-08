@@ -1,0 +1,42 @@
+{
+  "image_size": [
+    1254,
+    1254
+  ],
+  "png_sha256": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
+  "sample_region": "Unit circle centered in the square; pixel-center mask. Native UVs map local X/Y to the image.",
+  "mean_linear_rgb": [
+    0.7831580080198229,
+    0.6644549835267728,
+    0.4731078212215889
+  ],
+  "mean_linear_luminance": 0.6758759814155609,
+  "base_factor": 0.3822133159088651,
+  "emission_factor": 0.3309651565535716,
+  "emission_strength": 0.8,
+  "preceding_base_linear_rgb": [
+    0.62,
+    0.58,
+    0.38
+  ],
+  "preceding_emission_linear_rgb": [
+    0.42,
+    0.55,
+    0.2
+  ],
+  "calibrated_base_luminance": 0.2583288,
+  "calibrated_emission_luminance_at_strength": 0.17895312000000002,
+  "image_top_left_srgb": [
+    0.8901960784313725,
+    0.8156862745098039,
+    0.6823529411764706
+  ],
+  "target_mean_luminance_ratio": 0.45,
+  "contrast_adjustment": {
+    "multiplier_of_preceding_factors": 0.45,
+    "preceding_atlas_sha256": "e42151133dcf713477ac0e5dd0b1ebae162ff58980f852dd696ce8a441c35695",
+    "preceding_authoring_sha256": "2730f63b0f40c930ed93ce3272c7936b9da75ea7d2c46d68c95e3f8ae8ba253f",
+    "reason": "Actual whole-garden moon clips to uniform white before grading. Reduced linear base/emission restores native brush contrast. Fresh final-source bakes and art checks still required.",
+    "evidence": "docs/reference/ceiling-lighting/moon-contrast/report.json"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "status": "candidate_saved_rig",
+  "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+  "exceptions": {
+    "terminal-cells": "No broad key; borrowed cyclorama/window spill, per its site sheet.",
+    "rockery-gate": "No wash in the tunnel, per its site sheet."
+  },
+  "washes": {
+    "aojing-guan": {
+      "name": "LGT_aojing_guan_backdrop_wash",
+      "camera": "CAM_aojing-guan_wide",
+      "position": [
+        26.0,
+        28.348480224609375,
+        11.0
+      ],
+      "target": [
+        26.0,
+        40.348480224609375,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "daguan-lou": {
+      "name": "LGT_daguan_lou_backdrop_wash",
+      "camera": "CAM_daguan-lou_wide",
+      "position": [
+        -7.0117926597595215,
+        35.74871063232422,
+        11.0
+      ],
+      "target": [
+        -12.794818878173828,
+        46.26329803466797,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "daoxiang-cun": {
+      "name": "LGT_daoxiang_cun_backdrop_wash",
+      "camera": "CAM_daoxiang-cun_wide",
+      "position": [
+        -34.0,
+        21.88214874267578,
+        11.0
+      ],
+      "target": [
+        -34.0,
+        33.88214874267578,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "hengwu-yuan": {
+      "name": "LGT_hengwu_yuan_backdrop_wash",
+      "camera": "CAM_hengwu-yuan_wide",
+      "position": [
+        -19.70654296875,
+        31.241497039794922,
+        11.0
+      ],
+      "target": [
+        -20.975975036621094,
+        43.174163818359375,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "longcui-an": {
+      "name": "LGT_longcui_an_backdrop_wash",
+      "camera": "CAM_longcui-an_wide",
+      "position": [
+        -29.767353057861328,
+        -22.052528381347656,
+        11.0
+      ],
+      "target": [
+        -34.994083404541016,
+        -32.85443878173828,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "ouxiang-xie": {
+      "name": "LGT_ouxiang_xie_backdrop_wash",
+      "camera": "CAM_ouxiang-xie_wide",
+      "position": [
+        -34.11996841430664,
+        14.826627731323242,
+        11.0
+      ],
+      "target": [
+        -41.319969177246094,
+        24.42662811279297,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "qinfang-ting": {
+      "name": "LGT_qinfang_ting_backdrop_wash",
+      "camera": "CAM_stage_wide",
+      "position": [
+        -14.406041145324707,
+        33.01173400878906,
+        11.0
+      ],
+      "target": [
+        -19.89421844482422,
+        43.683189392089844,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.68,
+        0.78,
+        0.73
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "qiushuang-zhai": {
+      "name": "LGT_qiushuang_zhai_backdrop_wash",
+      "camera": "CAM_qiushuang-zhai_wide",
+      "position": [
+        22.0,
+        30.661453247070312,
+        11.0
+      ],
+      "target": [
+        22.0,
+        42.66145324707031,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "tubi-tang": {
+      "name": "LGT_tubi_tang_backdrop_wash",
+      "camera": "CAM_tubi-tang_wide",
+      "position": [
+        2.381824016571045,
+        38.157569885253906,
+        11.0
+      ],
+      "target": [
+        -4.81817626953125,
+        47.757568359375,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "xiaoxiang-guan": {
+      "name": "LGT_xiaoxiang_guan_backdrop_wash",
+      "camera": "CAM_xiaoxiang-guan_wide",
+      "position": [
+        -35.04398727416992,
+        -10.570295333862305,
+        11.0
+      ],
+      "target": [
+        -47.011680603027344,
+        -9.690317153930664,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "yihong-yuan": {
+      "name": "LGT_yihong_yuan_backdrop_wash",
+      "camera": "CAM_yihong-yuan_wide",
+      "position": [
+        36.097267150878906,
+        6.490321159362793,
+        11.0
+      ],
+      "target": [
+        46.227821350097656,
+        12.922416687011719,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    },
+    "ziling-zhou": {
+      "name": "LGT_ziling_zhou_backdrop_wash",
+      "camera": "CAM_ziling-zhou_wide",
+      "position": [
+        4.675312042236328,
+        37.67530059814453,
+        11.0
+      ],
+      "target": [
+        13.160594940185547,
+        46.160579681396484,
+        8.0
+      ],
+      "energy": 150.0,
+      "color": [
+        0.72,
+        0.78,
+        0.84
+      ],
+      "size": 15.0,
+      "size_y": 10.0,
+      "receivers": [
+        "KIT_stage_cyclorama",
+        "KIT_stage_painted_canopy",
+        "KIT_stage_painted_moon",
+        "KIT_stage_painted_mountain_layer",
+        "KIT_stage_painted_mountain_layer.001",
+        "KIT_stage_painted_mountain_layer.002"
+      ]
+    }
+  },
+  "shared_reference_energy": 0
+}

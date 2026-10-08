@@ -67,3 +67,8 @@ The combined native Cycles direct pass uses 128 samples and nine 512² front/bac
 ## Collected bamboo detail reference — 2026-10-08
 
 The close foliage/material slot is filled by Franzo’s original bamboo culm photograph (24 December 2007, CC0 1.0). Joint rings, smooth internodes, node branching and papery shoot sheaths are visible. Yellow-striped cultivar colors are not a prescribed palette, and this close view does not establish clump height or leaf density. Attribution, original-byte checks and visual notes are in `../reference/external/xiaoxiang-guan/`. The night-set and architecture references remain uncollected.
+
+
+## Collected architecture reference — 2026-10-08
+
+Slot 2: [original entrance photograph](../reference/external/xiaoxiang-guan/xiaoxiang-entrance-plaque.jpg), 朱華龍 - Zhu Hua Long, CC BY 2.0. The visible plaque reads 瀟湘館 from right to left, identifying Xiaoxiang Guan. Green door leaves, red columns, blue/green/gold beam painting, narrow geometric transom lattice, painted plant panels and a bamboo view through the doorway supply site-specific entrance and woodwork details. This cropped daylight photograph does not establish the whole bamboo court, measured dimensions, roof layout or night lighting. Full attribution, license and original-byte hashes are saved beside the image. The night-set still remains uncollected.

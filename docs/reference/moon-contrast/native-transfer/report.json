@@ -1,0 +1,55 @@
+{
+ "adapter_sha256": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+ "base_linear": [
+  0.382213294506073,
+  0.382213294506073,
+  0.382213294506073
+ ],
+ "cases": {
+  "emission": {
+   "adapted_sha256": "528b0f21a61c5d684b2ec1c41d4aba5ba1dfa1e53714b19f5b7bdb9394eeaf0c",
+   "maximum": 0.0,
+   "missing-paint_sha256": "b9d93ba9a117336ac7820996f52669b63d599ace9cfb467cabe231d96f93ca33",
+   "missing_paint_rmse": 0.349382541243321,
+   "native_sha256": "528b0f21a61c5d684b2ec1c41d4aba5ba1dfa1e53714b19f5b7bdb9394eeaf0c",
+   "passed": true,
+   "rmse": 0.0
+  },
+  "graded": {
+   "adapted_sha256": "fda65b8866bbe029561ef512a7b68e54ea2df3fcf582ed2d3a2b1a1278217fd9",
+   "maximum": 0.00392156839370728,
+   "missing-paint_sha256": "99290dd17f81dde379d0f3f347dee3deaaaa8553048b8d686b0338e4fd7c63e0",
+   "missing_paint_rmse": 0.0807962722602097,
+   "native_sha256": "3c9febd54bef32fb1d46a67769ca21c9eb7b5a50f7513eea8a096bef05a4b539",
+   "passed": true,
+   "rmse": 0.00000884421315528291
+  },
+  "key": {
+   "adapted_sha256": "bbc447688444b406bf290cbd890de46f1e477d579d7b7ac6db513bd2ccd0dda2",
+   "maximum": 0.0,
+   "missing-paint_sha256": "b8588c31dfaf2bf74a912b108a1ce3c548eb7f0e07dc2bf6ee251b953067fd63",
+   "missing_paint_rmse": 0.0839621244970005,
+   "native_sha256": "bbc447688444b406bf290cbd890de46f1e477d579d7b7ac6db513bd2ccd0dda2",
+   "passed": true,
+   "rmse": 0.0
+  }
+ },
+ "emission_energy": 1.0,
+ "emission_linear": [
+  0.264772176742554,
+  0.264772176742554,
+  0.264772176742554
+ ],
+ "moon_diameter_pixels": 223.0,
+ "renderer_texture_memory_bytes": 6972438,
+ "scope": "Actual imported moon native versus existing baked-material adapter with ordinary bake disabled, in emissive/key/graded views; positive missing-paint control. Not final baked garden lighting or site art acceptance.",
+ "shader_sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+ "source_glb_sha256": "41b81c17ba76e35ad8b06545f9175311ad8825d36ef78a56ae9f13eb4b5e2d38",
+ "status": "passed",
+ "texture_readback_bytes": 6288054,
+ "texture_readback_format": 4,
+ "texture_size": [
+  1254,
+  1254
+ ]
+}

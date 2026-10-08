@@ -1,0 +1,34 @@
+{
+  "texture_sha256": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
+  "image_size": [
+    1254,
+    1254
+  ],
+  "uv_layer": "PaintUV",
+  "base_factor": 0.3822133159088651,
+  "emission_factor": 0.3309651565535716,
+  "emission_strength": 0.8,
+  "mean_base_luminance_ratio": 0.45,
+  "mean_emission_luminance_ratio": 0.45,
+  "target_mean_luminance_ratio": 0.45,
+  "mean_linear_paint_rgb": [
+    0.7831580080198229,
+    0.6644549835267728,
+    0.4731078212215889
+  ],
+  "status": "saved_source_verified",
+  "source_sha256": "3d2c2f85ae769767de8d902810b3927870fa0e464f09a287b070dd8a0d9d014a",
+  "atlas_sha256": "81b1676ac410916b468256953891411d8cbb073b12ef94477cbbfbf6c6ca7737",
+  "helper_sha256": "fbcad31085558cb66869634e513c8ff5364579473cf30db9b98797ce97acfcdf",
+  "test_sha256": "04fedc5f95ffab301f06e2f10062a7566745c83a59c24bd9c63e586351e0ddd9",
+  "rejected": [
+    "missing lower-luminance intent",
+    "false equal-luminance intent",
+    "boolean luminance intent",
+    "wrong packed image",
+    "unrequested image resize",
+    "wrong base factor",
+    "moon primary UV drift"
+  ],
+  "scope": "Actually reopened source and original packed painting, full primary UV mapping, explicit 45% source-luminance intent. Rejected metadata/UV corruptions are in-memory or temporary; source unmodified. Not lighting or final art acceptance."
+}

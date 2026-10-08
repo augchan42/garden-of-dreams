@@ -837,3 +837,32 @@ provenance is older than the current source code. `docs/ceiling-lighting.md`
 and `export/ceiling-lighting-evidence.json` retain the current evidence. Full
 site art, thirty references, device/performance/package acceptance and room
 services remain part of the active goal.
+
+### Authored contrast candidate — 2026-10-08
+
+The combined floor/ceiling source now has a separate authored moon candidate
+with base/emission factors reduced to 45% and explicit matching atlas metadata.
+Original paint/UV/geometry and all other objects/materials are preserved. Native
+reopened-source checks and actual full/stage export comparison pass; fourteen
+other site exports are unchanged. Native material-transfer comparisons and
+fourteen-room portrait coverage pass with old bakes disabled. The unbaked view
+still looks too bright and is not final art acceptance.
+
+The exact adjusted export passes the continuous headless fourteen-room,
+twenty-six-leg walk with 17,582 supported grounded rays and no misses. It uses
+actual imported colliders and public commands without resetting the visitor;
+old bakes remain disabled in the separate fixture. Production adoption and
+fully lit rendered traversal remain pending.
+
+Complete fresh lighting is running against the frozen candidate export. The
+canonical source and production runtime retain the preceding source; no partial
+maps are installed. Fully baked visual review, rendered traversal, matching
+source/library/atlas/lighting adoption and a separate package rebuild remain
+required. Evidence and limits: `docs/moon-contrast.md` and
+`export/moon-contrast-evidence.json`.
+
+A newly identified Xiaoxiang entrance photo fills its architecture reference
+slot with attribution and verified original bytes. Required references are now
+13/42, leaving 29. A daylight rock portal is retained as supporting modelling
+evidence only; it does not fill the rockery tunnel/fog slots. Full site art,
+texture/device/performance acceptance and authenticated services remain in scope.
