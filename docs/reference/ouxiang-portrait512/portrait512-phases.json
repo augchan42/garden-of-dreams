@@ -1,0 +1,37 @@
+{
+  "status": "technical_checks_complete_visual_review_pending",
+  "scope": "The second Ouxiang portrait-water camera proposal with actual lossless512, candidate geometry/map swap only; no canonical runtime camera or scene install.",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-import.log",
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "d45aaf811549185683d387c864aed34d947e6b8113cb4658782e03cc6eeefa50"
+    },
+    {
+      "name": "render",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/godot",
+        "--script",
+        "res://tests/diagnose_oux_portrait512.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-render.log",
+      "status": "passed",
+      "exit_code": 0,
+      "log_sha256": "32b238f0a516d3feac86769eb9d96f03b1a5fe4ee75c37a31bbd4c7bfa83ca38"
+    }
+  ]
+}

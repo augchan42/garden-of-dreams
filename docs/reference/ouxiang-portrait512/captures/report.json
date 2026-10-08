@@ -1,0 +1,76 @@
+{
+  "candidate_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+  "candidate_import": {
+    "data_bytes": 786432,
+    "format": 4,
+    "height": 512,
+    "image_sha256": "a12a1c029067ea8d8ae4acfb846fb2b90145429dc4467ef7fda4eb838f96025c",
+    "import_params_sha256": "3a3928d7c7d3aaef56e638b4797a1772019403870d072ed30d757cd42a01c1cb",
+    "width": 512
+  },
+  "candidate_lightmap_record": {
+    "mesh": "SITE_ouxiang-xie_MAT_rooftile",
+    "nonzero_fraction": 0.62742805480957,
+    "point_lights_baked": false,
+    "samples": 128.0,
+    "scale": 1.0,
+    "shadow_intent": {
+      "SITE_stage_MAT_stage_canopy_paint": false
+    },
+    "site": null,
+    "size": 1024.0,
+    "source_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+    "status": "Cycles bake produced; engine look verification pending",
+    "texture": "SITE_ouxiang-xie_MAT_rooftile.png",
+    "uv_channel": 1.0,
+    "uv_sha256": "e68faad7e479997944aef30ab9248732bc34ab3f10e65c7f569e9b59baea1dd5"
+  },
+  "candidate_lightmap_sha256": "cff7937f2f56e5c3e4c1fa8d7931dcaf08061fc21d3431ae03c850bc7b362cc2",
+  "scope": "Only the Ouxiang roof mesh and its actual fresh candidate bake are swapped in the isolated current scene. Other geometry/maps/lights/materials/UI remain the baseline. Only the alternative portrait camera is used (target height0.5, distance multiplier2.0). No old map relabelling, whole-candidate lighting, production adoption, traversal, final art or performance claim.",
+  "source_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+  "status": "passed",
+  "test_script_sha256": "b35a5ee216413084ffcf7b1446ec57146b1fa9cc8c78ced6fd434b1cbacbc6c1",
+  "views": {
+    "portrait-water": {
+      "camera_transform": "[X: (0.780869, 0.0, -0.624695), Y: (-0.207098, 0.943448, -0.258873), Z: (0.589368, 0.331519, 0.73671), O: (-7.0, 9.5, 20.0)]",
+      "cases": {
+        "baseline": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-baseline.png",
+          "sha256": "e994680d5b68d5fe0cc78e8398c5edd5e943523e1bdb7ea8c0578d24888a9eb2"
+        },
+        "baseline-again": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-baseline-again.png",
+          "sha256": "e994680d5b68d5fe0cc78e8398c5edd5e943523e1bdb7ea8c0578d24888a9eb2"
+        },
+        "baseline-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-baseline-lossless-native.png",
+          "sha256": "9b5e09d69decf4d929e01f4f29b5c441a167d2af0b09af99ec51daa680a8b699"
+        },
+        "baseline-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-baseline-lossless256.png",
+          "sha256": "35bb4cef71cf8f5972c5104b0b0ca40c44375e3c4f58e7144f5317280e45338f"
+        },
+        "candidate-import512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-candidate-import512.png",
+          "sha256": "04f00044a05d02c5818196a2fd72bb6cc9ba1feef1bab5415d8396e23fc896cb"
+        },
+        "candidate-lossless-native": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-candidate-lossless-native.png",
+          "sha256": "d19f5f8d1f7bed7643cbd527e828f23e8982532ef6f53df2461e5006b7b92afb"
+        },
+        "candidate-lossless256": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-candidate-lossless256.png",
+          "sha256": "d939e78354b46bc0049b091624b54c4d915efdb52b359ef3f1f8e40ba11b11f1"
+        },
+        "candidate-lossless512": {
+          "path": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-native-source-vunhsxks/portrait512-captures/portrait-water-candidate-lossless512.png",
+          "sha256": "cf2edca6500306fce9cffab312d4f220cbfd124cdd7ddbed0a85ec7a81522808"
+        }
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  }
+}
