@@ -1,0 +1,87 @@
+{
+  "status": "native_default_and_disabled_exports_verified",
+  "orchestrator_pid": 63832,
+  "started_at": "2026-10-08T12:45:42.938170+00:00",
+  "source_authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "phases": [
+    {
+      "name": "default",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike/scripts/export_garden.py",
+        "--",
+        "--output-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike/native-logs/default.log",
+      "status": "passed",
+      "pid": 63840,
+      "exit_code": 0,
+      "log_sha256": "d4e22e1b92cbe5f760d8737427dfd454aab82a81bfb1294f2428f116b31b36c7",
+      "complete_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+      "site_hashes": {
+        "SITE_aojing-guan.glb": "7a4850b335d0fbd57a103b99bb6c5262d6cc00c41602bda41338c63733d62bee",
+        "SITE_daguan-lou.glb": "60db742456a336fd95cb0c58714d376cb289ef8d80b17fe33e2fa5002378b8c4",
+        "SITE_daoxiang-cun.glb": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a",
+        "SITE_hengwu-yuan.glb": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b",
+        "SITE_longcui-an.glb": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9",
+        "SITE_ouxiang-xie.glb": "6eee9c065271d3e0a6ca10f78e9de0e4fa242b0d27471a2e398601de26be0934",
+        "SITE_qinfang-ting.glb": "9e98cabed178582bdb53f0b5d0c33365c1516170e2df8bb7a491d2bcaab004bc",
+        "SITE_qiushuang-zhai.glb": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01",
+        "SITE_rockery-gate.glb": "e996af42022626a5dd791e2e32e66eb01b0579eb980995896674fe15e739ce19",
+        "SITE_stage.glb": "531d7f02ebd1e2b51a8bdb38cc59a9376ee265a97aaab236669eb7f6f9f443aa",
+        "SITE_terminal-cells.glb": "acb433bb9f075bdafeabf2436eb9d742dba8ed909e5bb52f3cfcad35996b5eeb",
+        "SITE_tubi-tang.glb": "c729d716961dc18b9059c8bedfc71703adfc649c24ac591431218e51af2d9495",
+        "SITE_xiaoxiang-guan.glb": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e",
+        "SITE_yihong-yuan.glb": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3",
+        "SITE_ziling-zhou.glb": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34"
+      }
+    },
+    {
+      "name": "disabled",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike/scripts/export_garden.py",
+        "--",
+        "--output-root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike/disabled-control",
+        "--no-ouxiang-tile-uvs"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-default-export-nhg2yike/native-logs/disabled.log",
+      "status": "passed",
+      "pid": 64187,
+      "exit_code": 0,
+      "log_sha256": "15dca6c413fcbd3031ed079b22716ce30bd481aa629cd7c2eb03d353d471916c",
+      "complete_glb_sha256": "361a67c759974e4fb5897a15d5a7354076ef30392b7a6ed988cca6029f198611",
+      "site_hashes": {
+        "SITE_aojing-guan.glb": "7a4850b335d0fbd57a103b99bb6c5262d6cc00c41602bda41338c63733d62bee",
+        "SITE_daguan-lou.glb": "60db742456a336fd95cb0c58714d376cb289ef8d80b17fe33e2fa5002378b8c4",
+        "SITE_daoxiang-cun.glb": "fb41b1cac53f4fcc3402ad28d334f92bb1dd0d26885f67c2ebd3f02cf333768a",
+        "SITE_hengwu-yuan.glb": "c98e9fa7b7dfa1bf590cc6b7130e160ac975222ac90c0daa2e927d906fe6788b",
+        "SITE_longcui-an.glb": "682a356302aebfeaeb1019036037ac66a03bb601c56aae3f53aa9c1bd08939c9",
+        "SITE_ouxiang-xie.glb": "318aac5ad623d3e3cd01cabc0de3fa21f14f42d4e58727aa8f553d9c8d3cca0c",
+        "SITE_qinfang-ting.glb": "9e98cabed178582bdb53f0b5d0c33365c1516170e2df8bb7a491d2bcaab004bc",
+        "SITE_qiushuang-zhai.glb": "2c5808f47fa0c1609224b61de8fe7b8c7f9820972ed0bafa1854ab14ad1b4e01",
+        "SITE_rockery-gate.glb": "e996af42022626a5dd791e2e32e66eb01b0579eb980995896674fe15e739ce19",
+        "SITE_stage.glb": "531d7f02ebd1e2b51a8bdb38cc59a9376ee265a97aaab236669eb7f6f9f443aa",
+        "SITE_terminal-cells.glb": "acb433bb9f075bdafeabf2436eb9d742dba8ed909e5bb52f3cfcad35996b5eeb",
+        "SITE_tubi-tang.glb": "c729d716961dc18b9059c8bedfc71703adfc649c24ac591431218e51af2d9495",
+        "SITE_xiaoxiang-guan.glb": "e80ceb5fc7416a5b3866e566bde932c48f607512204a3ac8e0cf8c140d93fc4e",
+        "SITE_yihong-yuan.glb": "508268a9712aa04c051217142391304449e777685911d8ae7b2a665ea739c0b3",
+        "SITE_ziling-zhou.glb": "bc4913f5718c29ba05103a4bef3e3fabf71949270ecb54de07d2659bab8d2b34"
+      }
+    }
+  ],
+  "scope": "Native default Ouxiang UV2 export and disabled-option control. Saved authoring unchanged; geometry/light/camera/material/image equivalence and expected complete/site attributes are separate assertions. No bake or production install.",
+  "finished_at": "2026-10-08T12:46:30.598093+00:00"
+}

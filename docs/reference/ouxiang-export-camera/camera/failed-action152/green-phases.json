@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "phases": [
+    {
+      "name": "new-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/new-framing"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/new-framing.log",
+      "status": "running",
+      "pid": 70750,
+      "exit_code": 1,
+      "log_sha256": "1c54ee2f74780dd9ceedf21b3a1b719d674c82f37245ccc4f5b9f3707110cd76"
+    }
+  ],
+  "scope": "Native changed portrait camera, tea/look, actual western/nunnery physics routes and existing density UI regression; final art and phone acceptance remain separate.",
+  "error": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max\n\nOUXIANG_FRAMING_REJECTED: [\"Near-side pier hidden by interface at (360, 800)\"]\n"
+}

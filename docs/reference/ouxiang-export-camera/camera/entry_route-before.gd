@@ -679,9 +679,6 @@ func _arrive(id: String, immediate = false) -> void:
   view_position=pavilion_view[0]
   view_target=pavilion_view[1]
   camera.fov=pavilion_view[2]
- elif portrait and id=="ouxiang_xie":
-  view_target=Vector3(-23,.5,0)
-  view_position=view_target+(view_position-view_target)*2.0
  elif portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
@@ -752,10 +749,7 @@ func _replay_demo() -> void:
 func _fit_action_list() -> void:
  await get_tree().process_frame
  var portrait = get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y
- var action_height=actions.get_combined_minimum_size().y
- if portrait and room_id in ["qinfang_ting","ouxiang_xie"]:
-  action_height=minf(action_height,128.0 if room_id=="ouxiang_xie" else 152.0)
- action_scroll.custom_minimum_size.y=action_height
+ action_scroll.custom_minimum_size.y = minf(actions.get_combined_minimum_size().y,152.0) if portrait and room_id=="qinfang_ting" else actions.get_combined_minimum_size().y
  action_scroll.scroll_vertical = 0
 
 func _camera_to(position: Vector3, target: Vector3, immediate = false) -> void:

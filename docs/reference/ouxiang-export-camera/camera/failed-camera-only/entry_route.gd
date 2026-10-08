@@ -752,10 +752,7 @@ func _replay_demo() -> void:
 func _fit_action_list() -> void:
  await get_tree().process_frame
  var portrait = get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y
- var action_height=actions.get_combined_minimum_size().y
- if portrait and room_id in ["qinfang_ting","ouxiang_xie"]:
-  action_height=minf(action_height,128.0 if room_id=="ouxiang_xie" else 152.0)
- action_scroll.custom_minimum_size.y=action_height
+ action_scroll.custom_minimum_size.y = minf(actions.get_combined_minimum_size().y,152.0) if portrait and room_id=="qinfang_ting" else actions.get_combined_minimum_size().y
  action_scroll.scroll_vertical = 0
 
 func _camera_to(position: Vector3, target: Vector3, immediate = false) -> void:

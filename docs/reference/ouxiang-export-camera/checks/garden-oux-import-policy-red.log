@@ -1,0 +1,53 @@
+F.FFF
+======================================================================
+FAIL: test_both_reviewed_roofs_can_be_enabled (__main__.OuxiangImportPolicy.test_both_reviewed_roofs_can_be_enabled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_ouxiang_lightmap_imports.py", line 65, in test_both_reviewed_roofs_can_be_enabled
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]
+                                     [--facade-size-limit {0,256,512,1024}]
+                                     [--uncompressed] [--imperial-lossless512]
+                                     [--demo]
+                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]
+configure_lightmap_imports.py: error: unrecognized arguments: --ouxiang-lossless512
+
+
+======================================================================
+FAIL: test_stale_engine_source_rejected_before_import_mutation (__main__.OuxiangImportPolicy.test_stale_engine_source_rejected_before_import_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_ouxiang_lightmap_imports.py", line 84, in test_stale_engine_source_rejected_before_import_mutation
+    self.assertIn('catalog/source mismatch', result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'catalog/source mismatch' not found in 'usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]\n                                     [--facade-size-limit {0,256,512,1024}]\n                                     [--uncompressed] [--imperial-lossless512]\n                                     [--demo]\n                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]\nconfigure_lightmap_imports.py: error: unrecognized arguments: --ouxiang-lossless512\n'
+
+======================================================================
+FAIL: test_verified_exception_preserves_other_roof (__main__.OuxiangImportPolicy.test_verified_exception_preserves_other_roof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_ouxiang_lightmap_imports.py", line 55, in test_verified_exception_preserves_other_roof
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 0 : usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]
+                                     [--facade-size-limit {0,256,512,1024}]
+                                     [--uncompressed] [--imperial-lossless512]
+                                     [--demo]
+                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]
+configure_lightmap_imports.py: error: unrecognized arguments: --ouxiang-lossless512
+
+
+======================================================================
+FAIL: test_wrong_uv_rejected_before_import_mutation (__main__.OuxiangImportPolicy.test_wrong_uv_rejected_before_import_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/test_ouxiang_lightmap_imports.py", line 76, in test_wrong_uv_rejected_before_import_mutation
+    self.assertIn('requires the verified tile charts', result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'requires the verified tile charts' not found in 'usage: configure_lightmap_imports.py [-h] [--size-limit {0,256,512,1024}]\n                                     [--facade-size-limit {0,256,512,1024}]\n                                     [--uncompressed] [--imperial-lossless512]\n                                     [--demo]\n                                     [--index {demo-index.json,priority2-index.json,full-index.json,backdrop-wash-index.json,terminal-spill-index.json}]\nconfigure_lightmap_imports.py: error: unrecognized arguments: --ouxiang-lossless512\n'
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.417s
+
+FAILED (failures=4)

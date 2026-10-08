@@ -5,3 +5,5 @@
 docs/reference/**/*.log -whitespace
 # Publisher HTML snapshots retain their original bytes and source hashes.
 docs/reference/external/**/beijing-tourism-*.html -whitespace
+# Executed snapshot retains bytes before source whitespace cleanup.
+docs/reference/ouxiang-export-camera/native-export/scripts/ouxiang_tile_lightmap_uv.py -whitespace

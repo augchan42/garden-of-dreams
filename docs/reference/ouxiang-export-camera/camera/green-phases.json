@@ -1,0 +1,371 @@
+{
+  "status": "technical_checks_complete_visual_review_pending",
+  "phases": [
+    {
+      "name": "new-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/new-framing"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/new-framing.log",
+      "status": "passed",
+      "pid": 71105,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    },
+    {
+      "name": "density-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--density",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/density-framing"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/density-framing.log",
+      "status": "passed",
+      "pid": 71128,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    },
+    {
+      "name": "western-route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--headless",
+        "--script",
+        "res://tests/test_western_route.gd"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/western-route.log",
+      "status": "passed",
+      "pid": 71136,
+      "exit_code": 0,
+      "log_sha256": "16242fc0f851486b4c603d5fcf9875f9b04b9109db517ed3525dd6f8db15679b"
+    },
+    {
+      "name": "nunnery-route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--headless",
+        "--script",
+        "res://tests/test_nunnery_route.gd"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/nunnery-route.log",
+      "status": "passed",
+      "pid": 71520,
+      "exit_code": 0,
+      "log_sha256": "36dffce3ce7dac98cc7c1cadb9ab30234de842a637e52e78cf49a3df6110a177"
+    },
+    {
+      "name": "mobile-ui",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--headless",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/mobile-ui.log",
+      "status": "passed",
+      "pid": 71553,
+      "exit_code": 0,
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0"
+    }
+  ],
+  "scope": "Native changed portrait camera, tea/look, actual western/nunnery physics routes and existing density UI regression; final art and phone acceptance remain separate.",
+  "unchanged_camera_checks": [
+    {
+      "room": "aojing_guan",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "daguan_lou",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "daoxiang_cun",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "hengwu_yuan",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "longcui_an",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "qinfang_ting",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "qiushuang_zhai",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "rockery_gate",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "terminal_room",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "tubi_tang",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "xiaoxiang_guan",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "yihong_yuan",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "ziling_zhou",
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "room": "aojing_guan",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "daguan_lou",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "daoxiang_cun",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "hengwu_yuan",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "longcui_an",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "qinfang_ting",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "qiushuang_zhai",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "rockery_gate",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "terminal_room",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "tubi_tang",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "xiaoxiang_guan",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "yihong_yuan",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "ziling_zhou",
+      "size": [
+        360,
+        800
+      ]
+    },
+    {
+      "room": "aojing_guan",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "daguan_lou",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "daoxiang_cun",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "hengwu_yuan",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "longcui_an",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "ouxiang_xie",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "qinfang_ting",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "qiushuang_zhai",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "rockery_gate",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "terminal_room",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "tubi_tang",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "xiaoxiang_guan",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "yihong_yuan",
+      "size": [
+        1410,
+        600
+      ]
+    },
+    {
+      "room": "ziling_zhou",
+      "size": [
+        1410,
+        600
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "source_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+  "authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-9kj_xymg/prepare_candidate_libraries_frozen.py",
+        "--",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-9kj_xymg"
+      ],
+      "status": "running",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-9kj_xymg/preparation-logs/site-libraries.log",
+      "pid": 73615,
+      "exit_code": 1,
+      "log_sha256": "e0e97e6b93eafce7223a5c3eaa34b2cf9ea4db18444517247c48889d9f87d2f6"
+    }
+  ],
+  "orchestrator_pid": 73612,
+  "scope": "New complete Ouxiang UV2 source; original saved geometry retained, empty lightmaps before fresh all-scene baking. No new GLB/map install.",
+  "error": "Traceback (most recent call last):\n  File \"/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-9kj_xymg/prepare_candidate_libraries_frozen.py\", line 15, in <module>\n    from lightmap_catalog import glb_document\nModuleNotFoundError: No module named 'lightmap_catalog'\nBlenderMCP addon registered\n\nError: script failed, file: '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-9kj_xymg/prepare_candidate_libraries_frozen.py', exiting.\nBlenderMCP addon unregistered\nBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)\n\nBlender quit\n"
+}

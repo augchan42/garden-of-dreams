@@ -1,0 +1,39 @@
+{
+  "status": "old_portrait_clipping_reproduced",
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/cold-import.log",
+      "pid": 70157,
+      "exit_code": 0,
+      "log_sha256": "209d77aa91daad83239a593c10c56fa1c672ac2706c6920d107db834acb1eaba"
+    },
+    {
+      "name": "old-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/godot",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/old-framing"
+      ],
+      "status": "expected_rejection",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-camera-review-ry9dvyyt/old-framing.log",
+      "pid": 70182,
+      "exit_code": 1,
+      "log_sha256": "746c0de5ee30bc06c86fe0c38f44c0654e89563b886c5d63e7cb6d22d6fb9a22"
+    }
+  ],
+  "scope": "Cold native import and unchanged-runtime framing rejection."
+}

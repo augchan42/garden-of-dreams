@@ -1,0 +1,50 @@
+{
+  "status": "prepared_frozen_complete_source",
+  "source_glb_sha256": "be80374cbc0959830205af0efbe198f044ec25df15e7933c91178d0ecf516e5a",
+  "authoring_sha256": "9356f6ec3b310ffb408a915fe6a8824c3a6cc329c81daeef5c5dfc14fcb6658c",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-l5jdwiam/scripts/prepare_candidate_libraries_frozen.py",
+        "--",
+        "--root",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-l5jdwiam"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-l5jdwiam/preparation-logs/site-libraries.log",
+      "pid": 73737,
+      "exit_code": 0,
+      "log_sha256": "b9a869779033fcae7d2ae35dd04e5ca9515855531f862a745c3c054239a09c88"
+    },
+    {
+      "name": "wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-l5jdwiam/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-oux-full-source-l5jdwiam/preparation-logs/wash-receivers.log",
+      "pid": 73765,
+      "exit_code": 0,
+      "log_sha256": "467aaa253231804cdb490abd13fa33afb86d62237b683695acd89b5fe5893153"
+    }
+  ],
+  "orchestrator_pid": 73735,
+  "scope": "New complete Ouxiang UV2 source; original saved geometry retained, empty lightmaps before fresh all-scene baking. No new GLB/map install."
+}
