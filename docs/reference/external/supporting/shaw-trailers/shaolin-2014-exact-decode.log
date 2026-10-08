@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/9e4HDsEJfro.mp4':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    creation_time   : 2024-04-09T02:49:58.000000Z
+  Duration: 00:02:17.08, start: 0.000000, bitrate: 2164 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 625 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      creation_time   : 2024-04-09T02:49:58.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0x7134012c0] config in time_base: 1/12800, frame_rate: 25/1
+[Parsed_showinfo_1 @ 0x7134012c0] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0x7134012c0] n:   0 pts: 972800 pts_time:76      duration:    512 duration_time:0.04    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:A241460B plane_checksum:[71ABD4D4 C4833F1E 9E9D320A] mean:[29 128 128] stdev:[13.4 2.0 2.9]
+[Parsed_showinfo_1 @ 0x7134012c0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/9e4HDsEJfro-exact-76.png':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    encoder         : Lavf63.1.101
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.101 png
+      creation_time   : 2024-04-09T02:49:58.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+[Parsed_showinfo_1 @ 0x7134012c0] n:   1 pts: 973312 pts_time:76.04   duration:    512 duration_time:0.04    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:B checksum:B2658C47 plane_checksum:[EAC308DD 5967328B FAF250DF] mean:[29 128 128] stdev:[13.4 2.0 3.0]
+[Parsed_showinfo_1 @ 0x7134012c0] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:04.03    [image2 @ 0x712c24780] The specified filename '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/9e4HDsEJfro-exact-76.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0x712c24780] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0x713400180] video:410KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.2 q=-0.0 Lsize=N/A time=00:01:16.04 bitrate=N/A speed=18.4x elapsed=0:00:04.14    

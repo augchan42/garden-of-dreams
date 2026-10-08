@@ -1,0 +1,44 @@
+[
+  {
+    "video": "0JuWNCl8c1U",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "info",
+      "-threads",
+      "2",
+      "-i",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U.mp4",
+      "-vf",
+      "fps=1,showinfo",
+      "-frames:v",
+      "150",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U-samples/sample-%03d.png"
+    ],
+    "exit_code": 0,
+    "sample_count": 62,
+    "scope": "One-second sampling and resized labelled contact sheets for inspection only. Sampling can miss short cuts; contact labels are approximate, not original frame PTS. A selected reference requires an original-size exact decoder frame with provenance."
+  },
+  {
+    "video": "9e4HDsEJfro",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "info",
+      "-threads",
+      "2",
+      "-i",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/9e4HDsEJfro.mp4",
+      "-vf",
+      "fps=1,showinfo",
+      "-frames:v",
+      "150",
+      "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/9e4HDsEJfro-samples/sample-%03d.png"
+    ],
+    "exit_code": 0,
+    "sample_count": 137,
+    "scope": "One-second sampling and resized labelled contact sheets for inspection only. Sampling can miss short cuts; contact labels are approximate, not original frame PTS. A selected reference requires an original-size exact decoder frame with provenance."
+  }
+]

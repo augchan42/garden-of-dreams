@@ -1,0 +1,43 @@
+{
+  "status": "two_publisher_trailers_sampled_no_required_slot_filled",
+  "reviewed_at": "2026-10-08T15:45:43.198137+00:00",
+  "scope": "All five labelled one-second contact sheets and two exact original-size frames directly viewed. Coarse samples can miss short cuts; no claim that the specified cell is absent from either trailer or the full film. Two training frames are rejected, and no required reference slot is filled. Sources are separate from game assets.",
+  "items": [
+    {
+      "film": "The 36th Chamber of Shaolin",
+      "publisher_title": "The 36th Chamber Of Shaolin (1977) \u5c11\u6797\u4e09\u5341\u516d\u623f **Official Trailer** by Shaw Brothers",
+      "publisher_channel": "Shaw Brothers Clips",
+      "source_page": "https://www.youtube.com/watch?v=0JuWNCl8c1U",
+      "saved_video_sha256": "f307a81837208b4976c233d516276d9eb69e48df6b738bf43386dcd030e5a629",
+      "frame_file": "docs/reference/external/supporting/shaw-trailers/shaolin-original-training-original.png",
+      "frame_sha256": "057d81a386f22f4a8ea38bc9dcf467dcf73702ec098c12d785ace676ecb4495c",
+      "requested_minimum_time_seconds": 27,
+      "first_selected_frame_pts_seconds": 27.027,
+      "frame_dimensions": [
+        600,
+        480
+      ],
+      "decoder_first_selected_frame": "[Parsed_showinfo_1 @ 0xc1f425500] n:   0 pts: 675675 pts_time:27.027  duration:   1001 duration_time:0.04004 fmt:yuv420p cl:left sar:1/1 s:600x480 i:P iskey:0 type:B checksum:E4AC5795 plane_checksum:[3C748B8D EB8B379C BBFD945D] mean:[35 126 129] stdev:[24.9 3.0 4.8]",
+      "decision": "not accepted as a required reference",
+      "direct_visual_review": "The directly viewed original shows a bare-chested trainee beside large cylindrical training apparatus. It supplies no identifiable bare cell, brighter exit or sole room light; not accepted for terminal slot 1."
+    },
+    {
+      "film": "The 36th Chamber of Shaolin",
+      "publisher_title": "The 36th Chamber Of Shaolin (1977) - Shaw Brothers (2014 Trailer)",
+      "publisher_channel": "Shaw Brothers Clips",
+      "source_page": "https://www.youtube.com/watch?v=9e4HDsEJfro",
+      "saved_video_sha256": "4b1725d95f9fd7878e892f9927b846141456dd8bcba9b5814bceb471097f4821",
+      "frame_file": "docs/reference/external/supporting/shaw-trailers/shaolin-2014-training-original.png",
+      "frame_sha256": "944ea073be9c6ee925e35cd43932c4ecfea97714f033d0db08b32bab51e8f624",
+      "requested_minimum_time_seconds": 76,
+      "first_selected_frame_pts_seconds": 76.0,
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "decoder_first_selected_frame": "[Parsed_showinfo_1 @ 0x7134012c0] n:   0 pts: 972800 pts_time:76      duration:    512 duration_time:0.04    fmt:yuv420p cl:left sar:1/1 s:1920x1080 i:P iskey:0 type:P checksum:A241460B plane_checksum:[71ABD4D4 C4833F1E 9E9D320A] mean:[29 128 128] stdev:[13.4 2.0 2.9]",
+      "decision": "not accepted as a required reference",
+      "direct_visual_review": "The directly viewed original shows a bare-chested trainee framed by a stone arch, foliage behind him and a vessel on a stand. It does not establish a cell, brighter doorway or single practical source; not accepted for terminal slot 1."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U.mp4':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    creation_time   : 2023-08-23T05:15:30.000000Z
+  Duration: 00:01:02.02, start: 0.000000, bitrate: 577 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 600x480 [SAR 1:1 DAR 5:4], 456 kb/s, 24.98 fps, 24.98 tbr, 25k tbn (default)
+    Metadata:
+      creation_time   : 2023-08-23T05:15:30.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0xc1f425500] config in time_base: 1/25000, frame_rate: 25000/1001
+[Parsed_showinfo_1 @ 0xc1f425500] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0xc1f425500] n:   0 pts: 675675 pts_time:27.027  duration:   1001 duration_time:0.04004 fmt:yuv420p cl:left sar:1/1 s:600x480 i:P iskey:0 type:B checksum:E4AC5795 plane_checksum:[3C748B8D EB8B379C BBFD945D] mean:[35 126 129] stdev:[24.9 3.0 4.8]
+[Parsed_showinfo_1 @ 0xc1f425500] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[swscaler @ 0xc20254000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20264000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20274000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20284000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20294000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202a4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202b4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202c4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202d4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202e4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc202f4000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20304000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20314000] No accelerated colorspace conversion found from yuv420p to rgb24.
+[swscaler @ 0xc20254000] [swscaler @ 0xc20324000] No accelerated colorspace conversion found from yuv420p to rgb24.
+Output #0, image2, to '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U-exact-27.png':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: iso6avc1mp41
+    encoder         : Lavf63.1.101
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 600x480 [SAR 1:1 DAR 5:4], q=2-31, 200 kb/s, 24.98 fps, 24.98 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.101 png
+      creation_time   : 2023-08-23T05:15:30.000000Z
+      handler_name    : ISO Media file produced by Google Inc.
+[Parsed_showinfo_1 @ 0xc1f425500] n:   1 pts: 676676 pts_time:27.06704 duration:   1001 duration_time:0.04004 fmt:yuv420p cl:left sar:1/1 s:600x480 i:P iskey:0 type:B checksum:03D612F4 plane_checksum:[54ED42C5 4B613BA0 8EFD9480] mean:[35 126 129] stdev:[25.0 3.0 4.9]
+[Parsed_showinfo_1 @ 0xc1f425500] color_range:tv color_space:bt709 color_primaries:bt709 color_trc:bt709
+[image2 @ 0xc1f014500] The specified filename '/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U-exact-27.png' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0xc1f014500] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0xc1f424180] video:84KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:27.06 bitrate=N/A speed= 115x elapsed=0:00:00.23    

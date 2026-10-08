@@ -1,0 +1,5 @@
+# Shaolin trailer follow-up — 2026-10-08
+
+Two publicly published trailers from the same Shaw Brothers Clips channel are retained unchanged: `shaolin-original.mp4` and `shaolin-2014.mp4`. Their publisher metadata, original stream hashes, five contact sheets, sampling/decode logs and two original-size training frames are recorded separately in `shaolin-reference-review.json` and `../../../../../export/shaolin-reference-research-evidence.json`. The publisher titles say 1977; these records preserve that wording without resolving its difference from the site spec.
+
+Neither selected frame establishes the required bare cell, single light and brighter doorway. Both were directly viewed and rejected for terminal slot 1. One-second sampling can miss short cuts, so this is not evidence that the cell is absent from either trailer or the film. Required collection coverage remains 36/42. Copyright belongs to Celestial Pictures / Shaw Brothers; no open licence is asserted, and these images are not shipped game assets.

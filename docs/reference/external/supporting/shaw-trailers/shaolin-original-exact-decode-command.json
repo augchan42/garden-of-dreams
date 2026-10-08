@@ -1,0 +1,17 @@
+[
+  "/opt/homebrew/bin/ffmpeg",
+  "-hide_banner",
+  "-loglevel",
+  "info",
+  "-threads",
+  "2",
+  "-i",
+  "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U.mp4",
+  "-vf",
+  "select=gte(t\\,27),showinfo",
+  "-frames:v",
+  "1",
+  "-fps_mode",
+  "passthrough",
+  "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-shaolin-reference-faxlbkbc/0JuWNCl8c1U-exact-27.png"
+]
