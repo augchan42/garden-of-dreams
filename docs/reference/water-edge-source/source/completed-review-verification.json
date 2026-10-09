@@ -1,0 +1,40 @@
+{
+  "status": "completed_water_edge_source_review_verified",
+  "updated_at": "2026-10-09T11:01:36.040805+00:00",
+  "source_glb_sha256": "7a9fc523bc1517941cc248c040877b86f9cd00a11654c6c31e40f3acc089632f",
+  "authoring_sha256": "074ab2014d9122e207783d9e7c7992f9dfc9197a6f380a2d6f5e8c0c05e31978",
+  "source_phases": 6,
+  "native_review_phases": 36,
+  "frozen_inputs": 257,
+  "source_pngs": 141,
+  "walks": {
+    "desktop": {
+      "rooms": 14,
+      "legs": 26,
+      "supported_rays": 17582,
+      "misses": 0,
+      "captures": 139,
+      "image_size": [
+        1410,
+        600
+      ],
+      "report_sha256": "95348cb5ff34685fbe49f8e2a2791bcebc633dd3ed25dbac4027f96683f51d2c"
+    },
+    "portrait": {
+      "rooms": 14,
+      "legs": 26,
+      "supported_rays": 17582,
+      "misses": 0,
+      "captures": 139,
+      "image_size": [
+        540,
+        960
+      ],
+      "report_sha256": "bc41f56674951d5f5c71a427a6a814a1e147cb06d30bf7e25f1c7b4a9bd1d98e"
+    }
+  },
+  "visual_review_sha256": "2e8d868ffa3b8f6c6d960545362b3a6da7fcf48aaafd9111d56272dfa0d03a97",
+  "prior_failed_runner_retained": true,
+  "directly_reviewed_originals": 42,
+  "scope": "Technical and direct visual review for incremental source adoption. No final-site, reference, phone, release or service acceptance."
+}

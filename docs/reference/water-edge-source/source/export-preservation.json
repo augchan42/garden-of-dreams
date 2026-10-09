@@ -1,0 +1,65 @@
+{
+  "status": "controlled_water_edge_export_preserved",
+  "baseline_source_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "candidate_source_sha256": "7a9fc523bc1517941cc248c040877b86f9cd00a11654c6c31e40f3acc089632f",
+  "candidate_authoring_sha256": "074ab2014d9122e207783d9e7c7992f9dfc9197a6f380a2d6f5e8c0c05e31978",
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71
+  },
+  "triangles": 266336,
+  "render_meshes": 167,
+  "unchanged_mesh_nodes": 562,
+  "allowed_changed_geometry": [
+    "SITE_ouxiang-xie_MAT_foliage_card",
+    "SITE_qinfang-ting_MAT_foliage_card",
+    "SITE_qinfang-ting_MAT_pavilion_atlas",
+    "SITE_qinfang-ting_MAT_plaster_rock",
+    "SITE_ziling-zhou_MAT_foliage_card"
+  ],
+  "new_material": "MAT_lotus_leaf",
+  "new_bank_collider_count": 54,
+  "lotus_world_bounds": [
+    {
+      "node": "SITE_ziling-zhou_MAT_lotus_leaf",
+      "bounds_low": [
+        -37.201950550079346,
+        -0.37700004677753896,
+        -4.071126282215118
+      ],
+      "bounds_high": [
+        -31.79257380962372,
+        -0.34900004602968693,
+        4.1923604011535645
+      ]
+    },
+    {
+      "node": "SITE_qinfang-ting_MAT_lotus_leaf",
+      "bounds_low": [
+        -11.650270462036133,
+        -0.3770000636577606,
+        -4.507876396179199
+      ],
+      "bounds_high": [
+        14.013391494750977,
+        -0.34900006651878357,
+        -0.5500961542129517
+      ]
+    },
+    {
+      "node": "SITE_ouxiang-xie_MAT_lotus_leaf",
+      "bounds_low": [
+        -26.640000760555267,
+        -0.37700004677753896,
+        -4.485697984695435
+      ],
+      "bounds_high": [
+        -19.087605476379395,
+        -0.34900004602968693,
+        4.652719259262085
+      ]
+    }
+  ],
+  "scope": "Expanded indices positions/normals/bothUVs preserved for all other mesh nodes under1e-6; all existing node transforms/metadata/cameras/lights/materials/images preserved. Three foliage batches become source-confirmed pads at raised water; Qinfang bank/atlas geometry changes and54 new below-walk colliders. No native import/appearance/physics/fresh lighting/device/adoption acceptance."
+}
