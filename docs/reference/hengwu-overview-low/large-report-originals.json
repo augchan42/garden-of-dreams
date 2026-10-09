@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "path": "adoption/installed-import-contract.json",
+      "exact_original_gzip": "adoption/installed-import-contract.json.original.gz",
+      "original_sha256": "831983b1a60e87cf5456709d6bb5968005663814011ca18a81847ff4b2d2b3f3",
+      "compact_sha256": "1fac72d6830570a5acaa7a41a39eb7334b3d9a3063fa2b7f44b721b899c03d44",
+      "original_bytes": 1590324,
+      "compact_bytes": 1262820,
+      "gzip_bytes": 100338,
+      "validation": "gzip decompression equals original bytes; parsed compact JSON equals original parsed data."
+    },
+    {
+      "path": "broad-evidence/native-import-contract.json",
+      "exact_original_gzip": "broad-evidence/native-import-contract.json.original.gz",
+      "original_sha256": "831983b1a60e87cf5456709d6bb5968005663814011ca18a81847ff4b2d2b3f3",
+      "compact_sha256": "1fac72d6830570a5acaa7a41a39eb7334b3d9a3063fa2b7f44b721b899c03d44",
+      "original_bytes": 1590324,
+      "compact_bytes": 1262820,
+      "gzip_bytes": 100338,
+      "validation": "gzip decompression equals original bytes; parsed compact JSON equals original parsed data."
+    }
+  ],
+  "scope": "Lossless packaging of two large native import outputs. Source/test inputs, executed logs, PNG originals and verification assertions are unchanged."
+}

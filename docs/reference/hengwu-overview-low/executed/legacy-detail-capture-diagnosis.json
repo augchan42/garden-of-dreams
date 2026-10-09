@@ -1,0 +1,13 @@
+{
+  "status": "fixed_clock_candidate_prepared_not_executed",
+  "observed": {
+    "normal_look_changed_pixels": 22,
+    "touch_look_changed_pixels": 18,
+    "density_look_changed_pixels": 805,
+    "detail_images_byte_exact_per_mode": 8,
+    "total_detail_images_per_mode": 10,
+    "other_recorded_fields": "identical"
+  },
+  "cause": "New rear-court Look overview exposes animated water beyond the moon gate; the old detail test never set timeline_time and has a force_draw-before-subscribe race. Water/fog/reflection shaders use TIME when timeline_time is negative. Fixed-clock3 overview tests already reproduce exactly.",
+  "scope": "Test-only deterministic capture correction; no assertions removed, no animation or production clock change. Wait for the frozen broad30 phases to finish before copying it into the fixture."
+}

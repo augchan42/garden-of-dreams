@@ -1,0 +1,9 @@
+# Hengwu arrival comparison on the accepted paving source
+
+Source ba40866e and runtime7970380d are fixed for the next baseline. Both current14-room tours and all85 installed comparison images passed before camera work. `current-source-constraints.json` records25 world-transformed Hengwu collider boxes from the accepted source contract.
+
+The CPU scan finds candidate directions from inside the court that fit the table, four stool boxes and nearest pierced stone at both portrait widths. Six distinct directions are retained in `approximate-camera-directions.json`. Their85–105degree horizontal fields and steep aims are provisional; wide lenses, wall occlusion and facade loss must be judged in actual images. The scan neither changes the camera nor establishes final composition.
+
+First capture unchanged public arrival at1410×600,390×844,360×800 with actual UI bounds, imported render vertices, clock3, completed tweens/practical fades and real250ms flora settle. Preserve these RED originals. Then compare the central-left and far-left directions, plus a less-wide alternative if the native subject geometry allows it. Capture source-ID controls for stone/table/wall-cap ownership. Judge complete tabletop, readable holes, court depth and usable visual area before choosing a pose.
+
+Keep the accepted book/stone details and text/visitor invariants. A new aspect-dependent overview must refresh on resize, clear details on arrival/Look, restore each reviewed desktop/portrait pose and reset correctly on travel. New actual arrival/Look/rotation/resize/touch/density assertions are required, with adjacent/full-route/installed exact-original verification and the authorized commit/PR/merge workflow. No production edit has been made by this preparation. Full fourteen-site art/reference/device/release/service scope remains open.
