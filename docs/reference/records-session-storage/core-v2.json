@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "sources": {
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java": "700b3a7e724a33ec4cca5c4ea587480ee9dae1cb3bbb4364bd44206a6df6c427",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java": "f8db97834fdfa52738abf5403871b5220cd202719d6cd5d9f593e684900d8b7d",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java": "a1037e4d3da8420ac986ba5cd96f64562647b148f11ee3acd99f2e29733fbaf6",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java": "b2233fa046e035bf20185c24c40ddd93258da27f7b4eb717f16f5fdbd181d0ce",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java": "280283e3f25f59b5f88e26b9f4f7862119155bb97c32425783b47e9b8f7bc2b9",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java": "c973dfe91bb28030315fbfd08c9c002b4fc1d58fb7fe41b917c1058b1ba3b1da"
+  },
+  "phases": [
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/javac",
+        "--release",
+        "17",
+        "-d",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/core-v2",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/core-v2",
+        "ai.eightbitoracle.garden.identity.RecordsSessionCoreTest"
+      ],
+      "exit_code": 0,
+      "output": "RECORDS_SESSION_CORE_PASS 22 checks\n"
+    }
+  ]
+}

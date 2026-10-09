@@ -1,0 +1,10 @@
+{
+  "status": "v1_rejected_v2_core22_and_actual_device11_plus3_passed",
+  "primary_source": "/Users/auchan/projects/sixlines-android/app/src/main/java/online/sixlines/app/data/RecordsSessionAuthorization.kt",
+  "sha256": "e502b17e8dd99f2a732ed47273a0ee3c18c590b3e700016beb35e43a97622cb5",
+  "finding": "withRecordsSessionOwner requires renewed owner lease == original after401refresh; first candidate wrongly changes owner lease for every credential rotation. V1 genuine18JVM/9Records+3Device tests retained, but those tests didnotcover stable-owner retry.",
+  "correction": "Persistent owner epoch changes at sign-in/account switch/sign-out, stable throughrefresh. Independent credential revision invalidates predecessor refresh writes.",
+  "scope": "No deployedrequest/token/account use; no production files changed.",
+  "v2_apk_sha256": "2d9ee34f7fb28d9e48861ce7dafadd8c3c60f6f1a4ec467d76621f6c636991b0",
+  "updated_at": "2026-10-09T10:19:08.020281+00:00"
+}
