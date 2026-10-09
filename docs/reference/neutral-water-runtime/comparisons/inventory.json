@@ -1,0 +1,756 @@
+{
+  "status": "comparisons_preserved",
+  "original_png_count": 166,
+  "selected": "slate-combined: water Color(.25,.32,.40), ambient(.38,.38,.40), distancefog(.10,.13,.18), pond ALBEDO(.022,.03,.04) and reflection tint(.85,.85,.85); live stage-fog colour remains(.28,.29,.34).",
+  "scope_correction": "Initial lookup failed before captures; first complete83-image comparison did not freeze actual stage-fog resource and is retained as preliminary only. Corrected83-image comparison freezes attached fog per variant; eight unused-legacy-fog controls are exact pixel equality. Original binding inventory reports pre-freeze null timeline; per-variant code sets actual resource10.",
+  "files": [
+    {
+      "path": "accepted-clock-executed-probe.gd",
+      "sha256": "219cf34f423889fefc4d9b2e8b018039b30cf2c343fd1439f55e96d3f397ea5a"
+    },
+    {
+      "path": "baseline-garden_preview.tscn",
+      "sha256": "fbf0f1d484afc642f149813f333160c0a28f8bdfec72fc57df06f8c16c94d5b3"
+    },
+    {
+      "path": "baseline-pond_reflection.gdshader",
+      "sha256": "03913ca67d5c78d3f080e56b5bcc5aace1095bab845b6ebb14c6d69390e0b775"
+    },
+    {
+      "path": "baseline-render_surfaces.gd",
+      "sha256": "f84b16f856e08b7bb50236fe048bb3b1aa5ff1240ee417ca6796e00dcb578ad0"
+    },
+    {
+      "path": "baseline-water.tres",
+      "sha256": "f2b59a761a7ebd38f67458b51633973094f52fa6771351cc55c78ff6aa9f2d38"
+    },
+    {
+      "path": "garden_analyze_water_palette.py",
+      "sha256": "43461d414ae1a45ca8d5540c320a69e33cf7d1289a45a5eeca30f9653e33c61f"
+    },
+    {
+      "path": "garden_run_water_palette.py",
+      "sha256": "216ea09d38cde04801af2852d5ba6eba622c4cbbe5bc1a556475ab16c6457493"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-ambient-neutral.png",
+      "sha256": "5e54a463212d62e13885323aaa0a64837779f34a78d5510c9a1ca9da1d401074"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-baseline.png",
+      "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-charcoal-combined.png",
+      "sha256": "f4903251f62f58375bb05bb348f7c749ebfb9cb7500a45854c1f2727af50e658"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+      "sha256": "46da9beec7c3de95710a6face0208d72ae1b1fdb2cde928a55603bc336902c5d"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-legacy-fog-noop.png",
+      "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-lighter-combined.png",
+      "sha256": "eab4b1e91c36c9daed5f7ff8f441ad21242baf34f88e723e6443f69a890daccd"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-reflection-neutral.png",
+      "sha256": "2d38a944fa0725e7bcc6d08075e11a7d4ca1f07115d17dce8f33c061b41182db"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-slate-combined.png",
+      "sha256": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-visible-water-control.png",
+      "sha256": "943f7022731c1713e7a3487c30df5ed36358bec0602c45d6e1d597c6e104efde"
+    },
+    {
+      "path": "water-palette/aojing_guan-desktop-water-slate.png",
+      "sha256": "1b636845b91a34e909105fb5c9dcf60b0467390016068fbc4b0d0b7b2907c76b"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-ambient-neutral.png",
+      "sha256": "f9d3c299cbd16ae88c162d3f3f75a3fc1660c3396e006f56ac0952289a587a40"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-baseline.png",
+      "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-charcoal-combined.png",
+      "sha256": "f51c82101195bd7aea73c8a05c6a174a3aada8edbc8355ef8347580e142f17ac"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+      "sha256": "c90e65446b7b8281f0b64ad838dcca07ba7149fd46f1f09751de467726b8eb3c"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-legacy-fog-noop.png",
+      "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-lighter-combined.png",
+      "sha256": "7b76e63fa663a71ac4a3f75655403fa9c868dd2339eb399d20032f0902f09bbd"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-reflection-neutral.png",
+      "sha256": "da1981452683dea76b7144ec65460b91eb6bb3bef6968e29e944c18870fa32d7"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-slate-combined.png",
+      "sha256": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-visible-water-control.png",
+      "sha256": "90fa39eadd1c7dc89db88d3ab8c32ed16fdc00f789b8aad4f0bcddfa21e8c520"
+    },
+    {
+      "path": "water-palette/aojing_guan-portrait-water-slate.png",
+      "sha256": "92ef62818039caed7d5569c7d5b7fa5fbcf1efb7499788e8802581a6870d3bc5"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+      "sha256": "51d8d8c5ae02d203040aea5c9aa16f81289fe03c42905b7f24b141b87b6cae7c"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-baseline.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+      "sha256": "bf225b8bdbfa8c88fc960a238fecd1b29e701ac61919304387f51e2faa894a8a"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+      "sha256": "7438b6190e45223279c0b499b970834155e6c5eb296c084b042f90ffe726082e"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-legacy-fog-noop.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-lighter-combined.png",
+      "sha256": "3670d5e3f42d97e80df15f7c038cb79e1aca187ea58beb73d51ef45a60579d7a"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-slate-combined.png",
+      "sha256": "62105dcd7006e7f1f38c82509ac1e707487c721761ef08e3e723e39beb72441d"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-visible-water-control.png",
+      "sha256": "21edcccdc6056886823b671f1168e4aa50a612def559af92cfd9603803673e8c"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-desktop-water-slate.png",
+      "sha256": "f417734d9d8c5cdd89fd7718f5f3fafc277aa35c3ac7802733e340aa09327328"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+      "sha256": "643afd1144a5d25591a11af809ea6452cb9c495ddaba2ef0130b60f39e079afe"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-baseline.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+      "sha256": "de3f5e8990aa0efecaf4616134546bfbb63b73dc70b1033cee9f721303364b76"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+      "sha256": "5758ce97fdd2043883c1ac019242f1973ff902f2cdd8df378a00df36944cc9dd"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-legacy-fog-noop.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-lighter-combined.png",
+      "sha256": "cc793caf012176dd1a10d93bd4b7d34e2b318c816acc5bec83c13c562f9e6168"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-slate-combined.png",
+      "sha256": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-visible-water-control.png",
+      "sha256": "f57f96a544627096459f1b8bd5d919598ac771fb2183f34552fd06485446ce1b"
+    },
+    {
+      "path": "water-palette/ouxiang_xie-portrait-water-slate.png",
+      "sha256": "6d8ed31e8d3105d7e595385da574f1190b0d831b5a5a7d5df7c2303779387ed8"
+    },
+    {
+      "path": "water-palette/pixel-analysis.json",
+      "sha256": "cdadcfae1ff00d19d8e4ccb4ad48fea550bb6c2307c3362833427530b163fe82"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-ambient-neutral.png",
+      "sha256": "d5df9be97705b93ef332cc8a40785788177a633afb1dc79982fdf5b313d7b689"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-baseline.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-charcoal-combined.png",
+      "sha256": "fedd5b690b422288cdbed377cea6c3c76d879f2b8f1f4b727c70620c82d53131"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+      "sha256": "59be448284a9bb140038cd97b6ef4507d4a963867cb62f804f4a71f88bd56723"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-legacy-fog-noop.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-lighter-combined.png",
+      "sha256": "fbca62e1333370cfeda4ffdbfabeaa4a2213dc8237f72e3df93d163559ecf873"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-reflection-neutral.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-slate-combined.png",
+      "sha256": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-visible-water-control.png",
+      "sha256": "f4a881c64c91d94297491a626a5cb9c7ba241e1c8a81d66d276563cbc3cff2dc"
+    },
+    {
+      "path": "water-palette/qinfang_ting-desktop-water-slate.png",
+      "sha256": "be46fc840f60107db054d308bc16824581207038a1604eeaf63c9ab3b6a195c7"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-ambient-neutral.png",
+      "sha256": "dcc91d17edb94c1806debc201e4a802bab6309e265cd6e9742d92e22b3fcf1c7"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-baseline.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-charcoal-combined.png",
+      "sha256": "5cdba727e4bec1f0d7653566904ab7d8313306d7a9ca5720dbefbdb47d56625e"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+      "sha256": "f2a89df21badf6e62aa34e1b161e165763ae842a7cfb63ba346ea110898249cc"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-legacy-fog-noop.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-lighter-combined.png",
+      "sha256": "e54f74b471d1f4829b001eabc405470488baaf91e7a4e8e7c75b843907c2a8e6"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-reflection-neutral.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-slate-combined.png",
+      "sha256": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-visible-water-control.png",
+      "sha256": "8f855e49533bd7e0fe32bb3eb28ed65a7076f3cf35db789bd36fe5d5c7e095f6"
+    },
+    {
+      "path": "water-palette/qinfang_ting-portrait-water-slate.png",
+      "sha256": "e71a0aac8e71709ee872ea3251dc680a41b719c1116b32a5c7c9af915f8f9890"
+    },
+    {
+      "path": "water-palette/report.json",
+      "sha256": "ec0da7bc4d4d83d59d7e960a93614f3d3862efc874eb38159569b0f1ed4ff383"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-ambient-neutral.png",
+      "sha256": "d55eb5f3c35f871f7b539ee3934743479077f799502486b321a323d4991a94b9"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-baseline.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-charcoal-combined.png",
+      "sha256": "4e55566866c7cad8727c8a2e4a1792486ca77107e3bb668ca07640cb75bf116b"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+      "sha256": "16db08348dc8e2304680226353e39f958b9b88fe629990ffb1e4bbc6f831ac51"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-legacy-fog-noop.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-lighter-combined.png",
+      "sha256": "032b9ae3e6d7f258ee276078d0f1439ebbbd717545a79d06cc89fcce5e62899c"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-reflection-neutral.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-slate-combined.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-visible-water-control.png",
+      "sha256": "3ffac8a84da4730158c6bd8ce861b4f1a1a8d90d75fe1927370ba9681d503e7e"
+    },
+    {
+      "path": "water-palette/ziling_zhou-desktop-water-slate.png",
+      "sha256": "f205cbd8edb49e9f6c2c98b5d97065faffc5a9f4405778cb29a83ead01fc7eea"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-ambient-neutral.png",
+      "sha256": "d17f78a337ebdafbcc5c29f5c87e395e2cecfcd2b38fcfb734c74108973f768f"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-baseline.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-charcoal-combined.png",
+      "sha256": "e603570590cc571a63da81824565359de76da33537fa61a1e4d6955d6ea1ba5a"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+      "sha256": "1fa05e3114f2195789b15aaa57d04f9e20ad5194fd683ed8c3b490b61bd42d26"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-legacy-fog-noop.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-lighter-combined.png",
+      "sha256": "647a90cbaa9c044ddb48b9aeb8c7068414a44123a9fba6465161c3c3eaa8a2de"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-reflection-neutral.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-slate-combined.png",
+      "sha256": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-visible-water-control.png",
+      "sha256": "a83914fcc3c9de987c378a6992b757c9d8b6fd07615f76ecbe005fc311b9fb67"
+    },
+    {
+      "path": "water-palette/ziling_zhou-portrait-water-slate.png",
+      "sha256": "51d66af9f021ef5ed1e62d6766941030bd04589db2c3f24708209bfab12c4366"
+    },
+    {
+      "path": "water-palette/ziling_zhou-proposed-portrait-baseline.png",
+      "sha256": "731ad1304fcc92ead45790cec004edefdf4f8c8633e988d5ba1dc35623bb88aa"
+    },
+    {
+      "path": "water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+      "sha256": "00e7120a9d3fda737a20f9a9e6c5727f8c8888cf4ee77014a6ed5a4c99b00b56"
+    },
+    {
+      "path": "water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+      "sha256": "1c751ce34d4a43576353da4813aae0ceac825e7d06f813066ff22448d5316d65"
+    },
+    {
+      "path": "water-palette-command.json",
+      "sha256": "b7ded73fe02476a8016b4cdd9f17e38b76a6fee75dff2aa0d25e43f9d36fba3e"
+    },
+    {
+      "path": "water-palette-first-attempt/executed-probe.gd",
+      "sha256": "908f789ba33e6e1dd0e2dca1b0c69459d099c30917f9df20fddf0232b336e0b0"
+    },
+    {
+      "path": "water-palette-first-attempt/failure.json",
+      "sha256": "dbaf9b2848daef2f50662f7769b88272064edc00563a3342104ec9cad7514897"
+    },
+    {
+      "path": "water-palette-first-attempt/water-palette-command.json",
+      "sha256": "06658f3c098a342655a32b52c29f9a3d4db616c2ebf10a0b05f53be55f439fd3"
+    },
+    {
+      "path": "water-palette-first-attempt/water-palette.log",
+      "sha256": "de604325db8ec9b7dbdac4c3b06d9c7b0c9481666b746538afeb6e5eb0d3a061"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/executed-probe.gd",
+      "sha256": "28256f42be14a9c6234f1127166d19c65ad13ab480bc8de3948b45940e1027cb"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/scope-correction.json",
+      "sha256": "c7213c80bf349550a6b1e9d20059962d69eda50fc398c65f5993917043c75f52"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-ambient-neutral.png",
+      "sha256": "01c68b868c72b59e947a212548bc5074b28549c64acc50597b474be2aa1243b8"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-baseline.png",
+      "sha256": "fa5bb2a55282c6ca8ed2eea5c74f204f2b7a5cfe310f25c56832a239dad748c2"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-charcoal-combined.png",
+      "sha256": "a09014c28e5ccdb6f1bff2f6775e138c8947140eca4dd88e7562ed50fb12d398"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+      "sha256": "d75c84538c1e4e89f4cb73e7fddf7a1c68e49d5f211cbf57521e876422f226f9"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-fog-grey.png",
+      "sha256": "a6ffd3dfcc261dad8c064032b355fce0fda3a133bf654bc466446bb0550424e8"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-lighter-combined.png",
+      "sha256": "7bea62154952da3162885ee3fafc3f00f482b1ba08da20f3c903bb55e32cc3ec"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-reflection-neutral.png",
+      "sha256": "940953276383644fd6b1ec44a2e2bd1a55f48584fb2ae514aa62ba937e0c9616"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-slate-combined.png",
+      "sha256": "26e854b25ee96120c80acb73c0c311699484499c2f951e166ce50a0227747f36"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-visible-water-control.png",
+      "sha256": "cab0eaa34dc8356a1419d29980452034e09167d156c765f6a88f8e0998117d6a"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-water-slate.png",
+      "sha256": "7160546a5f4c2f3834a10c061c0e540f3e7bfecaabe0e2d65c488f1902bfba6f"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-ambient-neutral.png",
+      "sha256": "6b4fcc6c7cc94e0d1ea6052c267464b50878eb3ea5203fda166297c5aa51a39b"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-baseline.png",
+      "sha256": "41f36955b0fc9938e52b4597410e3756b077efa222509d870d9b0c6b94ef12ad"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-charcoal-combined.png",
+      "sha256": "4c12c9e79b3413fe8df3578310025e8c9638eef6d64e2b76b8d46d7123f50c0a"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+      "sha256": "7440c9655c5c88ab6956257fba916c1a06689f71c73dd99a469c86213e05c74c"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-fog-grey.png",
+      "sha256": "e1baceb4c087a10d7d591c4b5ca3bf6acb7509a37301cbe59b666e9ab6d658ad"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-lighter-combined.png",
+      "sha256": "7ad27abb07dd7b0c57ece3b8f40311c3b1d24b0abec9a39d3e716d3cb77111d0"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-reflection-neutral.png",
+      "sha256": "9e4a588793ee94f53abf57c967af00afa7783aaf1ed098c09ea4f9046cc57db7"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-slate-combined.png",
+      "sha256": "e6e9ff293626ca00f4e79d065986d9003b7edfd3164b4ffa9749f2836091da58"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-visible-water-control.png",
+      "sha256": "0073939e0540b09cdd9a28041ec9d248a914c0163180aadee95397473e8835e5"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-water-slate.png",
+      "sha256": "8c332378b32d09c8e9b2b8522270abe5efb1335d4a03cd14c32b706d2b06f7e2"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+      "sha256": "57948eca21b6ef9790b89333b49a6186bae5f7200fded6b01046ea934620cdbd"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-baseline.png",
+      "sha256": "3fab4dfc0b7e51b6131d8c6a3a7d3930478178dbf5bceaec4eec99a07791f64d"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+      "sha256": "fa78f80067b25f699010b6497bd7d93d548ff5edac37b30c483c652b3b4cb477"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+      "sha256": "4dcb3b5de29ab88e5bf24ee653c4db42122d3a755bb7e1a8ddfb12b39fc665d3"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-fog-grey.png",
+      "sha256": "4aeb47a076fd9bbd8e3b23d010c649e5efec64f8b21fe8798bfc48f1292f0364"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+      "sha256": "ad956f0f11422093c27cfd4308f42fb946d3ca7562fe34bfb8806f50d7dd89ae"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+      "sha256": "12ef496e8a1478b95132f53582826634f512ca5813b94ef76b52b0f074185aca"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-slate-combined.png",
+      "sha256": "67e1357ee7bb0c40659de77d684f6cd5113ce41653f6483d65bdd24e51ba6f0a"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+      "sha256": "1dabf4e72d996fb5ac5491e7908e3794c83c714e61ca48302447330b159b9030"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-water-slate.png",
+      "sha256": "6fa3ecf2a8e30bea3dd0bdccb0161cefb1375c3abf1a7ba75fbc4081b9811f3f"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+      "sha256": "12da98c1216ef9f447b130e7018a10d5106cd85dccecc17758ed7b81ce776bfb"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-baseline.png",
+      "sha256": "765efd92be523e16bc52b187e2290d06a26ad96930cac7c2c128b5e660ab7b01"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+      "sha256": "052390adf1357e77056837cc609a4e897b084a4f51d744228fe206089fb635b2"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+      "sha256": "d6624e2fa1ebbb48248eb54e762c5ba9d96de86085e7e762378c6d47301dbe3a"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-fog-grey.png",
+      "sha256": "73248c82eb428f933eccafb61a612fecd9269f1985a18e380115aa2633ea57a8"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+      "sha256": "897f691c01a38d9dc3fbb5090c9178151424dd46f3a61abd9b09e16e3d156371"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+      "sha256": "4cc3db3ea479cb3d48433f505c90d60d5ff3a38c299b8ff35d434c9e69c8c130"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-slate-combined.png",
+      "sha256": "f1231dbc57acc59c4c8a290c0910f26f0b6b6ae1c8d32377401b1d05fc686a60"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+      "sha256": "f9d4044d251cbf4ea772b8b74f33eedd6516039acf491bfc69083e8534ae41e7"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-water-slate.png",
+      "sha256": "61308eeeac0716b89c94fc81990bd65fe3aae413c0ade367cf2a90f0d609f0f7"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/pixel-analysis.json",
+      "sha256": "f43d29be99a1e0071c7b5dbaff2ffa67d196d0e9115c8999bf1f4b31783137ca"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+      "sha256": "5b53da56f7116d8cfbedcf85db39156b0e24907a6cb9ffd225ce4f89aad59b02"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-baseline.png",
+      "sha256": "b418e5ac349d98148c55a312e3521fe1213223c8aa38befde1a8a9dd2c4dc5b6"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+      "sha256": "ccbbfff2b88e014a2c9e0adb444836b30595485cc35f52c34a3faf5bc5400c91"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+      "sha256": "54bfeaad24fdbb502843894d114e8ef601a1d7d4b2d018d1ff39bbed4e535ecf"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-fog-grey.png",
+      "sha256": "75ec53c469ae52632eeb96ef0501e1b3f3a78a915e955b49131641e47e326d7b"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-lighter-combined.png",
+      "sha256": "5c086249576136f73c8421bbec54783d904edc83d97253c3ad2de0a2a368cf39"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+      "sha256": "5c952a6e677b9e8476fac5333e1ecf6ff4d14b0004ccc5bd6eb3a765538082b3"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-slate-combined.png",
+      "sha256": "ef7fea1a68af8d712462c3accea54d75227423b510448b781da95da663bf9abc"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-visible-water-control.png",
+      "sha256": "e38b46015decc36f2ff0eae2c509515e13ae71cfdbf1d8b1e7116921d2a3bff7"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-water-slate.png",
+      "sha256": "946002664c8d9c82ae1fbdac9a82691f61cde2e6adbf6d89d8da1fdce89d69cb"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+      "sha256": "47d50896df93224dac97b2abc4529e36f2b0532fe78352caf3d68c3ec9e8fc73"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-baseline.png",
+      "sha256": "263baae6747adf3f837af50c6733fd20e4dbe3fb8d15b976ec4e59dd95981622"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+      "sha256": "9760678d2c8d4a577d4e13979f8d3893db99a4c20063cf112dbd9e8138b94bbc"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+      "sha256": "db68cfc3ce9b6bb5d86f4bf6fb6a06c2b8435f6cde308b3ad0a5519ac673ddeb"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-fog-grey.png",
+      "sha256": "6ce28a0083f87739edd3c785d63eeca8781c37262c7932b7240a1edf678a6792"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-lighter-combined.png",
+      "sha256": "97f1113e85b31951c1b2d36f1d9c271dc4d4e9486439d31dd941f293ed25bedf"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+      "sha256": "3c39f0646fa4aa6a1e26bbf1267305409e3e6148e84eac90115f1df56eb3e4fa"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-slate-combined.png",
+      "sha256": "e9be49c9992c95f8b553515f5130dc49d69d242ea3cb415a2afad295a87b471e"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-visible-water-control.png",
+      "sha256": "bf128051c84226c4bf00fe0009fc4ac4661314c0e1b8a5425efc14ae46e20313"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-water-slate.png",
+      "sha256": "13e89a3de56a0c7be7d4ad73996207e1cac1ef259dba2d95c5a574e5b5ecdbf9"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/report.json",
+      "sha256": "1dcf48110e6587a4f3989ae0ed52762d0ce11fa381f052997fc7d0a3009df894"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+      "sha256": "beb85e2d36b67aef45e60b2ec84953fbabcf7621f04f2e231a85692c5c56cbab"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-baseline.png",
+      "sha256": "a0672005a40a8f8fb820bb44b6896d7fc5619d8014a5673c345c23e319c0f728"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+      "sha256": "b3359dcf46fe676ab4e9d3d4c9204b35a4c09d11f0159dc9caef021256c60d12"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+      "sha256": "e4b488f837a775416e2012814f001a37d2257bb7353c5dcdfa0dac1d626ccba4"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-fog-grey.png",
+      "sha256": "59f36602c10bd74c71b029a73e31c1ac4260692859df2696cdf63d9be032e837"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-lighter-combined.png",
+      "sha256": "38459c0fc92fb1f87398c82facca6962616acfbab07d8985ec688bf5fffb8415"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+      "sha256": "1cd104a2cf1d72aa1b115715e5bc20a78362a1d8efc69b536b53ac6d799c7d97"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-slate-combined.png",
+      "sha256": "f939e6c9f1ae6224289bbe455774f2b8bf2f3ba93867b7c0de587ac997c400c9"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-visible-water-control.png",
+      "sha256": "30dfeba27d6f9b9c8c60283772c84bb49a2071fa5ee22e31367a0d1f9a45abbd"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-water-slate.png",
+      "sha256": "3b2c0afd44dd629a20f789b764b3f26ad6963bac320eddc59947009fcee6c025"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+      "sha256": "a5ac0ecf2a4eaf3c7a3fda8f621efdd4bb74d3ad57a42176d3a83c13c378e1b8"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-baseline.png",
+      "sha256": "64cca1841ab95be77be7b9255b1aacf1cfab51f958e0c0f7742d6d4dc63449ee"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+      "sha256": "6e1b4a36feb2bec423cf5ac2602a2153a003d599e9578e73d851e1362e3429b5"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+      "sha256": "7f9fdcbc9163e87aecad21284b0e1275b31d021d0a895dcbd668d8600834353e"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-fog-grey.png",
+      "sha256": "1caf3bbf2eaa4d058e43f75d092fcb2388a734a1b7bd75b33c070dca36988b3b"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-lighter-combined.png",
+      "sha256": "096bf8f4943706ea4d1c56fd1f6954eb987db757560ff6bd60d41f55946204f5"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+      "sha256": "2f983f9f2e12d8aece2d7bb066aef34d977c9635a886fcea931e30e80b628100"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-slate-combined.png",
+      "sha256": "67f5f5abbd0a0b4dd5eabf6fae8b4276074511aa89c81b7b061eea6ce6120a9a"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-visible-water-control.png",
+      "sha256": "cd7d2bfd483413a5771790bab6099e916ff4b2cb1ece76652b2b060725dec010"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-water-slate.png",
+      "sha256": "6c7415042c434aef411c2be7626cb436bfa5fbcc825ea7ab8144c64ad62f6ba6"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+      "sha256": "91837bea9e353d9630a50d761ca50595e1309945ca70112b0c1925af542881e0"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+      "sha256": "ec5f10da95dfbdd2f2f432858fb0ba8ca1f52ee2f1a71376f415f0de65842dc1"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+      "sha256": "2e1f4a4aba7db78b8d4960415261e0b36affee58767dca253a7f51c291aeb2ee"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette-command.json",
+      "sha256": "b7ded73fe02476a8016b4cdd9f17e38b76a6fee75dff2aa0d25e43f9d36fba3e"
+    },
+    {
+      "path": "water-palette-unfixed-stage-clock/water-palette.log",
+      "sha256": "3e6b8c81a81ec61f97cb2f5badf5ba2b665bffc1ef92005577f10190b4c51263"
+    },
+    {
+      "path": "water-palette.log",
+      "sha256": "3e6b8c81a81ec61f97cb2f5badf5ba2b665bffc1ef92005577f10190b4c51263"
+    }
+  ]
+}

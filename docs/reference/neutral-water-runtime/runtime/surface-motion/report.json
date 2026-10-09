@@ -1,0 +1,48 @@
+{
+ "actual_fog_bindings": [
+  {
+   "color": "(0.28, 0.29, 0.34, 1.0)",
+   "resource_name": "Neutral scrolling stage fog",
+   "resource_path": "res://materials/stage/fog.tres"
+  }
+ ],
+ "rows": [
+  {
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-baseline.png",
+   "fog_phase": 0.0,
+   "phase": "baseline",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "874589ff84641b199eb3a6cb2ecc84e6fcea14ab69921c559e3379d507b34ea9",
+   "water_phase": 0.0
+  },
+  {
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-water.png",
+   "fog_phase": 0.0,
+   "phase": "water",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "c14019bebb097c18cafdbd349a2a49e4bbca99a40e86da959fa13ad2c3715574",
+   "water_phase": 100.0
+  },
+  {
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-fog.png",
+   "fog_phase": 100.0,
+   "phase": "fog",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "12ad2de863e4a7bb490a4b845462b77aadce2a3b548943bf167d16b04cc72110",
+   "water_phase": 0.0
+  }
+ ],
+ "scope": "Normal full-baked route at a fixed test camera, separately shifted water and attached live-fog clocks. Requires actual pixel differences; not phone or final art acceptance.",
+ "script_sha256": "a396838f85d674133f9d8a42c2cce195f441fb2d285c5d88f8990d92cbb131fd",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "surface_captures_saved_pixel_check_required"
+}

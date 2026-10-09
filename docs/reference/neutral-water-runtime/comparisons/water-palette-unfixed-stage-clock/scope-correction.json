@@ -1,0 +1,6 @@
+{
+  "status": "comparison_preserved_not_fixed_clock_acceptance",
+  "original_captures": 83,
+  "reason": "Probe froze legacy floor_fog.tres, while current stage uses materials/stage/fog.tres. Live stage fog already has neutral Color(.28,.29,.34); its timeline was not fixed. Small one/two-pixel deltas in no-effect controls are not palette effects.",
+  "required": "Freeze actual attached stage-fog resources, retain legacy-fog negative control, keep live stage fog color unchanged."
+}

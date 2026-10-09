@@ -1,0 +1,2176 @@
+{
+  "status": "installed_runtime_palette_and_fixed_clock_surface_reflection_checks_passed",
+  "scope": "Runtime palette, all fourteen desktop/portrait arrivals directly reviewed, actual live motion/reflection controls, source preserved; not final source parity/all-site art/full moving walk/physical device/sustained acceptance.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+  "native_review_phases": 11,
+  "installed_original_png_count": 35,
+  "comparison_original_png_count": 166,
+  "original_png_count": 201,
+  "checked_file_count": 276,
+  "files": {
+    "docs/reference/neutral-water-runtime/comparisons/accepted-clock-executed-probe.gd": "219cf34f423889fefc4d9b2e8b018039b30cf2c343fd1439f55e96d3f397ea5a",
+    "docs/reference/neutral-water-runtime/comparisons/baseline-garden_preview.tscn": "fbf0f1d484afc642f149813f333160c0a28f8bdfec72fc57df06f8c16c94d5b3",
+    "docs/reference/neutral-water-runtime/comparisons/baseline-pond_reflection.gdshader": "03913ca67d5c78d3f080e56b5bcc5aace1095bab845b6ebb14c6d69390e0b775",
+    "docs/reference/neutral-water-runtime/comparisons/baseline-render_surfaces.gd": "f84b16f856e08b7bb50236fe048bb3b1aa5ff1240ee417ca6796e00dcb578ad0",
+    "docs/reference/neutral-water-runtime/comparisons/baseline-water.tres": "f2b59a761a7ebd38f67458b51633973094f52fa6771351cc55c78ff6aa9f2d38",
+    "docs/reference/neutral-water-runtime/comparisons/garden_analyze_water_palette.py": "43461d414ae1a45ca8d5540c320a69e33cf7d1289a45a5eeca30f9653e33c61f",
+    "docs/reference/neutral-water-runtime/comparisons/garden_run_water_palette.py": "216ea09d38cde04801af2852d5ba6eba622c4cbbe5bc1a556475ab16c6457493",
+    "docs/reference/neutral-water-runtime/comparisons/inventory.json": "2f58a1f86cf6778e5095aa899f2a39cbd28907836ef3b974f65b5442e945ffc9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-ambient-neutral.png": "5e54a463212d62e13885323aaa0a64837779f34a78d5510c9a1ca9da1d401074",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-baseline.png": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-charcoal-combined.png": "f4903251f62f58375bb05bb348f7c749ebfb9cb7500a45854c1f2727af50e658",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-distance-fog-neutral.png": "46da9beec7c3de95710a6face0208d72ae1b1fdb2cde928a55603bc336902c5d",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-legacy-fog-noop.png": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-lighter-combined.png": "eab4b1e91c36c9daed5f7ff8f441ad21242baf34f88e723e6443f69a890daccd",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-reflection-neutral.png": "2d38a944fa0725e7bcc6d08075e11a7d4ca1f07115d17dce8f33c061b41182db",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-slate-combined.png": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-visible-water-control.png": "943f7022731c1713e7a3487c30df5ed36358bec0602c45d6e1d597c6e104efde",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-water-slate.png": "1b636845b91a34e909105fb5c9dcf60b0467390016068fbc4b0d0b7b2907c76b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-ambient-neutral.png": "f9d3c299cbd16ae88c162d3f3f75a3fc1660c3396e006f56ac0952289a587a40",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-baseline.png": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-charcoal-combined.png": "f51c82101195bd7aea73c8a05c6a174a3aada8edbc8355ef8347580e142f17ac",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-distance-fog-neutral.png": "c90e65446b7b8281f0b64ad838dcca07ba7149fd46f1f09751de467726b8eb3c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-legacy-fog-noop.png": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-lighter-combined.png": "7b76e63fa663a71ac4a3f75655403fa9c868dd2339eb399d20032f0902f09bbd",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-reflection-neutral.png": "da1981452683dea76b7144ec65460b91eb6bb3bef6968e29e944c18870fa32d7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-slate-combined.png": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-visible-water-control.png": "90fa39eadd1c7dc89db88d3ab8c32ed16fdc00f789b8aad4f0bcddfa21e8c520",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-water-slate.png": "92ef62818039caed7d5569c7d5b7fa5fbcf1efb7499788e8802581a6870d3bc5",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-ambient-neutral.png": "51d8d8c5ae02d203040aea5c9aa16f81289fe03c42905b7f24b141b87b6cae7c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-baseline.png": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-charcoal-combined.png": "bf225b8bdbfa8c88fc960a238fecd1b29e701ac61919304387f51e2faa894a8a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png": "7438b6190e45223279c0b499b970834155e6c5eb296c084b042f90ffe726082e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-legacy-fog-noop.png": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-lighter-combined.png": "3670d5e3f42d97e80df15f7c038cb79e1aca187ea58beb73d51ef45a60579d7a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-reflection-neutral.png": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-slate-combined.png": "62105dcd7006e7f1f38c82509ac1e707487c721761ef08e3e723e39beb72441d",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-visible-water-control.png": "21edcccdc6056886823b671f1168e4aa50a612def559af92cfd9603803673e8c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-water-slate.png": "f417734d9d8c5cdd89fd7718f5f3fafc277aa35c3ac7802733e340aa09327328",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-ambient-neutral.png": "643afd1144a5d25591a11af809ea6452cb9c495ddaba2ef0130b60f39e079afe",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-baseline.png": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-charcoal-combined.png": "de3f5e8990aa0efecaf4616134546bfbb63b73dc70b1033cee9f721303364b76",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png": "5758ce97fdd2043883c1ac019242f1973ff902f2cdd8df378a00df36944cc9dd",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-legacy-fog-noop.png": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-lighter-combined.png": "cc793caf012176dd1a10d93bd4b7d34e2b318c816acc5bec83c13c562f9e6168",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-reflection-neutral.png": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-slate-combined.png": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-visible-water-control.png": "f57f96a544627096459f1b8bd5d919598ac771fb2183f34552fd06485446ce1b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-water-slate.png": "6d8ed31e8d3105d7e595385da574f1190b0d831b5a5a7d5df7c2303779387ed8",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/pixel-analysis.json": "cdadcfae1ff00d19d8e4ccb4ad48fea550bb6c2307c3362833427530b163fe82",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-ambient-neutral.png": "d5df9be97705b93ef332cc8a40785788177a633afb1dc79982fdf5b313d7b689",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-baseline.png": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-charcoal-combined.png": "fedd5b690b422288cdbed377cea6c3c76d879f2b8f1f4b727c70620c82d53131",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-distance-fog-neutral.png": "59be448284a9bb140038cd97b6ef4507d4a963867cb62f804f4a71f88bd56723",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-legacy-fog-noop.png": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-lighter-combined.png": "fbca62e1333370cfeda4ffdbfabeaa4a2213dc8237f72e3df93d163559ecf873",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-reflection-neutral.png": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-slate-combined.png": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-visible-water-control.png": "f4a881c64c91d94297491a626a5cb9c7ba241e1c8a81d66d276563cbc3cff2dc",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-water-slate.png": "be46fc840f60107db054d308bc16824581207038a1604eeaf63c9ab3b6a195c7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-ambient-neutral.png": "dcc91d17edb94c1806debc201e4a802bab6309e265cd6e9742d92e22b3fcf1c7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-baseline.png": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-charcoal-combined.png": "5cdba727e4bec1f0d7653566904ab7d8313306d7a9ca5720dbefbdb47d56625e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-distance-fog-neutral.png": "f2a89df21badf6e62aa34e1b161e165763ae842a7cfb63ba346ea110898249cc",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-legacy-fog-noop.png": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-lighter-combined.png": "e54f74b471d1f4829b001eabc405470488baaf91e7a4e8e7c75b843907c2a8e6",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-reflection-neutral.png": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-slate-combined.png": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-visible-water-control.png": "8f855e49533bd7e0fe32bb3eb28ed65a7076f3cf35db789bd36fe5d5c7e095f6",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-water-slate.png": "e71a0aac8e71709ee872ea3251dc680a41b719c1116b32a5c7c9af915f8f9890",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/report.json": "ec0da7bc4d4d83d59d7e960a93614f3d3862efc874eb38159569b0f1ed4ff383",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-ambient-neutral.png": "d55eb5f3c35f871f7b539ee3934743479077f799502486b321a323d4991a94b9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-baseline.png": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-charcoal-combined.png": "4e55566866c7cad8727c8a2e4a1792486ca77107e3bb668ca07640cb75bf116b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-distance-fog-neutral.png": "16db08348dc8e2304680226353e39f958b9b88fe629990ffb1e4bbc6f831ac51",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-legacy-fog-noop.png": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-lighter-combined.png": "032b9ae3e6d7f258ee276078d0f1439ebbbd717545a79d06cc89fcce5e62899c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-reflection-neutral.png": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-slate-combined.png": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-visible-water-control.png": "3ffac8a84da4730158c6bd8ce861b4f1a1a8d90d75fe1927370ba9681d503e7e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-water-slate.png": "f205cbd8edb49e9f6c2c98b5d97065faffc5a9f4405778cb29a83ead01fc7eea",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-ambient-neutral.png": "d17f78a337ebdafbcc5c29f5c87e395e2cecfcd2b38fcfb734c74108973f768f",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-baseline.png": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-charcoal-combined.png": "e603570590cc571a63da81824565359de76da33537fa61a1e4d6955d6ea1ba5a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-distance-fog-neutral.png": "1fa05e3114f2195789b15aaa57d04f9e20ad5194fd683ed8c3b490b61bd42d26",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-legacy-fog-noop.png": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-lighter-combined.png": "647a90cbaa9c044ddb48b9aeb8c7068414a44123a9fba6465161c3c3eaa8a2de",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-reflection-neutral.png": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-slate-combined.png": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-visible-water-control.png": "a83914fcc3c9de987c378a6992b757c9d8b6fd07615f76ecbe005fc311b9fb67",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-water-slate.png": "51d66af9f021ef5ed1e62d6766941030bd04589db2c3f24708209bfab12c4366",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-baseline.png": "731ad1304fcc92ead45790cec004edefdf4f8c8633e988d5ba1dc35623bb88aa",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png": "00e7120a9d3fda737a20f9a9e6c5727f8c8888cf4ee77014a6ed5a4c99b00b56",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-slate-combined.png": "1c751ce34d4a43576353da4813aae0ceac825e7d06f813066ff22448d5316d65",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-command.json": "b7ded73fe02476a8016b4cdd9f17e38b76a6fee75dff2aa0d25e43f9d36fba3e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/executed-probe.gd": "908f789ba33e6e1dd0e2dca1b0c69459d099c30917f9df20fddf0232b336e0b0",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/failure.json": "dbaf9b2848daef2f50662f7769b88272064edc00563a3342104ec9cad7514897",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/water-palette-command.json": "06658f3c098a342655a32b52c29f9a3d4db616c2ebf10a0b05f53be55f439fd3",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/water-palette.log": "de604325db8ec9b7dbdac4c3b06d9c7b0c9481666b746538afeb6e5eb0d3a061",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/executed-probe.gd": "28256f42be14a9c6234f1127166d19c65ad13ab480bc8de3948b45940e1027cb",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/scope-correction.json": "c7213c80bf349550a6b1e9d20059962d69eda50fc398c65f5993917043c75f52",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-ambient-neutral.png": "01c68b868c72b59e947a212548bc5074b28549c64acc50597b474be2aa1243b8",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-baseline.png": "fa5bb2a55282c6ca8ed2eea5c74f204f2b7a5cfe310f25c56832a239dad748c2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-charcoal-combined.png": "a09014c28e5ccdb6f1bff2f6775e138c8947140eca4dd88e7562ed50fb12d398",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-distance-fog-neutral.png": "d75c84538c1e4e89f4cb73e7fddf7a1c68e49d5f211cbf57521e876422f226f9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-fog-grey.png": "a6ffd3dfcc261dad8c064032b355fce0fda3a133bf654bc466446bb0550424e8",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-lighter-combined.png": "7bea62154952da3162885ee3fafc3f00f482b1ba08da20f3c903bb55e32cc3ec",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-reflection-neutral.png": "940953276383644fd6b1ec44a2e2bd1a55f48584fb2ae514aa62ba937e0c9616",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-slate-combined.png": "26e854b25ee96120c80acb73c0c311699484499c2f951e166ce50a0227747f36",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-visible-water-control.png": "cab0eaa34dc8356a1419d29980452034e09167d156c765f6a88f8e0998117d6a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-water-slate.png": "7160546a5f4c2f3834a10c061c0e540f3e7bfecaabe0e2d65c488f1902bfba6f",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-ambient-neutral.png": "6b4fcc6c7cc94e0d1ea6052c267464b50878eb3ea5203fda166297c5aa51a39b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-baseline.png": "41f36955b0fc9938e52b4597410e3756b077efa222509d870d9b0c6b94ef12ad",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-charcoal-combined.png": "4c12c9e79b3413fe8df3578310025e8c9638eef6d64e2b76b8d46d7123f50c0a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-distance-fog-neutral.png": "7440c9655c5c88ab6956257fba916c1a06689f71c73dd99a469c86213e05c74c",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-fog-grey.png": "e1baceb4c087a10d7d591c4b5ca3bf6acb7509a37301cbe59b666e9ab6d658ad",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-lighter-combined.png": "7ad27abb07dd7b0c57ece3b8f40311c3b1d24b0abec9a39d3e716d3cb77111d0",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-reflection-neutral.png": "9e4a588793ee94f53abf57c967af00afa7783aaf1ed098c09ea4f9046cc57db7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-slate-combined.png": "e6e9ff293626ca00f4e79d065986d9003b7edfd3164b4ffa9749f2836091da58",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-visible-water-control.png": "0073939e0540b09cdd9a28041ec9d248a914c0163180aadee95397473e8835e5",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-water-slate.png": "8c332378b32d09c8e9b2b8522270abe5efb1335d4a03cd14c32b706d2b06f7e2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-ambient-neutral.png": "57948eca21b6ef9790b89333b49a6186bae5f7200fded6b01046ea934620cdbd",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-baseline.png": "3fab4dfc0b7e51b6131d8c6a3a7d3930478178dbf5bceaec4eec99a07791f64d",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-charcoal-combined.png": "fa78f80067b25f699010b6497bd7d93d548ff5edac37b30c483c652b3b4cb477",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png": "4dcb3b5de29ab88e5bf24ee653c4db42122d3a755bb7e1a8ddfb12b39fc665d3",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-fog-grey.png": "4aeb47a076fd9bbd8e3b23d010c649e5efec64f8b21fe8798bfc48f1292f0364",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-lighter-combined.png": "ad956f0f11422093c27cfd4308f42fb946d3ca7562fe34bfb8806f50d7dd89ae",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-reflection-neutral.png": "12ef496e8a1478b95132f53582826634f512ca5813b94ef76b52b0f074185aca",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-slate-combined.png": "67e1357ee7bb0c40659de77d684f6cd5113ce41653f6483d65bdd24e51ba6f0a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-visible-water-control.png": "1dabf4e72d996fb5ac5491e7908e3794c83c714e61ca48302447330b159b9030",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-water-slate.png": "6fa3ecf2a8e30bea3dd0bdccb0161cefb1375c3abf1a7ba75fbc4081b9811f3f",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-ambient-neutral.png": "12da98c1216ef9f447b130e7018a10d5106cd85dccecc17758ed7b81ce776bfb",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-baseline.png": "765efd92be523e16bc52b187e2290d06a26ad96930cac7c2c128b5e660ab7b01",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-charcoal-combined.png": "052390adf1357e77056837cc609a4e897b084a4f51d744228fe206089fb635b2",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png": "d6624e2fa1ebbb48248eb54e762c5ba9d96de86085e7e762378c6d47301dbe3a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-fog-grey.png": "73248c82eb428f933eccafb61a612fecd9269f1985a18e380115aa2633ea57a8",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-lighter-combined.png": "897f691c01a38d9dc3fbb5090c9178151424dd46f3a61abd9b09e16e3d156371",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-reflection-neutral.png": "4cc3db3ea479cb3d48433f505c90d60d5ff3a38c299b8ff35d434c9e69c8c130",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-slate-combined.png": "f1231dbc57acc59c4c8a290c0910f26f0b6b6ae1c8d32377401b1d05fc686a60",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-visible-water-control.png": "f9d4044d251cbf4ea772b8b74f33eedd6516039acf491bfc69083e8534ae41e7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-water-slate.png": "61308eeeac0716b89c94fc81990bd65fe3aae413c0ade367cf2a90f0d609f0f7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/pixel-analysis.json": "f43d29be99a1e0071c7b5dbaff2ffa67d196d0e9115c8999bf1f4b31783137ca",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-ambient-neutral.png": "5b53da56f7116d8cfbedcf85db39156b0e24907a6cb9ffd225ce4f89aad59b02",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-baseline.png": "b418e5ac349d98148c55a312e3521fe1213223c8aa38befde1a8a9dd2c4dc5b6",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-charcoal-combined.png": "ccbbfff2b88e014a2c9e0adb444836b30595485cc35f52c34a3faf5bc5400c91",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-distance-fog-neutral.png": "54bfeaad24fdbb502843894d114e8ef601a1d7d4b2d018d1ff39bbed4e535ecf",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-fog-grey.png": "75ec53c469ae52632eeb96ef0501e1b3f3a78a915e955b49131641e47e326d7b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-lighter-combined.png": "5c086249576136f73c8421bbec54783d904edc83d97253c3ad2de0a2a368cf39",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-reflection-neutral.png": "5c952a6e677b9e8476fac5333e1ecf6ff4d14b0004ccc5bd6eb3a765538082b3",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-slate-combined.png": "ef7fea1a68af8d712462c3accea54d75227423b510448b781da95da663bf9abc",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-visible-water-control.png": "e38b46015decc36f2ff0eae2c509515e13ae71cfdbf1d8b1e7116921d2a3bff7",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-water-slate.png": "946002664c8d9c82ae1fbdac9a82691f61cde2e6adbf6d89d8da1fdce89d69cb",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-ambient-neutral.png": "47d50896df93224dac97b2abc4529e36f2b0532fe78352caf3d68c3ec9e8fc73",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-baseline.png": "263baae6747adf3f837af50c6733fd20e4dbe3fb8d15b976ec4e59dd95981622",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-charcoal-combined.png": "9760678d2c8d4a577d4e13979f8d3893db99a4c20063cf112dbd9e8138b94bbc",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-distance-fog-neutral.png": "db68cfc3ce9b6bb5d86f4bf6fb6a06c2b8435f6cde308b3ad0a5519ac673ddeb",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-fog-grey.png": "6ce28a0083f87739edd3c785d63eeca8781c37262c7932b7240a1edf678a6792",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-lighter-combined.png": "97f1113e85b31951c1b2d36f1d9c271dc4d4e9486439d31dd941f293ed25bedf",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-reflection-neutral.png": "3c39f0646fa4aa6a1e26bbf1267305409e3e6148e84eac90115f1df56eb3e4fa",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-slate-combined.png": "e9be49c9992c95f8b553515f5130dc49d69d242ea3cb415a2afad295a87b471e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-visible-water-control.png": "bf128051c84226c4bf00fe0009fc4ac4661314c0e1b8a5425efc14ae46e20313",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-water-slate.png": "13e89a3de56a0c7be7d4ad73996207e1cac1ef259dba2d95c5a574e5b5ecdbf9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/report.json": "1dcf48110e6587a4f3989ae0ed52762d0ce11fa381f052997fc7d0a3009df894",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-ambient-neutral.png": "beb85e2d36b67aef45e60b2ec84953fbabcf7621f04f2e231a85692c5c56cbab",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-baseline.png": "a0672005a40a8f8fb820bb44b6896d7fc5619d8014a5673c345c23e319c0f728",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-charcoal-combined.png": "b3359dcf46fe676ab4e9d3d4c9204b35a4c09d11f0159dc9caef021256c60d12",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-distance-fog-neutral.png": "e4b488f837a775416e2012814f001a37d2257bb7353c5dcdfa0dac1d626ccba4",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-fog-grey.png": "59f36602c10bd74c71b029a73e31c1ac4260692859df2696cdf63d9be032e837",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-lighter-combined.png": "38459c0fc92fb1f87398c82facca6962616acfbab07d8985ec688bf5fffb8415",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-reflection-neutral.png": "1cd104a2cf1d72aa1b115715e5bc20a78362a1d8efc69b536b53ac6d799c7d97",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-slate-combined.png": "f939e6c9f1ae6224289bbe455774f2b8bf2f3ba93867b7c0de587ac997c400c9",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-visible-water-control.png": "30dfeba27d6f9b9c8c60283772c84bb49a2071fa5ee22e31367a0d1f9a45abbd",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-water-slate.png": "3b2c0afd44dd629a20f789b764b3f26ad6963bac320eddc59947009fcee6c025",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-ambient-neutral.png": "a5ac0ecf2a4eaf3c7a3fda8f621efdd4bb74d3ad57a42176d3a83c13c378e1b8",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-baseline.png": "64cca1841ab95be77be7b9255b1aacf1cfab51f958e0c0f7742d6d4dc63449ee",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-charcoal-combined.png": "6e1b4a36feb2bec423cf5ac2602a2153a003d599e9578e73d851e1362e3429b5",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-distance-fog-neutral.png": "7f9fdcbc9163e87aecad21284b0e1275b31d021d0a895dcbd668d8600834353e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-fog-grey.png": "1caf3bbf2eaa4d058e43f75d092fcb2388a734a1b7bd75b33c070dca36988b3b",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-lighter-combined.png": "096bf8f4943706ea4d1c56fd1f6954eb987db757560ff6bd60d41f55946204f5",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-reflection-neutral.png": "2f983f9f2e12d8aece2d7bb066aef34d977c9635a886fcea931e30e80b628100",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-slate-combined.png": "67f5f5abbd0a0b4dd5eabf6fae8b4276074511aa89c81b7b061eea6ce6120a9a",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-visible-water-control.png": "cd7d2bfd483413a5771790bab6099e916ff4b2cb1ece76652b2b060725dec010",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-water-slate.png": "6c7415042c434aef411c2be7626cb436bfa5fbcc825ea7ab8144c64ad62f6ba6",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-baseline.png": "91837bea9e353d9630a50d761ca50595e1309945ca70112b0c1925af542881e0",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png": "ec5f10da95dfbdd2f2f432858fb0ba8ca1f52ee2f1a71376f415f0de65842dc1",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-slate-combined.png": "2e1f4a4aba7db78b8d4960415261e0b36affee58767dca253a7f51c291aeb2ee",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette-command.json": "b7ded73fe02476a8016b4cdd9f17e38b76a6fee75dff2aa0d25e43f9d36fba3e",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette.log": "3e6b8c81a81ec61f97cb2f5badf5ba2b665bffc1ef92005577f10190b4c51263",
+    "docs/reference/neutral-water-runtime/comparisons/water-palette.log": "3e6b8c81a81ec61f97cb2f5badf5ba2b665bffc1ef92005577f10190b4c51263",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-desktop.png": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-portrait.png": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-desktop.png": "13ecb5f94987acce4f14e78a5a0d728dca8da44473d97b4e27cc1385b15d9eb3",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-portrait.png": "9d99f8a4429c3cb70452aa3e1b186b059d5efffcdcddf8839c61c2d3320936f1",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-desktop.png": "8d9952433784e17c7cd699433df053d7dccec7e619f86c120dda6185f757bef1",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-portrait.png": "fefa5a1bbe5162e22380e6fc76532aaa2ef88c6d463f39cfbeb78dea8d2c2947",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-desktop.png": "3b586772061e866a67f6eef6ed880a1c6f2f5528d10176cd21d3ca0960fdd422",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-portrait.png": "641a3432b62877cb01c024271a35515ebd45f85e28ec03ffb5e7be139c726a8a",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-desktop.png": "ddf3a31b8bb51cb2f27bcda7e7bdec164e8f351380b83f39c6561182bdca1558",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-portrait.png": "bc3957eae6081a4d76c1defa845ff00c71096b03169adc3cc9cad6dffbc315e6",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-desktop.png": "088813d207b84424c47574c9fdebb37b4115fb66d0bc76ecc6eef1d15cbc694d",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-portrait.png": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-desktop.png": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-portrait.png": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-desktop.png": "eb8421fdd9d0b6bc29141225568590cef0c4b8cfc21b39dc65ccc50a38304f76",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-portrait.png": "467c9622f6122219baa30929ad5d5007e447a36dad43c32cfd98d88e7b738e1f",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/report.json": "efa824c5d445fafceb83935b22dbaf3c05d4c8d989764c73d243c45fc7e1844d",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-desktop.png": "47708237ab8b4130c5c0b1b495b30c6c84d8f4d6920661b71a63e954bab6f72d",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-portrait.png": "0c118bb6bb920dad76d27e74b20b7c74602b1130e77a14e2719774cb1b969517",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-desktop.png": "d8aa1c2754f9d0b17a30047cf4e70dccc823eb1d30223781a68820f312b05e3a",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-portrait.png": "df959d00751685c6bb04063d5f8f56d011ca29cf4b5c76b69cb55ad3cec04d2f",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-desktop.png": "ce07835c26ead6229f7a1fac3cfc2e128341f489534af1f8661edf438fd4ee8c",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-portrait.png": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-desktop.png": "f185fb5e2ea93671c84d8f9e5bcc31343f25d27475deac60dfbf92317124bb15",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-portrait.png": "fb42017b1c7b8fdfe3268379e21201f08f3a8f274ffbc5f4ef3d7e4d55f00d23",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-desktop.png": "294874601fa00816fde89047e5b7286630afa97dc1696aa3b4a020d3d664737d",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-portrait.png": "fdd600b7e43f7aa3f42af958d1169961131477b3a5d09a5cfa212a91bc36c650",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-desktop.png": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+    "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-portrait.png": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+    "docs/reference/neutral-water-runtime/runtime/all-room-arrivals.log": "38289ff9c2988dc476c890716ced8d12c7b789fe5e216f997a3714e97443eeb3",
+    "docs/reference/neutral-water-runtime/runtime/cold-import.log": "bd175cdf7c9db6376ff16d7e39ebc7f084e899ed5358467e834bf6e8bdbe9165",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/all-arrivals/report.json": "2b05ad51715a1f6f7cddccd680bf49fc8e10dba9bdbb683a490e954a3558b58c",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/all-room-arrivals.log": "0c8d5175e92bf68ffa9e864515ec0105b3e862c01dd9ee79377ecf118220051d",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/executed-review-helper.py": "a916c83001a4436ad879305f365e0145dd58756b0c8744cf185561480fc61a13",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/failure.json": "ca8a2f225b028657ac8252659728779d9b57dcab58e8d35c9f01568e124b6d27",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/render_dynamic_palette.gd": "7118090b109bc8a4383e332c0354bc67681007d4c48c975abc1c1c9018c8c41a",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/render_reflection_validation.gd": "568e37e04b8a291cda5dfb71b751b1a1b0aafa0507e644da402d87ab5ad1eccd",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/render_surfaces.gd": "3f402c79931ec9583abd764216a8038c27f26fbe3b1747496ccedf952f52ca5f",
+    "docs/reference/neutral-water-runtime/runtime/first-attempt/review-pipeline.json": "d41bef7fbda0edfa5ac0bf232bdbb55dd7a274cb516340de22fe2f3450d4c6be",
+    "docs/reference/neutral-water-runtime/runtime/legacy-fog-negative-control.json": "7c837b1547ee76ffd63e44d58498ecd1ef0b5b9e53c7b764120eae725f9ea77b",
+    "docs/reference/neutral-water-runtime/runtime/mobile-ui.log": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+    "docs/reference/neutral-water-runtime/runtime/production-source-contract.json": "529c5cd3aa28f4c06b6718ce35c7718a3b81a2b564ab82af104dbac15f43a6ae",
+    "docs/reference/neutral-water-runtime/runtime/reflection-alignment.log": "e146ea6bc527fc79e3c72f961981591afc0938a3e2e06f667b6dc106826aa423",
+    "docs/reference/neutral-water-runtime/runtime/reflection-bindings.log": "3ec950b6b974d2ed1187eed4b489e929804c664780e111d153f74ab806849079",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/pixel-validation.json": "b104ada21406b908bfbbd0cdae84c1dfa025d7a9728dcc0875d16865a247201e",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-baseline.png": "4d7776f0637d183995b05c0ef32156dbf3eb3c44043eacfee64ffbdff8f95eaa",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-disabled.png": "0ad79bb1f9729c17a713a9fd7fbec14c3f40f106efb057604f48b41658f9fc5d",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-ripples.png": "1f2cdce821ab028b4ee6649bb7305acfcd13f61f1eab8c0ed0b81f672485d92e",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-window-excluded.png": "2dfe4822c0899e83f2afd8d6363b3c09b690f8a00965f9ee54aca3043da0a11b",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/reflection-capture-region.json": "421b33fde0a89e447424b0ce1aeed7ac6b0dc14e996c81142d9511df75f698ce",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls/report.json": "4ab05414397d9a58da5424937a5b27bd59a62b33d8092d24444b22c581b8797c",
+    "docs/reference/neutral-water-runtime/runtime/reflection-controls.log": "007e972236571b33e5ac945b35802084af2916c62cd990dab6584537f6a2a6a3",
+    "docs/reference/neutral-water-runtime/runtime/reflection-pixels.log": "5363d61d36913c3ff3174fd90b91085bac46a004221286ffb5554502a8b9792b",
+    "docs/reference/neutral-water-runtime/runtime/review-pipeline.json": "23bffed61f71dcd6230841c02bbf62e6d3396a9e6d2c0de155394ee52aa8ab56",
+    "docs/reference/neutral-water-runtime/runtime/source-contract.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/neutral-water-runtime/runtime/source-preservation.json": "12b1864dc0ff7dfdf319f64958a4236d377a394601b5ec9c2140a1e3f79cec33",
+    "docs/reference/neutral-water-runtime/runtime/surface-bindings.log": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion/pixel-validation.json": "1acc70cf4d5f2e407cb2ba1bf854bb2b494f7db00ce4c5f7c866f23549505fe6",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion/report.json": "17b0ea70ba232431d40a9224e345ea0b6967831ae331c767b655aa8a0f1df663",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-baseline.png": "874589ff84641b199eb3a6cb2ecc84e6fcea14ab69921c559e3379d507b34ea9",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-fog.png": "12ad2de863e4a7bb490a4b845462b77aadce2a3b548943bf167d16b04cc72110",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-water.png": "c14019bebb097c18cafdbd349a2a49e4bbca99a40e86da959fa13ad2c3715574",
+    "docs/reference/neutral-water-runtime/runtime/surface-motion.log": "c9fcb85c6039369ff5e7a025d1b20467e0dd79547a244510b0f7f52e8879f320",
+    "docs/reference/neutral-water-runtime/runtime/surface-pixels.log": "8025dbccf1a8df3f1802d5bf3a37834640c2ec6c08cbd10a26812c46eca629a7",
+    "docs/reference/neutral-water-runtime/runtime/visual-review.json": "4c906684dea724691b3d84d4534e791344e228b55c30d03e8b310f712c5b9e2f",
+    "docs/reference/neutral-water-runtime/helpers/garden_review_water_palette.py": "67e66d7d2fbd4c7e40a7a14c4bc10c1a93db1606b4574ee11ce7ab61b2a85f95",
+    "docs/reference/neutral-water-runtime/helpers/garden_archive_neutral_water.py": "b8eb46cc3eb901ceff8647812f40995f1e6925a14c060fe04bd469d58d953604",
+    "docs/reference/neutral-water-runtime/installed-code/godot/garden_preview.tscn": "b03ac5b1803667b2245d2a60b900b594d7757d6b04ddbeead7217ba8779fc261",
+    "docs/reference/neutral-water-runtime/installed-code/godot/materials/water.tres": "008077aed67ac61d44240b0bc96e693c068e2d6f3a4d28086887821e372dab1c",
+    "docs/reference/neutral-water-runtime/installed-code/godot/shaders/pond_reflection.gdshader": "cd10826f67b5b7b05b9ce40b997606cd6b2ba593901c25fc760ffe18b925d663",
+    "docs/reference/neutral-water-runtime/installed-code/godot/runtime/entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_dynamic_palette.gd": "dd3b011f2e780530d447cc88a848096d8116ef91a171a711b8826884e3d71306",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_surfaces.gd": "a396838f85d674133f9d8a42c2cce195f441fb2d285c5d88f8990d92cbb131fd",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_reflection_validation.gd": "ece50a92ab9e37dccf0ac89255ce4feef709305269654556e92b6959efedfb38",
+    "docs/reference/neutral-water-runtime/installed-code/scripts/verify_surface_animation.py": "a54adb1e33455817061e56e971160e3793bb477de8a776bebd64cd4829c5cc70",
+    "docs/reference/neutral-water-runtime/installed-code/scripts/verify_reflection.py": "80622242c024945228b9e084294e02f985c858b5df531ae0ecee19c48a136048",
+    "docs/reference/neutral-water-runtime/installed-code/godot/materials/stage/fog.tres": "45d38d1b21f7711075929d9562c2905c503c163d987e997ada10fc684d4b43d7",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_import_source_contract.gd": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/source-contract.json": "a2878bf3b098cbaae911824c1f1ad2d2f71fb81cd7cccc9fee722b2eeb48954e",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_surface_materials.gd": "adda76d10a977c91fae9c2a1a591c182c67eb899df831969533cca8d326f1fd8",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_planar_reflection.gd": "069d7b8d303074629ddfa258bc333a9840869af4ff4cc33b2a235c975a377a65",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_reflection_camera_alignment.gd": "a00e5654b4a0a8ff923de4624ddf2875f16fa905b3d2572678f01cf4b71385d3",
+    "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_mobile_ui_scaling.gd": "5326cf11d8912ef797d9546be7d5167f039dc2a63f104e6566579b87f0905ebf",
+    "docs/reference/neutral-water-runtime/installed-code/godot/runtime/entry_route.tscn": "ce3284f69007a3382077724b37e5ee020303c985f4a7f39f31e684318927ce7b",
+    "docs/reference/neutral-water-runtime/installed-code/godot/runtime/pond_reflection.gd": "c8dc4fdf266954597b5ea00e893ce0bba3881137a73ab7f0372e8c74a4b23af3",
+    "docs/reference/neutral-water-runtime/installed-code/godot/shaders/water.gdshader": "d702d404a2a183ad399d724be6699414ca13e4bf966af2b3284cdefb7526acc1",
+    "docs/reference/neutral-water-runtime/installed-code/godot/shaders/floor_fog.gdshader": "8fc0f6eac0ffaf59dbfef640b20164a26bb74468f2364685bcdd715b3729623b",
+    "docs/reference/neutral-water-runtime/README.md": "e05d642d23b6dba1026529aa60bf7da878203b09a82adf99184137d298c5d2d2"
+  },
+  "artifact_locations": {
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/accepted-clock-executed-probe.gd": "docs/reference/neutral-water-runtime/comparisons/accepted-clock-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/baseline-garden_preview.tscn": "docs/reference/neutral-water-runtime/comparisons/baseline-garden_preview.tscn",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/baseline-pond_reflection.gdshader": "docs/reference/neutral-water-runtime/comparisons/baseline-pond_reflection.gdshader",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/baseline-render_surfaces.gd": "docs/reference/neutral-water-runtime/comparisons/baseline-render_surfaces.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/baseline-water.tres": "docs/reference/neutral-water-runtime/comparisons/baseline-water.tres",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/garden_analyze_water_palette.py": "docs/reference/neutral-water-runtime/comparisons/garden_analyze_water_palette.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/garden_run_water_palette.py": "docs/reference/neutral-water-runtime/comparisons/garden_run_water_palette.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/inventory.json": "docs/reference/neutral-water-runtime/comparisons/inventory.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/aojing_guan-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ouxiang_xie-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/pixel-analysis.json": "docs/reference/neutral-water-runtime/comparisons/water-palette/pixel-analysis.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/qinfang_ting-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/report.json": "docs/reference/neutral-water-runtime/comparisons/water-palette/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-legacy-fog-noop.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-legacy-fog-noop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-proposed-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette/ziling_zhou-proposed-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-command.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-first-attempt/executed-probe.gd": "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-first-attempt/failure.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/failure.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-first-attempt/water-palette-command.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/water-palette-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-first-attempt/water-palette.log": "docs/reference/neutral-water-runtime/comparisons/water-palette-first-attempt/water-palette.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/executed-probe.gd": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/scope-correction.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/scope-correction.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/pixel-analysis.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/pixel-analysis.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/report.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-ambient-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-charcoal-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-distance-fog-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-fog-grey.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-fog-grey.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-reflection-neutral.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-visible-water-control.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-visible-water-control.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-water-slate.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-water-slate.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-baseline.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-slate-combined.png": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette-command.json": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette-unfixed-stage-clock/water-palette.log": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-comparison/water-palette.log": "docs/reference/neutral-water-runtime/comparisons/water-palette.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/aojing_guan-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/aojing_guan-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daguan_lou-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daguan_lou-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daoxiang_cun-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daoxiang_cun-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/hengwu_yuan-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/hengwu_yuan-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/longcui_an-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/longcui_an-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ouxiang_xie-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ouxiang_xie-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qinfang_ting-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qinfang_ting-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qiushuang_zhai-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qiushuang_zhai-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/report.json": "docs/reference/neutral-water-runtime/runtime/all-arrivals/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/rockery_gate-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/rockery_gate-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/terminal_room-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/terminal_room-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/tubi_tang-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/tubi_tang-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/xiaoxiang_guan-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/xiaoxiang_guan-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/yihong_yuan-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/yihong_yuan-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ziling_zhou-desktop.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ziling_zhou-portrait.png": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-room-arrivals.log": "docs/reference/neutral-water-runtime/runtime/all-room-arrivals.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/cold-import.log": "docs/reference/neutral-water-runtime/runtime/cold-import.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/all-arrivals/report.json": "docs/reference/neutral-water-runtime/runtime/first-attempt/all-arrivals/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/all-room-arrivals.log": "docs/reference/neutral-water-runtime/runtime/first-attempt/all-room-arrivals.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/executed-review-helper.py": "docs/reference/neutral-water-runtime/runtime/first-attempt/executed-review-helper.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/failure.json": "docs/reference/neutral-water-runtime/runtime/first-attempt/failure.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/render_dynamic_palette.gd": "docs/reference/neutral-water-runtime/runtime/first-attempt/render_dynamic_palette.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/render_reflection_validation.gd": "docs/reference/neutral-water-runtime/runtime/first-attempt/render_reflection_validation.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/render_surfaces.gd": "docs/reference/neutral-water-runtime/runtime/first-attempt/render_surfaces.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/first-attempt/review-pipeline.json": "docs/reference/neutral-water-runtime/runtime/first-attempt/review-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/legacy-fog-negative-control.json": "docs/reference/neutral-water-runtime/runtime/legacy-fog-negative-control.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/mobile-ui.log": "docs/reference/neutral-water-runtime/runtime/mobile-ui.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/production-source-contract.json": "docs/reference/neutral-water-runtime/runtime/production-source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-alignment.log": "docs/reference/neutral-water-runtime/runtime/reflection-alignment.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-bindings.log": "docs/reference/neutral-water-runtime/runtime/reflection-bindings.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pixel-validation.json": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pixel-validation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pond-check-baseline.png": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pond-check-disabled.png": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-disabled.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pond-check-ripples.png": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-ripples.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pond-check-window-excluded.png": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-window-excluded.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/reflection-capture-region.json": "docs/reference/neutral-water-runtime/runtime/reflection-controls/reflection-capture-region.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/report.json": "docs/reference/neutral-water-runtime/runtime/reflection-controls/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls.log": "docs/reference/neutral-water-runtime/runtime/reflection-controls.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-pixels.log": "docs/reference/neutral-water-runtime/runtime/reflection-pixels.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/review-pipeline.json": "docs/reference/neutral-water-runtime/runtime/review-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/source-contract.log": "docs/reference/neutral-water-runtime/runtime/source-contract.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/source-preservation.json": "docs/reference/neutral-water-runtime/runtime/source-preservation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-bindings.log": "docs/reference/neutral-water-runtime/runtime/surface-bindings.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/pixel-validation.json": "docs/reference/neutral-water-runtime/runtime/surface-motion/pixel-validation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/report.json": "docs/reference/neutral-water-runtime/runtime/surface-motion/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-baseline.png": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-baseline.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-fog.png": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-fog.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/surfaces-water.png": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-water.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion.log": "docs/reference/neutral-water-runtime/runtime/surface-motion.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-pixels.log": "docs/reference/neutral-water-runtime/runtime/surface-pixels.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/visual-review.json": "docs/reference/neutral-water-runtime/runtime/visual-review.json",
+    "/tmp/garden_review_water_palette.py": "docs/reference/neutral-water-runtime/helpers/garden_review_water_palette.py",
+    "/tmp/garden_archive_neutral_water.py": "docs/reference/neutral-water-runtime/helpers/garden_archive_neutral_water.py",
+    "/Users/auchan/projects/garden-of-dreams/godot/garden_preview.tscn": "docs/reference/neutral-water-runtime/installed-code/godot/garden_preview.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/materials/water.tres": "docs/reference/neutral-water-runtime/installed-code/godot/materials/water.tres",
+    "/Users/auchan/projects/garden-of-dreams/godot/shaders/pond_reflection.gdshader": "docs/reference/neutral-water-runtime/installed-code/godot/shaders/pond_reflection.gdshader",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.gd": "docs/reference/neutral-water-runtime/installed-code/godot/runtime/entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/render_dynamic_palette.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_dynamic_palette.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/render_surfaces.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_surfaces.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/render_reflection_validation.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/render_reflection_validation.gd",
+    "/Users/auchan/projects/garden-of-dreams/scripts/verify_surface_animation.py": "docs/reference/neutral-water-runtime/installed-code/scripts/verify_surface_animation.py",
+    "/Users/auchan/projects/garden-of-dreams/scripts/verify_reflection.py": "docs/reference/neutral-water-runtime/installed-code/scripts/verify_reflection.py",
+    "/Users/auchan/projects/garden-of-dreams/godot/materials/stage/fog.tres": "docs/reference/neutral-water-runtime/installed-code/godot/materials/stage/fog.tres",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_import_source_contract.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_import_source_contract.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/source-contract.json": "docs/reference/neutral-water-runtime/installed-code/godot/tests/source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_surface_materials.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_surface_materials.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_planar_reflection.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_planar_reflection.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_reflection_camera_alignment.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_reflection_camera_alignment.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_mobile_ui_scaling.gd": "docs/reference/neutral-water-runtime/installed-code/godot/tests/test_mobile_ui_scaling.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.tscn": "docs/reference/neutral-water-runtime/installed-code/godot/runtime/entry_route.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/pond_reflection.gd": "docs/reference/neutral-water-runtime/installed-code/godot/runtime/pond_reflection.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/shaders/water.gdshader": "docs/reference/neutral-water-runtime/installed-code/godot/shaders/water.gdshader",
+    "/Users/auchan/projects/garden-of-dreams/godot/shaders/floor_fog.gdshader": "docs/reference/neutral-water-runtime/installed-code/godot/shaders/floor_fog.gdshader"
+  },
+  "original_pngs": [
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-ambient-neutral.png",
+      "sha256": "5e54a463212d62e13885323aaa0a64837779f34a78d5510c9a1ca9da1d401074",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-baseline.png",
+      "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-charcoal-combined.png",
+      "sha256": "f4903251f62f58375bb05bb348f7c749ebfb9cb7500a45854c1f2727af50e658",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+      "sha256": "46da9beec7c3de95710a6face0208d72ae1b1fdb2cde928a55603bc336902c5d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-legacy-fog-noop.png",
+      "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-lighter-combined.png",
+      "sha256": "eab4b1e91c36c9daed5f7ff8f441ad21242baf34f88e723e6443f69a890daccd",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-reflection-neutral.png",
+      "sha256": "2d38a944fa0725e7bcc6d08075e11a7d4ca1f07115d17dce8f33c061b41182db",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-slate-combined.png",
+      "sha256": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-visible-water-control.png",
+      "sha256": "943f7022731c1713e7a3487c30df5ed36358bec0602c45d6e1d597c6e104efde",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-desktop-water-slate.png",
+      "sha256": "1b636845b91a34e909105fb5c9dcf60b0467390016068fbc4b0d0b7b2907c76b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-ambient-neutral.png",
+      "sha256": "f9d3c299cbd16ae88c162d3f3f75a3fc1660c3396e006f56ac0952289a587a40",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-baseline.png",
+      "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-charcoal-combined.png",
+      "sha256": "f51c82101195bd7aea73c8a05c6a174a3aada8edbc8355ef8347580e142f17ac",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+      "sha256": "c90e65446b7b8281f0b64ad838dcca07ba7149fd46f1f09751de467726b8eb3c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-legacy-fog-noop.png",
+      "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-lighter-combined.png",
+      "sha256": "7b76e63fa663a71ac4a3f75655403fa9c868dd2339eb399d20032f0902f09bbd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-reflection-neutral.png",
+      "sha256": "da1981452683dea76b7144ec65460b91eb6bb3bef6968e29e944c18870fa32d7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-slate-combined.png",
+      "sha256": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-visible-water-control.png",
+      "sha256": "90fa39eadd1c7dc89db88d3ab8c32ed16fdc00f789b8aad4f0bcddfa21e8c520",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/aojing_guan-portrait-water-slate.png",
+      "sha256": "92ef62818039caed7d5569c7d5b7fa5fbcf1efb7499788e8802581a6870d3bc5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+      "sha256": "51d8d8c5ae02d203040aea5c9aa16f81289fe03c42905b7f24b141b87b6cae7c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-baseline.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+      "sha256": "bf225b8bdbfa8c88fc960a238fecd1b29e701ac61919304387f51e2faa894a8a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+      "sha256": "7438b6190e45223279c0b499b970834155e6c5eb296c084b042f90ffe726082e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-legacy-fog-noop.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+      "sha256": "3670d5e3f42d97e80df15f7c038cb79e1aca187ea58beb73d51ef45a60579d7a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+      "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-slate-combined.png",
+      "sha256": "62105dcd7006e7f1f38c82509ac1e707487c721761ef08e3e723e39beb72441d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+      "sha256": "21edcccdc6056886823b671f1168e4aa50a612def559af92cfd9603803673e8c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-desktop-water-slate.png",
+      "sha256": "f417734d9d8c5cdd89fd7718f5f3fafc277aa35c3ac7802733e340aa09327328",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+      "sha256": "643afd1144a5d25591a11af809ea6452cb9c495ddaba2ef0130b60f39e079afe",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-baseline.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+      "sha256": "de3f5e8990aa0efecaf4616134546bfbb63b73dc70b1033cee9f721303364b76",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+      "sha256": "5758ce97fdd2043883c1ac019242f1973ff902f2cdd8df378a00df36944cc9dd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-legacy-fog-noop.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+      "sha256": "cc793caf012176dd1a10d93bd4b7d34e2b318c816acc5bec83c13c562f9e6168",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+      "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-slate-combined.png",
+      "sha256": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+      "sha256": "f57f96a544627096459f1b8bd5d919598ac771fb2183f34552fd06485446ce1b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ouxiang_xie-portrait-water-slate.png",
+      "sha256": "6d8ed31e8d3105d7e595385da574f1190b0d831b5a5a7d5df7c2303779387ed8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+      "sha256": "d5df9be97705b93ef332cc8a40785788177a633afb1dc79982fdf5b313d7b689",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-baseline.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+      "sha256": "fedd5b690b422288cdbed377cea6c3c76d879f2b8f1f4b727c70620c82d53131",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+      "sha256": "59be448284a9bb140038cd97b6ef4507d4a963867cb62f804f4a71f88bd56723",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-legacy-fog-noop.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-lighter-combined.png",
+      "sha256": "fbca62e1333370cfeda4ffdbfabeaa4a2213dc8237f72e3df93d163559ecf873",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+      "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-slate-combined.png",
+      "sha256": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-visible-water-control.png",
+      "sha256": "f4a881c64c91d94297491a626a5cb9c7ba241e1c8a81d66d276563cbc3cff2dc",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-desktop-water-slate.png",
+      "sha256": "be46fc840f60107db054d308bc16824581207038a1604eeaf63c9ab3b6a195c7",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+      "sha256": "dcc91d17edb94c1806debc201e4a802bab6309e265cd6e9742d92e22b3fcf1c7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-baseline.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+      "sha256": "5cdba727e4bec1f0d7653566904ab7d8313306d7a9ca5720dbefbdb47d56625e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+      "sha256": "f2a89df21badf6e62aa34e1b161e165763ae842a7cfb63ba346ea110898249cc",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-legacy-fog-noop.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-lighter-combined.png",
+      "sha256": "e54f74b471d1f4829b001eabc405470488baaf91e7a4e8e7c75b843907c2a8e6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+      "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-slate-combined.png",
+      "sha256": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-visible-water-control.png",
+      "sha256": "8f855e49533bd7e0fe32bb3eb28ed65a7076f3cf35db789bd36fe5d5c7e095f6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/qinfang_ting-portrait-water-slate.png",
+      "sha256": "e71a0aac8e71709ee872ea3251dc680a41b719c1116b32a5c7c9af915f8f9890",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+      "sha256": "d55eb5f3c35f871f7b539ee3934743479077f799502486b321a323d4991a94b9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-baseline.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+      "sha256": "4e55566866c7cad8727c8a2e4a1792486ca77107e3bb668ca07640cb75bf116b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+      "sha256": "16db08348dc8e2304680226353e39f958b9b88fe629990ffb1e4bbc6f831ac51",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-legacy-fog-noop.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-lighter-combined.png",
+      "sha256": "032b9ae3e6d7f258ee276078d0f1439ebbbd717545a79d06cc89fcce5e62899c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+      "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-slate-combined.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-visible-water-control.png",
+      "sha256": "3ffac8a84da4730158c6bd8ce861b4f1a1a8d90d75fe1927370ba9681d503e7e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-desktop-water-slate.png",
+      "sha256": "f205cbd8edb49e9f6c2c98b5d97065faffc5a9f4405778cb29a83ead01fc7eea",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+      "sha256": "d17f78a337ebdafbcc5c29f5c87e395e2cecfcd2b38fcfb734c74108973f768f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-baseline.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+      "sha256": "e603570590cc571a63da81824565359de76da33537fa61a1e4d6955d6ea1ba5a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+      "sha256": "1fa05e3114f2195789b15aaa57d04f9e20ad5194fd683ed8c3b490b61bd42d26",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-legacy-fog-noop.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-lighter-combined.png",
+      "sha256": "647a90cbaa9c044ddb48b9aeb8c7068414a44123a9fba6465161c3c3eaa8a2de",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+      "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-slate-combined.png",
+      "sha256": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-visible-water-control.png",
+      "sha256": "a83914fcc3c9de987c378a6992b757c9d8b6fd07615f76ecbe005fc311b9fb67",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-portrait-water-slate.png",
+      "sha256": "51d66af9f021ef5ed1e62d6766941030bd04589db2c3f24708209bfab12c4366",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+      "sha256": "731ad1304fcc92ead45790cec004edefdf4f8c8633e988d5ba1dc35623bb88aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+      "sha256": "00e7120a9d3fda737a20f9a9e6c5727f8c8888cf4ee77014a6ed5a4c99b00b56",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+      "sha256": "1c751ce34d4a43576353da4813aae0ceac825e7d06f813066ff22448d5316d65",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-ambient-neutral.png",
+      "sha256": "01c68b868c72b59e947a212548bc5074b28549c64acc50597b474be2aa1243b8",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-baseline.png",
+      "sha256": "fa5bb2a55282c6ca8ed2eea5c74f204f2b7a5cfe310f25c56832a239dad748c2",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-charcoal-combined.png",
+      "sha256": "a09014c28e5ccdb6f1bff2f6775e138c8947140eca4dd88e7562ed50fb12d398",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+      "sha256": "d75c84538c1e4e89f4cb73e7fddf7a1c68e49d5f211cbf57521e876422f226f9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-fog-grey.png",
+      "sha256": "a6ffd3dfcc261dad8c064032b355fce0fda3a133bf654bc466446bb0550424e8",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-lighter-combined.png",
+      "sha256": "7bea62154952da3162885ee3fafc3f00f482b1ba08da20f3c903bb55e32cc3ec",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-reflection-neutral.png",
+      "sha256": "940953276383644fd6b1ec44a2e2bd1a55f48584fb2ae514aa62ba937e0c9616",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-slate-combined.png",
+      "sha256": "26e854b25ee96120c80acb73c0c311699484499c2f951e166ce50a0227747f36",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-visible-water-control.png",
+      "sha256": "cab0eaa34dc8356a1419d29980452034e09167d156c765f6a88f8e0998117d6a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-desktop-water-slate.png",
+      "sha256": "7160546a5f4c2f3834a10c061c0e540f3e7bfecaabe0e2d65c488f1902bfba6f",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-ambient-neutral.png",
+      "sha256": "6b4fcc6c7cc94e0d1ea6052c267464b50878eb3ea5203fda166297c5aa51a39b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-baseline.png",
+      "sha256": "41f36955b0fc9938e52b4597410e3756b077efa222509d870d9b0c6b94ef12ad",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-charcoal-combined.png",
+      "sha256": "4c12c9e79b3413fe8df3578310025e8c9638eef6d64e2b76b8d46d7123f50c0a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+      "sha256": "7440c9655c5c88ab6956257fba916c1a06689f71c73dd99a469c86213e05c74c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-fog-grey.png",
+      "sha256": "e1baceb4c087a10d7d591c4b5ca3bf6acb7509a37301cbe59b666e9ab6d658ad",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-lighter-combined.png",
+      "sha256": "7ad27abb07dd7b0c57ece3b8f40311c3b1d24b0abec9a39d3e716d3cb77111d0",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-reflection-neutral.png",
+      "sha256": "9e4a588793ee94f53abf57c967af00afa7783aaf1ed098c09ea4f9046cc57db7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-slate-combined.png",
+      "sha256": "e6e9ff293626ca00f4e79d065986d9003b7edfd3164b4ffa9749f2836091da58",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-visible-water-control.png",
+      "sha256": "0073939e0540b09cdd9a28041ec9d248a914c0163180aadee95397473e8835e5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/aojing_guan-portrait-water-slate.png",
+      "sha256": "8c332378b32d09c8e9b2b8522270abe5efb1335d4a03cd14c32b706d2b06f7e2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+      "sha256": "57948eca21b6ef9790b89333b49a6186bae5f7200fded6b01046ea934620cdbd",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-baseline.png",
+      "sha256": "3fab4dfc0b7e51b6131d8c6a3a7d3930478178dbf5bceaec4eec99a07791f64d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+      "sha256": "fa78f80067b25f699010b6497bd7d93d548ff5edac37b30c483c652b3b4cb477",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+      "sha256": "4dcb3b5de29ab88e5bf24ee653c4db42122d3a755bb7e1a8ddfb12b39fc665d3",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-fog-grey.png",
+      "sha256": "4aeb47a076fd9bbd8e3b23d010c649e5efec64f8b21fe8798bfc48f1292f0364",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+      "sha256": "ad956f0f11422093c27cfd4308f42fb946d3ca7562fe34bfb8806f50d7dd89ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+      "sha256": "12ef496e8a1478b95132f53582826634f512ca5813b94ef76b52b0f074185aca",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-slate-combined.png",
+      "sha256": "67e1357ee7bb0c40659de77d684f6cd5113ce41653f6483d65bdd24e51ba6f0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+      "sha256": "1dabf4e72d996fb5ac5491e7908e3794c83c714e61ca48302447330b159b9030",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-desktop-water-slate.png",
+      "sha256": "6fa3ecf2a8e30bea3dd0bdccb0161cefb1375c3abf1a7ba75fbc4081b9811f3f",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+      "sha256": "12da98c1216ef9f447b130e7018a10d5106cd85dccecc17758ed7b81ce776bfb",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-baseline.png",
+      "sha256": "765efd92be523e16bc52b187e2290d06a26ad96930cac7c2c128b5e660ab7b01",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+      "sha256": "052390adf1357e77056837cc609a4e897b084a4f51d744228fe206089fb635b2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+      "sha256": "d6624e2fa1ebbb48248eb54e762c5ba9d96de86085e7e762378c6d47301dbe3a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-fog-grey.png",
+      "sha256": "73248c82eb428f933eccafb61a612fecd9269f1985a18e380115aa2633ea57a8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+      "sha256": "897f691c01a38d9dc3fbb5090c9178151424dd46f3a61abd9b09e16e3d156371",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+      "sha256": "4cc3db3ea479cb3d48433f505c90d60d5ff3a38c299b8ff35d434c9e69c8c130",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-slate-combined.png",
+      "sha256": "f1231dbc57acc59c4c8a290c0910f26f0b6b6ae1c8d32377401b1d05fc686a60",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+      "sha256": "f9d4044d251cbf4ea772b8b74f33eedd6516039acf491bfc69083e8534ae41e7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ouxiang_xie-portrait-water-slate.png",
+      "sha256": "61308eeeac0716b89c94fc81990bd65fe3aae413c0ade367cf2a90f0d609f0f7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+      "sha256": "5b53da56f7116d8cfbedcf85db39156b0e24907a6cb9ffd225ce4f89aad59b02",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-baseline.png",
+      "sha256": "b418e5ac349d98148c55a312e3521fe1213223c8aa38befde1a8a9dd2c4dc5b6",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+      "sha256": "ccbbfff2b88e014a2c9e0adb444836b30595485cc35f52c34a3faf5bc5400c91",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+      "sha256": "54bfeaad24fdbb502843894d114e8ef601a1d7d4b2d018d1ff39bbed4e535ecf",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-fog-grey.png",
+      "sha256": "75ec53c469ae52632eeb96ef0501e1b3f3a78a915e955b49131641e47e326d7b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-lighter-combined.png",
+      "sha256": "5c086249576136f73c8421bbec54783d904edc83d97253c3ad2de0a2a368cf39",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+      "sha256": "5c952a6e677b9e8476fac5333e1ecf6ff4d14b0004ccc5bd6eb3a765538082b3",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-slate-combined.png",
+      "sha256": "ef7fea1a68af8d712462c3accea54d75227423b510448b781da95da663bf9abc",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-visible-water-control.png",
+      "sha256": "e38b46015decc36f2ff0eae2c509515e13ae71cfdbf1d8b1e7116921d2a3bff7",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-desktop-water-slate.png",
+      "sha256": "946002664c8d9c82ae1fbdac9a82691f61cde2e6adbf6d89d8da1fdce89d69cb",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+      "sha256": "47d50896df93224dac97b2abc4529e36f2b0532fe78352caf3d68c3ec9e8fc73",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-baseline.png",
+      "sha256": "263baae6747adf3f837af50c6733fd20e4dbe3fb8d15b976ec4e59dd95981622",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+      "sha256": "9760678d2c8d4a577d4e13979f8d3893db99a4c20063cf112dbd9e8138b94bbc",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+      "sha256": "db68cfc3ce9b6bb5d86f4bf6fb6a06c2b8435f6cde308b3ad0a5519ac673ddeb",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-fog-grey.png",
+      "sha256": "6ce28a0083f87739edd3c785d63eeca8781c37262c7932b7240a1edf678a6792",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-lighter-combined.png",
+      "sha256": "97f1113e85b31951c1b2d36f1d9c271dc4d4e9486439d31dd941f293ed25bedf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+      "sha256": "3c39f0646fa4aa6a1e26bbf1267305409e3e6148e84eac90115f1df56eb3e4fa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-slate-combined.png",
+      "sha256": "e9be49c9992c95f8b553515f5130dc49d69d242ea3cb415a2afad295a87b471e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-visible-water-control.png",
+      "sha256": "bf128051c84226c4bf00fe0009fc4ac4661314c0e1b8a5425efc14ae46e20313",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/qinfang_ting-portrait-water-slate.png",
+      "sha256": "13e89a3de56a0c7be7d4ad73996207e1cac1ef259dba2d95c5a574e5b5ecdbf9",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+      "sha256": "beb85e2d36b67aef45e60b2ec84953fbabcf7621f04f2e231a85692c5c56cbab",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-baseline.png",
+      "sha256": "a0672005a40a8f8fb820bb44b6896d7fc5619d8014a5673c345c23e319c0f728",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+      "sha256": "b3359dcf46fe676ab4e9d3d4c9204b35a4c09d11f0159dc9caef021256c60d12",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+      "sha256": "e4b488f837a775416e2012814f001a37d2257bb7353c5dcdfa0dac1d626ccba4",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-fog-grey.png",
+      "sha256": "59f36602c10bd74c71b029a73e31c1ac4260692859df2696cdf63d9be032e837",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-lighter-combined.png",
+      "sha256": "38459c0fc92fb1f87398c82facca6962616acfbab07d8985ec688bf5fffb8415",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+      "sha256": "1cd104a2cf1d72aa1b115715e5bc20a78362a1d8efc69b536b53ac6d799c7d97",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-slate-combined.png",
+      "sha256": "f939e6c9f1ae6224289bbe455774f2b8bf2f3ba93867b7c0de587ac997c400c9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-visible-water-control.png",
+      "sha256": "30dfeba27d6f9b9c8c60283772c84bb49a2071fa5ee22e31367a0d1f9a45abbd",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-desktop-water-slate.png",
+      "sha256": "3b2c0afd44dd629a20f789b764b3f26ad6963bac320eddc59947009fcee6c025",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+      "sha256": "a5ac0ecf2a4eaf3c7a3fda8f621efdd4bb74d3ad57a42176d3a83c13c378e1b8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-baseline.png",
+      "sha256": "64cca1841ab95be77be7b9255b1aacf1cfab51f958e0c0f7742d6d4dc63449ee",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+      "sha256": "6e1b4a36feb2bec423cf5ac2602a2153a003d599e9578e73d851e1362e3429b5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+      "sha256": "7f9fdcbc9163e87aecad21284b0e1275b31d021d0a895dcbd668d8600834353e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-fog-grey.png",
+      "sha256": "1caf3bbf2eaa4d058e43f75d092fcb2388a734a1b7bd75b33c070dca36988b3b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-lighter-combined.png",
+      "sha256": "096bf8f4943706ea4d1c56fd1f6954eb987db757560ff6bd60d41f55946204f5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+      "sha256": "2f983f9f2e12d8aece2d7bb066aef34d977c9635a886fcea931e30e80b628100",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-slate-combined.png",
+      "sha256": "67f5f5abbd0a0b4dd5eabf6fae8b4276074511aa89c81b7b061eea6ce6120a9a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-visible-water-control.png",
+      "sha256": "cd7d2bfd483413a5771790bab6099e916ff4b2cb1ece76652b2b060725dec010",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-portrait-water-slate.png",
+      "sha256": "6c7415042c434aef411c2be7626cb436bfa5fbcc825ea7ab8144c64ad62f6ba6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+      "sha256": "91837bea9e353d9630a50d761ca50595e1309945ca70112b0c1925af542881e0",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+      "sha256": "ec5f10da95dfbdd2f2f432858fb0ba8ca1f52ee2f1a71376f415f0de65842dc1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/comparisons/water-palette-unfixed-stage-clock/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+      "sha256": "2e1f4a4aba7db78b8d4960415261e0b36affee58767dca253a7f51c291aeb2ee",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-desktop.png",
+      "sha256": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/aojing_guan-portrait.png",
+      "sha256": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-desktop.png",
+      "sha256": "13ecb5f94987acce4f14e78a5a0d728dca8da44473d97b4e27cc1385b15d9eb3",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daguan_lou-portrait.png",
+      "sha256": "9d99f8a4429c3cb70452aa3e1b186b059d5efffcdcddf8839c61c2d3320936f1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-desktop.png",
+      "sha256": "8d9952433784e17c7cd699433df053d7dccec7e619f86c120dda6185f757bef1",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/daoxiang_cun-portrait.png",
+      "sha256": "fefa5a1bbe5162e22380e6fc76532aaa2ef88c6d463f39cfbeb78dea8d2c2947",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-desktop.png",
+      "sha256": "3b586772061e866a67f6eef6ed880a1c6f2f5528d10176cd21d3ca0960fdd422",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/hengwu_yuan-portrait.png",
+      "sha256": "641a3432b62877cb01c024271a35515ebd45f85e28ec03ffb5e7be139c726a8a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-desktop.png",
+      "sha256": "ddf3a31b8bb51cb2f27bcda7e7bdec164e8f351380b83f39c6561182bdca1558",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/longcui_an-portrait.png",
+      "sha256": "bc3957eae6081a4d76c1defa845ff00c71096b03169adc3cc9cad6dffbc315e6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-desktop.png",
+      "sha256": "088813d207b84424c47574c9fdebb37b4115fb66d0bc76ecc6eef1d15cbc694d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ouxiang_xie-portrait.png",
+      "sha256": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-desktop.png",
+      "sha256": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qinfang_ting-portrait.png",
+      "sha256": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-desktop.png",
+      "sha256": "eb8421fdd9d0b6bc29141225568590cef0c4b8cfc21b39dc65ccc50a38304f76",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/qiushuang_zhai-portrait.png",
+      "sha256": "467c9622f6122219baa30929ad5d5007e447a36dad43c32cfd98d88e7b738e1f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-desktop.png",
+      "sha256": "47708237ab8b4130c5c0b1b495b30c6c84d8f4d6920661b71a63e954bab6f72d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/rockery_gate-portrait.png",
+      "sha256": "0c118bb6bb920dad76d27e74b20b7c74602b1130e77a14e2719774cb1b969517",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-desktop.png",
+      "sha256": "d8aa1c2754f9d0b17a30047cf4e70dccc823eb1d30223781a68820f312b05e3a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/terminal_room-portrait.png",
+      "sha256": "df959d00751685c6bb04063d5f8f56d011ca29cf4b5c76b69cb55ad3cec04d2f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-desktop.png",
+      "sha256": "ce07835c26ead6229f7a1fac3cfc2e128341f489534af1f8661edf438fd4ee8c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/tubi_tang-portrait.png",
+      "sha256": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-desktop.png",
+      "sha256": "f185fb5e2ea93671c84d8f9e5bcc31343f25d27475deac60dfbf92317124bb15",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/xiaoxiang_guan-portrait.png",
+      "sha256": "fb42017b1c7b8fdfe3268379e21201f08f3a8f274ffbc5f4ef3d7e4d55f00d23",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-desktop.png",
+      "sha256": "294874601fa00816fde89047e5b7286630afa97dc1696aa3b4a020d3d664737d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/yihong_yuan-portrait.png",
+      "sha256": "fdd600b7e43f7aa3f42af958d1169961131477b3a5d09a5cfa212a91bc36c650",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-desktop.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/all-arrivals/ziling_zhou-portrait.png",
+      "sha256": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-baseline.png",
+      "sha256": "4d7776f0637d183995b05c0ef32156dbf3eb3c44043eacfee64ffbdff8f95eaa",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-disabled.png",
+      "sha256": "0ad79bb1f9729c17a713a9fd7fbec14c3f40f106efb057604f48b41658f9fc5d",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-ripples.png",
+      "sha256": "1f2cdce821ab028b4ee6649bb7305acfcd13f61f1eab8c0ed0b81f672485d92e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/reflection-controls/pond-check-window-excluded.png",
+      "sha256": "2dfe4822c0899e83f2afd8d6363b3c09b690f8a00965f9ee54aca3043da0a11b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-baseline.png",
+      "sha256": "874589ff84641b199eb3a6cb2ecc84e6fcea14ab69921c559e3379d507b34ea9",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-fog.png",
+      "sha256": "12ad2de863e4a7bb490a4b845462b77aadce2a3b548943bf167d16b04cc72110",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/neutral-water-runtime/runtime/surface-motion/surfaces-water.png",
+      "sha256": "c14019bebb097c18cafdbd349a2a49e4bbca99a40e86da959fa13ad2c3715574",
+      "pixels": [
+        1410,
+        600
+      ]
+    }
+  ]
+}

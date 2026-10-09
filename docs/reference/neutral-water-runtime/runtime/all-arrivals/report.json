@@ -1,0 +1,702 @@
+{
+ "actual_fog_bindings": [
+  {
+   "color": "(0.28, 0.29, 0.34, 1.0)",
+   "resource_path": "res://materials/stage/fog.tres"
+  }
+ ],
+ "actual_water_bindings": [
+  {
+   "color": "(0.25, 0.32, 0.4, 1.0)",
+   "resource_path": "res://materials/water.tres",
+   "timeline_time": 10.0
+  }
+ ],
+ "files": {
+  "res://garden_preview.tscn": "b03ac5b1803667b2245d2a60b900b594d7757d6b04ddbeead7217ba8779fc261",
+  "res://lightmaps/backdrop-wash-index.json": "a7cfcd35e7080b800d875f5382fc9fa9ecb176a4408390499d6790f593c8057e",
+  "res://lightmaps/full-index.json": "3a79dd3b8eecdf563fa3aab4f8f7d58e4ec03698bb1eda0eae98329770fa5dc0",
+  "res://lightmaps/terminal-spill-index.json": "6ba8007a913db5ae7b1d7ead85a869e65b471e57822e5183fbcf58d496244073",
+  "res://materials/water.tres": "008077aed67ac61d44240b0bc96e693c068e2d6f3a4d28086887821e372dab1c",
+  "res://runtime/entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+  "res://shaders/pond_reflection.gdshader": "cd10826f67b5b7b05b9ce40b997606cd6b2ba593901c25fc760ffe18b925d663",
+  "res://tests/render_dynamic_palette.gd": "dd3b011f2e780530d447cc88a848096d8116ef91a171a711b8826884e3d71306"
+ },
+ "rows": [
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -34.0,
+    3.40000009536743,
+    -13.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daoxiang_cun-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "daoxiang_cun",
+   "sha256": "8d9952433784e17c7cd699433df053d7dccec7e619f86c120dda6185f757bef1",
+   "text": "Uneven thatch hangs over a closed plank door. A rough fence encloses the yard; painted rice fields rise behind the roof.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -31.9684028625488,
+    1.89999997615814,
+    -12.8434429168701
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daoxiang_cun-portrait.png",
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "daoxiang_cun",
+   "sha256": "fefa5a1bbe5162e22380e6fc76532aaa2ef88c6d463f39cfbeb78dea8d2c2947",
+   "text": "Uneven thatch hangs over a closed plank door. A rough fence encloses the yard; painted rice fields rise behind the roof.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/aojing_guan-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "aojing_guan",
+   "sha256": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+   "text": "A guarded stone ledge sits below the garden paths. One amber window faces the pond beneath a broad tiled roof. The hall remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/aojing_guan-portrait.png",
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "aojing_guan",
+   "sha256": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+   "text": "A guarded stone ledge sits below the garden paths. One amber window faces the pond beneath a broad tiled roof. The hall remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -22.0,
+    2.59999990463257,
+    6.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/longcui_an-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "longcui_an",
+   "sha256": "ddf3a31b8bb51cb2f27bcda7e7bdec164e8f351380b83f39c6561182bdca1558",
+   "text": "Sparse plum branches frame the whitewashed wall. One amber lantern hangs beside a closed timber gate; an incense bowl stands beneath it.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/longcui_an-portrait.png",
+   "panel_top": 508.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "longcui_an",
+   "sha256": "bc3957eae6081a4d76c1defa845ff00c71096b03169adc3cc9cad6dffbc315e6",
+   "text": "Sparse plum branches frame the whitewashed wall. One amber lantern hangs beside a closed timber gate; an incense bowl stands beneath it.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -2.0,
+    2.29999995231628,
+    13.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/xiaoxiang_guan-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "xiaoxiang_guan",
+   "sha256": "f185fb5e2ea93671c84d8f9e5bcc31343f25d27475deac60dfbf92317124bb15",
+   "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -2.0,
+    2.29999995231628,
+    13.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/xiaoxiang_guan-portrait.png",
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "xiaoxiang_guan",
+   "sha256": "fb42017b1c7b8fdfe3268379e21201f08f3a8f274ffbc5f4ef3d7e4d55f00d23",
+   "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.0,
+    3.09999990463257,
+    5.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/yihong_yuan-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "yihong_yuan",
+   "sha256": "294874601fa00816fde89047e5b7286630afa97dc1696aa3b4a020d3d664737d",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/yihong_yuan-portrait.png",
+   "panel_top": 466.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "yihong_yuan",
+   "sha256": "fdd600b7e43f7aa3f42af958d1169961131477b3a5d09a5cfa212a91bc36c650",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    5.5,
+    2.5,
+    -13.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daguan_lou-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "daguan_lou",
+   "sha256": "13ecb5f94987acce4f14e78a5a0d728dca8da44473d97b4e27cc1385b15d9eb3",
+   "text": "Two roof tiers span a broad ceremonial front. Bronze studs mark five pairs of closed doors; two amber transoms light the outer bays.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    8.97683525085449,
+    2.0,
+    -6.67848110198975
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/daguan_lou-portrait.png",
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "daguan_lou",
+   "sha256": "9d99f8a4429c3cb70452aa3e1b186b059d5efffcdcddf8839c61c2d3320936f1",
+   "text": "Two roof tiers span a broad ceremonial front. Bronze studs mark five pairs of closed doors; two amber transoms light the outer bays.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/hengwu_yuan-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "hengwu_yuan",
+   "sha256": "3b586772061e866a67f6eef6ed880a1c6f2f5528d10176cd21d3ca0960fdd422",
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/hengwu_yuan-portrait.png",
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "hengwu_yuan",
+   "sha256": "641a3432b62877cb01c024271a35515ebd45f85e28ec03ffb5e7be139c726a8a",
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    16.0,
+    10.0,
+    -20.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/tubi_tang-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "tubi_tang",
+   "sha256": "ce07835c26ead6229f7a1fac3cfc2e128341f489534af1f8661edf438fd4ee8c",
+   "text": "A stone table stands on the terrace above the garden. Low parapets frame the roofs below; the painted sky closes the view.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 45.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/tubi_tang-portrait.png",
+   "panel_top": 528.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "tubi_tang",
+   "sha256": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+   "text": "A stone table stands on the terrace above the garden. Low parapets frame the roofs below; the painted sky closes the view.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qiushuang_zhai-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "qiushuang_zhai",
+   "sha256": "eb8421fdd9d0b6bc29141225568590cef0c4b8cfc21b39dc65ccc50a38304f76",
+   "text": "Twelve amber screens stand behind lattice panels. Three desks face the courtyard, with scrolls hanging between the screen banks.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qiushuang_zhai-portrait.png",
+   "panel_top": 502.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "qiushuang_zhai",
+   "sha256": "467c9622f6122219baa30929ad5d5007e447a36dad43c32cfd98d88e7b738e1f",
+   "text": "Twelve amber screens stand behind lattice panels. Three desks face the courtyard, with scrolls hanging between the screen banks.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.29999995231628,
+    1.60000002384186,
+    38.7000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/terminal_room-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "terminal_room",
+   "sha256": "d8aa1c2754f9d0b17a30047cf4e70dccc823eb1d30223781a68820f312b05e3a",
+   "text": "A green screen lights the desk. Beyond the barred window, a lantern marks the rockery gate.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -1.29999995231628,
+    1.60000002384186,
+    38.7000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/terminal_room-portrait.png",
+   "panel_top": 577.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "terminal_room",
+   "sha256": "df959d00751685c6bb04063d5f8f56d011ca29cf4b5c76b69cb55ad3cec04d2f",
+   "text": "A green screen lights the desk. Beyond the barred window, a lantern marks the rockery gate.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0,
+    1.85000002384186,
+    35.7000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/rockery_gate-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "rockery_gate",
+   "sha256": "47708237ab8b4130c5c0b1b495b30c6c84d8f4d6920661b71a63e954bab6f72d",
+   "text": "The plaster passage bends out of sight. Two amber lanterns lead toward the stream.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    0.0,
+    1.85000002384186,
+    35.7000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/rockery_gate-portrait.png",
+   "panel_top": 602.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "rockery_gate",
+   "sha256": "0c118bb6bb920dad76d27e74b20b7c74602b1130e77a14e2719774cb1b969517",
+   "text": "The plaster passage bends out of sight. Two amber lanterns lead toward the stream.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qinfang_ting-desktop.png",
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "qinfang_ting",
+   "sha256": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+   "text": "Six lanterns hang over the bridge. A bronze hexagram sits in the stone table; covered walks cross the stream.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/qinfang_ting-portrait.png",
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "qinfang_ting",
+   "sha256": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+   "text": "Six lanterns hang over the bridge. A bronze hexagram sits in the stone table; covered walks cross the stream.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ouxiang_xie-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "ouxiang_xie",
+   "sha256": "088813d207b84424c47574c9fdebb37b4115fb66d0bc76ecc6eef1d15cbc694d",
+   "text": "Two lanterns light an open pavilion over the water. Six seats surround the tea table. A timber bridge leads into the reeds.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ouxiang_xie-portrait.png",
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "ouxiang_xie",
+   "sha256": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+   "text": "Two lanterns light an open pavilion over the water. Six seats surround the tea table. A timber bridge leads into the reeds.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "desktop",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ziling_zhou-desktop.png",
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_timeline": 10.0,
+   "room": "ziling_zhou",
+   "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+   "text": "Reeds surround a low stone landing. Across the timber footbridge, lanterns mark the water pavilion.",
+   "water_timeline": 10.0
+  },
+  {
+   "actual_fog_timelines": [
+    10.0
+   ],
+   "aspect": "portrait",
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals/ziling_zhou-portrait.png",
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_timeline": 10.0,
+   "room": "ziling_zhou",
+   "sha256": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+   "text": "Reeds surround a low stone landing. Across the timber footbridge, lanterns mark the water pavilion.",
+   "water_timeline": 10.0
+  }
+ ],
+ "scope": "Installed normal full-baked route: original current desktop/portrait arrival poses for fourteen rooms; actual attached water/fog/reflection clocks fixed10 and checked per capture. No source/camera/layout changes, full moving tour, final scene-art or physical-device acceptance claimed.",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "all_fourteen_room_arrivals_captured_visual_review_required"
+}
