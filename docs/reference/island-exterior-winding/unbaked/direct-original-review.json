@@ -1,0 +1,25 @@
+{
+  "status": "unbaked_native_probe_reviewed_fresh_baked_comparison_required",
+  "updated_at": "2026-10-09T11:46:25.319356+00:00",
+  "all12_capture_hashes_and_dimensions_verified": true,
+  "directly_reviewed_originals_sha256": {
+    "baseline/ziling_zhou-390x844.png": "71a03d3e6c640ae2c882747e8098c791218b05654aac66a014a5224f82151ab3",
+    "baseline/ziling_zhou-1410x600.png": "f6c3092983722297e66a42137d6ad798900b564a719b217026948543052c8ba8",
+    "candidate/ziling_zhou-390x844.png": "60132f9753fa417c8f27d215a36b9e22d1e1d348a11d56e732b6ee003b3e4df2",
+    "candidate/ziling_zhou-1410x600.png": "91f718582013fdf3392d15c9960c489b6e4d408f146fa7ba7bbd570fd56c86f7"
+  },
+  "byte_equality": {
+    "qinfang_ting-1410x600.png": false,
+    "ouxiang_xie-1410x600.png": false,
+    "ziling_zhou-1410x600.png": false,
+    "qinfang_ting-390x844.png": true,
+    "ouxiang_xie-390x844.png": false,
+    "ziling_zhou-390x844.png": false
+  },
+  "observations": [
+    "The corrected shell retains island/bridge/reed/camera geometry. Unbaked Godot side appearance remains effectively unchanged because this comparison does not use the source Cycles irradiance maps.",
+    "The source topology defect is independently proven and repaired:24 inward sides and48 inconsistent edges become24 outward sides and zero inconsistent edges.",
+    "Current baked dark-side appearance must be tested with fresh source lighting before appearance acceptance. No claim yet that the visual issue is fixed."
+  ],
+  "scope": "Four unbaked Ziling originals directly reviewed; all12 probe originals verified. Both modes use54bank assertions and retained runtime/source lighting disabled. Not final lighting/site/phone or adoption acceptance."
+}

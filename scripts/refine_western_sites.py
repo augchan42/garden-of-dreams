@@ -79,7 +79,7 @@ n=24;outline=[]
 for i in range(n):
  a=math.tau*i/n;outline.append((-34+3.5*math.cos(a)*(1+.04*math.sin(5*a)),2.5*math.sin(a),-.08))
 vs=outline+[(x,y,-1.35) for x,y,z in outline]
-mesh('SITE_ziling_island',vs,[tuple(range(n)),tuple(reversed(range(n,2*n)))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)],stone)
+mesh('SITE_ziling_island',vs,[tuple(range(n)),tuple(reversed(range(n,2*n)))]+[(i,i+n,(i+1)%n+n,(i+1)%n) for i in range(n)],stone)
 # Walking landing at bridge level.
 box('SITE_ziling_stone_landing',(-33.8,0,-.08),(5.6,1.8,.16),stone)
 collision('ziling_landing',(-33.8,0,-.08),(5.6,1.8,.16))

@@ -1322,3 +1322,12 @@ The M2 Max normal inventory is 52,517,225 renderer texture bytes; demo is 43,468
 The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
 
 Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).
+
+
+## Reed island exterior repair — 2026-10-09
+
+Current complete source is `73267e2b`; authoring is `2b07ce48`. The 24 island side quads now have outward normals and consistent shell winding. Shape, heights, material, all 42 cameras,454 colliders,71 markers,266336 render triangles and runtime are preserved. Fourteen other site GLBs remain byte-exact; the constructor reproduces the corrected face order. Fresh lightmaps show the stone sides in both desktop and portrait views.
+
+Six complete source phases,25 focused native checks and13 installed checks pass. The 141 source PNGs match engine copies;47 isolated originals have verified hashes/dimensions,12 were directly inspected, and all19 installed lit/Ziling originals reproduce the candidate exactly. The archive preserves153 checked files, with760 installed-file hashes in `export/island-exterior-winding-evidence.json`. Evidence: [executed checks and original renders](reference/island-exterior-winding/README.md).
+
+This is focused repair acceptance. Broad stage canvas retains its original green color and will be addressed next; bank sides, ground/water boundaries, signage, foliage and final fourteen-site art remain. Existing PR15 full tours qualify the previous source. No current phone,2020 Adreno,sustained or release acceptance is claimed. References remain37/42; authenticated services remain open and PR14 stays independently held for security approval. The full goal remains active.
