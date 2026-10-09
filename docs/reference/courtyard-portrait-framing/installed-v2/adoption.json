@@ -1,0 +1,258 @@
+{
+  "status": "failed_rolled_back",
+  "started_at": "2026-10-09T16:03:13.395803+00:00",
+  "targets": {
+    "runtime/entry_route.gd": {
+      "before_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+      "after_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05"
+    },
+    "tests/test_yihong_framing.gd": {
+      "before_sha256": null,
+      "after_sha256": "01ea88fd39742e9f6b4cafe9b1dd75f21033cfd568074146bc973eca06915af6"
+    },
+    "tests/test_yihong_framing.gd.uid": {
+      "before_sha256": null,
+      "after_sha256": "12b34cc70cee936e1c6d2fdc951bdda1cc8f8a95ff9985e1eace8e63ab19a5c7"
+    },
+    "tests/test_portrait_architecture.gd": {
+      "before_sha256": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+      "after_sha256": "cbbbb29d12f7bc85adec2918da84213ad643a5b7efe53fd61c3b0c55230ca3ca"
+    },
+    "tests/portrait-architecture-contract.json": {
+      "before_sha256": "aaf115b13e49d5afefcf7c51ac913eacf8f967e5aaf9cb7002ff86323ac96dc3",
+      "after_sha256": "117d438266a9bbabdc9fd349e6f696750a15a2d9e15252ccdc96ab6323f177b2"
+    }
+  },
+  "phases": [
+    {
+      "name": "final-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/final-import.log",
+      "pid": 65049,
+      "exit_code": 0,
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6"
+    },
+    {
+      "name": "native-source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/native-import-contract.json"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/native-source-contract.log",
+      "pid": 65076,
+      "exit_code": 0,
+      "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/full-lighting.log",
+      "pid": 65087,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "yihong-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/yihong-normal"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/yihong-normal.log",
+      "pid": 65088,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "yihong-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/yihong-touch",
+        "--touch"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/yihong-touch.log",
+      "pid": 65949,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "yihong-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/yihong-density",
+        "--density"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/yihong-density.log",
+      "pid": 66231,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "architecture-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/architecture-normal"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/architecture-normal.log",
+      "pid": 66295,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6"
+    },
+    {
+      "name": "architecture-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/architecture-touch",
+        "--touch",
+        "--room=daguan_lou"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/architecture-touch.log",
+      "pid": 66691,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09"
+    },
+    {
+      "name": "architecture-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/architecture-density",
+        "--density",
+        "--room=daguan_lou"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/architecture-density.log",
+      "pid": 66721,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09"
+    },
+    {
+      "name": "arrivals-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/arrivals-desktop"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/arrivals-desktop.log",
+      "pid": 66745,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/arrivals-portrait",
+        "--mobile"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/arrivals-portrait.log",
+      "pid": 66790,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    }
+  ],
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "rollback": true,
+  "error": "('Installed image differs', '/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v2/review-captures/architecture-normal/longcui_an-arrival-390x844.png')"
+}

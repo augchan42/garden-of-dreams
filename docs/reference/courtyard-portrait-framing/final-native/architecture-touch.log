@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: PORTRAIT_ARCHITECTURE_REJECTED: daguan_lou excessive ceiling above facade: look-360x800
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_portrait_architecture.gd:24)
+       [1] inspect (res://tests/test_portrait_architecture.gd:64)
+       [2] run (res://tests/test_portrait_architecture.gd:105)
+       [3] settle (res://tests/test_portrait_architecture.gd:38)
+PORTRAIT_ARCHITECTURE_RESULT 5 captures; 1 failures

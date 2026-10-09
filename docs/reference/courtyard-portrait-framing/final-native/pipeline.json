@@ -1,0 +1,146 @@
+{
+  "status": "failed",
+  "started_at": "2026-10-09T15:30:33.482648+00:00",
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "3cb60101da103d39d6d678d0bf3dde053a3ddd8652ef390fc0545930d9d91564",
+  "planned_phases": 32,
+  "phases": [
+    {
+      "name": "final-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--editor",
+        "--import"
+      ],
+      "timeout": 300,
+      "native_report": null,
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/final-import.log",
+      "pid": 57809,
+      "exit_code": 0,
+      "log_sha256": "1f6afb48483d4997cd847c536fbb5ab3c08008392a93a71193c35c4da347bca3"
+    },
+    {
+      "name": "yihong-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-normal"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-normal/report.json",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/yihong-normal.log",
+      "pid": 57819,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b",
+      "native_report_sha256": "d4109591f2f8dad07c0c2c46f7ee47ddb5efa5811b270ec971f45e3718c65c7e"
+    },
+    {
+      "name": "yihong-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-touch",
+        "--touch"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-touch/report.json",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/yihong-touch.log",
+      "pid": 57831,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b",
+      "native_report_sha256": "67d223a0ae311859ad3790e487cbabbeaa6f199c48ce3fef656375b76aaf303f"
+    },
+    {
+      "name": "yihong-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-density",
+        "--density"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/yihong-density/report.json",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/yihong-density.log",
+      "pid": 57846,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b",
+      "native_report_sha256": "49e06324e33ac75ad535046d3763a3a85dcb04b9760e3930281fe6eecae1e291"
+    },
+    {
+      "name": "architecture-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/architecture-normal"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/architecture-normal/report.json",
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/architecture-normal.log",
+      "pid": 57864,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+      "native_report_sha256": "1491320cbd0e7fa68a8573bbd31a866b15910d76b2496e1786a893f26dc76b6e"
+    },
+    {
+      "name": "architecture-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/architecture-touch",
+        "--touch",
+        "--room=daguan_lou"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/review-captures/architecture-touch/report.json",
+      "status": "failed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-native/architecture-touch.log",
+      "pid": 57884,
+      "exit_code": 1,
+      "log_sha256": "7e32bf46272912bac2ed75700745e30f0e341fb1ba3775fac4cf7a1b9eacbcc3"
+    }
+  ],
+  "scope": "One sequential owned Godot child. Final combined two-room cameras, retained source/lighting/palette/adjacent framing, all arrivals and actual public-command physics tours. Protected user editors untouched. No phone/final-art/service acceptance."
+}

@@ -1,0 +1,82 @@
+{
+  "status": "three_architecture_rechecks_passed",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "phases": [
+    {
+      "name": "architecture-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-normal"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-normal/report.json",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/architecture-normal.log",
+      "status": "passed",
+      "pid": 67627,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+      "native_report_sha256": "930d4356a4085c9f6840f84147712dbab99bb260fbbb1da439acac82a59895f4"
+    },
+    {
+      "name": "architecture-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-touch",
+        "--touch",
+        "--room=daguan_lou"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-touch/report.json",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/architecture-touch.log",
+      "status": "passed",
+      "pid": 67705,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09",
+      "native_report_sha256": "66c1f06c4e7e19ee2adf36d0b9f3699190aa6e4a872bf13e081026a9eeaec064"
+    },
+    {
+      "name": "architecture-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-density",
+        "--density",
+        "--room=daguan_lou"
+      ],
+      "timeout": 140,
+      "native_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/review-captures/architecture-density/report.json",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/final-v3/architecture-density.log",
+      "status": "passed",
+      "pid": 67719,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09",
+      "native_report_sha256": "2a7705fda3ef7b6ff2f7ce8afe251549be12cdf74f2455956498981bf5c6ceff"
+    }
+  ],
+  "scope": "Three affected architecture modes repeated after test-only wait for real FloraLOD interval.32original positive phases remain preserved under final-v2; runtime unchanged.",
+  "finished_at": "2026-10-09T16:08:04.482061+00:00"
+}

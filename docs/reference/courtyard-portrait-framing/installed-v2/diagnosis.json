@@ -1,0 +1,602 @@
+{
+  "cause": "FloraLOD elapsed update interval0.2s; settle12 process frames can end earlier after immediate room arrival. One nunnery arrival captured stale prior-camera LOD. Camera/UI measurements identical;97of98 images exact. All11installed assertions passed, then strict imagecomparison rolled all5 targets back.",
+  "runtime_changed": false,
+  "product_flora_changed": false,
+  "test_correction": "Wait0.25 real seconds after completed camera tween before drawing, allowing actual existing flora updater to select distance LOD. No force/disable of LOD, no threshold relaxed.",
+  "affected_test": "test_portrait_architecture.gd",
+  "comparison_rows": [
+    {
+      "file": "yihong-normal/arrival-desktop.png",
+      "candidate_sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35",
+      "installed_sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/arrival-narrow.png",
+      "candidate_sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db",
+      "installed_sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/arrival-portrait.png",
+      "candidate_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "installed_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/arrival-return.png",
+      "candidate_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "installed_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/doors-desktop.png",
+      "candidate_sha256": "edc50d009d972e68a6b34838796333fa4526ef358a3dd832f5515d9381e71bc4",
+      "installed_sha256": "edc50d009d972e68a6b34838796333fa4526ef358a3dd832f5515d9381e71bc4",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/doors-look.png",
+      "candidate_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "installed_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/doors-narrow.png",
+      "candidate_sha256": "64dd03861bfc703d95d4df39b34cd0a1c44d2ebdbb932f0712d745716824ce9b",
+      "installed_sha256": "64dd03861bfc703d95d4df39b34cd0a1c44d2ebdbb932f0712d745716824ce9b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/doors-portrait.png",
+      "candidate_sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3",
+      "installed_sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/doors-return.png",
+      "candidate_sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3",
+      "installed_sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/leaves-desktop.png",
+      "candidate_sha256": "ba7c7d375b421955aa8e629ebb18a02d7f3ade85b68df38b16f94a4efb2dcec9",
+      "installed_sha256": "ba7c7d375b421955aa8e629ebb18a02d7f3ade85b68df38b16f94a4efb2dcec9",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/leaves-look.png",
+      "candidate_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "installed_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/leaves-narrow.png",
+      "candidate_sha256": "2a491d35d7fa6a6637a930d4ea6c6398b62dc2bd980db7c12e6b739fc5df8610",
+      "installed_sha256": "2a491d35d7fa6a6637a930d4ea6c6398b62dc2bd980db7c12e6b739fc5df8610",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/leaves-portrait.png",
+      "candidate_sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d",
+      "installed_sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/leaves-return.png",
+      "candidate_sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d",
+      "installed_sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-normal/look-narrow.png",
+      "candidate_sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db",
+      "installed_sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/arrival-desktop.png",
+      "candidate_sha256": "407f2d50381dbb74cbb1d98eceae77721a19266131142b159d3c12bcdd26af19",
+      "installed_sha256": "407f2d50381dbb74cbb1d98eceae77721a19266131142b159d3c12bcdd26af19",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/arrival-narrow.png",
+      "candidate_sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58",
+      "installed_sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/arrival-portrait.png",
+      "candidate_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "installed_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/arrival-return.png",
+      "candidate_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "installed_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/doors-desktop.png",
+      "candidate_sha256": "721da9a69d44a426e565c9de5c599f9eb4ac3d34220f6d06e2164409f9544a9b",
+      "installed_sha256": "721da9a69d44a426e565c9de5c599f9eb4ac3d34220f6d06e2164409f9544a9b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/doors-look.png",
+      "candidate_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "installed_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/doors-narrow.png",
+      "candidate_sha256": "3f7b4495e71c1934ca0e46cd56b433a13a84ff9564a511c0e3f184fe39307ef3",
+      "installed_sha256": "3f7b4495e71c1934ca0e46cd56b433a13a84ff9564a511c0e3f184fe39307ef3",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/doors-portrait.png",
+      "candidate_sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671",
+      "installed_sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/doors-return.png",
+      "candidate_sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671",
+      "installed_sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/leaves-desktop.png",
+      "candidate_sha256": "f57144cedd18851a4c5fd9df248912910718589769ec797ac97ebeb23f1617aa",
+      "installed_sha256": "f57144cedd18851a4c5fd9df248912910718589769ec797ac97ebeb23f1617aa",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/leaves-look.png",
+      "candidate_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "installed_sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/leaves-narrow.png",
+      "candidate_sha256": "0b78542a84241376a3604becd55fe4d0e56fb32c31697d7534bd44a539ac0ea5",
+      "installed_sha256": "0b78542a84241376a3604becd55fe4d0e56fb32c31697d7534bd44a539ac0ea5",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/leaves-portrait.png",
+      "candidate_sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7",
+      "installed_sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/leaves-return.png",
+      "candidate_sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7",
+      "installed_sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-touch/look-narrow.png",
+      "candidate_sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58",
+      "installed_sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/arrival-desktop.png",
+      "candidate_sha256": "01b4c0f58d52c7fa68dbcda7ccf0fbca2f60ab976051a7d65bb3c67f14491b8c",
+      "installed_sha256": "01b4c0f58d52c7fa68dbcda7ccf0fbca2f60ab976051a7d65bb3c67f14491b8c",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/arrival-narrow.png",
+      "candidate_sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b",
+      "installed_sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/arrival-portrait.png",
+      "candidate_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "installed_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/arrival-return.png",
+      "candidate_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "installed_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/doors-desktop.png",
+      "candidate_sha256": "8912417976e12a831685191e9a6bd7550c0df89cb3872578e4fdc7721d9463d7",
+      "installed_sha256": "8912417976e12a831685191e9a6bd7550c0df89cb3872578e4fdc7721d9463d7",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/doors-look.png",
+      "candidate_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "installed_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/doors-narrow.png",
+      "candidate_sha256": "fd3e713a797aac9ced211d34b4cbf4b94dd0c229fe714ca12d35d2071317e49e",
+      "installed_sha256": "fd3e713a797aac9ced211d34b4cbf4b94dd0c229fe714ca12d35d2071317e49e",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/doors-portrait.png",
+      "candidate_sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1",
+      "installed_sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/doors-return.png",
+      "candidate_sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1",
+      "installed_sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/leaves-desktop.png",
+      "candidate_sha256": "8caf8d43b413550df59cd61223de81268ee3a80869d5b479233f724cf62e0357",
+      "installed_sha256": "8caf8d43b413550df59cd61223de81268ee3a80869d5b479233f724cf62e0357",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/leaves-look.png",
+      "candidate_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "installed_sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/leaves-narrow.png",
+      "candidate_sha256": "7e8700156d3b7bcdb2a555730beb5c6f5fe244d744717a945b08e176f7b0b852",
+      "installed_sha256": "7e8700156d3b7bcdb2a555730beb5c6f5fe244d744717a945b08e176f7b0b852",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/leaves-portrait.png",
+      "candidate_sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278",
+      "installed_sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/leaves-return.png",
+      "candidate_sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278",
+      "installed_sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278",
+      "byte_exact": true
+    },
+    {
+      "file": "yihong-density/look-narrow.png",
+      "candidate_sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b",
+      "installed_sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daguan_lou-arrival-390x844.png",
+      "candidate_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "installed_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daguan_lou-doors-390x844.png",
+      "candidate_sha256": "8b34876a30f6aa93a4421c970bf70f21494d28221b160706b5feebbaba58222a",
+      "installed_sha256": "8b34876a30f6aa93a4421c970bf70f21494d28221b160706b5feebbaba58222a",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daguan_lou-look-360x800.png",
+      "candidate_sha256": "3df6ca232a0a9b5206f6f508f4bf116136350477f98bd416d9bea2c2ba0b0cd8",
+      "installed_sha256": "3df6ca232a0a9b5206f6f508f4bf116136350477f98bd416d9bea2c2ba0b0cd8",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daguan_lou-overview-landscape.png",
+      "candidate_sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca",
+      "installed_sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daguan_lou-resized-390x844.png",
+      "candidate_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "installed_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daoxiang_cun-arrival-390x844.png",
+      "candidate_sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032",
+      "installed_sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daoxiang_cun-doors-390x844.png",
+      "candidate_sha256": "ab9d648fffcb7c2e1d561ff322104b057a53f8df82051fc186c6410d188b4202",
+      "installed_sha256": "ab9d648fffcb7c2e1d561ff322104b057a53f8df82051fc186c6410d188b4202",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daoxiang_cun-look-360x800.png",
+      "candidate_sha256": "0cf7dd1cf5fb3e8d503eed782efa81bc9b93ed97f1413e14f59424f8900a4d45",
+      "installed_sha256": "0cf7dd1cf5fb3e8d503eed782efa81bc9b93ed97f1413e14f59424f8900a4d45",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daoxiang_cun-overview-landscape.png",
+      "candidate_sha256": "c075e449deec27b1710303295e6ad33edde67049e64c89481b35f506ec70cdfc",
+      "installed_sha256": "c075e449deec27b1710303295e6ad33edde67049e64c89481b35f506ec70cdfc",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/daoxiang_cun-resized-390x844.png",
+      "candidate_sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032",
+      "installed_sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/longcui_an-arrival-390x844.png",
+      "candidate_sha256": "bc3ef4532da695034380e5a9bb9bdcd713bcf7d6c69275ad27bf3c85fe4b940d",
+      "installed_sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642",
+      "byte_exact": false
+    },
+    {
+      "file": "architecture-normal/longcui_an-doors-390x844.png",
+      "candidate_sha256": "875dddb3c056aee8be893f07ec1722cd2930947da10c8bafa084e78e375aa674",
+      "installed_sha256": "875dddb3c056aee8be893f07ec1722cd2930947da10c8bafa084e78e375aa674",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/longcui_an-look-360x800.png",
+      "candidate_sha256": "44657e671628c50c505ccd5c5628ccda21f3ebf4f80fa049587236486cd1bd12",
+      "installed_sha256": "44657e671628c50c505ccd5c5628ccda21f3ebf4f80fa049587236486cd1bd12",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/longcui_an-overview-landscape.png",
+      "candidate_sha256": "bad6a10b51e82869671fbd99406b2d0965c6ac7c764c993de46db9b434afe7ab",
+      "installed_sha256": "bad6a10b51e82869671fbd99406b2d0965c6ac7c764c993de46db9b434afe7ab",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-normal/longcui_an-resized-390x844.png",
+      "candidate_sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642",
+      "installed_sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-touch/daguan_lou-arrival-390x844.png",
+      "candidate_sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8",
+      "installed_sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-touch/daguan_lou-doors-390x844.png",
+      "candidate_sha256": "f2dcb6feb53360c4f65c1a5f5c1daa0971f1c099735bf4b5df767f62d11cd87c",
+      "installed_sha256": "f2dcb6feb53360c4f65c1a5f5c1daa0971f1c099735bf4b5df767f62d11cd87c",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-touch/daguan_lou-look-360x800.png",
+      "candidate_sha256": "23084fdd9158b532d0cefa26963520d6a1be38ba8fed782f6592c8a003b46c4f",
+      "installed_sha256": "23084fdd9158b532d0cefa26963520d6a1be38ba8fed782f6592c8a003b46c4f",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-touch/daguan_lou-overview-landscape.png",
+      "candidate_sha256": "59803782b08ec658449d8d163921c9fc7497d0a1f90b1e81da91a547bab671fb",
+      "installed_sha256": "59803782b08ec658449d8d163921c9fc7497d0a1f90b1e81da91a547bab671fb",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-touch/daguan_lou-resized-390x844.png",
+      "candidate_sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8",
+      "installed_sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-density/daguan_lou-arrival-390x844.png",
+      "candidate_sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb",
+      "installed_sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-density/daguan_lou-doors-390x844.png",
+      "candidate_sha256": "ce875bb2b7c70ea7c8a1ce0198e9697fe232fe10e3cb2b962749d6ad4e4ed576",
+      "installed_sha256": "ce875bb2b7c70ea7c8a1ce0198e9697fe232fe10e3cb2b962749d6ad4e4ed576",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-density/daguan_lou-look-360x800.png",
+      "candidate_sha256": "cbfdf351e2f6feae32e10c1aa2efe9d3ef521d9932705471e51e2a67c71c671f",
+      "installed_sha256": "cbfdf351e2f6feae32e10c1aa2efe9d3ef521d9932705471e51e2a67c71c671f",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-density/daguan_lou-overview-landscape.png",
+      "candidate_sha256": "b7e818a3e5b6db1aaca7cd2d8ac8bb73213b21870b75bf809f396d5cf72427cf",
+      "installed_sha256": "b7e818a3e5b6db1aaca7cd2d8ac8bb73213b21870b75bf809f396d5cf72427cf",
+      "byte_exact": true
+    },
+    {
+      "file": "architecture-density/daguan_lou-resized-390x844.png",
+      "candidate_sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb",
+      "installed_sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-bamboo.png",
+      "candidate_sha256": "422399a1e58ac1f6e3a134d6a621a666b6c0163ca936fd275df47d1b122b483d",
+      "installed_sha256": "422399a1e58ac1f6e3a134d6a621a666b6c0163ca936fd275df47d1b122b483d",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-cell.png",
+      "candidate_sha256": "8959c06258472793936ae1a0b90b62db4c266fde4ae76c5518042d3cc8daee41",
+      "installed_sha256": "8959c06258472793936ae1a0b90b62db4c266fde4ae76c5518042d3cc8daee41",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-courtyard.png",
+      "candidate_sha256": "8a0e5b06ee4ff91c26e5d4368d6c17679149fdd610310562de3c91129f7e08d1",
+      "installed_sha256": "8a0e5b06ee4ff91c26e5d4368d6c17679149fdd610310562de3c91129f7e08d1",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-farmhouse.png",
+      "candidate_sha256": "0a3846ecc8afe9c07f71be1aeb72a80adb85d5fcae38c6b4df2c7218fcf7f572",
+      "installed_sha256": "0a3846ecc8afe9c07f71be1aeb72a80adb85d5fcae38c6b4df2c7218fcf7f572",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-gate.png",
+      "candidate_sha256": "137b87ac8737222039e2b81b33cce256e39c6bfda95b0827d4415903f873ea78",
+      "installed_sha256": "137b87ac8737222039e2b81b33cce256e39c6bfda95b0827d4415903f873ea78",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-hilltop.png",
+      "candidate_sha256": "35959fca080a2652867afcdd8fd855502cf1a4d54195c291e98bbf662559f5a4",
+      "installed_sha256": "35959fca080a2652867afcdd8fd855502cf1a4d54195c291e98bbf662559f5a4",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-imperial.png",
+      "candidate_sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca",
+      "installed_sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-nunnery.png",
+      "candidate_sha256": "82ba341ec9dcca6baab51a596314d17242a0c061d0671c6568327dd21f1c18a0",
+      "installed_sha256": "82ba341ec9dcca6baab51a596314d17242a0c061d0671c6568327dd21f1c18a0",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-ouxiang.png",
+      "candidate_sha256": "07de10e30b76ed7968346d7c5d974b39642007a430ae2f3248b9591c360e2179",
+      "installed_sha256": "07de10e30b76ed7968346d7c5d974b39642007a430ae2f3248b9591c360e2179",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-pavilion.png",
+      "candidate_sha256": "fff71c7f3268971b2299d78fa3a7397095d493e111879982dbcf2cef8b3e31fa",
+      "installed_sha256": "fff71c7f3268971b2299d78fa3a7397095d493e111879982dbcf2cef8b3e31fa",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-red-court.png",
+      "candidate_sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35",
+      "installed_sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-reflection.png",
+      "candidate_sha256": "f455cef7b29f047f911617a0423b71ae6b4f5b57c315b9052b9c1a124fda3505",
+      "installed_sha256": "f455cef7b29f047f911617a0423b71ae6b4f5b57c315b9052b9c1a124fda3505",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-study.png",
+      "candidate_sha256": "a8781222e9aeb6452f65e11c5109dcc132471f35fe4e6701b9d79516fa2230b8",
+      "installed_sha256": "a8781222e9aeb6452f65e11c5109dcc132471f35fe4e6701b9d79516fa2230b8",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-desktop/route-ziling.png",
+      "candidate_sha256": "915160dcd5792fd69ebd89a1b0bcf0b3ce6002a85877556cd92b312f921906c7",
+      "installed_sha256": "915160dcd5792fd69ebd89a1b0bcf0b3ce6002a85877556cd92b312f921906c7",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-bamboo.png",
+      "candidate_sha256": "86ab2851dbac6492ec6119b7c534d74f5cab251a4449ec0dd2f9918f749c89e7",
+      "installed_sha256": "86ab2851dbac6492ec6119b7c534d74f5cab251a4449ec0dd2f9918f749c89e7",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-cell.png",
+      "candidate_sha256": "cffcb51adb5fef296086fc8dd59df6378bb9b8d1c46bc51f427d86ba78ee2901",
+      "installed_sha256": "cffcb51adb5fef296086fc8dd59df6378bb9b8d1c46bc51f427d86ba78ee2901",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-courtyard.png",
+      "candidate_sha256": "94c82731084277cd58726df791a00b2b177398fdb1071b717f5d09122ad90a61",
+      "installed_sha256": "94c82731084277cd58726df791a00b2b177398fdb1071b717f5d09122ad90a61",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-farmhouse.png",
+      "candidate_sha256": "48b1c1e4ce9a936cde27ad167a996891e38d96a1869eaedd2170554d1f35fd64",
+      "installed_sha256": "48b1c1e4ce9a936cde27ad167a996891e38d96a1869eaedd2170554d1f35fd64",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-gate.png",
+      "candidate_sha256": "d8c857c557351222d30b89bdfd21764cddb05e5a0d651294b76c22549f336f6f",
+      "installed_sha256": "d8c857c557351222d30b89bdfd21764cddb05e5a0d651294b76c22549f336f6f",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-hilltop.png",
+      "candidate_sha256": "de9306ea5d987eeecebadceb3dfc38769b0d49efd99a83c728bc80c25fb44518",
+      "installed_sha256": "de9306ea5d987eeecebadceb3dfc38769b0d49efd99a83c728bc80c25fb44518",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-imperial.png",
+      "candidate_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "installed_sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-nunnery.png",
+      "candidate_sha256": "f6b1cad6dca71e399c7adfcfc761fcf46069dde0ec16d83af4103c0f67409b94",
+      "installed_sha256": "f6b1cad6dca71e399c7adfcfc761fcf46069dde0ec16d83af4103c0f67409b94",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-ouxiang.png",
+      "candidate_sha256": "b2e5c5cb68aead63cab83af2f7f203c608575db85ddda635cf2032111e67c2ae",
+      "installed_sha256": "b2e5c5cb68aead63cab83af2f7f203c608575db85ddda635cf2032111e67c2ae",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-pavilion.png",
+      "candidate_sha256": "63a72cc920f6c07890db48565348de7ca4efc02960624769de3c5dc36f6353c4",
+      "installed_sha256": "63a72cc920f6c07890db48565348de7ca4efc02960624769de3c5dc36f6353c4",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-red-court.png",
+      "candidate_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "installed_sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-reflection.png",
+      "candidate_sha256": "593731cad95fdfe636062c9106268287cc811c739918a0458c763eeafa27bf65",
+      "installed_sha256": "593731cad95fdfe636062c9106268287cc811c739918a0458c763eeafa27bf65",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-study.png",
+      "candidate_sha256": "2338c292e37508def39392dfa61ec3bbf5f9f30ecae873e3d79c41222e9fecad",
+      "installed_sha256": "2338c292e37508def39392dfa61ec3bbf5f9f30ecae873e3d79c41222e9fecad",
+      "byte_exact": true
+    },
+    {
+      "file": "arrivals-portrait/route-mobile-ziling.png",
+      "candidate_sha256": "590ab3f36fddd02db4b5bb93a4ece41af0df29d4c420d1b89fea9cf856837c53",
+      "installed_sha256": "590ab3f36fddd02db4b5bb93a4ece41af0df29d4c420d1b89fea9cf856837c53",
+      "byte_exact": true
+    }
+  ],
+  "directly_inspected_failed_comparison": {
+    "candidate_full_run_file": "architecture-normal/longcui_an-arrival-390x844.png",
+    "candidate_sha256": "bc3ef4532da695034380e5a9bb9bdcd713bcf7d6c69275ad27bf3c85fe4b940d",
+    "installed_failed_attempt_sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642"
+  }
+}
