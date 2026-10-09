@@ -1,0 +1,83 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate",
+  "orchestrator_pid": 76431,
+  "started_at": "2026-10-09T09:23:55.456534+00:00",
+  "source_glb_sha256": "7a9fc523bc1517941cc248c040877b86f9cd00a11654c6c31e40f3acc089632f",
+  "authoring_sha256": "074ab2014d9122e207783d9e7c7992f9dfc9197a6f380a2d6f5e8c0c05e31978",
+  "library_helper_original_sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146",
+  "library_helper_frozen_sha256": "179442e350c5b5a47ffeaf7d29dea55c0c2576c1531a9667cdb7fa7ee5dfc164",
+  "phases": [
+    {
+      "name": "water-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/scripts/verify_water_kit.py"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/lighting-preparation-logs/water-contract.log",
+      "pid": 76485,
+      "exit_code": 0,
+      "log_sha256": "ffa5944da7cf06ae2e0019e0ae6ff04359dc06a4e1a99fe57cf025b685e3df93"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/lighting-preparation-logs/site-libraries.log",
+      "pid": 76495,
+      "exit_code": 0,
+      "log_sha256": "7c2fa415499901ffa581165ccbe5c28c2348c0c71c1c3e23cac117d4e42e6d1e"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 77189,
+      "exit_code": 0,
+      "log_sha256": "1fcd8c60308f8d3270b70a9742eefc0e4ff58239aff5d5456feb71e967dc4beb"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-edge-source/closed-leaf-candidate/lighting-preparation-logs/full-lighting.log",
+      "pid": 77822,
+      "exit_code": 0,
+      "log_sha256": "8d861e9c1070b9fcf33829c7be7bfef0caaa95dc7e08b22e747451e30f3d6fdb"
+    }
+  ],
+  "scope": "Separate saved-source15libraries/shared receiver packaging and complete fresh six-phase lighting for54stockbankmodules and27shallowlotus objects. Existing eligibility124 retained with three renamed lotus receivers. No production adoption or final art/device/fullgoal acceptance.",
+  "finished_at": "2026-10-09T10:36:37.316088+00:00"
+}
