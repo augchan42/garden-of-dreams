@@ -1,0 +1,386 @@
+{
+  "status": "incremental_ziling_desktop_framing_verified",
+  "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "authoring_sha256": "0d3e84e3cb0aada4d7aafda8448f3ebb90bb39426eb18f24941a97c56977f400",
+  "route_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "test_sha256": "aea3bab6dc2bfa636aa80ccc47d41995023d88daf1dcb0e15b41da51ea3cb8dd",
+  "archive_root": "docs/reference/ziling-desktop-framing",
+  "archive_files_sha256": {
+    "README.md": "31857e9ed6675e8df07a8eefed2d88ec098665f45bd3922b1a25875a2260e383",
+    "cold-import.log": "c80536b43a521364bcf894f5eab167528d97a1c0f6cdd709229dc3e67d663859",
+    "compact-cpu-proposals.json": "7c557aee5ccafa11dee47dc46b74eb506157b8222e97b17e9904b117280e4031",
+    "comparison-originals/baseline-1280x720.png": "bfd52f12ce1691ee97b941eda1b7fb906490c3322c365b551de24f769d191311",
+    "comparison-originals/baseline-1410x600.png": "bffd2db547b2a135f5b9b1586ea423a3f3c6f608001ab2bb8efac3ca153094c7",
+    "comparison-originals/higher-back-1280x720.png": "8d3556a41bb3bd2cf80e3dd7b7d4347710549a6c7aac4962436bab8184c17926",
+    "comparison-originals/higher-back-1410x600.png": "37bc9377869bcbfa2b65df56bc5ed3d3b807b0805b5254fe409f0381c3dcf48e",
+    "comparison-originals/lower-back-1280x720.png": "067acc4dbd61cfca7a2b92abdda5e8da7b7a001c83829d6d94699796718ed761",
+    "comparison-originals/lower-back-1410x600.png": "abadb779344d15ba93482f77fc4a618808dff35b84030a57906cefb6203c9d40",
+    "comparison-originals/nearer-left-1280x720.png": "f731428032b0bd6b03cd8b87c6b935c92aab77a1129a1f50102645644509e5cc",
+    "comparison-originals/nearer-left-1410x600.png": "93e4a63c2c6f371b460042d274bf149c28f603b8fce111af5428374ac508e907",
+    "comparison-originals/report.json": "03939e1504b1ffa3f447e22acf458adae2ac50f67df8a30a846fcd6ac4b315ee",
+    "draw-wait-diagnosis.json": "adabced6fa63d6d4ebdbaa7dc9fb2930817085c9dae0375a781c15a0f4d06a40",
+    "executed-comparison-renderer.gd": "6cf3335e7ce3bdc560223657d9a104bff61e08d20a15a8fcd19f8453dfa18984",
+    "executed-green-test.gd": "aea3bab6dc2bfa636aa80ccc47d41995023d88daf1dcb0e15b41da51ea3cb8dd",
+    "executed-input-collector.gd": "415e1766c69b2c6fa23a710ae15617ace3ebf6ce3731103d6c301e601f67ce4e",
+    "executed-native-measure.py": "f8f182e39c9e103e215ac159da0cbd319dd072b5e25005a9d370737c46fd6da1",
+    "executed-red-test.gd": "aec7d4ca00263d8f052871ff1052685781e98d491061b49aa949ddc16200d645",
+    "extract-native-inputs.log": "db1ab5e854bdccfd0774e8860aa4045d15c94947205e5d81df25cb826d1e41da",
+    "first-baseline-rejection.json": "c674e4614f9f899747035b5191af41a769c7768c8947372467b55c0cc1a845da",
+    "first-executed-measure.py": "c2477038d56130a345f6907edc2f17e6e99ae3ce4fded958f4e1695efbfe7740",
+    "garden_archive_desktop_framing.py": "bbd16fb8821a1c4d953b50c052c806764fcd81007a3eb7356ddab156ed7898a6",
+    "garden_check_desktop_framing.py": "5b778dae952d5c601988aa50af9ff3d786b6927f340a10fee9d7e9c44bee9d7a",
+    "garden_check_installed_desktop.py": "c4b3e52645634fe1444f4e0017ce501a1a3a1df4ec9b3a8c2d6bc61cb0bf10a7",
+    "garden_document_desktop_framing.py": "5798d489de6088c8ac50e063e2f6a688f01092f220e7567421e303514cb08e57",
+    "garden_measure_native_ziling_desktop.py": "f8f182e39c9e103e215ac159da0cbd319dd072b5e25005a9d370737c46fd6da1",
+    "garden_render_western_framing.gd": "ee93af41a9825b469c4537d1d2bb253aa292813107e2f9b500b8bb6babaebf08",
+    "garden_resume_desktop_framing.py": "438e4fc023c38e37666b1d43e6442694963983ceaa46dc8c15d03833eec8e1e1",
+    "garden_search_compact_desktop.py": "28991a063e295aa9d7a18c20217eda7b18d2cfbca8efac9cda4aa430012be30d",
+    "green-density/arrival-desktop.png": "b146e1b6f6782240a1b9bd90f504e0963ab95a9721c146739a781fb6dae0cb9a",
+    "green-density/arrival-narrow.png": "c3072e43979301fdf11312b8a1718eaa11bd761741e41e45b29642f4543a3dd1",
+    "green-density/arrival-portrait.png": "3b8724cc76360513ef13a86ff65a4b4161e2bd52764e4cdc0d6b702bbf56ba06",
+    "green-density/arrival-return.png": "3b8724cc76360513ef13a86ff65a4b4161e2bd52764e4cdc0d6b702bbf56ba06",
+    "green-density/look-narrow.png": "c3072e43979301fdf11312b8a1718eaa11bd761741e41e45b29642f4543a3dd1",
+    "green-density/look-portrait.png": "3b8724cc76360513ef13a86ff65a4b4161e2bd52764e4cdc0d6b702bbf56ba06",
+    "green-density/reeds-desktop.png": "16728a933c9b95fdff2cef99a0dd36d549bb1d8d8269e9d38ddc53289c20129d",
+    "green-density/reeds-narrow.png": "f9c93073e5f5476c74180471f722c7a6842717eb1982ccdd4ffd572a2952e843",
+    "green-density/reeds-portrait.png": "5fb4322b15bad8c8af9b8f74d17e3a32a09945929573058ebd17f46b154b0691",
+    "green-density/reeds-return.png": "5fb4322b15bad8c8af9b8f74d17e3a32a09945929573058ebd17f46b154b0691",
+    "green-density/report.json": "b82918750f1204ec865f814aa1cc42ed2031fab8b5cc9043a8c0d271904cb82b",
+    "green-density.log": "5c9e734f08e736738deb4311420138419dfc4593b6b9dc363445881257b82412",
+    "green-normal/arrival-desktop-480.png": "4331255fb9a9524ffecff1bf5de93ebfd01d29e3503816fb0b1e55babcaf9561",
+    "green-normal/arrival-desktop-540.png": "2de71051d3369da739c63e753fcea97cb8bacd8c9420ff8079135cfddd44b6f8",
+    "green-normal/arrival-desktop-720.png": "510f9b70407ed5bc121436078b571b240426f620dbd1e9f2e3659bfae74ea0d1",
+    "green-normal/arrival-desktop.png": "82e3af0cbfed68e2f4f4911c2a553f9c3641ec85811236cebfd7462a6432ee8b",
+    "green-normal/arrival-narrow.png": "471e1d2219c78d79bdfdd6428ae7d28fd83023b863d7f9e85d79071a3886d0d2",
+    "green-normal/arrival-portrait.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "green-normal/arrival-return.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "green-normal/look-narrow.png": "471e1d2219c78d79bdfdd6428ae7d28fd83023b863d7f9e85d79071a3886d0d2",
+    "green-normal/look-portrait.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "green-normal/reeds-desktop.png": "e663f4af1dfed32f08561ecc20f46720ddb4f3d9a6aecfe754092b7c6780662f",
+    "green-normal/reeds-narrow.png": "c0ec4f29b7832b68ad6e22117bfff3b77e8982170bec0ab459b5fd5132dc67d0",
+    "green-normal/reeds-portrait.png": "539d4cd6ad2e497df01cf5fe34e2e23051caca3f69ddeb1b9aed13f1b92dc6de",
+    "green-normal/reeds-return.png": "539d4cd6ad2e497df01cf5fe34e2e23051caca3f69ddeb1b9aed13f1b92dc6de",
+    "green-normal/report.json": "5074e4f2aa33c104eafd586f046b66fe329a4dfe316dbc8cb5525cf5263a82cd",
+    "green-normal.log": "b71f7375d70b9a2fd304e9a223caa694150f903881e7e79068bd4994bb16b2a5",
+    "green-pipeline.json": "0d009a919c7706d6552bf0fba1c92b32d2fd99af0fbd8ecc55a76e7bd7f323fa",
+    "green-touch/arrival-desktop-480.png": "4e164cd469111f46cee29ab1bbd795ecea3eec0e2f2cd6400823f2ae734cfd4c",
+    "green-touch/arrival-desktop-540.png": "7eab607199c4205e6e6e2721bbc3723d2428f8c55a057511c9ae59b97285e223",
+    "green-touch/arrival-desktop.png": "1d3409c05a43cbd43941db4d1d850eaf8f04ecc047d7f58d5de566a41dc6d043",
+    "green-touch/arrival-narrow.png": "a2cf462f99b1f2c546bd745da9b43e79ce20f33d766b5685dbf2f8380d1de438",
+    "green-touch/arrival-portrait.png": "756e1eeaaf1fbf1d1192c2cf5396a5254d0bc55f67efe4f92f246e499e5d0990",
+    "green-touch/arrival-return.png": "756e1eeaaf1fbf1d1192c2cf5396a5254d0bc55f67efe4f92f246e499e5d0990",
+    "green-touch/look-narrow.png": "a2cf462f99b1f2c546bd745da9b43e79ce20f33d766b5685dbf2f8380d1de438",
+    "green-touch/look-portrait.png": "756e1eeaaf1fbf1d1192c2cf5396a5254d0bc55f67efe4f92f246e499e5d0990",
+    "green-touch/reeds-desktop.png": "e918d26ed16f3f46a9d8ccacf1d966ebfdb5ce16a545c7a6aad36b079fd28796",
+    "green-touch/reeds-narrow.png": "6b4bf3dab081e07b12ed86ce86821bde21eee953bf1c27bcd492cdfef2e0adb3",
+    "green-touch/reeds-portrait.png": "acd0ef079b854f6a42fd0bc6d63e69cc6b0dd7efa3c1e001b21c3073e04d38d1",
+    "green-touch/reeds-return.png": "acd0ef079b854f6a42fd0bc6d63e69cc6b0dd7efa3c1e001b21c3073e04d38d1",
+    "green-touch/report.json": "439cd230a41e9b1166be4bfbee7d3d445d4a655a56937b3b2f088efc147c15a6",
+    "green-touch.log": "417ef73cfbe77b9805bfef1a33d0033adbe4fe85990bb95d5330ef5fde416e60",
+    "input-collection-pipeline.json": "9f922fb690331fa38f32e0b03cf7bbb04c35a56c4cc1b1e95a3e44bee43f95d0",
+    "input-fixture.json": "02ee376b3bfee8342516ca4a3818212cd28084fd7399b5d277b3d1d2639088e6",
+    "installed-normal/arrival-desktop-480.png": "4331255fb9a9524ffecff1bf5de93ebfd01d29e3503816fb0b1e55babcaf9561",
+    "installed-normal/arrival-desktop-540.png": "2de71051d3369da739c63e753fcea97cb8bacd8c9420ff8079135cfddd44b6f8",
+    "installed-normal/arrival-desktop-720.png": "510f9b70407ed5bc121436078b571b240426f620dbd1e9f2e3659bfae74ea0d1",
+    "installed-normal/arrival-desktop.png": "82e3af0cbfed68e2f4f4911c2a553f9c3641ec85811236cebfd7462a6432ee8b",
+    "installed-normal/arrival-narrow.png": "471e1d2219c78d79bdfdd6428ae7d28fd83023b863d7f9e85d79071a3886d0d2",
+    "installed-normal/arrival-portrait.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "installed-normal/arrival-return.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "installed-normal/look-narrow.png": "471e1d2219c78d79bdfdd6428ae7d28fd83023b863d7f9e85d79071a3886d0d2",
+    "installed-normal/look-portrait.png": "8df01c46e984383df7659e6e7b82018c1fe521971c73924c63a485f7da879d09",
+    "installed-normal/reeds-desktop.png": "e663f4af1dfed32f08561ecc20f46720ddb4f3d9a6aecfe754092b7c6780662f",
+    "installed-normal/reeds-narrow.png": "c0ec4f29b7832b68ad6e22117bfff3b77e8982170bec0ab459b5fd5132dc67d0",
+    "installed-normal/reeds-portrait.png": "539d4cd6ad2e497df01cf5fe34e2e23051caca3f69ddeb1b9aed13f1b92dc6de",
+    "installed-normal/reeds-return.png": "539d4cd6ad2e497df01cf5fe34e2e23051caca3f69ddeb1b9aed13f1b92dc6de",
+    "installed-normal/report.json": "2a54cc372ff66b82b4f3501dbdc76ab5f5991e362820d40fb30d86b8735ab26f",
+    "installed-normal.log": "b71f7375d70b9a2fd304e9a223caa694150f903881e7e79068bd4994bb16b2a5",
+    "installed-pipeline.json": "d0f7be4c4a0400b9ee4053d2a1068f5a686ca8dcd8c677203ed8f6e01bad2257",
+    "installed-western/0-ouxiang_xie.png": "87a61d9496c260f55c0197553631e02ca55701a47d801e6414ae34f8597f2702",
+    "installed-western/1-ziling_zhou.png": "251cafb69c3874310b5fda19e44785eae96570d5bd4a99bb66b8b33651fbff06",
+    "installed-western/2-ouxiang_xie.png": "9cdde6d61102ecfafd335b71f88ffcb2d82edbbe2a696943df6c68bea5165a62",
+    "installed-western/3-qinfang_ting.png": "b5f7a12da96a634acf617e91480aaa7bf6052d5fdd4a831186fe50ceac51d75a",
+    "installed-western/report.json": "0caa7dc957d71c01e439bdd88b60e564b861e865fdb576c84073afcccf2a19b6",
+    "installed-western.log": "5dfad8ac4b0f6087214601c06d2aa713e348c52434de54f411c24f2def753703",
+    "native-input-cpu-proposals.json": "e1e5bbe2e59edde8c21c5d4f8b5b0e4f1f7ce55676b77d6b2bacd26bf7a5f711",
+    "native-inputs.json.gz": "d2cc4fe0d9bf91001ba29752e6779349e7e07c57d74a9d58eb90dd563568b3ba",
+    "production-before-entry_route.gd": "ba6410c08a5ae7787823d261db68e4c3eac0430cb00952da3bf58c62bb5e35f4",
+    "production-before-test_ziling_framing.gd": "a2c1476c029402c43ec37af5828503f6a962bdae298f9c31f9913df32f2b4b33",
+    "rejected/before-draw-fix-green-touch.log": "b71c62c053e7ff3669004161783666ef3ba96f62da8c8bb99287594eda696292",
+    "rejected/first-green-pipeline.json": "08e12d8978616e5e633e2f57d9270259124974a64df8a6f5d2adf8222787b8ad",
+    "rejected/first-green-touch/arrival-desktop.png": "a7cbfc759d5545a8edd60712b1fd1dd57a9c67a19685d61e615ffe27a26fe1f7",
+    "rejected/first-green-touch/report.json": "5d47e0c68685cfb28fb6fc3469c509bb40070f68fc69a89b046ce76a82d751f6",
+    "rejected/first-green-touch.log": "b5d3940470477bcac14fb747e848d49fe079ebec97b7ef15d6cb6072b2d65546",
+    "rejected/red-normal/arrival-desktop.png": "bffd2db547b2a135f5b9b1586ea423a3f3c6f608001ab2bb8efac3ca153094c7",
+    "rejected/red-normal/report.json": "fb54ede971ed2a621898b491466267629b74f6d265b2c27ac4c7c9c2cc1fe79a",
+    "rejected/rejected-density/report.json": "7f85888ce9a527a46a4613d7494923e747588e5f0931fcda59b3215eb61ba2ff",
+    "rejected/timeout-green-pipeline.json": "08e12d8978616e5e633e2f57d9270259124974a64df8a6f5d2adf8222787b8ad",
+    "rejected/timeout-green-touch.log": "b71c62c053e7ff3669004161783666ef3ba96f62da8c8bb99287594eda696292",
+    "touch-cpu-proposals.json": "1b33bd9a155b634a2c23fd106af2dd0ca9c5dc41f9a47b80ab73f7d973580a54",
+    "western-route.log": "16242fc0f851486b4c603d5fcf9875f9b04b9109db517ed3525dd6f8db15679b"
+  },
+  "original_png_dimensions": {
+    "comparison-originals/baseline-1280x720.png": [
+      1280,
+      720
+    ],
+    "comparison-originals/baseline-1410x600.png": [
+      1410,
+      600
+    ],
+    "comparison-originals/higher-back-1280x720.png": [
+      1280,
+      720
+    ],
+    "comparison-originals/higher-back-1410x600.png": [
+      1410,
+      600
+    ],
+    "comparison-originals/lower-back-1280x720.png": [
+      1280,
+      720
+    ],
+    "comparison-originals/lower-back-1410x600.png": [
+      1410,
+      600
+    ],
+    "comparison-originals/nearer-left-1280x720.png": [
+      1280,
+      720
+    ],
+    "comparison-originals/nearer-left-1410x600.png": [
+      1410,
+      600
+    ],
+    "green-density/arrival-desktop.png": [
+      2340,
+      1080
+    ],
+    "green-density/arrival-narrow.png": [
+      944,
+      1982
+    ],
+    "green-density/arrival-portrait.png": [
+      1080,
+      1982
+    ],
+    "green-density/arrival-return.png": [
+      1080,
+      1982
+    ],
+    "green-density/look-narrow.png": [
+      944,
+      1982
+    ],
+    "green-density/look-portrait.png": [
+      1080,
+      1982
+    ],
+    "green-density/reeds-desktop.png": [
+      2340,
+      1080
+    ],
+    "green-density/reeds-narrow.png": [
+      944,
+      1982
+    ],
+    "green-density/reeds-portrait.png": [
+      1080,
+      1982
+    ],
+    "green-density/reeds-return.png": [
+      1080,
+      1982
+    ],
+    "green-normal/arrival-desktop-480.png": [
+      1410,
+      480
+    ],
+    "green-normal/arrival-desktop-540.png": [
+      1410,
+      540
+    ],
+    "green-normal/arrival-desktop-720.png": [
+      1280,
+      720
+    ],
+    "green-normal/arrival-desktop.png": [
+      1410,
+      600
+    ],
+    "green-normal/arrival-narrow.png": [
+      360,
+      800
+    ],
+    "green-normal/arrival-portrait.png": [
+      390,
+      844
+    ],
+    "green-normal/arrival-return.png": [
+      390,
+      844
+    ],
+    "green-normal/look-narrow.png": [
+      360,
+      800
+    ],
+    "green-normal/look-portrait.png": [
+      390,
+      844
+    ],
+    "green-normal/reeds-desktop.png": [
+      1410,
+      600
+    ],
+    "green-normal/reeds-narrow.png": [
+      360,
+      800
+    ],
+    "green-normal/reeds-portrait.png": [
+      390,
+      844
+    ],
+    "green-normal/reeds-return.png": [
+      390,
+      844
+    ],
+    "green-touch/arrival-desktop-480.png": [
+      1410,
+      480
+    ],
+    "green-touch/arrival-desktop-540.png": [
+      1410,
+      540
+    ],
+    "green-touch/arrival-desktop.png": [
+      1410,
+      600
+    ],
+    "green-touch/arrival-narrow.png": [
+      360,
+      800
+    ],
+    "green-touch/arrival-portrait.png": [
+      390,
+      844
+    ],
+    "green-touch/arrival-return.png": [
+      390,
+      844
+    ],
+    "green-touch/look-narrow.png": [
+      360,
+      800
+    ],
+    "green-touch/look-portrait.png": [
+      390,
+      844
+    ],
+    "green-touch/reeds-desktop.png": [
+      1410,
+      600
+    ],
+    "green-touch/reeds-narrow.png": [
+      360,
+      800
+    ],
+    "green-touch/reeds-portrait.png": [
+      390,
+      844
+    ],
+    "green-touch/reeds-return.png": [
+      390,
+      844
+    ],
+    "installed-normal/arrival-desktop-480.png": [
+      1410,
+      480
+    ],
+    "installed-normal/arrival-desktop-540.png": [
+      1410,
+      540
+    ],
+    "installed-normal/arrival-desktop-720.png": [
+      1280,
+      720
+    ],
+    "installed-normal/arrival-desktop.png": [
+      1410,
+      600
+    ],
+    "installed-normal/arrival-narrow.png": [
+      360,
+      800
+    ],
+    "installed-normal/arrival-portrait.png": [
+      390,
+      844
+    ],
+    "installed-normal/arrival-return.png": [
+      390,
+      844
+    ],
+    "installed-normal/look-narrow.png": [
+      360,
+      800
+    ],
+    "installed-normal/look-portrait.png": [
+      390,
+      844
+    ],
+    "installed-normal/reeds-desktop.png": [
+      1410,
+      600
+    ],
+    "installed-normal/reeds-narrow.png": [
+      360,
+      800
+    ],
+    "installed-normal/reeds-portrait.png": [
+      390,
+      844
+    ],
+    "installed-normal/reeds-return.png": [
+      390,
+      844
+    ],
+    "installed-western/0-ouxiang_xie.png": [
+      1410,
+      600
+    ],
+    "installed-western/1-ziling_zhou.png": [
+      1410,
+      600
+    ],
+    "installed-western/2-ouxiang_xie.png": [
+      1410,
+      600
+    ],
+    "installed-western/3-qinfang_ting.png": [
+      1410,
+      600
+    ],
+    "rejected/first-green-touch/arrival-desktop.png": [
+      1410,
+      600
+    ],
+    "rejected/red-normal/arrival-desktop.png": [
+      1410,
+      600
+    ]
+  },
+  "selected_current_originals_directly_viewed": [
+    "green-touch/arrival-desktop-480.png",
+    "green-touch/arrival-desktop-540.png",
+    "green-density/arrival-desktop.png",
+    "green-normal/arrival-desktop.png",
+    "installed-western/0-ouxiang_xie.png",
+    "installed-western/1-ziling_zhou.png",
+    "installed-western/2-ouxiang_xie.png",
+    "installed-western/3-qinfang_ting.png"
+  ],
+  "isolated_framing_originals": 35,
+  "installed_framing_originals": 13,
+  "installed13_byte_equal_fixture": true,
+  "rendered_western_arrivals": 4,
+  "scope": "Camera/UI fit and public actions/resizing plus focused supported western traversal. Source/bakes retained. Incremental visual review; not final all-site art, new bank/lotus meshes, physical phone, sustained/device budgets, release or authenticated services acceptance."
+}

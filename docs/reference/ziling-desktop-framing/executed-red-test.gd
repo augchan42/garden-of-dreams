@@ -26,13 +26,8 @@ func settle() -> void:
  var deadline:=Time.get_ticks_msec()+10000
  while route.camera_tween!=null and route.camera_tween.is_valid() and route.camera_tween.is_running() and Time.get_ticks_msec()<deadline:await process_frame
  check(route.camera_tween==null or not route.camera_tween.is_valid() or not route.camera_tween.is_running(),"Camera tween timeout")
- # Subscribe before forcing a frame so a synchronous completion cannot be missed.
- var completed: Array[bool]=[false]
- RenderingServer.frame_post_draw.connect(func():completed[0]=true,CONNECT_ONE_SHOT)
  RenderingServer.force_draw()
- print("ZILING_DRAW_COMPLETED_SYNCHRONOUSLY ",completed[0])
- if not completed[0]:await RenderingServer.frame_post_draw
- check(completed[0],"Native draw did not complete")
+ await RenderingServer.frame_post_draw
 
 func press(label: String) -> void:
  for button in route.actions.get_children():
@@ -77,8 +72,8 @@ func inspect(phase: String,portrait: bool) -> void:
  else:
   check(route.camera.keep_aspect==Camera3D.KEEP_HEIGHT,"Desktop projection: "+phase)
   for name in subjects:check(measurements[name].fits,name+" clipped or covered: "+phase)
-  check(measurements.island.width_fraction>=(150.0/root.get_visible_rect().size.x if root.get_visible_rect().size.y<600 else .23),"Desktop island too small: "+phase)
-  check(measurements.bridge.width_fraction>=(110.0/root.get_visible_rect().size.x if root.get_visible_rect().size.y<600 else .12),"Desktop bridge too small: "+phase)
+  check(measurements.island.width_fraction>=.23,"Desktop island too small: "+phase)
+  check(measurements.bridge.width_fraction>=.12,"Desktop bridge too small: "+phase)
   check(measurements.pavilion_roof.high[1]<measurements.island.low[1]-8,"Desktop roof and island silhouettes not separated: "+phase)
   check(route.camera.position.y<=3.3,"Desktop island view too high: "+phase)
  var image:=root.get_texture().get_image()
@@ -115,15 +110,9 @@ func run() -> void:
  inspect("arrival-portrait",true)
  root.size=narrow_size;await settle();inspect("arrival-narrow",true)
  root.size=desktop_size;await settle()
- var short_view:=clampf((600.0-root.get_visible_rect().size.y)/190.0,0.0,1.0)
- var desktop:=Transform3D(Basis.IDENTITY,Vector3(-40,1.4,10).lerp(Vector3(-42,1.4,16),short_view)).looking_at(Vector3(-32,-1.25,0).lerp(Vector3(-32,-3.25,0),short_view),Vector3.UP)
- check(route.camera.transform.is_equal_approx(desktop) and is_equal_approx(route.camera.fov,55.0) and route.camera.keep_aspect==Camera3D.KEEP_HEIGHT,"Desktop arrival not restored")
+ var desktop:=Transform3D(Basis.IDENTITY,Vector3(-40,3,6)).looking_at(Vector3(-34,.6,0),Vector3.UP)
+ check(route.camera.transform.is_equal_approx(desktop) and is_equal_approx(route.camera.fov,55.0) and route.camera.keep_aspect==Camera3D.KEEP_HEIGHT,"Original desktop arrival not restored")
  inspect("arrival-desktop",false)
- if not touch:
-  root.size=Vector2i(1280,720);await settle();inspect("arrival-desktop-720",false)
- if not density:
-  for height in [540,480]:
-   root.size=Vector2i(1410,height);await settle();inspect("arrival-desktop-"+str(height),false)
  root.size=portrait_size;await settle();inspect("arrival-return",true)
  var before:Transform3D=route.camera.transform
  press("Watch the reeds");await settle()
@@ -133,7 +122,7 @@ func run() -> void:
  root.size=narrow_size;await settle();inspect("reeds-narrow",true)
  check(route.output_label.text==detail_text,"Resize replaced reed description")
  root.size=desktop_size;await settle();inspect("reeds-desktop",false)
- check(route.camera.transform.is_equal_approx(desktop) and route.camera.keep_aspect==Camera3D.KEEP_HEIGHT,"Reed rotation did not restore desktop camera")
+ check(route.camera.transform.is_equal_approx(desktop) and route.camera.keep_aspect==Camera3D.KEEP_HEIGHT,"Reed rotation did not restore original desktop camera")
  check(route.output_label.text==detail_text,"Rotation replaced reed description")
  root.size=portrait_size;await settle();inspect("reeds-return",true)
  press("Look");await settle();inspect("look-portrait",true)
@@ -146,10 +135,10 @@ func run() -> void:
   route.action_scroll.scroll_vertical=10000;await settle()
   var last=route.actions.get_child(route.actions.get_child_count()-1) as Button
   check(route.action_scroll.get_global_rect().encloses(last.get_global_rect()),"Return to pavilion action unreachable by scrolling")
- check(rows.size()==(10 if density else (12 if touch else 13)),"Missing original captures")
+ check(rows.size()==10,"Missing original captures")
  var counts:Dictionary={}
  for name in subjects:counts[name]=subjects[name].size()
  var file:=FileAccess.open(output+"/report.json",FileAccess.WRITE)
- file.store_string(JSON.stringify({"status":"ziling_framing_passed" if errors.is_empty() else "rejected","source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_ziling_framing.gd"),"touch":touch,"density":density,"subject_vertex_counts":counts,"errors":errors,"rows":rows,"scope":"Actual public arrival/Watch the reeds/Look with completed tweens, all imported island/bridge/pavilion roof vertices and both reed LODs above measured UI; desktop camera restored, resize/rotation/text/visitor invariants and touch48/last-action scroll. Native density windows can be host-clamped. Projection cannot prove occlusion: original images require direct review. Not final source/site-art, physical phone, moving-tour or sustained acceptance."}," ")+"\n");file.close()
+ file.store_string(JSON.stringify({"status":"ziling_framing_passed" if errors.is_empty() else "rejected","source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_ziling_framing.gd"),"touch":touch,"density":density,"subject_vertex_counts":counts,"errors":errors,"rows":rows,"scope":"Actual public arrival/Watch the reeds/Look with completed tweens, all imported island/bridge/pavilion roof vertices and both reed LODs above measured UI; original desktop camera restored, resize/rotation/text/visitor invariants and touch48/last-action scroll. Native density windows can be host-clamped. Projection cannot prove occlusion: original images require direct review. Not final source/site-art, physical phone, moving-tour or sustained acceptance."}," ")+"\n");file.close()
  print("ZILING_FRAMING_RESULT ",rows.size()," originals; ",errors.size()," failures")
  quit(0 if errors.is_empty() else 1)

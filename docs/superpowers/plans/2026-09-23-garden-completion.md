@@ -129,3 +129,10 @@ Remaining: final art across fourteen sites, particularly Ziling island waterline
 Installed source `1380ceca` raises stream/lotus waterline, synchronizes neutral saved-water/kit palettes and replaces ten reed clumps with curved tapered leaves and radial plume volumes. All camera/collision/marker contracts are preserved. Six complete source bake phases, thirty-nine completed isolated review phases, two fourteen-room rendered tours and thirteen installed checks pass. The earlier collider re-export failure, architecture runner marker mismatch and installed resize timeout/rollback remain preserved; no assertion was removed. Current references remain 37/42.
 
 The full goal remains active. Next scene work: improve Ziling's retained desktop composition and bank/lotus treatment, then complete remaining per-site materials, stage/ground/background closure and action views. Physical-phone/current-package performance and authenticated services remain separate required work. No site is declared final from these checks. Evidence: `../../reference/ziling-source-art/README.md`.
+
+
+## Ziling desktop framing checkpoint — 2026-10-09
+
+The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
+
+Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](../../reference/ziling-desktop-framing/README.md).

@@ -1,0 +1,24 @@
+{
+  "status": "cpu_baseline_rejected_native_imported_inputs_needed",
+  "delta_pixels": {
+    "island": {
+      "low": 0.001627237054606212,
+      "high": 0.007973286407832347
+    },
+    "bridge": {
+      "low": 0.0016856835624139421,
+      "high": 0.001079046231780012
+    },
+    "pavilion_roof": {
+      "low": 0.0038115182812816784,
+      "high": 0.001628567446687157
+    },
+    "reeds": {
+      "low": 0.0003278941115354428,
+      "high": 0.001308106245005547
+    }
+  },
+  "original_tolerance_pixels": 0.002,
+  "maximum_error_pixels": 0.007973286407832347,
+  "scope": "Raw exported mesh projection differs slightly from actual native measured bounds. Original0.002px baseline guard retained; no proposals accepted and no cause asserted. Next collect actual imported world vertices and camera basis, then repeat the same baseline guard. No production/committed changes."
+}

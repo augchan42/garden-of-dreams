@@ -12,3 +12,10 @@ Every scene pass should retain editable Blender sources, exported glTF, imported
 ## Current next scene work — 2026-10-09
 
 The stream/lotus waterline, neutral saved-water/kit parity and ten volumetric reeds are installed as source `1380ceca`. Complete lighting, both full native tours and thirteen installed checks pass. Ziling's existing portrait composition is retained; its desktop lower crop, rectangular banks, lotus detail and faceted foliage remain open. Continue those source/framing issues, then remaining per-site ground/backdrop/material/action views. Current packages must be rebuilt before new physical-device evidence; authenticated services and five missing reference slots remain required full-goal work. See `reference/ziling-source-art/README.md`.
+
+
+## Ziling desktop framing checkpoint — 2026-10-09
+
+The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
+
+Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).

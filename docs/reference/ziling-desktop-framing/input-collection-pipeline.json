@@ -1,0 +1,33 @@
+{
+  "status": "native_inputs_collected",
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-desktop-framing/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "log_sha256": "c80536b43a521364bcf894f5eab167528d97a1c0f6cdd709229dc3e67d663859"
+    },
+    {
+      "name": "extract-native-inputs",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-desktop-framing/godot",
+        "--script",
+        "res://tests/collect_ziling_desktop_inputs.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-desktop-framing/native-inputs.json"
+      ],
+      "exit_code": 0,
+      "log_sha256": "db1ab5e854bdccfd0774e8860aa4045d15c94947205e5d81df25cb826d1e41da"
+    }
+  ]
+}

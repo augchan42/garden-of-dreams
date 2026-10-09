@@ -737,7 +737,7 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
   "rockery_gate": [Vector3(0,1.85,35.7),Vector3(0,1.9,29)],
   "qinfang_ting": [Vector3(10,5.5,12),Vector3(0,1.8,0)],
   "ouxiang_xie": [Vector3(-15,5,10),Vector3(-23,1.8,0)],
-  "ziling_zhou": [Vector3(-40,1.4,10),Vector3(-32,-1.25,0)]}
+  "ziling_zhou": [Vector3(-40,3,6),Vector3(-34,.6,0)]}
  var view_position: Vector3 = views[id][0]
  var view_target: Vector3 = views[id][1]
  var viewport_size = get_viewport().get_visible_rect().size
@@ -757,11 +757,6 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
   view_position=Vector3(-41,3.2,4)
   view_target=Vector3(-33,-5,0)
   camera.fov=70.0
- elif not portrait and id=="ziling_zhou":
-  # Move back smoothly as landscape controls occupy more of the view.
-  var short_view=clampf((600.0-viewport_size.y)/190.0,0.0,1.0)
-  view_position=Vector3(-40,1.4,10).lerp(Vector3(-42,1.4,16),short_view)
-  view_target=Vector3(-32,-1.25,0).lerp(Vector3(-32,-3.25,0),short_view)
  elif portrait and id=="qiushuang_zhai":
   view_position=Vector3(22,3.2,-4.8)
   view_target=Vector3(22,-5,-15.5)

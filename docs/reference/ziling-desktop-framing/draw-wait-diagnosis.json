@@ -1,0 +1,8 @@
+{
+  "status": "confirmed_native_completion_control",
+  "observed": "Two preserved touch runs timed out at different resize stages with unchanged100secdeadline and no camera assertion failure. Prior normal control passed.",
+  "hypothesis": "force_draw may finish and emit frame_post_draw before the following await subscribes; subscribe before forcing and require an observed completed native draw.",
+  "documentation": "https://docs.godotengine.org/en/stable/classes/class_renderingserver.html#class-renderingserver-signal-frame-post-draw",
+  "synchronous_completions": 39,
+  "normal11originals_byte_identical_before_after_fix": true
+}

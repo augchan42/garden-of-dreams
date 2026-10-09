@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: ZILING_FRAMING_REJECTED: island clipped or covered: arrival-desktop
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_ziling_framing.gd:22)
+       [1] inspect (res://tests/test_ziling_framing.gd:74)
+       [2] run (res://tests/test_ziling_framing.gd:115)
+       [3] settle (res://tests/test_ziling_framing.gd:30)
+ERROR: ZILING_FRAMING_REJECTED: island clipped or covered: reeds-desktop
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_ziling_framing.gd:22)
+       [1] inspect (res://tests/test_ziling_framing.gd:74)
+       [2] run (res://tests/test_ziling_framing.gd:126)
+       [3] settle (res://tests/test_ziling_framing.gd:30)
+ZILING_FRAMING_RESULT 10 originals; 2 failures
