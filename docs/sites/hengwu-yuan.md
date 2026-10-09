@@ -102,3 +102,10 @@ The compact foreground-stone candidate now has completed matching six-phase ligh
 Saved authoring `19eb386d` / complete source `26033c99` is now installed with matching lighting. Only the nearest pierced stone and its correctly anchored collider change; furniture, other stones, authored cameras and the no-tree skyline remain preserved. Six source bake phases, 47 completed review checks, seven intended rejection controls, sixteen exact default reexports and eleven installed-project checks pass. Both full native desktop and portrait walks pass. Original evidence: `../reference/hengwu-native-review/README.md` and `../../export/hengwu-native-review-evidence.json`.
 
 Nine completed public arrival/rock/book views and four settled walk originals were inspected. The court is less crowded by the nearest stone. Narrow book/rock framing, roof crop, foreground wall cap and facade lighting remain open; final Hengwu art and physical-phone performance are not accepted by this checkpoint.
+
+
+## Portrait stone and book actions — 2026-10-09
+
+The nearest pierced stone and complete book/tabletop now fit above portrait controls at both tested widths. Resize preserves the selected detail; rotation restores the original desktop pose. Look returns to the courtyard overview. A short scrollable action list keeps 48-unit touch targets and its final action reachable. Source geometry and lighting are unchanged.
+
+Three final graphical modes and ten adjacent regressions pass. Eight final original stone/book frames were inspected, with all three nearest-stone holes/base visible and the tabletop clear of the panel. Failed comparisons and actual public-action regressions remain archived: `../reference/hengwu-detail-framing/README.md` and `../../export/hengwu-detail-framing-evidence.json`. Desktop density scaling does not establish phone acceptance. Arrival wall cap, roof crop, facade lighting and final scene art remain open.

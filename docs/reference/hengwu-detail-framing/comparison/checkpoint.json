@@ -1,0 +1,345 @@
+{
+  "status": "camera_comparison_completed_not_installed",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "db32d9c058a732c330d9df910b22b961f755045c5904c47e8fde68fd3c056138",
+  "current_merge_commit": "ac3de43ce7c84413012cd7066d1a94ae11b72385",
+  "native_originals": 56,
+  "final_proposals": [
+    {
+      "action": "rocks",
+      "camera_fov": 75.0,
+      "camera_position": [
+        -15.6200008392334,
+        1.625,
+        -10.4099998474121
+      ],
+      "camera_transition_running": false,
+      "file": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-detail-framing-cq4uflqe/interior-portrait-comparison/rocks-measured-390x844.png",
+      "logical_viewport": [
+        390,
+        844
+      ],
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          376.101257324219,
+          515.357788085938
+        ],
+        "low": [
+          17.6269626617432,
+          155.659957885742
+        ],
+        "panel_top": 534.0,
+        "width_fraction": 0.919164858108912
+      },
+      "pixels": [
+        390,
+        844
+      ],
+      "probe_parameters": {
+        "book_measurement": {},
+        "fov": 75.0,
+        "scale": 1.1,
+        "shift": -0.85,
+        "target": [
+          -15.3999996185303,
+          0.5,
+          -12.5
+        ]
+      },
+      "sha256": "b8d34aee9f598d400b6b543968b3370ae4afc90b93e2e5c48ab4914f20cd6967",
+      "site_bakes_enabled": true,
+      "variant": "measured",
+      "visibility": {
+        "expected": "COL_hengwu_rock",
+        "hit": "COL_hengwu_rock",
+        "visible": true
+      }
+    },
+    {
+      "action": "read",
+      "camera_fov": 55.0,
+      "camera_position": [
+        -18.0,
+        1.79999995231628,
+        -13.3999996185303
+      ],
+      "camera_transition_running": false,
+      "file": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-detail-framing-cq4uflqe/interior-portrait-comparison/read-measured-390x844.png",
+      "logical_viewport": [
+        390,
+        844
+      ],
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          374.476379394531,
+          406.1337890625
+        ],
+        "low": [
+          59.3326225280762,
+          224.408966064453
+        ],
+        "panel_top": 534.0,
+        "width_fraction": 0.808060915042192
+      },
+      "pixels": [
+        390,
+        844
+      ],
+      "probe_parameters": {
+        "book_measurement": {
+          "behind": 0,
+          "fits": true,
+          "header_bottom": 38.0,
+          "high": [
+            256.454864501953,
+            313.657623291016
+          ],
+          "low": [
+            138.976181030273,
+            252.159027099609
+          ],
+          "panel_top": 534.0,
+          "width_fraction": 0.301227393517127
+        },
+        "fov": 55.0,
+        "scale": 1.0,
+        "shift": -1.2,
+        "target": [
+          -20.0,
+          -0.350000023841858,
+          -14.6999998092651
+        ]
+      },
+      "sha256": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+      "site_bakes_enabled": true,
+      "variant": "measured",
+      "visibility": {
+        "expected": "COL_hengwu_table",
+        "hit": "COL_hengwu_table",
+        "visible": true
+      }
+    },
+    {
+      "action": "rocks",
+      "camera_fov": 90.0,
+      "camera_position": [
+        -15.6200008392334,
+        1.625,
+        -10.4099998474121
+      ],
+      "camera_transition_running": false,
+      "file": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-detail-framing-cq4uflqe/interior-portrait-comparison/rocks-measured-360x800.png",
+      "logical_viewport": [
+        360,
+        800
+      ],
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          345.973083496094,
+          425.770294189453
+        ],
+        "low": [
+          14.6339282989502,
+          107.780601501465
+        ],
+        "panel_top": 448.0,
+        "width_fraction": 0.920386542214288
+      },
+      "pixels": [
+        360,
+        800
+      ],
+      "probe_parameters": {
+        "book_measurement": {},
+        "fov": 90.0,
+        "scale": 1.1,
+        "shift": -1.5,
+        "target": [
+          -15.3999996185303,
+          -0.149999976158142,
+          -12.5
+        ]
+      },
+      "sha256": "6a8ff151b769aba3f3506db52f618fbed9baf38a70f87cc9ff79f79c47418836",
+      "site_bakes_enabled": true,
+      "variant": "measured",
+      "visibility": {
+        "expected": "COL_hengwu_rock",
+        "hit": "COL_hengwu_rock",
+        "visible": true
+      }
+    },
+    {
+      "action": "read",
+      "camera_fov": 55.0,
+      "camera_position": [
+        -18.0,
+        1.79999995231628,
+        -13.3999996185303
+      ],
+      "camera_transition_running": false,
+      "file": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-hengwu-detail-framing-cq4uflqe/interior-portrait-comparison/read-measured-360x800.png",
+      "logical_viewport": [
+        360,
+        800
+      ],
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          345.670501708984,
+          385.354248046875
+        ],
+        "low": [
+          54.7685623168945,
+          217.608245849609
+        ],
+        "panel_top": 422.0,
+        "width_fraction": 0.808060942755805
+      },
+      "pixels": [
+        360,
+        800
+      ],
+      "probe_parameters": {
+        "book_measurement": {
+          "behind": 0,
+          "fits": true,
+          "header_bottom": 38.0,
+          "high": [
+            236.727554321289,
+            299.991668701172
+          ],
+          "low": [
+            128.285705566406,
+            243.223709106445
+          ],
+          "panel_top": 422.0,
+          "width_fraction": 0.301227357652452
+        },
+        "fov": 55.0,
+        "scale": 1.0,
+        "shift": -1.2,
+        "target": [
+          -20.0,
+          -0.350000023841858,
+          -14.6999998092651
+        ]
+      },
+      "sha256": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+      "site_bakes_enabled": true,
+      "variant": "measured",
+      "visibility": {
+        "expected": "COL_hengwu_table",
+        "hit": "COL_hengwu_table",
+        "visible": true
+      }
+    }
+  ],
+  "book_matches_directly_viewed_second_attempt": {
+    "[390, 844]": true,
+    "[360, 800]": true
+  },
+  "directly_viewed": [
+    "portrait-comparison/rocks-measured-390x844.png",
+    "portrait-comparison/rocks-measured-360x800.png",
+    "portrait-comparison/read-measured-390x844.png",
+    "portrait-comparison/read-measured-360x800.png",
+    "visible-portrait-comparison/rocks-measured-390x844.png",
+    "visible-portrait-comparison/rocks-measured-360x800.png",
+    "interior-portrait-comparison/rocks-measured-390x844.png",
+    "interior-portrait-comparison/rocks-measured-360x800.png"
+  ],
+  "scope": "Actual portrait comparison only. Four final projected subjects fit above real UI; stone proposals directly viewed with all three holes and base visible. Book originals viewed in preceding comparison; exact-byte equality recorded. First desktop-search assertion and two screen-fit/collider-ray wall occlusions rejected and preserved. Product/runtime/authoring/lighting unchanged.",
+  "next_design": "Keep camera inside the verified court depth (z=-10.6 to -10.41), adapt portrait FOV/aim to actual panel space, retain original desktop detail poses. Public Look should restore overview; selected detail should survive resizing and return to its desktop pose on rotation. Require source-bound native fit, public action/resize/text/player invariants and direct original pixel review before adoption.",
+  "files": {
+    "preparation.json": "b36c190ceea718fc4091575c9279050b6247e46c5690233d5ba0d5fad966b607",
+    "command.json": "a6953f8353c5cda1f5a69def159b1c52417b599d057804296b0876de612eb992",
+    "corrected-command.json": "9f6afcfe9e268943a7a1e00e0e29610ebf20a2f292802529b0988d9962c753a7",
+    "visible-command.json": "5acace9f14dd426311b7d03f594e60b8a9ba36421d270ae31fe08dad3e0b7bb4",
+    "interior-command.json": "849b4ccb3c228f4e2bc783bab608f5b3c80c62c413e31891fe7d5e1223746731",
+    "native-comparison.log": "d90bb11df94c0d35c1e06923b4484748fca4423c787a42dcc043e217c9233f15",
+    "corrected-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "visible-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "interior-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "second-executed-probe.gd": "bb789f964f33b24d4951d15d17ce06a086fc348faa0fc48903f6032a967f5d88",
+    "third-executed-probe.gd": "1bb91faff78aaa96f58559a8642d38e8cb56fdf9c6cc3b85a27e6bc6c7dcc720",
+    "visual-rejections.json": "25562cc96e9e25160c17d8f66cab80c60ce0c4e49c4b0520ecb201da57ed27e8",
+    "godot/tests/hengwu-framing-probe.json": "c053a35d55cddcc95747b03c4fce7063fb8bf9cc13761fcd5987c0a89785434f",
+    "godot/tests/compare_hengwu_detail_framing.gd": "9ea2a35029713d16480ed07ea61be00fc030e8f9b07e64a94af58e7df64eabb7",
+    "first-attempt/native-comparison.log": "d90bb11df94c0d35c1e06923b4484748fca4423c787a42dcc043e217c9233f15",
+    "first-attempt/termination.json": "4a37076cec87a20797e7b9a675e8dd9a4b0d612f8a6b34d8edcfd6ba2861cf65",
+    "first-attempt/executed-probe.gd": "3065ce747d09d831d1e34f2756e41341bee47f74760b02460a365baa36b279a8",
+    "first-attempt/captures/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "first-attempt/captures/rocks-measured-360x800.png": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+    "first-attempt/captures/read-baseline-360x800.png": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+    "first-attempt/captures/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "first-attempt/captures/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "first-attempt/captures/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "first-attempt/captures/rocks-measured-390x844.png": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+    "first-attempt/captures/read-baseline-390x844.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "first-attempt/captures/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "first-attempt/captures/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "first-attempt/captures/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "first-attempt/captures/rocks-fixed-1410x600.png": "2acccc8a7ac9c6c71d12c10e9aac62ea35bca7188e8219469ee40eec39999ec8",
+    "first-attempt/captures/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "first-attempt/captures/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "portrait-comparison/rocks-measured-360x800.png": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+    "portrait-comparison/read-baseline-360x800.png": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+    "portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "portrait-comparison/report.json": "3cbac59ede7a0765e124214d31cea60b205417173e33a8307c90ddc08bcd6420",
+    "portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "portrait-comparison/rocks-measured-390x844.png": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+    "portrait-comparison/read-baseline-390x844.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "visible-portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "visible-portrait-comparison/rocks-measured-360x800.png": "56df82b3bc082e096e28fbbb7b99436fcaf4982db61e1e26983053e12f3501eb",
+    "visible-portrait-comparison/read-baseline-360x800.png": "790fcae0835a2e75c92e322fc7002d49fb3be9f4077c367f3b9eeca7d76960e6",
+    "visible-portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "visible-portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "visible-portrait-comparison/report.json": "5944a684e417d6a022a7da9e21f5e61894f31db834b29a865f5665569d7b3653",
+    "visible-portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "visible-portrait-comparison/rocks-measured-390x844.png": "0ba3bd03d4617be4c0e72326fe80a39413287b4dd26ab951f96ffd27d8833d4b",
+    "visible-portrait-comparison/read-baseline-390x844.png": "1e355593524190887f474c5cef9ffc978fa035fb6506de5b9070a650a8a4f7bf",
+    "visible-portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "visible-portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "visible-portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "visible-portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "visible-portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "visible-portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "interior-portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "interior-portrait-comparison/rocks-measured-360x800.png": "6a8ff151b769aba3f3506db52f618fbed9baf38a70f87cc9ff79f79c47418836",
+    "interior-portrait-comparison/read-baseline-360x800.png": "53b8392bc1bc7a798c6eca77599764fd424ce1a28950c98c5c5cf944e38539c2",
+    "interior-portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "interior-portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "interior-portrait-comparison/report.json": "0b06d32022262fa5e195ca56a4a9c12ee6d13b70f430aba11dfb39095a465d18",
+    "interior-portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "interior-portrait-comparison/rocks-measured-390x844.png": "b8d34aee9f598d400b6b543968b3370ae4afc90b93e2e5c48ab4914f20cd6967",
+    "interior-portrait-comparison/read-baseline-390x844.png": "5c6835768e2bc8c552cdee3d8de1411d02a57ef7bea62dd15fd152ac9641e4b5",
+    "interior-portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "interior-portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "interior-portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "interior-portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "interior-portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "interior-portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "helpers/garden_prepare_hengwu_framing.py": "60779c1796dc24efcf352391c7bfb09bbfb3dc273bd2b0784cc8ea7d445d4d36",
+    "helpers/garden_compare_hengwu_detail_framing.gd": "3065ce747d09d831d1e34f2756e41341bee47f74760b02460a365baa36b279a8"
+  }
+}
