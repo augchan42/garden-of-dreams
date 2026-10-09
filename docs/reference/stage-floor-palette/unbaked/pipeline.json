@@ -1,0 +1,87 @@
+{
+  "status": "unbaked_canvas_native_comparison_complete_direct_review_pending",
+  "pid": 13749,
+  "started_at": "2026-10-09T13:11:17.983510+00:00",
+  "baseline_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "candidate_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "script_sha256": "8f716c3b2249c71dfa7bd82b894b8f830fc1400089c2586ba2681e72fc8f54f0",
+  "phases": [
+    {
+      "name": "baseline-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/baseline-import.log",
+      "pid": 13750,
+      "exit_code": 0,
+      "log_sha256": "74117373174122d9df17053de3dfd32e49496ebbce6d3f4b8e22ecb8da4b2848"
+    },
+    {
+      "name": "baseline-originals",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/render-unbaked-floor.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/baseline",
+        "--candidate"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/baseline-originals.log",
+      "pid": 13784,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    },
+    {
+      "name": "candidate-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/candidate-import.log",
+      "pid": 13806,
+      "exit_code": 0,
+      "log_sha256": "0b2dc917333a6ce04450eafa53a66d72ca091a8db7241c18663760543cf7af73"
+    },
+    {
+      "name": "candidate-originals",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/render-unbaked-floor.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/candidate",
+        "--candidate"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/unbaked-native-probe/candidate-originals.log",
+      "pid": 13812,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    }
+  ],
+  "scope": "Identical existing renderer/runtime/cameras, lightmaps disabled, surface clocks10, six originals per source. Both sources retain54bank assertions/rays. This is a palette proposal diagnostic, not fresh-baked, full-site, phone or production acceptance.",
+  "finished_at": "2026-10-09T13:11:59.365403+00:00"
+}

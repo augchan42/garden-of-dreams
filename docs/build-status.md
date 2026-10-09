@@ -1331,3 +1331,12 @@ Current complete source is `73267e2b`; authoring is `2b07ce48`. The 24 island si
 Six complete source phases,25 focused native checks and13 installed checks pass. The 141 source PNGs match engine copies;47 isolated originals have verified hashes/dimensions,12 were directly inspected, and all19 installed lit/Ziling originals reproduce the candidate exactly. The archive preserves153 checked files, with760 installed-file hashes in `export/island-exterior-winding-evidence.json`. Evidence: [executed checks and original renders](reference/island-exterior-winding/README.md).
 
 This is focused repair acceptance. Broad stage canvas retains its original green color and will be addressed next; bank sides, ground/water boundaries, signage, foliage and final fourteen-site art remain. Existing PR15 full tours qualify the previous source. No current phone,2020 Adreno,sustained or release acceptance is claimed. References remain37/42; authenticated services remain open and PR14 stays independently held for security approval. The full goal remains active.
+
+
+## Neutral stage floor — 2026-10-09
+
+The saved canvas base changes from green (.055,.095,.037) to muted warm gray (.065,.060,.055), with all 4,467 objects, 47 other materials and 621 exported mesh attributes preserved. Fourteen other site GLBs remain byte-exact. Current source `c9d4fb30`, authoring `43d7e33e` and runtime `80f64655` are recorded in `export/stage-floor-palette-evidence.json`.
+
+Six source phases refresh 141 lightmaps. Forty native phases pass: 38 positive checks and two expected base-color rejection controls. Saved default exports reproduce 16 GLBs exactly. Both desktop and portrait tours visit 14 rooms across 26 legs, with zero unsupported floor rays and at most four practicals. All 409 review PNGs are hashed and dimension-checked; 52 original files were directly inspected. Fifteen installed checks pass, with 47 installed originals matching the review exactly. Evidence: [neutral stage floor](reference/stage-floor-palette/README.md).
+
+Final art remains open, including red-court/imperial portrait composition, Hengwu arrival composition, ground/water closure, foliage and signage. Five reference slots remain (37/42 collected). Current physical phones, 2020 Adreno/sustained budgets, release and authenticated services still require work. The Android package is stale. PR14 remains separately held for security approval. The full goal remains active.

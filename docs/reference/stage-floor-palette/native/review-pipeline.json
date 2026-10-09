@@ -1,0 +1,951 @@
+{
+  "status": "complete_canvas_technical_review_direct_allroom_and_moving_visual_review_pending",
+  "pid": 35062,
+  "started_at": "2026-10-09T14:13:06.409017+00:00",
+  "candidate_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "baseline_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "authoring_sha256": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+  "frozen_inputs_verified": 259,
+  "phases": [
+    {
+      "name": "coverage",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/verify_lightmaps.py",
+        "--current",
+        "--require-all"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/coverage.log",
+      "pid": 35066,
+      "exit_code": 0,
+      "log_sha256": "8d3e08960af6f5b9c4ec5a12f31a7c6df88f3867fbe23e9be4a220ee0f6ea503"
+    },
+    {
+      "name": "sync-full",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/sync-full.log",
+      "pid": 35069,
+      "exit_code": 0,
+      "log_sha256": "d5c5579f412d2d1e41b84785ed2239b41c3e833853eec7967bbeb6e2eb338b5d"
+    },
+    {
+      "name": "sync-demo",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/sync-demo.log",
+      "pid": 35070,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "sync-priority2",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/sync_priority2_lightmaps.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/sync-priority2.log",
+      "pid": 35071,
+      "exit_code": 0,
+      "log_sha256": "2ccc97df1aeb15a5a3b3bafb0456d8b6bfed77ab38c8ecd1d7eef51e76506b58"
+    },
+    {
+      "name": "sync-wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/sync-wash.log",
+      "pid": 35072,
+      "exit_code": 0,
+      "log_sha256": "38dbdf1ce53b26c86ea3875c8f52367cde2cfd5248669afd56d8ce87de60f401"
+    },
+    {
+      "name": "sync-spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/sync-spill.log",
+      "pid": 35073,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "candidate-cold-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/candidate-cold-import.log",
+      "pid": 35075,
+      "exit_code": 0,
+      "log_sha256": "1f413491acb21bb2b516782d8a1d55be69c80c7f6a34b35aa83baea1c5e9c2ef"
+    },
+    {
+      "name": "configure-lightmap-caps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/configure_lightmap_imports.py",
+        "--size-limit",
+        "256",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/configure-lightmap-caps.log",
+      "pid": 35110,
+      "exit_code": 0,
+      "log_sha256": "c4be36fd19a6d644e8b334d1c376ea52304b7522985a9b3cea2a95dc85d8420b"
+    },
+    {
+      "name": "candidate-configured-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/candidate-configured-import.log",
+      "pid": 35112,
+      "exit_code": 0,
+      "log_sha256": "484e4ae468e2e28f380cc2daa4f41988caf36c304253414f1e1dcc4d2edbf319"
+    },
+    {
+      "name": "native-source-contract",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/native-import-contract.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/native-source-contract.log",
+      "pid": 35132,
+      "exit_code": 0,
+      "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
+    },
+    {
+      "name": "full-lighting",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/full-lighting.log",
+      "pid": 35134,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/wash-normal.log",
+      "pid": 35136,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "wash-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/wash-demo.log",
+      "pid": 35143,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "spill-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/spill-normal.log",
+      "pid": 35145,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/spill-demo.log",
+      "pid": 35150,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "default-sixteen-reexports",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/blender/authoring.blend",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review",
+        "--output-root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/saved-source-reproduction"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/default-sixteen-reexports.log",
+      "pid": 35152,
+      "exit_code": 0,
+      "log_sha256": "6ce92fb32f19101ea9ad9aa2388294bd374e98644d93368ead38843d7975a2fa"
+    },
+    {
+      "name": "site-source-audit",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/scripts/audit_site_sources.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/site-source-audit.log",
+      "pid": 35335,
+      "exit_code": 0,
+      "log_sha256": "059469fdb3e855888a7a70aba20d01bbc883a7bb78687c218254b16eadee2626"
+    },
+    {
+      "name": "western-supported-route",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--script",
+        "res://tests/test_western_route.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/western-supported-route.log",
+      "pid": 35347,
+      "exit_code": 0,
+      "log_sha256": "16242fc0f851486b4c603d5fcf9875f9b04b9109db517ed3525dd6f8db15679b"
+    },
+    {
+      "name": "palette-transfer-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/palette-transfer-normal.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/palette-transfer-normal.log",
+      "pid": 35807,
+      "exit_code": 0,
+      "log_sha256": "2090f5a093caee59942b06b3294b5de38fa67176dfd7198fabff9e59b72a29bf"
+    },
+    {
+      "name": "palette-transfer-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/palette-transfer-demo.json",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/palette-transfer-demo.log",
+      "pid": 35817,
+      "exit_code": 0,
+      "log_sha256": "ba05a8deb1ac2250a0bd0a7058e2c33a370b157a179585c8aa9c51bcef16193e"
+    },
+    {
+      "name": "candidate-corrupt-canvas",
+      "status": "passed_expected_rejection",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--contract=res://tests/canvas-palette-contract.json",
+        "--corrupt-plain",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/corrupt-canvas-unexpected-success.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/candidate-corrupt-canvas.log",
+      "expected_exit_code": 1,
+      "expected_error": "GARDEN_PALETTE_TRANSFER_REJECTED: Active baked base color differs: MAT_stage_canvas",
+      "pid": 35844,
+      "exit_code": 1,
+      "log_sha256": "49283cce7d226ea6d0b3975ea643a3f056b9ebf3c261dfe0ad112cf47c772895"
+    },
+    {
+      "name": "baseline-cold-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/baseline-godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/baseline-cold-import.log",
+      "pid": 35939,
+      "exit_code": 0,
+      "log_sha256": "e358604be2ef8dbe08044e4b298688b50e559aada09fdc32ae5c3c07a7967f48"
+    },
+    {
+      "name": "baseline-canvas-palette-red",
+      "status": "passed_expected_rejection",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/baseline-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--contract=res://tests/canvas-red-contract.json",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/baseline-canvas-unexpected-success.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/baseline-canvas-palette-red.log",
+      "expected_exit_code": 1,
+      "expected_error": "GARDEN_PALETTE_TRANSFER_REJECTED: Imported base color differs: MAT_stage_canvas",
+      "pid": 35980,
+      "exit_code": 1,
+      "log_sha256": "a47abf14f0347019fbbb314ff931dd100b435fbfc34efff4fb6227fcac30d85f"
+    },
+    {
+      "name": "baseline-lit-originals",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/baseline-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/render-water-edge-lit.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/baseline",
+        "--candidate"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/baseline-lit-originals.log",
+      "pid": 36018,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    },
+    {
+      "name": "candidate-lit-originals",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/render-water-edge-lit.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/candidate",
+        "--candidate"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/candidate-lit-originals.log",
+      "pid": 36033,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    },
+    {
+      "name": "ziling-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/ziling-normal"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/ziling-normal.log",
+      "pid": 36057,
+      "exit_code": 0,
+      "log_sha256": "b71f7375d70b9a2fd304e9a223caa694150f903881e7e79068bd4994bb16b2a5"
+    },
+    {
+      "name": "ziling-touch",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/ziling-touch",
+        "--touch"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/ziling-touch.log",
+      "pid": 36082,
+      "exit_code": 0,
+      "log_sha256": "417ef73cfbe77b9805bfef1a33d0033adbe4fe85990bb95d5330ef5fde416e60"
+    },
+    {
+      "name": "ziling-density",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/ziling-density",
+        "--density"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/ziling-density.log",
+      "pid": 36126,
+      "exit_code": 0,
+      "log_sha256": "5c9e734f08e736738deb4311420138419dfc4593b6b9dc363445881257b82412"
+    },
+    {
+      "name": "adjacent-ouxiang",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/ouxiang"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-ouxiang.log",
+      "pid": 36140,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    },
+    {
+      "name": "adjacent-architecture",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/architecture"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-architecture.log",
+      "pid": 36157,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6"
+    },
+    {
+      "name": "adjacent-hengwu",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/hengwu"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-hengwu.log",
+      "pid": 36181,
+      "exit_code": 0,
+      "log_sha256": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719"
+    },
+    {
+      "name": "adjacent-tubi",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_tubi_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/tubi"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-tubi.log",
+      "pid": 36224,
+      "exit_code": 0,
+      "log_sha256": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5"
+    },
+    {
+      "name": "adjacent-qiushuang",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/qiushuang"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-qiushuang.log",
+      "pid": 36240,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "adjacent-pond",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_pond_view.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/pond"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/adjacent-pond.log",
+      "pid": 36254,
+      "exit_code": 0,
+      "log_sha256": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba"
+    },
+    {
+      "name": "texture-memory-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/texture-memory-normal.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/texture-memory-normal.log",
+      "pid": 36262,
+      "exit_code": 0,
+      "log_sha256": "1cdd30415c284da915664723d5576bb7fbe22ef2e66bb3d63c757c1a1ec80cb4"
+    },
+    {
+      "name": "texture-memory-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/texture-memory-demo.json",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/texture-memory-demo.log",
+      "pid": 36282,
+      "exit_code": 0,
+      "log_sha256": "682e57b6d47ad550d657823f3b762bfcec0e6aef258cd26f02293ef851083183"
+    },
+    {
+      "name": "arrivals-desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/arrivals-desktop"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/arrivals-desktop.log",
+      "pid": 36293,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/arrivals-portrait",
+        "--mobile"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/arrivals-portrait.log",
+      "pid": 36328,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "full-tour-desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/tour-desktop",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/tour-desktop/report.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/full-tour-desktop.log",
+      "pid": 36366,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "name": "full-tour-portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/tour-portrait",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-captures/tour-portrait/report.json",
+        "--portrait"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review/review-logs/full-tour-portrait.log",
+      "pid": 37838,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    }
+  ],
+  "scope": "Complete isolated warm gray canvas source review. Source-matched full lighting, actual normal/demo palette transfer including canvas, expected original-source rejection and corrupt-canvas control, all14 desktop/portrait arrivals and both continuous full tours. Matching current baseline/candidate lit originals and unchanged runtime/cameras. Technical completion requires separate direct all-room/moving-view inspection; no final14site art, phone/sustained/release/service or production acceptance.",
+  "completed_source_phase_log_sha256": {
+    "ordinary": "55cfbcfeb3f45d3bf943888b57cbcf177d60ec1c6f9bf330f135a19082fd7c29",
+    "backdrop-wash": "721d0c223d74abf63f9144c040bfb4eaddd9f90aa000af33df7969de3b2682f8",
+    "terminal-spill": "0ecd87097b9ce026a3a72d72a5856c656e651fac74739b8cda76688315373f92",
+    "terminal-spill-pixels": "6ff993a738c9e7b8c806df574e1b1ffab8eb794f7dbd5cb5e818744bc483be82",
+    "native-pixels": "7d972381fbd8e619c38d1c203de2e391ce86036063853af230b29472caef3c30",
+    "coverage": "8d3e08960af6f5b9c4ec5a12f31a7c6df88f3867fbe23e9be4a220ee0f6ea503"
+  },
+  "source_engine_png_sha256": {
+    "HERO_gate_water_drips.001.png": "5ea334f3e5729da51bb7690477c842078018fc64ea2fe35afa733a9b0256ebd3",
+    "HERO_qinfang_bridge.001.png": "c798f649d809fa413056783c210c0e34172dd7e5a327a3a66d46a99cb01ddd64",
+    "HERO_study_scroll_bamboo.001.png": "47fe174a76fdf951a0e7306fafa2dc65d00caa8105c4290047e947abae19dd0f",
+    "HERO_study_scroll_plum.001.png": "d221a4f0317ad621ac1ba9521c35e64241e1c61bc16e5cb630c699f725db4293",
+    "HERO_table_hexagram.001.png": "b655be56f0a6d74956e746caf5f20e298e7604c12ef5399fddb8dfaf008241a7",
+    "HERO_table_line_1_broken.001.png": "a522341aea6b217f64987f194fc1deac1d03e9424b6f90765165d25ac0041bd6",
+    "HERO_table_line_1_solid.001.png": "1fe811293c9a8b3e02ec49534536ac8e359a7c90471d760230630f40b17c7434",
+    "HERO_table_line_2_broken.001.png": "e89b7bb70a8f81a826747766318062401a41bdb3a38cb04ffc0ec7c0fbe1db4f",
+    "HERO_table_line_2_solid.001.png": "9b47b910348d50b7525b064bab85e3658fe8c10fb6eab9e9b1752d6efaabcd22",
+    "HERO_table_line_3_broken.001.png": "6dd5eb8f9f6ce9c19e71fa031227c9f19d0d989116b5bf85e4c2f192960564b8",
+    "HERO_table_line_3_solid.001.png": "e52cdc81084cc036cdb07a1b70b121b423bc4d9f2780acee72caeb0c7e9b53e4",
+    "HERO_table_line_4_broken.001.png": "fa8dcff91635c9d80ec0061b76a1013287058b6bbb0292f76099da65fa32373b",
+    "HERO_table_line_4_solid.001.png": "9f1ae5ceee3f3ec0c6ad1d75b025cc0e8d1758b7f40df6ef438641c8ff0d8f79",
+    "HERO_table_line_5_broken.001.png": "3eb6b08b3c37e439109c8bde0fc3557a39fe03653ab7e161a064d43c41cab14f",
+    "HERO_table_line_5_solid.001.png": "2cc61094da3364617648e38db4ccefb305bfa1f075ca1ecf5efcfcf4e54eb597",
+    "HERO_table_line_6_broken.001.png": "8c5979267fac1c51f0ecbc20368c4002badefe845d39eb26e552a06ce4d037c2",
+    "HERO_table_line_6_solid.001.png": "0b1cb4a5f84e730b1b6b205ca28cbd3607f29e9c57dd7c7e4b9d9d1cbb8e3f02",
+    "HERO_table_pedestal.001.png": "ace79292f668125e7cd8b682a885d5247d18a87f9d0061ddddaf849e6e4cfeb2",
+    "SITE_aojing-guan_MAT_backstage.png": "e3a1e613ea4062545fc1da0a5ba22fb9b7bd91994b0a6228e096b0c5e8eaa3aa",
+    "SITE_aojing-guan_MAT_crt_amber.png": "a2fa2438c59ccc28cb4cb2f3f98c9809d554c934bc4708f14156ce45a7bf63a3",
+    "SITE_aojing-guan_MAT_lattice_wood.png": "4a01c5c37d6c4bfcea99017ac54d8e21f4e095c8fc9d1c339f1dc5c0ba447fdd",
+    "SITE_aojing-guan_MAT_plaster_rock.png": "c937bec68852404138ae087be1b50ff02eb028a808acb07ae3b2b3a549eb4328",
+    "SITE_aojing-guan_MAT_rooftile.png": "6da7496cdbfb4c68776c9027ba728805aa5c1d8823b62b3e11988b9611c255ec",
+    "SITE_aojing-guan_MAT_whitewash.png": "c29f8860c8b2a75fcfc31f3a6b0bc946b4924ae5789d129709a79766afa3cd97",
+    "SITE_daguan-lou_MAT_backstage.png": "5d7f84fd5a08624510f989cd44295984f0a0a52a64b17f1adf2bc8f160784651",
+    "SITE_daguan-lou_MAT_bronze.png": "6a6677f325261da3b5439d5162fbe15428e457bad17616431d315ec848f058d2",
+    "SITE_daguan-lou_MAT_crt_amber.png": "85614abea69850af7b2441fd02320824ec45f951f49c88539657fd586514495d",
+    "SITE_daguan-lou_MAT_daguan_lacquer.png": "99220aa1de6e139987aace1469e7881e7719dcdd8c8d475e82e5e3c0571d5c6d",
+    "SITE_daguan-lou_MAT_daguan_recess.png": "38d4a2e137f8c1932a75ccda0619751bec91f660d77fb8a0fc65d1d5b40d759f",
+    "SITE_daguan-lou_MAT_lattice_wood.png": "67b8cc51a91583ca526e208caace990ebc72d5bf7a97c06d3eb7be65b44ef387",
+    "SITE_daguan-lou_MAT_plaster_rock.png": "7122dcc8bcaa6f9dd6511c9aeb811a1e26081f027e3dbda3e7f0a51c7f2491b1",
+    "SITE_daguan-lou_MAT_rooftile.png": "cd6d6294c9609fa5be910342acb10d15caaa961b8bb00e7a3c4c69d982fe39ae",
+    "SITE_daguan-lou_MAT_whitewash.png": "53067ce29d862e040d274fd0f519e96c46cc780834fe3f86f2d35795005bce1c",
+    "SITE_daoxiang-cun_MAT_backstage.png": "e93e916dd9d07ace4761d2227f1e6bc852aac5c7149d452a8ee00ffd1d278a47",
+    "SITE_daoxiang-cun_MAT_bronze.png": "96466eeab8a6d866e195c248c4642d3269e65502d875be31a659c1a581527085",
+    "SITE_daoxiang-cun_MAT_crt_amber.png": "d56983930d0cdeebf973814f2d351a7e364853c72ac1b5c934d0dcf1ac04e97c",
+    "SITE_daoxiang-cun_MAT_lattice_wood.png": "234d00f747613b62563ff590668ba29ffe95614f7c2806fdb151e1432fd4f7f9",
+    "SITE_daoxiang-cun_MAT_paddy_painted_texture.png": "c1aa387cd714dd347cfd75ae76bf15e069935444f4c203d9863f4e7876c6c03b",
+    "SITE_daoxiang-cun_MAT_plaster_rock.png": "26a5e742520f96b1e5a4cbe9de3f802e276f128ee46a7be340ab19f523bdd82b",
+    "SITE_daoxiang-cun_MAT_thatch.png": "c18c9d404398d50f99f42ab866155f2d39b847c75c043d308cee66f7bcce259e",
+    "SITE_daoxiang-cun_MAT_whitewash.png": "77eebe8c8e66bebe895129e2095f042a1bbefc2adee2c55abd04e44492918b9f",
+    "SITE_hengwu-yuan_MAT_backstage.png": "42734f8e6a99a94241f8f05168fe7996a8f1231a8d04a38ea1013333b055e00e",
+    "SITE_hengwu-yuan_MAT_bronze.png": "7a8a7f7b79021ba7620adf5ce62769cb70b76c227fbf765a3c38fb4127a5d113",
+    "SITE_hengwu-yuan_MAT_crt_amber.png": "1cab307e42ef968d22bb9d3c28c44344745a2490e087fdedda8c7ea096e2ae9d",
+    "SITE_hengwu-yuan_MAT_foliage_card.png": "a525fd922c81f89698d931dbcab05dd9e478d4e78822bbb5eb1846f572785df9",
+    "SITE_hengwu-yuan_MAT_lattice_wood.png": "eb665fa5f1aba35588c2fc99b48832d51b4626b0a91918982107ad0cc1f92424",
+    "SITE_hengwu-yuan_MAT_plaster_rock.png": "aae2a7d0fffd473d982b822c5b997bc26d9bfb373029628ca780aadfde05d6ab",
+    "SITE_hengwu-yuan_MAT_props_atlas.png": "767903e2603ccc718243913bd377916fcb5ded06f9e612242ca5d22cba3e61f8",
+    "SITE_hengwu-yuan_MAT_rooftile.png": "65a32bc72662242694ed61ebac1b58a1854fbaf2e717930754115e71706e9f06",
+    "SITE_hengwu-yuan_MAT_wall_atlas.png": "31039a5df254069f44adf144a62ba8b3b06be9bd5e504232ac4cbd965771237d",
+    "SITE_hengwu-yuan_MAT_whitewash.png": "a6fa10fa44d8fe258809db39a5509f4f54a82d8e798070f709f0674343557c35",
+    "SITE_longcui-an_MAT_backstage.png": "407c984d43c21ce4b08aca1f9c5f0247e165815284e7d10a1340f0920431f7eb",
+    "SITE_longcui-an_MAT_bronze.png": "4057d0cd550548905860de3b80fac872064c2c36259bd1b6de0b788cfcd94215",
+    "SITE_longcui-an_MAT_lattice_wood.png": "c0dbf31fb608f4efec29e682c20b80bb7ae4e0ccfa660b2e19a4ab371fa2928b",
+    "SITE_longcui-an_MAT_plaster_rock.png": "06ce80c84cb2336f8a194a9a0d1f0383b83cfcdf724ed40d2c570e6428eefce1",
+    "SITE_longcui-an_MAT_props_atlas.png": "bf7d6db3d2ff3a2d6a5ce3e91b01dd8f28d2126f11f5fdee0e8b0752867e2c61",
+    "SITE_longcui-an_MAT_rooftile.png": "087ccdfd43b2e0fd7de0cc23172a2826f40e840ca283fc80bd2ffa03bb6dd81d",
+    "SITE_longcui-an_MAT_whitewash.png": "5a9d9ebec5a3a277a89e74885ef499eda3c70def29dd0f0ba165f5fbf3c7e273",
+    "SITE_ouxiang-xie_MAT_bronze.png": "ca81eafc0919a7626e438953010a677c060963a6949370b77ea81ba1cd0edd16",
+    "SITE_ouxiang-xie_MAT_lattice_wood.png": "eee3a4b759f4fd099b49ec105aa1595542414ac279e0d32b45eba5d4df3d9172",
+    "SITE_ouxiang-xie_MAT_lotus_leaf.png": "87833bfd15942394be8654283fd0c2ddaa9a99a06086600ee9bbf838d932a7ca",
+    "SITE_ouxiang-xie_MAT_plaster_rock.png": "d9ce11227f955d3a85fe0df924572af46cb33789dc7da3987d75e880a1ee77c7",
+    "SITE_ouxiang-xie_MAT_props_atlas.png": "be199c2b7c0c5d2317ca24aa6f33caa5c2b9e44dc8ce12440373e98916c0850f",
+    "SITE_ouxiang-xie_MAT_rooftile.png": "6aa70b66a5e601e4b72e78239e16190dda2b65390d9f9d1f5f30a9948555a79c",
+    "SITE_qinfang-ting_MAT_lattice_wood.png": "808c46a8c883ca9ba138d7055b92a75cd1157baed619109ba557e4ab91ab69d1",
+    "SITE_qinfang-ting_MAT_lotus_leaf.png": "43eb46264f0f84466234e6f81affd7b36c23f13bb843c42e4406788d2687d967",
+    "SITE_qinfang-ting_MAT_pavilion_atlas.png": "a4a6244c6c1cc3d1a8307ca41b92bd1fa1798c169817592134fb02be4a7ec7a7",
+    "SITE_qinfang-ting_MAT_plaster_rock.png": "e2fcae57c6bf4e1a732dc687c3c855d05024e1348d3ead300460704aa0835122",
+    "SITE_qinfang-ting_MAT_props_atlas.png": "58f0867e0ad4e468e29a8ce2d0f54e7f6bced2b0082b86ecdb4f52e9ed79fa94",
+    "SITE_qiushuang-zhai_MAT_backstage.png": "b56680d44a295c97f230898d4680088752fbde49d626f469a39b7c948df10636",
+    "SITE_qiushuang-zhai_MAT_bronze.png": "6ba12973086ef500e29e8fbef3bea431b193fcae7e15d5df94f217ab3d582316",
+    "SITE_qiushuang-zhai_MAT_lattice_wood.png": "ee98b154d36de2312615b5458f25fa95879c3ad4f6d82b19f5900579e22231d7",
+    "SITE_qiushuang-zhai_MAT_plaster_rock.png": "ee6fe866186bb78494f9ec57df0e2c14fcbe798b68ceee07102ef64b31aa8156",
+    "SITE_qiushuang-zhai_MAT_props_atlas.png": "a30873978d4c8827536b0c4a39737f1ca08c95310d31edc5b7716caa98a1801e",
+    "SITE_qiushuang-zhai_MAT_rooftile.png": "aa863e824098018d1c35b9d8b8c8cd639d992fee9704c1a76d9ad32fc482142b",
+    "SITE_qiushuang-zhai_MAT_tech_atlas.png": "18e924b6a115e3c5daa2578d26b23a6d5c2ca5597a8b90ed3c8323111410ec72",
+    "SITE_qiushuang-zhai_MAT_whitewash.png": "23c9fbd278e4adc4c9ff358cf52ea24c330137c53ce4fa93997140abae042ad1",
+    "SITE_rockery-gate_MAT_foliage_card.png": "548b5b45b951f9c01285de51d349f3775613edaaa5ebddffa661a0daeec450d5",
+    "SITE_rockery-gate_MAT_lattice_wood.png": "169d21ff2db15594eda7d7f97d5d15d5b8002e749617d152bb4d70d422ccade1",
+    "SITE_rockery-gate_MAT_pavilion_atlas.png": "0d48001dbcfcef12f3b03541da8d0acad09faf5891e5b7231e2e1788e62e5f60",
+    "SITE_rockery-gate_MAT_plaster_rock.png": "a3844bb54322dda37b85cbc3d37331db7863e034a8b7e46ed884e9e2aae94ab8",
+    "SITE_rockery-gate_MAT_props_atlas.png": "aa79980bd832da152beb29d570ff2073f6553477ef6ab866887349c1b73fa05a",
+    "SITE_stage_MAT_backstage.png": "680dff7093b4635f6eacc2000e992d528c2a9b470c4aaf423a05c435151be230",
+    "SITE_stage_MAT_lattice_wood.png": "7045597e90102a9861edefa7c1c7e6e88836b2e06eeb4c3cb9dea95ec5d81012",
+    "SITE_stage_MAT_painted_moon.png": "39373ac6a0af7a33438e90603d63203a384340684f61a92cb11f2c95a55446d1",
+    "SITE_stage_MAT_painted_mountains_0.png": "2c42e3e9d8802720ef1c45493a9d23e7d1157199c6f334a2223c1a656f935b5d",
+    "SITE_stage_MAT_painted_mountains_1.png": "9aa8e11828f811af40e27727949e30a0686dedf85fd4d44eb60357a933c1fe54",
+    "SITE_stage_MAT_painted_mountains_2.png": "75971684c7f805be55f21e6750418281c712c3578052de56317a0743c3de66ad",
+    "SITE_stage_MAT_plaster_rock.png": "fde376e526eb8daa2eba9ef972f033492ff084b808111d51b9d538a25015c9d9",
+    "SITE_stage_MAT_stage_canvas.png": "23f4dc1b35431ce1c70e99d6a02dd002f6c5d9b54ded172c00034ba0c0d0adef",
+    "SITE_terminal-cells_MAT_backstage.png": "8fa713e72bd39141002ae9dca36412d5876d3132d5e81c8b202d2d575199b492",
+    "SITE_terminal-cells_MAT_lattice_wood.png": "c97f2540fbda9379ef12fe96f33d938e71de07088aa5a7f178383b9842614206",
+    "SITE_terminal-cells_MAT_plaster_rock.png": "3206c8f9e9ee2a4bb8fe47dc18e30a82ab02f3f8b248393783b9e65a69df1dc9",
+    "SITE_terminal-cells_MAT_props_atlas.png": "e25a4ce40dcef54b2b601f36bb45e2844db7bd9b22e1b111adae0a38a9298362",
+    "SITE_terminal-cells_MAT_stage_atlas.png": "02d5bb60afb446e260e76f506bc06b50ecef69a9d90400fa7a4cecc91a794a94",
+    "SITE_terminal-cells_MAT_tech_atlas.png": "1dea944fab14de5a32adf54e393f4613eb02e2cd4c43cdbaeb7e58d75fb58e00",
+    "SITE_terminal-cells_MAT_terminal_scroll.png": "0e8ffb66537d8d1724df4328febe65276abc318326dbc5041658c3116a9e9611",
+    "SITE_tubi-tang_MAT_backstage.png": "f54581a1f32f6048d8222625291f785d6bfe01a939b18172407ae4d884276b81",
+    "SITE_tubi-tang_MAT_bronze.png": "2b19816123c814c90a2581cd40188d41114a3433ed7885cd904909a079d8c332",
+    "SITE_tubi-tang_MAT_crt_amber.png": "2bf2d4b2638f5f6b99281feb135ad6fd424aa0f2f789f03fdf27338e0dfc5a89",
+    "SITE_tubi-tang_MAT_lantern.png": "2e0fdf0c0e4abd61136b9cac6210d48efce370e322eed0731da5632c75397ad9",
+    "SITE_tubi-tang_MAT_lattice_wood.png": "811355ae1c2ad65f3657e22dfc94506f5d9d94b1aa6802e81318b7855d6920c2",
+    "SITE_tubi-tang_MAT_plaster_rock.png": "b21d8167a9eaa1a0adc49190f9db03c0b4ba5fddc8ebe91589e027706992231f",
+    "SITE_tubi-tang_MAT_props_atlas.png": "cea887d358316c78c753aae33757ead385ec8cce7e1cdefe9a1d3502f70c8baf",
+    "SITE_tubi-tang_MAT_rooftile.png": "797d62e384e73cdf5c942d28f8aaef774a3a76032efa3363876c289741b14c2f",
+    "SITE_tubi-tang_MAT_tubi_terrace_plaster.png": "1cbbfb14cc5f8d7167982e54652bc4ea871a4a3672134a9f11d11b87b481e335",
+    "SITE_tubi-tang_MAT_whitewash.png": "bb74953733cad72a9143d1416ffd07732a123190e0fa72304168fa2fd53e7c55",
+    "SITE_xiaoxiang-guan_MAT_backstage.png": "05ca953dbd0f12f314461e578fd90e53ebe63686dc8b86104a7cfde50ba63698",
+    "SITE_xiaoxiang-guan_MAT_bronze.png": "4e1366982a5492b22ea5f5d01b23dff6010eb6e04468d71dc5b27822a83b4032",
+    "SITE_xiaoxiang-guan_MAT_crt_amber.png": "b36bd5d0af3474971891ace44eb0305a95391d1869435598ec40e6919932186d",
+    "SITE_xiaoxiang-guan_MAT_lattice_wood.png": "a37f95e479f79bfffa548b165cb03b61ae4aef85371af08b6f8f4fc98f727167",
+    "SITE_xiaoxiang-guan_MAT_plaster_rock.png": "e65605df2bc308e2b80218ec47cbbb2dc1cce02537afb270f0e151a9fe006bd1",
+    "SITE_xiaoxiang-guan_MAT_rooftile.png": "ed4ca96fd7f9d22d81d21b947d4799c96f28aa239fb9561077c9ef36c5318313",
+    "SITE_xiaoxiang-guan_MAT_whitewash.png": "b218639912df523614a1ec08cffd2513c55a1933786dc1d8ce1ecc2614d3bb38",
+    "SITE_yihong-yuan_MAT_backstage.png": "922855ca189ebbebebd64983b2db007e2f664866b07a9ca6855c0ba596a1c890",
+    "SITE_yihong-yuan_MAT_bronze.png": "9e91344d86cefeb9b67e5131cf2ca27b0e1f44f12d01b61f0ad8a40942434ace",
+    "SITE_yihong-yuan_MAT_crt_amber.png": "4db5449e702f59823814718bef0bb428dff48df98824b582079278677af8d3de",
+    "SITE_yihong-yuan_MAT_lattice_wood.png": "ede556d37b3283159b31afe2e73bb215bd902791f4c16e0c2c2a44fd91611a38",
+    "SITE_yihong-yuan_MAT_plaster_rock.png": "10df996c416f23bc1fb17afac5f23c59b51d71c73fa9a4fa8251e9d302a2cbb3",
+    "SITE_yihong-yuan_MAT_rooftile.png": "45962dd23c9df62bbf9d85af145d4ff5eeeb815d4ede269615c67940c6b4603b",
+    "SITE_yihong-yuan_MAT_yihong_lacquer.png": "4af98d4462c869174136b7cb4cc18c9fed4b2dda2159a47ff9119cf7cc0225a0",
+    "SITE_ziling-zhou_MAT_lotus_leaf.png": "a290b426fdfc96a4d4b089347f5f7ba3d17a420d3f65f1b8a8d265ca3a80ac7c",
+    "SITE_ziling-zhou_MAT_pavilion_atlas.png": "c07908d0e3c335fa2080ff7eb81e6510b631b129174ac0889c93f5a9e5f2015c",
+    "SITE_ziling-zhou_MAT_plaster_rock.png": "d7c69515a4a87759666930a28c0a0bfadcee45b5c9940ace7ca6fcf1d9ddfddc",
+    "backdrop-wash/SITE_stage_MAT_painted_moon-front.png": "6e03e79c4e5539bebce3299186ebbce5be896a8086f416acbef0cf1f71f71e97",
+    "backdrop-wash/SITE_stage_MAT_painted_moon-back.png": "d1de1fd43e9b50aeb7f1d61f3b317c280e87ae0e5481cc210009f6e947002ad8",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png": "f0d385997015691d5929ecbc6251bac694fd5ac19446bb21473f963a7841933b",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15",
+    "backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png": "5c68a64834d9b664679e937b066429b04d7b990ba2d9b874c2ea3b2fd3c224d5",
+    "backdrop-wash/SITE_stage_MAT_stage_canopy_paint-front.png": "5fd81440353159f34f629d89d6e82f50a301bd7153e6eceaae375c6836b81f55",
+    "backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png": "ac7c5186b980111ebdffaccc35cf2968fc8cbdbe44a0552e8e2a48528c6ac1c2",
+    "terminal-spill/SITE_terminal-cells_MAT_backstage.png": "92cff143284464b2a816b594a2a2779355816eac40a46dd21a5c479eb7307af6",
+    "terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png": "be0dbd8a51e5b9dadb1d09ed550a37d10283c4fcccd999844f88a817f5f89c88",
+    "terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png": "8af875abc1866f99336164e934854a79ed4e730fb993df47bfae2679c8e46e75",
+    "terminal-spill/SITE_terminal-cells_MAT_props_atlas.png": "615376c2d8c2f7b05db7cf11e2fcf69520f4a21e9dfb9d0e0d4747e7d1523910",
+    "terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png": "0d1394cf9181b1e174268e0991102f061411118538bc728dde1a3e6c05bc337c",
+    "terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png": "7ad60007d767bd01fe034460e85e812f3d6b90c7a6c5420e0492bd8cf3d8f390",
+    "terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png": "97c4357540a313817c401b392c7fad99afd37608a498763c2c60cc92475323a2"
+  },
+  "arrivals": {
+    "desktop": {
+      "report_sha256": "d521264be6643fcd6aaff9cb64ba10af4226396d92a7c1148afdd6948f508732",
+      "originals": 14,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    "portrait": {
+      "report_sha256": "5797869f49b4fbf24a6214039f0aa3bc42ff7262d418299ef4541409488d549e",
+      "originals": 14,
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  },
+  "walks": {
+    "desktop": {
+      "report_sha256": "a7eedccc90d3a514a4aa4444f0c9d3b9ddac839e5429c85b68436ce91c70e450",
+      "originals": 139,
+      "dimensions": [
+        1410,
+        600
+      ],
+      "supported_ray_samples": 17582,
+      "maximum_practicals": 4
+    },
+    "portrait": {
+      "report_sha256": "7971b8455f43aff9ff9495c69204b416d230bbe76e09807dbbbdc9670d3ec2d3",
+      "originals": 139,
+      "dimensions": [
+        540,
+        960
+      ],
+      "supported_ray_samples": 17581,
+      "maximum_practicals": 4
+    }
+  },
+  "finished_at": "2026-10-09T14:29:39.252455+00:00"
+}

@@ -1,0 +1,14 @@
+00:00.538  blend            | Read blend: "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend"
+BlenderMCP addon registered
+SAVED_CANVAS_PALETTE_RESULT 2 failures; [0.054999999701976776, 0.0949999988079071, 0.03700000047683716]
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/test_saved_canvas_palette.py", line 39, in <module>
+    assert not errors, '; '.join(errors)
+           ^^^^^^^^^^
+AssertionError: The broad painted canvas floor must use a warm neutral base rather than a dominant green channel.; Visible canvas RGB channels must remain within a restrained neutral range.
+
+Error: script failed, file: '.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/test_saved_canvas_palette.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

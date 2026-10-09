@@ -42,3 +42,12 @@ Sixteen changed targets were installed with recoverable local backups. Eight pro
 Selected original Ouxiang desktop, portrait and settled captures plus the moon composition were directly inspected; 14-site contact sheets were inspected for gross assembly. The roof is more consistent. Black paving rectangles, green-heavy materials and other final art remain visible and unaccepted. Full-resolution all-site art acceptance, the last six reference slots, current Android packaging/device and 2020 Adreno/sustained profiling, release and authenticated readings/history/AI/presence/social remain required.
 
 Use `configure_lightmap_imports.py --size-limit 256 --imperial-lossless 512 --ouxiang-lossless 512` and `test_full_scene_lighting.gd -- --imperial-lossless 512 --ouxiang-lossless 512` for this source. Original logs, executed code, reports and captures are archived here. The evidence index records exact SHA 256 s; absolute scratch paths inside original reports are retained as executed provenance. This checkpoint does not complete the full Garden goal.
+
+
+## Neutral stage floor — 2026-10-09
+
+The saved canvas base changes from green (.055,.095,.037) to muted warm gray (.065,.060,.055), with all 4,467 objects, 47 other materials and 621 exported mesh attributes preserved. Fourteen other site GLBs remain byte-exact. Current source `c9d4fb30`, authoring `43d7e33e` and runtime `80f64655` are recorded in `export/stage-floor-palette-evidence.json`.
+
+Six source phases refresh 141 lightmaps. Forty native phases pass: 38 positive checks and two expected base-color rejection controls. Saved default exports reproduce 16 GLBs exactly. Both desktop and portrait tours visit 14 rooms across 26 legs, with zero unsupported floor rays and at most four practicals. All 409 review PNGs are hashed and dimension-checked; 52 original files were directly inspected. Fifteen installed checks pass, with 47 installed originals matching the review exactly. Evidence: [neutral stage floor](../reference/stage-floor-palette/README.md).
+
+Final art remains open, including red-court/imperial portrait composition, Hengwu arrival composition, ground/water closure, foliage and signage. Five reference slots remain (37/42 collected). Current physical phones, 2020 Adreno/sustained budgets, release and authenticated services still require work. The Android package is stale. PR14 remains separately held for security approval. The full goal remains active.

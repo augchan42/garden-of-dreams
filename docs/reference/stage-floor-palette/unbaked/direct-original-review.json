@@ -1,0 +1,23 @@
+{
+  "status": "unbaked_canvas_proposal_selected_fresh_lighting_required",
+  "reviewed_at": "2026-10-09T13:15:07.051008+00:00",
+  "baseline_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "candidate_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "originals_verified": 12,
+  "directly_reviewed_originals_sha256": {
+    "baseline/ziling_zhou-1410x600.png": "2e1200a401e66be137fb6c4f8888a16be718fac3f64a0a6b77cc273d8b42ae60",
+    "candidate/ziling_zhou-1410x600.png": "bfc192bbfc2654567da3e1ddafe4b0ffd02a99b937257cefbd6e3af78db3ed32",
+    "baseline/qinfang_ting-390x844.png": "ef981b13ec5be193750ac2c409b571149763be127d87ffb60f6d8094dc4ecd6b",
+    "candidate/qinfang_ting-390x844.png": "d2b3535fbe22cc8f620ef1d8305649a4b9e44e4659a272017666e7e8c3e78254",
+    "baseline/ouxiang_xie-1410x600.png": "608a6b377e3250c854e7c1deef2bc3159af01bdb30e9f3c1177a2fb412766686",
+    "candidate/ouxiang_xie-1410x600.png": "8c659a3c26518acc4d6c58cdf302e7a58b112a8943855a80c23e858f3b962555",
+    "baseline/ziling_zhou-390x844.png": "60132f9753fa417c8f27d215a36b9e22d1e1d348a11d56e732b6ee003b3e4df2",
+    "candidate/ziling_zhou-390x844.png": "98a1a5ddafcc755d58df740ed88d7a1e0723a09a360bb36c88af0225a3e5cd74"
+  },
+  "observations": [
+    "Broad foreground/background canvas shifts from olive green to muted warm gray. Stone banks/bridge/island, slate-blue water and amber practicals retain their distinct colors.",
+    "Qinfang portrait retains warm roof/lantern contrast and reduces distant floor green. Ouxiang desktop and Ziling desktop/portrait show clear floor palette separation.",
+    "This existing diagnostic disables source lightmaps for both fixtures; brighter walls/roofs than current production are expected and do not represent an intended lighting change."
+  ],
+  "scope": "Select the isolated source palette proposal for complete fresh lighting; no source adoption, matched-lit, final14siteart, phone/sustained/release or service acceptance."
+}
