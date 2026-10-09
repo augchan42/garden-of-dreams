@@ -1,0 +1,2636 @@
+{
+ "errors": [],
+ "route_sha256": "995707af748004d7de0bd53b5b5bf38deb048453c3e0be60664d3820b666f842",
+ "rows": [
+  {
+   "action": "arrival",
+   "action_scroll_height": 122.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     474.879852294922,
+     489.647308349609
+    ],
+    "low": [
+     -106.127563476562,
+     292.798583984375
+    ],
+    "panel_top": 508.0,
+    "width_fraction": 1.48976260454227
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-arrival-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     474.8857421875,
+     489.647491455078
+    ],
+    "low": [
+     -106.131401062012,
+     292.79833984375
+    ],
+    "panel_top": 508.0,
+    "width_fraction": 1.48978754679362
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "e33318ecfee3d7c71396a199bf11a6aa116029893fcc62385f99b64ad3a0fd38",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     353.716247558594,
+     338.107421875
+    ],
+    "low": [
+     14.4802808761597,
+     199.312591552734
+    ],
+    "panel_top": 502.0,
+    "width_fraction": 0.869835812006241
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-arrival-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     353.719665527344,
+     338.107513427734
+    ],
+    "low": [
+     14.478385925293,
+     199.312408447266
+    ],
+    "panel_top": 502.0,
+    "width_fraction": 0.869849434877053
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "7e8ddc51b81591dc2eaef2e2db04324e57e1d55fb00b67fecec2244119c1e169",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 122.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-left-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     311.574829101562,
+     519.422241210938
+    ],
+    "low": [
+     78.4079132080078,
+     337.982696533203
+    ],
+    "panel_top": 560.0,
+    "width_fraction": 0.59786388690655
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "fd28f0d8ee2ac34ad4931030bee086a2b0cf662db0865dca85aaae01f29f0c3d",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-left-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.944366455078,
+     453.097412109375
+    ],
+    "low": [
+     17.0293121337891,
+     184.606643676758
+    ],
+    "panel_top": 554.0,
+    "width_fraction": 0.912602703387921
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "905faa7543f5e447d397e5a71d2c249284c5b00431b76324e7de6a51c105ed79",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 122.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-centre-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     311.574584960938,
+     519.422241210938
+    ],
+    "low": [
+     78.4076309204102,
+     337.982696533203
+    ],
+    "panel_top": 560.0,
+    "width_fraction": 0.597863984719301
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "b779135203e9a44be90a80a28138a92b223073ecb8b16e53f9035c639ce135cd",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-centre-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.943969726562,
+     453.097412109375
+    ],
+    "low": [
+     17.0288944244385,
+     184.606643676758
+    ],
+    "panel_top": 554.0,
+    "width_fraction": 0.912602757184933
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "c444f78febdb1dd955703fcf9c867096a7a39c6d099c9b0d4aea3118961127f3",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 122.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-right-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     311.574310302734,
+     519.422241210938
+    ],
+    "low": [
+     78.4073638916016,
+     337.982696533203
+    ],
+    "panel_top": 560.0,
+    "width_fraction": 0.597863965156751
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "5b5011c39face5ff34523056f652e4827f2566737251cc0892992ffc320459ad",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-right-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.943542480469,
+     453.097412109375
+    ],
+    "low": [
+     17.0284748077393,
+     184.606643676758
+    ],
+    "panel_top": 554.0,
+    "width_fraction": 0.912602737622383
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "3a0eaa7bab55b821a6a4d1ece3361cd0e67eb4ee2b65d4f246ba7e79700e62ca",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 164.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     438.350616455078,
+     462.443664550781
+    ],
+    "low": [
+     -97.9639282226562,
+     280.737152099609
+    ],
+    "panel_top": 422.0,
+    "width_fraction": 1.48976262410482
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-arrival-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     438.356079101562,
+     462.443817138672
+    ],
+    "low": [
+     -97.9674682617188,
+     280.736938476562
+    ],
+    "panel_top": 422.0,
+    "width_fraction": 1.48978763156467
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "b0bdd4fd6f851deb8a35cf2e20c72c63602d4818aee1dfbd646f74969c3b790d",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.507293701172,
+     322.560699462891
+    ],
+    "low": [
+     13.3664131164551,
+     194.442398071289
+    ],
+    "panel_top": 458.0,
+    "width_fraction": 0.869835779401991
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-arrival-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.510467529297,
+     322.560760498047
+    ],
+    "low": [
+     13.3646640777588,
+     194.442230224609
+    ],
+    "panel_top": 458.0,
+    "width_fraction": 0.86984945403205
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "49907fb9dd905f96e170e470c3836b783dd7a81ba5f67ca2d96be501e9b2b3bc",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 164.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-left-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607543945312,
+     489.92822265625
+    ],
+    "low": [
+     72.3765258789062,
+     322.445556640625
+    ],
+    "panel_top": 448.0,
+    "width_fraction": 0.597863939073351
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "42e9b5c3efa32e5318a252304bf79a4d80e64b17de7a8afada4205da7e03dba8",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-left-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.256378173828,
+     428.705291748047
+    ],
+    "low": [
+     15.7193431854248,
+     180.867645263672
+    ],
+    "panel_top": 484.0,
+    "width_fraction": 0.912602874967787
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "e6d1ff4337c7bd5b25a6bb677f9da98aba85e11b240253a477a2821841d6517a",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 164.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-centre-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607299804688,
+     489.92822265625
+    ],
+    "low": [
+     72.3762741088867,
+     322.445556640625
+    ],
+    "panel_top": 448.0,
+    "width_fraction": 0.597863960266113
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "e723cb7fe551dd72f45e7089407f8e4a3a4dd49bfdc75283c9a46dfc41791749",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-centre-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.255981445312,
+     428.705291748047
+    ],
+    "low": [
+     15.7189569473267,
+     180.867645263672
+    ],
+    "panel_top": 484.0,
+    "width_fraction": 0.912602845827738
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "546830c730184e6b755bfc2eae2564b78e9d432164cca9a444f045f70de9f8a5",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 164.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-right-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607055664062,
+     489.92822265625
+    ],
+    "low": [
+     72.3760299682617,
+     322.445556640625
+    ],
+    "panel_top": 448.0,
+    "width_fraction": 0.597863960266113
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "c9f05ab24783cf70bd53ea7a54a15d890265fe40144ef0fe516ddb0a4c5b2abc",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/normal-right-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.255584716797,
+     428.705291748047
+    ],
+    "low": [
+     15.7185707092285,
+     180.867645263672
+    ],
+    "panel_top": 484.0,
+    "width_fraction": 0.91260281668769
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "70a0496f9b305519d0ddc79581086c5c4ae4b19bd3391ce197ed0ffe73f5c349",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     474.879852294922,
+     489.647308349609
+    ],
+    "low": [
+     -106.127563476562,
+     292.798583984375
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 1.48976260454227
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-arrival-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     474.8857421875,
+     489.647491455078
+    ],
+    "low": [
+     -106.131401062012,
+     292.79833984375
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 1.48978754679362
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "c48afb365b46bb482e7829f5a7a6b84894d1cec399518f6dd59f00d112374007",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     353.716247558594,
+     338.107421875
+    ],
+    "low": [
+     14.4802808761597,
+     199.312591552734
+    ],
+    "panel_top": 490.0,
+    "width_fraction": 0.869835812006241
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-arrival-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     353.719665527344,
+     338.107513427734
+    ],
+    "low": [
+     14.478385925293,
+     199.312408447266
+    ],
+    "panel_top": 490.0,
+    "width_fraction": 0.869849434877053
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "70c44cf3af7a059d64c41de9f8915785bf9dead86b5c4db48579eed0022108ba",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-left-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     311.574829101562,
+     519.422241210938
+    ],
+    "low": [
+     78.4079132080078,
+     337.982696533203
+    ],
+    "panel_top": 518.0,
+    "width_fraction": 0.59786388690655
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "13714787fd2728caf72e1f472b55c2773f61cb817c1841d04a053ecbc85aa200",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-left-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.944366455078,
+     453.097412109375
+    ],
+    "low": [
+     17.0293121337891,
+     184.606643676758
+    ],
+    "panel_top": 542.0,
+    "width_fraction": 0.912602703387921
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "0cc9ee09d7265339f1c80e50bcafaebe3ad058cf3bb2398cfaff3b943eb2fac9",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-centre-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     311.574584960938,
+     519.422241210938
+    ],
+    "low": [
+     78.4076309204102,
+     337.982696533203
+    ],
+    "panel_top": 518.0,
+    "width_fraction": 0.597863984719301
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "67103536d6da956b217d2ff89425387b2d1c2f15e1f8c874284aa1b99ba3acee",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-centre-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.943969726562,
+     453.097412109375
+    ],
+    "low": [
+     17.0288944244385,
+     184.606643676758
+    ],
+    "panel_top": 542.0,
+    "width_fraction": 0.912602757184933
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "92e35016993a52ccefae35b40ecbd0320afad012e5a6c9a6455dab418b5dbf69",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-right-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     311.574310302734,
+     519.422241210938
+    ],
+    "low": [
+     78.4073638916016,
+     337.982696533203
+    ],
+    "panel_top": 518.0,
+    "width_fraction": 0.597863965156751
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "4e8f4784a3c1ac7e2dec77f24790dbfc0f98fec3b1d4c954a4162fafcf24e7e3",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-right-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     372.943542480469,
+     453.097412109375
+    ],
+    "low": [
+     17.0284748077393,
+     184.606643676758
+    ],
+    "panel_top": 542.0,
+    "width_fraction": 0.912602737622383
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "3f30b0f9401c7f3d05714c08979c92da07b00a8cb0b62494a3780c6117d277d2",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     438.350616455078,
+     462.443664550781
+    ],
+    "low": [
+     -97.9639282226562,
+     280.737152099609
+    ],
+    "panel_top": 370.0,
+    "width_fraction": 1.48976262410482
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-arrival-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     438.356079101562,
+     462.443817138672
+    ],
+    "low": [
+     -97.9674682617188,
+     280.736938476562
+    ],
+    "panel_top": 370.0,
+    "width_fraction": 1.48978763156467
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "1ac4c221283558a5626e0f788f8f622f1e39557f5ee01200467755ab873a372d",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.507293701172,
+     322.560699462891
+    ],
+    "low": [
+     13.3664131164551,
+     194.442398071289
+    ],
+    "panel_top": 446.0,
+    "width_fraction": 0.869835779401991
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-arrival-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.510467529297,
+     322.560760498047
+    ],
+    "low": [
+     13.3646640777588,
+     194.442230224609
+    ],
+    "panel_top": 446.0,
+    "width_fraction": 0.86984945403205
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "29eaa67fd0f7a3971f79fd72acbbf8c6226b0da704c71fc6c172e851f670b7bb",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-left-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607543945312,
+     489.92822265625
+    ],
+    "low": [
+     72.3765258789062,
+     322.445556640625
+    ],
+    "panel_top": 396.0,
+    "width_fraction": 0.597863939073351
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "cce9aa29b290dd73141cf23e5f539db04e5313b850fc719a4d96ee2752afa30b",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-left-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.256378173828,
+     428.705291748047
+    ],
+    "low": [
+     15.7193431854248,
+     180.867645263672
+    ],
+    "panel_top": 472.0,
+    "width_fraction": 0.912602874967787
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "ed539a27b525de94143869bf8fc68b69b1777b79d4202941627be82a9559b023",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-centre-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607299804688,
+     489.92822265625
+    ],
+    "low": [
+     72.3762741088867,
+     322.445556640625
+    ],
+    "panel_top": 396.0,
+    "width_fraction": 0.597863960266113
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "c0a29efcbfd46f166ebe0fbb0d53a830ed9e7901cd2c908097e64a4da5f373ba",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-centre-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.255981445312,
+     428.705291748047
+    ],
+    "low": [
+     15.7189569473267,
+     180.867645263672
+    ],
+    "panel_top": 472.0,
+    "width_fraction": 0.912602845827738
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "1baeb6cc31d5173fdfd59c4f7d19dc4d76aa473a51df5c5f84de69d7c229c67d",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-right-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.607055664062,
+     489.92822265625
+    ],
+    "low": [
+     72.3760299682617,
+     322.445556640625
+    ],
+    "panel_top": 396.0,
+    "width_fraction": 0.597863960266113
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "75ab0d3eb086751ddf7ad52de6a16d3d8dd1a49cba4802b92bf8ef30142fbee9",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/touch-right-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     344.255584716797,
+     428.705291748047
+    ],
+    "low": [
+     15.7185707092285,
+     180.867645263672
+    ],
+    "panel_top": 472.0,
+    "width_fraction": 0.91260281668769
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "ba2c9c6488b09388f9de7cb856ad680a8dea48f5a2f5ae808f964bb3d163c25b",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     500.972137451172,
+     448.126098632812
+    ],
+    "low": [
+     -111.958770751953,
+     240.461517333984
+    ],
+    "panel_top": 401.523803710938,
+    "width_fraction": 1.4897626714631
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-arrival-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     500.978363037109,
+     448.126281738281
+    ],
+    "low": [
+     -111.962821960449,
+     240.46125793457
+    ],
+    "panel_top": 401.523803710938,
+    "width_fraction": 1.4897876497837
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "6491b6d464280b7d75138f4841168c41b9e374fb1ae69a205cbe350139b1a092",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     373.151214599609,
+     288.259826660156
+    ],
+    "low": [
+     15.2758636474609,
+     141.838897705078
+    ],
+    "panel_top": 425.523803710938,
+    "width_fraction": 0.869835950104479
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-arrival-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     373.154846191406,
+     288.259918212891
+    ],
+    "low": [
+     15.2738647460938,
+     141.838668823242
+    ],
+    "panel_top": 425.523803710938,
+    "width_fraction": 0.869849635331354
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "4071223316a0f4aaa4cd37ff90f18c10cfcfbde711a32253c4b88d3a01d47159",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-left-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     328.6943359375,
+     479.536987304688
+    ],
+    "low": [
+     82.7160263061523,
+     288.128265380859
+    ],
+    "panel_top": 427.523803710938,
+    "width_fraction": 0.59786396602622
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "b1620d403197b44dbdda1ee799365e6b9093ea58f833c755541c1ae7783b09bd",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-left-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     393.435852050781,
+     409.567962646484
+    ],
+    "low": [
+     17.9649505615234,
+     126.324905395508
+    ],
+    "panel_top": 451.523803710938,
+    "width_fraction": 0.912602914575034
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "aa58ac8a5a620b77b611bb0ee26eb96ded9df65028d4903c6af34e5716f00e6e",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-centre-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     328.694061279297,
+     479.536987304688
+    ],
+    "low": [
+     82.7157440185547,
+     288.128265380859
+    ],
+    "panel_top": 427.523803710938,
+    "width_fraction": 0.597863984569888
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "727f73eca7455663dcade8f4aa8f1d838ee67799c5b40ed3f459b74e408064a0",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-centre-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     393.435424804688,
+     409.567962646484
+    ],
+    "low": [
+     17.9645099639893,
+     126.324905395508
+    ],
+    "panel_top": 451.523803710938,
+    "width_fraction": 0.912602947026452
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "607ddb0842a2025aa0965a95dedd23ca2cf5c258c7698da936aae4eae91f7561",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 152.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-right-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     328.693756103516,
+     479.536987304688
+    ],
+    "low": [
+     82.715461730957,
+     288.128265380859
+    ],
+    "panel_top": 427.523803710938,
+    "width_fraction": 0.597863928938885
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "5e335ab8428f2eb969ac1fb58ecadda883602ee047fd7a2cf3a464a524d69573",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-right-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     393.434967041016,
+     409.567962646484
+    ],
+    "low": [
+     17.9640674591064,
+     126.324905395508
+    ],
+    "panel_top": 451.523803710938,
+    "width_fraction": 0.912602909939117
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "a84e7b8dea17b175d2bf2dabb9881c2e0d51559a9cd91f1f8244822126c1d758",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     437.886779785156,
+     439.139495849609
+    ],
+    "low": [
+     -97.8602828979492,
+     257.625274658203
+    ],
+    "panel_top": 323.523803710938,
+    "width_fraction": 1.48976274773322
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-arrival-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     437.892242431641,
+     439.1396484375
+    ],
+    "low": [
+     -97.8638229370117,
+     257.625030517578
+    ],
+    "panel_top": 323.523803710938,
+    "width_fraction": 1.48978778168392
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "48446857527f5c5151efe73caf7d0957a0bfb9cce72010043beffe025d1a2268",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.161804199219,
+     299.404541015625
+    ],
+    "low": [
+     13.3522367477417,
+     171.421783447266
+    ],
+    "panel_top": 399.523803710938,
+    "width_fraction": 0.869835922925812
+   },
+   "camera_fov": 80.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -4.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-arrival-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     326.164978027344,
+     299.404602050781
+    ],
+    "low": [
+     13.350489616394,
+     171.421600341797
+    ],
+    "panel_top": 399.523803710938,
+    "width_fraction": 0.86984960673785
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 80.0,
+    "position": [
+     22,
+     3.2,
+     -4.8
+    ],
+    "target": [
+     22,
+     -5.0,
+     -15.5
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "441b3ad9cd5abfb7e98c55666c5d92c0630c03d7518ca5c182fd6d78a1f403c0",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-left-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.30322265625,
+     466.594970703125
+    ],
+    "low": [
+     72.299934387207,
+     299.289520263672
+    ],
+    "panel_top": 349.523803710938,
+    "width_fraction": 0.597864014222
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "ffd8e66a7728b4addf67dc15e930c5ac7624f332191bdbce2ee99a7ef333ff4d",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-left-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     343.892059326172,
+     405.436828613281
+    ],
+    "low": [
+     15.7027311325073,
+     157.861450195312
+    ],
+    "panel_top": 425.523803710938,
+    "width_fraction": 0.912602736257485
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     18.85,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     18.85,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "a22c01969c56e7fba449fddc657e36deeb7e0edeee6dcd9b27c018823b9aa10a",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-centre-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.302947998047,
+     466.594970703125
+    ],
+    "low": [
+     72.299690246582,
+     299.289520263672
+    ],
+    "panel_top": 349.523803710938,
+    "width_fraction": 0.59786392936115
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "2454880910bff5bc8ad5d1c9ee1043df053a3413020d5a6b8331bb6649a87425",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-centre-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     343.891662597656,
+     405.436828613281
+    ],
+    "low": [
+     15.7023448944092,
+     157.861450195312
+    ],
+    "panel_top": 425.523803710938,
+    "width_fraction": 0.912602707086568
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     22.0,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     22.0,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "ab0f114bd6baff9a33372cf0dbb7fcf25905bdfa9a2827c6a7feef044a40b309",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 204.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-right-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     287.302703857422,
+     466.594970703125
+    ],
+    "low": [
+     72.299430847168,
+     299.289520263672
+    ],
+    "panel_top": 349.523803710938,
+    "width_fraction": 0.597863971791575
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "17b2e4e8be574396459b0a0765074ca758cedb600e9c42eabc55aadd19a987fd",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 128.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 40.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/density-right-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": true,
+    "header_bottom": 38.0,
+    "high": [
+     343.891296386719,
+     405.436828613281
+    ],
+    "low": [
+     15.701958656311,
+     157.861450195312
+    ],
+    "panel_top": 425.523803710938,
+    "width_fraction": 0.912602762776501
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 40.0,
+    "position": [
+     25.15,
+     1.7,
+     -12.7
+    ],
+    "target": [
+     25.15,
+     0.75,
+     -15.6
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "b2785f984fa754b7e4ae8752b89f116efe7e33bdc4f85361893e98f5672cb68f",
+   "site_bakes_enabled": true,
+   "variant": "measured"
+  },
+  {
+   "action": "arrival",
+   "action_scroll_height": 38.0,
+   "actual_vertex_measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     1135.58447265625,
+     404.072784423828
+    ],
+    "low": [
+     241.726745605469,
+     101.228607177734
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.633941650390625
+   },
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    3.20000004768372,
+    -6.80000019073486
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/desktop-arrival-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     1135.59350585938,
+     404.073059082031
+    ],
+    "low": [
+     241.72087097168,
+     101.22819519043
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.633952223324607
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "6db3fd7d4b6e807d617a9febfd747901b1e2a92cdf849a67369c820a176d9d6f",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "left",
+   "action_scroll_height": 38.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    18.8500003814697,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/desktop-left-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     884.345947265625,
+     449.88037109375
+    ],
+    "low": [
+     525.627563476562,
+     170.742599487305
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.254410201268839
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "ed463c4a3429d37913b9ed33c1f18aa92df291bb0c8671c0c94b310fa07bd164",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "centre",
+   "action_scroll_height": 38.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.0,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/desktop-centre-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     884.345520019531,
+     449.88037109375
+    ],
+    "low": [
+     525.627136230469,
+     170.742599487305
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.254410201268839
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "4af674c3fe5967c4a560c84d4b43c7299a1c0cac72345e7f7cac639564c9baab",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  },
+  {
+   "action": "right",
+   "action_scroll_height": 38.0,
+   "actual_vertex_measurement": {},
+   "camera_fov": 55.0,
+   "camera_position": [
+    25.1499996185303,
+    1.70000004768372,
+    -12.6999998092651
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-qiushuang-framing-213diz2r/comparison/desktop-right-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     884.345092773438,
+     449.88037109375
+    ],
+    "low": [
+     525.626708984375,
+     170.742599487305
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.254410201268839
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "cea27a40f2d95c9c5d8d3baa1037376521136c26f99d0c8816bbd471cf6b499e",
+   "site_bakes_enabled": true,
+   "variant": "baseline"
+  }
+ ],
+ "scope": "Isolated arrival and all three bank comparisons using imported roof/wall/tech bounds and bank-region points, above actual UI. Manual 128-unit scroll reserve and panel reset for candidates. No product changes; projection alone cannot establish visible individual monitors. Desktop-density windows may be clamped; no phone/final-art acceptance.",
+ "script_sha256": "202192f7404b1c2f72a1edaea1e4d4aea9581f26ccaf71015857fadebc51f6fd",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "comparison_complete_visual_review_pending"
+}
