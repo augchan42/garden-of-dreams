@@ -1,0 +1,652 @@
+{
+  "status": "installed_checks_and98_original_reproductions_passed",
+  "started_at": "2026-10-09T16:08:43.869602+00:00",
+  "targets": {
+    "runtime/entry_route.gd": {
+      "before_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+      "after_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05"
+    },
+    "tests/test_yihong_framing.gd": {
+      "before_sha256": null,
+      "after_sha256": "01ea88fd39742e9f6b4cafe9b1dd75f21033cfd568074146bc973eca06915af6"
+    },
+    "tests/test_yihong_framing.gd.uid": {
+      "before_sha256": null,
+      "after_sha256": "12b34cc70cee936e1c6d2fdc951bdda1cc8f8a95ff9985e1eace8e63ab19a5c7"
+    },
+    "tests/test_portrait_architecture.gd": {
+      "before_sha256": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+      "after_sha256": "26154ba92c816e18566c0da6bed5496687582847d13d643f9e203ebe3edcf645"
+    },
+    "tests/portrait-architecture-contract.json": {
+      "before_sha256": "aaf115b13e49d5afefcf7c51ac913eacf8f967e5aaf9cb7002ff86323ac96dc3",
+      "after_sha256": "117d438266a9bbabdc9fd349e6f696750a15a2d9e15252ccdc96ab6323f177b2"
+    }
+  },
+  "phases": [
+    {
+      "name": "final-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/final-import.log",
+      "pid": 67880,
+      "exit_code": 0,
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6"
+    },
+    {
+      "name": "native-source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/native-import-contract.json"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/native-source-contract.log",
+      "pid": 67926,
+      "exit_code": 0,
+      "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/full-lighting.log",
+      "pid": 67948,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "yihong-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/yihong-normal"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/yihong-normal.log",
+      "pid": 67966,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "yihong-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/yihong-touch",
+        "--touch"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/yihong-touch.log",
+      "pid": 68027,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "yihong-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/yihong-density",
+        "--density"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/yihong-density.log",
+      "pid": 68152,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    },
+    {
+      "name": "architecture-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/architecture-normal"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/architecture-normal.log",
+      "pid": 68278,
+      "exit_code": 0,
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6"
+    },
+    {
+      "name": "architecture-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/architecture-touch",
+        "--touch",
+        "--room=daguan_lou"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/architecture-touch.log",
+      "pid": 69831,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09"
+    },
+    {
+      "name": "architecture-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/architecture-density",
+        "--density",
+        "--room=daguan_lou"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/architecture-density.log",
+      "pid": 69918,
+      "exit_code": 0,
+      "log_sha256": "71966b8d8ee5fca2208b87d36aa349416c8986c9e492936b8a247fe08bfc9b09"
+    },
+    {
+      "name": "arrivals-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/arrivals-desktop"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/arrivals-desktop.log",
+      "pid": 69958,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/review-captures/arrivals-portrait",
+        "--mobile"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v3/arrivals-portrait.log",
+      "pid": 70041,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    }
+  ],
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "rollback": false,
+  "reproduced_originals": [
+    {
+      "file": "review-captures/yihong-normal/arrival-desktop.png",
+      "sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35"
+    },
+    {
+      "file": "review-captures/yihong-normal/arrival-narrow.png",
+      "sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db"
+    },
+    {
+      "file": "review-captures/yihong-normal/arrival-portrait.png",
+      "sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b"
+    },
+    {
+      "file": "review-captures/yihong-normal/arrival-return.png",
+      "sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b"
+    },
+    {
+      "file": "review-captures/yihong-normal/doors-desktop.png",
+      "sha256": "edc50d009d972e68a6b34838796333fa4526ef358a3dd832f5515d9381e71bc4"
+    },
+    {
+      "file": "review-captures/yihong-normal/doors-look.png",
+      "sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b"
+    },
+    {
+      "file": "review-captures/yihong-normal/doors-narrow.png",
+      "sha256": "64dd03861bfc703d95d4df39b34cd0a1c44d2ebdbb932f0712d745716824ce9b"
+    },
+    {
+      "file": "review-captures/yihong-normal/doors-portrait.png",
+      "sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3"
+    },
+    {
+      "file": "review-captures/yihong-normal/doors-return.png",
+      "sha256": "039169ffc033c8a49205013f2e67bd71d22b129dc4da3690a7781417a86d94e3"
+    },
+    {
+      "file": "review-captures/yihong-normal/leaves-desktop.png",
+      "sha256": "ba7c7d375b421955aa8e629ebb18a02d7f3ade85b68df38b16f94a4efb2dcec9"
+    },
+    {
+      "file": "review-captures/yihong-normal/leaves-look.png",
+      "sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b"
+    },
+    {
+      "file": "review-captures/yihong-normal/leaves-narrow.png",
+      "sha256": "2a491d35d7fa6a6637a930d4ea6c6398b62dc2bd980db7c12e6b739fc5df8610"
+    },
+    {
+      "file": "review-captures/yihong-normal/leaves-portrait.png",
+      "sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d"
+    },
+    {
+      "file": "review-captures/yihong-normal/leaves-return.png",
+      "sha256": "51ef371a3595124087c1d12497d04e48973e4814ed340fda459912d8d803194d"
+    },
+    {
+      "file": "review-captures/yihong-normal/look-narrow.png",
+      "sha256": "81069917c31246032db01ce93641e46a831f84b0b01459cc85426151292301db"
+    },
+    {
+      "file": "review-captures/yihong-touch/arrival-desktop.png",
+      "sha256": "407f2d50381dbb74cbb1d98eceae77721a19266131142b159d3c12bcdd26af19"
+    },
+    {
+      "file": "review-captures/yihong-touch/arrival-narrow.png",
+      "sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58"
+    },
+    {
+      "file": "review-captures/yihong-touch/arrival-portrait.png",
+      "sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6"
+    },
+    {
+      "file": "review-captures/yihong-touch/arrival-return.png",
+      "sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6"
+    },
+    {
+      "file": "review-captures/yihong-touch/doors-desktop.png",
+      "sha256": "721da9a69d44a426e565c9de5c599f9eb4ac3d34220f6d06e2164409f9544a9b"
+    },
+    {
+      "file": "review-captures/yihong-touch/doors-look.png",
+      "sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6"
+    },
+    {
+      "file": "review-captures/yihong-touch/doors-narrow.png",
+      "sha256": "3f7b4495e71c1934ca0e46cd56b433a13a84ff9564a511c0e3f184fe39307ef3"
+    },
+    {
+      "file": "review-captures/yihong-touch/doors-portrait.png",
+      "sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671"
+    },
+    {
+      "file": "review-captures/yihong-touch/doors-return.png",
+      "sha256": "d241658a63a07cf3e8c91ace9f33d77c047c1d9be7c29f234d41b1e30127a671"
+    },
+    {
+      "file": "review-captures/yihong-touch/leaves-desktop.png",
+      "sha256": "f57144cedd18851a4c5fd9df248912910718589769ec797ac97ebeb23f1617aa"
+    },
+    {
+      "file": "review-captures/yihong-touch/leaves-look.png",
+      "sha256": "76b9af378a6f0fb989916af144b17b4b2b2fe660540a7a6f25ea89554fe0b6e6"
+    },
+    {
+      "file": "review-captures/yihong-touch/leaves-narrow.png",
+      "sha256": "0b78542a84241376a3604becd55fe4d0e56fb32c31697d7534bd44a539ac0ea5"
+    },
+    {
+      "file": "review-captures/yihong-touch/leaves-portrait.png",
+      "sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7"
+    },
+    {
+      "file": "review-captures/yihong-touch/leaves-return.png",
+      "sha256": "0e96d655f88d3fa32f19f79ed52f3ef2f2fe93854f8cd73d09f401bde7876ec7"
+    },
+    {
+      "file": "review-captures/yihong-touch/look-narrow.png",
+      "sha256": "f1bc1661560d79dae54dfcfa4eee6cd56f534cd6398df7ff928d9d69559b8e58"
+    },
+    {
+      "file": "review-captures/yihong-density/arrival-desktop.png",
+      "sha256": "01b4c0f58d52c7fa68dbcda7ccf0fbca2f60ab976051a7d65bb3c67f14491b8c"
+    },
+    {
+      "file": "review-captures/yihong-density/arrival-narrow.png",
+      "sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b"
+    },
+    {
+      "file": "review-captures/yihong-density/arrival-portrait.png",
+      "sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb"
+    },
+    {
+      "file": "review-captures/yihong-density/arrival-return.png",
+      "sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb"
+    },
+    {
+      "file": "review-captures/yihong-density/doors-desktop.png",
+      "sha256": "8912417976e12a831685191e9a6bd7550c0df89cb3872578e4fdc7721d9463d7"
+    },
+    {
+      "file": "review-captures/yihong-density/doors-look.png",
+      "sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb"
+    },
+    {
+      "file": "review-captures/yihong-density/doors-narrow.png",
+      "sha256": "fd3e713a797aac9ced211d34b4cbf4b94dd0c229fe714ca12d35d2071317e49e"
+    },
+    {
+      "file": "review-captures/yihong-density/doors-portrait.png",
+      "sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1"
+    },
+    {
+      "file": "review-captures/yihong-density/doors-return.png",
+      "sha256": "60090e428199e35c55b1bf4e4303e0ff2b9d61682f7e00cd1668b28df1eeb4b1"
+    },
+    {
+      "file": "review-captures/yihong-density/leaves-desktop.png",
+      "sha256": "8caf8d43b413550df59cd61223de81268ee3a80869d5b479233f724cf62e0357"
+    },
+    {
+      "file": "review-captures/yihong-density/leaves-look.png",
+      "sha256": "66d7888029c35d725b14edadd143a167a631d15a80a327b07e3af0c140e3f1bb"
+    },
+    {
+      "file": "review-captures/yihong-density/leaves-narrow.png",
+      "sha256": "7e8700156d3b7bcdb2a555730beb5c6f5fe244d744717a945b08e176f7b0b852"
+    },
+    {
+      "file": "review-captures/yihong-density/leaves-portrait.png",
+      "sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278"
+    },
+    {
+      "file": "review-captures/yihong-density/leaves-return.png",
+      "sha256": "ce78073612a5804bc035af5f51a06080011a9d6bf07c4bcb41782f8753805278"
+    },
+    {
+      "file": "review-captures/yihong-density/look-narrow.png",
+      "sha256": "57cba9b446d0a8afb1f4c8d6dec5fbbe386bb20ea73c370fc976de1ac214897b"
+    },
+    {
+      "file": "review-captures/architecture-normal/daguan_lou-arrival-390x844.png",
+      "sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df"
+    },
+    {
+      "file": "review-captures/architecture-normal/daguan_lou-doors-390x844.png",
+      "sha256": "8b34876a30f6aa93a4421c970bf70f21494d28221b160706b5feebbaba58222a"
+    },
+    {
+      "file": "review-captures/architecture-normal/daguan_lou-look-360x800.png",
+      "sha256": "3df6ca232a0a9b5206f6f508f4bf116136350477f98bd416d9bea2c2ba0b0cd8"
+    },
+    {
+      "file": "review-captures/architecture-normal/daguan_lou-overview-landscape.png",
+      "sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca"
+    },
+    {
+      "file": "review-captures/architecture-normal/daguan_lou-resized-390x844.png",
+      "sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df"
+    },
+    {
+      "file": "review-captures/architecture-normal/daoxiang_cun-arrival-390x844.png",
+      "sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032"
+    },
+    {
+      "file": "review-captures/architecture-normal/daoxiang_cun-doors-390x844.png",
+      "sha256": "ab9d648fffcb7c2e1d561ff322104b057a53f8df82051fc186c6410d188b4202"
+    },
+    {
+      "file": "review-captures/architecture-normal/daoxiang_cun-look-360x800.png",
+      "sha256": "0cf7dd1cf5fb3e8d503eed782efa81bc9b93ed97f1413e14f59424f8900a4d45"
+    },
+    {
+      "file": "review-captures/architecture-normal/daoxiang_cun-overview-landscape.png",
+      "sha256": "c075e449deec27b1710303295e6ad33edde67049e64c89481b35f506ec70cdfc"
+    },
+    {
+      "file": "review-captures/architecture-normal/daoxiang_cun-resized-390x844.png",
+      "sha256": "f665820c8f64067d322980cf044e5a9a3735477e4dba1f80bfe558b56fa10032"
+    },
+    {
+      "file": "review-captures/architecture-normal/longcui_an-arrival-390x844.png",
+      "sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642"
+    },
+    {
+      "file": "review-captures/architecture-normal/longcui_an-doors-390x844.png",
+      "sha256": "875dddb3c056aee8be893f07ec1722cd2930947da10c8bafa084e78e375aa674"
+    },
+    {
+      "file": "review-captures/architecture-normal/longcui_an-look-360x800.png",
+      "sha256": "44657e671628c50c505ccd5c5628ccda21f3ebf4f80fa049587236486cd1bd12"
+    },
+    {
+      "file": "review-captures/architecture-normal/longcui_an-overview-landscape.png",
+      "sha256": "bad6a10b51e82869671fbd99406b2d0965c6ac7c764c993de46db9b434afe7ab"
+    },
+    {
+      "file": "review-captures/architecture-normal/longcui_an-resized-390x844.png",
+      "sha256": "1d63b05f11b95fd24664cd0592916b3bf5b93fbd074840aa3d4c72b8c8790642"
+    },
+    {
+      "file": "review-captures/architecture-touch/daguan_lou-arrival-390x844.png",
+      "sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8"
+    },
+    {
+      "file": "review-captures/architecture-touch/daguan_lou-doors-390x844.png",
+      "sha256": "f2dcb6feb53360c4f65c1a5f5c1daa0971f1c099735bf4b5df767f62d11cd87c"
+    },
+    {
+      "file": "review-captures/architecture-touch/daguan_lou-look-360x800.png",
+      "sha256": "23084fdd9158b532d0cefa26963520d6a1be38ba8fed782f6592c8a003b46c4f"
+    },
+    {
+      "file": "review-captures/architecture-touch/daguan_lou-overview-landscape.png",
+      "sha256": "59803782b08ec658449d8d163921c9fc7497d0a1f90b1e81da91a547bab671fb"
+    },
+    {
+      "file": "review-captures/architecture-touch/daguan_lou-resized-390x844.png",
+      "sha256": "b1dd62faf732aed8415120bc90cf5843f3bc7979bce50695a782bc66998686c8"
+    },
+    {
+      "file": "review-captures/architecture-density/daguan_lou-arrival-390x844.png",
+      "sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb"
+    },
+    {
+      "file": "review-captures/architecture-density/daguan_lou-doors-390x844.png",
+      "sha256": "ce875bb2b7c70ea7c8a1ce0198e9697fe232fe10e3cb2b962749d6ad4e4ed576"
+    },
+    {
+      "file": "review-captures/architecture-density/daguan_lou-look-360x800.png",
+      "sha256": "cbfdf351e2f6feae32e10c1aa2efe9d3ef521d9932705471e51e2a67c71c671f"
+    },
+    {
+      "file": "review-captures/architecture-density/daguan_lou-overview-landscape.png",
+      "sha256": "b7e818a3e5b6db1aaca7cd2d8ac8bb73213b21870b75bf809f396d5cf72427cf"
+    },
+    {
+      "file": "review-captures/architecture-density/daguan_lou-resized-390x844.png",
+      "sha256": "4d7a1b37a3bb131bd658ce34334716200c302ca5d1b665a6fc68e9bcfbd8fffb"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-bamboo.png",
+      "sha256": "422399a1e58ac1f6e3a134d6a621a666b6c0163ca936fd275df47d1b122b483d"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-cell.png",
+      "sha256": "8959c06258472793936ae1a0b90b62db4c266fde4ae76c5518042d3cc8daee41"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-courtyard.png",
+      "sha256": "8a0e5b06ee4ff91c26e5d4368d6c17679149fdd610310562de3c91129f7e08d1"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-farmhouse.png",
+      "sha256": "0a3846ecc8afe9c07f71be1aeb72a80adb85d5fcae38c6b4df2c7218fcf7f572"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-gate.png",
+      "sha256": "137b87ac8737222039e2b81b33cce256e39c6bfda95b0827d4415903f873ea78"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-hilltop.png",
+      "sha256": "35959fca080a2652867afcdd8fd855502cf1a4d54195c291e98bbf662559f5a4"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-imperial.png",
+      "sha256": "dd92ef8df62ec0a52d0212d6baaee19a6b145732352a5b1a114e9b1c2cfd56ca"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-nunnery.png",
+      "sha256": "82ba341ec9dcca6baab51a596314d17242a0c061d0671c6568327dd21f1c18a0"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-ouxiang.png",
+      "sha256": "07de10e30b76ed7968346d7c5d974b39642007a430ae2f3248b9591c360e2179"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-pavilion.png",
+      "sha256": "fff71c7f3268971b2299d78fa3a7397095d493e111879982dbcf2cef8b3e31fa"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-red-court.png",
+      "sha256": "9b25ab54e768fe4d555bf528d6e607242d02c2b2c2c9949df12ca7d2c7265c35"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-reflection.png",
+      "sha256": "f455cef7b29f047f911617a0423b71ae6b4f5b57c315b9052b9c1a124fda3505"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-study.png",
+      "sha256": "a8781222e9aeb6452f65e11c5109dcc132471f35fe4e6701b9d79516fa2230b8"
+    },
+    {
+      "file": "review-captures/arrivals-desktop/route-ziling.png",
+      "sha256": "915160dcd5792fd69ebd89a1b0bcf0b3ce6002a85877556cd92b312f921906c7"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-bamboo.png",
+      "sha256": "86ab2851dbac6492ec6119b7c534d74f5cab251a4449ec0dd2f9918f749c89e7"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-cell.png",
+      "sha256": "cffcb51adb5fef296086fc8dd59df6378bb9b8d1c46bc51f427d86ba78ee2901"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-courtyard.png",
+      "sha256": "94c82731084277cd58726df791a00b2b177398fdb1071b717f5d09122ad90a61"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-farmhouse.png",
+      "sha256": "48b1c1e4ce9a936cde27ad167a996891e38d96a1869eaedd2170554d1f35fd64"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-gate.png",
+      "sha256": "d8c857c557351222d30b89bdfd21764cddb05e5a0d651294b76c22549f336f6f"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-hilltop.png",
+      "sha256": "de9306ea5d987eeecebadceb3dfc38769b0d49efd99a83c728bc80c25fb44518"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-imperial.png",
+      "sha256": "f24c1458e6bd9c73bef7d546f944bb45a10e73cc49fa1419284dfbd1136666df"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-nunnery.png",
+      "sha256": "f6b1cad6dca71e399c7adfcfc761fcf46069dde0ec16d83af4103c0f67409b94"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-ouxiang.png",
+      "sha256": "b2e5c5cb68aead63cab83af2f7f203c608575db85ddda635cf2032111e67c2ae"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-pavilion.png",
+      "sha256": "63a72cc920f6c07890db48565348de7ca4efc02960624769de3c5dc36f6353c4"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-red-court.png",
+      "sha256": "c79203a7b0d55f748b9db919ae6ec5e0e612362afa6722a5945ea0864033491b"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-reflection.png",
+      "sha256": "593731cad95fdfe636062c9106268287cc811c739918a0458c763eeafa27bf65"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-study.png",
+      "sha256": "2338c292e37508def39392dfa61ec3bbf5f9f30ecae873e3d79c41222e9fecad"
+    },
+    {
+      "file": "review-captures/arrivals-portrait/route-mobile-ziling.png",
+      "sha256": "590ab3f36fddd02db4b5bb93a4ece41af0df29d4c420d1b89fea9cf856837c53"
+    }
+  ],
+  "finished_at": "2026-10-09T16:11:05.619202+00:00"
+}

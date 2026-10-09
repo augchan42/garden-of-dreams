@@ -1,0 +1,605 @@
+{
+ "closed_door_vertex_count": 48,
+ "density": false,
+ "errors": [
+  "Subject clipped or covered: arrival-portrait",
+  "Subject clipped or covered: arrival-narrow",
+  "Original desktop pose not restored: arrival",
+  "Subject clipped or covered: arrival-return",
+  "Subject clipped or covered: doors-portrait",
+  "Subject clipped or covered: doors-narrow",
+  "Original desktop pose not restored: doors",
+  "Subject clipped or covered: doors-return",
+  "Subject clipped or covered: doors-look",
+  "Look did not leave selected doors",
+  "Look did not restore original portrait overview after doors",
+  "Subject clipped or covered: leaves-portrait",
+  "Subject clipped or covered: leaves-narrow",
+  "Original desktop pose not restored: leaves",
+  "Subject clipped or covered: leaves-return",
+  "Subject clipped or covered: leaves-look",
+  "Look did not leave selected leaves",
+  "Look did not restore original portrait overview after leaves",
+  "Subject clipped or covered: look-narrow",
+  "Portrait actions consume too much scene space"
+ ],
+ "facade_vertex_count": 2744,
+ "route_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+ "rows": [
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/arrival-portrait.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     345.023376464844,
+     532.095947265625
+    ],
+    "low": [
+     43.0433158874512,
+     354.451232910156
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 0.77430784763434
+   },
+   "phase": "arrival-portrait",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "7483ff84bad89ba595d76fa812c9a8cc2f0a946e6e31f98c5d1ae614519d8e88",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/arrival-narrow.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     318.483123779297,
+     501.627044677734
+    ],
+    "low": [
+     39.7322807312012,
+     337.647308349609
+    ],
+    "panel_top": 422.0,
+    "width_fraction": 0.774307897355821
+   },
+   "phase": "arrival-narrow",
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "03eb43d497ffca3a1a43cc1769fc23102a206448d3e8db201114adb593651022",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/arrival-desktop.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     1247.39233398438,
+     698.039245605469
+    ],
+    "low": [
+     155.618103027344,
+     55.7852439880371
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.774307965217753
+   },
+   "phase": "arrival-desktop",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "d9fcd572bdceab7c69609d9adcd7082c433a477bd0bb46af2bd4c83889114523",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    15.4800004959106,
+    3.83999991416931,
+    6.59999990463257
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/arrival-return.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     345.023376464844,
+     532.095947265625
+    ],
+    "low": [
+     43.0433158874512,
+     354.451232910156
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 0.77430784763434
+   },
+   "phase": "arrival-return",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "708c052294859e43fbcf4c2fc3ce0010ca16c8f1ad7cd9594ae7f80f86ee15e2",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2000007629395,
+    1.64999997615814,
+    1.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/doors-portrait.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     335.477630615234,
+     604.638671875
+    ],
+    "low": [
+     54.506046295166,
+     321.393676757812
+    ],
+    "panel_top": 492.0,
+    "width_fraction": 0.720439959795047
+   },
+   "phase": "doors-portrait",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "b3920ffb3b1975404b06e97929e7fc671f8feb80bb5b100c6031ee08c7366adc",
+   "subject": "doors",
+   "text": "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2000007629395,
+    1.64999997615814,
+    1.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/doors-narrow.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     309.671661376953,
+     568.589538574219
+    ],
+    "low": [
+     50.3132629394531,
+     307.132629394531
+    ],
+    "panel_top": 422.0,
+    "width_fraction": 0.720439995659722
+   },
+   "phase": "doors-narrow",
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "a28cfebcc401e16b96d0e6f0ddd96d5208ef2278b7aa9dc296fa19ff0ce4ea3a",
+   "subject": "doors",
+   "text": "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2000007629395,
+    1.64999997615814,
+    1.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/doors-desktop.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     1212.88073730469,
+     960.309143066406
+    ],
+    "low": [
+     197.060241699219,
+     -63.7305030822754
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 0.720440067805297
+   },
+   "phase": "doors-desktop",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "c63cba47d7a2536aac759888410d866e3e9ecf39c97ac411926cb20fc2bd658a",
+   "subject": "doors",
+   "text": "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2000007629395,
+    1.64999997615814,
+    1.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/doors-return.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     335.477630615234,
+     604.638671875
+    ],
+    "low": [
+     54.506046295166,
+     321.393676757812
+    ],
+    "panel_top": 492.0,
+    "width_fraction": 0.720439959795047
+   },
+   "phase": "doors-return",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "d48578efcbf365f201ee9b3d6c06de8f557ab11dad4467d61b973aa0af4be0b1",
+   "subject": "doors",
+   "text": "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    22.2000007629395,
+    1.64999997615814,
+    1.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/doors-look.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 48,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     25967.06640625,
+     632.1689453125
+    ],
+    "low": [
+     -25577.076171875,
+     -11437.78515625
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 132.164468149038
+   },
+   "phase": "doors-look",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "589fb0cbb8e1f9a9be8c17d3e063a1d201c8a38faf8ef293d052c810cbdfc64f",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/leaves-portrait.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     492.736480712891,
+     573.296142578125
+    ],
+    "low": [
+     -122.918571472168,
+     226.349517822266
+    ],
+    "panel_top": 492.0,
+    "width_fraction": 1.57860269791041
+   },
+   "phase": "leaves-portrait",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "61ec1064f15f6bfc73b206b7162edfbce2b645d8292c554243223b5ab8ccfce0",
+   "subject": "leaves",
+   "text": "Broad banana leaves curve from two stems, with raised midribs and drooping tips."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/leaves-narrow.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     454.833679199219,
+     539.657958984375
+    ],
+    "low": [
+     -113.463317871094,
+     219.399566650391
+    ],
+    "panel_top": 448.0,
+    "width_fraction": 1.57860276963976
+   },
+   "phase": "leaves-narrow",
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "598ea2c4a0120338e36f193e0c4c627cc30cb4ca72993d0264068b5fe3f65d5c",
+   "subject": "leaves",
+   "text": "Broad banana leaves curve from two stems, with raised midribs and drooping tips."
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/leaves-desktop.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     1781.43200683594,
+     846.993713378906
+    ],
+    "low": [
+     -444.398101806641,
+     -407.351745605469
+    ],
+    "panel_top": 405.0,
+    "width_fraction": 1.57860291393091
+   },
+   "phase": "leaves-desktop",
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "b57e5840cba31b8a448712f0951b36888b201dce9fe981a79681e5966306c377",
+   "subject": "leaves",
+   "text": "Broad banana leaves curve from two stems, with raised midribs and drooping tips."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/leaves-return.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 0,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     492.736480712891,
+     573.296142578125
+    ],
+    "low": [
+     -122.918571472168,
+     226.349517822266
+    ],
+    "panel_top": 492.0,
+    "width_fraction": 1.57860269791041
+   },
+   "phase": "leaves-return",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "fe793e26d6df7c9dbc25131b2f96540ac287f3050311089fa075c8cf40a72c19",
+   "subject": "leaves",
+   "text": "Broad banana leaves curve from two stems, with raised midribs and drooping tips."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/leaves-look.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurement": {
+    "behind": 51,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     44085.44921875,
+     9298.2978515625
+    ],
+    "low": [
+     -33326.67578125,
+     -163.690826416016
+    ],
+    "panel_top": 466.0,
+    "width_fraction": 198.492628205128
+   },
+   "phase": "leaves-look",
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "8f567c4a20a24913d1d87f0dbf9ffb02c9d7a4df262273268510df73f5a2d8e1",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  },
+  {
+   "action_scroll_height": 164.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    21.5,
+    2.29999995231628,
+    0.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned/look-narrow.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurement": {
+    "behind": 51,
+    "fits": false,
+    "header_bottom": 38.0,
+    "high": [
+     40694.26171875,
+     8593.5048828125
+    ],
+    "low": [
+     -30763.08984375,
+     -140.637680053711
+    ],
+    "panel_top": 422.0,
+    "width_fraction": 198.492643229167
+   },
+   "phase": "look-narrow",
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "97e2200159314dbae682fcd450fbc7978c3c00d4896752b1065b49db4db1213d",
+   "subject": "arrival",
+   "text": "Banana leaves arch beside paired lacquer doors. A single amber window lights the low court wall. The room beyond remains closed."
+  }
+ ],
+ "scope": "Actual arrival and public Inspect the doors/Banana leaves/Look with completed tweens; actual imported facade and closed-door vertices above measured UI; selected primary banana silhouette at its actual runtime LOD. Resize/rotation/text/visitor invariants, original desktop poses, touch targets and last-action scrolling. Projection does not prove visible pixels or foliage surface quality. Density windows may be host-clamped. Not physical-phone or final-art acceptance.",
+ "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+ "status": "rejected",
+ "test_sha256": "3a3b9fd2b3a6a4b50a6590f7161f6a5411e5df45cdf55e6f076c2cb7528a4cfc",
+ "touch": false
+}

@@ -1,0 +1,47 @@
+{
+  "status": "completed_pass",
+  "label": "posed-touch",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/posed-touch-import.log",
+      "pid": 55742,
+      "exit_code": 0,
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6"
+    },
+    {
+      "name": "framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/posed-touch",
+        "--touch"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/posed-touch-framing.log",
+      "pid": 55745,
+      "exit_code": 0,
+      "log_sha256": "44099b19adf79fc05555a3a3a122048193c521c22d65ae78f7f44a365ae3cc7b"
+    }
+  ],
+  "runtime_sha256": "d34b5b7e941368c5ab87ca6a62b46dde0e92cf575d82c351e664121e7d1b53b5",
+  "test_sha256": "3a3b9fd2b3a6a4b50a6590f7161f6a5411e5df45cdf55e6f076c2cb7528a4cfc",
+  "errors": [],
+  "report_sha256": "9855cbce26785670854753d5cf0eb5c245033e5cf4d5819b60669c8acd1ba83b"
+}

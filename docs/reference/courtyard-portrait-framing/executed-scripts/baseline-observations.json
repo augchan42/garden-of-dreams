@@ -1,0 +1,23 @@
+{
+  "status": "baseline_directly_inspected_future_work_not_implemented",
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "baseline_originals": [
+    {
+      "original": "/Users/auchan/projects/garden-of-dreams/docs/reference/stage-floor-palette/native/review-captures/arrivals-portrait/route-mobile-red-court.png",
+      "sha256": "905f2e3bfa52a1aad7c3a2543dbd431e807e58c1309091bd388212534c5e9d96",
+      "direct_review": "Paired doors partly hidden by action panel; facade low in frame; large ceiling region."
+    },
+    {
+      "original": "/Users/auchan/projects/garden-of-dreams/docs/reference/stage-floor-palette/native/review-captures/arrivals-portrait/route-mobile-imperial.png",
+      "sha256": "f9320a2e90ed6b622ca40096e2fcf20ac7e932ec5ad251ff483a123939601087",
+      "direct_review": "Complete facade fits but retains large ceiling and broad foreground; improve scale and framing without covering doors."
+    }
+  ],
+  "next": "After current color PR merges, isolate camera branch. Measure actual door/facade projected bounds against header and panel at 390x844,360x800 and density. Retain complete existing architecture guards. Add actual public Look/doors/leaves and resize/rotation assertions for red courtyard; preserve descriptions/visitor/desktop cameras and touch action reachability. Prove baseline failures before camera repair. One native worker maximum. No source/lightmap changes expected; final all-site art remains open.",
+  "runtime_findings": [
+    "Red court is omitted from architecture_overview_active, so arrival resize does not refresh its camera.",
+    "Public Look re-frames only PORTRAIT_ARCHITECTURE_VIEWS or Hengwu/Tubi/Qiushuang; red court Look does not restore the overview after doors/leaves.",
+    "Imperial is in existing portrait architecture contract; retain its current complete-fit/minimum-scale checks when improving composition."
+  ]
+}
