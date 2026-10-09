@@ -1,0 +1,3798 @@
+{
+ "errors": [],
+ "route_sha256": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+ "rows": [
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      419.074645996094,
+      477.098663330078
+     ],
+     "low": [
+      29.5661964416504,
+      262.112548828125
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 0.998739614242163
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      28.0774879455566,
+      201.781143188477
+     ],
+     "low": [
+      -42.1335220336914,
+      90.2889556884766
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 0.180028230716021
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      649167.25,
+      1604.41064453125
+     ],
+     "low": [
+      -659.879516601562,
+      -162417.734375
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1666.22340901693
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      289.975402832031,
+      991.269958496094
+     ],
+     "low": [
+      -143.826644897461,
+      490.106353759766
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1.11231294289613
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      375.295745849609,
+      247.094772338867
+     ],
+     "low": [
+      122.730224609375,
+      109.569679260254
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 0.647603900615986
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      68.7460784912109,
+      146.642044067383
+     ],
+     "low": [
+      15.7395067214966,
+      62.1275520324707
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 0.135914286589011
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      3462.5185546875,
+      657.998840332031
+     ],
+     "low": [
+      -414.150665283203,
+      -298.673400878906
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 9.94017748710437
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      316.563995361328,
+      484.440032958984
+     ],
+     "low": [
+      102.225929260254,
+      250.297302246094
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 0.549584784874549
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     5.0,
+     -5.1,
+     -32
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4985.99462890625,
+      2111.35668945312
+     ],
+     "low": [
+      -3371.34033203125,
+      -2772.66137695312
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 21.4290640024038
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1630.41857910156,
+      1093.21105957031
+     ],
+     "low": [
+      -2421.5185546875,
+      644.262145996094
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 2.02846147586138
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1303.37109375,
+      836.497314453125
+     ],
+     "low": [
+      -1208.82751464844,
+      310.303283691406
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 6.44153489332933
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      8945.822265625,
+      22129.078125
+     ],
+     "low": [
+      -14681.4892578125,
+      -3393.47509765625
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 60.5828500600962
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "88d1ccea5f6b879defb512e18e4f733e0c7653c3e9ce63559458868c4f3efc77",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-8-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1005846.4375,
+      1063538.625
+     ],
+     "low": [
+      -2205.3681640625,
+      -987.899719238281
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 2584.74821965144
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -858.007629394531,
+      624.670043945312
+     ],
+     "low": [
+      -1351.86437988281,
+      363.493682861328
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1.26629936022636
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      831.385681152344,
+      677.143310546875
+     ],
+     "low": [
+      -579.355041503906,
+      310.886932373047
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 3.61728390424679
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      25.8826179504395,
+      4165.1279296875
+     ],
+     "low": [
+      -3591.33251953125,
+      623.332458496094
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 9.27491060892741
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "6e5490944d1ff934c8e19a19574e092d34c0f6eb5a8e5bf773132d0e37577bbf",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-10-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      7042.568359375,
+      18699.61328125
+     ],
+     "low": [
+      -82875.7890625,
+      -71319.6640625
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 230.559890825321
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -918.085021972656,
+      509.033782958984
+     ],
+     "low": [
+      -1487.66760253906,
+      210.13671875
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1.46046815529848
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      812.833801269531,
+      708.779907226562
+     ],
+     "low": [
+      -524.939575195312,
+      300.258666992188
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 3.43018814478165
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      38.5050582885742,
+      2394.580078125
+     ],
+     "low": [
+      -1170.96704101562,
+      653.498046875
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 3.10121051103641
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "36833d34a9788d7083e6e1c19c6772b79b6c4f87c7f47c8c8eebe5d33329af49",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-12-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      10101.02734375,
+      19800.6875
+     ],
+     "low": [
+      -3469.09008789062,
+      -4639.56591796875
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 34.7951729016426
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1017.01995849609,
+      386.152648925781
+     ],
+     "low": [
+      -1720.57348632812,
+      16.1513481140137
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1.80398340469752
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      790.016357421875,
+      728.55810546875
+     ],
+     "low": [
+      -465.819274902344,
+      290.548858642578
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 3.22009136493389
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      51.0618209838867,
+      1862.83178710938
+     ],
+     "low": [
+      -572.535827636719,
+      674.189819335938
+     ],
+     "panel_top": 534.0,
+     "width_fraction": 1.59896832979642
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "c9350f5c24fbdf4764e75f720f055fbe915accf4a33c77266f268734d82fda75",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      392.39306640625,
+      452.226226806641
+     ],
+     "low": [
+      23.1906909942627,
+      248.44792175293
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 1.02556215392219
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      21.7796020507812,
+      191.261749267578
+     ],
+     "low": [
+      -44.7711334228516,
+      85.5819473266602
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 0.184863154093424
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      615319.625,
+      1520.76831054688
+     ],
+     "low": [
+      -630.312316894531,
+      -153950.46875
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 1710.97204810248
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      270.024078369141,
+      939.592346191406
+     ],
+     "low": [
+      -141.162750244141,
+      464.555786132812
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 1.14218563503689
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 50.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      334.799896240234,
+      225.707061767578
+     ],
+     "low": [
+      117.933372497559,
+      103.918121337891
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 0.602407010396322
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      71.3243789672852,
+      137.248397827148
+     ],
+     "low": [
+      25.3793182373047,
+      60.7112426757812
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 0.12762516869439
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      3180.10498046875,
+      561.518798828125
+     ],
+     "low": [
+      -336.704833984375,
+      -289.686950683594
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 9.76891615125868
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      282.422607421875,
+      424.532257080078
+     ],
+     "low": [
+      104.112319946289,
+      228.483551025391
+     ],
+     "panel_top": 464.0,
+     "width_fraction": 0.49530635409885
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 50.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     5.0,
+     -7.1,
+     -32
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4721.2275390625,
+      2001.28588867188
+     ],
+     "low": [
+      -3200.41772460938,
+      -2628.11499023438
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 22.0045701768663
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1550.25463867188,
+      1036.21899414062
+     ],
+     "low": [
+      -2300.11254882812,
+      610.675048828125
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 2.08293863932292
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1230.5888671875,
+      792.888427734375
+     ],
+     "low": [
+      -1150.64233398438,
+      294.126342773438
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 6.61453111436632
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      8474.619140625,
+      20975.4296875
+     ],
+     "low": [
+      -13920.9375,
+      -3216.56420898438
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 62.2098795572917
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "500d4190161d0efa51b08b4c93ea0a7dc516fd611aaaf83ba4edafeb0fabd8ac",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-8-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      928473.5625,
+      981738.1875
+     ],
+     "low": [
+      -2035.72424316406,
+      -901.445556640625
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 2584.74801873101
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -792.006896972656,
+      587.080017089844
+     ],
+     "low": [
+      -1247.87463378906,
+      345.994171142578
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 1.26629926893446
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      767.432800292969,
+      635.516845703125
+     ],
+     "low": [
+      -534.789184570312,
+      297.434112548828
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 3.61728329128689
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      23.891658782959,
+      3855.19458007812
+     ],
+     "low": [
+      -3315.07568359375,
+      585.845275878906
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 9.27490928437975
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "b001dad33cb8d723b43bdeccd67b4e584c1a4b7357c8947ba6f50063d07e99ec",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-10-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      6500.83154296875,
+      17271.638671875
+     ],
+     "low": [
+      -76500.71875,
+      -65823.0625
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 230.559861924913
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -847.463012695312,
+      480.3388671875
+     ],
+     "low": [
+      -1373.2314453125,
+      204.43391418457
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 1.46046786838108
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      750.308044433594,
+      664.719848632812
+     ],
+     "low": [
+      -484.559509277344,
+      287.623413085938
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 3.43018764919705
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      35.5431518554688,
+      2220.84301757812
+     ],
+     "low": [
+      -1080.892578125,
+      613.6904296875
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 3.10121036105686
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "e784462ba3bd59f2a1de5bd9ab7afa3783218a19491a147ba719f80218670c7b",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 122.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-12-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      9324.0244140625,
+      18288.013671875
+     ],
+     "low": [
+      -3202.236328125,
+      -4272.2138671875
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 34.7951687282986
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -938.78759765625,
+      366.91015625
+     ],
+     "low": [
+      -1588.22131347656,
+      25.3705501556396
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 1.80398254394531
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      729.245788574219,
+      682.976623535156
+     ],
+     "low": [
+      -429.986999511719,
+      278.660491943359
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 3.22009107801649
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      47.1339988708496,
+      1729.99829101562
+     ],
+     "low": [
+      -528.494506835938,
+      632.790588378906
+     ],
+     "panel_top": 490.0,
+     "width_fraction": 1.59896807140774
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "2157524c113fdd16400b1f0782c4caaf7d369cb85c76d202d02d2dfddb1f73fb",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      419.074645996094,
+      477.098663330078
+     ],
+     "low": [
+      29.5661964416504,
+      262.112548828125
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 0.998739614242163
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      28.0774879455566,
+      201.781143188477
+     ],
+     "low": [
+      -42.1335220336914,
+      90.2889556884766
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 0.180028230716021
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      649167.25,
+      1604.41064453125
+     ],
+     "low": [
+      -659.879516601562,
+      -162417.734375
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 1666.22340901693
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      289.975402832031,
+      991.269958496094
+     ],
+     "low": [
+      -143.826644897461,
+      490.106353759766
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 1.11231294289613
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "45b4b632fc265c31ebde0cb16da5436ed0f80ca1e2c1865cb6d4a8ea94679f1f",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      375.295745849609,
+      247.094772338867
+     ],
+     "low": [
+      122.730224609375,
+      109.569679260254
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 0.647603900615986
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      68.7460784912109,
+      146.642044067383
+     ],
+     "low": [
+      15.7395067214966,
+      62.1275520324707
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 0.135914286589011
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      3462.5185546875,
+      657.998840332031
+     ],
+     "low": [
+      -414.150665283203,
+      -298.673400878906
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 9.94017748710437
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      316.563995361328,
+      484.440032958984
+     ],
+     "low": [
+      102.225929260254,
+      250.297302246094
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 0.549584784874549
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     5.0,
+     -5.1,
+     -32
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4985.99462890625,
+      2111.35668945312
+     ],
+     "low": [
+      -3371.34033203125,
+      -2772.66137695312
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 21.4290640024038
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1630.41857910156,
+      1093.21105957031
+     ],
+     "low": [
+      -2421.5185546875,
+      644.262145996094
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 2.02846147586138
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1303.37109375,
+      836.497314453125
+     ],
+     "low": [
+      -1208.82751464844,
+      310.303283691406
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 6.44153489332933
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      8945.822265625,
+      22129.078125
+     ],
+     "low": [
+      -14681.4892578125,
+      -3393.47509765625
+     ],
+     "panel_top": 492.0,
+     "width_fraction": 60.5828500600962
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "86f775e7299dc8b37ef76c3e1cfb46a2bc44bac2c999ab2aa0bdb637cc4faac2",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-8-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1005846.4375,
+      1063538.625
+     ],
+     "low": [
+      -2205.3681640625,
+      -987.899719238281
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 2584.74821965144
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -858.007629394531,
+      624.670043945312
+     ],
+     "low": [
+      -1351.86437988281,
+      363.493682861328
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 1.26629936022636
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      831.385681152344,
+      677.143310546875
+     ],
+     "low": [
+      -579.355041503906,
+      310.886932373047
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 3.61728390424679
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      25.8826179504395,
+      4165.1279296875
+     ],
+     "low": [
+      -3591.33251953125,
+      623.332458496094
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 9.27491060892741
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "7fc0b52a4fb14cb24e536078d95a0c926dfdd777bc652e0199016036264adb2f",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-10-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      7042.568359375,
+      18699.61328125
+     ],
+     "low": [
+      -82875.7890625,
+      -71319.6640625
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 230.559890825321
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -918.085021972656,
+      509.033782958984
+     ],
+     "low": [
+      -1487.66760253906,
+      210.13671875
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 1.46046815529848
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      812.833801269531,
+      708.779907226562
+     ],
+     "low": [
+      -524.939575195312,
+      300.258666992188
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 3.43018814478165
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      38.5050582885742,
+      2394.580078125
+     ],
+     "low": [
+      -1170.96704101562,
+      653.498046875
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 3.10121051103641
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "6046d23bb6c04b82ef3ec8a79ec4f2f9f7c355d1bacc54120d9defb7a5f54be8",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-12-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      10101.02734375,
+      19800.6875
+     ],
+     "low": [
+      -3469.09008789062,
+      -4639.56591796875
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 34.7951729016426
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1017.01995849609,
+      386.152648925781
+     ],
+     "low": [
+      -1720.57348632812,
+      16.1513481140137
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 1.80398340469752
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      790.016357421875,
+      728.55810546875
+     ],
+     "low": [
+      -465.819274902344,
+      290.548858642578
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 3.22009136493389
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      51.0618209838867,
+      1862.83178710938
+     ],
+     "low": [
+      -572.535827636719,
+      674.189819335938
+     ],
+     "panel_top": 516.0,
+     "width_fraction": 1.59896832979642
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "60a70f3915a1c45274aa59c28385186f84b64159b06b6ca5cb38a6b5f1a7abb0",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      392.39306640625,
+      452.226226806641
+     ],
+     "low": [
+      23.1906909942627,
+      248.44792175293
+     ],
+     "panel_top": 422.0,
+     "width_fraction": 1.02556215392219
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      21.7796020507812,
+      191.261749267578
+     ],
+     "low": [
+      -44.7711334228516,
+      85.5819473266602
+     ],
+     "panel_top": 422.0,
+     "width_fraction": 0.184863154093424
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      615319.625,
+      1520.76831054688
+     ],
+     "low": [
+      -630.312316894531,
+      -153950.46875
+     ],
+     "panel_top": 422.0,
+     "width_fraction": 1710.97204810248
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      270.024078369141,
+      939.592346191406
+     ],
+     "low": [
+      -141.162750244141,
+      464.555786132812
+     ],
+     "panel_top": 422.0,
+     "width_fraction": 1.14218563503689
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "e78dde60eea629970a3a5cd772ff3730627d4ad0d8e1b9f4552c27b7cd92ba1e",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 50.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      334.799896240234,
+      225.707061767578
+     ],
+     "low": [
+      117.933372497559,
+      103.918121337891
+     ],
+     "panel_top": 446.0,
+     "width_fraction": 0.602407010396322
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      71.3243789672852,
+      137.248397827148
+     ],
+     "low": [
+      25.3793182373047,
+      60.7112426757812
+     ],
+     "panel_top": 446.0,
+     "width_fraction": 0.12762516869439
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      3180.10498046875,
+      561.518798828125
+     ],
+     "low": [
+      -336.704833984375,
+      -289.686950683594
+     ],
+     "panel_top": 446.0,
+     "width_fraction": 9.76891615125868
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      282.422607421875,
+      424.532257080078
+     ],
+     "low": [
+      104.112319946289,
+      228.483551025391
+     ],
+     "panel_top": 446.0,
+     "width_fraction": 0.49530635409885
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 50.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     5.0,
+     -7.1,
+     -32
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4721.2275390625,
+      2001.28588867188
+     ],
+     "low": [
+      -3200.41772460938,
+      -2628.11499023438
+     ],
+     "panel_top": 448.0,
+     "width_fraction": 22.0045701768663
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1550.25463867188,
+      1036.21899414062
+     ],
+     "low": [
+      -2300.11254882812,
+      610.675048828125
+     ],
+     "panel_top": 448.0,
+     "width_fraction": 2.08293863932292
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1230.5888671875,
+      792.888427734375
+     ],
+     "low": [
+      -1150.64233398438,
+      294.126342773438
+     ],
+     "panel_top": 448.0,
+     "width_fraction": 6.61453111436632
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      8474.619140625,
+      20975.4296875
+     ],
+     "low": [
+      -13920.9375,
+      -3216.56420898438
+     ],
+     "panel_top": 448.0,
+     "width_fraction": 62.2098795572917
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "bf67a3297dda48a673dbed269fa6cce0a3b823a2ff04dd96caf998c2cb80505f",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-8-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      928473.5625,
+      981738.1875
+     ],
+     "low": [
+      -2035.72424316406,
+      -901.445556640625
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 2584.74801873101
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -792.006896972656,
+      587.080017089844
+     ],
+     "low": [
+      -1247.87463378906,
+      345.994171142578
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 1.26629926893446
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      767.432800292969,
+      635.516845703125
+     ],
+     "low": [
+      -534.789184570312,
+      297.434112548828
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 3.61728329128689
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      23.891658782959,
+      3855.19458007812
+     ],
+     "low": [
+      -3315.07568359375,
+      585.845275878906
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 9.27490928437975
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "1117f206247436aba470dc90b07a7ab3a73c5fcb2cf85ec2d1cde3490f46fc2e",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-10-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      6500.83154296875,
+      17271.638671875
+     ],
+     "low": [
+      -76500.71875,
+      -65823.0625
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 230.559861924913
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -847.463012695312,
+      480.3388671875
+     ],
+     "low": [
+      -1373.2314453125,
+      204.43391418457
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 1.46046786838108
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      750.308044433594,
+      664.719848632812
+     ],
+     "low": [
+      -484.559509277344,
+      287.623413085938
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 3.43018764919705
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      35.5431518554688,
+      2220.84301757812
+     ],
+     "low": [
+      -1080.892578125,
+      613.6904296875
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 3.10121036105686
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "75371b9d95c76e820b54be5882297b807dc6b7ef2c32ea4c78ff771b23b359b5",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-12-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      9324.0244140625,
+      18288.013671875
+     ],
+     "low": [
+      -3202.236328125,
+      -4272.2138671875
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 34.7951687282986
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -938.78759765625,
+      366.91015625
+     ],
+     "low": [
+      -1588.22131347656,
+      25.3705501556396
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 1.80398254394531
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      729.245788574219,
+      682.976623535156
+     ],
+     "low": [
+      -429.986999511719,
+      278.660491943359
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 3.22009107801649
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      47.1339988708496,
+      1729.99829101562
+     ],
+     "low": [
+      -528.494506835938,
+      632.790588378906
+     ],
+     "panel_top": 472.0,
+     "width_fraction": 1.59896807140774
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "bd04e88de9c5380471ae873af26ca45ff8e584b85ad0fa4c135d2b4f69e8026d",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      405.768310546875,
+      425.954040527344
+     ],
+     "low": [
+      58.014835357666,
+      234.014282226562
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.845234167954154
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      56.6857223510742,
+      180.150344848633
+     ],
+     "low": [
+      -5.99870681762695,
+      80.6100387573242
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.152357992406146
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      579608.6875,
+      1432.4189453125
+     ],
+     "low": [
+      -557.522827148438,
+      -145006.671875
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1410.12625048297
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      290.508392333984,
+      885.006530761719
+     ],
+     "low": [
+      -96.7904281616211,
+      437.567321777344
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.941351329740461
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "a2978c6e903d77bad27ef6dc38f6d5194652cbf734af9d73f5647f739da2f173",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      394.045135498047,
+      238.500747680664
+     ],
+     "low": [
+      179.760162353516,
+      122.448425292969
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.520831548505302
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      136.422103881836,
+      155.275741577148
+     ],
+     "low": [
+      94.2096405029297,
+      87.2317962646484
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.102599740640844
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      5172.8349609375,
+      608.943725585938
+     ],
+     "low": [
+      -232.447738647461,
+      -538.419372558594
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 13.1378403124653
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      339.990081787109,
+      435.928955078125
+     ],
+     "low": [
+      153.776931762695,
+      240.804504394531
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.452601420697151
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 55.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     3.0,
+     -5.1,
+     -32
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "55e49e6bdf71909898720258b96a341b560e1df3631c5fb3c4936612be5d166e",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4483.1181640625,
+      1885.02075195312
+     ],
+     "low": [
+      -2978.31713867188,
+      -2475.43408203125
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 18.1354336039893
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1424.02075195312,
+      976.019653320312
+     ],
+     "low": [
+      -2130.31567382812,
+      575.197692871094
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.71668910079604
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1195.26892089844,
+      746.825378417969
+     ],
+     "low": [
+      -1047.62414550781,
+      277.039001464844
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 5.45147637636851
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      8018.455078125,
+      19756.857421875
+     ],
+     "low": [
+      -13076.0263671875,
+      -3029.69702148438
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 51.271310698339
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "77bb5a9a69a7ad36def1825ec95a7747ddf1a71db18e8e8338432a16c5e88cae",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-8-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1061112.75,
+      1121906.125
+     ],
+     "low": [
+      -2326.5419921875,
+      -1110.60461425781
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 2584.74836131462
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -905.15087890625,
+      590.567626953125
+     ],
+     "low": [
+      -1426.142578125,
+      315.040954589844
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.26629930918903
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      877.066162109375,
+      645.924011230469
+     ],
+     "low": [
+      -611.187683105469,
+      259.543762207031
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 3.61728376655421
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      27.3047389984131,
+      4325.5556640625
+     ],
+     "low": [
+      -3788.658203125,
+      589.156555175781
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 9.27491022361364
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "622236d65c0011431507fbb4918112fba11e6f48e0d5df188ba2d5021bf3a328",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-10-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      7429.52197265625,
+      19658.634765625
+     ],
+     "low": [
+      -87429.3984375,
+      -75306.75
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 230.559883326209
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -968.529235839844,
+      468.577758789062
+     ],
+     "low": [
+      -1569.40747070312,
+      153.257797241211
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.46046797838639
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      857.494995117188,
+      679.298950195312
+     ],
+     "low": [
+      -553.782409667969,
+      248.331497192383
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 3.43018824567334
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      40.620719909668,
+      2457.72534179688
+     ],
+     "low": [
+      -1235.30578613281,
+      620.979614257812
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 3.10121035632696
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "c025cb58b473dc81559754a0f16f98cb5da38bf88350d9cdad85276c88b0092a",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 100.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-12-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      10656.0283203125,
+      20820.208984375
+     ],
+     "low": [
+      -3659.69921875,
+      -4962.9111328125
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 34.7951722079968
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1072.90014648438,
+      338.944946289062
+     ],
+     "low": [
+      -1815.11047363281,
+      -51.3860511779785
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.80398349138843
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      833.423828125,
+      700.163818359375
+     ],
+     "low": [
+      -491.413726806641,
+      238.088180541992
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 3.22009138171169
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      53.8674125671387,
+      1896.76000976562
+     ],
+     "low": [
+      -603.993835449219,
+      642.808288574219
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.5989683619807
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "573a7d2beb646e9b93f5514d93875d642034639d19446cacb3da7d36d41dc832",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    19.5999984741211,
+    12.039999961853,
+    -15.2000007629395
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      379.863555908203,
+      425.954040527344
+     ],
+     "low": [
+      32.1100921630859,
+      234.014282226562
+     ],
+     "panel_top": 375.523803710938,
+     "width_fraction": 0.967005125680191
+    },
+    "moon": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      30.7809753417969,
+      180.150344848633
+     ],
+     "low": [
+      -31.9034595489502,
+      80.6100387573242
+     ],
+     "panel_top": 375.523803710938,
+     "width_fraction": 0.174307882333982
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      579582.75,
+      1432.4189453125
+     ],
+     "low": [
+      -583.427551269531,
+      -145006.671875
+     ],
+     "panel_top": 375.523803710938,
+     "width_fraction": 1613.27988338761
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      264.603637695312,
+      885.006530761719
+     ],
+     "low": [
+      -122.695182800293,
+      437.567321777344
+     ],
+     "panel_top": 375.523803710938,
+     "width_fraction": 1.07696970306425
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "659237a44a53dd35d0c9eede5f7f729dff9e54c56c54a43ec145b86e2150e529",
+   "site_bakes_enabled": true,
+   "variant": "arrival-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 60.0,
+   "camera_position": [
+    16.0,
+    6.0,
+    -12.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      342.191680908203,
+      220.367950439453
+     ],
+     "low": [
+      157.435363769531,
+      114.098258972168
+     ],
+     "panel_top": 399.523803710938,
+     "width_fraction": 0.513755646747025
+    },
+    "moon": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      119.752883911133,
+      145.042617797852
+     ],
+     "low": [
+      82.9986190795898,
+      80.0835876464844
+     ],
+     "panel_top": 399.523803710938,
+     "width_fraction": 0.102203331348438
+    },
+    "pavilion": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      5818.724609375,
+      509.316558837891
+     ],
+     "low": [
+      -189.220809936523,
+      -711.217590332031
+     ],
+     "panel_top": 399.523803710938,
+     "width_fraction": 16.7064159554691
+    },
+    "stair": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      291.378021240234,
+      382.930816650391
+     ],
+     "low": [
+      138.962036132812,
+      222.391876220703
+     ],
+     "panel_top": 399.523803710938,
+     "width_fraction": 0.423826228061667
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 60.0,
+    "position": [
+     16,
+     6.0,
+     -12.0
+    ],
+    "target": [
+     3.0,
+     -9.1,
+     -32
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "799a3d495f4e9863e5e96cef42ac2f2bf6ebe78a3ea8e2b7ce97c73bf97bfd67",
+   "site_bakes_enabled": true,
+   "variant": "arrival-measured"
+  },
+  {
+   "action_scroll_height": 152.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4457.21337890625,
+      1885.02075195312
+     ],
+     "low": [
+      -3004.22192382812,
+      -2475.43408203125
+     ],
+     "panel_top": 401.523803710938,
+     "width_fraction": 20.7481648204764
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -1449.92541503906,
+      976.019653320312
+     ],
+     "low": [
+      -2156.22021484375,
+      575.197692871094
+     ],
+     "panel_top": 401.523803710938,
+     "width_fraction": 1.96400830719831
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1169.36413574219,
+      746.825378417969
+     ],
+     "low": [
+      -1073.52880859375,
+      277.039001464844
+     ],
+     "panel_top": 401.523803710938,
+     "width_fraction": 6.23685800327342
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      7992.55078125,
+      19756.857421875
+     ],
+     "low": [
+      -13101.9306640625,
+      -3029.69702148438
+     ],
+     "panel_top": 401.523803710938,
+     "width_fraction": 58.6578533582451
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "247914faabc14a267c9b940b9e12df9b831f5a2c81e7b400f6f9dfb64d023836",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-8-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      927491.0625,
+      980676.4375
+     ],
+     "low": [
+      -2033.56994628906,
+      -923.306518554688
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 2584.74804058419
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -791.168762207031,
+      563.643920898438
+     ],
+     "low": [
+      -1246.55407714844,
+      322.813232421875
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 1.26629920221466
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      766.620727539062,
+      612.029541015625
+     ],
+     "low": [
+      -534.223266601562,
+      274.304565429688
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 3.61728333773337
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      23.8663768768311,
+      3828.30004882812
+     ],
+     "low": [
+      -3311.56787109375,
+      562.410522460938
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 9.27490981519259
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "68e2622011a8fae742af902eaa5f87bb20735598ebd1e08d0bf7204d969049fe",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-10-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 18,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      6493.9521484375,
+      17230.548828125
+     ],
+     "low": [
+      -76419.765625,
+      -65776.2265625
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 230.559860461607
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -846.566223144531,
+      457.015747070312
+     ],
+     "low": [
+      -1371.7783203125,
+      181.402755737305
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 1.46046795497317
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      749.514099121094,
+      641.20166015625
+     ],
+     "low": [
+      -484.046752929688,
+      264.504241943359
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 3.43018773680951
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      35.505542755127,
+      2195.677734375
+     ],
+     "low": [
+      -1079.74877929688,
+      590.226196289062
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 3.10121036393679
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "16b84522074fb8560245024872f6805d1e582d97bd5927d99ba0f6345f7c1449",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 128.0,
+   "camera_fov": 45.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-12-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 8,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      9314.158203125,
+      18245.849609375
+     ],
+     "low": [
+      -3198.84765625,
+      -4290.5078125
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 34.7951697543711
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -937.794128417969,
+      343.707061767578
+     ],
+     "low": [
+      -1586.54064941406,
+      2.5288782119751
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 1.80398263848845
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      728.474060058594,
+      659.439147949219
+     ],
+     "low": [
+      -429.531982421875,
+      255.550796508789
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 3.22009094197835
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      47.0841217041016,
+      1705.35278320312
+     ],
+     "low": [
+      -527.935302734375,
+      609.30615234375
+     ],
+     "panel_top": 425.523803710938,
+     "width_fraction": 1.59896820238498
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "action_scroll_policy": 128,
+    "fov": 45,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     -1,
+     0
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "921a7634f21324df29e5c1d5f0052207cbcff7a1e860f0db694c946b60b056ab",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    5.69999980926514,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4110.9208984375,
+      1500.96447753906
+     ],
+     "low": [
+      -1830.31323242188,
+      -1971.08630371094
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 4.21364122755984
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -592.691101074219,
+      777.164245605469
+     ],
+     "low": [
+      -1155.08447265625,
+      458.006256103516
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.398860547221299
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1492.94165039062,
+      594.666320800781
+     ],
+     "low": [
+      -292.981811523438,
+      220.594741821289
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1.26661238433621
+    },
+    "stair": {
+     "behind": 4,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      6925.96484375,
+      15731.572265625
+     ],
+     "low": [
+      -9870.7041015625,
+      -2412.42309570312
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 11.9125311668883
+    }
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "ab32e32b36897b80e0042c503924eeb54c5514b8eda1f2d2749dbb138a96553a",
+   "site_bakes_enabled": true,
+   "variant": "overlook-baseline"
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    8.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-8-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 22,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4797.3388671875,
+      646.878295898438
+     ],
+     "low": [
+      -7607.4228515625,
+      -8468.4951171875
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 8.79770334663121
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -607.420288085938,
+      594.623168945312
+     ],
+     "low": [
+      -1202.07934570312,
+      266.785003662109
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.421744012494459
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1479.22741699219,
+      663.501220703125
+     ],
+     "low": [
+      -246.523361206055,
+      203.618576049805
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1.22393672212641
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      491.270446777344,
+      10049.5869140625
+     ],
+     "low": [
+      -9097.115234375,
+      592.880981445312
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 6.80027353273216
+    }
+   },
+   "mode": "desktop",
+   "parameters": {
+    "fov": 55,
+    "position": [
+     7,
+     8.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     1.2,
+     0
+    ]
+   },
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "4e6d3afd1f32107e50c4e608b605674f3a121266f923999d84921d3c2b0f7571",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-8"
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    10.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-10-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 21,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1958563.875,
+      7063.2421875
+     ],
+     "low": [
+      -8774.1142578125,
+      -1423040.875
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1395.27516968639
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -661.123657226562,
+      445.129638671875
+     ],
+     "low": [
+      -1324.14477539062,
+      83.7450408935547
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.470227743378768
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1459.41748046875,
+      703.664367675781
+     ],
+     "low": [
+      -187.782150268555,
+      189.666641235352
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1.16822668846617
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      506.637725830078,
+      3649.53955078125
+     ],
+     "low": [
+      -1584.26794433594,
+      630.661743164062
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1.48291182281278
+    }
+   },
+   "mode": "desktop",
+   "parameters": {
+    "fov": 55,
+    "position": [
+     7,
+     10.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     1.2,
+     0
+    ]
+   },
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "7abd5a60ad23cdfa96a03c30ea1ade113db2e7ec23436cf41ac32e56c1d8da5a",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-10"
+  },
+  {
+   "action_scroll_height": 38.0,
+   "camera_fov": 55.0,
+   "camera_position": [
+    7.0,
+    12.0,
+    -30.5
+   ],
+   "camera_transition_running": false,
+   "capture": "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-12-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurements": {
+    "hall": {
+     "behind": 10,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      4419.28857421875,
+      474966.625
+     ],
+     "low": [
+      -169977.296875,
+      -15217.3134765625
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 123.685521595191
+    },
+    "moon": {
+     "behind": 384,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      -759.817749023438,
+      291.591827392578
+     ],
+     "low": [
+      -1548.48376464844,
+      -138.158340454102
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.559337599734043
+    },
+    "pavilion": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      1433.83996582031,
+      727.838134765625
+     ],
+     "low": [
+      -119.887451171875,
+      176.637161254883
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 1.10193433829233
+    },
+    "stair": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      522.331237792969,
+      2516.30834960938
+     ],
+     "low": [
+      -454.568664550781,
+      655.874816894531
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.692836810172872
+    }
+   },
+   "mode": "desktop",
+   "parameters": {
+    "fov": 55,
+    "position": [
+     7,
+     12.0,
+     -30.5
+    ],
+    "target": [
+     0,
+     1.2,
+     0
+    ]
+   },
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "73bd04911621153d30ec5ec3caf163d780c2f312a0142cb9971f91ad50ecebe6",
+   "site_bakes_enabled": true,
+   "variant": "overlook-height-12"
+  }
+ ],
+ "scope": "Isolated manual camera and 128-unit action-scroll comparison. Normal/touch/host-clamped desktop-density originals. Full hall/moon/stair fit candidates and three higher overlooks; projection does not prove visibility. No product changes or phone/final-art acceptance.",
+ "script_sha256": "ba12765a6d2be17664a339293799d5abdbc1bdc8e5f4d2f797bb5c7e2d29616e",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "options_complete_visual_review_pending"
+}

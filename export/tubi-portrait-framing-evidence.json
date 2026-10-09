@@ -1,0 +1,2360 @@
+{
+  "status": "installed_hilltop_camera_actions_and_adjacent_regressions_passed",
+  "scope": "Portrait hall/moon/stair composition, public overlook/Look and rotation/resize/touch behavior; source preserved. Desktop-native evidence, not final all-site art or phone/sustained acceptance.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "995707af748004d7de0bd53b5b5bf38deb048453c3e0be60664d3820b666f842",
+  "test_sha256": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+  "focused_modes": 3,
+  "adjacent_regressions": 13,
+  "original_png_count": 215,
+  "checked_file_count": 312,
+  "files": {
+    "docs/reference/tubi-portrait-framing/first-comparisons/checkpoint.json": "5fe4cc8efcf3d9ccf8eec8dd53158f827ab3a07fd470bf493634042d0c70b125",
+    "docs/reference/tubi-portrait-framing/first-comparisons/command.json": "84981715f526d1d9f385bf16866e94d879386c5c8b0280fa7821dd31e328a8b7",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-360x800.png": "5d117bd594666110b89c023df2abf3ef35b73a0ab22e5aaf737f6a0422a3fce6",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-390x844.png": "7833806844871bb3d9263ccc1b4f46aa6c6b72330597da5504d6b06ff1e19bb4",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-1410x600.png": "c9b2af5a4ad5eb3859ab0f689478df65b9850fc8de73c93ea41e98fd22e8bf49",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-360x800.png": "ca4704ddead01e5ad65816f6ff1aeb3a43996cbaadc4549f394e50eae2e8dd3e",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-390x844.png": "4534a07a71ce4fd19efb1f73db58c31f3fd9c5bdc72aad6d7a8871af9f97da9c",
+    "docs/reference/tubi-portrait-framing/first-comparisons/comparison/report.json": "bdb627d13a03aee133100dc87ddf57d684366e51a0739fdac5fb4849cbe2abd9",
+    "docs/reference/tubi-portrait-framing/first-comparisons/executed-probe.gd": "b4116abd915e5a85a869b8546c3821a4af2a6a92cf5863d8b23572d64731566f",
+    "docs/reference/tubi-portrait-framing/first-comparisons/executed-runtime.gd": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/command.json": "0e6388ce0141286061138fc8d82ea2f7aef3c6bb238e57ebce9aa4224150572d",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-1410x600.png": "23da8aee20e86f7a1ad9b0008c52545e11a239b0280308f242eaa63218f284b2",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-360x800.png": "9ab70dec54d716937ac770ee39809de9c29ff7f97e7e820926bb954945856d88",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-390x844.png": "ba23e223a161a64deee2f7d67182b3b44f7cdf3a03adfb881bf2f2f64034c98e",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/report.json": "291ad190370b13d6015e9362c7119be6c083bf417a883c228188f836696bd50b",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/executed-probe.gd": "a331e0b903b59cb15dfa627c79ab934538237d8dc18c4b145db55bc83e4d8761",
+    "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/native-comparison.log": "3f992b2a49338e2c56bfe9aae5a88751bcf7a48c9b55fc62c40e8df422b7380c",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/command.json": "84981715f526d1d9f385bf16866e94d879386c5c8b0280fa7821dd31e328a8b7",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-360x800.png": "134b081b39534d340564ff8545dc619ae4d326939027ad204379d5a61d0e7813",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-390x844.png": "abd0babcfc44949c3313d361eebb1ea139d424d0a8880d7838cb1ba32db44961",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-1410x600.png": "e921cd41c78fceccee1607bac7f1297a6dc90329ac9093219b859139145398de",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-360x800.png": "8f81a06eaa6dc639f7a99fbe6948dec3aa8fe727b1f02ea916fbe23695b9b435",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-390x844.png": "e9e63ec71bf3f182fdcbb60f5a6fc82fcec5d3d004e7eca1e30c291adaf85fa5",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/report.json": "c6876f1e1f3438c17a960d5c5d4474d4a24566a70c29938b41045984e9aff7df",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/executed-probe.gd": "d11cc8ecb3dc713a8ffded149b614b49877a7aff2e99d781595b896dff8dc5c8",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/native-comparison.log": "033bdcd92c5d8e724b3a08f116035384f9beb10b788089552865bd5170c8866a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/first-probe-helper.gd": "d11cc8ecb3dc713a8ffded149b614b49877a7aff2e99d781595b896dff8dc5c8",
+    "docs/reference/tubi-portrait-framing/first-comparisons/native-comparison.log": "033bdcd92c5d8e724b3a08f116035384f9beb10b788089552865bd5170c8866a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/preparation-helper.py": "63ffcbb51fc54e1e54346154eb135b8c78c08b72368f61dca5ae4be5ea6b4a48",
+    "docs/reference/tubi-portrait-framing/first-comparisons/preparation.json": "f5d53d14e13c8ae987846110200240732e5c2bc412a6794f6587fdff65119a44",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/command.json": "0e6388ce0141286061138fc8d82ea2f7aef3c6bb238e57ebce9aa4224150572d",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-1410x600.png": "14afccfc0aa8cd17ee3b2cc495c4f71a165d3b019f3ab105e17db390133ab02e",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-360x800.png": "5f95f0f99034c2efeaca323165f3d617d63a07899c485f90f2b01c2e5ebd95f5",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-390x844.png": "abc25a4805907fcba71584adb1da38c476f1ad554644b120e7d8aa041b2cb9e9",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/report.json": "78a733fed3e714f18ac938760c5f82d3fe3225be84630f2fd9edbe5bddddb7be",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/executed-probe.gd": "675602527ed98c0d6b99131df921cd560289da2cc99e7a90b6aa7f217bff4633",
+    "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/native-comparison.log": "3f992b2a49338e2c56bfe9aae5a88751bcf7a48c9b55fc62c40e8df422b7380c",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/executed-probe.gd": "3fbbc6c5aff47eb21887a4c5dc3c2d335db7fc0f2a3cb7546786832ed7622347",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-1080x1978.png": "a2978c6e903d77bad27ef6dc38f6d5194652cbf734af9d73f5647f739da2f173",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-944x1978.png": "659237a44a53dd35d0c9eede5f7f729dff9e54c56c54a43ec145b86e2150e529",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-measured-1080x1978.png": "4015ef206dc8aa0a2de68f03892234293386c238d81c9904bd454c3e9969f5af",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-1080x1978.png": "bca979cce134e66eb753fd5fd54ef1b6ce0ab23aafd1e5a95dadcdf3004f814c",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-944x1978.png": "1f2dd0f7cc402a9becad30ad902d202dbe105b071cbc77a0a4f43434a7bc24bf",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-1080x1978.png": "0eee9572e9c4306f61e5c07f1e413e7e4427696d3a9174336c19bc4478bae870",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-944x1978.png": "510ff611b8fc4a518e726993ef9f3bce88ce8b89cab9258b589e19ac058ad64f",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-1080x1978.png": "8232ef1342ce8a7411de25e8a1e740b7a9a30fed63a37bd130a2938b0bbd7fad",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-944x1978.png": "f85535424d0e9ee7770bc189cb9cc43eb60a4e8b89fd098ed3f91a1979aff51b",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-1080x1978.png": "16fc442affd1c2f64a842caefaa6fbb718f3d83f7d1a2ae9a1530f350a8a09b8",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-944x1978.png": "b16f265e834b7a520807797e269a8162e4a49a5abc6ff8835e2f4870fb2fbd98",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-baseline-1410x600.png": "7950f5d8d261b29fe81fef680c372f2c7af6449a6511e9c835471c11996d3270",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-10-1410x600.png": "d93e13cda6d4776e1bfedc73263b24859e0e9389248a1eb87962e4cfa2ea8843",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-12-1410x600.png": "15e1af729c3a4340d85db7ba367533f75979b1a58e82968cef070f239c914197",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-8-1410x600.png": "8f7788c2d9216e4e7cf462c80f07ff422fa495b03eebb64505a1f476bfc4604a",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-360x800.png": "0af3bc22e9eecc6240d7c0ad3c45217c8f3ced8ac753edf99f8222a0e947b9e2",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-390x844.png": "8a57425eca4ea8472e689328c746454f1eb23cfd8458447147811f47735c6fde",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-360x800.png": "9e31cdc7a1eb9cc4dd2dc7b58f57af521f166215d6a1a8834a16736f3c691c89",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-390x844.png": "4e3f029d6fae0577d253182f74b39b24f234984d141c7cdbb3b0dd9b8bb56ace",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-360x800.png": "366d4767a142b9fc9d06a930ad19ef1eaefacfd579f3de3df5b15c45b45d89a1",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-390x844.png": "a68361befb8b41854f504fd9368a31c6bd734164080a923951cedaee13b402cf",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-360x800.png": "2503ff4e2fb611fcc3cc20adb03258f056a4360c76fc31ca935f798188719ab8",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-390x844.png": "f5efdae39e098abbf159e8e0fc968014acf0cf9e47cee3497c4d2c0d3c53b02a",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-360x800.png": "c191eee8f256eae51c40b354ceed5a323123ff03e0a2239384b4d80f531bc660",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-390x844.png": "50d223701978e5894dd0d2be1ad87d135b540dec24611df0e295046364f4438c",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/report.json": "c7fe16817703ff0a68671028b27bd112d586cde78639a772c885fe43e4e52f4c",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-360x800.png": "e78dde60eea629970a3a5cd772ff3730627d4ad0d8e1b9f4552c27b7cd92ba1e",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-390x844.png": "45b4b632fc265c31ebde0cb16da5436ed0f80ca1e2c1865cb6d4a8ea94679f1f",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-360x800.png": "64d6c1c48270bdffbf6826941a0e446a4954982fab194f09d2b8983b4a30c1eb",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-390x844.png": "dd8dcf26bd3b32e54dd1161f001f62aaa26156673f605d9efc5fc343ad07495e",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-360x800.png": "8ae467a284b47a64b2f5a5884395dbab117357d1d98516c5d12dbe89a076a08f",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-390x844.png": "34277bac914e2257c7cb14afe30238b940cf18ab394b645ba510e242c41a7593",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-360x800.png": "29462e5b6ab7f944d25447eb6ad74435a9092be6ab1d5ce8265bd567a68617ec",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-390x844.png": "dc034a729d455a4f707b0b7f42a8c3db3f53276f152c8ed95e9d004e6fa93425",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-360x800.png": "bdb29611be680e79728299743a74ccbf6852c984174bc4bd284e63708101929d",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-390x844.png": "2874ccd2d1942e785c194d9e06e17910ca2514f77369f303b2598e975444d1fb",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-360x800.png": "87ed172d46120c3401feeca88130979a0bba849da0ddfcf84412abf62ee765ee",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-390x844.png": "d774b11d89b885cc388cc431d8e7cbb98cfe104cde96a3967282a11589879e59",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options-command.json": "0e98579671bf0cf77307bc2aaacedc276f0c8af06d1e9418708f7504b9c6da41",
+    "docs/reference/tubi-portrait-framing/layout-options/options-first/options.log": "5fc8790ce52ebb3d8ca5c7e3185f5f413c1ddf5e387fb7b8fa7d6d9d63b33a19",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-1080x1978.png": "a2978c6e903d77bad27ef6dc38f6d5194652cbf734af9d73f5647f739da2f173",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-944x1978.png": "659237a44a53dd35d0c9eede5f7f729dff9e54c56c54a43ec145b86e2150e529",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-1080x1978.png": "55e49e6bdf71909898720258b96a341b560e1df3631c5fb3c4936612be5d166e",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-944x1978.png": "799a3d495f4e9863e5e96cef42ac2f2bf6ebe78a3ea8e2b7ce97c73bf97bfd67",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-1080x1978.png": "77bb5a9a69a7ad36def1825ec95a7747ddf1a71db18e8e8338432a16c5e88cae",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-944x1978.png": "247914faabc14a267c9b940b9e12df9b831f5a2c81e7b400f6f9dfb64d023836",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-1080x1978.png": "c025cb58b473dc81559754a0f16f98cb5da38bf88350d9cdad85276c88b0092a",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-944x1978.png": "16b84522074fb8560245024872f6805d1e582d97bd5927d99ba0f6345f7c1449",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-1080x1978.png": "573a7d2beb646e9b93f5514d93875d642034639d19446cacb3da7d36d41dc832",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-944x1978.png": "921a7634f21324df29e5c1d5f0052207cbcff7a1e860f0db694c946b60b056ab",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-1080x1978.png": "622236d65c0011431507fbb4918112fba11e6f48e0d5df188ba2d5021bf3a328",
+    "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-944x1978.png": "68e2622011a8fae742af902eaa5f87bb20735598ebd1e08d0bf7204d969049fe",
+    "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-baseline-1410x600.png": "ab32e32b36897b80e0042c503924eeb54c5514b8eda1f2d2749dbb138a96553a",
+    "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-10-1410x600.png": "7abd5a60ad23cdfa96a03c30ea1ade113db2e7ec23436cf41ac32e56c1d8da5a",
+    "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-12-1410x600.png": "73bd04911621153d30ec5ec3caf163d780c2f312a0142cb9971f91ad50ecebe6",
+    "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-8-1410x600.png": "4e6d3afd1f32107e50c4e608b605674f3a121266f923999d84921d3c2b0f7571",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-360x800.png": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-390x844.png": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-360x800.png": "500d4190161d0efa51b08b4c93ea0a7dc516fd611aaaf83ba4edafeb0fabd8ac",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-390x844.png": "88d1ccea5f6b879defb512e18e4f733e0c7653c3e9ce63559458868c4f3efc77",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-360x800.png": "e784462ba3bd59f2a1de5bd9ab7afa3783218a19491a147ba719f80218670c7b",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-390x844.png": "36833d34a9788d7083e6e1c19c6772b79b6c4f87c7f47c8c8eebe5d33329af49",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-360x800.png": "2157524c113fdd16400b1f0782c4caaf7d369cb85c76d202d02d2dfddb1f73fb",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-390x844.png": "c9350f5c24fbdf4764e75f720f055fbe915accf4a33c77266f268734d82fda75",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-360x800.png": "b001dad33cb8d723b43bdeccd67b4e584c1a4b7357c8947ba6f50063d07e99ec",
+    "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-390x844.png": "6e5490944d1ff934c8e19a19574e092d34c0f6eb5a8e5bf773132d0e37577bbf",
+    "docs/reference/tubi-portrait-framing/layout-options/options/report.json": "d7085902f9b6c36e331da125634000bd7be7092065d2faaf9bcf7fbbabf7ad29",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-360x800.png": "e78dde60eea629970a3a5cd772ff3730627d4ad0d8e1b9f4552c27b7cd92ba1e",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-390x844.png": "45b4b632fc265c31ebde0cb16da5436ed0f80ca1e2c1865cb6d4a8ea94679f1f",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-360x800.png": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-390x844.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-360x800.png": "bf67a3297dda48a673dbed269fa6cce0a3b823a2ff04dd96caf998c2cb80505f",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-390x844.png": "86f775e7299dc8b37ef76c3e1cfb46a2bc44bac2c999ab2aa0bdb637cc4faac2",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-360x800.png": "75371b9d95c76e820b54be5882297b807dc6b7ef2c32ea4c78ff771b23b359b5",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-390x844.png": "6046d23bb6c04b82ef3ec8a79ec4f2f9f7c355d1bacc54120d9defb7a5f54be8",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-360x800.png": "bd04e88de9c5380471ae873af26ca45ff8e584b85ad0fa4c135d2b4f69e8026d",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-390x844.png": "60a70f3915a1c45274aa59c28385186f84b64159b06b6ca5cb38a6b5f1a7abb0",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-360x800.png": "1117f206247436aba470dc90b07a7ab3a73c5fcb2cf85ec2d1cde3490f46fc2e",
+    "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-390x844.png": "7fc0b52a4fb14cb24e536078d95a0c926dfdd777bc652e0199016036264adb2f",
+    "docs/reference/tubi-portrait-framing/layout-options/options-command.json": "f0cd4c89185fda0b0cdbee72ecf1c9bfebc33c3fb03a3244603c624c33f36a51",
+    "docs/reference/tubi-portrait-framing/layout-options/options.log": "08693e23245ff158dbeb67c520d88d7087e35351ee96bdf24b1c2142ddcfaeeb",
+    "docs/reference/tubi-portrait-framing/layout-options/executed-probe.gd": "ba12765a6d2be17664a339293799d5abdbc1bdc8e5f4d2f797bb5c7e2d29616e",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-desktop.png": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-narrow.png": "3a115bcf2f90e0ee7029f8314a4f2e2d2c1011371dbc68b55abedf0c2e097a2e",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-portrait.png": "f293ce987766e25e0d55ee59e481876b9764437fa72787c3f66771749a925d30",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-return.png": "24091dd9351372e109b6524af4faf448178b1ff685a8ba85d0df599a64823bed",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-narrow.png": "f61e8ac3158ae7cf6f55b2686c0b225806aeff470e289b0ed345dfac3083e6cd",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-portrait.png": "2cf2830196e924f37806d75cdf9c8c99a7754c9aac90ff733490debcd4df0825",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-desktop.png": "3c2b42e3c381264d865bc5ea3b76fd50c32d712c8e47a7eb9aeeaf319b3b8749",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-narrow.png": "c1c563bb40bb968f5bfb5dbae990172190a3ee518618357dfa353a819bcbe0da",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-portrait.png": "bf58d155632e937e20601baf15204a628100190762e8cd8b04f4821f85e1fb01",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-return.png": "fa18627b059f1626887efe8e2b0c09c4b9e6bef5a019dd95eaa21cec1336c6d9",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density/report.json": "74e1f6543f9901fdae942ec053db8fd43fcde4f194cede1250ce7cb3ad478376",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-density.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-focused-pipeline.json": "f0879211b66f573603df3e25b76ddcbeedb458b9766f1226edf0e5ccb70a735b",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-desktop.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-narrow.png": "de0f30a96c036e493d013efb98f5f365906d6aef66eb0f1a018c927005a784b5",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-portrait.png": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-return.png": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-narrow.png": "de0f30a96c036e493d013efb98f5f365906d6aef66eb0f1a018c927005a784b5",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-portrait.png": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-desktop.png": "aa85ac5c2a6789eb314c85bbcddad2561c7e510864012795a459802f9fb1a051",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-narrow.png": "520f213b53fe8d901106a0fb0e0190534d0b1cc5ecb7acb667168ad27e3c23ed",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-portrait.png": "b87760ec3ad76b2a7d36f70ef0bb21df57437c2dfce18237832ff972d6092f95",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-return.png": "2a0758bf678c006011d10f261616cdfa04d0134359c581643d520ec9a0f4b333",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal/report.json": "492c8589acca35a2c5de9542e927c70c202989892139fb710656ead3d31b09d6",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-normal.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-runtime.gd": "995707af748004d7de0bd53b5b5bf38deb048453c3e0be60664d3820b666f842",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-test.gd": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-desktop.png": "1baf4b01c2096274a14731fda66bca99648c0e5e560bbc0bead5ca6353d0a7ff",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-narrow.png": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-portrait.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-return.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-narrow.png": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-portrait.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-desktop.png": "913f2da8b80ff18456158bede6bd74b7dd10b374a9a591bcb818af0ef7041638",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-narrow.png": "47539deceac35d7ee8a46f64ee360503aec7a0ab2b89a2bc840edb6466fdd060",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-portrait.png": "33ff27c6cd695787e0cd5d84ef46204bf92dc860d037d484c94320108b2d7b60",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-return.png": "07b4d436d3b48a1216db2dae85d360448385ec064f9eefcdf9cd971252e92242",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch/report.json": "9866d543e6b5eba79ca0b10f3e7ab131b75bc4385db2e0858cba879611fd46de",
+    "docs/reference/tubi-portrait-framing/runtime/accepted-touch.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/tubi-portrait-framing/runtime/baseline-runtime.gd": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+    "docs/reference/tubi-portrait-framing/runtime/candidate-runtime.gd": "6d9dd925feec5fa9a3b62fc912596db53568ec9d5e08bc4e50d0fb23ca01c135",
+    "docs/reference/tubi-portrait-framing/runtime/diagnostic-test.gd": "ff38c1738090a3b0c260c74cedc90ec211ee65b66e5c0b619f961783ec46bc8e",
+    "docs/reference/tubi-portrait-framing/runtime/executed-test.gd": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+    "docs/reference/tubi-portrait-framing/runtime/focused-pipeline.json": "b615c917c828b70eded18158cf417919d618d3f2d79507057a6816c0351b4c77",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-desktop.png": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-narrow.png": "48535509d29acda6174005d7e7ba5da101622c7b4ff1b86444d8faa863b20713",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-portrait.png": "00c13043d80076b12f2a50bc367168ff174716f0fee3177828d29fc8c0528790",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-return.png": "ea60917920c213c53f162b6789a8f3eb8d19d07ce1e6e4b82f4fb8ec3d10384d",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/look-narrow.png": "1f8068f2389de942508b5f4d49050dc9edddd51434eddb55401039b7beef9a2f",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/look-portrait.png": "63b885897afe2ee337a58a22429338ed57f0db56f5d7a9c84d751743fdbbeebe",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-desktop.png": "b3504fdd5d2ce44c4b17160b7ee51e1a1af5653b094ad30fbf4c3da0dd55c7e5",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-narrow.png": "92862a41c8e9efbc1659eca728f4e5ebcf52f34a9a807644c5edf699b5f16915",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-portrait.png": "a6567eb1f738c6f966446986ff13db137b21f4773d5e149672d07315ea90a3ee",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-return.png": "3355462af39b6117dfadb6f4a0f5451d7bac2350d376366eb643990f5449d136",
+    "docs/reference/tubi-portrait-framing/runtime/green-density/report.json": "66dab97bc7ea900af27aa774702fe16332a39a4c435f902ef6e1f20ea997e013",
+    "docs/reference/tubi-portrait-framing/runtime/green-density.log": "dbdf6edb18598ff29a9be0bf381513c6118d567c0b56995e5af654e4bd2d8e61",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-desktop.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-narrow.png": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-portrait.png": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-return.png": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/look-narrow.png": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/look-portrait.png": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-desktop.png": "c2dcd679af269d68ddf3d9fbf22c2aab683810b3496c08ebf690c736ac397fc8",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-narrow.png": "0cad720315b480c54c7a6c6fe41c9c8ba450af4a07cfee3a6bda9ee777572492",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-portrait.png": "f0e0faed70f31949eafa4f378bbd7f5e2fa9e208232c7046727fb20e21e252a8",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-return.png": "0b0cebbd861e0fc8ea9f8458c2a4a1c88214afb688846a14a24034338716df27",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal/report.json": "390534bf3efea5d90fa98f07a06662412c1a7ebd5108b527ac1b7aaeb220d16b",
+    "docs/reference/tubi-portrait-framing/runtime/green-normal.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-desktop.png": "1baf4b01c2096274a14731fda66bca99648c0e5e560bbc0bead5ca6353d0a7ff",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-narrow.png": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-portrait.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-return.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/look-narrow.png": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/look-portrait.png": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-desktop.png": "3ad4722c304d13baadad87efeb50e3690ef37b1d408532564cb3f9fc76828716",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-narrow.png": "621f6a2da0a3ee4337f1edbb332cd94ce4512cd312f4e73f4c6d65bee1a208d3",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-portrait.png": "e046eefa73388f94f57feeaf0abdc7cb52325c7d6af43ba44df26d5fa396647c",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-return.png": "0a0a78432c45fc65784a72cab610bde6a34f6a4bc15c8b5d46c7dcac368025bc",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch/report.json": "af521870224f27779fa7452cfbb29250c5004736e110b62babdfa3df069cda96",
+    "docs/reference/tubi-portrait-framing/runtime/green-touch.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/tubi-portrait-framing/runtime/production-source-contract.json": "529c5cd3aa28f4c06b6718ce35c7718a3b81a2b564ab82af104dbac15f43a6ae",
+    "docs/reference/tubi-portrait-framing/runtime/red/arrival-desktop.png": "9d6bc35d36a33cb1978339c6376ae18910f7f8a6473cc73d6f206940ff7640a4",
+    "docs/reference/tubi-portrait-framing/runtime/red/arrival-narrow.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "docs/reference/tubi-portrait-framing/runtime/red/arrival-portrait.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/runtime/red/arrival-return.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "docs/reference/tubi-portrait-framing/runtime/red/look-narrow.png": "c6635f027c08c4810cf2f8121672f66a3948632cbe32905b6a47aa828819f6d0",
+    "docs/reference/tubi-portrait-framing/runtime/red/look-portrait.png": "7e52f8946f920477f1ada9620762c42bc0a5730ea775e931dee31349b1473046",
+    "docs/reference/tubi-portrait-framing/runtime/red/overlook-desktop.png": "e6c87b78da38f8bb1d3d2cb3e40b1152c16dcef759ee4f0925118d2fd55127af",
+    "docs/reference/tubi-portrait-framing/runtime/red/overlook-narrow.png": "897dbb77ba1bf26a13f0d0c7e161a145107af33bb59ab5b506281778150c92dd",
+    "docs/reference/tubi-portrait-framing/runtime/red/overlook-portrait.png": "c4b708ac23deee1354bac6b84a70971f5cc169eeff5610872afc18a645fd57e2",
+    "docs/reference/tubi-portrait-framing/runtime/red/overlook-return.png": "a12944209f59ee613c3357ee27ed0892151da06ed8e0469cbc89098f94c1dae2",
+    "docs/reference/tubi-portrait-framing/runtime/red/report.json": "71832bcdb48548386ad14bcb6eae3ce9413e4d565abb38f41face854293307a0",
+    "docs/reference/tubi-portrait-framing/runtime/red-command.json": "77fe7d060e8cf4267cff5dd9f5e397a5f443b53d874f2efa2c6825005e7d2599",
+    "docs/reference/tubi-portrait-framing/runtime/red.log": "44745a35e4906502feb7cde89b8cf6a163ea4256a0cccf0d99d8b08300aef4ff",
+    "docs/reference/tubi-portrait-framing/runtime/regression-cold-import.log": "1f6afb48483d4997cd847c536fbb5ab3c08008392a93a71193c35c4da347bca3",
+    "docs/reference/tubi-portrait-framing/runtime/regression-courtyard.log": "0b59665d633d8f024ae53bd81cef866d93fdaeb8a2fb1981bdaf9d7005c393ee",
+    "docs/reference/tubi-portrait-framing/runtime/regression-farmhouse.log": "19d5c8140e52ddb4eca49c1239141b24dbe261d3c41dde74ad7d35e069454eb7",
+    "docs/reference/tubi-portrait-framing/runtime/regression-first-reading-demo.log": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6",
+    "docs/reference/tubi-portrait-framing/runtime/regression-gate-reveal.log": "d3a5386ed6f62bc2ebf30ca9881d2320006072bee0d0caa2c068e33146dca675",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/report.json": "29ebf40d4be402cb6bd239cc50a0d569a7178e930ff7eab9017307b35a2d3c4c",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/tubi-portrait-framing/runtime/regression-hilltop.log": "8e7348ffaf907682022d9d680f9f4563e7b02206099576d4245d970f4826d2e7",
+    "docs/reference/tubi-portrait-framing/runtime/regression-mobile-ui.log": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+    "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "faea76fa4c6ca86a32906a1b105bbc1c10da0f3a05b01d30b42fe2be38c97fba",
+    "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png": "c3d9b124d96e1c114f80988b477ddbf51e85108065e525004053e0fe16941c64",
+    "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png": "85de0fface9d15506abe369f8c6d7e1fe299524e9469226227f1c06fbcd303e2",
+    "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/report.json": "d41c12a872336f865ec59e8c017842983a1d6a667bc5f172dfae49dbcb40b2b2",
+    "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing.log": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971",
+    "docs/reference/tubi-portrait-framing/runtime/regression-pipeline.json": "26d01996f2826b6dfde8a1177db91d061b6f08deeb9c457e9c676271d5ffd63c",
+    "docs/reference/tubi-portrait-framing/runtime/regression-pond-view.log": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "03dff33e178b7aeac533337da0939b0f835b965a4e0ef7a29c34b9f7b3705f79",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "65c288bcb26188df9cabd415572ef52c2e51bbe64f32673a27f61d681249b1f2",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "868e75a2d47996ff4bc6528472c002ee47319f693938f327ed68f430a2837c58",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "07f2c9a8fba835765437c7d23779c0616f32b0870a45974d18f1ca2b9075c3aa",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "7f40090765b2d589e173bf6a36bd6337e8bd1d0bae971984440a2f3f26d9484b",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "b23d8e65ad3d0535600dc8c1dc34954519a04f3d4ad94161049fde7f0ea7fa44",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "f9f899d3a157411079921af7e7fccd9d6f94600267bb5e1c51b76febae48fc70",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "df8c6d55b9e1e5a30c7c65898c3cd21f156ee80d4187bde6062217d66aa548b4",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "6c86d8d8c78379a82fa8e15331313490276780eb99ddc603f027352e3ff0f219",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "d719f08de0e0c4894654fc123106d574f42364acc2ced475976e54ad751b4f7e",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/report.json": "dc641a3ed995d7cbc60094996fb2d89ab7209ee9f87ccd53aaf5a6a474e38d05",
+    "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture.log": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+    "docs/reference/tubi-portrait-framing/runtime/regression-source-contract.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/tubi-portrait-framing/runtime/regression-study.log": "6e51659ee81f51fc16407abb95068d03d7036d7ead4e67ea965c34a87954f758",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-desktop.png": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-narrow.png": "cb24dd33f6552f1fd9726f476cbc2b5e9b52d1c67d40c5526df34819260b405d",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-portrait.png": "e959bcd86e41d50bc7e291a7fc5430d0f3bffa6cf9af33af513e69ba375b12e5",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-return.png": "89930c9f76150bfc1a9c88819f5d708360f20d9baf0bb7c1c2829a1af2f7ac5d",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-narrow.png": "a33c4c00ea1e3ff92241b8a16ecdad9cb5d5112dd8c268113a12606b4c8d8e3b",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-portrait.png": "8fd1f526f875b80fb20160fbc2583f05e6e6f0c950e26a39760ad903deadf8dd",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-desktop.png": "c2c839634f0af0882c3213c46a9e5b833da7e045802898c92396faa1acd2dc1c",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-narrow.png": "7a0da7279bb88edd43123cf7d39de7d156eba5a8c509f29fabfeebbfbe6d96e0",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-portrait.png": "a473141f8c0dfe85d42567c946bd4d412914ee6147263c52034be9d3262024f7",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-return.png": "aad0bf2b124e0d2030d1ed2e25de7c7f9193cbc73b9b2236ff959d83355a8efe",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/report.json": "077ffb981335771e8502eaab389388fdabbf7ff412834c7b420b32f53b79ad25",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic-command.json": "229c8c2fd06008877878af86e3415c5cee16e4b7f0b119c4b80466778110b4f1",
+    "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic.log": "76c60fecff2a0d24054426299306bb7dfd80c6d4754e0abaec007e1c9ac8114d",
+    "docs/reference/tubi-portrait-framing/runtime/source-preservation.json": "71489fac50a29680cee2f0138c48a6779ed894c46b400727536614f30bcdc9e1",
+    "docs/reference/tubi-portrait-framing/helpers/garden_compare_tubi_framing.gd": "d11cc8ecb3dc713a8ffded149b614b49877a7aff2e99d781595b896dff8dc5c8",
+    "docs/reference/tubi-portrait-framing/helpers/garden_prepare_tubi_framing.py": "63ffcbb51fc54e1e54346154eb135b8c78c08b72368f61dca5ae4be5ea6b4a48",
+    "docs/reference/tubi-portrait-framing/helpers/garden_tubi_framing_options.gd": "3fbbc6c5aff47eb21887a4c5dc3c2d335db7fc0f2a3cb7546786832ed7622347",
+    "docs/reference/tubi-portrait-framing/helpers/garden_diagnose_tubi_resize.gd": "ff38c1738090a3b0c260c74cedc90ec211ee65b66e5c0b619f961783ec46bc8e",
+    "docs/reference/tubi-portrait-framing/helpers/garden_review_tubi_framing.py": "46d6e6cf456799cb5cf3f2339aff869ec2bf438ef5625f90e4cffd001f35c6dd",
+    "docs/reference/tubi-portrait-framing/helpers/garden_archive_tubi_framing.py": "7b03cb5c87609c1e096185d9af2166881ab7b6b33dd28bfd8be62a8f855a5be9",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/runtime/entry_route.gd": "995707af748004d7de0bd53b5b5bf38deb048453c3e0be60664d3820b666f842",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/runtime/entry_route.tscn": "ce3284f69007a3382077724b37e5ee020303c985f4a7f39f31e684318927ce7b",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_tubi_framing.gd": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/source-contract.json": "a2878bf3b098cbaae911824c1f1ad2d2f71fb81cd7cccc9fee722b2eeb48954e",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_import_source_contract.gd": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_hilltop_route.gd": "ccbc058f9c049a4b01162f1074141c4eb1338ebcbea73a40ba2c2f06e674d826",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_study_route.gd": "39acc79ff6ee6c79d7dafa0190844d211895154cc8eb219465c0b1f63c8816be",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_courtyard_route.gd": "02f3eb305a93b450f0188f3541b6231527d4f18ebf195550014f15a0af96e44a",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_farmhouse_route.gd": "7a88a2f4e03c0bdf822058110f0ef5da6c52d20616636bbc5cf6e7392895229c",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd": "5326cf11d8912ef797d9546be7d5167f039dc2a63f104e6566579b87f0905ebf",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_gate_reveal.gd": "933ef40d94602e9f00474ab66b503fcb8a26e785e1271195da37508056144fd6",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_first_reading_demo.gd": "a074a8e97aa0a5829ff45d73f7d0047d8fb5682c4531fed09fe9fe6c4e6f3d21",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_pond_view.gd": "befb4fd76e6d2f0097acae0b090548ed0a95302a2e16c4f6ad375301a32704d1",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_portrait_architecture.gd": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+    "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_oux_portrait_framing.gd": "775cc6f12083f238f4ff88eabb6fe5e1e809c50c5056b2faef5ca9a63c99b2d3",
+    "docs/reference/tubi-portrait-framing/README.md": "1b6b023a389b55f0f1a5ca8dade7de182daa3c41790486a6b8f3f81d8a71f237"
+  },
+  "artifact_locations": {
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/checkpoint.json": "docs/reference/tubi-portrait-framing/first-comparisons/checkpoint.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/command.json": "docs/reference/tubi-portrait-framing/first-comparisons/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/arrival-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/comparison/report.json": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/executed-probe.gd": "docs/reference/tubi-portrait-framing/first-comparisons/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/executed-runtime.gd": "docs/reference/tubi-portrait-framing/first-comparisons/executed-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/command.json": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/arrival-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/comparison/report.json": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/executed-probe.gd": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/farther-fit-rejection/native-comparison.log": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/command.json": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/arrival-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/comparison/report.json": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/executed-probe.gd": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-attempt/native-comparison.log": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/first-probe-helper.gd": "docs/reference/tubi-portrait-framing/first-comparisons/first-probe-helper.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/native-comparison.log": "docs/reference/tubi-portrait-framing/first-comparisons/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/preparation-helper.py": "docs/reference/tubi-portrait-framing/first-comparisons/preparation-helper.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/preparation.json": "docs/reference/tubi-portrait-framing/first-comparisons/preparation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/command.json": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/arrival-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/comparison/report.json": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/executed-probe.gd": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-framing-comparison/stair-fit-rejection/native-comparison.log": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/native-comparison.log",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/executed-probe.gd": "docs/reference/tubi-portrait-framing/layout-options/options-first/executed-probe.gd",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-arrival-baseline-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-arrival-baseline-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-arrival-measured-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-measured-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-baseline-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-baseline-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-10-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-10-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-12-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-12-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-8-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/density-overlook-height-8-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/desktop-overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-baseline-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/desktop-overlook-height-10-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-10-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/desktop-overlook-height-12-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-12-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/desktop-overlook-height-8-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-8-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-10-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-10-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-12-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-12-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-8-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/normal-overlook-height-8-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/report.json": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/report.json",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-10-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-10-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-12-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-12-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-8-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options/touch-overlook-height-8-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options-command.json": "docs/reference/tubi-portrait-framing/layout-options/options-first/options-command.json",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-first/options.log": "docs/reference/tubi-portrait-framing/layout-options/options-first/options.log",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-baseline-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-baseline-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-measured-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-arrival-measured-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-baseline-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-baseline-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-10-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-10-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-12-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-12-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-8-1080x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-1080x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/density-overlook-height-8-944x1978.png": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-944x1978.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-baseline-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-baseline-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-10-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-10-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-12-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-12-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/desktop-overlook-height-8-1410x600.png": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-8-1410x600.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-10-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-10-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-12-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-12-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-8-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/normal-overlook-height-8-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/report.json": "docs/reference/tubi-portrait-framing/layout-options/options/report.json",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-measured-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-arrival-measured-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-baseline-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-baseline-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-10-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-10-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-12-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-12-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-8-360x800.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-360x800.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options/touch-overlook-height-8-390x844.png": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-390x844.png",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options-command.json": "docs/reference/tubi-portrait-framing/layout-options/options-command.json",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/options.log": "docs/reference/tubi-portrait-framing/layout-options/options.log",
+    "/private/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-tubi-framing-zacjncxg/godot/tests/tubi_framing_options.gd": "docs/reference/tubi-portrait-framing/layout-options/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density/report.json": "docs/reference/tubi-portrait-framing/runtime/accepted-density/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-density.log": "docs/reference/tubi-portrait-framing/runtime/accepted-density.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-focused-pipeline.json": "docs/reference/tubi-portrait-framing/runtime/accepted-focused-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal/report.json": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-normal.log": "docs/reference/tubi-portrait-framing/runtime/accepted-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-runtime.gd": "docs/reference/tubi-portrait-framing/runtime/accepted-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-test.gd": "docs/reference/tubi-portrait-framing/runtime/accepted-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch/report.json": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/accepted-touch.log": "docs/reference/tubi-portrait-framing/runtime/accepted-touch.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/baseline-runtime.gd": "docs/reference/tubi-portrait-framing/runtime/baseline-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/candidate-runtime.gd": "docs/reference/tubi-portrait-framing/runtime/candidate-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/diagnostic-test.gd": "docs/reference/tubi-portrait-framing/runtime/diagnostic-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/executed-test.gd": "docs/reference/tubi-portrait-framing/runtime/executed-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/focused-pipeline.json": "docs/reference/tubi-portrait-framing/runtime/focused-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-density/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-density/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density/report.json": "docs/reference/tubi-portrait-framing/runtime/green-density/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density.log": "docs/reference/tubi-portrait-framing/runtime/green-density.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal/report.json": "docs/reference/tubi-portrait-framing/runtime/green-normal/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal.log": "docs/reference/tubi-portrait-framing/runtime/green-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch/report.json": "docs/reference/tubi-portrait-framing/runtime/green-touch/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch.log": "docs/reference/tubi-portrait-framing/runtime/green-touch.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/production-source-contract.json": "docs/reference/tubi-portrait-framing/runtime/production-source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/red/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/red/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/red/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/red/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/red/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/red/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/red/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/red/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/red/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/red/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red/report.json": "docs/reference/tubi-portrait-framing/runtime/red/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red-command.json": "docs/reference/tubi-portrait-framing/runtime/red-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/red.log": "docs/reference/tubi-portrait-framing/runtime/red.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-cold-import.log": "docs/reference/tubi-portrait-framing/runtime/regression-cold-import.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-courtyard.log": "docs/reference/tubi-portrait-framing/runtime/regression-courtyard.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-farmhouse.log": "docs/reference/tubi-portrait-framing/runtime/regression-farmhouse.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-first-reading-demo.log": "docs/reference/tubi-portrait-framing/runtime/regression-first-reading-demo.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-gate-reveal.log": "docs/reference/tubi-portrait-framing/runtime/regression-gate-reveal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/read-button-portrait.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/read-look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/read-resize-narrow.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/read-return-portrait.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/read-rotate-desktop.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/report.json": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/rocks-button-portrait.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/rocks-look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/rocks-resize-narrow.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/rocks-return-portrait.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details/rocks-rotate-desktop.png": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details.log": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hilltop.log": "docs/reference/tubi-portrait-framing/runtime/regression-hilltop.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-mobile-ui.log": "docs/reference/tubi-portrait-framing/runtime/regression-mobile-ui.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing/ouxiang-360x800.png": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing/ouxiang-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing/report.json": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing.log": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-pipeline.json": "docs/reference/tubi-portrait-framing/runtime/regression-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-pond-view.log": "docs/reference/tubi-portrait-framing/runtime/regression-pond-view.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture/report.json": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture.log": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-source-contract.log": "docs/reference/tubi-portrait-framing/runtime/regression-source-contract.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-study.log": "docs/reference/tubi-portrait-framing/runtime/regression-study.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/arrival-desktop.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/arrival-narrow.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/arrival-portrait.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/arrival-return.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/look-narrow.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/look-portrait.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/overlook-desktop.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/overlook-narrow.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/overlook-portrait.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/overlook-return.png": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic/report.json": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic-command.json": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/resize-diagnostic.log": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/source-preservation.json": "docs/reference/tubi-portrait-framing/runtime/source-preservation.json",
+    "/tmp/garden_compare_tubi_framing.gd": "docs/reference/tubi-portrait-framing/helpers/garden_compare_tubi_framing.gd",
+    "/tmp/garden_prepare_tubi_framing.py": "docs/reference/tubi-portrait-framing/helpers/garden_prepare_tubi_framing.py",
+    "/tmp/garden_tubi_framing_options.gd": "docs/reference/tubi-portrait-framing/helpers/garden_tubi_framing_options.gd",
+    "/tmp/garden_diagnose_tubi_resize.gd": "docs/reference/tubi-portrait-framing/helpers/garden_diagnose_tubi_resize.gd",
+    "/tmp/garden_review_tubi_framing.py": "docs/reference/tubi-portrait-framing/helpers/garden_review_tubi_framing.py",
+    "/tmp/garden_archive_tubi_framing.py": "docs/reference/tubi-portrait-framing/helpers/garden_archive_tubi_framing.py",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/runtime/entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.tscn": "docs/reference/tubi-portrait-framing/installed-code/godot/runtime/entry_route.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_tubi_framing.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_tubi_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/source-contract.json": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_import_source_contract.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_import_source_contract.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_hilltop_route.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_hilltop_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_study_route.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_study_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_courtyard_route.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_courtyard_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_farmhouse_route.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_farmhouse_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_mobile_ui_scaling.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_gate_reveal.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_gate_reveal.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_first_reading_demo.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_first_reading_demo.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_pond_view.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_pond_view.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_portrait_architecture.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_portrait_architecture.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_hengwu_detail_framing.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_oux_portrait_framing.gd": "docs/reference/tubi-portrait-framing/installed-code/godot/tests/test_oux_portrait_framing.gd"
+  },
+  "original_pngs": [
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-360x800.png",
+      "sha256": "5d117bd594666110b89c023df2abf3ef35b73a0ab22e5aaf737f6a0422a3fce6",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/arrival-measured-390x844.png",
+      "sha256": "7833806844871bb3d9263ccc1b4f46aa6c6b72330597da5504d6b06ff1e19bb4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-1410x600.png",
+      "sha256": "c9b2af5a4ad5eb3859ab0f689478df65b9850fc8de73c93ea41e98fd22e8bf49",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-360x800.png",
+      "sha256": "ca4704ddead01e5ad65816f6ff1aeb3a43996cbaadc4549f394e50eae2e8dd3e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/comparison/overlook-baseline-390x844.png",
+      "sha256": "4534a07a71ce4fd19efb1f73db58c31f3fd9c5bdc72aad6d7a8871af9f97da9c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-1410x600.png",
+      "sha256": "23da8aee20e86f7a1ad9b0008c52545e11a239b0280308f242eaa63218f284b2",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-360x800.png",
+      "sha256": "9ab70dec54d716937ac770ee39809de9c29ff7f97e7e820926bb954945856d88",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/farther-fit-rejection/comparison/overlook-baseline-390x844.png",
+      "sha256": "ba23e223a161a64deee2f7d67182b3b44f7cdf3a03adfb881bf2f2f64034c98e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-360x800.png",
+      "sha256": "134b081b39534d340564ff8545dc619ae4d326939027ad204379d5a61d0e7813",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/arrival-measured-390x844.png",
+      "sha256": "abd0babcfc44949c3313d361eebb1ea139d424d0a8880d7838cb1ba32db44961",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-1410x600.png",
+      "sha256": "e921cd41c78fceccee1607bac7f1297a6dc90329ac9093219b859139145398de",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-360x800.png",
+      "sha256": "8f81a06eaa6dc639f7a99fbe6948dec3aa8fe727b1f02ea916fbe23695b9b435",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/first-attempt/comparison/overlook-baseline-390x844.png",
+      "sha256": "e9e63ec71bf3f182fdcbb60f5a6fc82fcec5d3d004e7eca1e30c291adaf85fa5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-1410x600.png",
+      "sha256": "14afccfc0aa8cd17ee3b2cc495c4f71a165d3b019f3ab105e17db390133ab02e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-360x800.png",
+      "sha256": "5f95f0f99034c2efeaca323165f3d617d63a07899c485f90f2b01c2e5ebd95f5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/first-comparisons/stair-fit-rejection/comparison/overlook-baseline-390x844.png",
+      "sha256": "abc25a4805907fcba71584adb1da38c476f1ad554644b120e7d8aa041b2cb9e9",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-1080x1978.png",
+      "sha256": "a2978c6e903d77bad27ef6dc38f6d5194652cbf734af9d73f5647f739da2f173",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-baseline-944x1978.png",
+      "sha256": "659237a44a53dd35d0c9eede5f7f729dff9e54c56c54a43ec145b86e2150e529",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-arrival-measured-1080x1978.png",
+      "sha256": "4015ef206dc8aa0a2de68f03892234293386c238d81c9904bd454c3e9969f5af",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-1080x1978.png",
+      "sha256": "bca979cce134e66eb753fd5fd54ef1b6ce0ab23aafd1e5a95dadcdf3004f814c",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-baseline-944x1978.png",
+      "sha256": "1f2dd0f7cc402a9becad30ad902d202dbe105b071cbc77a0a4f43434a7bc24bf",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-1080x1978.png",
+      "sha256": "0eee9572e9c4306f61e5c07f1e413e7e4427696d3a9174336c19bc4478bae870",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-10-944x1978.png",
+      "sha256": "510ff611b8fc4a518e726993ef9f3bce88ce8b89cab9258b589e19ac058ad64f",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-1080x1978.png",
+      "sha256": "8232ef1342ce8a7411de25e8a1e740b7a9a30fed63a37bd130a2938b0bbd7fad",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-12-944x1978.png",
+      "sha256": "f85535424d0e9ee7770bc189cb9cc43eb60a4e8b89fd098ed3f91a1979aff51b",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-1080x1978.png",
+      "sha256": "16fc442affd1c2f64a842caefaa6fbb718f3d83f7d1a2ae9a1530f350a8a09b8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/density-overlook-height-8-944x1978.png",
+      "sha256": "b16f265e834b7a520807797e269a8162e4a49a5abc6ff8835e2f4870fb2fbd98",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-baseline-1410x600.png",
+      "sha256": "7950f5d8d261b29fe81fef680c372f2c7af6449a6511e9c835471c11996d3270",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-10-1410x600.png",
+      "sha256": "d93e13cda6d4776e1bfedc73263b24859e0e9389248a1eb87962e4cfa2ea8843",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-12-1410x600.png",
+      "sha256": "15e1af729c3a4340d85db7ba367533f75979b1a58e82968cef070f239c914197",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/desktop-overlook-height-8-1410x600.png",
+      "sha256": "8f7788c2d9216e4e7cf462c80f07ff422fa495b03eebb64505a1f476bfc4604a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-360x800.png",
+      "sha256": "0af3bc22e9eecc6240d7c0ad3c45217c8f3ced8ac753edf99f8222a0e947b9e2",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-arrival-measured-390x844.png",
+      "sha256": "8a57425eca4ea8472e689328c746454f1eb23cfd8458447147811f47735c6fde",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-360x800.png",
+      "sha256": "9e31cdc7a1eb9cc4dd2dc7b58f57af521f166215d6a1a8834a16736f3c691c89",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-baseline-390x844.png",
+      "sha256": "4e3f029d6fae0577d253182f74b39b24f234984d141c7cdbb3b0dd9b8bb56ace",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-360x800.png",
+      "sha256": "366d4767a142b9fc9d06a930ad19ef1eaefacfd579f3de3df5b15c45b45d89a1",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-10-390x844.png",
+      "sha256": "a68361befb8b41854f504fd9368a31c6bd734164080a923951cedaee13b402cf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-360x800.png",
+      "sha256": "2503ff4e2fb611fcc3cc20adb03258f056a4360c76fc31ca935f798188719ab8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-12-390x844.png",
+      "sha256": "f5efdae39e098abbf159e8e0fc968014acf0cf9e47cee3497c4d2c0d3c53b02a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-360x800.png",
+      "sha256": "c191eee8f256eae51c40b354ceed5a323123ff03e0a2239384b4d80f531bc660",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/normal-overlook-height-8-390x844.png",
+      "sha256": "50d223701978e5894dd0d2be1ad87d135b540dec24611df0e295046364f4438c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-360x800.png",
+      "sha256": "e78dde60eea629970a3a5cd772ff3730627d4ad0d8e1b9f4552c27b7cd92ba1e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-baseline-390x844.png",
+      "sha256": "45b4b632fc265c31ebde0cb16da5436ed0f80ca1e2c1865cb6d4a8ea94679f1f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-360x800.png",
+      "sha256": "64d6c1c48270bdffbf6826941a0e446a4954982fab194f09d2b8983b4a30c1eb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-arrival-measured-390x844.png",
+      "sha256": "dd8dcf26bd3b32e54dd1161f001f62aaa26156673f605d9efc5fc343ad07495e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-360x800.png",
+      "sha256": "8ae467a284b47a64b2f5a5884395dbab117357d1d98516c5d12dbe89a076a08f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-baseline-390x844.png",
+      "sha256": "34277bac914e2257c7cb14afe30238b940cf18ab394b645ba510e242c41a7593",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-360x800.png",
+      "sha256": "29462e5b6ab7f944d25447eb6ad74435a9092be6ab1d5ce8265bd567a68617ec",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-10-390x844.png",
+      "sha256": "dc034a729d455a4f707b0b7f42a8c3db3f53276f152c8ed95e9d004e6fa93425",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-360x800.png",
+      "sha256": "bdb29611be680e79728299743a74ccbf6852c984174bc4bd284e63708101929d",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-12-390x844.png",
+      "sha256": "2874ccd2d1942e785c194d9e06e17910ca2514f77369f303b2598e975444d1fb",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-360x800.png",
+      "sha256": "87ed172d46120c3401feeca88130979a0bba849da0ddfcf84412abf62ee765ee",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options-first/options/touch-overlook-height-8-390x844.png",
+      "sha256": "d774b11d89b885cc388cc431d8e7cbb98cfe104cde96a3967282a11589879e59",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-1080x1978.png",
+      "sha256": "a2978c6e903d77bad27ef6dc38f6d5194652cbf734af9d73f5647f739da2f173",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-baseline-944x1978.png",
+      "sha256": "659237a44a53dd35d0c9eede5f7f729dff9e54c56c54a43ec145b86e2150e529",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-1080x1978.png",
+      "sha256": "55e49e6bdf71909898720258b96a341b560e1df3631c5fb3c4936612be5d166e",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-arrival-measured-944x1978.png",
+      "sha256": "799a3d495f4e9863e5e96cef42ac2f2bf6ebe78a3ea8e2b7ce97c73bf97bfd67",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-1080x1978.png",
+      "sha256": "77bb5a9a69a7ad36def1825ec95a7747ddf1a71db18e8e8338432a16c5e88cae",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-baseline-944x1978.png",
+      "sha256": "247914faabc14a267c9b940b9e12df9b831f5a2c81e7b400f6f9dfb64d023836",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-1080x1978.png",
+      "sha256": "c025cb58b473dc81559754a0f16f98cb5da38bf88350d9cdad85276c88b0092a",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-10-944x1978.png",
+      "sha256": "16b84522074fb8560245024872f6805d1e582d97bd5927d99ba0f6345f7c1449",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-1080x1978.png",
+      "sha256": "573a7d2beb646e9b93f5514d93875d642034639d19446cacb3da7d36d41dc832",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-12-944x1978.png",
+      "sha256": "921a7634f21324df29e5c1d5f0052207cbcff7a1e860f0db694c946b60b056ab",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-1080x1978.png",
+      "sha256": "622236d65c0011431507fbb4918112fba11e6f48e0d5df188ba2d5021bf3a328",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/density-overlook-height-8-944x1978.png",
+      "sha256": "68e2622011a8fae742af902eaa5f87bb20735598ebd1e08d0bf7204d969049fe",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-baseline-1410x600.png",
+      "sha256": "ab32e32b36897b80e0042c503924eeb54c5514b8eda1f2d2749dbb138a96553a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-10-1410x600.png",
+      "sha256": "7abd5a60ad23cdfa96a03c30ea1ade113db2e7ec23436cf41ac32e56c1d8da5a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-12-1410x600.png",
+      "sha256": "73bd04911621153d30ec5ec3caf163d780c2f312a0142cb9971f91ad50ecebe6",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/desktop-overlook-height-8-1410x600.png",
+      "sha256": "4e6d3afd1f32107e50c4e608b605674f3a121266f923999d84921d3c2b0f7571",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-360x800.png",
+      "sha256": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-arrival-measured-390x844.png",
+      "sha256": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-360x800.png",
+      "sha256": "500d4190161d0efa51b08b4c93ea0a7dc516fd611aaaf83ba4edafeb0fabd8ac",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-baseline-390x844.png",
+      "sha256": "88d1ccea5f6b879defb512e18e4f733e0c7653c3e9ce63559458868c4f3efc77",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-360x800.png",
+      "sha256": "e784462ba3bd59f2a1de5bd9ab7afa3783218a19491a147ba719f80218670c7b",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-10-390x844.png",
+      "sha256": "36833d34a9788d7083e6e1c19c6772b79b6c4f87c7f47c8c8eebe5d33329af49",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-360x800.png",
+      "sha256": "2157524c113fdd16400b1f0782c4caaf7d369cb85c76d202d02d2dfddb1f73fb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-12-390x844.png",
+      "sha256": "c9350f5c24fbdf4764e75f720f055fbe915accf4a33c77266f268734d82fda75",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-360x800.png",
+      "sha256": "b001dad33cb8d723b43bdeccd67b4e584c1a4b7357c8947ba6f50063d07e99ec",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/normal-overlook-height-8-390x844.png",
+      "sha256": "6e5490944d1ff934c8e19a19574e092d34c0f6eb5a8e5bf773132d0e37577bbf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-360x800.png",
+      "sha256": "e78dde60eea629970a3a5cd772ff3730627d4ad0d8e1b9f4552c27b7cd92ba1e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-baseline-390x844.png",
+      "sha256": "45b4b632fc265c31ebde0cb16da5436ed0f80ca1e2c1865cb6d4a8ea94679f1f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-360x800.png",
+      "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-arrival-measured-390x844.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-360x800.png",
+      "sha256": "bf67a3297dda48a673dbed269fa6cce0a3b823a2ff04dd96caf998c2cb80505f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-baseline-390x844.png",
+      "sha256": "86f775e7299dc8b37ef76c3e1cfb46a2bc44bac2c999ab2aa0bdb637cc4faac2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-360x800.png",
+      "sha256": "75371b9d95c76e820b54be5882297b807dc6b7ef2c32ea4c78ff771b23b359b5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-10-390x844.png",
+      "sha256": "6046d23bb6c04b82ef3ec8a79ec4f2f9f7c355d1bacc54120d9defb7a5f54be8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-360x800.png",
+      "sha256": "bd04e88de9c5380471ae873af26ca45ff8e584b85ad0fa4c135d2b4f69e8026d",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-12-390x844.png",
+      "sha256": "60a70f3915a1c45274aa59c28385186f84b64159b06b6ca5cb38a6b5f1a7abb0",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-360x800.png",
+      "sha256": "1117f206247436aba470dc90b07a7ab3a73c5fcb2cf85ec2d1cde3490f46fc2e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/layout-options/options/touch-overlook-height-8-390x844.png",
+      "sha256": "7fc0b52a4fb14cb24e536078d95a0c926dfdd777bc652e0199016036264adb2f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-desktop.png",
+      "sha256": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-narrow.png",
+      "sha256": "3a115bcf2f90e0ee7029f8314a4f2e2d2c1011371dbc68b55abedf0c2e097a2e",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-portrait.png",
+      "sha256": "f293ce987766e25e0d55ee59e481876b9764437fa72787c3f66771749a925d30",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/arrival-return.png",
+      "sha256": "24091dd9351372e109b6524af4faf448178b1ff685a8ba85d0df599a64823bed",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-narrow.png",
+      "sha256": "f61e8ac3158ae7cf6f55b2686c0b225806aeff470e289b0ed345dfac3083e6cd",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/look-portrait.png",
+      "sha256": "2cf2830196e924f37806d75cdf9c8c99a7754c9aac90ff733490debcd4df0825",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-desktop.png",
+      "sha256": "3c2b42e3c381264d865bc5ea3b76fd50c32d712c8e47a7eb9aeeaf319b3b8749",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-narrow.png",
+      "sha256": "c1c563bb40bb968f5bfb5dbae990172190a3ee518618357dfa353a819bcbe0da",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-portrait.png",
+      "sha256": "bf58d155632e937e20601baf15204a628100190762e8cd8b04f4821f85e1fb01",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-density/overlook-return.png",
+      "sha256": "fa18627b059f1626887efe8e2b0c09c4b9e6bef5a019dd95eaa21cec1336c6d9",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-desktop.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-narrow.png",
+      "sha256": "de0f30a96c036e493d013efb98f5f365906d6aef66eb0f1a018c927005a784b5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-portrait.png",
+      "sha256": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/arrival-return.png",
+      "sha256": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-narrow.png",
+      "sha256": "de0f30a96c036e493d013efb98f5f365906d6aef66eb0f1a018c927005a784b5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/look-portrait.png",
+      "sha256": "9138829a0e001090d8a6f1c174e368f31977401de88287f1b9109d4f176f3d6f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-desktop.png",
+      "sha256": "aa85ac5c2a6789eb314c85bbcddad2561c7e510864012795a459802f9fb1a051",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-narrow.png",
+      "sha256": "520f213b53fe8d901106a0fb0e0190534d0b1cc5ecb7acb667168ad27e3c23ed",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-portrait.png",
+      "sha256": "b87760ec3ad76b2a7d36f70ef0bb21df57437c2dfce18237832ff972d6092f95",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-normal/overlook-return.png",
+      "sha256": "2a0758bf678c006011d10f261616cdfa04d0134359c581643d520ec9a0f4b333",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-desktop.png",
+      "sha256": "1baf4b01c2096274a14731fda66bca99648c0e5e560bbc0bead5ca6353d0a7ff",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-narrow.png",
+      "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-portrait.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/arrival-return.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-narrow.png",
+      "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/look-portrait.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-desktop.png",
+      "sha256": "913f2da8b80ff18456158bede6bd74b7dd10b374a9a591bcb818af0ef7041638",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-narrow.png",
+      "sha256": "47539deceac35d7ee8a46f64ee360503aec7a0ab2b89a2bc840edb6466fdd060",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-portrait.png",
+      "sha256": "33ff27c6cd695787e0cd5d84ef46204bf92dc860d037d484c94320108b2d7b60",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/accepted-touch/overlook-return.png",
+      "sha256": "07b4d436d3b48a1216db2dae85d360448385ec064f9eefcdf9cd971252e92242",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-desktop.png",
+      "sha256": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-narrow.png",
+      "sha256": "48535509d29acda6174005d7e7ba5da101622c7b4ff1b86444d8faa863b20713",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-portrait.png",
+      "sha256": "00c13043d80076b12f2a50bc367168ff174716f0fee3177828d29fc8c0528790",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/arrival-return.png",
+      "sha256": "ea60917920c213c53f162b6789a8f3eb8d19d07ce1e6e4b82f4fb8ec3d10384d",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/look-narrow.png",
+      "sha256": "1f8068f2389de942508b5f4d49050dc9edddd51434eddb55401039b7beef9a2f",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/look-portrait.png",
+      "sha256": "63b885897afe2ee337a58a22429338ed57f0db56f5d7a9c84d751743fdbbeebe",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-desktop.png",
+      "sha256": "b3504fdd5d2ce44c4b17160b7ee51e1a1af5653b094ad30fbf4c3da0dd55c7e5",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-narrow.png",
+      "sha256": "92862a41c8e9efbc1659eca728f4e5ebcf52f34a9a807644c5edf699b5f16915",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-portrait.png",
+      "sha256": "a6567eb1f738c6f966446986ff13db137b21f4773d5e149672d07315ea90a3ee",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-density/overlook-return.png",
+      "sha256": "3355462af39b6117dfadb6f4a0f5451d7bac2350d376366eb643990f5449d136",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-desktop.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-narrow.png",
+      "sha256": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-portrait.png",
+      "sha256": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/arrival-return.png",
+      "sha256": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/look-narrow.png",
+      "sha256": "a5ea24feb6bad0aa7d7925afa3506e15629afef23f6edd9b5a729d54a226e274",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/look-portrait.png",
+      "sha256": "71ac87dbc60e3f489e954254605237fb08995c7f26a0e049e6ebc1e4b5747794",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-desktop.png",
+      "sha256": "c2dcd679af269d68ddf3d9fbf22c2aab683810b3496c08ebf690c736ac397fc8",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-narrow.png",
+      "sha256": "0cad720315b480c54c7a6c6fe41c9c8ba450af4a07cfee3a6bda9ee777572492",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-portrait.png",
+      "sha256": "f0e0faed70f31949eafa4f378bbd7f5e2fa9e208232c7046727fb20e21e252a8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-normal/overlook-return.png",
+      "sha256": "0b0cebbd861e0fc8ea9f8458c2a4a1c88214afb688846a14a24034338716df27",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-desktop.png",
+      "sha256": "1baf4b01c2096274a14731fda66bca99648c0e5e560bbc0bead5ca6353d0a7ff",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-narrow.png",
+      "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-portrait.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/arrival-return.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/look-narrow.png",
+      "sha256": "26d01319a7f15a8ef5550e3a20204040130c69961fdb619cc3e02ef62ef2e55c",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/look-portrait.png",
+      "sha256": "d2e62306d50b9d83007833878c1b2f051f5bcaade53db947aeac567902d90360",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-desktop.png",
+      "sha256": "3ad4722c304d13baadad87efeb50e3690ef37b1d408532564cb3f9fc76828716",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-narrow.png",
+      "sha256": "621f6a2da0a3ee4337f1edbb332cd94ce4512cd312f4e73f4c6d65bee1a208d3",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-portrait.png",
+      "sha256": "e046eefa73388f94f57feeaf0abdc7cb52325c7d6af43ba44df26d5fa396647c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/green-touch/overlook-return.png",
+      "sha256": "0a0a78432c45fc65784a72cab610bde6a34f6a4bc15c8b5d46c7dcac368025bc",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/arrival-desktop.png",
+      "sha256": "9d6bc35d36a33cb1978339c6376ae18910f7f8a6473cc73d6f206940ff7640a4",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/arrival-narrow.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/arrival-portrait.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/arrival-return.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/look-narrow.png",
+      "sha256": "c6635f027c08c4810cf2f8121672f66a3948632cbe32905b6a47aa828819f6d0",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/look-portrait.png",
+      "sha256": "7e52f8946f920477f1ada9620762c42bc0a5730ea775e931dee31349b1473046",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/overlook-desktop.png",
+      "sha256": "e6c87b78da38f8bb1d3d2cb3e40b1152c16dcef759ee4f0925118d2fd55127af",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/overlook-narrow.png",
+      "sha256": "897dbb77ba1bf26a13f0d0c7e161a145107af33bb59ab5b506281778150c92dd",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/overlook-portrait.png",
+      "sha256": "c4b708ac23deee1354bac6b84a70971f5cc169eeff5610872afc18a645fd57e2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/red/overlook-return.png",
+      "sha256": "a12944209f59ee613c3357ee27ed0892151da06ed8e0469cbc89098f94c1dae2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png",
+      "sha256": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png",
+      "sha256": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+      "sha256": "faea76fa4c6ca86a32906a1b105bbc1c10da0f3a05b01d30b42fe2be38c97fba",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+      "sha256": "c3d9b124d96e1c114f80988b477ddbf51e85108065e525004053e0fe16941c64",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+      "sha256": "85de0fface9d15506abe369f8c6d7e1fe299524e9469226227f1c06fbcd303e2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+      "sha256": "03dff33e178b7aeac533337da0939b0f835b965a4e0ef7a29c34b9f7b3705f79",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+      "sha256": "65c288bcb26188df9cabd415572ef52c2e51bbe64f32673a27f61d681249b1f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+      "sha256": "868e75a2d47996ff4bc6528472c002ee47319f693938f327ed68f430a2837c58",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+      "sha256": "07f2c9a8fba835765437c7d23779c0616f32b0870a45974d18f1ca2b9075c3aa",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+      "sha256": "7f40090765b2d589e173bf6a36bd6337e8bd1d0bae971984440a2f3f26d9484b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+      "sha256": "b23d8e65ad3d0535600dc8c1dc34954519a04f3d4ad94161049fde7f0ea7fa44",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+      "sha256": "f9f899d3a157411079921af7e7fccd9d6f94600267bb5e1c51b76febae48fc70",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+      "sha256": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+      "sha256": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+      "sha256": "df8c6d55b9e1e5a30c7c65898c3cd21f156ee80d4187bde6062217d66aa548b4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+      "sha256": "6c86d8d8c78379a82fa8e15331313490276780eb99ddc603f027352e3ff0f219",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+      "sha256": "d719f08de0e0c4894654fc123106d574f42364acc2ced475976e54ad751b4f7e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+      "sha256": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-desktop.png",
+      "sha256": "532bf431504c72d2bc7a6c16e1c16e8e252910df35fa93a4038c56d4faebb482",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-narrow.png",
+      "sha256": "cb24dd33f6552f1fd9726f476cbc2b5e9b52d1c67d40c5526df34819260b405d",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-portrait.png",
+      "sha256": "e959bcd86e41d50bc7e291a7fc5430d0f3bffa6cf9af33af513e69ba375b12e5",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/arrival-return.png",
+      "sha256": "89930c9f76150bfc1a9c88819f5d708360f20d9baf0bb7c1c2829a1af2f7ac5d",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-narrow.png",
+      "sha256": "a33c4c00ea1e3ff92241b8a16ecdad9cb5d5112dd8c268113a12606b4c8d8e3b",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/look-portrait.png",
+      "sha256": "8fd1f526f875b80fb20160fbc2583f05e6e6f0c950e26a39760ad903deadf8dd",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-desktop.png",
+      "sha256": "c2c839634f0af0882c3213c46a9e5b833da7e045802898c92396faa1acd2dc1c",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-narrow.png",
+      "sha256": "7a0da7279bb88edd43123cf7d39de7d156eba5a8c509f29fabfeebbfbe6d96e0",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-portrait.png",
+      "sha256": "a473141f8c0dfe85d42567c946bd4d412914ee6147263c52034be9d3262024f7",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/tubi-portrait-framing/runtime/resize-diagnostic/overlook-return.png",
+      "sha256": "aad0bf2b124e0d2030d1ed2e25de7c7f9193cbc73b9b2236ff959d83355a8efe",
+      "pixels": [
+        1080,
+        1978
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: arrival-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:115)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: hall clipped or covered: arrival-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:115)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: moon clipped or covered: arrival-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:115)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: stair clipped or covered: arrival-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:115)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: arrival-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:116)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: hall clipped or covered: arrival-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:116)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: moon clipped or covered: arrival-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:116)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: stair clipped or covered: arrival-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:116)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Original desktop arrival not restored
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] run (res://tests/test_tubi_framing.gd:119)
+       [2] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: arrival-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:121)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: hall clipped or covered: arrival-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:121)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: moon clipped or covered: arrival-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:121)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: stair clipped or covered: arrival-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:121)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: overlook-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:124)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Overlook remains behind the near roof: overlook-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:83)
+       [2] run (res://tests/test_tubi_framing.gd:124)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: overlook-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:125)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Overlook remains behind the near roof: overlook-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:83)
+       [2] run (res://tests/test_tubi_framing.gd:125)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Overlook remains behind the near roof: overlook-desktop
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:83)
+       [2] run (res://tests/test_tubi_framing.gd:127)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: overlook-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:130)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Overlook remains behind the near roof: overlook-return
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:83)
+       [2] run (res://tests/test_tubi_framing.gd:130)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: look-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:132)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: hall clipped or covered: look-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:132)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: moon clipped or covered: look-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:132)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: stair clipped or covered: look-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:132)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Look did not leave the overlook
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] run (res://tests/test_tubi_framing.gd:133)
+       [2] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: Portrait projection: look-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:76)
+       [2] run (res://tests/test_tubi_framing.gd:135)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: hall clipped or covered: look-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:135)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: moon clipped or covered: look-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:135)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+ERROR: TUBI_FRAMING_REJECTED: stair clipped or covered: look-narrow
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_tubi_framing.gd:22)
+       [1] inspect (res://tests/test_tubi_framing.gd:78)
+       [2] run (res://tests/test_tubi_framing.gd:135)
+       [3] settle (res://tests/test_tubi_framing.gd:30)
+TUBI_FRAMING_RESULT 10 originals; 29 failures
