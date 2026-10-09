@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+  "test_sha256": "f8eb7570d0d069f749677cf179a2f59b0354ca0e0e87190a5f92c676db24cf94",
+  "started_at": "2026-10-09T03:26:13.457015+00:00",
+  "phases": [
+    {
+      "name": "normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-normal"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-normal.log",
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58",
+      "status": "passed"
+    },
+    {
+      "name": "touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-touch",
+        "--touch"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-touch.log",
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58",
+      "status": "passed"
+    },
+    {
+      "name": "density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-density",
+        "--density"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/qiushuang-runtime/accepted-density.log",
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58",
+      "status": "passed"
+    }
+  ],
+  "finished_at": "2026-10-09T03:26:53.562864+00:00"
+}
