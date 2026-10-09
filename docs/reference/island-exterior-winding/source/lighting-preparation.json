@@ -1,0 +1,83 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate",
+  "orchestrator_pid": 80503,
+  "started_at": "2026-10-09T11:48:44.333076+00:00",
+  "source_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "authoring_sha256": "2b07ce48ffa3011f9a2da01535a3fc84171bdc00b2ced2abad0ce8f338fd49ed",
+  "library_helper_original_sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146",
+  "library_helper_frozen_sha256": "839d090a874a4a5c747d370358ccdb84194723ce06486321aa19352942b68a3e",
+  "phases": [
+    {
+      "name": "water-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/scripts/verify_water_kit.py"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/lighting-preparation-logs/water-contract.log",
+      "pid": 80505,
+      "exit_code": 0,
+      "log_sha256": "ffa5944da7cf06ae2e0019e0ae6ff04359dc06a4e1a99fe57cf025b685e3df93"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/lighting-preparation-logs/site-libraries.log",
+      "pid": 80508,
+      "exit_code": 0,
+      "log_sha256": "83041dae6e6c675277805fa3e7472dfbb579e3377efddd16b0342ad47010f51a"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 80533,
+      "exit_code": 0,
+      "log_sha256": "865efd8a30d3033c129917aec9959bdaf8337e8b18d3fc5da46605a7fe2a64ab"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate/lighting-preparation-logs/full-lighting.log",
+      "pid": 80577,
+      "exit_code": 0,
+      "log_sha256": "8b7a2ee0252aad137750f3f343a3d79298669d4d8f622b6448c606b9c3c5a79f"
+    }
+  ],
+  "scope": "Separate saved source with24 corrected island exterior windings and all other4466 objects preserved. Complete15libraries/shared receiver packaging and six fresh lighting phases. Same124 receiver eligibility and water kit. No canonical adoption, native matched-lit appearance, phone or full-goal acceptance.",
+  "finished_at": "2026-10-09T12:44:48.077062+00:00"
+}

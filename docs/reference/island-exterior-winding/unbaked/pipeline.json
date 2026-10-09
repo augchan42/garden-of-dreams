@@ -1,0 +1,83 @@
+{
+  "status": "unbaked_native_probe_complete_original_visual_review_pending",
+  "pid": 79517,
+  "started_at": "2026-10-09T11:43:52.017488+00:00",
+  "phases": [
+    {
+      "name": "baseline-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/baseline-import.log",
+      "pid": 79542,
+      "exit_code": 0,
+      "log_sha256": "0ef16e7e54d99e18d1b5c961f5ce653f299575dc26721857f23a77236466de3e"
+    },
+    {
+      "name": "baseline-render",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/render-water-edge.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/baseline",
+        "--candidate"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/baseline-render.log",
+      "pid": 80006,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    },
+    {
+      "name": "candidate-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/candidate-import.log",
+      "pid": 80028,
+      "exit_code": 0,
+      "log_sha256": "0b2dc917333a6ce04450eafa53a66d72ca091a8db7241c18663760543cf7af73"
+    },
+    {
+      "name": "candidate-render",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/render-water-edge.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/candidate",
+        "--candidate"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/native-probe/candidate-render.log",
+      "pid": 80041,
+      "exit_code": 0,
+      "log_sha256": "e68d029d4f794d9bcefa956d56ea0aaabedff045fe56951ddff59deb9fc12488"
+    }
+  ],
+  "scope": "Same existing native water-edge renderer. Both sources already have54banks, so --candidate means54 bank/ray assertions for BOTH modes. Source lightmaps disabled; diagnostic geometry/normal comparison only, not matched-lit acceptance.",
+  "finished_at": "2026-10-09T11:44:31.943281+00:00"
+}
