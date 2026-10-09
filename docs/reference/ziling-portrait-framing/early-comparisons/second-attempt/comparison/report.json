@@ -1,0 +1,984 @@
+{
+ "errors": [],
+ "route_sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+ "rows": [
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/normal-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      504.826995849609,
+      452.782745361328
+     ],
+     "low": [
+      256.073089599609,
+      326.431945800781
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 0.637830528846154
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      384.292083740234,
+      642.675964355469
+     ],
+     "low": [
+      -30.2689514160156,
+      406.892181396484
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 1.06297701322115
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      379.694702148438,
+      533.4599609375
+     ],
+     "low": [
+      3.21780157089233,
+      334.596221923828
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 0.96532538609627
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "0d634d89b410b191ea18177e664e90888cb3107760c0575a642e0cf869d821d4",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -39.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/normal-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      356.137359619141,
+      428.805328369141
+     ],
+     "low": [
+      213.248611450195,
+      373.061645507812
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 0.366381405561398
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      273.913909912109,
+      522.966918945312
+     ],
+     "low": [
+      29.8283863067627,
+      405.944641113281
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 0.625860316936786
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      270.104309082031,
+      460.1708984375
+     ],
+     "low": [
+      63.502384185791,
+      366.837310791016
+     ],
+     "panel_top": 576.0,
+     "width_fraction": 0.529748525374975
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -39.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     0.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "d8d6aea32d0ba3ebe48497e34163a498c81d779e5590cc7aed562510c8a3258d",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/normal-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      473.674865722656,
+      429.177947998047
+     ],
+     "low": [
+      237.889190673828,
+      309.414154052734
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 0.654960208468967
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      359.423797607422,
+      609.171508789062
+     ],
+     "low": [
+      -33.5251007080078,
+      385.679779052734
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 1.09152471754286
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      355.066070556641,
+      505.649230957031
+     ],
+     "low": [
+      -1.78409814834595,
+      317.152801513672
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 0.991250468624963
+    }
+   },
+   "mode": "normal",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "ef66719bbd40a94407d7b369a860c763fb4fc0452a1d41710e534e0808145983",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -39.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/normal-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      331.268768310547,
+      377.498931884766
+     ],
+     "low": [
+      196.966003417969,
+      324.996551513672
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 0.373063235812717
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      253.022705078125,
+      462.644012451172
+     ],
+     "low": [
+      27.896411895752,
+      356.162200927734
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 0.625350814395481
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      250.10920715332,
+      406.343597412109
+     ],
+     "low": [
+      57.27783203125,
+      319.033172607422
+     ],
+     "panel_top": 532.0,
+     "width_fraction": 0.535642708672418
+    }
+   },
+   "mode": "normal",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -39.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "b1bd2e1dd6a786fb37b02886607dc561431b0262bcc7d39a92b08f5e84484b32",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/touch-baseline-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      504.826995849609,
+      452.782745361328
+     ],
+     "low": [
+      256.073089599609,
+      326.431945800781
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 0.637830528846154
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      384.292083740234,
+      642.675964355469
+     ],
+     "low": [
+      -30.2689514160156,
+      406.892181396484
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 1.06297701322115
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      379.694702148438,
+      533.4599609375
+     ],
+     "low": [
+      3.21780157089233,
+      334.596221923828
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 0.96532538609627
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "d475a81577ca18fd6639a3d186c52d919ef173e8dd615977082b7b27d7b52d4a",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -39.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/touch-measured-390x844.png",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      362.861053466797,
+      367.904479980469
+     ],
+     "low": [
+      213.650817871094,
+      309.001831054688
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 0.38259034768129
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      274.912963867188,
+      459.823486328125
+     ],
+     "low": [
+      29.3062496185303,
+      344.177429199219
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 0.629760805765788
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      272.373748779297,
+      399.532196044922
+     ],
+     "low": [
+      59.5934753417969,
+      302.199798583984
+     ],
+     "panel_top": 544.0,
+     "width_fraction": 0.545590444711539
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -39.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     -2.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    390,
+    844
+   ],
+   "sha256": "c08f90d3c33ccdf07787602e844cd3722c08c1118d88f5f36b9edd2e47633cb3",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/touch-baseline-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      473.674865722656,
+      429.177947998047
+     ],
+     "low": [
+      237.889190673828,
+      309.414154052734
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 0.654960208468967
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      359.423797607422,
+      609.171508789062
+     ],
+     "low": [
+      -33.5251007080078,
+      385.679779052734
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 1.09152471754286
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      355.066070556641,
+      505.649230957031
+     ],
+     "low": [
+      -1.78409814834595,
+      317.152801513672
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 0.991250468624963
+    }
+   },
+   "mode": "touch",
+   "parameters": {},
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "ea95b4f077b7b9c5475c2f5246bccf120bb5a6d78095ea4a3d19b8c0aa88a75a",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/touch-measured-360x800.png",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      324.431549072266,
+      302.489471435547
+     ],
+     "low": [
+      193.736175537109,
+      247.06510925293
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 0.363042704264323
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      251.691375732422,
+      385.003631591797
+     ],
+     "low": [
+      35.7385559082031,
+      281.720031738281
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 0.599868943956163
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      250.512603759766,
+      331.339141845703
+     ],
+     "low": [
+      56.6006393432617,
+      240.786819458008
+     ],
+     "panel_top": 500.0,
+     "width_fraction": 0.5386443456014
+    }
+   },
+   "mode": "touch",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -40.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     -4.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    360,
+    800
+   ],
+   "sha256": "33b9733fa951802eefd486817692a5796b055b7788c7b9f6a74490135aa16346",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/density-baseline-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      482.328033447266,
+      404.244750976562
+     ],
+     "low": [
+      260.240386962891,
+      291.438659667969
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.539796380142521
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      374.714416503906,
+      573.781555175781
+     ],
+     "low": [
+      4.5939769744873,
+      363.273620605469
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.899598319120354
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      370.60986328125,
+      476.2734375
+     ],
+     "low": [
+      34.4909629821777,
+      298.727752685547
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.816955686419456
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "a5248a53fd475f6aa364ed51a3a895d253c7b0051b7784ddff62d7b792cea840",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/density-measured-1080x1978.png",
+   "logical_viewport": [
+    411.428558349609,
+    753.523803710938
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      370.778900146484,
+      265.321258544922
+     ],
+     "low": [
+      221.41276550293,
+      201.979141235352
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.363042699910568
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      287.647308349609,
+      359.623199462891
+     ],
+     "low": [
+      40.8440399169922,
+      241.584762573242
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.599869074287491
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      286.300109863281,
+      298.292327880859
+     ],
+     "low": [
+      64.6864166259766,
+      194.803955078125
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.53864441040816
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -40.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     -4.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    1080,
+    1978
+   ],
+   "sha256": "a905710da643712e408ab32181a567ea25c715892dc987c90b6e9ea46c483906",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/density-baseline-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      456.423278808594,
+      404.244750976562
+     ],
+     "low": [
+      234.33561706543,
+      291.438659667969
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.617563675550834
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      348.809631347656,
+      573.781555175781
+     ],
+     "low": [
+      -21.3107719421387,
+      363.273620605469
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 1.02920132914155
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      344.705078125,
+      476.2734375
+     ],
+     "low": [
+      8.58622550964355,
+      298.727752685547
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.934652526006244
+    }
+   },
+   "mode": "density",
+   "parameters": {},
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "a2d757ebcee74d42c36be7f1de0fb2d44c2aa92f3d580fe2efe4ac65176a423f",
+   "variant": "baseline"
+  },
+  {
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    2.40000009536743,
+    8.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/density-measured-944x1978.png",
+   "logical_viewport": [
+    359.619049072266,
+    753.523803710938
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      324.088226318359,
+      279.354553222656
+     ],
+     "low": [
+      193.531158447266,
+      223.988830566406
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.363042692560088
+    },
+    "island": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      251.425048828125,
+      361.781402587891
+     ],
+     "low": [
+      35.7007293701172,
+      258.607055664062
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.599869000306093
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      250.247512817383,
+      308.173675537109
+     ],
+     "low": [
+      56.5407333374023,
+      217.717178344727
+     ],
+     "panel_top": 453.523803710938,
+     "width_fraction": 0.538644379322228
+    }
+   },
+   "mode": "density",
+   "parameters": {
+    "fov": 60.0,
+    "position": [
+     -40.0,
+     2.40000009536743,
+     8.0
+    ],
+    "target": [
+     -33.0,
+     -4.0,
+     0.0
+    ]
+   },
+   "pixels": [
+    944,
+    1978
+   ],
+   "sha256": "4b7f245e1a39d7b818ac52395439c7a3febe2b099b6f820fd209d9e9f6eee2a2",
+   "variant": "measured"
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "camera_transition_running": false,
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/comparison/desktop-baseline-1410x600.png",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "measurements": {
+    "bridge": {
+     "behind": 0,
+     "fits": true,
+     "header_bottom": 38.0,
+     "high": [
+      981.178527832031,
+      329.445404052734
+     ],
+     "low": [
+      762.008361816406,
+      216.212692260742
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.155439834053635
+    },
+    "island": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      889.891235351562,
+      543.144165039062
+     ],
+     "low": [
+      464.7822265625,
+      286.031433105469
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.301495750914229
+    },
+    "reeds": {
+     "behind": 0,
+     "fits": false,
+     "header_bottom": 38.0,
+     "high": [
+      887.106323242188,
+      422.474731445312
+     ],
+     "low": [
+      509.826812744141,
+      217.624404907227
+     ],
+     "panel_top": 405.0,
+     "width_fraction": 0.267574120920601
+    }
+   },
+   "mode": "desktop",
+   "parameters": {},
+   "pixels": [
+    1410,
+    600
+   ],
+   "sha256": "22390cb94e0058a227d1cc9d7fc080ac64487fc3ad483bb6d36b6eddaa398c07",
+   "variant": "baseline"
+  }
+ ],
+ "scope": "Isolated camera-only reed island and complete bridge/reeds proposals; conservative boxes constrain search then actual imported vertices are measured. No manual UI reserve changes. Candidate projection does not prove occlusion or final art; density windows can be host-clamped. No product edits or phone acceptance.",
+ "script_sha256": "61a9272e243ef3bf32327aa60664b884491aae6a8bb4b9deebe663fa2353c7d7",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "comparison_complete_visual_review_pending",
+ "subject_vertex_counts": {
+  "bridge": 1296,
+  "island": 2112,
+  "reeds": 3360
+ }
+}

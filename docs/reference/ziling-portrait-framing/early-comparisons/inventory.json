@@ -1,0 +1,285 @@
+{
+  "status": "preserved_comparisons_no_product_changes",
+  "original_captures": 39,
+  "reports": {
+    "comparison/report.json": 13,
+    "first-attempt/comparison/report.json": 13,
+    "second-attempt/comparison/report.json": 13
+  },
+  "route_sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+  "first_attempt": "Rejected: excessive foreground/small island; reed points sampled current low LOD before arrival, not full-detail acceptance.",
+  "second_attempt": "Rejected: stage ceiling exposed; same early reed LOD sampling limitation.",
+  "third_attempt": "Both full/lower reed meshes checked (10940 points), all six island/bridge/reed projections fit. Normal390, narrowtouch360 and narrowdensity944 originals show the complete bridge and island, but wide density1080 clips distant roofs at the header and leaves broad empty water; reject that wide variant before adoption. Source water near black, black island sides/coarse flora/lotus and background closure remain art tasks. No product edits; public actions/rotation/Look/Watch reeds/touch/current routes still required.",
+  "files": [
+    {
+      "path": "baseline-entry_route.gd",
+      "sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+      "bytes": 45238
+    },
+    {
+      "path": "command.json",
+      "sha256": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+      "bytes": 530
+    },
+    {
+      "path": "comparison/density-baseline-1080x1978.png",
+      "sha256": "e019275f309d983af747636a2754691ecc1cb5b4c556b579efb41a4f27955264",
+      "bytes": 1492459
+    },
+    {
+      "path": "comparison/density-baseline-944x1978.png",
+      "sha256": "070bdfa3232a31a2eec437ee70060f311d8a61f29076b58f1daf113669941978",
+      "bytes": 1366471
+    },
+    {
+      "path": "comparison/density-measured-1080x1978.png",
+      "sha256": "819e3027b12511e0ad4f7bfa6d5a7812ffd4c07bf64db5c4b371d4f7e844169a",
+      "bytes": 1067869
+    },
+    {
+      "path": "comparison/density-measured-944x1978.png",
+      "sha256": "a4ee205a701078fbd33229945a88cb588c4d8817f7258f3bade97d673b20fd82",
+      "bytes": 1212939
+    },
+    {
+      "path": "comparison/desktop-baseline-1410x600.png",
+      "sha256": "accb70d4e5f8f5d8e8131bc3fc44ca161f28d4f75536b794d1f5fe8d76596192",
+      "bytes": 702779
+    },
+    {
+      "path": "comparison/normal-baseline-360x800.png",
+      "sha256": "04fae68e6742ddd1617be01454df6929b7fb234b6b89a0fb13a5b4033d107857",
+      "bytes": 304443
+    },
+    {
+      "path": "comparison/normal-baseline-390x844.png",
+      "sha256": "ebbb2ea7d19c89a13f16769881d6106a87bd40bd74393185b30765e559c1a465",
+      "bytes": 335630
+    },
+    {
+      "path": "comparison/normal-measured-360x800.png",
+      "sha256": "92302890005db6a9823ffc73eaa6866f06d464d18eb4e8762e4f59b4514285cd",
+      "bytes": 257169
+    },
+    {
+      "path": "comparison/normal-measured-390x844.png",
+      "sha256": "b97405edcd5f0a5d74f2843ab816eeb907827296ee461b15b749263977a028ff",
+      "bytes": 286119
+    },
+    {
+      "path": "comparison/report.json",
+      "sha256": "5ca44a2c8fd8204b8c009844cab931f7488c69009c3bbba733f0190588dac1ee",
+      "bytes": 20541
+    },
+    {
+      "path": "comparison/touch-baseline-360x800.png",
+      "sha256": "8ab7aa259f76746a0c497e9eca61250bf98dfd46e1034c8ab6c8793f69ae31f7",
+      "bytes": 300072
+    },
+    {
+      "path": "comparison/touch-baseline-390x844.png",
+      "sha256": "d71fe60345d8d2d6728c581e0f605a8d5aefa9344d0b9ad260fb7d44c7034c2c",
+      "bytes": 334313
+    },
+    {
+      "path": "comparison/touch-measured-360x800.png",
+      "sha256": "28f685be43a3121bae44fd5f52faab657389d9616652ec04ea043b4457a786e3",
+      "bytes": 254502
+    },
+    {
+      "path": "comparison/touch-measured-390x844.png",
+      "sha256": "4cdbe9ee3b66c04269964b17f3d8effcda324bb7e56556b6cc77f6bcc07db870",
+      "bytes": 283506
+    },
+    {
+      "path": "first-attempt/command.json",
+      "sha256": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+      "bytes": 530
+    },
+    {
+      "path": "first-attempt/comparison/density-baseline-1080x1978.png",
+      "sha256": "540689d87e3d9af1f72e5d1abe5042f85e04a6dbaf3ad196bb7ddc33a83ebdb8",
+      "bytes": 1488775
+    },
+    {
+      "path": "first-attempt/comparison/density-baseline-944x1978.png",
+      "sha256": "cf2ff5e38567a71f61793ebb7c6cce658f893f08bbcbfe3ea9f8afe6c4ee6e11",
+      "bytes": 1363487
+    },
+    {
+      "path": "first-attempt/comparison/density-measured-1080x1978.png",
+      "sha256": "f909d34987393aba0bd3d1be09ef12742258f3caed1a3c66895048c08959113a",
+      "bytes": 1082612
+    },
+    {
+      "path": "first-attempt/comparison/density-measured-944x1978.png",
+      "sha256": "61fc0ef970ac6371f7221b861f755b78fc46519bed2fa27040b3f11f90a1f827",
+      "bytes": 1012589
+    },
+    {
+      "path": "first-attempt/comparison/desktop-baseline-1410x600.png",
+      "sha256": "5d6f68b2bb8c928f4c6044981cf6dad8bafe710a02f2ddca3ff29e18ac3e0eb3",
+      "bytes": 702840
+    },
+    {
+      "path": "first-attempt/comparison/normal-baseline-360x800.png",
+      "sha256": "bc81afe48041e09aadba261909cd4801e98d2ef0af57da9cb0486556e7614311",
+      "bytes": 304175
+    },
+    {
+      "path": "first-attempt/comparison/normal-baseline-390x844.png",
+      "sha256": "d357a5153122e8b3cf653f8ee99c27064509f0fb00a14f24ab087c686568f5b1",
+      "bytes": 335650
+    },
+    {
+      "path": "first-attempt/comparison/normal-measured-360x800.png",
+      "sha256": "88f2eebbd913c43b76d2fc5e6bf9f236f1a86600e2206aede7b6670da9755abb",
+      "bytes": 212728
+    },
+    {
+      "path": "first-attempt/comparison/normal-measured-390x844.png",
+      "sha256": "239cdf64245243a8a63e2960a2b10743c42c679dd846c1f796c33b4cf540bf6f",
+      "bytes": 234795
+    },
+    {
+      "path": "first-attempt/comparison/report.json",
+      "sha256": "c428f51e32c196cb0e37127b4cfd7b1c7e4868978ef91b6d9e646d8ed10f3cc9",
+      "bytes": 20468
+    },
+    {
+      "path": "first-attempt/comparison/touch-baseline-360x800.png",
+      "sha256": "4b6866b4249ae035b7a3e9fbbe0a3e3fac31e3a34665ed4d7f4b4a26902275b2",
+      "bytes": 299694
+    },
+    {
+      "path": "first-attempt/comparison/touch-baseline-390x844.png",
+      "sha256": "7f1fc74a9d79a5bcfc08ac77f9a382581687027a4ae3578fe94d0e20f39fbb37",
+      "bytes": 334319
+    },
+    {
+      "path": "first-attempt/comparison/touch-measured-360x800.png",
+      "sha256": "09ed38e067d162f468e0accab871f58647d6f839be054207e91b3acea11c5b03",
+      "bytes": 211264
+    },
+    {
+      "path": "first-attempt/comparison/touch-measured-390x844.png",
+      "sha256": "a5a32d71d0cc9527597c0518e6a74d1e4578f26e739b2ae03230d8105aeea0c2",
+      "bytes": 232588
+    },
+    {
+      "path": "first-attempt/executed-probe.gd",
+      "sha256": "686950ab996765031923a1af6961af10443d949ea11181870fa7425df5a69d3b",
+      "bytes": 6333
+    },
+    {
+      "path": "first-attempt/native-comparison.log",
+      "sha256": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+      "bytes": 204
+    },
+    {
+      "path": "garden_run_ziling.py",
+      "sha256": "a360770b99e52d41a6ef8f7bca62b5cf4b7112267963731dfc2fe6883aa8f97d",
+      "bytes": 606
+    },
+    {
+      "path": "native-comparison.log",
+      "sha256": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+      "bytes": 204
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "72d435cc16382e6c65725ac92c155763907d07c1e689c3e5a541576ae0bfe7bc",
+      "bytes": 333
+    },
+    {
+      "path": "second-attempt/command.json",
+      "sha256": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+      "bytes": 530
+    },
+    {
+      "path": "second-attempt/comparison/density-baseline-1080x1978.png",
+      "sha256": "a5248a53fd475f6aa364ed51a3a895d253c7b0051b7784ddff62d7b792cea840",
+      "bytes": 1492554
+    },
+    {
+      "path": "second-attempt/comparison/density-baseline-944x1978.png",
+      "sha256": "a2d757ebcee74d42c36be7f1de0fb2d44c2aa92f3d580fe2efe4ac65176a423f",
+      "bytes": 1366560
+    },
+    {
+      "path": "second-attempt/comparison/density-measured-1080x1978.png",
+      "sha256": "a905710da643712e408ab32181a567ea25c715892dc987c90b6e9ea46c483906",
+      "bytes": 1259500
+    },
+    {
+      "path": "second-attempt/comparison/density-measured-944x1978.png",
+      "sha256": "4b7f245e1a39d7b818ac52395439c7a3febe2b099b6f820fd209d9e9f6eee2a2",
+      "bytes": 1142185
+    },
+    {
+      "path": "second-attempt/comparison/desktop-baseline-1410x600.png",
+      "sha256": "22390cb94e0058a227d1cc9d7fc080ac64487fc3ad483bb6d36b6eddaa398c07",
+      "bytes": 702987
+    },
+    {
+      "path": "second-attempt/comparison/normal-baseline-360x800.png",
+      "sha256": "ef66719bbd40a94407d7b369a860c763fb4fc0452a1d41710e534e0808145983",
+      "bytes": 304424
+    },
+    {
+      "path": "second-attempt/comparison/normal-baseline-390x844.png",
+      "sha256": "0d634d89b410b191ea18177e664e90888cb3107760c0575a642e0cf869d821d4",
+      "bytes": 335579
+    },
+    {
+      "path": "second-attempt/comparison/normal-measured-360x800.png",
+      "sha256": "b1bd2e1dd6a786fb37b02886607dc561431b0262bcc7d39a92b08f5e84484b32",
+      "bytes": 251533
+    },
+    {
+      "path": "second-attempt/comparison/normal-measured-390x844.png",
+      "sha256": "d8d6aea32d0ba3ebe48497e34163a498c81d779e5590cc7aed562510c8a3258d",
+      "bytes": 286768
+    },
+    {
+      "path": "second-attempt/comparison/report.json",
+      "sha256": "3f73f9847ef81133671608c96971ff2654384c9739c8ad58f7b038dc0dabd86e",
+      "bytes": 20443
+    },
+    {
+      "path": "second-attempt/comparison/touch-baseline-360x800.png",
+      "sha256": "ea95b4f077b7b9c5475c2f5246bccf120bb5a6d78095ea4a3d19b8c0aa88a75a",
+      "bytes": 300005
+    },
+    {
+      "path": "second-attempt/comparison/touch-baseline-390x844.png",
+      "sha256": "d475a81577ca18fd6639a3d186c52d919ef173e8dd615977082b7b27d7b52d4a",
+      "bytes": 334325
+    },
+    {
+      "path": "second-attempt/comparison/touch-measured-360x800.png",
+      "sha256": "33b9733fa951802eefd486817692a5796b055b7788c7b9f6a74490135aa16346",
+      "bytes": 232352
+    },
+    {
+      "path": "second-attempt/comparison/touch-measured-390x844.png",
+      "sha256": "c08f90d3c33ccdf07787602e844cd3722c08c1118d88f5f36b9edd2e47633cb3",
+      "bytes": 273969
+    },
+    {
+      "path": "second-attempt/executed-probe.gd",
+      "sha256": "61a9272e243ef3bf32327aa60664b884491aae6a8bb4b9deebe663fa2353c7d7",
+      "bytes": 6440
+    },
+    {
+      "path": "second-attempt/native-comparison.log",
+      "sha256": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+      "bytes": 204
+    },
+    {
+      "path": "third-executed-probe.gd",
+      "sha256": "fe7df221b8702cb17a49204bfef04111aaa07e38f8bc7e69f5c51c35ba046c69",
+      "bytes": 6879
+    }
+  ]
+}
