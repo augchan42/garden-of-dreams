@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import runpy
 import sys
+import itertools
 
 import bpy
 
@@ -16,6 +17,7 @@ SCRIPT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_ROOT))
 from garden_material_palette import COMMON_BASE_COLORS
 from nunnery_path_layout import COLLISION_SLABS, RENDER_SLABS
+from audit_paving_footprint import inspect_scene, faces, overlaps, compare_footprint
 
 
 def sha(path):
@@ -31,7 +33,11 @@ def inspect_path():
                          key=lambda o: o.name)
         assert len(objects) == len(slabs), (prefix, [o.name for o in objects])
         for obj, (center, dimensions) in zip(objects, slabs):
-            assert obj.type == 'MESH' and len(obj.data.vertices) == 8 and len(obj.data.polygons) == 6
+            assert obj.type == 'MESH'
+            if prefix == 'COL_longcui_approach':
+                assert len(obj.data.vertices) == 8 and len(obj.data.polygons) == 6
+            else:
+                assert len(obj.data.vertices) >= 8
             points = [obj.matrix_world @ vertex.co for vertex in obj.data.vertices]
             bounds = [[min(p[i] for p in points) for i in range(3)],
                       [max(p[i] for p in points) for i in range(3)]]
@@ -39,8 +45,28 @@ def inspect_path():
                         [center[i] + dimensions[i] / 2 for i in range(3)]]
             assert all(abs(a-b) < 1e-5 for row, wanted in zip(bounds, expected)
                        for a, b in zip(row, wanted)), (obj.name, bounds, expected)
+            corners = list(itertools.product(*zip(*expected)))
+            original = points[:8]
+            assert all(any(max(abs(p[i]-q[i]) for i in range(3)) < 1e-5
+                           for p in original) for q in corners), ('Slab corners changed', obj.name)
             if prefix == 'LONGCUI_approach':
                 assert [m.name for m in obj.data.materials] == ['MAT_plaster_rock']
+                # Partition only the ceiling. Retain each of the four sides
+                # and the bottom as its original four-corner cube face.
+                non_top = []
+                for poly in obj.data.polygons:
+                    shape = [points[i] for i in poly.vertices]
+                    if all(abs(p.z) < 1e-5 for p in shape):
+                        normal = obj.matrix_world.to_3x3().inverted().transposed() @ poly.normal
+                        assert normal.normalized().z > .99, ('Invalid floor normal', obj.name)
+                        assert len(shape) >= 3
+                    else:
+                        assert len(shape) == 4 and all(i < 8 for i in poly.vertices)
+                        non_top.append(shape)
+                assert len(non_top) == 5, ('Slab sides/bottom changed', obj.name)
+                for axis, side in [(0,0),(0,1),(1,0),(1,1),(2,0)]:
+                    assert sum(all(abs(p[axis]-expected[side][axis]) < 1e-5 for p in shape)
+                               for shape in non_top) == 1, ('Slab face missing', obj.name, axis, side)
             rows.append({'name': obj.name, 'bounds_z_up': bounds,
                          'materials': [m.name for m in obj.data.materials]})
     return rows
@@ -75,6 +101,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source-root', type=Path, required=True)
     parser.add_argument('--output-root', type=Path, required=True)
+    parser.add_argument('--paving-baseline', type=Path,
+                        help='Verify partitioned floor against the recorded pre-repair footprint')
     args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     source, output = args.source_root.resolve(), args.output_root.resolve()
     author = source / 'blender/authoring.blend'
@@ -82,6 +110,11 @@ def main():
     assert output != source and not output.is_relative_to(source)
     author_hash = sha(author)
     path_rows = inspect_path()
+    actual = faces(inspect_scene(bpy.context.scene))
+    assert not overlaps(actual), 'Duplicate saved paving surfaces'
+    paving = None
+    if args.paving_baseline:
+        paving = compare_footprint(faces(json.loads(args.paving_baseline.read_text())), actual)
     palette = inspect_palette(source)
     # Use the canonical exporter with its defaults, not the candidate's executed copy.
     sys.argv = [str(SCRIPT_ROOT / 'export_garden.py'), '--', '--output-root', str(output)]
@@ -102,6 +135,7 @@ def main():
               'authoring_sha256': author_hash, 'default_export_equality': exports,
               'saved_authoring_palette': palette, 'saved_path_ownership': path_rows,
               'stage_library_sha256': sha(source / 'blender/sites/SITE_stage.blend'),
+              'saved_paving_footprint': paving,
               'scope': 'Read-only saved source/palette/path ownership and exact default reexport of all sixteen GLBs. No rendering, bake or adoption.'}
     (output / 'saved-source-verification.json').write_text(json.dumps(report, indent=2)+'\n')
     print('SAVED_GARDEN_CANDIDATE_PASS', exports['garden-of-dreams.glb'])

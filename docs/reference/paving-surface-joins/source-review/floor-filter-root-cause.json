@@ -1,0 +1,13 @@
+{
+  "status": "floor_filter_root_cause_measured",
+  "source_floor_height": 0.0,
+  "imported_nunnery_top_height": -5.03361225128174e-05,
+  "imported_stage_top_height": 0.0,
+  "original_filter_tolerance_m": 1e-05,
+  "proposed_filter_tolerance_m": 0.0001,
+  "retained_slab_bottom_height_m": -0.24,
+  "evidence": "imported-baseline-floor-diagnostic.json",
+  "failed_native_report": "/tmp/garden-paving-review-20261010-v4/review-captures/paving-baseline-red/report.json",
+  "failed_native_originals_directly_reviewed": 4,
+  "scope": "The actual imported nunnery floor is about50micrometres below its source plane; the10micrometre shader filter discards it. Native surface compression is enabled. A100micrometre plane filter includes the measured top while still excluding the retained bottom 240millimetres below. Geometric footprint tolerance remains10micrometres; source/bakes/runtime unchanged. Correction requires matched native RED/GREEN proof."
+}

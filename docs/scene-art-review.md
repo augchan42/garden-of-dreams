@@ -74,3 +74,28 @@ Runtime `7970380d` fits the courtyard facade, doors and primary banana plant abo
 Positioned courtyard RED20 and imperial RED6 precede32 passing full native checks and three repeated architecture modes after a test-only foliage wait correction. Both actual Mac tours visit14 rooms over26 legs with zero unsupported floor samples and at most four practicals. The452 full-run originals and25 repeated architecture originals are hashed and dimension-checked;25 full-run original file paths and the repeated nunnery original were directly inspected. Twenty-four repeated architecture images reproduce their full-run counterparts exactly. Eleven installed checks pass, and all98 installed camera/arrival images reproduce the reviewed candidate exactly. Evidence: [camera checks and original images](reference/courtyard-portrait-framing/README.md).
 
 This is two-room camera acceptance. Hengwu composition, stage seams, dark shading, ground/water closure, foliage, signage and final14-site art remain open. Reference coverage remains37/42; current phones,2020 Adreno/sustained budgets, release and authenticated services remain required. The full goal remains active.
+
+
+## Current arrival review — 2026-10-10
+
+Eight original arrival captures for the installed `c9d4fb30` source and `7970380d` runtime were directly inspected: desktop and portrait Hengwu, Xiaoxiang, Qiushuang and the terminal. Their hashes match the PR18 reports and their stationary shader clock is 3. These are current baseline observations, not renders of the isolated paving candidate.
+
+| Site | Remaining issue in these arrivals |
+| --- | --- |
+| Hengwu | The desktop roof peaks are cropped, the table and stools meet the panel, and the near right wall cap dominates the stone. Portrait largely excludes the court's stone and wall details and clips the table at the left. A low overview should show the table and pierced stones while keeping the skyline free of trees. Preserve the accepted stone/book detail actions. |
+| Xiaoxiang | The gate, amber window and portrait aisle read. Large repeated bamboo clumps, coarse leaf/stem silhouettes, upper enclosure exposure and the desktop aisle below the panel need final review. Any backstage claim needs a source-ID control. |
+| Qiushuang | All three banks and adjoining hill stair read. Monitor/lattice intersections, small portrait title and broad floor/sky margins remain. Preserve the accepted public bank views. Static CRT artwork does not establish live bulletin data. |
+| Terminal | The local green screen and confined desk spill read in both sizes. Preserve this accent while reviewing window/entry set closure and the separate seat/window actions. This view does not establish authentication or saved readings. |
+
+The next scene after paving acceptance is Hengwu's arrival composition. The isolated floor repair retains the stone, furniture, walls and cameras; its complete fresh lighting and native appearance review must finish first. No camera or material is changed by this review. The full fourteen-site, reference, device, release and service scope remains open.
+
+
+## Paving joins — 2026-10-10
+
+Current source `ba40866e` / authoring `7eba169a` removes 84 positive coplanar paving overlaps by partitioning 26 render objects. The original floor footprint is retained within 10 micrometres; all collision geometry, 42 cameras, 71 markers, materials and runtime `7970380d` are preserved. Render geometry is 266,533 triangles. Eight other site exports remain byte-exact. The nunnery's black forecourt rectangle is replaced by continuous stone and plum shadows.
+
+Six source phases regenerate 141 lighting PNGs. The 45-phase native review has 44 positive passes and one intended baseline-floor rejection. Both actual Mac tours visit 14 rooms over 26 legs with no unsupported floor samples and at most four practical lights. Three Ziling modes are repeated after a test-only real 250-millisecond foliage wait; runtime LOD remains enabled. All 28 arrivals, eight moving samples, eight matched floor controls and 35 repeated reed captures were directly inspected: 79 distinct original paths.
+
+Twenty-two installed checks pass. All 85 installed camera/floor/arrival originals reproduce the reviewed files exactly. The first installation also passed all 22 native checks, then rolled back all 29 targets after a report-field comparison error; its 85 originals match independently. The corrected helper reads actual PNG dimensions. Failed source, native and installation attempts are retained in the evidence archive.
+
+This closes the duplicate paving defect. Hengwu's arrival view is next: show its table and pierced stones while preserving the accepted detail actions. Final fourteen-site art, five missing references (37/42), current phones, 2020 Adreno and sustained budgets, release and authenticated reading/history/AI/presence/social remain open. Evidence: [paving checks and originals](reference/paving-surface-joins/README.md). The full goal remains active.

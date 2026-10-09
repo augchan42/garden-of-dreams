@@ -1,0 +1,40 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: PAVING_TRANSFER_REJECTED: Connecting floor still owns shared pixel (210, 440)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:113)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+ERROR: PAVING_TRANSFER_REJECTED: Connecting floor still owns shared pixel (235, 455)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:113)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+ERROR: PAVING_TRANSFER_REJECTED: Connecting floor still owns shared pixel (310, 464)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:113)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+ERROR: PAVING_TRANSFER_REJECTED: Duplicate connecting floor survives at pixel (210, 440)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:128)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+ERROR: PAVING_TRANSFER_REJECTED: Duplicate connecting floor survives at pixel (235, 455)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:128)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+ERROR: PAVING_TRANSFER_REJECTED: Duplicate connecting floor survives at pixel (310, 464)
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_paving_surface_transfer.gd:27)
+       [1] run (res://tests/test_paving_surface_transfer.gd:128)
+       [2] settle (res://tests/test_paving_surface_transfer.gd:41)
+PAVING_NATIVE_TRANSFER_RESULT 4 originals; 6 failures

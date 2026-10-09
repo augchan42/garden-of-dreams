@@ -1,0 +1,20 @@
+{
+  "status": "adoption_helper_static_preparation_only_after_measured_test_corrections",
+  "helper_sha256": "3bd857bdaf10f7f990c537d41e80aa9d012481be6b93fcd62bea9dbb87633549",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "digest_only_guard_files_verified": 6,
+  "source_digest_and_two_exact_vertex_counts_verified": 1,
+  "source_guard_changes": {
+    "portrait-architecture-contract.json": "source digest only; all assertions retained",
+    "render_dynamic_palette.gd": "source digest only; all assertions retained",
+    "test_hengwu_detail_framing.gd": "source digest only; all assertions retained",
+    "test_qiushuang_framing.gd": "source digest only; all assertions retained",
+    "test_tubi_framing.gd": "source digest only; all assertions retained",
+    "test_yihong_framing.gd": "source digest only; all assertions retained",
+    "test_ziling_framing.gd": "source digest plus exact island/bridge vertex expectations updated from actual exported and imported paving source; all framing/action assertions retained"
+  },
+  "planned_installed_checks": 22,
+  "adoption_preflight_executed": "expected incomplete-lighting rejection of preserved earlier helper only",
+  "production_adoption_executed": false,
+  "scope": "Helper parsed and all seven exact staged source-expectation changes verified. Floor filter corrected from measured50micrometre native compression; Ziling exact counts independently match export/import. Native floor RED/GREEN passed; full45phase review, direct all-site/tour review and actual22installed checks still required."
+}
