@@ -88,3 +88,10 @@ Hengwu checkpoint (2026-10-09): complete fresh six-phase source lighting and 141
 Completed: compact nearest stone and floor-anchored collision, matching full source lighting, 47 review checks with seven intended negative controls, sixteen exact default GLB reexports, both full fourteen-room native walks, checked backups and eleven tests on the installed project. Current source `26033c99` / authoring `19eb386d`. Evidence: `../../reference/hengwu-native-review/README.md` and `../../../export/hengwu-native-review-evidence.json`.
 
 Remaining: final art/framing across the fourteen sites, including Hengwu wall-cap/roof/close-view composition; five reference slots (37/42 collected); current physical-phone/2020 Adreno and sustained budgets; release; authenticated reading/history/AI/presence/social flows. Do not mark the full goal complete from this checkpoint.
+
+
+### Hengwu portrait-action checkpoint — 2026-10-09
+
+Completed: portrait stone/book fits, selection/text preservation on resize, original desktop camera restoration on rotation, Look returning to overview, and a 128-unit scroll area with 48-unit touch targets. Three final native graphical modes pass with thirty original captures; ten adjacent import/source/route/UI/camera/demo regressions pass. Source and lighting are unchanged. The archive retains 174 original PNGs and 269 checked files, including actual failed actions, rejected occluded comparisons and an unexplained native command timeout. Evidence: `../../reference/hengwu-detail-framing/README.md` and `../../../export/hengwu-detail-framing-evidence.json`.
+
+Remaining: final art across fourteen sites, including Hengwu arrival wall-cap/roof/facade work; five reference slots; current physical-phone/2020 Adreno and sustained budgets; release; authenticated service flows. The preceding full walks tested the previous runtime. These desktop density checks do not establish phone acceptance. Keep the full goal active.

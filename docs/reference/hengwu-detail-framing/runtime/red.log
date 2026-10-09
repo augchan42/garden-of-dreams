@@ -1,0 +1,58 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: rocks subject clipped or covered by interface: button-390x844
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:95)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: rocks subject clipped or covered by interface: resize-360x800
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:98)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: rocks subject clipped or covered by interface: return-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:110)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: Look did not restore Hengwu overview
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] run (res://tests/test_hengwu_detail_framing.gd:114)
+       [2] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: read subject clipped or covered by interface: button-390x844
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:95)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: read subject clipped or covered by interface: resize-360x800
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:98)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: read subject clipped or covered by interface: return-portrait
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] inspect (res://tests/test_hengwu_detail_framing.gd:65)
+       [2] run (res://tests/test_hengwu_detail_framing.gd:110)
+       [3] settle (res://tests/test_hengwu_detail_framing.gd:26)
+ERROR: HENGWU_DETAIL_FRAMING_REJECTED: Look did not restore Hengwu overview
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_hengwu_detail_framing.gd:18)
+       [1] run (res://tests/test_hengwu_detail_framing.gd:114)
+       [2] settle (res://tests/test_hengwu_detail_framing.gd:26)
+HENGWU_DETAIL_FRAMING_RESULT 10 captures; 8 failures

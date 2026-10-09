@@ -1,0 +1,1946 @@
+{
+  "status": "installed_camera_actions_and_adjacent_regressions_passed",
+  "scope": "Portrait stone/book actions, rotation/resize/Look behavior and touch scroll reachability; original failures and camera comparisons retained. No geometry/light change, physical-device acceptance or final all-site art claim.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+  "test_sha256": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+  "final_focused_modes": 3,
+  "adjacent_regressions": 10,
+  "original_png_count": 174,
+  "checked_file_count": 269,
+  "files": {
+    "docs/reference/hengwu-detail-framing/comparison/checkpoint.json": "61992e6fe67c6c7b7fe705401e4ecfe27dd1ae59a974ec65dd21060759910a5d",
+    "docs/reference/hengwu-detail-framing/comparison/command.json": "a6953f8353c5cda1f5a69def159b1c52417b599d057804296b0876de612eb992",
+    "docs/reference/hengwu-detail-framing/comparison/corrected-command.json": "9f6afcfe9e268943a7a1e00e0e29610ebf20a2f292802529b0988d9962c753a7",
+    "docs/reference/hengwu-detail-framing/comparison/corrected-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-360x800.png": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-390x844.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-1410x600.png": "2acccc8a7ac9c6c71d12c10e9aac62ea35bca7188e8219469ee40eec39999ec8",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-360x800.png": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-390x844.png": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/executed-probe.gd": "3065ce747d09d831d1e34f2756e41341bee47f74760b02460a365baa36b279a8",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/native-comparison.log": "d90bb11df94c0d35c1e06923b4484748fca4423c787a42dcc043e217c9233f15",
+    "docs/reference/hengwu-detail-framing/comparison/first-attempt/termination.json": "4a37076cec87a20797e7b9a675e8dd9a4b0d612f8a6b34d8edcfd6ba2861cf65",
+    "docs/reference/hengwu-detail-framing/comparison/godot/tests/compare_hengwu_detail_framing.gd": "9ea2a35029713d16480ed07ea61be00fc030e8f9b07e64a94af58e7df64eabb7",
+    "docs/reference/hengwu-detail-framing/comparison/godot/tests/hengwu-framing-probe.json": "c053a35d55cddcc95747b03c4fce7063fb8bf9cc13761fcd5987c0a89785434f",
+    "docs/reference/hengwu-detail-framing/comparison/helpers/garden_compare_hengwu_detail_framing.gd": "3065ce747d09d831d1e34f2756e41341bee47f74760b02460a365baa36b279a8",
+    "docs/reference/hengwu-detail-framing/comparison/helpers/garden_prepare_hengwu_framing.py": "60779c1796dc24efcf352391c7bfb09bbfb3dc273bd2b0784cc8ea7d445d4d36",
+    "docs/reference/hengwu-detail-framing/comparison/interior-command.json": "849b4ccb3c228f4e2bc783bab608f5b3c80c62c413e31891fe7d5e1223746731",
+    "docs/reference/hengwu-detail-framing/comparison/interior-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-360x800.png": "53b8392bc1bc7a798c6eca77599764fd424ce1a28950c98c5c5cf944e38539c2",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-390x844.png": "5c6835768e2bc8c552cdee3d8de1411d02a57ef7bea62dd15fd152ac9641e4b5",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/report.json": "0b06d32022262fa5e195ca56a4a9c12ee6d13b70f430aba11dfb39095a465d18",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-360x800.png": "6a8ff151b769aba3f3506db52f618fbed9baf38a70f87cc9ff79f79c47418836",
+    "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-390x844.png": "b8d34aee9f598d400b6b543968b3370ae4afc90b93e2e5c48ab4914f20cd6967",
+    "docs/reference/hengwu-detail-framing/comparison/native-comparison.log": "d90bb11df94c0d35c1e06923b4484748fca4423c787a42dcc043e217c9233f15",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-360x800.png": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-390x844.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/report.json": "3cbac59ede7a0765e124214d31cea60b205417173e33a8307c90ddc08bcd6420",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-360x800.png": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+    "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-390x844.png": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+    "docs/reference/hengwu-detail-framing/comparison/preparation.json": "b36c190ceea718fc4091575c9279050b6247e46c5690233d5ba0d5fad966b607",
+    "docs/reference/hengwu-detail-framing/comparison/second-executed-probe.gd": "bb789f964f33b24d4951d15d17ce06a086fc348faa0fc48903f6032a967f5d88",
+    "docs/reference/hengwu-detail-framing/comparison/third-executed-probe.gd": "1bb91faff78aaa96f58559a8642d38e8cb56fdf9c6cc3b85a27e6bc6c7dcc720",
+    "docs/reference/hengwu-detail-framing/comparison/visible-command.json": "5acace9f14dd426311b7d03f594e60b8a9ba36421d270ae31fe08dad3e0b7bb4",
+    "docs/reference/hengwu-detail-framing/comparison/visible-native-comparison.log": "25b31622335337391742192c05522b5300879ffde7b231bd767b4d075b5a7ec1",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-1410x600.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-360x800.png": "790fcae0835a2e75c92e322fc7002d49fb3be9f4077c367f3b9eeca7d76960e6",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-390x844.png": "1e355593524190887f474c5cef9ffc978fa035fb6506de5b9070a650a8a4f7bf",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-360x800.png": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-390x844.png": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-360x800.png": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-390x844.png": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/report.json": "5944a684e417d6a022a7da9e21f5e61894f31db834b29a865f5665569d7b3653",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-1410x600.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-360x800.png": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-390x844.png": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-360x800.png": "56df82b3bc082e096e28fbbb7b99436fcaf4982db61e1e26983053e12f3501eb",
+    "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-390x844.png": "0ba3bd03d4617be4c0e72326fe80a39413287b4dd26ab951f96ffd27d8833d4b",
+    "docs/reference/hengwu-detail-framing/comparison/visual-rejections.json": "25562cc96e9e25160c17d8f66cab80c60ce0c4e49c4b0520ecb201da57ed27e8",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-button-portrait.png": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-look-narrow.png": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-resize-narrow.png": "f75e89d626f4e7b09870a9bae845d3644452ce984cccdb4b1bd1f260651cb5c0",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-return-portrait.png": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-rotate-desktop.png": "82ac33b59262c9277aa56ac115fde569af08b88dc190c25882da1a40cb1c0a89",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/report.json": "6d985aed56d72d825c04939d28241d7d7d8b21ac02425745cfdd04cb9f4f8fb9",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-button-portrait.png": "bc0f36eaba244d4ccc34da5ccde43abd62d314e84e7d069010612930856ccae2",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-look-narrow.png": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-resize-narrow.png": "47ad164ad8c7ecf6e138957451c6e938d0e8804f844e9bae3465e34d3794d4ed",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-return-portrait.png": "bc0f36eaba244d4ccc34da5ccde43abd62d314e84e7d069010612930856ccae2",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-rotate-desktop.png": "fa3196efeb55f85856af385f24aede23b8e53a093d7731d09b85ce4aa1101043",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-density.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-focused-pipeline.json": "795e14a81209dd114ad27aaa2bb879f2b7d375138a96c4f59e9edf7543458a0c",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-button-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-resize-narrow.png": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-return-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-rotate-desktop.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/report.json": "20448cd931a13a03ab6c4f2c01872a426582ea1da28d76623864a16fe6312479",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-button-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-resize-narrow.png": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-return-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-rotate-desktop.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-normal.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-runtime.gd": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-button-portrait.png": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-look-narrow.png": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-resize-narrow.png": "25e4aac4d306303b8cbf847ab1e2b4d6945a46624985437625f3b412352f6aa2",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-return-portrait.png": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-rotate-desktop.png": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/report.json": "65910a35ee0fb9679a2895a9d7757cfb97847a77620f266d94052aecfcb1e1e5",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-button-portrait.png": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-look-narrow.png": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-resize-narrow.png": "a003ce910c420c31a5f184c5c72157339643d3611b847fe19864d039297e61ba",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-return-portrait.png": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-rotate-desktop.png": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+    "docs/reference/hengwu-detail-framing/runtime/accepted-touch.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/runtime/baseline-runtime.gd": "db32d9c058a732c330d9df910b22b961f755045c5904c47e8fde68fd3c056138",
+    "docs/reference/hengwu-detail-framing/runtime/before-density-fix-runtime.gd": "607afd4b1bb241b7dcc9f926aaef329ed78fa4ca29b9ab9f7423314c3bf7df0b",
+    "docs/reference/hengwu-detail-framing/runtime/candidate-runtime.gd": "0f1d441d0b767d7c257d00d8551481e4f692b3c57b547cfa885349b01afe6320",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-button-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-resize-narrow.png": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-return-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-rotate-desktop.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/report.json": "ce46e19bc48802784c2756ee72430f640fd3205f3b05fd67e13c5416641ec490",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-button-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-resize-narrow.png": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-return-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-rotate-desktop.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic-command.json": "f49a32e09179b9354defb65c914ce2eb0576dbad5b554fad5728119cfa8e984f",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic-test.gd": "6591d1ed40c2229b5eb598236b592b0eb3dc9a2f68b0158a4ce4c95feb416240",
+    "docs/reference/hengwu-detail-framing/runtime/diagnostic.log": "0ea4722c29be97090e8caadd4db559f37c10ac75ffb26c42c4e1c11181e8fa21",
+    "docs/reference/hengwu-detail-framing/runtime/executed-test.gd": "9f11bc7e85b96a619e2d1ba1426611f62d96cf2f94771d99bd46fed12e434867",
+    "docs/reference/hengwu-detail-framing/runtime/final-normal-timeout.json": "836468f5c17d2c38791023f389ef699a2349bacf7782f2af31f57751d395dc17",
+    "docs/reference/hengwu-detail-framing/runtime/final-normal.log": "cdc2bc7f0833ea999870e7916573498020b99cec936a0eb8db64c45d8039d418",
+    "docs/reference/hengwu-detail-framing/runtime/final-runtime.gd": "607afd4b1bb241b7dcc9f926aaef329ed78fa4ca29b9ab9f7423314c3bf7df0b",
+    "docs/reference/hengwu-detail-framing/runtime/final-test.gd": "c5e4858551bdec38c8214f09159206dade47344e0e28bd3eb9e6ea8738b248f4",
+    "docs/reference/hengwu-detail-framing/runtime/green/read-button-390x844.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/green/read-look-360x800.png": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06",
+    "docs/reference/hengwu-detail-framing/runtime/green/read-resize-360x800.png": "dd23048903a7ffab9d761723a68286adddd71564bce38065fe7bb33f7436837d",
+    "docs/reference/hengwu-detail-framing/runtime/green/read-return-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/green/read-rotate-desktop.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/runtime/green/report.json": "e8875210ea92d2b524be81cc6a3696881c692fb492f915c20753b9d4803a8e9d",
+    "docs/reference/hengwu-detail-framing/runtime/green/rocks-button-390x844.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/green/rocks-look-360x800.png": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06",
+    "docs/reference/hengwu-detail-framing/runtime/green/rocks-resize-360x800.png": "968abb7ac340446349d343afca18907ae93abd98bd7e001cea42b9aeeb3d7ee3",
+    "docs/reference/hengwu-detail-framing/runtime/green/rocks-return-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/green/rocks-rotate-desktop.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/runtime/green-command.json": "9234599e6a1d650a1e7c6602a1595ebe32954d04ddbb90da780a9f7446344bca",
+    "docs/reference/hengwu-detail-framing/runtime/green.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/runtime/production-source-contract.json": "529c5cd3aa28f4c06b6718ce35c7718a3b81a2b564ab82af104dbac15f43a6ae",
+    "docs/reference/hengwu-detail-framing/runtime/red/read-button-390x844.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "docs/reference/hengwu-detail-framing/runtime/red/read-look-360x800.png": "f67d592a5c214fce3f202d78dc8bf95c9e11f377b248a3a123a1a0a0a4cdb76a",
+    "docs/reference/hengwu-detail-framing/runtime/red/read-resize-360x800.png": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+    "docs/reference/hengwu-detail-framing/runtime/red/read-return-portrait.png": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+    "docs/reference/hengwu-detail-framing/runtime/red/read-rotate-desktop.png": "eb310ea50f28620c1085794051871d1ef3691ffffd5f2af2c75cdd45cae67428",
+    "docs/reference/hengwu-detail-framing/runtime/red/report.json": "86903bda5c6a7741fc77c15b7f650aceff1e8861dec56bde16eacb85517edff9",
+    "docs/reference/hengwu-detail-framing/runtime/red/rocks-button-390x844.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/runtime/red/rocks-look-360x800.png": "a1655290005f7e32ceba8e0b2ebecfede6ac07b16a0490dfad4402ba651a43c9",
+    "docs/reference/hengwu-detail-framing/runtime/red/rocks-resize-360x800.png": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+    "docs/reference/hengwu-detail-framing/runtime/red/rocks-return-portrait.png": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+    "docs/reference/hengwu-detail-framing/runtime/red/rocks-rotate-desktop.png": "e9e176ea3bad76cd9d1142b781b2bc3aa8d173a437c0593d28975d982158bbd8",
+    "docs/reference/hengwu-detail-framing/runtime/red-command.json": "273783db0ae6c4b6f494f303219c74390957e75b76dea9d0a611a1b0ba8fab33",
+    "docs/reference/hengwu-detail-framing/runtime/red.log": "aa80efbcc919621c9bc055325f37af11e0a0249bfc9129974daeba94756c11cf",
+    "docs/reference/hengwu-detail-framing/runtime/regression-cold-import.log": "1f6afb48483d4997cd847c536fbb5ab3c08008392a93a71193c35c4da347bca3",
+    "docs/reference/hengwu-detail-framing/runtime/regression-courtyard.log": "0b59665d633d8f024ae53bd81cef866d93fdaeb8a2fb1981bdaf9d7005c393ee",
+    "docs/reference/hengwu-detail-framing/runtime/regression-farmhouse.log": "19d5c8140e52ddb4eca49c1239141b24dbe261d3c41dde74ad7d35e069454eb7",
+    "docs/reference/hengwu-detail-framing/runtime/regression-first-reading-demo.log": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6",
+    "docs/reference/hengwu-detail-framing/runtime/regression-gate-reveal.log": "d3a5386ed6f62bc2ebf30ca9881d2320006072bee0d0caa2c068e33146dca675",
+    "docs/reference/hengwu-detail-framing/runtime/regression-mobile-ui.log": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+    "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "30d310a317a8f121898a39e19d64046dddb7252177b235d6ed76e83461bf7e8c",
+    "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png": "30d4b82833900325c642ed6c4529772cf1969130853e6fd39120674528b954c0",
+    "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png": "a2e0f97ebdb238a40880a4cb173fd3dc313d75c8358210155add57a2fc320c36",
+    "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/report.json": "fcf7d0c04dca1d02f7ad4516a3def7c5e4738db2b136a6217b90af5022983cc2",
+    "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing.log": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971",
+    "docs/reference/hengwu-detail-framing/runtime/regression-pipeline.json": "745bd59b1ec2c6b63741bc9e132f2fbbdb920bf1170c777f068eb373811c514e",
+    "docs/reference/hengwu-detail-framing/runtime/regression-pond-view.log": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "c0c2aa597a1f947081205abdce62853c887cae743057ab0f36f09d147a78fd47",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "65c288bcb26188df9cabd415572ef52c2e51bbe64f32673a27f61d681249b1f2",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "a6fd3eccba79d7de0164cf79d84bfce9d90ae02aed34e75dfb5b89ff337fa7fb",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "4258c6b185ad82461bdf6e1d04a19c4c3e044ae3cdaba4d929939adf3c8b7bc3",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "d997ae1ed1180fc4c41a6e070e2bce5e75540448b173e4f6b95d87215e9770c5",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "b23d8e65ad3d0535600dc8c1dc34954519a04f3d4ad94161049fde7f0ea7fa44",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "f9f899d3a157411079921af7e7fccd9d6f94600267bb5e1c51b76febae48fc70",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "df8c6d55b9e1e5a30c7c65898c3cd21f156ee80d4187bde6062217d66aa548b4",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "6c86d8d8c78379a82fa8e15331313490276780eb99ddc603f027352e3ff0f219",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "d719f08de0e0c4894654fc123106d574f42364acc2ced475976e54ad751b4f7e",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/report.json": "f9f73939fcd9d8517c248aee4fd4d62ad804f09276e577e4245ac2c31b9ab286",
+    "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture.log": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+    "docs/reference/hengwu-detail-framing/runtime/regression-source-contract.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/hengwu-detail-framing/runtime/source-preservation.json": "26a9af40d2ebfedb0b9740ca5ff37f5e29b246ba76a41f63223b6c7574ab1760",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/read-button-390x844.png": "8b1c0d8875c500393640daee0ae65e851076f08a68c7228a912abc1532aa65a2",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/read-look-360x800.png": "f31444eb038706805defd842e1810190271d9d98855c4a3dadd9548b602b0b7f",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/read-resize-360x800.png": "6ad33b0c1a3a2b72abb66ff15fdde5de285ed83f254921e62566a1c4d425965e",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/read-return-portrait.png": "8b1c0d8875c500393640daee0ae65e851076f08a68c7228a912abc1532aa65a2",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/read-rotate-desktop.png": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/report.json": "9747097cbee607b63a32ecf2a8a45c68b97378629e40833c59137ddc96b6c850",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-button-390x844.png": "66c0a34c874e7505845c5b38ac1ae038b03dc7fde222fe75db1fefc9294d8cd4",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-look-360x800.png": "f31444eb038706805defd842e1810190271d9d98855c4a3dadd9548b602b0b7f",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-resize-360x800.png": "e652ad8c3f15864daf4a7cd8c2d1a4461d141df09dad03bffceeb445f13b9aae",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-return-portrait.png": "66c0a34c874e7505845c5b38ac1ae038b03dc7fde222fe75db1fefc9294d8cd4",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-rotate-desktop.png": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first-command.json": "1bd54be0d82034ba3eee7b54c8dce989ce04c05b36be2f052f61b9e1018109ae",
+    "docs/reference/hengwu-detail-framing/runtime/touch-first.log": "be9ec59c8c9f6c118dc20b2338486774e9f5d9c64dd52c8f9a0370303002cfba",
+    "docs/reference/hengwu-detail-framing/runtime/touch-test.gd": "436bff72ec8a29b4c260153b2d5d0698ba862e61e7ae27049c9350e11f56336f",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/read-button-portrait.png": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/read-look-narrow.png": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/read-resize-narrow.png": "f75e89d626f4e7b09870a9bae845d3644452ce984cccdb4b1bd1f260651cb5c0",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/read-return-portrait.png": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/read-rotate-desktop.png": "82ac33b59262c9277aa56ac115fde569af08b88dc190c25882da1a40cb1c0a89",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/report.json": "df093d1b0e6707231b518dc4ab4f1354b530c82f0ddb578a5b11a0cd3064d2ae",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-button-portrait.png": "47c2cc82edb81a60c74904085c1e645630d204ce03cde3f2d132278bbdb7b797",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-look-narrow.png": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-resize-narrow.png": "47ad164ad8c7ecf6e138957451c6e938d0e8804f844e9bae3465e34d3794d4ed",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-return-portrait.png": "47c2cc82edb81a60c74904085c1e645630d204ce03cde3f2d132278bbdb7b797",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-rotate-desktop.png": "fa3196efeb55f85856af385f24aede23b8e53a093d7731d09b85ce4aa1101043",
+    "docs/reference/hengwu-detail-framing/runtime/verified-density.log": "d7635e89878021dc20585ad5fce7ce21fc82a4dc80c7a5d914e21c99c16e8b95",
+    "docs/reference/hengwu-detail-framing/runtime/verified-focused-pipeline.json": "bfc8a8906eddbabafb5550a71b281de92ec63531b0d2776e279bffbcd8b85645",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-button-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-resize-narrow.png": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-return-portrait.png": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-rotate-desktop.png": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/report.json": "bcb60730361ebc8b52a3ae1b9242b7898e136f6ea07f421b523b0766ea79053e",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-button-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-look-narrow.png": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-resize-narrow.png": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-return-portrait.png": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-rotate-desktop.png": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+    "docs/reference/hengwu-detail-framing/runtime/verified-normal.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/runtime/verified-test.gd": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-button-portrait.png": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-look-narrow.png": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-resize-narrow.png": "25e4aac4d306303b8cbf847ab1e2b4d6945a46624985437625f3b412352f6aa2",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-return-portrait.png": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-rotate-desktop.png": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/report.json": "884a297ef065d50828b0d510354ba65a2ee94d21f47916cf7d73720ec3ed32f0",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-button-portrait.png": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-look-narrow.png": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-resize-narrow.png": "a003ce910c420c31a5f184c5c72157339643d3611b847fe19864d039297e61ba",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-return-portrait.png": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-rotate-desktop.png": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+    "docs/reference/hengwu-detail-framing/runtime/verified-touch.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/hengwu-detail-framing/helpers/garden_prepare_hengwu_framing.py": "60779c1796dc24efcf352391c7bfb09bbfb3dc273bd2b0784cc8ea7d445d4d36",
+    "docs/reference/hengwu-detail-framing/helpers/garden_compare_hengwu_detail_framing.gd": "3065ce747d09d831d1e34f2756e41341bee47f74760b02460a365baa36b279a8",
+    "docs/reference/hengwu-detail-framing/helpers/garden_diagnose_hengwu_detail.gd": "6591d1ed40c2229b5eb598236b592b0eb3dc9a2f68b0158a4ce4c95feb416240",
+    "docs/reference/hengwu-detail-framing/helpers/garden_review_hengwu_details.py": "18ab9cf60239c6a9e3051c2cc801e15b79f6729fdbf506fc53091541063aa238",
+    "docs/reference/hengwu-detail-framing/helpers/garden_archive_hengwu_details.py": "d647de4e0b8957a1b2028cf305fe8aecd31f2bd8732b15ed2f589c64749c070d",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/runtime/entry_route.gd": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/runtime/entry_route.tscn": "ce3284f69007a3382077724b37e5ee020303c985f4a7f39f31e684318927ce7b",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/source-contract.json": "a2878bf3b098cbaae911824c1f1ad2d2f71fb81cd7cccc9fee722b2eeb48954e",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_import_source_contract.gd": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_courtyard_route.gd": "02f3eb305a93b450f0188f3541b6231527d4f18ebf195550014f15a0af96e44a",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_farmhouse_route.gd": "7a88a2f4e03c0bdf822058110f0ef5da6c52d20616636bbc5cf6e7392895229c",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd": "5326cf11d8912ef797d9546be7d5167f039dc2a63f104e6566579b87f0905ebf",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_gate_reveal.gd": "933ef40d94602e9f00474ab66b503fcb8a26e785e1271195da37508056144fd6",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_first_reading_demo.gd": "a074a8e97aa0a5829ff45d73f7d0047d8fb5682c4531fed09fe9fe6c4e6f3d21",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_pond_view.gd": "befb4fd76e6d2f0097acae0b090548ed0a95302a2e16c4f6ad375301a32704d1",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_portrait_architecture.gd": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+    "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_oux_portrait_framing.gd": "775cc6f12083f238f4ff88eabb6fe5e1e809c50c5056b2faef5ca9a63c99b2d3",
+    "docs/reference/hengwu-detail-framing/README.md": "088d3ce47394a7952b874e31d148b1d818a4c2922db286d35e3bf1fb59af094a"
+  },
+  "artifact_locations": {
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/checkpoint.json": "docs/reference/hengwu-detail-framing/comparison/checkpoint.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/command.json": "docs/reference/hengwu-detail-framing/comparison/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/corrected-command.json": "docs/reference/hengwu-detail-framing/comparison/corrected-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/corrected-native-comparison.log": "docs/reference/hengwu-detail-framing/comparison/corrected-native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/read-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-fixed-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/captures/rocks-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/executed-probe.gd": "docs/reference/hengwu-detail-framing/comparison/first-attempt/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/native-comparison.log": "docs/reference/hengwu-detail-framing/comparison/first-attempt/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/first-attempt/termination.json": "docs/reference/hengwu-detail-framing/comparison/first-attempt/termination.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/godot/tests/compare_hengwu_detail_framing.gd": "docs/reference/hengwu-detail-framing/comparison/godot/tests/compare_hengwu_detail_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/godot/tests/hengwu-framing-probe.json": "docs/reference/hengwu-detail-framing/comparison/godot/tests/hengwu-framing-probe.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/helpers/garden_compare_hengwu_detail_framing.gd": "docs/reference/hengwu-detail-framing/comparison/helpers/garden_compare_hengwu_detail_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/helpers/garden_prepare_hengwu_framing.py": "docs/reference/hengwu-detail-framing/comparison/helpers/garden_prepare_hengwu_framing.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-command.json": "docs/reference/hengwu-detail-framing/comparison/interior-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-native-comparison.log": "docs/reference/hengwu-detail-framing/comparison/interior-native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/read-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/report.json": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/interior-portrait-comparison/rocks-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/native-comparison.log": "docs/reference/hengwu-detail-framing/comparison/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/read-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/report.json": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/portrait-comparison/rocks-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/preparation.json": "docs/reference/hengwu-detail-framing/comparison/preparation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/second-executed-probe.gd": "docs/reference/hengwu-detail-framing/comparison/second-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/third-executed-probe.gd": "docs/reference/hengwu-detail-framing/comparison/third-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-command.json": "docs/reference/hengwu-detail-framing/comparison/visible-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-native-comparison.log": "docs/reference/hengwu-detail-framing/comparison/visible-native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/read-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/report.json": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-baseline-1410x600.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-baseline-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-baseline-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-fixed-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-fixed-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-measured-360x800.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visible-portrait-comparison/rocks-measured-390x844.png": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-framing-comparison/visual-rejections.json": "docs/reference/hengwu-detail-framing/comparison/visual-rejections.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/report.json": "docs/reference/hengwu-detail-framing/runtime/accepted-density/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-density.log": "docs/reference/hengwu-detail-framing/runtime/accepted-density.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-focused-pipeline.json": "docs/reference/hengwu-detail-framing/runtime/accepted-focused-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/report.json": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-normal.log": "docs/reference/hengwu-detail-framing/runtime/accepted-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-runtime.gd": "docs/reference/hengwu-detail-framing/runtime/accepted-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/report.json": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/accepted-touch.log": "docs/reference/hengwu-detail-framing/runtime/accepted-touch.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/baseline-runtime.gd": "docs/reference/hengwu-detail-framing/runtime/baseline-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/before-density-fix-runtime.gd": "docs/reference/hengwu-detail-framing/runtime/before-density-fix-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/candidate-runtime.gd": "docs/reference/hengwu-detail-framing/runtime/candidate-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/report.json": "docs/reference/hengwu-detail-framing/runtime/diagnostic/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic-command.json": "docs/reference/hengwu-detail-framing/runtime/diagnostic-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic-test.gd": "docs/reference/hengwu-detail-framing/runtime/diagnostic-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/diagnostic.log": "docs/reference/hengwu-detail-framing/runtime/diagnostic.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/executed-test.gd": "docs/reference/hengwu-detail-framing/runtime/executed-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/final-normal-timeout.json": "docs/reference/hengwu-detail-framing/runtime/final-normal-timeout.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/final-normal.log": "docs/reference/hengwu-detail-framing/runtime/final-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/final-runtime.gd": "docs/reference/hengwu-detail-framing/runtime/final-runtime.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/final-test.gd": "docs/reference/hengwu-detail-framing/runtime/final-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/read-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/green/read-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/read-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/green/read-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/read-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/green/read-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/green/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/green/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/report.json": "docs/reference/hengwu-detail-framing/runtime/green/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/rocks-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/green/rocks-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/rocks-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/green/rocks-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/rocks-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/green/rocks-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/green/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/green/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green-command.json": "docs/reference/hengwu-detail-framing/runtime/green-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/green.log": "docs/reference/hengwu-detail-framing/runtime/green.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/production-source-contract.json": "docs/reference/hengwu-detail-framing/runtime/production-source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/read-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/red/read-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/read-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/red/read-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/read-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/red/read-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/red/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/red/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/report.json": "docs/reference/hengwu-detail-framing/runtime/red/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/rocks-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/red/rocks-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/rocks-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/red/rocks-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/rocks-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/red/rocks-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/red/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/red/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red-command.json": "docs/reference/hengwu-detail-framing/runtime/red-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/red.log": "docs/reference/hengwu-detail-framing/runtime/red.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-cold-import.log": "docs/reference/hengwu-detail-framing/runtime/regression-cold-import.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-courtyard.log": "docs/reference/hengwu-detail-framing/runtime/regression-courtyard.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-farmhouse.log": "docs/reference/hengwu-detail-framing/runtime/regression-farmhouse.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-first-reading-demo.log": "docs/reference/hengwu-detail-framing/runtime/regression-first-reading-demo.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-gate-reveal.log": "docs/reference/hengwu-detail-framing/runtime/regression-gate-reveal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-mobile-ui.log": "docs/reference/hengwu-detail-framing/runtime/regression-mobile-ui.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-ouxiang-framing/ouxiang-360x800.png": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-ouxiang-framing/ouxiang-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-ouxiang-framing/report.json": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-ouxiang-framing.log": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-pipeline.json": "docs/reference/hengwu-detail-framing/runtime/regression-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-pond-view.log": "docs/reference/hengwu-detail-framing/runtime/regression-pond-view.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture/report.json": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-portrait-architecture.log": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/regression-source-contract.log": "docs/reference/hengwu-detail-framing/runtime/regression-source-contract.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/source-preservation.json": "docs/reference/hengwu-detail-framing/runtime/source-preservation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/read-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/read-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/read-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/report.json": "docs/reference/hengwu-detail-framing/runtime/touch-first/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/rocks-button-390x844.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-button-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/rocks-look-360x800.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/rocks-resize-360x800.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-resize-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first-command.json": "docs/reference/hengwu-detail-framing/runtime/touch-first-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-first.log": "docs/reference/hengwu-detail-framing/runtime/touch-first.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/touch-test.gd": "docs/reference/hengwu-detail-framing/runtime/touch-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/report.json": "docs/reference/hengwu-detail-framing/runtime/verified-density/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density.log": "docs/reference/hengwu-detail-framing/runtime/verified-density.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-focused-pipeline.json": "docs/reference/hengwu-detail-framing/runtime/verified-focused-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/report.json": "docs/reference/hengwu-detail-framing/runtime/verified-normal/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal.log": "docs/reference/hengwu-detail-framing/runtime/verified-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-test.gd": "docs/reference/hengwu-detail-framing/runtime/verified-test.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/read-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/read-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/read-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/read-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/read-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/report.json": "docs/reference/hengwu-detail-framing/runtime/verified-touch/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/rocks-button-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/rocks-look-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/rocks-resize-narrow.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/rocks-return-portrait.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch/rocks-rotate-desktop.png": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch.log": "docs/reference/hengwu-detail-framing/runtime/verified-touch.log",
+    "/tmp/garden_prepare_hengwu_framing.py": "docs/reference/hengwu-detail-framing/helpers/garden_prepare_hengwu_framing.py",
+    "/tmp/garden_compare_hengwu_detail_framing.gd": "docs/reference/hengwu-detail-framing/helpers/garden_compare_hengwu_detail_framing.gd",
+    "/tmp/garden_diagnose_hengwu_detail.gd": "docs/reference/hengwu-detail-framing/helpers/garden_diagnose_hengwu_detail.gd",
+    "/tmp/garden_review_hengwu_details.py": "docs/reference/hengwu-detail-framing/helpers/garden_review_hengwu_details.py",
+    "/tmp/garden_archive_hengwu_details.py": "docs/reference/hengwu-detail-framing/helpers/garden_archive_hengwu_details.py",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/runtime/entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.tscn": "docs/reference/hengwu-detail-framing/installed-code/godot/runtime/entry_route.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_hengwu_detail_framing.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/source-contract.json": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_import_source_contract.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_import_source_contract.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_courtyard_route.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_courtyard_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_farmhouse_route.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_farmhouse_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_mobile_ui_scaling.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_gate_reveal.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_gate_reveal.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_first_reading_demo.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_first_reading_demo.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_pond_view.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_pond_view.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_portrait_architecture.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_portrait_architecture.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_oux_portrait_framing.gd": "docs/reference/hengwu-detail-framing/installed-code/godot/tests/test_oux_portrait_framing.gd"
+  },
+  "original_pngs": [
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-360x800.png",
+      "sha256": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-baseline-390x844.png",
+      "sha256": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-360x800.png",
+      "sha256": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-fixed-390x844.png",
+      "sha256": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-360x800.png",
+      "sha256": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/read-measured-390x844.png",
+      "sha256": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-1410x600.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-baseline-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-1410x600.png",
+      "sha256": "2acccc8a7ac9c6c71d12c10e9aac62ea35bca7188e8219469ee40eec39999ec8",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-360x800.png",
+      "sha256": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-fixed-390x844.png",
+      "sha256": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-360x800.png",
+      "sha256": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/first-attempt/captures/rocks-measured-390x844.png",
+      "sha256": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-1410x600.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-360x800.png",
+      "sha256": "53b8392bc1bc7a798c6eca77599764fd424ce1a28950c98c5c5cf944e38539c2",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-baseline-390x844.png",
+      "sha256": "5c6835768e2bc8c552cdee3d8de1411d02a57ef7bea62dd15fd152ac9641e4b5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-360x800.png",
+      "sha256": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-fixed-390x844.png",
+      "sha256": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-360x800.png",
+      "sha256": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/read-measured-390x844.png",
+      "sha256": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-1410x600.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-baseline-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-360x800.png",
+      "sha256": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-fixed-390x844.png",
+      "sha256": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-360x800.png",
+      "sha256": "6a8ff151b769aba3f3506db52f618fbed9baf38a70f87cc9ff79f79c47418836",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/interior-portrait-comparison/rocks-measured-390x844.png",
+      "sha256": "b8d34aee9f598d400b6b543968b3370ae4afc90b93e2e5c48ab4914f20cd6967",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-1410x600.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-360x800.png",
+      "sha256": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-baseline-390x844.png",
+      "sha256": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-360x800.png",
+      "sha256": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-fixed-390x844.png",
+      "sha256": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-360x800.png",
+      "sha256": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/read-measured-390x844.png",
+      "sha256": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-1410x600.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-baseline-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-360x800.png",
+      "sha256": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-fixed-390x844.png",
+      "sha256": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-360x800.png",
+      "sha256": "3294bc4dec941a43482890af4f03561b2ffd50d2ba3d7b65637991ea53b0d3e4",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/portrait-comparison/rocks-measured-390x844.png",
+      "sha256": "02916757f464bd4c6a393f0aae921532e5145b9b50e0ae74ce51348775e2a9c6",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-1410x600.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-360x800.png",
+      "sha256": "790fcae0835a2e75c92e322fc7002d49fb3be9f4077c367f3b9eeca7d76960e6",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-baseline-390x844.png",
+      "sha256": "1e355593524190887f474c5cef9ffc978fa035fb6506de5b9070a650a8a4f7bf",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-360x800.png",
+      "sha256": "c88139b75a9da4acde66df3b4f40218b99348577df73acc7db47fb899761f9fc",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-fixed-390x844.png",
+      "sha256": "eb22ef36b2f9352080a56c9cb12e4e66696ff206dd6daa1c4c5386bc9200ec3a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-360x800.png",
+      "sha256": "d3ad789ad36d5ee62734f07f0baf147c9c5851dcc6a609a7da67f6c8cb44fc83",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/read-measured-390x844.png",
+      "sha256": "2c590c7fc433ef9571f85ec7c3556f65297a19b9b5c5521f53e11a69d601b18b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-1410x600.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-baseline-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-360x800.png",
+      "sha256": "365fa72cb9cdc03437bfa1747df003fbf0b1ce7fa01a1b8cb7ef28a32d3a6669",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-fixed-390x844.png",
+      "sha256": "1304c937afbd39679d782e09cda6cad92b65bdabfc90ca980cf941d7d847f2b2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-360x800.png",
+      "sha256": "56df82b3bc082e096e28fbbb7b99436fcaf4982db61e1e26983053e12f3501eb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/comparison/visible-portrait-comparison/rocks-measured-390x844.png",
+      "sha256": "0ba3bd03d4617be4c0e72326fe80a39413287b4dd26ab951f96ffd27d8833d4b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-button-portrait.png",
+      "sha256": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-look-narrow.png",
+      "sha256": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-resize-narrow.png",
+      "sha256": "f75e89d626f4e7b09870a9bae845d3644452ce984cccdb4b1bd1f260651cb5c0",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-return-portrait.png",
+      "sha256": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/read-rotate-desktop.png",
+      "sha256": "82ac33b59262c9277aa56ac115fde569af08b88dc190c25882da1a40cb1c0a89",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-button-portrait.png",
+      "sha256": "bc0f36eaba244d4ccc34da5ccde43abd62d314e84e7d069010612930856ccae2",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-look-narrow.png",
+      "sha256": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-resize-narrow.png",
+      "sha256": "47ad164ad8c7ecf6e138957451c6e938d0e8804f844e9bae3465e34d3794d4ed",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-return-portrait.png",
+      "sha256": "bc0f36eaba244d4ccc34da5ccde43abd62d314e84e7d069010612930856ccae2",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-density/rocks-rotate-desktop.png",
+      "sha256": "fa3196efeb55f85856af385f24aede23b8e53a093d7731d09b85ce4aa1101043",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-button-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-resize-narrow.png",
+      "sha256": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-return-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/read-rotate-desktop.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-button-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-resize-narrow.png",
+      "sha256": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-return-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-normal/rocks-rotate-desktop.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-button-portrait.png",
+      "sha256": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-look-narrow.png",
+      "sha256": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-resize-narrow.png",
+      "sha256": "25e4aac4d306303b8cbf847ab1e2b4d6945a46624985437625f3b412352f6aa2",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-return-portrait.png",
+      "sha256": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/read-rotate-desktop.png",
+      "sha256": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-button-portrait.png",
+      "sha256": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-look-narrow.png",
+      "sha256": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-resize-narrow.png",
+      "sha256": "a003ce910c420c31a5f184c5c72157339643d3611b847fe19864d039297e61ba",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-return-portrait.png",
+      "sha256": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/accepted-touch/rocks-rotate-desktop.png",
+      "sha256": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-button-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-resize-narrow.png",
+      "sha256": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-return-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/read-rotate-desktop.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-button-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-resize-narrow.png",
+      "sha256": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-return-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/diagnostic/rocks-rotate-desktop.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/read-button-390x844.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/read-look-360x800.png",
+      "sha256": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/read-resize-360x800.png",
+      "sha256": "dd23048903a7ffab9d761723a68286adddd71564bce38065fe7bb33f7436837d",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/read-return-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/read-rotate-desktop.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/rocks-button-390x844.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/rocks-look-360x800.png",
+      "sha256": "40663d9b9eb36f5ee87ce907deb0199e4b0214408118ec2fdab1021503911a06",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/rocks-resize-360x800.png",
+      "sha256": "968abb7ac340446349d343afca18907ae93abd98bd7e001cea42b9aeeb3d7ee3",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/rocks-return-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/green/rocks-rotate-desktop.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/read-button-390x844.png",
+      "sha256": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/read-look-360x800.png",
+      "sha256": "f67d592a5c214fce3f202d78dc8bf95c9e11f377b248a3a123a1a0a0a4cdb76a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/read-resize-360x800.png",
+      "sha256": "5bb4b18a2a34ad61cd237fdf61b1aed6aad6278a5c17252d9de12c7b6361edbd",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/read-return-portrait.png",
+      "sha256": "b91769784f65a3a86ac453b5d6a5c1c257d5ee1e862c57c9c774aee2a12fb4bd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/read-rotate-desktop.png",
+      "sha256": "eb310ea50f28620c1085794051871d1ef3691ffffd5f2af2c75cdd45cae67428",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/rocks-button-390x844.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/rocks-look-360x800.png",
+      "sha256": "a1655290005f7e32ceba8e0b2ebecfede6ac07b16a0490dfad4402ba651a43c9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/rocks-resize-360x800.png",
+      "sha256": "341c9bbb616c553bd8f079b5a7a878a1ebdbf367c50a948309aa7e5d0c84a5b9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/rocks-return-portrait.png",
+      "sha256": "d5b51845d87a317df0d32b76121b4180acf6a76bfedc7529e4a25bf038054ca5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/red/rocks-rotate-desktop.png",
+      "sha256": "e9e176ea3bad76cd9d1142b781b2bc3aa8d173a437c0593d28975d982158bbd8",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+      "sha256": "30d310a317a8f121898a39e19d64046dddb7252177b235d6ed76e83461bf7e8c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+      "sha256": "30d4b82833900325c642ed6c4529772cf1969130853e6fd39120674528b954c0",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+      "sha256": "a2e0f97ebdb238a40880a4cb173fd3dc313d75c8358210155add57a2fc320c36",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+      "sha256": "c0c2aa597a1f947081205abdce62853c887cae743057ab0f36f09d147a78fd47",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+      "sha256": "65c288bcb26188df9cabd415572ef52c2e51bbe64f32673a27f61d681249b1f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+      "sha256": "a6fd3eccba79d7de0164cf79d84bfce9d90ae02aed34e75dfb5b89ff337fa7fb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+      "sha256": "4258c6b185ad82461bdf6e1d04a19c4c3e044ae3cdaba4d929939adf3c8b7bc3",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+      "sha256": "d997ae1ed1180fc4c41a6e070e2bce5e75540448b173e4f6b95d87215e9770c5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+      "sha256": "b23d8e65ad3d0535600dc8c1dc34954519a04f3d4ad94161049fde7f0ea7fa44",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+      "sha256": "f9f899d3a157411079921af7e7fccd9d6f94600267bb5e1c51b76febae48fc70",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+      "sha256": "374082161a25c149ace982ea0064d44e7982b98905fe7fcc34c904a69ff8c320",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+      "sha256": "11e8b5b8ff49d32a5c9a488500fdc5e82bc50ea46e8c4f08b1c5c16bed68b1ff",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+      "sha256": "8f61ae615cc40a096d5aecf87e3fa2ae9b176279e4b941bf59cde592295a7719",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+      "sha256": "df8c6d55b9e1e5a30c7c65898c3cd21f156ee80d4187bde6062217d66aa548b4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+      "sha256": "6c86d8d8c78379a82fa8e15331313490276780eb99ddc603f027352e3ff0f219",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+      "sha256": "d719f08de0e0c4894654fc123106d574f42364acc2ced475976e54ad751b4f7e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+      "sha256": "34d66157fa27676818edf62b8c3889c037352a54921b627bdb8be5df039c1a86",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-button-390x844.png",
+      "sha256": "8b1c0d8875c500393640daee0ae65e851076f08a68c7228a912abc1532aa65a2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-look-360x800.png",
+      "sha256": "f31444eb038706805defd842e1810190271d9d98855c4a3dadd9548b602b0b7f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-resize-360x800.png",
+      "sha256": "6ad33b0c1a3a2b72abb66ff15fdde5de285ed83f254921e62566a1c4d425965e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-return-portrait.png",
+      "sha256": "8b1c0d8875c500393640daee0ae65e851076f08a68c7228a912abc1532aa65a2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/read-rotate-desktop.png",
+      "sha256": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-button-390x844.png",
+      "sha256": "66c0a34c874e7505845c5b38ac1ae038b03dc7fde222fe75db1fefc9294d8cd4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-look-360x800.png",
+      "sha256": "f31444eb038706805defd842e1810190271d9d98855c4a3dadd9548b602b0b7f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-resize-360x800.png",
+      "sha256": "e652ad8c3f15864daf4a7cd8c2d1a4461d141df09dad03bffceeb445f13b9aae",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-return-portrait.png",
+      "sha256": "66c0a34c874e7505845c5b38ac1ae038b03dc7fde222fe75db1fefc9294d8cd4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/touch-first/rocks-rotate-desktop.png",
+      "sha256": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-button-portrait.png",
+      "sha256": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-look-narrow.png",
+      "sha256": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-resize-narrow.png",
+      "sha256": "f75e89d626f4e7b09870a9bae845d3644452ce984cccdb4b1bd1f260651cb5c0",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-return-portrait.png",
+      "sha256": "9d103725218e6234db9750db4c815385db007de195c06dfcdec4608b567a39a8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/read-rotate-desktop.png",
+      "sha256": "82ac33b59262c9277aa56ac115fde569af08b88dc190c25882da1a40cb1c0a89",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-button-portrait.png",
+      "sha256": "47c2cc82edb81a60c74904085c1e645630d204ce03cde3f2d132278bbdb7b797",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-look-narrow.png",
+      "sha256": "eeace03eaa09cea20f354adf5caec0febfcebdad8204c4ac67f0ffc2139ed454",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-resize-narrow.png",
+      "sha256": "47ad164ad8c7ecf6e138957451c6e938d0e8804f844e9bae3465e34d3794d4ed",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-return-portrait.png",
+      "sha256": "47c2cc82edb81a60c74904085c1e645630d204ce03cde3f2d132278bbdb7b797",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-density/rocks-rotate-desktop.png",
+      "sha256": "fa3196efeb55f85856af385f24aede23b8e53a093d7731d09b85ce4aa1101043",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-button-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-resize-narrow.png",
+      "sha256": "aa555355efa7a8a04e3f4c89bfd854dbc2122fdc19d8772263e9fe6e4e185722",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-return-portrait.png",
+      "sha256": "c54b9073d61bc1e069934e43e06e025429a57ab2dc439b319e83fe4dd7d588aa",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/read-rotate-desktop.png",
+      "sha256": "6ba0dec04d4711f99a43e367aa184af0baf14968db021291b7aa7cc2af168668",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-button-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-look-narrow.png",
+      "sha256": "00d8636e3972bf12e7ac979f47c206a3f1fcb2a4040d66892ca1977dad6594b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-resize-narrow.png",
+      "sha256": "d4768aa5b8707181756b8023a3b8b2c54fa012e7ba353ff879c4fff378110490",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-return-portrait.png",
+      "sha256": "3edab03ca82ef4a1fed0efb2f4198e8b834e8281a0c82de5e55a747e1c5e76f2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-normal/rocks-rotate-desktop.png",
+      "sha256": "6e6893bba3ca4044f2ea9447b45297240bcf4fc1b1816a96c3769c2cfc369767",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-button-portrait.png",
+      "sha256": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-look-narrow.png",
+      "sha256": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-resize-narrow.png",
+      "sha256": "25e4aac4d306303b8cbf847ab1e2b4d6945a46624985437625f3b412352f6aa2",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-return-portrait.png",
+      "sha256": "aecb722360795525d035956b5500e389d90e21c32933d47d40885e8dfb138322",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/read-rotate-desktop.png",
+      "sha256": "9d7b030210a8e99d1c6c2cdae577be53ea817686b0e873327055dcc94cf18c67",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-button-portrait.png",
+      "sha256": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-look-narrow.png",
+      "sha256": "0c8d7caf3385a643255cf39ce473397039076ddf63377686528b223bf7ef7493",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-resize-narrow.png",
+      "sha256": "a003ce910c420c31a5f184c5c72157339643d3611b847fe19864d039297e61ba",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-return-portrait.png",
+      "sha256": "d8a34747bc2d1f5e714e5c2f56a66a4342ddfa510f189e564941b19f731549ec",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/hengwu-detail-framing/runtime/verified-touch/rocks-rotate-desktop.png",
+      "sha256": "6f2825b7fb04bf4eb77aeb2925f857e4f4cc53a2d7443da2843d2761691a4793",
+      "pixels": [
+        1410,
+        600
+      ]
+    }
+  ]
+}

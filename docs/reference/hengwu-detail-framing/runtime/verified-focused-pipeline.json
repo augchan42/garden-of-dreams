@@ -1,0 +1,68 @@
+{
+  "status": "failed",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "607afd4b1bb241b7dcc9f926aaef329ed78fa4ca29b9ab9f7423314c3bf7df0b",
+  "test_sha256": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+  "phases": [
+    {
+      "name": "normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-normal.log",
+      "log_sha256": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+      "status": "passed"
+    },
+    {
+      "name": "touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch",
+        "--touch"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-touch.log",
+      "log_sha256": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+      "status": "passed"
+    },
+    {
+      "name": "density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density",
+        "--density"
+      ],
+      "exit_code": 1,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/hengwu-detail-runtime/verified-density.log",
+      "log_sha256": "d7635e89878021dc20585ad5fce7ce21fc82a4dc80c7a5d914e21c99c16e8b95",
+      "status": "failed"
+    }
+  ],
+  "failure": "Density stone fit rejected"
+}
