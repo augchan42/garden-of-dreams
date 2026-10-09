@@ -15,3 +15,7 @@ Landscape views below 580 logical pixels high use two compact control rows with 
 The overview faces the moon gate; it does not claim a complete front facade or every secondary stone in the same shot. Original 55-degree desktop detail poses retain their prior lower crop. Final site dressing/material/lighting/composition, all 14-site art, five missing external references (37/42 collected), current physical phones/2020 Adreno/sustained budgets, release and authenticated reading/history/AI/presence/social remain open. This archive is focused camera/layout acceptance, not full-goal or physical-device acceptance.
 
 Two large native import reports use compact JSON beside exact gzip originals; [lossless provenance](large-report-originals.json) records original and compact hashes and parsed equality. Executed helpers and source-point contracts are retained with exact bytes. Native PNGs are originals; their file hashes are in `evidence-index.json`. The fixture and protected user editor sessions were kept separate. No Blender save, source rebake, editor restart or service mutation was performed in this pass.
+
+## Current narrow landscape follow-up
+
+Runtime `bde86917` supersedes 56813eb7 for the additional small landscape cases and consistent portrait panel height. All 12 final isolated and 12 installed checks pass, with 166 exact installed originals. All 28 arrivals remain byte-identical. The earlier broad/tour and installation records above retain their original runtime identity. See [the supplemental proof and limits](supplemental-narrow-landscape/README.md).
