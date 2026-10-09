@@ -22,3 +22,8 @@ Rebuild using Blender on `blender/authoring.blend` with `--python-exit-code 1 --
 Verification: `scripts/verify_water_kit.py` checks actual exported geometry, connectors, UVs, LOD ratios and collision counts. `godot/tests/test_water_kit.gd` checks shader assignment, collision counts, movement from separate approach platforms across both bridges and back, the stone arch's elevation and side-rail blocking at both LODs. `docs/reference/water-kit-0001.png` shows full detail in front and simplified versions behind.
 
 The wooden bridge now replaces the approach to Ziling reed island, and six lotus clusters are placed beside Ouxiang/Ziling. Other water surfaces, the stone bridge and embankment remain standalone parts awaiting placement. Automatic LOD switching, final art, lightmaps and target-phone acceptance remain unfinished.
+
+
+## Installed runtime palette — 2026-10-09
+
+The shared engine water material now explicitly uses slate-blue `Color(0.25, 0.32, 0.40, 1)`. Aojing's dedicated reflection shader uses dark blue-gray albedo and an equal-channel reflection multiplier; wave math, reflection strength and gating are unchanged. The saved Blender water material has not been recolored or rebaked. The actual attached stage fog was already neutral and remains unchanged. Eleven native checks and all fourteen desktop/portrait arrival reviews pass for this runtime change; source/material parity and final art remain open. Evidence: `../reference/neutral-water-runtime/README.md` and `../../export/neutral-water-runtime-evidence.json`.

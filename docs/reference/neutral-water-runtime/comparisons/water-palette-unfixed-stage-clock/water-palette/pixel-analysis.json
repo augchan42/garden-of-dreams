@@ -1,0 +1,847 @@
+{
+  "scope": "Encoded RGB pixel statistics inside visible-water magenta controls, excluding UI and eroding edges; not linear radiometry or final art/phone acceptance.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "views": {
+    "qinfang_ting-desktop": {
+      "visible_water_pixels": 2777,
+      "screen_fraction": 0.0032825059101654844,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            43.59632697155203,
+            35.68419157364062,
+            16.125675189052934
+          ],
+          "green_excess_encoded": 5.823190493338135,
+          "mean_luma_encoded": 35.95418667626936,
+          "p95_luma_encoded": 49.240399999999994,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            69.1263953907094,
+            75.96867122794383,
+            74.24774936982355
+          ],
+          "green_excess_encoded": 4.281598847677358,
+          "mean_luma_encoded": 74.38975282679151,
+          "p95_luma_encoded": 82.635,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            43.62009362621534,
+            35.73964710118833,
+            16.350378105869645
+          ],
+          "green_excess_encoded": 5.754411235145838,
+          "mean_luma_encoded": 36.015124810947064,
+          "p95_luma_encoded": 49.240399999999994,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            43.64566078501981,
+            35.77349657904213,
+            16.27007562117393
+          ],
+          "green_excess_encoded": 5.815628375945263,
+          "mean_luma_encoded": 36.038971696074896,
+          "p95_luma_encoded": 49.240399999999994,
+          "max_ui_pixel_delta": 1.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            43.72776377385668,
+            36.25207057976233,
+            19.891249549873965
+          ],
+          "green_excess_encoded": 4.4425639178970115,
+          "mean_luma_encoded": 36.66015167446885,
+          "p95_luma_encoded": 49.8734,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            43.679510262873606,
+            35.828952106589846,
+            16.363341735685992
+          ],
+          "green_excess_encoded": 5.807526107310046,
+          "mean_luma_encoded": 36.09256370183651,
+          "p95_luma_encoded": 49.2436,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            69.38458768455168,
+            75.98343536190133,
+            75.73568599207778
+          ],
+          "green_excess_encoded": 3.4232985235866096,
+          "mean_luma_encoded": 74.56263284119554,
+          "p95_luma_encoded": 82.7794,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            93.02700756211739,
+            94.76017284839754,
+            88.86064097947425
+          ],
+          "green_excess_encoded": 3.8163485776017154,
+          "mean_luma_encoded": 93.96575570759813,
+          "p95_luma_encoded": 102.42547999999998,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            75.24702916816709,
+            73.18581202736766,
+            65.8566798703637
+          ],
+          "green_excess_encoded": 2.63395750810227,
+          "mean_luma_encoded": 73.09486344976594,
+          "p95_luma_encoded": 80.9748,
+          "max_ui_pixel_delta": 3.0
+        }
+      }
+    },
+    "qinfang_ting-portrait": {
+      "visible_water_pixels": 198,
+      "screen_fraction": 0.0006015311702515494,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            14.626262626262626,
+            23.939393939393938,
+            18.818181818181817
+          ],
+          "green_excess_encoded": 7.217171717171716,
+          "mean_luma_encoded": 21.589670707070706,
+          "p95_luma_encoded": 21.7256,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            55.621212121212125,
+            69.4090909090909,
+            73.70707070707071
+          ],
+          "green_excess_encoded": 4.744949494949481,
+          "mean_luma_encoded": 66.78810202020202,
+          "p95_luma_encoded": 67.38459999999999,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            14.419191919191919,
+            23.6010101010101,
+            18.560606060606062
+          ],
+          "green_excess_encoded": 7.111111111111111,
+          "mean_luma_encoded": 21.285038383838394,
+          "p95_luma_encoded": 21.7256,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            14.242424242424242,
+            23.444444444444443,
+            18.333333333333332
+          ],
+          "green_excess_encoded": 7.156565656565654,
+          "mean_luma_encoded": 21.119072727272737,
+          "p95_luma_encoded": 21.7256,
+          "max_ui_pixel_delta": 1.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            15.247474747474747,
+            23.984848484848484,
+            21.97979797979798
+          ],
+          "green_excess_encoded": 5.371212121212121,
+          "mean_luma_encoded": 21.982518181818183,
+          "p95_luma_encoded": 22.869999999999997,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            14.1010101010101,
+            23.31313131313131,
+            18.11111111111111
+          ],
+          "green_excess_encoded": 7.207070707070706,
+          "mean_luma_encoded": 20.979048484848494,
+          "p95_luma_encoded": 21.7256,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            55.68181818181818,
+            69.38383838383838,
+            75.22222222222223
+          ],
+          "green_excess_encoded": 3.9318181818181728,
+          "mean_luma_encoded": 66.89232020202019,
+          "p95_luma_encoded": 67.45679999999999,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            80.43939393939394,
+            88.27777777777777,
+            87.6919191919192
+          ],
+          "green_excess_encoded": 4.212121212121204,
+          "mean_luma_encoded": 86.56903838383839,
+          "p95_luma_encoded": 87.29919999999998,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            62.0,
+            66.79292929292929,
+            65.93939393939394
+          ],
+          "green_excess_encoded": 2.823232323232318,
+          "mean_luma_encoded": 65.71232727272728,
+          "p95_luma_encoded": 65.937,
+          "max_ui_pixel_delta": 3.0
+        }
+      }
+    },
+    "ouxiang_xie-desktop": {
+      "visible_water_pixels": 11320,
+      "screen_fraction": 0.013380614657210401,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            49.97005300353357,
+            37.654681978798585,
+            13.426590106007067
+          ],
+          "green_excess_encoded": 5.956360424028265,
+          "mean_luma_encoded": 38.52366162544169,
+          "p95_luma_encoded": 65.76765999999999,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            76.09628975265018,
+            79.8434628975265,
+            75.2023851590106
+          ],
+          "green_excess_encoded": 4.194125441696116,
+          "mean_luma_encoded": 78.71172807420494,
+          "p95_luma_encoded": 98.10719999999999,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            49.965989399293285,
+            37.624028268551235,
+            13.506183745583039
+          ],
+          "green_excess_encoded": 5.887941696113074,
+          "mean_luma_encoded": 38.50662083038869,
+          "p95_luma_encoded": 65.77020999999995,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            49.981802120141346,
+            37.62694346289753,
+            13.355123674911662
+          ],
+          "green_excess_encoded": 5.958480565371026,
+          "mean_luma_encoded": 38.501161024734984,
+          "p95_luma_encoded": 65.76765999999999,
+          "max_ui_pixel_delta": 1.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            49.993639575971734,
+            38.011572438162545,
+            16.259187279151945
+          ],
+          "green_excess_encoded": 4.885159010600702,
+          "mean_luma_encoded": 38.98843770318021,
+          "p95_luma_encoded": 66.41399999999999,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            49.98895759717315,
+            37.60627208480565,
+            13.306095406360424
+          ],
+          "green_excess_encoded": 5.958745583038869,
+          "mean_luma_encoded": 38.48435826855123,
+          "p95_luma_encoded": 65.835,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            76.40689045936396,
+            79.97941696113074,
+            76.6399293286219
+          ],
+          "green_excess_encoded": 3.4560070671378043,
+          "mean_luma_encoded": 78.97878681978798,
+          "p95_luma_encoded": 98.39200000000001,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            101.60733215547704,
+            100.0071554770318,
+            90.79293286219081
+          ],
+          "green_excess_encoded": 3.8070229681978844,
+          "mean_luma_encoded": 99.68208616607775,
+          "p95_luma_encoded": 116.8132,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            82.68948763250883,
+            76.96828621908128,
+            65.96916961130742
+          ],
+          "green_excess_encoded": 2.638957597173146,
+          "mean_luma_encoded": 77.39047742049469,
+          "p95_luma_encoded": 96.58739999999999,
+          "max_ui_pixel_delta": 3.0
+        }
+      }
+    },
+    "ouxiang_xie-portrait": {
+      "visible_water_pixels": 8667,
+      "screen_fraction": 0.026330659861465548,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            23.962732202607594,
+            26.840544594438676,
+            16.85646705895927
+          ],
+          "green_excess_encoded": 6.430944963655243,
+          "mean_luma_encoded": 25.507871281873772,
+          "p95_luma_encoded": 33.852799999999995,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            58.717664705203646,
+            70.91750317295488,
+            73.79046959732318
+          ],
+          "green_excess_encoded": 4.663436021691467,
+          "mean_luma_encoded": 68.53124569055036,
+          "p95_luma_encoded": 74.01440000000001,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            23.91588785046729,
+            26.786085150571132,
+            16.95084804430599
+          ],
+          "green_excess_encoded": 6.352717203184493,
+          "mean_luma_encoded": 25.465777085496715,
+          "p95_luma_encoded": 33.77943999999998,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            23.92096457828545,
+            26.794392523364486,
+            16.78862351448021
+          ],
+          "green_excess_encoded": 6.439598476981658,
+          "mean_luma_encoded": 25.46108521979924,
+          "p95_luma_encoded": 33.61783999999998,
+          "max_ui_pixel_delta": 1.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            24.266297450098072,
+            27.228452751817237,
+            20.67497403946002
+          ],
+          "green_excess_encoded": 4.7578170070381915,
+          "mean_luma_encoded": 26.125537371639556,
+          "p95_luma_encoded": 34.209799999999994,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            23.896042459905388,
+            26.760470751124956,
+            16.74074074074074
+          ],
+          "green_excess_encoded": 6.4420791508018915,
+          "mean_luma_encoded": 25.428068789661936,
+          "p95_luma_encoded": 33.42763999999998,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            58.98626975885543,
+            70.93838698511595,
+            75.26133610245759
+          ],
+          "green_excess_encoded": 3.814584054459445,
+          "mean_luma_encoded": 68.70948378908504,
+          "p95_luma_encoded": 74.2992,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            83.78020076150918,
+            89.99296180916119,
+            88.0278066228222
+          ],
+          "green_excess_encoded": 4.088958116995499,
+          "mean_luma_encoded": 88.53024460597668,
+          "p95_luma_encoded": 96.1416,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            65.20041536863967,
+            68.29664243682936,
+            65.67024345217492
+          ],
+          "green_excess_encoded": 2.861313026422067,
+          "mean_luma_encoded": 67.44875855544018,
+          "p95_luma_encoded": 72.7072,
+          "max_ui_pixel_delta": 3.0
+        }
+      }
+    },
+    "ziling_zhou-desktop": {
+      "visible_water_pixels": 38487,
+      "screen_fraction": 0.04549290780141844,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            5.477330007535012,
+            14.562735469119444,
+            8.74043183412581
+          ],
+          "green_excess_encoded": 7.4538545482890335,
+          "mean_luma_encoded": 12.210807945540052,
+          "p95_luma_encoded": 23.513,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            55.45365967729363,
+            70.50762595162003,
+            75.59162834203757
+          ],
+          "green_excess_encoded": 4.98498194195443,
+          "mean_luma_encoded": 67.67421769428638,
+          "p95_luma_encoded": 69.0316,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            5.413672149037337,
+            14.531426195858343,
+            8.903785693870658
+          ],
+          "green_excess_encoded": 7.372697274404345,
+          "mean_luma_encoded": 12.186676041260686,
+          "p95_luma_encoded": 23.0104,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            5.471276015277886,
+            14.555148491698496,
+            8.731727596331229
+          ],
+          "green_excess_encoded": 7.453646685893938,
+          "mean_luma_encoded": 12.203466214565957,
+          "p95_luma_encoded": 23.0104,
+          "max_ui_pixel_delta": 0.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            6.170005456387871,
+            14.95078857796139,
+            11.395977862654922
+          ],
+          "green_excess_encoded": 6.1677969184399934,
+          "mean_luma_encoded": 12.827336752669732,
+          "p95_luma_encoded": 24.154799999999998,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            5.464442539039156,
+            14.550731415802739,
+            8.722529685348299
+          ],
+          "green_excess_encoded": 7.457245303609011,
+          "mean_luma_encoded": 12.19819023566399,
+          "p95_luma_encoded": 22.7978,
+          "max_ui_pixel_delta": 0.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            55.624366669264944,
+            70.56593135344401,
+            76.9706394366929
+          ],
+          "green_excess_encoded": 4.268428300465089,
+          "mean_luma_encoded": 67.85177462519812,
+          "p95_luma_encoded": 69.10379999999999,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            85.34736404500221,
+            93.21461792293502,
+            91.95281523631355
+          ],
+          "green_excess_encoded": 4.564528282277138,
+          "mean_luma_encoded": 91.45093759451244,
+          "p95_luma_encoded": 94.0144,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            62.903473900278016,
+            67.43357497336763,
+            65.70920050926287
+          ],
+          "green_excess_encoded": 3.1272377685971833,
+          "mean_luma_encoded": 66.34597564892042,
+          "p95_luma_encoded": 67.7926,
+          "max_ui_pixel_delta": 4.0
+        }
+      }
+    },
+    "ziling_zhou-portrait": {
+      "visible_water_pixels": 2796,
+      "screen_fraction": 0.008494349252643092,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            4.402002861230329,
+            13.619456366237483,
+            7.758583690987124
+          ],
+          "green_excess_encoded": 7.539163090128756,
+          "mean_luma_encoded": 11.236670743919888,
+          "p95_luma_encoded": 14.653399999999998,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            55.378755364806864,
+            70.44599427753934,
+            75.55758226037196
+          ],
+          "green_excess_encoded": 4.97782546494993,
+          "mean_luma_encoded": 67.61175593705293,
+          "p95_luma_encoded": 68.9594,
+          "max_ui_pixel_delta": 4.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            4.455293276108727,
+            13.611587982832617,
+            8.014663805436337
+          ],
+          "green_excess_encoded": 7.376609442060085,
+          "mean_luma_encoded": 11.260861802575109,
+          "p95_luma_encoded": 14.725599999999998,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            4.471745350500715,
+            13.694206008583691,
+            7.840128755364807
+          ],
+          "green_excess_encoded": 7.53826895565093,
+          "mean_luma_encoded": 11.310846494992846,
+          "p95_luma_encoded": 14.725599999999998,
+          "max_ui_pixel_delta": 0.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            5.4477825464949925,
+            14.317954220314736,
+            10.738555078683834
+          ],
+          "green_excess_encoded": 6.224785407725323,
+          "mean_luma_encoded": 12.173723104434908,
+          "p95_luma_encoded": 15.87,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            4.526824034334764,
+            13.726752503576538,
+            7.871959942775393
+          ],
+          "green_excess_encoded": 7.52736051502146,
+          "mean_luma_encoded": 11.348131688125894,
+          "p95_luma_encoded": 15.440800000000001,
+          "max_ui_pixel_delta": 0.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            55.55543633762518,
+            70.5035765379113,
+            76.92596566523605
+          ],
+          "green_excess_encoded": 4.262875536480692,
+          "mean_luma_encoded": 67.78929842632331,
+          "p95_luma_encoded": 69.0316,
+          "max_ui_pixel_delta": 4.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            85.33261802575107,
+            93.22711015736766,
+            91.97317596566523
+          ],
+          "green_excess_encoded": 4.5742131616595145,
+          "mean_luma_encoded": 91.45820708154507,
+          "p95_luma_encoded": 93.22699999999999,
+          "max_ui_pixel_delta": 5.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            62.78969957081545,
+            67.38698140200286,
+            65.63412017167381
+          ],
+          "green_excess_encoded": 3.175071530758231,
+          "mean_luma_encoded": 66.28304270386266,
+          "p95_luma_encoded": 66.86479999999999,
+          "max_ui_pixel_delta": 4.0
+        }
+      }
+    },
+    "aojing_guan-desktop": {
+      "visible_water_pixels": 89921,
+      "screen_fraction": 0.10628959810874704,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            13.323561793129524,
+            21.03749958296727,
+            8.787702538895253
+          ],
+          "green_excess_encoded": 9.981867416954882,
+          "mean_luma_encoded": 18.513081062265766,
+          "p95_luma_encoded": 36.504999999999995,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            16.042437250475416,
+            24.24861823155881,
+            12.778883686791739
+          ],
+          "green_excess_encoded": 9.837957762925235,
+          "mean_luma_encoded": 21.6758693208483,
+          "p95_luma_encoded": 66.9594,
+          "max_ui_pixel_delta": 0.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            13.322227288397594,
+            21.032383981494867,
+            8.808454087476786
+          ],
+          "green_excess_encoded": 9.967043293557676,
+          "mean_luma_encoded": 18.51063693019428,
+          "p95_luma_encoded": 36.504999999999995,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            13.323228166946542,
+            21.03744397860344,
+            8.787747022386316
+          ],
+          "green_excess_encoded": 9.981956383937012,
+          "mean_luma_encoded": 18.51297357680631,
+          "p95_luma_encoded": 36.504999999999995,
+          "max_ui_pixel_delta": 0.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            14.124320236652173,
+            20.36637715327899,
+            16.259171939813836
+          ],
+          "green_excess_encoded": 5.174631065045986,
+          "mean_luma_encoded": 18.742775636391944,
+          "p95_luma_encoded": 36.645399999999995,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            18.48093326364253,
+            22.98069416487806,
+            14.251965614261406
+          ],
+          "green_excess_encoded": 6.614244725926092,
+          "mean_luma_encoded": 21.393830795920863,
+          "p95_luma_encoded": 43.4264,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            23.091246761045806,
+            26.335149742551796,
+            27.229901802693476
+          ],
+          "green_excess_encoded": 1.1745754606821528,
+          "mean_luma_encoded": 25.710097067425846,
+          "p95_luma_encoded": 67.24419999999999,
+          "max_ui_pixel_delta": 1.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            24.84884509736324,
+            27.683188576639495,
+            28.123019094538538
+          ],
+          "green_excess_encoded": 1.1972564806886048,
+          "mean_luma_encoded": 27.11236291633767,
+          "p95_luma_encoded": 90.4396,
+          "max_ui_pixel_delta": 1.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            23.52020106537961,
+            26.150454287652494,
+            26.56098130581288
+          ],
+          "green_excess_encoded": 1.1098631020562486,
+          "mean_luma_encoded": 25.620902503308457,
+          "p95_luma_encoded": 65.7926,
+          "max_ui_pixel_delta": 1.0
+        }
+      }
+    },
+    "aojing_guan-portrait": {
+      "visible_water_pixels": 84300,
+      "screen_fraction": 0.25610645278891725,
+      "variants": {
+        "baseline": {
+          "mean_rgb_encoded": [
+            10.463523131672599,
+            19.39978647686833,
+            6.125895610913404
+          ],
+          "green_excess_encoded": 11.105077105575328,
+          "mean_luma_encoded": 16.541561969157772,
+          "p95_luma_encoded": 28.9474,
+          "max_ui_pixel_delta": 0.0
+        },
+        "water-slate": {
+          "mean_rgb_encoded": [
+            11.011660735468565,
+            20.015041518386713,
+            6.8677935943060495
+          ],
+          "green_excess_encoded": 11.075314353499406,
+          "mean_luma_encoded": 17.15169146381969,
+          "p95_luma_encoded": 33.964,
+          "max_ui_pixel_delta": 0.0
+        },
+        "ambient-neutral": {
+          "mean_rgb_encoded": [
+            10.46467378410439,
+            19.394899169632264,
+            6.141020166073547
+          ],
+          "green_excess_encoded": 11.092052194543296,
+          "mean_luma_encoded": 16.539403188612102,
+          "p95_luma_encoded": 28.9474,
+          "max_ui_pixel_delta": 1.0
+        },
+        "fog-grey": {
+          "mean_rgb_encoded": [
+            10.463511269276394,
+            19.399667852906287,
+            6.125812574139976
+          ],
+          "green_excess_encoded": 11.105005931198102,
+          "mean_luma_encoded": 16.541468612099646,
+          "p95_luma_encoded": 28.9474,
+          "max_ui_pixel_delta": 0.0
+        },
+        "distance-fog-neutral": {
+          "mean_rgb_encoded": [
+            11.514756820877817,
+            18.319727164887308,
+            15.916465005931197
+          ],
+          "green_excess_encoded": 4.6041162514828,
+          "mean_luma_encoded": 16.69947494187426,
+          "p95_luma_encoded": 29.0562,
+          "max_ui_pixel_delta": 1.0
+        },
+        "reflection-neutral": {
+          "mean_rgb_encoded": [
+            14.044958481613286,
+            20.70306049822064,
+            11.110237247924081
+          ],
+          "green_excess_encoded": 8.125462633451956,
+          "mean_luma_encoded": 18.594946170818506,
+          "p95_luma_encoded": 33.477540000000005,
+          "max_ui_pixel_delta": 1.0
+        },
+        "slate-combined": {
+          "mean_rgb_encoded": [
+            17.20661921708185,
+            21.600450771055755,
+            24.16950177935943
+          ],
+          "green_excess_encoded": 0.9123902728351148,
+          "mean_luma_encoded": 20.851807665480422,
+          "p95_luma_encoded": 40.02438000000015,
+          "max_ui_pixel_delta": 1.0
+        },
+        "lighter-combined": {
+          "mean_rgb_encoded": [
+            17.534045077105574,
+            21.85107947805457,
+            24.33497034400949
+          ],
+          "green_excess_encoded": 0.916571767497036,
+          "mean_luma_encoded": 21.112614884934754,
+          "p95_luma_encoded": 40.02438000000015,
+          "max_ui_pixel_delta": 1.0
+        },
+        "charcoal-combined": {
+          "mean_rgb_encoded": [
+            17.285243179122183,
+            21.566156583629894,
+            24.04540925266904
+          ],
+          "green_excess_encoded": 0.900830367734283,
+          "mean_luma_encoded": 20.835036436536175,
+          "p95_luma_encoded": 40.02438000000015,
+          "max_ui_pixel_delta": 1.0
+        }
+      }
+    }
+  },
+  "input_reports_sha256": "1dcf48110e6587a4f3989ae0ed52762d0ce11fa381f052997fc7d0a3009df894"
+}

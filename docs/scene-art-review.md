@@ -35,3 +35,8 @@ Tubi framing update (2026-10-09): the complete moon, hall/title and staircase cl
 
 
 Qiushuang framing update (2026-10-09): the full facade and all three groups of four monitors now fit in portrait; all three public bank close-ups show distinct monitors. Resize/rotation/Look and touch scrolling pass in three graphical modes, with fourteen adjacent regressions. Eight final originals were directly inspected. All 273 originals, including four comparison attempts and the 22 failed baseline assertions, are retained. Source geometry and lighting remain unchanged. Evidence: `reference/qiushuang-screen-framing/README.md`. Lattice crosses screen text; central plaster remains bright/mottled; broad ceiling/ground and stage/background closure remain final art tasks. This is incremental camera/UI acceptance; phone, live content and final all-site art remain separate.
+
+
+## Runtime palette review — 2026-10-09
+
+All fourteen installed desktop and portrait arrivals were inspected as 28 original images after the stream/ambient/distance-fog/pond palette change. Water reads as slate-blue or dark blue-gray; amber lamps/windows and green CRT remain distinct. This is incremental runtime palette acceptance. The live stage fog stays at its existing neutral color. Saved Blender water material parity, final island sides/bridge framing, foliage, lighting, lattice/text and stage/ground/backdrop work remain open. The room-specific findings and exact original hashes are in `reference/neutral-water-runtime/runtime/visual-review.json`. Eleven native phases pass, including separate live water/fog motion and pond reflection controls. The immutable index is `../export/neutral-water-runtime-evidence.json`; no new moving tour, phone or sustained-budget acceptance is claimed.

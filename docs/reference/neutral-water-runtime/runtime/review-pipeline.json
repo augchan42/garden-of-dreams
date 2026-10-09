@@ -1,0 +1,202 @@
+{
+  "status": "passed",
+  "started_at": "2026-10-09T04:11:30.929229+00:00",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "files": {
+    "godot/garden_preview.tscn": "b03ac5b1803667b2245d2a60b900b594d7757d6b04ddbeead7217ba8779fc261",
+    "godot/materials/water.tres": "008077aed67ac61d44240b0bc96e693c068e2d6f3a4d28086887821e372dab1c",
+    "godot/shaders/pond_reflection.gdshader": "cd10826f67b5b7b05b9ce40b997606cd6b2ba593901c25fc760ffe18b925d663",
+    "godot/runtime/entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+    "godot/tests/render_dynamic_palette.gd": "dd3b011f2e780530d447cc88a848096d8116ef91a171a711b8826884e3d71306",
+    "godot/tests/render_surfaces.gd": "a396838f85d674133f9d8a42c2cce195f441fb2d285c5d88f8990d92cbb131fd",
+    "godot/tests/render_reflection_validation.gd": "ece50a92ab9e37dccf0ac89255ce4feef709305269654556e92b6959efedfb38",
+    "scripts/verify_surface_animation.py": "a54adb1e33455817061e56e971160e3793bb477de8a776bebd64cd4829c5cc70",
+    "scripts/verify_reflection.py": "80622242c024945228b9e084294e02f985c858b5df531ae0ecee19c48a136048"
+  },
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/cold-import.log",
+      "log_sha256": "bd175cdf7c9db6376ff16d7e39ebc7f084e899ed5358467e834bf6e8bdbe9165",
+      "status": "passed"
+    },
+    {
+      "name": "source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/production-source-contract.json"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/source-contract.log",
+      "log_sha256": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+      "status": "passed"
+    },
+    {
+      "name": "surface-bindings",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_surface_materials.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-bindings.log",
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2",
+      "status": "passed"
+    },
+    {
+      "name": "reflection-bindings",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_planar_reflection.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-bindings.log",
+      "log_sha256": "3ec950b6b974d2ed1187eed4b489e929804c664780e111d153f74ab806849079",
+      "status": "passed"
+    },
+    {
+      "name": "reflection-alignment",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_reflection_camera_alignment.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-alignment.log",
+      "log_sha256": "e146ea6bc527fc79e3c72f961981591afc0938a3e2e06f667b6dc106826aa423",
+      "status": "passed"
+    },
+    {
+      "name": "mobile-ui",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/mobile-ui.log",
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+      "status": "passed"
+    },
+    {
+      "name": "all-room-arrivals",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_dynamic_palette.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-arrivals"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/all-room-arrivals.log",
+      "log_sha256": "38289ff9c2988dc476c890716ced8d12c7b789fe5e216f997a3714e97443eeb3",
+      "status": "passed"
+    },
+    {
+      "name": "surface-motion",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_surfaces.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion.log",
+      "log_sha256": "c9fcb85c6039369ff5e7a025d1b20467e0dd79547a244510b0f7f52e8879f320",
+      "status": "passed"
+    },
+    {
+      "name": "surface-pixels",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_surface_animation.py",
+        "--directory",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion",
+        "--output",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-motion/pixel-validation.json"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/surface-pixels.log",
+      "log_sha256": "8025dbccf1a8df3f1802d5bf3a37834640c2ec6c08cbd10a26812c46eca629a7",
+      "status": "passed"
+    },
+    {
+      "name": "reflection-controls",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_reflection_validation.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls.log",
+      "log_sha256": "007e972236571b33e5ac945b35802084af2916c62cd990dab6584537f6a2a6a3",
+      "status": "passed"
+    },
+    {
+      "name": "reflection-pixels",
+      "command": [
+        "python3",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_reflection.py",
+        "--directory",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls",
+        "--output",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-controls/pixel-validation.json"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/water-palette-runtime/reflection-pixels.log",
+      "log_sha256": "5363d61d36913c3ff3174fd90b91085bac46a004221286ffb5554502a8b9792b",
+      "status": "passed"
+    }
+  ],
+  "reused_check_scope": "First six source/binding/alignment/UI phases verified against exact logs and unchanged production palette/runtime; corrected capture scripts are compiled and run below.",
+  "scope": "Installed runtime dynamic palette: source preserved, actual water/fog/reflection bindings, projection and mobile UI invariants, fourteen-room desktop/portrait arrival captures and separate native fixed-clock surface/reflection pixel controls. No new full physics walk or physical-device/final-art acceptance.",
+  "finished_at": "2026-10-09T04:11:57.634069+00:00"
+}

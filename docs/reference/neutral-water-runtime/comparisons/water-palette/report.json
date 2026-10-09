@@ -1,0 +1,2528 @@
+{
+ "actual_fog_bindings": [
+  {
+   "color": "(0.28, 0.29, 0.34, 1.0)",
+   "resource_name": "Neutral scrolling stage fog",
+   "resource_path": "res://materials/stage/fog.tres",
+   "timeline_time": "<null>"
+  }
+ ],
+ "ambient_energy": 0.649999976158142,
+ "original_ambient": "(0.35, 0.42, 0.3, 1.0)",
+ "original_distance_fog": "(0.05, 0.2, 0.05, 1.0)",
+ "probe_sha256": "219cf34f423889fefc4d9b2e8b018039b30cf2c343fd1439f55e96d3f397ea5a",
+ "route_sha256": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+ "rows": [
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "be46fc840f60107db054d308bc16824581207038a1604eeaf63c9ab3b6a195c7",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "d5df9be97705b93ef332cc8a40785788177a633afb1dc79982fdf5b313d7b689",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "59be448284a9bb140038cd97b6ef4507d4a963867cb62f804f4a71f88bd56723",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "a3092811a2971e027c7138586643c77d2fe93683a44d8c2763f6a71f4a6e1574",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "99f9b8a239aacc9d779a1b493986f4b0503e8a206a9f36f69e00e73a7090a00e",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "fbca62e1333370cfeda4ffdbfabeaa4a2213dc8237f72e3df93d163559ecf873",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "fedd5b690b422288cdbed377cea6c3c76d879f2b8f1f4b727c70620c82d53131",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    10.0,
+    5.5,
+    12.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-desktop-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 367.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "f4a881c64c91d94297491a626a5cb9c7ba241e1c8a81d66d276563cbc3cff2dc",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "e71a0aac8e71709ee872ea3251dc680a41b719c1116b32a5c7c9af915f8f9890",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "dcc91d17edb94c1806debc201e4a802bab6309e265cd6e9742d92e22b3fcf1c7",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "f2a89df21badf6e62aa34e1b161e165763ae842a7cfb63ba346ea110898249cc",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "0b74bb564c06e8aed2a8023741dfa3d51a838eb9bce063365320cbc0425b22cf",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "996ea3700f82cfa59c59c3fe56279acccbce0866028a81b72bcd8146ff5dd95d",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "e54f74b471d1f4829b001eabc405470488baaf91e7a4e8e7c75b843907c2a8e6",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "qinfang_ting",
+   "sha256": "5cdba727e4bec1f0d7653566904ab7d8313306d7a9ca5720dbefbdb47d56625e",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 50.0,
+   "camera_position": [
+    6.0,
+    6.98000001907349,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/qinfang_ting-portrait-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 504.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "qinfang_ting",
+   "sha256": "8f855e49533bd7e0fe32bb3eb28ed65a7076f3cf35db789bd36fe5d5c7e095f6",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "f417734d9d8c5cdd89fd7718f5f3fafc277aa35c3ac7802733e340aa09327328",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "51d8d8c5ae02d203040aea5c9aa16f81289fe03c42905b7f24b141b87b6cae7c",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "7438b6190e45223279c0b499b970834155e6c5eb296c084b042f90ffe726082e",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "5b4ad49648c123d549b67f115b764cd2b16f233d242977b428d899f8611f8225",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "62105dcd7006e7f1f38c82509ac1e707487c721761ef08e3e723e39beb72441d",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "3670d5e3f42d97e80df15f7c038cb79e1aca187ea58beb73d51ef45a60579d7a",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "bf225b8bdbfa8c88fc960a238fecd1b29e701ac61919304387f51e2faa894a8a",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -15.0,
+    5.0,
+    10.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-desktop-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "21edcccdc6056886823b671f1168e4aa50a612def559af92cfd9603803673e8c",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "6d8ed31e8d3105d7e595385da574f1190b0d831b5a5a7d5df7c2303779387ed8",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "643afd1144a5d25591a11af809ea6452cb9c495ddaba2ef0130b60f39e079afe",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "5758ce97fdd2043883c1ac019242f1973ff902f2cdd8df378a00df36944cc9dd",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "deacb01a4350a04c236a7ac1fdab2bfefe1276a3bf10590440425498499e1af2",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "5f3be71ecfd9afc459cad263805bb84c8637d20ddb022272a8b42e6d5290afe7",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "cc793caf012176dd1a10d93bd4b7d34e2b318c816acc5bec83c13c562f9e6168",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ouxiang_xie",
+   "sha256": "de3f5e8990aa0efecaf4616134546bfbb63b73dc70b1033cee9f721303364b76",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -7.0,
+    9.5,
+    20.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ouxiang_xie-portrait-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ouxiang_xie",
+   "sha256": "f57f96a544627096459f1b8bd5d919598ac771fb2183f34552fd06485446ce1b",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "f205cbd8edb49e9f6c2c98b5d97065faffc5a9f4405778cb29a83ead01fc7eea",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "d55eb5f3c35f871f7b539ee3934743479077f799502486b321a323d4991a94b9",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "16db08348dc8e2304680226353e39f958b9b88fe629990ffb1e4bbc6f831ac51",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "9ed2b6ef8da144db5313db3f714093d2aed81a900db7e1ad86281dbed37c3b5c",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "032b9ae3e6d7f258ee276078d0f1439ebbbd717545a79d06cc89fcce5e62899c",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "4e55566866c7cad8727c8a2e4a1792486ca77107e3bb668ca07640cb75bf116b",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -40.0,
+    3.0,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-desktop-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "3ffac8a84da4730158c6bd8ce861b4f1a1a8d90d75fe1927370ba9681d503e7e",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "51d66af9f021ef5ed1e62d6766941030bd04589db2c3f24708209bfab12c4366",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "d17f78a337ebdafbcc5c29f5c87e395e2cecfcd2b38fcfb734c74108973f768f",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "1fa05e3114f2195789b15aaa57d04f9e20ad5194fd683ed8c3b490b61bd42d26",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "4faf3b7dbf575c9fae3d4424fdf9dab18294c9f8fda8f000354d74dd328ff719",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "8569f066c0f63dcc1301ac660507a06d84af4305c4ba88726c0d772e9c6d8067",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "647a90cbaa9c044ddb48b9aeb8c7068414a44123a9fba6465161c3c3eaa8a2de",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "e603570590cc571a63da81824565359de76da33537fa61a1e4d6955d6ea1ba5a",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 55.0,
+   "camera_position": [
+    -42.4000015258789,
+    3.96000003814697,
+    8.39999961853027
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-portrait-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "a83914fcc3c9de987c378a6992b757c9d8b6fd07615f76ecbe005fc311b9fb67",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "1b636845b91a34e909105fb5c9dcf60b0467390016068fbc4b0d0b7b2907c76b",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "5e54a463212d62e13885323aaa0a64837779f34a78d5510c9a1ca9da1d401074",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "14c4c812f3a270d27ff74b2869696c24a2913cef4fecc9f130a99de1f1587a26",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "46da9beec7c3de95710a6face0208d72ae1b1fdb2cde928a55603bc336902c5d",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "2d38a944fa0725e7bcc6d08075e11a7d4ca1f07115d17dce8f33c061b41182db",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "e0d1e9482e0d30d2020df125e57ee192a0ef24b2c0e052aed96e6d3ffe2f6ac9",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "eab4b1e91c36c9daed5f7ff8f441ad21242baf34f88e723e6443f69a890daccd",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "f4903251f62f58375bb05bb348f7c749ebfb9cb7500a45854c1f2727af50e658",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "desktop",
+   "baked_enabled": true,
+   "camera_fov": 69.9999923706055,
+   "camera_position": [
+    26.0,
+    4.0,
+    24.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-desktop-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "943f7022731c1713e7a3487c30df5ed36358bec0602c45d6e1d597c6e104efde",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-water-slate.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "92ef62818039caed7d5569c7d5b7fa5fbcf1efb7499788e8802581a6870d3bc5",
+   "timeline_time": 10.0,
+   "variant": "water-slate",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-ambient-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "f9d3c299cbd16ae88c162d3f3f75a3fc1660c3396e006f56ac0952289a587a40",
+   "timeline_time": 10.0,
+   "variant": "ambient-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-legacy-fog-noop.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "(0.24, 0.28, 0.34, 1.0)",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "9fe1bf94e20118702508b9297e6c123a641e97fa5838caa22e3a2c6069edf757",
+   "timeline_time": 10.0,
+   "variant": "legacy-fog-noop",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-distance-fog-neutral.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "c90e65446b7b8281f0b64ad838dcca07ba7149fd46f1f09751de467726b8eb3c",
+   "timeline_time": 10.0,
+   "variant": "distance-fog-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-reflection-neutral.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "da1981452683dea76b7144ec65460b91eb6bb3bef6968e29e944c18870fa32d7",
+   "timeline_time": 10.0,
+   "variant": "reflection-neutral",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "8d089bc325206ed0c13a3e9865e55069bceb0a7765a1f7ccf1a8dc9d61e53555",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "7b76e63fa663a71ac4a3f75655403fa9c868dd2339eb399d20032f0902f09bbd",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-charcoal-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "neutral_proposal",
+   "room": "aojing_guan",
+   "sha256": "f51c82101195bd7aea73c8a05c6a174a3aada8edbc8355ef8347580e142f17ac",
+   "timeline_time": 10.0,
+   "variant": "charcoal-combined",
+   "water_color": "(0.28, 0.3, 0.34, 1.0)"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "portrait",
+   "baked_enabled": true,
+   "camera_fov": 54.9999885559082,
+   "camera_position": [
+    26.0,
+    4.0,
+    23.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/aojing_guan-portrait-visible-water-control.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 550.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": true,
+   "reflection_shader": "original",
+   "room": "aojing_guan",
+   "sha256": "90fa39eadd1c7dc89db88d3ab8c32ed16fdc00f789b8aad4f0bcddfa21e8c520",
+   "timeline_time": 10.0,
+   "variant": "visible-water-control",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.35, 0.42, 0.3, 1.0)",
+   "aspect": "proposed-portrait",
+   "baked_enabled": true,
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    3.20000004768372,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-proposed-portrait-baseline.png",
+   "distance_fog_color": "(0.05, 0.2, 0.05, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "original",
+   "room": "ziling_zhou",
+   "sha256": "731ad1304fcc92ead45790cec004edefdf4f8c8633e988d5ba1dc35623bb88aa",
+   "timeline_time": 10.0,
+   "variant": "baseline",
+   "water_color": "<null>"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "proposed-portrait",
+   "baked_enabled": true,
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    3.20000004768372,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-proposed-portrait-slate-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "1c751ce34d4a43576353da4813aae0ceac825e7d06f813066ff22448d5316d65",
+   "timeline_time": 10.0,
+   "variant": "slate-combined",
+   "water_color": "(0.25, 0.32, 0.4, 1.0)"
+  },
+  {
+   "ambient_color": "(0.38, 0.38, 0.4, 1.0)",
+   "aspect": "proposed-portrait",
+   "baked_enabled": true,
+   "camera_fov": 60.0,
+   "camera_position": [
+    -40.0,
+    3.20000004768372,
+    6.0
+   ],
+   "capture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/water-palette/ziling_zhou-proposed-portrait-lighter-combined.png",
+   "distance_fog_color": "(0.1, 0.13, 0.18, 1.0)",
+   "legacy_fog_color": "<null>",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 576.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "reflection_enabled": false,
+   "reflection_shader": "neutral_proposal",
+   "room": "ziling_zhou",
+   "sha256": "00e7120a9d3fda737a20f9a9e6c5727f8c8888cf4ee77014a6ed5a4c99b00b56",
+   "timeline_time": 10.0,
+   "variant": "lighter-combined",
+   "water_color": "(0.38, 0.42, 0.48, 1.0)"
+  }
+ ],
+ "scope": "Isolated runtime water/ambient/distance-fog/reflection palette proposals. Live stage-fog color unchanged and actual attached fog timeline fixed10; legacy fog-color negative control. Nine independent/combined variants at exact current desktop/portrait camera poses and fixed shader timeline10; visible-water magenta controls; proposed reed camera captures labeled separately. Baked geometry/maps/source unchanged. No product adoption, phone, performance or final scene-art acceptance.",
+ "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+ "status": "comparison_complete_visual_review_pending",
+ "water_bindings": [
+  {
+   "layers": 1,
+   "material": "",
+   "mesh": "SITE_aojing-guan_MAT_aojing_water",
+   "shader": "res://shaders/pond_reflection.gdshader",
+   "surface": 0,
+   "world_position": "(0.0, 0.0, 0.0)"
+  },
+  {
+   "layers": 1,
+   "material": "Animated garden water",
+   "mesh": "SITE_qinfang-ting_MAT_water",
+   "shader": "res://shaders/water.gdshader",
+   "surface": 0,
+   "world_position": "(0.0, 0.0, 0.0)"
+  }
+ ]
+}
