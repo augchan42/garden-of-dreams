@@ -1,0 +1,1804 @@
+{
+  "status": "installed_ziling_portrait_actions_resize_and_adjacent_regressions_passed",
+  "scope": "Portrait island/footbridge/reed/pavilion-roof fits and public action/resize/rotation/text/visitor/touch invariants; original desktop camera retained; source unchanged. Not final all-site art/full moving-tour/phone/sustained acceptance.",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "ba6410c08a5ae7787823d261db68e4c3eac0430cb00952da3bf58c62bb5e35f4",
+  "test_sha256": "46b0e7ebb94d7f38668508b4675aca8993ca4053b99937685bb41646a8515052",
+  "focused_modes": 3,
+  "adjacent_regressions": 10,
+  "comparison_original_png_count": 65,
+  "baseline_original_png_count": 10,
+  "focused_original_png_count": 30,
+  "regression_original_png_count": 56,
+  "original_png_count": 161,
+  "checked_file_count": 248,
+  "files": {
+    "docs/reference/ziling-portrait-framing/early-comparisons/baseline-entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+    "docs/reference/ziling-portrait-framing/early-comparisons/command.json": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-1080x1978.png": "e019275f309d983af747636a2754691ecc1cb5b4c556b579efb41a4f27955264",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-944x1978.png": "070bdfa3232a31a2eec437ee70060f311d8a61f29076b58f1daf113669941978",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-1080x1978.png": "819e3027b12511e0ad4f7bfa6d5a7812ffd4c07bf64db5c4b371d4f7e844169a",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-944x1978.png": "a4ee205a701078fbd33229945a88cb588c4d8817f7258f3bade97d673b20fd82",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/desktop-baseline-1410x600.png": "accb70d4e5f8f5d8e8131bc3fc44ca161f28d4f75536b794d1f5fe8d76596192",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-360x800.png": "04fae68e6742ddd1617be01454df6929b7fb234b6b89a0fb13a5b4033d107857",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-390x844.png": "ebbb2ea7d19c89a13f16769881d6106a87bd40bd74393185b30765e559c1a465",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-360x800.png": "92302890005db6a9823ffc73eaa6866f06d464d18eb4e8762e4f59b4514285cd",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-390x844.png": "b97405edcd5f0a5d74f2843ab816eeb907827296ee461b15b749263977a028ff",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/report.json": "5ca44a2c8fd8204b8c009844cab931f7488c69009c3bbba733f0190588dac1ee",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-360x800.png": "8ab7aa259f76746a0c497e9eca61250bf98dfd46e1034c8ab6c8793f69ae31f7",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-390x844.png": "d71fe60345d8d2d6728c581e0f605a8d5aefa9344d0b9ad260fb7d44c7034c2c",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-360x800.png": "28f685be43a3121bae44fd5f52faab657389d9616652ec04ea043b4457a786e3",
+    "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-390x844.png": "4cdbe9ee3b66c04269964b17f3d8effcda324bb7e56556b6cc77f6bcc07db870",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/command.json": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-1080x1978.png": "540689d87e3d9af1f72e5d1abe5042f85e04a6dbaf3ad196bb7ddc33a83ebdb8",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-944x1978.png": "cf2ff5e38567a71f61793ebb7c6cce658f893f08bbcbfe3ea9f8afe6c4ee6e11",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-1080x1978.png": "f909d34987393aba0bd3d1be09ef12742258f3caed1a3c66895048c08959113a",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-944x1978.png": "61fc0ef970ac6371f7221b861f755b78fc46519bed2fa27040b3f11f90a1f827",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/desktop-baseline-1410x600.png": "5d6f68b2bb8c928f4c6044981cf6dad8bafe710a02f2ddca3ff29e18ac3e0eb3",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-360x800.png": "bc81afe48041e09aadba261909cd4801e98d2ef0af57da9cb0486556e7614311",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-390x844.png": "d357a5153122e8b3cf653f8ee99c27064509f0fb00a14f24ab087c686568f5b1",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-360x800.png": "88f2eebbd913c43b76d2fc5e6bf9f236f1a86600e2206aede7b6670da9755abb",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-390x844.png": "239cdf64245243a8a63e2960a2b10743c42c679dd846c1f796c33b4cf540bf6f",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/report.json": "c428f51e32c196cb0e37127b4cfd7b1c7e4868978ef91b6d9e646d8ed10f3cc9",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-360x800.png": "4b6866b4249ae035b7a3e9fbbe0a3e3fac31e3a34665ed4d7f4b4a26902275b2",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-390x844.png": "7f1fc74a9d79a5bcfc08ac77f9a382581687027a4ae3578fe94d0e20f39fbb37",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-360x800.png": "09ed38e067d162f468e0accab871f58647d6f839be054207e91b3acea11c5b03",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-390x844.png": "a5a32d71d0cc9527597c0518e6a74d1e4578f26e739b2ae03230d8105aeea0c2",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/executed-probe.gd": "686950ab996765031923a1af6961af10443d949ea11181870fa7425df5a69d3b",
+    "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/native-comparison.log": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+    "docs/reference/ziling-portrait-framing/early-comparisons/garden_run_ziling.py": "a360770b99e52d41a6ef8f7bca62b5cf4b7112267963731dfc2fe6883aa8f97d",
+    "docs/reference/ziling-portrait-framing/early-comparisons/inventory.json": "405223673dec9d53ab8f3d4f34d421871df315bb677bbb1f738abb040611bbca",
+    "docs/reference/ziling-portrait-framing/early-comparisons/native-comparison.log": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+    "docs/reference/ziling-portrait-framing/early-comparisons/preparation.json": "72d435cc16382e6c65725ac92c155763907d07c1e689c3e5a541576ae0bfe7bc",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/command.json": "59e897df1d2ef2f1a6057c137fe046372e00bdac68bc7f51820529431dc6b6c4",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-1080x1978.png": "a5248a53fd475f6aa364ed51a3a895d253c7b0051b7784ddff62d7b792cea840",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-944x1978.png": "a2d757ebcee74d42c36be7f1de0fb2d44c2aa92f3d580fe2efe4ac65176a423f",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-1080x1978.png": "a905710da643712e408ab32181a567ea25c715892dc987c90b6e9ea46c483906",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-944x1978.png": "4b7f245e1a39d7b818ac52395439c7a3febe2b099b6f820fd209d9e9f6eee2a2",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/desktop-baseline-1410x600.png": "22390cb94e0058a227d1cc9d7fc080ac64487fc3ad483bb6d36b6eddaa398c07",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-360x800.png": "ef66719bbd40a94407d7b369a860c763fb4fc0452a1d41710e534e0808145983",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-390x844.png": "0d634d89b410b191ea18177e664e90888cb3107760c0575a642e0cf869d821d4",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-360x800.png": "b1bd2e1dd6a786fb37b02886607dc561431b0262bcc7d39a92b08f5e84484b32",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-390x844.png": "d8d6aea32d0ba3ebe48497e34163a498c81d779e5590cc7aed562510c8a3258d",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/report.json": "3f73f9847ef81133671608c96971ff2654384c9739c8ad58f7b038dc0dabd86e",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-360x800.png": "ea95b4f077b7b9c5475c2f5246bccf120bb5a6d78095ea4a3d19b8c0aa88a75a",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-390x844.png": "d475a81577ca18fd6639a3d186c52d919ef173e8dd615977082b7b27d7b52d4a",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-360x800.png": "33b9733fa951802eefd486817692a5796b055b7788c7b9f6a74490135aa16346",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-390x844.png": "c08f90d3c33ccdf07787602e844cd3722c08c1118d88f5f36b9edd2e47633cb3",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/executed-probe.gd": "61a9272e243ef3bf32327aa60664b884491aae6a8bb4b9deebe663fa2353c7d7",
+    "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/native-comparison.log": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+    "docs/reference/ziling-portrait-framing/early-comparisons/third-executed-probe.gd": "fe7df221b8702cb17a49204bfef04111aaa07e38f8bc7e69f5c51c35ba046c69",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-command.json": "0ef03d4daf985e8d8386b5554713cc620e0843d3275caf0379d7e3adcf3dd65e",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-1080x1980.png": "5cf60a5f45b198f634bade9eeca4a06105dbe15751e4dd00250966d30e63fca9",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-944x1980.png": "1034181c423958f2980897c158143cbd40a255af9f89d79e84f56d16cc4d70ae",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-1080x1980.png": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-944x1980.png": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/desktop-baseline-1410x600.png": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-360x800.png": "8271fd67c41f2c214d7e9d6689e2c92b08d09b84c8e7ce6a093759d3bd98ca97",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-390x844.png": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-360x800.png": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-390x844.png": "b2c1471e9b0f5e5d8a6d64d4e639255ed8e2156d81a8beef804a1452aeb4acf9",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/report.json": "089111d7f9c6432f3552216264037b8b4e20265e598f12c0101baf2d67a51b53",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-360x800.png": "03ac872db7d78f167ef2f3835b95f3150e7c7300312189af75baca3b90b767b5",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-390x844.png": "1c83a2be7f7a4e9a9a45192903afa105fb0834d5d6d7f40c27e9f643eadc25c3",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-360x800.png": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-390x844.png": "de2208d32e912207846f71447d6d2074dc79285c8f55717008d967dd21312c7f",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-executed-probe.gd": "49bb33cd4a6d985048a91924b5f6f3bf851a03b3ecd2b88de4042ae2a922647d",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-native.log": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_prepare_ziling_axis.py": "24c097e85c2f42186e001716c80d4c02a51b61cfe7c3cab6b3bad23fcbe15797",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_prepare_ziling_roof.py": "b38627fb8aad31a978a9dcacdd89e04ab01b34e8086b6708939310a104df21e9",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_run_ziling_axis.py": "0d515fe33c377bcf5e07c5f012511f70e023ae162c4571963a121b67a33f7d33",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_run_ziling_roof.py": "22c355304760f112df1a7b62ad116526662f8ad904bad3e20d2872b05522a888",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/inventory.json": "53c16e7ab25ec679001a99900ed9b853368d4ae80938debd70efec5bdb2bb37f",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-command.json": "3914fff9a641d4a7fd901c7dc5f3dd2734ae38cc6a8bd7ebb7ed7fdd7c1c9217",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-1080x1980.png": "5cf60a5f45b198f634bade9eeca4a06105dbe15751e4dd00250966d30e63fca9",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-944x1980.png": "1034181c423958f2980897c158143cbd40a255af9f89d79e84f56d16cc4d70ae",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-1080x1980.png": "06e79a691ed58aa38377b99aaa45eec1a411b7d4ed2ce18a08b819811742720c",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-944x1980.png": "97424b9318069bede7cc02ad931f60f7bd4f346685493170e6b54ffe1b0508d4",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/desktop-baseline-1410x600.png": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-360x800.png": "8271fd67c41f2c214d7e9d6689e2c92b08d09b84c8e7ce6a093759d3bd98ca97",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-390x844.png": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-360x800.png": "07cb0c9e54fd8aae0767743c3e97dc125ec0dbb662fb1118c1606cdb83fe139b",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-390x844.png": "3c1bbe0a737d0594971605dc269e81b98539e1fb0c1d39a8a8a560d36141a2e3",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/report.json": "bd32cfd9810a9372b1bf934e387f9c724cd6f832cc22e157f4997cfa336682b8",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-360x800.png": "03ac872db7d78f167ef2f3835b95f3150e7c7300312189af75baca3b90b767b5",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-390x844.png": "1c83a2be7f7a4e9a9a45192903afa105fb0834d5d6d7f40c27e9f643eadc25c3",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-360x800.png": "8517869e05dd6987cfbee78492e2a055f53af5a0d515be3e3b861aaff06369da",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-390x844.png": "c1bd5acf92674df209c710962d746821912c484587ffce7409719d642e076484",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-executed-probe.gd": "d95e14a6ce023d2cf6e07c731d886135dbca900b5f698a384c4504ed9380363e",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-native.log": "1d28bd5c496998e9f607859f4b8520275268cef27201854ec5833230d47c5ce8",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/garden_preview.tscn": "b03ac5b1803667b2245d2a60b900b594d7757d6b04ddbeead7217ba8779fc261",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/materials/water.tres": "008077aed67ac61d44240b0bc96e693c068e2d6f3a4d28086887821e372dab1c",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/runtime/entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+    "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/shaders/pond_reflection.gdshader": "cd10826f67b5b7b05b9ce40b997606cd6b2ba593901c25fc760ffe18b925d663",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-desktop.png": "80f3aa0ab02d61a8662f80a81cea980304d3c2e126c1daea1f1066d823f77e48",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-narrow.png": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-portrait.png": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-return.png": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-narrow.png": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-portrait.png": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-desktop.png": "2d830381df6ae22a6c1d49eee8e8c70ab39a643110f2d050cc97efab9118b591",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-narrow.png": "e6e2688cc3d7a70af818cce6a7ad05b168fc6e90f53a61141c23fe2a2bfbc9e6",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-portrait.png": "1e78bda982908730817a4f93d02e9d0a8ae18460a91d26de8695531f3f21855a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-return.png": "1e78bda982908730817a4f93d02e9d0a8ae18460a91d26de8695531f3f21855a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density/report.json": "c4b782899df4a0d99a906d49b4a67924ac0f055ae6e53e319b108b570d60bc1d",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-density.log": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-focused-pipeline.json": "8f7b3a70ba4609fefd85b4e6878009d84e682ddf3f61a0840935336c55c0ed02",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-desktop.png": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-narrow.png": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-portrait.png": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-return.png": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-narrow.png": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-portrait.png": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-desktop.png": "2eb95cfd4a8b867182179010c0c042bc0f29056475a959a6a6e9168da6534c7a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-narrow.png": "fac9fdb5805f89dc5d516b34059c37a91d46ab5a5b53d5cdf41a7b715f52ad0d",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-portrait.png": "a1a66ff87823c410dafe8c6f1061ee5b1237d7ba5d755074a5813fcebf8419dd",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-return.png": "a1a66ff87823c410dafe8c6f1061ee5b1237d7ba5d755074a5813fcebf8419dd",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal/report.json": "164869ffbf5070c8aa881f825a726e185ad5552115df4f87fe9b1e662c1373ad",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-normal.log": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-desktop.png": "e8e9c2cebf5b2b7ffe342d61ea8b115314baf2c85d3a9cc00e5beb78cd9ac42a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-narrow.png": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-portrait.png": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-return.png": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-narrow.png": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-portrait.png": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-desktop.png": "38a7ad00434b2a1cf91e0548e18e6a1aded100d624892aceba94ed6f650e9c08",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-narrow.png": "1d45a108738445c5c41b68c065a089f8c915fdb60a1908af52567bfd83a2c09e",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-portrait.png": "2459be349d11e73edaf11a2cd8d1fd250f98e7dacaa34a8279a58c0e328d806a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-return.png": "2459be349d11e73edaf11a2cd8d1fd250f98e7dacaa34a8279a58c0e328d806a",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch/report.json": "df31631ffaf80dd1857680699dbd26fa8d2f1a790d664e7a7a5006c36d6f6f4c",
+    "docs/reference/ziling-portrait-framing/runtime/accepted-touch.log": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-desktop.png": "b78ed7494d0ec50d5fc83b31b6311eb7b1e531f901fb8b2f564191bdb3324930",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-narrow.png": "5130a5d1bff73aa5ee688922ab023e931cc42b31fd6a851548174edeb798c151",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-portrait.png": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-return.png": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/look-narrow.png": "5130a5d1bff73aa5ee688922ab023e931cc42b31fd6a851548174edeb798c151",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/look-portrait.png": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-desktop.png": "f1461c9db9ef46fb2ebecb81ae4d266456809f41f1b06bab3ccc2cf97316ce41",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-narrow.png": "3b8821120934b5682dd252975a3948de7f4699ff2c8e2fff6d136cced02a9b58",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-portrait.png": "a55390d2a58090025c54bb2bb7d73e48062609a606a2d45dd5a3c5ea457ac96a",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-return.png": "a55390d2a58090025c54bb2bb7d73e48062609a606a2d45dd5a3c5ea457ac96a",
+    "docs/reference/ziling-portrait-framing/runtime/baseline/report.json": "345b761b99e735f6592852c098b2e2bf74e8014e46577144bb1d7c4ccec8a4b7",
+    "docs/reference/ziling-portrait-framing/runtime/baseline-command.json": "4fda38275403a78889c66ff13ebe1bd9959a08590d5d194fc3cb2176b7464752",
+    "docs/reference/ziling-portrait-framing/runtime/baseline-entry_route.gd": "6c80b98a10dcce59834dc96b99e69ba086857f99c1f78e3f9a0384a36ffa9e6c",
+    "docs/reference/ziling-portrait-framing/runtime/baseline-exit.json": "cbc576460dd80625edaa5dd9cd0dff088667a87c97184103a00da10819771e3f",
+    "docs/reference/ziling-portrait-framing/runtime/baseline-test_ziling_framing.gd": "46b0e7ebb94d7f38668508b4675aca8993ca4053b99937685bb41646a8515052",
+    "docs/reference/ziling-portrait-framing/runtime/baseline.log": "61fde212bdde30096d8a7f1b9657fcd925f13bab9559b0564b605ff80455306a",
+    "docs/reference/ziling-portrait-framing/runtime/production-source-contract.json": "529c5cd3aa28f4c06b6718ce35c7718a3b81a2b564ab82af104dbac15f43a6ae",
+    "docs/reference/ziling-portrait-framing/runtime/regression-cold-import.log": "6017d7bc69803405e012af88dd1700f1c4d923cb6bd140aac8dfed8af013c16b",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png": "3b954ee84c77a91112d26445aabd3752a3751f0367528734da56a4fe94ce9642",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png": "dc3227802addca7efdf03ec1ccfcd635a991d45bbc5a118f50efcd4a078f39a4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png": "bcbe2f6cebf32934d038b3ead122afaa0cf5aa26c9e417df2a68a34036fd79b3",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png": "3b954ee84c77a91112d26445aabd3752a3751f0367528734da56a4fe94ce9642",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png": "88944467c9b332b24203737a04260639ed0693be60c34eedab59f4a3ecb544a5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/report.json": "d033f2e7a3620328145c4866e1db2088d76e3ce6e93bae5b914099f512052f4a",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png": "df16e2b75640d5067fa0d660582aec45162f2bea0b6cb8ee551bf28059411bd5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png": "dc3227802addca7efdf03ec1ccfcd635a991d45bbc5a118f50efcd4a078f39a4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png": "89f82d7754c798ea66e92e5e46dff107bf847662e9f7ccc89bb886757d20a287",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png": "df16e2b75640d5067fa0d660582aec45162f2bea0b6cb8ee551bf28059411bd5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png": "e0489b5a4d4d40cffdea67f3af4c10358edf22c3d1665241246e67127df75fb1",
+    "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details.log": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+    "docs/reference/ziling-portrait-framing/runtime/regression-mobile-ui.log": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+    "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "b1df7e25de1c488c57d230bb19f093090979e4a889ed49ae89db53cdf08a71d4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png": "0e8e829b97c312de0d723e211eaeb6408c48f2e919b7bf36fbb030da4d7c11a9",
+    "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png": "f8f0ab7c5559cb3012eb9d666d62920f9e35427b5982e1c58d2a24f0357b3cf5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/report.json": "b14f780aa95f20e3e51edaaaff9856a22cd989d0b52a8ac5474f04457e5bc6b5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing.log": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971",
+    "docs/reference/ziling-portrait-framing/runtime/regression-pipeline.json": "0f3602711dfa90492895011bbecd6317d22ad011da97beae091c9ea854549899",
+    "docs/reference/ziling-portrait-framing/runtime/regression-pond-view.log": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "cb978950dc919e8415978f6705830a6fe105fdd170948c3a7d7f138442a3f428",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "390930d25a4e29c0fbe0c0546b88f4f262c65269eb82fabd922ebd492dc704cb",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "cba335f24187804aa4b94dadc9c2ffa12f33a875fc839b1887aa96b2fe98cbfb",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "de6aedd0ad7c7a06a38112d4ce63560fb30790b6eb4a3508f3cf846a4d924f9f",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "d5cf576559065c808ecc03c78cbc814af2966d78f6e77547b0a33b11d8bf9e53",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "e2ed44812a806e88547057e9adf2a165420c1eb118d047ace172e879ada82524",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "0e2f9362543a330795b7762926582893b914388a2ece89b04a26d2b8fcd9fe91",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "d68b6d9eb7fba8566df8fd538bb7095a840bc3ac04cf7db46a4945cc2d860ee6",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "fad20cb09d767ed71d37231ce8192ef3539e98426efb378c3ae27af69494b38b",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "e2ed44812a806e88547057e9adf2a165420c1eb118d047ace172e879ada82524",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "2870d9ef517184a53bb948214bf3ec824bd61e35262cf598cc99f7b2fd85fc2d",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "747d6ad409d825a95348a69ba1b6cd07fff39ed8905593fcd53ac1021beca3c8",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "8c53c9e479b40fab90eb46da0ea8802856539fcc3a95a62a43ee5e53c08834b8",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "82cb47d5a8a46eeb78298facfc36ac08de158693a3b47a2716d407ff4892e8b7",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "22bcf2a110f6775e1579e6b9e7ca2ca5ca105ae9d71fe7971473b87e9ec45d2e",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/report.json": "5dd50f04b98ed6a05ec7312e3b93b64a783a992a1812a6fa17503777f54f3b95",
+    "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture.log": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-desktop.png": "eb8421fdd9d0b6bc29141225568590cef0c4b8cfc21b39dc65ccc50a38304f76",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-narrow.png": "61080e7d7209c9f2ac79a107b4d332e1191f3cc5a20cd151b90a9004268b7f8a",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-portrait.png": "4b00eef6ce43f6eaf6784edea8ac3ee281d7b1096b05cc24e3d8ac9547632e2b",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-return.png": "ed090f60fa0ae94f0828dfc9133db5a6a6fa89b8546b11ffca35f3e2130cb1d0",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-desktop.png": "a4ff0d72d8c5f07081e4b78ae9b86dd9f33d9718affabea14f724f3716628d0b",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-narrow.png": "4fb5226ff28b3c5b043ecb1a43748dd7acde9d81cf7deca0c527f199f48cf884",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-portrait.png": "4a386144ce154d8dbad3eef3ac97b9aba5d73b07f6dca2b179536f0046260cd4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-return.png": "4a386144ce154d8dbad3eef3ac97b9aba5d73b07f6dca2b179536f0046260cd4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-desktop.png": "b7c296701d7f97cfe881393aaecfa1ffc0c0036c9fff853b5376c53b03bc6eeb",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-narrow.png": "20a85d669758d1af065524b1931df8cc268bc83901ca40a2e12dc996f09845a7",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-portrait.png": "bea9f2793447d213fc421348478e38e7878ec9b9fec72890e1dd3c635a998247",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-return.png": "bea9f2793447d213fc421348478e38e7878ec9b9fec72890e1dd3c635a998247",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-narrow.png": "aea5c64160f0fb860d9f62ceee415cffbb32f2a56de57abd320be9328b6a057f",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-portrait.png": "4df8d050a17416fa1f1017fe58653727cf6ff0dd1cd46218d12f91c93f241021",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/report.json": "af5ed37441608c15f1bd571351ea5a258324322b72067b74c37365ec7204af55",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-desktop.png": "6150ff9a562329d9cfa2e1c2b0d4614f195a9af13236cbe1f7efc9bf6d2c5802",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-narrow.png": "fc6200be8fdc97080fbbe80510317a337930e12fe1c6f440dba3ff318c741854",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-portrait.png": "772cfda78ce7af04c4559d23ffac41ebcb5e71cbd94d9cdccccc534680d7ae7d",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-return.png": "772cfda78ce7af04c4559d23ffac41ebcb5e71cbd94d9cdccccc534680d7ae7d",
+    "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing.log": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58",
+    "docs/reference/ziling-portrait-framing/runtime/regression-source-contract.log": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-desktop.png": "ce07835c26ead6229f7a1fac3cfc2e128341f489534af1f8661edf438fd4ee8c",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-narrow.png": "a0f401f9deb70a8e1be252efbfd8423ec612216e73e1e3d8632a7ed9d4b5cdde",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-portrait.png": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-return.png": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-narrow.png": "a0f401f9deb70a8e1be252efbfd8423ec612216e73e1e3d8632a7ed9d4b5cdde",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-portrait.png": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-desktop.png": "7d2bab502d636fe43a36884ec32323057ebbdd959ad0513632ad04f444f17f45",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-narrow.png": "6807213250d6af0e06f0eb35f60cadfc25eb9babc06bed8c11ad697c22e53041",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-portrait.png": "03b058e19f946311b9f444348ff970c825120a9d867dcb103be7d36137f4d311",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-return.png": "717c9292b2bae32e5bd498258c6809fc3758146c07bcbb545f6ab5f95b1bb4c4",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/report.json": "480321898c9858e0303c60509c724a1e8cfeeb51c38763603eb34788bea2d796",
+    "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing.log": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5",
+    "docs/reference/ziling-portrait-framing/runtime/regression-western-route.log": "16242fc0f851486b4c603d5fcf9875f9b04b9109db517ed3525dd6f8db15679b",
+    "docs/reference/ziling-portrait-framing/runtime/source-preservation.json": "2adf178f721a50c9694f67a398d162dab11eb55dc9e65e065a0415cd8b60ca0f",
+    "docs/reference/ziling-portrait-framing/runtime/visual-review.json": "a9000ddb245b47052d1e415971eb07bfab6651a06cc3fdcf9f9e2c7589a80ba7",
+    "docs/reference/ziling-portrait-framing/helpers/garden_test_ziling.py": "4b735e4919765fa67a15f4f5bfad776df8b35ad0829a866b1615932410b9b28c",
+    "docs/reference/ziling-portrait-framing/helpers/garden_run_ziling_baseline.py": "f49ef5f09b6043325c7b9e305bf9fccc44d9be3a66a0a70c4b55cd8a0a4ffecc",
+    "docs/reference/ziling-portrait-framing/helpers/garden_review_ziling_framing.py": "6fd3a9c9a6e191b08be04381f85e13074b81f576f870e537f16c6f86d7e1ba53",
+    "docs/reference/ziling-portrait-framing/helpers/garden_archive_ziling_framing.py": "bdaac6e4910a9a8545174220e1cf27a5c0ed8ba3bcd83bc2f4b691708fe1864c",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/runtime/entry_route.gd": "ba6410c08a5ae7787823d261db68e4c3eac0430cb00952da3bf58c62bb5e35f4",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/runtime/entry_route.tscn": "ce3284f69007a3382077724b37e5ee020303c985f4a7f39f31e684318927ce7b",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_ziling_framing.gd": "46b0e7ebb94d7f38668508b4675aca8993ca4053b99937685bb41646a8515052",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_import_source_contract.gd": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/source-contract.json": "a2878bf3b098cbaae911824c1f1ad2d2f71fb81cd7cccc9fee722b2eeb48954e",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_western_route.gd": "25e2c87f1e909f11869201ee646c1c549e37321cd368caaa35e2b5161631bba8",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd": "5326cf11d8912ef797d9546be7d5167f039dc2a63f104e6566579b87f0905ebf",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_pond_view.gd": "befb4fd76e6d2f0097acae0b090548ed0a95302a2e16c4f6ad375301a32704d1",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_tubi_framing.gd": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_qiushuang_framing.gd": "f8eb7570d0d069f749677cf179a2f59b0354ca0e0e87190a5f92c676db24cf94",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_portrait_architecture.gd": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd": "8a4994b8d8ffa37b5d573b76c819d264d5bdc91c92675da7f82f0c2254f71459",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_oux_portrait_framing.gd": "775cc6f12083f238f4ff88eabb6fe5e1e809c50c5056b2faef5ca9a63c99b2d3",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/garden_preview.tscn": "b03ac5b1803667b2245d2a60b900b594d7757d6b04ddbeead7217ba8779fc261",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/materials/water.tres": "008077aed67ac61d44240b0bc96e693c068e2d6f3a4d28086887821e372dab1c",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/materials/stage/fog.tres": "45d38d1b21f7711075929d9562c2905c503c163d987e997ada10fc684d4b43d7",
+    "docs/reference/ziling-portrait-framing/installed-code/godot/shaders/pond_reflection.gdshader": "cd10826f67b5b7b05b9ce40b997606cd6b2ba593901c25fc760ffe18b925d663",
+    "docs/reference/ziling-portrait-framing/README.md": "1de759273102e26775cd9fcc165887cee1a58c9b967a42dea214fc24f6a59d8a"
+  },
+  "artifact_locations": {
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/baseline-entry_route.gd": "docs/reference/ziling-portrait-framing/early-comparisons/baseline-entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/command.json": "docs/reference/ziling-portrait-framing/early-comparisons/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/density-baseline-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/density-baseline-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/density-measured-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/density-measured-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/desktop-baseline-1410x600.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/desktop-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/normal-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/normal-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/normal-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/normal-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/report.json": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/touch-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/touch-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/touch-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/comparison/touch-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/command.json": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/density-baseline-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/density-baseline-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/density-measured-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/density-measured-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/desktop-baseline-1410x600.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/desktop-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/normal-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/normal-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/normal-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/normal-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/report.json": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/touch-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/touch-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/touch-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/comparison/touch-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/executed-probe.gd": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/first-attempt/native-comparison.log": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/garden_run_ziling.py": "docs/reference/ziling-portrait-framing/early-comparisons/garden_run_ziling.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/inventory.json": "docs/reference/ziling-portrait-framing/early-comparisons/inventory.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/native-comparison.log": "docs/reference/ziling-portrait-framing/early-comparisons/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/preparation.json": "docs/reference/ziling-portrait-framing/early-comparisons/preparation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/command.json": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/density-baseline-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/density-baseline-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/density-measured-1080x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-1080x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/density-measured-944x1978.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-944x1978.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/desktop-baseline-1410x600.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/desktop-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/normal-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/normal-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/normal-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/normal-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/report.json": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/touch-baseline-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/touch-baseline-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/touch-measured-360x800.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/comparison/touch-measured-390x844.png": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/executed-probe.gd": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/second-attempt/native-comparison.log": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/native-comparison.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-framing-comparison/third-executed-probe.gd": "docs/reference/ziling-portrait-framing/early-comparisons/third-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-command.json": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/density-baseline-1080x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-1080x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/density-baseline-944x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-944x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/density-measured-1080x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-1080x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/density-measured-944x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-944x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/desktop-baseline-1410x600.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/desktop-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/normal-baseline-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/normal-baseline-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/normal-measured-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/normal-measured-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/report.json": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/touch-baseline-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/touch-baseline-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/touch-measured-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-comparison/touch-measured-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-executed-probe.gd": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/axis-native.log": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-native.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/garden_prepare_ziling_axis.py": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_prepare_ziling_axis.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/garden_prepare_ziling_roof.py": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_prepare_ziling_roof.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/garden_run_ziling_axis.py": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_run_ziling_axis.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/garden_run_ziling_roof.py": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/garden_run_ziling_roof.py",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/inventory.json": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/inventory.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-command.json": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/density-baseline-1080x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-1080x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/density-baseline-944x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-944x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/density-measured-1080x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-1080x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/density-measured-944x1980.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-944x1980.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/desktop-baseline-1410x600.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/desktop-baseline-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/normal-baseline-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/normal-baseline-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/normal-measured-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/normal-measured-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/report.json": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/touch-baseline-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/touch-baseline-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/touch-measured-360x800.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-comparison/touch-measured-390x844.png": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-executed-probe.gd": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-executed-probe.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/roof-native.log": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-native.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/tested-runtime/garden_preview.tscn": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/garden_preview.tscn",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/tested-runtime/materials/water.tres": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/materials/water.tres",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/tested-runtime/runtime/entry_route.gd": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/runtime/entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-roof-axis-comparison/tested-runtime/shaders/pond_reflection.gdshader": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/tested-runtime/shaders/pond_reflection.gdshader",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/reeds-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/reeds-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/reeds-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/reeds-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density/report.json": "docs/reference/ziling-portrait-framing/runtime/accepted-density/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-density.log": "docs/reference/ziling-portrait-framing/runtime/accepted-density.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-focused-pipeline.json": "docs/reference/ziling-portrait-framing/runtime/accepted-focused-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/reeds-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/reeds-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/reeds-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/reeds-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal/report.json": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-normal.log": "docs/reference/ziling-portrait-framing/runtime/accepted-normal.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/reeds-desktop.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/reeds-narrow.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/reeds-portrait.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/reeds-return.png": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch/report.json": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/accepted-touch.log": "docs/reference/ziling-portrait-framing/runtime/accepted-touch.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/baseline/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/baseline/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/reeds-desktop.png": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/reeds-narrow.png": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/reeds-portrait.png": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/reeds-return.png": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline/report.json": "docs/reference/ziling-portrait-framing/runtime/baseline/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline-command.json": "docs/reference/ziling-portrait-framing/runtime/baseline-command.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline-entry_route.gd": "docs/reference/ziling-portrait-framing/runtime/baseline-entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline-exit.json": "docs/reference/ziling-portrait-framing/runtime/baseline-exit.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline-test_ziling_framing.gd": "docs/reference/ziling-portrait-framing/runtime/baseline-test_ziling_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/baseline.log": "docs/reference/ziling-portrait-framing/runtime/baseline.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/production-source-contract.json": "docs/reference/ziling-portrait-framing/runtime/production-source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-cold-import.log": "docs/reference/ziling-portrait-framing/runtime/regression-cold-import.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/read-button-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/read-look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/read-resize-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/read-return-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/read-rotate-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/report.json": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/rocks-button-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/rocks-look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/rocks-resize-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/rocks-return-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details/rocks-rotate-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-hengwu-details.log": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-mobile-ui.log": "docs/reference/ziling-portrait-framing/runtime/regression-mobile-ui.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-ouxiang-framing/ouxiang-1410x600.png": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-ouxiang-framing/ouxiang-360x800.png": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-ouxiang-framing/ouxiang-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-ouxiang-framing/report.json": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-ouxiang-framing.log": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-pipeline.json": "docs/reference/ziling-portrait-framing/runtime/regression-pipeline.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-pond-view.log": "docs/reference/ziling-portrait-framing/runtime/regression-pond-view.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daguan_lou-look-360x800.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/longcui_an-doors-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/longcui_an-look-360x800.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/longcui_an-overview-landscape.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/longcui_an-resized-390x844.png": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture/report.json": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-portrait-architecture.log": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/centre-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/centre-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/centre-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/centre-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/left-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/left-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/left-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/left-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/report.json": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/right-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/right-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/right-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing/right-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-qiushuang-framing.log": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-source-contract.log": "docs/reference/ziling-portrait-framing/runtime/regression-source-contract.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/arrival-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/arrival-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/arrival-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/arrival-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/look-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/look-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/overlook-desktop.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-desktop.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/overlook-narrow.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-narrow.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/overlook-portrait.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-portrait.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/overlook-return.png": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-return.png",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing/report.json": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/report.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-tubi-framing.log": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/regression-western-route.log": "docs/reference/ziling-portrait-framing/runtime/regression-western-route.log",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/source-preservation.json": "docs/reference/ziling-portrait-framing/runtime/source-preservation.json",
+    "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-runtime/visual-review.json": "docs/reference/ziling-portrait-framing/runtime/visual-review.json",
+    "/tmp/garden_test_ziling.py": "docs/reference/ziling-portrait-framing/helpers/garden_test_ziling.py",
+    "/tmp/garden_run_ziling_baseline.py": "docs/reference/ziling-portrait-framing/helpers/garden_run_ziling_baseline.py",
+    "/tmp/garden_review_ziling_framing.py": "docs/reference/ziling-portrait-framing/helpers/garden_review_ziling_framing.py",
+    "/tmp/garden_archive_ziling_framing.py": "docs/reference/ziling-portrait-framing/helpers/garden_archive_ziling_framing.py",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/runtime/entry_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/runtime/entry_route.tscn": "docs/reference/ziling-portrait-framing/installed-code/godot/runtime/entry_route.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_ziling_framing.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_ziling_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_import_source_contract.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_import_source_contract.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/source-contract.json": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/source-contract.json",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_western_route.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_western_route.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_mobile_ui_scaling.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_mobile_ui_scaling.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_pond_view.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_pond_view.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_tubi_framing.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_tubi_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_qiushuang_framing.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_qiushuang_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_portrait_architecture.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_portrait_architecture.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_hengwu_detail_framing.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_hengwu_detail_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/tests/test_oux_portrait_framing.gd": "docs/reference/ziling-portrait-framing/installed-code/godot/tests/test_oux_portrait_framing.gd",
+    "/Users/auchan/projects/garden-of-dreams/godot/garden_preview.tscn": "docs/reference/ziling-portrait-framing/installed-code/godot/garden_preview.tscn",
+    "/Users/auchan/projects/garden-of-dreams/godot/materials/water.tres": "docs/reference/ziling-portrait-framing/installed-code/godot/materials/water.tres",
+    "/Users/auchan/projects/garden-of-dreams/godot/materials/stage/fog.tres": "docs/reference/ziling-portrait-framing/installed-code/godot/materials/stage/fog.tres",
+    "/Users/auchan/projects/garden-of-dreams/godot/shaders/pond_reflection.gdshader": "docs/reference/ziling-portrait-framing/installed-code/godot/shaders/pond_reflection.gdshader"
+  },
+  "original_pngs": [
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-1080x1978.png",
+      "sha256": "e019275f309d983af747636a2754691ecc1cb5b4c556b579efb41a4f27955264",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-baseline-944x1978.png",
+      "sha256": "070bdfa3232a31a2eec437ee70060f311d8a61f29076b58f1daf113669941978",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-1080x1978.png",
+      "sha256": "819e3027b12511e0ad4f7bfa6d5a7812ffd4c07bf64db5c4b371d4f7e844169a",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/density-measured-944x1978.png",
+      "sha256": "a4ee205a701078fbd33229945a88cb588c4d8817f7258f3bade97d673b20fd82",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/desktop-baseline-1410x600.png",
+      "sha256": "accb70d4e5f8f5d8e8131bc3fc44ca161f28d4f75536b794d1f5fe8d76596192",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-360x800.png",
+      "sha256": "04fae68e6742ddd1617be01454df6929b7fb234b6b89a0fb13a5b4033d107857",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-baseline-390x844.png",
+      "sha256": "ebbb2ea7d19c89a13f16769881d6106a87bd40bd74393185b30765e559c1a465",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-360x800.png",
+      "sha256": "92302890005db6a9823ffc73eaa6866f06d464d18eb4e8762e4f59b4514285cd",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/normal-measured-390x844.png",
+      "sha256": "b97405edcd5f0a5d74f2843ab816eeb907827296ee461b15b749263977a028ff",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-360x800.png",
+      "sha256": "8ab7aa259f76746a0c497e9eca61250bf98dfd46e1034c8ab6c8793f69ae31f7",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-baseline-390x844.png",
+      "sha256": "d71fe60345d8d2d6728c581e0f605a8d5aefa9344d0b9ad260fb7d44c7034c2c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-360x800.png",
+      "sha256": "28f685be43a3121bae44fd5f52faab657389d9616652ec04ea043b4457a786e3",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/comparison/touch-measured-390x844.png",
+      "sha256": "4cdbe9ee3b66c04269964b17f3d8effcda324bb7e56556b6cc77f6bcc07db870",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-1080x1978.png",
+      "sha256": "540689d87e3d9af1f72e5d1abe5042f85e04a6dbaf3ad196bb7ddc33a83ebdb8",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-baseline-944x1978.png",
+      "sha256": "cf2ff5e38567a71f61793ebb7c6cce658f893f08bbcbfe3ea9f8afe6c4ee6e11",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-1080x1978.png",
+      "sha256": "f909d34987393aba0bd3d1be09ef12742258f3caed1a3c66895048c08959113a",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/density-measured-944x1978.png",
+      "sha256": "61fc0ef970ac6371f7221b861f755b78fc46519bed2fa27040b3f11f90a1f827",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/desktop-baseline-1410x600.png",
+      "sha256": "5d6f68b2bb8c928f4c6044981cf6dad8bafe710a02f2ddca3ff29e18ac3e0eb3",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-360x800.png",
+      "sha256": "bc81afe48041e09aadba261909cd4801e98d2ef0af57da9cb0486556e7614311",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-baseline-390x844.png",
+      "sha256": "d357a5153122e8b3cf653f8ee99c27064509f0fb00a14f24ab087c686568f5b1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-360x800.png",
+      "sha256": "88f2eebbd913c43b76d2fc5e6bf9f236f1a86600e2206aede7b6670da9755abb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/normal-measured-390x844.png",
+      "sha256": "239cdf64245243a8a63e2960a2b10743c42c679dd846c1f796c33b4cf540bf6f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-360x800.png",
+      "sha256": "4b6866b4249ae035b7a3e9fbbe0a3e3fac31e3a34665ed4d7f4b4a26902275b2",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-baseline-390x844.png",
+      "sha256": "7f1fc74a9d79a5bcfc08ac77f9a382581687027a4ae3578fe94d0e20f39fbb37",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-360x800.png",
+      "sha256": "09ed38e067d162f468e0accab871f58647d6f839be054207e91b3acea11c5b03",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/first-attempt/comparison/touch-measured-390x844.png",
+      "sha256": "a5a32d71d0cc9527597c0518e6a74d1e4578f26e739b2ae03230d8105aeea0c2",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-1080x1978.png",
+      "sha256": "a5248a53fd475f6aa364ed51a3a895d253c7b0051b7784ddff62d7b792cea840",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-baseline-944x1978.png",
+      "sha256": "a2d757ebcee74d42c36be7f1de0fb2d44c2aa92f3d580fe2efe4ac65176a423f",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-1080x1978.png",
+      "sha256": "a905710da643712e408ab32181a567ea25c715892dc987c90b6e9ea46c483906",
+      "pixels": [
+        1080,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/density-measured-944x1978.png",
+      "sha256": "4b7f245e1a39d7b818ac52395439c7a3febe2b099b6f820fd209d9e9f6eee2a2",
+      "pixels": [
+        944,
+        1978
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/desktop-baseline-1410x600.png",
+      "sha256": "22390cb94e0058a227d1cc9d7fc080ac64487fc3ad483bb6d36b6eddaa398c07",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-360x800.png",
+      "sha256": "ef66719bbd40a94407d7b369a860c763fb4fc0452a1d41710e534e0808145983",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-baseline-390x844.png",
+      "sha256": "0d634d89b410b191ea18177e664e90888cb3107760c0575a642e0cf869d821d4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-360x800.png",
+      "sha256": "b1bd2e1dd6a786fb37b02886607dc561431b0262bcc7d39a92b08f5e84484b32",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/normal-measured-390x844.png",
+      "sha256": "d8d6aea32d0ba3ebe48497e34163a498c81d779e5590cc7aed562510c8a3258d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-360x800.png",
+      "sha256": "ea95b4f077b7b9c5475c2f5246bccf120bb5a6d78095ea4a3d19b8c0aa88a75a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-baseline-390x844.png",
+      "sha256": "d475a81577ca18fd6639a3d186c52d919ef173e8dd615977082b7b27d7b52d4a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-360x800.png",
+      "sha256": "33b9733fa951802eefd486817692a5796b055b7788c7b9f6a74490135aa16346",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/early-comparisons/second-attempt/comparison/touch-measured-390x844.png",
+      "sha256": "c08f90d3c33ccdf07787602e844cd3722c08c1118d88f5f36b9edd2e47633cb3",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-1080x1980.png",
+      "sha256": "5cf60a5f45b198f634bade9eeca4a06105dbe15751e4dd00250966d30e63fca9",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-baseline-944x1980.png",
+      "sha256": "1034181c423958f2980897c158143cbd40a255af9f89d79e84f56d16cc4d70ae",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-1080x1980.png",
+      "sha256": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/density-measured-944x1980.png",
+      "sha256": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/desktop-baseline-1410x600.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-360x800.png",
+      "sha256": "8271fd67c41f2c214d7e9d6689e2c92b08d09b84c8e7ce6a093759d3bd98ca97",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-baseline-390x844.png",
+      "sha256": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-360x800.png",
+      "sha256": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/normal-measured-390x844.png",
+      "sha256": "b2c1471e9b0f5e5d8a6d64d4e639255ed8e2156d81a8beef804a1452aeb4acf9",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-360x800.png",
+      "sha256": "03ac872db7d78f167ef2f3835b95f3150e7c7300312189af75baca3b90b767b5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-baseline-390x844.png",
+      "sha256": "1c83a2be7f7a4e9a9a45192903afa105fb0834d5d6d7f40c27e9f643eadc25c3",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-360x800.png",
+      "sha256": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/axis-comparison/touch-measured-390x844.png",
+      "sha256": "de2208d32e912207846f71447d6d2074dc79285c8f55717008d967dd21312c7f",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-1080x1980.png",
+      "sha256": "5cf60a5f45b198f634bade9eeca4a06105dbe15751e4dd00250966d30e63fca9",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-baseline-944x1980.png",
+      "sha256": "1034181c423958f2980897c158143cbd40a255af9f89d79e84f56d16cc4d70ae",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-1080x1980.png",
+      "sha256": "06e79a691ed58aa38377b99aaa45eec1a411b7d4ed2ce18a08b819811742720c",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/density-measured-944x1980.png",
+      "sha256": "97424b9318069bede7cc02ad931f60f7bd4f346685493170e6b54ffe1b0508d4",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/desktop-baseline-1410x600.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-360x800.png",
+      "sha256": "8271fd67c41f2c214d7e9d6689e2c92b08d09b84c8e7ce6a093759d3bd98ca97",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-baseline-390x844.png",
+      "sha256": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-360x800.png",
+      "sha256": "07cb0c9e54fd8aae0767743c3e97dc125ec0dbb662fb1118c1606cdb83fe139b",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/normal-measured-390x844.png",
+      "sha256": "3c1bbe0a737d0594971605dc269e81b98539e1fb0c1d39a8a8a560d36141a2e3",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-360x800.png",
+      "sha256": "03ac872db7d78f167ef2f3835b95f3150e7c7300312189af75baca3b90b767b5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-baseline-390x844.png",
+      "sha256": "1c83a2be7f7a4e9a9a45192903afa105fb0834d5d6d7f40c27e9f643eadc25c3",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-360x800.png",
+      "sha256": "8517869e05dd6987cfbee78492e2a055f53af5a0d515be3e3b861aaff06369da",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/roof-axis-comparisons/roof-comparison/touch-measured-390x844.png",
+      "sha256": "c1bd5acf92674df209c710962d746821912c484587ffce7409719d642e076484",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-desktop.png",
+      "sha256": "80f3aa0ab02d61a8662f80a81cea980304d3c2e126c1daea1f1066d823f77e48",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-narrow.png",
+      "sha256": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-portrait.png",
+      "sha256": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/arrival-return.png",
+      "sha256": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-narrow.png",
+      "sha256": "a20cf8c7a2a390227c1d3cb946a092b1ce4dc6be9f7153782fb74912849ac0fa",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/look-portrait.png",
+      "sha256": "c14ba91ab566e140d894a98a12793f17fbb2cc1a43405ff5bf3c56db0c35dccb",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-desktop.png",
+      "sha256": "2d830381df6ae22a6c1d49eee8e8c70ab39a643110f2d050cc97efab9118b591",
+      "pixels": [
+        2340,
+        1080
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-narrow.png",
+      "sha256": "e6e2688cc3d7a70af818cce6a7ad05b168fc6e90f53a61141c23fe2a2bfbc9e6",
+      "pixels": [
+        944,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-portrait.png",
+      "sha256": "1e78bda982908730817a4f93d02e9d0a8ae18460a91d26de8695531f3f21855a",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-density/reeds-return.png",
+      "sha256": "1e78bda982908730817a4f93d02e9d0a8ae18460a91d26de8695531f3f21855a",
+      "pixels": [
+        1080,
+        1980
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-desktop.png",
+      "sha256": "9845937bc395a52168ac219a65390a318a4b3ae6685db811f90cd10cb24d2b0a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-narrow.png",
+      "sha256": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-portrait.png",
+      "sha256": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/arrival-return.png",
+      "sha256": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-narrow.png",
+      "sha256": "e6175bfe5d8aa080a6cf32beee3f5d470d856d6ffd0fbe160c93d5c6ddcd144f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/look-portrait.png",
+      "sha256": "c7ad6ad964b7c729faf16f5c6e8600c2fbe43d7e21abbd182a7e43392c3fbd35",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-desktop.png",
+      "sha256": "2eb95cfd4a8b867182179010c0c042bc0f29056475a959a6a6e9168da6534c7a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-narrow.png",
+      "sha256": "fac9fdb5805f89dc5d516b34059c37a91d46ab5a5b53d5cdf41a7b715f52ad0d",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-portrait.png",
+      "sha256": "a1a66ff87823c410dafe8c6f1061ee5b1237d7ba5d755074a5813fcebf8419dd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-normal/reeds-return.png",
+      "sha256": "a1a66ff87823c410dafe8c6f1061ee5b1237d7ba5d755074a5813fcebf8419dd",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-desktop.png",
+      "sha256": "e8e9c2cebf5b2b7ffe342d61ea8b115314baf2c85d3a9cc00e5beb78cd9ac42a",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-narrow.png",
+      "sha256": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-portrait.png",
+      "sha256": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/arrival-return.png",
+      "sha256": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-narrow.png",
+      "sha256": "c223b0b70d1f71850d37b66e359369007c157997141fdaba69d7225adb924812",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/look-portrait.png",
+      "sha256": "6dac3887603f8d0296a23a958f3b96c8515002b5d879db633fc7c749750150b1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-desktop.png",
+      "sha256": "38a7ad00434b2a1cf91e0548e18e6a1aded100d624892aceba94ed6f650e9c08",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-narrow.png",
+      "sha256": "1d45a108738445c5c41b68c065a089f8c915fdb60a1908af52567bfd83a2c09e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-portrait.png",
+      "sha256": "2459be349d11e73edaf11a2cd8d1fd250f98e7dacaa34a8279a58c0e328d806a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/accepted-touch/reeds-return.png",
+      "sha256": "2459be349d11e73edaf11a2cd8d1fd250f98e7dacaa34a8279a58c0e328d806a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-desktop.png",
+      "sha256": "b78ed7494d0ec50d5fc83b31b6311eb7b1e531f901fb8b2f564191bdb3324930",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-narrow.png",
+      "sha256": "5130a5d1bff73aa5ee688922ab023e931cc42b31fd6a851548174edeb798c151",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-portrait.png",
+      "sha256": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/arrival-return.png",
+      "sha256": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/look-narrow.png",
+      "sha256": "5130a5d1bff73aa5ee688922ab023e931cc42b31fd6a851548174edeb798c151",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/look-portrait.png",
+      "sha256": "0561127a4ee107f7131bdac9ea08dbbbf986a2b4c5ec21b9fab2541d0cf0739d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-desktop.png",
+      "sha256": "f1461c9db9ef46fb2ebecb81ae4d266456809f41f1b06bab3ccc2cf97316ce41",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-narrow.png",
+      "sha256": "3b8821120934b5682dd252975a3948de7f4699ff2c8e2fff6d136cced02a9b58",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-portrait.png",
+      "sha256": "a55390d2a58090025c54bb2bb7d73e48062609a606a2d45dd5a3c5ea457ac96a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/baseline/reeds-return.png",
+      "sha256": "a55390d2a58090025c54bb2bb7d73e48062609a606a2d45dd5a3c5ea457ac96a",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-button-portrait.png",
+      "sha256": "3b954ee84c77a91112d26445aabd3752a3751f0367528734da56a4fe94ce9642",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-look-narrow.png",
+      "sha256": "dc3227802addca7efdf03ec1ccfcd635a991d45bbc5a118f50efcd4a078f39a4",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-resize-narrow.png",
+      "sha256": "bcbe2f6cebf32934d038b3ead122afaa0cf5aa26c9e417df2a68a34036fd79b3",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-return-portrait.png",
+      "sha256": "3b954ee84c77a91112d26445aabd3752a3751f0367528734da56a4fe94ce9642",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/read-rotate-desktop.png",
+      "sha256": "88944467c9b332b24203737a04260639ed0693be60c34eedab59f4a3ecb544a5",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-button-portrait.png",
+      "sha256": "df16e2b75640d5067fa0d660582aec45162f2bea0b6cb8ee551bf28059411bd5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-look-narrow.png",
+      "sha256": "dc3227802addca7efdf03ec1ccfcd635a991d45bbc5a118f50efcd4a078f39a4",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-resize-narrow.png",
+      "sha256": "89f82d7754c798ea66e92e5e46dff107bf847662e9f7ccc89bb886757d20a287",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-return-portrait.png",
+      "sha256": "df16e2b75640d5067fa0d660582aec45162f2bea0b6cb8ee551bf28059411bd5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-hengwu-details/rocks-rotate-desktop.png",
+      "sha256": "e0489b5a4d4d40cffdea67f3af4c10358edf22c3d1665241246e67127df75fb1",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-1410x600.png",
+      "sha256": "b1df7e25de1c488c57d230bb19f093090979e4a889ed49ae89db53cdf08a71d4",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-360x800.png",
+      "sha256": "0e8e829b97c312de0d723e211eaeb6408c48f2e919b7bf36fbb030da4d7c11a9",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-ouxiang-framing/ouxiang-390x844.png",
+      "sha256": "f8f0ab7c5559cb3012eb9d666d62920f9e35427b5982e1c58d2a24f0357b3cf5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-arrival-390x844.png",
+      "sha256": "cb978950dc919e8415978f6705830a6fe105fdd170948c3a7d7f138442a3f428",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-doors-390x844.png",
+      "sha256": "390930d25a4e29c0fbe0c0546b88f4f262c65269eb82fabd922ebd492dc704cb",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-look-360x800.png",
+      "sha256": "cba335f24187804aa4b94dadc9c2ffa12f33a875fc839b1887aa96b2fe98cbfb",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-overview-landscape.png",
+      "sha256": "de6aedd0ad7c7a06a38112d4ce63560fb30790b6eb4a3508f3cf846a4d924f9f",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daguan_lou-resized-390x844.png",
+      "sha256": "d5cf576559065c808ecc03c78cbc814af2966d78f6e77547b0a33b11d8bf9e53",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-arrival-390x844.png",
+      "sha256": "e2ed44812a806e88547057e9adf2a165420c1eb118d047ace172e879ada82524",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-doors-390x844.png",
+      "sha256": "0e2f9362543a330795b7762926582893b914388a2ece89b04a26d2b8fcd9fe91",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-look-360x800.png",
+      "sha256": "d68b6d9eb7fba8566df8fd538bb7095a840bc3ac04cf7db46a4945cc2d860ee6",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-overview-landscape.png",
+      "sha256": "fad20cb09d767ed71d37231ce8192ef3539e98426efb378c3ae27af69494b38b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/daoxiang_cun-resized-390x844.png",
+      "sha256": "e2ed44812a806e88547057e9adf2a165420c1eb118d047ace172e879ada82524",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-arrival-390x844.png",
+      "sha256": "2870d9ef517184a53bb948214bf3ec824bd61e35262cf598cc99f7b2fd85fc2d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-doors-390x844.png",
+      "sha256": "747d6ad409d825a95348a69ba1b6cd07fff39ed8905593fcd53ac1021beca3c8",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-look-360x800.png",
+      "sha256": "8c53c9e479b40fab90eb46da0ea8802856539fcc3a95a62a43ee5e53c08834b8",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-overview-landscape.png",
+      "sha256": "82cb47d5a8a46eeb78298facfc36ac08de158693a3b47a2716d407ff4892e8b7",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-portrait-architecture/longcui_an-resized-390x844.png",
+      "sha256": "22bcf2a110f6775e1579e6b9e7ca2ca5ca105ae9d71fe7971473b87e9ec45d2e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-desktop.png",
+      "sha256": "eb8421fdd9d0b6bc29141225568590cef0c4b8cfc21b39dc65ccc50a38304f76",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-narrow.png",
+      "sha256": "61080e7d7209c9f2ac79a107b4d332e1191f3cc5a20cd151b90a9004268b7f8a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-portrait.png",
+      "sha256": "4b00eef6ce43f6eaf6784edea8ac3ee281d7b1096b05cc24e3d8ac9547632e2b",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/arrival-return.png",
+      "sha256": "ed090f60fa0ae94f0828dfc9133db5a6a6fa89b8546b11ffca35f3e2130cb1d0",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-desktop.png",
+      "sha256": "a4ff0d72d8c5f07081e4b78ae9b86dd9f33d9718affabea14f724f3716628d0b",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-narrow.png",
+      "sha256": "4fb5226ff28b3c5b043ecb1a43748dd7acde9d81cf7deca0c527f199f48cf884",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-portrait.png",
+      "sha256": "4a386144ce154d8dbad3eef3ac97b9aba5d73b07f6dca2b179536f0046260cd4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/centre-return.png",
+      "sha256": "4a386144ce154d8dbad3eef3ac97b9aba5d73b07f6dca2b179536f0046260cd4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-desktop.png",
+      "sha256": "b7c296701d7f97cfe881393aaecfa1ffc0c0036c9fff853b5376c53b03bc6eeb",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-narrow.png",
+      "sha256": "20a85d669758d1af065524b1931df8cc268bc83901ca40a2e12dc996f09845a7",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-portrait.png",
+      "sha256": "bea9f2793447d213fc421348478e38e7878ec9b9fec72890e1dd3c635a998247",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/left-return.png",
+      "sha256": "bea9f2793447d213fc421348478e38e7878ec9b9fec72890e1dd3c635a998247",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-narrow.png",
+      "sha256": "aea5c64160f0fb860d9f62ceee415cffbb32f2a56de57abd320be9328b6a057f",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/look-portrait.png",
+      "sha256": "4df8d050a17416fa1f1017fe58653727cf6ff0dd1cd46218d12f91c93f241021",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-desktop.png",
+      "sha256": "6150ff9a562329d9cfa2e1c2b0d4614f195a9af13236cbe1f7efc9bf6d2c5802",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-narrow.png",
+      "sha256": "fc6200be8fdc97080fbbe80510317a337930e12fe1c6f440dba3ff318c741854",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-portrait.png",
+      "sha256": "772cfda78ce7af04c4559d23ffac41ebcb5e71cbd94d9cdccccc534680d7ae7d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-qiushuang-framing/right-return.png",
+      "sha256": "772cfda78ce7af04c4559d23ffac41ebcb5e71cbd94d9cdccccc534680d7ae7d",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-desktop.png",
+      "sha256": "ce07835c26ead6229f7a1fac3cfc2e128341f489534af1f8661edf438fd4ee8c",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-narrow.png",
+      "sha256": "a0f401f9deb70a8e1be252efbfd8423ec612216e73e1e3d8632a7ed9d4b5cdde",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-portrait.png",
+      "sha256": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/arrival-return.png",
+      "sha256": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-narrow.png",
+      "sha256": "a0f401f9deb70a8e1be252efbfd8423ec612216e73e1e3d8632a7ed9d4b5cdde",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/look-portrait.png",
+      "sha256": "9bf8733d542472af783b09741fc622ce4365a2247d42296ca802245c3e5d5162",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-desktop.png",
+      "sha256": "7d2bab502d636fe43a36884ec32323057ebbdd959ad0513632ad04f444f17f45",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-narrow.png",
+      "sha256": "6807213250d6af0e06f0eb35f60cadfc25eb9babc06bed8c11ad697c22e53041",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-portrait.png",
+      "sha256": "03b058e19f946311b9f444348ff970c825120a9d867dcb103be7d36137f4d311",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "docs/reference/ziling-portrait-framing/runtime/regression-tubi-framing/overlook-return.png",
+      "sha256": "717c9292b2bae32e5bd498258c6809fc3758146c07bcbb545f6ab5f95b1bb4c4",
+      "pixels": [
+        390,
+        844
+      ]
+    }
+  ]
+}
