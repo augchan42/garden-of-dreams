@@ -33,3 +33,7 @@ python3 scripts/verify_gate_inscription_cap.py
 ```
 
 The last command verifies the preserved same-source comparison. Fresh runtime runs identify their actual source hash and must not be used to relabel these earlier images. Final corrected-source allocation, all kit/hero atlas and power-of-two requirements, filtering/seams/texel density, art acceptance and phone performance remain open.
+
+## Current source inventory — 2026-10-09
+
+The native M2 Max Compatibility inventory for `1380ceca` reports 52,517,225 renderer texture bytes in normal exploration (maximum sampled arrival 52,600,513) and 43,468,745 in the focused demo (maximum sampled arrival 43,512,435). Bound image data is 36,525,582/30,245,390 bytes respectively; renderer allocations include additional resources. The demo stationary allocation is under 64 MiB. This does not establish physical-phone, sustained traversal or frame-time acceptance. Detailed per-texture bindings/dimensions and current source/runtime hashes are retained in `reference/ziling-source-art/review/texture-memory-{normal,demo}.json`. Current released/installed Android builds remain on the prior source.

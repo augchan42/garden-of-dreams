@@ -1,0 +1,97 @@
+{
+  "status": "saved_water_source_palette_reopened_exported",
+  "baseline_saved_source_sha256": "c8fe768201d1de0a4f1a5448900570ab9a51a53d23021e63aed9d18af29d93b4",
+  "candidate_saved_source_sha256": "47363d1c1968f6a6903664ba652845829b61ad53f4c92635ab51a972b26a44f9",
+  "before_water_material": {
+    "diffuse": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "base": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "emission": [
+      0.014000000432133675,
+      0.07000000029802322,
+      0.02800000086426735,
+      1.0
+    ],
+    "strength": 0.0,
+    "roughness": 0.15000000596046448,
+    "metallic": 0.0,
+    "alpha": 1.0
+  },
+  "new_water_color": [
+    0.25,
+    0.32,
+    0.4,
+    1
+  ],
+  "images_before": {
+    "pavilion_basecolor.png": {
+      "sha256": "8bb9434918c056be06886377de89e71ba721cf2b0e84dd3ce060137a693bbc5c",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "fake_user": false
+    },
+    "pavilion_normal.png": {
+      "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "fake_user": false
+    },
+    "pavilion_orm.png": {
+      "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "fake_user": false
+    }
+  },
+  "images_after": {
+    "pavilion_basecolor.png": {
+      "sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "fake_user": false
+    },
+    "pavilion_normal.png": {
+      "sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "fake_user": false
+    },
+    "pavilion_orm.png": {
+      "sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "fake_user": false
+    }
+  },
+  "unchanged_source_snapshot_sha256": "084b3132fdae0dffa95c434cd6377dcdb384242273a9adc435dab0654605a6a7",
+  "baseline_exports_byte_identical": 12,
+  "candidate_exports": 12,
+  "scope": "Only MAT_water diffuse/BSDF base/emission-color values and the packed pavilion basecolor image change. The atlas is the existing reviewed neutral PNG, copied without raster edits. Saved/reopened object geometry, UVs, transforms, collision/ports, all scenes/cameras/lights/worlds are identical. Roughness/metal/alpha/emission strength retained. Source assembly and in-progress bake are untouched; native exported material validation and kit adoption pending."
+}

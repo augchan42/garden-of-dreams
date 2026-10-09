@@ -1,0 +1,66 @@
+{
+  "status": "unbaked_native_reed_comparison_phases_passed",
+  "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-source-art-tgpe0mou/reed-volume-native-comparison/import.log",
+      "log_sha256": "7f6a5d60c407a33bb0bea4ee1158818c5819995f52eb7471ebd3287b87965b6a",
+      "status": "passed"
+    },
+    {
+      "name": "full-captures",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_reed_candidate.gd",
+        "--",
+        "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-source-art-tgpe0mou/reed-volume-native-comparison/full",
+        "--variant=full",
+        "--source=1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485"
+      ],
+      "exit_code": 0,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-source-art-tgpe0mou/reed-volume-native-comparison/full-captures.log",
+      "log_sha256": "a3a731ed42b42590b1c6596ee9c728f4e57230275180d9f1ffbe380c26e078ce",
+      "status": "passed"
+    },
+    {
+      "name": "forced-lod1-captures",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_reed_candidate.gd",
+        "--",
+        "--output=/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-source-art-tgpe0mou/reed-volume-native-comparison/forced-lod1",
+        "--variant=forced-lod1",
+        "--source=1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+        "--force-lod"
+      ],
+      "exit_code": 0,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-source-art-tgpe0mou/reed-volume-native-comparison/forced-lod1-captures.log",
+      "log_sha256": "3a897bfac4ca0cb7feb826a2c848944f4020ac661bb42aae8f75f69f513a4d57",
+      "status": "passed"
+    }
+  ],
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-ziling-framing-o528drf8/godot",
+  "scope": "Sequential native no-bake geometry views of the actual reed source and its explicitly forced LOD1. Source/fresh lighting/route/production acceptance remain separate."
+}

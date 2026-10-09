@@ -107,3 +107,9 @@ Attribution, rights information, original stream hash and exact decoded-frame pr
 ## Foreground paving-join diagnosis — 2026-10-08
 
 Two nearly black rectangles in the existing native portrait intersect overlapping stone-approach top faces in the exported geometry; the source lightmap is almost black at both sampled overlaps, unlike adjacent paving. A trim proposal removes 4.86m² of overlap while preserving the source-constructor path footprint. It is not applied. Native saved-object attribution and controlled before/after source/export/bake/render/route checks remain required. This does not prove a water shader fault or final surface acceptance. Evidence: `../reference/ouxiang-path-joins/README.md`.
+
+## Waterline and reed source checkpoint — 2026-10-09
+
+The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.
+
+Both adjacent lotus groups move with the raised shared stream, while the pavilion, bridge, paths, camera and collision stay fixed. The slate-blue water and tawny distant reeds are visible in the refreshed arrivals. Final water-edge/backdrop/roof filtering and lotus material work remain open.

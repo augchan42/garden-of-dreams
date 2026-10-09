@@ -1,0 +1,11 @@
+{
+  "status": "six_collider_preview_flags_repaired_saved_default_reproduction_passed_fresh_generator_pending",
+  "before_generator_sha256": "ba412d97e619fd8cf309f24e19e27fa4133bc97606f3d5ca258632651c20d644",
+  "after_generator_sha256": "f790268dfd469fb7cedd4cb741f059c2a7c6f4e1999d93943f1b79eba3d13a08",
+  "changed_generator_line": "Keep six colliders viewport-visible in wire display, render-hidden, so cold default exports evaluate saved transforms. Reed geometry and the other seven variant branches unchanged.",
+  "repaired_saved_source_sha256": "2c0ca34108e61b3da6f5b07232722d965882877f063148aa38cdff553a329ba9",
+  "saved_reopened_reexport_report_sha256": "63d99c3ea35735eb9150b6ffc3643d2af2a025ace257eece0a9700a04385d78f",
+  "first_update_only_test": "failed KIT_flora_plum.glb; scene update alone insufficient",
+  "visible_only_test": "all16 exact, source unchanged",
+  "sandbox_test": "Blender exit139 before script/export; crash record preserved, approved native startup then produced actual reproduction failure. No automatic approval rejection."
+}

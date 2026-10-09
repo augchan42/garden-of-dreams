@@ -1,6 +1,6 @@
 extends SceneTree
 
-const SOURCE := "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38"
+const SOURCE := "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485"
 var route
 var output := ""
 var errors: Array[String] = []
@@ -88,7 +88,7 @@ func run() -> void:
  for plant in route.get_node("FloraLOD").plants:
   if str(plant.node.name).begins_with("HERO_flora_ziling"):
    subjects.reeds.append_array(vertices(plant.node,plant.base));subjects.reeds.append_array(vertices(plant.node,plant.lower))
- check(subjects.island.size()==2112 and subjects.bridge.size()==1296 and subjects.pavilion_roof.size()==8116 and subjects.reeds.size()==10940,"Incomplete imported geometry subject")
+ check(subjects.island.size()==2112 and subjects.bridge.size()==1296 and subjects.pavilion_roof.size()==8116 and subjects.reeds.size()==48320,"Incomplete imported geometry subject")
  for node in route.find_children("*","MeshInstance3D",true,false):
   for i in range(node.mesh.get_surface_count()):
    var active=node.get_active_material(i)

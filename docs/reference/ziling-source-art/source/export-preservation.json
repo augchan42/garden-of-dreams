@@ -1,0 +1,128 @@
+{
+  "status": "controlled_reed_export_preserved",
+  "baseline_waterline_sha256": "80910db1ef0ca341f1e114d6cb28c9d038edd25a1b65ff631b4d0fbeb4e0dcb9",
+  "candidate_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "expanded_indexed_triangles": 260030,
+  "changed_meshes": [
+    {
+      "name": "HERO_flora_ziling_zhou_8.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_9.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_10.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_11.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_12.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_13.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_14.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_15.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_16.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_17.001",
+      "changed_attributes": [
+        "NORMAL",
+        "POSITION",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ]
+    }
+  ],
+  "reed_triangles_per_placement": {
+    "HERO_flora_ziling_zhou_8.001": 1648,
+    "HERO_flora_ziling_zhou_9.001": 1648,
+    "HERO_flora_ziling_zhou_10.001": 1648,
+    "HERO_flora_ziling_zhou_11.001": 1648,
+    "HERO_flora_ziling_zhou_12.001": 1648,
+    "HERO_flora_ziling_zhou_13.001": 1648,
+    "HERO_flora_ziling_zhou_14.001": 1648,
+    "HERO_flora_ziling_zhou_15.001": 1648,
+    "HERO_flora_ziling_zhou_16.001": 1648,
+    "HERO_flora_ziling_zhou_17.001": 1648
+  },
+  "unchanged_waterline_site_exports_byte_identical": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qinfang-ting.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb"
+  ],
+  "unchanged_other_flora_glbs": 14,
+  "scope": "Exactly ten reed mesh POSITION/NORMAL/UV channels change. All717 node records/transforms, non-reed geometry, source materials/images/textures/lights/cameras/colliders unchanged from separate waterline candidate. Other14site exports and14non-reed flora GLBs byte-identical, original atlas bytes retained. Native/fresh lighting/physics/adoption pending."
+}

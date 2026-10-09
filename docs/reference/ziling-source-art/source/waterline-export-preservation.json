@@ -1,0 +1,78 @@
+{
+  "status": "controlled_stream_waterline_export_preserved",
+  "baseline_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "candidate_sha256": "80910db1ef0ca341f1e114d6cb28c9d038edd25a1b65ff631b4d0fbeb4e0dcb9",
+  "expanded_indexed_triangles": 247190,
+  "changed_nodes": [
+    {
+      "name": "SITE_ouxiang-xie_MAT_foliage_card",
+      "translation_delta_y_up": [
+        0.0,
+        0.699999988079071,
+        0.0
+      ]
+    },
+    {
+      "name": "SITE_qinfang-ting_MAT_water",
+      "translation_delta_y_up": [
+        0.0,
+        0.699999988079071,
+        0.0
+      ]
+    },
+    {
+      "name": "SITE_ziling-zhou_MAT_foliage_card",
+      "translation_delta_y_up": [
+        0.0,
+        0.699999988079071,
+        0.0
+      ]
+    }
+  ],
+  "changed_materials": [
+    {
+      "name": "MAT_aojing_water",
+      "before": [
+        0.014000000432133675,
+        0.07000000029802322,
+        0.02800000086426735,
+        1
+      ],
+      "after": [
+        0.02199999988079071,
+        0.029999999329447746,
+        0.03999999910593033,
+        1
+      ]
+    },
+    {
+      "name": "MAT_water",
+      "before": [
+        0.014000000432133675,
+        0.07000000029802322,
+        0.02800000086426735,
+        1
+      ],
+      "after": [
+        0.25,
+        0.3199999928474426,
+        0.4000000059604645,
+        1
+      ]
+    }
+  ],
+  "unchanged_site_exports_byte_identical": [
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_qiushuang-zhai.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb"
+  ],
+  "scope": "All717 node identities, geometry/normal/UV channels, images/textures, camera/light/marker/collider contracts retained. Exactly stream and two combined lotus-batch transforms move0.7m up; two water base colors change. Eleven site exports byte-identical. Native unbaked comparison and fresh matching lighting pending; not production acceptance."
+}

@@ -1,0 +1,59 @@
+00:00.354  blend            | Read blend: "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/blender/kits/KIT_flora.blend"
+BlenderMCP addon registered
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_small_render
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.07108187675476074 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_small_render_LOD1
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.0028438568115234375 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_medium_render
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.003155946731567383 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_medium_render_LOD1
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.0023751258850097656 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_large_render
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.0030510425567626953 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: KIT_flora_bamboo_large_render_LOD1
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.002844095230102539 s
+
+14:38:45 | INFO: Starting glTF 2.0 export
+14:38:45 | INFO: Extracting primitive: Cube
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Extracting primitive: KIT_flora_plum_render
+14:38:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+14:38:45 | INFO: Primitives created: 1
+14:38:45 | INFO: Finished glTF 2.0 export in 0.0037131309509277344 s
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/flora-reexport-debug/reexport_updated.py", line 9, in <module>
+    assert path.read_bytes()==(w/'reeds-volume/export/kits/flora'/path.name).read_bytes(),path.name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: KIT_flora_plum.glb
+
+
+Error: script failed, file: '.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/flora-reexport-debug/reexport_updated.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

@@ -98,3 +98,7 @@ Slot 1 is collected and directly reviewed in `../reference/external/rockery-gate
 ## External references — 2026-10-09
 
 Slots 1 and 3 are collected. The new directly reviewed dark-gate/fog image retains its original bytes and credited project context. The specified *The Magic Blade* cave corridor remains missing. See `../reference/external/rockery-gate/README.md`. Reference collection does not establish final rock surface, fog, lantern or tunnel-reveal acceptance.
+
+## Waterline and reed source checkpoint — 2026-10-09
+
+The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.

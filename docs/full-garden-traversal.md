@@ -159,3 +159,7 @@ The baked moon retains brush variation with no measured channel clipping. Baseli
 Current normal-route Mac allocation is 49,284,173 renderer texture bytes (about 47 MiB), with a highest sampled room of 49,367,461 bytes. This is not target-phone, demo-finale, sustained-traversal or release evidence. The existing local package/movie still represents the earlier source. Twenty required reference slots, final texture/device/performance and authenticated room services remain unfinished.
 
 Evidence: `../export/moon-intensity-final-lighting-evidence.json`, `../export/moon-intensity-baked-review-evidence.json`, `../export/moon-intensity-rendered-traversal-evidence.json` and `../export/moon-intensity-working-adoption-evidence.json`. The original review's stale worker PID is preserved; a separate resume provenance record identifies its successful completion.
+
+## Current source checkpoint — 2026-10-09
+
+The working source is now `1380ceca` with authoring `0d3e84e3`. Fresh ordinary/wash/spill lighting and the updated water/reed kits are installed together. Both current native rendered tours pass fourteen rooms, twenty-six legs and 139 original captures each, including cell return; desktop 17,582 / portrait 17,581 support samples, no misses, maximum four practicals and time scale 1. The saved-source/import contracts retain 42 cameras, 400 colliders and 71 markers. Current original reports and hashes are retained in `reference/ziling-source-art/README.md`. Final site art, physical-device/sustained performance, packages and authenticated services remain open.

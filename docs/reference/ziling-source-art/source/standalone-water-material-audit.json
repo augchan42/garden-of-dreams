@@ -1,0 +1,137 @@
+{
+  "status": "candidate_parity_pending",
+  "rows": [
+    {
+      "file": "export/kits/water/KIT_water_pond.glb",
+      "material": "MAT_water",
+      "actual": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "expected": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.25,
+            0.3199999928474426,
+            0.4000000059604645,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "matches": false
+    },
+    {
+      "file": "export/kits/water/KIT_water_pond_LOD1.glb",
+      "material": "MAT_water",
+      "actual": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "expected": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.25,
+            0.3199999928474426,
+            0.4000000059604645,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "matches": false
+    },
+    {
+      "file": "export/kits/water/KIT_water_stream.glb",
+      "material": "MAT_water",
+      "actual": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "expected": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.25,
+            0.3199999928474426,
+            0.4000000059604645,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "matches": false
+    },
+    {
+      "file": "export/kits/water/KIT_water_stream_LOD1.glb",
+      "material": "MAT_water",
+      "actual": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "expected": {
+        "doubleSided": true,
+        "name": "MAT_water",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.25,
+            0.3199999928474426,
+            0.4000000059604645,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15000000596046448
+        }
+      },
+      "matches": false
+    }
+  ]
+}
