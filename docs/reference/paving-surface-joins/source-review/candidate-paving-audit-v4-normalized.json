@@ -1,0 +1,37 @@
+{
+  "status": "saved_paving_disjoint_and_footprint_preserved",
+  "baseline_authoring_sha256": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+  "candidate_authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "before_top_faces": 1142,
+  "after_top_faces": 1241,
+  "positive_coplanar_pairs": [],
+  "footprint": [
+    {
+      "height": 0.0,
+      "old_union_m2": 880.9892283733166,
+      "new_union_m2": 880.9892251256563,
+      "symmetric_difference_m2": 9.681366366709435e-06,
+      "partition_columns": 884,
+      "mutual_xy_enclosure_m": 1e-05
+    },
+    {
+      "height": 0.002,
+      "old_union_m2": 2.5679915113437346,
+      "new_union_m2": 2.5679915113437346,
+      "symmetric_difference_m2": 0.0,
+      "partition_columns": 31,
+      "mutual_xy_enclosure_m": 1e-05
+    },
+    {
+      "height": 0.0048,
+      "old_union_m2": 0.010774834803442365,
+      "new_union_m2": 0.010774834803442365,
+      "symmetric_difference_m2": 0.0,
+      "partition_columns": 215,
+      "mutual_xy_enclosure_m": 1e-05
+    }
+  ],
+  "analytic_controls_passed": 4,
+  "world_coordinate_tolerance_m": 1e-05,
+  "scope": "Independent actual saved top-polygon intersections and scanline union/height equality at every vertex/edge-crossing partition, within10micrometre stored-coordinate precision. A5mm missing-floor control rejects. No render or lighting acceptance."
+}

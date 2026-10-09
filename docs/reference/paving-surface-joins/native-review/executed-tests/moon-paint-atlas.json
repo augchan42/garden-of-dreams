@@ -1,0 +1,42 @@
+{
+  "image_size": [
+    1254,
+    1254
+  ],
+  "png_sha256": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
+  "sample_region": "Unit circle centered in the square; pixel-center mask. Native UVs map local X/Y to the image.",
+  "mean_linear_rgb": [
+    0.7831580080198229,
+    0.6644549835267728,
+    0.4731078212215889
+  ],
+  "mean_linear_luminance": 0.6758759814155609,
+  "base_factor": 0.1719959921589893,
+  "emission_factor": 0.14893432044910723,
+  "emission_strength": 0.8,
+  "preceding_base_linear_rgb": [
+    0.62,
+    0.58,
+    0.38
+  ],
+  "preceding_emission_linear_rgb": [
+    0.42,
+    0.55,
+    0.2
+  ],
+  "calibrated_base_luminance": 0.11624796000000001,
+  "calibrated_emission_luminance_at_strength": 0.08052890400000001,
+  "image_top_left_srgb": [
+    0.8901960784313725,
+    0.8156862745098039,
+    0.6823529411764706
+  ],
+  "target_mean_luminance_ratio": 0.2025,
+  "contrast_adjustment": {
+    "multiplier_of_preceding_factors": 0.45,
+    "preceding_atlas_sha256": "81b1676ac410916b468256953891411d8cbb073b12ef94477cbbfbf6c6ca7737",
+    "preceding_authoring_sha256": "3d2c2f85ae769767de8d902810b3927870fa0e464f09a287b070dd8a0d9d014a",
+    "reason": "Fresh 45% source lighting still clips the moon. Full-scene additional 0.45 linear intensity counterfactual restores brush detail with zero raw interior clipping. Separate 20.25% source requires fresh matching lighting and visual acceptance.",
+    "evidence": "docs/reference/moon-contrast/baked-review/acceptance-captures/moon-sweep/report.json"
+  }
+}

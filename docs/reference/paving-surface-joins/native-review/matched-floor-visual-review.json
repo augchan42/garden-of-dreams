@@ -1,0 +1,22 @@
+{
+  "status": "matched_nunnery_floor_repair_direct_originals_accepted_all_site_review_pending",
+  "directly_reviewed_originals_sha256": {
+    "review-captures/paving-baseline-red-v2/nunnery-lit.png": "f6b1cad6dca71e399c7adfcfc761fcf46069dde0ec16d83af4103c0f67409b94",
+    "review-captures/paving-baseline-red-v2/nunnery-both-surface-ids.png": "c797e8457dd449b469a1ffaa41b1e6e2c821f00e74217f098c5bbc5aa453dbb3",
+    "review-captures/paving-baseline-red-v2/nunnery-hide-stage.png": "a5c60eef3678b40f05dfd5488e72dd0b122052f6e2d5e7d77f5b456043e1b734",
+    "review-captures/paving-baseline-red-v2/nunnery-hide-nunnery.png": "e104affe1c1827c7772c14dc912a9396fcc7ce25493537b26a60871fd7059ef0",
+    "review-captures/paving-candidate-green/nunnery-lit.png": "cfe1f4f79f399ade4cfbf504c73ba2e21de11aef0bc5efdcd9cde5aa0083fe7b",
+    "review-captures/paving-candidate-green/nunnery-both-surface-ids.png": "d3a86bdd5ad455f866aa490809125642d60fc1b06464ae833a2606cb80da62ae",
+    "review-captures/paving-candidate-green/nunnery-hide-stage.png": "73216b35ef3959bfb7617ee5c18e76ce863bebfa38c9017ee3f29ef03e91df08",
+    "review-captures/paving-candidate-green/nunnery-hide-nunnery.png": "e015a1300146ee5d2242d8f7fd38fe69ad822ed1e4943d6606c9d021778a942a"
+  },
+  "originals": 8,
+  "findings": {
+    "paving-baseline-red-v2": "The old lit view has a black connecting rectangle across the nunnery forecourt. Its ID/hide controls show the connecting top remains over the site floor.",
+    "paving-candidate-green": "The repaired lit view has continuous warm paving and plum shadows across the former black rectangle. Site IDs own the former overlap; hiding the site exposes no connecting top at the three sampled rays. The connecting path remains outside the forecourt."
+  },
+  "fixed_clock": 3.0,
+  "settle_seconds": 1.8,
+  "imported_plane_filter_m": 0.0001,
+  "scope": "Eight directly viewed original matched portrait captures, with hashes/dimensions checked. Accepts the visible nunnery overlap repair and sampled floor controls only. Adjacent/Ziling/all14arrivals/fulltours, production installation, physical phones and final all-site art still required."
+}

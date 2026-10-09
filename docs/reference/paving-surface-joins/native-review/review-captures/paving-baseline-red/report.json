@@ -1,0 +1,520 @@
+{
+ "errors": [
+  "Connecting floor still owns shared pixel (210, 440)",
+  "Connecting floor still owns shared pixel (235, 455)",
+  "Connecting floor still owns shared pixel (310, 464)",
+  "Unchanged site floor control missing at pixel (18, 442)",
+  "Unchanged site floor control missing at pixel (43, 444)",
+  "Site floor missing at pixel (210, 440)",
+  "Site floor missing at pixel (235, 455)",
+  "Site floor missing at pixel (310, 464)",
+  "Site-only floor control missing at pixel (18, 442)",
+  "Site-only floor control missing at pixel (43, 444)",
+  "Duplicate connecting floor survives at pixel (210, 440)",
+  "Duplicate connecting floor survives at pixel (235, 455)",
+  "Duplicate connecting floor survives at pixel (310, 464)"
+ ],
+ "fixed_clock": 3.0,
+ "identity_height_tolerance": 0.00001,
+ "identity_plane_height": 0.0,
+ "rows": [
+  {
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-paving-review-20261010-v4/review-captures/paving-baseline-red/nunnery-lit.png",
+   "label": "nunnery-lit",
+   "pixels": [
+    390,
+    844
+   ],
+   "samples": [
+    {
+     "pixel": [
+      210,
+      440
+     ],
+     "ray_normal": [
+      -0.202897220849991,
+      -0.333839952945709,
+      0.920534431934357
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      235,
+      455
+     ],
+     "ray_normal": [
+      -0.264490932226181,
+      -0.369311660528183,
+      0.890872359275818
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      310,
+      464
+     ],
+     "ray_normal": [
+      -0.4400774538517,
+      -0.376252174377441,
+      0.815331935882568
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0235294122248888,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      18,
+      442
+     ],
+     "ray_normal": [
+      0.272504538297653,
+      -0.30669504404068,
+      0.911964595317841
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.850980401039124,
+      0.686274528503418,
+      0.513725519180298
+     ]
+    },
+    {
+     "pixel": [
+      43,
+      444
+     ],
+     "ray_normal": [
+      0.218624889850616,
+      -0.318949371576309,
+      0.922211766242981
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.788235306739807,
+      0.666666686534882,
+      0.521568655967712
+     ]
+    }
+   ],
+   "sha256": "f6b1cad6dca71e399c7adfcfc761fcf46069dde0ec16d83af4103c0f67409b94",
+   "site_bakes_enabled": true
+  },
+  {
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-paving-review-20261010-v4/review-captures/paving-baseline-red/nunnery-both-surface-ids.png",
+   "label": "nunnery-both-surface-ids",
+   "pixels": [
+    390,
+    844
+   ],
+   "samples": [
+    {
+     "pixel": [
+      210,
+      440
+     ],
+     "ray_normal": [
+      -0.202897220849991,
+      -0.333839952945709,
+      0.920534431934357
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      235,
+      455
+     ],
+     "ray_normal": [
+      -0.264490932226181,
+      -0.369311660528183,
+      0.890872359275818
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      310,
+      464
+     ],
+     "ray_normal": [
+      -0.4400774538517,
+      -0.376252174377441,
+      0.815331935882568
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      18,
+      442
+     ],
+     "ray_normal": [
+      0.272504538297653,
+      -0.30669504404068,
+      0.911964595317841
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      43,
+      444
+     ],
+     "ray_normal": [
+      0.218624889850616,
+      -0.318949371576309,
+      0.922211766242981
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "sha256": "de41f36c978b49c44c5d0108576c67e3386d20e1bfa5ac5ac8f958ef0294a83a",
+   "site_bakes_enabled": true
+  },
+  {
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-paving-review-20261010-v4/review-captures/paving-baseline-red/nunnery-hide-stage.png",
+   "label": "nunnery-hide-stage",
+   "pixels": [
+    390,
+    844
+   ],
+   "samples": [
+    {
+     "pixel": [
+      210,
+      440
+     ],
+     "ray_normal": [
+      -0.202897220849991,
+      -0.333839952945709,
+      0.920534431934357
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.00784313771873713,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      235,
+      455
+     ],
+     "ray_normal": [
+      -0.264490932226181,
+      -0.369311660528183,
+      0.890872359275818
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      310,
+      464
+     ],
+     "ray_normal": [
+      -0.4400774538517,
+      -0.376252174377441,
+      0.815331935882568
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      18,
+      442
+     ],
+     "ray_normal": [
+      0.272504538297653,
+      -0.30669504404068,
+      0.911964595317841
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      43,
+      444
+     ],
+     "ray_normal": [
+      0.218624889850616,
+      -0.318949371576309,
+      0.922211766242981
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "sha256": "00319b3be1746073ac8aa639266094fae8ca8b9a100ec1353575fc484b800d6f",
+   "site_bakes_enabled": true
+  },
+  {
+   "camera_position": [
+    -23.5879554748535,
+    1.64999997615814,
+    5.24690198898315
+   ],
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-paving-review-20261010-v4/review-captures/paving-baseline-red/nunnery-hide-nunnery.png",
+   "label": "nunnery-hide-nunnery",
+   "pixels": [
+    390,
+    844
+   ],
+   "samples": [
+    {
+     "pixel": [
+      210,
+      440
+     ],
+     "ray_normal": [
+      -0.202897220849991,
+      -0.333839952945709,
+      0.920534431934357
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      235,
+      455
+     ],
+     "ray_normal": [
+      -0.264490932226181,
+      -0.369311660528183,
+      0.890872359275818
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      310,
+      464
+     ],
+     "ray_normal": [
+      -0.4400774538517,
+      -0.376252174377441,
+      0.815331935882568
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      1.0,
+      1.0
+     ]
+    },
+    {
+     "pixel": [
+      18,
+      442
+     ],
+     "ray_normal": [
+      0.272504538297653,
+      -0.30669504404068,
+      0.911964595317841
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "pixel": [
+      43,
+      444
+     ],
+     "ray_normal": [
+      0.218624889850616,
+      -0.318949371576309,
+      0.922211766242981
+     ],
+     "ray_origin": [
+      -23.5879554748535,
+      1.64999997615814,
+      5.24690198898315
+     ],
+     "rgb": [
+      0.0,
+      0.0,
+      0.0
+     ]
+    }
+   ],
+   "sha256": "de41f36c978b49c44c5d0108576c67e3386d20e1bfa5ac5ac8f958ef0294a83a",
+   "site_bakes_enabled": true
+  }
+ ],
+ "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+ "scope": "Four original native portrait captures at retained nunnery camera. Actual source declaration and complete baked lighting enabled. Transient unshaded floor IDs/hide controls prove retained site ownership and absence of duplicate connecting tops at three previously shared rays. Lit appearance requires direct original review; all-site routes/art/phone/adoption remain separate.",
+ "script_sha256": "9f0ba831cbaacd642c26ec79d4a89d7f6abfbb2833c37e0d6286ab7e0bb3ddea",
+ "settle_seconds": 1.8,
+ "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+ "status": "rejected"
+}

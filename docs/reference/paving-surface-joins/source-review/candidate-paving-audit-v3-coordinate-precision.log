@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 115, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 109, in main
+    footprint=compare_footprint(old,new) if args.after else []
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 86, in compare_footprint
+    assert len(oi)==len(ni) and all(abs(u-v)<1e-5 for p,q in zip(oi,ni) for u,v in zip(p,q)),('Paving footprint changed',height,x,oi,ni)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Paving footprint changed', 0.0, -9.900000396896843, [[-16.399999618530334, -15.149999809966374], [-13.899999996185318, -12.099999805450453], [-0.8999996980030542, 0.9000002543132299]], [[-16.399999618530334, -15.149999809966374], [-12.834558748322394, -12.099999427795476], [-0.8999996980030542, 0.9000002543132299]])

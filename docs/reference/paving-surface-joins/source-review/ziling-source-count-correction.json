@@ -1,0 +1,27 @@
+{
+  "status": "ziling_exact_source_subject_counts_measured",
+  "source_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "baseline_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "exported_baseline_counts": {
+    "island": 2112,
+    "bridge": 1296,
+    "pavilion_roof": 8116
+  },
+  "exported_candidate_counts": {
+    "island": 2128,
+    "bridge": 1288,
+    "pavilion_roof": 8116
+  },
+  "actual_imported_counts": {
+    "bridge": 1288,
+    "island": 2128,
+    "pavilion_roof": 8116,
+    "reeds": 48320
+  },
+  "before_test_sha256": "b8b9caf049587b6da86c8264b501807ba94f66e26e4746dcf23d275eb684e97c",
+  "after_test_sha256": "3d7d3363fd057755e7a81712fea5a092c65e50a0c06f5eaf40c49484a251a11a",
+  "native_failures": [
+    "Incomplete imported geometry subject"
+  ],
+  "scope": "Exact POSITION accessor counts independently match native imported counts after intended duplicate floor cuts. Update only two asset vertex expectations and assembly digest; preserve every subject, projection, size, separation, camera, public action, text, visitor and touch assertion. No runtime/source/bake change. Native corrected normal/touch/density checks still required."
+}
