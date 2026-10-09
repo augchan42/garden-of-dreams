@@ -1,0 +1,34 @@
+{
+  "status": "verified_storage_files_installed_checks_pending",
+  "updated_at": "2026-10-09T10:20:17.409670+00:00",
+  "before": {
+    "native/android/identity/src/androidTest/java/ai/eightbitoracle/garden/identity/RecordsSessionStoreTest.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionStore.java": null,
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java": null,
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java": null,
+    "godot/addons/garden_identity/bin/debug/garden-identity.aar": "826346ba3afbe02b3d29ce14a2ad2fabe1b3128f4df03cb461c3d93863b5fe90",
+    "godot/addons/garden_identity/bin/release/garden-identity.aar": "b354a1912ce0cee096856e131bc3e2832b64353d67312c0326e99a2748c74430",
+    "scripts/test_android_identity_core.py": "cc0ef49d81568f83a71f36dcbf316464a8fbe23d7d938f29c3c60dd1f463722c",
+    "scripts/run_android_records_storage_tests.py": null
+  },
+  "after": {
+    "native/android/identity/src/androidTest/java/ai/eightbitoracle/garden/identity/RecordsSessionStoreTest.java": "b23c0b4045c621d3e22fd9bc5c77d8c9c19ac2cfa03ba6757d3b29b6c644af6c",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java": "f8db97834fdfa52738abf5403871b5220cd202719d6cd5d9f593e684900d8b7d",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java": "a1037e4d3da8420ac986ba5cd96f64562647b148f11ee3acd99f2e29733fbaf6",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java": "b2233fa046e035bf20185c24c40ddd93258da27f7b4eb717f16f5fdbd181d0ce",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java": "280283e3f25f59b5f88e26b9f4f7862119155bb97c32425783b47e9b8f7bc2b9",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionStore.java": "17a58e3cd8cf5da6bfb911ac7979e0934bc3d44ba7ff1668448d07c1014a014d",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java": "c973dfe91bb28030315fbfd08c9c002b4fc1d58fb7fe41b917c1058b1ba3b1da",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java": "700b3a7e724a33ec4cca5c4ea587480ee9dae1cb3bbb4364bd44206a6df6c427",
+    "godot/addons/garden_identity/bin/debug/garden-identity.aar": "fe2b2ce1af17af5ae3d07938e068b4b37b52581e4f028998ece9b51008814792",
+    "godot/addons/garden_identity/bin/release/garden-identity.aar": "84eee8409da09b93a5423a25ff8d5fbafa80ee4667ca1cc1eeb1da71bfc2dfef",
+    "scripts/test_android_identity_core.py": "dd1052787b43487768bad66a94fff37f64a450353886d7d07504a60f25ec5b9b",
+    "scripts/run_android_records_storage_tests.py": "35e6e98f2033981a4e236ade2ec09b845eb88d16f6181fba145f7b73549f71d8"
+  },
+  "backup": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/production-adoption-backup",
+  "scope": "Storage foundation only. Android addon remains disabled. Provider, plugin methods, UI and deployed service flows are unchanged."
+}
