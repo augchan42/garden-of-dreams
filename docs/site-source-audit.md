@@ -39,3 +39,7 @@ The site sheets and earlier build-status entries contain historical statements a
 
 
 The 2026-10-07 refresh includes twelve owned exterior-site Area washes. All fourteen source libraries retain zero structural differences from authoring and matching current site-sheet hashes. The separate rig inventory distinguishes terminal/window and tunnel/no-wash exceptions, and records three newly saved owned keys with no missing required key or wash. Area lights remain absent from glTF and transfer through native backdrop maps; those are additional to the table’s ordinary bake counts. See `export/lighting-rig-audit.json` and `baked-lighting.md`.
+
+## Current source checkpoint — 2026-10-09
+
+The working source is now `1380ceca` with authoring `0d3e84e3`. Fresh ordinary/wash/spill lighting and the updated water/reed kits are installed together. Both current native rendered tours pass fourteen rooms, twenty-six legs and 139 original captures each, including cell return; desktop 17,582 / portrait 17,581 support samples, no misses, maximum four practicals and time scale 1. The saved-source/import contracts retain 42 cameras, 400 colliders and 71 markers. Current original reports and hashes are retained in `reference/ziling-source-art/README.md`. Final site art, physical-device/sustained performance, packages and authenticated services remain open.

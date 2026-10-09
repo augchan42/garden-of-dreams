@@ -1,0 +1,71 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume",
+  "orchestrator_pid": 75143,
+  "started_at": "2026-10-09T05:32:48.637810+00:00",
+  "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "authoring_sha256": "0d3e84e3cb0aada4d7aafda8448f3ebb90bb39426eb18f24941a97c56977f400",
+  "library_helper_original_sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146",
+  "library_helper_frozen_sha256": "179442e350c5b5a47ffeaf7d29dea55c0c2576c1531a9667cdb7fa7ee5dfc164",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/lighting-preparation-logs/site-libraries.log",
+      "pid": 75144,
+      "exit_code": 0,
+      "log_sha256": "9021ab6c9661a5e116cd3a1853ae458d998630dec9b97f54f8d84d1b3ac4b5a6"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 75300,
+      "exit_code": 0,
+      "log_sha256": "43846faf318da6e07d3dbb56c9911c0f98b63c41ff3bafb0c9303e5fdfda24fe"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/reeds-volume/lighting-preparation-logs/full-lighting.log",
+      "pid": 75479,
+      "exit_code": 0,
+      "log_sha256": "548005e9a491b2f101d2398a5ca5277742e23e7718ee69e85b0971d5b9c31100"
+    }
+  ],
+  "scope": "Separate saved-source libraries/shared receiver packaging and complete fresh six-phase lighting for raised stream/lotus waterline, neutral saved-source water colors and volumetric Ziling reeds. No production adoption; final art, cameras, all native rendered checks and full goal requirements remain open.",
+  "finished_at": "2026-10-09T06:33:08.237285+00:00"
+}

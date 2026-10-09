@@ -1,0 +1,9 @@
+{
+  "status": "production_source_atlas_bytes_already_equal",
+  "source_png_sha256": "13941b7ae8397425e86455cb0e86d9cadf4e98a70b4be36104497e3b4894d13a",
+  "source_png_dimensions": [
+    2048,
+    2048
+  ],
+  "scope": "Initial source atlas copy was already byte-identical to production. The restoration attempt copied the same bytes and its assertion that hashes should differ failed; no native import or frame was produced. SourcePNG is2048, runtime allocation is configured512 and must be checked by native import. Do not claim a512sourcePNG or a successful restoration."
+}

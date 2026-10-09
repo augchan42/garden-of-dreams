@@ -1,0 +1,2487 @@
+{
+  "status": "readonly_saved_source_inspected",
+  "authoring_sha256": "19eb386d8e93007ebd8e4ae2d9ee59ec7daa07dcd8dbe3c3a88d4ec84b5e5a08",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "objects": [
+    {
+      "name": "KIT_water_stream",
+      "data": "KIT_water_stream",
+      "collections": [
+        "SITE_qinfang-ting"
+      ],
+      "materials": [
+        "MAT_water"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -40.0,
+          -5.0,
+          -1.1200000047683716
+        ],
+        [
+          40.0,
+          5.0,
+          -1.0800000429153442
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus",
+      "data": "KIT_water_lotus_leaf.001",
+      "collections": [
+        "SITE_ouxiang-xie"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -25.700000762939453,
+        -3.299999952316284,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -25.700000762939453
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -3.299999952316284
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -26.64000129699707,
+          -4.049459934234619,
+          -1.0516616106033325
+        ],
+        [
+          -24.79258918762207,
+          -2.4706838130950928,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus.001",
+      "data": "KIT_water_lotus_leaf.002",
+      "collections": [
+        "SITE_ouxiang-xie"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -22.0,
+        -3.700000047683716,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          0.7583618760108948,
+          -0.6518337726593018,
+          0.0,
+          -22.0
+        ],
+        [
+          0.6518337726593018,
+          0.7583618760108948,
+          0.0,
+          -3.700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -22.96184730529785,
+          -4.658254146575928,
+          -1.0516616106033325
+        ],
+        [
+          -21.15775489807129,
+          -2.754128932952881,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus.002",
+      "data": "KIT_water_lotus_leaf.003",
+      "collections": [
+        "SITE_ouxiang-xie"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -24.799999237060547,
+        3.5,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          0.15022562444210052,
+          -0.9886517524719238,
+          0.0,
+          -24.799999237060547
+        ],
+        [
+          0.9886517524719238,
+          0.15022562444210052,
+          0.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -25.653902053833008,
+          2.525599718093872,
+          -1.0516616106033325
+        ],
+        [
+          -24.048845291137695,
+          4.3885650634765625,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus.003",
+      "data": "KIT_water_lotus_leaf.004",
+      "collections": [
+        "SITE_ouxiang-xie"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -20.0,
+        3.5999999046325684,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          -0.5305116176605225,
+          -0.8476776480674744,
+          0.0,
+          -20.0
+        ],
+        [
+          0.8476776480674744,
+          -0.5305116176605225,
+          0.0,
+          3.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -20.947092056274414,
+          2.6491312980651855,
+          -1.0516616106033325
+        ],
+        [
+          -19.089265823364258,
+          4.475898265838623,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "AOJING_pond",
+      "data": "AOJING_pond.001",
+      "collections": [
+        "SITE_aojing-guan"
+      ],
+      "materials": [
+        "MAT_aojing_water"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          20.5,
+          -21.0,
+          -1.100000023841858
+        ],
+        [
+          32.0,
+          -14.0,
+          -1.100000023841858
+        ]
+      ]
+    },
+    {
+      "name": "SITE_ziling_island",
+      "data": "SITE_ziling_island",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 48,
+      "triangles": 92,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -37.5113639831543,
+          -2.5,
+          -1.350000023841858
+        ],
+        [
+          -30.488637924194336,
+          2.5,
+          -0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "SITE_ziling_stone_landing",
+      "data": "SITE_ziling_stone_landing",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -36.599998474121094,
+          -0.8999999761581421,
+          -0.1599999964237213
+        ],
+        [
+          -31.0,
+          0.8999999761581421,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "COL_ziling_landing",
+      "data": "COL_ziling_landing",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": true,
+      "extras": {
+        "godot_collision": "box"
+      },
+      "bounds_z_up": [
+        [
+          -36.599998474121094,
+          -0.8999999761581421,
+          -0.1599999964237213
+        ],
+        [
+          -31.0,
+          0.8999999761581421,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.039",
+      "data": "KIT_rockery_plaster.039",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -31.301366806030273,
+          0.799277663230896,
+          -0.30000001192092896
+        ],
+        [
+          -30.881187438964844,
+          1.2071729898452759,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.040",
+      "data": "KIT_rockery_plaster.040",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -32.20433807373047,
+          1.6383556127548218,
+          -0.30000001192092896
+        ],
+        [
+          -31.7056941986084,
+          2.016857147216797,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.041",
+      "data": "KIT_rockery_plaster.041",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -33.52178192138672,
+          2.0697214603424072,
+          -0.30000001192092896
+        ],
+        [
+          -33.040428161621094,
+          2.4410576820373535,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.042",
+      "data": "KIT_rockery_plaster.042",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -34.95991134643555,
+          2.0671722888946533,
+          -0.30000001192092896
+        ],
+        [
+          -34.45158386230469,
+          2.4857871532440186,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.043",
+      "data": "KIT_rockery_plaster.043",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -36.26576614379883,
+          1.60453200340271,
+          -0.30000001192092896
+        ],
+        [
+          -35.823394775390625,
+          2.007978916168213,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.044",
+      "data": "KIT_rockery_plaster.044",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -37.17947006225586,
+          0.800163745880127,
+          -0.30000001192092896
+        ],
+        [
+          -36.6866569519043,
+          1.1610908508300781,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.045",
+      "data": "KIT_rockery_plaster.045",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -37.162715911865234,
+          -1.2383134365081787,
+          -0.30000001192092896
+        ],
+        [
+          -36.67430877685547,
+          -0.8165538311004639,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.046",
+      "data": "KIT_rockery_plaster.046",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -36.24394989013672,
+          -2.0374338626861572,
+          -0.30000001192092896
+        ],
+        [
+          -35.79740905761719,
+          -1.6085326671600342,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.047",
+      "data": "KIT_rockery_plaster.047",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -34.94905090332031,
+          -2.465031862258911,
+          -0.30000001192092896
+        ],
+        [
+          -34.49740982055664,
+          -2.055326461791992,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.048",
+      "data": "KIT_rockery_plaster.048",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -33.49943542480469,
+          -2.463440179824829,
+          -0.30000001192092896
+        ],
+        [
+          -33.063629150390625,
+          -2.083277702331543,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.049",
+      "data": "KIT_rockery_plaster.049",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -32.210140228271484,
+          -2.0139753818511963,
+          -0.30000001192092896
+        ],
+        [
+          -31.74847412109375,
+          -1.6091817617416382,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "KIT_rockery_plaster.050",
+      "data": "KIT_rockery_plaster.050",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_plaster_rock"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 45,
+      "triangles": 86,
+      "uv_layers": [],
+      "hidden": false,
+      "extras": {},
+      "bounds_z_up": [
+        [
+          -31.28985595703125,
+          -1.211478590965271,
+          -0.30000001192092896
+        ],
+        [
+          -30.888294219970703,
+          -0.7998782396316528,
+          0.07999999821186066
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_wood_bridge",
+      "data": "KIT_water_plank.001",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_pavilion_atlas"
+      ],
+      "location": [
+        -28.5,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.9470718370939721e-07,
+          -1.0,
+          0.0,
+          -28.5
+        ],
+        [
+          1.0,
+          1.9470718370939721e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 432,
+      "triangles": 704,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "atlas_source": "pavilion_2048",
+        "variant": "wood_bridge",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "wood_bridge"
+      },
+      "bounds_z_up": [
+        [
+          -31.545000076293945,
+          -0.9050005674362183,
+          -0.2800000011920929
+        ],
+        [
+          -25.454999923706055,
+          0.9050005674362183,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "COL_WESTERN_kit_wood_bridge",
+      "data": "COL_water_bridge_side.002",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [],
+      "location": [
+        -28.5,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": true,
+      "extras": {
+        "godot_collision": "box",
+        "collision_only": "True",
+        "kit_placement": "western_water",
+        "kit_part": "wood_bridge"
+      },
+      "bounds_z_up": [
+        [
+          -0.9100000262260437,
+          -3.0,
+          0.0
+        ],
+        [
+          -0.8100000023841858,
+          3.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "COL_WESTERN_kit_wood_bridge.001",
+      "data": "COL_water_bridge_side.003",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [],
+      "location": [
+        -28.5,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": true,
+      "extras": {
+        "godot_collision": "box",
+        "collision_only": "True",
+        "kit_placement": "western_water",
+        "kit_part": "wood_bridge"
+      },
+      "bounds_z_up": [
+        [
+          0.8100000023841858,
+          -3.0,
+          0.0
+        ],
+        [
+          0.9100000262260437,
+          3.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "COL_WESTERN_kit_wood_bridge.002",
+      "data": "COL_water_bridge_deck.001",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [],
+      "location": [
+        -28.5,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 8,
+      "triangles": 12,
+      "uv_layers": [],
+      "hidden": true,
+      "extras": {
+        "godot_collision": "box",
+        "collision_only": "True",
+        "kit_placement": "western_water",
+        "kit_part": "wood_bridge"
+      },
+      "bounds_z_up": [
+        [
+          -0.8999999761581421,
+          -3.0,
+          -0.20000000298023224
+        ],
+        [
+          0.8999999761581421,
+          3.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus.004",
+      "data": "KIT_water_lotus_leaf.005",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -32.70000076293945,
+        3.25,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.70000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          3.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -33.63999938964844,
+          2.500539779663086,
+          -1.0516616106033325
+        ],
+        [
+          -31.79258918762207,
+          4.079316139221191,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "WESTERN_kit_lotus.005",
+      "data": "KIT_water_lotus_leaf.006",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_foliage_card"
+      ],
+      "location": [
+        -36.29999923706055,
+        -3.200000047683716,
+        -1.065000057220459
+      ],
+      "matrix_world": [
+        [
+          0.26749876141548157,
+          -0.9635581970214844,
+          0.0,
+          -36.29999923706055
+        ],
+        [
+          0.9635581970214844,
+          0.26749876141548157,
+          0.0,
+          -3.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -1.065000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 516,
+      "triangles": 792,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "lotus",
+        "lod_ratio": "1.0",
+        "kit_placement": "western_water",
+        "kit_part": "lotus"
+      },
+      "bounds_z_up": [
+        [
+          -37.19075393676758,
+          -4.198217391967773,
+          -1.0516616106033325
+        ],
+        [
+          -35.55314636230469,
+          -2.3408782482147217,
+          -0.9920000433921814
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_8",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -32.02009963989258,
+        1.3435028791427612,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          0.7141778469085693,
+          -0.7141778469085693,
+          0.0,
+          -32.02009963989258
+        ],
+        [
+          0.7141778469085693,
+          0.7141778469085693,
+          0.0,
+          1.3435028791427612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0099999904632568,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -32.486610412597656,
+          0.7902059555053711,
+          -0.09241323173046112
+        ],
+        [
+          -31.546850204467773,
+          1.851579189300537,
+          1.5422742366790771
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_9",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -32.92848587036133,
+        1.75537109375,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          0.32528093457221985,
+          -0.7852975726127625,
+          0.0,
+          -32.92848587036133
+        ],
+        [
+          0.7852975726127625,
+          0.32528093457221985,
+          0.0,
+          1.75537109375
+        ],
+        [
+          0.0,
+          0.0,
+          0.8500000238418579,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -33.32333755493164,
+          1.285581350326538,
+          -0.09044678509235382
+        ],
+        [
+          -32.50545120239258,
+          2.195117473602295,
+          1.2852803468704224
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_10",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -34.0,
+        1.899999976158142,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          -4.0651592314588925e-08,
+          -0.9300000071525574,
+          0.0,
+          -34.0
+        ],
+        [
+          0.9300000071525574,
+          -4.0651592314588925e-08,
+          0.0,
+          1.899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.9300000071525574,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -34.4803466796875,
+          1.443065881729126,
+          -0.09143000841140747
+        ],
+        [
+          -33.557594299316406,
+          2.388434886932373,
+          1.413777232170105
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_11",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -35.07151412963867,
+        1.75537109375,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          -0.3865102231502533,
+          -0.9331183433532715,
+          0.0,
+          -35.07151412963867
+        ],
+        [
+          0.9331183433532715,
+          -0.3865102231502533,
+          0.0,
+          1.75537109375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0099999904632568,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -35.628807067871094,
+          1.2343336343765259,
+          -0.09241323173046112
+        ],
+        [
+          -34.60221481323242,
+          2.278055429458618,
+          1.5422742366790771
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_12",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -35.97990036010742,
+        1.3435028791427612,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          -0.601040780544281,
+          -0.601040780544281,
+          0.0,
+          -35.97990036010742
+        ],
+        [
+          0.601040780544281,
+          -0.601040780544281,
+          0.0,
+          1.3435028791427612
+        ],
+        [
+          0.0,
+          0.0,
+          0.8500000238418579,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -36.40748977661133,
+          0.9508941769599915,
+          -0.09044678509235382
+        ],
+        [
+          -35.51425552368164,
+          1.7417824268341064,
+          1.2852803468704224
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_13",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -35.97990036010742,
+        -1.3435028791427612,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          -0.6576093435287476,
+          0.657609224319458,
+          0.0,
+          -35.97990036010742
+        ],
+        [
+          -0.657609224319458,
+          -0.6576093435287476,
+          0.0,
+          -1.3435028791427612
+        ],
+        [
+          0.0,
+          0.0,
+          0.9300000071525574,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -36.41566467285156,
+          -1.811335563659668,
+          -0.09143000841140747
+        ],
+        [
+          -35.55033874511719,
+          -0.8340315222740173,
+          1.413777232170105
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_14",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -35.07151412963867,
+        -1.75537109375,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          -0.3865104019641876,
+          0.9331182837486267,
+          0.0,
+          -35.07151412963867
+        ],
+        [
+          -0.9331182837486267,
+          -0.3865104019641876,
+          0.0,
+          -1.75537109375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0099999904632568,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -35.57417678833008,
+          -2.277893304824829,
+          -0.09241323173046112
+        ],
+        [
+          -34.60233688354492,
+          -1.1971503496170044,
+          1.5422742366790771
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_15",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -34.0,
+        -1.899999976158142,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          1.0136148809181122e-08,
+          0.8500000238418579,
+          0.0,
+          -34.0
+        ],
+        [
+          -0.8500000238418579,
+          1.0136148809181122e-08,
+          0.0,
+          -1.899999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          0.8500000238418579,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -34.40435028076172,
+          -2.346418857574463,
+          -0.09044678509235382
+        ],
+        [
+          -33.56097412109375,
+          -1.4823720455169678,
+          1.2852803468704224
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_16",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -32.92848587036133,
+        -1.75537109375,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          0.3558957576751709,
+          0.8592078685760498,
+          0.0,
+          -32.92848587036133
+        ],
+        [
+          -0.8592078685760498,
+          0.3558957576751709,
+          0.0,
+          -1.75537109375
+        ],
+        [
+          0.0,
+          0.0,
+          0.9300000071525574,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -33.36061477661133,
+          -2.236654758453369,
+          -0.09143000841140747
+        ],
+        [
+          -32.41533279418945,
+          -1.275604009628296,
+          1.413777232170105
+        ]
+      ]
+    },
+    {
+      "name": "HERO_flora_ziling_zhou_17",
+      "data": "KIT_flora_reed_render",
+      "collections": [
+        "SITE_ziling-zhou"
+      ],
+      "materials": [
+        "MAT_flora_atlas"
+      ],
+      "location": [
+        -32.02009963989258,
+        -1.3435028791427612,
+        -0.07999999821186066
+      ],
+      "matrix_world": [
+        [
+          0.7141777276992798,
+          0.7141779661178589,
+          0.0,
+          -32.02009963989258
+        ],
+        [
+          -0.7141779661178589,
+          0.7141777276992798,
+          0.0,
+          -1.3435028791427612
+        ],
+        [
+          0.0,
+          0.0,
+          1.0099999904632568,
+          -0.07999999821186066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 336,
+      "triangles": 364,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "hidden": false,
+      "extras": {
+        "variant": "reed",
+        "lod_ratio": "1.0",
+        "flora_variant": "reed",
+        "flora_placement": "True",
+        "lod_distance": "14.0"
+      },
+      "bounds_z_up": [
+        [
+          -32.573394775390625,
+          -1.8167526721954346,
+          -0.09241323173046112
+        ],
+        [
+          -31.51202392578125,
+          -0.876991331577301,
+          1.5422742366790771
+        ]
+      ]
+    }
+  ],
+  "materials": {
+    "MAT_water": {
+      "diffuse_color": [
+        0.014000000432133675,
+        0.07000000029802322,
+        0.02800000086426735,
+        1.0
+      ],
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.15000000596046448,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Alpha": {
+          "value": 1.0,
+          "linked": false
+        },
+        "Emission Color": {
+          "value": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1.0
+          ],
+          "linked": false
+        },
+        "Emission Strength": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    "MAT_aojing_water": {
+      "diffuse_color": [
+        0.014000000432133675,
+        0.07000000029802322,
+        0.02800000086426735,
+        1.0
+      ],
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.15000000596046448,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Alpha": {
+          "value": 1.0,
+          "linked": false
+        },
+        "Emission Color": {
+          "value": [
+            0.014000000432133675,
+            0.07000000029802322,
+            0.02800000086426735,
+            1.0
+          ],
+          "linked": false
+        },
+        "Emission Strength": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "images": []
+    },
+    "MAT_flora_atlas": {
+      "diffuse_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "linked": true
+        },
+        "Roughness": {
+          "value": 0.8500000238418579,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Alpha": {
+          "value": 1.0,
+          "linked": true
+        },
+        "Emission Color": {
+          "value": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "linked": false
+        },
+        "Emission Strength": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "images": [
+        "flora-basecolor.png"
+      ]
+    },
+    "MAT_plaster_rock": {
+      "diffuse_color": [
+        0.20999999344348907,
+        0.20499999821186066,
+        0.1899999976158142,
+        1.0
+      ],
+      "inputs": {
+        "Base Color": {
+          "value": [
+            0.20999999344348907,
+            0.20499999821186066,
+            0.1899999976158142,
+            1.0
+          ],
+          "linked": false
+        },
+        "Roughness": {
+          "value": 0.3499999940395355,
+          "linked": false
+        },
+        "Metallic": {
+          "value": 0.0,
+          "linked": false
+        },
+        "Alpha": {
+          "value": 1.0,
+          "linked": false
+        },
+        "Emission Color": {
+          "value": [
+            0.20999999344348907,
+            0.20499999821186066,
+            0.1899999976158142,
+            1.0
+          ],
+          "linked": false
+        },
+        "Emission Strength": {
+          "value": 0.0,
+          "linked": false
+        }
+      },
+      "images": []
+    }
+  },
+  "scope": "Actual saved source; live MCP scene has older legacy reeds and is preserved unchanged. No source edits or candidate saved yet."
+}

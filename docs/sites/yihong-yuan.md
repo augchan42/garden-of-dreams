@@ -74,3 +74,7 @@ Slot 3 now contains a directly reviewed banana-leaf close-up by Hysocc, with CC 
 ## Courtyard night-set reference — 2026-10-08
 
 The third collected reference fills slot 1: *The Magic Blade* courtyard still identified in the Hong Kong Film Archive's publication. Direct page review shows cool directional illumination on pale walls and curved gates against black sky/tree masses, with warm/red accents. It guides the courtyard's night contrast after the reduced-green revision. Night appearance is inferred visually; no warm window/lantern or measured light is established. The original JPX stream, complete credited source and interpretation limits are recorded in `../reference/external/yihong-yuan/README.md`. All three slots are collected; final scene art is still unaccepted.
+
+## Waterline and reed source checkpoint — 2026-10-09
+
+The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.

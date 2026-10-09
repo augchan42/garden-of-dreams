@@ -1,0 +1,759 @@
+{
+  "status": "technical_review_complete_original_lit_visual_review_pending",
+  "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "authoring_sha256": "0d3e84e3cb0aada4d7aafda8448f3ebb90bb39426eb18f24941a97c56977f400",
+  "root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review",
+  "orchestrator_pid": 36131,
+  "started_at": "2026-10-09T06:48:47.450512+00:00",
+  "phases": [
+    {
+      "name": "adjacent-hengwu",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/hengwu"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/adjacent-hengwu.log",
+      "pid": 36132,
+      "exit_code": 0,
+      "log_sha256": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719"
+    },
+    {
+      "name": "adjacent-tubi",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_tubi_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/tubi"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/adjacent-tubi.log",
+      "pid": 36194,
+      "exit_code": 0,
+      "log_sha256": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5"
+    },
+    {
+      "name": "adjacent-qiushuang",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/qiushuang"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/adjacent-qiushuang.log",
+      "pid": 36225,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "adjacent-pond",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_pond_view.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/pond"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/adjacent-pond.log",
+      "pid": 36250,
+      "exit_code": 0,
+      "log_sha256": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba"
+    },
+    {
+      "name": "texture-memory-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/texture-memory-normal.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/texture-memory-normal.log",
+      "pid": 36266,
+      "exit_code": 0,
+      "log_sha256": "1cdd30415c284da915664723d5576bb7fbe22ef2e66bb3d63c757c1a1ec80cb4"
+    },
+    {
+      "name": "texture-memory-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/texture-memory-demo.json",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/texture-memory-demo.log",
+      "pid": 36284,
+      "exit_code": 0,
+      "log_sha256": "682e57b6d47ad550d657823f3b762bfcec0e6aef258cd26f02293ef851083183"
+    },
+    {
+      "name": "arrivals-desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/arrivals-desktop"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/arrivals-desktop.log",
+      "pid": 36306,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/arrivals-portrait",
+        "--mobile"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/arrivals-portrait.log",
+      "pid": 36428,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "full-tour-desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/tour-desktop",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/tour-desktop/report.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/full-tour-desktop.log",
+      "pid": 36556,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "name": "full-tour-portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/tour-portrait",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures-resume2/tour-portrait/report.json",
+        "--portrait"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume2/full-tour-portrait.log",
+      "pid": 45462,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    }
+  ],
+  "scope": "All work is isolated. The current source bake and preparation parent must both finish and exit before any native review job. No production adoption, visual acceptance, phone budgets or services completion.",
+  "reused_checked_phases": [
+    {
+      "name": "saved-water-palette",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/water-kit-parity/executed-update_water_palette.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs/saved-water-palette.log",
+      "pid": 19667,
+      "exit_code": 0,
+      "log_sha256": "abb36a7707f250094ee0b16fd1beeb34a7b717884524e94c1ce727584a5b8b8e"
+    },
+    {
+      "name": "controlled-water-export",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/water-kit-parity/garden_verify_water_kit_palette.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs/controlled-water-export.log",
+      "pid": 19668,
+      "exit_code": 0,
+      "log_sha256": "e124defad04d8493a1321fb788e5bb30c202a0457c0f1d7da6249e72869d9c1d"
+    },
+    {
+      "name": "saved-flora-default-reexports",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/source-code-candidates/reexport_repaired_saved_flora.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/saved-flora-default-reexports.log",
+      "pid": 33168,
+      "exit_code": 0,
+      "log_sha256": "339172c44e7b0d46ef3f550625b72819c93fd03ea087a84e2f49d196fc1ab389"
+    },
+    {
+      "name": "fresh-flora-generator",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/flora-generator-reproduction/scripts/complete_flora_kit.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/fresh-flora-generator.log",
+      "pid": 33170,
+      "exit_code": 0,
+      "log_sha256": "4cf5fe99cc36afc8841ad36d35c27b8a29e7668d35bf48d8f3bdb98397e37c8d"
+    },
+    {
+      "name": "fresh-flora-generator-semantics",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/source-code-candidates/verify_flora_generator.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/fresh-flora-generator-semantics.log",
+      "pid": 33171,
+      "exit_code": 0,
+      "log_sha256": "12d679c5c806dd2836b16c1b9d2068391fad3cdb4ffe1938b7368cad266ad532"
+    },
+    {
+      "name": "coverage",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/verify_lightmaps.py",
+        "--current",
+        "--require-all"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/coverage.log",
+      "pid": 33172,
+      "exit_code": 0,
+      "log_sha256": "c21e533acd82c3d19f4117baff571f155717f3ed98b165c1340e09346a6e4134"
+    },
+    {
+      "name": "sync-full",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/sync-full.log",
+      "pid": 33176,
+      "exit_code": 0,
+      "log_sha256": "7ea751e029b206571c2bac17b4abd631b69425709521fcd3227e729ed5b71f0e"
+    },
+    {
+      "name": "sync-demo",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/sync-demo.log",
+      "pid": 33177,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "sync-priority2",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/sync_priority2_lightmaps.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/sync-priority2.log",
+      "pid": 33178,
+      "exit_code": 0,
+      "log_sha256": "f25060f2b0286b688a1f07c433a81ee7ea78fe0c3e7259d0001e0d3c901d9064"
+    },
+    {
+      "name": "sync-wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/sync-wash.log",
+      "pid": 33179,
+      "exit_code": 0,
+      "log_sha256": "483bcb7fb0a483c9248da9fa85ba1b4d850e5f62d85e28ae36aae6d055205b2e"
+    },
+    {
+      "name": "sync-spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/sync-spill.log",
+      "pid": 33180,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "cold-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/cold-import.log",
+      "pid": 33181,
+      "exit_code": 0,
+      "log_sha256": "6c16beab5e21381d08926c2ca952ba149906332de697e137db51f0d149b70f90"
+    },
+    {
+      "name": "configure-lightmap-caps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/configure_lightmap_imports.py",
+        "--size-limit",
+        "256",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/configure-lightmap-caps.log",
+      "pid": 33225,
+      "exit_code": 0,
+      "log_sha256": "c4be36fd19a6d644e8b334d1c376ea52304b7522985a9b3cea2a95dc85d8420b"
+    },
+    {
+      "name": "configured-import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/configured-import.log",
+      "pid": 33226,
+      "exit_code": 0,
+      "log_sha256": "3ab04cd4b64a536733634492e64407afdeaf7efc788d9d49a4d518226c03188e"
+    },
+    {
+      "name": "native-source-contract",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/native-import-contract.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/native-source-contract.log",
+      "pid": 33228,
+      "exit_code": 0,
+      "log_sha256": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa"
+    },
+    {
+      "name": "native-flora-kit",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_flora_kit.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/native-flora-kit.log",
+      "pid": 33235,
+      "exit_code": 0,
+      "log_sha256": "6693bdb5e3fb5f53255adfae2be4757a23ef852e316924b52eac5d4f28ba0161"
+    },
+    {
+      "name": "native-water-kit",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_water_kit.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/native-water-kit.log",
+      "pid": 33239,
+      "exit_code": 0,
+      "log_sha256": "a04556e8b0044e7655b9703b132998a63a4a64dd3af54c75a1b867fec4ba8be4"
+    },
+    {
+      "name": "full-lighting",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/full-lighting.log",
+      "pid": 33393,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/wash-normal.log",
+      "pid": 33395,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "wash-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/wash-demo.log",
+      "pid": 33422,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "spill-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/spill-normal.log",
+      "pid": 33430,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/spill-demo.log",
+      "pid": 33432,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "saved-source-default-reexports",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/blender/authoring.blend",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review",
+        "--output-root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/saved-source-reproduction"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/saved-source-default-reexports.log",
+      "pid": 33433,
+      "exit_code": 0,
+      "log_sha256": "5b52e96fd9e64a31953b3d1a3866e7efb357c7d8a6dd4fc1607c9df933477963"
+    },
+    {
+      "name": "site-source-audit",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/scripts/audit_site_sources.py"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/site-source-audit.log",
+      "pid": 33475,
+      "exit_code": 0,
+      "log_sha256": "3f9ed77be90884ff7f8903013aa61585e566b0a68ab7d99e8dd08cf9d0fc2d0b"
+    },
+    {
+      "name": "ziling-normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures/ziling-normal"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/ziling-normal.log",
+      "pid": 33504,
+      "exit_code": 0,
+      "log_sha256": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6"
+    },
+    {
+      "name": "ziling-touch",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures/ziling-touch",
+        "--touch"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/ziling-touch.log",
+      "pid": 33542,
+      "exit_code": 0,
+      "log_sha256": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6"
+    },
+    {
+      "name": "ziling-density",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures/ziling-density",
+        "--density"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/ziling-density.log",
+      "pid": 33614,
+      "exit_code": 0,
+      "log_sha256": "a2f1714e262fbd899fbe674f31267e7fb384f521cfe1c84317e73236516780a6"
+    },
+    {
+      "name": "adjacent-ouxiang",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-captures/ouxiang"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/lit-native-review/review-logs-resume1/adjacent-ouxiang.log",
+      "pid": 34428,
+      "exit_code": 0,
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971"
+    }
+  ],
+  "source_bake_report": {
+    "status": "source_complete",
+    "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+    "samples": 128,
+    "maximum_source_map_size": 1024,
+    "engine_installed": false,
+    "started_at": "2026-10-09T05:32:57.950519+00:00",
+    "log_root": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n",
+    "orchestrator_pid": 75479,
+    "phases": [
+      {
+        "name": "ordinary",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/ordinary.log",
+        "pid": 75480,
+        "exit_code": 0
+      },
+      {
+        "name": "backdrop-wash",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/backdrop-wash.log",
+        "pid": 19031,
+        "exit_code": 0
+      },
+      {
+        "name": "terminal-spill",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/terminal-spill.log",
+        "pid": 19077,
+        "exit_code": 0
+      },
+      {
+        "name": "terminal-spill-pixels",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/terminal-spill-pixels.log",
+        "pid": 19639,
+        "exit_code": 0
+      },
+      {
+        "name": "native-pixels",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/native-pixels.log",
+        "pid": 19640,
+        "exit_code": 0
+      },
+      {
+        "name": "coverage",
+        "status": "passed",
+        "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-full-key-refresh-nep6zz0n/coverage.log",
+        "pid": 19651,
+        "exit_code": 0
+      }
+    ],
+    "coverage": {
+      "expected_meshes": 124,
+      "baked_meshes": 124,
+      "missing": [],
+      "unexpected": [],
+      "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485"
+    },
+    "finished_at": "2026-10-09T06:33:07.863548+00:00"
+  },
+  "frozen_inputs_verified": 242,
+  "previous_review_sha256": "1a1168ce5e9e95a08a8a7280129583ed70ccfcb1692dedcc817b2bc3bc12ef1b",
+  "architecture_completion_verification": {
+    "status": "passed_exact_log_and_15_hashed_original_reports",
+    "report_sha256": "db249c6c1e996b9effda354610158edda5f6a75b21c21bd9b8e39d7eba5902bf",
+    "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+    "scope": "Runner originally expected a nonexistent PASS marker. Test exited0 and printed exact RESULT15/zero failures. Original failed runner report retained; no scene/test/image edited."
+  },
+  "finished_at": "2026-10-09T07:01:51.538558+00:00"
+}

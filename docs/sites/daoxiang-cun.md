@@ -78,3 +78,7 @@ Attribution, rights information, original stream hash and exact decoded-frame pr
 ## Runtime portrait framing — 2026-10-09
 
 The runtime portrait view is now centered and closer, with the thatched farmhouse occupying at least 75% of the width above the command panel. Normal runtime lamps illuminate the doors in the inspected full-walk arrival. Painted backdrop edges, coarse shadow/material treatment and final art remain open. “Look” restores this overview after a detail action; resizing preserves details or adapts the overview. Existing desktop and authored Blender cameras remain unchanged. See `../reference/portrait-architecture-runtime/README.md`.
+
+## Waterline and reed source checkpoint — 2026-10-09
+
+The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.

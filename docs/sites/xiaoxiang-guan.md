@@ -77,3 +77,7 @@ Slot 2: [original entrance photograph](../reference/external/xiaoxiang-guan/xiao
 ## Collected night-set reference — 2026-10-08
 
 Slot 1 is filled by the official Hong Kong Film Archive still from *The 36th Chamber of Shaolin*, produced by Shaw Brothers. Upright bamboo and dark lattice-fronted architecture receive cool fill beside a warm torch. It supports stem silhouettes and distinct warm/cool pools without prescribing a return to the strong green cast. The copyrighted still remains a design reference outside shipped game assets; exact source and rights attribution are in `../reference/external/xiaoxiang-guan/README.md`. All three reference slots are now collected, but current foliage, night lighting and final scene art still need acceptance.
+
+## Waterline and reed source checkpoint — 2026-10-09
+
+The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.

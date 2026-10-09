@@ -1,0 +1,42 @@
+{
+  "status": "unused_godot_aliases_excluded_post_cleanup_import_water_passed",
+  "files_sha256": {
+    "godot/assets/kits/KIT_water_LOD1.glb": "d73ea8acb8a4a235785c714c3b8dcf41f12fd88586dd7f615bab8c93c5e86072",
+    "godot/assets/kits/KIT_water_pavilion_basecolor.png.import": "4dfea06783e5cac12228ba0c744079a1db972a745dd5307e9c31ebed16b4d685",
+    "godot/assets/kits/KIT_water.glb": "db7c1a5c52040ec80339247eb5fc207f0f0dd67d2eead9500f1d2cea98913da3",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_normal.png.import": "0855b811532aac0690f2281eeb258d2019129c74aa38a911767a9e2c107cb928",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_basecolor.png.import": "d74ca2ec7e82bc2469b2beb2ef1644540d3a098b70dfb1d64dd6a2ddde694de5",
+    "godot/assets/kits/KIT_water_pavilion_normal.png.import": "4255c03604038a8c7a83f85f9c1315620a27e18e0ae6f3a2fa818fc935cbcc46",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_orm.png.import": "89a5f9804e92d8e3b220edd2c5773a92d2f9a2e00f6e1923afa7f072890403ad",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_basecolor.png": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+    "godot/assets/kits/KIT_water_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267",
+    "godot/assets/kits/KIT_water_pavilion_basecolor.png": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+    "godot/assets/kits/KIT_water_LOD1.glb.import": "a865dafc5284d35fe0a5b11de58399e9879396918c9495b20ce504b0a53e2206",
+    "godot/assets/kits/KIT_water_pavilion_orm.png": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+    "godot/assets/kits/KIT_water_pavilion_orm.png.import": "df4abbf48216925ac24000e644bd24b3caa004223aa71be7712d56069cf56f4e",
+    "godot/assets/kits/KIT_water.glb.import": "3cda88abfbb79a0e5d1b92ad71e9717fcff3ea3803c41ce11dd8cc6364211011",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_orm.png": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23",
+    "godot/assets/kits/KIT_water_LOD1_pavilion_normal.png": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267"
+  },
+  "scope": "The adoption staged two new root Godot wood-bridge aliases although the production engine uses twelve named water modules. Root aliases were absent before adoption, have no runtime/test/resource references and duplicate imported atlas textures with default uncompressed settings. Exclude these sixteen unused generated files rather than shipping additional texture copies. The existing export/kits/KIT_water bridge aliases, all twelve engine water modules, Blender kit, main source, lighting, runtime and source/test contracts remain installed and unchanged. Prior thirteen checks and immutable evidence retain the tested staging attempt; post-cleanup import/water checks follow.",
+  "installed_application_sha256": "9d8f778b4fe5116225bf5523c0c8ef9c1fe7cbf7d6094537b0708cf54d5c82f4",
+  "checks": [
+    {
+      "name": "post-cleanup-import",
+      "exit_code": 0,
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/post-cleanup-import.log"
+    },
+    {
+      "name": "post-cleanup-water",
+      "exit_code": 0,
+      "log_sha256": "a04556e8b0044e7655b9703b132998a63a4a64dd3af54c75a1b867fec4ba8be4",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/ziling-source-art/post-cleanup-water.log"
+    }
+  ],
+  "archive_files_sha256": {
+    "docs/reference/ziling-source-art-install-scope/post-cleanup-import.log": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6",
+    "docs/reference/ziling-source-art-install-scope/executed-post-cleanup-checks.py": "6e85a88b4759e718c6139f37a3cb4cc17edcadd684c3e7c3e2bee2cdf5399f94",
+    "docs/reference/ziling-source-art-install-scope/post-cleanup-water.log": "a04556e8b0044e7655b9703b132998a63a4a64dd3af54c75a1b867fec4ba8be4"
+  }
+}

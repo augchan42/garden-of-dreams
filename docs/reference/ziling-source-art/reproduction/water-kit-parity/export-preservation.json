@@ -1,0 +1,35 @@
+{
+  "status": "controlled_water_kit_palette_passed",
+  "changed_palette_exports": [
+    "KIT_water_embankment.glb",
+    "KIT_water_embankment_LOD1.glb",
+    "KIT_water_pond.glb",
+    "KIT_water_pond_LOD1.glb",
+    "KIT_water_stone_bridge.glb",
+    "KIT_water_stone_bridge_LOD1.glb",
+    "KIT_water_stream.glb",
+    "KIT_water_stream_LOD1.glb",
+    "KIT_water_wood_bridge.glb",
+    "KIT_water_wood_bridge_LOD1.glb"
+  ],
+  "unchanged_byte_identical_exports": [
+    "KIT_water_lotus.glb",
+    "KIT_water_lotus_LOD1.glb"
+  ],
+  "expected_assembly_water_material": {
+    "doubleSided": true,
+    "name": "MAT_water",
+    "pbrMetallicRoughness": {
+      "baseColorFactor": [
+        0.25,
+        0.3199999928474426,
+        0.4000000059604645,
+        1
+      ],
+      "metallicFactor": 0,
+      "roughnessFactor": 0.15000000596046448
+    }
+  },
+  "source_assembly_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "scope": "All12 saved/reopened-source exports checked; exact node/camera/collision/ports, every decoded accessor, all other PBR/images/textures and UV channels unchanged. Four stream/pond base colors and six embedded architectural color images change to exact source palette; the two lotus exports stay byte-identical. Native kit import/adoption still pending."
+}

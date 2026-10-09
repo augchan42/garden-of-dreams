@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,hashlib
+r=Path('/Users/auchan/projects/garden-of-dreams');w=Path(json.loads(Path('/tmp/garden-ziling-source-art.json').read_text())['root']);f=Path(json.loads(Path('/tmp/garden-ziling-framing.json').read_text())['folder'])/'godot';out=w/'reed-volume-native-review';assert not out.exists();out.mkdir()
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+s=(r/'godot/tests/test_ziling_framing.gd').read_text().replace('26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38',sha(w/'reeds-volume/export/garden-of-dreams.glb')).replace('instantiate();root.add_child(route)','instantiate();route.site_bakes_enabled=false;root.add_child(route)').replace('check(route.site_bakes_enabled,"Matching lighting disabled")','check(not route.site_bakes_enabled,"Old lighting must stay disabled for this geometry-only candidate")').replace('subjects.reeds.size()==10940','subjects.reeds.size()==48320').replace('res://tests/test_ziling_framing.gd','res://tests/test_reed_volume_framing.gd').replace('Not final source/site-art','No bakes used; geometry-only candidate. Not final source/site-art')
+(f/'tests/test_reed_volume_framing.gd').write_text(s);(out/'executed-test_reed_volume_framing.gd').write_text(s)
+review={'status':'promising_geometry_pending_fresh_lighting','directly_reviewed':['full/ziling_zhou-390x844.png','forced-lod1/ziling_zhou-390x844.png','full/ziling_zhou-1410x600.png'],'observations':'Tapered three-dimensional heads are legible at phone size in both LODs; arching leaves and open landing remain visible. Tawny foliage is bright under this unbaked diagnostic rig; final material/lighting acceptance remains pending. Desktop stage ground/background and composition remain open. No phone budget acceptance.'}
+(w/'reed-volume-native-comparison/visual-review.json').write_text(json.dumps(review,indent=2)+'\n')
+print('PREPARED_NATIVE_REVIEW')
