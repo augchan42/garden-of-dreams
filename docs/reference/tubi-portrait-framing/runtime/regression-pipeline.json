@@ -1,0 +1,223 @@
+{
+  "status": "passed",
+  "started_at": "2026-10-09T02:48:51.928054+00:00",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "995707af748004d7de0bd53b5b5bf38deb048453c3e0be60664d3820b666f842",
+  "phases": [
+    {
+      "name": "cold-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-cold-import.log",
+      "log_sha256": "1f6afb48483d4997cd847c536fbb5ab3c08008392a93a71193c35c4da347bca3",
+      "status": "passed"
+    },
+    {
+      "name": "source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/production-source-contract.json"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-source-contract.log",
+      "log_sha256": "d60c0aae8f10646a1e8aeac25fb0d93a62137860fc90df98aab2e78d6c25cafa",
+      "status": "passed"
+    },
+    {
+      "name": "hilltop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_hilltop_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hilltop.log",
+      "log_sha256": "8e7348ffaf907682022d9d680f9f4563e7b02206099576d4245d970f4826d2e7",
+      "status": "passed"
+    },
+    {
+      "name": "study",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_study_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-study.log",
+      "log_sha256": "6e51659ee81f51fc16407abb95068d03d7036d7ead4e67ea965c34a87954f758",
+      "status": "passed"
+    },
+    {
+      "name": "courtyard",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_courtyard_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-courtyard.log",
+      "log_sha256": "0b59665d633d8f024ae53bd81cef866d93fdaeb8a2fb1981bdaf9d7005c393ee",
+      "status": "passed"
+    },
+    {
+      "name": "farmhouse",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_farmhouse_route.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-farmhouse.log",
+      "log_sha256": "19d5c8140e52ddb4eca49c1239141b24dbe261d3c41dde74ad7d35e069454eb7",
+      "status": "passed"
+    },
+    {
+      "name": "mobile-ui",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-mobile-ui.log",
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0",
+      "status": "passed"
+    },
+    {
+      "name": "gate-reveal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_gate_reveal.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-gate-reveal.log",
+      "log_sha256": "d3a5386ed6f62bc2ebf30ca9881d2320006072bee0d0caa2c068e33146dca675",
+      "status": "passed"
+    },
+    {
+      "name": "first-reading-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_first_reading_demo.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-first-reading-demo.log",
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6",
+      "status": "passed"
+    },
+    {
+      "name": "pond-view",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_pond_view.gd"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-pond-view.log",
+      "log_sha256": "1908c574aef99de1a0d51c66aa374030ba51b9adf85ecbe4a7ec4e2989fdcdba",
+      "status": "passed"
+    },
+    {
+      "name": "portrait-architecture",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_portrait_architecture.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-portrait-architecture.log",
+      "log_sha256": "8630fc0f1be416e8a80fbe68df29524b35ca61163fc09db279037b87d3789ee6",
+      "status": "passed"
+    },
+    {
+      "name": "hengwu-details",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_hengwu_detail_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-hengwu-details.log",
+      "log_sha256": "4f45d081677d27a9b5d93af358ec284481e896b8ea14bba3cd70b5f3539e3719",
+      "status": "passed"
+    },
+    {
+      "name": "ouxiang-framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_oux_portrait_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/regression-ouxiang-framing.log",
+      "log_sha256": "5a5d1026dff421bddac3b4b47fc38c6398e3cc0b5aabad5f5a5b7efe2eb2b971",
+      "status": "passed"
+    }
+  ],
+  "scope": "Installed project import/source, actual hilltop/study/climb/descent and adjacent routes, mobile UI, first-reading and other camera-state regressions. No physical-phone, new full-tour, sustained or final-art acceptance.",
+  "finished_at": "2026-10-09T02:52:08.550063+00:00"
+}

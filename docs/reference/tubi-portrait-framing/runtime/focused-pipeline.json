@@ -1,0 +1,64 @@
+{
+  "status": "failed",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "6d9dd925feec5fa9a3b62fc912596db53568ec9d5e08bc4e50d0fb23ca01c135",
+  "test_sha256": "f83b7a90fbd553d7cd8d840ffe33c7e63544f2a8315bbe747b19a78d5c5e7019",
+  "phases": [
+    {
+      "mode": "normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_tubi_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-normal.log",
+      "log_sha256": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5"
+    },
+    {
+      "mode": "touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_tubi_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch",
+        "--touch"
+      ],
+      "exit_code": 0,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-touch.log",
+      "log_sha256": "163212c8f8bc6ef1409ce12b5ad2ab932a7310cab3bf0897f545628fc2cfc7e5"
+    },
+    {
+      "mode": "density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "390x844",
+        "--script",
+        "res://tests/test_tubi_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density",
+        "--density"
+      ],
+      "exit_code": 1,
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/tubi-runtime/green-density.log",
+      "log_sha256": "dbdf6edb18598ff29a9be0bf381513c6118d567c0b56995e5af654e4bd2d8e61"
+    }
+  ]
+}

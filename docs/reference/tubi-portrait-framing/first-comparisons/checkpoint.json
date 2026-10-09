@@ -1,0 +1,310 @@
+{
+  "status": "lower_camera_comparison_passed_not_installed",
+  "source_glb_sha256": "26033c99c82f9609f02ea545d4812b3ce1bd9ea2c9ecdf89a51e3ced03fe3d38",
+  "route_sha256": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+  "main_commit": "cae70b066c1d8b8009c5ca64854e2c23e5ae9d05",
+  "native_sessions": [
+    {
+      "session": 42519,
+      "exit": 0,
+      "originals": 8,
+      "visual_rejection": "Closer arrival proposals show broad ceiling and incomplete stairs."
+    },
+    {
+      "session": 76003,
+      "exit": 1,
+      "originals": 6,
+      "reason": "No full moon/hall/stair fit in close camera search."
+    },
+    {
+      "session": 30885,
+      "exit": 1,
+      "originals": 6,
+      "reason": "Farther range still lacks sufficiently low aims for interface clearance."
+    },
+    {
+      "session": 86652,
+      "exit": 0,
+      "originals": 8,
+      "result": "Both measured portraits fit imported hall/title/roof, actual moon and entire ramp above interface; originals directly reviewed."
+    }
+  ],
+  "verification_note": "Capture paths in older reports point to their original live output location. Their directories were moved before the next comparison; verified bytes resolve to the corresponding report directory. First archive verifier mistakenly followed the reused live output path and rejected before checkpoint writing; this corrected check compares each preserved stage with its own report.",
+  "originals": [
+    {
+      "path": "comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "comparison/overlook-baseline-1410x600.png",
+      "sha256": "c9b2af5a4ad5eb3859ab0f689478df65b9850fc8de73c93ea41e98fd22e8bf49",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "comparison/arrival-measured-390x844.png",
+      "sha256": "7833806844871bb3d9263ccc1b4f46aa6c6b72330597da5504d6b06ff1e19bb4",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "comparison/overlook-baseline-390x844.png",
+      "sha256": "4534a07a71ce4fd19efb1f73db58c31f3fd9c5bdc72aad6d7a8871af9f97da9c",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "comparison/arrival-measured-360x800.png",
+      "sha256": "5d117bd594666110b89c023df2abf3ef35b73a0ab22e5aaf737f6a0422a3fce6",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "comparison/overlook-baseline-360x800.png",
+      "sha256": "ca4704ddead01e5ad65816f6ff1aeb3a43996cbaadc4549f394e50eae2e8dd3e",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/overlook-baseline-1410x600.png",
+      "sha256": "23da8aee20e86f7a1ad9b0008c52545e11a239b0280308f242eaa63218f284b2",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/overlook-baseline-390x844.png",
+      "sha256": "ba23e223a161a64deee2f7d67182b3b44f7cdf3a03adfb881bf2f2f64034c98e",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "farther-fit-rejection/comparison/overlook-baseline-360x800.png",
+      "sha256": "9ab70dec54d716937ac770ee39809de9c29ff7f97e7e820926bb954945856d88",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/overlook-baseline-1410x600.png",
+      "sha256": "14afccfc0aa8cd17ee3b2cc495c4f71a165d3b019f3ab105e17db390133ab02e",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/overlook-baseline-390x844.png",
+      "sha256": "abc25a4805907fcba71584adb1da38c476f1ad554644b120e7d8aa041b2cb9e9",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "stair-fit-rejection/comparison/overlook-baseline-360x800.png",
+      "sha256": "5f95f0f99034c2efeaca323165f3d617d63a07899c485f90f2b01c2e5ebd95f5",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/arrival-baseline-360x800.png",
+      "sha256": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/arrival-baseline-1410x600.png",
+      "sha256": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/arrival-baseline-390x844.png",
+      "sha256": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/overlook-baseline-1410x600.png",
+      "sha256": "e921cd41c78fceccee1607bac7f1297a6dc90329ac9093219b859139145398de",
+      "pixels": [
+        1410,
+        600
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/arrival-measured-390x844.png",
+      "sha256": "abd0babcfc44949c3313d361eebb1ea139d424d0a8880d7838cb1ba32db44961",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/overlook-baseline-390x844.png",
+      "sha256": "e9e63ec71bf3f182fdcbb60f5a6fc82fcec5d3d004e7eca1e30c291adaf85fa5",
+      "pixels": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/arrival-measured-360x800.png",
+      "sha256": "134b081b39534d340564ff8545dc619ae4d326939027ad204379d5a61d0e7813",
+      "pixels": [
+        360,
+        800
+      ]
+    },
+    {
+      "path": "first-attempt/comparison/overlook-baseline-360x800.png",
+      "sha256": "8f81a06eaa6dc639f7a99fbe6948dec3aa8fe727b1f02ea916fbe23695b9b435",
+      "pixels": [
+        360,
+        800
+      ]
+    }
+  ],
+  "next": "Find one stable portrait pose or aspect rule; test touch/density/resize/rotation/Look and actual garden-overlook composition before installation. Keep original desktop and source geometry/lighting. Final art and devices remain open.",
+  "files": {
+    "preparation.json": "f5d53d14e13c8ae987846110200240732e5c2bc412a6794f6587fdff65119a44",
+    "executed-runtime.gd": "3d157a7bd04f028529837b13caa5c5f069110c1ec305210df1e24b61b1b9c3c4",
+    "native-comparison.log": "033bdcd92c5d8e724b3a08f116035384f9beb10b788089552865bd5170c8866a",
+    "preparation-helper.py": "63ffcbb51fc54e1e54346154eb135b8c78c08b72368f61dca5ae4be5ea6b4a48",
+    "first-probe-helper.gd": "d11cc8ecb3dc713a8ffded149b614b49877a7aff2e99d781595b896dff8dc5c8",
+    "command.json": "84981715f526d1d9f385bf16866e94d879386c5c8b0280fa7821dd31e328a8b7",
+    "executed-probe.gd": "b4116abd915e5a85a869b8546c3821a4af2a6a92cf5863d8b23572d64731566f",
+    "first-attempt/native-comparison.log": "033bdcd92c5d8e724b3a08f116035384f9beb10b788089552865bd5170c8866a",
+    "first-attempt/command.json": "84981715f526d1d9f385bf16866e94d879386c5c8b0280fa7821dd31e328a8b7",
+    "first-attempt/executed-probe.gd": "d11cc8ecb3dc713a8ffded149b614b49877a7aff2e99d781595b896dff8dc5c8",
+    "stair-fit-rejection/native-comparison.log": "3f992b2a49338e2c56bfe9aae5a88751bcf7a48c9b55fc62c40e8df422b7380c",
+    "stair-fit-rejection/command.json": "0e6388ce0141286061138fc8d82ea2f7aef3c6bb238e57ebce9aa4224150572d",
+    "stair-fit-rejection/executed-probe.gd": "675602527ed98c0d6b99131df921cd560289da2cc99e7a90b6aa7f217bff4633",
+    "comparison/report.json": "bdb627d13a03aee133100dc87ddf57d684366e51a0739fdac5fb4849cbe2abd9",
+    "comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "comparison/overlook-baseline-1410x600.png": "c9b2af5a4ad5eb3859ab0f689478df65b9850fc8de73c93ea41e98fd22e8bf49",
+    "comparison/arrival-measured-390x844.png": "7833806844871bb3d9263ccc1b4f46aa6c6b72330597da5504d6b06ff1e19bb4",
+    "comparison/overlook-baseline-390x844.png": "4534a07a71ce4fd19efb1f73db58c31f3fd9c5bdc72aad6d7a8871af9f97da9c",
+    "comparison/arrival-measured-360x800.png": "5d117bd594666110b89c023df2abf3ef35b73a0ab22e5aaf737f6a0422a3fce6",
+    "comparison/overlook-baseline-360x800.png": "ca4704ddead01e5ad65816f6ff1aeb3a43996cbaadc4549f394e50eae2e8dd3e",
+    "farther-fit-rejection/native-comparison.log": "3f992b2a49338e2c56bfe9aae5a88751bcf7a48c9b55fc62c40e8df422b7380c",
+    "farther-fit-rejection/command.json": "0e6388ce0141286061138fc8d82ea2f7aef3c6bb238e57ebce9aa4224150572d",
+    "farther-fit-rejection/executed-probe.gd": "a331e0b903b59cb15dfa627c79ab934538237d8dc18c4b145db55bc83e4d8761",
+    "farther-fit-rejection/comparison/report.json": "291ad190370b13d6015e9362c7119be6c083bf417a883c228188f836696bd50b",
+    "farther-fit-rejection/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "farther-fit-rejection/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "farther-fit-rejection/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "farther-fit-rejection/comparison/overlook-baseline-1410x600.png": "23da8aee20e86f7a1ad9b0008c52545e11a239b0280308f242eaa63218f284b2",
+    "farther-fit-rejection/comparison/overlook-baseline-390x844.png": "ba23e223a161a64deee2f7d67182b3b44f7cdf3a03adfb881bf2f2f64034c98e",
+    "farther-fit-rejection/comparison/overlook-baseline-360x800.png": "9ab70dec54d716937ac770ee39809de9c29ff7f97e7e820926bb954945856d88",
+    "stair-fit-rejection/comparison/report.json": "78a733fed3e714f18ac938760c5f82d3fe3225be84630f2fd9edbe5bddddb7be",
+    "stair-fit-rejection/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "stair-fit-rejection/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "stair-fit-rejection/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "stair-fit-rejection/comparison/overlook-baseline-1410x600.png": "14afccfc0aa8cd17ee3b2cc495c4f71a165d3b019f3ab105e17db390133ab02e",
+    "stair-fit-rejection/comparison/overlook-baseline-390x844.png": "abc25a4805907fcba71584adb1da38c476f1ad554644b120e7d8aa041b2cb9e9",
+    "stair-fit-rejection/comparison/overlook-baseline-360x800.png": "5f95f0f99034c2efeaca323165f3d617d63a07899c485f90f2b01c2e5ebd95f5",
+    "first-attempt/comparison/report.json": "c6876f1e1f3438c17a960d5c5d4474d4a24566a70c29938b41045984e9aff7df",
+    "first-attempt/comparison/arrival-baseline-360x800.png": "2005fff7cd8b541cf26e686fd13f46d755cfd5b834a3564835c05b825d4fd72a",
+    "first-attempt/comparison/arrival-baseline-1410x600.png": "59086f8a8ca3a7807ac8d8df5d2814f889502a178fe3340bad6b663e4ac388ae",
+    "first-attempt/comparison/arrival-baseline-390x844.png": "4ca8ad93fdc69e3ac3018f8630489a24db5da7cb35440ae1c254ad39f9cbdab1",
+    "first-attempt/comparison/overlook-baseline-1410x600.png": "e921cd41c78fceccee1607bac7f1297a6dc90329ac9093219b859139145398de",
+    "first-attempt/comparison/arrival-measured-390x844.png": "abd0babcfc44949c3313d361eebb1ea139d424d0a8880d7838cb1ba32db44961",
+    "first-attempt/comparison/overlook-baseline-390x844.png": "e9e63ec71bf3f182fdcbb60f5a6fc82fcec5d3d004e7eca1e30c291adaf85fa5",
+    "first-attempt/comparison/arrival-measured-360x800.png": "134b081b39534d340564ff8545dc619ae4d326939027ad204379d5a61d0e7813",
+    "first-attempt/comparison/overlook-baseline-360x800.png": "8f81a06eaa6dc639f7a99fbe6948dec3aa8fe727b1f02ea916fbe23695b9b435"
+  }
+}
