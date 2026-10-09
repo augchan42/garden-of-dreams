@@ -1315,3 +1315,10 @@ Thirteen checks on the installed project pass. An earlier final framing timeout 
 All twenty-eight current arrivals, selected Ziling normal/touch/density views, eight settled-tour originals and two explicitly forced lower-detail originals were directly inspected. The water covers most black island sides and the reed heads read clearly, with an open landing. Faceted leaves/plumes, coarse lotus surfaces, hard bank edges, desktop island crop and other sites' stage/ground/backdrop/lighting issues remain. This is incremental source acceptance, not final fourteen-site art acceptance.
 
 The M2 Max normal inventory is 52,517,225 renderer texture bytes; demo is 43,468,745 bytes. These are stationary native Mac allocations, not phone timing or sustained-budget acceptance. Current Android/release packages are stale. External references remain 37/42; authenticated reading/history, identity refresh, AI, presence and social remain open. Evidence: `reference/ziling-source-art/README.md` and `../export/ziling-source-art-evidence.json`.
+
+
+## Ziling desktop framing checkpoint — 2026-10-09
+
+The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
+
+Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).

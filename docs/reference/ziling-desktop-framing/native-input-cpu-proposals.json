@@ -1,0 +1,698 @@
+{
+  "status": "native_inputs_cpu_proposals_render_review_pending",
+  "source_glb_sha256": "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485",
+  "route_sha256": "ba6410c08a5ae7787823d261db68e4c3eac0430cb00952da3bf58c62bb5e35f4",
+  "native_inputs_sha256": "739be83b1b5e37218a26c5c36c2078ca0df85290ac873dd3e87da1d7dc621e1b",
+  "baseline_projection_error_pixels": {
+    "bridge": 2.5217836991942022e-05,
+    "island": 1.5935842043290904e-05,
+    "pavilion_roof": 5.4413953421317274e-05,
+    "reeds": 3.3821532099409524e-05
+  },
+  "original_guard_pixels": 0.002,
+  "actual_header_bottom": 38,
+  "actual_panel_top": 405,
+  "reserved_subject_bounds_y": [
+    50,
+    391
+  ],
+  "baseline": {
+    "bridge": {
+      "low": [
+        762.0083644301131,
+        216.2127121515071
+      ],
+      "high": [
+        981.178502614194,
+        329.4453968412245
+      ],
+      "front": true,
+      "width_fraction": 0.155439814314951,
+      "fits": true
+    },
+    "island": {
+      "low": [
+        464.7822263771992,
+        286.03141831461994
+      ],
+      "high": [
+        889.8912512874041,
+        543.1441493621193
+      ],
+      "front": true,
+      "width_fraction": 0.301495762347663,
+      "fits": false
+    },
+    "pavilion_roof": {
+      "low": [
+        828.1391051796924,
+        77.94516368315547
+      ],
+      "high": [
+        1150.8699407032366,
+        135.0316001895196
+      ],
+      "front": true,
+      "width_fraction": 0.22888711739258455,
+      "fits": true
+    },
+    "reeds": {
+      "low": [
+        505.4202913898911,
+        218.5446931800406
+      ],
+      "high": [
+        902.1878407281863,
+        419.4741513077995
+      ],
+      "front": true,
+      "width_fraction": 0.2813954250626207,
+      "fits": false
+    }
+  },
+  "passing_count": 9,
+  "top_proposals": [
+    {
+      "position": [
+        -41.0,
+        2.6,
+        9.0
+      ],
+      "target": [
+        -33,
+        -1,
+        1
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            692.239137204315,
+            171.5529661445602
+          ],
+          "high": [
+            889.3007032362251,
+            252.7703420547994
+          ],
+          "front": true,
+          "width_fraction": 0.13975997590915606,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            445.30835772414173,
+            223.25092318404046
+          ],
+          "high": [
+            782.7688462236163,
+            379.91740292868315
+          ],
+          "front": true,
+          "width_fraction": 0.23933367978686138,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            765.0665857126097,
+            51.04766922344379
+          ],
+          "high": [
+            1047.7054546738639,
+            103.70272144433707
+          ],
+          "front": true,
+          "width_fraction": 0.20045309855408097,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            478.2343117671426,
+            165.75424358820055
+          ],
+          "high": [
+            788.7828469104119,
+            293.86900539870874
+          ],
+          "front": true,
+          "width_fraction": 0.22024718804487184,
+          "fits": true
+        }
+      },
+      "score": 0.23614620429675953
+    },
+    {
+      "position": [
+        -41.0,
+        2.6,
+        9.0
+      ],
+      "target": [
+        -33,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            725.9969859663092,
+            182.9296545189882
+          ],
+          "high": [
+            927.0068954850235,
+            263.7183776947611
+          ],
+          "front": true,
+          "width_fraction": 0.14256021951681863,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            483.6156550333325,
+            233.46136106796376
+          ],
+          "high": [
+            816.6428668395178,
+            387.4796792828755
+          ],
+          "front": true,
+          "width_fraction": 0.23618951191928034,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            801.0534075470741,
+            61.53748455156514
+          ],
+          "high": [
+            1094.3633451880569,
+            114.67537503247132
+          ],
+          "front": true,
+          "width_fraction": 0.20802123236949133,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            515.8516403972084,
+            176.17982595413855
+          ],
+          "high": [
+            822.9325994521837,
+            302.1838859199135
+          ],
+          "front": true,
+          "width_fraction": 0.21778791422338675,
+          "fits": true
+        }
+      },
+      "score": 0.2330020364291785
+    },
+    {
+      "position": [
+        -40.0,
+        2.6,
+        10.0
+      ],
+      "target": [
+        -33,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            733.55519642354,
+            186.57260993778442
+          ],
+          "high": [
+            951.7945812384871,
+            266.1690995778557
+          ],
+          "front": true,
+          "width_fraction": 0.1547797055425157,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            481.63941660880585,
+            234.24861280153243
+          ],
+          "high": [
+            815.1322245745698,
+            380.213483591943
+          ],
+          "front": true,
+          "width_fraction": 0.23651972196153473,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            826.5138030416422,
+            61.31394086591487
+          ],
+          "high": [
+            1146.6759156814287,
+            116.54108175365536
+          ],
+          "front": true,
+          "width_fraction": 0.22706532811332378,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            520.2217694783309,
+            177.6748171213801
+          ],
+          "high": [
+            819.2747420450021,
+            298.19688264735544
+          ],
+          "front": true,
+          "width_fraction": 0.2120943067848732,
+          "fits": true
+        }
+      },
+      "score": 0.23249977171308636
+    },
+    {
+      "position": [
+        -40.0,
+        2.6,
+        10.0
+      ],
+      "target": [
+        -34,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            773.9505636776737,
+            180.44323135509813
+          ],
+          "high": [
+            1002.1488811280179,
+            260.4198532176697
+          ],
+          "front": true,
+          "width_fraction": 0.16184277833357746,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            525.5296346639235,
+            227.03707121697062
+          ],
+          "high": [
+            856.8105911033117,
+            370.0367362755293
+          ],
+          "front": true,
+          "width_fraction": 0.23495103293573633,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            872.4289990735939,
+            50.23438891100986
+          ],
+          "high": [
+            1218.2372401636273,
+            108.05299220495164
+          ],
+          "front": true,
+          "width_fraction": 0.2452540716950592,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            562.9717678541795,
+            170.07885166931408
+          ],
+          "high": [
+            861.3664511402601,
+            289.21085470248653
+          ],
+          "front": true,
+          "width_fraction": 0.21162743495466713,
+          "fits": true
+        }
+      },
+      "score": 0.23093108268728796
+    },
+    {
+      "position": [
+        -40.0,
+        3.0,
+        10.0
+      ],
+      "target": [
+        -33,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            733.3996761419286,
+            182.41057244537043
+          ],
+          "high": [
+            951.3212443369414,
+            266.4595547485312
+          ],
+          "front": true,
+          "width_fraction": 0.15455430368440626,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            483.9754173619808,
+            232.46087657930428
+          ],
+          "high": [
+            814.2379935663074,
+            384.6309428191042
+          ],
+          "front": true,
+          "width_fraction": 0.23422877744987702,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            826.9275445780137,
+            56.79402067727099
+          ],
+          "high": [
+            1148.0476741153502,
+            109.28017392419014
+          ],
+          "front": true,
+          "width_fraction": 0.22774477272151528,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            521.6541108755058,
+            176.59501322870636
+          ],
+          "high": [
+            818.3694468840463,
+            303.8111711082889
+          ],
+          "front": true,
+          "width_fraction": 0.21043640851669537,
+          "fits": true
+        }
+      },
+      "score": 0.23022877744987702
+    },
+    {
+      "position": [
+        -40.0,
+        3.2,
+        10.0
+      ],
+      "target": [
+        -33,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            733.3141957503962,
+            180.42666402777934
+          ],
+          "high": [
+            951.0231261188576,
+            266.62531007559744
+          ],
+          "front": true,
+          "width_fraction": 0.15440349671522088,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            485.2289019315941,
+            231.62898089590345
+          ],
+          "high": [
+            813.7543444570874,
+            386.67284679799013
+          ],
+          "front": true,
+          "width_fraction": 0.2329967677485768,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            827.107211073935,
+            54.693352811104404
+          ],
+          "high": [
+            1148.6230461270902,
+            107.87252195030945
+          ],
+          "front": true,
+          "width_fraction": 0.22802541493131576,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            522.434622356498,
+            176.147149088432
+          ],
+          "high": [
+            817.8750427464613,
+            306.52271800605376
+          ],
+          "front": true,
+          "width_fraction": 0.20953221304252714,
+          "fits": true
+        }
+      },
+      "score": 0.22899177086967665
+    },
+    {
+      "position": [
+        -40.0,
+        3.3,
+        10.0
+      ],
+      "target": [
+        -33,
+        -1,
+        0
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            733.2695866225614,
+            179.45947732849248
+          ],
+          "high": [
+            950.8588311502017,
+            266.71306068740375
+          ],
+          "front": true,
+          "width_fraction": 0.15431861314017042,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            485.8756139248225,
+            231.22859672816332
+          ],
+          "high": [
+            813.5038450473942,
+            387.6523015000423
+          ],
+          "front": true,
+          "width_fraction": 0.23236044760466076,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            827.1900657232978,
+            53.68358442533409
+          ],
+          "high": [
+            1148.8825312110953,
+            107.69143828732061
+          ],
+          "front": true,
+          "width_fraction": 0.22815068474311875,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            522.840194314427,
+            175.94600481541198
+          ],
+          "high": [
+            817.6179123796236,
+            307.85326732522856
+          ],
+          "front": true,
+          "width_fraction": 0.20906221139375647,
+          "fits": true
+        }
+      },
+      "score": 0.22834921338063444
+    },
+    {
+      "position": [
+        -42.0,
+        2.6,
+        8.0
+      ],
+      "target": [
+        -33,
+        -1,
+        1
+      ],
+      "fov": 55,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            679.8546704446998,
+            171.3700952241759
+          ],
+          "high": [
+            858.0759574016955,
+            252.1297080077748
+          ],
+          "front": true,
+          "width_fraction": 0.12639807585602536,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            451.38700379058577,
+            224.16743585873584
+          ],
+          "high": [
+            777.2828304872132,
+            385.4492817517288
+          ],
+          "front": true,
+          "width_fraction": 0.23113179198342373,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            734.0829866058323,
+            55.33083829876347
+          ],
+          "high": [
+            992.4872711347004,
+            105.60779419849752
+          ],
+          "front": true,
+          "width_fraction": 0.18326545002047387,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            474.61439524943523,
+            167.4817859355433
+          ],
+          "high": [
+            785.0481135161281,
+            297.64100156431283
+          ],
+          "front": true,
+          "width_fraction": 0.22016575763595236,
+          "fits": true
+        }
+      },
+      "score": 0.22827522061200659
+    },
+    {
+      "position": [
+        -40.0,
+        2.6,
+        9.0
+      ],
+      "target": [
+        -33,
+        -1,
+        1
+      ],
+      "fov": 60,
+      "keep_aspect": "KEEP_HEIGHT",
+      "measurements": {
+        "bridge": {
+          "low": [
+            699.300655350005,
+            176.81643565410133
+          ],
+          "high": [
+            894.3866404565631,
+            255.00241220143823
+          ],
+          "front": true,
+          "width_fraction": 0.13835885468550224,
+          "fits": true
+        },
+        "island": {
+          "low": [
+            454.3905499962654,
+            225.35837556386798
+          ],
+          "high": [
+            781.4060810805497,
+            376.67099803905637
+          ],
+          "front": true,
+          "width_fraction": 0.2319259085704144,
+          "fits": true
+        },
+        "pavilion_roof": {
+          "low": [
+            777.2744325699364,
+            60.06047641024571
+          ],
+          "high": [
+            1057.02520791426,
+            111.58912507281559
+          ],
+          "front": true,
+          "width_fraction": 0.1984048052087401,
+          "fits": true
+        },
+        "reeds": {
+          "low": [
+            491.5089039448714,
+            170.75145427868824
+          ],
+          "high": [
+            786.3547071646036,
+            294.5688007482987
+          ],
+          "front": true,
+          "width_fraction": 0.20911049873739873,
+          "fits": true
+        }
+      },
+      "score": 0.2188993593803301
+    }
+  ],
+  "scope": "Actual current imported world vertices plus native camera basis; the original0.002px baseline guard passes without relaxation. Prior original native bounds also match. CPU candidates use full island/bridge/roof and both reed LODs, including submerged island sides. No native proposed-camera, occlusion, render quality, interaction/resizing or device acceptance yet."
+}
