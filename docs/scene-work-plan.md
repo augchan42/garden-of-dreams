@@ -19,3 +19,12 @@ The stream/lotus waterline, neutral saved-water/kit parity and ten volumetric re
 The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
 
 Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).
+
+
+## Hengwu low courtyard overview — 2026-10-10
+
+The arrival/Look camera now stays at 1.8 m in the rear court, with the primary pierced stone, book/table and four stool bounds clear of the tested interfaces. Short landscape controls fit two rows below 580 logical pixels high, retaining the full description, command entry, scrollable actions and 48-unit touch targets. Selected rock/book text and original desktop detail poses, Look clearing, rotation/resize, visitor position and the farm round trip are checked.
+
+Authoring `7eba169a` / complete source `ba40866e` and 141 source-matched imported PNGs are unchanged; runtime is `56813eb7`. Thirty native review phases pass, including both 14-room/26-leg/139-capture Mac tours, no floor failures and max 4 practicals. Six focused modes and native depth-tested visibility controls pass. A test-only fixed clock now makes all 30 detail originals reproduce across separate native processes. All 24 installed checks pass and 150 installed originals match exactly; the 26 other-room arrivals also match PR20 pixels. Raw diagnostics, rejected controls and complete executed/installed evidence are retained.
+
+This is bounded camera/layout progress. Final 14-site art/dressing/material/composition, five missing external references (37/42), current physical-phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Evidence: [Hengwu overview](reference/hengwu-overview-low/README.md).

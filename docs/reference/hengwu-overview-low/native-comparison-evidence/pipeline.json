@@ -1,0 +1,46 @@
+{
+  "status": "native_originals_captured_direct_review_pending",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-hengwu-arrival-20261010/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-hengwu-arrival-20261010/import.log",
+      "status": "passed",
+      "pid": 36211,
+      "exit_code": 0,
+      "log_sha256": "9bff4864ceda85374978d0f78e8caf1870281072658e70e302c8325cc283c900"
+    },
+    {
+      "name": "original-comparison",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-hengwu-arrival-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/compare_hengwu_arrivals.gd",
+        "--",
+        "--output=/tmp/garden-hengwu-arrival-20261010/comparisons"
+      ],
+      "log": "/tmp/garden-hengwu-arrival-20261010/original-comparison.log",
+      "status": "passed",
+      "pid": 36900,
+      "exit_code": 0,
+      "log_sha256": "265b52b6e2d600505757bbbd2828fd083d317442991257cea0aa45157b413bb6"
+    }
+  ],
+  "production_changed": false,
+  "protected_editor_pids": [
+    43873,
+    55899
+  ]
+}

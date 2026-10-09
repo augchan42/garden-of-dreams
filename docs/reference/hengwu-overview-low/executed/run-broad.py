@@ -1,0 +1,38 @@
+"""Run frozen native source/UI/route regressions sequentially and retain exact logs."""
+from pathlib import Path
+import hashlib,json,re,subprocess
+repo=Path('/Users/auchan/projects/garden-of-dreams')
+work=repo/'.superpowers/sdd/2026-09-23-garden-completion/hengwu-arrival-overview'
+root=Path('/tmp/garden-hengwu-arrival-20261010'); game=root/'godot'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+assert not (root/'broad-pipeline.json').exists()
+focused=json.loads((root/'focused-pipeline-final.json').read_text())
+assert focused['status']=='focused_native_modes_passed_original_review_pending'
+visibility=json.loads((root/'native-visibility/report.json').read_text())
+assert visibility['status']=='hengwu_native_visibility_passed' and not visibility['errors']
+frozen={str(p.relative_to(game)):sha(p) for folder in ['runtime','assets','lightmaps','tests'] for p in (game/folder).rglob('*') if p.is_file() and p.suffix!='.uid'}
+report={'status':'running','frozen_inputs':frozen,'phases':[],'focused_report_sha256':sha(root/'focused-pipeline-final.json'),'visibility_report_sha256':sha(root/'native-visibility/report.json')}
+logs=root/'broad-logs';logs.mkdir(exist_ok=True)
+for item in json.loads((work/'broad-review-commands.json').read_text()):
+ name=item['name'];command=item['command']
+ print('HENGWU_BROAD_START',name,flush=True)
+ log=logs/(name+'.log');phase={'name':name,'command':command,'status':'running','log':str(log)};report['phases'].append(phase)
+ (root/'broad-pipeline.json').write_text(json.dumps(report,indent=2)+'\n')
+ for arg in command:
+  if arg.startswith('--output=') or arg.startswith('--output-directory=') or arg.startswith('--capture-directory='):
+   path=Path(arg.split('=',1)[1]);path.parent.mkdir(parents=True,exist_ok=True)
+ with log.open('w') as stream:
+  child=subprocess.Popen(command,stdout=stream,stderr=subprocess.STDOUT);phase['pid']=child.pid
+  (root/'broad-pipeline.json').write_text(json.dumps(report,indent=2)+'\n')
+  try:phase['exit_code']=child.wait(timeout=650 if name.startswith('full-tour-') else 300)
+  except subprocess.TimeoutExpired:child.terminate();child.wait(timeout=30);phase['exit_code']=124
+ text=log.read_text(errors='replace')
+ okay=phase['exit_code']==0 and not re.search(r'(?m)^(SCRIPT ERROR:|ERROR:|.*Parse Error:|Traceback)',text)
+ phase.update(status='passed' if okay else 'failed',log_sha256=sha(log),result_lines=[line for line in text.splitlines() if 'RESULT' in line or 'passed' in line.lower()])
+ (root/'broad-pipeline.json').write_text(json.dumps(report,indent=2)+'\n')
+ assert okay,(name,text[-2500:])
+ print('HENGWU_BROAD_PASS',name,flush=True)
+assert all(sha(game/name)==digest for name,digest in frozen.items()),'Fixture inputs changed during broad review'
+assert sha(repo/'godot/runtime/entry_route.gd')=='7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05'
+report['status']='broad_native_checks_passed_direct_original_review_pending'
+(root/'broad-pipeline.json').write_text(json.dumps(report,indent=2)+'\n')

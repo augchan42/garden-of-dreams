@@ -1360,3 +1360,12 @@ Six source phases regenerate 141 lighting PNGs. The 45-phase native review has 4
 Twenty-two installed checks pass. All 85 installed camera/floor/arrival originals reproduce the reviewed files exactly. The first installation also passed all 22 native checks, then rolled back all 29 targets after a report-field comparison error; its 85 originals match independently. The corrected helper reads actual PNG dimensions. Failed source, native and installation attempts are retained in the evidence archive.
 
 This closes the duplicate paving defect. Hengwu's arrival view is next: show its table and pierced stones while preserving the accepted detail actions. Final fourteen-site art, five missing references (37/42), current phones, 2020 Adreno and sustained budgets, release and authenticated reading/history/AI/presence/social remain open. Evidence: [paving checks and originals](reference/paving-surface-joins/README.md). The full goal remains active.
+
+
+## Hengwu low courtyard overview — 2026-10-10
+
+The arrival/Look camera now stays at 1.8 m in the rear court, with the primary pierced stone, book/table and four stool bounds clear of the tested interfaces. Short landscape controls fit two rows below 580 logical pixels high, retaining the full description, command entry, scrollable actions and 48-unit touch targets. Selected rock/book text and original desktop detail poses, Look clearing, rotation/resize, visitor position and the farm round trip are checked.
+
+Authoring `7eba169a` / complete source `ba40866e` and 141 source-matched imported PNGs are unchanged; runtime is `56813eb7`. Thirty native review phases pass, including both 14-room/26-leg/139-capture Mac tours, no floor failures and max 4 practicals. Six focused modes and native depth-tested visibility controls pass. A test-only fixed clock now makes all 30 detail originals reproduce across separate native processes. All 24 installed checks pass and 150 installed originals match exactly; the 26 other-room arrivals also match PR20 pixels. Raw diagnostics, rejected controls and complete executed/installed evidence are retained.
+
+This is bounded camera/layout progress. Final 14-site art/dressing/material/composition, five missing external references (37/42), current physical-phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Evidence: [Hengwu overview](reference/hengwu-overview-low/README.md).
