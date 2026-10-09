@@ -1,0 +1,90 @@
+{
+  "status": "canvas_palette_export_preservation_passed",
+  "baseline_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "candidate_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "candidate_authoring_sha256": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+  "material": "MAT_stage_canvas",
+  "old_linear_rgba": [
+    0.054999999701976776,
+    0.0949999988079071,
+    0.03700000047683716,
+    1
+  ],
+  "new_linear_rgba": [
+    0.06499999761581421,
+    0.05999999865889549,
+    0.054999999701976776,
+    1
+  ],
+  "preserved_mesh_nodes": 621,
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71
+  },
+  "triangles": 266336,
+  "render_meshes": 167,
+  "site_exports": {
+    "SITE_aojing-guan.glb": {
+      "sha256": "f5aa764ed44fb07233d092616ffc111829660b0301dd6cb4050f3111f177875d",
+      "unchanged": true
+    },
+    "SITE_daguan-lou.glb": {
+      "sha256": "0e05a0aac9a10f3b4b3d3de3afa7f54c64e7b5a0c2e9d4536692551ac38cdd67",
+      "unchanged": true
+    },
+    "SITE_daoxiang-cun.glb": {
+      "sha256": "2265c245e88e1425001fde72eeccaf85f4aef37ab76199366f6c56e53072b350",
+      "unchanged": true
+    },
+    "SITE_hengwu-yuan.glb": {
+      "sha256": "4933c28b1902b23c16e00dd2705eed41a2decb6bdae125153c3a9a1d8ade586f",
+      "unchanged": true
+    },
+    "SITE_longcui-an.glb": {
+      "sha256": "85392e44a1bf8424d8437c2000d4d6892e893c1bf529bebba56b503fd8f858d3",
+      "unchanged": true
+    },
+    "SITE_ouxiang-xie.glb": {
+      "sha256": "eddd99d384f1639f2eab011be74c2002eb25301b3c0214e2c8df34d3795f5d0b",
+      "unchanged": true
+    },
+    "SITE_qinfang-ting.glb": {
+      "sha256": "08df1d8f0eaacddb0baad5804ee7e6a704541358ef719c6a24c27fa14805f268",
+      "unchanged": true
+    },
+    "SITE_qiushuang-zhai.glb": {
+      "sha256": "11a7b69446b9f98abcb5d21f7c9b29fbf067e9ea871b6ddd4532cdac30caee66",
+      "unchanged": true
+    },
+    "SITE_rockery-gate.glb": {
+      "sha256": "76afcb4dcf70bd4a46af12d53ed48640037bfd6b4c15bd734f2560fc2cbe7e4a",
+      "unchanged": true
+    },
+    "SITE_stage.glb": {
+      "sha256": "7d4ddbb68eb3a61e3c5918d5ce7801c15a26358ebbb0ac72671d63522705e775",
+      "unchanged": false
+    },
+    "SITE_terminal-cells.glb": {
+      "sha256": "d5e5cf3137412cca7d33758609b640d0510c69c308391b6cf958c750a18943b9",
+      "unchanged": true
+    },
+    "SITE_tubi-tang.glb": {
+      "sha256": "b7709624dc007a1a1d6dea4e237c6f76f933fc692b75d13fc6c429387de2e3fc",
+      "unchanged": true
+    },
+    "SITE_xiaoxiang-guan.glb": {
+      "sha256": "6b1190dd38635c668713dc868bd2d9f88235783a6e3f686eb2e9643e2cbe1c0a",
+      "unchanged": true
+    },
+    "SITE_yihong-yuan.glb": {
+      "sha256": "1fc9c58f7d74f37bd04f03676058d4710b38f264e7eea8ed43bf8fa41f1bd843",
+      "unchanged": true
+    },
+    "SITE_ziling-zhou.glb": {
+      "sha256": "b81afaa4c45b6c3b597d254c9f8e0d876b50a93ad70fefac4374422b01db7436",
+      "unchanged": true
+    }
+  },
+  "scope": "Only visible canvas base color changes. All expanded mesh position/normal/UV attributes, cameras, lights, hierarchy, COL/markers and other material/texture contracts preserved; fourteen non-stage site GLBs byte-exact. No native appearance or matching fresh lighting acceptance."
+}

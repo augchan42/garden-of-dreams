@@ -12,7 +12,7 @@ C=sites['qinfang-ting']
 for x in [-5.15,5.15]:
  box('KIT_water_bridge_crosswalk',(x,0,-.12),(3.5,1.8,.24),stone);collision('bridge_crosswalk',(x,0,-.12),(3.5,1.8,.24))
 # Land platforms are visible stage floor, with stone walks above them.
-C=sites['stage'];ground=mat('MAT_stage_canvas',(.055,.095,.037))
+C=sites['stage'];ground=mat('MAT_stage_canvas',(.065,.060,.055))
 for y,size in [(-23,35),(25,39)]:box('KIT_stage_painted_canvas',(0,y,-.38),(86,size,.5),ground)
 # plank lines in entry region
 for x in range(-9,10):box('KIT_stage_floorboard_seam',(x,-39.3,.004),(.014,1.8,.008),black)
