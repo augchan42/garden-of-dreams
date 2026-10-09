@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 137, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 131, in main
+    footprint=compare_footprint(old,new) if args.after else []
+              ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 107, in compare_footprint
+    assert enclosed(oi,intervals(new_envelope,x)) and enclosed(ni,intervals(old_envelope,x)),('Paving footprint exceeds10micrometre XY envelope',height,x,oi,ni)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Paving footprint exceeds10micrometre XY envelope', 0.0, -3.1240606240081785, [[-40.20000076293945, -38.400001525878906], [-13.89999973770373, -12.099999546968863], [21.299999237060547, 24.799999237060547]], [[-40.20000076293945, -38.400001525878906], [-13.899999618530273, -12.09999942779541], [-0.21813339975053175, 0.2181333997505326], [21.299999237060547, 24.799999237060547]])

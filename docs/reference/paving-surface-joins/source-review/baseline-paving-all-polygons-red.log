@@ -1,0 +1,9 @@
+PAVING_AUDIT 69 overlap pairs; 0 height groups
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 137, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/audit_paving_footprint.py", line 134, in main
+    if args.require_disjoint:assert not bad,'Positive-area duplicate paving surfaces remain'
+                                    ^^^^^^^
+AssertionError: Positive-area duplicate paving surfaces remain

@@ -1,0 +1,133 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/tmp/garden-paving-joins-20261010-v4",
+  "orchestrator_pid": 91706,
+  "started_at": "2026-10-09T17:10:58.358559+00:00",
+  "source_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "scope": "Partitioned visiblefloor source; stairs/cameras/colliders/materials retained. Independent normalized-normal RED84 toGREEN0 floor guard precedes portable15libraries, exact16default exports and six fresh matching source-lighting phases. No canonical adoption/native appearance/phone/full-goal acceptance.",
+  "continued_at": "2026-10-09T17:12:32.825159+00:00",
+  "prior_failure_report": "lighting-preparation-failed-output-root.json",
+  "phases": [
+    {
+      "name": "saved-floor-regression",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/tmp/garden-paving-joins-20261010-v4/blender/authoring.blend",
+        "--python",
+        "/tmp/garden-paving-joins-20261010-v4/scripts/test_saved_paving_surfaces.py",
+        "--",
+        "--baseline",
+        "/tmp/garden-paving-joins-20261010-v4/docs/reference/paving-surface-joins/saved-paving-baseline-normalized.json",
+        "--output",
+        "/tmp/garden-paving-joins-20261010-v4/native-saved-floor-green.json"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/saved-floor-regression.log",
+      "pid": 90396,
+      "exit_code": 0,
+      "log_sha256": "462ca499a9d473f131d7713dbd7891cccccee9b1a9e180c8ce945b55a462f3d4"
+    },
+    {
+      "name": "water-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-paving-joins-20261010-v4/scripts/verify_water_kit.py"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/water-contract.log",
+      "pid": 90501,
+      "exit_code": 0,
+      "log_sha256": "ffa5944da7cf06ae2e0019e0ae6ff04359dc06a4e1a99fe57cf025b685e3df93"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/tmp/garden-paving-joins-20261010-v4"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/site-libraries.log",
+      "pid": 90502,
+      "exit_code": 0,
+      "log_sha256": "d525d2b2963dd9784147d544545ede9138c9b172647b2ba47ca01148c2411fef"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/tmp/garden-paving-joins-20261010-v4/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 90538,
+      "exit_code": 0,
+      "log_sha256": "b73a6a80e076bfa87414f87608ae6161ee23d72c4b02cca28d088ed093e697bf"
+    },
+    {
+      "name": "default-sixteen-reexports",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/tmp/garden-paving-joins-20261010-v4/blender/authoring.blend",
+        "--python",
+        "/tmp/garden-paving-joins-20261010-v4/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/tmp/garden-paving-joins-20261010-v4",
+        "--output-root",
+        "/tmp/garden-paving-joins-20261010-v4-default-reproduction",
+        "--paving-baseline",
+        "/tmp/garden-paving-joins-20261010-v4/docs/reference/paving-surface-joins/saved-paving-baseline-normalized.json"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/default-sixteen-reexports-continuation.log",
+      "pid": 91707,
+      "exit_code": 0,
+      "log_sha256": "9cc4cf58e051fd03840efba4670c9c1dc1076bee07522e75af297cad3eec1c18"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-paving-joins-20261010-v4/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-paving-joins-20261010-v4/lighting-preparation-logs/full-lighting-continuation.log",
+      "pid": 91969,
+      "exit_code": 0,
+      "log_sha256": "d6b55206550e36ee3f96a955bec0d681d24b96dc70f7cf77ce1821fa87e0676f"
+    }
+  ],
+  "finished_at": "2026-10-09T18:17:43.910200+00:00"
+}

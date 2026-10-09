@@ -1,0 +1,195 @@
+{
+  "status": "paving_installed22passed85exact_archive_commit_review_PR_pending",
+  "base_main": "d134afbe9e686b7d748ae01819e10909f01435e8",
+  "source_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "previous_turn": "PROGRESS_recoverableadoptionhelper_prepared_and_actual_incomplete-lighting_rejection_verified_plus_same16116confirmedlive",
+  "scope": "Full14-site scene goal remains active. Check current paving-to-site coplanar overlap; older three-approach corner repair was already adopted, do not redo it. Protected live editors untouched.",
+  "branch": "codex/paving-surface-joins",
+  "candidate_root": "/tmp/garden-paving-joins-20261010-v4",
+  "current_native_session": null,
+  "prior_attempt": {
+    "session": 3150,
+    "terminal": 1,
+    "cause": "Blender tessellation produced integer indices; switched to existing mesh.loop_triangles. No files saved."
+  },
+  "next": "Archive evidence, update14scene sheets/reference coverage, explicit commit excludingoutput, final independentreview, authorizedpush PR GitGuardianexactheadcheck and mergecommit. Then Hengwu arrivaloverview. Fullgoal unchanged.",
+  "rejected_candidate_root": "/tmp/garden-paving-joins-20261010",
+  "source_baseline_failures": 84,
+  "changed_render_objects": 26,
+  "protected_user_pids": [
+    43873,
+    55899
+  ],
+  "candidate_authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "candidate_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "independent_audit": "candidate-paving-audit-v4-normalized.json",
+  "footprint_precision_m": 1e-05,
+  "changed_render_batches": 8,
+  "render_triangles": 266533,
+  "prior_attempts": [
+    {
+      "native_session": 3150,
+      "exit_code": 1,
+      "cause": "Blender tessellation index API; no files saved"
+    },
+    {
+      "native_session": 23185,
+      "exit_code": 0,
+      "root": "/tmp/garden-paving-joins-20261010",
+      "cause": "Exported candidate rejected by independent diagonal storage-precision check; retained"
+    },
+    {
+      "native_session": 25144,
+      "exit_code": 0,
+      "purpose": "Consistent all-polygons baseline extraction includes unchangedplinth"
+    },
+    {
+      "native_exit_code": 139,
+      "cause": "Read-only baseline Blender sandbox crash; explicit native access retry reached intended69-overlap rejection"
+    }
+  ],
+  "source_baseline_top_faces": 1142,
+  "candidate_top_faces": 1241,
+  "current_pipeline_report": "/tmp/garden-paving-review-20261010-v4/review-pipeline.json",
+  "current_pipeline_pid": 19347,
+  "current_phase": "all_source_native_and_installation_workers_terminal",
+  "current_child_pid": 33433,
+  "last_same_handle_observation": "Source16116 returned terminal0, all owned source PIDs absent. New sole native review7643 confirmed live by write_stdin; no second native worker.",
+  "current_source_bake_report": "/tmp/garden-paving-joins-20261010-v4/export/full-lighting-refresh.json",
+  "current_bake_orchestrator_pid": 91969,
+  "current_source_phase": "complete",
+  "current_source_child_pid": 88732,
+  "frozen_inputs": 322,
+  "default_reexports": 16,
+  "production_hashes_currently_verified": {
+    "blender/authoring.blend": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+    "export/garden-of-dreams.glb": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+    "godot/assets/garden-of-dreams.glb": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+    "godot/runtime/entry_route.gd": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05"
+  },
+  "frozen_inputs_rechecked": 322,
+  "review_root": "/tmp/garden-paving-review-20261010-v4",
+  "review_preparation_sha256": "43ee844dd0154683f6bb490dfb0acfd89c83af847baae025135e249e04b31f62",
+  "review_runner": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/paving-site-joins/run-native-review.py",
+  "review_runner_sha256": "a520417e3c4724e46be7a0a0134fa7b436562db4cb75108424d8f12b1eddfeac",
+  "review_planned_phases": 45,
+  "review_expected_positive_phases": 44,
+  "review_expected_negative_phases": 1,
+  "paving_regression_sha256": "a4643c4af451565195f987c1f8d9a8277ea2bd345ae42b9d544b0098f32a85d0",
+  "review_not_started_while_bake_live": true,
+  "source_fresh_pngs_observed": 141,
+  "bounded_reference_review": "reference-blog-review/direct-original-review.json",
+  "reference_coverage_retained": "37/42",
+  "current_art_review": "current-art-review/direct-original-review.json",
+  "next_scene_after_paving": "Hengwuarrivaloverview:lowstillpose,cleartable/stools+perforatedstones,lesswallcapdominance,no-treeskyline;preservealreadyaccepteddetailactionsandpaths. Currentcamera/runtimeunchanged. Firstfinishsame16116sourcebake,then45phasepreparednativefloorreviewall14arrivals/bothfulltours;strictoriginalreview/recoverableadoption/installedchecks/finalreview/PR. Originalfullscope remains.",
+  "bounded_magic_blade_review": "magic-blade-published-review/direct-original-review.json",
+  "next_scene_work_note": "current-art-review/hengwu-next-scene.md",
+  "checkpoint_at": "2026-10-09T19:14:54.627730+00:00",
+  "source_png_count_method": "recursive; ordinary124 plus nested wash/spill PNGs",
+  "source_phases_now": [
+    {
+      "name": "ordinary",
+      "status": "passed"
+    },
+    {
+      "name": "backdrop-wash",
+      "status": "passed"
+    },
+    {
+      "name": "terminal-spill",
+      "status": "passed"
+    },
+    {
+      "name": "terminal-spill-pixels",
+      "status": "passed"
+    },
+    {
+      "name": "native-pixels",
+      "status": "passed"
+    },
+    {
+      "name": "coverage",
+      "status": "passed"
+    }
+  ],
+  "adoption_helper": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/paving-site-joins/prepare-adoption.py",
+  "adoption_helper_sha256": "5b6169781160a26d39ef1d43319151e8d091fb3a20979167dfc4377c0141301c",
+  "adoption_helper_static_report": "adoption-helper-static-preparation.json",
+  "adoption_premature_rejection": "adoption-incomplete-lighting-rejection.json",
+  "adoption_planned_installed_checks": 22,
+  "adoption_executed": true,
+  "prior_source_session": 16116,
+  "prior_source_session_terminal_exit_code": 0,
+  "review_started_after_source_exit": true,
+  "source_complete": true,
+  "source_frozen_inputs_rechecked_by_native_runner": 322,
+  "source_engine_pngs_matched_by_native_runner": 141,
+  "prior_review_sessions": [
+    {
+      "session": 7643,
+      "exit_code": 1,
+      "reason": "10micrometre plane filter omitted actual compressed nunnery top50micrometres below0"
+    },
+    {
+      "session": 66676,
+      "exit_code": 1,
+      "reason": "Floor controls passed; Ziling exact vertex-count expectation remained bound to old source"
+    },
+    {
+      "session": 52685,
+      "exit_code": 0,
+      "reason": "full45nativephases complete44positive plus1expectedfloorrejection"
+    }
+  ],
+  "native_completed_phases": 45,
+  "floor_filter_root_cause": "floor-filter-root-cause.json",
+  "floor_filter_tolerance_m": 0.0001,
+  "source_footprint_tolerance_m": 1e-05,
+  "ziling_source_count_correction": "ziling-source-count-correction.json",
+  "matched_floor_visual_review": "/tmp/garden-paving-review-20261010-v4/matched-floor-visual-review.json",
+  "source_guard_changes": "Six digest-only; Ziling digest and two exact measured source vertex counts",
+  "direct_all_arrivals_review": "/tmp/garden-paving-review-20261010-v4/direct-arrival-original-review.json",
+  "direct_moving_originals": 8,
+  "desktop_tour_verified": {
+    "report_sha256": "8beaa88b574cb57406eb62884784e3daed6bfbeb379e53caaeea1febbde855d1",
+    "originals": 139,
+    "dimensions": [
+      1410,
+      600
+    ],
+    "supported_ray_samples": 17582,
+    "maximum_practicals": 4
+  },
+  "full_tour_results": {
+    "desktop": {
+      "report_sha256": "8beaa88b574cb57406eb62884784e3daed6bfbeb379e53caaeea1febbde855d1",
+      "originals": 139,
+      "dimensions": [
+        1410,
+        600
+      ],
+      "supported_ray_samples": 17582,
+      "maximum_practicals": 4
+    },
+    "portrait": {
+      "report_sha256": "e286ca21483d0d7d7e365b279744fc18ce95fe19573df316e9c7c6b93b153c1c",
+      "originals": 139,
+      "dimensions": [
+        540,
+        960
+      ],
+      "supported_ray_samples": 17581,
+      "maximum_practicals": 4
+    }
+  },
+  "adoption_report": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/paving-site-joins/adoption-second/application.json",
+  "adoption_terminal_session": 53721,
+  "adoption_terminal_exit_code": 0,
+  "current_native_repeat_session": 48280,
+  "current_native_repeat_terminal_exit_code": 0,
+  "native_timed_repeat_phases": 3,
+  "installed_checks": 22,
+  "installed_originals_byte_exact": 85
+}

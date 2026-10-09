@@ -1,0 +1,16 @@
+00:00.339  blend            | Read blend: "/tmp/garden-paving-joins-20261010-v4/blender/authoring.blend"
+Traceback (most recent call last):
+  File "/tmp/garden-paving-joins-20261010-v4/scripts/verify_saved_garden_candidate.py", line 145, in <module>
+    main()
+    ~~~~^^
+  File "/tmp/garden-paving-joins-20261010-v4/scripts/verify_saved_garden_candidate.py", line 110, in main
+    assert output != source and not output.is_relative_to(source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+BlenderMCP addon registered
+
+Error: script failed, file: '/tmp/garden-paving-joins-20261010-v4/scripts/verify_saved_garden_candidate.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit
