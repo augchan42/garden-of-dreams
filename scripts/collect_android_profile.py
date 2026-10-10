@@ -37,6 +37,10 @@ def verify_profile_build(build, adb):
     assert moon['source_png_sha256'] == digest((ROOT / 'godot/assets/garden-of-dreams_moon-paint.png').read_bytes())
     assert fixture_record['moon_check_script_sha256'] == digest((ROOT / 'godot/tests/test_moon_runtime_import.gd').read_bytes())
     assert fixture_record['moon_paint_atlas_sha256'] == digest((ROOT / 'godot/tests/moon-paint-atlas.json').read_bytes())
+    assert fixture_record.get('report_store_script_sha256'), 'APK lacks report writer provenance; rebuild the profiler'
+    writer = 'tests/profile_report_store.gd'
+    assert fixture_record['report_store_script_sha256'] == digest((ROOT / 'godot' / writer).read_bytes()), 'Production report writer changed after APK build'
+    assert fixture_record['report_store_script_sha256'] == digest((Path(build['fixture']) / writer).read_bytes()), 'Staged report writer changed after APK build'
     production_runtime = fixture_record.get('production_runtime_script_sha256',
                                             fixture_record.get('runtime_script_sha256', {}))
     for name, expected in production_runtime.items():

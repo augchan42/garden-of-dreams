@@ -1,0 +1,25 @@
+{
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-report-publication-um1o1f3_",
+  "application_name": "Garden Report Publication Regression 88b28278b7554203a6de40435f06782e",
+  "source_sha256": {
+    "profile_android.gd": "d27f0b4654be3e7bb43f82f89707e430857917fe93900e27cbea6c0e603d6c08",
+    "texture_binding_inventory.gd": "7b07a223d0e7792cc70c9acd8618bf3e450b885427c874e716faa3910e3ffdfd",
+    "test_profile_report_publication.gd": "5ffc1e75721e5ebd9eb22d16acebcd2e0e3dcbb4f173811ea2b6c8be789f039a"
+  },
+  "exit_code": 1,
+  "engine_diagnostics": [
+    "ERROR: PROFILE_REPORT_PUBLICATION_REJECTED {\"concurrent_reads\":327,\"errors\":[\"Reader observed incomplete JSON publications\"],\"generations\":32,\"incomplete_publications\":321,\"scope\":\"Actual dedicated profiler save_report producer versus concurrent complete-file JSON reader; isolated app data, no game scene or phone performance claim.\",\"status\":\"failed\",\"user_data_dir\":\"/Users/auchan/Library/Application Support/Godot/app_userdata/Garden Report Publication Regression 88b28278b7554203a6de40435f06782e\",\"wall_ms\":219}"
+  ],
+  "report": {
+    "concurrent_reads": 327,
+    "errors": [
+      "Reader observed incomplete JSON publications"
+    ],
+    "generations": 32,
+    "incomplete_publications": 321,
+    "scope": "Actual dedicated profiler save_report producer versus concurrent complete-file JSON reader; isolated app data, no game scene or phone performance claim.",
+    "status": "failed",
+    "user_data_dir": "/Users/auchan/Library/Application Support/Godot/app_userdata/Garden Report Publication Regression 88b28278b7554203a6de40435f06782e",
+    "wall_ms": 219
+  }
+}

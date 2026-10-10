@@ -61,6 +61,16 @@ Files: Godot runtime room controllers, content resources and service adapters.
 - [ ] Update build-status with evidence, preserving any unresolved requirements.
 - [ ] Complete the goal only after all accepted requirements are verified.
 
+2026-10-10 phone diagnostic publication: the dedicated profiler now publishes
+closed JSON replacements by same-directory rename. Actual producer RED321
+incomplete reads became GREEN0; Pixel7Pro completed 479 reads with zero partial
+reports and all five real touch stages without reader retries. Nine Python
+tests and fresh APK/177 bound-import checks pass. Sampled memory is60.34MiB;
+P9519.948–34.535ms still misses60fps. This does not close Task5: full normal-route
+phone traversal and sustained timing,2020Adreno,final art,remaining five
+references,release and authenticated services remain required. Evidence:
+[reports and originals](../../reference/android-profile-publication/README.md).
+
 Current evidence (2026-10-08): installed GLB `be80374c`, authoring `9356f6ec`, has the verified Ouxiang and imperial roof UV2 charts with complete fresh matching six-phase lighting. All37 native candidate phases, both fourteen-room/26-leg walks, default byte equality for all16GLBs and eight post-install checks pass. Actual stationary M2 Max normal-route texture allocation peaks at52,600,513bytes (50.16MiB), final52,517,225; phone/sustained budgets remain unaccepted. See `ouxiang-full-lighting-evidence.json`. Named original captures show more consistent Ouxiang roof shading; paving rectangles, green-heavy materials and final site art/framing remain open. Reference coverage36/42 leaves six slots missing. Current Android/device/2020Adreno/release and authenticated services remain required.
 
 

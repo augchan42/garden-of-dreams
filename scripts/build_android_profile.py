@@ -101,7 +101,7 @@ def main():
     (fixture / 'tests').mkdir()
     shutil.copy2(source / 'tests/profile_android.gd', fixture / 'tests/profile_android.gd')
     shutil.copy2(source / 'tests/texture_binding_inventory.gd', fixture / 'tests/texture_binding_inventory.gd')
-    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json']:
+    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd']:
         shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
     state['moon_import_configuration'] = configure_moon_import(fixture)
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
@@ -124,6 +124,7 @@ script = ExtResource("1")
     (fixture / 'profile-icon.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" rx="20" fill="#18201f"/><path d="M28 28h72M28 42h72M28 56h30m12 0h30M28 70h72M28 84h30m12 0h30M28 98h72" stroke="#dcb472" stroke-width="7"/></svg>''')
     build = {key: state[key] for key in ['scope', 'source_glb_sha256']}
     build.update({'profile_script_sha256': sha(fixture / 'tests/profile_android.gd'),
+                  'report_store_script_sha256': sha(fixture / 'tests/profile_report_store.gd'),
                   'inventory_script_sha256': sha(fixture / 'tests/texture_binding_inventory.gd'),
                   'moon_check_script_sha256': sha(fixture / 'tests/test_moon_runtime_import.gd'),
                   'moon_paint_atlas_sha256': sha(fixture / 'tests/moon-paint-atlas.json'),

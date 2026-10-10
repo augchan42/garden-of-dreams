@@ -19,10 +19,8 @@ func _ready() -> void:
  call_deferred("run")
 
 func save_report() -> void:
- var file = FileAccess.open("user://garden-phone-profile.json", FileAccess.WRITE)
- assert(file != null)
- file.store_string(JSON.stringify(report, "  "))
- file.close()
+ var error = preload("res://tests/profile_report_store.gd").publish("user://garden-phone-profile.json", report)
+ assert(error == OK, "Phone report publication failed: " + error_string(error))
 
 func buttons() -> Dictionary:
  var result = {}
