@@ -1,0 +1,14 @@
+{
+  "scope": "Source research only; no Android GPU timing collected yet.",
+  "sources": [
+    "https://docs.godotengine.org/en/4.7/classes/class_renderingserver.html#class-renderingserver-method-viewport-get-measured-render-time-gpu",
+    "https://github.com/godotengine/godot/blob/4.7.2-stable/drivers/gles3/storage/utilities.cpp"
+  ],
+  "findings": [
+    "RenderingServer CPU viewport timing excludes script/physics work; collect each active viewport plus frame setup and script/physics monitors separately.",
+    "Godot4.7.2 GLES3 GPU timestamp path invokes GL timestamp queries only under GL_API_ENABLED and is_gles_over_gl(). Native Android GLES may produce no usable GPU duration; treat all-zero results as unavailable, not zero GPU work.",
+    "Existing normal-route pond capture updates per frame only within18m; verify actual viewport active state at slow pavilion before proposing optimization.",
+    "0.75 3D scaling earlier increased native render-buffer allocation; do not propose a memory fix or performance acceptance without actual current-phone memory/quality/timing comparison."
+  ],
+  "production_changes": false
+}

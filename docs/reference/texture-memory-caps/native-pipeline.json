@@ -1,0 +1,229 @@
+[
+  {
+    "name": "resource-red",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/resource-red.log",
+    "status": "expected_red",
+    "pid": 55447,
+    "exit_code": 1,
+    "diagnostics": [
+      "ERROR: MEMORY_CAP_RESOURCE_REJECTED [\"Actual loaded size differs: pavilion_basecolor\",\"Actual loaded size differs: wall_basecolor\",\"Actual loaded size differs: gate-inscription\",\"Actual loaded size differs: gate-inscription-normal\"]"
+    ],
+    "log_sha256": "da0d65168f8f1f1342e0a058b52659b8703e9a6953261df3acd7aadee221262c"
+  },
+  {
+    "name": "resource-baseline",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/resource-baseline.log",
+    "status": "passed",
+    "pid": 55450,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "78be9a99582b8c14c740d81153d6a784b10c60be3149a9a12ad3d0c49c8ed636"
+  },
+  {
+    "name": "baseline-arrivals-desktop",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/baseline-arrivals-desktop.log",
+    "status": "passed",
+    "pid": 55468,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+  },
+  {
+    "name": "baseline-arrivals-portrait",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/baseline-arrivals-portrait.log",
+    "status": "passed",
+    "pid": 55512,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+  },
+  {
+    "name": "baseline-material-controls",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/baseline-material-controls.log",
+    "status": "failed",
+    "pid": 55548,
+    "exit_code": -15,
+    "diagnostics": [
+      "SCRIPT ERROR: Assertion failed: ORM candidate was not imported"
+    ],
+    "log_sha256": "353b9cd6ec1aef3ff6bcf94d64caceb52593b6628b95a51c0f988aca58e9cfe6"
+  },
+  {
+    "name": "baseline-material-controls-v2",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/baseline-material-controls-v2.log",
+    "status": "passed",
+    "pid": 55744,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "be789276bc178b14e0c5cb833f589fc97c8f712335b0aa021a05bdf3726c600e"
+  },
+  {
+    "name": "baseline-gate-controls",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/baseline-gate-controls.log",
+    "status": "passed",
+    "pid": 55758,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "63fc1fd37fd98d2c096593b2d1b214fce1197cbe43438f1669cb4592ef20fc9d"
+  },
+  {
+    "name": "candidate-import",
+    "status": "passed",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-import.log",
+    "pid": 55770,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "ac83f0461cfbb2ccd4a454a4f39a6579ffd029c7bedc6b4d72ce0afed9d9c0e1"
+  },
+  {
+    "name": "resource-candidate",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/resource-candidate.log",
+    "status": "passed",
+    "pid": 55772,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "42018625948aa407e651e4b74bb7739c1ecb6e15dfe666b350461dd9a378acff"
+  },
+  {
+    "name": "candidate-palette-normal",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-palette-normal.log",
+    "status": "passed",
+    "pid": 55781,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "80335b5b6a6b03a29970ded2b11f3c6c75df39900301c4fceabb0ec56fab5664"
+  },
+  {
+    "name": "candidate-inventory-normal",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-inventory-normal.log",
+    "status": "passed",
+    "pid": 55787,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "ea5ebec9eb827a3ae4478f008fdda3139b37b897cb6813fb150473b758083db6"
+  },
+  {
+    "name": "candidate-palette-demo",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-palette-demo.log",
+    "status": "passed",
+    "pid": 55806,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "9cf9309644a1b37b3585d036f49d023b9eadc407c6151754437c33266379f497"
+  },
+  {
+    "name": "candidate-inventory-demo",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-inventory-demo.log",
+    "status": "passed",
+    "pid": 55810,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "9c530c6b2a234e9b9067a1e8f340247b10f05e3952625da2a1699b4f60daf33e"
+  },
+  {
+    "name": "candidate-arrivals-desktop",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-arrivals-desktop.log",
+    "status": "passed",
+    "pid": 55816,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+  },
+  {
+    "name": "candidate-arrivals-portrait",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-arrivals-portrait.log",
+    "status": "passed",
+    "pid": 55854,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+  },
+  {
+    "name": "candidate-material-controls",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-material-controls.log",
+    "status": "passed",
+    "pid": 55901,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "b1b687c1ea9572c043549c86a2b65ab99c3a8d6c78e2fe4721b06822f64f78e8"
+  },
+  {
+    "name": "candidate-gate-controls",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-gate-controls.log",
+    "status": "failed",
+    "pid": 55916,
+    "exit_code": -15,
+    "diagnostics": [
+      "SCRIPT ERROR: Assertion failed: Inscription aspect ratio changed"
+    ],
+    "log_sha256": "761a09d1f84052b2a94b6baebfda8ade2b2d086a787837c6428d919f4f8f065d"
+  },
+  {
+    "name": "candidate-gate-controls-v3",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/candidate-gate-controls-v3.log",
+    "status": "passed",
+    "pid": 56035,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "e251e89c06f1db53c9b9b25f1729ed5ed2b101aecf6bdfcc1690fed087be834c"
+  },
+  {
+    "name": "active-guard-red-accepted",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/active-guard-red-accepted.log",
+    "status": "passed",
+    "pid": 56281,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "42018625948aa407e651e4b74bb7739c1ecb6e15dfe666b350461dd9a378acff"
+  },
+  {
+    "name": "active-guard-green-rejected",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/active-guard-green-rejected.log",
+    "status": "expected_red",
+    "pid": 56296,
+    "exit_code": 1,
+    "diagnostics": [
+      "ERROR: MEMORY_CAP_RESOURCE_REJECTED [\"normal: active standard binding differs pavilion_basecolor\"]"
+    ],
+    "log_sha256": "b0641f84de8e37da1bb9df84e82ac2eb608b6de633f5a3a098aa88ed768c036c"
+  },
+  {
+    "name": "resource-final-baseline",
+    "project": "/tmp/garden-memory-caps-20261010/baseline-godot",
+    "log": "/tmp/garden-memory-caps-20261010/resource-final-baseline.log",
+    "status": "passed",
+    "pid": 56302,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "78be9a99582b8c14c740d81153d6a784b10c60be3149a9a12ad3d0c49c8ed636"
+  },
+  {
+    "name": "resource-final-candidate",
+    "project": "/tmp/garden-memory-caps-20261010/candidate-godot",
+    "log": "/tmp/garden-memory-caps-20261010/resource-final-candidate.log",
+    "status": "passed",
+    "pid": 56310,
+    "exit_code": 0,
+    "diagnostics": [],
+    "log_sha256": "42018625948aa407e651e4b74bb7739c1ecb6e15dfe666b350461dd9a378acff"
+  }
+]
