@@ -55,3 +55,23 @@ python3 scripts/collect_android_profile.py --device SERIAL --destination NEW_EVI
 ```
 
 Use the report's `buttons` screen centers for real touch checks. Collections require a new directory, a finished current profile and matching APK, source and runtime-script records. They preserve failed budget results rather than treating successful collection as performance acceptance. `export/android-profile-build.json` points to the latest collected evidence.
+
+
+## Reusable full-garden profiling
+
+The builder accepts `--mode full` for the normal fourteen-room route. The full producer uses the canonical public commands, records every grounded floor ray, waits for each camera to settle and completes at least two whole tours with at least 600 timed seconds. Image readback happens after each timed phase. Normal time scale, 60 Hz physics and the 60 fps cap are checked; a completed tour can still fail performance budgets.
+
+The staged build records every profiler dependency. Before collection, current source scripts, imported texture inputs, enabled material bindings, generated cache files and the installed APK must match. APK inspection also verifies the actual compiled script remaps and imported scene payload. All 53 two-tour captures require the exact expected filename, published hash, dimensions and room. The collector checks coverage, command order, arrival signals, floor support and every budget result. It preserves failed budgets.
+
+```sh
+python3 scripts/build_android_profile.py --mode full --report export/android-full-profile-build.json --apk build/garden-full-profile.apk
+adb -s SERIAL install -r build/garden-full-profile.apk
+adb -s SERIAL shell am force-stop org.godotengine.gardendreams.profile
+adb -s SERIAL shell run-as org.godotengine.gardendreams.profile rm -f files/garden-phone-profile.json files/garden-phone-profile.json.tmp
+adb -s SERIAL shell am start -n org.godotengine.gardendreams.profile/com.godot.game.GodotAppLauncher
+python3 scripts/collect_android_profile.py --device SERIAL --build-report export/android-full-profile-build.json --destination NEW_FULL_EVIDENCE_DIRECTORY --wait-timeout 2100
+```
+
+Keep the phone awake. The wait accepts an explicit “file not yet published” marker for at most 20 seconds at startup. Empty, partial or diagnostic text is a failure. Reports publish atomically on the phone and in the host progress file. Source/cache/installed identity is rechecked after the sustained wait.
+
+The full profiler separately records the engine's frame and physics monitors, frame setup CPU time and CPU/GPU counters for each update-enabled viewport. Rendering CPU time excludes script/physics work, and the engine monitors overlap with rendering work; their values must not be added together. A disabled pond reflection viewport is recorded without sampling its stale render counters. All-zero timing counters are marked unavailable. See [Godot's viewport timing documentation](https://docs.godotengine.org/en/4.7/classes/class_renderingserver.html#class-renderingserver-method-viewport-get-measured-render-time-cpu) and [engine monitor definitions](https://docs.godotengine.org/en/4.7/classes/class_performance.html#enum-performance-monitor).
