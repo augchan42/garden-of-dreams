@@ -1,0 +1,7 @@
+{
+  "status": "corrected_before_phone",
+  "cause": "Shader-normal control had no target because placed gate remained StandardMaterial3D",
+  "correction": "Create actual shader adapter from original gate then disable normal flag; record/assertpositive mutation counts in bothmodes; freshRED on pre-fix isolatedhelper and GREENproduction",
+  "failed_evidence": "failed-disabled-controls-v1",
+  "review_finding": "Only albedo/standard-normalv1 controls mutated materials; prior shader-normal acceptance not validRED evidence"
+}

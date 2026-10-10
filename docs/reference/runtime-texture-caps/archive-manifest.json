@@ -1,0 +1,653 @@
+{
+  "scope": "Actual production four-cap adoption and guards; native reproduction and physical demo verification. Full sustained adopted-source and 2020Adreno/fps/art/release/service acceptance remain open.",
+  "files": {
+    "python-suite-final.log": {
+      "sha256": "f7fb2d21e50edb4609636bc18c3450a4a5b9c710829174f6fc87b2fdeb541459",
+      "bytes": 115
+    },
+    "android-build.json": {
+      "sha256": "0cd5aa2f0ceac38ed0996c43e3c1c828957f51ae538857a994d43fa704887e13",
+      "bytes": 254364
+    },
+    "installed-caps-final.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "red-accepted-disable-albedo.json": {
+      "sha256": "310c5d81432bd21bc26c06c5cc8aeddeb1b285491681f9118ea16d607773a53f",
+      "bytes": 2669
+    },
+    "stale-cache-red.json": {
+      "sha256": "9bcb890b872277027c29b87b824814b24aa8c8a4228711330e976ece4810c5b4",
+      "bytes": 2830
+    },
+    "installed-caps.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "green-rejected-disable-standard-normal.json": {
+      "sha256": "8bbcdab01b4086fefd874155585bb4b3be964bc5c430eb47639ff5aab658c187",
+      "bytes": 2804
+    },
+    "phone-profile-build.json": {
+      "sha256": "37c2de8059405d0973ab2a87e447028add4178a9a62b6bf7ea151f49f8c07a03",
+      "bytes": 252572
+    },
+    "red-accepted-disable-normal.json": {
+      "sha256": "a919ad472fd5da10a1b5319f1374f1538b47cbd1c909bfd56c8623c9c8606bf7",
+      "bytes": 2667
+    },
+    "moon-runtime-import-check.log": {
+      "sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e",
+      "bytes": 145
+    },
+    "configure-red.log": {
+      "sha256": "c686fbc469c9789f13c2f5b3fd1f67c633c016972e396829586184fa173d4959",
+      "bytes": 3354
+    },
+    "legacy-gate-red.log": {
+      "sha256": "759bb2bcd4c5fc31af423853a3df2b522a0d87413b7503eb47fe1eee05d37f31",
+      "bytes": 1158
+    },
+    "mobile-texture-import.log": {
+      "sha256": "58e80e7156cd633ef33986549b78568c0176e842259865bb7612966d7f5aa243",
+      "bytes": 98145
+    },
+    "installed-quality-reproduction.json": {
+      "sha256": "a120da9a9712db3b4a0a638ac98a34dd2e7e351ea7365617bec433414e5091ee",
+      "bytes": 13903
+    },
+    "apk-input-verification.json": {
+      "sha256": "3b1cf7e670b3f05da93f0f0b20d44bb9645aa0ec7b69e23e69d7d352cd1b1b2d",
+      "bytes": 32509
+    },
+    "green-rejected-disable-standard-normal.log": {
+      "sha256": "528c035e5815f2741729e1b109a6ae34c7dd05237625f5cb6926dcbe65f30564",
+      "bytes": 409
+    },
+    "production-source-before.json": {
+      "sha256": "61a7f0161f454690ee5374e170dec8de73bf1c97b64a008e7c26ee6720cf10ee",
+      "bytes": 62079
+    },
+    "installed-moon.log": {
+      "sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e",
+      "bytes": 145
+    },
+    "direct-phone-review.json": {
+      "sha256": "87172502d55e0236ffbb1fbd645cc69c35ba832e2a6b49abec14bb694c4864d0",
+      "bytes": 3188
+    },
+    "green-rejected-disable-albedo.json": {
+      "sha256": "212f1e88ad53cbc738287ebf6f171aac614c2f256bc66c6993664655a6fe1f78",
+      "bytes": 4469
+    },
+    "green-rejected-disable-albedo.log": {
+      "sha256": "9e82259483ca682b316a12cf5a523886bb3e20011140bf1a5de4b9c62f25b927",
+      "bytes": 1991
+    },
+    "android-builder.log": {
+      "sha256": "4179384679175006ef8354bf14f274bdb3c668e091647dc9e0e5376733a573bf",
+      "bytes": 100
+    },
+    "quality-pipeline.json": {
+      "sha256": "5e9ec47977f606eeadb6f16708a92ef4496126ce6644a80dd19cb42fe5d975a0",
+      "bytes": 502
+    },
+    "current-scene-red.log": {
+      "sha256": "427dd2c4a96cab8dacf911febed58217df91a1ecddc99177fa5cfb731c0ea3f0",
+      "bytes": 1103
+    },
+    "red-accepted-disable-standard-normal.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "red-accepted-disable-normal.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "active-binding-rejected.json": {
+      "sha256": "af0794f414b14717ef253ddde009d83044a799b745a9d7e7ef8161b2014555a0",
+      "bytes": 4503
+    },
+    "disabled-controls-correction.json": {
+      "sha256": "d9aec603b5ad02ddc752aa2baf2f68046ec1b601571f044815e726d6d6ff6be4",
+      "bytes": 525
+    },
+    "installed-caps.json": {
+      "sha256": "9c2d8e429c33ad082d6dc15e5f70ee8c010f2932022a0a3136ef4b48ad784225",
+      "bytes": 2612
+    },
+    "installed-moon.json": {
+      "sha256": "e31c33cfa0feaeb82d1caf4db499238820b7f8b87299bd00e621e3ac40b64114",
+      "bytes": 316
+    },
+    "staged-inventory.json": {
+      "sha256": "e4381a16661ec6d1ff2a4be245bb58e4670404ecca340a32f3a75a6bbb2d4363",
+      "bytes": 109152
+    },
+    "green-rejected-disable-normal.json": {
+      "sha256": "f7abc24b9c9fc4ac65e517827ac0772285c7c1f8d3f8c4ddd774ef2efb51e5ba",
+      "bytes": 2802
+    },
+    "README.md": {
+      "sha256": "771f719244983b37e7a254cf65f84b19277036de2825f1397658d32d34affa4b",
+      "bytes": 5251
+    },
+    "collector-red.log": {
+      "sha256": "142d3d4ef4c0979e044f905cf623db5c4a55a09b704c4e4b703ff074b0d6bed7",
+      "bytes": 12843
+    },
+    "red-accepted-disable-standard-normal.json": {
+      "sha256": "a919ad472fd5da10a1b5319f1374f1538b47cbd1c909bfd56c8623c9c8606bf7",
+      "bytes": 2667
+    },
+    "staged-inventory.log": {
+      "sha256": "ea5ebec9eb827a3ae4478f008fdda3139b37b897cb6813fb150473b758083db6",
+      "bytes": 250
+    },
+    "production-import.log": {
+      "sha256": "ac83f0461cfbb2ccd4a454a4f39a6579ffd029c7bedc6b4d72ce0afed9d9c0e1",
+      "bytes": 3158
+    },
+    "installed-caps-final.json": {
+      "sha256": "54b94279657999da8ac22bee6bbad24a7f363f40ecfe17168320aeec9e57521c",
+      "bytes": 2667
+    },
+    "active-binding-rejected.log": {
+      "sha256": "4c56f4a16f6c974e4f58951ed7a0ac20d085be618d3f5e559771b8ea9b13ef0f",
+      "bytes": 2079
+    },
+    "device-gate-red.log": {
+      "sha256": "60091c3ccc8c98a8c5b4d2442cd9f515178affc46c3d37824a671a07109bddce",
+      "bytes": 940
+    },
+    "production-configuration.json": {
+      "sha256": "68ba49973cd3d1581bfe1db4a68e7b6e2b4af27d7662c602a17ec405e363cc16",
+      "bytes": 3656
+    },
+    "installed-checks.json": {
+      "sha256": "f21769fa1e488d5dc2ad1f485ee5fdedc40b22aa25936b9ad1ecb8a63eb57eae",
+      "bytes": 2699
+    },
+    "apk-verifier-correction.json": {
+      "sha256": "04c17361f2114013bf1f5e0ece31453bdff4dad8e104ea00d8d483626e7447d0",
+      "bytes": 1647
+    },
+    "green-rejected-disable-normal.log": {
+      "sha256": "55dbf7c355907a8871bf4d5292059a3d834481690b4010cfb2c1c30107bb1b42",
+      "bytes": 407
+    },
+    "apk-export.log": {
+      "sha256": "820119fc45164e635f3fe758e2ead0115c9da649b427abd9e0fbef62d85b2923",
+      "bytes": 5987
+    },
+    "installed-pbr.log": {
+      "sha256": "930689919df871350df7da5ba8959d9d82df244e1ab0631d46cfee182f3c1c0a",
+      "bytes": 126
+    },
+    "runtime-texture-cap-check.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "red-accepted-disable-albedo.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "stale-cache-red.log": {
+      "sha256": "7f288568fa2fa3c0d645afd597d2ec3045b5b1ce7db514a30dd10047d4fe7249",
+      "bytes": 474
+    },
+    "executed-source/test_android_runtime_caps_gate.py": {
+      "sha256": "b16319a300ac86410747ccc5bf14b3d77183875a4421be56f322cdca0b687ba4",
+      "bytes": 9460
+    },
+    "executed-source/tap_android_profile.py": {
+      "sha256": "29cbcab3238defb20b3a32154961068ad6e907f719eb496766cbf78de91a80ff",
+      "bytes": 3511
+    },
+    "executed-source/test_configure_runtime_texture_caps.py": {
+      "sha256": "6058c0955554ddb50c8fada81f1c7a22daade397dab80eb56780d81e3e588a19",
+      "bytes": 5097
+    },
+    "executed-source/test_runtime_texture_caps.gd": {
+      "sha256": "ac77096a622a28ef3e7bfda1469f0fe649ac46927d16ff8fcf062a2499e61348",
+      "bytes": 2919
+    },
+    "executed-source/test_profile_report_publication.py": {
+      "sha256": "cb634a98a90153cef95f4618b89631dc9e82c10d87ddbd4352ffc6b3e4136d2a",
+      "bytes": 2489
+    },
+    "executed-source/build_android_profile.py": {
+      "sha256": "80699b997ea48d6eb8ba1573cbd8bb453236d748f144c696f6b0a3ca37c2ac2a",
+      "bytes": 15766
+    },
+    "executed-source/configure_gate_inscription_imports.py": {
+      "sha256": "e3fa6d4bea920ad5b77621a91a47c0a543e21515a66c64385020966d02744388",
+      "bytes": 699
+    },
+    "executed-source/verify_android_profile_inputs.py": {
+      "sha256": "ab16fffef7624dfc8a13f6e59642443a4419e504716b74af00e1fa87db3e4b28",
+      "bytes": 6814
+    },
+    "executed-source/test_gate_inscription_texture.gd": {
+      "sha256": "06f2c4506dc7df4f62064eac0a6fb560f56440d45b198253f5724f7b374226b3",
+      "bytes": 4371
+    },
+    "executed-source/runtime_texture_caps.gd": {
+      "sha256": "896de1dbf654ff53b700e3262e4329177e74f623381c5d69ef2b2362ac0b8054",
+      "bytes": 4491
+    },
+    "executed-source/collect_android_profile.py": {
+      "sha256": "79dc07ad41f9f1603d2dd6dc210a6540d6b3a2285d0c35fcef9cc9dba022f2f2",
+      "bytes": 8340
+    },
+    "executed-source/configure_runtime_texture_caps.py": {
+      "sha256": "01ca92f6b14aa52d29fe54b68e8afae92cccfe00636b247ff6028d255f1c0b6d",
+      "bytes": 7018
+    },
+    "executed-source/profile_android.gd": {
+      "sha256": "046e5aa5fac30749fe0f7f2592c87258fc59a97ec92864b4c819256963ac8dfc",
+      "bytes": 9065
+    },
+    "arrivals-portrait/route-mobile-gate.png": {
+      "sha256": "35cfac636c12dd2b6a5877eeedba99e82580f5b1f05f3eb05640868d14f5908d",
+      "bytes": 200688
+    },
+    "arrivals-portrait/route-mobile-farmhouse.png": {
+      "sha256": "9fffaf053411d8b0d49cdc9f50d69d448e23c8c7a51940d9e3704877b3451d14",
+      "bytes": 306666
+    },
+    "arrivals-portrait/route-mobile-nunnery.png": {
+      "sha256": "54ec984ba4e223d92b53578c7f0249f449a62fb20e9f4921a4e862fdc334a3c3",
+      "bytes": 291406
+    },
+    "arrivals-portrait/route-mobile-courtyard.png": {
+      "sha256": "9d4aeb71820dd6e543d3d1306ff08b90c884b76c4d545b50f9ca7aaeb90b16d3",
+      "bytes": 336793
+    },
+    "arrivals-portrait/route-mobile-hilltop.png": {
+      "sha256": "ed1605f563098ef37a4af5a2eab65d78474250792a62ee4d01952d07a8af08ef",
+      "bytes": 330089
+    },
+    "arrivals-portrait/route-mobile-ziling.png": {
+      "sha256": "0d13cdde180aadd2073078be19a86ddcb37e2c653592965441754e39e31e46c1",
+      "bytes": 276097
+    },
+    "arrivals-portrait/route-mobile-study.png": {
+      "sha256": "1a15ef9b101cf458837ec553eec5b26826cca84fd054e2b04a8f18bfb3c0895f",
+      "bytes": 268321
+    },
+    "arrivals-portrait/route-portrait-report.json": {
+      "sha256": "b87b2286b6f7327d6460d24121f364b6bb2f1d7fc2ebc085a3bd195622c8132a",
+      "bytes": 3077
+    },
+    "arrivals-portrait/route-mobile-cell.png": {
+      "sha256": "b819d29e676fce59d4b0cd2ae6f6a14e969e614ec8170fed532fa602a81e4555",
+      "bytes": 172433
+    },
+    "arrivals-portrait/route-mobile-ouxiang.png": {
+      "sha256": "e316b582cf927c03731b8219e026b904cd0492a786e269ff7889c52c30fce42a",
+      "bytes": 303584
+    },
+    "arrivals-portrait/route-mobile-reflection.png": {
+      "sha256": "0181ef63fb491d5afcf8716a637f776127ffb255fb6d4993e26649ae171cccd1",
+      "bytes": 247605
+    },
+    "arrivals-portrait/route-mobile-pavilion.png": {
+      "sha256": "c8670d4d75fc24bda8d0e74610b3c6613a1548eb61bbef3f772f9ae9a0f26bcf",
+      "bytes": 284208
+    },
+    "arrivals-portrait/route-mobile-red-court.png": {
+      "sha256": "82b45b36ccd5b233c6d1f69270a11e601dd2c778d4921607cafdab19208884ca",
+      "bytes": 281030
+    },
+    "arrivals-portrait/route-mobile-bamboo.png": {
+      "sha256": "378e98bb8173f56eb0fa325a1f2179f0264535f78d1e76dc98d087c1fc529b7c",
+      "bytes": 351779
+    },
+    "arrivals-portrait/route-mobile-imperial.png": {
+      "sha256": "5b546f67f23f2f3678c98e446f54b0fefe5bb8c7b4f281dfdc4cf5a52b88128b",
+      "bytes": 308794
+    },
+    "atomic-writer-final/publication.json": {
+      "sha256": "b8af2abd51c1a7aee5d9731b65c0aab361dc2163defb47aa3fbb62e610495902",
+      "bytes": 450
+    },
+    "atomic-writer-final/engine.log": {
+      "sha256": "5bbd02f262092be164060b56230035da41cca87cd8b6a20fcedc478680bbe7b1",
+      "bytes": 114
+    },
+    "atomic-writer-final/run.json": {
+      "sha256": "e84778520bb0c7c359cbe195e500b5138978678f0dc1bf80a5b38b16dc5a7d1b",
+      "bytes": 1264
+    },
+    "phone/collection-and-touch.log": {
+      "sha256": "e27d93a24aa8a7c42afea60e0824d4a50a2f16a9c6b36d675e2194bab3ae0056",
+      "bytes": 775
+    },
+    "phone/device-pipeline.json": {
+      "sha256": "917178575016326f75f176567843831b3f0a5a00b90bbf321bc1092f52179903",
+      "bytes": 664
+    },
+    "gate-controls/portrait-arrival.png": {
+      "sha256": "2574decc101d02227462967c668c01fda8a6454070b1a4b02a169a99103bd6c5",
+      "bytes": 207558
+    },
+    "gate-controls/report.json": {
+      "sha256": "3b220f1c58ba9e39f75b2811d12becbe541a3bf655b85e161b46c7b0906b3006",
+      "bytes": 1790
+    },
+    "gate-controls/portrait-close.png": {
+      "sha256": "fb97529f9c314f4bd8998df5d396b548f71f045dcab1cbe93c768f6447334e51",
+      "bytes": 218730
+    },
+    "gate-controls/desktop-arrival.png": {
+      "sha256": "58147049b6daf9e1cf13e59ba505f3d622d3949c343442393392351d0aa2afee",
+      "bytes": 565001
+    },
+    "gate-controls/desktop-close.png": {
+      "sha256": "bebabb6d3fabfbb548d43511261ed7dce0753465925697b31028a96c2eea6efc",
+      "bytes": 623491
+    },
+    "material-controls/desktop-hengwu_yuan-pbr-probe.png": {
+      "sha256": "5171c391c761992ea76d191fcbd4df94783fa2182a314d469be9fcfb09d641a9",
+      "bytes": 793914
+    },
+    "material-controls/report.json": {
+      "sha256": "d115af1c878f7f8596f2cde489b8a2cf8f3d50a50492c2519072d2edcd1255d7",
+      "bytes": 8532
+    },
+    "material-controls/desktop-qinfang_ting-arrival.png": {
+      "sha256": "65a2fe04c41815568ddc720d2230d5e5a8b01d4540228c5100c9b1c0dfe506d3",
+      "bytes": 864931
+    },
+    "material-controls/portrait-qinfang_ting-arrival.png": {
+      "sha256": "492ad09c26c473e9e95ef40662bf4a7a66a1a40d9b8fae41b7cb615ed8378220",
+      "bytes": 307690
+    },
+    "material-controls/portrait-qinfang_ting-pbr-probe.png": {
+      "sha256": "17836c0c136c45dd3e311f27006744fd9a91dc373379105f53bff343270caf46",
+      "bytes": 295905
+    },
+    "material-controls/desktop-hengwu_yuan-arrival.png": {
+      "sha256": "63f8052b0edc45e0e5a9cc5f51a16fec22f20a24eea5c4de43ff9e3d63e5b99c",
+      "bytes": 876816
+    },
+    "material-controls/desktop-qinfang_ting-pbr-probe.png": {
+      "sha256": "ef003c8104feb48d1fb0d9d5cf1f90ec84ee5fc2a54df6fc4fcb0d0c0c44f535",
+      "bytes": 777667
+    },
+    "material-controls/desktop-qinfang_ting-close.png": {
+      "sha256": "60e151e8b0316181bc0006d3d868370b2706666df6a461456291487488a91f1a",
+      "bytes": 700372
+    },
+    "material-controls/portrait-qinfang_ting-close.png": {
+      "sha256": "a6d0c2ee45fb003af8431f0cd023861a45a2a64668ba842dc2db272e8a60ea0a",
+      "bytes": 284114
+    },
+    "material-controls/portrait-hengwu_yuan-pbr-probe.png": {
+      "sha256": "66353f1e2019e654b89a8da94a31cabb32aa078c80cc053a1b7ca10a247a3936",
+      "bytes": 310229
+    },
+    "material-controls/desktop-hengwu_yuan-close.png": {
+      "sha256": "2f6ecef55290b6c85ad10335c9ee9c42360761f9703b98fd9b246bb18487c61c",
+      "bytes": 859016
+    },
+    "material-controls/portrait-hengwu_yuan-arrival.png": {
+      "sha256": "fd36ee12174dd46b71250441d2c3b4c2c7d512b023917add9294c34621d1ff56",
+      "bytes": 386727
+    },
+    "material-controls/portrait-hengwu_yuan-close.png": {
+      "sha256": "a55c472a5968008227cf0e54ff15c9e6b15cab5e3c59bb7c75d83fbf7110cf0e",
+      "bytes": 320683
+    },
+    "arrivals-desktop/route-bamboo.png": {
+      "sha256": "6cae29fd46969be9a1379b65b5b31f9196047be13f73bcb12f04b769391c3c64",
+      "bytes": 760354
+    },
+    "arrivals-desktop/route-study.png": {
+      "sha256": "597976a0e4e7f08206008ec7f2ef6a067c0f2ecf9bb9c4917c183cede77cc4b9",
+      "bytes": 680211
+    },
+    "arrivals-desktop/route-desktop-report.json": {
+      "sha256": "61f0a75932f4e364b67c9d7a33ba91456ba522adc5a7790e3a7b3e23690ba80b",
+      "bytes": 2993
+    },
+    "arrivals-desktop/route-pavilion.png": {
+      "sha256": "be87fe9c613ea8b0490640d73a6091224d8d8113a1b2e9f6cd6233c0a682b79d",
+      "bytes": 685698
+    },
+    "arrivals-desktop/route-red-court.png": {
+      "sha256": "ff0ae16963096716ef3ee83735764b381bd45167bd66d7ba23191c739bb558ef",
+      "bytes": 591326
+    },
+    "arrivals-desktop/route-imperial.png": {
+      "sha256": "7f03e8d3017fdb6d46208ee4f4dc0f201b4f0135a4f426628b49328137da6770",
+      "bytes": 719423
+    },
+    "arrivals-desktop/route-ouxiang.png": {
+      "sha256": "28c3907f5eacdb0e94af187ee22856897854b0a76f5058ece0d836d2f3dcc0e4",
+      "bytes": 640697
+    },
+    "arrivals-desktop/route-gate.png": {
+      "sha256": "ebdbff3dac2c5865dd11116657b965f24f84dd0dca5f8a1cc1de3d8e917da3de",
+      "bytes": 505278
+    },
+    "arrivals-desktop/route-ziling.png": {
+      "sha256": "125601e55abeabff3f167bd8d743387ed58b5bfe985270a4491ce9d1ec69c0ee",
+      "bytes": 558199
+    },
+    "arrivals-desktop/route-hilltop.png": {
+      "sha256": "9de7b94f4f29a06875c9d7e913890cc6e71fb906e8d6c38675fb13f77393fa23",
+      "bytes": 746265
+    },
+    "arrivals-desktop/route-farmhouse.png": {
+      "sha256": "451752ead3f096687723e62ef25add710394d8c71e8aaa7c636541f3d3613bc3",
+      "bytes": 607282
+    },
+    "arrivals-desktop/route-courtyard.png": {
+      "sha256": "1be20630fd73da63cd700c95b01de6113b1beb62390cb2d2a42411b55d1ebcd3",
+      "bytes": 741854
+    },
+    "arrivals-desktop/route-cell.png": {
+      "sha256": "503e6aad05bb268ae4d56568d5948124265e004eb5205b6d897ac43f9af4341c",
+      "bytes": 172627
+    },
+    "arrivals-desktop/route-nunnery.png": {
+      "sha256": "78fef83f97fb663c7598a7948855dbd6a7da26a2ae0b557762d84ae0cccfc66f",
+      "bytes": 514489
+    },
+    "arrivals-desktop/route-reflection.png": {
+      "sha256": "b3d154db61579451c6c865fbe177f0ef842629d34589bbab5933b976ea36bd5d",
+      "bytes": 518616
+    },
+    "phone/samples/evidence.json": {
+      "sha256": "17b41f30c24ca3498f9d88df726ddbd099b74374b7c1b6665643bc68a5e48608",
+      "bytes": 1685
+    },
+    "phone/samples/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/samples/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/samples/garden-phone-profile.json": {
+      "sha256": "d239359878a6f0e826699ac18e631f29926f796504cec73e6ab86c56da6fd849",
+      "bytes": 322238
+    },
+    "phone/samples/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/samples/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/samples/build.json": {
+      "sha256": "56d1f58f06aed8fce86e4d9235090d36de51eb1a0298f7ff5282e216234b6d52",
+      "bytes": 253436
+    },
+    "phone/taps/close/evidence.json": {
+      "sha256": "0e186f653a07fe52e1d2998a65233c0b140d5b3d9618c28fc35a1f76360cbca0",
+      "bytes": 1960
+    },
+    "phone/taps/close/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/taps/close/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/taps/close/garden-phone-after-touch.png": {
+      "sha256": "9bba4a6af284a6529a2891487d489bed1c27f9c11101ca681de49ad80723dbbd",
+      "bytes": 834440
+    },
+    "phone/taps/close/garden-phone-profile.json": {
+      "sha256": "779c0abc17e198e5662d1536fa2725682f76301cfeb6effa65a9c6ffbbc8bea5",
+      "bytes": 323035
+    },
+    "phone/taps/close/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/taps/close/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/taps/close/build.json": {
+      "sha256": "4237f39b8eebfa94f85a0fe3c5410adabbd36999be735edd463408d400700276",
+      "bytes": 254364
+    },
+    "phone/taps/cast/evidence.json": {
+      "sha256": "380c859a9547e88d7ecd7ebe8185d476e0a70d65d8a64ee3e74e3b55c551e00d",
+      "bytes": 1960
+    },
+    "phone/taps/cast/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/taps/cast/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/taps/cast/garden-phone-after-touch.png": {
+      "sha256": "898fa5a6b8ece435e6e3c4675f5440610f50cccd5565c9852dc154cbec77b32c",
+      "bytes": 309053
+    },
+    "phone/taps/cast/garden-phone-profile.json": {
+      "sha256": "e76b7027dd3f6f1918aa276c34bb400f9c41834185632dbe7f9b67105a6894f0",
+      "bytes": 323043
+    },
+    "phone/taps/cast/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/taps/cast/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/taps/cast/build.json": {
+      "sha256": "e6fbe4fd48bef0adca0b01bee7a053bd42065ff3a27877b18027ecdb6b400e60",
+      "bytes": 254360
+    },
+    "phone/taps/recast/evidence.json": {
+      "sha256": "37c066e5c118bfa96ade1bdf459e02a87dee76ad43180e77e5585234ed721d9b",
+      "bytes": 1960
+    },
+    "phone/taps/recast/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/taps/recast/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/taps/recast/garden-phone-after-touch.png": {
+      "sha256": "c0516494361af4302ea2e287a954b39a029cd8178f7df462bc997fb8bdebd4da",
+      "bytes": 300202
+    },
+    "phone/taps/recast/garden-phone-profile.json": {
+      "sha256": "9b95e0e91597c91f5ff79e3dff91668ac23c938dc7195d36ff43ce0eb741e13b",
+      "bytes": 323274
+    },
+    "phone/taps/recast/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/taps/recast/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/taps/recast/build.json": {
+      "sha256": "4ebf94c236c848b2a98971cc52bef58609961ebe62592b0c16243aab82bf2ead",
+      "bytes": 254362
+    },
+    "phone/taps/replay/evidence.json": {
+      "sha256": "bceb1e073425824bf2492e1595d0c209c0d99b7d34400c388ec44b2c4dfe760e",
+      "bytes": 1961
+    },
+    "phone/taps/replay/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/taps/replay/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/taps/replay/garden-phone-after-touch.png": {
+      "sha256": "d34bec1fdc0af0124987dedbed1cbeaeac3098eed55b0661e82ef791fbda3e3e",
+      "bytes": 624704
+    },
+    "phone/taps/replay/garden-phone-profile.json": {
+      "sha256": "3eb0625f79001b3bf70c7f68e755c6e9b786033e18887bf4fbcb5dd4693de304",
+      "bytes": 323285
+    },
+    "phone/taps/replay/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/taps/replay/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/taps/replay/build.json": {
+      "sha256": "3ee75419d0c11ba39972f2b5b1d9f3c76bc856884527e0c491f6a27ed1d406ca",
+      "bytes": 254364
+    },
+    "phone/taps/finale/evidence.json": {
+      "sha256": "04ba23f17743adfaca7cfa38aa7a13554352e20049868a366fc6b291218dd74d",
+      "bytes": 1960
+    },
+    "phone/taps/finale/garden-phone-pavilion.png": {
+      "sha256": "d935f0a2f51cf905e21d71a747da592c55da71365fe41c087b9d2fe650421553",
+      "bytes": 933002
+    },
+    "phone/taps/finale/garden-phone-gate.png": {
+      "sha256": "368c7cafbac1285d575631e6fcf8d8afbf9eed7c5f72145e69f7750594562164",
+      "bytes": 554746
+    },
+    "phone/taps/finale/garden-phone-after-touch.png": {
+      "sha256": "ff35f540e97ffeeab9a480b42b26d18f97a886fcb1467eccdb167eebb6e31574",
+      "bytes": 205543
+    },
+    "phone/taps/finale/garden-phone-profile.json": {
+      "sha256": "b5cdd1c0406cf0f6c5784610cc90674e6c465ba455648ecae9fe944f7e3bab8d",
+      "bytes": 323747
+    },
+    "phone/taps/finale/app.log": {
+      "sha256": "d33018d410d8d22a6a6ec37d78023b1b0b6b0cd6d57bacba56f67a06f589ca5a",
+      "bytes": 973
+    },
+    "phone/taps/finale/garden-phone-cell.png": {
+      "sha256": "be7e8cf5e085ed66189d1f2e644bdf7956683d917d9fa0a0ff455f593cb60890",
+      "bytes": 623093
+    },
+    "phone/taps/finale/build.json": {
+      "sha256": "6b70a4942fd5dd22b445a0acc7a93cd7e059b9b8cf11ea18dc2db38c3ddbf56a",
+      "bytes": 254363
+    }
+  }
+}

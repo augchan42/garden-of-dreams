@@ -1,0 +1,32 @@
+[
+  {
+    "name": "installed-caps",
+    "exit_code": 0,
+    "status": "passed",
+    "log_sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+    "diagnostics": []
+  },
+  {
+    "name": "active-binding-rejected",
+    "exit_code": 1,
+    "status": "expected_rejection",
+    "log_sha256": "4c56f4a16f6c974e4f58951ed7a0ac20d085be618d3f5e559771b8ea9b13ef0f",
+    "diagnostics": [
+      "ERROR: RUNTIME_TEXTURE_CAPS_REJECTED [\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"normal: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\",\"demo: active standard binding differs pavilion_basecolor\"]"
+    ]
+  },
+  {
+    "name": "installed-moon",
+    "exit_code": 0,
+    "status": "passed",
+    "log_sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e",
+    "diagnostics": []
+  },
+  {
+    "name": "installed-pbr",
+    "exit_code": 0,
+    "status": "passed",
+    "log_sha256": "930689919df871350df7da5ba8959d9d82df244e1ab0631d46cfee182f3c1c0a",
+    "diagnostics": []
+  }
+]

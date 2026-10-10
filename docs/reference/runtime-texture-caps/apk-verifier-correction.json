@@ -1,0 +1,26 @@
+{
+  "status": "failed_diagnostic_invocation_corrected",
+  "cause": "Invoked RefCounted inventory library as standalone SceneTree; no entry point, timeout killed owned child",
+  "correction": "Use production audit_runtime_textures.gd SceneTree consumer; library/APK and production unchanged",
+  "failed_source": "verify-apk-failed-v1.py",
+  "failed_log": "staged-inventory-failed-v1.log",
+  "second_failed_attempt": {
+    "cause": "Actual graphical inventory rejects headless display; diagnostic used --headless incorrectly",
+    "failed_source": "verify-apk-failed-v2.py",
+    "failed_log": "staged-inventory-failed-v2.log",
+    "correction": "Standalone audit now uses actual native graphics; no production or APK changes"
+  },
+  "third_failed_attempt": {
+    "cause": "Verifier expects production-side inventory import hashes, but inventory came from staged mobile sidecars with changed platform remaps",
+    "correction": "Use clone of adopted production scene/imports for normal binding inventory; compare finalized staged APK payloads independently",
+    "failed_source": "verify-apk-failed-v3.py",
+    "failed_log": "staged-inventory-failed-v3.log",
+    "failed_inventory": "staged-inventory-failed-v3.json"
+  },
+  "fourth_failed_attempt": {
+    "cause": "Script export mode compiles GDScript into .gdc with .gd.remap; original source files are not raw APK entries",
+    "correction": "Verify current/staged source identity, compiled entry/remap signatures and hash bytecode; manifest already pins source checkers. Device check must execute actual guard.",
+    "failed_source": "verify-apk-failed-v4.py",
+    "APK_not_installed": true
+  }
+}
