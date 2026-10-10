@@ -1,0 +1,2802 @@
+{
+  "status": "saved_bamboo_source_kit_sites_master_verified",
+  "files": {
+    "blender/kits/KIT_flora.blend": "319eeae192589b1a551e771c0ede682999330d1ae194ec86c6f3761b3b8131d1",
+    "blender/authoring.blend": "0f93c42421a17b85b297fa0ff5447fad95cb7b98afeff183a2282ffe060492a4",
+    "blender/sites/SITE_xiaoxiang-guan.blend": "7a3c41febb2d39ed032a9232cb28a36960c03676217ae55a92ab6cdba165f94a",
+    "blender/sites/SITE_qinfang-ting.blend": "db225a8a2058d9edf45a7d4ed2f6664c1555cbd6da17996a8b16f1c57feb86d9",
+    "blender/master.blend": "6c3e603002b78654cdd4efebdd8ef7650be386f915a77c5aa6138745b1b0653b"
+  },
+  "legacy_meshes_rejected": [
+    {
+      "mesh": "KIT_flora_bamboo_small_render",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 9
+    },
+    {
+      "mesh": "KIT_flora_bamboo_small_render_LOD1",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 9
+    },
+    {
+      "mesh": "KIT_flora_bamboo_medium_render",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 15
+    },
+    {
+      "mesh": "KIT_flora_bamboo_medium_render_LOD1",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 15
+    },
+    {
+      "mesh": "KIT_flora_bamboo_large_render",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 21
+    },
+    {
+      "mesh": "KIT_flora_bamboo_large_render_LOD1",
+      "rejection": "Disconnected internodes",
+      "continuous_culms_found": 21
+    }
+  ],
+  "rows": [
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_small_render"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 204,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.2527535951230675,
+          "vertices": 6
+        },
+        {
+          "height": 0.03617441654205322,
+          "vertices": 6
+        },
+        {
+          "height": 0.03617453575134277,
+          "vertices": 6
+        },
+        {
+          "height": 0.03617405891418457,
+          "vertices": 6
+        },
+        {
+          "height": 2.06876462767832,
+          "vertices": 6
+        },
+        {
+          "height": 0.036591291427612305,
+          "vertices": 6
+        },
+        {
+          "height": 0.036591291427612305,
+          "vertices": 6
+        },
+        {
+          "height": 0.036591291427612305,
+          "vertices": 6
+        },
+        {
+          "height": 2.23558097705245,
+          "vertices": 6
+        },
+        {
+          "height": 0.03531694412231445,
+          "vertices": 6
+        },
+        {
+          "height": 0.03531694412231445,
+          "vertices": 6
+        },
+        {
+          "height": 0.03531694412231445,
+          "vertices": 6
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_small_render_LOD1"
+    },
+    {
+      "variant": "bamboo_medium",
+      "height_m": 3.4574855120154098,
+      "triangles": 940,
+      "continuous_culms": 5,
+      "joint_collars": 15,
+      "culm_components": [
+        {
+          "height": 3.031883088639006,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 3.1974633486242965,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 2.952667421894148,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491830825805664,
+          "vertices": 12
+        },
+        {
+          "height": 2.6337567595764995,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492140769958496,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 3.0098066922510043,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637272357940674,
+          "vertices": 12
+        },
+        {
+          "height": 0.03463733196258545,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637451171875,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_medium_render"
+    },
+    {
+      "variant": "bamboo_medium",
+      "height_m": 3.4574855120154098,
+      "triangles": 340,
+      "continuous_culms": 5,
+      "joint_collars": 15,
+      "culm_components": [
+        {
+          "height": 3.031656696344726,
+          "vertices": 6
+        },
+        {
+          "height": 0.034612178802490234,
+          "vertices": 6
+        },
+        {
+          "height": 0.034612178802490234,
+          "vertices": 6
+        },
+        {
+          "height": 0.034612178802490234,
+          "vertices": 6
+        },
+        {
+          "height": 3.1968248636694625,
+          "vertices": 6
+        },
+        {
+          "height": 0.03430283069610596,
+          "vertices": 6
+        },
+        {
+          "height": 0.03430294990539551,
+          "vertices": 6
+        },
+        {
+          "height": 0.03430294990539551,
+          "vertices": 6
+        },
+        {
+          "height": 2.95201677759178,
+          "vertices": 6
+        },
+        {
+          "height": 0.03404414653778076,
+          "vertices": 6
+        },
+        {
+          "height": 0.03404426574707031,
+          "vertices": 6
+        },
+        {
+          "height": 0.03404402732849121,
+          "vertices": 6
+        },
+        {
+          "height": 2.6333762435242534,
+          "vertices": 6
+        },
+        {
+          "height": 0.03441023826599121,
+          "vertices": 6
+        },
+        {
+          "height": 0.03441047668457031,
+          "vertices": 6
+        },
+        {
+          "height": 0.03441047668457031,
+          "vertices": 6
+        },
+        {
+          "height": 3.009724745643325,
+          "vertices": 6
+        },
+        {
+          "height": 0.03452712297439575,
+          "vertices": 6
+        },
+        {
+          "height": 0.03452718257904053,
+          "vertices": 6
+        },
+        {
+          "height": 0.03452730178833008,
+          "vertices": 6
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_medium_render_LOD1"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_large_render"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.357526656705886,
+      "triangles": 476,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614563189796172,
+          "vertices": 6
+        },
+        {
+          "height": 0.03387773036956787,
+          "vertices": 6
+        },
+        {
+          "height": 0.03387761116027832,
+          "vertices": 6
+        },
+        {
+          "height": 0.03387761116027832,
+          "vertices": 6
+        },
+        {
+          "height": 3.7301043239422143,
+          "vertices": 6
+        },
+        {
+          "height": 0.03369581699371338,
+          "vertices": 6
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 6
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 6
+        },
+        {
+          "height": 3.878046900033951,
+          "vertices": 6
+        },
+        {
+          "height": 0.03308844566345215,
+          "vertices": 6
+        },
+        {
+          "height": 0.03308844566345215,
+          "vertices": 6
+        },
+        {
+          "height": 0.03308844566345215,
+          "vertices": 6
+        },
+        {
+          "height": 3.5177151653915644,
+          "vertices": 6
+        },
+        {
+          "height": 0.03331327438354492,
+          "vertices": 6
+        },
+        {
+          "height": 0.03331327438354492,
+          "vertices": 6
+        },
+        {
+          "height": 0.03331327438354492,
+          "vertices": 6
+        },
+        {
+          "height": 3.8458006400614977,
+          "vertices": 6
+        },
+        {
+          "height": 0.03355371952056885,
+          "vertices": 6
+        },
+        {
+          "height": 0.0335536003112793,
+          "vertices": 6
+        },
+        {
+          "height": 0.0335536003112793,
+          "vertices": 6
+        },
+        {
+          "height": 3.955344957183115,
+          "vertices": 6
+        },
+        {
+          "height": 0.033320069313049316,
+          "vertices": 6
+        },
+        {
+          "height": 0.033319950103759766,
+          "vertices": 6
+        },
+        {
+          "height": 0.033319950103759766,
+          "vertices": 6
+        },
+        {
+          "height": 4.173675584606826,
+          "vertices": 6
+        },
+        {
+          "height": 0.03313136100769043,
+          "vertices": 6
+        },
+        {
+          "height": 0.03313136100769043,
+          "vertices": 6
+        },
+        {
+          "height": 0.03313112258911133,
+          "vertices": 6
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/kits/KIT_flora.blend",
+      "mesh": "KIT_flora_bamboo_large_render_LOD1"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_qinfang_ting_18"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_qinfang_ting_19"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_qinfang_ting_20"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_xiaoxiang_guan_0"
+    },
+    {
+      "variant": "bamboo_medium",
+      "height_m": 3.4574855120154098,
+      "triangles": 940,
+      "continuous_culms": 5,
+      "joint_collars": 15,
+      "culm_components": [
+        {
+          "height": 3.031883088639006,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 3.1974633486242965,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 2.952667421894148,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491830825805664,
+          "vertices": 12
+        },
+        {
+          "height": 2.6337567595764995,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492140769958496,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 3.0098066922510043,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637272357940674,
+          "vertices": 12
+        },
+        {
+          "height": 0.03463733196258545,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637451171875,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_xiaoxiang_guan_1"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_xiaoxiang_guan_2"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/authoring.blend",
+      "object": "HERO_flora_xiaoxiang_guan_3"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_xiaoxiang-guan.blend",
+      "object": "HERO_flora_xiaoxiang_guan_0"
+    },
+    {
+      "variant": "bamboo_medium",
+      "height_m": 3.4574855120154098,
+      "triangles": 940,
+      "continuous_culms": 5,
+      "joint_collars": 15,
+      "culm_components": [
+        {
+          "height": 3.031883088639006,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 3.1974633486242965,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 2.952667421894148,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491830825805664,
+          "vertices": 12
+        },
+        {
+          "height": 2.6337567595764995,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492140769958496,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 3.0098066922510043,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637272357940674,
+          "vertices": 12
+        },
+        {
+          "height": 0.03463733196258545,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637451171875,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_xiaoxiang-guan.blend",
+      "object": "HERO_flora_xiaoxiang_guan_1"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_xiaoxiang-guan.blend",
+      "object": "HERO_flora_xiaoxiang_guan_2"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_xiaoxiang-guan.blend",
+      "object": "HERO_flora_xiaoxiang_guan_3"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_qinfang-ting.blend",
+      "object": "HERO_flora_qinfang_ting_18"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_qinfang-ting.blend",
+      "object": "HERO_flora_qinfang_ting_19"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/sites/SITE_qinfang-ting.blend",
+      "object": "HERO_flora_qinfang_ting_20"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_qinfang_ting_18"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_qinfang_ting_19"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_qinfang_ting_20"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_xiaoxiang_guan_0"
+    },
+    {
+      "variant": "bamboo_medium",
+      "height_m": 3.4574855120154098,
+      "triangles": 940,
+      "continuous_culms": 5,
+      "joint_collars": 15,
+      "culm_components": [
+        {
+          "height": 3.031883088639006,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491640090942383,
+          "vertices": 12
+        },
+        {
+          "height": 3.1974633486242965,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 0.03516101837158203,
+          "vertices": 12
+        },
+        {
+          "height": 2.952667421894148,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491854667663574,
+          "vertices": 12
+        },
+        {
+          "height": 0.03491830825805664,
+          "vertices": 12
+        },
+        {
+          "height": 2.6337567595764995,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492140769958496,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 0.03492164611816406,
+          "vertices": 12
+        },
+        {
+          "height": 3.0098066922510043,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637272357940674,
+          "vertices": 12
+        },
+        {
+          "height": 0.03463733196258545,
+          "vertices": 12
+        },
+        {
+          "height": 0.034637451171875,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_xiaoxiang_guan_1"
+    },
+    {
+      "variant": "bamboo_small",
+      "height_m": 2.5113479502033442,
+      "triangles": 564,
+      "continuous_culms": 3,
+      "joint_collars": 9,
+      "culm_components": [
+        {
+          "height": 2.253059655893594,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658568859100342,
+          "vertices": 12
+        },
+        {
+          "height": 0.03658580780029297,
+          "vertices": 12
+        },
+        {
+          "height": 0.036585330963134766,
+          "vertices": 12
+        },
+        {
+          "height": 2.0697516805958003,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 0.0379176139831543,
+          "vertices": 12
+        },
+        {
+          "height": 2.2364383302628994,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        },
+        {
+          "height": 0.0364689826965332,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_xiaoxiang_guan_2"
+    },
+    {
+      "variant": "bamboo_large",
+      "height_m": 4.370081779081374,
+      "triangles": 1316,
+      "continuous_culms": 7,
+      "joint_collars": 21,
+      "culm_components": [
+        {
+          "height": 3.614752755034715,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03413248062133789,
+          "vertices": 12
+        },
+        {
+          "height": 3.7306514945812523,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443121910095215,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 0.03443098068237305,
+          "vertices": 12
+        },
+        {
+          "height": 3.878542810678482,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 0.033754825592041016,
+          "vertices": 12
+        },
+        {
+          "height": 3.5179998371750116,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 0.03369569778442383,
+          "vertices": 12
+        },
+        {
+          "height": 3.845865304581821,
+          "vertices": 12
+        },
+        {
+          "height": 0.03364062309265137,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 0.033640384674072266,
+          "vertices": 12
+        },
+        {
+          "height": 3.956071625696495,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 0.034296512603759766,
+          "vertices": 12
+        },
+        {
+          "height": 4.173920800327323,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346085548400879,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346109390258789,
+          "vertices": 12
+        },
+        {
+          "height": 0.03346061706542969,
+          "vertices": 12
+        }
+      ],
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ],
+      "file": "blender/master.blend",
+      "object": "HERO_flora_xiaoxiang_guan_3"
+    }
+  ],
+  "scope": "Independent opaque-culm topology, height, UV, finite coordinate checks; all three source size variants equal saved kit across authoring, two libraries and linked master. Scenes unchanged; not native appearance or phone acceptance."
+}
