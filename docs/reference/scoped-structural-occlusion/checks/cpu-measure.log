@@ -1,0 +1,10 @@
+OWNED_CPU_PHASE terminal_room-disabled cpu_s 2.36 wall_s 7.999 p95_ms 18.278
+OWNED_CPU_PHASE terminal_room-enabled cpu_s 3.16 wall_s 7.998 p95_ms 18.281
+OWNED_CPU_PHASE terminal_room-disabled_repeat cpu_s 2.08 wall_s 7.998 p95_ms 18.546
+OWNED_CPU_PHASE rockery_gate-disabled cpu_s 2.25 wall_s 7.995 p95_ms 17.828
+OWNED_CPU_PHASE rockery_gate-enabled cpu_s 3.68 wall_s 8.002 p95_ms 17.859
+OWNED_CPU_PHASE rockery_gate-disabled_repeat cpu_s 2.22 wall_s 7.999 p95_ms 17.548
+OWNED_CPU_PHASE qinfang_ting-disabled cpu_s 2.11 wall_s 8.005 p95_ms 17.833
+OWNED_CPU_PHASE qinfang_ting-enabled cpu_s 2.32 wall_s 8.002 p95_ms 18.492
+OWNED_CPU_PHASE qinfang_ting-disabled_repeat cpu_s 2.23 wall_s 7.999 p95_ms 18.104
+OWNED_CPU_DIAGNOSTIC_PASS {"terminal_room": {"baseline_mean_cpu_seconds_per_wall_second": 0.2775404580738917, "candidate_cpu_seconds_per_wall_second": 0.39509963919578295, "candidate_over_baseline": 1.4235749336790118, "baseline_repeat_ratio": 0.8814862598022548}, "rockery_gate": {"baseline_mean_cpu_seconds_per_wall_second": 0.27947185476776215, "candidate_cpu_seconds_per_wall_second": 0.4598583971319055, "candidate_over_baseline": 1.6454551300489364, "baseline_repeat_ratio": 0.9862189650694702}, "qinfang_ting": {"baseline_mean_cpu_seconds_per_wall_second": 0.2711755454005972, "candidate_cpu_seconds_per_wall_second": 0.28994124912693386, "candidate_over_baseline": 1.0692013127460105, "baseline_repeat_ratio": 1.0576958785098212}}
