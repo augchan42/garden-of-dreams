@@ -1,0 +1,114 @@
+{
+  "status": "passed_bounded_demo_check",
+  "production_adopted": true,
+  "apk_sha256": "68bf7ba2256da70d4d0dcd1de51ea7231528b83cbee60165be59d059b1578cdd",
+  "actual_device_caps": {
+    "errors": [],
+    "modes": [
+      "demo"
+    ],
+    "source_glb_sha256": "",
+    "status": "passed",
+    "textures": {
+      "gate-inscription": {
+        "bindings": {
+          "demo": 1
+        },
+        "loaded_size": [
+          512,
+          170
+        ],
+        "mipmaps": true,
+        "readback_bytes": 463772,
+        "stored_format": 5,
+        "stored_mip_bytes": 463772
+      },
+      "gate-inscription-normal": {
+        "bindings": {
+          "demo": 1
+        },
+        "loaded_size": [
+          512,
+          170
+        ],
+        "mipmaps": true,
+        "readback_bytes": 347829,
+        "stored_format": 4,
+        "stored_mip_bytes": 347829
+      },
+      "pavilion_basecolor": {
+        "bindings": {
+          "demo": 15
+        },
+        "loaded_size": [
+          1024,
+          1024
+        ],
+        "mipmaps": true,
+        "readback_bytes": 5592404,
+        "stored_format": 30,
+        "stored_mip_bytes": 699064
+      },
+      "wall_basecolor": {
+        "bindings": {
+          "demo": 1
+        },
+        "loaded_size": [
+          1024,
+          1024
+        ],
+        "mipmaps": true,
+        "readback_bytes": 5592404,
+        "stored_format": 30,
+        "stored_mip_bytes": 699064
+      }
+    }
+  },
+  "sampled_texture_peak_bytes": 56632159,
+  "texture_memory_all_touch_states": {
+    "cast": 56632159,
+    "recast": 56632159,
+    "close": 56632159,
+    "finale": 56632159,
+    "replay": 56632159,
+    "samples_peak": 56632159
+  },
+  "frame_interval_p95_ms_range": [
+    22.403,
+    45.723
+  ],
+  "native_output": [
+    1080,
+    2340
+  ],
+  "touch_stages": [
+    "cast",
+    "recast",
+    "close",
+    "finale",
+    "replay"
+  ],
+  "touch_edges": 10,
+  "complete_json_reads": 32,
+  "incomplete_json_reads": 0,
+  "verified_capture_files": 23,
+  "diagnostics": [],
+  "directly_viewed_originals": [
+    "samples/garden-phone-cell.png",
+    "samples/garden-phone-gate.png",
+    "samples/garden-phone-pavilion.png",
+    "taps/cast/garden-phone-after-touch.png",
+    "taps/recast/garden-phone-after-touch.png",
+    "taps/close/garden-phone-after-touch.png",
+    "taps/finale/garden-phone-after-touch.png",
+    "taps/replay/garden-phone-after-touch.png"
+  ],
+  "visual_observations": [
+    "Cell CRT text and existing muted stage surfaces retain their appearance.",
+    "Gate calligraphy is readable and both recessed color/normal textures load at512x170.",
+    "Pavilion retains slate roof, warm lanterns, wood/bronze and patterned backgrounds.",
+    "Cast/recast/close/finale/replay controls and local-reading text are visible; replay shows both initial actions.",
+    "Existing hard stage/channel rectangles, faceted roofs/foliage, coarse bakes and dark immediate replay remain art work."
+  ],
+  "scope": "Current adopted-source demo andactual native touches on Pixel7ProMaliG710. Frame timingstillfails. Prior isolated fulltour remains comparison evidence; adopted-source full sustainedtour,2020Adreno,finalart,release/services are not accepted."
+}
