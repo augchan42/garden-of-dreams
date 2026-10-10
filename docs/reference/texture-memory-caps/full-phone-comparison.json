@@ -1,0 +1,116 @@
+{
+  "status": "completed_diagnostic",
+  "production_adopted": false,
+  "device": "Pixel 7 Pro",
+  "gpu": "Mali-G710",
+  "target_2020_adreno": false,
+  "apk_sha256": "a44a0b5e17469eed46a859ed84c41df6bed25e68c8b14f25b89df16be0f59d95",
+  "tours": 2,
+  "legs": 52,
+  "rooms": [
+    "terminal_room",
+    "rockery_gate",
+    "qinfang_ting",
+    "qiushuang_zhai",
+    "tubi_tang",
+    "ouxiang_xie",
+    "ziling_zhou",
+    "longcui_an",
+    "hengwu_yuan",
+    "daoxiang_cun",
+    "daguan_lou",
+    "yihong_yuan",
+    "aojing_guan",
+    "xiaoxiang_guan"
+  ],
+  "timed_seconds": 735.79069,
+  "samples": 105,
+  "captures": 53,
+  "complete_json_reads": 456,
+  "incomplete_json_reads": 0,
+  "texture_peak_bytes": 65318147,
+  "baseline_texture_peak_bytes": 71956739,
+  "saved_peak_bytes": 6638592,
+  "margin_to_64_mib_bytes": 1790717,
+  "matched_sample_memory_savings_bytes": [
+    6638592
+  ],
+  "draw_calls_max": 99,
+  "primitives_max": 178601,
+  "practicals_max": 4,
+  "p95_ms_range": [
+    18.643,
+    28.465
+  ],
+  "budget_failures": {
+    "draw_calls": 0,
+    "p95_60fps": 105,
+    "practicals": 0,
+    "primitives": 0,
+    "texture": 0
+  },
+  "supported_floor_rays": 35120,
+  "floor_ray_misses": 0,
+  "diagnostics": [],
+  "actual_device_cap_resources": {
+    "build_sha256": "8ccc4ac9ed5333b6710dd1080ac722a94784f8950b8e9da7afbfacaf949970e1",
+    "device_model": "Pixel 7 Pro",
+    "errors": [],
+    "renderer_device": "Mali-G710",
+    "scope": "Actual Android loaded cap resources before timed frames; no extra scene or lighting changes.",
+    "status": "passed",
+    "textures": {
+      "gate-inscription": {
+        "mipmaps": true,
+        "readback_bytes": 463772,
+        "size": [
+          512,
+          170
+        ],
+        "stored_format": 5,
+        "stored_mip_bytes": 463772
+      },
+      "gate-inscription-normal": {
+        "mipmaps": true,
+        "readback_bytes": 347829,
+        "size": [
+          512,
+          170
+        ],
+        "stored_format": 4,
+        "stored_mip_bytes": 347829
+      },
+      "moon-paint": {
+        "mipmaps": true,
+        "readback_bytes": 1048575,
+        "size": [
+          512,
+          512
+        ],
+        "stored_format": 4,
+        "stored_mip_bytes": 1048575
+      },
+      "pavilion_basecolor": {
+        "mipmaps": true,
+        "readback_bytes": 5592404,
+        "size": [
+          1024,
+          1024
+        ],
+        "stored_format": 30,
+        "stored_mip_bytes": 699064
+      },
+      "wall_basecolor": {
+        "mipmaps": true,
+        "readback_bytes": 5592404,
+        "size": [
+          1024,
+          1024
+        ],
+        "stored_format": 30,
+        "stored_mip_bytes": 699064
+      }
+    }
+  },
+  "scope": "Two full normal-physics tours and at least600timedseconds on Pixel7Pro. No final art,60fps,2020Adreno,release or live service acceptance. Direct image review and separate native touch sequence still required."
+}

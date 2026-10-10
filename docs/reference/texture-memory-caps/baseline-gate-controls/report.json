@@ -1,0 +1,65 @@
+{
+  "capture_only": false,
+  "captures": {
+    "desktop-arrival": {
+      "inscription_rect": [
+        547,
+        51,
+        863,
+        188
+      ],
+      "sha256": "af7c63019912f806c61d13abccab8f2b2db0663d00d86b6d694bf7ccd9f60512"
+    },
+    "desktop-close": {
+      "inscription_rect": [
+        394,
+        206,
+        1016,
+        413
+      ],
+      "sha256": "47f6d864535e72f91e2b0601e1ffee2f7163f70f7c040c4879ea37ce11450609"
+    },
+    "portrait-arrival": {
+      "inscription_rect": [
+        92,
+        260,
+        298,
+        350
+      ],
+      "sha256": "879b6cca4f1b6d47df29c29b979e5605fcda5999e01088cd9e1ba4d609427eea"
+    },
+    "portrait-close": {
+      "inscription_rect": [
+        0,
+        361,
+        390,
+        496
+      ],
+      "sha256": "bef9f6a7d4375667b67d9d07c52ffbc7e91f2aa64db509e93758fb1a76ca9adf"
+    }
+  },
+  "scope": "Actual lossless runtime cap, aligned color/normal dimensions, and fixed-clock desktop/portrait arrival/close captures. Visual comparison is separate; this does not verify later roof bakes or final whole-garden art.",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "textures": [
+    {
+      "image_bytes": 1860508,
+      "image_format": 5,
+      "import_sha256": "f65af507ea98f1ac5be593cd154bff49231f445bb86f939424f8343c4f010e90",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49"
+    },
+    {
+      "image_bytes": 1395381,
+      "image_format": 4,
+      "import_sha256": "b66a1e89c33cb162367c0d07b72a18e8ecc70d737fa10b173f052a6223ee6a96",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32"
+    }
+  ]
+}

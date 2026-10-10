@@ -1,0 +1,7 @@
+{
+  "status": "rejected_verifier_fixture_comparison",
+  "error": "AssertionError: compared desktop production sidecar hashes against mobile staged hashes; pre-existing ETC2 remaps differ for many assets.",
+  "production_vs_staged_import_hash_differences": 328,
+  "correction": "Compare candidate mobile staged imports and parameter sections to the previous mobile baseline; independently verify current production provenance and source PNG identities.",
+  "production_or_apk_changes": false
+}

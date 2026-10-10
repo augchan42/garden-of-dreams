@@ -2,7 +2,9 @@
 
 The measurements below are historical Pixel 7 Pro results for source `90c4f70e`, Android API 36, Mali-G710 and Godot 4.7.2 Compatibility. The repaired PBR comparison with 1024 normal/ORM imports and shared font sizes reaches 62,178,472 bytes (59.3 MiB) through route, reading, finale and replay; see [that material-transfer evidence](pbr-material-transfer.md).
 
-The working Garden now uses source `8d1d9b4e` and two lossless courtyard imports. Its fresh filtered diagnostic APK is prepared at SHA256 `21a3ed66…`, with finalized production/platform texture provenance and verified bound payloads. It is not installed or device-tested. The existing broad installed APK predates the courtyard fix, and the phone-unlock reply is still pending. Do not treat the earlier measurements as current-scene acceptance. Details: `export/courtyard-android-provenance-evidence.json`. Release-build, full-garden, sustained FPS and 2020 Adreno acceptance remain open.
+The current production baseline completed two full fourteen-room tours on 2026-10-10: 52 travel legs, 735.865 timed seconds and zero floor misses. Texture memory peaked at 68.62 MiB and frame-interval P95 was 18.623–28.434 ms, failing both the 64 MiB and 60 fps targets. See the [full phone baseline](reference/full-garden-phone-baseline/README.md).
+
+An isolated candidate caps two basecolor imports at 1024² and the lossless inscription pair at 512×170. It completed the same two tours with a 62.29 MiB peak, saving 6.33 MiB in all 105 matched phases. Separate cast, recast, close, finale and replay taps passed at 54.01 MiB. Frame timing still fails; the caps are not adopted in production. See the [texture cap comparison](reference/texture-memory-caps/README.md). Release, sustained 60 fps and the specified 2020 Adreno hardware remain open.
 
 The tables and original UI measurements below are historical `b4b322c2` results. Later corrected-roof evidence is under `docs/reference/android-roof-current/`; the repaired-renderer comparison is under `docs/reference/pbr-transfer/`. Their source/build hashes keep these separate.
 
