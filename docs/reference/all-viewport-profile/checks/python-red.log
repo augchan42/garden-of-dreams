@@ -1,0 +1,17 @@
+....F.
+======================================================================
+FAIL: test_reflection_work_cannot_hide_behind_root_visible_counts (test_android_full_profile.FullProfileTests.test_reflection_work_cannot_hide_behind_root_visible_counts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_full_profile.py", line 64, in test_reflection_work_cannot_hide_behind_root_visible_counts
+    collector.verify_full_report(report)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py", line 124, in verify_full_report
+    assert report['budget_results'][label] == budgets, 'False full profile budget result'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False full profile budget result
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.452s
+
+FAILED (failures=1)

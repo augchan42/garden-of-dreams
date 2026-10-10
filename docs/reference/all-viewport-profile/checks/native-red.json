@@ -1,0 +1,225 @@
+{
+  "samples": {
+    "capture_disabled": {
+      "budgets": {
+        "draw_calls": true,
+        "p95_60fps": false,
+        "practicals": true,
+        "primitives": true,
+        "texture": true
+      },
+      "global_draws": 1,
+      "global_primitives": 12,
+      "producer": {
+        "active_practicals_max": 0,
+        "frame_costs": {
+          "monitors": {
+            "enabled_viewports_cpu_plus_setup_ms": {
+              "max_ms": 0.391999998092651,
+              "median_ms": 0.271999995350838,
+              "p95_ms": 0.391999998092651,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "frame_setup_cpu_ms": {
+              "max_ms": 0.05,
+              "median_ms": 0.042,
+              "p95_ms": 0.05,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "physics_monitor_ms": {
+              "max_ms": 0.035,
+              "median_ms": 0.035,
+              "p95_ms": 0.035,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "process_monitor_ms": {
+              "max_ms": 81.675,
+              "median_ms": 81.675,
+              "p95_ms": 81.675,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            }
+          },
+          "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+          "viewports": {
+            "/root": {
+              "cpu_ms": {
+                "max_ms": 0.351999998092651,
+                "median_ms": 0.228000000119209,
+                "p95_ms": 0.351999998092651,
+                "positive_samples": 20,
+                "samples": 20,
+                "status": "observed"
+              },
+              "gpu_ms": {
+                "max_ms": 0.0,
+                "median_ms": 0.0,
+                "p95_ms": 0.0,
+                "positive_samples": 0,
+                "samples": 20,
+                "status": "unavailable_all_zero"
+              },
+              "observations": 20,
+              "size": [
+                1410,
+                600
+              ],
+              "update_enabled_observations": 20,
+              "update_modes": {
+                "-1": true
+              }
+            },
+            "/root/@Node3D@2/@SubViewport@4": {
+              "cpu_ms": {
+                "positive_samples": 0,
+                "samples": 0,
+                "status": "not_sampled"
+              },
+              "gpu_ms": {
+                "positive_samples": 0,
+                "samples": 0,
+                "status": "not_sampled"
+              },
+              "observations": 20,
+              "size": [
+                256,
+                256
+              ],
+              "update_enabled_observations": 0,
+              "update_modes": {
+                "0": true
+              }
+            }
+          }
+        },
+        "frame_interval_median_ms": 16.573,
+        "frame_interval_p95_ms": 34.724,
+        "frames": 20,
+        "texture_memory_bytes": 7496003,
+        "visible_draw_calls_max": 1,
+        "visible_primitives_max": 12
+      }
+    },
+    "reflection_draw_over_budget": {
+      "budgets": {
+        "draw_calls": true,
+        "p95_60fps": false,
+        "practicals": true,
+        "primitives": true,
+        "texture": true
+      },
+      "global_draws": 152,
+      "global_primitives": 1824,
+      "producer": {
+        "active_practicals_max": 0,
+        "frame_costs": {
+          "monitors": {
+            "enabled_viewports_cpu_plus_setup_ms": {
+              "max_ms": 5.70100023078918,
+              "median_ms": 1.46100001466274,
+              "p95_ms": 5.70100023078918,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "frame_setup_cpu_ms": {
+              "max_ms": 0.115,
+              "median_ms": 0.043,
+              "p95_ms": 0.115,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "physics_monitor_ms": {
+              "max_ms": 0.044,
+              "median_ms": 0.035,
+              "p95_ms": 0.044,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            },
+            "process_monitor_ms": {
+              "max_ms": 81.675,
+              "median_ms": 81.675,
+              "p95_ms": 81.675,
+              "positive_samples": 20,
+              "samples": 20,
+              "status": "observed"
+            }
+          },
+          "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+          "viewports": {
+            "/root": {
+              "cpu_ms": {
+                "max_ms": 4.54300022125244,
+                "median_ms": 0.158000007271767,
+                "p95_ms": 4.54300022125244,
+                "positive_samples": 20,
+                "samples": 20,
+                "status": "observed"
+              },
+              "gpu_ms": {
+                "max_ms": 0.0,
+                "median_ms": 0.0,
+                "p95_ms": 0.0,
+                "positive_samples": 0,
+                "samples": 20,
+                "status": "unavailable_all_zero"
+              },
+              "observations": 20,
+              "size": [
+                1410,
+                600
+              ],
+              "update_enabled_observations": 20,
+              "update_modes": {
+                "-1": true
+              }
+            },
+            "/root/@Node3D@2/@SubViewport@4": {
+              "cpu_ms": {
+                "max_ms": 1.51800000667572,
+                "median_ms": 1.24500000476837,
+                "p95_ms": 1.51800000667572,
+                "positive_samples": 20,
+                "samples": 20,
+                "status": "observed"
+              },
+              "gpu_ms": {
+                "max_ms": 0.0,
+                "median_ms": 0.0,
+                "p95_ms": 0.0,
+                "positive_samples": 0,
+                "samples": 20,
+                "status": "unavailable_all_zero"
+              },
+              "observations": 20,
+              "size": [
+                256,
+                256
+              ],
+              "update_enabled_observations": 20,
+              "update_modes": {
+                "4": true
+              }
+            }
+          }
+        },
+        "frame_interval_median_ms": 17.022,
+        "frame_interval_p95_ms": 42.684,
+        "frames": 20,
+        "texture_memory_bytes": 7496003,
+        "visible_draw_calls_max": 1,
+        "visible_primitives_max": 12
+      }
+    }
+  },
+  "scope": "Native synthetic two-viewport control of the actual full-phone producer; no phone or garden-performance acceptance."
+}
