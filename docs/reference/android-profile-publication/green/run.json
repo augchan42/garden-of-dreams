@@ -1,0 +1,22 @@
+{
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-report-publication-8tn6_qgl",
+  "application_name": "Garden Report Publication Regression 425609e269d142c4ad898f32f85b6dc0",
+  "source_sha256": {
+    "profile_android.gd": "f3587ba9535cff623a7aee45ee93850036f00150726baeb33a2a0d21819d3a28",
+    "texture_binding_inventory.gd": "7b07a223d0e7792cc70c9acd8618bf3e450b885427c874e716faa3910e3ffdfd",
+    "test_profile_report_publication.gd": "5ffc1e75721e5ebd9eb22d16acebcd2e0e3dcbb4f173811ea2b6c8be789f039a",
+    "profile_report_store.gd": "39d843c7e7ebd3a119d5bf3d20f429d29ae767a4acb4b1b2100f42c461e7f441"
+  },
+  "exit_code": 0,
+  "engine_diagnostics": [],
+  "report": {
+    "concurrent_reads": 15,
+    "errors": [],
+    "generations": 32,
+    "incomplete_publications": 0,
+    "scope": "Actual dedicated profiler save_report producer versus concurrent complete-file JSON reader; isolated app data, no game scene or phone performance claim.",
+    "status": "passed",
+    "user_data_dir": "/Users/auchan/Library/Application Support/Godot/app_userdata/Garden Report Publication Regression 425609e269d142c4ad898f32f85b6dc0",
+    "wall_ms": 227
+  }
+}
