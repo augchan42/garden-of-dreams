@@ -1,0 +1,349 @@
+{
+  "pairs": [
+    {
+      "size": 223,
+      "file": "emission-adapted.png",
+      "rmse": 0.0028848409706307573,
+      "maximum_channel_difference": 0.03137254901960784,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 223,
+      "file": "emission-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 223,
+      "file": "emission-native.png",
+      "rmse": 0.0028848409706307573,
+      "maximum_channel_difference": 0.03137254901960784,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 223,
+      "file": "graded-adapted.png",
+      "rmse": 0.0032263686664736183,
+      "maximum_channel_difference": 0.04313725490196074,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 223,
+      "file": "graded-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 223,
+      "file": "graded-native.png",
+      "rmse": 0.0032263686664736183,
+      "maximum_channel_difference": 0.04313725490196074,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 223,
+      "file": "key-adapted.png",
+      "rmse": 0.0035286085091521847,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 223,
+      "file": "key-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 223,
+      "file": "key-native.png",
+      "rmse": 0.0035286085091521847,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "emission-adapted.png",
+      "rmse": 0.003523040095258577,
+      "maximum_channel_difference": 0.03529411764705881,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "emission-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 253,
+      "file": "emission-native.png",
+      "rmse": 0.003523040095258577,
+      "maximum_channel_difference": 0.03529411764705881,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "graded-adapted.png",
+      "rmse": 0.003936062625036556,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "graded-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 253,
+      "file": "graded-native.png",
+      "rmse": 0.003936062625036556,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "key-adapted.png",
+      "rmse": 0.0043429412002852705,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    },
+    {
+      "size": 253,
+      "file": "key-missing-paint.png",
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "missing_control_pixel_identical": true
+    },
+    {
+      "size": 253,
+      "file": "key-native.png",
+      "rmse": 0.0043429412002852705,
+      "maximum_channel_difference": 0.0431372549019608,
+      "missing_control_pixel_identical": null
+    }
+  ],
+  "prior_review_reproduction": [
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "emission-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "emission-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "emission-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "graded-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "graded-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "graded-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "key-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "key-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "baseline",
+      "file": "key-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "emission-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "emission-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "emission-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "graded-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "graded-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "graded-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "key-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "key-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 223,
+      "version": "candidate",
+      "file": "key-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "emission-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "emission-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "emission-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "graded-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "graded-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "graded-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "key-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "key-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "baseline",
+      "file": "key-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "emission-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "emission-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "emission-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "graded-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "graded-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "graded-native.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "key-adapted.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "key-missing-paint.png",
+      "byte_identical": true
+    },
+    {
+      "size": 253,
+      "version": "candidate",
+      "file": "key-native.png",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Actual native/adapter/missing-paint controls. Reduction changes paint sampling; original painting remains unchanged. No arbitrary resolution-change tolerance imposed."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Measured allocation in five demo samples and five actual touch states; not fullgarden/sustained/fps/olderhardware acceptance.",
+  "limit_bytes": 67108864,
+  "allocations": {
+    "cell": 61693795,
+    "cell_to_gate": 63266659,
+    "gate": 63266659,
+    "gate_to_pavilion": 63270751,
+    "pavilion": 63270751,
+    "native-taps/cast": 63270751,
+    "native-taps/recast": 63270751,
+    "native-taps/close": 63270751,
+    "native-taps/finale": 63270751,
+    "native-taps/replay": 63270751
+  },
+  "failures": {},
+  "apk_sha256": "51caed2575aeb5775fd9c7b6bb8592d7c454c3eca8adeae3367b25d9bbf1a693",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f"
+}
