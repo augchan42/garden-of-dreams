@@ -1,0 +1,65 @@
+{
+ "camera_position": "(6.0, 6.98, 20.0)",
+ "cases": {
+  "baseline": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14"
+  },
+  "baseline-repeat": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14"
+  },
+  "cyclorama-no-ordinary": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14"
+  },
+  "cyclorama-no-paint": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "7800982e6d9ae678011202d976772b036722abb85657f9aabf879c3c00617f8a"
+  },
+  "cyclorama-no-wash": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "60f6cf0870a196f4ee688016d42e472682baf2e5912486db93b0fbf918c319ca"
+  },
+  "no-moon": {
+   "dimensions": [
+    390,
+    844
+   ],
+   "image_sha256": "e80e6a27a07eb3b809285a945e4017157b867c63afa62ee74c73a392dd7b1960"
+  }
+ },
+ "mesh_surfaces": 2,
+ "parameters": {
+  "base_color": "(0.6, 0.6, 0.6, 1.0)",
+  "emission_energy": "1.0",
+  "material_emission": "(0.0, 0.0, 0.0, 1.0)",
+  "use_albedo_texture": "true",
+  "use_backdrop_wash": "true",
+  "use_emission_texture": "<null>",
+  "use_lightmap": "false"
+ },
+ "route_sha256": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87",
+ "scope": "Isolated production clone; settled arrival, one backdrop variable per case. No production edits.",
+ "source_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+ "wash_loaded_format": 4,
+ "wash_loaded_size": [
+  256,
+  256
+ ]
+}

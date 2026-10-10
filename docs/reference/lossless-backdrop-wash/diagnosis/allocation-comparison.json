@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scope": "Same-current-source isolated native graphics comparison. Texture allocation only; no Android, sustained frame-rate or final-art acceptance.",
+  "bound_textures": 178,
+  "only_changed_texture": [
+    "res://lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png"
+  ],
+  "baseline_texture_memory_bytes": 40639154,
+  "candidate_texture_memory_bytes": 40857593,
+  "native_renderer_delta_bytes": 218439,
+  "baseline_bound_image_data_bytes": 24647511,
+  "candidate_bound_image_data_bytes": 24811351,
+  "storage_delta_bytes": 163840
+}

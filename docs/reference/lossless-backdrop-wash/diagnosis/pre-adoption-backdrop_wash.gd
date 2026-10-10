@@ -88,11 +88,6 @@ static func apply_baked(garden:Node3D) -> int:
   if texture==null or record.get("pass_filter",[])!=["DIRECT"]:
    push_error("Invalid native backdrop wash map: "+name)
    return -1
-  # VRAM compression introduces blocks in this low-intensity sky wash.
-  # Check the loaded resource so a stale cache cannot pass via its sidecar.
-  if name==BASE_RECEIVERS[0] and (not texture is CompressedTexture2D or texture.get_width()!=256 or texture.get_height()!=256 or texture.get_format()!=Image.FORMAT_RGB8):
-   push_error("Cyclorama wash requires the reviewed lossless256 RGB resource")
-   return -1
   receivers[name]=node
   var back=load("res://lightmaps/"+record.sides.back.texture) as Texture2D if record.double_sided else texture
   if back==null:return -1
