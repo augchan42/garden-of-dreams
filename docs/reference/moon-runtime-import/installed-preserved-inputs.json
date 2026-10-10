@@ -1,0 +1,11 @@
+{
+  "status": "verified_against_prior_pinned_sources",
+  "files": {
+    "blender/authoring.blend": "0f93c42421a17b85b297fa0ff5447fad95cb7b98afeff183a2282ffe060492a4",
+    "blender/master.blend": "6c3e603002b78654cdd4efebdd8ef7650be386f915a77c5aa6138745b1b0653b",
+    "godot/assets/garden-of-dreams.glb": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+    "godot/assets/garden-of-dreams_moon-paint.png": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f",
+    "godot/runtime/entry_route.gd": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87"
+  },
+  "inventory_attempts": "Initial nonexistent source path, then wrong master/authoring digest association stopped inventory before writing report. Backup copies had succeeded. Corrected observed paths verified against saved-source JSON; no Blender/GLB/PNG/runtime source write occurred."
+}

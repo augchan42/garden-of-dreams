@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: MOON_RUNTIME_IMPORT_REJECTED ["Loaded moon exceeds the reviewed 512px footprint","Moon mip allocation exceeds the 512px RGBA budget"]
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_moon_runtime_import.gd:42)
