@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "mode": "tours",
+  "runtime_sha256": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "tour-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-desktop",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-desktop/report.json"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-desktop.log",
+      "status": "passed",
+      "pid": 25935,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "name": "tour-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-portrait",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-portrait/report.json",
+        "--portrait"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/tour-portrait.log",
+      "status": "passed",
+      "pid": 65302,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    }
+  ]
+}
