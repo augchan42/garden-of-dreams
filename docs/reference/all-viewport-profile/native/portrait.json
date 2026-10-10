@@ -1,0 +1,1499 @@
+{
+  "budget_results": {
+    "aojing_guan": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "daguan_lou": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "daoxiang_cun": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "hengwu_yuan": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "longcui_an": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "ouxiang_xie": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "qinfang_ting": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "qiushuang_zhai": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "rockery_gate": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "terminal_room": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "tubi_tang": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "xiaoxiang_guan": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "yihong_yuan": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "ziling_zhou": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    }
+  },
+  "device": "Apple M2 Max",
+  "producer_sha256": "8ad91f2efe38ec4e1b5d5b48bf30ca642a1f9a3e112560b39267657a39ec1553",
+  "render_budget_scope": "engine_global_all_viewports",
+  "samples": {
+    "aojing_guan": {
+      "active_practicals_max": 2,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 3.50900004410744,
+            "median_ms": 1.71999995017052,
+            "p95_ms": 3.16300010967255,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.033,
+            "median_ms": 0.024,
+            "p95_ms": 0.032,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 2.653,
+            "median_ms": 0.463,
+            "p95_ms": 2.653,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 195.828,
+            "median_ms": 195.828,
+            "p95_ms": 195.828,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 3.06200003623962,
+              "median_ms": 1.19400000572205,
+              "p95_ms": 1.60599994659424,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "max_ms": 2.00500011444092,
+              "median_ms": 0.469999998807907,
+              "p95_ms": 1.38199996948242,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              354,
+              768
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "4": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.651,
+      "frame_interval_p95_ms": 18.499,
+      "frames": 30,
+      "global_draw_calls_max": 79,
+      "global_primitives_max": 97639,
+      "texture_memory_bytes": 34131389,
+      "visible_draw_calls_max": 51,
+      "visible_primitives_max": 90031
+    },
+    "daguan_lou": {
+      "active_practicals_max": 0,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.98899994468689,
+            "median_ms": 1.36799998664856,
+            "p95_ms": 1.67900002288818,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.031,
+            "median_ms": 0.026,
+            "p95_ms": 0.03,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 2.648,
+            "median_ms": 0.501,
+            "p95_ms": 2.648,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 9.29,
+            "median_ms": 0.559,
+            "p95_ms": 9.29,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.95799994468689,
+              "median_ms": 1.33899998664856,
+              "p95_ms": 1.65100002288818,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              354,
+              768
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.723,
+      "frame_interval_p95_ms": 20.374,
+      "frames": 30,
+      "global_draw_calls_max": 49,
+      "global_primitives_max": 80699,
+      "texture_memory_bytes": 34131389,
+      "visible_draw_calls_max": 35,
+      "visible_primitives_max": 79797
+    },
+    "daoxiang_cun": {
+      "active_practicals_max": 1,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.70600002002716,
+            "median_ms": 1.22100005245209,
+            "p95_ms": 1.47300002670288,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.034,
+            "median_ms": 0.026,
+            "p95_ms": 0.031,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.605,
+            "median_ms": 0.569,
+            "p95_ms": 0.605,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 7.244,
+            "median_ms": 7.244,
+            "p95_ms": 7.244,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.67900002002716,
+              "median_ms": 1.19500005245209,
+              "p95_ms": 1.44700002670288,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.505,
+      "frame_interval_p95_ms": 18.407,
+      "frames": 30,
+      "global_draw_calls_max": 39,
+      "global_primitives_max": 60993,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 21,
+      "visible_primitives_max": 59919
+    },
+    "hengwu_yuan": {
+      "active_practicals_max": 1,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 3.19399993133545,
+            "median_ms": 2.09399994277954,
+            "p95_ms": 3.14599990653992,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.035,
+            "median_ms": 0.023,
+            "p95_ms": 0.034,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.423,
+            "median_ms": 0.423,
+            "p95_ms": 0.423,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 9.348,
+            "median_ms": 9.348,
+            "p95_ms": 9.348,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 3.17199993133545,
+              "median_ms": 2.05999994277954,
+              "p95_ms": 3.12299990653992,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.779,
+      "frame_interval_p95_ms": 32.765,
+      "frames": 30,
+      "global_draw_calls_max": 114,
+      "global_primitives_max": 124227,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 94,
+      "visible_primitives_max": 123049
+    },
+    "longcui_an": {
+      "active_practicals_max": 3,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 2.46700000572205,
+            "median_ms": 1.06200004673004,
+            "p95_ms": 1.83399994277954,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.061,
+            "median_ms": 0.023,
+            "p95_ms": 0.027,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.545,
+            "median_ms": 0.545,
+            "p95_ms": 0.545,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 11.794,
+            "median_ms": 11.794,
+            "p95_ms": 11.794,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 2.44400000572205,
+              "median_ms": 1.03900003433228,
+              "p95_ms": 1.80999994277954,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              354,
+              768
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.683,
+      "frame_interval_p95_ms": 19.741,
+      "frames": 30,
+      "global_draw_calls_max": 38,
+      "global_primitives_max": 54605,
+      "texture_memory_bytes": 34131389,
+      "visible_draw_calls_max": 22,
+      "visible_primitives_max": 53581
+    },
+    "ouxiang_xie": {
+      "active_practicals_max": 2,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.29100005340576,
+            "median_ms": 1.04500003242493,
+            "p95_ms": 1.25099997234344,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.031,
+            "median_ms": 0.022,
+            "p95_ms": 0.029,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.413,
+            "median_ms": 0.413,
+            "p95_ms": 0.413,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 12.246,
+            "median_ms": 12.246,
+            "p95_ms": 12.246,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.26900005340576,
+              "median_ms": 1.01600003242493,
+              "p95_ms": 1.22899997234344,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.656,
+      "frame_interval_p95_ms": 18.911,
+      "frames": 30,
+      "global_draw_calls_max": 65,
+      "global_primitives_max": 96849,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 47,
+      "visible_primitives_max": 95751
+    },
+    "qinfang_ting": {
+      "active_practicals_max": 4,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.92299995040894,
+            "median_ms": 1.40000002098083,
+            "p95_ms": 1.92000000190735,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.026,
+            "median_ms": 0.022,
+            "p95_ms": 0.026,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.583,
+            "median_ms": 0.583,
+            "p95_ms": 0.583,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 17.155,
+            "median_ms": 15.314,
+            "p95_ms": 15.314,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.90199995040894,
+              "median_ms": 1.37800002098083,
+              "p95_ms": 1.89800000190735,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.691,
+      "frame_interval_p95_ms": 17.613,
+      "frames": 30,
+      "global_draw_calls_max": 74,
+      "global_primitives_max": 107591,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 48,
+      "visible_primitives_max": 106037
+    },
+    "qiushuang_zhai": {
+      "active_practicals_max": 2,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.34100003147125,
+            "median_ms": 1.05399999237061,
+            "p95_ms": 1.29500000190735,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.027,
+            "median_ms": 0.022,
+            "p95_ms": 0.025,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.438,
+            "median_ms": 0.438,
+            "p95_ms": 0.438,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 10.216,
+            "median_ms": 10.216,
+            "p95_ms": 10.216,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.31700003147125,
+              "median_ms": 1.03299999237061,
+              "p95_ms": 1.27300000190735,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.645,
+      "frame_interval_p95_ms": 17.862,
+      "frames": 30,
+      "global_draw_calls_max": 53,
+      "global_primitives_max": 80581,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 33,
+      "visible_primitives_max": 79395
+    },
+    "rockery_gate": {
+      "active_practicals_max": 3,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 2.08399996376038,
+            "median_ms": 1.71899995422363,
+            "p95_ms": 2.05700010681152,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.024,
+            "median_ms": 0.021,
+            "p95_ms": 0.024,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.539,
+            "median_ms": 0.539,
+            "p95_ms": 0.539,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 19.571,
+            "median_ms": 19.571,
+            "p95_ms": 19.571,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 2.06299996376038,
+              "median_ms": 1.69799995422363,
+              "p95_ms": 2.03800010681152,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.767,
+      "frame_interval_p95_ms": 22.146,
+      "frames": 30,
+      "global_draw_calls_max": 113,
+      "global_primitives_max": 149319,
+      "texture_memory_bytes": 34005099,
+      "visible_draw_calls_max": 99,
+      "visible_primitives_max": 148495
+    },
+    "terminal_room": {
+      "active_practicals_max": 2,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.83600003623962,
+            "median_ms": 1.46199996376038,
+            "p95_ms": 1.76000003528595,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.025,
+            "median_ms": 0.022,
+            "p95_ms": 0.025,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.481,
+            "median_ms": 0.481,
+            "p95_ms": 0.481,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 19.423,
+            "median_ms": 19.423,
+            "p95_ms": 19.423,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.81200003623962,
+              "median_ms": 1.43799996376038,
+              "p95_ms": 1.73800003528595,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.48,
+      "frame_interval_p95_ms": 19.057,
+      "frames": 30,
+      "global_draw_calls_max": 87,
+      "global_primitives_max": 147511,
+      "texture_memory_bytes": 33874027,
+      "visible_draw_calls_max": 74,
+      "visible_primitives_max": 146689
+    },
+    "tubi_tang": {
+      "active_practicals_max": 1,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.10199999141693,
+            "median_ms": 0.881999975681305,
+            "p95_ms": 1.08700005245209,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.028,
+            "median_ms": 0.02,
+            "p95_ms": 0.023,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.485,
+            "median_ms": 0.485,
+            "p95_ms": 0.485,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 17.178,
+            "median_ms": 17.178,
+            "p95_ms": 17.178,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.08399999141693,
+              "median_ms": 0.862999975681305,
+              "p95_ms": 1.07000005245209,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.836,
+      "frame_interval_p95_ms": 18.322,
+      "frames": 30,
+      "global_draw_calls_max": 51,
+      "global_primitives_max": 86309,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 35,
+      "visible_primitives_max": 85319
+    },
+    "xiaoxiang_guan": {
+      "active_practicals_max": 2,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 2.85400008964539,
+            "median_ms": 1.44399995708466,
+            "p95_ms": 2.0939999332428,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.051,
+            "median_ms": 0.024,
+            "p95_ms": 0.031,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 1.048,
+            "median_ms": 1.048,
+            "p95_ms": 1.048,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 0.133,
+            "median_ms": 0.133,
+            "p95_ms": 0.133,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 2.83100008964539,
+              "median_ms": 1.4210000038147,
+              "p95_ms": 2.0699999332428,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              354,
+              768
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.632,
+      "frame_interval_p95_ms": 19.84,
+      "frames": 30,
+      "global_draw_calls_max": 72,
+      "global_primitives_max": 86347,
+      "texture_memory_bytes": 34131389,
+      "visible_draw_calls_max": 56,
+      "visible_primitives_max": 85365
+    },
+    "yihong_yuan": {
+      "active_practicals_max": 1,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 3.35999999547005,
+            "median_ms": 1.39800000405312,
+            "p95_ms": 1.95100005054474,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.037,
+            "median_ms": 0.025,
+            "p95_ms": 0.029,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.705,
+            "median_ms": 0.705,
+            "p95_ms": 0.705,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 10.995,
+            "median_ms": 10.995,
+            "p95_ms": 10.995,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 3.00999999046326,
+              "median_ms": 0.998000025749207,
+              "p95_ms": 1.44700002670288,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "max_ms": 0.688000023365021,
+              "median_ms": 0.382999986410141,
+              "p95_ms": 0.623000025749207,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              354,
+              768
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "4": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.754,
+      "frame_interval_p95_ms": 19.187,
+      "frames": 30,
+      "global_draw_calls_max": 49,
+      "global_primitives_max": 62601,
+      "texture_memory_bytes": 34131389,
+      "visible_draw_calls_max": 24,
+      "visible_primitives_max": 57523
+    },
+    "ziling_zhou": {
+      "active_practicals_max": 1,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 1.78200005817413,
+            "median_ms": 1.42600002288818,
+            "p95_ms": 1.74500002384186,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.039,
+            "median_ms": 0.022,
+            "p95_ms": 0.035,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 0.454,
+            "median_ms": 0.433,
+            "p95_ms": 0.454,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 17.113,
+            "median_ms": 17.113,
+            "p95_ms": 17.113,
+            "positive_samples": 30,
+            "samples": 30,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 1.76400005817413,
+              "median_ms": 1.40100002288818,
+              "p95_ms": 1.72500002384186,
+              "positive_samples": 30,
+              "samples": 30,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 30,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 30,
+            "size": [
+              390,
+              844
+            ],
+            "update_enabled_observations": 30,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 30,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.612,
+      "frame_interval_p95_ms": 18.297,
+      "frames": 30,
+      "global_draw_calls_max": 109,
+      "global_primitives_max": 147647,
+      "texture_memory_bytes": 33965501,
+      "visible_draw_calls_max": 95,
+      "visible_primitives_max": 146797
+    }
+  },
+  "scope": "Native stationary fourteen-room arrivals using the actual full-phone producer. Explicit draw scheduling; frame intervals are diagnostic only. Not continuous traversal, phone, sustained, release or final-art acceptance.",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "status": "native-diagnostic",
+  "timed_seconds": 6.810839,
+  "viewport": [
+    390,
+    844
+  ]
+}

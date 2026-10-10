@@ -203,3 +203,15 @@ Six source phases regenerate 141 lighting PNGs. The 45-phase native review has 4
 Twenty-two installed checks pass. All 85 installed camera/floor/arrival originals reproduce the reviewed files exactly. The first installation also passed all 22 native checks, then rolled back all 29 targets after a report-field comparison error; its 85 originals match independently. The corrected helper reads actual PNG dimensions. Failed source, native and installation attempts are retained in the evidence archive.
 
 This closes the duplicate paving defect. Hengwu's arrival view is next: show its table and pierced stones while preserving the accepted detail actions. Final fourteen-site art, five missing references (37/42), current phones, 2020 Adreno and sustained budgets, release and authenticated reading/history/AI/presence/social remain open. Evidence: [paving checks and originals](../../reference/paving-surface-joins/README.md). The full goal remains active.
+
+
+## Engine-wide frame-budget correction — 2026-10-10
+
+The full-phone producer and collector now gate draws/primitives on actual engine-wide per-frame counters, including the pond capture, while retaining main-view visible counts as diagnostics. Native controls exposed and now reject reflection-only overruns; disabling the capture again resets the sample, and a UI rectangle establishes the observed renderer scope. All 26 Python tests and four native regression programs pass. All 28 stationary native arrival samples are retained: desktop terminal 160 and gate 155 exceed the 150-draw limit; portrait arrivals and all primitive totals pass their respective limits. These are static counter diagnostics, not sustained or physical-phone acceptance.
+
+The fresh full debug APK is `6bb60f68` (86,531,491 bytes), with four clean build phases and offline provenance/package checks. It remains uninstalled pending phone availability; earlier 735bf87b and 9dde9d29 packages are historical for the current collector. Continue current-source phone profiling, failed desktop draw budgets and final per-site art. Final art, five exact references (37/42), 2020 Adreno, sustained budgets, release and authenticated services remain open. See [counter evidence](../../reference/all-viewport-profile/README.md).
+
+
+## Isolated exact structural culling candidate — 2026-10-10
+
+Five actual opaque cell/gate meshes yield desktop terminal160→46 and gate155→77 global draws; portrait87→41 and113→29. All28fixed-clock stationary arrival cases retain identical decoded pixels across off/on/off-repeat captures, with verified actual render-frame progress. Every tracked Godot file remains unchanged; this is a candidate, and the current6bbAPK has no culling optimization. Travel/reveal/detail cameras, actual producer counters and CPU cost must pass before adoption. See [candidate evidence](../../reference/exact-structural-occlusion/README.md). Android/sustained/final-art/full-goal acceptance remains pending.
