@@ -1,0 +1,2221 @@
+{
+  "arrival_signals": [
+    "rockery_gate",
+    "qinfang_ting",
+    "rockery_gate",
+    "terminal_room"
+  ],
+  "cases": {
+    "leg-0-arrival": {
+      "aspect": 1,
+      "camera": "Transform3D(1, 0, 0, 0, 0.99997216, -0.007462471, 0, 0.007462471, 0.99997216, 0, 1.85, 35.7)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+          "occlusion_active": false,
+          "pixel_sha256": "a755ef6aeb79549851bcda5ec824bb20cccf546f69c43fcf1853061a79c595bf",
+          "primitives": 165311
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+          "occlusion_active": false,
+          "pixel_sha256": "a755ef6aeb79549851bcda5ec824bb20cccf546f69c43fcf1853061a79c595bf",
+          "primitives": 165311
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 77,
+          "file_sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+          "occlusion_active": true,
+          "pixel_sha256": "a755ef6aeb79549851bcda5ec824bb20cccf546f69c43fcf1853061a79c595bf",
+          "primitives": 85201
+        }
+      },
+      "fov": 55.0,
+      "kind": "settled_arrival",
+      "player": "Vector3(0.024104856, -0.004216648, 32.610836)",
+      "room": "rockery_gate"
+    },
+    "leg-0-frame-120": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.012151582, 0.09527872, -0.99537647, 0, 0.99544996, 0.09528575, 0.99992615, 0.0011578726, -0.012096292, 0.6032882, 1.5446795, 39.158947)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "6eca999fe58385bbd002369212bfa63957d0aeba2362ab54fcd937af87d8c813",
+          "occlusion_active": false,
+          "pixel_sha256": "ba8d6f02b35eb2887ed35baa18bee2568d160d7dcb92f3d24ed2fa915ef9ce3f",
+          "primitives": 95731
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "6eca999fe58385bbd002369212bfa63957d0aeba2362ab54fcd937af87d8c813",
+          "occlusion_active": false,
+          "pixel_sha256": "ba8d6f02b35eb2887ed35baa18bee2568d160d7dcb92f3d24ed2fa915ef9ce3f",
+          "primitives": 95731
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 41,
+          "file_sha256": "6eca999fe58385bbd002369212bfa63957d0aeba2362ab54fcd937af87d8c813",
+          "occlusion_active": true,
+          "pixel_sha256": "ba8d6f02b35eb2887ed35baa18bee2568d160d7dcb92f3d24ed2fa915ef9ce3f",
+          "primitives": 92889
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(2.2997591, -0.005336248, 39.181046)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-150": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.011492281, 0.095199436, -0.99539185, 0, 0.9954576, 0.095205724, 0.99993396, 0.0010941309, -0.011440079, 1.800222, 1.5446658, 39.175)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 48,
+          "file_sha256": "baa4d15b61c6b968bbdc0479325035062f22c932d644983d78287899d81aa6f8",
+          "occlusion_active": false,
+          "pixel_sha256": "2362a44ca9a86a4887fa534025cc55883be172beb29c50778d667bbab8fbbf53",
+          "primitives": 95675
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 48,
+          "file_sha256": "baa4d15b61c6b968bbdc0479325035062f22c932d644983d78287899d81aa6f8",
+          "occlusion_active": false,
+          "pixel_sha256": "2362a44ca9a86a4887fa534025cc55883be172beb29c50778d667bbab8fbbf53",
+          "primitives": 95675
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 41,
+          "file_sha256": "baa4d15b61c6b968bbdc0479325035062f22c932d644983d78287899d81aa6f8",
+          "occlusion_active": true,
+          "pixel_sha256": "2362a44ca9a86a4887fa534025cc55883be172beb29c50778d667bbab8fbbf53",
+          "primitives": 92889
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(3.4996793, -0.005336248, 39.19472)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-180": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.01140884, 0.09518949, -0.9953938, 0, 0.9954586, 0.09519569, 0.9999349, 0.0010860724, -0.011357028, 2.9997668, 1.5446645, 39.188976)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 46,
+          "file_sha256": "13bfa0966a3e3f212c3c6a78d1802c86d648a968da8037e29198c9f755fa1507",
+          "occlusion_active": false,
+          "pixel_sha256": "7ee96963833a98e33a8e242f5fd82b6dc053a69332a129ced9663b955ec39908",
+          "primitives": 87091
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 46,
+          "file_sha256": "13bfa0966a3e3f212c3c6a78d1802c86d648a968da8037e29198c9f755fa1507",
+          "occlusion_active": false,
+          "pixel_sha256": "7ee96963833a98e33a8e242f5fd82b6dc053a69332a129ced9663b955ec39908",
+          "primitives": 87091
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 39,
+          "file_sha256": "13bfa0966a3e3f212c3c6a78d1802c86d648a968da8037e29198c9f755fa1507",
+          "occlusion_active": true,
+          "pixel_sha256": "7ee96963833a98e33a8e242f5fd82b6dc053a69332a129ced9663b955ec39908",
+          "primitives": 84305
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(4.6996036, -0.005336248, 39.208397)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-210": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.011396205, 0.095188305, -0.9953941, 0, 0.9954587, 0.09519448, 0.9999351, 0.0010848559, -0.011344451, 4.1996465, 1.5446645, 39.202698)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 45,
+          "file_sha256": "8e535db01a488b3d6e8c1f806bc29368d1266dcd21770d3dbde6e00afb330337",
+          "occlusion_active": false,
+          "pixel_sha256": "e1f1e06a17c671dc729d440912ee058319503f692f028ac04a7894bb4566ad1b",
+          "primitives": 86770
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 45,
+          "file_sha256": "8e535db01a488b3d6e8c1f806bc29368d1266dcd21770d3dbde6e00afb330337",
+          "occlusion_active": false,
+          "pixel_sha256": "e1f1e06a17c671dc729d440912ee058319503f692f028ac04a7894bb4566ad1b",
+          "primitives": 86770
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 38,
+          "file_sha256": "8e535db01a488b3d6e8c1f806bc29368d1266dcd21770d3dbde6e00afb330337",
+          "occlusion_active": true,
+          "pixel_sha256": "e1f1e06a17c671dc729d440912ee058319503f692f028ac04a7894bb4566ad1b",
+          "primitives": 83984
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(5.899531, -0.005336248, 39.222073)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-240": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.011396205, 0.09518818, -0.9953941, 0, 0.9954587, 0.095194355, 0.9999351, 0.0010848544, -0.011344451, 5.399569, 1.5446645, 39.216373)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 42,
+          "file_sha256": "7219bba72f8b0f6365ba5ca2b6e88994ff744d2625e4b6e8d273bcdadb55a822",
+          "occlusion_active": false,
+          "pixel_sha256": "e020c4694d3699914a10596ee346e1a6ab4d3f88cb06800762272fbca019cbf6",
+          "primitives": 76774
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 42,
+          "file_sha256": "7219bba72f8b0f6365ba5ca2b6e88994ff744d2625e4b6e8d273bcdadb55a822",
+          "occlusion_active": false,
+          "pixel_sha256": "e020c4694d3699914a10596ee346e1a6ab4d3f88cb06800762272fbca019cbf6",
+          "primitives": 76774
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 36,
+          "file_sha256": "7219bba72f8b0f6365ba5ca2b6e88994ff744d2625e4b6e8d273bcdadb55a822",
+          "occlusion_active": true,
+          "pixel_sha256": "e020c4694d3699914a10596ee346e1a6ab4d3f88cb06800762272fbca019cbf6",
+          "primitives": 74000
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(7.099458, -0.005336248, 39.23575)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-270": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7859546, 0.08203133, -0.61281824, 0, 0.9911595, 0.13267578, 0.61828417, -0.10427714, 0.77900636, 6.671753, 1.5446645, 39.304207)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 101,
+          "file_sha256": "27ad471cbbf7a556d14bd068a979940dd5995762b35ee4a6ff11aa15df8ce442",
+          "occlusion_active": false,
+          "pixel_sha256": "8b947a2396c982f5cae92df00587213905063220d5b483c307ac6e45c6b809b5",
+          "primitives": 138899
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 101,
+          "file_sha256": "27ad471cbbf7a556d14bd068a979940dd5995762b35ee4a6ff11aa15df8ce442",
+          "occlusion_active": false,
+          "pixel_sha256": "8b947a2396c982f5cae92df00587213905063220d5b483c307ac6e45c6b809b5",
+          "primitives": 138899
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 74,
+          "file_sha256": "27ad471cbbf7a556d14bd068a979940dd5995762b35ee4a6ff11aa15df8ce442",
+          "occlusion_active": true,
+          "pixel_sha256": "8b947a2396c982f5cae92df00587213905063220d5b483c307ac6e45c6b809b5",
+          "primitives": 121639
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.259955, -0.005336248, 39.20897)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-30": {
+      "aspect": 1,
+      "camera": "Transform3D(-1, -1.612384e-08, 1.5013245e-07, 0, 0.9942823, 0.10678336, -1.509958e-07, 0.10678336, -0.9942823, -1.3, 1.5525928, 37.767178)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "b87897d685bd1d15e986d2a09752d37d8d4081262ede3e115d8990f810e18ec4",
+          "occlusion_active": false,
+          "pixel_sha256": "7b1dfce41a62868cd940c856e22cb7a438ee2b9687cb36ff39b9fc41fe0411b7",
+          "primitives": 27820
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "b87897d685bd1d15e986d2a09752d37d8d4081262ede3e115d8990f810e18ec4",
+          "occlusion_active": false,
+          "pixel_sha256": "7b1dfce41a62868cd940c856e22cb7a438ee2b9687cb36ff39b9fc41fe0411b7",
+          "primitives": 27820
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "b87897d685bd1d15e986d2a09752d37d8d4081262ede3e115d8990f810e18ec4",
+          "occlusion_active": true,
+          "pixel_sha256": "7b1dfce41a62868cd940c856e22cb7a438ee2b9687cb36ff39b9fc41fe0411b7",
+          "primitives": 27820
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-1.3, -0.005336248, 39.13993)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-300": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9973869, 0.0072458214, -0.071881235, 0, 0.9949578, 0.10029442, 0.07224551, -0.10003234, 0.99235785, 8.055361, 1.5451821, 39.50637)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "60786d28868c38767cb410e1eeea28a6e249a485d84d0320379bcc90c07f7693",
+          "occlusion_active": false,
+          "pixel_sha256": "a1f733323be97454232c2909060ddaad369e695879239e23f9133546fa251774",
+          "primitives": 195481
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "60786d28868c38767cb410e1eeea28a6e249a485d84d0320379bcc90c07f7693",
+          "occlusion_active": false,
+          "pixel_sha256": "a1f733323be97454232c2909060ddaad369e695879239e23f9133546fa251774",
+          "primitives": 195481
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 90,
+          "file_sha256": "60786d28868c38767cb410e1eeea28a6e249a485d84d0320379bcc90c07f7693",
+          "occlusion_active": true,
+          "pixel_sha256": "a1f733323be97454232c2909060ddaad369e695879239e23f9133546fa251774",
+          "primitives": 137879
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.277351, -0.004216648, 38.009056)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-330": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9997698, 0.0020559118, -0.021356205, 0, 0.9953982, 0.09582465, 0.021454936, -0.09580259, 0.9951691, 8.245188, 1.5457075, 38.48342)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 159,
+          "file_sha256": "636b0f3455637c8e971e2cda2662d725b16c66f8d95dc6fa38f97aff972cf729",
+          "occlusion_active": false,
+          "pixel_sha256": "d390ac7f4034706b55bfd76dad55186c9f173ae034867f59a91b0e0eaaa177eb",
+          "primitives": 198543
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 159,
+          "file_sha256": "636b0f3455637c8e971e2cda2662d725b16c66f8d95dc6fa38f97aff972cf729",
+          "occlusion_active": false,
+          "pixel_sha256": "d390ac7f4034706b55bfd76dad55186c9f173ae034867f59a91b0e0eaaa177eb",
+          "primitives": 198543
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 88,
+          "file_sha256": "636b0f3455637c8e971e2cda2662d725b16c66f8d95dc6fa38f97aff972cf729",
+          "occlusion_active": true,
+          "pixel_sha256": "d390ac7f4034706b55bfd76dad55186c9f173ae034867f59a91b0e0eaaa177eb",
+          "primitives": 131921
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.294746, -0.004216648, 36.809143)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-360": {
+      "aspect": 1,
+      "camera": "Transform3D(0.99988174, 0.0014650995, -0.015307926, 0, 0.99545115, 0.0952732, 0.015377877, -0.09526193, 0.99533343, 8.284343, 1.5457737, 37.30584)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "d1db31341cf68f71b510b427bc5c9321442517312e855baf10a71812dd7397af",
+          "occlusion_active": false,
+          "pixel_sha256": "e67c332d002b023f9638403515224e411ccb7acd9adb363175b9f56cbe669705",
+          "primitives": 184409
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 155,
+          "file_sha256": "d1db31341cf68f71b510b427bc5c9321442517312e855baf10a71812dd7397af",
+          "occlusion_active": false,
+          "pixel_sha256": "e67c332d002b023f9638403515224e411ccb7acd9adb363175b9f56cbe669705",
+          "primitives": 184409
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 102,
+          "file_sha256": "d1db31341cf68f71b510b427bc5c9321442517312e855baf10a71812dd7397af",
+          "occlusion_active": true,
+          "pixel_sha256": "e67c332d002b023f9638403515224e411ccb7acd9adb363175b9f56cbe669705",
+          "primitives": 135995
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.312142, -0.004216648, 35.60923)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-390": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9998931, 0.0013916678, -0.014551382, 0, 0.9954578, 0.09520378, 0.014617778, -0.0951936, 0.99535143, 8.304492, 1.5457821, 36.108746)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 150,
+          "file_sha256": "0b1d2d8298261d61c594192a5639eeff1f0bf178ed1fc3764582a97a113cd857",
+          "occlusion_active": false,
+          "pixel_sha256": "a6bbc03d8dd206b7528eb336799ef87c330436f6f34a69fe53860b17a4041850",
+          "primitives": 162975
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 150,
+          "file_sha256": "0b1d2d8298261d61c594192a5639eeff1f0bf178ed1fc3764582a97a113cd857",
+          "occlusion_active": false,
+          "pixel_sha256": "a6bbc03d8dd206b7528eb336799ef87c330436f6f34a69fe53860b17a4041850",
+          "primitives": 162975
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 98,
+          "file_sha256": "0b1d2d8298261d61c594192a5639eeff1f0bf178ed1fc3764582a97a113cd857",
+          "occlusion_active": true,
+          "pixel_sha256": "a6bbc03d8dd206b7528eb336799ef87c330436f6f34a69fe53860b17a4041850",
+          "primitives": 123687
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.329552, -0.004216648, 34.409317)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-420": {
+      "aspect": 1,
+      "camera": "Transform3D(0.99989456, 0.001382326, -0.01445507, 0, 0.99545866, 0.09519486, 0.014521015, -0.095184825, 0.9953537, 8.322248, 1.5457824, 34.909187)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 148,
+          "file_sha256": "12595f2d7c21e185d370950fad70c8308b2b2ab46be89f6a309d0c9e73ef390d",
+          "occlusion_active": false,
+          "pixel_sha256": "805244c2b1a927f39cdf5a45da8d3d72e71720fa24e5bae5434aab2471347c3a",
+          "primitives": 160741
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 148,
+          "file_sha256": "12595f2d7c21e185d370950fad70c8308b2b2ab46be89f6a309d0c9e73ef390d",
+          "occlusion_active": false,
+          "pixel_sha256": "805244c2b1a927f39cdf5a45da8d3d72e71720fa24e5bae5434aab2471347c3a",
+          "primitives": 160741
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 96,
+          "file_sha256": "12595f2d7c21e185d370950fad70c8308b2b2ab46be89f6a309d0c9e73ef390d",
+          "occlusion_active": true,
+          "pixel_sha256": "805244c2b1a927f39cdf5a45da8d3d72e71720fa24e5bae5434aab2471347c3a",
+          "primitives": 121985
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(8.346962, -0.004216648, 33.209404)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-450": {
+      "aspect": 1,
+      "camera": "Transform3D(0.087408744, -0.10133535, 0.991005, 0, 0.9948126, 0.10172469, -0.99617255, -0.008891627, 0.086955324, 8.678194, 1.5457824, 33.38084)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 97,
+          "file_sha256": "09cab85897c998952efa2457760bee43efc17b916b1367d121c0bcc5e5e0b90d",
+          "occlusion_active": false,
+          "pixel_sha256": "6d213115924927493ed0d78919d628173c85a2849f8cf1f072ab6b6a8e89a0cc",
+          "primitives": 143361
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 97,
+          "file_sha256": "09cab85897c998952efa2457760bee43efc17b916b1367d121c0bcc5e5e0b90d",
+          "occlusion_active": false,
+          "pixel_sha256": "6d213115924927493ed0d78919d628173c85a2849f8cf1f072ab6b6a8e89a0cc",
+          "primitives": 143361
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 46,
+          "file_sha256": "09cab85897c998952efa2457760bee43efc17b916b1367d121c0bcc5e5e0b90d",
+          "occlusion_active": true,
+          "pixel_sha256": "6d213115924927493ed0d78919d628173c85a2849f8cf1f072ab6b6a8e89a0cc",
+          "primitives": 96717
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(7.228257, -0.004216648, 33.11203)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-480": {
+      "aspect": 1,
+      "camera": "Transform3D(0.024061818, -0.09596985, 0.99509335, 0, 0.99538153, 0.09599764, -0.9997105, -0.0023098777, 0.023950689, 7.696661, 1.5457824, 33.150383)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 89,
+          "file_sha256": "c7dd75eb257efd903f636403c79fecd66f9df47a18eadc4da067dd1b3761184c",
+          "occlusion_active": false,
+          "pixel_sha256": "1ffd5fbde3e1a9c1ca98453db2d6b618e342cef8d0d3a9cca6e155eaf4ae66d0",
+          "primitives": 131077
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 89,
+          "file_sha256": "c7dd75eb257efd903f636403c79fecd66f9df47a18eadc4da067dd1b3761184c",
+          "occlusion_active": false,
+          "pixel_sha256": "1ffd5fbde3e1a9c1ca98453db2d6b618e342cef8d0d3a9cca6e155eaf4ae66d0",
+          "primitives": 131077
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 44,
+          "file_sha256": "c7dd75eb257efd903f636403c79fecd66f9df47a18eadc4da067dd1b3761184c",
+          "occlusion_active": true,
+          "pixel_sha256": "1ffd5fbde3e1a9c1ca98453db2d6b618e342cef8d0d3a9cca6e155eaf4ae66d0",
+          "primitives": 93961
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(6.0284014, -0.004216648, 33.093433)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-510": {
+      "aspect": 1,
+      "camera": "Transform3D(0.016570004, -0.0952819, 0.9953124, 0, 0.99544907, 0.09529498, -0.99986273, -0.0015790382, 0.016494595, 6.5243607, 1.5457824, 33.105045)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 85,
+          "file_sha256": "818765822f6bd123975d800403577611bf7c44a9b7bcedef8312e86857a42f5e",
+          "occlusion_active": false,
+          "pixel_sha256": "28bd768397daddaa0d7afac11d773e742c42a0247cc8f5bffc3281ebfd5dc3f9",
+          "primitives": 121587
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 85,
+          "file_sha256": "818765822f6bd123975d800403577611bf7c44a9b7bcedef8312e86857a42f5e",
+          "occlusion_active": false,
+          "pixel_sha256": "28bd768397daddaa0d7afac11d773e742c42a0247cc8f5bffc3281ebfd5dc3f9",
+          "primitives": 121587
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 44,
+          "file_sha256": "818765822f6bd123975d800403577611bf7c44a9b7bcedef8312e86857a42f5e",
+          "occlusion_active": true,
+          "pixel_sha256": "28bd768397daddaa0d7afac11d773e742c42a0247cc8f5bffc3281ebfd5dc3f9",
+          "primitives": 93961
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(4.8285456, -0.004216648, 33.074837)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-540": {
+      "aspect": 1,
+      "camera": "Transform3D(0.015633022, -0.09519501, 0.9953359, 0, 0.99545753, 0.09520664, -0.9998778, -0.0014883676, 0.01556201, 5.3279834, 1.5457824, 33.083076)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 80,
+          "file_sha256": "c238382d9f71cf629d151f54cce3dfd408536a16fdc78218bcb236eec9530ac3",
+          "occlusion_active": false,
+          "pixel_sha256": "a65c64cccf1aa7379efc5e8150842313b52c1a445d352596acf640afd9020755",
+          "primitives": 120713
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 80,
+          "file_sha256": "c238382d9f71cf629d151f54cce3dfd408536a16fdc78218bcb236eec9530ac3",
+          "occlusion_active": false,
+          "pixel_sha256": "a65c64cccf1aa7379efc5e8150842313b52c1a445d352596acf640afd9020755",
+          "primitives": 120713
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 44,
+          "file_sha256": "c238382d9f71cf629d151f54cce3dfd408536a16fdc78218bcb236eec9530ac3",
+          "occlusion_active": true,
+          "pixel_sha256": "a65c64cccf1aa7379efc5e8150842313b52c1a445d352596acf640afd9020755",
+          "primitives": 93961
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(3.6286898, -0.004216648, 33.05624)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-570": {
+      "aspect": 1,
+      "camera": "Transform3D(0.015514423, -0.09518404, 0.9953388, 0, 0.9954586, 0.0951955, -0.99987966, -0.0014769033, 0.015443966, 4.1285663, 1.5457824, 33.064053)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 78,
+          "file_sha256": "264a79b0c2f489a2bba0a6601dbee77ae87fd2d74a95a9c58289a64eac953e2a",
+          "occlusion_active": false,
+          "pixel_sha256": "48df832ac7da08e2cbb29688f56d9c75d74e86fae5b918a02dc51b0f1a89eddb",
+          "primitives": 120235
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 78,
+          "file_sha256": "264a79b0c2f489a2bba0a6601dbee77ae87fd2d74a95a9c58289a64eac953e2a",
+          "occlusion_active": false,
+          "pixel_sha256": "48df832ac7da08e2cbb29688f56d9c75d74e86fae5b918a02dc51b0f1a89eddb",
+          "primitives": 120235
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 44,
+          "file_sha256": "264a79b0c2f489a2bba0a6601dbee77ae87fd2d74a95a9c58289a64eac953e2a",
+          "occlusion_active": true,
+          "pixel_sha256": "48df832ac7da08e2cbb29688f56d9c75d74e86fae5b918a02dc51b0f1a89eddb",
+          "primitives": 93961
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(2.428834, -0.004216648, 33.037643)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-60": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.061579745, 0.10097361, -0.9929815, 0, 0.9948696, 0.10116561, 0.9981022, 0.006229752, -0.061263815, -1.5854195, 1.5456644, 38.963448)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "73c91a96a9b28ef88751f5261e2efaccbd252aa3192d14944458b2774946bd29",
+          "occlusion_active": false,
+          "pixel_sha256": "f891f65b6b2d94f43ae730251ec93896a3702a8803c12fd541af7850e4aef984",
+          "primitives": 95731
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "73c91a96a9b28ef88751f5261e2efaccbd252aa3192d14944458b2774946bd29",
+          "occlusion_active": false,
+          "pixel_sha256": "f891f65b6b2d94f43ae730251ec93896a3702a8803c12fd541af7850e4aef984",
+          "primitives": 95731
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 41,
+          "file_sha256": "73c91a96a9b28ef88751f5261e2efaccbd252aa3192d14944458b2774946bd29",
+          "occlusion_active": true,
+          "pixel_sha256": "f891f65b6b2d94f43ae730251ec93896a3702a8803c12fd541af7850e4aef984",
+          "primitives": 92889
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.1000779, -0.005336248, 39.153664)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-600": {
+      "aspect": 1,
+      "camera": "Transform3D(0.015497497, -0.09518268, 0.99533916, 0, 0.9954587, 0.095194116, -0.9998799, -0.0014752706, 0.015427119, 2.9287658, 1.5457824, 33.045395)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 71,
+          "file_sha256": "97fbbd6b5bb50cbfcee9038868dbb945a9e58d6354e9231b1cf31ce7a91a9c8e",
+          "occlusion_active": false,
+          "pixel_sha256": "0fd4b52d3bc477b108d3befb5aa21948a5e7a0d292e110d39dae29430851ee5c",
+          "primitives": 117535
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 71,
+          "file_sha256": "97fbbd6b5bb50cbfcee9038868dbb945a9e58d6354e9231b1cf31ce7a91a9c8e",
+          "occlusion_active": false,
+          "pixel_sha256": "0fd4b52d3bc477b108d3befb5aa21948a5e7a0d292e110d39dae29430851ee5c",
+          "primitives": 117535
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 44,
+          "file_sha256": "97fbbd6b5bb50cbfcee9038868dbb945a9e58d6354e9231b1cf31ce7a91a9c8e",
+          "occlusion_active": true,
+          "pixel_sha256": "0fd4b52d3bc477b108d3befb5aa21948a5e7a0d292e110d39dae29430851ee5c",
+          "primitives": 93961
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(1.2289782, -0.004216648, 33.019047)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-630": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7421336, -0.08030591, 0.6654237, 0, 0.9927963, 0.11981451, -0.67025197, -0.08891837, 0.7367875, 1.6193869, 1.5457824, 33.160576)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 129,
+          "file_sha256": "a87087c48428efecb5af8ed34c86d7d74c108a417ffcf276784508f82e218bbb",
+          "occlusion_active": false,
+          "pixel_sha256": "e95a43de8557126c5569f2dc31664a50b6668a28d8274a5251f9e8b849e08fde",
+          "primitives": 147061
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 129,
+          "file_sha256": "a87087c48428efecb5af8ed34c86d7d74c108a417ffcf276784508f82e218bbb",
+          "occlusion_active": false,
+          "pixel_sha256": "e95a43de8557126c5569f2dc31664a50b6668a28d8274a5251f9e8b849e08fde",
+          "primitives": 147061
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 33,
+          "file_sha256": "a87087c48428efecb5af8ed34c86d7d74c108a417ffcf276784508f82e218bbb",
+          "occlusion_active": true,
+          "pixel_sha256": "e95a43de8557126c5569f2dc31664a50b6668a28d8274a5251f9e8b849e08fde",
+          "primitives": 56145
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.09211098, -0.004216648, 32.92352)",
+      "room": "terminal_room"
+    },
+    "leg-0-frame-90": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.017417548, 0.09590867, -0.99523777, 0, 0.99538875, 0.09592322, 0.9998483, 0.0016707474, -0.017337231, -0.5729667, 1.5447898, 39.126423)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "7550ae639e00e353b0df072b1e73a2e09baea61ed430d9024dd4c6466ebff7dc",
+          "occlusion_active": false,
+          "pixel_sha256": "b31eb5fe77646f3b69503b0d0833a25ca8b2087648b4815bd6fe9985d398cbf8",
+          "primitives": 95731
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 49,
+          "file_sha256": "7550ae639e00e353b0df072b1e73a2e09baea61ed430d9024dd4c6466ebff7dc",
+          "occlusion_active": false,
+          "pixel_sha256": "b31eb5fe77646f3b69503b0d0833a25ca8b2087648b4815bd6fe9985d398cbf8",
+          "primitives": 95731
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 41,
+          "file_sha256": "7550ae639e00e353b0df072b1e73a2e09baea61ed430d9024dd4c6466ebff7dc",
+          "occlusion_active": true,
+          "pixel_sha256": "b31eb5fe77646f3b69503b0d0833a25ca8b2087648b4815bd6fe9985d398cbf8",
+          "primitives": 92889
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(1.0998428, -0.005336248, 39.167366)",
+      "room": "terminal_room"
+    },
+    "leg-1-arrival": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 135,
+          "file_sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+          "occlusion_active": false,
+          "pixel_sha256": "3fce7f3a6608835dcfe8dedea6218086c1a4e9fe7eda9e5f0cd92c47015e3632",
+          "primitives": 147217
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 135,
+          "file_sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+          "occlusion_active": false,
+          "pixel_sha256": "3fce7f3a6608835dcfe8dedea6218086c1a4e9fe7eda9e5f0cd92c47015e3632",
+          "primitives": 147217
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 135,
+          "file_sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+          "occlusion_active": false,
+          "pixel_sha256": "3fce7f3a6608835dcfe8dedea6218086c1a4e9fe7eda9e5f0cd92c47015e3632",
+          "primitives": 147217
+        }
+      },
+      "fov": 55.0,
+      "kind": "settled_arrival",
+      "player": "Vector3(0.118462645, -0.004216648, 1.8154858)",
+      "room": "qinfang_ting"
+    },
+    "leg-1-frame-1020": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.15818419, -0.004216648, 3.6975017)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-1050": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.71990174, -0.004216648, 2.9410725)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-1080": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.63407576, -0.004216648, 1.882888)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-120": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9308532, 0.034866653, -0.36372614, 0, 0.9954369, 0.095422216, 0.36539346, -0.08882407, 0.92660564, 1.0227472, 1.545866, 29.921564)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 127,
+          "file_sha256": "0911e37e855b059f30bd306e2b186981735ca71b999dd425e18c09d0aefa084e",
+          "occlusion_active": false,
+          "pixel_sha256": "e4873764ec4ea4a4a886390affa698db0c2d18c4c75f78c631917f6bb0cf8906",
+          "primitives": 145591
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 127,
+          "file_sha256": "0911e37e855b059f30bd306e2b186981735ca71b999dd425e18c09d0aefa084e",
+          "occlusion_active": false,
+          "pixel_sha256": "e4873764ec4ea4a4a886390affa698db0c2d18c4c75f78c631917f6bb0cf8906",
+          "primitives": 145591
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "0911e37e855b059f30bd306e2b186981735ca71b999dd425e18c09d0aefa084e",
+          "occlusion_active": true,
+          "pixel_sha256": "e4873764ec4ea4a4a886390affa698db0c2d18c4c75f78c631917f6bb0cf8906",
+          "primitives": 57242
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(1.6657691, -0.004216648, 28.356056)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-150": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9716959, -0.022929767, 0.2351199, 0, 0.99527824, 0.09706324, -0.23623534, -0.09431595, 0.9671078, 1.763754, 1.5457938, 28.82934)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 146,
+          "file_sha256": "2e2720303dabbca0ebde9ecdad3ecb6b1b10380683f9ad00fe162858fa91cb78",
+          "occlusion_active": false,
+          "pixel_sha256": "c07b5e5e6ff2113ab1d9191a8697df7e9f7cc336f015c5ebfa9d7eee57d67d22",
+          "primitives": 162363
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 146,
+          "file_sha256": "2e2720303dabbca0ebde9ecdad3ecb6b1b10380683f9ad00fe162858fa91cb78",
+          "occlusion_active": false,
+          "pixel_sha256": "c07b5e5e6ff2113ab1d9191a8697df7e9f7cc336f015c5ebfa9d7eee57d67d22",
+          "primitives": 162363
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "2e2720303dabbca0ebde9ecdad3ecb6b1b10380683f9ad00fe162858fa91cb78",
+          "occlusion_active": true,
+          "pixel_sha256": "c07b5e5e6ff2113ab1d9191a8697df7e9f7cc336f015c5ebfa9d7eee57d67d22",
+          "primitives": 57434
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(1.4934492, -0.004216648, 27.214926)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-180": {
+      "aspect": 1,
+      "camera": "Transform3D(0.81980103, -0.055364233, 0.5699658, 0, 0.99531543, 0.09668102, -0.5726484, -0.0792592, 0.81596065, 1.7775664, 1.5457847, 27.602734)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 131,
+          "file_sha256": "4306435b158a1f6e638a32cbe3567193cbc5a737c5d0027d72a59f1927945e43",
+          "occlusion_active": false,
+          "pixel_sha256": "f0fe2fba53df4378e9e16b47c853f8d0a772952289a1f029687bcf98aeb9c2f9",
+          "primitives": 156283
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 131,
+          "file_sha256": "4306435b158a1f6e638a32cbe3567193cbc5a737c5d0027d72a59f1927945e43",
+          "occlusion_active": false,
+          "pixel_sha256": "f0fe2fba53df4378e9e16b47c853f8d0a772952289a1f029687bcf98aeb9c2f9",
+          "primitives": 156283
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "4306435b158a1f6e638a32cbe3567193cbc5a737c5d0027d72a59f1927945e43",
+          "occlusion_active": true,
+          "pixel_sha256": "f0fe2fba53df4378e9e16b47c853f8d0a772952289a1f029687bcf98aeb9c2f9",
+          "primitives": 57434
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.95138586, -0.004216648, 26.169004)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-210": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7813325, -0.059545014, 0.621268, 0, 0.99543834, 0.09540712, -0.624115, -0.07454468, 0.7777683, 1.2358372, 1.5457841, 26.571335)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 131,
+          "file_sha256": "c00ae0b88f46e5bfccb9306af8a9ef004337499f6119595f8988a486dbd0020f",
+          "occlusion_active": false,
+          "pixel_sha256": "4ba1b700db62ca4750b3dd43fcb75af0cb2095541d33e860e12db80fbbe30c52",
+          "primitives": 156283
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 131,
+          "file_sha256": "c00ae0b88f46e5bfccb9306af8a9ef004337499f6119595f8988a486dbd0020f",
+          "occlusion_active": false,
+          "pixel_sha256": "4ba1b700db62ca4750b3dd43fcb75af0cb2095541d33e860e12db80fbbe30c52",
+          "primitives": 156283
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "c00ae0b88f46e5bfccb9306af8a9ef004337499f6119595f8988a486dbd0020f",
+          "occlusion_active": true,
+          "pixel_sha256": "4ba1b700db62ca4750b3dd43fcb75af0cb2095541d33e860e12db80fbbe30c52",
+          "primitives": 57434
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.19391741, -0.004216648, 25.23827)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-240": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7649101, -0.061337847, 0.64120996, 0, 0.9954558, 0.09522484, -0.644137, -0.07283844, 0.7614342, 0.51156104, 1.5457841, 25.622955)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 130,
+          "file_sha256": "67102d38bfb34f8ca82759f099b95b63f4c1ba98ae317f1ac01e571a02fcc814",
+          "occlusion_active": false,
+          "pixel_sha256": "c34ae8ca0ccd59cabde2e77d705c726aed82082c54a516cdc1808895d5c57b46",
+          "primitives": 155807
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 130,
+          "file_sha256": "67102d38bfb34f8ca82759f099b95b63f4c1ba98ae317f1ac01e571a02fcc814",
+          "occlusion_active": false,
+          "pixel_sha256": "c34ae8ca0ccd59cabde2e77d705c726aed82082c54a516cdc1808895d5c57b46",
+          "primitives": 155807
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "67102d38bfb34f8ca82759f099b95b63f4c1ba98ae317f1ac01e571a02fcc814",
+          "occlusion_active": true,
+          "pixel_sha256": "c34ae8ca0ccd59cabde2e77d705c726aed82082c54a516cdc1808895d5c57b46",
+          "primitives": 57434
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.5785745, -0.004216648, 24.32002)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-270": {
+      "aspect": 1,
+      "camera": "Transform3D(0.8935283, -0.043268718, 0.44691727, 0, 0.995346, 0.09636536, -0.44900694, -0.086105175, 0.8893698, -0.35475937, 1.5457841, 24.760157)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 138,
+          "file_sha256": "23b11d956eb3c620fc67cac44383b57464848086836dd79ef64c750a2b273fb3",
+          "occlusion_active": false,
+          "pixel_sha256": "ae062ce0ac78094601190699bdff0d0a5a9465b29bb411374f355b3de8982570",
+          "primitives": 164765
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 138,
+          "file_sha256": "23b11d956eb3c620fc67cac44383b57464848086836dd79ef64c750a2b273fb3",
+          "occlusion_active": false,
+          "pixel_sha256": "ae062ce0ac78094601190699bdff0d0a5a9465b29bb411374f355b3de8982570",
+          "primitives": 164765
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "23b11d956eb3c620fc67cac44383b57464848086836dd79ef64c750a2b273fb3",
+          "occlusion_active": true,
+          "pixel_sha256": "ae062ce0ac78094601190699bdff0d0a5a9465b29bb411374f355b3de8982570",
+          "primitives": 57434
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-1.2839539, -0.004216648, 23.362963)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-30": {
+      "aspect": 1,
+      "camera": "Transform3D(0.999922, -0.0012632846, 0.012427381, 0, 0.994873, 0.10113215, -0.012491425, -0.10112426, 0.9947954, 0.025485365, 1.5869219, 33.338634)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 157,
+          "file_sha256": "1e8e21b24e9e15bdb907ee9b5d3ecac8ac4d2efaa8e3b3df0204dbbb0c266212",
+          "occlusion_active": false,
+          "pixel_sha256": "779a72d03be24832568b3f7096a7c949aa5f8596d0e8fdeea6207fbe109433ec",
+          "primitives": 164795
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 157,
+          "file_sha256": "1e8e21b24e9e15bdb907ee9b5d3ecac8ac4d2efaa8e3b3df0204dbbb0c266212",
+          "occlusion_active": false,
+          "pixel_sha256": "779a72d03be24832568b3f7096a7c949aa5f8596d0e8fdeea6207fbe109433ec",
+          "primitives": 164795
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "1e8e21b24e9e15bdb907ee9b5d3ecac8ac4d2efaa8e3b3df0204dbbb0c266212",
+          "occlusion_active": true,
+          "pixel_sha256": "779a72d03be24832568b3f7096a7c949aa5f8596d0e8fdeea6207fbe109433ec",
+          "primitives": 57242
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.006748132, -0.004216648, 31.450947)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-300": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9305518, -0.0349302, 0.36449027, 0, 0.9954394, 0.09539595, -0.36616018, -0.08877088, 0.926308, -1.0656043, 1.5457841, 23.806246)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 141,
+          "file_sha256": "8c6528e11792ec21e4950938e7f715c46cea1ca029b0eec2ece6c2aa1d52cbdf",
+          "occlusion_active": false,
+          "pixel_sha256": "ef0e3295c1e1f5cbfc10339fd01a30413e3cad6f36fa1072814d826a36610dac",
+          "primitives": 170681
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 141,
+          "file_sha256": "8c6528e11792ec21e4950938e7f715c46cea1ca029b0eec2ece6c2aa1d52cbdf",
+          "occlusion_active": false,
+          "pixel_sha256": "ef0e3295c1e1f5cbfc10339fd01a30413e3cad6f36fa1072814d826a36610dac",
+          "primitives": 170681
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 71,
+          "file_sha256": "8c6528e11792ec21e4950938e7f715c46cea1ca029b0eec2ece6c2aa1d52cbdf",
+          "occlusion_active": true,
+          "pixel_sha256": "ef0e3295c1e1f5cbfc10339fd01a30413e3cad6f36fa1072814d826a36610dac",
+          "primitives": 101381
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-1.7088642, -0.004216648, 22.2407)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-330": {
+      "aspect": 1,
+      "camera": "Transform3D(0.96872306, 0.024010783, -0.24698001, 0, 0.9953076, 0.09676133, 0.2481444, -0.093734935, 0.9641774, -1.771744, 1.5457841, 22.712795)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 133,
+          "file_sha256": "30d5d1dab44f95d84573fbfa0b7280bb9e118b3282a403d75368943ed721d38c",
+          "occlusion_active": false,
+          "pixel_sha256": "34728d685d277674b8522b00501120d56623a16a7ea28e068032a6a3843e6f73",
+          "primitives": 164315
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 133,
+          "file_sha256": "30d5d1dab44f95d84573fbfa0b7280bb9e118b3282a403d75368943ed721d38c",
+          "occlusion_active": false,
+          "pixel_sha256": "34728d685d277674b8522b00501120d56623a16a7ea28e068032a6a3843e6f73",
+          "primitives": 164315
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 70,
+          "file_sha256": "30d5d1dab44f95d84573fbfa0b7280bb9e118b3282a403d75368943ed721d38c",
+          "occlusion_active": true,
+          "pixel_sha256": "34728d685d277674b8522b00501120d56623a16a7ea28e068032a6a3843e6f73",
+          "primitives": 114095
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-1.4579796, -0.004216648, 21.097557)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-360": {
+      "aspect": 1,
+      "camera": "Transform3D(0.811428, 0.056364976, -0.5817281, 0, 0.99533874, 0.096440665, 0.5844524, -0.078254655, 0.80764574, -1.7478951, 1.5457841, 21.485174)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 103,
+          "file_sha256": "1b398c7f273623c553f7dc78d19b81db3f4ada3f54556f89c8cf393b2b0ec563",
+          "occlusion_active": false,
+          "pixel_sha256": "2bd059db13f6b96e6b017c97a49b1c33146635926116d2212730f841262c4696",
+          "primitives": 119429
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 103,
+          "file_sha256": "1b398c7f273623c553f7dc78d19b81db3f4ada3f54556f89c8cf393b2b0ec563",
+          "occlusion_active": false,
+          "pixel_sha256": "2bd059db13f6b96e6b017c97a49b1c33146635926116d2212730f841262c4696",
+          "primitives": 119429
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 60,
+          "file_sha256": "1b398c7f273623c553f7dc78d19b81db3f4ada3f54556f89c8cf393b2b0ec563",
+          "occlusion_active": true,
+          "pixel_sha256": "2bd059db13f6b96e6b017c97a49b1c33146635926116d2212730f841262c4696",
+          "primitives": 86079
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.8746973, -0.004216648, 20.073606)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-390": {
+      "aspect": 1,
+      "camera": "Transform3D(0.77992845, 0.05968793, -0.623016, 0, 0.9954421, 0.09536814, 0.6258687, -0.07438032, 0.7763736, -1.1651992, 1.5457841, 20.473047)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 99,
+          "file_sha256": "418eea5477c7cb85749dc039859528b82dceb3b0266081decdccf31a25cfc3f3",
+          "occlusion_active": false,
+          "pixel_sha256": "51093b54125459ffbae3afa7a3183b02150c0620015c23da3cfb28cbba1ccb92",
+          "primitives": 117153
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 99,
+          "file_sha256": "418eea5477c7cb85749dc039859528b82dceb3b0266081decdccf31a25cfc3f3",
+          "occlusion_active": false,
+          "pixel_sha256": "51093b54125459ffbae3afa7a3183b02150c0620015c23da3cfb28cbba1ccb92",
+          "primitives": 117153
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 81,
+          "file_sha256": "418eea5477c7cb85749dc039859528b82dceb3b0266081decdccf31a25cfc3f3",
+          "occlusion_active": true,
+          "pixel_sha256": "51093b54125459ffbae3afa7a3183b02150c0620015c23da3cfb28cbba1ccb92",
+          "primitives": 112201
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.11673552, -0.004216648, 19.14328)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-420": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9986965, 0.0049245856, -0.050803397, 0, 0.99533474, 0.09648196, 0.051041517, -0.09635619, 0.99403733, -0.221706, 1.5457841, 19.607372)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 123,
+          "file_sha256": "3f7972ff55837b68df067807b0f52b9f66ad68a035cd4da7c9fa899ee36d0534",
+          "occlusion_active": false,
+          "pixel_sha256": "15daec3143637ee07cf101d061b589c0d266acbbc1b33204d7c1533ee0d13886",
+          "primitives": 159941
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 123,
+          "file_sha256": "3f7972ff55837b68df067807b0f52b9f66ad68a035cd4da7c9fa899ee36d0534",
+          "occlusion_active": false,
+          "pixel_sha256": "15daec3143637ee07cf101d061b589c0d266acbbc1b33204d7c1533ee0d13886",
+          "primitives": 159941
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 94,
+          "file_sha256": "3f7972ff55837b68df067807b0f52b9f66ad68a035cd4da7c9fa899ee36d0534",
+          "occlusion_active": true,
+          "pixel_sha256": "15daec3143637ee07cf101d061b589c0d266acbbc1b33204d7c1533ee0d13886",
+          "primitives": 133571
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.055733975, -0.004216648, 17.961287)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-450": {
+      "aspect": 1,
+      "camera": "Transform3D(0.99989414, 0.0013875782, -0.014484073, 0, 0.9954425, 0.09536367, 0.014550386, -0.09535357, 0.9953371, -0.079350315, 1.5457841, 18.454458)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 118,
+          "file_sha256": "df1f4de27ead66dad65ea4cc617689f973f95d2a96c5c26944a552f994ac3d57",
+          "occlusion_active": false,
+          "pixel_sha256": "d12996a54ccef46e34ad1d9dee0a1b2c695181b3241ea455a131e1dceb4df854",
+          "primitives": 158831
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 118,
+          "file_sha256": "df1f4de27ead66dad65ea4cc617689f973f95d2a96c5c26944a552f994ac3d57",
+          "occlusion_active": false,
+          "pixel_sha256": "d12996a54ccef46e34ad1d9dee0a1b2c695181b3241ea455a131e1dceb4df854",
+          "primitives": 158831
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 118,
+          "file_sha256": "df1f4de27ead66dad65ea4cc617689f973f95d2a96c5c26944a552f994ac3d57",
+          "occlusion_active": true,
+          "pixel_sha256": "d12996a54ccef46e34ad1d9dee0a1b2c695181b3241ea455a131e1dceb4df854",
+          "primitives": 158831
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.044515267, -0.004216648, 16.761316)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-480": {
+      "aspect": 1,
+      "camera": "Transform3D(0.99994993, 0.0009525801, -0.009958987, 0, 0.99545664, 0.09521572, 0.010004441, -0.095210955, 0.9954068, -0.051580444, 1.5457841, 17.26043)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 112,
+          "file_sha256": "24a0b3d7220786f507b0395a69a6b1552c282a41079018a0c90d1c25b5d08836",
+          "occlusion_active": false,
+          "pixel_sha256": "9221e5708152d83531fd60eaf6f123b48050022ff9ba9b946cfc4e1f07825d04",
+          "primitives": 153003
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 112,
+          "file_sha256": "24a0b3d7220786f507b0395a69a6b1552c282a41079018a0c90d1c25b5d08836",
+          "occlusion_active": false,
+          "pixel_sha256": "9221e5708152d83531fd60eaf6f123b48050022ff9ba9b946cfc4e1f07825d04",
+          "primitives": 153003
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 112,
+          "file_sha256": "24a0b3d7220786f507b0395a69a6b1552c282a41079018a0c90d1c25b5d08836",
+          "occlusion_active": false,
+          "pixel_sha256": "9221e5708152d83531fd60eaf6f123b48050022ff9ba9b946cfc4e1f07825d04",
+          "primitives": 153003
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.03329648, -0.004216648, 15.561357)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-510": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9952775, 0.0018934212, -0.09705174, 0.001543105, 0.99937475, 0.035321936, 0.09705794, -0.035304885, 0.9946524, -1.5922475, 1.7057899, 16.878084)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 99,
+          "file_sha256": "cfd415afc709a6bca77198dad104100b1112fa407c33ba5dd0577c2bc8ed946d",
+          "occlusion_active": false,
+          "pixel_sha256": "fbbdac28843ebfd46f6e7ddbee4a1c0f8321fc8f88bf5a517f94a55b8c667b22",
+          "primitives": 160657
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 99,
+          "file_sha256": "cfd415afc709a6bca77198dad104100b1112fa407c33ba5dd0577c2bc8ed946d",
+          "occlusion_active": false,
+          "pixel_sha256": "fbbdac28843ebfd46f6e7ddbee4a1c0f8321fc8f88bf5a517f94a55b8c667b22",
+          "primitives": 160657
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 99,
+          "file_sha256": "cfd415afc709a6bca77198dad104100b1112fa407c33ba5dd0577c2bc8ed946d",
+          "occlusion_active": true,
+          "pixel_sha256": "fbbdac28843ebfd46f6e7ddbee4a1c0f8321fc8f88bf5a517f94a55b8c667b22",
+          "primitives": 160657
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-540": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9884123, 0.004183703, -0.15173511, -0.0004103817, 0.9996901, 0.024890618, 0.15179221, -0.024539923, 0.98810774, -2.5516617, 2.2132933, 16.627674)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 101,
+          "file_sha256": "587394f95ad314b16806a87b2e29717168d16760fd51d627a7fac8527ce3f92d",
+          "occlusion_active": false,
+          "pixel_sha256": "40eb0761673cf69cfb0f28d64089f52833aa5652aed123eb45808dfcc29e9387",
+          "primitives": 156231
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 101,
+          "file_sha256": "587394f95ad314b16806a87b2e29717168d16760fd51d627a7fac8527ce3f92d",
+          "occlusion_active": false,
+          "pixel_sha256": "40eb0761673cf69cfb0f28d64089f52833aa5652aed123eb45808dfcc29e9387",
+          "primitives": 156231
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 101,
+          "file_sha256": "587394f95ad314b16806a87b2e29717168d16760fd51d627a7fac8527ce3f92d",
+          "occlusion_active": true,
+          "pixel_sha256": "40eb0761673cf69cfb0f28d64089f52833aa5652aed123eb45808dfcc29e9387",
+          "primitives": 156231
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-570": {
+      "aspect": 1,
+      "camera": "Transform3D(0.98332113, 0.04080899, -0.17724058, -0.00027680583, 0.97483736, 0.22291702, 0.18187776, -0.21914995, 0.9585895, -2.9665065, 5.532051, 16.04689)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 100,
+          "file_sha256": "f924770cf5cb43431f9e594b638eabb9ef6f20348fde16281bbea761623d78ee",
+          "occlusion_active": false,
+          "pixel_sha256": "2a0e0f294d5f558e654d5502b5918253855ebb06e9a7f6af0b192241d2b828cc",
+          "primitives": 144059
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 100,
+          "file_sha256": "f924770cf5cb43431f9e594b638eabb9ef6f20348fde16281bbea761623d78ee",
+          "occlusion_active": false,
+          "pixel_sha256": "2a0e0f294d5f558e654d5502b5918253855ebb06e9a7f6af0b192241d2b828cc",
+          "primitives": 144059
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 100,
+          "file_sha256": "f924770cf5cb43431f9e594b638eabb9ef6f20348fde16281bbea761623d78ee",
+          "occlusion_active": false,
+          "pixel_sha256": "2a0e0f294d5f558e654d5502b5918253855ebb06e9a7f6af0b192241d2b828cc",
+          "primitives": 144059
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-60": {
+      "aspect": 1,
+      "camera": "Transform3D(0.82548696, 0.055451013, -0.5616907, 0, 0.99516237, 0.098244034, 0.5644212, -0.08109917, 0.82149357, -0.28119406, 1.5509756, 31.873814)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 112,
+          "file_sha256": "b546baea74e08cbc23bdeec281f0f7bf996ce23c569058fd6cb86bb561dec503",
+          "occlusion_active": false,
+          "pixel_sha256": "87b6492b13481ecde8bce5e0963a39a6dd756762aee93ce1b9a7943ea1b44cf6",
+          "primitives": 130019
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 112,
+          "file_sha256": "b546baea74e08cbc23bdeec281f0f7bf996ce23c569058fd6cb86bb561dec503",
+          "occlusion_active": false,
+          "pixel_sha256": "87b6492b13481ecde8bce5e0963a39a6dd756762aee93ce1b9a7943ea1b44cf6",
+          "primitives": 130019
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 32,
+          "file_sha256": "b546baea74e08cbc23bdeec281f0f7bf996ce23c569058fd6cb86bb561dec503",
+          "occlusion_active": true,
+          "pixel_sha256": "87b6492b13481ecde8bce5e0963a39a6dd756762aee93ce1b9a7943ea1b44cf6",
+          "primitives": 57370
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.5258163, -0.004216648, 30.43482)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-600": {
+      "aspect": 1,
+      "camera": "Transform3D(0.9951749, 0.023656279, -0.095221914, -0.0003299927, 0.9713007, 0.23785448, 0.09811586, -0.23667541, 0.966622, -1.7138007, 5.7703185, 15.604246)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "32144526fd0f5857ed60740d6993146209d538bf023c7c480e52aa9259afd3e3",
+          "occlusion_active": false,
+          "pixel_sha256": "bb67f7aa2f9842a159695748890a2d95644a42d7c091721c4b033032514e9120",
+          "primitives": 146175
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "32144526fd0f5857ed60740d6993146209d538bf023c7c480e52aa9259afd3e3",
+          "occlusion_active": false,
+          "pixel_sha256": "bb67f7aa2f9842a159695748890a2d95644a42d7c091721c4b033032514e9120",
+          "primitives": 146175
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "32144526fd0f5857ed60740d6993146209d538bf023c7c480e52aa9259afd3e3",
+          "occlusion_active": false,
+          "pixel_sha256": "bb67f7aa2f9842a159695748890a2d95644a42d7c091721c4b033032514e9120",
+          "primitives": 146175
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-630": {
+      "aspect": 1,
+      "camera": "Transform3D(0.97386867, -0.05244349, 0.22097366, -0.00093192415, 0.972043, 0.23480123, -0.22710967, -0.22887152, 0.9465934, 3.1220589, 5.658722, 14.116289)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "e0476a527df500e67aef637830ee79ec69d0a715cd8acf1c1d05483d15eaa888",
+          "occlusion_active": false,
+          "pixel_sha256": "1ff4b0135fe2cc7a90a84260fb8defb6f5c41ee769e4b9eae6a59debbdbd061c",
+          "primitives": 154835
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "e0476a527df500e67aef637830ee79ec69d0a715cd8acf1c1d05483d15eaa888",
+          "occlusion_active": false,
+          "pixel_sha256": "1ff4b0135fe2cc7a90a84260fb8defb6f5c41ee769e4b9eae6a59debbdbd061c",
+          "primitives": 154835
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 95,
+          "file_sha256": "e0476a527df500e67aef637830ee79ec69d0a715cd8acf1c1d05483d15eaa888",
+          "occlusion_active": false,
+          "pixel_sha256": "1ff4b0135fe2cc7a90a84260fb8defb6f5c41ee769e4b9eae6a59debbdbd061c",
+          "primitives": 154835
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-660": {
+      "aspect": 1,
+      "camera": "Transform3D(0.8393165, -0.12552612, 0.5289527, -0.00043658912, 0.972822, 0.2315538, -0.5436429, -0.19457784, 0.8164508, 8.227928, 5.540894, 12.545253)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 108,
+          "file_sha256": "291fa897ec06bf55e25ff74491347646a139b0e53f47defbdd7a51d73bc093ea",
+          "occlusion_active": false,
+          "pixel_sha256": "e6498df93eb002d2247e641954f80ebfdbf7818b6031d43d751a923de82b4b7a",
+          "primitives": 162231
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 108,
+          "file_sha256": "291fa897ec06bf55e25ff74491347646a139b0e53f47defbdd7a51d73bc093ea",
+          "occlusion_active": false,
+          "pixel_sha256": "e6498df93eb002d2247e641954f80ebfdbf7818b6031d43d751a923de82b4b7a",
+          "primitives": 162231
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 108,
+          "file_sha256": "291fa897ec06bf55e25ff74491347646a139b0e53f47defbdd7a51d73bc093ea",
+          "occlusion_active": false,
+          "pixel_sha256": "e6498df93eb002d2247e641954f80ebfdbf7818b6031d43d751a923de82b4b7a",
+          "primitives": 162231
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-690": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-720": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 106,
+          "file_sha256": "a44caae8645c1d553dacb55606bafea25396ab26279cb75e723b6d8aa8d893b7",
+          "occlusion_active": false,
+          "pixel_sha256": "8952709eb95457a2c23bdd4cc67d6f294530633cb30801478b1fabfaacbd79fe",
+          "primitives": 145431
+        }
+      },
+      "fov": 55.0,
+      "kind": "reveal",
+      "player": "Vector3(-0.03254856, -0.004216648, 15.48136)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-750": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.022077726, -0.004216648, 14.361415)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-780": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "5064837e3af8ec73f7611d73494f55f24081a4bd0d819d8567c7d8ec988a053a",
+          "occlusion_active": false,
+          "pixel_sha256": "1b3ef3694f9f7a192048aaa4e335e26eb537445ea30c8dc82d1b4d00fbc07af7",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.010859, -0.004216648, 13.161473)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-810": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.0011006591, -0.004216648, 11.961524)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-840": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "b064f074cb2517fd88974ce34412d3b03419a344586ce49ead988995c793311f",
+          "occlusion_active": false,
+          "pixel_sha256": "010df0fe6c03cdd1eafcdc6aaaa1f4fb627c9e0bb2aee905bf5718d3ee1bbd39",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.00083445245, -0.004216648, 10.761525)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-870": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.000568246, -0.004216648, 9.561526)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-90": {
+      "aspect": 1,
+      "camera": "Transform3D(0.8919956, 0.043636516, -0.44993296, 0, 0.9953299, 0.09653156, 0.45204404, -0.08610573, 0.8878299, 0.2994741, 1.5464385, 30.869976)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 121,
+          "file_sha256": "659ac7494afc447e4933e57621c8acc1bba847ce60946768d4e15574864939b3",
+          "occlusion_active": false,
+          "pixel_sha256": "c780af5a4940d540dc81aced11c743fb539192610c6f80bd4a864ef3f4376499",
+          "primitives": 134757
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 121,
+          "file_sha256": "659ac7494afc447e4933e57621c8acc1bba847ce60946768d4e15574864939b3",
+          "occlusion_active": false,
+          "pixel_sha256": "c780af5a4940d540dc81aced11c743fb539192610c6f80bd4a864ef3f4376499",
+          "primitives": 134757
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 31,
+          "file_sha256": "659ac7494afc447e4933e57621c8acc1bba847ce60946768d4e15574864939b3",
+          "occlusion_active": true,
+          "pixel_sha256": "c780af5a4940d540dc81aced11c743fb539192610c6f80bd4a864ef3f4376499",
+          "primitives": 57242
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(1.2424544, -0.004216648, 29.478891)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-900": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-0.00030203952, -0.004216648, 8.361527)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-930": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "c40c3c5552c0e1c925ec209f352aa78ddf6f9cbc36ab03d6f31085f6b5e51485",
+          "occlusion_active": false,
+          "pixel_sha256": "13c76536c34aedd94499e934c5480739b7a778c2738e1b9103ae72d11e04a943",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-3.5833218e-05, -0.004216648, 7.1615286)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-960": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-1.8079107e-05, -0.004216648, 5.9615297)",
+      "room": "rockery_gate"
+    },
+    "leg-1-frame-990": {
+      "aspect": 1,
+      "camera": "Transform3D(0.7682213, -0.1475564, 0.6229472, 0, 0.9730747, 0.23049046, -0.6401844, -0.17706768, 0.74753666, 10, 5.5, 12)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 119,
+          "file_sha256": "07f8fdeff06ca01b27cadd52049ff13139cb4fd3ebe73794d4cb89c5e5d40cd5",
+          "occlusion_active": false,
+          "pixel_sha256": "f356bf15925128629a9d8332895cf5ca42c5b69697b48931eb9cc62a37fe2b8f",
+          "primitives": 146237
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(-8.892304e-06, -0.004216648, 4.7615314)",
+      "room": "rockery_gate"
+    },
+    "leg-2-frame-120": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.9988338, -0.004665343, 0.048055712, 0, 0.9953206, 0.09662769, -0.04828164, 0.096515, -0.9941599, 0.16132341, 1.5468584, 3.7673337)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 80,
+          "file_sha256": "90b61f4960f7490eb7912e5eeb1b80d3d86a22b025b50b6dbf0a7cb9801cadaa",
+          "occlusion_active": false,
+          "pixel_sha256": "e9358e5751306374db5e88c9beb6eddaadf05fe1866264dd61f1a50bdfc33205",
+          "primitives": 96175
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 80,
+          "file_sha256": "90b61f4960f7490eb7912e5eeb1b80d3d86a22b025b50b6dbf0a7cb9801cadaa",
+          "occlusion_active": false,
+          "pixel_sha256": "e9358e5751306374db5e88c9beb6eddaadf05fe1866264dd61f1a50bdfc33205",
+          "primitives": 96175
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 77,
+          "file_sha256": "90b61f4960f7490eb7912e5eeb1b80d3d86a22b025b50b6dbf0a7cb9801cadaa",
+          "occlusion_active": true,
+          "pixel_sha256": "e9358e5751306374db5e88c9beb6eddaadf05fe1866264dd61f1a50bdfc33205",
+          "primitives": 94669
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.05526805, -0.004216648, 5.4205894)",
+      "room": "qinfang_ting"
+    },
+    "leg-2-frame-30": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.91040915, -0.180307, 0.37235, 0, 0.90002877, 0.4358305, -0.413709, 0.39678407, -0.8193944, 1.6071047, 2.080504, 2.6935759)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 91,
+          "file_sha256": "ea442949b3d4a2c795cf8b2b2865f14ccce40ec7d808628e90af4787186493d5",
+          "occlusion_active": false,
+          "pixel_sha256": "4340b608ca6c12ac18003090877614a3b41bc7889f210cb6858c74e1f5eda8c3",
+          "primitives": 104291
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 91,
+          "file_sha256": "ea442949b3d4a2c795cf8b2b2865f14ccce40ec7d808628e90af4787186493d5",
+          "occlusion_active": false,
+          "pixel_sha256": "4340b608ca6c12ac18003090877614a3b41bc7889f210cb6858c74e1f5eda8c3",
+          "primitives": 104291
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 88,
+          "file_sha256": "ea442949b3d4a2c795cf8b2b2865f14ccce40ec7d808628e90af4787186493d5",
+          "occlusion_active": true,
+          "pixel_sha256": "4340b608ca6c12ac18003090877614a3b41bc7889f210cb6858c74e1f5eda8c3",
+          "primitives": 102785
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.7188482, -0.004216648, 2.4013946)",
+      "room": "qinfang_ting"
+    },
+    "leg-2-frame-60": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.5416645, -0.12761067, 0.83085203, 0, 0.9884097, 0.15180998, -0.84059477, 0.08223007, -0.53538644, 1.0206039, 1.6132718, 2.320968)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 108,
+          "file_sha256": "baf75fde2b22d767499bc1c105a1a5f5f7ad32d2858d4d48bf2d51a7abceb9c3",
+          "occlusion_active": false,
+          "pixel_sha256": "d802a74144dab0c0b1b09afde26e170b691387845ba17143f2e0d4b65d931b1c",
+          "primitives": 127905
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 108,
+          "file_sha256": "baf75fde2b22d767499bc1c105a1a5f5f7ad32d2858d4d48bf2d51a7abceb9c3",
+          "occlusion_active": false,
+          "pixel_sha256": "d802a74144dab0c0b1b09afde26e170b691387845ba17143f2e0d4b65d931b1c",
+          "primitives": 127905
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 105,
+          "file_sha256": "baf75fde2b22d767499bc1c105a1a5f5f7ad32d2858d4d48bf2d51a7abceb9c3",
+          "occlusion_active": true,
+          "pixel_sha256": "d802a74144dab0c0b1b09afde26e170b691387845ba17143f2e0d4b65d931b1c",
+          "primitives": 126395
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.67318153, -0.004216648, 3.4970663)",
+      "room": "qinfang_ting"
+    },
+    "leg-2-frame-90": {
+      "aspect": 1,
+      "camera": "Transform3D(-0.98880833, -0.015956244, 0.14833581, 0, 0.99426425, 0.10695139, -0.14919154, 0.10575443, -0.9831368, 0.5259346, 1.5543013, 2.8844924)",
+      "comparisons": {
+        "disabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 81,
+          "file_sha256": "24425541701ad0deb138672f9f94dc30292a83bb45b1c419d365d29b5e0045e9",
+          "occlusion_active": false,
+          "pixel_sha256": "e6c62d858626069bd2c5bc04b9d8eb33d980bf2ea96647a4a755c484f1a33e9e",
+          "primitives": 104727
+        },
+        "disabled_repeat": {
+          "automatic_frames_elapsed": 25,
+          "draws": 81,
+          "file_sha256": "24425541701ad0deb138672f9f94dc30292a83bb45b1c419d365d29b5e0045e9",
+          "occlusion_active": false,
+          "pixel_sha256": "e6c62d858626069bd2c5bc04b9d8eb33d980bf2ea96647a4a755c484f1a33e9e",
+          "primitives": 104727
+        },
+        "enabled": {
+          "automatic_frames_elapsed": 25,
+          "draws": 80,
+          "file_sha256": "24425541701ad0deb138672f9f94dc30292a83bb45b1c419d365d29b5e0045e9",
+          "occlusion_active": true,
+          "pixel_sha256": "e6c62d858626069bd2c5bc04b9d8eb33d980bf2ea96647a4a755c484f1a33e9e",
+          "primitives": 104581
+        }
+      },
+      "fov": 55.0,
+      "kind": "travel",
+      "player": "Vector3(0.09723369, -0.004216648, 4.22132)",
+      "room": "qinfang_ting"
+    }
+  },
+  "fixture_sha256": "8adb9795911875200dad0ad72e348e875c6630161005c26817697898f2be850f",
+  "grounded_rays": 3222,
+  "legs": [
+    {
+      "command": "exit",
+      "from": "terminal_room",
+      "grounded_rays": 639,
+      "physics_frames": 639,
+      "to": "rockery_gate"
+    },
+    {
+      "command": "enter",
+      "from": "rockery_gate",
+      "grounded_rays": 1094,
+      "physics_frames": 1094,
+      "to": "qinfang_ting"
+    },
+    {
+      "command": "back",
+      "from": "qinfang_ting",
+      "grounded_rays": 848,
+      "physics_frames": 848,
+      "to": "rockery_gate"
+    },
+    {
+      "command": "back",
+      "from": "rockery_gate",
+      "grounded_rays": 641,
+      "physics_frames": 641,
+      "to": "terminal_room"
+    }
+  ],
+  "occluders": [
+    {
+      "mesh": "SITE_terminal-cells_MAT_plaster_rock",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 128,
+      "vertices": 126
+    },
+    {
+      "mesh": "SITE_terminal-cells_MAT_backstage",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 720,
+      "vertices": 456
+    },
+    {
+      "mesh": "SITE_terminal-cells_MAT_stage_backstage",
+      "transform": "[X: (-0.866667, 0.0, 0.0), Y: (0.0, 0.933333, 0.0), Z: (-0.0, 0.0, -1.0), O: (-6.5, 0.0, 40.25)]",
+      "triangles": 2304,
+      "vertices": 1332
+    },
+    {
+      "mesh": "SITE_rockery-gate_MAT_pavilion_atlas",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 6344,
+      "vertices": 2942
+    },
+    {
+      "mesh": "SITE_rockery-gate_MAT_plaster_rock",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 628,
+      "vertices": 342
+    }
+  ],
+  "reveal_frames": 239,
+  "route_sha256": "bee7c9f810641f8b3c5f223d8ec9571e641e8fe21f55969d274254822f7e7d3b",
+  "scope": "Isolated runtime exact-occluder controller with actual camera-frustum activation. Actual normal-time/60Hz four-leg public cell-gate-pavilion round trip; floor/signals and recorded camera poses. Fixed-clock replay comparisons at travel/reveal poses and public detail endpoints, not continuous per-frame image equality, CPU, phone or sustained acceptance.",
+  "shape": "desktop",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f"
+}
