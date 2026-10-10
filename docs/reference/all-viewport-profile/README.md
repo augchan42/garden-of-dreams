@@ -40,3 +40,8 @@ The final uninstalled full debug APK is `6bb60f6826d6af89d3db8f020fecd357effa937
 Reproduce the native controls and diagnostics in an isolated copy with `--script res://tests/test_android_full_render_budget.gd` and `--script res://tests/profile_all_viewport_budgets.gd` (append `-- --mobile` for portrait). Build with `python3 scripts/build_android_profile.py --mode full --report PATH --apk PATH`; verify the artifact using the retained `android/verify_artifact.py --project PROJECT --build REPORT --output JSON`.
 
 Final fourteen-site art, five missing exact external-reference slots (37/42), current physical-phone and 2020 Adreno/sustained budgets, release and authenticated reading/history/AI/presence/social remain required. This is profiling progress; the full goal remains active. PR #22's GitGuardian finding remains user-owned and unresolved, so the dependency stack is unmerged.
+
+
+## Isolated exact structural culling candidate — 2026-10-10
+
+Five actual opaque cell/gate meshes yield desktop terminal160→46 and gate155→77 global draws; portrait87→41 and113→29. All28fixed-clock stationary arrival cases retain identical decoded pixels across off/on/off-repeat captures, with verified actual render-frame progress. Every tracked Godot file remains unchanged; this is a candidate, and the current6bbAPK has no culling optimization. Travel/reveal/detail cameras, actual producer counters and CPU cost must pass before adoption. See [candidate evidence](../exact-structural-occlusion/README.md). Android/sustained/final-art/full-goal acceptance remains pending.
