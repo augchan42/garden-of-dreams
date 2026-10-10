@@ -113,3 +113,8 @@ This is bounded camera/layout progress. Final 14-site art/dressing/material/comp
 ## Narrow landscape follow-up — 2026-10-10
 
 Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compact landscape controls below 580 pixels high or 1000 pixels wide; narrow titles wrap beside the complete description. Camera aim/field of view ease as height increases, and returning to portrait now reproduces initial portrait pixels exactly. Twelve final isolated checks and 12 installed checks pass, with 166 byte-exact installed originals. Of 120 prior captures, 113 are byte-identical; seven change only the portrait interface, with identical scene pixels above it at actual density scaling. All 28 stationary arrivals remain byte-identical. Geometry, authoring and matching 141 maps are unchanged. The preceding 30-phase/two-tour results remain historical evidence for runtime 56813eb7. Final art, references, current device/sustained budgets, release and authenticated services remain open. See [supplemental evidence](reference/hengwu-overview-low/supplemental-narrow-landscape/README.md).
+
+
+### Xiaoxiang portrait framing — 2026-10-10
+
+The installed `ec42ec55` runtime lowers portrait overview framing and keeps gate/threshold and selected bamboo/window subjects above actual controls. Seventeen focused and moving originals were directly inspected; both full Mac tours pass with all camera arrivals complete. The unchanged source is `faa8a7fe`. Overhead enclosure, foreplant edge cropping, dark gate and return-walk lighting, pavilion post occlusion during travel and final foliage density remain art work. This camera acceptance does not close final scene or device acceptance. [Executed evidence](reference/xiaoxiang-camera-framing/README.md).

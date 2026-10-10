@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "mode": "native",
+  "runtime_sha256": "e7192cab8e89f96f6b27d99c5c59eb111b3401d6983ec476f8dee665e4b099c0",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "framing-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_framing.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation/touch",
+        "--source=faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+        "--touch"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation/framing-touch.log",
+      "status": "failed",
+      "pid": 22533,
+      "exit_code": 1,
+      "log_sha256": "099a51d4b0ce29eedfbf51e776682f69fc72be52108481472bf98f3f126752e7"
+    }
+  ],
+  "error": "('framing-touch', 'Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max\\n\\nERROR: Ceiling dominates portrait overview: arrival-narrow\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] check (res://tests/test_xiaoxiang_bamboo_views.gd:19)\\n       [1] inspect (res://tests/test_xiaoxiang_framing.gd:34)\\n       [2] settle (res://tests/test_xiaoxiang_bamboo_views.gd:32)\\nERROR: Subject clipped or covered: doors-portrait\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] check (res://tests/test_xiaoxiang_bamboo_views.gd:19)\\n       [1] inspect (res://tests/test_xiaoxiang_framing.gd:28)\\n       [2] settle (res://tests/test_xiaoxiang_bamboo_views.gd:32)\\nERROR: Subject clipped or covered: doors-narrow\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] check (res://tests/test_xiaoxiang_bamboo_views.gd:19)\\n       [1] inspect (res://tests/test_xiaoxiang_framing.gd:28)\\n       [2] settle (res://tests/test_xiaoxiang_bamboo_views.gd:32)\\nERROR: Subject clipped or covered: doors-return\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] check (res://tests/test_xiaoxiang_bamboo_views.gd:19)\\n       [1] inspect (res://tests/test_xiaoxiang_framing.gd:28)\\n       [2] settle (res://tests/test_xiaoxiang_bamboo_views.gd:32)\\nERROR: Subject clipped or covered: stems-narrow\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] check (res://tests/test_xiaoxiang_bamboo_views.gd:19)\\n       [1] inspect (res://tests/test_xiaoxiang_framing.gd:28)\\n       [2] settle (res://tests/test_xiaoxiang_bamboo_views.gd:32)\\nXIAOXIANG_FRAMING_RESULT 30 originals; 5 failures\\n')"
+}

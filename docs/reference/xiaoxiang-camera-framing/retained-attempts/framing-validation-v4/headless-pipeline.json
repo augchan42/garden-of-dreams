@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "mode": "headless",
+  "runtime_sha256": "56ef3529a79f99c326900976d9ad56f367fecb0a432480c5484099d77c74edd4",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "entry",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--script",
+        "res://tests/test_entry_route.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/entry.log",
+      "status": "passed",
+      "pid": 29952,
+      "exit_code": 0,
+      "log_sha256": "0233d1a8602de2fd15f450d62422effb184a4c3c3571abee902b96a84e0d44d9"
+    },
+    {
+      "name": "bamboo-route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--script",
+        "res://tests/test_bamboo_route.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/bamboo-route.log",
+      "status": "passed",
+      "pid": 31911,
+      "exit_code": 0,
+      "log_sha256": "50e58f008320b709a066e17a410d6ba25c614b7a0bdb9538471732aa5b24b4b2"
+    },
+    {
+      "name": "first-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--script",
+        "res://tests/test_first_reading_demo.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/first-demo.log",
+      "status": "passed",
+      "pid": 34431,
+      "exit_code": 0,
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6"
+    },
+    {
+      "name": "surface",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--script",
+        "res://tests/test_surface_materials.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/surface.log",
+      "status": "passed",
+      "pid": 39797,
+      "exit_code": 0,
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2"
+    },
+    {
+      "name": "mobile-ui",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--script",
+        "res://tests/test_mobile_ui_scaling.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/mobile-ui.log",
+      "status": "passed",
+      "pid": 40073,
+      "exit_code": 0,
+      "log_sha256": "1628bd3a980a3461d3acf9a68088624d3b56e48a7ebd4b5bfaa728712b714da0"
+    }
+  ]
+}

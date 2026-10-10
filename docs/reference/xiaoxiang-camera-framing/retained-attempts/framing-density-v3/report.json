@@ -1,0 +1,1210 @@
+{
+  "density": true,
+  "errors": [
+    "Subject clipped or covered: arrival-narrow",
+    "Ceiling dominates portrait overview: arrival-narrow",
+    "Subject clipped or covered: doors-portrait",
+    "Subject clipped or covered: doors-narrow",
+    "Subject clipped or covered: doors-return",
+    "Look did not restore overview: doors",
+    "Subject clipped or covered: stems-portrait",
+    "Subject clipped or covered: stems-narrow",
+    "Subject clipped or covered: stems-return",
+    "Look did not restore overview: stems"
+  ],
+  "measurements": [
+    {
+      "label": "arrival-portrait",
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          325.525299072266,
+          399.015441894531
+        ],
+        "low": [
+          28.8327350616455,
+          274.297576904297
+        ],
+        "panel_top": 454.285705566406,
+        "width_fraction": 0.72112778267207
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "arrival-narrow",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          287.232696533203,
+          370.388000488281
+        ],
+        "low": [
+          21.2166404724121,
+          258.728607177734
+        ],
+        "panel_top": 377.047607421875,
+        "width_fraction": 0.739716254595109
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "arrival-wide",
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          433.307678222656,
+          415.317626953125
+        ],
+        "low": [
+          39.5155487060547,
+          249.592346191406
+        ],
+        "panel_top": 481.047607421875,
+        "width_fraction": 0.717850258917817
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "arrival-desktop",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          585.382385253906,
+          298.30419921875
+        ],
+        "low": [
+          236.149490356445,
+          147.076293945312
+        ],
+        "panel_top": 189.428558349609,
+        "width_fraction": 0.391767662894075
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "arrival-return",
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          325.544036865234,
+          399.181823730469
+        ],
+        "low": [
+          28.8050842285156,
+          274.448577880859
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.721240532808533
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "doors-portrait",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          335.140563964844,
+          450.385009765625
+        ],
+        "low": [
+          76.2881546020508,
+          102.559524536133
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.629155181645982
+      },
+      "subject": "doors"
+    },
+    {
+      "label": "doors-narrow",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          292.937713623047,
+          441.209899902344
+        ],
+        "low": [
+          66.6814880371094,
+          137.184631347656
+        ],
+        "panel_top": 403.047607421875,
+        "width_fraction": 0.629155285765942
+      },
+      "subject": "doors"
+    },
+    {
+      "label": "doors-desktop",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          608.178344726562,
+          472.094635009766
+        ],
+        "low": [
+          283.250244140625,
+          89.3320999145508
+        ],
+        "panel_top": 198.428558349609,
+        "width_fraction": 0.364502669808751
+      },
+      "subject": "doors"
+    },
+    {
+      "label": "doors-return",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          335.140563964844,
+          450.385009765625
+        ],
+        "low": [
+          76.2881546020508,
+          102.559524536133
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.629155181645982
+      },
+      "subject": "doors"
+    },
+    {
+      "label": "doors-look",
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          325.544036865234,
+          399.181823730469
+        ],
+        "low": [
+          28.8050842285156,
+          274.448577880859
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.721240532808533
+      },
+      "subject": "arrival"
+    },
+    {
+      "label": "stems-portrait",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          393.361755371094,
+          423.731353759766
+        ],
+        "low": [
+          107.5908203125,
+          31.1336231231689
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.694582155903143
+      },
+      "subject": "stems"
+    },
+    {
+      "label": "stems-narrow",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          343.827301025391,
+          417.91259765625
+        ],
+        "low": [
+          94.042350769043,
+          74.7531356811523
+        ],
+        "panel_top": 377.047607421875,
+        "width_fraction": 0.694582088742894
+      },
+      "subject": "stems"
+    },
+    {
+      "label": "stems-desktop",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          622.341186523438,
+          410.195953369141
+        ],
+        "low": [
+          347.600402832031,
+          33.9299354553223
+        ],
+        "panel_top": 189.428558349609,
+        "width_fraction": 0.308202796188691
+      },
+      "subject": "stems"
+    },
+    {
+      "label": "stems-return",
+      "measurement": {
+        "behind": 0,
+        "fits": false,
+        "header_bottom": 38.0,
+        "high": [
+          393.361755371094,
+          423.731353759766
+        ],
+        "low": [
+          107.5908203125,
+          31.1336231231689
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.694582155903143
+      },
+      "subject": "stems"
+    },
+    {
+      "label": "stems-look",
+      "measurement": {
+        "behind": 0,
+        "fits": true,
+        "header_bottom": 38.0,
+        "high": [
+          325.544036865234,
+          399.181823730469
+        ],
+        "low": [
+          28.8050842285156,
+          274.448577880859
+        ],
+        "panel_top": 455.047607421875,
+        "width_fraction": 0.721240532808533
+      },
+      "subject": "arrival"
+    }
+  ],
+  "rows": [
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.263967, 0.964383, -0.016921), Z: (0.962408, 0.264509, 0.061693), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-portrait-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "arrival-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        754.285705566406
+      ],
+      "panel_top": 454.285705566406,
+      "pixels": [
+        1080,
+        1980
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "4160664b30d62c6064ebfb56e80125dcab5ed4ae625d1d298bde7dd50c96b481",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.263967, 0.964383, -0.016921), Z: (0.962408, 0.264509, 0.061693), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-portrait-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 24552,
+        "ceiling": 166001,
+        "cyclorama": 323370,
+        "flora": 196251,
+        "gate_wood": 65551,
+        "mountains": 37299,
+        "window": 17436
+      },
+      "kind": "ids",
+      "label": "arrival-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        754.285705566406
+      ],
+      "panel_top": 454.285705566406,
+      "pixels": [
+        1080,
+        1980
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "45ac71f1f3c43224c3f8a10a136484c160ea85ff5fde98441277ff43cac77208",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.340066, 0.940149, -0.021799), Z: (0.938223, 0.340764, 0.060143), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-narrow-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "arrival-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 377.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "27d71827d6eb7ef96a01f23bbe1d3cebdcd7bd6b37b7d9e3e08f48860e18b638",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.340066, 0.940149, -0.021799), Z: (0.938223, 0.340764, 0.060143), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-narrow-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 6311,
+        "ceiling": 127592,
+        "cyclorama": 272045,
+        "flora": 142002,
+        "gate_wood": 51980,
+        "mountains": 29940,
+        "window": 13914
+      },
+      "kind": "ids",
+      "label": "arrival-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 377.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "62644f07b67ebf211e27d4c3fc9e2ad4f0312e8ad1f59157c66df7f4a4f5162a",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.24739, 0.968786, -0.015858), Z: (0.966802, 0.247898, 0.061974), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-wide-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "arrival-wide",
+      "logical_viewport": [
+        548.571411132812,
+        755.047607421875
+      ],
+      "panel_top": 481.047607421875,
+      "pixels": [
+        1440,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "87fb55798072ae088db30daf04ee976c2f494a99aa5efac33e5e966b50013aa1",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.24739, 0.968786, -0.015858), Z: (0.966802, 0.247898, 0.061974), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-wide-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 37914,
+        "ceiling": 0,
+        "cyclorama": 484583,
+        "flora": 343735,
+        "gate_wood": 115870,
+        "mountains": 65886,
+        "window": 30696
+      },
+      "kind": "ids",
+      "label": "arrival-wide",
+      "logical_viewport": [
+        548.571411132812,
+        755.047607421875
+      ],
+      "panel_top": 481.047607421875,
+      "pixels": [
+        1440,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "7227dd0c5df653127adf8b54cd80a81a0b52613e82eed8d43fa9d60754ccf0ac",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.073331, 0.0, -0.997308), Y: (-0.101852, 0.994771, -0.007489), Z: (0.992093, 0.102127, 0.072948), O: (-2.0, 2.3, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-desktop-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "arrival-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 189.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "054cbdda1dd4d60c73bf6e7e148615a930cc3ed6568f8e53859dc649e1086bcb",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.073331, 0.0, -0.997308), Y: (-0.101852, 0.994771, -0.007489), Z: (0.992093, 0.102127, 0.072948), O: (-2.0, 2.3, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-desktop-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 1309,
+        "ceiling": 0,
+        "cyclorama": 349527,
+        "flora": 195345,
+        "gate_wood": 22642,
+        "mountains": 131017,
+        "window": 6496
+      },
+      "kind": "ids",
+      "label": "arrival-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 189.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "d19978a7421bcb92e6dee38793c71b9fe8bbbe86e029df963fa43479c1211bd8",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-return-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "arrival-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "2834c2d02ab4014cd188f54f1f87ead91b30be9d6d213ff1a88eb4d5b6002442",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/arrival-return-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 25031,
+        "ceiling": 166151,
+        "cyclorama": 323588,
+        "flora": 196475,
+        "gate_wood": 65607,
+        "mountains": 37318,
+        "window": 17409
+      },
+      "kind": "ids",
+      "label": "arrival-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "3308526e699d42f972bcbed097ad3d69cb501d174e575d264ab3128dc23a2e2e",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-portrait-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "doors-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "9b5b6a091008eff73e25d7976947f30c485a9d4c1c8f28ec968ebb4a0a955b09",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-portrait-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 60978,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 17677,
+        "gate_wood": 674025,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "ids",
+      "label": "doors-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "8598f43ead46441155eb49378bd98b24318d0b94cbfeb244d8eb3a6b36e2dcb2",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-narrow-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "doors-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 403.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "8f19a429a493500296e66aa0bc5fdceb2efa48fb294e5c11c2884b8e95ea1e95",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-narrow-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 47341,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 12098,
+        "gate_wood": 512519,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "ids",
+      "label": "doors-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 403.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "b2141b2ff53abe47a7cc10f84797647fa3086d1c59244772929a27e51de17412",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.076697, 0.997055, 0.0), Z: (0.997055, 0.076697, 0.0), O: (-6.4, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-desktop-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "doors-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 198.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "f08b9dfd2cbeca71eacf59172fa6243cd79f510774bc9e437b895119bd0d4842",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.076697, 0.997055, 0.0), Z: (0.997055, 0.076697, 0.0), O: (-6.4, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-desktop-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 23851,
+        "ceiling": 0,
+        "cyclorama": 24416,
+        "flora": 97589,
+        "gate_wood": 367918,
+        "mountains": 37841,
+        "window": 75316
+      },
+      "kind": "ids",
+      "label": "doors-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 198.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "036d740ebc6753b03a5d267231ab2bdc4a82d26b1eb71778344085ce27ad46b0",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-return-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "doors-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "9b5b6a091008eff73e25d7976947f30c485a9d4c1c8f28ec968ebb4a0a955b09",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.0, 0.0, -1.0), Y: (-0.409056, 0.912509, 0.0), Z: (0.912509, 0.409056, 0.0), O: (-6.1, 1.6, 13.85)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-return-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 60978,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 17677,
+        "gate_wood": 674025,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "ids",
+      "label": "doors-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "8598f43ead46441155eb49378bd98b24318d0b94cbfeb244d8eb3a6b36e2dcb2",
+      "text": "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-look-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "doors-look",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "a831d59e80540702cf43367a65d42bd905e4b0bca22755b0868932bb3ee98d0e",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/doors-look-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 25031,
+        "ceiling": 166151,
+        "cyclorama": 323588,
+        "flora": 196589,
+        "gate_wood": 65607,
+        "mountains": 37276,
+        "window": 17409
+      },
+      "kind": "ids",
+      "label": "doors-look",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "a268a89da966571a46e11d30d6ee08b87af1afb89865e2d4b4456cb91e481c6e",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-portrait-lit.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "stems-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "7b46e7f20a37485e3852b6b1cc51157940ea2b0f38ac58ba1fba1cbda8454f45",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-portrait-ids.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 28235,
+        "ceiling": 0,
+        "cyclorama": 174813,
+        "flora": 148446,
+        "gate_wood": 60516,
+        "mountains": 33338,
+        "window": 53619
+      },
+      "kind": "ids",
+      "label": "stems-portrait",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "eb7b51abe19c2ebc81e49dd3b702793bb167ed9b8a2570c7668fd2b0c228da26",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-narrow-lit.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "stems-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 377.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "b33ad1f5a8a3d44ad6cda007ea2a21107029ba486e121812f58993e637f76e97",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-narrow-ids.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 678,
+        "ceiling": 12383,
+        "cyclorama": 227049,
+        "flora": 106801,
+        "gate_wood": 36828,
+        "mountains": 25497,
+        "window": 40953
+      },
+      "kind": "ids",
+      "label": "stems-narrow",
+      "logical_viewport": [
+        359.619049072266,
+        755.047607421875
+      ],
+      "panel_top": 377.047607421875,
+      "pixels": [
+        944,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "63f215266476e143276bcd60d2fb579d895d5bde6bc82d34e729819d23253828",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.096898, 0.993962, -0.051477), Z: (0.877784, 0.109723, 0.466323), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-desktop-lit.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "stems-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 189.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "81901f2d06bf0f1260efa35791e98226f7b33176be6fff196eaa04fc7fedecb5",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.096898, 0.993962, -0.051477), Z: (0.877784, 0.109723, 0.466323), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-desktop-ids.png",
+      "clock": 3.0,
+      "fov": 55.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 399,
+        "ceiling": 0,
+        "cyclorama": 208884,
+        "flora": 214261,
+        "gate_wood": 38264,
+        "mountains": 33238,
+        "window": 3943
+      },
+      "kind": "ids",
+      "label": "stems-desktop",
+      "logical_viewport": [
+        891.428588867188,
+        411.428558349609
+      ],
+      "panel_top": 189.428558349609,
+      "pixels": [
+        2340,
+        1080
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "b69a5f888764ddd30683366deb011856a5d2b2d6efb72f8b5b15f0ea1d58f433",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-return-lit.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "stems-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "7b46e7f20a37485e3852b6b1cc51157940ea2b0f38ac58ba1fba1cbda8454f45",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.469155, 0.0, -0.883116), Y: (-0.392885, 0.895587, -0.20872), Z: (0.790907, 0.444885, 0.42017), O: (-4.8, 2.4, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-return-ids.png",
+      "clock": 3.0,
+      "fov": 59.0,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 28235,
+        "ceiling": 0,
+        "cyclorama": 174813,
+        "flora": 148446,
+        "gate_wood": 60516,
+        "mountains": 33338,
+        "window": 53619
+      },
+      "kind": "ids",
+      "label": "stems-return",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "eb7b51abe19c2ebc81e49dd3b702793bb167ed9b8a2570c7668fd2b0c228da26",
+      "text": "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-look-lit.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 0,
+        "ceiling": 0,
+        "cyclorama": 0,
+        "flora": 0,
+        "gate_wood": 0,
+        "mountains": 0,
+        "window": 0
+      },
+      "kind": "lit",
+      "label": "stems-look",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "a831d59e80540702cf43367a65d42bd905e4b0bca22755b0868932bb3ee98d0e",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    },
+    {
+      "camera": "[X: (0.063971, 0.0, -0.997952), Y: (-0.264516, 0.964232, -0.016956), Z: (0.962257, 0.265059, 0.061683), O: (-1.0, 2.6, 13.0)]",
+      "capture": "/tmp/garden-xiaoxiang-framing-20261010/framing-density-v3/stems-look-ids.png",
+      "clock": 3.0,
+      "fov": 57.5,
+      "header_bottom": 38.0,
+      "ids": {
+        "backstage": 25031,
+        "ceiling": 166151,
+        "cyclorama": 323588,
+        "flora": 196589,
+        "gate_wood": 65607,
+        "mountains": 37276,
+        "window": 17409
+      },
+      "kind": "ids",
+      "label": "stems-look",
+      "logical_viewport": [
+        411.428558349609,
+        755.047607421875
+      ],
+      "panel_top": 455.047607421875,
+      "pixels": [
+        1080,
+        1982
+      ],
+      "room": "xiaoxiang_guan",
+      "sha256": "a268a89da966571a46e11d30d6ee08b87af1afb89865e2d4b4456cb91e481c6e",
+      "text": "Bamboo clumps frame a narrow stone aisle. One amber window glows between the stems; the timber gate remains closed."
+    }
+  ],
+  "runtime_sha256": "e7192cab8e89f96f6b27d99c5c59eb111b3401d6983ec476f8dee665e4b099c0",
+  "scope": "Completed-lighting native public overview/gate/stems/Look, projected saved facade and full gate+threshold or selected medium clump+pane above actual UI, actual ID visibility and ceiling fraction, resize/rotation/text/visitor preservation, original desktop poses and touch targets/return access. No physical-phone, full moving tour or final-art acceptance.",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "status": "rejected",
+  "test_sha256": "6ef0cad9cd6ab77794d518c9f0fbd50fa8da527d00bdcfc132d3e5143eb78a7c",
+  "touch": true
+}

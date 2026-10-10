@@ -1,0 +1,30 @@
+{
+  "status": "failed",
+  "mode": "tours",
+  "runtime_sha256": "56ef3529a79f99c326900976d9ad56f367fecb0a432480c5484099d77c74edd4",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "tour-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--capture-directory=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/tour-desktop",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/tour-desktop/report.json"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v4/tour-desktop.log",
+      "status": "failed",
+      "pid": 40853,
+      "exit_code": 1,
+      "log_sha256": "0eb9b6e2d7d647d29f3242b221b65be2926f69c28a1a99fa39e0c8c0ef66c1d5"
+    }
+  ],
+  "error": "('tour-desktop', 'Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max\\n\\nCONTINUOUS_LEG_RECORDED terminal_room -> rockery_gate frames=638 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED rockery_gate -> qinfang_ting frames=1094 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> qiushuang_zhai frames=918 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qiushuang_zhai -> tubi_tang frames=840 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED tubi_tang -> qiushuang_zhai frames=797 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qiushuang_zhai -> qinfang_ting frames=919 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> ouxiang_xie frames=616 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED ouxiang_xie -> ziling_zhou frames=312 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED ziling_zhou -> ouxiang_xie frames=306 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED ouxiang_xie -> longcui_an frames=498 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED longcui_an -> ouxiang_xie frames=492 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED ouxiang_xie -> qinfang_ting frames=611 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> hengwu_yuan frames=920 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED hengwu_yuan -> daoxiang_cun frames=791 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED daoxiang_cun -> hengwu_yuan frames=791 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED hengwu_yuan -> qinfang_ting frames=921 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> daguan_lou frames=651 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED daguan_lou -> qinfang_ting frames=645 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> yihong_yuan frames=613 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED yihong_yuan -> aojing_guan frames=579 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED aojing_guan -> yihong_yuan frames=584 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED yihong_yuan -> qinfang_ting frames=616 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> xiaoxiang_guan frames=470 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED xiaoxiang_guan -> qinfang_ting frames=470 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED qinfang_ting -> rockery_gate frames=848 grounded_ray_misses=0\\nCONTINUOUS_LEG_RECORDED rockery_gate -> terminal_room frames=641 grounded_ray_misses=0\\nERROR: FULL_GARDEN_TRAVERSAL_FAILED: Rendered tour did not capture all twenty-six settled arrival views\\n   at: push_error (core/variant/variant_utility.cpp:1023)\\n   GDScript backtrace (most recent call first):\\n       [0] finish (res://tests/test_full_garden_traversal.gd:47)\\n')"
+}
