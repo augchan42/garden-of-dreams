@@ -1,0 +1,17 @@
+.F.
+======================================================================
+FAIL: test_lossless_reimport_invalidates_only_owned_caches (test_configure_backdrop_wash_import.BackdropWashImportTests.test_lossless_reimport_invalidates_only_owned_caches)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_backdrop_wash_import.py", line 41, in test_lossless_reimport_invalidates_only_owned_caches
+    self.configure(root)
+    ~~~~~~~~~~~~~~^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_backdrop_wash_import.py", line 31, in configure
+    self.assertTrue(path.exists(), 'Backdrop lossless import configurator missing')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Backdrop lossless import configurator missing
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.007s
+
+FAILED (failures=1)

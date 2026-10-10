@@ -1,0 +1,118 @@
+[
+  {
+    "name": "wash-resource",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/test_backdrop_wash_import.gd",
+      "--",
+      "--output=/tmp/garden-backdrop-seam-20261010/installed-wash-resource.json"
+    ],
+    "status": "passed",
+    "pid": 92437,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "baked-wash-normal",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/test_baked_backdrop_wash.gd",
+      "--"
+    ],
+    "status": "passed",
+    "pid": 92555,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "baked-wash-demo",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/test_baked_backdrop_wash.gd",
+      "--",
+      "--demo"
+    ],
+    "status": "passed",
+    "pid": 92567,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "runtime-caps",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/test_runtime_texture_caps.gd",
+      "--",
+      "--output=/tmp/garden-backdrop-seam-20261010/installed-runtime-caps.json"
+    ],
+    "status": "passed",
+    "pid": 92585,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "moon-resource",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/test_moon_runtime_import.gd",
+      "--",
+      "--output=/tmp/garden-backdrop-seam-20261010/installed-moon-resource.json"
+    ],
+    "status": "passed",
+    "pid": 92660,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "arrivals-desktop",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/render_entry_route.gd",
+      "--",
+      "--views-only",
+      "--fixed-clock",
+      "--output-directory=/tmp/garden-backdrop-seam-20261010/installed-arrivals-desktop"
+    ],
+    "status": "passed",
+    "pid": 92685,
+    "exit_code": 0,
+    "diagnostics": []
+  },
+  {
+    "name": "arrivals-portrait",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--path",
+      "/Users/auchan/projects/garden-of-dreams/godot",
+      "--script",
+      "res://tests/render_entry_route.gd",
+      "--",
+      "--views-only",
+      "--fixed-clock",
+      "--mobile",
+      "--output-directory=/tmp/garden-backdrop-seam-20261010/installed-arrivals-portrait"
+    ],
+    "status": "passed",
+    "pid": 92973,
+    "exit_code": 0,
+    "diagnostics": []
+  }
+]

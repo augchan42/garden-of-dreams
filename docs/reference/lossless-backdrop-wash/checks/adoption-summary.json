@@ -1,0 +1,40 @@
+{
+  "status": "adopted_native_verified_android_built_device_pending",
+  "base_commit": "29ff850dff5eb93a1b35ab03f9fc6117f067e085",
+  "production_changed": true,
+  "source_artwork_geometry_lighting_changed": false,
+  "actual_native_checks": 7,
+  "python_tests": 25,
+  "arrival_originals_directly_viewed": 28,
+  "installed_arrivals_exact_to_reviewed_candidate": 28,
+  "actual_native_wash": {
+    "size": [
+      256,
+      256
+    ],
+    "format": "RGB8",
+    "format_enum": 4,
+    "normal_demo_applied": 6
+  },
+  "native_renderer_allocation_bytes": 40857593,
+  "native_renderer_delta_bytes": 218439,
+  "native_stored_image_delta_bytes": 163840,
+  "bound_texture_rids": 178,
+  "android_build_phases": 4,
+  "apk_sha256": "735bf87be0221775c40e308268b61696c71ddb5b93ad66e39b017bb14171bf20",
+  "apk_bytes": 86531491,
+  "apk_bound_imports_verified": 177,
+  "compiled_profile_dependencies_verified": 7,
+  "apk_installed": false,
+  "phone_untouched": true,
+  "protected_editors_untouched": true,
+  "historical_conclusion": "diagnosis/conclusion.json describes the pre-adoption checkpoint; its next steps and prepared APK identity are historical. All28arrivals have since been reviewed;9dde APK is stale after the guard/import change.",
+  "limitations": [
+    "Native results are Apple M2 Max Compatibility; actual Android lossless resource/allocation and uninterrupted sustained tour remain pending phone availability.",
+    "Physical canvas seams, baked moon shadow, coarse bakes and faceted forms remain separate art work.",
+    "Full14-site art, five references,2020Adreno,render budgets,release and authenticated services remain open."
+  ],
+  "host_attempts": [
+    "Initial additional inventory launch in restricted sandbox exited134 without producing output. Native audit rerun in permitted separate process completed0; no protected editor or phone action."
+  ]
+}
