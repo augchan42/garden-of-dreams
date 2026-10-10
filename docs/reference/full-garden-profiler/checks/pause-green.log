@@ -1,0 +1,15 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FULL_PRODUCER_PAUSE_AND_FOCUS_REJECTION_PASS expected_rejections=2
+ERROR: FULL_PHONE_PROFILE_REJECTED Dedicated profiling app paused or lost focus; continuous tour is invalid
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] reject (res://tests/profile_android_full.gd:34)
+       [1] _notification (res://tests/profile_android_full.gd:23)
+       [2] _initialize (res://tests/test_android_full_pause.gd:13)
+ERROR: FULL_PHONE_PROFILE_REJECTED Dedicated profiling app paused or lost focus; continuous tour is invalid
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] reject (res://tests/profile_android_full.gd:34)
+       [1] _notification (res://tests/profile_android_full.gd:23)
+       [2] _initialize (res://tests/test_android_full_pause.gd:13)

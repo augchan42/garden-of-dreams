@@ -1,0 +1,15 @@
+{
+  "status": "interrupted_not_acceptance",
+  "reason": "Reviewer found producer minimum2tour guard missing on slow phones; preserve actual partial run and rebuild before sustained acceptance.",
+  "completed_tours": 0,
+  "timed_seconds": 157.96248,
+  "completed_legs": 11,
+  "owned_collector_interrupted": [
+    {
+      "pid": 2980,
+      "parent": 2936,
+      "command": "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python /Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py --device 2B011FDH300KNR --build-report /tmp/garden-full-profiler-20261010/build-report.json --destination /tmp/garden-full-profiler-20261010/phone --wait-timeout 2100"
+    }
+  ],
+  "dedicated_app_stopped": true
+}

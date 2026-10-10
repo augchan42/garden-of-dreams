@@ -18,13 +18,6 @@ var trace: HashingContext
 var previous_position: Vector3
 var frame_costs = preload("res://tests/profile_frame_costs.gd").new()
 
-func _notification(what: int) -> void:
- if what in [NOTIFICATION_APPLICATION_PAUSED, NOTIFICATION_APPLICATION_FOCUS_OUT] and report.get("status", "") == "running":
-  reject("Dedicated profiling app paused or lost focus; continuous tour is invalid")
-
-static func needs_another_tour(completed: int, elapsed_usec: int) -> bool:
- return completed < 2 or elapsed_usec < 600000000
-
 func reject(reason: String) -> void:
  phase = ""
  failure = reason
@@ -171,7 +164,7 @@ func run() -> void:
  var started=Time.get_ticks_msec()
  await stationary("start-terminal_room")
  var tour=0
- while failure.is_empty() and needs_another_tour(tour, timed_usec):
+ while failure.is_empty() and (tour==0 or timed_usec<600000000):
   for index in range(TOUR.size()):
    if not failure.is_empty():return
    var leg=TOUR[index]
