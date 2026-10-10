@@ -66,10 +66,22 @@ closed JSON replacements by same-directory rename. Actual producer RED321
 incomplete reads became GREEN0; Pixel7Pro completed 479 reads with zero partial
 reports and all five real touch stages without reader retries. Nine Python
 tests and fresh APK/177 bound-import checks pass. Sampled memory is60.34MiB;
-P9519.948–34.535ms still misses60fps. This does not close Task5: full normal-route
-phone traversal and sustained timing,2020Adreno,final art,remaining five
-references,release and authenticated services remain required. Evidence:
+P9519.948–34.535ms still misses60fps. This does not close Task5: rendering
+budgets,2020Adreno,final art,remaining five references,release and authenticated
+services remain required. Evidence:
 [reports and originals](../../reference/android-profile-publication/README.md).
+
+2026-10-10 full normal-phone baseline: an isolated current-source Pixel 7 Pro
+APK completed two whole tours, 52 public-command legs and 735.865 timed seconds.
+All fourteen rooms passed floor, arrival and control checks; 35,118 grounded
+rays had zero misses. All 53 original captures were hash/dimension checked;
+fourteen distinct arrivals were directly inspected. Report publication remained
+complete across 448 reads. Texture allocation peaked at 68.62 MiB and every
+phase exceeded the 60 fps frame-interval limit; draw calls, primitives and
+practical lights passed. This records failed sustained budgets, not acceptance.
+The full profiling prototype is not integrated into production tools. Full-tour
+touch interaction, 2020 Adreno hardware and the other Task5 requirements remain
+open. Evidence: [full phone baseline](../../reference/full-garden-phone-baseline/README.md).
 
 Current evidence (2026-10-08): installed GLB `be80374c`, authoring `9356f6ec`, has the verified Ouxiang and imperial roof UV2 charts with complete fresh matching six-phase lighting. All37 native candidate phases, both fourteen-room/26-leg walks, default byte equality for all16GLBs and eight post-install checks pass. Actual stationary M2 Max normal-route texture allocation peaks at52,600,513bytes (50.16MiB), final52,517,225; phone/sustained budgets remain unaccepted. See `ouxiang-full-lighting-evidence.json`. Named original captures show more consistent Ouxiang roof shading; paving rectangles, green-heavy materials and final site art/framing remain open. Reference coverage36/42 leaves six slots missing. Current Android/device/2020Adreno/release and authenticated services remain required.
 

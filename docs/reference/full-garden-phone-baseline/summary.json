@@ -1,0 +1,68 @@
+{
+  "status": "completed_diagnostic_budgets_failed",
+  "device": {
+    "model": "Pixel 7 Pro",
+    "gpu": "Mali-G710",
+    "renderer": "gl_compatibility",
+    "image_size": [
+      1080,
+      2340
+    ],
+    "target_2020_adreno": false
+  },
+  "source_commit": "ff06beaede807ae91f7bcb4366335537ca2fd6cf",
+  "apk_sha256": "57fecae4f194e5dfa8c4ff0b767aca085176d0c5617fe92ffc8ae2042e548834",
+  "apk_bytes": 91073355,
+  "production_scene_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "production_runtime_sha256": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87",
+  "tours": 2,
+  "public_traversal_legs": 52,
+  "visited_rooms": [
+    "terminal_room",
+    "rockery_gate",
+    "qinfang_ting",
+    "qiushuang_zhai",
+    "tubi_tang",
+    "ouxiang_xie",
+    "ziling_zhou",
+    "longcui_an",
+    "hengwu_yuan",
+    "daoxiang_cun",
+    "daguan_lou",
+    "yihong_yuan",
+    "aojing_guan",
+    "xiaoxiang_guan"
+  ],
+  "timed_seconds": 735.865019,
+  "wall_seconds": 946.708,
+  "samples": 105,
+  "captures": 53,
+  "directly_inspected_originals": 14,
+  "complete_json_reads": 448,
+  "incomplete_json_reads": 0,
+  "supported_floor_ray_samples": 35118,
+  "floor_ray_misses": 0,
+  "texture_peak_bytes": 71956739,
+  "draw_calls_max": 99,
+  "primitives_max": 178601,
+  "practicals_max": 4,
+  "frame_interval_p95_ms_range": [
+    18.623,
+    28.434
+  ],
+  "budget_failures": {
+    "draw_calls": 0,
+    "p95_60fps": 105,
+    "practicals": 0,
+    "primitives": 0,
+    "texture": 105
+  },
+  "targets": {
+    "draw_calls": 150,
+    "frames_per_second": 60,
+    "practicals": 4,
+    "primitives": 300000,
+    "texture_memory_bytes": 67108864
+  },
+  "scope": "Two whole normal-physics public-command tours, at least600timedseconds. Readback excluded; no full-route touch input, 2020Adreno, release, final art or service acceptance. Prototype source and APK are isolated, not wired into production profiling scripts."
+}

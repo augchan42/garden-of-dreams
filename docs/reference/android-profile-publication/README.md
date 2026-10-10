@@ -34,7 +34,13 @@ python3 scripts/test_profile_report_publication.py --output /tmp/publication-che
 python3 -m unittest discover -s scripts/tests
 ```
 
-This fixes diagnostic publication. Full fourteen-room phone traversal, sustained
-timing, 2020 Adreno hardware, final art, five remaining references, release and
-authenticated services remain open. Source Blender files and the user's running
-editors were retained. PR #22's GitGuardian finding remains user-owned.
+The isolated [full garden phone baseline](../full-garden-phone-baseline/README.md)
+subsequently completed two normal tours, 52 legs and 735.865 timed seconds, with
+448 complete reads and zero incomplete reports. Texture allocation and frame
+timing remain over budget. The full prototype is not yet integrated into the
+production profiling tools.
+
+This fixes diagnostic publication. Rendering budgets, 2020 Adreno hardware,
+final art, five remaining references, release and authenticated services remain
+open. Source Blender files and the user's running editors were retained.
+PR #22's GitGuardian finding remains user-owned.
