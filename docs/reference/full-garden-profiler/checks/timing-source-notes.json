@@ -1,0 +1,12 @@
+{
+  "sources": [
+    "https://docs.godotengine.org/en/4.7/classes/class_renderingserver.html#class-renderingserver-method-viewport-get-measured-render-time-cpu",
+    "https://docs.godotengine.org/en/4.7/classes/class_performance.html#enum-performance-monitor",
+    "https://github.com/godotengine/godot/blob/4.7.2-stable/main/main.cpp#L4743-L4765"
+  ],
+  "cpu_render_scope": "Viewport rendering only, excluding scripts and other subsystems; sum active viewports plus shared frame setup for rendering CPU. Engine monitors are separate overlapping metrics, not additive.",
+  "zero_counter_rule": "All-zero is unavailable; native Android observed GPU counters are all-zero in the initial completed samples. Do not infer zero GPU work.",
+  "viewport_size_field": "First observed size within each phase, which can precede a pond reflection activation and resize.",
+  "inventory": "Reused native normal texture inventory from production-cap adoption; current source and production import hashes all reverified against this APK. No new native inventory run claimed.",
+  "process_physics_monitor_semantics": "Godot4.7.2 updates oncepersecond using precedingwindowmaxima. Sampledquantiles contain repeatedwindowmaxima and maycarry untimedscreenshot/readbackstall into initialtravel samples;notperframescriptorphysicspercentiles. Rawpreserved,donotdiagnosehotpath fromthese spikes."
+}

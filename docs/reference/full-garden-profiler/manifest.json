@@ -1,0 +1,372 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "e7e8349bdf3f6f503046c28efa84fcda6c6d59f0a270df2caed6df2fc839bb70",
+      "bytes": 4372
+    },
+    "checks/apk-export.log": {
+      "sha256": "df8aa8f388493d161684f26a3cfe4eb79a1a2304a4534f1f19800702b181ead3",
+      "bytes": 5928
+    },
+    "checks/apk-input-verification.json": {
+      "sha256": "990ec2b15d93b0b1dbf9e48809da5dec410bf795b281bc8c72a3bb749870bbb2",
+      "bytes": 33056
+    },
+    "checks/atomic-writer/engine.log": {
+      "sha256": "ab414a0557ae0d64e47d0621aea0541924ea1572e6e8675a160203529c0d10e4",
+      "bytes": 114
+    },
+    "checks/atomic-writer/publication.json": {
+      "sha256": "7b513f83e1b50e0e86dd85e7e03f0d4eae5972e4249899c50a04f5906ab3cd28",
+      "bytes": 450
+    },
+    "checks/atomic-writer/run.json": {
+      "sha256": "d9149ce5dc725537afe6a8d8a214d66cb76cccdc782d9f6a32969655c44854e7",
+      "bytes": 1264
+    },
+    "checks/build-host.log": {
+      "sha256": "3763293a69fef319eb4ea1dfa4424206a1e2fbeafeb8fbbfb9cd1170c43b73b4",
+      "bytes": 100
+    },
+    "checks/build-report.json": {
+      "sha256": "6b24eda45426f8c1f45d4b8007a90037fb52e0185f59bf2a294a8f857211c3db",
+      "bytes": 253464
+    },
+    "checks/direct-partial-original-review.json": {
+      "sha256": "f88e575acb3a67b72763f2924527067ff15c50ad5a67f004aa1cd32969b83448",
+      "bytes": 809
+    },
+    "checks/failed-startup-attempt/adb-missing-file-behavior.json": {
+      "sha256": "accc67d97437936e2e30e90799056324630c7600e7c1cadc5567ca8f4f76b64c",
+      "bytes": 135
+    },
+    "checks/failed-startup-attempt/first-attempt-app.log": {
+      "sha256": "d20b4c418196d25ca5c5652b1b422fc661b16279dde04eb5e3d4d52544bd8ef3",
+      "bytes": 1019
+    },
+    "checks/failed-startup-attempt/first-attempt-current-raw.json": {
+      "sha256": "4c18aec54707a35ff6079a0b99581e9760617a55eee7cef504b2f9edc4c0d2a1",
+      "bytes": 285785
+    },
+    "checks/failed-startup-attempt/first-attempt-current-stderr.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/failed-startup-attempt/phone-host.log": {
+      "sha256": "93fcf0acf5c99099324ae6778044f9e51aafe8356613c62292bb460637065d34",
+      "bytes": 2386
+    },
+    "checks/failed-startup-attempt/phone-pipeline.json": {
+      "sha256": "3c23126b9cbf98143d1744adb7306403c11ca970f0e1da6fc265a45cfd052ece",
+      "bytes": 457
+    },
+    "checks/final-native-checks.json": {
+      "sha256": "5d7a4311acb86ff922852d6ac1b360992d5fee831a26b401e785cdc38b0c47d0",
+      "bytes": 819
+    },
+    "checks/frame-cost-test.log": {
+      "sha256": "a47c933ff60abe966a7d7bd8fb769b4ba2f4afd6b808ad4d945e7f489ad2dbc5",
+      "bytes": 122
+    },
+    "checks/full-profile-red.log": {
+      "sha256": "fb733a38b513467a6894dcf2e0312dda2a28cf0b033b757d682e6e332fb8e3b9",
+      "bytes": 8994
+    },
+    "checks/interrupted-foreground-attempt/apk-input-verification.json": {
+      "sha256": "b55aa83bb854853bd40d9601392e030e4ecca0ffd1bb9f59a33314107af33670",
+      "bytes": 33056
+    },
+    "checks/interrupted-foreground-attempt/build-report.json": {
+      "sha256": "80fb70a40c275cffb1e1ec9aef3b18bb4e4dc8ca8b9e99a5e8e13b137080abde",
+      "bytes": 253460
+    },
+    "checks/interrupted-foreground-attempt/current-power-observation.json": {
+      "sha256": "15869bb17609be7ffd2dde251e6fd87586f590e4e9d008b0529e108f5d390520",
+      "bytes": 159
+    },
+    "checks/interrupted-foreground-attempt/current-stall-app.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/interrupted-foreground-attempt/garden-full-00-00-rockery_gate.png": {
+      "sha256": "f5a69a45215571f2c2921c892847b5c91b9fab5b58556082322f075325de1dba",
+      "bytes": 543334
+    },
+    "checks/interrupted-foreground-attempt/garden-full-00-01-qinfang_ting.png": {
+      "sha256": "1460023889f4bf831a9b6e795259c5dede7b3e6ea09e541ec942ce5ec95636e1",
+      "bytes": 1145861
+    },
+    "checks/interrupted-foreground-attempt/garden-full-00-02-qiushuang_zhai.png": {
+      "sha256": "68aa05e14774d674061265759a2377df6b8844ee87c33626d6788a0002067d40",
+      "bytes": 1076857
+    },
+    "checks/interrupted-foreground-attempt/garden-full-00-03-tubi_tang.png": {
+      "sha256": "7a27e7fc6c8101b029d205f74578a6814b33d5844feef58b58b1063446ba43fb",
+      "bytes": 1382309
+    },
+    "checks/interrupted-foreground-attempt/garden-full-00-04-qiushuang_zhai.png": {
+      "sha256": "d44715df7cdbf4a569ea645978152d4b34a732bf240fc99ec670c31458548cb2",
+      "bytes": 1076918
+    },
+    "checks/interrupted-foreground-attempt/garden-full-start-terminal_room.png": {
+      "sha256": "6e7b7533183fffe34c8d85d163cf2db95639c9218a17a0e7a6f3bd723534c0bc",
+      "bytes": 609828
+    },
+    "checks/interrupted-foreground-attempt/garden-phone-profile.json": {
+      "sha256": "2c2b6facdf0bff1e8692d71cb99e56abf513a9df84679ea025b00a92c0e6b75f",
+      "bytes": 304880
+    },
+    "checks/interrupted-foreground-attempt/interruption.json": {
+      "sha256": "f39226bc181ce5bad4134e9da27b1f52dbf24a56178ef3c3eaeb5770b53245e8",
+      "bytes": 305
+    },
+    "checks/interrupted-foreground-attempt/phone-host.log": {
+      "sha256": "d269945dd442e7d2a54c3626dd902f8bae7d9510dbdf74c96d3698e3e8e2cd05",
+      "bytes": 127
+    },
+    "checks/interrupted-foreground-attempt/phone-pipeline.json": {
+      "sha256": "036bbf0552042c87aa1571111202d7fbb95ce1665696304e1c9341fb58450052",
+      "bytes": 130
+    },
+    "checks/interrupted-two-tour-guard-attempt/apk-input-verification.json": {
+      "sha256": "1ea044b2c912a5fa9e312a80c266a3af5a31b68067277154682486b7380dc8aa",
+      "bytes": 33056
+    },
+    "checks/interrupted-two-tour-guard-attempt/app.log": {
+      "sha256": "aaca512f8658d79494827907675075889daa61d29d1575efc95e97d5586355c3",
+      "bytes": 2148
+    },
+    "checks/interrupted-two-tour-guard-attempt/build-host.log": {
+      "sha256": "952a8af2e06270a8d4ffba758751e4ffcf83a543ba7276d1bf9a8955dbb103d0",
+      "bytes": 100
+    },
+    "checks/interrupted-two-tour-guard-attempt/build-report.json": {
+      "sha256": "cf17182b2a14457a15f934147992025f72ba43f1c89cf03aa8abeda6cc74f85a",
+      "bytes": 253464
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/profile_android.gd": {
+      "sha256": "046e5aa5fac30749fe0f7f2592c87258fc59a97ec92864b4c819256963ac8dfc",
+      "bytes": 9065
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/profile_android_full.gd": {
+      "sha256": "fa6c4c442c2d3ae03b1493286d36f1de2d905fe82557d18930357964d3328815",
+      "bytes": 11997
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/profile_frame_costs.gd": {
+      "sha256": "32e0275c22de0eda8e627610209b4d93860b8c5db4988ead0a53ea0c47e5f2a4",
+      "bytes": 3443
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/profile_report_store.gd": {
+      "sha256": "39d843c7e7ebd3a119d5bf3d20f429d29ae767a4acb4b1b2100f42c461e7f441",
+      "bytes": 708
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/runtime_texture_caps.gd": {
+      "sha256": "896de1dbf654ff53b700e3262e4329177e74f623381c5d69ef2b2362ac0b8054",
+      "bytes": 4491
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/test_full_garden_traversal.gd": {
+      "sha256": "be92a970338619f635c42537b4457da74400d11974268de854b42e1d04e6f932",
+      "bytes": 7541
+    },
+    "checks/interrupted-two-tour-guard-attempt/executed-source/texture_binding_inventory.gd": {
+      "sha256": "7b07a223d0e7792cc70c9acd8618bf3e450b885427c874e716faa3910e3ffdfd",
+      "bytes": 4774
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-00-rockery_gate.png": {
+      "sha256": "ea9379908232634215611c90c972b5661e31cbb0655675e0b91250b4a552d669",
+      "bytes": 543439
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-01-qinfang_ting.png": {
+      "sha256": "73fe40e268684f6b4f867a1e794225fc5536a532d63aede62acd5148167d0857",
+      "bytes": 1145878
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-02-qiushuang_zhai.png": {
+      "sha256": "9233ecac06a3b52fc2e09e2208e5031c0b33f47bd74eecc069a25434f6834425",
+      "bytes": 1076885
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-03-tubi_tang.png": {
+      "sha256": "7a27e7fc6c8101b029d205f74578a6814b33d5844feef58b58b1063446ba43fb",
+      "bytes": 1382309
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-04-qiushuang_zhai.png": {
+      "sha256": "c2cc4768420a8c0ea2e0e92c6ea434de5b7761f1736938c2056fc5ae56a2a499",
+      "bytes": 1076967
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-05-qinfang_ting.png": {
+      "sha256": "041eaa9e74c0cb3e11211e61d2c60d492c4666dffd4cef193421bd16ef2870b0",
+      "bytes": 1144823
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-06-ouxiang_xie.png": {
+      "sha256": "56ca8c0e0d3917e32c3f39e1cf18219796a8046239e2453d141bc279a06c587a",
+      "bytes": 1310207
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-07-ziling_zhou.png": {
+      "sha256": "9868adbe6e8b868a54ae4e8661906bc37ad43466931312432034521ce8a7cc51",
+      "bytes": 1209953
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-08-ouxiang_xie.png": {
+      "sha256": "d694dbdc85bba378f1a33d33b1b8ccbdd8d06b5b1091684be74888bea139aee6",
+      "bytes": 1307528
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-09-longcui_an.png": {
+      "sha256": "060e6ed81410e7e8c0e492b7d4f39fb0fb69389d257d9cb3ec6f20d46811c816",
+      "bytes": 1054805
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-00-10-ouxiang_xie.png": {
+      "sha256": "5aa180a90e9e8549f1cc9a0bb1837ea7a5fa47c37381b2fd89a8bf7fc759b12d",
+      "bytes": 1306839
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-full-start-terminal_room.png": {
+      "sha256": "b6f0cf05587fe785023d5c02db5ba1f9de7460641ba20373e1e3752df16644bc",
+      "bytes": 610043
+    },
+    "checks/interrupted-two-tour-guard-attempt/garden-phone-profile.json": {
+      "sha256": "62ac58fc2e755e56cb7a3abb3585afb2e258b7f21d6618c7458b3eba5281ba10",
+      "bytes": 349684
+    },
+    "checks/interrupted-two-tour-guard-attempt/interruption.json": {
+      "sha256": "21abd819ab9015ea65f86186e7641aba67d0bb079e43ba4198eff2e1e140a155",
+      "bytes": 786
+    },
+    "checks/interrupted-two-tour-guard-attempt/phone-profile-build.json": {
+      "sha256": "8fce12ae0454f3a4387235dbbb368d72cbaa56dcc3541e1668a75fcb6aae80dd",
+      "bytes": 253375
+    },
+    "checks/minimum-tours-green.log": {
+      "sha256": "17e7dbf8d708f2e140cc2a7de7598384a789d801c9b1defaf3e9bec672ff2448",
+      "bytes": 120
+    },
+    "checks/minimum-tours-red.log": {
+      "sha256": "e9fff128cb078744cd4a2a86ce3320de78821ab55261cdb48ecab8de0aed2e1f",
+      "bytes": 311
+    },
+    "checks/mobile-texture-import.log": {
+      "sha256": "d0308655171eb9973bca75c4024e4811fa48cf9ce7fdff4a45b2a73d987ec293",
+      "bytes": 98262
+    },
+    "checks/moon-runtime-import-check.json": {
+      "sha256": "e31c33cfa0feaeb82d1caf4db499238820b7f8b87299bd00e621e3ac40b64114",
+      "bytes": 316
+    },
+    "checks/moon-runtime-import-check.log": {
+      "sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e",
+      "bytes": 145
+    },
+    "checks/normal-texture-inventory.json": {
+      "sha256": "e4381a16661ec6d1ff2a4be245bb58e4670404ecca340a32f3a75a6bbb2d4363",
+      "bytes": 109152
+    },
+    "checks/pause-green.log": {
+      "sha256": "2b3d132806883cfd1b694afe01880e911c073405d6044fc28629388e10eef968",
+      "bytes": 952
+    },
+    "checks/pause-red.log": {
+      "sha256": "9f5c527d7af2d2516351c0dda8e1ef8510584c95000693850e6291a05521ef78",
+      "bytes": 311
+    },
+    "checks/phone-profile-build.json": {
+      "sha256": "14f8e01ed6c46ea255a1622b03fc44781ad5ffc898cedcffa1009810b20aa89c",
+      "bytes": 253375
+    },
+    "checks/production-preservation.json": {
+      "sha256": "1b25a7f14f4586c91ae8c7fd76969efd11fc363b56cba9105652f53ce96ab650",
+      "bytes": 120688
+    },
+    "checks/python-green.log": {
+      "sha256": "abca6862bcdfbe25ad1db4b4f5b06c64a4d628c8dd58696506ff1fbc1a1d56a4",
+      "bytes": 3712
+    },
+    "checks/runtime-texture-cap-check.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "checks/runtime-texture-caps.json": {
+      "sha256": "7557d09072504a109e712f63ad315f73b9d6c50ce2ccf587dbe431825fbab649",
+      "bytes": 3011
+    },
+    "checks/startup-red.log": {
+      "sha256": "8ba1024091da1bb436faaf1e35a5486ff88a2640d2a5c51b1f30648fbd7c4976",
+      "bytes": 1650
+    },
+    "checks/test_android_full_pause-final.log": {
+      "sha256": "2b3d132806883cfd1b694afe01880e911c073405d6044fc28629388e10eef968",
+      "bytes": 952
+    },
+    "checks/test_android_full_tour_minimum-final.log": {
+      "sha256": "17e7dbf8d708f2e140cc2a7de7598384a789d801c9b1defaf3e9bec672ff2448",
+      "bytes": 120
+    },
+    "checks/test_profile_frame_costs-final.log": {
+      "sha256": "a47c933ff60abe966a7d7bd8fb769b4ba2f4afd6b808ad4d945e7f489ad2dbc5",
+      "bytes": 122
+    },
+    "checks/timing-source-notes.json": {
+      "sha256": "979d2d37c3066e228fe7d24b31cadaa65a872c937037bd47cef55b6f1af000de",
+      "bytes": 1375
+    },
+    "executed-source/android_profile_modes.py": {
+      "sha256": "3bd5955f7b2507e10d0dcf48df24ac48824364a46892d7bd5404e6f32586d888",
+      "bytes": 3434
+    },
+    "executed-source/build_android_profile.py": {
+      "sha256": "a9ea6f101594e25df5e7e106de5b0011b78826d35b7b0b4172e94e7deb0ccc72",
+      "bytes": 16183
+    },
+    "executed-source/collect_android_profile.py": {
+      "sha256": "8d075281f41a022a60d1f404a64e0d7be052bf05b72af8707fdd7d63add4f510",
+      "bytes": 15770
+    },
+    "executed-source/profile_android.gd": {
+      "sha256": "046e5aa5fac30749fe0f7f2592c87258fc59a97ec92864b4c819256963ac8dfc",
+      "bytes": 9065
+    },
+    "executed-source/profile_android_full.gd": {
+      "sha256": "eb0bd09a44ca9ec936dfb96e7a103129ee1c60d3dc3203e2d5b1cba71fdbcd3a",
+      "bytes": 12376
+    },
+    "executed-source/profile_frame_costs.gd": {
+      "sha256": "32e0275c22de0eda8e627610209b4d93860b8c5db4988ead0a53ea0c47e5f2a4",
+      "bytes": 3443
+    },
+    "executed-source/profile_report_store.gd": {
+      "sha256": "39d843c7e7ebd3a119d5bf3d20f429d29ae767a4acb4b1b2100f42c461e7f441",
+      "bytes": 708
+    },
+    "executed-source/runtime_texture_caps.gd": {
+      "sha256": "896de1dbf654ff53b700e3262e4329177e74f623381c5d69ef2b2362ac0b8054",
+      "bytes": 4491
+    },
+    "executed-source/test_android_full_pause.gd": {
+      "sha256": "d3d93257868df3f59e77544a6917dcbae8f01c6f9e046a798969c41c54c2fc70",
+      "bytes": 1097
+    },
+    "executed-source/test_android_full_profile.py": {
+      "sha256": "dc4a830602d21c5f21434b2fc9f40471f756a425a79e8383a4b70db2459a3ffd",
+      "bytes": 9074
+    },
+    "executed-source/test_android_full_tour_minimum.gd": {
+      "sha256": "482600679af464a0a3f166144f35ccd292461190bf357ab02df8e82b2e36296d",
+      "bytes": 601
+    },
+    "executed-source/test_android_profile_payloads.py": {
+      "sha256": "d5ea1dc110f98a1a30485a2baa2fe8452e9624b0369397da1a14be5dc4ea1a14",
+      "bytes": 2436
+    },
+    "executed-source/test_full_garden_traversal.gd": {
+      "sha256": "be92a970338619f635c42537b4457da74400d11974268de854b42e1d04e6f932",
+      "bytes": 7541
+    },
+    "executed-source/test_profile_frame_costs.gd": {
+      "sha256": "fcef8135dca7b1ac3e0e822fcad9ea7fd7891ece731848da8e5a6051217671fc",
+      "bytes": 1421
+    },
+    "executed-source/texture_binding_inventory.gd": {
+      "sha256": "7b07a223d0e7792cc70c9acd8618bf3e450b885427c874e716faa3910e3ffdfd",
+      "bytes": 4774
+    },
+    "executed-source/verify_android_profile_inputs.py": {
+      "sha256": "1a6e41502a9969839aa08f8dbb18ef9c95d163120b8dc5fdc65b1f569ce3fdee",
+      "bytes": 7107
+    }
+  }
+}

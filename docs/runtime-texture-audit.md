@@ -43,3 +43,10 @@ The last command verifies the preserved same-source comparison. Fresh runtime ru
 ## Current source inventory — 2026-10-09
 
 The native M2 Max Compatibility inventory for `1380ceca` reports 52,517,225 renderer texture bytes in normal exploration (maximum sampled arrival 52,600,513) and 43,468,745 in the focused demo (maximum sampled arrival 43,512,435). Bound image data is 36,525,582/30,245,390 bytes respectively; renderer allocations include additional resources. The demo stationary allocation is under 64 MiB. This does not establish physical-phone, sustained traversal or frame-time acceptance. Detailed per-texture bindings/dimensions and current source/runtime hashes are retained in `reference/ziling-source-art/review/texture-memory-{normal,demo}.json`. Current released/installed Android builds remain on the prior source.
+
+
+## Full-garden profiling tools — 2026-10-10
+
+The normal tour is now integrated into the builder/collector, with mandatory two-tour/600-second coverage, actual Android normal loaded-cap checks, all producer/dependency and packaged scene/script identity checks, atomic reads, floor/camera/capture/budget validation and pause/focus rejection. Twenty-two Python tests, actual Godot minimum-tour/pause/counter controls and final isolated build/APK resource checks pass. The final pause-protected package has not been installed: the phone switched apps during the preceding run. Its five completed legs reached62.29MiB, which is partial evidence only.
+
+The full goal remains open. Restart the sustained test when the phone can remain in Garden for about15minutes. Then measure combined viewport draws/primitives and isolate rendering/process costs with controls; zero native GLES GPU counters are unavailable, while Godot's process monitors are repeated once-per-second window maxima. Continue final per-site art, five references,2020Adreno,release andauthenticated services. See [tooling and retained incomplete attempts](reference/full-garden-profiler/README.md).
