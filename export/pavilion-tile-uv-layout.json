@@ -11,6 +11,14 @@
     60
   ],
   "padding_texels": 4,
-  "reserved_height_texels": 144,
-  "scope": "UV2 only on the exported Qinfang atlas batch. Tile charts receive explicit pixel extent; all other charts fit above their reserved strip. Geometry/primary UVs are unchanged. Fresh matching bake and native filtering checks remain required."
+  "reserved_height_texels": 400,
+  "scope": "UV2 only: sixteen continuous saved-source corridor roof charts; prior central tile strips retained; other charts fit above400. Fresh matching source lighting and native importer checks required.",
+  "corridor_charts": 16,
+  "corridor_faces": 392,
+  "corridor_cell_texels": [
+    128,
+    128
+  ],
+  "corridor_padding_texels": 4,
+  "corridor_reserved_start": 144
 }
