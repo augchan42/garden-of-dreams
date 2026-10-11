@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "pid": 27504,
+  "fixed_clock": 3.0,
+  "phases": [
+    {
+      "name": "candidate",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-lattice-20261010/fixed-capture-candidate.log",
+      "pid": 27565,
+      "exit_code": 0,
+      "log_sha256": "eb3bd0f9afc5d4408757ca0660b36cf9a5757b147e20431975d80f3e23e34062"
+    },
+    {
+      "name": "installed",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-lattice-20261010/fixed-capture-installed.log",
+      "pid": 39671,
+      "exit_code": 0,
+      "log_sha256": "eb3bd0f9afc5d4408757ca0660b36cf9a5757b147e20431975d80f3e23e34062"
+    }
+  ],
+  "scope": "Equal explicit native draw and scene clocks in both projects. Product files unchanged; no screenshot tolerance.",
+  "byte_exact_originals": 8,
+  "files": {
+    "desktop-overview.png": "a562e270da5571fc293348e7b8fe6314d9524aec4f6db5b889513ca814a9d331",
+    "portrait-centre.png": "ae4a006247f1dd67cc77f4ef7706b183533fcb56ab53a6e816d0b42d47e1dde5",
+    "portrait-right.png": "eb28fd0095408e30f006ab6bbeea36d28a0a8b44dfc64390e7e659134e67ff88",
+    "portrait-left.png": "0028d81dbe7ac8851fa49b706a808fd482ac46064298eef5420e1befd1b6f427",
+    "desktop-left.png": "84315356f7b1e1948ff9b445fc7f9aea3a52ae20e0c65f071b590767f5851757",
+    "desktop-centre.png": "0e1265efc7e2de20d33ad630cf8be6af5c48926893a5c633f22cd3a182f50905",
+    "desktop-right.png": "b4e2bce385be2cefac32b42165ded2aa5076ea1b92ed460842d17bedffbdc86c",
+    "portrait-overview.png": "324f158577c080fee9e8b2db9a0e25e3fb3bfb72fc91aed5f30f4e96ed2ec313"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "complete_lattice_source_lighting_passed_native_review_pending",
+  "orchestrator_pid": 2290,
+  "authoring_sha256": "f3ed820cc088b83c836fa7f4681cb1775fbd637fbb5e56e141b4c81c0891fd6f",
+  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/tmp/garden-qiushuang-lattice-20261010"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lighting-preparation-logs/site-libraries.log",
+      "pid": 2291,
+      "exit_code": 0,
+      "log_sha256": "a5243c9d58af2ac0ee31c3b9358050a33c19787da62b913c4cee729441c62f3c"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 2301,
+      "exit_code": 0,
+      "log_sha256": "5e2d94ccd4818e5c9db41245fd169ccdc4027879ed575cddcf6cccc53fae28f5"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lighting-preparation-logs/full-lighting.log",
+      "pid": 2338,
+      "exit_code": 0,
+      "log_sha256": "2051683a741a1e399abe0d097307a7d202acc10a6ece2773ce948be762bcc721"
+    }
+  ]
+}

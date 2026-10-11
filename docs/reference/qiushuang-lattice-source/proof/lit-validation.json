@@ -1,0 +1,250 @@
+{
+  "status": "isolated_lit_views_and_resource_checks_passed_tours_and_direct_review_pending",
+  "pid": 46746,
+  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "phases": [
+    {
+      "name": "sync_full_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/sync_full_lightmaps.log",
+      "pid": 46749,
+      "exit_code": 0,
+      "log_sha256": "d9680ad69e7e43c476453459129b4f598f4eac4e08b0f5a9519ecc07bca4f2b1"
+    },
+    {
+      "name": "sync_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/sync_backdrop_wash.log",
+      "pid": 46751,
+      "exit_code": 0,
+      "log_sha256": "015b3a7802d4b53f2b746a858061d2f19a4c40db5e551705bf244d2f7097b0c8"
+    },
+    {
+      "name": "sync_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/sync_terminal_spill.log",
+      "pid": 46762,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "sync_demo",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-lattice-20261010/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/sync_demo.log",
+      "pid": 46802,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "native_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/native_import.log",
+      "pid": 46846,
+      "exit_code": 0,
+      "log_sha256": "2a573d3ca3a8c90dc52598a371c4c1f12831cb88b8a0ee4c90d65442d6e7dc5a"
+    },
+    {
+      "name": "full_scene",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/full_scene.log",
+      "pid": 46956,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--script",
+        "res://tests/test_backdrop_wash_import.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/wash.log",
+      "pid": 47139,
+      "exit_code": 0,
+      "log_sha256": "2c500daf982692b8355d1496c997964a250c7b9c0cc4578c0ed79c53a9b6a487"
+    },
+    {
+      "name": "spill",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/spill.log",
+      "pid": 47141,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "runtime_caps",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--script",
+        "res://tests/test_runtime_texture_caps.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/runtime_caps.log",
+      "pid": 47145,
+      "exit_code": 0,
+      "log_sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6"
+    },
+    {
+      "name": "lattice_lit",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_lattice_lit.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/native-lit-qiushuang"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/lattice_lit.log",
+      "pid": 47154,
+      "exit_code": 0,
+      "log_sha256": "eb3bd0f9afc5d4408757ca0660b36cf9a5757b147e20431975d80f3e23e34062"
+    },
+    {
+      "name": "framing_normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/lit-framing-normal"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/framing_normal.log",
+      "pid": 47923,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "framing_touch",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/lit-framing-touch",
+        "--touch"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/framing_touch.log",
+      "pid": 48382,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "arrivals_desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/tmp/garden-qiushuang-lattice-20261010/lit-arrivals-desktop"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/arrivals_desktop.log",
+      "pid": 48732,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals_portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/tmp/garden-qiushuang-lattice-20261010/lit-arrivals-portrait",
+        "--mobile"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-validation-logs/arrivals_portrait.log",
+      "pid": 48778,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    }
+  ],
+  "scope": "Isolated current-source engine integration, native views and existing regression checks. No production adoption or phone/device/performance acceptance.",
+  "preserved_lightmap_import_parameter_files": 141
+}

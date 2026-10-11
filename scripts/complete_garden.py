@@ -28,9 +28,12 @@ def hall(slug,title,p,w=7,depth=2,monitors=False):
    for row in range(2):
     for col in range(2):crt((x+dx+(col-.5)*.74,y-.35,z+1.05+row*.62),True)
   else:box('KIT_wall_amber_window',(x+dx,y-.2,z+1.5),(1.4,.03,1.4),crtamber)
-  for k in range(7):
-   box('KIT_wall_lattice_vertical',(x+dx-.75+k*.25,y-.65,z+1.5),(.025,.035,1.6),wood)
-   box('KIT_wall_lattice_horizontal',(x+dx,y-.67,z+.75+k*.25),(1.6,.035,.025),wood)
+  # Keep the screen faces clear while retaining seven bars in each direction.
+  vertical_offsets=[-.78,-.68,-.07,0,.07,.68,.78] if monitors else [-.75+k*.25 for k in range(7)]
+  horizontal_heights=[.75,.84,1.28,1.375,1.47,1.93,2.25] if monitors else [.75+k*.25 for k in range(7)]
+  for offset,height in zip(vertical_offsets,horizontal_heights):
+   box('KIT_wall_lattice_vertical',(x+dx+offset,y-.65,z+1.5),(.025,.035,1.6),wood)
+   box('KIT_wall_lattice_horizontal',(x+dx,y-.67,z+height),(1.6,.035,.025),wood)
   cyl('KIT_pavilion_hall_post',(x+dx,y-.9,z+1.5),.09,3,wood)
  # two square roof sections form a broad silhouette
  for dx in [-w*.24,w*.24]:roof((x+dx,y+.15,z+2.95),w*.46,4)

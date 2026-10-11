@@ -118,3 +118,10 @@ Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compa
 ### Xiaoxiang portrait framing — 2026-10-10
 
 The installed `ec42ec55` runtime lowers portrait overview framing and keeps gate/threshold and selected bamboo/window subjects above actual controls. Seventeen focused and moving originals were directly inspected; both full Mac tours pass with all camera arrivals complete. The unchanged source is `faa8a7fe`. Overhead enclosure, foreplant edge cropping, dark gate and return-walk lighting, pavilion post occlusion during travel and final foliage density remain art work. This camera acceptance does not close final scene or device acceptance. [Executed evidence](reference/xiaoxiang-camera-framing/README.md).
+
+
+## Qiushuang screen openings — 2026-10-11
+
+Thirty-three of the 42 lattice bars now sit in gaps around the twelve CRTs. Sampled source occlusion falls from 180 to zero of 1,152 with a reproducing negative control. Other source objects, materials, camera/collision contracts and fourteen other site GLBs are preserved. The canonical exporter and hall generator reproduce the accepted layout. All 141 fresh maps are installed with the existing import policies; two full Mac tours, installed source/resource checks and eight exact fixed-clock screen-view pairs pass. Initial capture deadlines and the unfrozen pixel mismatch remain in the archive. A current full debug APK is built and verified offline but uninstalled.
+
+The bright centre wall, coarse bakes and final scene composition remain work. This repair does not close the existing draw budget, physical-device gates, final fourteen-site art, five missing references, authenticated services or release. [Executed evidence](reference/qiushuang-lattice-source/README.md).

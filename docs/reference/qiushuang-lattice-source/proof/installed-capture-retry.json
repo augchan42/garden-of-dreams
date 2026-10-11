@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "pid": 3062,
+  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "first_attempt": "installed-validation.json",
+  "reason": "First installed capture hit its unchanged 150-second deadline after two exact images during a concurrent Android Godot build; retry serially without changing source, runtime, capture helper or deadline.",
+  "child_pid": 3067,
+  "exit_code": 1,
+  "error": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max\n\nERROR: QIUSHUANG_LATTICE_LIT_DEADLINE\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] <anonymous lambda> (res://tests/capture_lattice_lit.gd:6)\n"
+}
