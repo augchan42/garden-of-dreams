@@ -1,0 +1,71 @@
+{
+  "status": "native_unbaked_lattice_comparison_passed",
+  "captures_decoded": 16,
+  "view_pairs": [
+    {
+      "shape": "desktop",
+      "action": "overview",
+      "baseline_sha256": "e5b733b2c0020b2c8835e6c1cd652caf990471a69d882dddb58dcbcadce0b635",
+      "candidate_sha256": "45ea196d557f76612a47c23c03223cf89d70669e6e01088f4061e661fffe3343",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "desktop",
+      "action": "left",
+      "baseline_sha256": "51fec323ffce588e903f8720ee4357c138824d85a26a6f2b1936f155c957bd84",
+      "candidate_sha256": "a99d13f18018151d28ee9cf069bded806533a7d57d88dda6c2c66f0d642f99e9",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "desktop",
+      "action": "centre",
+      "baseline_sha256": "d6a839676e61ff0279be5148bf27813b36081b430c694780fdccf6d057a7d34d",
+      "candidate_sha256": "f3a7cdaedb84e00ce6549218622ddeee045de3431af37486e638fdbf0bb00290",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "desktop",
+      "action": "right",
+      "baseline_sha256": "e898081a5f66505daa21f6af3036b9aa84347edd2c4041753fdc5a6b7ad784b3",
+      "candidate_sha256": "c507da0943128344226c440dccf18bbb35c0cdf5affab969bcdd01ad21c277d7",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "portrait",
+      "action": "overview",
+      "baseline_sha256": "3ab0079f761f354aacef757e140926a9a36d0ae87a248e7a3366a91677b0750f",
+      "candidate_sha256": "46c573b07305357322e508636cdafc59a26481523464b7fb47f953ed00f3edca",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "portrait",
+      "action": "left",
+      "baseline_sha256": "4197b828300408efed7b6bdbc31ca80918088e4c32b0289276af2a66f1127629",
+      "candidate_sha256": "3880e79887293ebdea71a893d56f3d6a9b041a9b42d8c04dd8a6d75746dc5310",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "portrait",
+      "action": "centre",
+      "baseline_sha256": "dce188718a8f53280a1531882132f6b5b10cdb81912a84ee24f963db092fd310",
+      "candidate_sha256": "935266253e3151ada2c38cd6739c42f14cedbe9e5c382aab3d1341b2510bd820",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    },
+    {
+      "shape": "portrait",
+      "action": "right",
+      "baseline_sha256": "bb7e6939e01f6f46dc1a39d17ac8e6cfbcdb4a967c1c4527e063440188179b60",
+      "candidate_sha256": "f0f38acd7c2de8fbf291fc4a68e41a3b20aaf6140ce9019ea99318688b72001a",
+      "camera_parameters_exact": true,
+      "tech_triangles": 10272
+    }
+  ],
+  "scope": "Eight exact camera/view/UI pairs in normal route, all site bakes disabled equally. Candidate originals directly viewed; phosphor lettering clears lattice. Current-source lighting, all-site regression and production adoption still pending."
+}

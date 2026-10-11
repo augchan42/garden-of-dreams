@@ -59,6 +59,17 @@ for source in list(s.collection.children):
   if obj.type in ['MESH','FONT']:o.data=obj.data.copy()
   dest.objects.link(o);o.hide_viewport=False;o.hide_render=False;o.hide_set(False)
   if obj.name.startswith('COL_'):o.name=obj.name+'-colonly';o['collision_only']=True
+ # Qiushuang bar placements remain authored as object translations. Apply
+ # them only to disposable copies before joining, so the first bar cannot
+ # shift the origin and round the normals of unrelated wood components.
+ if slug=='qiushuang-zhai':
+  lattice=[o for o in dest.objects if o.type=='MESH' and o.name.startswith('KIT_wall_lattice_')]
+  bpy.ops.object.select_all(action='DESELECT')
+  for o in lattice:o.select_set(True)
+  if lattice:
+   bpy.context.view_layer.objects.active=lattice[0]
+   bpy.ops.object.transform_apply(location=True,rotation=False,scale=False)
+   bpy.context.view_layer.update()
  groups=collections.defaultdict(list)
  for o in list(dest.objects):
   if o.type=='FONT':

@@ -1,0 +1,24 @@
+GODOT_IMPORT_SOURCE_CONTRACT 42 cameras 454 colliders 71 markers 167 render meshes
+REIMPORT_CHECK_START first-cold-import
+REIMPORT_CHECK_PASS first-cold-import
+REIMPORT_CHECK_START first-source-physics
+REIMPORT_CHECK_PASS first-source-physics
+REIMPORT_CHECK_START first-keys
+REIMPORT_CHECK_PASS first-keys
+REIMPORT_CHECK_START first-paint
+REIMPORT_CHECK_PASS first-paint
+REIMPORT_CHECK_START second-cold-import
+REIMPORT_CHECK_PASS second-cold-import
+REIMPORT_CHECK_START second-source-physics
+REIMPORT_CHECK_PASS second-source-physics
+REIMPORT_CHECK_START second-keys
+REIMPORT_CHECK_PASS second-keys
+REIMPORT_CHECK_START second-paint
+REIMPORT_CHECK_PASS second-paint
+REIMPORT_CHECK_START reject-camera
+REIMPORT_CHECK_PASS reject-camera
+REIMPORT_CHECK_START reject-collider
+REIMPORT_CHECK_PASS reject-collider
+REIMPORT_CHECK_START reject-marker
+REIMPORT_CHECK_PASS reject-marker
+GODOT_FORCED_REIMPORT_PASS 72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1

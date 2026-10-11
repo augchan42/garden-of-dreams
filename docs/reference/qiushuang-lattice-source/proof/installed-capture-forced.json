@@ -1,0 +1,10 @@
+{
+  "status": "failed",
+  "pid": 9783,
+  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "first_attempt": "installed-validation.json",
+  "reason": "Two retries and an instrumented trace reach the unchanged 150-second deadline while awaiting a new automatic frame_post_draw. The fixture now calls RenderingServer.force_draw(false) before native image readback. Product source/runtime and deadline stay unchanged; all eight images must remain byte-exact.",
+  "child_pid": 9784,
+  "exit_code": 0,
+  "error": "portrait-overview.png"
+}
