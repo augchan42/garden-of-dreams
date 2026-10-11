@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "file": "KIT_stage_cyclorama_dusk.glb",
+      "before_bytes": 7599792,
+      "after_bytes": 3192236,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-dusk",
+          "before_sha256": "f1b7fc415a9a29f52b027af89e6c9802a4f2c5de86be7d6763d198c6fa7c54d9",
+          "after_sha256": "8ef4b47194d07b43c86aafca708f467daf4207a9d7945fd50dbfbe138d850e62"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_cyclorama_dusk_LOD1.glb",
+      "before_bytes": 7576724,
+      "after_bytes": 3169168,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-dusk",
+          "before_sha256": "f1b7fc415a9a29f52b027af89e6c9802a4f2c5de86be7d6763d198c6fa7c54d9",
+          "after_sha256": "8ef4b47194d07b43c86aafca708f467daf4207a9d7945fd50dbfbe138d850e62"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_cyclorama_mist.glb",
+      "before_bytes": 7621900,
+      "after_bytes": 3206804,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-mist",
+          "before_sha256": "4da971443b2e03ad8a5556ce8e2aeda9100ef0e62d8b94b01b7ed5a125fa7b66",
+          "after_sha256": "d08b718917b0eb831b219355b7a14de3f644b642d3f9db4933360ed9a8f7a420"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_cyclorama_mist_LOD1.glb",
+      "before_bytes": 7598832,
+      "after_bytes": 3183736,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-mist",
+          "before_sha256": "4da971443b2e03ad8a5556ce8e2aeda9100ef0e62d8b94b01b7ed5a125fa7b66",
+          "after_sha256": "d08b718917b0eb831b219355b7a14de3f644b642d3f9db4933360ed9a8f7a420"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_cyclorama_moonlit.glb",
+      "before_bytes": 7499496,
+      "after_bytes": 3163268,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-moonlit",
+          "before_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1",
+          "after_sha256": "7c0b7bcff3c9d3a3aaa65fc651b99a534b85445ba906c5c4f70b79a9c57065a6"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_cyclorama_moonlit_LOD1.glb",
+      "before_bytes": 7476448,
+      "after_bytes": 3140220,
+      "accessors_exact": 35,
+      "changes": [
+        {
+          "name": "cyclorama-moonlit",
+          "before_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1",
+          "after_sha256": "7c0b7bcff3c9d3a3aaa65fc651b99a534b85445ba906c5c4f70b79a9c57065a6"
+        }
+      ]
+    },
+    {
+      "file": "KIT_stage_floor_boards.glb",
+      "before_bytes": 738788,
+      "after_bytes": 738788,
+      "accessors_exact": 9,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_floor_boards_LOD1.glb",
+      "before_bytes": 684132,
+      "after_bytes": 684132,
+      "accessors_exact": 9,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_fog_plane.glb",
+      "before_bytes": 54512,
+      "after_bytes": 54512,
+      "accessors_exact": 5,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_fog_plane_LOD1.glb",
+      "before_bytes": 50876,
+      "after_bytes": 50876,
+      "accessors_exact": 5,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_gel_frame.glb",
+      "before_bytes": 693012,
+      "after_bytes": 693012,
+      "accessors_exact": 14,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_gel_frame_LOD1.glb",
+      "before_bytes": 663176,
+      "after_bytes": 663176,
+      "accessors_exact": 14,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_studio_wall.glb",
+      "before_bytes": 36816,
+      "after_bytes": 36816,
+      "accessors_exact": 9,
+      "changes": []
+    },
+    {
+      "file": "KIT_stage_studio_wall_LOD1.glb",
+      "before_bytes": 17232,
+      "after_bytes": 17232,
+      "accessors_exact": 9,
+      "changes": []
+    }
+  ],
+  "total_before_bytes": 48311736,
+  "total_after_bytes": 21993976,
+  "scope": "Actual expanded accessor arrays, nodes, meshes, material parameters, scenes, samplers and nonpaint image payloads preserved; six cyclorama GLBs change only paint payload and buffer layout."
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/garden-stage-kit-atlas-20261011/candidate/scripts/verify_stage_kit_texture_size.py", line 39, in <module>
+    assert not failures,('Stage export texture size mismatch',len(failures))
+           ^^^^^^^^^^^^
+AssertionError: ('Stage export texture size mismatch', 8)

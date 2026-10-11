@@ -1,0 +1,403 @@
+{
+  "status": "passed",
+  "requirements_source": "docs/garden-scene-spec.md section6.1 and section7",
+  "kit_count": 9,
+  "variants": {
+    "corridor": [
+      "straight",
+      "corner",
+      "tee",
+      "stair"
+    ],
+    "pavilion": [
+      "roof_hex",
+      "roof_square",
+      "post",
+      "bracket",
+      "eave_strip",
+      "bench"
+    ],
+    "wall": [
+      "bay",
+      "moon_gate",
+      "vase_gate",
+      "window_square",
+      "window_diamond",
+      "window_ice",
+      "window_hex",
+      "roof_cap"
+    ],
+    "rockery": [
+      "small",
+      "medium",
+      "large",
+      "arch",
+      "tunnel",
+      "cliff"
+    ],
+    "water": [
+      "stream",
+      "pond",
+      "embankment",
+      "lotus",
+      "wood_bridge",
+      "stone_bridge"
+    ],
+    "flora": [
+      "bamboo_small",
+      "bamboo_medium",
+      "bamboo_large",
+      "plum",
+      "willow",
+      "banana",
+      "reed",
+      "potted"
+    ],
+    "props": [
+      "lantern_hanging",
+      "lantern_standing",
+      "brazier",
+      "stone_table",
+      "stone_stool",
+      "incense_burner",
+      "scroll",
+      "screen",
+      "folding_chair"
+    ],
+    "tech": [
+      "crt_amber",
+      "crt_green",
+      "monitor_bank",
+      "cable_run",
+      "cell_door",
+      "terminal_desk"
+    ],
+    "stage": [
+      "cyclorama_moonlit",
+      "cyclorama_dusk",
+      "cyclorama_mist",
+      "studio_wall",
+      "floor_boards",
+      "fog_plane",
+      "gel_frame"
+    ]
+  },
+  "variant_count": 60,
+  "LOD_export_count": 120,
+  "engine_GLBs_byte_exact": 120,
+  "unique_decoded_embedded_atlases": {
+    "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_pavilion_atlas"
+      ]
+    },
+    "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_pavilion_atlas"
+      ]
+    },
+    "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_pavilion_atlas"
+      ]
+    },
+    "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_wall_atlas"
+      ]
+    },
+    "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_wall_atlas"
+      ]
+    },
+    "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_wall_atlas"
+      ]
+    },
+    "13941b7ae8397425e86455cb0e86d9cadf4e98a70b4be36104497e3b4894d13a": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "material_uses": [
+        "MAT_flora_atlas"
+      ]
+    },
+    "a451a42cefe43e58ede1dda7c62fb05da7c478470196b9cb8730498ef3cbb28c": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_props_atlas"
+      ]
+    },
+    "64bc8e92a331d92283da5e5a902f45d7567566e8813aeaf7698fc25f932aa98d": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_props_atlas"
+      ]
+    },
+    "7c131f2df7fdae0919650ca8af502e2240cc8275a791a6266612afaca9e9440d": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_props_atlas"
+      ]
+    },
+    "962aef0835372b4fe0edbbcc49c212c04481b1c530e833d17d314747396bfc42": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_tech_atlas"
+      ]
+    },
+    "173dac17d66dd02e9d8b18f9ecd9c84ec3c369ea0c74e673013958afe5fca360": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_tech_atlas"
+      ]
+    },
+    "68c8aba9f74ede8b726d46d9a29a2278ff48cb3ab32dc86469ee4f0a2bdef62d": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_tech_atlas"
+      ]
+    },
+    "7c0b7bcff3c9d3a3aaa65fc651b99a534b85445ba906c5c4f70b79a9c57065a6": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_stage_cyclorama_moonlit"
+      ]
+    },
+    "a2c221d19948d68e1762d5260266c07354ddd9ca1d310ad27f01cf1317214317": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_stage_atlas"
+      ]
+    },
+    "538afcd033cbfaee732e81492af483d70389b009b9328e20a8f904fdd0262812": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_stage_atlas"
+      ]
+    },
+    "8ef4b47194d07b43c86aafca708f467daf4207a9d7945fd50dbfbe138d850e62": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_stage_cyclorama_dusk"
+      ]
+    },
+    "d08b718917b0eb831b219355b7a14de3f644b642d3f9db4933360ed9a8f7a420": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mode": "RGB",
+      "material_uses": [
+        "MAT_stage_cyclorama_mist"
+      ]
+    },
+    "3d87c6f56a2a79191b3e656ff1d32bd07d19e696840a1dcaf09e19036bb3adf6": {
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "material_uses": [
+        "MAT_stage_fog"
+      ]
+    }
+  },
+  "files": {
+    "export/kits/corridor/KIT_corridor_straight.glb": "171f96be1268c64216abdcd2ed4f0ae1a86b84aa0fb55654e4d29f1b898ffbd5",
+    "export/kits/corridor/KIT_corridor_straight_LOD1.glb": "e3f5c41420ee4dca4c838a21b53e7dd18c431a902b29f43e36db48863d89e802",
+    "export/kits/corridor/KIT_corridor_corner.glb": "2c9103c639563cb4479ea08bdcea963d19083f9c9d41f9ec46930560819643ec",
+    "export/kits/corridor/KIT_corridor_corner_LOD1.glb": "3062374cb7e1109a093934f40f72b55f3347c596e0921a153a5379b9cf1be4bc",
+    "export/kits/corridor/KIT_corridor_tee.glb": "62ff9601de0f113d9484225edccaf7070a059aa1cf6eced582d00aa2b600631f",
+    "export/kits/corridor/KIT_corridor_tee_LOD1.glb": "f81d65a91b335fa3e1a1f8f88059834b0139a700df7532419812bb112e338908",
+    "export/kits/corridor/KIT_corridor_stair.glb": "9bfb33ef5f47dee98eb31e0b12ea296b560b7df0d9903eefff9f368823d30429",
+    "export/kits/corridor/KIT_corridor_stair_LOD1.glb": "2520bb09d7344292294fe0981879c71c0fcfd88fea444b86a5dbf62af5e0864f",
+    "export/kits/pavilion/KIT_pavilion_roof_hex.glb": "9b0c36332e41fe69ef7599de75ca6777ef6ee9cbbddb9d1c991c2901632a8b5f",
+    "export/kits/pavilion/KIT_pavilion_roof_hex_LOD1.glb": "bf0c1bbde90aaaefcbbae8b781503f33313afe7b3043c6252ce2bdab0e8ef287",
+    "export/kits/pavilion/KIT_pavilion_roof_square.glb": "6fcf8d52982bdf8e97b110b8049836eefa37df3da8ce6ed37baad19f0b21bbbd",
+    "export/kits/pavilion/KIT_pavilion_roof_square_LOD1.glb": "65045fc7663d27ab944edd963813387e9ea017d299764f373cc862b881f4d074",
+    "export/kits/pavilion/KIT_pavilion_post.glb": "9001dec588a319f9cb9b29d637b8c52bc8fc813d98d9f80a053736a1b911d77c",
+    "export/kits/pavilion/KIT_pavilion_post_LOD1.glb": "087f331af160e2e0fdc6b525ded08f980fe9b2cada240d2016c17226bf786d41",
+    "export/kits/pavilion/KIT_pavilion_bracket.glb": "3edad7bd4ac7f2961b6f3c6282f7c4d51e151ed177458b18eef88aa66590288a",
+    "export/kits/pavilion/KIT_pavilion_bracket_LOD1.glb": "aa9d39a6381663759eeb310926febd9a7ec6602880477fd0398629e94ff310d2",
+    "export/kits/pavilion/KIT_pavilion_eave_strip.glb": "1ac7d66c10c8d8d1f2188f113f629dfbf2bf3603905dc7c7f6d8476401f599df",
+    "export/kits/pavilion/KIT_pavilion_eave_strip_LOD1.glb": "580612d825532e6daef6e89abf0074530da25f41184d12fb6747979427d40df2",
+    "export/kits/pavilion/KIT_pavilion_bench.glb": "35b9711b646b4bf7154aa236f8434da0b758b3751118542fe27db9f8dfcc0ef4",
+    "export/kits/pavilion/KIT_pavilion_bench_LOD1.glb": "aa6fb4751f772b6ca407f9a2909208679793af55f24776416c8cb52cf1c0b59d",
+    "export/kits/wall/KIT_wall_bay.glb": "68c7e54718b70936d5ec138118fba2d60344bd7571cb867a5bf99fc15bcbf5a7",
+    "export/kits/wall/KIT_wall_bay_LOD1.glb": "b8a017b4be1394eccb68262f907e4d5f5d9bfbf316f6eb271876964110de1bdb",
+    "export/kits/wall/KIT_wall_moon_gate.glb": "12c8c0eeba4fe24e35cae4519e87d07c5830874cf86f5bebb5f05c81ba8a2736",
+    "export/kits/wall/KIT_wall_moon_gate_LOD1.glb": "51f6ef9ed15176e78c323b13aa4660ef7e6d0493dfeb06a28a157a1a1b955e49",
+    "export/kits/wall/KIT_wall_vase_gate.glb": "8b2254b63bbcfdb009438d46b6d49c685cee944b4269afaeb02266b17393e1f9",
+    "export/kits/wall/KIT_wall_vase_gate_LOD1.glb": "3c0d9696a404e19b8101df4fdc3a1f2b4309385e2b509eba8c61a0e2ca0df3fa",
+    "export/kits/wall/KIT_wall_window_square.glb": "b64bb322f90f57f147a4e551a8fb7a8c9f954ffad6c9ed809595ef9dc3053812",
+    "export/kits/wall/KIT_wall_window_square_LOD1.glb": "66a193cc55c1487522c34ac34590f98ad2c3db26d7504b74127d07b773845e32",
+    "export/kits/wall/KIT_wall_window_diamond.glb": "6b87f33aa5df3a6748c27bcc9ae7b702aca3ac78ffc9bdf4075466693ef1ac26",
+    "export/kits/wall/KIT_wall_window_diamond_LOD1.glb": "56a754280322ed28aa0ea3668614708f18310cc12b753bd9ab067c10b0680320",
+    "export/kits/wall/KIT_wall_window_ice.glb": "13815c39cb6075a8baf146865976c0674aac365d7eee63fcc5d439271f7c1bb1",
+    "export/kits/wall/KIT_wall_window_ice_LOD1.glb": "3aebaa2ad8a6fc7b3cf34428b659aca2bf16cc523c5600b0ad5702ff367ad468",
+    "export/kits/wall/KIT_wall_window_hex.glb": "d88af430be2a64413b336bb96d9d79987cbad132d2f0d23a6761b92b3730b75d",
+    "export/kits/wall/KIT_wall_window_hex_LOD1.glb": "a5857ed7dd3341e6c6d32a398a2bf378418955c708158f1584b974ec31f1b9f5",
+    "export/kits/wall/KIT_wall_roof_cap.glb": "ade2c8af1f7ede8dd32b8dd358385d81c0b1e4098205b44a571a57816af778d8",
+    "export/kits/wall/KIT_wall_roof_cap_LOD1.glb": "f712f54ae12d415f7d3970ac22ca109e2ee261d48bbd4725041a3674db63ace3",
+    "export/kits/rockery/KIT_rockery_small.glb": "fa5357bc0dcd73c606b2d0791475f1f87f06503b60b5145a07d83ac28886b98e",
+    "export/kits/rockery/KIT_rockery_small_LOD1.glb": "0d40bd3c4449feadd20986488e10b65419935603cceeb83c7526102b00b4704f",
+    "export/kits/rockery/KIT_rockery_medium.glb": "fadb7252aad963920a1389892aef9211a303d50bd1ca113f58bad7311a79fff6",
+    "export/kits/rockery/KIT_rockery_medium_LOD1.glb": "f782a2f291da5a44413ef49c851ba85cd5fdb73709c0d3950212e56b737923d4",
+    "export/kits/rockery/KIT_rockery_large.glb": "01d5e70919d3949f81ea5adcd60debcceddf429396b62cf58e5373b5a9e464d1",
+    "export/kits/rockery/KIT_rockery_large_LOD1.glb": "fa78da05688250a44ee9170fa4eab65ba2e01712bb9d714ebdf79c2e540ff417",
+    "export/kits/rockery/KIT_rockery_arch.glb": "9bd8cce03545c5217b9b9ada831dfbb160ec266e0789f5dcc52a274950b183ad",
+    "export/kits/rockery/KIT_rockery_arch_LOD1.glb": "78d6f9e1ad25695572ebf69b8a91efa5406690753b906721c605fe6c95bb561d",
+    "export/kits/rockery/KIT_rockery_tunnel.glb": "2f67c6a9ca8633d53b19dc9b1e6e80e47e6f5ca41c65d2e2ab0c74d92158381c",
+    "export/kits/rockery/KIT_rockery_tunnel_LOD1.glb": "89aa75faf38d12057bf5619ad46ab1804bdceb0ab268804e1a4fceb275060c70",
+    "export/kits/rockery/KIT_rockery_cliff.glb": "e2d5d41d995b20f389736f84d7610bac5fe069da001cd741dd7723d25ae1a948",
+    "export/kits/rockery/KIT_rockery_cliff_LOD1.glb": "85139e5d13ff1660a133f507ff2b8b21b238b4c8f8040cdbd305ef0368289885",
+    "export/kits/water/KIT_water_stream.glb": "232028e98d71de99b9fe75e959d76b3f46cf6c6f92e60d43ecb9222d7b294395",
+    "export/kits/water/KIT_water_stream_LOD1.glb": "ee44ff17bdf4b9f26ea114404f30ff06c8f0e4ef27970fb794d1801374605478",
+    "export/kits/water/KIT_water_pond.glb": "4cfa7062b4bde21fdb6c914b031faa562c68e3381d64d630e9e5dbad9e86e9b1",
+    "export/kits/water/KIT_water_pond_LOD1.glb": "b7bf932ac68d355bb191e8400138e058c10261203e289d0b0978e7320de74adb",
+    "export/kits/water/KIT_water_embankment.glb": "b9288c5e31b9608fbfbd4c1d0a552208734d6a8740fb69c1f7d0782a88bd1290",
+    "export/kits/water/KIT_water_embankment_LOD1.glb": "951a5808e451bc95f3d48a0a82e4a67016ee89f0f6cd5cc0bc93f187c3d91eb0",
+    "export/kits/water/KIT_water_lotus.glb": "8df3adf6ae8da5ff1a28b2af3fddf02311a6c907e1f44c2a5e95e4f47bb5cf7e",
+    "export/kits/water/KIT_water_lotus_LOD1.glb": "0dc8df3ecd4b31a220886324fb653a61c56196c89d33bff67f805780e75bc5af",
+    "export/kits/water/KIT_water_wood_bridge.glb": "db7c1a5c52040ec80339247eb5fc207f0f0dd67d2eead9500f1d2cea98913da3",
+    "export/kits/water/KIT_water_wood_bridge_LOD1.glb": "d73ea8acb8a4a235785c714c3b8dcf41f12fd88586dd7f615bab8c93c5e86072",
+    "export/kits/water/KIT_water_stone_bridge.glb": "82ae4920e3f22136457f783035f3db53670df15ded2e198cdb7942d82c3904d7",
+    "export/kits/water/KIT_water_stone_bridge_LOD1.glb": "a98364bf0e905987189b1dde5406f9d4dc2e0443f8d30df123a0629536e6fd61",
+    "export/kits/flora/KIT_flora_bamboo_small.glb": "093001f382dfd54d9cbfef4831fe001d72f55499e8df2069062fd5251c716e4c",
+    "export/kits/flora/KIT_flora_bamboo_small_LOD1.glb": "4bdda988b2e3c85e18fa2042ec26fb2185068a3f20d87a9065d20b64f7c40839",
+    "export/kits/flora/KIT_flora_bamboo_medium.glb": "118f3ddaf890cb20b1e59f7a2c756460ccd9ba3fff11598f976e00ebd14fab90",
+    "export/kits/flora/KIT_flora_bamboo_medium_LOD1.glb": "6652acca41318a3fa4487912b1897ef381a926c882fe6b1a1577fea1b532c671",
+    "export/kits/flora/KIT_flora_bamboo_large.glb": "520ca2bdda0b1cdcf359e6851421c469b1abe7ea1d51689763e15c9e06934722",
+    "export/kits/flora/KIT_flora_bamboo_large_LOD1.glb": "0803447b71cf13b18c82b7c0da51f8b6d65d2bf50887897cc3c4d45f5c97e5f4",
+    "export/kits/flora/KIT_flora_plum.glb": "e3e5c5ce75cafe1681de111947c634dbb6a73041977f4e392e1120e4b0a6411c",
+    "export/kits/flora/KIT_flora_plum_LOD1.glb": "8bf7aa972869d658517b4bd0f728261161838543fcd724aad8bdef103c7cccb4",
+    "export/kits/flora/KIT_flora_willow.glb": "34734828759ae8ea4a4abcf035d6cf6bcb6bf393ea6c535bd50f70508e183ca6",
+    "export/kits/flora/KIT_flora_willow_LOD1.glb": "d9aba0461db1d7841945af96642493cf914f99067597cca2e31a4f97f867a967",
+    "export/kits/flora/KIT_flora_banana.glb": "dbf0f949ff7c4492e89d9c9e089c3e4b8b7b1a386682126ada5ffe6955cfe2c5",
+    "export/kits/flora/KIT_flora_banana_LOD1.glb": "3c162d3f423a756deba0ed4ca3db67fe8616ca57649f01b56b9c2e7f15c20016",
+    "export/kits/flora/KIT_flora_reed.glb": "e5ea2f15ca5bd0328302e0c8cc16d8ddc220616591d72676b77ebc70cc0c4d1c",
+    "export/kits/flora/KIT_flora_reed_LOD1.glb": "d2e31ea40b73a8037cc25a4d365f2a8df19702c05c1a554be5928a4f8ae51771",
+    "export/kits/flora/KIT_flora_potted.glb": "62434abadb4aa48656192f8176bed3953223da0ea22bfbdf0a4a128fe7102253",
+    "export/kits/flora/KIT_flora_potted_LOD1.glb": "6500147cdd2ad89ee21b98606b0ef6c8f9c70f5a1cff25bb230698b701078e20",
+    "export/kits/props/KIT_props_lantern_hanging.glb": "72130532591805d5561a29dd988d6251a8674618c86a1f2a0e6651fffb138f5f",
+    "export/kits/props/KIT_props_lantern_hanging_LOD1.glb": "c3617aa68e2470d8226345f7c93d3aacf2d1f5520e7319deb9d45d5342446ede",
+    "export/kits/props/KIT_props_lantern_standing.glb": "d86bb8e219e8581f7cf624ca0baeec4aa44aa154d4d5597b1711c9bbb10521bd",
+    "export/kits/props/KIT_props_lantern_standing_LOD1.glb": "c3555619435447ac9f75519f7811e13623de670a7e87c28ea2b7f0658ccd16d6",
+    "export/kits/props/KIT_props_brazier.glb": "8a48aab7bc661ffd8650b7678967e91ca7ebb69451f6f1b928d563cee6680151",
+    "export/kits/props/KIT_props_brazier_LOD1.glb": "a14eded8352a08e26c35fcbc1d6305dfa1d82d88218abb8b2a8b896c67bc495f",
+    "export/kits/props/KIT_props_stone_table.glb": "a367baea84680bc8cd445287eaaa1b408d3ab6de253fbd17b92effcead2144f2",
+    "export/kits/props/KIT_props_stone_table_LOD1.glb": "458d0fa7cd1bacc041562734025a365aba1e73d19c98fb2a718fdd04fc120fa9",
+    "export/kits/props/KIT_props_stone_stool.glb": "cc59599dc21a5ee841449b14359002e5bf8a3000ad1eadbc40f8c72a64a3a4c8",
+    "export/kits/props/KIT_props_stone_stool_LOD1.glb": "27e6df9fc25e2a5bd34f7385076091e61062a268233536169f0257d9f8b5c17f",
+    "export/kits/props/KIT_props_incense_burner.glb": "b5e31b9f1336515b63aa87069e1b2e70858f4b8891434e78b1a32270fef741d3",
+    "export/kits/props/KIT_props_incense_burner_LOD1.glb": "95fd92dfccf4fe62b41704d72bec7d8e0bc6a9066b4ecb94be1c2eebc3f16d10",
+    "export/kits/props/KIT_props_scroll.glb": "780929812f9cd2e5f24b47cd5cdf76ba49d9559abf00a2767903e480843d4d08",
+    "export/kits/props/KIT_props_scroll_LOD1.glb": "5df7caffa3fb4a61dfae107b97886130ff9eaa93d7781bcce6c5e5b04b153e8a",
+    "export/kits/props/KIT_props_screen.glb": "4f3a6f96c9a16a0daabfaed102eb7a89487814c12b7d2bbdec25d0ce3b6eeb4c",
+    "export/kits/props/KIT_props_screen_LOD1.glb": "406605f8f4717f555584cb70b9053c1af3329fbda77d9244f55444782bf86d96",
+    "export/kits/props/KIT_props_folding_chair.glb": "903cb6bd56f1167805d703eaec8d77ae4b3845ce99e5f083bd36bec8b9a2d61d",
+    "export/kits/props/KIT_props_folding_chair_LOD1.glb": "a8af13681b25450f8fae30c3df303f117a1423b655facb20471c80c2df9d02ad",
+    "export/kits/tech/KIT_tech_crt_amber.glb": "d6d11e12146a0d4ae8f13c33985b6286b473beb2fba738c9f34d5aba36bd2ec4",
+    "export/kits/tech/KIT_tech_crt_amber_LOD1.glb": "fb4a57eb4e635c643e23587855c502ddeb8bfcce446918d1ee44f671d61e74ad",
+    "export/kits/tech/KIT_tech_crt_green.glb": "c1ed2e6b3e556a0a783d9dcb29ded010f37fbbe7f6601eb1591cb55c4aa8c438",
+    "export/kits/tech/KIT_tech_crt_green_LOD1.glb": "d8aa5b5e28436c5de41423500f288dedd4180d79910e49ff324c48a7e50768c7",
+    "export/kits/tech/KIT_tech_monitor_bank.glb": "82b5acb317f2f076a9c85054ad243e7fdbb59d13acb9f7a500ad92d23107082e",
+    "export/kits/tech/KIT_tech_monitor_bank_LOD1.glb": "2ccadeb9fe25a4868ea51f98d196795715611442885e72669354c8ffa0074ee3",
+    "export/kits/tech/KIT_tech_cable_run.glb": "cb0c8197794a8d6341b49d7948ab1eab1ba07069b820d5822a66a3ba882b344e",
+    "export/kits/tech/KIT_tech_cable_run_LOD1.glb": "8fc73c6121609689e55b45b1580caec6d1f4c221b744be7b560c03b02041afaf",
+    "export/kits/tech/KIT_tech_cell_door.glb": "6654f8dd7ce6532d7b16117f07be4c03d7d38c9f7ede8662e52a36c72912d9b5",
+    "export/kits/tech/KIT_tech_cell_door_LOD1.glb": "0d9f00963e0005177a327911d4d14e24f6a1bccf0a59a505eab5c455654038d7",
+    "export/kits/tech/KIT_tech_terminal_desk.glb": "d7553c75e41b1ae75242b9b3419bc1498be5a3db8957bf9e47ed5231b4a1c219",
+    "export/kits/tech/KIT_tech_terminal_desk_LOD1.glb": "3465c94e14e056e0397b7e09ed8cd2d0d8f779187d6f96a879ebffc98309c15d",
+    "export/kits/stage/KIT_stage_cyclorama_moonlit.glb": "6b719f2f47b67125bca32ae19743d3f0e659dff3ad5d2c312f81c0be7ccfe4c6",
+    "export/kits/stage/KIT_stage_cyclorama_moonlit_LOD1.glb": "b9e9a4521e5992f6eccc4c6f58f4b64566725e5689c23b158db444192df4318d",
+    "export/kits/stage/KIT_stage_cyclorama_dusk.glb": "a0364a5b177a5e0110c7a9b17146ce1eeaa18c6d8f09e703cd8e38b86ad4cfb3",
+    "export/kits/stage/KIT_stage_cyclorama_dusk_LOD1.glb": "5923ee616b2d75428cfbae47fd0c3bd78e0fd63b2e9c77935ee2e63b7d3bc243",
+    "export/kits/stage/KIT_stage_cyclorama_mist.glb": "b7e3b48165857e333dda08f4283298307f2eda514869da8aa88a91567d7484ed",
+    "export/kits/stage/KIT_stage_cyclorama_mist_LOD1.glb": "3873b407ac8083bf1536a5d3d273616b094b68a43e70e2c41f45a6e8812ec563",
+    "export/kits/stage/KIT_stage_studio_wall.glb": "32acd7319933fa56cc5a15b50135fba47d9e48b6247aa4ceff9c7a44f179bca1",
+    "export/kits/stage/KIT_stage_studio_wall_LOD1.glb": "17a4072d2feb85fbd5633caf0fcc1b7f2776659b0fc8cd0a372af855d92e9723",
+    "export/kits/stage/KIT_stage_floor_boards.glb": "fd8021d67edf37b90710fb3906f92db8e99ed4d0697b896efd9b31fe1bcb7b3e",
+    "export/kits/stage/KIT_stage_floor_boards_LOD1.glb": "07ebec416b2c02b74c439f99cdab269b323974418019851b5a61a6cae5d6c287",
+    "export/kits/stage/KIT_stage_fog_plane.glb": "5e68c9061913c6ee1b71eaf0b2a7cb9930be568f3501cb6ee77ac444da18b2d6",
+    "export/kits/stage/KIT_stage_fog_plane_LOD1.glb": "f5249ae408cc24bc5777d6e4a38825f3259e940562531db912ffd3e0f93b307f",
+    "export/kits/stage/KIT_stage_gel_frame.glb": "8c91d396f9d7ddb513c82756fc66bec5b57bbe39f4db9757d6b4861668fef9d7",
+    "export/kits/stage/KIT_stage_gel_frame_LOD1.glb": "5fc89acee0f1424f0664a871b47897144a3dd54daffe0ceb2ed4fbff79890b29"
+  },
+  "scope": "All named stock variants present with both LODs; nine geometry/UV/connector/collider/LOD verifiers pass; actual120engineGLBs byte-exact; all material-bound kit atlases and paints decode at2048; the512fog mask is preserved. No native shader binding, source-library reproduction, assembled geometry, final art, runtime allocation or physical-phone acceptance."
+}

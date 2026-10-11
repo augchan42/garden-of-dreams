@@ -61,3 +61,7 @@ Source artwork and regeneration: `../../textures/backdrops/mountain-paint/README
 Fresh ordinary, backdrop-wash and window-spill bakes are in progress. An isolated headless Godot import now verifies that the three painted layers share one material and one lossless mipmapped 512px painting, including color/emission transfer through the lightmap adapter. The preceding unpainted stage retains its original bare materials under the updated import hook; source metadata controls adoption. Evidence: `../../export/mountain-paint-runtime-transfer.json` and `../../export/mountain-paint-staged-checks.json`.
 
 The Godot project and packaged demo still use the preceding verified GLB. Complete scene/bake installation, measured GPU allocation, graphical transfer, new views and final art acceptance remain unverified. The original production painting does not satisfy the separate external-reference requirement.
+
+## Export texture size —2026-10-11
+
+The original three4096px paintings and editable library are retained. Delivered variants/LODs and two aliases now embed2048px paint; the existing Godot1024px overrides remain. Geometry, UVs, materials and colliders are preserved. Eight installed native gallery images match the reviewed candidate byte for byte. [Source, native and failure evidence](../reference/stage-kit-paint-size/README.md). Final site/device acceptance remains open.
