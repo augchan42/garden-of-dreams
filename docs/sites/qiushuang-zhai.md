@@ -1,5 +1,11 @@
 # Site sheet: 秋爽齋
 
+## Diagonal facade-key correction — 2026-10-11
+
+The warm-neutral hard key now reaches all three amber screen banks from farther to the front and right. The previous central circular light patch is replaced by directional shadows; the two amber lantern lights and all geometry remain. Saved-source cone checks improve from 192 to 576 of 576 phosphor-quad centres, with a restoring old-layout negative control. These samples establish cone coverage only.
+
+Current source `ba0e8b16` has all 141 fresh maps. Both full Mac walks pass 14 rooms and 26 route legs; 17 installed checks pass and eight installed hall views match the reviewed candidate exactly. Wall noise, stage boundaries, final site art and live bulletin content remain open. [Originals, controls and package checks](../reference/qiushuang-facade-key/README.md).
+
 ## Screen-opening repair — 2026-10-11
 
 Thirty-three existing lattice bars move into the gaps around the twelve monitors. The three banks retain seven vertical and seven horizontal bars each. Source rays from authored and runtime bank positions drop from 180 blocked samples to zero of 1,152; restoring the old positions reproduces the failure. The generator preserves this layout on rebuild, and the canonical exporter reproduces the saved source exactly without changing unrelated normals.
@@ -22,7 +28,7 @@ A long study hall faces a shallow courtyard. Three banks of amber screens sit be
 
 ## Lighting and atmosphere
 
-Warm-neutral hard key across the frontage; amber screens and the two lanterns are the dominant warm sources. The site key was changed from green to reduce the garden's overall green cast while keeping the stage-wide green wash. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
+Warm-neutral hard key across the frontage; amber screens and the two lanterns are the dominant warm sources. The site key uses linear RGB (.9,.82,.68), with a cool gray-blue backdrop wash and the retained amber practicals. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
 
 ## Room markers
 
@@ -44,7 +50,7 @@ Sourced leads reviewed: [Hong Kong Memory’s Shaw Brothers set collection](http
 
 ## Current build and acceptance
 
-The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A warm frontal key makes the centre sign and screen bank readable; two existing lanterns cast amber light at the ends. The temporary typeset title and block marks are replaced by painted 秋爽齋 lettering and separate bamboo/plum scroll textures, embedded in the Blender source and glTF. Ten opaque hall meshes have current Cycles lightmaps applied in the normal Godot exploration route; the transparent painted title retains its source material. Desktop and portrait arrival and screen-bank views were inspected after the bake, and the four-practical light limit and return route still pass. The images are original production art, documented in `textures/decals/study/README.md`, not historical reference stills. The shared painted backdrop has an authored linked Area wash and a backdrop-only Godot substitute. Live bulletin content and final material/lighting acceptance remain unfinished. All three references are collected below.
+The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A farther diagonal warm-neutral hard key covers the sign and all three screen banks; two existing lanterns cast amber light at the ends. The temporary typeset title and block marks are replaced by painted 秋爽齋 lettering and separate bamboo/plum scroll textures, embedded in the Blender source and glTF. Ten opaque hall meshes have current Cycles lightmaps applied in the normal Godot exploration route; the transparent painted title retains its source material. Desktop and portrait arrival and screen-bank views were inspected after the bake, and the four-practical light limit and return route still pass. The images are original production art, documented in `textures/decals/study/README.md`, not historical reference stills. The shared painted backdrop has an authored linked Area wash and a backdrop-only Godot substitute. Live bulletin content and final material/lighting acceptance remain unfinished. All three references are collected below.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
 

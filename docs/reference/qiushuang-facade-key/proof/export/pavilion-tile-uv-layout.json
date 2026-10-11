@@ -1,0 +1,16 @@
+{
+  "strips": 42,
+  "faces": 336,
+  "reference_size": 1024,
+  "cell_texels": [
+    32,
+    72
+  ],
+  "tile_chart_texels": [
+    24,
+    60
+  ],
+  "padding_texels": 4,
+  "reserved_height_texels": 144,
+  "scope": "UV2 only on the exported Qinfang atlas batch. Tile charts receive explicit pixel extent; all other charts fit above their reserved strip. Geometry/primary UVs are unchanged. Fresh matching bake and native filtering checks remain required."
+}

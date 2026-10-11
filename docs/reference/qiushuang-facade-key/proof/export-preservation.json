@@ -1,0 +1,98 @@
+{
+  "status": "key_only_export_preservation_passed",
+  "baseline_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "candidate_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "binary_geometry_images_and_all_mesh_attributes_exact": true,
+  "unchanged_mesh_nodes": 621,
+  "render_batches": 167,
+  "cameras": 42,
+  "colliders": 454,
+  "markers": 71,
+  "unchanged_other_site_glbs": [
+    "SITE_aojing-guan.glb",
+    "SITE_daguan-lou.glb",
+    "SITE_daoxiang-cun.glb",
+    "SITE_hengwu-yuan.glb",
+    "SITE_longcui-an.glb",
+    "SITE_ouxiang-xie.glb",
+    "SITE_qinfang-ting.glb",
+    "SITE_rockery-gate.glb",
+    "SITE_stage.glb",
+    "SITE_terminal-cells.glb",
+    "SITE_tubi-tang.glb",
+    "SITE_xiaoxiang-guan.glb",
+    "SITE_yihong-yuan.glb",
+    "SITE_ziling-zhou.glb"
+  ],
+  "changed_key_node": {
+    "before": {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 26
+        }
+      },
+      "name": "LGT_qiushuang-zhai_key.001",
+      "rotation": [
+        -0.16883374750614166,
+        0,
+        0,
+        0.9856446385383606
+      ],
+      "translation": [
+        22,
+        2.5999999046325684,
+        -12
+      ]
+    },
+    "after": {
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 26
+        }
+      },
+      "name": "LGT_qiushuang-zhai_key.001",
+      "rotation": [
+        -0.08848176151514053,
+        0.21009232103824615,
+        0.01909570023417473,
+        0.9734821915626526
+      ],
+      "translation": [
+        26.5,
+        3.5999999046325684,
+        -6
+      ]
+    }
+  },
+  "changed_key_light": {
+    "before": {
+      "color": [
+        0.8999999761581421,
+        0.7200000286102295,
+        0.44999998807907104
+      ],
+      "intensity": 24458.135879647016,
+      "spot": {
+        "innerConeAngle": 0.3337942263919169,
+        "outerConeAngle": 0.39269909262657166
+      },
+      "type": "spot",
+      "name": "LGT_qiushuang-zhai_key"
+    },
+    "after": {
+      "color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6800000071525574
+      ],
+      "intensity": 65221.69567905871,
+      "spot": {
+        "innerConeAngle": 0.4450589685225559,
+        "outerConeAngle": 0.5235987901687622
+      },
+      "type": "spot",
+      "name": "LGT_qiushuang-zhai_key"
+    }
+  },
+  "scope": "Exactly one key node transform and punctual color/intensity/cone record may change. The complete BIN chunk and every unrelated JSON field remain exact."
+}

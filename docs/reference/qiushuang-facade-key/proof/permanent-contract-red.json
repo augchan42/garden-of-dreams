@@ -1,0 +1,56 @@
+{
+  "status": "failed_source_key_coverage",
+  "authoring_sha256": "f3ed820cc088b83c836fa7f4681cb1775fbd637fbb5e56e141b4c81c0891fd6f",
+  "source": "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+  "coverage": {
+    "status": "failed_key_misses_screen_banks",
+    "banks": [
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_25",
+        "samples": 192,
+        "inside_cone": 0,
+        "maximum_angle_degrees": 47.418178698161164,
+        "minimum_distance": 4.3164920919176435
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_28",
+        "samples": 192,
+        "inside_cone": 192,
+        "maximum_angle_degrees": 11.482652925234259,
+        "minimum_distance": 3.4788773231901393
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_31",
+        "samples": 192,
+        "inside_cone": 0,
+        "maximum_angle_degrees": 47.418178698161164,
+        "minimum_distance": 4.3164920919176435
+      }
+    ],
+    "samples": 576,
+    "inside_cone": 192,
+    "light": {
+      "location": [
+        22.0,
+        12.0,
+        2.5999999046325684
+      ],
+      "rotation": [
+        1.2315037250518799,
+        -0.0,
+        0.0
+      ],
+      "power": 450.0,
+      "color": [
+        0.8999999761581421,
+        0.7200000286102295,
+        0.44999998807907104
+      ],
+      "cone_degrees": 45.00000125223908,
+      "blend": 0.15000000596046448,
+      "source_radius": 0.0
+    },
+    "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+  },
+  "scope": "Actual source cone and restoring old-layout control; no exposure, final art, engine or device acceptance."
+}
