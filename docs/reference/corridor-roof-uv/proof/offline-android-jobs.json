@@ -1,0 +1,46 @@
+{
+  "status": "full_offline_apk_verified_uninstalled",
+  "pid": 45008,
+  "source_glb_sha256": "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b",
+  "phases": [
+    {
+      "name": "android-full-build",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_android_profile.py",
+        "--mode",
+        "full",
+        "--apk",
+        "/tmp/garden-corridor-roof-full-20261011/garden-corridor-roof-full.apk",
+        "--report",
+        "/tmp/garden-corridor-roof-full-20261011/android-full-build.json"
+      ],
+      "log": "/tmp/garden-corridor-roof-full-20261011/android-full-build.log",
+      "pid": 45011,
+      "exit_code": 0,
+      "log_sha256": "5b3a717c7f8fb6b24acd6abc70d0757963ef8705b3931e39b0d5e065fb9ae25d"
+    },
+    {
+      "name": "android-payload-verification",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-corridor-roof-full-20261011/verify_android_artifact.py",
+        "--project",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--build",
+        "/tmp/garden-corridor-roof-full-20261011/android-full-build.json",
+        "--output",
+        "/tmp/garden-corridor-roof-full-20261011/android-payload-verification.json"
+      ],
+      "log": "/tmp/garden-corridor-roof-full-20261011/android-payload-verification.log",
+      "pid": 45131,
+      "exit_code": 0,
+      "log_sha256": "a5f7a545a8368c8a96671e5f46ce8c3d95fbb4b8a10470920e895e4a0aff7e33"
+    }
+  ],
+  "scope": "Full diagnostic Android export and actual offline packaged-payload/provenance checks. No ADB, installation, device/release or performance acceptance.",
+  "apk_sha256": "218c9f2583fb6f34af0d16985e01878506ced3a21d88fd91112da924927fcfcf",
+  "apk_bytes": 86523299
+}

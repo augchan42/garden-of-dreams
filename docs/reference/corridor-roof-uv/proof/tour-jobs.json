@@ -1,0 +1,51 @@
+{
+  "status": "both_native_full_tours_passed",
+  "orchestrator_pid": 19720,
+  "source_glb_sha256": "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b",
+  "phases": [
+    {
+      "shape": "desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-corridor-roof-full-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-corridor-roof-full-20261011/lit-tour-desktop/report.json",
+        "--capture-directory=/tmp/garden-corridor-roof-full-20261011/lit-tour-desktop/captures"
+      ],
+      "log": "/tmp/garden-corridor-roof-full-20261011/lit-tour-desktop.log",
+      "pid": 19721,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "shape": "portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-corridor-roof-full-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-corridor-roof-full-20261011/lit-tour-portrait/report.json",
+        "--capture-directory=/tmp/garden-corridor-roof-full-20261011/lit-tour-portrait/captures",
+        "--portrait"
+      ],
+      "log": "/tmp/garden-corridor-roof-full-20261011/lit-tour-portrait.log",
+      "pid": 21358,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    }
+  ],
+  "scope": "Actual native fourteen-room/twenty-six-leg public-command physics/camera/lighting route, desktop and portrait; not phone, sustained performance or final art acceptance."
+}

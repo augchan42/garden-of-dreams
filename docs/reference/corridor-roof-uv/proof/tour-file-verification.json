@@ -1,0 +1,2543 @@
+{
+  "status": "passed",
+  "source_glb_sha256": "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b",
+  "runtime_sha256": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87",
+  "decoded_and_verified_png": 278,
+  "rooms": [
+    "aojing_guan",
+    "daguan_lou",
+    "daoxiang_cun",
+    "hengwu_yuan",
+    "longcui_an",
+    "ouxiang_xie",
+    "qinfang_ting",
+    "qiushuang_zhai",
+    "rockery_gate",
+    "terminal_room",
+    "tubi_tang",
+    "xiaoxiang_guan",
+    "yihong_yuan",
+    "ziling_zhou"
+  ],
+  "tours": {
+    "desktop": {
+      "legs": 26,
+      "settled_arrivals": 26,
+      "captures": 139,
+      "maximum_practicals": 4,
+      "supported_ray_samples": 17582
+    },
+    "portrait": {
+      "legs": 26,
+      "settled_arrivals": 26,
+      "captures": 139,
+      "maximum_practicals": 4,
+      "supported_ray_samples": 17582
+    }
+  },
+  "files": {
+    "lit-tour-desktop/captures/000-terminal_room-travel.png": {
+      "sha256": "c363319d624ee23b32ba16e9207edd0eb747c39d7942e498d2c345c2d9c0bddf",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/001-terminal_room-travel.png": {
+      "sha256": "40b2a40ab1a504996d8bf73ef7b753efb14d1e8e58ff60cb29d36c2a7cbf911c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/002-terminal_room-travel.png": {
+      "sha256": "5c5d6da82cbf10486d1c6d9fe375b19cd634d06f4e3cca64ee8b8a630afa83cd",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/003-terminal_room-travel.png": {
+      "sha256": "3e4a834ecfe80a93a4494aede89e55936a14f0666d12927590708e7919b2dab5",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/004-rockery_gate-arrival.png": {
+      "sha256": "82c3cc2f2a15926ed2ccac5bc4bb8d16a88315bd1068a396e296538b7789553b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/005-rockery_gate-settled.png": {
+      "sha256": "ff13d11b8bdcaca9dd5cdb68c1495436d61fe8e51d3f27e0c7b733acb17a4f8e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/006-rockery_gate-travel.png": {
+      "sha256": "dfb1879f7ed081322ff29abc8f715c165467209e28dc49e05a9a8ab07aaf3b95",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/007-rockery_gate-travel.png": {
+      "sha256": "c1f21498f4b3f5265d3804dfe785b399e3d089aa4e960b454389c9dedcb32f2d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/008-rockery_gate-travel.png": {
+      "sha256": "4b6264323b29b5f318cb2bfed1620b532d24268719cc9c54adbd41b515f3061a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/009-rockery_gate-travel.png": {
+      "sha256": "1c071f0e5affb3f0999a16eca0947dd193ebfc716d53b2c58a7acc8495a419c6",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/010-rockery_gate-travel.png": {
+      "sha256": "1d0cb48d52265abcd8b9ac6971741dce0713e91486a8506f0793e41b0e51ff47",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/011-rockery_gate-travel.png": {
+      "sha256": "7862527f868dbbae87f39830b8a35c0dbd438cc692d862786451e6950abc0a6a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/012-qinfang_ting-arrival.png": {
+      "sha256": "390c9f05212f8bf6093ef338a5c7e1a08cf7fb52f0ed61435662c34c926604aa",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/013-qinfang_ting-settled.png": {
+      "sha256": "0b31c0c7195b8f65946e5fa80f50c4e2cb1cea1d5df7abe3baac5b8026c4c1f2",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/014-qinfang_ting-travel.png": {
+      "sha256": "6136671dbd46fbd42dfd6315801b2b9f5d1cd1f127dea03f96ffa0b45c630d33",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/015-qinfang_ting-travel.png": {
+      "sha256": "76df1f4fc796e2248260943b0c5757ada2a9cbe10bb7938807c69d3717cbbc47",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/016-qinfang_ting-travel.png": {
+      "sha256": "90d88122b9cb6cc7bb87e71ce2148eae2e2beb40cd75261eaa837b855afc1356",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/017-qinfang_ting-travel.png": {
+      "sha256": "625dd72228fe30bbc36ea508e2eb7e678bed3b8dcbf862d0ec6deffbf55641d4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/018-qinfang_ting-travel.png": {
+      "sha256": "b7df3369481f082eab7849a458d2a91f93178a9bf5219fd39955a9735032e0f9",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/019-qiushuang_zhai-arrival.png": {
+      "sha256": "d36ea1fadb0f5bab906c204e0fedfafe340b8a8721cf1a27ac7bfd791dcec85d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/020-qiushuang_zhai-settled.png": {
+      "sha256": "2a27470c46f1b771a42d4fa7fff75f4b3465130e2542a70b360de6ac75503ab4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/021-qiushuang_zhai-travel.png": {
+      "sha256": "3893114e27c35464177fd81e4374ef1313b09649a1b64775882c27bda1bc3253",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/022-qiushuang_zhai-travel.png": {
+      "sha256": "ae06a8097d306dae65ebc53ed0d16c6b0187c6365ff060e9c35828e359dcd0c0",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/023-qiushuang_zhai-travel.png": {
+      "sha256": "36422e87049ea0b3a3b81c62f136354e540515feb7b6abc4e0e70cb5e7ea3333",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/024-qiushuang_zhai-travel.png": {
+      "sha256": "93584577ba4c6eb9c2b2228a21fc15aee619afd0d6514613c658ab0a273cbec8",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/025-tubi_tang-arrival.png": {
+      "sha256": "3972ec8f8ea56e35d4a71e3bc1101fe1489ab29afbdf1e8f1862bbc516fa3dba",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/026-tubi_tang-settled.png": {
+      "sha256": "195901e8e73abd9ca102e436c4c911f367981b97f7ceea03354755e836442870",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/027-tubi_tang-travel.png": {
+      "sha256": "7636a58bfcad9369c2698b7659a9c92b7210542ba74b32a42454c32f6c083f98",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/028-tubi_tang-travel.png": {
+      "sha256": "4bc0ac851ae7138ed21303deaa0a1a7a048a7a297998cc469497c186a14c898c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/029-tubi_tang-travel.png": {
+      "sha256": "55f5bf01177b52c43e7006d77202be7c4136a265ef3990d66c3deae9bf0c2890",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/030-tubi_tang-travel.png": {
+      "sha256": "68a009428c958b35dc5d4d0d2f75b2e5515ab1dd7a5951a677b87cc1d05bc8ab",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/031-qiushuang_zhai-arrival.png": {
+      "sha256": "2fa4c526157834b663b768b5483416e5e02c17262cf9dd9cbdfeab6159b5700d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/032-qiushuang_zhai-settled.png": {
+      "sha256": "2a27470c46f1b771a42d4fa7fff75f4b3465130e2542a70b360de6ac75503ab4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/033-qiushuang_zhai-travel.png": {
+      "sha256": "c657a74529e0654df9f6d1c3cc9b89cc4f69a4db1315eef8edc81b3c10f106ee",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/034-qiushuang_zhai-travel.png": {
+      "sha256": "d386c4295b746bcd51d7be3f55709a4b88fdd2afa7170cbba1ba435479e62a7a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/035-qiushuang_zhai-travel.png": {
+      "sha256": "85dc6c02b465bee5d61f6d2a3dba92c20335d40007ba301c948ff29ad3f45e1d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/036-qiushuang_zhai-travel.png": {
+      "sha256": "4acf47a5063cf120dce6908286e6e79c7be07fd981ac49e84abc3a08cd9d3c43",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/037-qiushuang_zhai-travel.png": {
+      "sha256": "f1fab6bbbd872b5c28ef553510125498e503665bf5109615cbd4e894e3300a0a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/038-qinfang_ting-arrival.png": {
+      "sha256": "6a5f0e5aec2f2e3551ebaae6cd466552f350692e82f5175c55b746808e837558",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/039-qinfang_ting-settled.png": {
+      "sha256": "2fa757d4b2adfb3ddccf130e3ad9da8e6b0ef7ff77e9044e9b91ada45e6ec9bb",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/040-qinfang_ting-travel.png": {
+      "sha256": "dd593107367022599d7c9f40b344fad78e8650070365220aed64f99e9b9d6dd7",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/041-qinfang_ting-travel.png": {
+      "sha256": "ca486509732e01401cd8c9a7d5d88dc5fa9621a3d593399062fd014c997fe884",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/042-qinfang_ting-travel.png": {
+      "sha256": "c6130452321f53003d2bd1aa502d91121976985a8b2f04635348ba020d1e8cf2",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/043-ouxiang_xie-arrival.png": {
+      "sha256": "69762e12ff5c3de4993dbd430e93361030d649e2ab1a813b7b95f8e431dd17f3",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/044-ouxiang_xie-settled.png": {
+      "sha256": "7596f337efc0b439f6f94332e52d77342fd8137c2ed6489395e33f08cb4f3662",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/045-ouxiang_xie-travel.png": {
+      "sha256": "285c23d432f6b6f37a86e4322d29670880246360dc32ee5d526722846989cc8c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/046-ziling_zhou-arrival.png": {
+      "sha256": "93ec0871ca7b7100ab073ba4175e4eca9bea0ae6e0ad08b5c8f683909f7c231e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ziling_zhou",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/047-ziling_zhou-settled.png": {
+      "sha256": "793fcb2891dcd93aea0e9f3303de6702fc0bb90243286bfe7b23234789ad926b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ziling_zhou",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/048-ziling_zhou-travel.png": {
+      "sha256": "4dee8561c5b104e36b2db9324416a8629142231a128b0412ed059c65b485c896",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ziling_zhou",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/049-ouxiang_xie-arrival.png": {
+      "sha256": "e3e02b538e44a463f73a85244b7a2f1afc589d8436654d3774c28c0f901f280e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/050-ouxiang_xie-settled.png": {
+      "sha256": "7c5fcc0d30133cfaa43a4a7b9fa6719dfd578ac858553925e0e14e6e1865e3e2",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/051-ouxiang_xie-travel.png": {
+      "sha256": "cd5abe90cb946dd79876cbdee8c29ced6f41d1baa4d9ccf80e811a0caca2e3e1",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/052-ouxiang_xie-travel.png": {
+      "sha256": "f3bafb143171c68293652c8e4feee31f17b2c6d076bb16784916b80f4665637c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/053-longcui_an-arrival.png": {
+      "sha256": "e478ac63722d377ab3b47893a40a4edac28c3ee91124821295071f5b175ad5ed",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "longcui_an",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/054-longcui_an-settled.png": {
+      "sha256": "c8fb3f100ea40132ff6936bebf5ec169b50509a7c19e7107aa80d8d549ffd7cc",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "longcui_an",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/055-longcui_an-travel.png": {
+      "sha256": "f80962df863d536769dd9634a746e7e8cf64f0e5b0f01396f7cda36aa17311a9",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "longcui_an",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/056-longcui_an-travel.png": {
+      "sha256": "4363cbcac8ba0ad20e7664d04e733df6fac0a5fd4723a1097d20f42f8484fe73",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "longcui_an",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/057-ouxiang_xie-arrival.png": {
+      "sha256": "941eb9014771c28c546a42258178f895577458fbdb2bf05b71cc82b265784934",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/058-ouxiang_xie-settled.png": {
+      "sha256": "af9bbc8f009e4112337f2b596a41b449fc0cde400b76c4a07708575d3c924adb",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/059-ouxiang_xie-travel.png": {
+      "sha256": "04fd41b7a3dc22a753e125cfb1534d1f1869d28a4cc3e7cae8c19e3a387fff5c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/060-ouxiang_xie-travel.png": {
+      "sha256": "7b47f3a0c06a459dc65cfb7d095e8511115d47af771e4a146a05c34f8242946b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/061-ouxiang_xie-travel.png": {
+      "sha256": "00d175d2ae3cb925cd73c82153df09d14a790f7422a505973427fa83058aaede",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/062-qinfang_ting-arrival.png": {
+      "sha256": "a9d9074bc6cfdebb73ca26222d5335d6063b140d89607245e618826b36d6232c",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/063-qinfang_ting-settled.png": {
+      "sha256": "a02d5e9e7472d128397a152d2105c86a54895ff4f58327e805478d8db6020798",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/064-qinfang_ting-travel.png": {
+      "sha256": "448a7e0424e924700dc3fe6c24286aa2d22ca5effc13995983381188cba251b4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/065-qinfang_ting-travel.png": {
+      "sha256": "269d5a7d9e1b55b3a72fb06e66cbb4a53f4ba8a35b50d9a4808d3be5df245360",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/066-qinfang_ting-travel.png": {
+      "sha256": "62912d82eb653dc34b290fca06f0a01ab62bffaae4d6a1926c2f19062f4f52f6",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/067-qinfang_ting-travel.png": {
+      "sha256": "c3ee03eb936a168a613cb10332d66219016b249120078cd6686b19a6c0ead332",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/068-qinfang_ting-travel.png": {
+      "sha256": "e8aa2c0b7d147146b2c5bbc5af04342a85028b2cc74937e4f3b535760bb72f37",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/069-hengwu_yuan-arrival.png": {
+      "sha256": "0a2bc1d02d9208d0051e7950e9e73734b2eab75ee7aa9e7317ee44a0dda9b26b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/070-hengwu_yuan-settled.png": {
+      "sha256": "3396b75f766280c71b0fc7dabfc840c3769f84cbc6b8a80b0e6783d8a09cd444",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/071-hengwu_yuan-travel.png": {
+      "sha256": "44e6ac97d082bacaa746f35f62e8c6ea7bc5206108d0a35ec155073d3e7e38c1",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/072-hengwu_yuan-travel.png": {
+      "sha256": "acefb26d8333f4324ee9d6c2547d3644386c3173cede51b05495784c3af34b6e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/073-hengwu_yuan-travel.png": {
+      "sha256": "a2e202111a3ee6ea737ea815b4f9218f7f23d0fe73e43ef14b70406867b5b487",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/074-hengwu_yuan-travel.png": {
+      "sha256": "521e9113079cf41e902f8152e2ad03d3f8c6aec0502d9e627f91b9659b4b5dd7",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/075-daoxiang_cun-arrival.png": {
+      "sha256": "b02b25b3ba615969a0c89ee7d59402d7bed401ae2ec47104843b650d4d2f55c1",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/076-daoxiang_cun-settled.png": {
+      "sha256": "4aaa56c902526e2b771ec2a76bf68113c734976aa7620cf796edc9ebb47479e6",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/077-daoxiang_cun-travel.png": {
+      "sha256": "34d3f326e4712f7d8671d14c82b8ad2021fced250a22c6f999b7459f012b222e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/078-daoxiang_cun-travel.png": {
+      "sha256": "84f6dfd808b988843eda6493c4638083c8320ac97c67001c12d30ccd238ef4d4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/079-daoxiang_cun-travel.png": {
+      "sha256": "0f2b5e31f1d13a8ef477771f0259997f8cc9ed91bdd40b18d632b60ad4922460",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/080-daoxiang_cun-travel.png": {
+      "sha256": "d17b040506872a1f4601ee804526304cf49c70306e69272528d4d01c7600fe48",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/081-hengwu_yuan-arrival.png": {
+      "sha256": "39ab337a2901436fb129fb889b3c7d0f98db912231999a0013433d825d64d35a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/082-hengwu_yuan-settled.png": {
+      "sha256": "8fd849fc0ff276fed77df04c755f04a74ebb6e4d6381cce6da3a3bb0db9defaa",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/083-hengwu_yuan-travel.png": {
+      "sha256": "f57213ca33f6f125e40a909b730813747674bfb9b1975a84878fdc6a8339daba",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/084-hengwu_yuan-travel.png": {
+      "sha256": "411b4dfb309a243e0ad448601ca5eaaa4a3d94d493490ea51251c70e5ca27f6d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/085-hengwu_yuan-travel.png": {
+      "sha256": "c8378adbb9a1e41735095df0e9d02837b61bb8e94a43e16826dd2fb669d6a0c3",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/086-hengwu_yuan-travel.png": {
+      "sha256": "63cfc56a425c4d16be347e188888218346f24f094fa17471a8d3488fccf42b44",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/087-hengwu_yuan-travel.png": {
+      "sha256": "2353b7ff7bd68159715aca161e62a44e6fe47bad1351500adc81de03cd2223d6",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/088-qinfang_ting-arrival.png": {
+      "sha256": "bf110bd01f69415da2dfa801a2d9be880c7840a9cec9d998c1844a97fd7e8ea0",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/089-qinfang_ting-settled.png": {
+      "sha256": "e847cbc01583ec2bdec84bbf90d9ea52c229230e8aefd4952e8c5f83cea29047",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/090-qinfang_ting-travel.png": {
+      "sha256": "2a659e9ebf31620cd4969120f3d6d4657711115c16770cdcdbe5587fa997f137",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/091-qinfang_ting-travel.png": {
+      "sha256": "e6a6872ffebf85182e3cef486815a6ee3615834d9cab9d55022f27b02f86c6ee",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/092-qinfang_ting-travel.png": {
+      "sha256": "93bc0eec92bda21439d6df5c7efa5351218e5ee2b821ff998ab87409b2b701c6",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/093-daguan_lou-arrival.png": {
+      "sha256": "b5b076a1ab9cf952a901b4040667c229f46983d0e618ad3296208b08771fc154",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daguan_lou",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/094-daguan_lou-settled.png": {
+      "sha256": "cf1b97f84ab027b5456dd86d85062e82699db2642a85ba6104af888f0dc570e7",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daguan_lou",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/095-daguan_lou-travel.png": {
+      "sha256": "34d1967d1b42f1db28b87753ab38b2ed8bd0a3fdadbfdee6b880afab19d8a141",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/096-daguan_lou-travel.png": {
+      "sha256": "bbd9489713c9ac3e5f009d02867d8ad87025ee8aee8580290d9802dfd188e27b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/097-daguan_lou-travel.png": {
+      "sha256": "bcebe7aa98c9b49c2682a80c0a1a2af4ffa291194cf6ab3e35a36454b7915e23",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/098-qinfang_ting-arrival.png": {
+      "sha256": "6083157ef8ead03926b3117f212039377c86043ccb6707a686f81573305b817e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/099-qinfang_ting-settled.png": {
+      "sha256": "e5c42c2f72f309558eb1a60f608c22c6c6b18e1d61a63cde73a2c4410f037e96",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/100-qinfang_ting-travel.png": {
+      "sha256": "9df8faa4600f4d740e9724da94eeeac2ffaef9b7288b86e3dbf642d4c6983ce4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/101-qinfang_ting-travel.png": {
+      "sha256": "5f0473078872da67b7fea6d8ec99e5470a9a6c9ea899ed319a8700ef150ba04d",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/102-qinfang_ting-travel.png": {
+      "sha256": "0f5fcdaf309e68225c77b4959d3174a41e1873697910efc6767d2cbef9013694",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/103-yihong_yuan-arrival.png": {
+      "sha256": "198136f0d9fe08b3c9eb5afcc6f1280617ffe47a82a1cbfcb96d20ab90b43254",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/104-yihong_yuan-settled.png": {
+      "sha256": "59b9d901d1d7f429c5fbb48f7fdbc7a869d7c7bbee792ddfdbaf78384a66c762",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/105-yihong_yuan-travel.png": {
+      "sha256": "f92ba8c8904919f4e5e5b28ac342ad2cf29ad68e960ef813f025929d5e05184e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/106-yihong_yuan-travel.png": {
+      "sha256": "16e09bcae48552dc32daca9d310e30a85b2d9f9cddd68f2183e6d1b90229c5db",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/107-yihong_yuan-travel.png": {
+      "sha256": "d851eff973db155b0bfb89574ce601ad0902976ee2e663518ba108db9d0d91e1",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/108-aojing_guan-arrival.png": {
+      "sha256": "b10bdd196618eb50d1bc3b01efd2c04efec0afd6a609e1b5d6614d969d5ac37f",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "aojing_guan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/109-aojing_guan-settled.png": {
+      "sha256": "890608e2b8f76d03574fa359ff59e33d9770c9d307052e5b4ca2fee0498bf5e2",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "aojing_guan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/110-aojing_guan-travel.png": {
+      "sha256": "3f22e8a71db771962db6bd534aaed2be4b02776549cccd62cebf9e905ba41af8",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/111-aojing_guan-travel.png": {
+      "sha256": "a694ca332a1ca5fb1afe9fed64132ad41b77aac8b708d3bad391d140f6d3754e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/112-aojing_guan-travel.png": {
+      "sha256": "2b86762eddb851def55bf1f3c77998bd35148dcdde440f4d6d7f41bede78fdad",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/113-yihong_yuan-arrival.png": {
+      "sha256": "3bd5987fb783a061d463200b2f31962b7c7b0379ae338b9ce45e852b505f802f",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/114-yihong_yuan-settled.png": {
+      "sha256": "8ad48b819f6b8df5388c0caa7e13720ad1027dc73b91fc653b87267e6dad5232",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/115-yihong_yuan-travel.png": {
+      "sha256": "32b978fc38571e735c1dce1f42e994242868d64b2124a3f0e092f6c399fe910a",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/116-yihong_yuan-travel.png": {
+      "sha256": "7736b5126cd9f7c921ce4e775faef059c6621ff82a51cad12f329bb473e1525b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/117-yihong_yuan-travel.png": {
+      "sha256": "3f97b672a14af688ea5bf4d06f53301927918fd5a23f475e50788847dea978d0",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/118-qinfang_ting-arrival.png": {
+      "sha256": "55fe376a222b19b72d415efae3a6566822fd4167c8ec7a1fc523afa1ce35e7ab",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/119-qinfang_ting-settled.png": {
+      "sha256": "1ec9e5b462054b25a2efc5672b9c4edad3e24355b044655e5461f9cb5b663a87",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/120-qinfang_ting-travel.png": {
+      "sha256": "c04872bfac46d6350127c9ffd83c21d67b437f2fafb6663faa805eb49ef0d278",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/121-qinfang_ting-travel.png": {
+      "sha256": "9f9e943ead9c33d9fc1d1878b019bf6cc1e59ea52ec406175c18594d9422f1ed",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/122-xiaoxiang_guan-arrival.png": {
+      "sha256": "e58e98052730617445b0eeaceea8f747a3a6ced08f5b95756816c954109b06b7",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/123-xiaoxiang_guan-settled.png": {
+      "sha256": "27b1eb3e818a9137a26bb64ce629b634e8af34354b261d016b75f98295535029",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/124-xiaoxiang_guan-travel.png": {
+      "sha256": "5df2af796819339d515b6fdfd065e2c3b3c3219f757d17c14d3a0b3fc0a918f4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/125-xiaoxiang_guan-travel.png": {
+      "sha256": "3f18e499dcbd2936f6decc458b679b6be9092946458e00f07d7302ba5ff2efe3",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/126-qinfang_ting-arrival.png": {
+      "sha256": "1e2fc5e8ec45728200715f4ba8ba80db3bc6e443271c848f40ff5b86b873a7bd",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/127-qinfang_ting-settled.png": {
+      "sha256": "ed71fa77248f61815389f025fe643952654385977816246b80afda763d4603be",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/128-qinfang_ting-travel.png": {
+      "sha256": "e8768f8078ce8335effa14df146478775f572fe3066b792cb6383e8b398d0038",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/129-qinfang_ting-travel.png": {
+      "sha256": "277916d60ff0337e50b906344ad8646039040250f4eacb398b13ff1778df20c8",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/130-qinfang_ting-travel.png": {
+      "sha256": "715d97e112b426cbfc7d1a451fe189a55ebf33df0c294eddc666541138906bd4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/131-qinfang_ting-travel.png": {
+      "sha256": "6f5d5dd47bd20e9eda561f96a024788f4108ef1edefd01c079f30bc784416ad0",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/132-rockery_gate-arrival.png": {
+      "sha256": "0c5729b84721c325b05d94a25b892dc0f51d3be83ad642015a1346a1a9ff9a72",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/133-rockery_gate-settled.png": {
+      "sha256": "d957d914200229330e1684ae12193fbce02b380fd0a890b59fe51ae406498e4e",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "settled"
+    },
+    "lit-tour-desktop/captures/134-rockery_gate-travel.png": {
+      "sha256": "0951a19cc5bbd1876257604e05bd9ec67fd1279ee5c7437623440d043e3642a4",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/135-rockery_gate-travel.png": {
+      "sha256": "b06f0e8ad347e0c4c4f06e0ee6ba7e9c56a1fe80a27c60fb2359d7a702e67f8b",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/136-rockery_gate-travel.png": {
+      "sha256": "e96d3fde364b690fecf52be018b960d1c72dcc6effe13bda3ea258dd97484857",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-desktop/captures/137-terminal_room-arrival.png": {
+      "sha256": "fdb70ca8ac094710d1cd1d9a9902946e35f03bab0eed2f2b8a29f2661841e4dd",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "arrival"
+    },
+    "lit-tour-desktop/captures/138-terminal_room-settled.png": {
+      "sha256": "ec1057f782a7c8fc34df89f545b68e5b4899fa70aafc8ab12c5d8e9fdfde21cd",
+      "size": [
+        1410,
+        600
+      ],
+      "room": "terminal_room",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/000-terminal_room-travel.png": {
+      "sha256": "f3f7da4a30d48d02d7e62f582db6c1003a7df315a4c913bcaa84bf546e2dda6d",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/001-terminal_room-travel.png": {
+      "sha256": "258811638202ef8b49911a3f5ec781a1da546018b53174859e274e57a75e092d",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/002-terminal_room-travel.png": {
+      "sha256": "024b29dfc1c030986923a42d135aa1eea6b39601032742cbb1a19f89c2609a3a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/003-terminal_room-travel.png": {
+      "sha256": "93088183b3236601b2ca4f095241e86879e63331348298b307bb10346c352c44",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/004-rockery_gate-arrival.png": {
+      "sha256": "1464be7aba6738bab80373c01c879643b471806424d9da953fe718f3cfce38e0",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/005-rockery_gate-settled.png": {
+      "sha256": "2212b64f489a20bfa7efd06f596aab4130c6083c5ce3cf9c9477be457204783c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/006-rockery_gate-travel.png": {
+      "sha256": "78d3085129b9b9d7170acf4415959cff5997610babf0c07fc1f4062f851bdfd2",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/007-rockery_gate-travel.png": {
+      "sha256": "85a48851e7dba52be059edc65ebfa692ddd5d0cba6766e3925fb47b39c8db88c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/008-rockery_gate-travel.png": {
+      "sha256": "2777288b0d5a7658769dc55e54b912bb5ae1f7f9d09b9f0fcfb00e81d5095115",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/009-rockery_gate-travel.png": {
+      "sha256": "792546bfec96915ddde5695482f945d5c1000681ac819943a1c2f2572e1f4f5f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/010-rockery_gate-travel.png": {
+      "sha256": "566e8b42e03bcceda31691159aea93728e721d4349948bd691ec6814c900a8f8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/011-rockery_gate-travel.png": {
+      "sha256": "a2ae5fbb735653afeac8b1362d41711221d9831291b0d751a0e85a8a5ed4f18f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/012-qinfang_ting-arrival.png": {
+      "sha256": "a0a20fedfca6d3dca6cb83baa0285ecc4748fcd24eebb1a569213d2364c4921c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/013-qinfang_ting-settled.png": {
+      "sha256": "9875b10aaeab809720b1470b2c8e3c4fe80d5cceb7e6281fc2801c018d98c99c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/014-qinfang_ting-travel.png": {
+      "sha256": "1f05f1e4a76b49384804b5d840d68402ecc097bd6830f9e8920b5377c35e1ff6",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/015-qinfang_ting-travel.png": {
+      "sha256": "72de8c6afa30b5654f5b84dbcd6138135972dc09721e9668f0b85deadcc96fd1",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/016-qinfang_ting-travel.png": {
+      "sha256": "89344b4196a4df6ce9b7eb5dcddb16d9c0ad6b4704350689a193a0e400e22b0b",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/017-qinfang_ting-travel.png": {
+      "sha256": "48360f092662d2d677af7b85e036ebdbf6c4837140db800b6e549dd75c47b6d4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/018-qinfang_ting-travel.png": {
+      "sha256": "530cdebb3c8a624bae7daaf03f0de891fa9c820a9a3d669777cde50e607d5b05",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/019-qiushuang_zhai-arrival.png": {
+      "sha256": "e7997c04e6c58f41eb59e879fffdd00ed48cad82b9de453de6e0d1b1a68a9e7a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/020-qiushuang_zhai-settled.png": {
+      "sha256": "3987c15ecdc57b4262914dda0574a7b552ab4a4851f04dff508bee13d07ab6ce",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/021-qiushuang_zhai-travel.png": {
+      "sha256": "d56d0c5e3646eddb271aba2b86e1e65af804bdf08568bcb12bc935fd95f018b8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/022-qiushuang_zhai-travel.png": {
+      "sha256": "2ac7e2c6097d6ae4dfb048a086a5b6479b68c3554386af9fde77dbf08131e937",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/023-qiushuang_zhai-travel.png": {
+      "sha256": "d144249b862b1f1ceaee2be7d8fb913644d19249a6b54eae3e522dc9d8f2480f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/024-qiushuang_zhai-travel.png": {
+      "sha256": "dedb2916c8ac7b8e352547cd4890344aa59c516f49eb7a6d9687686fb2088230",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/025-tubi_tang-arrival.png": {
+      "sha256": "0afdfa66cd540010d9efefd8b7c4698906898eba65368316f933724dc4c7bda3",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/026-tubi_tang-settled.png": {
+      "sha256": "f88e32943045ece69cf076dfb11c5946ee2c2dfd2c69d9226827df2c8965073a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/027-tubi_tang-travel.png": {
+      "sha256": "866752ee4269ab9a6e5111436e3583c4c3f8cae2b06e865a35a03e5c67e6e013",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/028-tubi_tang-travel.png": {
+      "sha256": "5ff881562aaffa4ecc1f621363ae1e3efe9dcbfb7bb5fe6e7ebf9f1916a82a83",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/029-tubi_tang-travel.png": {
+      "sha256": "56249a2c58ee0fab42eb1ccdeebb1f53d64912983c1c6b49bcfb701c2dc66e58",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/030-tubi_tang-travel.png": {
+      "sha256": "32bed9f741917038aebf57709c3761fadee0ee421f615d772ee6289cd6397ee8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "tubi_tang",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/031-qiushuang_zhai-arrival.png": {
+      "sha256": "e6b46a4592f29015a370149db653377d704e2048526013d533a0a4ccaeeb1a23",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/032-qiushuang_zhai-settled.png": {
+      "sha256": "6088fe71729cd460145ee907026e9b97c12cf791c5066199b7bec2e1c531eb3d",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/033-qiushuang_zhai-travel.png": {
+      "sha256": "5a222b00c915a62e5d25e525f886634b8c53b78d6bfb69a30d12575f195cc748",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/034-qiushuang_zhai-travel.png": {
+      "sha256": "2ddad7e74cf90100170d49db92eb7969a731ced5ae63df32c0bc61c4f55ea771",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/035-qiushuang_zhai-travel.png": {
+      "sha256": "f1f329d9bf93a9332897060ac885936d1571b05d56cffb31b971bbc5239d76b0",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/036-qiushuang_zhai-travel.png": {
+      "sha256": "58901864c1b11ba8ade7a64d436f9968fe5b144ffb61063a280611c7c0c789c3",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/037-qiushuang_zhai-travel.png": {
+      "sha256": "70295ebb3d54ed6b7c0eceb17e5bb6f5029421da9c8cbdbbcab65140351d4635",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qiushuang_zhai",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/038-qinfang_ting-arrival.png": {
+      "sha256": "7a3025a5d0dd25a56f1fe97ddde0d2240730a590e0113817afc5092fd4ce3ea8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/039-qinfang_ting-settled.png": {
+      "sha256": "f08a4576e03454a946244970da9f0da9b9e8674e7bddb85f633fcee556f35a78",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/040-qinfang_ting-travel.png": {
+      "sha256": "ee87a27f549f43e9df0b10097f31a5bf6bc7286584983c452321d9ca6db420b7",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/041-qinfang_ting-travel.png": {
+      "sha256": "c6959606e1fb17db86249e44ec4821914b94336794c84a0c3b610c7a84c8f377",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/042-qinfang_ting-travel.png": {
+      "sha256": "758912b47ebdf212b14f5d48ef0174270d1470dcaec57a3d1a2d8fc0a954b65d",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/043-ouxiang_xie-arrival.png": {
+      "sha256": "1f7fe694bac2fc16a1463e7334781334fb343cdcdb1eba2a9298a544b1c0ed5f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/044-ouxiang_xie-settled.png": {
+      "sha256": "9b7969118e6e5ed77740337a86765fae61cd85b16a7affe165952ebdf04bdf89",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/045-ouxiang_xie-travel.png": {
+      "sha256": "2ec8c24ccd3d41696b51ab57b279e29705c43e85b7776c6e8a38792b5ef980c8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/046-ziling_zhou-arrival.png": {
+      "sha256": "1865ecabb1d1860dba755bdb15becc6f7e28c1a640871eed92d53c5a9bc7458e",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ziling_zhou",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/047-ziling_zhou-settled.png": {
+      "sha256": "d2e19fdd4d3907a238897f80fcdfad4f903f27f8cd8a8378d99f82558f85bf72",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ziling_zhou",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/048-ziling_zhou-travel.png": {
+      "sha256": "267546a208be7f75831f176226248d2baf455bf723505484ff48fac310f0ae46",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ziling_zhou",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/049-ouxiang_xie-arrival.png": {
+      "sha256": "7551596125402e752afc9a95a217e1655e51feafc9484567d48d32d9aa58ce08",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/050-ouxiang_xie-settled.png": {
+      "sha256": "8c305979ef640a50604266f448a66ab14e05c63ebe147cd8ee9433dd6d3919ea",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/051-ouxiang_xie-travel.png": {
+      "sha256": "84433d0dbf29175c7aa6f4f50d455f8f65d0443350d41e6e1360a849a276f185",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/052-ouxiang_xie-travel.png": {
+      "sha256": "d897054860ddb71fa6cb9d8bcbbb0e09e53195ca59e583f8ec9f61c447e5d438",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/053-longcui_an-arrival.png": {
+      "sha256": "3244639e5aab766ada50f2f42ae874b2b30fb60a2a3a6986ce8c9416c115d4b7",
+      "size": [
+        540,
+        960
+      ],
+      "room": "longcui_an",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/054-longcui_an-settled.png": {
+      "sha256": "425af9c4a294e35d5f6b8802b19b1f293ca9370643577dab4dadba89ea4fa6e4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "longcui_an",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/055-longcui_an-travel.png": {
+      "sha256": "bb10c1bb343a31b53ff533bc9ddb944beef6693d2024355092e38dd24ac965ea",
+      "size": [
+        540,
+        960
+      ],
+      "room": "longcui_an",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/056-longcui_an-travel.png": {
+      "sha256": "c91b586e93bd593607342563007f1a4ecdb66670d84126f3c6d6ef3991965953",
+      "size": [
+        540,
+        960
+      ],
+      "room": "longcui_an",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/057-ouxiang_xie-arrival.png": {
+      "sha256": "ecf181ab9e6d6432d6039e2280c7878682c2e200d1782c4f45da655418813142",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/058-ouxiang_xie-settled.png": {
+      "sha256": "5e9d25979a4f58d2dd334fca8d3f257a690602e1a9705128530e69e2f2d98c57",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/059-ouxiang_xie-travel.png": {
+      "sha256": "7d31b423b7b292253eb4d132e400a28dd957de535928226a17149314bb35e7bf",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/060-ouxiang_xie-travel.png": {
+      "sha256": "a4604f8cba0bd2e8c098eef4bff06c886692e37492f0947f9635a1a525add273",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/061-ouxiang_xie-travel.png": {
+      "sha256": "241af6c97c88ea562a6c67522ba76695efc6c2eafb509d319ca8a4d8c205dd36",
+      "size": [
+        540,
+        960
+      ],
+      "room": "ouxiang_xie",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/062-qinfang_ting-arrival.png": {
+      "sha256": "f38668628652b9c2e9df4f9df27e9c947ec77818da77ab9311894255adef4e53",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/063-qinfang_ting-settled.png": {
+      "sha256": "483360bac41f26e552dc39992d2a2752bfa225961373726e655fe6e7a1fb6f12",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/064-qinfang_ting-travel.png": {
+      "sha256": "68ff27616cf29d291c42a02eb037388ef8098d43e68f05452340a46062935854",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/065-qinfang_ting-travel.png": {
+      "sha256": "1a7c82d15a59ff18f0b9e998c71ba80d9a9a93e90312bf57d7b02918c7ddc0f0",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/066-qinfang_ting-travel.png": {
+      "sha256": "6c09115765dfaec5510fae3507acb6fc5e125168b5eea1ab441978dfa3c8160c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/067-qinfang_ting-travel.png": {
+      "sha256": "c1d74098a983f1222318664009b23b8025e5136cc5ffa86b6e81d5d106395c6f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/068-qinfang_ting-travel.png": {
+      "sha256": "89720711f30f546dc6d2b63f4984095203032996e35a1f1895e51c49f2003252",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/069-hengwu_yuan-arrival.png": {
+      "sha256": "2536142d2724035621a4f41e83fe9c77810d9b8d48a62deeffcf3eaa2e95ee7a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/070-hengwu_yuan-settled.png": {
+      "sha256": "a1d4f49c0ba476d9935586ca58fdcbee9944fafc46117916f7205f1c4616ad03",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/071-hengwu_yuan-travel.png": {
+      "sha256": "e478842165e20909450702ce794eb262929f4ed4bee11fc3faa63531e100f0f1",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/072-hengwu_yuan-travel.png": {
+      "sha256": "0c37d39de54ecaf912bc8305cf694f01a989b4e1b66f6b7644b52e36c9715c26",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/073-hengwu_yuan-travel.png": {
+      "sha256": "6a20c1a95eb2a8bb675c633a221aa04fb4d5410275508cdf47ad00782a76ae45",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/074-hengwu_yuan-travel.png": {
+      "sha256": "f333fb012c21c7d015828cba38a20d18c7849e1114bcabba4e8b9bb104c97d60",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/075-daoxiang_cun-arrival.png": {
+      "sha256": "c88ed9fec9d6216d40b31610373b13c9c26d0e683091f6c60d1fca367bc1cc18",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/076-daoxiang_cun-settled.png": {
+      "sha256": "b946ef6bd39c74f6fe92f17cf3ba714d61d79687c7a5d70967b7c57ae0698d94",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/077-daoxiang_cun-travel.png": {
+      "sha256": "ead84103696a6103b4ada95489e94b838800cc538a941f6b4c4d9e9b4ce2d46f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/078-daoxiang_cun-travel.png": {
+      "sha256": "cf169dd9ec08e42f351f13ec8853eaaca47b2ab49970ea1551773240348a84b1",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/079-daoxiang_cun-travel.png": {
+      "sha256": "1f4f97378a67ddcc1c22f1b62d2b2e1337b00f62d58a1b69c96dbad11baa24c0",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/080-daoxiang_cun-travel.png": {
+      "sha256": "77bec718d5e78deb8f6abe3cf7ac46addcf30e6dfa1e4c50f52278ddecf988a7",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daoxiang_cun",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/081-hengwu_yuan-arrival.png": {
+      "sha256": "f85b758c144a738949e7d2efb4c70beb69a3f0d5c1b00d6b8fb7969f63c4c9c6",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/082-hengwu_yuan-settled.png": {
+      "sha256": "6d9f9ca3f7ddb494cf255022128fd41084aa900ad20cd55ca1a811fac9f9d597",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/083-hengwu_yuan-travel.png": {
+      "sha256": "fc4bd0d28371adc4b4e7e0c487ec21ab861b36a629a2222eb991622a70b06e37",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/084-hengwu_yuan-travel.png": {
+      "sha256": "4945b666785768c1b6edbd3ce7de13de94f9b4143fc41a3fc48df1766dd270a4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/085-hengwu_yuan-travel.png": {
+      "sha256": "c6798d353ad9d893d88e5c57798e211d38aa03cb8b95690a7888309a46907f12",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/086-hengwu_yuan-travel.png": {
+      "sha256": "2649a6f8397ae03025de5b6d07a12a3e15e52b68495156371a7ff0fa980db76d",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/087-hengwu_yuan-travel.png": {
+      "sha256": "d5cedbc4e18e765f22d598cced83b626345919aadc1301d22456114dbc937e12",
+      "size": [
+        540,
+        960
+      ],
+      "room": "hengwu_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/088-qinfang_ting-arrival.png": {
+      "sha256": "356cf13a9f76b08236e1c378dd403430bd9113119c57e04b5b1fa4b5e21e6382",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/089-qinfang_ting-settled.png": {
+      "sha256": "c7807959555e7603f09bd8f3c289b5542681120e8999a83928242f6c2551af16",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/090-qinfang_ting-travel.png": {
+      "sha256": "d6edca739701f1cbc831ecd548cba1400e44f52fab7382698ac28ee31eae1cd8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/091-qinfang_ting-travel.png": {
+      "sha256": "f711c5ca86d5a4e0e72b8347cbbe638120059d6b7e534af700efde230f12a7b4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/092-qinfang_ting-travel.png": {
+      "sha256": "12e0fb2be07494601843afd5e2769b22d634a37a71ccb47bc37972cbd60a5532",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/093-daguan_lou-arrival.png": {
+      "sha256": "978fb3ef88ec107a2ed3916ddb0c9b3afc3b29b1b5c739a0350a8435f52a1df8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daguan_lou",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/094-daguan_lou-settled.png": {
+      "sha256": "c24779bb9902f1a9bbad6b5f5efa53a62579e6b7eb9fb67b3e9a9730d6c00dba",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daguan_lou",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/095-daguan_lou-travel.png": {
+      "sha256": "d5de04edd70bd6de5d353a079cf0507beedb69465f021ebd9632890f68ea7e97",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/096-daguan_lou-travel.png": {
+      "sha256": "c4f857c5ed7c5c7a5e868caea12ac66649381fb2420fde57473ef11e9058452e",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/097-daguan_lou-travel.png": {
+      "sha256": "11b54774d747178f2d1aca10c73d5f74bae94d7e75cd6968aa4edd0b932513f4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "daguan_lou",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/098-qinfang_ting-arrival.png": {
+      "sha256": "bc165a2860b28a2f40acd2aa9515f738c782366074c6f35c428ae5c5300d6182",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/099-qinfang_ting-settled.png": {
+      "sha256": "823ebf382a7e3a7f0363b86f468adc5d4189eb24d2de1231cd70be8febeee3cc",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/100-qinfang_ting-travel.png": {
+      "sha256": "0333864dfeffaca7c5b13ece5a8c650b51189f83c2d1554cb77be718d56071bb",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/101-qinfang_ting-travel.png": {
+      "sha256": "820859ce7ff65471a7dab1a1b1da78f0be1cfd6985a057d57060ad34dc948491",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/102-qinfang_ting-travel.png": {
+      "sha256": "0bfcefb3808fb66d51ad7f84aed6e9aad13b0d741bae4ef86149292f17b0a8ac",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/103-yihong_yuan-arrival.png": {
+      "sha256": "e1037428177d7251cc96ec7ea6feccac95d76bee80e4150422b7cb0549c8efe3",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/104-yihong_yuan-settled.png": {
+      "sha256": "143779698acdee1799355e7797803f204e58a728e8102e36f9e22c72abef3f5c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/105-yihong_yuan-travel.png": {
+      "sha256": "c9b1b9cfa1166610c0d133d6154e40a918b7e76a9b1995edb86eb0af7281ce10",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/106-yihong_yuan-travel.png": {
+      "sha256": "ac8296f65493be751a597384d6ccd0fd0b1bde1fef23ba09eba07d9c8c48771a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/107-yihong_yuan-travel.png": {
+      "sha256": "d97a03d84dcb777229d9eea041f2e821d4c3f6b3bfba09822782592ea62755b7",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/108-aojing_guan-arrival.png": {
+      "sha256": "c5fbc481711d31b2ad44c69d2cd8ec9e7cfb7b9fb29c9d5c71b8ef139567aee4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "aojing_guan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/109-aojing_guan-settled.png": {
+      "sha256": "58c208cac7b9a899106a1b1428336bd91b333308baa4c13345fbe9890b5bb5f1",
+      "size": [
+        540,
+        960
+      ],
+      "room": "aojing_guan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/110-aojing_guan-travel.png": {
+      "sha256": "44cc8b05c1be18b1e8cab9e9de1399ccd223d742ad41a8d6501cd2bc349c645a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/111-aojing_guan-travel.png": {
+      "sha256": "70e3a2d4fbbd6c2718cbc82b335e74bee4e4b98878fc50bd9bdb2523a53154c2",
+      "size": [
+        540,
+        960
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/112-aojing_guan-travel.png": {
+      "sha256": "91211b11d7fabad4a2c7410d594c0173b3f4c11757407eceaa86f8a74ccae7a2",
+      "size": [
+        540,
+        960
+      ],
+      "room": "aojing_guan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/113-yihong_yuan-arrival.png": {
+      "sha256": "e0b2df957965309fc456d278cd56684d8e4de6d14e762a326e670035d7e2454a",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/114-yihong_yuan-settled.png": {
+      "sha256": "441d7ba46fdade64144cc1f45ec9e593c442761973db78731feeb163ecefc445",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/115-yihong_yuan-travel.png": {
+      "sha256": "e7d97d6d6be82f52f6569ae85c34b64e77a88d98983cbbeb6928fe0e9565081e",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/116-yihong_yuan-travel.png": {
+      "sha256": "6b4250db04b39e14c538a9ad7d27fcf3242c7e6a6740158ea0994ae092aa483c",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/117-yihong_yuan-travel.png": {
+      "sha256": "37f0cf7ff589959c5f810b2b0600cd40a8b1b5ce1f6982f7847863ec05e0970f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "yihong_yuan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/118-qinfang_ting-arrival.png": {
+      "sha256": "0f4b17510a52deadbd1b06e07baf8dadc0f0226b319f8a2b640895cbceede0a8",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/119-qinfang_ting-settled.png": {
+      "sha256": "bcef5e85516e117b0aefb5d99b29e6cb87f9337b92b3bdab621a8d83395a67d0",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/120-qinfang_ting-travel.png": {
+      "sha256": "97b6f7aaf010032be7d65f5e25976707ad6ec95136418f501c89a13420294721",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/121-qinfang_ting-travel.png": {
+      "sha256": "7a79ddc8ed0fcfbf1f8af8a60883814f94de17b7d387713b53079d199ace9621",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/122-xiaoxiang_guan-arrival.png": {
+      "sha256": "6113675f3d6452daa3aa8d93f9b97cc6b83ff2e1066a962c107cb75973123674",
+      "size": [
+        540,
+        960
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/123-xiaoxiang_guan-settled.png": {
+      "sha256": "07461962370f23d708805ed201cc21bf535ad12bf600778d7eae125b9a21f639",
+      "size": [
+        540,
+        960
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/124-xiaoxiang_guan-travel.png": {
+      "sha256": "cc9bbf7a1a502976451b0fcf399b8fc4c7871ac702f0035133c810b4ebb6f65f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/125-xiaoxiang_guan-travel.png": {
+      "sha256": "a30b50c968ee8dc11972d21f246fbccdc4193cf3f3a3231fb0161119daa8e3a6",
+      "size": [
+        540,
+        960
+      ],
+      "room": "xiaoxiang_guan",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/126-qinfang_ting-arrival.png": {
+      "sha256": "13ec5e1c8f948e162132d057827ab1c7c2c0f1c1a44745b34e2db57e5858d02f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/127-qinfang_ting-settled.png": {
+      "sha256": "d1147336ef76e8d6adf8d0edf38914b7734761fdd360fde1f54f8af38ddbffae",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/128-qinfang_ting-travel.png": {
+      "sha256": "7c8bd6cb4ced6ed938d6e56797b87857cdb9161838291d2fb372f75e9117a83e",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/129-qinfang_ting-travel.png": {
+      "sha256": "7011b32df3628d18dff62af3dad9430ed3242c0ca4cb2a92499e2f566669dddb",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/130-qinfang_ting-travel.png": {
+      "sha256": "7b6fe89ff0986ee07a5acaf11863bff1f39bb617d0470efca13e0aaad982a6fc",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/131-qinfang_ting-travel.png": {
+      "sha256": "3446bf35a38a29b4cb8610f28c6702325b4f3b0ea75d5b5fba0ff388464ee906",
+      "size": [
+        540,
+        960
+      ],
+      "room": "qinfang_ting",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/132-rockery_gate-arrival.png": {
+      "sha256": "af7aaafc6e8e48a05b504ad34258da61a0b4cde0fa73e5d6b882f0dc40a2d28f",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/133-rockery_gate-settled.png": {
+      "sha256": "da087b98dc8d1a7d2e11a64b0d4bda8819bb7c569f03975031bf6185b6b6314e",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "settled"
+    },
+    "lit-tour-portrait/captures/134-rockery_gate-travel.png": {
+      "sha256": "dd56ad0a73263e653289b08cec7cd7a595cddcf54af5f96fcd29af47aa64f0c5",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/135-rockery_gate-travel.png": {
+      "sha256": "e3ea43150f46f781463f84cbadb54a0ff11775b6303194a12128e847a43a1070",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/136-rockery_gate-travel.png": {
+      "sha256": "415845c601098f8db5e78da51064d54f5f7959223cd9789bddb50905ee0c7cbe",
+      "size": [
+        540,
+        960
+      ],
+      "room": "rockery_gate",
+      "phase": "travel"
+    },
+    "lit-tour-portrait/captures/137-terminal_room-arrival.png": {
+      "sha256": "580520b4ec449d3377b119370d2ce2c9029a09ee659e1efaef931b580f02af4b",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "arrival"
+    },
+    "lit-tour-portrait/captures/138-terminal_room-settled.png": {
+      "sha256": "6acf09c3a65336f6b33ccb047a0765eb2c97bd6f787a34bc78107a1234e86bc4",
+      "size": [
+        540,
+        960
+      ],
+      "room": "terminal_room",
+      "phase": "settled"
+    }
+  },
+  "scope": "Actual desktop and portrait public-command tours, each fourteen rooms/twenty-six legs, normal physics and all recorded original pixels. Direct art review and current target-phone sustained acceptance remain separate."
+}
