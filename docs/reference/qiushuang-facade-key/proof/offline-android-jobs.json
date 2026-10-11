@@ -1,0 +1,46 @@
+{
+  "status": "full_offline_apk_verified_uninstalled",
+  "pid": 63564,
+  "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "phases": [
+    {
+      "name": "android-full-build",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_android_profile.py",
+        "--mode",
+        "full",
+        "--apk",
+        "/tmp/garden-qiushuang-key-20261011/garden-qiushuang-key-full.apk",
+        "--report",
+        "/tmp/garden-qiushuang-key-20261011/android-full-build.json"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/android-full-build.log",
+      "pid": 63565,
+      "exit_code": 0,
+      "log_sha256": "07083bdd79c28e27a1b0250a6bb0f8167d94756e7342e4c80cc4277872f6eaf1"
+    },
+    {
+      "name": "android-payload-verification",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-key-20261011/verify_android_artifact.py",
+        "--project",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--build",
+        "/tmp/garden-qiushuang-key-20261011/android-full-build.json",
+        "--output",
+        "/tmp/garden-qiushuang-key-20261011/android-payload-verification.json"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/android-payload-verification.log",
+      "pid": 64190,
+      "exit_code": 0,
+      "log_sha256": "ca7a627c6b72c772bc1f3913d9103a3f4b6dfe06a0bcc6d6e952399d86762b66"
+    }
+  ],
+  "scope": "Full diagnostic Android export and actual offline packaged-payload/provenance checks. No ADB, installation, device/release or performance acceptance.",
+  "apk_sha256": "589ec5a083157b4897e439ac7178e477303338da402d0fc4d2b2548eb0a56614",
+  "apk_bytes": 86531491
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "tests": 26,
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "scripts/tests",
+    "-p",
+    "test_*.py"
+  ],
+  "log_sha256": "39d97767ea10e6ddcaf520053573273f8811ca78c1c4124e64af55e69e96b643"
+}

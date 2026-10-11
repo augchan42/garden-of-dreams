@@ -1,0 +1,51 @@
+{
+  "status": "both_native_full_tours_passed",
+  "orchestrator_pid": 45142,
+  "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "phases": [
+    {
+      "shape": "desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-key-20261011/lit-tour-desktop/report.json",
+        "--capture-directory=/tmp/garden-qiushuang-key-20261011/lit-tour-desktop/captures"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/lit-tour-desktop.log",
+      "pid": 45146,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "shape": "portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-key-20261011/lit-tour-portrait/report.json",
+        "--capture-directory=/tmp/garden-qiushuang-key-20261011/lit-tour-portrait/captures",
+        "--portrait"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/lit-tour-portrait.log",
+      "pid": 52701,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    }
+  ],
+  "scope": "Actual native fourteen-room/twenty-six-leg public-command physics/camera/lighting route, desktop and portrait; not phone, sustained performance or final art acceptance."
+}

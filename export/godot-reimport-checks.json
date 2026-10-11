@@ -1,99 +1,99 @@
 {
   "status": "passed",
-  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
-  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn",
+  "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "fixture": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag",
   "scope": "Two forced cold imports: source camera/collider/marker contracts, one actual isolated ray per collider, all render mesh array persistence, calibrated keys and shared painted material/adapter properties. Not final baked lighting, rendered materials, continuous traversal or target-device acceptance.",
   "phases": [
     {
       "name": "first-cold-import",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/first-cold-import.log",
-      "pid": 98939,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/first-cold-import.log",
+      "pid": 62879,
       "exit_code": 0,
       "log_sha256": "a782efd729becc98bc502073831d17371a8035b1275ed63ba7f57522ab983858"
     },
     {
       "name": "first-source-physics",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/first-source-physics.log",
-      "pid": 99376,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/first-source-physics.log",
+      "pid": 63160,
       "exit_code": 0,
       "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
     },
     {
       "name": "first-keys",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/first-keys.log",
-      "pid": 99389,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/first-keys.log",
+      "pid": 63162,
       "exit_code": 0,
       "log_sha256": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4"
     },
     {
       "name": "first-paint",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/first-paint.log",
-      "pid": 99398,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/first-paint.log",
+      "pid": 63169,
       "exit_code": 0,
       "log_sha256": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de"
     },
     {
       "name": "second-cold-import",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/second-cold-import.log",
-      "pid": 99401,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/second-cold-import.log",
+      "pid": 63172,
       "exit_code": 0,
-      "log_sha256": "73d40072ab85aaf31f7489e32c6ebf9855fa7ba9a7a091eb566cfaaa378c6abb"
+      "log_sha256": "5b729f02985e63ed6d6996c8ed572e9d8dab0c35802724a58cf61f8249c79f9f"
     },
     {
       "name": "second-source-physics",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/second-source-physics.log",
-      "pid": 99711,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/second-source-physics.log",
+      "pid": 63235,
       "exit_code": 0,
       "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
     },
     {
       "name": "second-keys",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/second-keys.log",
-      "pid": 99821,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/second-keys.log",
+      "pid": 63239,
       "exit_code": 0,
       "log_sha256": "0f0616fcc79eebb514e5deba2fa51eb0663fb3bdd6838dbd575a7f8e7266efb4"
     },
     {
       "name": "second-paint",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/second-paint.log",
-      "pid": 99892,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/second-paint.log",
+      "pid": 63240,
       "exit_code": 0,
       "log_sha256": "75cca6f0bf19e21426b69eb3e6b38a740a3ae1570f4aefb8c8b4cae9c89a52de"
     },
     {
       "name": "reject-camera",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/reject-camera.log",
-      "pid": 99963,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/reject-camera.log",
+      "pid": 63242,
       "exit_code": 1,
       "log_sha256": "28f4d5175a992af6ee8c32689845692050c849436da167959606886bf3ce5bf8"
     },
     {
       "name": "reject-collider",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/reject-collider.log",
-      "pid": 113,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/reject-collider.log",
+      "pid": 63245,
       "exit_code": 1,
       "log_sha256": "9756bd2e729a81cef0c9b865405586eaf5b0dfcaf2a1e5af2d076f67085d4043"
     },
     {
       "name": "reject-marker",
       "status": "passed",
-      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-14nndjzn/reject-marker.log",
-      "pid": 181,
+      "log": "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-source-reimport-sssbhtag/reject-marker.log",
+      "pid": 63251,
       "exit_code": 1,
       "log_sha256": "86bff64a536d7baa5d001a21b0489dff9af894042355de7e161eabc8f558db39"
     }
   ],
-  "source_contract_sha256": "8b1ca3ae085bb0c54c5c7bfd57b22c4bc86838dfc656c444b47e2be42d08f029",
+  "source_contract_sha256": "1de70405108407d07c7f3622b0cc0f54ffd788a898b6680ebc38701cb2fdecfd",
   "test_script_sha256": "c8e7a6175ae4ce36867dd430b28704e46195b59d59e5f3486f30c2a0a5d719ff",
   "import_hook_sha256": "d3e30e70989a073be7d045e7114f59bb5f7460922505646b09bb65f2761f6b5d",
   "snapshot_sha256": "2604f75e3afa4d31996a2b993417bd8e228c387e437e8483aa00ad1bc7218714",
@@ -104,6 +104,6 @@
     "passed": true,
     "physics_rays_passed": 454,
     "render_meshes_snapshotted": 167,
-    "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1"
+    "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f"
   }
 }

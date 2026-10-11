@@ -1,0 +1,392 @@
+{
+  "status": "four_native_hall_probes_passed_direct_visual_review_pending",
+  "pid": 94481,
+  "phases": [
+    {
+      "label": "baseline",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/native-baseline.log",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_key_probe.gd",
+        "--",
+        "--probe=/tmp/garden-qiushuang-key-20261011/probes/baseline",
+        "--output=/tmp/garden-qiushuang-key-20261011/native-baseline"
+      ],
+      "pid": 94482,
+      "exit_code": 0,
+      "log_sha256": "47e09a65304dfd7b33ac1af1a742a5a98e8b56a9404e2d4f7f0ca54768f48cfe",
+      "captures": [
+        {
+          "name": "desktop-overview.png",
+          "sha256": "59f6dcb82ea3512591adb0aed041832773fd6ae8946a32af9c07d59b7fe77eff",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-left.png",
+          "sha256": "101a38916ff121bc16740470b974d4380903bf98b264425c503eb9ade04f5e3e",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-centre.png",
+          "sha256": "aafc224c8c54390fcf73ead6c214cbf1f504d73a7cb3efecc5804778f6bdac74",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-right.png",
+          "sha256": "cf4817e8b57e5f2f048cff894df51e5d5b8c366e50f4c3e5e3a4b5e321ae6e5a",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-overview.png",
+          "sha256": "b4196172b1d3bc6eb86bfef5cef9cd98e648a453b250c9fbe6cd47dc62d46392",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-left.png",
+          "sha256": "40c6ce365b689c544796ceefd8e8b2c50cab829dde32e7cce70a5859820e7c7f",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-centre.png",
+          "sha256": "225dee64aa02000aeb4068b427929cf55367cdd85457aa52dede57c995f6ebe9",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-right.png",
+          "sha256": "4c863d5ace780756fdfe9996a722411852df983c666630f7d24447d086a2bfa6",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        }
+      ],
+      "decoded_originals": 8
+    },
+    {
+      "label": "reduced-near",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/native-reduced-near.log",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_key_probe.gd",
+        "--",
+        "--probe=/tmp/garden-qiushuang-key-20261011/probes/reduced-near",
+        "--output=/tmp/garden-qiushuang-key-20261011/native-reduced-near"
+      ],
+      "pid": 94681,
+      "exit_code": 0,
+      "log_sha256": "75b1cf3dad534bfbd87e65c6b343e79dbf76b1530c4619cdce9e20cc154e3e3d",
+      "captures": [
+        {
+          "name": "desktop-overview.png",
+          "sha256": "e9026c67dd452478ad456b59601ffc8d885ee942061efb0380f13ae8040c2901",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-left.png",
+          "sha256": "b0d96e79aa07ecd3d101ad8744af2d3dc63fc6a0b519f3e19e404d7c84a0ca2b",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-centre.png",
+          "sha256": "272b0e847a01de2f8377f698c56025c5f2c286d4357a461234214ece2ada1bc0",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-right.png",
+          "sha256": "91617861d17d5464cb7f021924a6cb748bb3cc1208c7218c6101e7e4e0c92858",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-overview.png",
+          "sha256": "828f9a4db149b0579c38d749dfa44b06b44f0418c1226fd665a676607a4d60e8",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-left.png",
+          "sha256": "5092f466f60a06af9db6d6179d61f1425eae26e3bab7a18627977602ebecb5c1",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-centre.png",
+          "sha256": "442a0cebe4d65bd9c2450e904bb834c6f5873fd0096902520ca1cddb57c7bbec",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-right.png",
+          "sha256": "274064997f0af61a9c7d4808e731eabca5646ee4858a884947c5e11f76f0d270",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        }
+      ],
+      "decoded_originals": 8
+    },
+    {
+      "label": "frontal-far",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/native-frontal-far.log",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_key_probe.gd",
+        "--",
+        "--probe=/tmp/garden-qiushuang-key-20261011/probes/frontal-far",
+        "--output=/tmp/garden-qiushuang-key-20261011/native-frontal-far"
+      ],
+      "pid": 95679,
+      "exit_code": 0,
+      "log_sha256": "7ca79bb535d0037f7c6249eddb1c38479b2748e8c57592b952b23b15d6628958",
+      "captures": [
+        {
+          "name": "desktop-overview.png",
+          "sha256": "7291faaeac0ab653d732a385cca3da19012c7622e50d2a5fb799fd95fd9d1122",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-left.png",
+          "sha256": "65bbc806e8480af09a8cda8e9d2b80893a1e23d704d31f46887fda7458e93fbc",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-centre.png",
+          "sha256": "ef0268b859b1233c3bc5f9d9a794f86b9a7beceba703b80a9fbd0b66085cbc79",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-right.png",
+          "sha256": "a9c8cfca854458218deb7bc0827ca313f4f12d1f94a205af9f6e6f6db05f9f6e",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-overview.png",
+          "sha256": "643d3522c84f057c2081c932c2031700951d4d9c4be85dc88f7c3916f8a35b68",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-left.png",
+          "sha256": "ec96737aad9190964d65c928b2d836e9649a20f26cbe1a58de50d9ddc6b0d19e",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-centre.png",
+          "sha256": "30653fddeb17f112a68199aad47312cc963009fc9a1ad7a156f6ebb04c6695d1",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-right.png",
+          "sha256": "af24a8314558ca884883b59606a0b254693e9bcc572a823eb7c8c1e1c95cdabb",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        }
+      ],
+      "decoded_originals": 8
+    },
+    {
+      "label": "angled-far",
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/native-angled-far.log",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-key-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_key_probe.gd",
+        "--",
+        "--probe=/tmp/garden-qiushuang-key-20261011/probes/angled-far",
+        "--output=/tmp/garden-qiushuang-key-20261011/native-angled-far"
+      ],
+      "pid": 96933,
+      "exit_code": 0,
+      "log_sha256": "66b0dbf787f3583c09ce2880430d705b260f4bf26e0ab949d789076968f84d55",
+      "captures": [
+        {
+          "name": "desktop-overview.png",
+          "sha256": "2a6c52072de83e45a9599a16d6a15078c6f3a046cdeac80ce9788cd61b17c235",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-left.png",
+          "sha256": "d3303fb0800b90c08262726ccd7b46bb4a02a41d5e3ad86967234b971dd4315b",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-centre.png",
+          "sha256": "f8fca52db9c48256e1c0fa411c454ba684d1c5637f4efb24eb2b5bc2a3c22f32",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "desktop-right.png",
+          "sha256": "9e06eead8b4bef5536365f61aa15c58ca40d890efb7a9240c49833977b4dc120",
+          "size": [
+            1410,
+            600
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-overview.png",
+          "sha256": "6ed3753106437ccba0f060c65f7d1ac04037736b119428d4ebe8088075adc9df",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-left.png",
+          "sha256": "937b03aacda7c36d6aec43ce3782e8b4280e5dabd21fc0abed12594fc059077b",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-centre.png",
+          "sha256": "cdb205a8905fbc0fefc1ab418cfb3daf427a9a6a65327d3debc80e1a3740f64e",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        },
+        {
+          "name": "portrait-right.png",
+          "sha256": "bf6bdbb0d3036d61a18198d3f5e69841646d58d69c03cdd46dda237301564d77",
+          "size": [
+            540,
+            960
+          ],
+          "exact_camera_parameters": true
+        }
+      ],
+      "decoded_originals": 8
+    }
+  ],
+  "scope": "Four eight-view native diagnostic comparisons. Same route, cameras, UI, shader clock, map sample count and bound map dimensions. No full-scene/source adoption or device acceptance.",
+  "decoded_originals": 32
+}
