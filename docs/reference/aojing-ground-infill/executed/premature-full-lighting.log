@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/garden-aojing-ground-v2-20261011/queue_full_lighting.py", line 37, in <module>
+    assert_ready();print('AOJING_FULL_LIGHTING_PREREQUISITES_PASS');sys.exit(0)
+    ~~~~~~~~~~~~^^
+  File "/tmp/garden-aojing-ground-v2-20261011/queue_full_lighting.py", line 21, in assert_ready
+    assert pipeline['status'] == 'isolated_source_native_tours_complete_direct_review_adoption_pending', 'Existing roof source/native/tour pipeline is incomplete; do not start ground lighting'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Existing roof source/native/tour pipeline is incomplete; do not start ground lighting

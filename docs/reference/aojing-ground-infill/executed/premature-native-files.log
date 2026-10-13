@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/garden-aojing-ground-v2-20261011/verify_lit_native.py", line 8, in <module>
+    if not validation.exists() or json.loads(validation.read_text()).get('status')!='isolated_lit_views_and_resource_checks_passed_tours_and_direct_review_pending':raise RuntimeError('Native validation incomplete; no images accepted')
+                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Native validation incomplete; no images accepted

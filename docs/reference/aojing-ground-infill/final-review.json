@@ -1,0 +1,24 @@
+{
+  "status": "no_actionable_findings",
+  "reviewer": "fresh-context GPT-6.1 Sol medium",
+  "base": "598e209278c38064e44f7f6341b86ba7913dcbc9",
+  "scope": "Whole uncommitted bounded ground branch, source/native guards, preservation/adoption, current exports/maps/pins/evidence/package and documentation.",
+  "findings": [],
+  "independent_checks": {
+    "original_triangles": 277543,
+    "added_triangles": 12,
+    "adopted_files": 607,
+    "protected_files": 499,
+    "import_parameter_blocks": 432,
+    "canonical_replay_files": 16,
+    "unchanged_site_glbs": 14,
+    "published_hashes_at_review": 224,
+    "archive_hashes_at_review": 852,
+    "native_decoded_png": 86,
+    "tour_decoded_png": 278,
+    "installed_byte_exact_png": 22,
+    "import_contract": "source pin only",
+    "apk_hash_and_size": "match"
+  },
+  "limits": "Reviewer did not rerun Blender checks/bakes/native tours/APK payload extraction and did not interact with editors/devices/security incidents. Archive later gained15 verified exact staged producer files, total867 before this record; original reviewed files retained."
+}

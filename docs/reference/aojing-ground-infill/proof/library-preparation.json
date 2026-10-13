@@ -1,0 +1,89 @@
+{
+  "status": "candidate_source_libraries_passed_fresh_lighting_pending",
+  "pid": 71764,
+  "phases": [
+    {
+      "name": "site-libraries",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/private/tmp/garden-aojing-ground-v2-20261011"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/site-libraries.log",
+      "pid": 71774,
+      "exit_code": 0,
+      "log_sha256": "72b4f6c40ea3ae31ff4d9b00dd8154094ef68c9c50f8e1e99a5c527e09e9af60"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/shared-wash-receivers.log",
+      "pid": 72474,
+      "exit_code": 0,
+      "log_sha256": "c71cd4f71f859da815bdd5e57c60cc597afb65b89f98bf5c06c420ad8311dd47"
+    },
+    {
+      "name": "linked-ground-library",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "/private/tmp/garden-aojing-ground-v2-20261011/blender/master.blend",
+        "--python",
+        "/private/tmp/garden-aojing-ground-v2-20261011/test_ground_library.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/linked-ground-library.log",
+      "pid": 72719,
+      "exit_code": 0,
+      "log_sha256": "6486d11b49c1d0517b1029c9b8ff9d123fabdfc0221d2422519305582afdef19"
+    }
+  ],
+  "authoring_sha256": "9b6c83259f79aeb56bbdc67b1fd939b2e9ff69977bcb941cb8141b2ce329b66e",
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "scope": "Independent candidate source libraries and shared wash receiver packaging only. No new bake, production change, editor or device action.",
+  "files": {
+    "blender/authoring.blend": "9b6c83259f79aeb56bbdc67b1fd939b2e9ff69977bcb941cb8141b2ce329b66e",
+    "blender/master.blend": "f0320181c4ec321f9354bdf02a7292a759929dad55d23a4dd588747eff8d72a9",
+    "blender/sites/SITE_xiaoxiang-guan.blend": "2c78babe750ec14c6be504bdb231c3c30bf959317c6ea1d6b795d2b5cfb4619a",
+    "blender/sites/SITE_ouxiang-xie.blend": "abdc1f56be68360b3355714a35a04ec3b81923683748491efd56d97f2a02a9d1",
+    "blender/sites/SITE_longcui-an.blend": "63b33f5ea1f7a13031390d0337fdee6e6b36fd8ab9e0895caa1dd0e92f5fe019",
+    "blender/sites/SITE_hengwu-yuan.blend": "6f1b9ad16068b7e447752944e6248c91326fed1fb281ffaf87b8605a8eafefae",
+    "blender/sites/SITE_tubi-tang.blend": "65766d895c037135dc7d49b73bf8b82f950467065a3e92da78ec46c8bb4291e9",
+    "blender/sites/SITE_stage.blend": "67028c6453e5b194816430ce43155a93eed93b96307a916cb9a1cc58acfbee70",
+    "blender/sites/SITE_terminal-cells.blend": "ee4caea85d8f9720bc48be1ce1a788fdf964ce6ec34f1f701e94615fdac8d8c1",
+    "blender/sites/SITE_daguan-lou.blend": "050b7540a92e63271e57a4f1ffe4d868e88966a9a71a8900bdcdc5e86f5d2e55",
+    "blender/sites/SITE_rockery-gate.blend": "9487cfa1c180659e4474aa7007d91080e3f8e82692dfbed492630047eb74ac3b",
+    "blender/sites/SITE_daoxiang-cun.blend": "c266d78bf1db72ad4e7451000d4893a120c740da0773bdb36dc61f30458614fb",
+    "blender/sites/SITE_aojing-guan.blend": "f6f1f240829649c38d8154852a94b648d9285baf581366d0360939803e726353",
+    "blender/sites/SITE_qiushuang-zhai.blend": "7058ea6b34de0561ab2678e4e466ce8a80433dc65c56e1b74d93c8b623b6a2b8",
+    "blender/sites/SITE_ziling-zhou.blend": "2a074d5c637eabfb4ac7710e23b658edaa028e128f3909ca79bbdd1db120f571",
+    "blender/sites/SITE_qinfang-ting.blend": "52129c501249e9154a0ebce8acaf43b6de917de71947115be2e23332bed6778f",
+    "blender/sites/SITE_yihong-yuan.blend": "1da4c530adc9af9191ce42aabcd914dfe49dbd6b01d9fb1a15130fe7f12585e6",
+    "export/site-wash-rig.json": "29a91ef7d9ba1011c1b0816c92ecf6e1c688c1e1c94068551c27c1366ea15a50"
+  }
+}

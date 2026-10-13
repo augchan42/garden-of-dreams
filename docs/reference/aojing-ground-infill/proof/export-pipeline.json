@@ -1,0 +1,122 @@
+{
+  "status": "source_export_uv_passed_lighting_native_review_pending",
+  "pid": 37634,
+  "started_at": "2026-10-11T09:58:08.019827+00:00",
+  "authoring_sha256": "9b6c83259f79aeb56bbdc67b1fd939b2e9ff69977bcb941cb8141b2ce329b66e",
+  "phases": [
+    {
+      "name": "source-contract-green",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "/private/tmp/garden-aojing-ground-v2-20261011/blender/authoring.blend",
+        "--python",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/test_aojing_ground.py",
+        "--",
+        "--report",
+        "/private/tmp/garden-aojing-ground-v2-20261011/export/aojing-ground-contract.json"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/source-contract-green.log",
+      "pid": 37651,
+      "exit_code": 0,
+      "log_sha256": "579d8a631bb27743eb41201369b10a47aa6fd323c180242c51c6434be3a0e877"
+    },
+    {
+      "name": "palette-users-green",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "/private/tmp/garden-aojing-ground-v2-20261011/blender/authoring.blend",
+        "--python",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/test_saved_canvas_palette.py",
+        "--",
+        "--report",
+        "/private/tmp/garden-aojing-ground-v2-20261011/export/canvas-palette-contract.json"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/palette-users-green.log",
+      "pid": 37884,
+      "exit_code": 0,
+      "log_sha256": "9109b4fa93872710ed9d5b4e6ce9efe5365f743ad8ee8a69f36ed5e4ade76ef1"
+    },
+    {
+      "name": "canonical-export",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "1",
+        "--python-exit-code",
+        "1",
+        "/private/tmp/garden-aojing-ground-v2-20261011/blender/authoring.blend",
+        "--python",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/export_garden.py",
+        "--",
+        "--output-root",
+        "/private/tmp/garden-aojing-ground-v2-20261011"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/canonical-export.log",
+      "pid": 38100,
+      "exit_code": 0,
+      "log_sha256": "df7b2c5f75e704ac77c0b8dd0e59ff8dba23556e425dbb38a5e7f273c8d01cbc"
+    },
+    {
+      "name": "export-preservation",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/verify_ground_export.py",
+        "--before",
+        "/tmp/garden-corridor-roof-full-20261011/export/garden-of-dreams.glb",
+        "--after",
+        "/private/tmp/garden-aojing-ground-v2-20261011/export/garden-of-dreams.glb",
+        "--output",
+        "/private/tmp/garden-aojing-ground-v2-20261011/export/export-preservation.json"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/export-preservation.log",
+      "pid": 44144,
+      "exit_code": 0,
+      "log_sha256": "6e268a488855c8f9765418cadf9c8091fd44aa0d6a5926e6d1c93e2abb7c9df8"
+    },
+    {
+      "name": "uv2-validation",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/verify_uv2.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/uv2-validation.log",
+      "pid": 44167,
+      "exit_code": 0,
+      "log_sha256": "9808dc4c4343f43c9fc64a0a0551cce0348973066d3ea00ebf6a6168dc987079"
+    },
+    {
+      "name": "corridor-roof-uv",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/scripts/verify_corridor_roof_uv.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/corridor-roof-uv.log",
+      "pid": 45008,
+      "exit_code": 0,
+      "log_sha256": "41ba757e1a61e3ce264120b3060c9c2527c4710461096555f58f122f62479aff"
+    }
+  ],
+  "scope": "Separate source/export/UV checks only. No lighting, native import, adoption, user-editor or device action.",
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "unchanged_other_site_files": 14,
+  "changed_site_files": [
+    "SITE_stage.glb"
+  ]
+}

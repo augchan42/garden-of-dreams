@@ -2,7 +2,7 @@ extends SceneTree
 
 # Catches cropped furniture/stone after arrival, Look, resize, or travel;
 # a stale detail selection must never restore a close-up after Look.
-const SOURCE := "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b"
+const SOURCE := "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290"
 var route
 var output := ""
 var errors: Array[String] = []
