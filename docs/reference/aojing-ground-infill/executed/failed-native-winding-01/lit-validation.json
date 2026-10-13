@@ -1,0 +1,103 @@
+{
+  "status": "failed",
+  "pid": 17714,
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "phases": [
+    {
+      "name": "sync_full_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_full_lightmaps.log",
+      "pid": 17715,
+      "exit_code": 0,
+      "log_sha256": "9fdee25c82267f9b253b24189fede0387c94bab66f125230dc109270f89d5282"
+    },
+    {
+      "name": "sync_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_backdrop_wash.log",
+      "pid": 17717,
+      "exit_code": 0,
+      "log_sha256": "691f48625be910f8172580257f156ed9b1eed2f7b8ea2eeb9b27576f91ef02ae"
+    },
+    {
+      "name": "sync_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_terminal_spill.log",
+      "pid": 17718,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "sync_demo",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_demo.log",
+      "pid": 17726,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "native_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/native_import.log",
+      "pid": 17727,
+      "exit_code": 0,
+      "log_sha256": "fafd805cecaa9b24e0ec74ccc269787ca2689310230e44aa07ad3cbc90aea732"
+    },
+    {
+      "name": "ground_geometry",
+      "status": "running",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_aojing_ground_native.gd",
+        "--",
+        "--report=/tmp/garden-aojing-ground-v2-20261011/export/ground-native-green.json"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/ground_geometry.log",
+      "pid": 17880,
+      "exit_code": 1
+    }
+  ],
+  "scope": "Isolated current-source engine integration, native views and existing regression checks. No production adoption or phone/device/performance acceptance.",
+  "baseline_engine_source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "updated_source_pins": {
+    "tests/test_hengwu_overview.gd": "608526d7dffe0b85b99e05fbe1db90a4172981ba6e4c122f09913bf4f82755fc",
+    "tests/test_hengwu_native_visibility.gd": "0d5fcdeebbe2b46c92698e5eed31f6632b96e741f96be9dc20858d2b043977f7",
+    "tests/test_ziling_framing.gd": "e796486baca963eef7ed1c4ddc4834ba44195c353fa7c7608447ee3de88a2c8a",
+    "tests/test_qiushuang_framing.gd": "c53e3b8c2205d380be1b8e6a3fa951bfea2937e4681a2ebbb471db2944e5044f",
+    "tests/test_hengwu_detail_framing.gd": "16ffcf688c76af7adc97d58798ca64dc3d4c1dc8411df65a4eeb13a96482d347",
+    "tests/test_tubi_framing.gd": "9bef8ec567fc97f38720f7c6ef95c041eec4ce4e90fb3a9bd7f8c87ed937d469",
+    "tests/test_yihong_framing.gd": "986eb3976630cde51a8284b69d610ec094113ead74e61f5fa1838635bb1cf4be",
+    "tests/render_dynamic_palette.gd": "281a79a3344313856130601ab4b3a045f3a5eeb110f185d33778392a7819e238"
+  },
+  "preserved_lightmap_import_parameter_files": 141,
+  "error": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nERROR: Imported canvas infill top winding is inward\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] finish (res://tests/test_aojing_ground_native.gd:20)\n       [1] run (res://tests/test_aojing_ground_native.gd:58)\n"
+}

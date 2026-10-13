@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/garden-aojing-ground-v2-20261011/verify_tour_files.py", line 8, in <module>
+    if not job.exists() or json.loads(job.read_text()).get('status')!='both_native_full_tours_passed':raise RuntimeError('Tours incomplete; no tour pixels accepted')
+                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tours incomplete; no tour pixels accepted
