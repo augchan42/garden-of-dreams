@@ -1,0 +1,30 @@
+{
+  "status": "bounded_stage_export_change_accepted",
+  "originals_reviewed": 8,
+  "files": {
+    "stage-fog-detail.png": "1a6d07ea13eedcd9df78c69c0910067a109f853ff4359c42e68bc59c0afca822",
+    "stage-cyclorama-dusk.png": "6a7891dfbd0bb31bc60af3f6f07ff3f1172f78bffa9e3b7cea7e1f4e568b4540",
+    "stage-kit.png": "e22d51ede2de7d65d65b195a70860d1edf9cc521c4ed4638ff634968e1ca5634",
+    "stage-cyclorama-mist.png": "2a73002a7c9b2e126857b71fc689c34f0f391eb71d6ec31e4973ef7409e92e54",
+    "stage-kit-lod1.png": "d78411eb7c03c66f747eed5ef0e072c07a5fc966c82732fbfc855a71b44c0a07",
+    "stage-gel-detail.png": "0532dc917b21ca6654b2c5cc7c30f201c0008a408bdf83479c4d602d87e81c7b",
+    "stage-floor-detail.png": "1c191e45c12f41189045244c6d7603c0b34ee2743ae4071916c3fed59b618878",
+    "stage-cyclorama-moonlit.png": "e1314f98dff7662b5042fd650c0a5df13f035e65802c90e60af933a66fa4e984"
+  },
+  "observations": [
+    "All seven modules and both LODs remain visible in gallery views.",
+    "Moonlit, dusk and mist retain separate blue/purple/teal painted mountain layers and moon.",
+    "Floor grain/board seams, neutral fog treatment and warm gel retain existing appearance.",
+    "All eight images are byte exact to native offscreen baseline; this does not claim final assembled art or phone performance.",
+    "Six raw embedded-paint originals directly inspected: same broad palette, mountain contours, moon and brushwork; native resources use4096before/2048after. No raw pixel equality claim."
+  ],
+  "raw_originals_reviewed": 6,
+  "raw_files": {
+    "baseline-mist.png": "17186372a4a9c1f8eb4173637d47c21b8a9044081b786bc06fa060251a7ed625",
+    "candidate-mist.png": "f37d9e1f1c684839febe0004d229e29d48e6f448f9cd86804a39fb7b382db1bf",
+    "candidate-dusk.png": "593bd36f77e18b30ac955d3bc2c8dfe336edb47bd10aa198b42eed4069cf25f7",
+    "baseline-dusk.png": "e795735d64c9f48707cb807ab78a0c9d5229765239f82ea3af41749779d0177a",
+    "candidate-moonlit.png": "a15cc653f38df7bc0486d3d91352068b1866edd6122d475982f961bc572a2aca",
+    "baseline-moonlit.png": "d8f302658156cc67adab76c1e41397fee1e6ec6556c8ec4ae2d1976809c071ee"
+  }
+}

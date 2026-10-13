@@ -1,0 +1,14 @@
+{
+  "status": "no_actionable_findings",
+  "reviewer": "fresh-context GPT-6.1 Sol medium",
+  "base": "b7b7a42628c33e93bae3b3d6baf7435d12274c6b",
+  "scope": "Whole uncommitted stage-kit branch: export cleanup, actual PNG size verifier, integrations, native capture fixture, delivered GLBs, evidence and documentation.",
+  "independent_checks": {
+    "published_hashes": 136,
+    "delivered_glbs": 16,
+    "preserved_source_runtime_hashes": 6,
+    "gallery_originals": 24
+  },
+  "findings": [],
+  "limits": "Reviewer did not repeat Blender/native regeneration or device tests. APK provenance remains stale after stage input change."
+}
