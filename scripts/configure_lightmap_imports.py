@@ -56,6 +56,10 @@ facade_maps = {
     'SITE_xiaoxiang-guan_MAT_whitewash.png.import',
     'SITE_xiaoxiang-guan_MAT_lattice_wood.png.import',
 }
+bank_name = 'SITE_qinfang-ting_MAT_pavilion_atlas'
+full_index = root / 'godot/lightmaps/full-index.json'
+bank_record = json.loads(full_index.read_text()).get(bank_name, {}) if full_index.exists() else {}
+bank_charts = bank_record.get('uv_sha256') == 'e1952d9274d5e60ba949b334873e59b93ab621ed62f19f0f64733b4ac169562b'
 for path in paths:
     contents = path.read_text()
     # RGB blocks visibly dither the broad, dark mountain gradients. BPTC fixes
@@ -66,10 +70,14 @@ for path in paths:
     # Lossless 512 retains the wall detail; the 256px timber source is not enlarged.
     facade = path.name in facade_maps
     reviewed_roof = path.name.removesuffix('.png.import') in reviewed_roofs
+    # The 54 bank modules share small continuous charts in unused atlas space.
+    # A 256px reduction erases their coverage. Preserve this reviewed desktop
+    # layout at its 1024px bake resolution; older layouts retain their policy.
+    bank = bank_charts and path.name == bank_name + '.png.import'
     per_map_settings = {
         **settings,
-        'compress/mode': '0' if mountain or facade or reviewed_roof else settings['compress/mode'],
-        'process/size_limit': '512' if reviewed_roof else str(args.facade_size_limit) if facade else settings['process/size_limit'],
+        'compress/mode': '0' if mountain or facade or reviewed_roof or bank else settings['compress/mode'],
+        'process/size_limit': '1024' if bank else '512' if reviewed_roof else str(args.facade_size_limit) if facade else settings['process/size_limit'],
     }
     for key, value in per_map_settings.items():
         contents, count = re.subn(r'^' + re.escape(key) + r'=.*$', key+'='+value,

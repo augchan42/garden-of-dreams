@@ -95,6 +95,8 @@ for source in list(s.collection.children):
   if options.pavilion_tile_uvs and o.name=='SITE_qinfang-ting_MAT_pavilion_atlas':
    from pavilion_tile_lightmap_uv import allocate_tile_charts
    layout=allocate_tile_charts(o,corridor_sources=[obj for obj in source.objects if obj.type=='MESH' and obj.get('kit_placement')=='qinfang_corridor' and not obj.hide_render])
+   from stream_bank_lightmap_uv import allocate_stream_bank_charts
+   layout.update(allocate_stream_bank_charts(o,[obj for obj in source.objects if obj.type=='MESH' and obj.get('kit_placement')=='stream_bank' and not obj.hide_render]))
    (R/'export/pavilion-tile-uv-layout.json').write_text(json.dumps(layout,indent=2)+'\n')
   if options.imperial_tile_uvs and o.name=='SITE_daguan-lou_MAT_rooftile':
    from imperial_tile_lightmap_uv import allocate_imperial_charts
