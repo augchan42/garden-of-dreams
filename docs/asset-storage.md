@@ -2,6 +2,18 @@
 
 Migration is in progress under the approved 2026-10-24 spec and plan. Git LFS still manages asset pointers and revisions; the intended storage is the existing R2 bucket under the new root prefix `garden-of-dreams-lfs/`. Existing media objects and configuration are outside this migration's writes.
 
+## Destination access gate — unresolved
+
+The configured media endpoint exposes `garden-of-dreams-lfs/` publicly. An unauthenticated GET with a browser user agent returned the full 2,129-byte retained object with its exact SHA-256. Earlier HTTP403 probes using Python's default user agent did not prove privacy. No public response body or credentials are stored in the evidence.
+
+The historical writer and queued cold builds were stopped before provider cutover. Completed objects remain in the existing bucket; interrupted multipart work was aborted and the follow-up listing found zero incomplete uploads. Existing media settings and the active Git provider are unchanged. The full historical readback and R2-only build gates have not passed.
+
+The user must resolve the destination: provide a private bucket/object access, restrict and verify every public route to the new prefix, or explicitly approve public asset storage. A new folder alone has not provided privacy on this endpoint. The current object credentials also return403 when reading managed/custom-domain settings, so no full bucket-policy audit is claimed. The configured endpoint is not a managed `r2.dev` hostname; its exact serving policy is outside the available management permissions.
+
+For a separate private bucket, add `R2_ASSETS_ACCOUNT_ID`, `R2_ASSETS_BUCKET`, `R2_ASSETS_ACCESS_KEY_ID` and `R2_ASSETS_SECRET_ACCESS_KEY` to the private configuration file. Keep the existing media fields for their existing purpose. Validate the destination before restarting the copy; never infer privacy from one user agent's403 response.
+
+Evidence: `build/r2-migration/public-asset-full-hash-proof.json`, `public-destination-stop.json`, `multipart-after-stop.json` and `bucket-privacy-evidence.json` in the migration checkout. The active goal remains incomplete.
+
 ## Verified recovery baseline
 
 After refreshing remote branches, tags and all 36 PR heads, retained history contains 12,098 distinct LFS objects totaling 21,519,155,652 bytes. All local size/SHA-256 checks pass. Seven objects from the earlier 12,104-object baseline were reachable only through transient app checkpoint refs; all remain in the recovery copy. The published synthetic pilot adds one 4,151-byte object, recovered from its verified pilot checkout.

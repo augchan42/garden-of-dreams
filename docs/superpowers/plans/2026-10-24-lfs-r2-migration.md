@@ -10,6 +10,10 @@
 
 **Spec:** `docs/superpowers/specs/2026-10-24-lfs-r2-migration.md` is authoritative. The 2026-10-23 proposal is historical context. This plan supersedes its unproven pilot status, boto3 implementation choice and requirement to demonstrate rollback through the currently quota-blocked GitHub backend.
 
+## Current destination gate
+
+A full anonymous browser-agent GET matched a retained asset hash on the configured public endpoint. Historical writes and queued builds are stopped; production settings are unchanged. Resolve private destination access or explicit public-storage approval before resuming Task3. Do not restart the existing writer merely because its process is now terminal. Preserve its completed objects, logs, staging, recovery copy and all user media settings. A browser-like full-byte/hash check replaces the insufficient Python403-only privacy probe.
+
 ## Global constraints
 
 - Preserve Git history, pointers, working paths, asset bytes and frozen reference evidence.

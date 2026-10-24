@@ -1,5 +1,7 @@
 # Garden of Dreams asset storage migration
 
+
+**Destination access gate (2026-10-24):** The user-directed existing bucket/new prefix is anonymously readable with a browser user agent; a full object GET matched its SHA-256. Copying stopped before production cutover. Keep the private-storage requirement until the user supplies private destination access/prefix isolation or explicitly approves public storage. Earlier Python403 probes are insufficient privacy evidence. No completed objects or existing media configuration were changed.
 Status: proposed execution spec, 2026-10-24. Implementation starts when the user assigns the migration goal. The isolated compatibility pilot has passed.
 
 ## Outcome
