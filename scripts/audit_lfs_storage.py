@@ -224,6 +224,61 @@ def verify_remote(report, store, jobs=4, journal=None):
     return remote_operation(report,store,True,jobs,journal)
 
 
+def bulk_copy_objects(report, store, workspace):
+    """Persistent bounded S3 sessions; success requires complete downloaded SHA256s."""
+    from lfs_r2_transfer import checked_file
+    validate_report(report)
+    if captured_refs(report['repo']) != report['refs']:
+        raise ValueError('Refs changed before bulk copy; capture explicit delta')
+    workspace=Path(workspace).resolve();workspace.mkdir(parents=True,exist_ok=True)
+    stage,download=workspace/'upload',workspace/'readback'
+    stage.mkdir(exist_ok=True);download.mkdir(exist_ok=True)
+    names=[];local=[]
+    for item in report['objects']:
+        oid,size=item['oid'],item['size'];source=object_path(report['cache'],oid)
+        try:checked_file(source,oid,size)
+        except Exception as error:
+            local.append({'oid':oid,'size':size,'status':'error','error_type':type(error).__name__})
+            continue
+        name=oid[:2]+'/'+oid;names.append(name);target=stage/name
+        target.parent.mkdir(parents=True,exist_ok=True)
+        if target.exists():
+            try:checked_file(target,oid,size)
+            except Exception:target.unlink()
+        if not target.exists():
+            try:
+                import os
+                os.link(source,target)
+            except OSError:shutil.copyfile(source,target)
+    if local:
+        return {'schema_version':1,'status':'failed','counts':{'ok':0,'error':len(local)},'objects':local}
+    listing=workspace/'files.txt';listing.write_text(''.join(x+'\n' for x in names))
+    save(workspace/'phase.json',{'phase':'upload','expected_objects':len(names),'expected_bytes':report['object_bytes']})
+    upload_log=workspace/'upload.log';upload_log.touch(mode=0o600,exist_ok=True)
+    upload_code=store.run(['copy',str(stage),store.remote+'/objects/sha256','--files-from-raw',str(listing),
+                           '--immutable','--log-file',str(upload_log),'--use-json-log',
+                           '--stats','30s','--stats-log-level','NOTICE'],transfers=4,wall_timeout=43200)
+    save(workspace/'phase.json',{'phase':'readback','upload_exit_code':upload_code,'expected_objects':len(names)})
+    download_log=workspace/'readback.log';download_log.touch(mode=0o600,exist_ok=True)
+    download_code=store.run(['copy',store.remote+'/objects/sha256',str(download),'--files-from-raw',str(listing),
+                             '--ignore-times','--log-file',str(download_log),'--use-json-log',
+                             '--stats','30s','--stats-log-level','NOTICE'],transfers=4,wall_timeout=43200)
+    rows=[]
+    for item in report['objects']:
+        oid,size=item['oid'],item['size'];path=download/oid[:2]/oid
+        row=inspect(path,oid,size)
+        row.update(size=size,readback_sha256_verified=row['status']=='ok');rows.append(row)
+    errors=sum(row['status']!='ok' for row in rows)
+    changed=captured_refs(report['repo']) != report['refs']
+    result={'schema_version':1,'status':'failed' if errors or upload_code or download_code else ('needs_delta' if changed else 'passed'),
+            'provider_id':hashlib.sha256(store.remote.encode()).hexdigest(),'source_refs':report['refs'],
+            'refs_changed':changed,'upload_exit_code':upload_code,'download_exit_code':download_code,
+            'counts':{'ok':len(rows)-errors,'error':errors},
+            'verified_bytes':sum(x['size'] for x in rows if x['status']=='ok'),'objects':rows}
+    save(workspace/'phase.json',{'phase':'complete','status':result['status'],'counts':result['counts']})
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('operation', choices=['inventory', 'verify-local', 'backup', 'copy', 'verify-remote'])
@@ -233,6 +288,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--destination', type=Path)
     parser.add_argument('--env-file', type=Path)
+    parser.add_argument('--bulk', action='store_true')
     args = parser.parse_args()
     if args.operation == 'inventory':result = inventory(args.repo)
     else:
@@ -246,7 +302,10 @@ def main():
             from lfs_r2_transfer import Store, read_environment
             store=Store(read_environment(args.env_file))
             operation=copy_objects if args.operation == 'copy' else verify_remote
-            result=operation(report,store,journal=args.output.with_suffix('.jsonl'))
+            if args.bulk and args.operation == 'copy':
+                result=bulk_copy_objects(report,store,args.output.with_suffix('.work'))
+            else:
+                result=operation(report,store,journal=args.output.with_suffix('.jsonl'))
     save(args.output, result)
     print(json.dumps({k: v for k, v in result.items() if k in ('status', 'complete', 'object_count', 'object_bytes', 'counts', 'objects_copied', 'bytes_verified')}))
     if result.get('status') == 'failed':sys.exit(1)

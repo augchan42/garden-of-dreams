@@ -161,4 +161,38 @@ class CopyAuditTests(GitFixture):
         with self.assertRaises(ValueError):audit.copy_objects(report,self.store())
 
 
+
+class BulkAuditTests(GitFixture):
+    store = CopyAuditTests.store
+    def setUp(self):
+        super().setUp()
+        self.assertTrue(hasattr(audit,'bulk_copy_objects'),'Verified bulk transfer implementation is missing')
+
+    def test_two_objects_bulk_full_readback(self):
+        self.pointer('one.bin');self.pointer('two.bin',b'beta')
+        report=audit.inventory(self.repo)
+        result=audit.bulk_copy_objects(report,self.store(),self.root/'bulk')
+        self.assertEqual(result['status'],'passed')
+        self.assertEqual(result['counts'],{'ok':2,'error':0})
+        self.assertTrue(all(x['readback_sha256_verified'] for x in result['objects']))
+        for item in report['objects']:
+            restored=self.store().fetch(item['oid'],item['size'])
+            self.assertEqual(__import__('hashlib').sha256(restored.read_bytes()).hexdigest(),item['oid'])
+            restored.unlink()
+
+    def test_bulk_existing_wrong_bytes_never_overwritten(self):
+        oid,_=self.pointer('one.bin');report=audit.inventory(self.repo)
+        remote=self.root/'remote/project/objects/sha256'/oid[:2]/oid
+        remote.parent.mkdir(parents=True);remote.write_bytes(b'WRONG')
+        result=audit.bulk_copy_objects(report,self.store(),self.root/'bulk')
+        self.assertEqual(result['status'],'failed')
+        self.assertEqual(remote.read_bytes(),b'WRONG')
+
+    def test_bulk_rejects_corrupt_source_before_upload(self):
+        oid,path=self.pointer('one.bin');report=audit.inventory(self.repo);path.write_bytes(b'WRONG')
+        result=audit.bulk_copy_objects(report,self.store(),self.root/'bulk')
+        self.assertEqual(result['status'],'failed')
+        self.assertFalse((self.root/'remote/project/objects/sha256'/oid[:2]/oid).exists())
+
+
 if __name__ == '__main__':unittest.main()

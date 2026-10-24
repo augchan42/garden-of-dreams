@@ -81,10 +81,10 @@ class Store:
                 raise TransferError('Unsupported rclone version; run bootstrap for the pinned version')
             self._version_checked = True
 
-    def run(self, args, output=None):
+    def run(self, args, output=None, transfers=1, wall_timeout=1200):
         self.version()
         command = [self.rclone, *args, '--retries', '3', '--low-level-retries', '3',
-                   '--contimeout', '15s', '--timeout', '120s', '--transfers', '1', '--checkers', '2',
+                   '--contimeout', '15s', '--timeout', '120s', '--transfers', str(min(max(transfers,1),4)), '--checkers', '4', '--retries-sleep', '1s',
                    '--s3-upload-cutoff', '64Mi', '--s3-chunk-size', '16Mi', '--s3-upload-concurrency', '2',
                    '--s3-leave-parts-on-error=false']
         try:
@@ -92,7 +92,7 @@ class Store:
                         stdout=output if output is not None else subprocess.DEVNULL,
                         stderr=subprocess.DEVNULL, start_new_session=True)
         except OSError:raise TransferError('Storage transport unavailable') from None
-        try:return process.wait(timeout=1200)
+        try:return process.wait(timeout=wall_timeout)
         except BaseException:
             # Give rclone time to abort multipart work on interruption.
             os.killpg(process.pid, signal.SIGINT)
