@@ -18,7 +18,7 @@ class ReaderTests(unittest.TestCase):
  def setUp(self):
   self.assertIsNotNone(mint,'Scoped-reader minting helper is missing')
   self.values={'R2_MEDIA_ACCOUNT_ID':'account','R2_MEDIA_BUCKET':'bucket',
-               'R2_MEDIA_ACCESS_KEY_ID':'parent-id','R2_MEDIA_SECRET_ACCESS_KEY':'parent-secret'}
+               'R2_MEDIA_ACCESS_KEY_ID':'parent-id','R2_MEDIA_SECRET_ACCESS_KEY':'parent-secret','R2_LFS_PREFIX':'project/test-random-namespace'}
 
  def test_scoped_signed_reader_and_derived_secret(self):
   result=mint(self.values,ttl=900,now=1000)
@@ -26,7 +26,7 @@ class ReaderTests(unittest.TestCase):
   header,payload,signature=jwt.split('.')
   claims=json.loads(base64.urlsafe_b64decode(payload+'='*(-len(payload)%4)))
   self.assertEqual(claims['scope'],'object-read-only')
-  self.assertEqual(claims['paths'],{'prefixPaths':['garden-of-dreams-lfs/'],'objectPaths':[]})
+  self.assertEqual(claims['paths'],{'prefixPaths':['project/test-random-namespace/'],'objectPaths':[]})
   self.assertEqual((claims['iat'],claims['exp']),(1000,1900))
   self.assertEqual(result['R2_ASSETS_SECRET_ACCESS_KEY'],hashlib.sha256(jwt.encode()).hexdigest())
   expected=base64.urlsafe_b64encode(hmac.new(b'parent-secret',(header+'.'+payload).encode(),hashlib.sha256).digest()).rstrip(b'=').decode()
@@ -45,6 +45,13 @@ class ReaderTests(unittest.TestCase):
    self.assertNotIn('parent-secret',first.stdout+first.stderr)
    self.assertNotEqual(subprocess.run(command,capture_output=True).returncode,0)
    self.assertEqual(output.read_bytes(),before)
+
+ def test_prefix_must_be_explicit(self):
+  for prefix in (None,'','/','../other'):
+   supplied=dict(self.values)
+   if prefix is None:supplied.pop('R2_LFS_PREFIX')
+   else:supplied['R2_LFS_PREFIX']=prefix
+   with self.assertRaises(ValueError):mint(supplied,ttl=900,now=1000)
 
  def test_explicit_short_lifetime_and_complete_parent_required(self):
   for ttl in (0,True,2592001):

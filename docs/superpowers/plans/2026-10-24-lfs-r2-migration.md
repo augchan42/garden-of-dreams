@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans for execution in this chat. Steps use checkbox syntax for tracking. The user assigns the goal separately; this document does not start execution.
 
-**Goal:** Switch asset storage to private R2, preserve exact history and asset bytes, and prove clean builds, publishing and recovery.
+**Goal:** Switch asset storage to owner-approved public R2 with random folder names, preserve exact history and asset bytes, and prove clean builds, publishing and recovery.
 
 **Architecture:** Keep Git LFS pointers and filters. Install a versioned Python/rclone standalone adapter outside each checkout, with clone-local configuration and a committed external-provider identifier. Inventory, transfer and readback verification precede switching writers.
 
@@ -12,12 +12,11 @@
 
 ## Current destination gate
 
-A full anonymous browser-agent GET matched a retained asset hash on the configured public endpoint. Historical writes and queued builds are stopped; production settings are unchanged. Resolve private destination access or explicit public-storage approval before resuming Task3. Do not restart the existing writer merely because its process is now terminal. Preserve its completed objects, logs, staging, recovery copy and all user media settings. A browser-like full-byte/hash check replaces the insufficient Python403-only privacy probe.
-
+The owner approved public storage conditional on difficult-to-guess URLs. Generate a cryptographically random 256-bit subfolder in the existing migration folder, keep it only in private configuration and the reader secret, and require explicit prefix configuration. Resume copy and complete all verification gates. Earlier predictable-prefix migration copies may be removed only after their replacements pass full hash verification; this specific cleanup is authorized. Preserve existing media and all GitHub/recovery bytes.
 ## Global constraints
 
 - Preserve Git history, pointers, working paths, asset bytes and frozen reference evidence.
-- User-directed existing bucket with new root prefix `garden-of-dreams-lfs/`; preserve existing media data/configuration.
+- User-directed existing bucket with a random migration subfolder configured privately; preserve existing media data/configuration.
 - No credentials in Git or diagnostics; `.env` remains ignored.
 - No delete command, completed-object expiration, global Git config changes or automatic GitHub fallback.
 - Four concurrent objects maximum; multipart above 64 MiB, 16 MiB parts, two parts per object.
@@ -73,7 +72,7 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 - [ ] Run `python3 -m unittest discover -s scripts/tests -p 'test_lfs_r2_transfer.py'`; observe the relevant failures.
 - [ ] Implement the spec's protocol/integrity contract using Python/rclone. Configure existing-bucket access with `no_check_bucket=true`; map missing keys explicitly and stream hashes. Pin actual supported versions and transfer settings.
 - [ ] Implement `bootstrap_lfs_r2.py --profile active|all` with versioned installation outside checkout, private credential loading, clone-local settings and preserved hooks/core.hooksPath. Existing hooks must be chained or left intact with an actionable setup error.
-- [ ] Use existing R2_MEDIA object credentials for the user-directed `garden-of-dreams-lfs/` prefix. Account admin permission/bucket creation is unnecessary. Record anonymous403 probe evidence and its limits.
+- [ ] Use existing R2_MEDIA object credentials for the privately configured random prefix. Account admin permission/bucket creation is unnecessary. Record public access and random-folder configuration without publishing its value.
 - [ ] Test the final owned HTTPS provider identifier and installation with a new R2-only object, normal GitHub push and fresh empty-cache clone. Exercise a file above 64 MiB and interrupted upload. Reuse the passing synthetic pilot for unchanged basic cases.
 - [ ] Run tests to green and commit adapter/bootstrap/setup changes.
 
@@ -85,7 +84,7 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 
 - [ ] Add failing tests for partial copy/resume, shared OIDs, absent source bytes, remote corruption and refs changing during copying; run the audit test command and observe failures.
 - [ ] Implement `copy --report REPORT`, `verify-remote --report REPORT` and delta processing in `audit_lfs_storage.py`, using the same validated transfer functions as the adapter.
-- [ ] Run tests to green. Copy all retained OIDs into the private bucket without changing production settings; bound object concurrency to four.
+- [ ] Run tests to green. Copy all retained OIDs into the approved existing bucket/random folder without changing production settings; bound object concurrency to four.
 - [ ] GET every migrated object, hash all bytes and compare size/OID. Retain explicit failures; no HEAD-only success counts.
 - [ ] Capture refs again, copy/readback-verify every delta and update recovery copies. Record uploaded/read-back byte totals and zero unexplained gaps.
 - [ ] Commit the tooling and a concise nonsecret evidence summary, preserving original reports.

@@ -25,7 +25,7 @@ def mint(values,ttl=86400,now=None):
     if values.get(group+'SESSION_TOKEN'):raise ValueError('Mint from parent credentials, not an existing session')
     now=int(time.time()) if now is None else now
     account=values[group+'ACCOUNT_ID'];parent=values[group+'ACCESS_KEY_ID']
-    prefix=values.get('R2_LFS_PREFIX','garden-of-dreams-lfs').strip('/')
+    prefix=values.get('R2_LFS_PREFIX','').strip('/')
     if not re.fullmatch(r'[A-Za-z0-9_-]+(?:/[A-Za-z0-9_-]+)*',prefix):raise ValueError('Explicit safe prefix required')
     claims={'bucket':values[group+'BUCKET'],'scope':'object-read-only',
             'paths':{'prefixPaths':[prefix+'/'],'objectPaths':[]},'iss':parent,'sub':account,

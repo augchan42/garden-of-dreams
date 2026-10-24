@@ -1,18 +1,14 @@
 # Garden of Dreams asset storage
 
-Migration is in progress under the approved 2026-10-24 spec and plan. Git LFS still manages asset pointers and revisions; the intended storage is the existing R2 bucket under the new root prefix `garden-of-dreams-lfs/`. Existing media objects and configuration are outside this migration's writes.
+Migration is in progress under the approved 2026-10-24 spec and plan. Git LFS still manages asset pointers and revisions. Storage uses the existing R2 bucket and a random subfolder inside the migration folder. Existing media objects and configuration are outside this migration's writes.
 
-## Destination access gate — unresolved
+## Public storage and folder configuration
 
-The configured media endpoint exposes `garden-of-dreams-lfs/` publicly. An unauthenticated GET with a browser user agent returned the full 2,129-byte retained object with its exact SHA-256. Earlier HTTP403 probes using Python's default user agent did not prove privacy. No public response body or credentials are stored in the evidence.
+The owner approved public storage, conditional on URLs being difficult to guess. The migration uses a cryptographically random 256-bit folder component, saved only in private `R2_LFS_PREFIX` configuration and the Actions reader secret. The actual prefix and public object URLs must not appear in Git, public reports or workflow output. Collaborators receive the configuration separately. Both the adapter and reader issuer refuse a missing explicit prefix.
 
-The historical writer and queued cold builds were stopped before provider cutover. Completed objects remain in the existing bucket; interrupted multipart work was aborted and the follow-up listing found zero incomplete uploads. Existing media settings and the active Git provider are unchanged. The full historical readback and R2-only build gates have not passed.
+Anyone with an exact public object URL can read it. Random names prevent practical guessing; they do not provide authentication. R2's public endpoint does not provide root bucket listing ([Cloudflare documentation](https://developers.cloudflare.com/r2/buckets/public-buckets/)). No full public-route policy audit is claimed. Asset transport still uses authenticated S3 requests.
 
-The user must resolve the destination: provide a private bucket/object access, restrict and verify every public route to the new prefix, or explicitly approve public asset storage. A new folder alone has not provided privacy on this endpoint. The current object credentials also return403 when reading managed/custom-domain settings, so no full bucket-policy audit is claimed. The configured endpoint is not a managed `r2.dev` hostname; its exact serving policy is outside the available management permissions.
-
-For a separate private bucket, add `R2_ASSETS_ACCOUNT_ID`, `R2_ASSETS_BUCKET`, `R2_ASSETS_ACCESS_KEY_ID` and `R2_ASSETS_SECRET_ACCESS_KEY` to the private configuration file. Keep the existing media fields for their existing purpose. Validate the destination before restarting the copy; never infer privacy from one user agent's403 response.
-
-Evidence: `build/r2-migration/public-asset-full-hash-proof.json`, `public-destination-stop.json`, `multipart-after-stop.json` and `bucket-privacy-evidence.json` in the migration checkout. The active goal remains incomplete.
+Earlier uploads under a predictable prefix were stopped. The owner authorized removal of only those old migration copies after their random-folder replacements pass complete size/SHA-256 verification. GitHub assets, independent recovery copies and existing bucket media remain preserved. Full historical readback, clean builds, publishing and recovery remain required before handoff.
 
 ## Verified recovery baseline
 
@@ -52,7 +48,7 @@ Delta inventories are explicitly partial. Recovery backup and further delta plan
 
 Use Git LFS (tested 3.8.0), Python 3.11–3.14 and **rclone v1.75.0**. Obtain that rclone release from [the official release](https://github.com/rclone/rclone/releases/tag/v1.75.0), verify its archive checksum, and keep the executable outside the checkout. Bootstrap configures Git; it does not install these dependencies. The adapter rejects a different rclone version.
 
-Before downloading private assets:
+Before downloading assets:
 
 ```sh
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/augchan42/garden-of-dreams.git
@@ -65,7 +61,7 @@ python3 scripts/check_asset_checkout.py --profile active --strict
 
 A fresh clone initially contains small pointer files. Bootstrap installs a content-versioned adapter under `~/.local/share/garden-lfs/` and records a private settings snapshot there. It changes only this clone's configuration and standard LFS hooks. Existing custom hooks or `core.hooksPath` cause an actionable refusal before settings change; integrate those hooks manually. The tool refuses linked worktrees because their configuration is shared: install once in their primary checkout at cutover. A user-owned hook must keep calling `git lfs pre-push` for upload failures to prevent publishing.
 
-The private file is parsed as data, never executed as shell code. Supply `R2_ASSETS_ACCOUNT_ID`, `R2_ASSETS_BUCKET`, `R2_ASSETS_ACCESS_KEY_ID`, `R2_ASSETS_SECRET_ACCESS_KEY` and, for temporary credentials, `R2_ASSETS_SESSION_TOKEN`. Existing maintainer machines can use the equivalent `R2_MEDIA_*` fields. `R2_LFS_PREFIX=garden-of-dreams-lfs` selects the new root namespace; media key-prefix/public-URL settings are ignored by this adapter. Keep credential files outside Git; `.env` and `.env.*` are ignored. No credentials are stored in Git configuration or committed provider settings.
+The private file is parsed as data, never executed as shell code. Supply `R2_ASSETS_ACCOUNT_ID`, `R2_ASSETS_BUCKET`, `R2_ASSETS_ACCESS_KEY_ID`, `R2_ASSETS_SECRET_ACCESS_KEY` and, for temporary credentials, `R2_ASSETS_SESSION_TOKEN`. Existing maintainer machines can use the equivalent `R2_MEDIA_*` fields. `R2_LFS_PREFIX` must contain the exact privately supplied random project prefix; there is no default. Never copy its value into Git or public logs. The media key-prefix/public-URL settings are ignored by this adapter. Keep credential files outside Git; `.env` and `.env.*` are ignored. No credentials are stored in Git configuration or committed provider settings.
 
 The `active` profile downloads `blender/**`, `export/**`, `godot/**` and `textures/**`; other historical reference assets can remain pointers. For all current-revision assets, rerun bootstrap with `--profile all`, then `git lfs pull`. This fetches the selected revision, not every historical version. The installed executable and clone-local settings survive checking out older commits that lack these scripts. Keep a current tooling checkout for offline preflight against such revisions:
 
@@ -87,9 +83,9 @@ Restore refuses later configuration or hook edits. Reconcile those edits manuall
 
 `asset-integrity.yml` runs checker code from the trusted base revision. It fetches PR Git objects without checking out or executing PR files, and fully downloads/hashes newly introduced historical pointer blobs, including intermediate assets removed before the PR tip. Secrets are available only to that verification step. No writer credential is sent to GitHub Actions.
 
-Same-repository PRs run automatically. For forks, a maintainer runs **Asset integrity** from **main** with the PR number. The workflow reports the `R2 asset integrity` status directly on the PR head. Private asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
+Same-repository PRs run automatically. For forks, a maintainer runs **Asset integrity** from **main** with the PR number. The workflow reports the `R2 asset integrity` status directly on the PR head. Authenticated asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
 
-The current CI reader is scoped to `garden-of-dreams-lfs/` and expires after 30 days. A maintainer must renew it before expiry (or after parent-token rotation):
+The CI reader is scoped to the configured random project prefix and expires after 30 days. A maintainer must renew it before expiry (or after parent-token rotation):
 
 ```sh
 python3 scripts/mint_r2_reader.py --env-file /absolute/private/r2.env --ttl-seconds 2592000 --github-repository augchan42/garden-of-dreams
@@ -99,7 +95,7 @@ The helper derives a temporary reader locally and sends only that reader to the 
 
 ## Transfer and recovery rules
 
-Objects are keyed by SHA-256 under `garden-of-dreams-lfs/objects/sha256/<first-two-hex>/<oid>`. Upload source bytes and every completed download are checked against size and SHA-256. Existing mismatched remote data causes failure. There is no automatic GitHub fallback, delete operation or completed-object expiration. Transfers allow four objects per client, with 16 MiB multipart parts and two parts per object above 64 MiB. Interrupted multipart work is aborted; the large-file and interruption acceptance reports record actual endpoint behavior.
+Objects are keyed by SHA-256 under `<privately-configured-prefix>/objects/sha256/<first-two-hex>/<oid>`. Upload source bytes and every completed download are checked against size and SHA-256. Existing mismatched remote data causes failure. There is no automatic GitHub fallback, delete operation or completed-object expiration. Transfers allow four objects per client, with 16 MiB multipart parts and two parts per object above 64 MiB. Interrupted multipart work is aborted; the large-file and interruption acceptance reports record actual endpoint behavior.
 
 Preserve the independent recovery copy, its inventory and Git bundle. A recovery procedure must first restore the bundle into a separate clone, verify it with `git fsck --full`, and copy each required OID from `objects/<aa>/<bb>/<oid>` into that clone's LFS cache. Verify all copied hashes before `git lfs checkout`. This path works with production R2 disabled and does not require GitHub quota. A separately configured test backend can also be populated from these bytes through the same adapter. Verify settings snapshots and restore them only in the recovery clone.
 

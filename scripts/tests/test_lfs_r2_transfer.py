@@ -84,6 +84,17 @@ class TransferTests(unittest.TestCase):
         self.assertIn('error',result);self.assertNotIn('path',result)
         self.assertNotIn(str(self.root),json.dumps(result))
 
+    def test_production_requires_explicit_prefix(self):
+        values={'R2_MEDIA_ACCOUNT_ID':'account','R2_MEDIA_BUCKET':'bucket',
+                'R2_MEDIA_ACCESS_KEY_ID':'key','R2_MEDIA_SECRET_ACCESS_KEY':'secret',
+                'R2_LFS_RCLONE':self.env['R2_LFS_RCLONE']}
+        for prefix in (None,'','/','../other','project/../other'):
+            supplied=dict(values)
+            if prefix is not None:supplied['R2_LFS_PREFIX']=prefix
+            with self.assertRaises(transfer.TransferError):transfer.Store(supplied)
+        supplied=dict(values,R2_LFS_PREFIX='project/test-random-namespace')
+        self.assertEqual(transfer.Store(supplied).remote,'gardenassets:bucket/project/test-random-namespace')
+
     def test_unsafe_prefix_rejected(self):
         env=dict(self.env,R2_LFS_REMOTE='fixture:'+str(self.root/'remote/../unsafe'))
         self.assertIn('error',self.protocol('upload',env=env))

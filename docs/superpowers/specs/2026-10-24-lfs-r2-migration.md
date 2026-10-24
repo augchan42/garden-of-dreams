@@ -1,12 +1,12 @@
 # Garden of Dreams asset storage migration
 
 
-**Destination access gate (2026-10-24):** The user-directed existing bucket/new prefix is anonymously readable with a browser user agent; a full object GET matched its SHA-256. Copying stopped before production cutover. Keep the private-storage requirement until the user supplies private destination access/prefix isolation or explicitly approves public storage. Earlier Python403 probes are insufficient privacy evidence. No completed objects or existing media configuration were changed.
-Status: proposed execution spec, 2026-10-24. Implementation starts when the user assigns the migration goal. The isolated compatibility pilot has passed.
+**Owner ruling (2026-10-24):** Public storage in the existing bucket is approved if URLs are difficult to guess. Use a cryptographically random 256-bit subfolder within the migration folder. Keep its value in private configuration and the Actions reader secret, never Git or public logs. After full replacement verification, remove only the earlier predictable-prefix migration copies, as explicitly authorized. Preserve GitHub assets, recovery copies and all existing media.
+Status: implementation in progress. The isolated compatibility pilot passed; remaining acceptance gates still apply.
 
 ## Outcome
 
-Move development asset storage from GitHub LFS to private Cloudflare R2 through a standalone Git LFS transfer adapter. Preserve existing Git commits, LFS pointers, authoring assets, generated assets, provenance records and working-tree paths. A fresh checkout must recover its correct assets and build the offline desktop demo without downloading asset bytes from GitHub LFS.
+Move development asset storage from GitHub LFS to Cloudflare R2 with owner-approved public storage through a standalone Git LFS transfer adapter. Preserve existing Git commits, LFS pointers, authoring assets, generated assets, provenance records and working-tree paths. A fresh checkout must recover its correct assets and build the offline desktop demo without downloading asset bytes from GitHub LFS.
 
 GitHub continues to host ordinary Git data. Git LFS continues to manage revisions, filters and upload hooks. Packaged games continue to contain local files.
 
@@ -24,7 +24,7 @@ The pilot uses a reserved `.invalid` external URL and a small object. It does no
 
 ## Storage and transfer contract
 
-- Use the existing R2 bucket with a new `garden-of-dreams-lfs/` prefix at its root, as explicitly directed by the user on 2026-10-24. Keep existing media objects/configuration intact. Both anonymous public-URL probes of the synthetic object returned403; record this limited observation without claiming a full bucket-policy audit. The dedicated-bucket requirement is superseded by this instruction.
+- Use the existing R2 bucket with a random 256-bit subfolder inside the migration folder. Keep the exact configured prefix out of Git/public output and refuse missing configuration. This is public storage with unguessable names, not authenticated confidentiality. Preserve existing media objects/configuration. Earlier403 probes did not establish privacy; a browser-agent full GET established public accessibility. The owner approved it with the random-folder condition.
 - Use keys `objects/sha256/<first-two-hex>/<full-oid>` under one explicit configured project prefix. Completed objects are immutable. No adapter delete command or completed-object expiration.
 - Base production code on the proven Python/rclone prototype. Pin the supported Python and rclone versions. Use bounded transfers: at most four objects concurrently, multipart above 64 MiB with 16 MiB parts and two parts concurrently per object.
 - Validate OID syntax and expected size; hash uploads before transfer, hash existing objects before treating them as present, and hash downloads/readbacks before reporting success. ETags are not content hashes.
@@ -49,7 +49,7 @@ Support `active` (blender/export/godot/textures) and `all` asset profiles. Prefl
 
 Test clean current/demo, main and an older revision using empty caches and R2 only. Test branch switches, revisions without bootstrap files, dirty asset protection, read-only credentials, missing/corrupt objects and a failed upload blocking normal Git push. Verify linked Blender assets, existing provenance checks, cold Godot import, and an offline desktop demo build/launch in disposable processes/checkouts. Leave the user's open editors alone.
 
-Add a read-only CI integrity check for OIDs introduced anywhere in new history, including assets introduced then removed in the same PR. Run trusted checker code with bucket-scoped reader credentials; untrusted PR code must not execute with secrets. Document preview/archive limitations for private external assets.
+Add a read-only CI integrity check for OIDs introduced anywhere in new history, including assets introduced then removed in the same PR. Run trusted checker code with bucket-scoped reader credentials; untrusted PR code must not execute with secrets. Document preview/archive limitations for externally stored assets.
 
 Publish the migration changes, update actively publishing clones/branches, and publish the currently local demo handoff commit using the R2 workflow. Existing GitGuardian findings remain user-owned and PR14 retains its independent hold; migration must not bypass those checks or require their unrelated resolution to pass its own acceptance.
 

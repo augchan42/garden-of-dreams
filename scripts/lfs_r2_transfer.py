@@ -68,7 +68,10 @@ class Store:
                 'RCLONE_CONFIG_GARDENASSETS_NO_CHECK_BUCKET': 'true'})
             if self.env.get(group+'SESSION_TOKEN'):
                 self.env['RCLONE_CONFIG_GARDENASSETS_SESSION_TOKEN']=self.env[group+'SESSION_TOKEN']
-            self.remote = 'gardenassets:'+self.env[group+'BUCKET']+'/'+self.env.get('R2_LFS_PREFIX', 'garden-of-dreams-lfs').strip('/')
+            prefix=self.env.get('R2_LFS_PREFIX','').strip('/')
+            if not re.fullmatch(r'[A-Za-z0-9_-]+(?:/[A-Za-z0-9_-]+)*',prefix):
+                raise TransferError('Explicit safe object-storage prefix required')
+            self.remote = 'gardenassets:'+self.env[group+'BUCKET']+'/'+prefix
         if (not re.fullmatch(r'[A-Za-z0-9_-]+:[^\s]+/[^\s]+', self.remote)
                 or any(part in ('.', '..') for part in self.remote.split('/'))):
             raise TransferError('Explicit safe object-storage prefix required')
