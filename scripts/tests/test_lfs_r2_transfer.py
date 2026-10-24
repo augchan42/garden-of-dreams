@@ -84,6 +84,23 @@ class TransferTests(unittest.TestCase):
         self.assertIn('error',result);self.assertNotIn('path',result)
         self.assertNotIn(str(self.root),json.dumps(result))
 
+    def test_private_reader_json_is_loaded_as_data(self):
+        from unittest.mock import patch
+        values={'R2_ASSETS_BUCKET':'reader-bucket','R2_LFS_PREFIX':'private/random-folder',
+                'R2_ASSETS_SECRET_ACCESS_KEY':'literal-$(no-shell-execution)'}
+        path=self.root/'reader.json';path.write_text(json.dumps(values))
+        with patch.dict(os.environ,{'R2_LFS_PREFIX':'process/override'}):
+            loaded=transfer.read_environment(path)
+        self.assertEqual(loaded['R2_ASSETS_BUCKET'],values['R2_ASSETS_BUCKET'])
+        self.assertEqual(loaded['R2_ASSETS_SECRET_ACCESS_KEY'],values['R2_ASSETS_SECRET_ACCESS_KEY'])
+        self.assertEqual(loaded['R2_LFS_PREFIX'],'process/override')
+
+    def test_invalid_private_reader_json_is_rejected(self):
+        path=self.root/'reader.json'
+        for body in ('{invalid-json','[]','{"R2_LFS_PREFIX":7}','{"PATH":"untrusted"}'):
+            path.write_text(body)
+            with self.assertRaises(transfer.TransferError):transfer.read_environment(path)
+
     def test_production_requires_explicit_prefix(self):
         values={'R2_MEDIA_ACCOUNT_ID':'account','R2_MEDIA_BUCKET':'bucket',
                 'R2_MEDIA_ACCESS_KEY_ID':'key','R2_MEDIA_SECRET_ACCESS_KEY':'secret',

@@ -30,13 +30,22 @@ def read_environment(path=None):
     filename = path or values.get('R2_LFS_ENV_FILE')
     if filename:
         try:
-            for line in Path(filename).read_text().splitlines():
-                text = line.strip().removeprefix('export ').strip()
-                if not text or text.startswith('#') or '=' not in text:continue
-                key, raw = text.split('=', 1);key = key.strip()
-                if key.startswith(('CF_', 'R2_')):
-                    # Parse values as data. Never source shell code or expand it.
-                    values.setdefault(key, ' '.join(shlex.split(raw, comments=True)))
+            body=Path(filename).read_text()
+            if body.lstrip().startswith(('{','[')):
+                data=json.loads(body)
+                if (not isinstance(data,dict) or any(not isinstance(key,str)
+                        or not key.startswith(('CF_','R2_')) or not isinstance(value,str)
+                        for key,value in data.items())):
+                    raise ValueError('Invalid private reader configuration')
+                for key,value in data.items():values.setdefault(key,value)
+            else:
+                for line in body.splitlines():
+                    text = line.strip().removeprefix('export ').strip()
+                    if not text or text.startswith('#') or '=' not in text:continue
+                    key, raw = text.split('=', 1);key = key.strip()
+                    if key.startswith(('CF_', 'R2_')):
+                        # Parse values as data. Never source shell code or expand it.
+                        values.setdefault(key, ' '.join(shlex.split(raw, comments=True)))
         except (OSError, ValueError):raise TransferError('Cannot read private R2 configuration') from None
     return values
 
