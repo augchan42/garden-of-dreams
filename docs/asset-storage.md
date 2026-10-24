@@ -21,6 +21,21 @@ python3 scripts/audit_lfs_storage.py verify-local --report build/r2-migration/in
 
 Every command writes an explicit report; verification never replaces the inventory. Incomplete inventories, changed refs and missing/corrupt objects prevent acceptance. Build/profile/bootstrap and final provider instructions will be added with their implementation and actual verification.
 
+## Final ref and asset deltas
+
+Capture a new full inventory whenever publishing refs change. A prior full readback report can support the next capture only when it contains a successful size/SHA-256 GET proof for every old OID. Delta planning identifies new bytes and records the baseline provider identity; copying that delta to another prefix/backend is refused.
+
+```sh
+python3 scripts/audit_lfs_storage.py inventory --refs all --output build/current-inventory.json
+python3 scripts/audit_lfs_storage.py delta --report build/current-inventory.json --previous-inventory build/previous-inventory.json --verification build/previous-readback.json --output build/delta-inventory.json
+python3 scripts/audit_lfs_storage.py copy --report build/delta-inventory.json --env-file /absolute/private/r2.env --output build/delta-readback.json
+python3 scripts/audit_lfs_storage.py reconcile --report build/current-inventory.json --previous-inventory build/previous-inventory.json --verification build/previous-readback.json --delta-verification build/delta-readback.json --output build/current-readback.json
+```
+
+For code-only changes, the delta has zero objects: skip copying and omit `--delta-verification` when reconciling. Reconciliation composes the earlier full-GET evidence with actual full-GET proofs for new objects; it does not claim to download unchanged bytes again. The report records both source captures and proof fingerprints. A later ref change still returns `needs_delta`, so capture and reconcile again before cutover.
+
+Delta inventories are explicitly partial. Recovery backup and further delta planning require a full retained-history inventory, so they cannot silently omit the previously verified history. Keep the original inventory, readback proof and recovery snapshot, including any objects no longer reachable from a later ref capture. No delta command deletes remote objects.
+
 ## Clone setup
 
 Use Git LFS (tested 3.8.0), Python 3.11–3.14 and **rclone v1.75.0**. Obtain that rclone release from [the official release](https://github.com/rclone/rclone/releases/tag/v1.75.0), verify its archive checksum, and keep the executable outside the checkout. Bootstrap configures Git; it does not install these dependencies. The adapter rejects a different rclone version.

@@ -209,4 +209,73 @@ class BulkAuditTests(GitFixture):
         self.assertFalse((self.root/'remote/project/objects/sha256'/oid[:2]/oid).exists())
 
 
+class DeltaAuditTests(GitFixture):
+    store=CopyAuditTests.store
+
+    def setUp(self):
+        super().setUp()
+        self.assertTrue(hasattr(audit,'delta_inventory'),'Explicit verified delta processing is missing')
+
+    def baseline(self):
+        self.pointer('first.bin');before=audit.inventory(self.repo)
+        proof=audit.copy_objects(before,self.store())
+        self.assertEqual(proof['status'],'passed')
+        return before,proof
+
+    def test_delta_copies_only_new_oids(self):
+        before,proof=self.baseline()
+        oid,_=self.pointer('second.bin',b'beta');current=audit.inventory(self.repo)
+        delta=audit.delta_inventory(before,current,proof)
+        self.assertEqual(delta['objects'],[{'oid':oid,'size':4}])
+        self.assertEqual(delta['verified_baseline']['object_count'],1)
+        changed=audit.copy_objects(delta,self.store())
+        self.assertEqual(changed['status'],'passed')
+        merged=audit.reconcile_verification(before,current,proof,changed)
+        self.assertEqual(merged['status'],'passed')
+        self.assertEqual(merged['counts'],{'ok':2,'error':0})
+        self.assertEqual(merged['source_refs'],current['refs'])
+        self.assertEqual(merged['verification_kind'],'composed_full_readback')
+        changed['objects'][0]['readback_sha256_verified']=False
+        with self.assertRaises(ValueError):audit.reconcile_verification(before,current,proof,changed)
+        self.assertEqual(audit.verify_remote(current,self.store())['counts'],{'ok':2,'error':0})
+
+    def test_code_only_delta_needs_no_asset_transfer(self):
+        before,proof=self.baseline()
+        self.git('commit','--allow-empty','-m','code only')
+        delta=audit.delta_inventory(before,audit.inventory(self.repo),proof)
+        self.assertEqual(delta['objects'],[])
+        self.assertEqual(delta['refs']['HEAD'],self.git('rev-parse','HEAD'))
+        self.assertEqual(audit.copy_objects(delta,self.store())['counts'],{'ok':0,'error':0})
+        merged=audit.reconcile_verification(before,audit.inventory(self.repo),proof)
+        self.assertEqual(merged['counts'],{'ok':1,'error':0})
+
+    def test_unverified_baseline_cannot_support_delta(self):
+        before,proof=self.baseline()
+        proof['objects'][0]['readback_sha256_verified']=False
+        with self.assertRaises(ValueError):audit.delta_inventory(before,before,proof)
+
+    def test_delta_cannot_switch_storage_provider(self):
+        before,proof=self.baseline();self.pointer('second.bin',b'beta')
+        delta=audit.delta_inventory(before,audit.inventory(self.repo),proof)
+        other=self.store();other.remote+='-other'
+        with self.assertRaises(ValueError):audit.copy_objects(delta,other)
+        with self.assertRaises(ValueError):audit.bulk_copy_objects(delta,other,self.root/'bulk')
+
+    def test_delta_subset_cannot_be_mistaken_for_full_recovery_inventory(self):
+        before,proof=self.baseline();self.pointer('second.bin',b'beta');current=audit.inventory(self.repo)
+        delta=audit.delta_inventory(before,current,proof)
+        copied=audit.copy_objects(delta,self.store())
+        with self.assertRaises(ValueError):audit.backup(delta,self.root/'incomplete-recovery')
+        with self.assertRaises(ValueError):audit.delta_inventory(delta,current,copied)
+
+    def test_removed_ref_objects_remain_in_verified_baseline(self):
+        before,proof=self.baseline()
+        self.git('checkout','--orphan','replacement');self.git('rm','-rf','.')
+        self.git('commit','--allow-empty','-m','replacement');self.git('branch','-D','main')
+        delta=audit.delta_inventory(before,audit.inventory(self.repo),proof)
+        self.assertEqual(delta['object_count'],0)
+        self.assertEqual(delta['verified_baseline']['object_count'],1)
+        self.assertEqual(delta['baseline_only_oids'],[before['objects'][0]['oid']])
+
+
 if __name__ == '__main__':unittest.main()

@@ -89,7 +89,7 @@ def inventory(repo):
     if captured_refs(repo) != refs:raise ValueError('Refs changed during inventory; capture again')
     cache = cache_root(repo)
     cached = {p.name for p in cache.glob('*/*/*') if p.is_file() and OID.fullmatch(p.name)}
-    return {'schema_version': 1, 'complete': True, 'captured_at': datetime.now(timezone.utc).isoformat(),
+    return {'schema_version': 1, 'complete': True, 'inventory_scope':'retained-history', 'captured_at': datetime.now(timezone.utc).isoformat(),
             'repo': str(repo), 'cache': str(cache), 'refs': refs,
             'transient_ref_policy': 'refs/codex diff checkpoints excluded; cache-only bytes retained in recovery',
             'objects': [{'oid': oid, 'size': objects[oid]} for oid in sorted(objects)],
@@ -100,6 +100,8 @@ def inventory(repo):
 def validate_report(report):
     if report.get('schema_version') != 1 or report.get('complete') is not True or not report.get('refs'):
         raise ValueError('Complete schema-1 inventory required')
+    if report.get('inventory_scope','retained-history') not in ('retained-history','delta'):
+        raise ValueError('Unknown inventory scope')
     seen = set()
     for item in report.get('objects', []):
         oid, size = item.get('oid'), item.get('size')
@@ -108,6 +110,11 @@ def validate_report(report):
         seen.add(oid)
     if len(seen) != report.get('object_count') or sum(x['size'] for x in report['objects']) != report.get('object_bytes'):
         raise ValueError('Incomplete inventory totals')
+
+
+def require_full_inventory(report):
+    if report.get('inventory_scope','retained-history')!='retained-history':
+        raise ValueError('Full retained-history inventory required; delta manifests are partial')
 
 
 def inspect(path, oid, size):
@@ -136,6 +143,7 @@ def save(path, value):
 
 def backup(report, destination):
     validate_report(report)
+    require_full_inventory(report)
     repo, cache, destination = Path(report['repo']), Path(report['cache']), Path(destination).resolve()
     if captured_refs(repo) != report['refs']:raise ValueError('Refs changed before backup')
     if destination == cache or cache in destination.parents or destination in cache.parents:
@@ -180,8 +188,69 @@ def backup(report, destination):
     return result
 
 
+def validate_verification(report, proof):
+    validate_report(report)
+    expected={x['oid']:x['size'] for x in report['objects']}
+    if (proof.get('schema_version')!=1 or proof.get('status') not in ('passed','needs_delta')
+            or proof.get('source_refs')!=report['refs']
+            or proof.get('counts')!={'ok':len(expected),'error':0}
+            or proof.get('verified_bytes')!=sum(expected.values())
+            or OID.fullmatch(proof.get('provider_id','')) is None
+            or proof.get('upload_exit_code',0)!=0 or proof.get('download_exit_code',0)!=0):
+        raise ValueError('Complete successful full-readback proof required')
+    rows=proof.get('objects',[])
+    if (len(rows)!=len(expected) or any(x.get('status')!='ok' or x.get('readback_sha256_verified') is not True for x in rows)
+            or {x.get('oid'):x.get('size') for x in rows}!=expected):
+        raise ValueError('Every baseline OID requires complete size/SHA256 readback proof')
+
+
+def delta_inventory(previous,current,verification):
+    """Retain verified history while identifying only new immutable object bytes."""
+    require_full_inventory(previous);require_full_inventory(current)
+    validate_verification(previous,verification);validate_report(current)
+    before={x['oid']:x['size'] for x in previous['objects']}
+    after={x['oid']:x['size'] for x in current['objects']}
+    if any(before[oid]!=after[oid] for oid in before.keys()&after.keys()):
+        raise ValueError('An immutable OID cannot change size')
+    added=[x for x in current['objects'] if x['oid'] not in before]
+    fingerprint=hashlib.sha256(json.dumps(verification,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+    return dict(current,inventory_scope='delta',objects=added,object_count=len(added),object_bytes=sum(x['size'] for x in added),
+                cache_only_oids=[],baseline_provider_id=verification['provider_id'],
+                baseline_only_oids=sorted(before.keys()-after.keys()),
+                verified_baseline={'object_count':len(before),'object_bytes':sum(before.values()),
+                                   'source_refs':previous['refs'],'verification_sha256':fingerprint})
+
+
+def reconcile_verification(previous,current,verification,delta_proof=None):
+    """Compose actual full-GET proofs; never reinterpret a HEAD/size check as one."""
+    delta=delta_inventory(previous,current,verification)
+    if delta_proof is None:
+        if delta['object_count']:raise ValueError('New OIDs require their own full-readback proof')
+        delta_proof={'schema_version':1,'status':'passed','source_refs':current['refs'],
+                     'provider_id':verification['provider_id'],'counts':{'ok':0,'error':0},
+                     'verified_bytes':0,'objects':[]}
+    validate_verification(delta,delta_proof)
+    if delta_proof['provider_id']!=verification['provider_id']:raise ValueError('Delta provider differs from baseline')
+    combined={x['oid']:dict(x,proof_source='baseline') for x in verification['objects']}
+    combined.update({x['oid']:dict(x,proof_source='delta') for x in delta_proof['objects']})
+    rows=[combined[x['oid']] for x in current['objects']]
+    changed=captured_refs(current['repo'])!=current['refs']
+    return {'schema_version':1,'status':'needs_delta' if changed else 'passed',
+            'verification_kind':'composed_full_readback','provider_id':verification['provider_id'],
+            'source_refs':current['refs'],'refs_changed':changed,'counts':{'ok':len(rows),'error':0},
+            'verified_bytes':sum(x['size'] for x in rows),'objects':rows,
+            'baseline':delta['verified_baseline'],'baseline_only_oids':delta['baseline_only_oids'],
+            'delta_verification_sha256':hashlib.sha256(json.dumps(delta_proof,sort_keys=True,separators=(',',':')).encode()).hexdigest()}
+
+
+def require_same_provider(report,store):
+    if report.get('baseline_provider_id') and report['baseline_provider_id']!=hashlib.sha256(store.remote.encode()).hexdigest():
+        raise ValueError('Delta provider differs from verified baseline')
+
+
 def remote_operation(report, store, verify_only=False, jobs=4, journal=None):
     validate_report(report)
+    require_same_provider(report,store)
     if captured_refs(report['repo']) != report['refs']:
         raise ValueError('Refs changed before remote operation; capture explicit delta')
     rows = []
@@ -235,6 +304,7 @@ def bulk_copy_objects(report, store, workspace):
     """Persistent bounded S3 sessions; success requires complete downloaded SHA256s."""
     from lfs_r2_transfer import checked_file
     validate_report(report)
+    require_same_provider(report,store)
     if captured_refs(report['repo']) != report['refs']:
         raise ValueError('Refs changed before bulk copy; capture explicit delta')
     workspace=Path(workspace).resolve();workspace.mkdir(parents=True,exist_ok=True)
@@ -288,7 +358,7 @@ def bulk_copy_objects(report, store, workspace):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operation', choices=['inventory', 'verify-local', 'backup', 'copy', 'verify-remote'])
+    parser.add_argument('operation', choices=['inventory', 'verify-local', 'backup', 'copy', 'verify-remote','delta','reconcile'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
     parser.add_argument('--refs', choices=['all'], default='all')
     parser.add_argument('--report', type=Path)
@@ -296,12 +366,22 @@ def main():
     parser.add_argument('--destination', type=Path)
     parser.add_argument('--env-file', type=Path)
     parser.add_argument('--bulk', action='store_true')
+    parser.add_argument('--previous-inventory',type=Path)
+    parser.add_argument('--verification',type=Path)
+    parser.add_argument('--delta-verification',type=Path)
     args = parser.parse_args()
     if args.operation == 'inventory':result = inventory(args.repo)
     else:
         if args.report is None:parser.error('--report required')
         report = json.loads(args.report.read_text())
-        if args.operation == 'verify-local':result = verify_local(report)
+        if args.operation in ('delta','reconcile'):
+            if args.previous_inventory is None or args.verification is None:parser.error('--previous-inventory and --verification required')
+            previous=json.loads(args.previous_inventory.read_text());proof=json.loads(args.verification.read_text())
+            if args.operation=='delta':result=delta_inventory(previous,report,proof)
+            else:
+                changed=json.loads(args.delta_verification.read_text()) if args.delta_verification else None
+                result=reconcile_verification(previous,report,proof,changed)
+        elif args.operation == 'verify-local':result = verify_local(report)
         elif args.operation == 'backup':
             if args.destination is None:parser.error('--destination required')
             result = backup(report, args.destination)
