@@ -51,6 +51,7 @@ def pointer_objects(repo, *revisions):
     """Read pointer blobs from Git without checking out or executing revision code."""
     listed = git(repo, 'rev-list', '--objects', *revisions).splitlines()
     ids = sorted({line.split(b' ', 1)[0] for line in listed})
+    if not ids:return {}
     metadata = git(repo, 'cat-file', '--batch-check=%(objectname) %(objecttype) %(objectsize)',
                    input=b'\n'.join(ids)+b'\n').splitlines()
     small = []

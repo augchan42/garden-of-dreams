@@ -52,6 +52,10 @@ class HistoryTests(GitFixture):
   report=checker.verify(self.repo,self.base,'HEAD',self.store)
   self.assertEqual(report['status'],'passed');self.assertEqual(report['counts']['ok'],1)
 
+ def test_empty_revision_range_checks_zero_assets(self):
+  report=checker.verify(self.repo,self.base,self.base,self.store)
+  self.assertEqual(report['status'],'passed');self.assertEqual(report['counts'],{'ok':0,'error':0})
+
  def test_untrusted_checker_file_never_executed(self):
   script=self.repo/'malicious.py';script.write_text('raise RuntimeError("must not execute")')
   self.git('add','.');self.git('commit','-m','untrusted code')
