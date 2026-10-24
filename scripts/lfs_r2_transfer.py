@@ -66,6 +66,8 @@ class Store:
                 'RCLONE_CONFIG_GARDENASSETS_ENDPOINT': 'https://'+account+'.r2.cloudflarestorage.com',
                 'RCLONE_CONFIG_GARDENASSETS_REGION': 'auto',
                 'RCLONE_CONFIG_GARDENASSETS_NO_CHECK_BUCKET': 'true'})
+            if self.env.get(group+'SESSION_TOKEN'):
+                self.env['RCLONE_CONFIG_GARDENASSETS_SESSION_TOKEN']=self.env[group+'SESSION_TOKEN']
             self.remote = 'gardenassets:'+self.env[group+'BUCKET']+'/'+self.env.get('R2_LFS_PREFIX', 'garden-of-dreams-lfs').strip('/')
         if (not re.fullmatch(r'[A-Za-z0-9_-]+:[^\s]+/[^\s]+', self.remote)
                 or any(part in ('.', '..') for part in self.remote.split('/'))):
