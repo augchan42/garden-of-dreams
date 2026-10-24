@@ -88,6 +88,22 @@ class TransferTests(unittest.TestCase):
         env=dict(self.env,R2_LFS_REMOTE='fixture:'+str(self.root/'remote/../unsafe'))
         self.assertIn('error',self.protocol('upload',env=env))
 
+    def test_duplicate_concurrent_uploads(self):
+        from concurrent.futures import ThreadPoolExecutor
+        def upload(_):return transfer.Store(self.env).upload(self.source,self.oid,len(self.body))
+        with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(upload,range(2)))
+        self.assertEqual(self.object.read_bytes(),self.body)
+
+    def test_directory_at_object_key_is_missing(self):
+        self.object.mkdir(parents=True)
+        result=self.protocol('download')
+        self.assertIn('error',result);self.assertNotIn('path',result)
+
+    def test_malformed_protocol_json_is_rejected(self):
+        p=subprocess.run([sys.executable,str(MODULE)],input='{invalid-json\n',env=self.env,text=True,capture_output=True)
+        self.assertNotEqual(p.returncode,0)
+        self.assertIn('error',json.loads(p.stdout));self.assertEqual(p.stderr,'')
+
     def test_invalid_initialization(self):
         p=subprocess.run([sys.executable,str(MODULE)],input='{"event":"init","operation":"delete"}\n',
                          env=self.env,text=True,capture_output=True,timeout=10)

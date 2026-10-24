@@ -47,11 +47,9 @@ def object_path(cache, oid):
     return Path(cache) / oid[:2] / oid[2:4] / oid
 
 
-def inventory(repo):
-    repo = Path(repo).resolve()
-    refs = captured_refs(repo)
-    commits = sorted(set(refs.values()))
-    listed = git(repo, 'rev-list', '--objects', *commits).splitlines()
+def pointer_objects(repo, *revisions):
+    """Read pointer blobs from Git without checking out or executing revision code."""
+    listed = git(repo, 'rev-list', '--objects', *revisions).splitlines()
     ids = sorted({line.split(b' ', 1)[0] for line in listed})
     metadata = git(repo, 'cat-file', '--batch-check=%(objectname) %(objecttype) %(objectsize)',
                    input=b'\n'.join(ids)+b'\n').splitlines()
@@ -79,6 +77,14 @@ def inventory(repo):
         oid, count = match[1].decode(), int(length[1])
         if oid in objects and objects[oid] != count:raise ValueError('Inconsistent LFS object size')
         objects[oid] = count
+    return objects
+
+
+def inventory(repo):
+    repo = Path(repo).resolve()
+    refs = captured_refs(repo)
+    commits = sorted(set(refs.values()))
+    objects = pointer_objects(repo, *commits)
     if captured_refs(repo) != refs:raise ValueError('Refs changed during inventory; capture again')
     cache = cache_root(repo)
     cached = {p.name for p in cache.glob('*/*/*') if p.is_file() and OID.fullmatch(p.name)}

@@ -1,0 +1,61 @@
+"""Trusted checker reads Git objects, including assets deleted before PR tip."""
+import hashlib
+import importlib.util
+import os
+from pathlib import Path
+import shutil
+import sys
+import tempfile
+import unittest
+
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from test_lfs_storage_audit import GitFixture
+from lfs_r2_transfer import Store
+try:
+ import check_r2_history as checker
+except ImportError:checker=None
+
+
+class HistoryTests(GitFixture):
+ def setUp(self):
+  super().setUp()
+  self.assertIsNotNone(checker,'Trusted history checker is missing')
+  self.git('commit','--allow-empty','-m','base')
+  self.base=self.git('rev-parse','HEAD')
+  config=self.root/'rclone.conf';config.write_text('[fixture]\ntype = local\n')
+  self.store=Store(dict(os.environ,RCLONE_CONFIG=str(config),R2_LFS_REMOTE='fixture:'+str(self.root/'remote/project')))
+
+ def test_intermediate_deleted_object_is_checked(self):
+  oid,source=self.pointer('removed.bin')
+  self.store.upload(source,oid,5)
+  self.git('rm','removed.bin');self.git('commit','-m','remove')
+  report=checker.verify(self.repo,self.base,self.git('rev-parse','HEAD'),self.store)
+  self.assertEqual(report['status'],'passed')
+  self.assertEqual([x['oid'] for x in report['objects']],[oid])
+
+ def test_missing_intermediate_object_fails(self):
+  self.pointer('removed.bin');self.git('rm','removed.bin');self.git('commit','-m','remove')
+  report=checker.verify(self.repo,self.base,self.git('rev-parse','HEAD'),self.store)
+  self.assertEqual(report['status'],'failed')
+  self.assertEqual(report['counts'],{'ok':0,'error':1})
+
+ def test_corrupt_object_fails(self):
+  oid,_=self.pointer('bad.bin')
+  path=self.root/'remote/project/objects/sha256'/oid[:2]/oid
+  path.parent.mkdir(parents=True);path.write_bytes(b'bad')
+  self.assertEqual(checker.verify(self.repo,self.base,'HEAD',self.store)['status'],'failed')
+
+ def test_baseline_history_excluded_and_new_oids_deduplicated(self):
+  self.pointer('old.bin');self.base=self.git('rev-parse','HEAD')
+  oid,source=self.pointer('new.bin',b'new');self.pointer('duplicate.bin',b'new')
+  self.store.upload(source,oid,3)
+  report=checker.verify(self.repo,self.base,'HEAD',self.store)
+  self.assertEqual(report['status'],'passed');self.assertEqual(report['counts']['ok'],1)
+
+ def test_untrusted_checker_file_never_executed(self):
+  script=self.repo/'malicious.py';script.write_text('raise RuntimeError("must not execute")')
+  self.git('add','.');self.git('commit','-m','untrusted code')
+  self.assertEqual(checker.verify(self.repo,self.base,'HEAD',self.store)['counts']['ok'],0)
+
+
+if __name__=='__main__':unittest.main()
