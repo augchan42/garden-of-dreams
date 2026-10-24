@@ -375,6 +375,8 @@ def main():
     parser.add_argument('--godot', type=Path, default=Path('/Applications/Godot.app/Contents/MacOS/Godot'))
     parser.add_argument('--visual-review-note')
     args = parser.parse_args()
+    from check_asset_checkout import require_assets
+    require_assets(ROOT)
     args.work = args.work.resolve()
     require(args.work != ROOT and ROOT / 'godot' not in [args.work, *args.work.parents],
             'Output must be separate from production Godot files')
