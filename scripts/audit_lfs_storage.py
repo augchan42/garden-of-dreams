@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Audit retained Git LFS history and create verified recovery copies."""
 import argparse
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -173,26 +173,84 @@ def backup(report, destination):
     return result
 
 
+def remote_operation(report, store, verify_only=False, jobs=4, journal=None):
+    validate_report(report)
+    if captured_refs(report['repo']) != report['refs']:
+        raise ValueError('Refs changed before remote operation; capture explicit delta')
+    rows = []
+    provider = hashlib.sha256(store.remote.encode()).hexdigest()
+    def work(item):
+        oid,size=item['oid'],item['size']
+        try:
+            if verify_only:
+                temporary=store.fetch(oid,size)
+                temporary.unlink()
+            else:
+                store.upload(object_path(report['cache'],oid),oid,size)
+            return {'oid':oid,'size':size,'status':'ok','readback_sha256_verified':True}
+        except Exception as error:
+            return {'oid':oid,'size':size,'status':'error','error_type':type(error).__name__}
+    stream=None
+    if journal is not None:
+        journal=Path(journal);journal.parent.mkdir(parents=True,exist_ok=True)
+        stream=journal.open('a')
+    try:
+        with ThreadPoolExecutor(max_workers=min(max(jobs,1),4)) as pool:
+            futures=[pool.submit(work,item) for item in report['objects']]
+            for future in as_completed(futures):
+                row=future.result();rows.append(row)
+                if stream:
+                    stream.write(json.dumps(dict(row,provider_id=provider))+'\n');stream.flush()
+                if len(rows)%100==0:
+                    print(json.dumps({'remote_operation':'verify' if verify_only else 'copy',
+                                      'processed':len(rows),'total':len(report['objects']),
+                                      'errors':sum(x['status']=='error' for x in rows)}),flush=True)
+    finally:
+        if stream:stream.close()
+    errors=sum(x['status']=='error' for x in rows)
+    changed=captured_refs(report['repo']) != report['refs']
+    return {'schema_version':1,'status':'failed' if errors else ('needs_delta' if changed else 'passed'),
+            'provider_id':provider,'source_refs':report['refs'],'refs_changed':changed,
+            'counts':{'ok':len(rows)-errors,'error':errors},
+            'verified_bytes':sum(x['size'] for x in rows if x['status']=='ok'),
+            'objects':sorted(rows,key=lambda x:x['oid'])}
+
+
+def copy_objects(report, store, jobs=4, journal=None):
+    return remote_operation(report,store,False,jobs,journal)
+
+
+def verify_remote(report, store, jobs=4, journal=None):
+    return remote_operation(report,store,True,jobs,journal)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('operation', choices=['inventory', 'verify-local', 'backup'])
+    parser.add_argument('operation', choices=['inventory', 'verify-local', 'backup', 'copy', 'verify-remote'])
     parser.add_argument('--repo', type=Path, default=Path.cwd())
     parser.add_argument('--refs', choices=['all'], default='all')
     parser.add_argument('--report', type=Path)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--destination', type=Path)
+    parser.add_argument('--env-file', type=Path)
     args = parser.parse_args()
     if args.operation == 'inventory':result = inventory(args.repo)
     else:
         if args.report is None:parser.error('--report required')
         report = json.loads(args.report.read_text())
         if args.operation == 'verify-local':result = verify_local(report)
-        else:
+        elif args.operation == 'backup':
             if args.destination is None:parser.error('--destination required')
             result = backup(report, args.destination)
+        else:
+            from lfs_r2_transfer import Store, read_environment
+            store=Store(read_environment(args.env_file))
+            operation=copy_objects if args.operation == 'copy' else verify_remote
+            result=operation(report,store,journal=args.output.with_suffix('.jsonl'))
     save(args.output, result)
     print(json.dumps({k: v for k, v in result.items() if k in ('status', 'complete', 'object_count', 'object_bytes', 'counts', 'objects_copied', 'bytes_verified')}))
     if result.get('status') == 'failed':sys.exit(1)
+    if result.get('status') == 'needs_delta':sys.exit(2)
 
 
 if __name__ == '__main__':main()

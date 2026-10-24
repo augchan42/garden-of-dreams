@@ -16,7 +16,7 @@ else:
     audit = None
 
 
-class StorageAuditTests(unittest.TestCase):
+class GitFixture(unittest.TestCase):
     def setUp(self):
         self.assertIsNotNone(audit, 'Storage inventory implementation is missing')
         self.temp = tempfile.TemporaryDirectory()
@@ -41,6 +41,7 @@ class StorageAuditTests(unittest.TestCase):
         self.git('commit', '-m', name)
         return oid, cache
 
+class StorageAuditTests(GitFixture):
     def test_deduplicates_oids(self):
         oid, _ = self.pointer('one.bin')
         self.pointer('two.bin')
@@ -111,6 +112,53 @@ class StorageAuditTests(unittest.TestCase):
         report = audit.inventory(self.repo)
         self.pointer('two.bin', b'beta')
         with self.assertRaises(ValueError):audit.backup(report, self.root / 'backup')
+
+
+
+
+
+class CopyAuditTests(GitFixture):
+    def setUp(self):
+        super().setUp()
+        self.assertTrue(hasattr(audit,"copy_objects") and hasattr(audit,"verify_remote"), "Remote copy/verification implementation is missing")
+    def store(self):
+        import sys,shutil,os
+        sys.path.insert(0,str(MODULE.parent))
+        from lfs_r2_transfer import Store
+        config=self.root/'rclone.conf';config.write_text('[fixture]\ntype = local\n')
+        return Store(dict(os.environ,RCLONE_CONFIG=str(config),
+                          R2_LFS_REMOTE='fixture:'+str(self.root/'remote/project'),
+                          R2_LFS_RCLONE=shutil.which('rclone')))
+
+    def test_partial_copy_retry_retains_correct_object(self):
+        oid,_=self.pointer('first.bin')
+        other,path=self.pointer('second.bin',b'beta')
+        report=audit.inventory(self.repo);path.unlink()
+        store=self.store()
+        result=audit.copy_objects(report,store)
+        self.assertEqual(result['status'],'failed')
+        remote=self.root/'remote/project/objects/sha256'/oid[:2]/oid
+        self.assertEqual(remote.read_bytes(),b'alpha')
+        modified=remote.stat().st_mtime_ns
+        path.write_bytes(b'beta')
+        result=audit.copy_objects(report,store)
+        self.assertEqual(result['status'],'passed')
+        self.assertEqual(remote.stat().st_mtime_ns,modified)
+        self.assertEqual(audit.verify_remote(report,store)['status'],'passed')
+
+    def test_remote_corruption_fails_full_readback(self):
+        oid,_=self.pointer('one.bin');report=audit.inventory(self.repo);store=self.store()
+        self.assertEqual(audit.copy_objects(report,store)['status'],'passed')
+        remote=self.root/'remote/project/objects/sha256'/oid[:2]/oid
+        remote.write_bytes(b'wrong')
+        result=audit.verify_remote(report,store)
+        self.assertEqual(result['status'],'failed')
+        self.assertEqual(result['counts']['error'],1)
+
+    def test_copy_refuses_uncaptured_ref_delta(self):
+        self.pointer('one.bin');report=audit.inventory(self.repo)
+        self.pointer('two.bin',b'beta')
+        with self.assertRaises(ValueError):audit.copy_objects(report,self.store())
 
 
 if __name__ == '__main__':unittest.main()
