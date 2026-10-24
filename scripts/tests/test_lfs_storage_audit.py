@@ -85,6 +85,20 @@ class StorageAuditTests(GitFixture):
         path.unlink()
         self.assertEqual(audit.verify_local(report)['counts']['missing'], 1)
 
+    def test_recovery_retains_detached_worktree_only_commit(self):
+        self.pointer('one.bin')
+        detached=self.root/'detached'
+        self.git('worktree','add','--detach',str(detached),'HEAD')
+        subprocess.run(['git','commit','--allow-empty','-m','detached only'],cwd=detached,check=True,capture_output=True)
+        tip=subprocess.check_output(['git','rev-parse','HEAD'],cwd=detached).decode().strip()
+        report=audit.inventory(self.repo)
+        destination=self.root/'backup'
+        audit.backup(report,destination)
+        restored=self.root/'restored.git'
+        subprocess.run(['git','clone','--mirror',str(destination/'refs.bundle'),str(restored)],check=True,capture_output=True)
+        result=subprocess.run(['git','cat-file','-e',tip+'^{commit}'],cwd=restored,capture_output=True)
+        self.assertEqual(result.returncode,0,'Recovery bundle omitted detached worktree commit')
+
     def test_backup_restores_refs_bytes_and_cache_only_object(self):
         oid, path = self.pointer('one.bin')
         spare = b'cache only'
