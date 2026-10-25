@@ -17,8 +17,7 @@
   "bound_file_imports": 177,
   "normal_inventory_meshes": 167,
   "normal_inventory_texture_resources": 178,
-  "migration_python_tests": 70,
-  "publisher_python_tests": 39,
+  "migration_python_tests": 73,
   "same_workstation_recovery": true,
   "remaining": [],
   "private_prefix_included": false,
@@ -26,7 +25,7 @@
   "verified_date_hong_kong": "2026-10-26",
   "independent_recovery_objects": 12884,
   "independent_recovery_bytes": 23755850913,
-  "final_source_python_tests": 94,
+  "final_source_python_tests": 97,
   "active_publishing_provider": "R2 standalone adapter",
   "normal_publishing": "passed",
   "read_only_normal_push_blocked": "passed",
@@ -45,5 +44,8 @@
     "source_manual": "https://github.com/augchan42/garden-of-dreams/actions/runs/40211817362"
   },
   "retirement": "Separate owner decision after at least 30 days and two successful cycles",
-  "reader_renew_before_hong_kong": "2026-11-23 10:11"
+  "reader_renew_before_hong_kong": "2026-11-23 10:11",
+  "pointer_format_compatibility": "Shared official Git LFS 3.8 header aliases and Go whitespace framing; 9 accepted formats tested across inventory, removed history CI and preflight",
+  "completion_audit_followup": "Extended pointer-recognition guard; observed 21 failing subcases then both full suites passed; asset inventory unchanged",
+  "pre_integration_publisher_python_tests": 39
 }
