@@ -4,7 +4,7 @@
 **Owner ruling (2026-10-24):** Public storage in the existing bucket is approved if URLs are difficult to guess. Use a cryptographically random 256-bit subfolder within the migration folder. Keep its value in private configuration and the Actions reader secret, never Git or public logs. After full replacement verification, remove only the earlier predictable-prefix migration copies, as explicitly authorized. Preserve GitHub assets, recovery copies and all existing media.
 **Owner reconfirmation (2026-10-25):** Public asset uploads are authorized. The random-folder and private-configuration requirements remain in effect; a private-bucket access gate is no longer applicable.
 
-Status: implementation in progress. The isolated compatibility pilot passed; remaining acceptance gates still apply.
+Status: migration functional acceptance verified on 2026-10-26. The migration PR is merged, the demo source is published, and live CI, publishing and offline recovery passed. See `docs/asset-storage.md` and the public acceptance summary for results; original contracts and baseline evidence below are retained.
 
 ## Outcome
 
