@@ -137,4 +137,4 @@ Spec coverage: Tasks 1/3 cover inventory and backup; Task 2 covers transfer/boot
 - [x] Match all three official Git LFS 3.8 version headers and accepted outer whitespace in shared read-only detection.
 - [x] Observe missing inventory/CI objects and accepted pointer stubs fail nine-format compatibility regressions before the fix.
 - [x] Run the full 73-test migration and 97-test source suites; recapture complete history with zero new asset OIDs.
-- [ ] Merge the protected follow-up and update the published source and final refs receipt before closing the goal.
+Final publication and refs closure are recorded in the local handoff receipt after the protected merge. The goal stays active until the source update and final ref verification finish.
