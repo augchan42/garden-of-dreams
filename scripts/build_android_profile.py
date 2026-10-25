@@ -22,6 +22,15 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def stage_tests(source, fixture, mode):
+    (fixture / 'tests').mkdir()
+    for name in dependencies(mode):
+        shutil.copy2(source / name, fixture / name)
+    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd',
+                 'runtime_texture_caps.gd', 'test_runtime_texture_caps.gd', 'demo_release_acceptance.gd']:
+        shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--mode', choices=['demo', 'full'], default='demo')
@@ -102,13 +111,8 @@ def main():
             shutil.copytree(path, destination)
         elif path.exists():
             shutil.copy2(path, destination)
-    (fixture / 'tests').mkdir()
     production_profile_scripts = profile_snapshot(source, args.mode)
-    for name in dependencies(args.mode):
-        shutil.copy2(source / name, fixture / name)
-    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd',
-                 'runtime_texture_caps.gd', 'test_runtime_texture_caps.gd']:
-        shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
+    stage_tests(source, fixture, args.mode)
     state['moon_import_configuration'] = configure_moon_import(fixture)
     state['backdrop_wash_import_configuration'] = configure_wash_import(fixture)
     state['runtime_caps_configuration'] = configure_runtime_caps(fixture)
