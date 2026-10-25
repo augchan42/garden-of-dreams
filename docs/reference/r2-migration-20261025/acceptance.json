@@ -1,7 +1,7 @@
 {
-  "status": "pre_cutover_verified_remaining_live_ci_and_recovery",
-  "historical_objects": 12098,
-  "historical_bytes_full_get_sha256": 21519155652,
+  "status": "passed",
+  "historical_objects": 12100,
+  "historical_bytes_full_get_sha256": 21519159383,
   "old_predictable_objects_deleted_after_verification": 4893,
   "old_public_sample_http": 404,
   "cold_r2_revisions": [
@@ -20,14 +20,30 @@
   "migration_python_tests": 70,
   "publisher_python_tests": 39,
   "same_workstation_recovery": true,
-  "remaining": [
-    "final_ref_reconciliation",
-    "active_provider_cutover",
-    "live_ci_negative_positive",
-    "new_source_publication",
-    "post_switch_recovery",
-    "migration_merge"
-  ],
+  "remaining": [],
   "private_prefix_included": false,
-  "independent_review": "Two important findings fixed with observed RED/GREEN regressions; no critical or deferred minor findings"
+  "independent_review": "Two important findings fixed with observed RED/GREEN regressions; no critical or deferred minor findings",
+  "verified_date_hong_kong": "2026-10-26",
+  "independent_recovery_objects": 12884,
+  "independent_recovery_bytes": 23755850913,
+  "final_source_python_tests": 94,
+  "active_publishing_provider": "R2 standalone adapter",
+  "normal_publishing": "passed",
+  "read_only_normal_push_blocked": "passed",
+  "fresh_reader": "passed",
+  "offline_disaster_recovery": "passed",
+  "settings_rollback": "passed",
+  "required_status": "R2 asset integrity, GitHub Actions app, enforced for admins",
+  "migration_pull_request": "https://github.com/augchan42/garden-of-dreams/pull/37",
+  "migration_merge_commit": "d7976269394cfe12125ecbfbd36fef961043738b",
+  "demo_source_pull_request": "https://github.com/augchan42/garden-of-dreams/pull/39",
+  "original_demo_commit_preserved": "3d4e4fe96108c1ec3f948767c7f14fc6a16171ce",
+  "tested_source_integration_commit": "2d9b1c2953d5a378711db59550eed86f91fd4a33",
+  "live_ci": {
+    "negative": "https://github.com/augchan42/garden-of-dreams/actions/runs/40209326161",
+    "positive": "https://github.com/augchan42/garden-of-dreams/actions/runs/40209737625",
+    "source_manual": "https://github.com/augchan42/garden-of-dreams/actions/runs/40211817362"
+  },
+  "retirement": "Separate owner decision after at least 30 days and two successful cycles",
+  "reader_renew_before_hong_kong": "2026-11-23 10:11"
 }
