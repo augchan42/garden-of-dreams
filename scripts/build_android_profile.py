@@ -41,6 +41,8 @@ def main():
     parser.add_argument('--report', type=Path, default=REPORT)
     parser.add_argument('--apk', type=Path, default=ROOT / 'build/garden-phone-profile.apk')
     args = parser.parse_args()
+    from check_asset_checkout import require_assets
+    require_assets(ROOT)
     source = ROOT / 'godot'
     production_texture_inputs = texture_input_snapshot(source)
     fixture = Path(tempfile.mkdtemp(prefix='garden-android-profile-'))
