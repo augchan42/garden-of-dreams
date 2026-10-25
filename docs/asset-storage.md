@@ -8,7 +8,7 @@ The owner approved public storage, conditional on URLs being difficult to guess.
 
 Anyone with an exact public object URL can read it. Random names prevent practical guessing; they do not provide authentication. R2's public endpoint does not provide root bucket listing ([Cloudflare documentation](https://developers.cloudflare.com/r2/buckets/public-buckets/)). No full public-route policy audit is claimed. Asset transport still uses authenticated S3 requests.
 
-Earlier uploads under a predictable prefix were stopped. The owner authorized removal of only those old migration copies after their random-folder replacements pass complete size/SHA-256 verification. GitHub assets, independent recovery copies and existing bucket media remain preserved. Full historical readback, clean builds, publishing and recovery remain required before handoff.
+All 12,098 retained objects (21,519,155,652 bytes) completed upload and full GET/SHA-256 verification on 2026-10-24. The owner-authorized cleanup then removed exactly 4,893 earlier predictable-prefix copies (8,491,152,876 bytes); the old origin listing is empty and the previously public sample returns HTTP 404. GitHub assets, independent recovery copies and existing bucket media remain preserved. Publishing and final recovery acceptance remain required before handoff.
 
 ## Verified recovery baseline
 
@@ -83,7 +83,7 @@ Restore refuses later configuration or hook edits. Reconcile those edits manuall
 
 `asset-integrity.yml` runs checker code from the trusted base revision. It fetches PR Git objects without checking out or executing PR files, and fully downloads/hashes newly introduced historical pointer blobs, including intermediate assets removed before the PR tip. Secrets are available only to that verification step. No writer credential is sent to GitHub Actions.
 
-Same-repository PRs run automatically. For forks, a maintainer runs **Asset integrity** from **main** with the PR number. The workflow reports the `R2 asset integrity` status directly on the PR head. Authenticated asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
+Same-repository PRs run automatically when their trusted base contains the workflow. For forks, older stacked branches without the workflow, or a missing status after workflow registration, a maintainer runs **Asset integrity** from **main** with the PR number. The workflow reports the `R2 asset integrity` status directly on the PR head. Authenticated asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
 
 The CI reader is scoped to the configured random project prefix and expires after 30 days. A maintainer must renew it before expiry (or after parent-token rotation):
 
@@ -103,4 +103,6 @@ Keep GitHub assets and the recovery copy for at least 30 days **and** two succes
 
 ## Acceptance status
 
-Migration is still in progress. Full historical upload/readback, clean revision builds, production provider cutover, actual workflow acceptance and final recovery evidence remain gates. The passing small pilot is not the migration completion report.
+Full historical upload/readback passed for 12,098 objects. Fresh R2-only active-profile checkouts at main, the local demo and an older revision passed strict hashes and existing provenance checks. Main/demo forced cold imports and the offline desktop demo prepare/check/launch passed with network access denied. Six linked Blender loads, the older revision cold import and its active-to-all R2 profile check also passed.
+
+The original demo Android export exposed a missing staged acceptance script. The publisher fix passed its regression and all 31 publisher tests; offline Android export and exact finalized payload checks passed for the resulting 86,957,124-byte diagnostic APK, including 177 bound file imports. Its replacement normal-route inventory contains 167 meshes and 178 texture resources. This is an export/payload check, not target-phone certification. Production provider cutover, actual workflow acceptance, final source publication/recovery and the final independent review remain gates. The ignored `build/r2-migration/` directory preserves the original reports and failures; final acceptance must use the replacement nonempty texture inventory and successful APK payload report, not the earlier empty inventory.
