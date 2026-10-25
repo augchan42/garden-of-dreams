@@ -2,6 +2,8 @@
 
 Blender scene assets for Godot. First modelled art pass, built from `docs/garden-scene-spec.md`.
 
+Private asset storage is migrating to R2. Before opening Blender/Godot or running builds, follow [asset setup](docs/asset-storage.md) and run `python3 scripts/check_asset_checkout.py --profile active`. Fresh clones can contain LFS pointer files until the adapter is configured and assets are downloaded.
+
 Open `blender/master.blend` for the linked garden assembly. Edit individual files in `blender/sites/`, then reload libraries in the master. `blender/authoring.blend` is the consolidated editable source used by the generation scripts; edits to site files do not automatically propagate back to this snapshot.
 
 Open `godot/project.godot`. The default scene is the full command-driven exploration at `runtime/entry_route.tscn`. The focused first-reading demo remains at `runtime/first_reading_demo.tscn`: cell → rockery gate → Qinfang Pavilion → local reading → replay. See `docs/demo-run-guide.md` for its build and controls. In the full garden, click actions or type `look`, `terminal`, `exit`, `enter`, `west`, `island`, `board`, `hill`, `overlook`, `study`, `read`, `rocks`, `north`, `doors`, `topics`, and `back`. It traverses all 14 site approaches using collision physics and fixed cameras. `garden_preview.tscn` remains the static establishing view. Outside demo mode, Qinfang’s Current topics panel reads live public topics from 8-Bit Oracle; the hilltop’s Current Events panel filters that feed to temporal topics, and Hengwu’s Ongoing Topics panel shows timeless topics. Private history, AI interpretation and live reading creation are not connected yet.

@@ -1,5 +1,7 @@
 # Godot import
 
+First follow [private asset setup](asset-storage.md). Run `python3 scripts/check_asset_checkout.py --profile active` before import; use `--strict` for an unchanged source checkout. This check is offline and never overwrites edited assets.
+
 Target selected by the user: Godot. Recommended editor: Godot 4.7.2 Standard on macOS; use the .NET edition only when choosing C# for game code. Both editions can import the same GLB assets.
 
 1. Copy `export/garden-of-dreams.glb` into the Godot project. Alternatively copy selected `export/sites/SITE_*.glb` files; all retain master coordinates, so instantiate them at the origin. Include `SITE_stage.glb` once.
