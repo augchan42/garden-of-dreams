@@ -9,6 +9,7 @@ import tempfile
 import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from pointer_format_fixtures import pointer_cases
 from test_lfs_storage_audit import GitFixture
 from lfs_r2_transfer import Store
 try:
@@ -32,6 +33,17 @@ class HistoryTests(GitFixture):
   report=checker.verify(self.repo,self.base,self.git('rev-parse','HEAD'),self.store)
   self.assertEqual(report['status'],'passed')
   self.assertEqual([x['oid'] for x in report['objects']],[oid])
+
+ def test_all_valid_pointer_formats_in_removed_history_are_checked(self):
+  for index,(label,_) in enumerate(pointer_cases('0'*64,1)):
+   with self.subTest(format=label):
+    body=('history '+label).encode();oid=hashlib.sha256(body).hexdigest()
+    pointer=dict(pointer_cases(oid,len(body)))[label]
+    self.assertEqual(__import__('subprocess').run(['git','lfs','pointer','--check','--stdin'],input=pointer,capture_output=True).returncode,0)
+    name=f'format-{index}.bin';(self.repo/name).write_bytes(pointer)
+    self.git('add',name);self.git('commit','-m',label);self.git('rm',name);self.git('commit','-m','remove '+label)
+    report=checker.verify(self.repo,self.base,'HEAD',self.store)
+    self.assertIn(oid,{x['oid'] for x in report['objects'] if x['status']=='error'})
 
  def test_missing_crlf_intermediate_pointer_is_checked(self):
   oid=hashlib.sha256(b'crlf asset').hexdigest()
