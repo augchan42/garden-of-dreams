@@ -14,3 +14,4 @@ docs/reference/ouxiang-export-camera/native-export/scripts/ouxiang_tile_lightmap
 docs/reference/ouxiang-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py -whitespace
 # Preserve the exact allocator snapshot used by the completed neutral-source bake.
 docs/reference/neutral-path-full-lighting/executed-source/ouxiang_tile_lightmap_uv.py -whitespace
+export/r2-provider-acceptance.bin filter=lfs diff=lfs merge=lfs -text
