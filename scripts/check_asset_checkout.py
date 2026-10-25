@@ -27,7 +27,7 @@ def check(repo,profile='active',strict=False):
         if not path.is_file():errors.append({'path':name,'reason':'missing'});continue
         try:
             with path.open('rb') as stream:prefix=stream.read(1024)
-            if prefix.startswith(POINTER):errors.append({'path':name,'reason':'pointer'});continue
+            if prefix.replace(b'\r\n',b'\n').startswith(POINTER):errors.append({'path':name,'reason':'pointer'});continue
             if strict:
                 with path.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
                 if path.stat().st_size!=item['size'] or digest!=item['oid']:

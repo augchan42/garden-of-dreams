@@ -33,6 +33,17 @@ class HistoryTests(GitFixture):
   self.assertEqual(report['status'],'passed')
   self.assertEqual([x['oid'] for x in report['objects']],[oid])
 
+ def test_missing_crlf_intermediate_pointer_is_checked(self):
+  oid=hashlib.sha256(b'crlf asset').hexdigest()
+  pointer=f'version https://git-lfs.github.com/spec/v1\r\noid sha256:{oid}\r\nsize 10\r\n'.encode()
+  (self.repo/'crlf.bin').write_bytes(pointer)
+  self.git('add','crlf.bin');self.git('commit','-m','CRLF intermediate')
+  self.git('rm','crlf.bin');self.git('commit','-m','remove CRLF pointer')
+  result=checker.verify(self.repo,self.base,'HEAD',self.store)
+  self.assertEqual(result['status'],'failed')
+  self.assertEqual(result['counts'],{'ok':0,'error':1})
+  self.assertEqual(result['objects'][0]['oid'],oid)
+
  def test_missing_intermediate_object_fails(self):
   self.pointer('removed.bin');self.git('rm','removed.bin');self.git('commit','-m','remove')
   report=checker.verify(self.repo,self.base,self.git('rev-parse','HEAD'),self.store)

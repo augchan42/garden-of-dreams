@@ -35,6 +35,15 @@ class CheckoutTests(unittest.TestCase):
         self.assertEqual(report['status'],'failed');self.assertEqual(report['errors'][0]['path'],'blender/source.bin')
         self.assertEqual(report['errors'][0]['reason'],'missing')
 
+    def test_crlf_pointer_stub_is_rejected_before_asset_processing(self):
+        body=self.pointer.replace('\n','\r\n').encode()
+        self.assertEqual(subprocess.run(['git','lfs','pointer','--check','--stdin'],input=body,capture_output=True).returncode,0)
+        self.asset.write_bytes(body)
+        report=checkout.check(self.repo)
+        self.assertEqual(report['status'],'failed')
+        self.assertEqual(report['errors'][0]['reason'],'pointer')
+        self.assertEqual(self.asset.read_bytes(),body)
+
     def test_pointer_stub(self):
         self.assertEqual(checkout.check(self.repo)['errors'][0]['reason'],'pointer')
         self.assertEqual(self.asset.read_text(),self.pointer)

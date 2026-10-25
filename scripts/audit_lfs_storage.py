@@ -71,6 +71,7 @@ def pointer_objects(repo, *revisions):
         size = int(header[2]);offset = end+1
         body = content[offset:offset+size];offset += size+1
         if len(body) != size:raise ValueError('Truncated Git pointer')
+        body=body.replace(b'\r\n',b'\n')
         if not body.startswith(HEADER):continue
         match = re.search(rb'^oid sha256:([0-9a-f]{64})$', body, re.M)
         length = re.search(rb'^size ([0-9]+)$', body, re.M)

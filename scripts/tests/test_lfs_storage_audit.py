@@ -42,6 +42,15 @@ class GitFixture(unittest.TestCase):
         return oid, cache
 
 class StorageAuditTests(GitFixture):
+    def test_crlf_pointer_is_retained_in_inventory(self):
+        body=b'crlf asset';oid=hashlib.sha256(body).hexdigest()
+        pointer=f'version https://git-lfs.github.com/spec/v1\r\noid sha256:{oid}\r\nsize {len(body)}\r\n'.encode()
+        accepted=subprocess.run(['git','lfs','pointer','--check','--stdin'],input=pointer,capture_output=True)
+        self.assertEqual(accepted.returncode,0)
+        (self.repo/'crlf.bin').write_bytes(pointer)
+        self.git('add','crlf.bin');self.git('commit','-m','CRLF pointer')
+        self.assertEqual(audit.inventory(self.repo)['objects'],[{'oid':oid,'size':10}])
+
     def test_deduplicates_oids(self):
         oid, _ = self.pointer('one.bin')
         self.pointer('two.bin')

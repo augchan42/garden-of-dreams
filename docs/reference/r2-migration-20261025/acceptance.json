@@ -17,8 +17,8 @@
   "bound_file_imports": 177,
   "normal_inventory_meshes": 167,
   "normal_inventory_texture_resources": 178,
-  "migration_python_tests": 66,
-  "publisher_python_tests": 31,
+  "migration_python_tests": 70,
+  "publisher_python_tests": 39,
   "same_workstation_recovery": true,
   "remaining": [
     "final_ref_reconciliation",
@@ -26,8 +26,8 @@
     "live_ci_negative_positive",
     "new_source_publication",
     "post_switch_recovery",
-    "independent_review",
     "migration_merge"
   ],
-  "private_prefix_included": false
+  "private_prefix_included": false,
+  "independent_review": "Two important findings fixed with observed RED/GREEN regressions; no critical or deferred minor findings"
 }
