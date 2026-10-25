@@ -11,8 +11,9 @@ import shutil
 import subprocess
 import sys
 
+from lfs_pointer_format import normalize_pointer
+
 OID = re.compile(r'[0-9a-f]{64}')
-HEADER = b'version https://git-lfs.github.com/spec/v1\n'
 
 
 def git(repo, *args, input=None):
@@ -71,8 +72,8 @@ def pointer_objects(repo, *revisions):
         size = int(header[2]);offset = end+1
         body = content[offset:offset+size];offset += size+1
         if len(body) != size:raise ValueError('Truncated Git pointer')
-        body=body.replace(b'\r\n',b'\n')
-        if not body.startswith(HEADER):continue
+        body=normalize_pointer(body)
+        if body is None:continue
         match = re.search(rb'^oid sha256:([0-9a-f]{64})$', body, re.M)
         length = re.search(rb'^size ([0-9]+)$', body, re.M)
         if match is None or length is None:raise ValueError('Malformed LFS pointer')
