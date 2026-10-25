@@ -4,7 +4,7 @@ Migration is in progress under the approved 2026-10-24 spec and plan. Git LFS st
 
 ## Public storage and folder configuration
 
-The owner approved public storage, conditional on URLs being difficult to guess. The migration uses a cryptographically random 256-bit folder component, saved only in private `R2_LFS_PREFIX` configuration and the Actions reader secret. The actual prefix and public object URLs must not appear in Git, public reports or workflow output. Collaborators receive the configuration separately. Both the adapter and reader issuer refuse a missing explicit prefix.
+The owner approved public storage and reconfirmed permission for public asset uploads on 2026-10-25, conditional on URLs being difficult to guess. The migration uses a cryptographically random 256-bit folder component, saved only in private `R2_LFS_PREFIX` configuration and the Actions reader secret. The actual prefix and public object URLs must not appear in Git, public reports or workflow output. Collaborators receive the configuration separately. Both the adapter and reader issuer refuse a missing explicit prefix.
 
 Anyone with an exact public object URL can read it. Random names prevent practical guessing; they do not provide authentication. R2's public endpoint does not provide root bucket listing ([Cloudflare documentation](https://developers.cloudflare.com/r2/buckets/public-buckets/)). No full public-route policy audit is claimed. Asset transport still uses authenticated S3 requests.
 
