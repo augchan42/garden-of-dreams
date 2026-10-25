@@ -1,6 +1,8 @@
 import json, struct
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
+from check_asset_checkout import require_assets
+require_assets(R)
 report={}
 for p in sorted((R/'export').rglob('*.glb')):
  b=p.read_bytes();magic,version,size=struct.unpack_from('<4sII',b);assert magic==b'glTF' and version==2 and size==len(b),p

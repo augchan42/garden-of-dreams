@@ -2,7 +2,21 @@
 
 **Audience experience:** A new visitor starts at a green CRT, walks through the lantern-lit rockery, sees the pavilion reveal, and receives a local hexagram at the bronze table in about four minutes. The demo is a focused desktop build. It does not claim live AI interpretation or private account history.
 
-The full garden completion plan remains in `docs/superpowers/plans/2026-09-23-garden-completion.md`. These milestones are a shorter showcase path, not a replacement for that plan.
+The four milestones below record the original demo delivery. Their old build hashes, captures and performance measurements do not establish acceptance of the current sources. On 2026-10-23 the user approved a new bounded goal: deliver an updated four-minute desktop demo and stop at handoff. The full garden plan remains later work in `docs/superpowers/plans/2026-09-23-garden-completion.md`.
+
+## Current-source handoff
+
+- [x] Inspect the current desktop route and fix visible defects that affect this demo.
+- [x] Package a standalone universal macOS app with the demo as its startup scene, preserving the repository's normal garden startup.
+- [x] Pass packaged startup, local cast, reading, complete route/replay, desktop/portrait pointer and keyboard, and resize checks.
+- [x] Review the native capture, assemble the original audio, and verify the movie.
+- [x] Verify archive checksums and a normal app launch from a clean extraction; supply the build, video and current run guide.
+- [x] Review the final implementation; no material findings.
+- [ ] Merge release changes once required checks pass. GitGuardian on dependency PRs 22 and 35 remains user-owned; PR14 retains its independent hold.
+
+Run `scripts/build_demo_handoff.py` in its separate `prepare`, `check`, `capture`, `launch` and `archive` phases. The archive phase requires a visual-review note. Actual status and hashes belong in `build/demo-handoff-final/handoff.json`; each item is checked only after its corresponding verification completes.
+
+## Original demo milestones (historical)
 
 ## Milestone 1 — the reading works
 
@@ -20,7 +34,7 @@ The full garden completion plan remains in `docs/superpowers/plans/2026-09-23-ga
 - [x] Add a deliberate final beat and replay path after the reading.
 - [x] Test a novice path through the route without typed-command knowledge.
 
-**Exit verified:** `first_reading_demo.tscn` is the default scene. `test_first_reading_demo.gd` drives every step through buttons, including the finale and replay. `entry_route.tscn` retains full exploration. Desktop and portrait captures are in `docs/reference/demo-*`.
+**Exit verified at the original milestone:** `first_reading_demo.tscn` was the demo default scene. The repository now starts `entry_route.tscn`; current demo packaging changes startup only in its separate staging copy. `test_first_reading_demo.gd` drives every step through buttons, including the finale and replay. `entry_route.tscn` retains full exploration. Desktop and portrait captures are in `docs/reference/demo-*`.
 
 ## Milestone 3 — one finished visual and sound pass
 
@@ -37,4 +51,4 @@ The full garden completion plan remains in `docs/superpowers/plans/2026-09-23-ga
 - [x] Check target hardware, frame pacing, and memory; record any platform limitation explicitly.
 - [x] Package a build and short capture with a one-page run guide and exact asset provenance.
 
-**Exit verified:** `test_demo_input_acceptance.gd` sends mouse and Enter-key events through the entire route, both from the project and from the exported pack. The demo runs without the reading service; a fresh `.godot` cache import and a cold desktop launch of `GardenOfDreamsDemo.pck` passed. The local `build/GardenOfDreamsDemo-macOS.zip` contains the pack, launcher, checksums, run guide, and 43-second capture. `docs/demo-run-guide.md` records the Apple M2 Max profile and the untested phone/other-desktop limitation. Archive integrity and checksums passed.
+**Exit verified:** `test_demo_input_acceptance.gd` sends mouse and Enter-key events through the entire route, both from the project and from the exported pack. The demo runs without the reading service; a fresh `.godot` cache import and a cold desktop launch of `GardenOfDreamsDemo.pck` passed. The local `build/GardenOfDreamsDemo-macOS.zip` contains the pack, launcher, checksums, run guide, and 43-second capture. The historical guide recorded the Apple M2 Max profile and the untested phone/other-desktop limitation; the current guide describes the new handoff. Archive integrity and checksums passed.

@@ -18,11 +18,18 @@ func run():
    return
   var texture=mesh.get_active_material(0).get_shader_parameter("lightmap") as Texture2D
   var roof_exception=reviewed_roofs.has(name)
-  var cap=512 if name in facade_maps or roof_exception else 256
+  var bank_exception=name=="SITE_qinfang-ting_MAT_pavilion_atlas" and records[name].uv_sha256=="e1952d9274d5e60ba949b334873e59b93ab621ed62f19f0f64733b4ac169562b"
+  var cap=1024 if bank_exception else 512 if name in facade_maps or roof_exception else 256
   if texture==null or texture.get_width()>cap or texture.get_height()>cap:
    push_error("Full bake texture missing or runtime size exceeds the configured budget: "+name)
    quit(1)
    return
+  if bank_exception:
+   var settings=ConfigFile.new()
+   assert(settings.load(texture.resource_path+".import")==OK)
+   assert(settings.get_value("params","compress/mode")==0,"Bank charts require lossless import")
+   assert(settings.get_value("params","process/size_limit")==1024)
+   assert(texture.get_width()==1024 and texture.get_height()==1024)
   if name in facade_maps:
    var settings=ConfigFile.new()
    assert(settings.load(texture.resource_path+".import")==OK)
