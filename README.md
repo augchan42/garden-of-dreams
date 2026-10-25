@@ -2,7 +2,9 @@
 
 Blender scene assets for Godot. First modelled art pass, built from `docs/garden-scene-spec.md`.
 
-Private asset storage is migrating to R2. Before opening Blender/Godot or running builds, follow [asset setup](docs/asset-storage.md) and run `python3 scripts/check_asset_checkout.py --profile active`. Fresh clones can contain LFS pointer files until the adapter is configured and assets are downloaded.
+Asset storage uses the owner-approved public R2 bucket with a privately configured random folder. Before opening Blender/Godot or running builds, follow [asset setup](docs/asset-storage.md) and run `python3 scripts/check_asset_checkout.py --profile active`. Fresh clones can contain LFS pointer files until the adapter is configured and assets are downloaded.
+
+The verified offline four-minute demo source is published in [PR #39](https://github.com/augchan42/garden-of-dreams/pull/39), on `codex/demo-handoff-r2`. See the [storage acceptance and recovery guide](docs/asset-storage.md) for the migration results and setup.
 
 Open `blender/master.blend` for the linked garden assembly. Edit individual files in `blender/sites/`, then reload libraries in the master. `blender/authoring.blend` is the consolidated editable source used by the generation scripts; edits to site files do not automatically propagate back to this snapshot.
 

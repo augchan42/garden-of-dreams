@@ -10,9 +10,10 @@
 
 **Spec:** `docs/superpowers/specs/2026-10-24-lfs-r2-migration.md` is authoritative. The 2026-10-23 proposal is historical context. This plan supersedes its unproven pilot status, boto3 implementation choice and requirement to demonstrate rollback through the currently quota-blocked GitHub backend.
 
-## Current destination gate
+## Approved destination
 
-The owner approved public storage conditional on difficult-to-guess URLs. Generate a cryptographically random 256-bit subfolder in the existing migration folder, keep it only in private configuration and the reader secret, and require explicit prefix configuration. Resume copy and complete all verification gates. Earlier predictable-prefix migration copies may be removed only after their replacements pass full hash verification; this specific cleanup is authorized. Preserve existing media and all GitHub/recovery bytes.
+The owner approved public storage conditional on URLs being difficult to guess. The cryptographically random 256-bit subfolder is configured privately in the existing migration folder; explicit prefix configuration is required. Copy, hash verification, clean builds, publishing, CI and offline recovery passed. Exactly the owner-authorized earlier predictable-prefix copies were removed after full replacement verification. No additional asset deletion is part of this goal. Existing media and all GitHub/recovery bytes remain preserved.
+
 ## Global constraints
 
 - Preserve Git history, pointers, working paths, asset bytes and frozen reference evidence.
@@ -73,7 +74,7 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 - [x] Implement the spec's protocol/integrity contract using Python/rclone. Configure existing-bucket access with `no_check_bucket=true`; map missing keys explicitly and stream hashes. Pin actual supported versions and transfer settings.
 - [x] Implement `bootstrap_lfs_r2.py --profile active|all` with versioned installation outside checkout, private credential loading, clone-local settings and preserved hooks/core.hooksPath. Existing hooks must be chained or left intact with an actionable setup error.
 - [x] Use existing R2_MEDIA object credentials for the privately configured random prefix. Account admin permission/bucket creation is unnecessary. Record public access and random-folder configuration without publishing its value.
-- [ ] Test the final owned HTTPS provider identifier and installation with a new R2-only object, normal GitHub push and fresh empty-cache clone. Exercise a file above 64 MiB and interrupted upload. Reuse the passing synthetic pilot for unchanged basic cases.
+- [x] Test the final owned HTTPS provider identifier and installation with a new R2-only object, normal GitHub push and fresh empty-cache clone. Exercise a file above 64 MiB and interrupted upload. Reuse the passing synthetic pilot for unchanged basic cases.
 - [x] Run tests to green and commit adapter/bootstrap/setup changes.
 
 **Acceptance:** final configuration, large-object integrity, failed-upload blocking and old-revision executable availability all pass; no production default switched yet.
@@ -86,8 +87,8 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 - [x] Implement `copy --report REPORT`, `verify-remote --report REPORT` and delta processing in `audit_lfs_storage.py`, using the same validated transfer functions as the adapter.
 - [x] Run tests to green. Copy all retained OIDs into the approved existing bucket/random folder without changing production settings; bound object concurrency to four.
 - [x] GET every migrated object, hash all bytes and compare size/OID. Retain explicit failures; no HEAD-only success counts.
-- [ ] Capture refs again, copy/readback-verify every delta and update recovery copies. Record uploaded/read-back byte totals and zero unexplained gaps.
-- [ ] Commit the tooling and a concise nonsecret evidence summary, preserving original reports.
+- [x] Capture refs again, copy/readback-verify every delta and update recovery copies. Record uploaded/read-back byte totals and zero unexplained gaps.
+- [x] Commit the tooling and a concise nonsecret evidence summary, preserving original reports.
 
 **Acceptance:** complete retained history is verified in R2 and recovery storage.
 
@@ -98,8 +99,8 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 - [x] Write failing `test_missing_asset`, `test_pointer_stub`, `test_dirty_asset_allowed`, `test_strict_hash_mismatch` and `test_selective_checkout`; run `python3 -m unittest discover -s scripts/tests -p 'test_asset_checkout.py'`.
 - [x] Implement `check_asset_checkout.py --profile active|all [--strict]` as a read-only offline check; integrate with `verify_assets.py`, `verify_godot_reimport.py`, `build_android_profile.py` and `build_demo_handoff.py` without removing existing provenance checks.
 - [x] Run tests to green. Restore main, the local demo commit and an older source/bake revision into disposable checkouts with empty caches and R2-only asset downloads. Verify strict hashes; test dirty branch switching, selective/full profiles and missing credentials.
-- [ ] Run existing asset/provenance checks, linked Blender loading, cold Godot imports, offline desktop demo build/launch and existing Android export/payload checks where supported. Record unrelated portability failures separately; do not expand into full-garden certification.
-- [ ] Commit preflight integration and accurate setup/build limitations.
+- [x] Run existing asset/provenance checks, linked Blender loading, cold Godot imports, offline desktop demo build/launch and existing Android export/payload checks where supported. Record unrelated portability failures separately; do not expand into full-garden certification.
+- [x] Commit preflight integration and accurate setup/build limitations.
 
 **Acceptance:** correct revision bytes, protected local edits and a working offline demo from R2-only hydration.
 
@@ -109,10 +110,10 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 
 - [x] Add a test where an asset exists in an intermediate new commit but is removed at the tip, plus missing/corrupt OID failures. Observe failures, then implement full newly introduced history enumeration and readback checks.
 - [x] Add `.github/workflows/asset-integrity.yml` with trusted checker code and reader credentials. Untrusted PR code must not execute with secrets; provide a maintainer-run path for forks.
-- [ ] Verify valid and deliberately missing objects against the actual workflow. Configure the required check where permissions permit; document any unavailable repository setting.
-- [ ] Coordinate the final asset-write pause, capture and verify deltas, then apply the final `.lfsconfig` and clone-local setup. Update actively publishing branches/clones without overwriting dirty assets.
-- [ ] Publish the currently local demo handoff source through R2. Keep dependency GitGuardian findings user-owned and PR14 independent; create/attach the appropriate PR without bypassing checks.
-- [ ] Commit/push the migration PR with concrete acceptance evidence and merge when its own checks pass. Use merge commits as previously requested.
+- [x] Verify valid and deliberately missing objects against the actual workflow. Configure the required check where permissions permit; document any unavailable repository setting.
+- [x] Coordinate the final asset-write pause, capture and verify deltas, then apply the final `.lfsconfig` and clone-local setup. Update actively publishing branches/clones without overwriting dirty assets.
+- [x] Publish the currently local demo handoff source through R2. Keep dependency GitGuardian findings user-owned and PR14 independent; create/attach the appropriate PR without bypassing checks.
+- [x] Commit/push the migration PR with concrete acceptance evidence and merge when its own checks pass. Use merge commits as previously requested.
 
 **Acceptance:** ordinary new upload/push, empty-cache clone and trusted CI work with the production provider.
 
@@ -120,10 +121,10 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 
 **Consumes:** a new post-switch object/ref and independent recovery bytes. **Produces:** verified recovery and final handoff.
 
-- [ ] Make production R2 unavailable only to a disposable recovery clone, restore the new object and refs from recovery storage into a separate test backend, and verify exact bytes. Restore settings snapshots in that clone and demonstrate its Git workflow.
-- [ ] Document GitHub restoration as conditional on available LFS capacity. Do not require increasing quota to pass recovery acceptance.
-- [ ] Perform one independent final code/evidence review, fix material issues and run affected checks. Confirm all spec acceptance conditions against actual reports.
-- [ ] Deliver setup, bootstrap, profile selection, evidence and recovery instructions. Record the 30-day/two-cycle retention rule and backup responsibility; GitHub purge/retirement remains a later user decision.
+- [x] Make production R2 unavailable only to a disposable recovery clone, restore the new object and refs from recovery storage into a separate test backend, and verify exact bytes. Restore settings snapshots in that clone and demonstrate its Git workflow.
+- [x] Document GitHub restoration as conditional on available LFS capacity. Do not require increasing quota to pass recovery acceptance.
+- [x] Perform one independent final code/evidence review, fix material issues and run affected checks. Confirm all spec acceptance conditions against actual reports.
+- [x] Deliver setup, bootstrap, profile selection, evidence and recovery instructions. Record the 30-day/two-cycle retention rule and backup responsibility; GitHub purge/retirement remains a later user decision.
 
 **Acceptance:** storage migration is complete, the demo source is publishable, recovery is demonstrated, and remaining retirement/access limitations are explicit.
 

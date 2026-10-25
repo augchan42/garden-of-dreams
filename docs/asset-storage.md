@@ -1,6 +1,6 @@
 # Garden of Dreams asset storage
 
-Migration is in progress under the approved 2026-10-24 spec and plan. Git LFS still manages asset pointers and revisions. Storage uses the existing R2 bucket and a random subfolder inside the migration folder. Existing media objects and configuration are outside this migration's writes.
+R2 asset storage is active and verified under the approved migration spec and plan. Git LFS still manages asset pointers and revisions. Storage uses the existing R2 bucket and a random subfolder inside the migration folder. Existing media objects and configuration are outside this migration's writes.
 
 ## Public storage and folder configuration
 
@@ -8,7 +8,7 @@ The owner approved public storage and reconfirmed permission for public asset up
 
 Anyone with an exact public object URL can read it. Random names prevent practical guessing; they do not provide authentication. R2's public endpoint does not provide root bucket listing ([Cloudflare documentation](https://developers.cloudflare.com/r2/buckets/public-buckets/)). No full public-route policy audit is claimed. Asset transport still uses authenticated S3 requests.
 
-All 12,098 retained objects (21,519,155,652 bytes) completed upload and full GET/SHA-256 verification on 2026-10-24. The owner-authorized cleanup then removed exactly 4,893 earlier predictable-prefix copies (8,491,152,876 bytes); the old origin listing is empty and the previously public sample returns HTTP 404. GitHub assets, independent recovery copies and existing bucket media remain preserved. Publishing and final recovery acceptance remain required before handoff.
+All 12,098 retained objects (21,519,155,652 bytes) completed upload and full GET/SHA-256 verification on 2026-10-24. The owner-authorized cleanup then removed exactly 4,893 earlier predictable-prefix copies (8,491,152,876 bytes); the old origin listing is empty and the previously public sample returns HTTP 404. GitHub assets, independent recovery copies and existing bucket media remain preserved. Publishing and final recovery acceptance subsequently passed, as recorded below.
 
 ## Verified recovery baseline
 
@@ -27,7 +27,7 @@ python3 scripts/audit_lfs_storage.py inventory --refs all --output build/r2-migr
 python3 scripts/audit_lfs_storage.py verify-local --report build/r2-migration/inventory.json --output build/r2-migration/local-verification.json
 ```
 
-Every command writes an explicit report; verification never replaces the inventory. Incomplete inventories, changed refs and missing/corrupt objects prevent acceptance. Build/profile/bootstrap and final provider instructions will be added with their implementation and actual verification.
+Every command writes an explicit report; verification never replaces the inventory. Incomplete inventories, changed refs and missing/corrupt objects prevent acceptance. The setup, profiles, publishing, CI and recovery instructions below describe the verified provider.
 
 ## Final ref and asset deltas
 
@@ -54,7 +54,6 @@ Before downloading assets:
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/augchan42/garden-of-dreams.git
 cd garden-of-dreams
 python3 scripts/bootstrap_lfs_r2.py --env-file /absolute/private/r2.env --profile active
-# Run after the migration cutover is recorded below:
 git lfs pull
 python3 scripts/check_asset_checkout.py --profile active --strict
 ```
@@ -83,9 +82,11 @@ Restore refuses later configuration or hook edits. Reconcile those edits manuall
 
 `asset-integrity.yml` runs checker code from the trusted base revision. It fetches PR Git objects without checking out or executing PR files, and fully downloads/hashes newly introduced historical pointer blobs, including intermediate assets removed before the PR tip. Secrets are available only to that verification step. No writer credential is sent to GitHub Actions.
 
-Same-repository PRs run automatically when their trusted base contains the workflow. For forks, older stacked branches without the workflow, or a missing status after workflow registration, a maintainer runs **Asset integrity** from **main** with the PR number. The workflow reports the `R2 asset integrity` status directly on the PR head. Authenticated asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
+Same-repository PRs run automatically through the registered workflow. A maintainer can also run **Asset integrity** from **main** with the PR number for forks, older stacked branches, or a missing status. Both automatic and manual runs for the demo source were verified to check out trusted main code. The workflow reports the `R2 asset integrity` status directly on the PR head. Authenticated asset verification is not provided to arbitrary fork code, GitHub archive downloads, or GitHub's asset previews; collaborators need reader access and the adapter.
 
-The CI reader is scoped to the configured random project prefix and expires after 30 days. A maintainer must renew it before expiry (or after parent-token rotation):
+Main requires `R2 asset integrity` from the GitHub Actions app, including for administrators. No human-review requirement was added.
+
+The CI reader is scoped to the configured random project prefix and expires after 30 days. Renew the current reader before **23 November 2026, 10:11 Hong Kong time (02:11 UTC)**. A maintainer must renew it before expiry (or after parent-token rotation):
 
 ```sh
 python3 scripts/mint_r2_reader.py --env-file /absolute/private/r2.env --ttl-seconds 2592000 --github-repository augchan42/garden-of-dreams
@@ -101,8 +102,34 @@ Preserve the independent recovery copy, its inventory and Git bundle. A recovery
 
 Keep GitHub assets and the recovery copy for at least 30 days **and** two successful authoring/build/publishing cycles after cutover. Retirement is a later decision; this migration does not delete them or rewrite history. The project owner is responsible for keeping the recovery snapshot and should place another copy on independent storage to cover workstation disk loss. Restoring GitHub as the asset backend is conditional on sufficient LFS capacity.
 
+## Published demo source
+
+The four-minute demo source is published in [PR #39](https://github.com/augchan42/garden-of-dreams/pull/39), on `codex/demo-handoff-r2`. Its original local commit remains in history. The source PR stays stacked on the existing scene branch; earlier owner-managed security holds and PR #14 remain separate. The storage migration merged in [PR #37](https://github.com/augchan42/garden-of-dreams/pull/37).
+
+For a fresh demo source checkout, clone that branch with smudging skipped, then use the setup steps above:
+
+```sh
+GIT_LFS_SKIP_SMUDGE=1 git clone --branch codex/demo-handoff-r2 https://github.com/augchan42/garden-of-dreams.git
+```
+
+Before each publishing session, commit the intended source, capture its full inventory and create a new verified recovery snapshot with `audit_lfs_storage.py backup`. Then use ordinary `git push`; the installed LFS pre-push hook uploads through R2 and blocks the push on failure. Keep new refs and asset bytes backed up during the recovery period.
+
+## Recovery and retention
+
+The latest full asset snapshot is `build/asset-storage-recovery/2026-10-26-pre-source-publication` in the primary checkout: **12,884 objects / 23,755,850,913 verified bytes**, including 784 cache-only objects. Its `verification.json`, `inventory.json`, `refs.bundle` and `objects/` form the recovery package. Later code-only publishing refs are preserved in additional verified bundles; the final local handoff identifies the latest one.
+
+[Recovery instructions](asset-storage-recovery.md) cover full hash verification, restoring Git refs and materializing assets without R2 or GitHub LFS capacity. The actual disaster test denied all network access, removed production credentials, restored both post-switch objects and the demo source ref, exercised normal Git LFS fetch/checkout and a local push, and restored the temporary settings snapshot.
+
+Keep GitHub assets and every recovery snapshot for at least 30 days **and** two successful authoring/build/publishing cycles after cutover. Keep them through at least **25 November 2026**, and longer until the cycle condition is met. Retirement needs a later owner decision. Recovery copies share the workstation disk; copy the recovery package to independent storage for disk-loss protection. Keep private provider configuration separately in secure storage.
+
 ## Acceptance status
 
-Full historical upload/readback passed for 12,098 objects. Fresh R2-only active-profile checkouts at main, the local demo and an older revision passed strict hashes and existing provenance checks. Main/demo forced cold imports and the offline desktop demo prepare/check/launch passed with network access denied. Six linked Blender loads, the older revision cold import and its active-to-all R2 profile check also passed.
+All **12,100 retained objects / 21,519,159,383 bytes** have full GET/SHA-256 evidence: the initial 12,098-object readback plus the two verified publishing-test objects. Fresh R2-only main/demo/older checkouts, strict hashes, provenance checks, six linked Blender loads, cold Godot imports, older all-profile hydration and the offline desktop demo passed. The final main preflight also passed offline.
 
-The original demo Android export exposed a missing staged acceptance script. The publisher fix passed its regression and all 39 publisher tests; offline Android export and exact finalized payload checks passed for the resulting 86,957,124-byte diagnostic APK, including 177 bound file imports. Its replacement normal-route inventory contains 167 meshes and 178 texture resources. This is an export/payload check, not target-phone certification. Production provider cutover, actual workflow acceptance, final source publication/recovery remain gates. The independent review found two important issues (CRLF pointer detection and missing publisher preflight calls); both were fixed with observed failing regressions, followed by 70 migration and 39 publisher tests passing. No critical or deferred minor findings remain. The ignored `build/r2-migration/` directory preserves the original reports and failures; final acceptance must use the replacement nonempty texture inventory and successful APK payload report, not the earlier empty inventory.
+The demo Android staging fix passed native export and exact finalized payload verification: an 86,957,124-byte diagnostic APK and 177 bound texture imports. The accepted graphical inventory contains 167 meshes and 178 textures. The earlier empty inventory is rejected evidence. Subsequent changes added preflight guards and storage integration while preserving runtime and asset bytes; no target-phone certification is claimed.
+
+One independent review found two important issues, both fixed with failing regressions followed by passing suites. The migration suite passed 70 tests; the combined published source suite passed 94. No critical or deferred minor findings remain.
+
+Live CI rejected the intentionally missing object, then passed both historical objects after normal publishing. A read-only normal push failed without changing the GitHub ref or creating the object. A fresh GitHub clone failed closed before setup, then retrieved both revisions using only the scoped reader. The source PR's trusted CI verified all ten introduced asset objects. Workflow logs were checked for private prefix/credential disclosure.
+
+The [public acceptance summary](reference/r2-migration-20261025/acceptance.json) records these results and workflow links. Detailed reports and original failures remain in the tooling checkout's ignored `build/r2-migration/`; the local handoff contains the selected nonsecret evidence and final ref receipt. Existing media settings, GitHub asset bytes, user edits and security holds remain preserved. No further asset deletion or history rewrite was performed.
