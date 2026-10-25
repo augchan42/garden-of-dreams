@@ -128,7 +128,7 @@ All **12,100 retained objects / 21,519,159,383 bytes** have full GET/SHA-256 evi
 
 The demo Android staging fix passed native export and exact finalized payload verification: an 86,957,124-byte diagnostic APK and 177 bound texture imports. The accepted graphical inventory contains 167 meshes and 178 textures. The earlier empty inventory is rejected evidence. Subsequent changes added preflight guards and storage integration while preserving runtime and asset bytes; no target-phone certification is claimed.
 
-One independent review found two important issues, both fixed with failing regressions followed by passing suites. The migration suite passed 70 tests; the combined published source suite passed 94. No critical or deferred minor findings remain.
+One independent review found two important issues, both fixed with failing regressions followed by passing suites. The migration suite passed 73 tests; the combined source suite passed 97. Completion-audit regressions also cover both official legacy headers and accepted ASCII/Unicode outer whitespace, using the installed Git LFS parser to validate every fixture. Inventory, history CI and ordinary preflight share the same read-only framing logic. No critical or deferred minor findings remain.
 
 Live CI rejected the intentionally missing object, then passed both historical objects after normal publishing. A read-only normal push failed without changing the GitHub ref or creating the object. A fresh GitHub clone failed closed before setup, then retrieved both revisions using only the scoped reader. The source PR's trusted CI verified all ten introduced asset objects. Workflow logs were checked for private prefix/credential disclosure.
 

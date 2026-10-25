@@ -6,8 +6,11 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+import sys
+from pointer_format_fixtures import pointer_cases
 
 MODULE = Path(__file__).resolve().parents[1] / 'audit_lfs_storage.py'
+sys.path.insert(0, str(MODULE.parent))
 if MODULE.exists():
     spec = importlib.util.spec_from_file_location('audit', MODULE)
     audit = importlib.util.module_from_spec(spec)
@@ -42,6 +45,19 @@ class GitFixture(unittest.TestCase):
         return oid, cache
 
 class StorageAuditTests(GitFixture):
+    def test_all_git_lfs_pointer_headers_and_outer_whitespace_are_retained(self):
+        for index, (label, _) in enumerate(pointer_cases('0'*64, 1)):
+            with self.subTest(format=label):
+                body=('inventory '+label).encode();oid=hashlib.sha256(body).hexdigest()
+                pointer=dict(pointer_cases(oid,len(body)))[label]
+                accepted=subprocess.run(['git','lfs','pointer','--check','--stdin'],input=pointer,capture_output=True)
+                self.assertEqual(accepted.returncode,0)
+                name=f'format-{index}.bin';(self.repo/name).write_bytes(pointer)
+                self.git('add',name);self.git('commit','-m',label)
+                self.assertEqual(subprocess.check_output(['git','show','HEAD:'+name],cwd=self.repo),pointer)
+                actual={x['oid']:x['size'] for x in audit.inventory(self.repo)['objects']}
+                self.assertEqual(actual.get(oid),len(body))
+
     def test_crlf_pointer_is_retained_in_inventory(self):
         body=b'crlf asset';oid=hashlib.sha256(body).hexdigest()
         pointer=f'version https://git-lfs.github.com/spec/v1\r\noid sha256:{oid}\r\nsize {len(body)}\r\n'.encode()

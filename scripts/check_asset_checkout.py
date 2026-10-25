@@ -7,9 +7,10 @@ from pathlib import Path
 import subprocess
 import sys
 
+from lfs_pointer_format import normalize_pointer
+
 ROOT=Path(__file__).resolve().parents[1]
 ACTIVE=('blender/','export/','godot/','textures/')
-POINTER=b'version https://git-lfs.github.com/spec/v1\n'
 
 
 def check(repo,profile='active',strict=False):
@@ -27,7 +28,7 @@ def check(repo,profile='active',strict=False):
         if not path.is_file():errors.append({'path':name,'reason':'missing'});continue
         try:
             with path.open('rb') as stream:prefix=stream.read(1024)
-            if prefix.replace(b'\r\n',b'\n').startswith(POINTER):errors.append({'path':name,'reason':'pointer'});continue
+            if normalize_pointer(prefix) is not None:errors.append({'path':name,'reason':'pointer'});continue
             if strict:
                 with path.open('rb') as stream:digest=hashlib.file_digest(stream,'sha256').hexdigest()
                 if path.stat().st_size!=item['size'] or digest!=item['oid']:

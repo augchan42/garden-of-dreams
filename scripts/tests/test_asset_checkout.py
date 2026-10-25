@@ -5,8 +5,11 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+import sys
+from pointer_format_fixtures import pointer_cases
 
 MODULE=Path(__file__).resolve().parents[1]/'check_asset_checkout.py'
+sys.path.insert(0, str(MODULE.parent))
 if MODULE.exists():
     spec=importlib.util.spec_from_file_location('checkout',MODULE)
     checkout=importlib.util.module_from_spec(spec);spec.loader.exec_module(checkout)
@@ -34,6 +37,16 @@ class CheckoutTests(unittest.TestCase):
         self.asset.unlink();report=checkout.check(self.repo)
         self.assertEqual(report['status'],'failed');self.assertEqual(report['errors'][0]['path'],'blender/source.bin')
         self.assertEqual(report['errors'][0]['reason'],'missing')
+
+    def test_all_git_lfs_pointer_headers_and_outer_whitespace_are_rejected(self):
+        for label,pointer in pointer_cases(self.oid,len(self.body)):
+            with self.subTest(format=label):
+                self.assertEqual(subprocess.run(['git','lfs','pointer','--check','--stdin'],input=pointer,capture_output=True).returncode,0)
+                self.asset.write_bytes(pointer)
+                report=checkout.check(self.repo)
+                self.assertEqual(report['status'],'failed')
+                self.assertEqual(report['errors'][0]['reason'],'pointer')
+                self.assertEqual(self.asset.read_bytes(),pointer)
 
     def test_crlf_pointer_stub_is_rejected_before_asset_processing(self):
         body=self.pointer.replace('\n','\r\n').encode()

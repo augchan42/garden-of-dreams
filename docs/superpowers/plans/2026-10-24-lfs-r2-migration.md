@@ -131,3 +131,10 @@ Evidence reports use schema version 1, captured ref→commit mappings, unique `{
 ## Self-review
 
 Spec coverage: Tasks 1/3 cover inventory and backup; Task 2 covers transfer/bootstrap and final identity; Task 4 covers authoring/builds; Task 5 covers CI/publication; Task 6 covers recovery/retention/handoff. Reports and CLI names are shared consistently. Review-focus cases have explicit tests in their owning task. No production migration task is marked complete from the small pilot alone.
+
+## Completion-audit compatibility follow-up
+
+- [x] Match all three official Git LFS 3.8 version headers and accepted outer whitespace in shared read-only detection.
+- [x] Observe missing inventory/CI objects and accepted pointer stubs fail nine-format compatibility regressions before the fix.
+- [x] Run the full 73-test migration and 97-test source suites; recapture complete history with zero new asset OIDs.
+- [ ] Merge the protected follow-up and update the published source and final refs receipt before closing the goal.
