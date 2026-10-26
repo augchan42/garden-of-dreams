@@ -68,16 +68,20 @@ def build_geometry(variant,index,quality=1):
  random.seed(83+index)
  g=Geometry(quality);collider=None
  if variant.startswith('bamboo'):
-  n,height={'bamboo_small':(3,2.2),'bamboo_medium':(5,3.2),'bamboo_large':(7,4.3)}[variant]
+  n,height={'bamboo_small':(3,2.5),'bamboo_medium':(5,3.2),'bamboo_large':(7,4.3)}[variant]
   for i in range(n):
    a=i*2.399;x=.38*math.cos(a)*math.sqrt((i+1)/n);y=.38*math.sin(a)*math.sqrt((i+1)/n);h=height*(.8+random.random()*.2)
+   # One closed culm keeps every internode connected; collars mark the nodes.
+   base=Vector((x,y,0));tip=base+Vector((.20*math.cos(a+.5),.16*math.sin(a+.5),h));axis=(tip-base).normalized()
+   g.stem(base,tip,.032,'culm',6)
    for j in range(3):
-    z0=h*j/3;z1=h*(j+1)/3;g.stem((x,y,z0),(x+.08*(j+1),y,z1),.032,'culm',6)
-    p=Vector((x+.08*(j+1),y,z1));g.stem(p-Vector((0,0,.015)),p+Vector((0,0,.015)),.043,'culm',6)
+    p=base.lerp(tip,(j+1)/3);g.stem(p-axis*.015,p+axis*.015,.043,'culm',6)
     for k in range(6):
      angle=a+k*.72+j*.9;length=.42+random.random()*.28
      end=p+Vector((math.cos(angle)*length,math.sin(angle)*length,random.uniform(-.16,.24)))
-     g.leaf(p,end,.18,'bamboo',3,angle=k*.3)
+     # Long narrow leaf cards use the existing muted bamboo atlas cell.
+     width=.10+.01*((i+j+k)%3)
+     g.leaf(p,end,width,'bamboo',3,angle=k*.3)
  elif variant in ('plum','willow'):
   willow=variant=='willow';h=2.65 if willow else 2.25
   g.stem((0,0,0),(.12,0,h),.13,'bark',10,.055);collider=(.26,h)

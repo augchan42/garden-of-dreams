@@ -1,0 +1,454 @@
+{
+  "status": "working_bamboo_source_adopted_installed_checks_passed",
+  "checks": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/import.log",
+      "status": "passed",
+      "pid": 88379,
+      "exit_code": 0,
+      "log_sha256": "7d5bf9239bac610feb9478361d235a275cdc0a27cb42e284c775323cf3469236"
+    },
+    {
+      "name": "saved-source",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_saved_bamboo_sources.py",
+        "--",
+        "--root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--output",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/installed-saved-source.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/saved-source.log",
+      "status": "passed",
+      "pid": 88977,
+      "exit_code": 0,
+      "log_sha256": "345d3592a8b4a909dbdfab0c07adb9e351e40f023dcaa599d34ad881c721298c"
+    },
+    {
+      "name": "source-contract",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_import_source_contract.gd",
+        "--",
+        "res://assets/garden-of-dreams.glb",
+        "res://tests/source-contract.json",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/installed-import-contract.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/source-contract.log",
+      "status": "passed",
+      "pid": 89403,
+      "exit_code": 0,
+      "log_sha256": "2c87028caa484cb311a5adf8f303300160e5dd4f6164a78754e8424357ec9719"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/full-lighting.log",
+      "status": "passed",
+      "pid": 89416,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "flora-kit",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_flora_kit.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/flora-kit.log",
+      "status": "passed",
+      "pid": 89516,
+      "exit_code": 0,
+      "log_sha256": "6693bdb5e3fb5f53255adfae2be4757a23ef852e316924b52eac5d4f28ba0161"
+    },
+    {
+      "name": "flora-placement",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_flora_placements.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/flora-placement.log",
+      "status": "passed",
+      "pid": 89538,
+      "exit_code": 0,
+      "log_sha256": "66df6ac39b23a7be9243ad4782b076841a0525682b42b4f6a706e48545096e62"
+    },
+    {
+      "name": "bamboo-route",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_bamboo_route.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/bamboo-route.log",
+      "status": "passed",
+      "pid": 89539,
+      "exit_code": 0,
+      "log_sha256": "50e58f008320b709a066e17a410d6ba25c614b7a0bdb9538471732aa5b24b4b2"
+    },
+    {
+      "name": "entry",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_entry_route.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/entry.log",
+      "status": "passed",
+      "pid": 90617,
+      "exit_code": 0,
+      "log_sha256": "0233d1a8602de2fd15f450d62422effb184a4c3c3571abee902b96a84e0d44d9"
+    },
+    {
+      "name": "first-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_first_reading_demo.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/first-demo.log",
+      "status": "passed",
+      "pid": 95921,
+      "exit_code": 0,
+      "log_sha256": "27c23bb2e64dd3fbfb8a7663b2fe15b71f144896e03e15f64bfc5b07f233f3b6"
+    },
+    {
+      "name": "surface",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_surface_materials.gd"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/surface.log",
+      "status": "passed",
+      "pid": 95990,
+      "exit_code": 0,
+      "log_sha256": "e3540224d9039721e003efee19287d3d304a337f2917986d9ea1ebbdc58df4f2"
+    },
+    {
+      "name": "wash-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/wash-normal.log",
+      "status": "passed",
+      "pid": 96886,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "wash-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_baked_backdrop_wash.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/wash-demo.log",
+      "status": "passed",
+      "pid": 97082,
+      "exit_code": 0,
+      "log_sha256": "6e6e2cfd4b6225ef732b00d0f38dc72ca777bb5962852f576a791cc35cacaa39"
+    },
+    {
+      "name": "spill-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/spill-normal.log",
+      "status": "passed",
+      "pid": 97086,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "spill-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/spill-demo.log",
+      "status": "passed",
+      "pid": 97088,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "palette-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/palette-normal.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/palette-normal.log",
+      "status": "passed",
+      "pid": 97089,
+      "exit_code": 0,
+      "log_sha256": "80335b5b6a6b03a29970ded2b11f3c6c75df39900301c4fceabb0ec56fab5664"
+    },
+    {
+      "name": "palette-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/palette-demo.json",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/palette-demo.log",
+      "status": "passed",
+      "pid": 97096,
+      "exit_code": 0,
+      "log_sha256": "9cf9309644a1b37b3585d036f49d023b9eadc407c6151754437c33266379f497"
+    },
+    {
+      "name": "public-views",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_bamboo_views.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/public-views",
+        "--source=faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/public-views.log",
+      "status": "passed",
+      "pid": 97142,
+      "exit_code": 0,
+      "log_sha256": "20ab742c3a403081ff5b00b719cb22c570ced7f2ae2365ce0a53ee6d66d83043"
+    },
+    {
+      "name": "arrivals-desktop",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/arrivals-desktop"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/arrivals-desktop.log",
+      "status": "passed",
+      "pid": 97257,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals-portrait",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/arrivals-portrait",
+        "--mobile"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/arrivals-portrait.log",
+      "status": "passed",
+      "pid": 99091,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    },
+    {
+      "name": "textures-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/textures-normal.json"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/textures-normal.log",
+      "status": "passed",
+      "pid": 100,
+      "exit_code": 0,
+      "log_sha256": "1cdd30415c284da915664723d5576bb7fbe22ef2e66bb3d63c757c1a1ec80cb4"
+    },
+    {
+      "name": "textures-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/audit_runtime_textures.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/textures-demo.json",
+        "--demo"
+      ],
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/adoption/textures-demo.log",
+      "status": "passed",
+      "pid": 1354,
+      "exit_code": 0,
+      "log_sha256": "682e57b6d47ad550d657823f3b762bfcec0e6aef258cd26f02293ef851083183"
+    }
+  ],
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "authoring_sha256": "0f93c42421a17b85b297fa0ff5447fad95cb7b98afeff183a2282ffe060492a4",
+  "installed_originals_byte_exact": {
+    "public-views/desktop-arrival-lod0-ids.png": "a9c93bad10a3c1c3bb2135870f7a4b0338d6a50b916fb0a20134c15280937c06",
+    "public-views/desktop-arrival-lod0-lit.png": "eefc3b6dd6eec38bd2bccbb8484154c7f38a0bf67c317829198e0260cee526fc",
+    "public-views/desktop-arrival-lod1-ids.png": "8ce808d8430e058257aa0c8f07edb095c701174d908e180ecfe831889b368225",
+    "public-views/desktop-arrival-lod1-lit.png": "20676a23b90f71afc0fa58974838dd035b2876744e3db24dd993f57f981f6db5",
+    "public-views/desktop-doors-lod0-ids.png": "d263689fb0a7cd41d04d814a839daa534d427c30d863e9c64c4ffd470a034516",
+    "public-views/desktop-doors-lod0-lit.png": "d294d9f943e7cb0bea2000651fc383a13c831cde8f3898e28cb5b2cd301b220d",
+    "public-views/desktop-doors-lod1-ids.png": "f232bdcce09137c2b2c4ee1499d6d0ce392ff18a1544da13a2f0684c8824279c",
+    "public-views/desktop-doors-lod1-lit.png": "4dfbacc1e7d36364612c79212127e26a99511787021f2036211b1ebdc6d80a02",
+    "public-views/desktop-stems-lod0-ids.png": "c0c7ca0b50359e4e2d9ce92727e08538b8b08727e80dce327d7b22cc6233efce",
+    "public-views/desktop-stems-lod0-lit.png": "a6a3cd13a516e74b91661b669aec9d9e32cad607550bc779da7218c8e547fd92",
+    "public-views/desktop-stems-lod1-ids.png": "971fbf697a2244a1d8b3b411ace96828a443339cf3eb5eaaeb8e5bceb499935f",
+    "public-views/desktop-stems-lod1-lit.png": "4f25b3d1becf755fb34455087db8cde1edbe385ba00fd0e6d941c3a84695fe19",
+    "public-views/portrait-arrival-lod0-ids.png": "96c15ee25249ab31f6ffdbdf0792405769a9e37e8073da42cc521ee2dcfe5169",
+    "public-views/portrait-arrival-lod0-lit.png": "51b45b1d8db35d4336c69d16cb0cf5d7019afd3050e5072f42477db053572b31",
+    "public-views/portrait-arrival-lod1-ids.png": "8fca36a24dcafebe425ae86dff0a8b560932a85c49b75b49233076f150f00575",
+    "public-views/portrait-arrival-lod1-lit.png": "104a8197082d92c562e19221cd878300c30b5358b6053150e17c0dbb1d9f171d",
+    "public-views/portrait-doors-lod0-ids.png": "89d9bfcb2dfa098eff9e5ac6a8b33bfe595d2a23af12b7f30338bccb606e5a84",
+    "public-views/portrait-doors-lod0-lit.png": "3a0f00648ac9190d8043791ce5d6ba41b61887540d3372b0b900c63bdf895708",
+    "public-views/portrait-doors-lod1-ids.png": "cedf60ee3c344ad32ba59cdad3e151af774fd51e5f266e341d2c9fbbd218fc49",
+    "public-views/portrait-doors-lod1-lit.png": "21ae8afad4673741d4783ecab4f375b0bfc357be8169c2b4b041577a3f9c2b0a",
+    "public-views/portrait-stems-lod0-ids.png": "8f03c33726a2b55dfc0f97ec7810442ac43144de9029fcc38e1ee6c38a643638",
+    "public-views/portrait-stems-lod0-lit.png": "bee33da3b711db02a042eb1ca2cef60535b5a4dc8192ffababe555ca94fafc7e",
+    "public-views/portrait-stems-lod1-ids.png": "052cb97740a3bac02a1490f86646506d71f3832b02543750155eb5f15467bc02",
+    "public-views/portrait-stems-lod1-lit.png": "56df7bfd32d8ec1ef8fb24e5ccdb59bdb226f64991a521e592bfc7ea0745731e",
+    "arrivals-desktop/route-bamboo.png": "95de438d1098e4033eb6eda9944cf0d66c145c91004f391a2afe8559e1bb6c9a",
+    "arrivals-desktop/route-cell.png": "b4643a369a1803bb6717aff0f17bd17990a06665f81f8f1873baeae0f37e3b59",
+    "arrivals-desktop/route-courtyard.png": "09cdf34c002cc48d3757cb7aca3103ec015d27fafcf6a4be70f11fb9cf46594d",
+    "arrivals-desktop/route-farmhouse.png": "db7b6ae542ff77490fa792ccc9e326c35750caf89da1e0f7750727dcf03f9e32",
+    "arrivals-desktop/route-gate.png": "08b000d66e9ca963af31f32b31860416a3806ee1cb311b1aafad9125c0e4f4d5",
+    "arrivals-desktop/route-hilltop.png": "fe6cd699c291c92179722100b3e1af79a0aa9f5fb0155f75344e173216776a5d",
+    "arrivals-desktop/route-imperial.png": "29d85704eb89d5f6ea87c5a041cb0a7fa1fabbfcbbe6812d5d11e60857d92e31",
+    "arrivals-desktop/route-nunnery.png": "78fef83f97fb663c7598a7948855dbd6a7da26a2ae0b557762d84ae0cccfc66f",
+    "arrivals-desktop/route-ouxiang.png": "467de7f48aae04631d6d93d6cf48355ea32167731c11d9ce9b6a53b489768d78",
+    "arrivals-desktop/route-pavilion.png": "a6c687daa41bb11758051ddd5e2a45e1322bd7ecb443e0e79808539aeb97780d",
+    "arrivals-desktop/route-red-court.png": "7d04d252096665bd93d8ce7a8825b169d64abb83c2eb84b8f36dc9cb9976ad8d",
+    "arrivals-desktop/route-reflection.png": "a9f43966b200914b334a470792c028a0d5bc32630c2a9f668870887553eb01f3",
+    "arrivals-desktop/route-study.png": "50ba5db7c3a85e3e9e2e05faa8249b067cd5f99a52a0e6dfc59d72964f9e68a3",
+    "arrivals-desktop/route-ziling.png": "53aa3bfb82cd259234dd65e00899f90e9635742b6d6bd974c0a3ecdfb0c8cee5",
+    "arrivals-portrait/route-mobile-bamboo.png": "970d48da9dc2b6256c675fec328682691fe5c6adef80f6e460feaabc6921a6f1",
+    "arrivals-portrait/route-mobile-cell.png": "360f1b528fcd03394b28ec45db6cabeae72f81e1d8f4c77799d29fdf0b1481f3",
+    "arrivals-portrait/route-mobile-courtyard.png": "d07a0bbcaf632e4259a1647c012e9483bf12fb027827813750bcde0340723103",
+    "arrivals-portrait/route-mobile-farmhouse.png": "59b7950276e73db04b40756fa4de9da04cd4fd295431cde460a205715e2b4dab",
+    "arrivals-portrait/route-mobile-gate.png": "cff83e9ef750649e8ce9291e7c7cbb5496068f0eb1f46b37e068e9a523d213c3",
+    "arrivals-portrait/route-mobile-hilltop.png": "2a7ba6cb756a423c2627bc4fb293dbd0cd250a90d7382ed9f6f3377418ed8224",
+    "arrivals-portrait/route-mobile-imperial.png": "5a411a127acdd256c5274fc366c0cf423ec58c62aa5b3912394417faf7037b65",
+    "arrivals-portrait/route-mobile-nunnery.png": "54ec984ba4e223d92b53578c7f0249f449a62fb20e9f4921a4e862fdc334a3c3",
+    "arrivals-portrait/route-mobile-ouxiang.png": "44f694444eebc83097978c52b35ce03886220db3d563cd684b819bc8d3d1496f",
+    "arrivals-portrait/route-mobile-pavilion.png": "cba5fb687849dddf75c351090677ebbc6a078c4cb548038e3ff6ef9bc005c1d6",
+    "arrivals-portrait/route-mobile-red-court.png": "ec3effb14b8d1ddfaf1d496878c6d608d5c67d9cba0f5517551e084b029750ee",
+    "arrivals-portrait/route-mobile-reflection.png": "ef8d84429361d6d6480d7b782aaf928f9da96b0ff8275f8639794d887d95738d",
+    "arrivals-portrait/route-mobile-study.png": "533f637e52b514cdd0f425c579f98fdb1c8f78ae7dbcbd2dbd96248466af32a1",
+    "arrivals-portrait/route-mobile-ziling.png": "4e9ab2946b68286a0c8388e312d1a726d140566078a3e264080010e2d97a358e"
+  },
+  "finished_at": "2026-10-10T06:55:44.713131+00:00"
+}

@@ -101,3 +101,12 @@ Current complete source is `c9d4fb30`; authoring is `43d7e33e`. The five broad c
 ## Paving-source checkpoint — 2026-10-10
 
 Current assembly is `ba40866e` with authoring `7eba169a`. Duplicate visible paving tops are partitioned while retaining the complete floor footprint, all 454 colliders, 42 cameras, 71 markers, materials and runtime `7970380d`. Complete matching 141 PNG lighting, both actual Mac 14-room/26-leg tours and 22 installed checks pass; all 85 installed originals reproduce the reviewed files. All 28 current arrival originals were directly inspected. This is focused paving acceptance; this site's final art is still open. References remain 37/42; current phone/sustained/release and authenticated services remain required. Evidence: [paving repair](../reference/paving-surface-joins/README.md).
+
+
+## Bamboo-source checkpoint — 2026-10-10
+
+Current assembly is `faa8a7fe` with authoring `0f93c424`. Three bamboo sizes now use continuous closed culms and aligned joint collars; narrow leaf cards and a 2.51 m small clump replace the disconnected internodes. Four Xiaoxiang and three Qinfang plants match the saved kit. Assembly triangles fall from 266,533 to 264,973. All 167 render batches, 42 cameras, 454 colliders, 71 markers and runtime `bde86917` are preserved.
+
+Complete matching 141 PNG lighting, six source phases, forty native checks, both actual Mac fourteen-room/twenty-six-leg tours and twenty-one installed checks pass. All fifty-two installed public/arrival originals reproduce the reviewed candidate exactly. Sixty-four original public, arrival and moving views were directly inspected. The saved-source verifier rejects the previous disconnected bamboo and accepts all twenty-seven repaired saved meshes.
+
+This accepts the bamboo source repair. Final fourteen-site art, five missing references (37/42 collected), current physical-phone and sustained performance, release and authenticated services remain open. Camera alternatives remain diagnostic. Evidence: [bamboo source repair](../reference/xiaoxiang-bamboo-source/README.md).
