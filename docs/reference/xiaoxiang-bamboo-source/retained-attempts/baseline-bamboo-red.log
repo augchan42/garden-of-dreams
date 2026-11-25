@@ -1,0 +1,15 @@
+00:02.736  blend            | Read blend: "/Users/auchan/projects/garden-of-dreams/blender/kits/KIT_flora.blend"
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/verify_saved_bamboo_sources.py", line 40, in <module>
+    row = inspect(mesh, variant)
+  File "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/bamboo_source_contract.py", line 24, in inspect
+    assert len(stems)==n,('Disconnected internodes',result)
+           ^^^^^^^^^^^^^
+AssertionError: ('Disconnected internodes', {'variant': 'bamboo_small', 'height_m': 2.275593067985028, 'triangles': 684, 'continuous_culms': 9, 'joint_collars': 9, 'culm_components': [{'height': 0.6671439306810498, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6745267510414124, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6813242435455322, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.613753582816571, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6217226386070251, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6289557218551636, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.66235402203165, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6697861552238464, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}, {'height': 0.6766211986541748, 'vertices': 12}, {'height': 0.029999971389770508, 'vertices': 12}], 'uv_layers': ['UVMap', 'LightmapUV']})
+BlenderMCP addon registered
+
+Error: script failed, file: '.superpowers/sdd/2026-09-23-garden-completion/xiaoxiang-bamboo-source/verify_saved_bamboo_sources.py', exiting.
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

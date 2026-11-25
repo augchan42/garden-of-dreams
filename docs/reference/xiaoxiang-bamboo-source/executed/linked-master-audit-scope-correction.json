@@ -1,0 +1,6 @@
+{
+  "status": "test_only_master_selection_corrected",
+  "original_log": "/tmp/xiaoxiang-saved-bamboo-parity-20261010.log",
+  "observed": "14 bamboo IDs in bpy.data.objects, comprising 7 actual linked scene plants plus 7 local source IDs retained in the master file",
+  "change": "Inspect active saved master scene plants, rather than all loaded and orphan IDs; retain exact seven visible plants and all geometry/kit equality assertions; production source remains unchanged."
+}

@@ -1374,3 +1374,12 @@ This is bounded camera/layout progress. Final 14-site art/dressing/material/comp
 ## Narrow landscape follow-up — 2026-10-10
 
 Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compact landscape controls below 580 pixels high or 1000 pixels wide; narrow titles wrap beside the complete description. Camera aim/field of view ease as height increases, and returning to portrait now reproduces initial portrait pixels exactly. Twelve final isolated checks and 12 installed checks pass, with 166 byte-exact installed originals. Of 120 prior captures, 113 are byte-identical; seven change only the portrait interface, with identical scene pixels above it at actual density scaling. All 28 stationary arrivals remain byte-identical. Geometry, authoring and matching 141 maps are unchanged. The preceding 30-phase/two-tour results remain historical evidence for runtime 56813eb7. Final art, references, current device/sustained budgets, release and authenticated services remain open. See [supplemental evidence](reference/hengwu-overview-low/supplemental-narrow-landscape/README.md).
+
+
+## Bamboo-source checkpoint — 2026-10-10
+
+Current assembly is `faa8a7fe` with authoring `0f93c424`. Three bamboo sizes now use continuous closed culms and aligned joint collars; narrow leaf cards and a 2.51 m small clump replace the disconnected internodes. Four Xiaoxiang and three Qinfang plants match the saved kit. Assembly triangles fall from 266,533 to 264,973. All 167 render batches, 42 cameras, 454 colliders, 71 markers and runtime `bde86917` are preserved.
+
+Complete matching 141 PNG lighting, six source phases, forty native checks, both actual Mac fourteen-room/twenty-six-leg tours and twenty-one installed checks pass. All fifty-two installed public/arrival originals reproduce the reviewed candidate exactly. Sixty-four original public, arrival and moving views were directly inspected. The saved-source verifier rejects the previous disconnected bamboo and accepts all twenty-seven repaired saved meshes.
+
+This accepts the bamboo source repair. Final fourteen-site art, five missing references (37/42 collected), current physical-phone and sustained performance, release and authenticated services remain open. Camera alternatives remain diagnostic. Evidence: [bamboo source repair](reference/xiaoxiang-bamboo-source/README.md).
