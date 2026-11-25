@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "source_authoring_sha256": "9b6c83259f79aeb56bbdc67b1fd939b2e9ff69977bcb941cb8141b2ce329b66e",
+  "facts": {
+    "bounds_min": [
+      18.0,
+      -21.0,
+      -0.6299999952316284
+    ],
+    "bounds_max": [
+      20.200000762939453,
+      -14.0,
+      -0.12999999523162842
+    ],
+    "material_names": [
+      "MAT_stage_canvas"
+    ],
+    "collections": [
+      "SITE_stage"
+    ],
+    "polygons": 6,
+    "ramp_guard_clearances": [
+      {
+        "name": "AOJING_approach_guard",
+        "minimum_clearance_m": 0.5417678654193878
+      },
+      {
+        "name": "COL_aojing_approach_guard",
+        "minimum_clearance_m": 0.048749685287475586
+      }
+    ]
+  },
+  "errors": [],
+  "scope": "Saved patch bounds/material/topology/collection and no positive area overlap with existing pond/ramp/ledge/hall floor footprints. Does not prove collision, native art, matching export/UV/lightmaps or final acceptance."
+}

@@ -1,0 +1,58 @@
+{
+  "status": "isolated_source_native_tours_complete_direct_review_adoption_pending",
+  "orchestrator_pid": 89222,
+  "existing_source_queue_pid": 19685,
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "phases": [
+    {
+      "name": "native",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/resume_lighting.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/pipeline-native.log",
+      "pid": 89224,
+      "exit_code": 0,
+      "log_sha256": "6ca53ff6bb4ab9c390c07fc7eec6d504cf382f6643fc71037dadf9051f2f49fb"
+    },
+    {
+      "name": "native-originals",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/verify_lit_native.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/pipeline-native-originals.log",
+      "pid": 13829,
+      "exit_code": 0,
+      "log_sha256": "30bab0a674d130768c1157c040209e068c843b581cde8cf6b86cee084c059b60"
+    },
+    {
+      "name": "tours",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/run_tours.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/pipeline-tours.log",
+      "pid": 13865,
+      "exit_code": 0,
+      "log_sha256": "f5bdc84384eb618969110f3ab8c76d965268907ef831ba26efbfdb1c55bdcf56"
+    },
+    {
+      "name": "tour-originals",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/verify_tour_files.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/pipeline-tour-originals.log",
+      "pid": 27393,
+      "exit_code": 0,
+      "log_sha256": "c7d972f891ced6004a143576115239d5bd78bcae2b61fd37a1eff4c2f02c6b1e"
+    }
+  ],
+  "scope": "Existing isolated ground source job followed by native geometry/resources, originals and tours. No adoption, user editor, device or final art acceptance.",
+  "resumed_failed_report": "/private/tmp/garden-aojing-ground-v2-20261011/failed-native-winding-01/isolated-pipeline.json"
+}

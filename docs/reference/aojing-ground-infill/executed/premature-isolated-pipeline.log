@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/garden-aojing-ground-v2-20261011/continue_isolated_pipeline.py", line 21, in <module>
+    if args.check_ready_only:ready();print('AOJING_ISOLATED_PIPELINE_READY');sys.exit(0)
+                             ~~~~~^^
+  File "/tmp/garden-aojing-ground-v2-20261011/continue_isolated_pipeline.py", line 16, in ready
+    assert q['status']=='fresh_ground_source_lighting_complete_native_review_pending','Existing source lighting is incomplete; no native phase may start'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Existing source lighting is incomplete; no native phase may start

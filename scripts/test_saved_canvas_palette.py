@@ -26,8 +26,8 @@ if abs(node.inputs['Roughness'].default_value - .7) > 1e-6:
     errors.append('Canvas roughness changed.')
 if material.diffuse_color[:] != node.inputs['Base Color'].default_value[:]:
     errors.append('Viewport and Principled base colors differ.')
-if users != ['AOJING_ground', 'AOJING_ground.001', 'AOJING_ground.002', 'AOJING_ground.003', 'KIT_stage_painted_canvas.001']:
-    errors.append('The five inspected visible canvas floor users changed.')
+if users != ['AOJING_ground', 'AOJING_ground.001', 'AOJING_ground.002', 'AOJING_ground.003', 'AOJING_ground_west_infill', 'KIT_stage_painted_canvas.001']:
+    errors.append('The six inspected visible canvas floor users changed.')
 report = {'status': 'saved_canvas_palette_passed' if not errors else 'saved_canvas_palette_rejected',
           'source_authoring_sha256': hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest(),
           'linear_rgb': [red, green, blue], 'roughness': node.inputs['Roughness'].default_value,

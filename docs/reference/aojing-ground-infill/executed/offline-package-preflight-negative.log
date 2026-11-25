@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/tmp/garden-aojing-ground-v2-20261011/build_offline_android.py", line 7, in <module>
+    if not installed.exists() or json.loads(installed.read_text()).get('status')!='installed_canonical_source_and_engine_checks_passed':raise RuntimeError('Installed ground candidate not accepted; no Android build started')
+                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Installed ground candidate not accepted; no Android build started

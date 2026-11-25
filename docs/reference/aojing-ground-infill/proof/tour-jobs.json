@@ -1,0 +1,51 @@
+{
+  "status": "both_native_full_tours_passed",
+  "orchestrator_pid": 13865,
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "phases": [
+    {
+      "shape": "desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/lit-tour-desktop/report.json",
+        "--capture-directory=/tmp/garden-aojing-ground-v2-20261011/lit-tour-desktop/captures"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-tour-desktop.log",
+      "pid": 13909,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    },
+    {
+      "shape": "portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/lit-tour-portrait/report.json",
+        "--capture-directory=/tmp/garden-aojing-ground-v2-20261011/lit-tour-portrait/captures",
+        "--portrait"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-tour-portrait.log",
+      "pid": 23650,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    }
+  ],
+  "scope": "Actual native fourteen-room/twenty-six-leg public-command physics/camera/lighting route, desktop and portrait; not phone, sustained performance or final art acceptance."
+}
