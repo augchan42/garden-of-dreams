@@ -13,6 +13,8 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
+from check_asset_checkout import require_assets
+require_assets(ROOT)
 GODOT = '/Applications/Godot.app/Contents/MacOS/Godot'
 fixture = Path(tempfile.mkdtemp(prefix='garden-source-reimport-'))
 source = ROOT / 'export/garden-of-dreams.glb'
