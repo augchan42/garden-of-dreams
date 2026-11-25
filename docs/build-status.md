@@ -1383,3 +1383,10 @@ Current assembly is `faa8a7fe` with authoring `0f93c424`. Three bamboo sizes now
 Complete matching 141 PNG lighting, six source phases, forty native checks, both actual Mac fourteen-room/twenty-six-leg tours and twenty-one installed checks pass. All fifty-two installed public/arrival originals reproduce the reviewed candidate exactly. Sixty-four original public, arrival and moving views were directly inspected. The saved-source verifier rejects the previous disconnected bamboo and accepts all twenty-seven repaired saved meshes.
 
 This accepts the bamboo source repair. Final fourteen-site art, five missing references (37/42 collected), current physical-phone and sustained performance, release and authenticated services remain open. Camera alternatives remain diagnostic. Evidence: [bamboo source repair](reference/xiaoxiang-bamboo-source/README.md).
+
+
+## Xiaoxiang portrait cameras — 2026-10-10
+
+Runtime `ec42ec55` now frames the courtyard gate, amber window and aisle in portrait. Gate and bamboo inspection views fit saved subjects above the actual controls, including touch/density scaling. Look restores the overview; rotation preserves the selected action and original desktop poses. UI refresh waits for camera animation completion. Source `faa8a7fe`, authoring `0f93c424` and all matching lighting remain unchanged.
+
+Five headless and seven native candidate phases pass, followed by both fourteen-room/twenty-six-leg normal-time Mac tours with all settled arrivals. Nine installed checks pass and all ninety installed focused originals reproduce the candidate exactly. Seventeen focused/moving originals were directly inspected. Final scene art, five missing reference slots, physical-phone/2020 Adreno/sustained performance, release and authenticated services remain open. Evidence: [camera framing](reference/xiaoxiang-camera-framing/README.md).

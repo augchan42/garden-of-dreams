@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: Control layout cancelled the arrival animation
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_xiaoxiang_camera_transition.gd:9)
+       [1] run (res://tests/test_xiaoxiang_camera_transition.gd:20)
+ERROR: Arrival camera did not emit its completion signal
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] check (res://tests/test_xiaoxiang_camera_transition.gd:9)
+       [1] run (res://tests/test_xiaoxiang_camera_transition.gd:22)
+XIAOXIANG_CAMERA_TRANSITION_RESULT 2 failures
