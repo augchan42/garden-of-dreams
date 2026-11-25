@@ -219,3 +219,10 @@ Five actual opaque cell/gate meshes yield desktop terminal160→46 and gate155�
 ## Structural culling public-view and CPU follow-up — 2026-10-10
 
 The always-enabled exact-geometry candidate passes 294 recorded travel/reveal/arrival/detail cases and 882 decoded image comparisons. Its later camera-scoped controller passes nine native guards and normal-route integration; the actual four-leg desktop producer stays within139 global draws/163083primitives. The scoped replay stops after63passing cases on one blue-channel unit at one pixel;21fresh nearby poses match but do not reproduce the unrecorded failed pose. Its nine-phase native process-CPU diagnostic costs1.424×cell/1.645×gate relative to paired disabled baselines, with the pavilion inactive and unchanged draws. The optimization remains isolated: production and the current6bbAPK are unchanged. See [public-view/CPU evidence](../../reference/scoped-structural-occlusion/README.md). Persist full poses before assertions, reproduce the discrepancy, and compare actual device CPU/GPU cost before adoption. This is PROGRESS, not Task5 or full-goal acceptance; phone availability remains unanswered.
+
+
+## Qiushuang facade-key checkpoint — 2026-10-11
+
+Current source `ba0e8b16` / authoring `4eb31445` moves the warm-neutral hard key farther to the front-right, covering all three screen banks while retaining the amber practicals. Source controls, complete fresh six-phase lighting, 14 isolated native checks, both 14-room/26-leg tours and 17 installed checks pass. Eight installed hall originals match the reviewed candidate exactly. The current full debug Android APK `589ec5a0` is offline-verified and uninstalled. See [originals and controls](../../reference/qiushuang-facade-key/README.md).
+
+This closes the local key coverage/central-pool issue. Final fourteen-site art, wall/noise and stage/backdrop/ground closure, five references, current phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Next scene work: diagnose the visible dark canopy backs and stage/ground/water boundaries before changing their geometry or shading. Keep the full goal active.

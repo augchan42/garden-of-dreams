@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "authoring_sha256": "4eb31445889e5f30f57bb7935759d83169655eefea6c6cfa798879e9f384b0f6",
+  "source": "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+  "coverage": {
+    "status": "passed",
+    "banks": [
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_25",
+        "samples": 192,
+        "inside_cone": 192,
+        "maximum_angle_degrees": 16.852405946225254,
+        "minimum_distance": 11.879132525500784
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_28",
+        "samples": 192,
+        "inside_cone": 192,
+        "maximum_angle_degrees": 5.478323536863308,
+        "minimum_distance": 10.322807247276126
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_31",
+        "samples": 192,
+        "inside_cone": 192,
+        "maximum_angle_degrees": 19.97478316409581,
+        "minimum_distance": 9.583941089321703
+      }
+    ],
+    "samples": 576,
+    "inside_cone": 576,
+    "light": {
+      "location": [
+        26.5,
+        6.0,
+        3.5999999046325684
+      ],
+      "rotation": [
+        1.3895103931427002,
+        2.7437891958470573e-08,
+        0.4251105487346649
+      ],
+      "power": 1200.0,
+      "color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6800000071525574
+      ],
+      "cone_degrees": 60.000001669652114,
+      "blend": 0.15000000596046448,
+      "source_radius": 0.0
+    },
+    "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+  },
+  "scope": "Actual source cone and restoring old-layout control; no exposure, final art, engine or device acceptance.",
+  "negative_control": {
+    "status": "failed_key_misses_screen_banks",
+    "banks": [
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_25",
+        "samples": 192,
+        "inside_cone": 0,
+        "maximum_angle_degrees": 47.418178698161164,
+        "minimum_distance": 4.3164920919176435
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_28",
+        "samples": 192,
+        "inside_cone": 192,
+        "maximum_angle_degrees": 11.482652925234259,
+        "minimum_distance": 3.4788773231901393
+      },
+      {
+        "bank": "PLACED_tech_qiushuang_zhai_31",
+        "samples": 192,
+        "inside_cone": 0,
+        "maximum_angle_degrees": 47.418178698161164,
+        "minimum_distance": 4.3164920919176435
+      }
+    ],
+    "samples": 576,
+    "inside_cone": 192,
+    "light": {
+      "location": [
+        22.0,
+        12.0,
+        2.5999999046325684
+      ],
+      "rotation": [
+        1.2315037250518799,
+        -0.0,
+        0.0
+      ],
+      "power": 1200.0,
+      "color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6800000071525574
+      ],
+      "cone_degrees": 45.00000125223908,
+      "blend": 0.15000000596046448,
+      "source_radius": 0.0
+    },
+    "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+  },
+  "unchanged_source_state": true,
+  "practical_names": [
+    "LGT_study_warm_left.001",
+    "LGT_study_warm_right.001"
+  ]
+}

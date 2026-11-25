@@ -1,0 +1,427 @@
+{
+  "status": "isolated_proposals_prepared_source_preserved",
+  "baseline_files": {
+    "blender/authoring.blend": "f3ed820cc088b83c836fa7f4681cb1775fbd637fbb5e56e141b4c81c0891fd6f",
+    "export/garden-of-dreams.glb": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+    "export/sites/SITE_qiushuang-zhai.glb": "97649ca303c06fa9dba7633846bf1190232a5c49f91b850e672f61545b1ef372"
+  },
+  "cases": [
+    {
+      "case": {
+        "label": "baseline",
+        "power": 450
+      },
+      "coverage": {
+        "status": "failed_key_misses_screen_banks",
+        "banks": [
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_25",
+            "samples": 192,
+            "inside_cone": 0,
+            "maximum_angle_degrees": 47.418178698161164,
+            "minimum_distance": 4.3164920919176435
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_28",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 11.482652925234259,
+            "minimum_distance": 3.4788773231901393
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_31",
+            "samples": 192,
+            "inside_cone": 0,
+            "maximum_angle_degrees": 47.418178698161164,
+            "minimum_distance": 4.3164920919176435
+          }
+        ],
+        "samples": 576,
+        "inside_cone": 192,
+        "light": {
+          "location": [
+            22.0,
+            12.0,
+            2.5999999046325684
+          ],
+          "rotation": [
+            1.2315037250518799,
+            -0.0,
+            0.0
+          ],
+          "power": 450.0,
+          "color": [
+            0.8999999761581421,
+            0.7200000286102295,
+            0.44999998807907104
+          ],
+          "cone_degrees": 45.00000125223908,
+          "blend": 0.15000000596046448,
+          "source_radius": 0.0
+        },
+        "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+      },
+      "hashes": {
+        "export/garden-of-dreams.glb": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+        "export/sites/SITE_qiushuang-zhai.glb": "97649ca303c06fa9dba7633846bf1190232a5c49f91b850e672f61545b1ef372"
+      },
+      "binary_geometry_and_other_document_fields_exact": true,
+      "engine_key": {
+        "node": {
+          "extensions": {
+            "KHR_lights_punctual": {
+              "light": 26
+            }
+          },
+          "name": "LGT_qiushuang-zhai_key.001",
+          "rotation": [
+            -0.16883374750614166,
+            0,
+            0,
+            0.9856446385383606
+          ],
+          "translation": [
+            22,
+            2.5999999046325684,
+            -12
+          ]
+        },
+        "light": {
+          "color": [
+            0.8999999761581421,
+            0.7200000286102295,
+            0.44999998807907104
+          ],
+          "intensity": 24458.135879647016,
+          "spot": {
+            "innerConeAngle": 0.3337942263919169,
+            "outerConeAngle": 0.39269909262657166
+          },
+          "type": "spot",
+          "name": "LGT_qiushuang-zhai_key"
+        }
+      }
+    },
+    {
+      "case": {
+        "label": "reduced-near",
+        "power": 180
+      },
+      "coverage": {
+        "status": "failed_key_misses_screen_banks",
+        "banks": [
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_25",
+            "samples": 192,
+            "inside_cone": 0,
+            "maximum_angle_degrees": 47.418178698161164,
+            "minimum_distance": 4.3164920919176435
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_28",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 11.482652925234259,
+            "minimum_distance": 3.4788773231901393
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_31",
+            "samples": 192,
+            "inside_cone": 0,
+            "maximum_angle_degrees": 47.418178698161164,
+            "minimum_distance": 4.3164920919176435
+          }
+        ],
+        "samples": 576,
+        "inside_cone": 192,
+        "light": {
+          "location": [
+            22.0,
+            12.0,
+            2.5999999046325684
+          ],
+          "rotation": [
+            1.2315037250518799,
+            -0.0,
+            0.0
+          ],
+          "power": 180.0,
+          "color": [
+            0.8999999761581421,
+            0.7200000286102295,
+            0.44999998807907104
+          ],
+          "cone_degrees": 45.00000125223908,
+          "blend": 0.15000000596046448,
+          "source_radius": 0.0
+        },
+        "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+      },
+      "hashes": {
+        "export/garden-of-dreams.glb": "a0787420acd3ed99bce302dbb786daba89f5de9e283f01d6b5939435ff840e7a",
+        "export/sites/SITE_qiushuang-zhai.glb": "063285564f1b6cd238f99548c4034d7059e780a5b166e426c1c8b62dfce6a21c"
+      },
+      "binary_geometry_and_other_document_fields_exact": true,
+      "engine_key": {
+        "node": {
+          "extensions": {
+            "KHR_lights_punctual": {
+              "light": 26
+            }
+          },
+          "name": "LGT_qiushuang-zhai_key.001",
+          "rotation": [
+            -0.16883376240730286,
+            0.0,
+            0.0,
+            0.9856445789337158
+          ],
+          "translation": [
+            22.0,
+            2.59999942779541,
+            -11.999999046325684
+          ]
+        },
+        "light": {
+          "color": [
+            0.8999999761581421,
+            0.7200000286102295,
+            0.44999998807907104
+          ],
+          "intensity": 9783.254351858806,
+          "spot": {
+            "outerConeAngle": 0.39269909262657166,
+            "innerConeAngle": 0.3337942263919169
+          },
+          "type": "spot",
+          "name": "LGT_qiushuang-zhai_key"
+        }
+      }
+    },
+    {
+      "case": {
+        "label": "frontal-far",
+        "power": 900,
+        "location": [
+          22,
+          6,
+          3.2
+        ],
+        "target": [
+          22,
+          15.94,
+          1.6
+        ],
+        "color": [
+          0.9,
+          0.82,
+          0.68
+        ],
+        "cone_degrees": 60
+      },
+      "coverage": {
+        "status": "passed",
+        "banks": [
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_25",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 21.627125392342712,
+            "minimum_distance": 9.826148278593433
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_28",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 5.716694551892788,
+            "minimum_distance": 9.487660186476077
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_31",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 21.627125392342712,
+            "minimum_distance": 9.826148278593433
+          }
+        ],
+        "samples": 576,
+        "inside_cone": 576,
+        "light": {
+          "location": [
+            22.0,
+            6.0,
+            3.200000047683716
+          ],
+          "rotation": [
+            1.4111994504928589,
+            -0.0,
+            0.0
+          ],
+          "power": 900.0,
+          "color": [
+            0.8999999761581421,
+            0.8199999928474426,
+            0.6800000071525574
+          ],
+          "cone_degrees": 60.000001669652114,
+          "blend": 0.15000000596046448,
+          "source_radius": 0.0
+        },
+        "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+      },
+      "hashes": {
+        "export/garden-of-dreams.glb": "496a9841872c8baa8e2bc952a9548fb5bf17872662e0d6aa3b009bdd430b20a5",
+        "export/sites/SITE_qiushuang-zhai.glb": "c15344c81dc8609ae7f047009ef93407a8290db7b3b6692fb18930f443d3cd10"
+      },
+      "binary_geometry_and_other_document_fields_exact": true,
+      "engine_key": {
+        "node": {
+          "extensions": {
+            "KHR_lights_punctual": {
+              "light": 26
+            }
+          },
+          "name": "LGT_qiushuang-zhai_key.001",
+          "rotation": [
+            -0.07971376180648804,
+            0.0,
+            0.0,
+            0.9968177676200867
+          ],
+          "translation": [
+            22.0,
+            3.200000286102295,
+            -5.999999523162842
+          ]
+        },
+        "light": {
+          "color": [
+            0.8999999761581421,
+            0.8199999928474426,
+            0.6800000071525574
+          ],
+          "intensity": 48916.27175929403,
+          "spot": {
+            "outerConeAngle": 0.5235987901687622,
+            "innerConeAngle": 0.4450589685225559
+          },
+          "type": "spot",
+          "name": "LGT_qiushuang-zhai_key"
+        }
+      }
+    },
+    {
+      "case": {
+        "label": "angled-far",
+        "power": 1200,
+        "location": [
+          26.5,
+          6,
+          3.6
+        ],
+        "target": [
+          22,
+          15.94,
+          1.6
+        ],
+        "color": [
+          0.9,
+          0.82,
+          0.68
+        ],
+        "cone_degrees": 60
+      },
+      "coverage": {
+        "status": "passed",
+        "banks": [
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_25",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 16.852405946225254,
+            "minimum_distance": 11.879132525500784
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_28",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 5.478323536863308,
+            "minimum_distance": 10.322807247276126
+          },
+          {
+            "bank": "PLACED_tech_qiushuang_zhai_31",
+            "samples": 192,
+            "inside_cone": 192,
+            "maximum_angle_degrees": 19.97478316409581,
+            "minimum_distance": 9.583941089321703
+          }
+        ],
+        "samples": 576,
+        "inside_cone": 576,
+        "light": {
+          "location": [
+            26.5,
+            6.0,
+            3.5999999046325684
+          ],
+          "rotation": [
+            1.3895103931427002,
+            2.7437891958470573e-08,
+            0.4251105487346649
+          ],
+          "power": 1200.0,
+          "color": [
+            0.8999999761581421,
+            0.8199999928474426,
+            0.6800000071525574
+          ],
+          "cone_degrees": 60.000001669652114,
+          "blend": 0.15000000596046448,
+          "source_radius": 0.0
+        },
+        "scope": "Actual source phosphor quad centres and spotlight cone; not occlusion, exposure, legibility or final lighting acceptance."
+      },
+      "hashes": {
+        "export/garden-of-dreams.glb": "2895c9ecc19f8729a33172b02cdf536c45fdf7110bf8c6c710ab310e07543388",
+        "export/sites/SITE_qiushuang-zhai.glb": "8ef043f34c9efb797be80bdf8b3e69207267a0b79c9925c230389a1445cea46c"
+      },
+      "binary_geometry_and_other_document_fields_exact": true,
+      "engine_key": {
+        "node": {
+          "extensions": {
+            "KHR_lights_punctual": {
+              "light": 26
+            }
+          },
+          "name": "LGT_qiushuang-zhai_key.001",
+          "rotation": [
+            -0.08848169445991516,
+            0.21009233593940735,
+            0.01909569650888443,
+            0.9734821319580078
+          ],
+          "translation": [
+            26.499998092651367,
+            3.5999996662139893,
+            -6.0
+          ]
+        },
+        "light": {
+          "color": [
+            0.8999999761581421,
+            0.8199999928474426,
+            0.6800000071525574
+          ],
+          "intensity": 65221.69567905871,
+          "spot": {
+            "outerConeAngle": 0.5235987901687622,
+            "innerConeAngle": 0.4450589685225559
+          },
+          "type": "spot",
+          "name": "LGT_qiushuang-zhai_key"
+        }
+      }
+    }
+  ],
+  "scope": "Four isolated key-light proposals for native bake/view comparison. Geometry is unchanged. No complete matching all-room bakes, production adoption or final acceptance."
+}
