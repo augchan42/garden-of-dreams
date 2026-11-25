@@ -23,6 +23,7 @@ def full_report():
     def sample(label):
         samples[label] = {'frames': 180, 'frame_interval_median_ms': 17.0, 'frame_interval_p95_ms': 20.0,
                          'visible_draw_calls_max': 99, 'visible_primitives_max': 178601,
+                         'global_draw_calls_max': 112, 'global_primitives_max': 190000,
                          'active_practicals_max': 4, 'texture_memory_bytes': 65318147}
     def capture(label, room):
         sample(label)
@@ -44,6 +45,7 @@ def full_report():
             arrivals.append(target)
             origin = target
     return {'status': 'complete', 'error': '', 'profile_mode': 'full', 'completed_tours': 2,
+            'render_budget_scope': 'engine_global_all_viewports',
             'timed_seconds': 735.0, 'minimum_timed_seconds': 600, 'physics_ticks_per_second': 60,
             'time_scale': 1.0, 'fps_cap': 60, 'visited_rooms': sorted(set(arrivals)),
             'arrival_signals': arrivals, 'legs': legs, 'samples': samples, 'captures': captures,
@@ -52,6 +54,27 @@ def full_report():
 
 
 class FullProfileTests(unittest.TestCase):
+    def test_reflection_work_cannot_hide_behind_root_visible_counts(self):
+        report = full_report()
+        first = next(iter(report['samples']))
+        report['samples'][first]['global_draw_calls_max'] = 171
+        report['samples'][first]['global_primitives_max'] = 310000
+        report['budget_results'][first]['draw_calls'] = False
+        report['budget_results'][first]['primitives'] = False
+        collector.verify_full_report(report)
+        for mutation in ['scope', 'missing', 'fraction', 'boolean', 'nan', 'below_root', 'false_pass']:
+            with self.subTest(mutation=mutation):
+                changed = copy.deepcopy(report)
+                sample = changed['samples'][first]
+                if mutation == 'scope': del changed['render_budget_scope']
+                elif mutation == 'missing': del sample['global_primitives_max']
+                elif mutation == 'fraction': sample['global_draw_calls_max'] = 171.5
+                elif mutation == 'boolean': sample['global_draw_calls_max'] = True
+                elif mutation == 'nan': sample['global_draw_calls_max'] = float('nan')
+                elif mutation == 'below_root': sample['global_primitives_max'] = 1
+                elif mutation == 'false_pass': changed['budget_results'][first]['draw_calls'] = True
+                with self.assertRaises(AssertionError): collector.verify_full_report(changed)
+
     def test_only_explicit_absence_can_wait_at_startup(self):
         parser = getattr(collector, 'parse_profile_publication', None)
         self.assertTrue(callable(parser), 'Explicit unpublished report handling is missing')

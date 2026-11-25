@@ -80,6 +80,7 @@ def verify_profile_build(build, adb):
 def verify_full_report(report):
     assert report.get('profile_mode') == 'full' and report.get('status') == 'complete', 'Full profile is incomplete'
     assert report.get('error') == '', 'Full profile reports a failure'
+    assert report.get('render_budget_scope') == 'engine_global_all_viewports', 'Full profile must use engine-global counts across all viewports'
     assert report.get('physics_ticks_per_second') == 60 and report.get('time_scale') == 1.0 and report.get('fps_cap') == 60, 'Full profile simulation changed'
     assert math.isfinite(report['timed_seconds']) and report['timed_seconds'] >= 600 and report['minimum_timed_seconds'] == 600, 'Full profile is too short'
     tours = report['completed_tours']
@@ -114,11 +115,15 @@ def verify_full_report(report):
     assert set(report['captures']) == set(expected_captures), 'Incomplete full profile captures'
     for label, sample in report['samples'].items():
         assert sample['frames'] > 0 and sample['visible_draw_calls_max'] > 0 and sample['visible_primitives_max'] > 0 and sample['texture_memory_bytes'] > 0, 'Empty full profile sample'
+        for global_field, root_field in [('global_draw_calls_max', 'visible_draw_calls_max'),
+                                        ('global_primitives_max', 'visible_primitives_max')]:
+            count = sample.get(global_field)
+            assert isinstance(count, int) and not isinstance(count, bool) and count >= sample[root_field], 'Missing or invalid all-viewport count: ' + global_field
         for field in ['frame_interval_median_ms', 'frame_interval_p95_ms']:
             assert math.isfinite(sample[field]) and sample[field] > 0, 'Invalid full profile frame timing'
         budgets = {'texture': sample['texture_memory_bytes'] <= 64*1024*1024,
-                   'draw_calls': sample['visible_draw_calls_max'] <= 150,
-                   'primitives': sample['visible_primitives_max'] <= 300000,
+                   'draw_calls': sample['global_draw_calls_max'] <= 150,
+                   'primitives': sample['global_primitives_max'] <= 300000,
                    'practicals': sample['active_practicals_max'] <= 4,
                    'p95_60fps': sample['frame_interval_p95_ms'] <= 1000/60}
         assert report['budget_results'][label] == budgets, 'False full profile budget result'

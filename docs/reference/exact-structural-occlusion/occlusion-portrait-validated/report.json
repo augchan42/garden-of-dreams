@@ -1,0 +1,402 @@
+{
+  "occluders": [
+    {
+      "mesh": "SITE_terminal-cells_MAT_plaster_rock",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 128,
+      "vertices": 126
+    },
+    {
+      "mesh": "SITE_terminal-cells_MAT_backstage",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 720,
+      "vertices": 456
+    },
+    {
+      "mesh": "SITE_terminal-cells_MAT_stage_backstage",
+      "transform": "[X: (-0.866667, 0.0, 0.0), Y: (0.0, 0.933333, 0.0), Z: (-0.0, 0.0, -1.0), O: (-6.5, 0.0, 40.25)]",
+      "triangles": 2304,
+      "vertices": 1332
+    },
+    {
+      "mesh": "SITE_rockery-gate_MAT_pavilion_atlas",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 6344,
+      "vertices": 2942
+    },
+    {
+      "mesh": "SITE_rockery-gate_MAT_plaster_rock",
+      "transform": "[X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]",
+      "triangles": 628,
+      "vertices": 342
+    }
+  ],
+  "rooms": {
+    "aojing_guan": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2706,
+        "draws": 79,
+        "file_sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+        "pixel_sha256": "026787a46d96b6e6813a3289edbae7ed721962c993b23cccbb33349f578600c0",
+        "primitives": 97639
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2828,
+        "draws": 79,
+        "file_sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+        "pixel_sha256": "026787a46d96b6e6813a3289edbae7ed721962c993b23cccbb33349f578600c0",
+        "primitives": 97639
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2767,
+        "draws": 79,
+        "file_sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+        "pixel_sha256": "026787a46d96b6e6813a3289edbae7ed721962c993b23cccbb33349f578600c0",
+        "primitives": 97639
+      }
+    },
+    "daguan_lou": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3841,
+        "draws": 49,
+        "file_sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+        "pixel_sha256": "0578468b5a3942b2390a2a01c66887011e01a5c5f5a2aa0609e252da3b26215e",
+        "primitives": 80699
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3963,
+        "draws": 49,
+        "file_sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+        "pixel_sha256": "0578468b5a3942b2390a2a01c66887011e01a5c5f5a2aa0609e252da3b26215e",
+        "primitives": 80699
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3902,
+        "draws": 49,
+        "file_sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+        "pixel_sha256": "0578468b5a3942b2390a2a01c66887011e01a5c5f5a2aa0609e252da3b26215e",
+        "primitives": 80699
+      }
+    },
+    "daoxiang_cun": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2424,
+        "draws": 39,
+        "file_sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+        "pixel_sha256": "1d20489080d47e34ee9751761956268e675a9a1889d2192982c1646a37bac02a",
+        "primitives": 60993
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2546,
+        "draws": 39,
+        "file_sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+        "pixel_sha256": "1d20489080d47e34ee9751761956268e675a9a1889d2192982c1646a37bac02a",
+        "primitives": 60993
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2485,
+        "draws": 39,
+        "file_sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+        "pixel_sha256": "1d20489080d47e34ee9751761956268e675a9a1889d2192982c1646a37bac02a",
+        "primitives": 60993
+      }
+    },
+    "hengwu_yuan": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2140,
+        "draws": 114,
+        "file_sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+        "pixel_sha256": "7e9a4ee7982edbe9833456cd844847536673959d37b2e92f8a52f5d7b0ab1269",
+        "primitives": 124227
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2262,
+        "draws": 114,
+        "file_sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+        "pixel_sha256": "7e9a4ee7982edbe9833456cd844847536673959d37b2e92f8a52f5d7b0ab1269",
+        "primitives": 124227
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2201,
+        "draws": 114,
+        "file_sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+        "pixel_sha256": "7e9a4ee7982edbe9833456cd844847536673959d37b2e92f8a52f5d7b0ab1269",
+        "primitives": 124227
+      }
+    },
+    "longcui_an": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 2990,
+        "draws": 38,
+        "file_sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+        "pixel_sha256": "3c071d87360e9fa3e7bc51717725c35e6fa5839232e4eddad23e751edaa9f53e",
+        "primitives": 54605
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3112,
+        "draws": 38,
+        "file_sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+        "pixel_sha256": "3c071d87360e9fa3e7bc51717725c35e6fa5839232e4eddad23e751edaa9f53e",
+        "primitives": 54605
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3051,
+        "draws": 38,
+        "file_sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+        "pixel_sha256": "3c071d87360e9fa3e7bc51717725c35e6fa5839232e4eddad23e751edaa9f53e",
+        "primitives": 54605
+      }
+    },
+    "ouxiang_xie": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1005,
+        "draws": 65,
+        "file_sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+        "pixel_sha256": "7941faacf81cd527155bc9a9d94e371bd6359fd6880efaf29e5192442842fb7b",
+        "primitives": 96849
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1127,
+        "draws": 65,
+        "file_sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+        "pixel_sha256": "7941faacf81cd527155bc9a9d94e371bd6359fd6880efaf29e5192442842fb7b",
+        "primitives": 96849
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1066,
+        "draws": 65,
+        "file_sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+        "pixel_sha256": "7941faacf81cd527155bc9a9d94e371bd6359fd6880efaf29e5192442842fb7b",
+        "primitives": 96849
+      }
+    },
+    "qinfang_ting": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 721,
+        "draws": 74,
+        "file_sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+        "pixel_sha256": "4caec0abc6613dd7753f866631e74a3c1a4efd60baf4822acb50b7450b04d98f",
+        "primitives": 107591
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 843,
+        "draws": 74,
+        "file_sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+        "pixel_sha256": "4caec0abc6613dd7753f866631e74a3c1a4efd60baf4822acb50b7450b04d98f",
+        "primitives": 107591
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 782,
+        "draws": 74,
+        "file_sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+        "pixel_sha256": "4caec0abc6613dd7753f866631e74a3c1a4efd60baf4822acb50b7450b04d98f",
+        "primitives": 107591
+      }
+    },
+    "qiushuang_zhai": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1572,
+        "draws": 53,
+        "file_sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+        "pixel_sha256": "0797bce0b1da693ed4139960db83a9f5903e9a309ff9fab0e63fdf2b586c4ae6",
+        "primitives": 80581
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1694,
+        "draws": 53,
+        "file_sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+        "pixel_sha256": "0797bce0b1da693ed4139960db83a9f5903e9a309ff9fab0e63fdf2b586c4ae6",
+        "primitives": 80581
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1633,
+        "draws": 53,
+        "file_sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+        "pixel_sha256": "0797bce0b1da693ed4139960db83a9f5903e9a309ff9fab0e63fdf2b586c4ae6",
+        "primitives": 80581
+      }
+    },
+    "rockery_gate": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 438,
+        "draws": 113,
+        "file_sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+        "pixel_sha256": "b627f3cb847c379bd9636f51aecbe89480472e0fb9e54415819aadca81ae7274",
+        "primitives": 149319
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 560,
+        "draws": 113,
+        "file_sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+        "pixel_sha256": "b627f3cb847c379bd9636f51aecbe89480472e0fb9e54415819aadca81ae7274",
+        "primitives": 149319
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 499,
+        "draws": 29,
+        "file_sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+        "pixel_sha256": "b627f3cb847c379bd9636f51aecbe89480472e0fb9e54415819aadca81ae7274",
+        "primitives": 57758
+      }
+    },
+    "terminal_room": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 154,
+        "draws": 87,
+        "file_sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+        "pixel_sha256": "430ab77733ffb7b0f878df3e77f60ce9e1f2f76f63e4474b9584c785cdc53b0b",
+        "primitives": 147511
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 276,
+        "draws": 87,
+        "file_sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+        "pixel_sha256": "430ab77733ffb7b0f878df3e77f60ce9e1f2f76f63e4474b9584c785cdc53b0b",
+        "primitives": 147511
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 215,
+        "draws": 41,
+        "file_sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+        "pixel_sha256": "430ab77733ffb7b0f878df3e77f60ce9e1f2f76f63e4474b9584c785cdc53b0b",
+        "primitives": 93573
+      }
+    },
+    "tubi_tang": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1856,
+        "draws": 51,
+        "file_sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+        "pixel_sha256": "93457cdfc5b6ded8ac9d097c5c061a61922cf06edc2eb38055dca7f1483e5c15",
+        "primitives": 86309
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1978,
+        "draws": 51,
+        "file_sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+        "pixel_sha256": "93457cdfc5b6ded8ac9d097c5c061a61922cf06edc2eb38055dca7f1483e5c15",
+        "primitives": 86309
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1917,
+        "draws": 51,
+        "file_sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+        "pixel_sha256": "93457cdfc5b6ded8ac9d097c5c061a61922cf06edc2eb38055dca7f1483e5c15",
+        "primitives": 86309
+      }
+    },
+    "xiaoxiang_guan": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3273,
+        "draws": 72,
+        "file_sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+        "pixel_sha256": "66610f27c305a7e6b60e1a3cb5c9173b9200d409340375175593ed997927b03f",
+        "primitives": 86347
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3395,
+        "draws": 72,
+        "file_sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+        "pixel_sha256": "66610f27c305a7e6b60e1a3cb5c9173b9200d409340375175593ed997927b03f",
+        "primitives": 86347
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3334,
+        "draws": 72,
+        "file_sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+        "pixel_sha256": "66610f27c305a7e6b60e1a3cb5c9173b9200d409340375175593ed997927b03f",
+        "primitives": 86347
+      }
+    },
+    "yihong_yuan": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3557,
+        "draws": 49,
+        "file_sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+        "pixel_sha256": "a761755a7096f941e2be2ad6fd1a63bc5325d938138898a416dbc75718986990",
+        "primitives": 62601
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3679,
+        "draws": 49,
+        "file_sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+        "pixel_sha256": "a761755a7096f941e2be2ad6fd1a63bc5325d938138898a416dbc75718986990",
+        "primitives": 62601
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 3618,
+        "draws": 49,
+        "file_sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+        "pixel_sha256": "a761755a7096f941e2be2ad6fd1a63bc5325d938138898a416dbc75718986990",
+        "primitives": 62601
+      }
+    },
+    "ziling_zhou": {
+      "disabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1289,
+        "draws": 109,
+        "file_sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+        "pixel_sha256": "449a3cd5a5e55de8631320a57bc905feb38484035d33b449b6020f490383aa2b",
+        "primitives": 147647
+      },
+      "disabled_repeat": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1411,
+        "draws": 109,
+        "file_sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+        "pixel_sha256": "449a3cd5a5e55de8631320a57bc905feb38484035d33b449b6020f490383aa2b",
+        "primitives": 147647
+      },
+      "enabled": {
+        "automatic_frames_elapsed": 61,
+        "drawn_frames": 1350,
+        "draws": 109,
+        "file_sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+        "pixel_sha256": "449a3cd5a5e55de8631320a57bc905feb38484035d33b449b6020f490383aa2b",
+        "primitives": 147647
+      }
+    }
+  },
+  "scope": "Isolated exact opaque source-mesh occluder candidate; stationary fixed-clock pixels and native counters only. Not adopted, sustained or phone evidence.",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f"
+}

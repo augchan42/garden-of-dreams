@@ -8,6 +8,8 @@ var intervals: Array[float] = []
 var previous_usec = 0
 var draws_max = 0
 var primitives_max = 0
+var global_draws_max = 0
+var global_primitives_max = 0
 var practicals_max = 0
 var memory_max = 0
 var timed_usec = 0
@@ -43,6 +45,10 @@ func _process(_delta: float) -> void:
  var rid = root.get_viewport_rid()
  draws_max = maxi(draws_max, RenderingServer.viewport_get_render_info(rid, RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE, RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME))
  primitives_max = maxi(primitives_max, RenderingServer.viewport_get_render_info(rid, RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE, RenderingServer.VIEWPORT_RENDER_INFO_PRIMITIVES_IN_FRAME))
+ # Engine-global counters include the pond capture across viewports.
+ # Keep root-visible counts as diagnostics; they cannot establish a frame budget.
+ global_draws_max = maxi(global_draws_max, RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_DRAW_CALLS_IN_FRAME))
+ global_primitives_max = maxi(global_primitives_max, RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TOTAL_PRIMITIVES_IN_FRAME))
  practicals_max = maxi(practicals_max, route.get_node("PracticalLights").lights.filter(func(light):return light.visible).size())
  memory_max = maxi(memory_max, RenderingServer.get_rendering_info(RenderingServer.RENDERING_INFO_TEXTURE_MEM_USED))
  if Engine.time_scale != 1.0 or Engine.physics_ticks_per_second != 60:
@@ -73,6 +79,8 @@ func begin_sample(label: String) -> void:
  intervals.clear()
  draws_max = 0
  primitives_max = 0
+ global_draws_max = 0
+ global_primitives_max = 0
  practicals_max = 0
  memory_max = 0
  previous_usec = Time.get_ticks_usec()
@@ -87,8 +95,10 @@ func end_sample() -> void:
   return
  report.samples[label] = {"frames": intervals.size(), "frame_interval_median_ms": intervals[intervals.size()/2], "frame_interval_p95_ms": intervals[int(intervals.size()*.95)], "visible_draw_calls_max": draws_max, "visible_primitives_max": primitives_max, "active_practicals_max": practicals_max, "texture_memory_bytes": memory_max}
  report.samples[label].frame_costs = frame_costs.finish()
+ report.samples[label].global_draw_calls_max = global_draws_max
+ report.samples[label].global_primitives_max = global_primitives_max
  report.timed_seconds = float(timed_usec)/1000000.0
- report.budget_results[label] = {"texture": memory_max<=64*1024*1024, "draw_calls": draws_max<=150, "primitives": primitives_max<=300000, "practicals": practicals_max<=4, "p95_60fps": intervals[int(intervals.size()*.95)]<=1000.0/60.0}
+ report.budget_results[label] = {"texture": memory_max<=64*1024*1024, "draw_calls": global_draws_max<=150, "primitives": global_primitives_max<=300000, "practicals": practicals_max<=4, "p95_60fps": intervals[int(intervals.size()*.95)]<=1000.0/60.0}
  save_report()
 
 func stationary(label: String) -> void:
@@ -115,6 +125,7 @@ func stationary(label: String) -> void:
 
 func run() -> void:
  report = {"profile_mode":"full", "status":"starting", "error":"", "scope":"Actual Android normal fourteen-room public-command traversal and at least 600 timed seconds across whole tours, at normal physics/time. Image readback excluded from timed phases. Dedicated debug app; not 2020 Adreno, release, final art or live services acceptance.", "samples":{}, "legs":[], "captures":{}, "budget_results":{}, "touch_events":[], "timed_seconds":0.0, "completed_tours":0, "minimum_timed_seconds":600}
+ report.render_budget_scope = "engine_global_all_viewports"
  if not OS.has_feature("android") or not OS.has_feature("garden_profile"):
   reject("Requires an actual Android dedicated profiling export")
   return

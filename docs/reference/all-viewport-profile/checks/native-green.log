@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+FULL_RENDER_BUDGET_CONTROL capture_disabled root_draws=1 global_draws=1 global_primitives=12 budgets={ "texture": true, "draw_calls": true, "primitives": true, "practicals": true, "p95_60fps": false }
+FULL_RENDER_BUDGET_CONTROL reflection_draw_over_budget root_draws=1 global_draws=152 global_primitives=1824 budgets={ "texture": true, "draw_calls": false, "primitives": true, "practicals": true, "p95_60fps": false }
+FULL_RENDER_BUDGET_CONTROL reflection_primitives_over_budget root_draws=1 global_draws=2 global_primitives=321614 budgets={ "texture": true, "draw_calls": true, "primitives": false, "practicals": true, "p95_60fps": false }
+FULL_RENDER_BUDGET_CONTROL capture_disabled_again root_draws=1 global_draws=1 global_primitives=12 budgets={ "texture": true, "draw_calls": true, "primitives": true, "practicals": true, "p95_60fps": false }
+FULL_RENDER_BUDGET_CONTROL canvas_control root_draws=1 global_draws=2 global_primitives=14 budgets={ "texture": true, "draw_calls": true, "primitives": true, "practicals": true, "p95_60fps": false }
+FULL_PRODUCER_ALL_VIEWPORT_BUDGET_PASS
