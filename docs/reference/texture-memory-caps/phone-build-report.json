@@ -1,0 +1,39 @@
+{
+  "status": "built",
+  "scope": "Four runtime caps plus actual-device resource preflight; timed full-tour producer unchanged.",
+  "fixture": "/tmp/garden-memory-caps-20261010/phone-godot",
+  "apk": "/tmp/garden-memory-caps-20261010/garden-memory-full-profile.apk",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "phone-v2-import",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/phone-v2-import.log",
+      "pid": 61214,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "1f6afb48483d4997cd847c536fbb5ab3c08008392a93a71193c35c4da347bca3"
+    },
+    {
+      "name": "phone-v2-cap-check",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/phone-v2-cap-check.log",
+      "pid": 61225,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "15da963bf04d21b8d8a535d2756ab4dce826df138a508a8077a2848d6c7b084d"
+    },
+    {
+      "name": "phone-v2-export",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/phone-v2-export.log",
+      "pid": 61236,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "3f9dc24556eed070135887876932af58bf609586e0a4627777acded8a1f3ba1a"
+    }
+  ],
+  "phone_profile_build_sha256": "8ccc4ac9ed5333b6710dd1080ac722a94784f8950b8e9da7afbfacaf949970e1",
+  "apk_sha256": "a44a0b5e17469eed46a859ed84c41df6bed25e68c8b14f25b89df16be0f59d95",
+  "apk_bytes": 86547603
+}

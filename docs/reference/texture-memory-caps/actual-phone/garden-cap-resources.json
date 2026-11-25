@@ -1,0 +1,60 @@
+{
+  "build_sha256": "8ccc4ac9ed5333b6710dd1080ac722a94784f8950b8e9da7afbfacaf949970e1",
+  "device_model": "Pixel 7 Pro",
+  "errors": [],
+  "renderer_device": "Mali-G710",
+  "scope": "Actual Android loaded cap resources before timed frames; no extra scene or lighting changes.",
+  "status": "passed",
+  "textures": {
+    "gate-inscription": {
+      "mipmaps": true,
+      "readback_bytes": 463772,
+      "size": [
+        512,
+        170
+      ],
+      "stored_format": 5,
+      "stored_mip_bytes": 463772
+    },
+    "gate-inscription-normal": {
+      "mipmaps": true,
+      "readback_bytes": 347829,
+      "size": [
+        512,
+        170
+      ],
+      "stored_format": 4,
+      "stored_mip_bytes": 347829
+    },
+    "moon-paint": {
+      "mipmaps": true,
+      "readback_bytes": 1048575,
+      "size": [
+        512,
+        512
+      ],
+      "stored_format": 4,
+      "stored_mip_bytes": 1048575
+    },
+    "pavilion_basecolor": {
+      "mipmaps": true,
+      "readback_bytes": 5592404,
+      "size": [
+        1024,
+        1024
+      ],
+      "stored_format": 30,
+      "stored_mip_bytes": 699064
+    },
+    "wall_basecolor": {
+      "mipmaps": true,
+      "readback_bytes": 5592404,
+      "size": [
+        1024,
+        1024
+      ],
+      "stored_format": 30,
+      "stored_mip_bytes": 699064
+    }
+  }
+}

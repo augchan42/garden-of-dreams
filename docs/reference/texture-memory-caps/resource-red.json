@@ -1,0 +1,81 @@
+{
+ "baseline": false,
+ "errors": [
+  "Actual loaded size differs: pavilion_basecolor",
+  "Actual loaded size differs: wall_basecolor",
+  "Actual loaded size differs: gate-inscription",
+  "Actual loaded size differs: gate-inscription-normal"
+ ],
+ "modes": [
+  "normal",
+  "demo"
+ ],
+ "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+ "status": "failed",
+ "textures": {
+  "gate-inscription": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "import_sha256": "f65af507ea98f1ac5be593cd154bff49231f445bb86f939424f8343c4f010e90",
+   "loaded_size": [
+    1024,
+    341
+   ],
+   "mipmaps": true,
+   "readback_bytes": 1860508,
+   "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49",
+   "stored_format": 5,
+   "stored_mip_bytes": 1860508
+  },
+  "gate-inscription-normal": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "import_sha256": "b66a1e89c33cb162367c0d07b72a18e8ecc70d737fa10b173f052a6223ee6a96",
+   "loaded_size": [
+    1024,
+    341
+   ],
+   "mipmaps": true,
+   "readback_bytes": 1395381,
+   "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32",
+   "stored_format": 4,
+   "stored_mip_bytes": 1395381
+  },
+  "pavilion_basecolor": {
+   "bindings": {
+    "demo": 15,
+    "normal": 15
+   },
+   "import_sha256": "49fe32b525fdbd01807c21cc7f98bdb41c77f85c1e868fa46bf3727d3f35a1c2",
+   "loaded_size": [
+    2048,
+    2048
+   ],
+   "mipmaps": true,
+   "readback_bytes": 2796216,
+   "source_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+   "stored_format": 17,
+   "stored_mip_bytes": 2796216
+  },
+  "wall_basecolor": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "import_sha256": "fd37ce32f5525f0b376dd796f9daa516e7aa45b332ea11df87cd1c2f60ecf528",
+   "loaded_size": [
+    2048,
+    2048
+   ],
+   "mipmaps": true,
+   "readback_bytes": 2796216,
+   "source_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354",
+   "stored_format": 17,
+   "stored_mip_bytes": 2796216
+  }
+ }
+}
