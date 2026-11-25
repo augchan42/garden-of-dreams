@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_legacy_manifest_rejects_before_accessing_device (test_android_profile_moon_gate.CollectorMoonGateTests.test_legacy_manifest_rejects_before_accessing_device)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_profile_moon_gate.py", line 49, in test_legacy_manifest_rejects_before_accessing_device
+    with self.assertRaisesRegex(AssertionError, 'loaded moon provenance'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

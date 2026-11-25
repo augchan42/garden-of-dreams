@@ -29,6 +29,14 @@ def verify_profile_build(build, adb):
     assert fixture_record['profile_script_sha256'] == digest((ROOT / 'godot/tests/profile_android.gd').read_bytes())
     if 'inventory_script_sha256' in fixture_record:
         assert fixture_record['inventory_script_sha256'] == digest((ROOT / 'godot/tests/texture_binding_inventory.gd').read_bytes())
+    assert fixture_record.get('moon_runtime_import'), 'APK lacks loaded moon provenance; rebuild the profiler'
+    moon = fixture_record['moon_runtime_import']
+    assert moon['status'] == 'passed' and not moon['errors']
+    assert moon['loaded_size'] == [512, 512] and moon['image_bytes'] <= 1398100
+    assert moon['source_glb_sha256'] == build['source_glb_sha256']
+    assert moon['source_png_sha256'] == digest((ROOT / 'godot/assets/garden-of-dreams_moon-paint.png').read_bytes())
+    assert fixture_record['moon_check_script_sha256'] == digest((ROOT / 'godot/tests/test_moon_runtime_import.gd').read_bytes())
+    assert fixture_record['moon_paint_atlas_sha256'] == digest((ROOT / 'godot/tests/moon-paint-atlas.json').read_bytes())
     production_runtime = fixture_record.get('production_runtime_script_sha256',
                                             fixture_record.get('runtime_script_sha256', {}))
     for name, expected in production_runtime.items():

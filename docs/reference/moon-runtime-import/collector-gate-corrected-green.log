@@ -1,0 +1,16 @@
+F.......
+======================================================================
+FAIL: test_legacy_manifest_rejects_before_accessing_device (test_android_profile_moon_gate.CollectorMoonGateTests.test_legacy_manifest_rejects_before_accessing_device)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_profile_moon_gate.py", line 30, in test_legacy_manifest_rejects_before_accessing_device
+    snapshot = texture_input_snapshot(project)
+  File "/Users/auchan/projects/garden-of-dreams/scripts/android_texture_provenance.py", line 31, in texture_input_snapshot
+    assert records, 'No texture input records'
+           ^^^^^^^
+AssertionError: No texture input records
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.010s
+
+FAILED (failures=1)

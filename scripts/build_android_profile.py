@@ -8,6 +8,7 @@ import subprocess
 import tempfile
 import re
 from android_texture_provenance import texture_input_snapshot, verify_texture_inputs
+from configure_moon_paint_import import configure as configure_moon_import
 
 ROOT = Path(__file__).resolve().parents[1]
 GODOT = '/Applications/Godot.app/Contents/MacOS/Godot'
@@ -102,6 +103,9 @@ def main():
     (fixture / 'tests').mkdir()
     shutil.copy2(source / 'tests/profile_android.gd', fixture / 'tests/profile_android.gd')
     shutil.copy2(source / 'tests/texture_binding_inventory.gd', fixture / 'tests/texture_binding_inventory.gd')
+    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json']:
+        shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
+    state['moon_import_configuration'] = configure_moon_import(fixture)
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
     project = fixture / 'project.godot'
     contents = project.read_text()
@@ -123,6 +127,8 @@ script = ExtResource("1")
     build = {key: state[key] for key in ['scope', 'source_glb_sha256']}
     build.update({'profile_script_sha256': sha(fixture / 'tests/profile_android.gd'),
                   'inventory_script_sha256': sha(fixture / 'tests/texture_binding_inventory.gd'),
+                  'moon_check_script_sha256': sha(fixture / 'tests/test_moon_runtime_import.gd'),
+                  'moon_paint_atlas_sha256': sha(fixture / 'tests/moon-paint-atlas.json'),
                   'normal_atlas_size_limit': args.normal_atlas_size_limit,
                   'orm_atlas_size_limit': args.orm_atlas_size_limit,
                   'reuse_ui_font_sizes': args.reuse_ui_font_sizes,
@@ -165,6 +171,9 @@ user_data_backup/allow=false
 screen/immersive_mode=true
 ''')
     for name, command in [('mobile-texture-import', [GODOT, '--headless', '--editor', '--path', str(fixture), '--import']),
+                          ('moon-runtime-import-check', [GODOT, '--headless', '--path', str(fixture),
+                           '--script', 'res://tests/test_moon_runtime_import.gd', '--',
+                           '--output=' + str(fixture / 'moon-runtime-import-check.json')]),
                           ('apk-export', [GODOT, '--headless', '--path', str(fixture), '--export-debug', 'Android Profile', str(output)])]:
         log = fixture / (name + '.log')
         phase = {'name': name, 'status': 'running', 'log': str(log)}
@@ -196,9 +205,17 @@ screen/immersive_mode=true
                 'orm_import_sha256': {name: sha(fixture / 'assets' / (name + '.import')) for name in orm_names},
                 'inscription_import_sha256': [sha(fixture / 'assets' / ('garden-of-dreams_gate-inscription' + suffix + '.png.import')) for suffix in ['', '-normal']],
             })
-            # Pin actual finalized platform imports before exporting the manifest.
-            (fixture / 'phone-profile-build.json').write_text(json.dumps(build, indent=2) + '\n')
             state['staged_texture_inputs'] = staged_texture_inputs
+            save()
+        if name == 'moon-runtime-import-check':
+            moon = json.loads((fixture / 'moon-runtime-import-check.json').read_text())
+            assert moon['status'] == 'passed' and not moon['errors']
+            assert moon['source_glb_sha256'] == state['source_glb_sha256']
+            assert moon['source_png_sha256'] == sha(fixture / 'assets/garden-of-dreams_moon-paint.png')
+            assert moon['loaded_size'] == [512, 512]
+            build['moon_runtime_import'] = moon
+            # Pin actual finalized imports and the loaded resource before export.
+            (fixture / 'phone-profile-build.json').write_text(json.dumps(build, indent=2) + '\n')
             state['phone_profile_build_sha256'] = sha(fixture / 'phone-profile-build.json')
             save()
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
