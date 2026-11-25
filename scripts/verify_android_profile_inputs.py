@@ -7,6 +7,7 @@ import re
 import zipfile
 
 from android_texture_provenance import verify_texture_inputs
+from configure_runtime_texture_caps import verify_manifest_caps
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -33,6 +34,7 @@ def verify(build_path, inventory_path, previous_path=None):
     assert sha(manifest_path) == build['phone_profile_build_sha256']
     verify_texture_inputs(ROOT/'godot', manifest['production_texture_inputs'], 'Production')
     verify_texture_inputs(fixture, manifest['staged_texture_inputs'], 'Staged')
+    verify_manifest_caps(ROOT/'godot', fixture, manifest)
     payloads, imports, generated = {}, [], []
     with zipfile.ZipFile(build['apk']) as package:
         names = set(package.namelist())

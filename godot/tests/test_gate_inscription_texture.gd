@@ -36,11 +36,10 @@ func run() -> void:
   var texture = load("res://assets/garden-of-dreams_gate-inscription" + suffix + ".png") as Texture2D
   assert(texture != null)
   if not capture_only:
-   if texture.get_width() > 1024 or texture.get_height() > 1024:
-    push_error("Entrance inscription exceeds 1024px runtime cap")
+   if texture.get_size() != Vector2(512, 170):
+    push_error("Entrance inscription differs from reviewed 512x170 runtime cap")
     quit(1)
     return
-   assert(abs(float(texture.get_width()) / texture.get_height() - 3.0) < 0.01, "Inscription aspect ratio changed")
    assert(texture.get_image().has_mipmaps(), "Inscription needs mipmaps")
    assert(not texture.get_image().is_compressed(), "Inscription must retain lossless pixels")
   textures.append(texture)
@@ -82,7 +81,7 @@ func run() -> void:
  var file = FileAccess.open(folder + "/report.json", FileAccess.WRITE)
  file.store_string(JSON.stringify(report, "  "))
  file.close()
- print("GATE_INSCRIPTION_TEXTURE_PASS ", "capture-only" if capture_only else "1024px lossless mipmapped", " source=", report.source_glb_sha256)
+ print("GATE_INSCRIPTION_TEXTURE_PASS ", "capture-only" if capture_only else "512x170 lossless mipmapped", " source=", report.source_glb_sha256)
  route.queue_free()
  await process_frame
  quit(0)

@@ -7,6 +7,7 @@ import struct
 import subprocess
 import re
 from android_texture_provenance import verify_texture_inputs
+from configure_runtime_texture_caps import verify_manifest_caps, SIZES
 
 ROOT = Path(__file__).resolve().parents[1]
 ADB = Path.home() / 'Library/Android/sdk/platform-tools/adb'
@@ -15,6 +16,18 @@ PACKAGE = 'org.godotengine.gardendreams.profile'
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
+
+
+def verify_device_caps(proof):
+    assert isinstance(proof, dict) and proof.get('status') == 'passed' and proof.get('errors') == [], 'Actual Android cap proof missing or failed'
+    assert proof.get('modes') == ['demo'], 'Actual Android cap demo binding proof missing'
+    textures = proof.get('textures', {})
+    assert set(textures) == set(SIZES), 'Actual Android cap texture set differs'
+    for name, (width, height, footprint, formats, count) in SIZES.items():
+        record = textures[name]
+        assert record.get('loaded_size') == [width, height] and record.get('mipmaps') is True, 'Actual Android cap size or mips differ: ' + name
+        assert record.get('stored_format') in formats and record.get('stored_mip_bytes') == footprint, 'Actual Android cap format or footprint differs: ' + name
+        assert record.get('bindings') == {'demo': count}, 'Actual Android cap active material bindings differ: ' + name
 
 
 def verify_profile_build(build, adb):
@@ -41,6 +54,7 @@ def verify_profile_build(build, adb):
     writer = 'tests/profile_report_store.gd'
     assert fixture_record['report_store_script_sha256'] == digest((ROOT / 'godot' / writer).read_bytes()), 'Production report writer changed after APK build'
     assert fixture_record['report_store_script_sha256'] == digest((Path(build['fixture']) / writer).read_bytes()), 'Staged report writer changed after APK build'
+    verify_manifest_caps(ROOT / 'godot', Path(build['fixture']), fixture_record)
     production_runtime = fixture_record.get('production_runtime_script_sha256',
                                             fixture_record.get('runtime_script_sha256', {}))
     for name, expected in production_runtime.items():
@@ -79,6 +93,7 @@ def main():
     assert report['status'] == 'ready_for_taps', report['status']
     assert report['source_glb_sha256'] == build['source_glb_sha256']
     assert report['build'] == fixture_record
+    verify_device_caps(report.get('runtime_texture_caps'))
     assert set(report['samples']) == {'cell', 'cell_to_gate', 'gate', 'gate_to_pavilion', 'pavilion'}
     assert all(s['frames'] > 0 and s['visible_draw_calls_max'] > 0 for s in report['samples'].values())
     payloads = {'garden-phone-profile.json': raw, 'build.json': build_path.read_bytes()}

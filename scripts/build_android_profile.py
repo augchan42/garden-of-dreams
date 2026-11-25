@@ -9,6 +9,7 @@ import tempfile
 import re
 from android_texture_provenance import texture_input_snapshot, verify_texture_inputs
 from configure_moon_paint_import import configure as configure_moon_import
+from configure_runtime_texture_caps import configure as configure_runtime_caps, verify_loaded_caps, verify_manifest_caps
 
 ROOT = Path(__file__).resolve().parents[1]
 GODOT = '/Applications/Godot.app/Contents/MacOS/Godot'
@@ -103,9 +104,11 @@ def main():
     (fixture / 'tests').mkdir()
     shutil.copy2(source / 'tests/profile_android.gd', fixture / 'tests/profile_android.gd')
     shutil.copy2(source / 'tests/texture_binding_inventory.gd', fixture / 'tests/texture_binding_inventory.gd')
-    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd']:
+    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd',
+                 'runtime_texture_caps.gd', 'test_runtime_texture_caps.gd']:
         shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
     state['moon_import_configuration'] = configure_moon_import(fixture)
+    state['runtime_caps_configuration'] = configure_runtime_caps(fixture)
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
     project = fixture / 'project.godot'
     contents = project.read_text()
@@ -128,6 +131,7 @@ script = ExtResource("1")
     build.update({'profile_script_sha256': sha(fixture / 'tests/profile_android.gd'),
                   'report_store_script_sha256': sha(fixture / 'tests/profile_report_store.gd'),
                   'inventory_script_sha256': sha(fixture / 'tests/texture_binding_inventory.gd'),
+                  'runtime_caps_script_sha256': {name: sha(source / 'tests' / name) for name in ['runtime_texture_caps.gd', 'test_runtime_texture_caps.gd']},
                   'moon_check_script_sha256': sha(fixture / 'tests/test_moon_runtime_import.gd'),
                   'moon_paint_atlas_sha256': sha(fixture / 'tests/moon-paint-atlas.json'),
                   'normal_atlas_size_limit': args.normal_atlas_size_limit,
@@ -175,6 +179,9 @@ screen/immersive_mode=true
                           ('moon-runtime-import-check', [GODOT, '--headless', '--path', str(fixture),
                            '--script', 'res://tests/test_moon_runtime_import.gd', '--',
                            '--output=' + str(fixture / 'moon-runtime-import-check.json')]),
+                          ('runtime-texture-cap-check', [GODOT, '--headless', '--path', str(fixture),
+                           '--script', 'res://tests/test_runtime_texture_caps.gd', '--',
+                           '--output=' + str(fixture / 'runtime-texture-caps.json')]),
                           ('apk-export', [GODOT, '--headless', '--path', str(fixture), '--export-debug', 'Android Profile', str(output)])]:
         log = fixture / (name + '.log')
         phase = {'name': name, 'status': 'running', 'log': str(log)}
@@ -215,7 +222,13 @@ screen/immersive_mode=true
             assert moon['source_png_sha256'] == sha(fixture / 'assets/garden-of-dreams_moon-paint.png')
             assert moon['loaded_size'] == [512, 512]
             build['moon_runtime_import'] = moon
-            # Pin actual finalized imports and the loaded resource before export.
+            save()
+        if name == 'runtime-texture-cap-check':
+            caps = json.loads((fixture / 'runtime-texture-caps.json').read_text())
+            verify_loaded_caps(fixture, caps)
+            build['runtime_texture_caps'] = caps
+            verify_manifest_caps(source, fixture, build)
+            # Pin finalized imports, generated pixels and active bindings before export.
             (fixture / 'phone-profile-build.json').write_text(json.dumps(build, indent=2) + '\n')
             state['phone_profile_build_sha256'] = sha(fixture / 'phone-profile-build.json')
             save()
@@ -230,6 +243,7 @@ screen/immersive_mode=true
         assert sha(source / 'runtime' / name) == expected, 'Production runtime changed: ' + name
     for name, expected in production_renderer_hashes.items():
         assert sha(source / name) == sha(fixture / name) == expected, 'Renderer changed: ' + name
+    verify_manifest_caps(source, fixture, build)
     state['apk_sha256'] = sha(output)
     state['apk_bytes'] = output.stat().st_size
     state['status'] = 'built'

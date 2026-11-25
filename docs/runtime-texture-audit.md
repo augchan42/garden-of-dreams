@@ -4,9 +4,15 @@ The installed `b4b322c2…` scene was inspected with the native Godot 4.7.2 Comp
 
 The inventory covers active 3D material bindings, retained flora detail meshes and actual renderer texture allocation. It records no frame timings. Image-data totals exclude renderer padding, render targets, shadow maps and UI; the renderer's allocation total includes those resources. Normal exploration visits all fourteen arrival views; the demo visits its three arrivals. This does not replace continuous traversal or target-phone measurements.
 
-## Entrance inscription
+## Current runtime caps — 2026-10-10
 
-The color image and recessed normal image were both imported at their full 2172 × 724 resolution without compression. Together their mipmapped readbacks occupied 14,674,436 bytes. They now use aligned, lossless, mipmapped 1024 × 341 imports, occupying 3,255,889 bytes. Original PNGs, alpha, geometry, UVs and source lighting are unchanged. Automatic compression detection is disabled for this pair.
+Pavilion/wall basecolors now import at 1024², with the lossless gate color/normal pair at 512×170. Source artwork, scene geometry and lighting are retained. Mandatory actual-size, format, mip, active-use and generated-cache checks protect native builds and phone collection. All 44 native arrivals/close views reproduce the reviewed candidate; the fresh phone demo stays at 54.01 MiB through five actual touch stages. Frame timing still fails. The preceding isolated full-garden comparison peaked at 62.29 MiB; fresh adopted-source sustained verification remains required. See [adoption evidence](reference/runtime-texture-caps/README.md).
+
+The sections below retain earlier source-specific measurements and comparisons.
+
+## Entrance inscription — historical 1024px comparison
+
+The color image and recessed normal image were both imported at their full 2172 × 724 resolution without compression. Together their mipmapped readbacks occupied 14,674,436 bytes. That earlier comparison uses aligned, lossless, mipmapped 1024 × 341 imports, occupying 3,255,889 bytes. Original PNGs, alpha, geometry, UVs and source lighting are unchanged. Automatic compression detection is disabled for this pair.
 
 | Mode | Before | After | Saving |
 | --- | ---: | ---: | ---: |
@@ -24,7 +30,7 @@ The current inventories contain 88 unique bound texture RIDs in the demo and 174
 `export/gate-inscription-runtime-cap.json` records source/artwork/import hashes, image comparisons and actual allocation changes. Baseline and capped native images, reports and inventories are preserved in `reference/gate-inscription-runtime-b4/`. The independent current inventories are `export/runtime-texture-inventory-{normal,demo}.json`.
 
 ```sh
-python3 scripts/configure_gate_inscription_imports.py
+python3 scripts/configure_runtime_texture_caps.py --report /tmp/runtime-caps.json
 /Applications/Godot.app/Contents/MacOS/Godot --headless --editor --path godot --import
 /Applications/Godot.app/Contents/MacOS/Godot --path godot --script tests/test_gate_inscription_texture.gd
 /Applications/Godot.app/Contents/MacOS/Godot --path godot --script tests/audit_runtime_textures.gd

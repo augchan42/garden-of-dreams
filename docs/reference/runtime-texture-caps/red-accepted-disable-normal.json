@@ -1,0 +1,91 @@
+{
+ "control_mutations": {
+  "demo": 1,
+  "normal": 1
+ },
+ "errors": [],
+ "modes": [
+  "normal",
+  "demo"
+ ],
+ "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+ "status": "passed",
+ "textures": {
+  "gate-inscription": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "cache_payloads": {
+    ".godot/imported/garden-of-dreams_gate-inscription.png-f3680918afe7f6a7134298c27603fcb0.ctex": "420d6432bdef99d0dcacd6df7e41e1a95a7039903c0bccd4c6b2b08daa501453"
+   },
+   "import_sha256": "a02cf81ea054d7093c4cc2ad29f2f50c65a0fb753bba5f3856029b7e15a27d98",
+   "loaded_size": [
+    512,
+    170
+   ],
+   "mipmaps": true,
+   "readback_bytes": 463772,
+   "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49",
+   "stored_format": 5,
+   "stored_mip_bytes": 463772
+  },
+  "gate-inscription-normal": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "cache_payloads": {
+    ".godot/imported/garden-of-dreams_gate-inscription-normal.png-745468290ec7fca8f620f85bf6c27fad.ctex": "75fd751a9e1e008c6c20a1ce3f1ab1f051ba85cf86b50605b6d085739f848d7b"
+   },
+   "import_sha256": "61ac9ec9dd7efe122bf36efaca5991d493a0f90be670097a2b883b3660e57786",
+   "loaded_size": [
+    512,
+    170
+   ],
+   "mipmaps": true,
+   "readback_bytes": 347829,
+   "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32",
+   "stored_format": 4,
+   "stored_mip_bytes": 347829
+  },
+  "pavilion_basecolor": {
+   "bindings": {
+    "demo": 15,
+    "normal": 15
+   },
+   "cache_payloads": {
+    ".godot/imported/garden-of-dreams_pavilion_basecolor.png-44272d91ed5d1bd6f395fe5ecb56b2c9.s3tc.ctex": "934682e471248deab094a09afe8d6d5e61f376198f0d99e3fee10e03857b7bd7"
+   },
+   "import_sha256": "f39f0df20e9fc692bf86bc372662068050c3f712213e9014561516b374a2c999",
+   "loaded_size": [
+    1024,
+    1024
+   ],
+   "mipmaps": true,
+   "readback_bytes": 699064,
+   "source_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa",
+   "stored_format": 17,
+   "stored_mip_bytes": 699064
+  },
+  "wall_basecolor": {
+   "bindings": {
+    "demo": 1,
+    "normal": 1
+   },
+   "cache_payloads": {
+    ".godot/imported/garden-of-dreams_wall_basecolor.png-1530a4bf6ab5d616f7c90714f27ee4a0.s3tc.ctex": "0fc1a929a9d9f097097c839a59cf61919eb57fef0d0a0af6fa20600760f68ee0"
+   },
+   "import_sha256": "73295f2948ee1605544b026ece51b0dde7d1646b9b957de10bfe51cd88ef1164",
+   "loaded_size": [
+    1024,
+    1024
+   ],
+   "mipmaps": true,
+   "readback_bytes": 699064,
+   "source_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354",
+   "stored_format": 17,
+   "stored_mip_bytes": 699064
+  }
+ }
+}

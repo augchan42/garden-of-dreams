@@ -1,0 +1,41 @@
+FFF
+======================================================================
+FAIL: test_cache_path_outside_project_is_rejected_without_mutation (scripts.tests.test_configure_runtime_texture_caps.RuntimeCapConfigurationTests.test_cache_path_outside_project_is_rejected_without_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 49, in test_cache_path_outside_project_is_rejected_without_mutation
+    root = Path(temp); self.fixture(root); configure = self.configurator()
+                                                       ~~~~~~~~~~~~~~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 24, in configurator
+    self.assertTrue(path.exists(), 'Runtime cap configurator is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Runtime cap configurator is not implemented
+
+======================================================================
+FAIL: test_caps_rebuild_only_owned_caches_and_preserve_source (scripts.tests.test_configure_runtime_texture_caps.RuntimeCapConfigurationTests.test_caps_rebuild_only_owned_caches_and_preserve_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 30, in test_caps_rebuild_only_owned_caches_and_preserve_source
+    root = Path(temp); self.fixture(root); configure = self.configurator(); configure(root)
+                                                       ~~~~~~~~~~~~~~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 24, in configurator
+    self.assertTrue(path.exists(), 'Runtime cap configurator is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Runtime cap configurator is not implemented
+
+======================================================================
+FAIL: test_invalid_fourth_import_causes_no_partial_mutation (scripts.tests.test_configure_runtime_texture_caps.RuntimeCapConfigurationTests.test_invalid_fourth_import_causes_no_partial_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 40, in test_invalid_fourth_import_causes_no_partial_mutation
+    root = Path(temp); self.fixture(root); configure = self.configurator()
+                                                       ~~~~~~~~~~~~~~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 24, in configurator
+    self.assertTrue(path.exists(), 'Runtime cap configurator is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Runtime cap configurator is not implemented
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.015s
+
+FAILED (failures=3)

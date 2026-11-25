@@ -26,7 +26,7 @@ def main():
         '"\n[rendering]\nrenderer/rendering_method="gl_compatibility"\n')
     hashes = {}
     for filename in ['profile_android.gd', 'texture_binding_inventory.gd',
-                     'test_profile_report_publication.gd', 'profile_report_store.gd']:
+                     'test_profile_report_publication.gd', 'profile_report_store.gd', 'runtime_texture_caps.gd']:
         source = ROOT / 'godot/tests' / filename
         if source.exists():
             shutil.copy2(source, fixture / 'tests' / filename)
