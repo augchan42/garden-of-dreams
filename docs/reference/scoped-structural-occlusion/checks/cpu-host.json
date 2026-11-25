@@ -1,0 +1,277 @@
+{
+  "scope": "Owned native process CPU user+system time from macOS ps, sampled at steady-state fixture phase markers. Includes all process threads; not GPU time, phone or sustained acceptance. CPU time has0.01s resolution; host sampling lag/query cost is retained.",
+  "pid": 87756,
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/tmp/garden-occlusion-views-20261010/godot",
+    "--script",
+    "res://tests/benchmark_occlusion_cpu.gd"
+  ],
+  "phases": {
+    "terminal_room-disabled": {
+      "start": {
+        "monotonic_seconds": 1735555.804601875,
+        "process_cpu_seconds": 4.1,
+        "ps_time": "0:04.10",
+        "query_seconds": 0.008621416985988617
+      },
+      "end": {
+        "monotonic_seconds": 1735563.803989791,
+        "process_cpu_seconds": 6.46,
+        "ps_time": "0:06.46",
+        "query_seconds": 0.008361041080206633
+      },
+      "wall_seconds": 7.999387916177511,
+      "process_cpu_seconds": 2.3600000000000003,
+      "cpu_seconds_per_wall_second": 0.29502257231797313,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 160,
+        "global_primitives_max": 199017,
+        "interval_max_ms": 20.896,
+        "interval_p50_ms": 16.688,
+        "interval_p95_ms": 18.278,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "terminal_room-enabled": {
+      "start": {
+        "monotonic_seconds": 1735566.056134416,
+        "process_cpu_seconds": 7.39,
+        "ps_time": "0:07.39",
+        "query_seconds": 0.010394582990556955
+      },
+      "end": {
+        "monotonic_seconds": 1735574.054116916,
+        "process_cpu_seconds": 10.55,
+        "ps_time": "0:10.55",
+        "query_seconds": 0.009562290972098708
+      },
+      "wall_seconds": 7.997982499888167,
+      "process_cpu_seconds": 3.160000000000001,
+      "cpu_seconds_per_wall_second": 0.39509963919578295,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 46,
+        "global_primitives_max": 94945,
+        "interval_max_ms": 18.922,
+        "interval_p50_ms": 16.664,
+        "interval_p95_ms": 18.281,
+        "occlusion_active": true,
+        "sample_frames": 480
+      }
+    },
+    "terminal_room-disabled_repeat": {
+      "start": {
+        "monotonic_seconds": 1735576.304308625,
+        "process_cpu_seconds": 11.17,
+        "ps_time": "0:11.17",
+        "query_seconds": 0.009307333966717124
+      },
+      "end": {
+        "monotonic_seconds": 1735584.302513833,
+        "process_cpu_seconds": 13.25,
+        "ps_time": "0:13.25",
+        "query_seconds": 0.00846312497742474
+      },
+      "wall_seconds": 7.998205207986757,
+      "process_cpu_seconds": 2.08,
+      "cpu_seconds_per_wall_second": 0.26005834382981036,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 160,
+        "global_primitives_max": 199017,
+        "interval_max_ms": 19.623,
+        "interval_p50_ms": 16.663,
+        "interval_p95_ms": 18.546,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "rockery_gate-disabled": {
+      "start": {
+        "monotonic_seconds": 1735588.3473765,
+        "process_cpu_seconds": 14.46,
+        "ps_time": "0:14.46",
+        "query_seconds": 0.009553916985169053
+      },
+      "end": {
+        "monotonic_seconds": 1735596.342801791,
+        "process_cpu_seconds": 16.71,
+        "ps_time": "0:16.71",
+        "query_seconds": 0.0045392499305307865
+      },
+      "wall_seconds": 7.995425290893763,
+      "process_cpu_seconds": 2.25,
+      "cpu_seconds_per_wall_second": 0.2814109216382266,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 155,
+        "global_primitives_max": 165311,
+        "interval_max_ms": 20.96,
+        "interval_p50_ms": 16.67,
+        "interval_p95_ms": 17.828,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "rockery_gate-enabled": {
+      "start": {
+        "monotonic_seconds": 1735598.599466708,
+        "process_cpu_seconds": 17.65,
+        "ps_time": "0:17.65",
+        "query_seconds": 0.0107829999178648
+      },
+      "end": {
+        "monotonic_seconds": 1735606.601930125,
+        "process_cpu_seconds": 21.33,
+        "ps_time": "0:21.33",
+        "query_seconds": 0.013216709019616246
+      },
+      "wall_seconds": 8.002463416894898,
+      "process_cpu_seconds": 3.6799999999999997,
+      "cpu_seconds_per_wall_second": 0.4598583971319055,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 77,
+        "global_primitives_max": 85201,
+        "interval_max_ms": 18.608,
+        "interval_p50_ms": 16.666,
+        "interval_p95_ms": 17.859,
+        "occlusion_active": true,
+        "sample_frames": 480
+      }
+    },
+    "rockery_gate-disabled_repeat": {
+      "start": {
+        "monotonic_seconds": 1735608.846738958,
+        "process_cpu_seconds": 22.01,
+        "ps_time": "0:22.01",
+        "query_seconds": 0.00877458299510181
+      },
+      "end": {
+        "monotonic_seconds": 1735616.845793833,
+        "process_cpu_seconds": 24.23,
+        "ps_time": "0:24.23",
+        "query_seconds": 0.008109125075861812
+      },
+      "wall_seconds": 7.999054874991998,
+      "process_cpu_seconds": 2.219999999999999,
+      "cpu_seconds_per_wall_second": 0.27753278789729763,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 155,
+        "global_primitives_max": 165311,
+        "interval_max_ms": 18.733,
+        "interval_p50_ms": 16.667,
+        "interval_p95_ms": 17.548,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "qinfang_ting-disabled": {
+      "start": {
+        "monotonic_seconds": 1735620.90160175,
+        "process_cpu_seconds": 25.24,
+        "ps_time": "0:25.24",
+        "query_seconds": 0.008606083923950791
+      },
+      "end": {
+        "monotonic_seconds": 1735628.907003375,
+        "process_cpu_seconds": 27.35,
+        "ps_time": "0:27.35",
+        "query_seconds": 0.012496167095378041
+      },
+      "wall_seconds": 8.005401625065133,
+      "process_cpu_seconds": 2.110000000000003,
+      "cpu_seconds_per_wall_second": 0.26357203533593304,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 135,
+        "global_primitives_max": 147217,
+        "interval_max_ms": 18.861,
+        "interval_p50_ms": 16.668,
+        "interval_p95_ms": 17.833,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "qinfang_ting-enabled": {
+      "start": {
+        "monotonic_seconds": 1735631.151831416,
+        "process_cpu_seconds": 27.97,
+        "ps_time": "0:27.97",
+        "query_seconds": 0.009997790912166238
+      },
+      "end": {
+        "monotonic_seconds": 1735639.153452458,
+        "process_cpu_seconds": 30.29,
+        "ps_time": "0:30.29",
+        "query_seconds": 0.009527208050712943
+      },
+      "wall_seconds": 8.001621042145416,
+      "process_cpu_seconds": 2.3200000000000003,
+      "cpu_seconds_per_wall_second": 0.28994124912693386,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 135,
+        "global_primitives_max": 147217,
+        "interval_max_ms": 18.735,
+        "interval_p50_ms": 16.668,
+        "interval_p95_ms": 18.492,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    },
+    "qinfang_ting-disabled_repeat": {
+      "start": {
+        "monotonic_seconds": 1735641.402027125,
+        "process_cpu_seconds": 30.95,
+        "ps_time": "0:30.95",
+        "query_seconds": 0.008648375049233437
+      },
+      "end": {
+        "monotonic_seconds": 1735649.401193333,
+        "process_cpu_seconds": 33.18,
+        "ps_time": "0:33.18",
+        "query_seconds": 0.00802675005979836
+      },
+      "wall_seconds": 7.999166208086535,
+      "process_cpu_seconds": 2.2300000000000004,
+      "cpu_seconds_per_wall_second": 0.2787790554652613,
+      "native": {
+        "automatic_render_frames": 480,
+        "global_draw_calls_max": 135,
+        "global_primitives_max": 147217,
+        "interval_max_ms": 18.81,
+        "interval_p50_ms": 16.669,
+        "interval_p95_ms": 18.104,
+        "occlusion_active": false,
+        "sample_frames": 480
+      }
+    }
+  },
+  "exit_code": 0,
+  "pairs": {
+    "terminal_room": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.2775404580738917,
+      "candidate_cpu_seconds_per_wall_second": 0.39509963919578295,
+      "candidate_over_baseline": 1.4235749336790118,
+      "baseline_repeat_ratio": 0.8814862598022548
+    },
+    "rockery_gate": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.27947185476776215,
+      "candidate_cpu_seconds_per_wall_second": 0.4598583971319055,
+      "candidate_over_baseline": 1.6454551300489364,
+      "baseline_repeat_ratio": 0.9862189650694702
+    },
+    "qinfang_ting": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.2711755454005972,
+      "candidate_cpu_seconds_per_wall_second": 0.28994124912693386,
+      "candidate_over_baseline": 1.0692013127460105,
+      "baseline_repeat_ratio": 1.0576958785098212
+    }
+  }
+}

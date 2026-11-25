@@ -1,0 +1,12 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+OCCLUSION_PUBLIC_LEG_PASS 0 frames=639
+OCCLUSION_PUBLIC_LEG_PASS 1 frames=1095
+OCCLUSION_PUBLIC_LEG_PASS 2 frames=848
+OCCLUSION_PUBLIC_LEG_PASS 3 frames=641
+SCOPED_PUBLIC_ACTUAL_PRODUCER {"active_practicals_max":4,"frame_costs":{"monitors":{"enabled_viewports_cpu_plus_setup_ms":{"max_ms":293.285005859375,"median_ms":1.76300002098083,"p95_ms":3.64399994850159,"positive_samples":3643,"samples":3643,"status":"observed"},"frame_setup_cpu_ms":{"max_ms":0.11,"median_ms":0.015,"p95_ms":0.048,"positive_samples":3643,"samples":3643,"status":"observed"},"physics_monitor_ms":{"max_ms":5.907,"median_ms":0.712,"p95_ms":2.311,"positive_samples":3643,"samples":3643,"status":"observed"},"process_monitor_ms":{"max_ms":295.379,"median_ms":9.87,"p95_ms":31.553,"positive_samples":3643,"samples":3643,"status":"observed"}},"scope":"Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.","viewports":{"/root":{"cpu_ms":{"max_ms":293.281005859375,"median_ms":1.74500000476837,"p95_ms":3.61999988555908,"positive_samples":3638,"samples":3643,"status":"observed"},"gpu_ms":{"max_ms":0.0,"median_ms":0.0,"p95_ms":0.0,"positive_samples":0,"samples":3643,"status":"unavailable_all_zero"},"observations":3643,"size":[1410,600],"update_enabled_observations":3643,"update_modes":{"-1":true}},"/root/GardenEntryRoute/PondReflection/ReflectionCapture":{"cpu_ms":{"positive_samples":0,"samples":0,"status":"not_sampled"},"gpu_ms":{"positive_samples":0,"samples":0,"status":"not_sampled"},"observations":3643,"size":[768,327],"update_enabled_observations":0,"update_modes":{"0":true}}}},"frame_interval_median_ms":16.657,"frame_interval_p95_ms":18.057,"frames":3643,"global_draw_calls_max":139,"global_primitives_max":163427,"texture_memory_bytes":41203025,"visible_draw_calls_max":105,"visible_primitives_max":163399}
+SCRIPT ERROR: Invalid access to property or key 'draw_calls_ok' on a base object of type 'Dictionary'.
+          at: run (res://tests/capture_scoped_occlusion_views.gd:84)
+          GDScript backtrace (most recent call first):
+              [0] run (res://tests/capture_scoped_occlusion_views.gd:84)
