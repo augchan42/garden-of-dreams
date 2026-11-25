@@ -6,6 +6,8 @@ The inventory covers active 3D material bindings, retained flora detail meshes a
 
 ## Current runtime caps — 2026-10-10
 
+The cyclorama wash now imports losslessly at 256×256. This removes compression blocks in the dim backdrop lighting while retaining the original bake pixels, geometry and painted surface. Its loaded RGB8 resource is checked before wash materials are applied; the Android builder invalidates only this texture's generated cache and preserves the lossless setting. All 28 installed desktop/portrait arrivals reproduce the reviewed candidate. Native renderer allocation increases by 218,439 bytes. The rebuilt full profiler is verified but uninstalled; Android allocation and uninterrupted phone timing remain pending. See [lossless wash evidence](reference/lossless-backdrop-wash/README.md).
+
 Pavilion/wall basecolors now import at 1024², with the lossless gate color/normal pair at 512×170. Source artwork, scene geometry and lighting are retained. Mandatory actual-size, format, mip, active-use and generated-cache checks protect native builds and phone collection. All 44 native arrivals/close views reproduce the reviewed candidate; the fresh phone demo stays at 54.01 MiB through five actual touch stages. Frame timing still fails. The preceding isolated full-garden comparison peaked at 62.29 MiB; fresh adopted-source sustained verification remains required. See [adoption evidence](reference/runtime-texture-caps/README.md).
 
 The sections below retain earlier source-specific measurements and comparisons.

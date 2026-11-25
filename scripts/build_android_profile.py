@@ -10,6 +10,7 @@ import re
 from android_profile_modes import dependencies, producer, snapshot as profile_snapshot, verify as verify_profile_scripts
 from android_texture_provenance import texture_input_snapshot, verify_texture_inputs
 from configure_moon_paint_import import configure as configure_moon_import
+from configure_backdrop_wash_import import configure as configure_wash_import
 from configure_runtime_texture_caps import configure as configure_runtime_caps, verify_loaded_caps, verify_manifest_caps
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,7 +65,7 @@ def main():
     shutil.copytree(source, fixture, dirs_exist_ok=True, ignore=shutil.ignore_patterns('.godot', 'android', 'tests'))
     runtime_names = ['entry_route.gd', 'reading_result.gd', 'demo_finale.gd', 'baked_materials.gd']
     production_runtime_hashes = {name: sha(source / 'runtime' / name) for name in runtime_names}
-    renderer_paths = ['runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader']
+    renderer_paths = ['runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader', 'runtime/backdrop_wash.gd']
     production_renderer_hashes = {name: sha(source / name) for name in renderer_paths}
     state['production_renderer_files_sha256'] = production_renderer_hashes
     if args.reuse_ui_font_sizes:
@@ -111,6 +112,7 @@ def main():
                  'runtime_texture_caps.gd', 'test_runtime_texture_caps.gd']:
         shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
     state['moon_import_configuration'] = configure_moon_import(fixture)
+    state['backdrop_wash_import_configuration'] = configure_wash_import(fixture)
     state['runtime_caps_configuration'] = configure_runtime_caps(fixture)
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
     project = fixture / 'project.godot'

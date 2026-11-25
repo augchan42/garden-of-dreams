@@ -59,6 +59,8 @@ Use the report's `buttons` screen centers for real touch checks. Collections req
 
 ## Reusable full-garden profiling
 
+The current lossless-backdrop build is `735bf87be0221775c40e308268b61696c71ddb5b93ad66e39b017bb14171bf20` (86,531,491 bytes). Four build phases, 177 bound texture imports, seven compiled profiler dependencies, the imported scene and current/staged renderer hashes pass verification. It has not been installed. The prior `9dde9d…` package is historical after the wash import/runtime guard change. Keep the phone availability requirement before installation or foreground actions. See [current build and native evidence](reference/lossless-backdrop-wash/README.md).
+
 The builder accepts `--mode full` for the normal fourteen-room route. The full producer uses the canonical public commands, records every grounded floor ray, waits for each camera to settle and completes at least two whole tours with at least 600 timed seconds. Image readback happens after each timed phase. Normal time scale, 60 Hz physics and the 60 fps cap are checked; a completed tour can still fail performance budgets.
 
 The staged build records every profiler dependency. Before collection, current source scripts, imported texture inputs, enabled material bindings, generated cache files and the installed APK must match. APK inspection also verifies the actual compiled script remaps and imported scene payload. All 53 two-tour captures require the exact expected filename, published hash, dimensions and room. The collector checks coverage, command order, arrival signals, floor support and every budget result. It preserves failed budgets.

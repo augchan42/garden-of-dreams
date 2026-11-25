@@ -1,0 +1,485 @@
+{
+  "scope": "Lossless cyclorama wash adoption; native resource/pixel/allocation proof and current-source Android debug build. Actual Android/sustained/final-art/release acceptance pending.",
+  "files": {
+    "README.md": {
+      "sha256": "1378f2391d7b17b5e80119b04fc4f4d56f4e4750811ee66c518f98c2f043e568",
+      "bytes": 5263
+    },
+    "android/android-build.json": {
+      "sha256": "6d24d2f2215798a236ce05d2ab62e8d90e0ad085a9af09d9c61243418716ba71",
+      "bytes": 254503
+    },
+    "android/android-builder.log": {
+      "sha256": "84f5b29bf693667cac304c079686cfd9d2a14e91a52100d8af9f48cf7efbc0d7",
+      "bytes": 100
+    },
+    "android/android-payload-verification.json": {
+      "sha256": "8723a94ede80f628c6190ff9e77b95067e13019c6a19e702dd64c06c80138a69",
+      "bytes": 33051
+    },
+    "android/android-payload-verification.log": {
+      "sha256": "3bc33ea2ba97aed5bf360698b6e5107e883f9929aa63b944e02ea49554219847",
+      "bytes": 56
+    },
+    "android/android-renderer-verification.json": {
+      "sha256": "757b470eb62b959d23395d5292177a41aedb22277a841e6cddd7a3f891404f44",
+      "bytes": 760
+    },
+    "android/logs/apk-export.log": {
+      "sha256": "5c9a18cbe8d9c4419dcae36f444db07c863bbc4e8ed037ddf50200326c8c19e7",
+      "bytes": 5991
+    },
+    "android/logs/mobile-texture-import.log": {
+      "sha256": "d0308655171eb9973bca75c4024e4811fa48cf9ce7fdff4a45b2a73d987ec293",
+      "bytes": 98262
+    },
+    "android/logs/moon-runtime-import-check.log": {
+      "sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e",
+      "bytes": 145
+    },
+    "android/logs/runtime-texture-cap-check.log": {
+      "sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6",
+      "bytes": 159
+    },
+    "android/phone-profile-build.json": {
+      "sha256": "4871bbd6b74bfa8ce1f4ddf742cf87941a96894012a6f112f76ee128b0165045",
+      "bytes": 253475
+    },
+    "checks/adoption-summary.json": {
+      "sha256": "b9d21fa5cc89192216dd8ad8e4c0f4453eabe42d22599959cf2b1bba82575930",
+      "bytes": 1861
+    },
+    "checks/configure-red.log": {
+      "sha256": "7bc11829b9c20611d03159a175d842439d3afc2113997fc860f6cd01b39f92b0",
+      "bytes": 1063
+    },
+    "checks/installed-arrivals-comparison.json": {
+      "sha256": "01a7794c34aff4443128b33f34178d18d264fd5910a2bbddf8066c31d3e31667",
+      "bytes": 5944
+    },
+    "checks/installed-arrivals-desktop.log": {
+      "sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e",
+      "bytes": 533
+    },
+    "checks/installed-arrivals-portrait.log": {
+      "sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c",
+      "bytes": 631
+    },
+    "checks/installed-baked-wash-demo.log": {
+      "sha256": "2595d912abf4d24528b0aef91cf25effa700a5c5d2d765e203cceed791a75827",
+      "bytes": 245
+    },
+    "checks/installed-baked-wash-normal.log": {
+      "sha256": "2595d912abf4d24528b0aef91cf25effa700a5c5d2d765e203cceed791a75827",
+      "bytes": 245
+    },
+    "checks/installed-checks.json": {
+      "sha256": "3ad37c75a125fb056a95991ecfb6c3ebedf37ef9f761a401c1d1349159b4ccc0",
+      "bytes": 2998
+    },
+    "checks/installed-moon-resource.json": {
+      "sha256": "e31c33cfa0feaeb82d1caf4db499238820b7f8b87299bd00e621e3ac40b64114",
+      "bytes": 316
+    },
+    "checks/installed-moon-resource.log": {
+      "sha256": "84e6b4052cb4e28a4e259ea5ac0e8e6a920cd3b53db91eff11502b81113a4789",
+      "bytes": 226
+    },
+    "checks/installed-runtime-caps.json": {
+      "sha256": "54b94279657999da8ac22bee6bbad24a7f363f40ecfe17168320aeec9e57521c",
+      "bytes": 2667
+    },
+    "checks/installed-runtime-caps.log": {
+      "sha256": "75a8788f214c2358667ef363e5607163133afa8300ed8bf85352e0086c2ef0b6",
+      "bytes": 240
+    },
+    "checks/installed-source-preservation.json": {
+      "sha256": "1f253fe81e028709683ae358ded394dbd137a140e6b80300a1fd32dcc9076dd7",
+      "bytes": 298547
+    },
+    "checks/installed-texture-inventory-native.log": {
+      "sha256": "d0c67f92e1757bfe16d86dc0ebc84f946543d5fb03a21fd972752b22a032b899",
+      "bytes": 250
+    },
+    "checks/installed-texture-inventory.json": {
+      "sha256": "b0fea19d81068f28a3fabc1b0823682aa4d5b333b79f1e7e34d7ca26bb00fdc8",
+      "bytes": 109152
+    },
+    "checks/installed-texture-inventory.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "checks/installed-wash-resource.json": {
+      "sha256": "253e8cccf8fceb74ee7676f840773f6c5377d4b9ce8571d63768fbe012a8065d",
+      "bytes": 314
+    },
+    "checks/installed-wash-resource.log": {
+      "sha256": "3c5d027385b193b3ae7416a97bdc2f9b4018e4ae1c9c1e7ca77d76ce50097b5e",
+      "bytes": 251
+    },
+    "checks/lossless-resource-green.json": {
+      "sha256": "253e8cccf8fceb74ee7676f840773f6c5377d4b9ce8571d63768fbe012a8065d",
+      "bytes": 314
+    },
+    "checks/lossless-resource-green.log": {
+      "sha256": "3c5d027385b193b3ae7416a97bdc2f9b4018e4ae1c9c1e7ca77d76ce50097b5e",
+      "bytes": 251
+    },
+    "checks/production-configuration.json": {
+      "sha256": "5cc4bf73ea50a2e612fd44a1283d5d01c7d500c8a9331696af8b012e6a896ec9",
+      "bytes": 1095
+    },
+    "checks/production-import.log": {
+      "sha256": "55aa0b3c88c0db77279354d0aab61862b4bd728ee292c76b6c4c667ed385f501",
+      "bytes": 2420
+    },
+    "checks/python-green.log": {
+      "sha256": "408fdefe5057160eefb7d862c095512197323a4fadb3e5176adc517df863bae5",
+      "bytes": 124
+    },
+    "checks/python-suite-final.log": {
+      "sha256": "f388a6fa6267a15e6699f55d85a6139283ae756dfea27c897582850c992984a6",
+      "bytes": 124
+    },
+    "checks/resource-red.json": {
+      "sha256": "422a1001a85002c57c73d7652cdbdfae5afdc10a1a54602e0f738349a0719aba",
+      "bytes": 411
+    },
+    "checks/resource-red.log": {
+      "sha256": "bb18c09ae40cabb0203e68ca23ebe4b3b12f86e95715407bc900efdd551108a1",
+      "bytes": 370
+    },
+    "checks/resource-rejection-green.json": {
+      "sha256": "2395f42736cb4b6b4449a5c3a2e87ec4737c0672daeb6c5c58f8f53d8e062a14",
+      "bytes": 316
+    },
+    "checks/resource-rejection-green.log": {
+      "sha256": "6d40e515d2f34cf7e0acb617d2b9af5ff3438ca07d3917d9fb16c5b5e878ae6f",
+      "bytes": 762
+    },
+    "checks/run-installed-checks.py": {
+      "sha256": "6e45fd9f196e7139ca098cc3734a802c162029c7c275993f3924ee43789d7176",
+      "bytes": 1909
+    },
+    "diagnosis/all-arrivals-comparison.json": {
+      "sha256": "53888b78f98f940d5da267f6b5007aefd6f19445338730e5cae19535523150f6",
+      "bytes": 10420
+    },
+    "diagnosis/allocation-comparison.json": {
+      "sha256": "1f942e9d770f548941e31dcdf73da32c430c38e516a4b86bf037025c830e8251",
+      "bytes": 598
+    },
+    "diagnosis/candidate-source-preservation.json": {
+      "sha256": "06b51eb4241a38b4fc8a8c7ddf8e800bc316aaeb6622644acd941b5461c0a988",
+      "bytes": 517
+    },
+    "diagnosis/compressed256/baseline-repeat.png": {
+      "sha256": "ac6daa2eea8fcd33653fd9cc8f7e97b5d4372342d867c4fd24c6a31e10208a96",
+      "bytes": 283742
+    },
+    "diagnosis/compressed256/baseline.png": {
+      "sha256": "ac6daa2eea8fcd33653fd9cc8f7e97b5d4372342d867c4fd24c6a31e10208a96",
+      "bytes": 283742
+    },
+    "diagnosis/compressed256/cyclorama-no-ordinary.png": {
+      "sha256": "ac6daa2eea8fcd33653fd9cc8f7e97b5d4372342d867c4fd24c6a31e10208a96",
+      "bytes": 283742
+    },
+    "diagnosis/compressed256/cyclorama-no-paint.png": {
+      "sha256": "10d2e6838628f4e139a5440fe3393daa859e09dafa44e92e27a21f1a1be39a8b",
+      "bytes": 272144
+    },
+    "diagnosis/compressed256/cyclorama-no-wash.png": {
+      "sha256": "60f6cf0870a196f4ee688016d42e472682baf2e5912486db93b0fbf918c319ca",
+      "bytes": 272703
+    },
+    "diagnosis/compressed256/no-moon.png": {
+      "sha256": "1d6c1a905dd2634ef9fe5ec66d46afc8c8a9d4bd84162110e66ab98ece0cc143",
+      "bytes": 276273
+    },
+    "diagnosis/compressed256/report.json": {
+      "sha256": "eb8767536e40378d953ab429fde5e9ac6c76d37d69c1ccac1b68e64dbc95b4d8",
+      "bytes": 1554
+    },
+    "diagnosis/conclusion.json": {
+      "sha256": "ad9577ec0cda1c1bb928f98290b677f922f3b433b1efd905842eb540b0460a08",
+      "bytes": 904
+    },
+    "diagnosis/current-baseline-texture-inventory.json": {
+      "sha256": "e4381a16661ec6d1ff2a4be245bb58e4670404ecca340a32f3a75a6bbb2d4363",
+      "bytes": 109152
+    },
+    "diagnosis/current-baseline-texture-inventory.log": {
+      "sha256": "ea5ebec9eb827a3ae4478f008fdda3139b37b897cb6813fb150473b758083db6",
+      "bytes": 250
+    },
+    "diagnosis/diagnose-backdrop-baseline.gd": {
+      "sha256": "2ef1a84e5c312200c6068da5b7d4d470e89f50090caf82d23cbde774a59ea072",
+      "bytes": 3195
+    },
+    "diagnosis/diagnose_backdrop_seam.attempt1.gd": {
+      "sha256": "89107179611a4f6b625b7d133c71c35aad0db219ce496ae55f7b31fbdb4ba82f",
+      "bytes": 3223
+    },
+    "diagnosis/diagnose_backdrop_seam.gd": {
+      "sha256": "06593b6a92900c8f446612c9665d623cc464e450c8e73fe91a7ac4561e754170",
+      "bytes": 3440
+    },
+    "diagnosis/lossless256/baseline-repeat.png": {
+      "sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14",
+      "bytes": 282124
+    },
+    "diagnosis/lossless256/baseline.png": {
+      "sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14",
+      "bytes": 282124
+    },
+    "diagnosis/lossless256/cyclorama-no-ordinary.png": {
+      "sha256": "2e7e77b89bde7ca5eadb4d99266d2a7642ecde3f9ce2768d343081d132317c14",
+      "bytes": 282124
+    },
+    "diagnosis/lossless256/cyclorama-no-paint.png": {
+      "sha256": "7800982e6d9ae678011202d976772b036722abb85657f9aabf879c3c00617f8a",
+      "bytes": 255679
+    },
+    "diagnosis/lossless256/cyclorama-no-wash.png": {
+      "sha256": "60f6cf0870a196f4ee688016d42e472682baf2e5912486db93b0fbf918c319ca",
+      "bytes": 272703
+    },
+    "diagnosis/lossless256/no-moon.png": {
+      "sha256": "e80e6a27a07eb3b809285a945e4017157b867c63afa62ee74c73a392dd7b1960",
+      "bytes": 274461
+    },
+    "diagnosis/lossless256/report.json": {
+      "sha256": "4af41adcd764412a5037ae7d6838532eb2b2d6a094dd0ae7b5903839079abee6",
+      "bytes": 1620
+    },
+    "diagnosis/lossless256-native.log": {
+      "sha256": "bcfe3f016283cf865947e09203c17facefeb5d46ee0085937477cc32d6bb6ea9",
+      "bytes": 195
+    },
+    "diagnosis/lossless256-texture-inventory.json": {
+      "sha256": "a8aad31bbf6d8d6b6d8765e0000b51569cdf84d8578ca6db13ac722e72b683cb",
+      "bytes": 109152
+    },
+    "diagnosis/lossless256-texture-inventory.log": {
+      "sha256": "d0c67f92e1757bfe16d86dc0ebc84f946543d5fb03a21fd972752b22a032b899",
+      "bytes": 250
+    },
+    "diagnosis/mesh-and-pixels.json": {
+      "sha256": "700cc4473c9994a0ff91d0bdafa0e393a7e5b90a3a15e86776040acfd17d83dd",
+      "bytes": 41857
+    },
+    "diagnosis/native-attempt2.log": {
+      "sha256": "bcfe3f016283cf865947e09203c17facefeb5d46ee0085937477cc32d6bb6ea9",
+      "bytes": 195
+    },
+    "diagnosis/native.log": {
+      "sha256": "cdc2bc7f0833ea999870e7916573498020b99cec936a0eb8db64c45d8039d418",
+      "bytes": 154
+    },
+    "diagnosis/original-wash-import.txt": {
+      "sha256": "7166d0b48244afcfae9f2f6e785f0fc964582abd2733ef83a3e8349b12f62a43",
+      "bytes": 1159
+    },
+    "diagnosis/pre-adoption-backdrop_wash.gd": {
+      "sha256": "58c671e8e1cb2ebed24db1cd26ffe69b783b07dbdd3131ccd484a1204ad9928a",
+      "bytes": 7076
+    },
+    "diagnosis/pre-adoption-baked_diffuse.gdshader": {
+      "sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+      "bytes": 3467
+    },
+    "diagnosis/wash-chart-boundaries.json": {
+      "sha256": "7afe9541bf1426004fa90f59690a8e37c3d776b307b938c98560d6114716c6c8",
+      "bytes": 50069
+    },
+    "executed-source/godot/runtime/backdrop_wash.gd": {
+      "sha256": "9f4308d05da0287afa81b08217dc0699bff41868d564f8075deac38776384803",
+      "bytes": 7486
+    },
+    "executed-source/godot/runtime/baked_materials.gd": {
+      "sha256": "49e90050303a6e20da9a03520da6264a010ca5b20e2cca422ec93997bca4d7dc",
+      "bytes": 5609
+    },
+    "executed-source/godot/shaders/baked_diffuse.gdshader": {
+      "sha256": "4040728147086d2411be2575edb35805bc56d849d453ea112c9b5fbeb2a0318c",
+      "bytes": 3467
+    },
+    "executed-source/godot/tests/audit_runtime_textures.gd": {
+      "sha256": "0a683ab8e7f7247232d1f270862c07324046c58e5683fb337e30051ba8c0ae3f",
+      "bytes": 6106
+    },
+    "executed-source/godot/tests/render_entry_route.gd": {
+      "sha256": "572473b8e7d0f6e7d0ca46a4c49604b669b8049cf2d5a7063bb4676938b5345e",
+      "bytes": 5000
+    },
+    "executed-source/godot/tests/runtime_texture_caps.gd": {
+      "sha256": "896de1dbf654ff53b700e3262e4329177e74f623381c5d69ef2b2362ac0b8054",
+      "bytes": 4491
+    },
+    "executed-source/godot/tests/test_backdrop_wash_import.gd": {
+      "sha256": "91b30bd09ee53b1fbe439e351c6713573adb93e583ac463174c262b9f57ba110",
+      "bytes": 2653
+    },
+    "executed-source/godot/tests/test_baked_backdrop_wash.gd": {
+      "sha256": "dcbc3b0306c4e8080d1c483b5d39fd643a05d746e342649c0146a1cba333983f",
+      "bytes": 3498
+    },
+    "executed-source/godot/tests/test_runtime_texture_caps.gd": {
+      "sha256": "ac77096a622a28ef3e7bfda1469f0fe649ac46927d16ff8fcf062a2499e61348",
+      "bytes": 2919
+    },
+    "executed-source/godot/tests/texture_binding_inventory.gd": {
+      "sha256": "7b07a223d0e7792cc70c9acd8618bf3e450b885427c874e716faa3910e3ffdfd",
+      "bytes": 4774
+    },
+    "executed-source/scripts/android_profile_modes.py": {
+      "sha256": "3bd5955f7b2507e10d0dcf48df24ac48824364a46892d7bd5404e6f32586d888",
+      "bytes": 3434
+    },
+    "executed-source/scripts/android_texture_provenance.py": {
+      "sha256": "4716c1b224d9df49c8083f892a233c76674ee01af8335274a712396a95845450",
+      "bytes": 1601
+    },
+    "executed-source/scripts/build_android_profile.py": {
+      "sha256": "ea862cde4086ba1e5eb1bf2ea23b0fef7fef475de84cbb932b6f8c0a3d79e3fd",
+      "bytes": 16370
+    },
+    "executed-source/scripts/collect_android_profile.py": {
+      "sha256": "8d075281f41a022a60d1f404a64e0d7be052bf05b72af8707fdd7d63add4f510",
+      "bytes": 15770
+    },
+    "executed-source/scripts/configure_backdrop_wash_import.py": {
+      "sha256": "5ec72c7d3f196b8c86f3aba2164b2ec62fe824f38975a33b397c3d423268c315",
+      "bytes": 2796
+    },
+    "executed-source/scripts/tests/test_configure_backdrop_wash_import.py": {
+      "sha256": "4a78c435fddba80126fba14adbf7853e569a236d36838e7b886844e36af9e196",
+      "bytes": 3717
+    },
+    "executed-source/scripts/verify_android_profile_inputs.py": {
+      "sha256": "1a6e41502a9969839aa08f8dbb18ef9c95d163120b8dc5fdc65b1f569ce3fdee",
+      "bytes": 7107
+    },
+    "installed/arrivals-desktop/route-bamboo.png": {
+      "sha256": "7caf42600d3f7af786be5c60164b1015c7909bb3d11a77c03db7016924690b9a",
+      "bytes": 759044
+    },
+    "installed/arrivals-desktop/route-cell.png": {
+      "sha256": "ee2e8fe11a776fa29cfd9bfa307eab1bd560b84c35f69dc324fe9434ccaeb5a5",
+      "bytes": 172624
+    },
+    "installed/arrivals-desktop/route-courtyard.png": {
+      "sha256": "886010bfe025589e1378ece9228074d94b601e7ec6556d2fb5f7cf9147403ae0",
+      "bytes": 740904
+    },
+    "installed/arrivals-desktop/route-desktop-report.json": {
+      "sha256": "8d746911b05eb92882dc496ed8f965a21ba296c819dce1e67c11ae65996a5802",
+      "bytes": 2993
+    },
+    "installed/arrivals-desktop/route-farmhouse.png": {
+      "sha256": "88faebe77400e02228dec790e86eea50872cf7c6db71bfed957cab60f478835a",
+      "bytes": 606540
+    },
+    "installed/arrivals-desktop/route-gate.png": {
+      "sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+      "bytes": 503199
+    },
+    "installed/arrivals-desktop/route-hilltop.png": {
+      "sha256": "575fd45a9befc48d9e3b9131e1916ba90f3d1b69b7ec4c147905f39616107b16",
+      "bytes": 744096
+    },
+    "installed/arrivals-desktop/route-imperial.png": {
+      "sha256": "2f368d991407afcd89bdebf9cc72ae09c87a828fd0d76dc501a05cea04cd0004",
+      "bytes": 717072
+    },
+    "installed/arrivals-desktop/route-nunnery.png": {
+      "sha256": "a3121f54df07c016d02d51bc14de6e313ae160fc822b6605e731e7373b2f7b2b",
+      "bytes": 513099
+    },
+    "installed/arrivals-desktop/route-ouxiang.png": {
+      "sha256": "5877ee193b3dba52e55a692f8837d01de997e934afe76fe17ac841a04aaee0bc",
+      "bytes": 637012
+    },
+    "installed/arrivals-desktop/route-pavilion.png": {
+      "sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+      "bytes": 679320
+    },
+    "installed/arrivals-desktop/route-red-court.png": {
+      "sha256": "8ea91c6956d5b1fa340c896262f060c6ca2820a2d9c243bef440a8893fefd77f",
+      "bytes": 590049
+    },
+    "installed/arrivals-desktop/route-reflection.png": {
+      "sha256": "d868cf3423ba87d219de5e22741129eb0a1ac98294cce32368ccf438cc572b55",
+      "bytes": 518210
+    },
+    "installed/arrivals-desktop/route-study.png": {
+      "sha256": "378c11c3899aaec8abd94ce73bb38fe58f989ea9ce632261cf32978654ade755",
+      "bytes": 679597
+    },
+    "installed/arrivals-desktop/route-ziling.png": {
+      "sha256": "68f507f73a4bf7962cd5926539f18899d8540bed6bef226ee9a8f80a6d380770",
+      "bytes": 553624
+    },
+    "installed/arrivals-portrait/route-mobile-bamboo.png": {
+      "sha256": "17369452fcff530da89895385a2956d01aa527ba41d51d9bdf14b3698a8d6834",
+      "bytes": 350924
+    },
+    "installed/arrivals-portrait/route-mobile-cell.png": {
+      "sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+      "bytes": 172377
+    },
+    "installed/arrivals-portrait/route-mobile-courtyard.png": {
+      "sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+      "bytes": 334834
+    },
+    "installed/arrivals-portrait/route-mobile-farmhouse.png": {
+      "sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+      "bytes": 303729
+    },
+    "installed/arrivals-portrait/route-mobile-gate.png": {
+      "sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+      "bytes": 200644
+    },
+    "installed/arrivals-portrait/route-mobile-hilltop.png": {
+      "sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+      "bytes": 328584
+    },
+    "installed/arrivals-portrait/route-mobile-imperial.png": {
+      "sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+      "bytes": 307483
+    },
+    "installed/arrivals-portrait/route-mobile-nunnery.png": {
+      "sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+      "bytes": 288702
+    },
+    "installed/arrivals-portrait/route-mobile-ouxiang.png": {
+      "sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+      "bytes": 300608
+    },
+    "installed/arrivals-portrait/route-mobile-pavilion.png": {
+      "sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+      "bytes": 282593
+    },
+    "installed/arrivals-portrait/route-mobile-red-court.png": {
+      "sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+      "bytes": 280095
+    },
+    "installed/arrivals-portrait/route-mobile-reflection.png": {
+      "sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+      "bytes": 247267
+    },
+    "installed/arrivals-portrait/route-mobile-study.png": {
+      "sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+      "bytes": 265009
+    },
+    "installed/arrivals-portrait/route-mobile-ziling.png": {
+      "sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+      "bytes": 273810
+    },
+    "installed/arrivals-portrait/route-portrait-report.json": {
+      "sha256": "951bc1bf0b84e0df4a417de1bb40c96662b32076b12d0695912de4f48ce001b7",
+      "bytes": 3077
+    }
+  }
+}
