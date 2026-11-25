@@ -1,0 +1,26 @@
+{
+  "status": "candidate_export_uv2_only_passed",
+  "base_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "candidate_glb_sha256": "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b",
+  "exact_nodes_materials_images": true,
+  "exact_all_indices_and_non_uv2_attributes": true,
+  "exact_binary_outside_receiver_uv2_view": true,
+  "json_exact_except_receiver_uv2_accessor": true,
+  "uv2_buffer_view_byte_range": [
+    54949952,
+    55533456
+  ],
+  "changes": [
+    {
+      "mesh_index": 555,
+      "mesh_name": "KIT_pavilion_roof_shell.001",
+      "primitive": 0,
+      "attribute": "TEXCOORD_1"
+    }
+  ],
+  "changed_site_files": [
+    "SITE_qinfang-ting.glb"
+  ],
+  "authoring_sha256": "4eb31445889e5f30f57bb7935759d83169655eefea6c6cfa798879e9f384b0f6",
+  "scope": "Canonical exporter candidate; no fresh matching lighting, actual candidate native importer, adoption or final art acceptance."
+}

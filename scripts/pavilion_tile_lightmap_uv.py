@@ -2,7 +2,7 @@
 from pavilion_roof_geometry import components
 
 
-def allocate_tile_charts(obj, size=1024):
+def allocate_tile_charts(obj, size=1024, corridor_sources=None):
     mesh=obj.data
     ridges=sorted([(sorted(vertices),faces) for vertices,faces in components(mesh)
                    if len(vertices)==15 and len(faces)==8],key=lambda item:item[0][0])
@@ -29,6 +29,10 @@ def allocate_tile_charts(obj, size=1024):
                                  (row*72+4+along*15)/size)
     assert positions==[tuple(v.co) for v in mesh.vertices]
     assert primary==[tuple(v.uv) for v in mesh.uv_layers[0].data]
+    corridor_layout={}
+    if corridor_sources is not None:
+        from corridor_roof_lightmap_uv import allocate_corridor_roof_charts
+        corridor_layout=allocate_corridor_roof_charts(obj,corridor_sources,size)
     return {'strips':42,'faces':336,'reference_size':size,'cell_texels':[32,72],
             'tile_chart_texels':[24,60],'padding_texels':4,'reserved_height_texels':144,
-            'scope':'UV2 only on the exported Qinfang atlas batch. Tile charts receive explicit pixel extent; all other charts fit above their reserved strip. Geometry/primary UVs are unchanged. Fresh matching bake and native filtering checks remain required.'}
+            'scope':'UV2 only on the exported Qinfang atlas batch. Tile charts receive explicit pixel extent; all other charts fit above their reserved strip. Geometry/primary UVs are unchanged. Fresh matching bake and native filtering checks remain required.',**corridor_layout}
