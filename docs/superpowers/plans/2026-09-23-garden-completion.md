@@ -30,7 +30,8 @@ Interfaces: room_id, execute_command(text), transition_finished(room_id), player
 Files: docs/sites/*.md, Blender site libraries, source scripts and GLB exports.
 - [x] Expand the 11 short site sheets to specific asset, lighting, camera and trigger contracts.
 - [ ] Collect three references per site with source attribution.
-- [ ] Complete missing kit variants and distinctive later-site architecture.
+- [x] Complete the named stock-kit variants and both LODs; current9-kit/60-variant/120-GLB evidence: `docs/reference/stage-kit-paint-size/README.md`.
+- [ ] Complete and accept distinctive later-site architecture against each site contract.
 - [ ] Replace temporary typeset signage with painted decals; refine foliage and pierced rockery.
 - [x] Fix the tunnel reveal geometry/camera relationship and export both hexagram variants.
 - [ ] Render and inspect every site against its contract.

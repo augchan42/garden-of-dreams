@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "phases": [
+    {
+      "kit": "corridor",
+      "exit_code": 0,
+      "log_sha256": "5161b9c825997a6de7bb39ed29bc69980e096ce8a65911ca60df09d892b039d5",
+      "verifier_sha256": "9fcc30df075c16c9fca21bd2053d3766ee0362a541122d8e7d6d4004c94dc535",
+      "output": "8, \"ratio\": 0.3989547038327526, \"colliders\": 5, \"ports\": {\"south\": [0, 0, 1.5], \"north\": [0, 0, -1.5]}}, \"corner\": {\"lod0_triangles\": 1004, \"lod1_triangles\": 400, \"ratio\": 0.398406374501992, \"colliders\": 8, \"ports\": {\"south\": [0, 0, 1.5], \"east\": [1.5, 0, 0]}}, \"tee\": {\"lod0_triangles\": 972, \"lod1_triangles\": 388, \"ratio\": 0.3991769547325103, \"colliders\": 7, \"ports\": {\"south\": [0, 0, 1.5], \"north\": [0, 0, -1.5], \"east\": [1.5, 0, 0]}}, \"stair\": {\"lod0_triangles\": 1208, \"lod1_triangles\": 482, \"ratio\": 0.3990066225165563, \"colliders\": 5, \"ports\": {\"south\": [0, 0, 1.5], \"north\": [0, 0.6, -1.5]}}}\n"
+    },
+    {
+      "kit": "pavilion",
+      "exit_code": 0,
+      "log_sha256": "aa66dab30325698f7a51d997de3d06c11453599f43667a2e2a874a9b683f56b6",
+      "verifier_sha256": "b40ce429a6a636c43fda72b64081f292fb9de9cc6cd882562043b5a7c655d5cd",
+      "output": "91883092036788]}}, \"post\": {\"lod0_triangles\": 252, \"lod1_triangles\": 100, \"ratio\": 0.3968253968253968, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {\"base\": [0, 0, 0], \"top\": [0, 3.1, 0]}}, \"bracket\": {\"lod0_triangles\": 216, \"lod1_triangles\": 86, \"ratio\": 0.39814814814814814, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"eave_strip\": {\"lod0_triangles\": 520, \"lod1_triangles\": 208, \"ratio\": 0.4, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"bench\": {\"lod0_triangles\": 540, \"lod1_triangles\": 216, \"ratio\": 0.4, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}}\n"
+    },
+    {
+      "kit": "wall",
+      "exit_code": 0,
+      "log_sha256": "ec11562630a5452b6cd214c1d01e4c0eb09f86840859b17cad3f14b225314c70",
+      "verifier_sha256": "a33a566bd66b5bb4810a42ca4aec9db350df635ecdab3a3e81e23df5d6383bfc",
+      "output": ": {}}, \"window_diamond\": {\"lod0_triangles\": 1528, \"lod1_triangles\": 610, \"ratio\": 0.3992146596858639, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"window_ice\": {\"lod0_triangles\": 1192, \"lod1_triangles\": 476, \"ratio\": 0.39932885906040266, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"window_hex\": {\"lod0_triangles\": 1584, \"lod1_triangles\": 632, \"ratio\": 0.398989898989899, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"roof_cap\": {\"lod0_triangles\": 316, \"lod1_triangles\": 126, \"ratio\": 0.3987341772151899, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}}\n"
+    },
+    {
+      "kit": "rockery",
+      "exit_code": 0,
+      "log_sha256": "0eb2e3039cd8b0f40ce7ca2481dff262a087316967bd66db3c4c404b9330a0a0",
+      "verifier_sha256": "8ec8f8e3ae39e7dd83cc25143d766eccc2c3688b1c68bac57f2a0dbe330b98ea",
+      "output": "d\": true}, \"medium\": {\"triangles\": [534, 213], \"lod_ratio\": 0.398876404494382, \"collision_identical\": true, \"ports_verified\": true}, \"large\": {\"triangles\": [634, 252], \"lod_ratio\": 0.39747634069400634, \"collision_identical\": true, \"ports_verified\": true}, \"arch\": {\"triangles\": [500, 200], \"lod_ratio\": 0.4, \"collision_identical\": true, \"ports_verified\": true}, \"tunnel\": {\"triangles\": [824, 328], \"lod_ratio\": 0.39805825242718446, \"collision_identical\": true, \"ports_verified\": true}, \"cliff\": {\"triangles\": [1024, 408], \"lod_ratio\": 0.3984375, \"collision_identical\": true, \"ports_verified\": true}}\n"
+    },
+    {
+      "kit": "water",
+      "exit_code": 0,
+      "log_sha256": "ffa5944da7cf06ae2e0019e0ae6ff04359dc06a4e1a99fe57cf025b685e3df93",
+      "verifier_sha256": "e84fe1439f8f71ee0266fb9f6c0a28911bf5123200967cb5a65fdb33de9d4a69",
+      "output": "io\": 0.4027777777777778, \"colliders\": 1, \"collision_triangles\": 12, \"ports\": {}}, \"lotus\": {\"lod0_triangles\": 864, \"lod1_triangles\": 360, \"ratio\": 0.4166666666666667, \"colliders\": 0, \"collision_triangles\": 0, \"ports\": {}}, \"wood_bridge\": {\"lod0_triangles\": 704, \"lod1_triangles\": 276, \"ratio\": 0.39204545454545453, \"colliders\": 3, \"collision_triangles\": 36, \"ports\": {\"south\": [0, 0, 3], \"north\": [0, 0, -3]}}, \"stone_bridge\": {\"lod0_triangles\": 700, \"lod1_triangles\": 276, \"ratio\": 0.3942857142857143, \"colliders\": 3, \"collision_triangles\": 300, \"ports\": {\"south\": [0, 0, 3], \"north\": [0, 0, -3]}}}\n"
+    },
+    {
+      "kit": "flora",
+      "exit_code": 0,
+      "log_sha256": "ffec9e230ccf0149cbfd61c0753e79c250d34ef0f657debee12a7c9cc0b7d33f",
+      "verifier_sha256": "03a7b853b324ff584e947a4fab3358f6f68b9175f1d0f3ac2f2a512d2ce25c15",
+      "output": "FLORA_EXPORT_PASS 8 variants\n"
+    },
+    {
+      "kit": "props",
+      "exit_code": 0,
+      "log_sha256": "9efa580e3456da9f65c943c053a3a6b4835280a91d362f2577f352f7fffbcb8f",
+      "verifier_sha256": "86722e5961a1d6290d19878ec66b71d1e4310139161988fdb3ce0d653ada9057",
+      "output": "PROPS_EXPORT_PASS 9 variants\n"
+    },
+    {
+      "kit": "tech",
+      "exit_code": 0,
+      "log_sha256": "9249412f5c2e02a1c8a3ac6d1fe4a2185403e1d036ccfa83baeadef36ef9f9ba",
+      "verifier_sha256": "48163fd66602a9ee42a0ff548181578304b9579a3341680a6d419a8fb2ef7703",
+      "output": "TECH_EXPORT_PASS 6 variants\n"
+    },
+    {
+      "kit": "stage",
+      "exit_code": 0,
+      "log_sha256": "ac7863dc21c01e2c4a25bcb223e395eeee07124f30f508b9c7c710162c88eae3",
+      "verifier_sha256": "f471bcbbf4b7e9ccbe2b634f8e9d5698c3f9612d1d4bb04f3da649ea63f74a91",
+      "output": "STAGE_KIT_TEXTURE_SIZE_PASS 16 8\nSTAGE_EXPORT_PASS 7 variants\n"
+    }
+  ],
+  "scope": "Current standalone GLB variants, native exported LOD/connector/collider/atlas contracts. Production inputs preserved. No assembled site, source-library reproduction, installed native binding, final art or phone acceptance."
+}

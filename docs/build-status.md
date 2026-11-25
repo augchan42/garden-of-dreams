@@ -1394,3 +1394,7 @@ Five headless and seven native candidate phases pass, followed by both fourteen-
 ### Corridor roof UV correction — 2026-10-11
 
 The installed source and engine now use `7fb3bbc1`. Sixteen corridor roofs use continuous secondary UV charts; all 784 roof triangles exceed one texel at the installed 256 px resolution. Geometry, primary UVs, authoring and runtime are preserved. Six source bake phases, fifteen isolated native phases, both fourteen-room tours, nineteen installed phases and the 26 Python tests pass. Fourteen installed originals match the reviewed candidate exactly. The full offline Android APK passes payload checks and remains uninstalled. [Evidence and original images](reference/corridor-roof-uv/README.md). Final art, physical-device acceptance and the full goal remain open.
+
+### Current stock-kit inventory and stage paint exports —2026-10-11
+
+All nine current kit checks pass:60 named variants,120 LOD exports and120 byte-identical Godot copies. Delivered stage paint is2048px while original4096px paintings remain editable. All sixteen stage GLBs reproduce canonically; all140 source objects/68 meshes are preserved. Eight installed native gallery originals match the reviewed candidate exactly. The26 Python tests pass. [Current evidence](reference/stage-kit-paint-size/README.md). Full-scene art, allocation/device/sustained budgets, references, release and services remain open; APK provenance is stale after the kit-input update.
