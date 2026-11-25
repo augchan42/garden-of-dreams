@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "scope": "Actual dedicated Android report publication and demo touch diagnostics; no full-garden or sustained performance acceptance.",
+  "phases": [
+    {
+      "name": "untouched",
+      "status": "passed",
+      "reader_retry_added": false,
+      "pid": 45035,
+      "exit_code": 0,
+      "log_sha256": "e1436a520b9aeaeff7193203fdeccd9d317321def8d9310229be9cff515e33ea"
+    },
+    {
+      "name": "native-touch",
+      "status": "passed",
+      "reader_retry_added": false,
+      "pid": 45065,
+      "exit_code": 0,
+      "log_sha256": "70a2e4517746d20056763c7487c101febedde49085503b5673d936569eb7260c"
+    }
+  ],
+  "complete_reads": 479,
+  "incomplete_reads": 0
+}

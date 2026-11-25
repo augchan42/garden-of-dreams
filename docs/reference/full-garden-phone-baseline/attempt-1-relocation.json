@@ -1,0 +1,9 @@
+{
+  "scope": "Failed first attempt preserved; raw metadata not rewritten.",
+  "original_fixture_path": "/tmp/garden-full-phone-20261010/godot",
+  "retained_failed_fixture_path": "/tmp/garden-full-phone-20261010/attempt-1-godot",
+  "raw_evidence": "attempt-1",
+  "failure": "Raw res://GLB is absent in exported APK; Godot packages imported SCN. Guard failed before traversal.",
+  "correction": "Current runner verifies APK GLB remap and imported SCN hash against staged cache; device checks packaged source metadata and complete build identity.",
+  "production_changes": false
+}

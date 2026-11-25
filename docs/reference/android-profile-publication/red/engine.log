@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: PROFILE_REPORT_PUBLICATION_REJECTED {"concurrent_reads":327,"errors":["Reader observed incomplete JSON publications"],"generations":32,"incomplete_publications":321,"scope":"Actual dedicated profiler save_report producer versus concurrent complete-file JSON reader; isolated app data, no game scene or phone performance claim.","status":"failed","user_data_dir":"/Users/auchan/Library/Application Support/Godot/app_userdata/Garden Report Publication Regression 88b28278b7554203a6de40435f06782e","wall_ms":219}
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] run (res://tests/test_profile_report_publication.gd:45)
