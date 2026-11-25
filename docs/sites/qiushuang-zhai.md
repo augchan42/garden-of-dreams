@@ -1,5 +1,11 @@
 # Site sheet: 秋爽齋
 
+## Screen-opening repair — 2026-10-11
+
+Thirty-three existing lattice bars move into the gaps around the twelve monitors. The three banks retain seven vertical and seven horizontal bars each. Source rays from authored and runtime bank positions drop from 180 blocked samples to zero of 1,152; restoring the old positions reproduces the failure. The generator preserves this layout on rebuild, and the canonical exporter reproduces the saved source exactly without changing unrelated normals.
+
+Source `72ad817f` has all 141 fresh maps and preserves the current import policies. Normal/touch framing, native screen views, both full Mac tours and installed source/resource checks pass. Eight fixed-clock candidate/installed views match exactly. The bright centre wall, bake noise and final hall composition remain art work, and the screen artwork remains static. [Scene evidence and failed controls](../reference/qiushuang-lattice-source/README.md).
+
 Slug `qiushuang-zhai`. Priority 2. Function: Bulletin board. Room id `qiushuang_zhai`.
 
 ## Stage direction

@@ -1,0 +1,50 @@
+{
+  "status": "both_native_full_tours_passed",
+  "orchestrator_pid": 54416,
+  "phases": [
+    {
+      "shape": "desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/lit-tour-desktop/report.json",
+        "--capture-directory=/tmp/garden-qiushuang-lattice-20261010/lit-tour-desktop/captures"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-tour-desktop.log",
+      "pid": 54417,
+      "exit_code": 0,
+      "log_sha256": "f39ad8dceabc26da5f76702bd8c3e8599020643ea5aecd7937a51bfa4835e46b"
+    },
+    {
+      "shape": "portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-qiushuang-lattice-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_full_garden_traversal.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/lit-tour-portrait/report.json",
+        "--capture-directory=/tmp/garden-qiushuang-lattice-20261010/lit-tour-portrait/captures",
+        "--portrait"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/lit-tour-portrait.log",
+      "pid": 61817,
+      "exit_code": 0,
+      "log_sha256": "65f58c7d3f90d290cddd85e3f675db81e7fff426e6815279f7907facc1763137"
+    }
+  ],
+  "scope": "Actual native 14-room/26-leg physics/camera/lighting route in desktop and portrait. No phone, target-performance or final all-site art acceptance."
+}

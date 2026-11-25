@@ -1,0 +1,46 @@
+QIUSHUANG_INSTALLED_START saved_rays
+QIUSHUANG_INSTALLED_PASS saved_rays
+QIUSHUANG_INSTALLED_START canonical_source
+QIUSHUANG_INSTALLED_PASS canonical_source
+QIUSHUANG_INSTALLED_START site_sources
+QIUSHUANG_INSTALLED_PASS site_sources
+QIUSHUANG_INSTALLED_START uv2
+QIUSHUANG_INSTALLED_PASS uv2
+QIUSHUANG_INSTALLED_START sync_full_lightmaps
+QIUSHUANG_INSTALLED_PASS sync_full_lightmaps
+QIUSHUANG_INSTALLED_START sync_backdrop_wash
+QIUSHUANG_INSTALLED_PASS sync_backdrop_wash
+QIUSHUANG_INSTALLED_START sync_terminal_spill
+QIUSHUANG_INSTALLED_PASS sync_terminal_spill
+QIUSHUANG_INSTALLED_START sync_lightmaps
+QIUSHUANG_INSTALLED_PASS sync_lightmaps
+QIUSHUANG_INSTALLED_START import_contract
+QIUSHUANG_INSTALLED_PASS import_contract
+QIUSHUANG_INSTALLED_START native_import
+QIUSHUANG_INSTALLED_PASS native_import
+QIUSHUANG_INSTALLED_START full_scene
+QIUSHUANG_INSTALLED_PASS full_scene
+QIUSHUANG_INSTALLED_START wash
+QIUSHUANG_INSTALLED_PASS wash
+QIUSHUANG_INSTALLED_START spill
+QIUSHUANG_INSTALLED_PASS spill
+QIUSHUANG_INSTALLED_START runtime_caps
+QIUSHUANG_INSTALLED_PASS runtime_caps
+QIUSHUANG_INSTALLED_START cold_reimport
+QIUSHUANG_INSTALLED_PASS cold_reimport
+QIUSHUANG_INSTALLED_START native_lattice
+Traceback (most recent call last):
+  File "/tmp/garden-qiushuang-lattice-20261010/validate_installed.py", line 51, in <module>
+    try:run('native_lattice',native+['--script','res://tests/capture_lattice_lit.gd','--','--output='+str(root/'installed-native-qiushuang')],'QIUSHUANG_LATTICE_LIT_PASS')
+        ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/garden-qiushuang-lattice-20261010/validate_installed.py", line 20, in run
+    assert phase['exit_code']==0 and (not marker or marker in text) and not re.search(r'(?m)^(Error:|Traceback|SCRIPT ERROR:|ERROR:)|AssertionError:',text),text[-4000:]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+ERROR: QIUSHUANG_LATTICE_LIT_DEADLINE
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] <anonymous lambda> (res://tests/capture_lattice_lit.gd:6)
+
