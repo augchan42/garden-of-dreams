@@ -1,0 +1,28 @@
+All files should be loaded. Notifying the device.
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py", line 223, in <module>
+    main()
+    ~~~~^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py", line 164, in main
+    report = json.loads(raw)  # Any partial publication is a failure, not a retry.
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/tmp/garden-full-profiler-20261010/run-phone.py", line 28, in <module>
+    subprocess.run(['python3',str(REPO/'scripts/collect_android_profile.py'),'--device',DEVICE,
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    '--build-report',str(ROOT/'build-report.json'),'--destination',str(ROOT/'phone'),
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    '--wait-timeout','2100'],check=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', '/Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py', '--device', '2B011FDH300KNR', '--build-report', '/tmp/garden-full-profiler-20261010/build-report.json', '--destination', '/tmp/garden-full-profiler-20261010/phone', '--wait-timeout', '2100']' returned non-zero exit status 1.

@@ -1,0 +1,19 @@
+test_actual_device_proof_is_specific_to_normal_mode (test_android_full_profile.FullProfileTests.test_actual_device_proof_is_specific_to_normal_mode) ... ok
+test_complete_tour_accepts_without_hiding_failed_fps (test_android_full_profile.FullProfileTests.test_complete_tour_accepts_without_hiding_failed_fps) ... ok
+test_full_producer_and_dependencies_pinned_before_phone_access (test_android_full_profile.FullProfileTests.test_full_producer_and_dependencies_pinned_before_phone_access) ... ok
+test_only_explicit_absence_can_wait_at_startup (test_android_full_profile.FullProfileTests.test_only_explicit_absence_can_wait_at_startup) ... FAIL
+test_reject_incomplete_unsafe_or_false_tour_evidence (test_android_full_profile.FullProfileTests.test_reject_incomplete_unsafe_or_false_tour_evidence) ... ok
+
+======================================================================
+FAIL: test_only_explicit_absence_can_wait_at_startup (test_android_full_profile.FullProfileTests.test_only_explicit_absence_can_wait_at_startup)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_full_profile.py", line 57, in test_only_explicit_absence_can_wait_at_startup
+    self.assertTrue(callable(parser), 'Explicit unpublished report handling is missing')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Explicit unpublished report handling is missing
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.145s
+
+FAILED (failures=1)

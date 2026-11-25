@@ -41,3 +41,10 @@ Next scene inspection: Xiaoxiang’s repeated bamboo silhouettes and exposed upp
 The reviewed four runtime caps are installed: 1024² basecolors and lossless 512×170 gate color/normal imports. Actual size, mipmap, format, enabled-material and cache/source checks now gate Android builds and collection. Stale-cache and disabled-use controls reject; valid normal and demo routes pass. All 44 native arrival/close originals reproduce the candidate. The fresh phone demo passes five actual tap stages at 54.01 MiB, but P95 of 22.403–45.723 ms still fails 60 fps. The prior isolated full-tour result of 62.29 MiB remains comparison evidence.
 
 Integrate the full normal tour into production tools, collect adopted-source sustained timing and measure process/viewport costs. Then continue final per-site art. Final art, five missing references (37/42), 2020 Adreno verification, release and authenticated services remain open. See [adoption evidence](reference/runtime-texture-caps/README.md).
+
+
+## Full-garden profiling tools — 2026-10-10
+
+The normal tour is now integrated into the builder/collector, with mandatory two-tour/600-second coverage, actual Android normal loaded-cap checks, all producer/dependency and packaged scene/script identity checks, atomic reads, floor/camera/capture/budget validation and pause/focus rejection. Twenty-two Python tests, actual Godot minimum-tour/pause/counter controls and final isolated build/APK resource checks pass. The final pause-protected package has not been installed: the phone switched apps during the preceding run. Its five completed legs reached62.29MiB, which is partial evidence only.
+
+The full goal remains open. Restart the sustained test when the phone can remain in Garden for about15minutes. Then measure combined viewport draws/primitives and isolate rendering/process costs with controls; zero native GLES GPU counters are unavailable, while Godot's process monitors are repeated once-per-second window maxima. Continue final per-site art, five references,2020Adreno,release andauthenticated services. See [tooling and retained incomplete attempts](reference/full-garden-profiler/README.md).
