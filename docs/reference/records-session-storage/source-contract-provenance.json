@@ -1,0 +1,24 @@
+{
+  "local_primary_sources": [
+    {
+      "path": "/Users/auchan/projects/sixlines-android/app/src/main/java/online/sixlines/app/data/RecordsSessionAuthorization.kt",
+      "sha256": "e502b17e8dd99f2a732ed47273a0ee3c18c590b3e700016beb35e43a97622cb5",
+      "finding": "withRecordsSessionOwner requires the same owner and owner lease after 401 renewal."
+    },
+    {
+      "path": "/Users/auchan/projects/8bitoracle-next/src/app/api/records/shared/session.ts",
+      "sha256": "82b975c9fb6598f81237f915c894295413a7ee3e5839992e35f35925eaf4d267",
+      "finding": "mintRecordsSession uses Unix-seconds expiry."
+    },
+    {
+      "path": "/Users/auchan/projects/8bitoracle-next/src/app/api/records/session/refresh/route.ts",
+      "sha256": "a452fa89089bb2689ef005fc8a2838e1629ff7b72cef30d0e6a9a8ff1d14ce98",
+      "finding": "Refresh response uses numeric access and refresh expirations."
+    }
+  ],
+  "official_storage_sources": [
+    "https://developer.android.com/privacy-and-security/keystore",
+    "https://developer.android.com/identity/data/autobackup"
+  ],
+  "scope": "Local source inspection; no deployed endpoint, account request or private-history inspection."
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "JVM callback/signing/account-state core only; Android Keystore, provider UI, Godot registration, server exchange and history require separate checks.",
+  "source_files_sha256": {
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java": "6aa88ce455d6412dfe84ddf1a02d247d9452396160d8b45321400c69d87e6b88",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java": "43fa4cf0d5d81470b141d8ead9e085a0f7831a9cbceb425f0156dba8bab89927",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java": "f8db97834fdfa52738abf5403871b5220cd202719d6cd5d9f593e684900d8b7d",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java": "a1037e4d3da8420ac986ba5cd96f64562647b148f11ee3acd99f2e29733fbaf6",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java": "b2233fa046e035bf20185c24c40ddd93258da27f7b4eb717f16f5fdbd181d0ce",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java": "280283e3f25f59b5f88e26b9f4f7862119155bb97c32425783b47e9b8f7bc2b9",
+    "native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java": "c973dfe91bb28030315fbfd08c9c002b4fc1d58fb7fe41b917c1058b1ba3b1da",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java": "070730db768d58ab7d0f2836faa2142e34e96f425c43eb7f7c39ea6794fa0509",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java": "700b3a7e724a33ec4cca5c4ea587480ee9dae1cb3bbb4364bd44206a6df6c427",
+    "native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java": "1557a3f90962de0866d681fd00b455c39e0b745818ada1d6c843dda7afba6ec6"
+  },
+  "phases": [
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/javac",
+        "--release",
+        "17",
+        "-d",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-vnd8f_94",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/AttemptGate.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RequestSigner.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsCredentials.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsOwnerLease.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsRefreshLease.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsSessionState.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/main/java/ai/eightbitoracle/garden/identity/RecordsStateCodec.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/IdentityCoreTest.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RecordsSessionCoreTest.java",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/records-session-storage/native/android/identity/src/test/java/ai/eightbitoracle/garden/identity/RequestSignerTest.java"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-vnd8f_94",
+        "ai.eightbitoracle.garden.identity.IdentityCoreTest"
+      ],
+      "exit_code": 0,
+      "output": "IDENTITY_ATTEMPT_GATE_PASS 8\n"
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-vnd8f_94",
+        "ai.eightbitoracle.garden.identity.RequestSignerTest"
+      ],
+      "exit_code": 0,
+      "output": "IDENTITY_REQUEST_SIGNER_PASS 4\n"
+    },
+    {
+      "command": [
+        "/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java",
+        "-cp",
+        "/var/folders/gf/s_g2zvzj3jxbylz3ylbc7k4c0000gn/T/garden-identity-core-vnd8f_94",
+        "ai.eightbitoracle.garden.identity.RecordsSessionCoreTest"
+      ],
+      "exit_code": 0,
+      "output": "RECORDS_SESSION_CORE_PASS 22 checks\n"
+    }
+  ],
+  "status": "passed",
+  "checks": {
+    "provider_cancellation_publication": 8,
+    "request_signing": 4,
+    "records_session": 22
+  }
+}
