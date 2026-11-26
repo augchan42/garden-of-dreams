@@ -7,11 +7,17 @@
   "samples": 128,
   "uv_channel": 1,
   "uv_sha256": "fb0593e55c4b9b4f09b4575a48543b88daa4a04b1f566d71d9b94955bf8f34ca",
-  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "source_glb_sha256": "f411ed55c88d03ce1c94f54baa176ada7605123103b45b4134eb2f1966f84577",
   "shadow_intent": {
     "SITE_stage_MAT_stage_canopy_paint": false
   },
   "nonzero_fraction": 0.8531036376953125,
   "point_lights_baked": false,
-  "status": "Cycles bake produced; engine look verification pending"
+  "status": "Cycles bake produced; engine look verification pending",
+  "baked_from_source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "stream_bank_uv_revalidation": {
+    "proof": "export/stream-bank-lightmap-compatibility.json",
+    "proof_sha256": "bc68cf35cb30176e40166b3a70c620a6491b8a39b91d5b0af10945d4a09018c2",
+    "changed_receiver": "SITE_qinfang-ting_MAT_pavilion_atlas"
+  }
 }

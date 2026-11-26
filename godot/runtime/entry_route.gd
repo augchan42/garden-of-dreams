@@ -114,8 +114,16 @@ func _ready() -> void:
    if light is SpotLight3D or light is DirectionalLight3D:
     light.shadow_enabled = false
  if demo_mode or site_bakes_enabled:
-  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(environment)==preload("res://runtime/backdrop_wash.gd").receiver_names(environment).size(),"Incomplete native backdrop wash")
-  assert(preload("res://runtime/terminal_spill.gd").apply_baked(environment)==7,"Incomplete native terminal indirect spill")
+  # Release exports omit assert expressions, including calls inside them.
+  var wash = preload("res://runtime/backdrop_wash.gd")
+  if wash.apply_baked(environment) != wash.receiver_names(environment).size():
+   push_error("Incomplete native backdrop wash")
+   get_tree().quit(1)
+   return
+  if preload("res://runtime/terminal_spill.gd").apply_baked(environment) != 7:
+   push_error("Incomplete native terminal indirect spill")
+   get_tree().quit(1)
+   return
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)
