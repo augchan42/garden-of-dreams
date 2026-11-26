@@ -1,0 +1,39 @@
+{
+  "status": "built",
+  "fixture": "/tmp/garden-full-phone-20261010/godot",
+  "apk": "/tmp/garden-full-phone-20261010/garden-full-profile.apk",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "import",
+      "status": "passed",
+      "log": "/tmp/garden-full-phone-20261010/import.log",
+      "pid": 48486,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "bd175cdf7c9db6376ff16d7e39ebc7f084e899ed5358467e834bf6e8bdbe9165"
+    },
+    {
+      "name": "moon-runtime-check",
+      "status": "passed",
+      "log": "/tmp/garden-full-phone-20261010/moon-runtime-check.log",
+      "pid": 48495,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "2bf3bc939b65f9246bd69eb77e6ecf1f8f45ede9157d7eceffbc5318085b306e"
+    },
+    {
+      "name": "apk-export",
+      "status": "passed",
+      "log": "/tmp/garden-full-phone-20261010/apk-export.log",
+      "pid": 48498,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "d367d7b55e2fc9c637c10e0f07a59037c9e1aacab89c46b89ec3859dcc73f2e1"
+    }
+  ],
+  "scope": "Isolated full-garden physical-phone diagnostic candidate; production unchanged.",
+  "phone_profile_build_sha256": "70e10c124111fe10b560adacb2946fe7e911f5e1caed0ebf58f3fd11ea6564f6",
+  "apk_sha256": "57fecae4f194e5dfa8c4ff0b767aca085176d0c5617fe92ffc8ae2042e548834",
+  "apk_bytes": 91073355
+}

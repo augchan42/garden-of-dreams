@@ -1,0 +1,48 @@
+{
+  "status": "failed_rolled_back",
+  "started_at": "2026-10-09T16:02:37.378278+00:00",
+  "targets": {
+    "runtime/entry_route.gd": {
+      "before_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+      "after_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05"
+    },
+    "tests/test_yihong_framing.gd": {
+      "before_sha256": null,
+      "after_sha256": "01ea88fd39742e9f6b4cafe9b1dd75f21033cfd568074146bc973eca06915af6"
+    },
+    "tests/test_yihong_framing.gd.uid": {
+      "before_sha256": null,
+      "after_sha256": "12b34cc70cee936e1c6d2fdc951bdda1cc8f8a95ff9985e1eace8e63ab19a5c7"
+    },
+    "tests/test_portrait_architecture.gd": {
+      "before_sha256": "a5b580ce2cf3bca6b3dadff6ef3fd0ab1180e99f1235abcde389d329165018a3",
+      "after_sha256": "cbbbb29d12f7bc85adec2918da84213ad643a5b7efe53fd61c3b0c55230ca3ca"
+    },
+    "tests/portrait-architecture-contract.json": {
+      "before_sha256": "aaf115b13e49d5afefcf7c51ac913eacf8f967e5aaf9cb7002ff86323ac96dc3",
+      "after_sha256": "117d438266a9bbabdc9fd349e6f696750a15a2d9e15252ccdc96ab6323f177b2"
+    }
+  },
+  "phases": [
+    {
+      "name": "final-import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "running",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/installed-v1/final-import.log",
+      "pid": 64595,
+      "exit_code": 0,
+      "log_sha256": "40ea15b02bc46a503f3a61072a331764271104604dccb07d949493648a3477fd"
+    }
+  ],
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "rollback": true,
+  "error": "bi-tang_MAT_bronze.png\u001b[39m\u001b[0m\n[  80% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_crt_amber.png\u001b[39m\u001b[0m\n[  81% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_lantern.png\u001b[39m\u001b[0m\n[  81% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_lattice_wood.png\u001b[39m\u001b[0m\n[  82% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_plaster_rock.png\u001b[39m\u001b[0m\n[  83% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_props_atlas.png\u001b[39m\u001b[0m\n[  84% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_rooftile.png\u001b[39m\u001b[0m\n[  84% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_tubi_terrace_plaster.png\u001b[39m\u001b[0m\n[  85% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_tubi-tang_MAT_whitewash.png\u001b[39m\u001b[0m\n[  86% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_backstage.png\u001b[39m\u001b[0m\n[  87% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_bronze.png\u001b[39m\u001b[0m\n[  87% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_crt_amber.png\u001b[39m\u001b[0m\n[  88% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_lattice_wood.png\u001b[39m\u001b[0m\n[  89% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_plaster_rock.png\u001b[39m\u001b[0m\n[  90% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_rooftile.png\u001b[39m\u001b[0m\n[  90% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_xiaoxiang-guan_MAT_whitewash.png\u001b[39m\u001b[0m\n[  91% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_backstage.png\u001b[39m\u001b[0m\n[  92% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_bronze.png\u001b[39m\u001b[0m\n[  93% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_crt_amber.png\u001b[39m\u001b[0m\n[  93% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_lattice_wood.png\u001b[39m\u001b[0m\n[  94% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_plaster_rock.png\u001b[39m\u001b[0m\n[  95% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_rooftile.png\u001b[39m\u001b[0m\n[  96% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_yihong-yuan_MAT_yihong_lacquer.png\u001b[39m\u001b[0m\n[  96% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_ziling-zhou_MAT_lotus_leaf.png\u001b[39m\u001b[0m\n[  97% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_ziling-zhou_MAT_pavilion_atlas.png\u001b[39m\u001b[0m\n[  98% ] \u001b[90m\u001b[1m_update_scan_actions\u001b[22m | SITE_ziling-zhou_MAT_plaster_rock.png\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1m_update_scan_actions\u001b[22m\n\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Started Loading editor (5 steps)\u001b[39m\u001b[0m\n[   0% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading editor layout...\u001b[39m\u001b[0m\n[  16% ] \u001b[90m\u001b[1mloading_editor_layout\u001b[22m | Loading docks...\u001b[39m\u001b[0m\n\u001b[92m[ DONE ]\u001b[39m \u001b[1mloading_editor_layout\u001b[22m\n\u001b[0m\nERROR: Cannot save file '/Users/auchan/Library/Application Support/Godot/editor_settings-4.7.tres'.\n   at: save (scene/resources/resource_format_text.cpp:1768)\nERROR: Error saving editor settings to /Users/auchan/Library/Application Support/Godot/editor_settings-4.7.tres\n   at: save (editor/settings/editor_settings.cpp:1525)\n"
+}

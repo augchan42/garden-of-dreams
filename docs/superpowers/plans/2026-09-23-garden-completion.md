@@ -30,7 +30,8 @@ Interfaces: room_id, execute_command(text), transition_finished(room_id), player
 Files: docs/sites/*.md, Blender site libraries, source scripts and GLB exports.
 - [x] Expand the 11 short site sheets to specific asset, lighting, camera and trigger contracts.
 - [ ] Collect three references per site with source attribution.
-- [ ] Complete missing kit variants and distinctive later-site architecture.
+- [x] Complete the named stock-kit variants and both LODs; current9-kit/60-variant/120-GLB evidence: `docs/reference/stage-kit-paint-size/README.md`.
+- [ ] Complete and accept distinctive later-site architecture against each site contract.
 - [ ] Replace temporary typeset signage with painted decals; refine foliage and pierced rockery.
 - [x] Fix the tunnel reveal geometry/camera relationship and export both hexagram variants.
 - [ ] Render and inspect every site against its contract.
@@ -60,6 +61,28 @@ Files: Godot runtime room controllers, content resources and service adapters.
 - [ ] Meet rendering budgets and complete target-device/mobile and traversal profiling.
 - [ ] Update build-status with evidence, preserving any unresolved requirements.
 - [ ] Complete the goal only after all accepted requirements are verified.
+
+2026-10-10 phone diagnostic publication: the dedicated profiler now publishes
+closed JSON replacements by same-directory rename. Actual producer RED321
+incomplete reads became GREEN0; Pixel7Pro completed 479 reads with zero partial
+reports and all five real touch stages without reader retries. Nine Python
+tests and fresh APK/177 bound-import checks pass. Sampled memory is60.34MiB;
+P9519.948–34.535ms still misses60fps. This does not close Task5: rendering
+budgets,2020Adreno,final art,remaining five references,release and authenticated
+services remain required. Evidence:
+[reports and originals](../../reference/android-profile-publication/README.md).
+
+2026-10-10 full normal-phone baseline: an isolated current-source Pixel 7 Pro
+APK completed two whole tours, 52 public-command legs and 735.865 timed seconds.
+All fourteen rooms passed floor, arrival and control checks; 35,118 grounded
+rays had zero misses. All 53 original captures were hash/dimension checked;
+fourteen distinct arrivals were directly inspected. Report publication remained
+complete across 448 reads. Texture allocation peaked at 68.62 MiB and every
+phase exceeded the 60 fps frame-interval limit; draw calls, primitives and
+practical lights passed. This records failed sustained budgets, not acceptance.
+The full profiling prototype is not integrated into production tools. Full-tour
+touch interaction, 2020 Adreno hardware and the other Task5 requirements remain
+open. Evidence: [full phone baseline](../../reference/full-garden-phone-baseline/README.md).
 
 Current evidence (2026-10-08): installed GLB `be80374c`, authoring `9356f6ec`, has the verified Ouxiang and imperial roof UV2 charts with complete fresh matching six-phase lighting. All37 native candidate phases, both fourteen-room/26-leg walks, default byte equality for all16GLBs and eight post-install checks pass. Actual stationary M2 Max normal-route texture allocation peaks at52,600,513bytes (50.16MiB), final52,517,225; phone/sustained budgets remain unaccepted. See `ouxiang-full-lighting-evidence.json`. Named original captures show more consistent Ouxiang roof shading; paving rectangles, green-heavy materials and final site art/framing remain open. Reference coverage36/42 leaves six slots missing. Current Android/device/2020Adreno/release and authenticated services remain required.
 
@@ -136,6 +159,74 @@ The full goal remains active. Next scene work: improve Ziling's retained desktop
 The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
 
 Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](../../reference/ziling-desktop-framing/README.md).
+
+
+## Stream banks and closed lotus checkpoint — 2026-10-09
+
+Installed source `7a9fc523` and authoring `074ab201` add 54 stock embankment modules/colliders and closed shallow lotus leaves above the raised stream. All 42 cameras,400 earlier colliders,71 markers and runtime are preserved;167 render meshes now contain 266336 triangles. The saved water kit and canonical generator match the 864/360 lotus pair; all ten other modules remain byte-exact. Complete fresh 141 PNG lighting, six source phases,36 completed isolated checks, both 14-location/26-leg tours and 15 installed checks pass. All 19 installed water-edge/Ziling originals match the isolated bytes. Evidence: `../../reference/water-edge-source/README.md` and `../../../export/water-edge-source-evidence.json`. All 14 sheets are updated; references remain 37/42.
+
+Next scene work: dark bank/island faces and stage/ground/background closure, then remaining per-site materials and action views. Final 14-site art, five missing references, current phones/2020 Adreno/sustained budgets, release and authenticated services remain required. Mac capture/allocation checks do not establish phone acceptance. This scene branch starts from main and does not include PR 14’s Records storage or change its pending security approval. Keep the full goal active.
+
+
+## Reed island exterior repair — 2026-10-09
+
+Current complete source is `73267e2b`; authoring is `2b07ce48`. The 24 island side quads now have outward normals and consistent shell winding. Shape, heights, material, all 42 cameras,454 colliders,71 markers,266336 render triangles and runtime are preserved. Fourteen other site GLBs remain byte-exact; the constructor reproduces the corrected face order. Fresh lightmaps show the stone sides in both desktop and portrait views.
+
+Six complete source phases,25 focused native checks and13 installed checks pass. The 141 source PNGs match engine copies;47 isolated originals have verified hashes/dimensions,12 were directly inspected, and all19 installed lit/Ziling originals reproduce the candidate exactly. The archive preserves153 checked files, with760 installed-file hashes in `export/island-exterior-winding-evidence.json`. Evidence: [executed checks and original renders](../../reference/island-exterior-winding/README.md).
+
+This is focused repair acceptance. Broad stage canvas retains its original green color and will be addressed next; bank sides, ground/water boundaries, signage, foliage and final fourteen-site art remain. Existing PR15 full tours qualify the previous source. No current phone,2020 Adreno,sustained or release acceptance is claimed. References remain37/42; authenticated services remain open and PR14 stays independently held for security approval. The full goal remains active.
+
+
+## Neutral stage floor — 2026-10-09
+
+The saved canvas base changes from green (.055,.095,.037) to muted warm gray (.065,.060,.055), with all 4,467 objects, 47 other materials and 621 exported mesh attributes preserved. Fourteen other site GLBs remain byte-exact. Current source `c9d4fb30`, authoring `43d7e33e` and runtime `80f64655` are recorded in `export/stage-floor-palette-evidence.json`.
+
+Six source phases refresh 141 lightmaps. Forty native phases pass: 38 positive checks and two expected base-color rejection controls. Saved default exports reproduce 16 GLBs exactly. Both desktop and portrait tours visit 14 rooms across 26 legs, with zero unsupported floor rays and at most four practicals. All 409 review PNGs are hashed and dimension-checked; 52 original files were directly inspected. Fifteen installed checks pass, with 47 installed originals matching the review exactly. Evidence: [neutral stage floor](../../reference/stage-floor-palette/README.md).
+
+Final art remains open, including red-court/imperial portrait composition, Hengwu arrival composition, ground/water closure, foliage and signage. Five reference slots remain (37/42 collected). Current physical phones, 2020 Adreno/sustained budgets, release and authenticated services still require work. The Android package is stale. PR14 remains separately held for security approval. The full goal remains active.
+
+
+## Courtyard and imperial portrait cameras — 2026-10-10
+
+Runtime `7970380d` fits the courtyard facade, doors and primary banana plant above portrait controls, restores the overview through Look and preserves selected details through rotation. Original desktop poses return correctly; touch actions remain scrollable. The imperial portrait overview gives the facade more usable height while retaining the roof tiers, moon and closed doors. Source `c9d4fb30`, authoring `43d7e33e`, geometry and all141 lighting PNGs remain unchanged.
+
+Positioned courtyard RED20 and imperial RED6 precede32 passing full native checks and three repeated architecture modes after a test-only foliage wait correction. Both actual Mac tours visit14 rooms over26 legs with zero unsupported floor samples and at most four practicals. The452 full-run originals and25 repeated architecture originals are hashed and dimension-checked;25 full-run original file paths and the repeated nunnery original were directly inspected. Twenty-four repeated architecture images reproduce their full-run counterparts exactly. Eleven installed checks pass, and all98 installed camera/arrival images reproduce the reviewed candidate exactly. Evidence: [camera checks and original images](../../reference/courtyard-portrait-framing/README.md).
+
+This is two-room camera acceptance. Hengwu composition, stage seams, dark shading, ground/water closure, foliage, signage and final14-site art remain open. Reference coverage remains37/42; current phones,2020 Adreno/sustained budgets, release and authenticated services remain required. The full goal remains active.
+
+
+## Paving joins — 2026-10-10
+
+Current source `ba40866e` / authoring `7eba169a` removes 84 positive coplanar paving overlaps by partitioning 26 render objects. The original floor footprint is retained within 10 micrometres; all collision geometry, 42 cameras, 71 markers, materials and runtime `7970380d` are preserved. Render geometry is 266,533 triangles. Eight other site exports remain byte-exact. The nunnery's black forecourt rectangle is replaced by continuous stone and plum shadows.
+
+Six source phases regenerate 141 lighting PNGs. The 45-phase native review has 44 positive passes and one intended baseline-floor rejection. Both actual Mac tours visit 14 rooms over 26 legs with no unsupported floor samples and at most four practical lights. Three Ziling modes are repeated after a test-only real 250-millisecond foliage wait; runtime LOD remains enabled. All 28 arrivals, eight moving samples, eight matched floor controls and 35 repeated reed captures were directly inspected: 79 distinct original paths.
+
+Twenty-two installed checks pass. All 85 installed camera/floor/arrival originals reproduce the reviewed files exactly. The first installation also passed all 22 native checks, then rolled back all 29 targets after a report-field comparison error; its 85 originals match independently. The corrected helper reads actual PNG dimensions. Failed source, native and installation attempts are retained in the evidence archive.
+
+This closes the duplicate paving defect. Hengwu's arrival view is next: show its table and pierced stones while preserving the accepted detail actions. Final fourteen-site art, five missing references (37/42), current phones, 2020 Adreno and sustained budgets, release and authenticated reading/history/AI/presence/social remain open. Evidence: [paving checks and originals](../../reference/paving-surface-joins/README.md). The full goal remains active.
+
+
+## Engine-wide frame-budget correction — 2026-10-10
+
+The full-phone producer and collector now gate draws/primitives on actual engine-wide per-frame counters, including the pond capture, while retaining main-view visible counts as diagnostics. Native controls exposed and now reject reflection-only overruns; disabling the capture again resets the sample, and a UI rectangle establishes the observed renderer scope. All 26 Python tests and four native regression programs pass. All 28 stationary native arrival samples are retained: desktop terminal 160 and gate 155 exceed the 150-draw limit; portrait arrivals and all primitive totals pass their respective limits. These are static counter diagnostics, not sustained or physical-phone acceptance.
+
+The fresh full debug APK is `6bb60f68` (86,531,491 bytes), with four clean build phases and offline provenance/package checks. It remains uninstalled pending phone availability; earlier 735bf87b and 9dde9d29 packages are historical for the current collector. Continue current-source phone profiling, failed desktop draw budgets and final per-site art. Final art, five exact references (37/42), 2020 Adreno, sustained budgets, release and authenticated services remain open. See [counter evidence](../../reference/all-viewport-profile/README.md).
+
+
+## Isolated exact structural culling candidate — 2026-10-10
+
+Five actual opaque cell/gate meshes yield desktop terminal160→46 and gate155→77 global draws; portrait87→41 and113→29. All28fixed-clock stationary arrival cases retain identical decoded pixels across off/on/off-repeat captures, with verified actual render-frame progress. Every tracked Godot file remains unchanged; this is a candidate, and the current6bbAPK has no culling optimization. Travel/reveal/detail cameras, actual producer counters and CPU cost must pass before adoption. See [candidate evidence](../../reference/exact-structural-occlusion/README.md). Android/sustained/final-art/full-goal acceptance remains pending.
+
+## Structural culling public-view and CPU follow-up — 2026-10-10
+
+The always-enabled exact-geometry candidate passes 294 recorded travel/reveal/arrival/detail cases and 882 decoded image comparisons. Its later camera-scoped controller passes nine native guards and normal-route integration; the actual four-leg desktop producer stays within139 global draws/163083primitives. The scoped replay stops after63passing cases on one blue-channel unit at one pixel;21fresh nearby poses match but do not reproduce the unrecorded failed pose. Its nine-phase native process-CPU diagnostic costs1.424×cell/1.645×gate relative to paired disabled baselines, with the pavilion inactive and unchanged draws. The optimization remains isolated: production and the current6bbAPK are unchanged. See [public-view/CPU evidence](../../reference/scoped-structural-occlusion/README.md). Persist full poses before assertions, reproduce the discrepancy, and compare actual device CPU/GPU cost before adoption. This is PROGRESS, not Task5 or full-goal acceptance; phone availability remains unanswered.
+
+
+## Qiushuang facade-key checkpoint — 2026-10-11
+
+Current source `ba0e8b16` / authoring `4eb31445` moves the warm-neutral hard key farther to the front-right, covering all three screen banks while retaining the amber practicals. Source controls, complete fresh six-phase lighting, 14 isolated native checks, both 14-room/26-leg tours and 17 installed checks pass. Eight installed hall originals match the reviewed candidate exactly. The current full debug Android APK `589ec5a0` is offline-verified and uninstalled. See [originals and controls](../../reference/qiushuang-facade-key/README.md).
+
+This closes the local key coverage/central-pool issue. Final fourteen-site art, wall/noise and stage/backdrop/ground closure, five references, current phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Next scene work: diagnose the visible dark canopy backs and stage/ground/water boundaries before changing their geometry or shading. Keep the full goal active.
 
 ## Records storage foundation checkpoint — 2026-10-09
 

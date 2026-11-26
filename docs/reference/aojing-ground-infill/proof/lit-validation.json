@@ -1,0 +1,308 @@
+{
+  "status": "isolated_lit_views_and_resource_checks_passed_tours_and_direct_review_pending",
+  "pid": 89224,
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "phases": [
+    {
+      "name": "sync_full_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_full_lightmaps.log",
+      "pid": 17715,
+      "exit_code": 0,
+      "log_sha256": "9fdee25c82267f9b253b24189fede0387c94bab66f125230dc109270f89d5282"
+    },
+    {
+      "name": "sync_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_backdrop_wash.log",
+      "pid": 17717,
+      "exit_code": 0,
+      "log_sha256": "691f48625be910f8172580257f156ed9b1eed2f7b8ea2eeb9b27576f91ef02ae"
+    },
+    {
+      "name": "sync_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_terminal_spill.log",
+      "pid": 17718,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "sync_demo",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-aojing-ground-v2-20261011/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/sync_demo.log",
+      "pid": 17726,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "native_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/native_import.log",
+      "pid": 17727,
+      "exit_code": 0,
+      "log_sha256": "fafd805cecaa9b24e0ec74ccc269787ca2689310230e44aa07ad3cbc90aea732"
+    },
+    {
+      "name": "ground_geometry",
+      "status": "passed",
+      "exit_code": 0,
+      "log": "/tmp/garden-aojing-ground-v2-20261011/native-ground-corrected.log",
+      "log_sha256": "a3f6c984517187a01e6233c0e13a998b3f61251bbd137703f44c86d0844c27c2",
+      "test_sha256": "471c5d385455ca21e29adc79c9f19469b5ff6eef7c98247432da443f9b88b914",
+      "credited_verified_standalone_phase": true
+    },
+    {
+      "name": "roof_uv",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_corridor_roof_uv.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/roof_uv.log",
+      "pid": 89228,
+      "exit_code": 0,
+      "log_sha256": "6c95921fd0f26e4ab68ecdeb9a87fda56d05db24ad7a4962377c293cb454a856"
+    },
+    {
+      "name": "full_scene",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/full_scene.log",
+      "pid": 89262,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_backdrop_wash_import.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/wash.log",
+      "pid": 89271,
+      "exit_code": 0,
+      "log_sha256": "2c500daf982692b8355d1496c997964a250c7b9c0cc4578c0ed79c53a9b6a487"
+    },
+    {
+      "name": "spill",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/spill.log",
+      "pid": 89291,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "runtime_caps",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--script",
+        "res://tests/test_runtime_texture_caps.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/runtime_caps.log",
+      "pid": 89307,
+      "exit_code": 0,
+      "log_sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6"
+    },
+    {
+      "name": "roof_lit",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_corridor_lit.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/native-lit-corridor"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/roof_lit.log",
+      "pid": 89321,
+      "exit_code": 0,
+      "log_sha256": "e281f753eb3094dd10753a8109a07462ce8b8b549cd929e62aa582b408693308"
+    },
+    {
+      "name": "ground_lit",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_aojing_lit.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/native-lit-ground"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/ground_lit.log",
+      "pid": 90979,
+      "exit_code": 0,
+      "log_sha256": "4d528dbf48ca74a130ae80255c951898c374e616d7a200c58d902822bb07e2e8"
+    },
+    {
+      "name": "framing_normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/lit-framing-normal"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/framing_normal.log",
+      "pid": 91637,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "framing_touch",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_qiushuang_framing.gd",
+        "--",
+        "--output=/tmp/garden-aojing-ground-v2-20261011/lit-framing-touch",
+        "--touch"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/framing_touch.log",
+      "pid": 91844,
+      "exit_code": 0,
+      "log_sha256": "3080040dba74e0f85e202cde5350d6e3a8ebfc1dba31a9b3076006968e779c58"
+    },
+    {
+      "name": "arrivals_desktop",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/tmp/garden-aojing-ground-v2-20261011/lit-arrivals-desktop"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/arrivals_desktop.log",
+      "pid": 91888,
+      "exit_code": 0,
+      "log_sha256": "7b1183319b00f0a1a46f300440d345fdd004f8d1a3c86142c3fec3319fd1aa1e"
+    },
+    {
+      "name": "arrivals_portrait",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-aojing-ground-v2-20261011/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/render_entry_route.gd",
+        "--",
+        "--views-only",
+        "--fixed-clock",
+        "--output-directory=/tmp/garden-aojing-ground-v2-20261011/lit-arrivals-portrait",
+        "--mobile"
+      ],
+      "log": "/tmp/garden-aojing-ground-v2-20261011/lit-validation-logs/arrivals_portrait.log",
+      "pid": 97188,
+      "exit_code": 0,
+      "log_sha256": "5fdeb6ff45ec9c6240bef6255c082d2c2128ffe17f05b58d48663c310cd7bd7c"
+    }
+  ],
+  "scope": "Isolated current-source engine integration, native views and existing regression checks. No production adoption or phone/device/performance acceptance.",
+  "baseline_engine_source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "updated_source_pins": {
+    "tests/test_hengwu_overview.gd": "608526d7dffe0b85b99e05fbe1db90a4172981ba6e4c122f09913bf4f82755fc",
+    "tests/test_hengwu_native_visibility.gd": "0d5fcdeebbe2b46c92698e5eed31f6632b96e741f96be9dc20858d2b043977f7",
+    "tests/test_ziling_framing.gd": "e796486baca963eef7ed1c4ddc4834ba44195c353fa7c7608447ee3de88a2c8a",
+    "tests/test_qiushuang_framing.gd": "c53e3b8c2205d380be1b8e6a3fa951bfea2937e4681a2ebbb471db2944e5044f",
+    "tests/test_hengwu_detail_framing.gd": "16ffcf688c76af7adc97d58798ca64dc3d4c1dc8411df65a4eeb13a96482d347",
+    "tests/test_tubi_framing.gd": "9bef8ec567fc97f38720f7c6ef95c041eec4ce4e90fb3a9bd7f8c87ed937d469",
+    "tests/test_yihong_framing.gd": "986eb3976630cde51a8284b69d610ec094113ead74e61f5fa1838635bb1cf4be",
+    "tests/render_dynamic_palette.gd": "281a79a3344313856130601ab4b3a045f3a5eeb110f185d33778392a7819e238"
+  },
+  "preserved_lightmap_import_parameter_files": 141,
+  "resumed_failed_report": "/tmp/garden-aojing-ground-v2-20261011/failed-native-winding-01/lit-validation.json"
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/garden-stage-kit-atlas-20261011/compare_exports.py", line 18, in <module>
+    assert a['name'].startswith('cyclorama-') and b['name']==a['name']+'.export2048',(a,b)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ({'bufferView': 30, 'mimeType': 'image/png', 'name': 'cyclorama-dusk'}, {'bufferView': 30, 'mimeType': 'image/png', 'name': 'cyclorama-dusk'})

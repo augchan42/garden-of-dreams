@@ -1,0 +1,161 @@
+FFFFFFFFFFFFF.
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='wrong_size')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing_binding')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='failed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing_mips')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='lossy_gate')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing_texture')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='changed_source_glb')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='changed_production_checker')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='changed_staged_checker')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing_checker_proof')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='changed_cache')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_invalid_caps_reject_before_phone_access (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_missing_or_invalid_caps_reject_before_phone_access) (mutation='missing_cache_proof')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 112, in test_missing_or_invalid_caps_reject_before_phone_access
+    with self.subTest(mutation=mutation): self.run_case(mutation)
+                                          ~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 101, in run_case
+    with self.assertRaisesRegex(AssertionError, 'cap|Cap'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.165s
+
+FAILED (failures=13)

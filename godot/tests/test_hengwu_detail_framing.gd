@@ -1,6 +1,6 @@
 extends SceneTree
 
-const SOURCE := "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485"
+const SOURCE := "f411ed55c88d03ce1c94f54baa176ada7605123103b45b4134eb2f1966f84577"
 var route
 var output := ""
 var errors: Array[String] = []
@@ -28,8 +28,15 @@ func settle() -> void:
  var deadline:=Time.get_ticks_msec()+10000
  while route.camera_tween!=null and route.camera_tween.is_valid() and route.camera_tween.is_running() and Time.get_ticks_msec()<deadline:await process_frame
  check(route.camera_tween==null or not route.camera_tween.is_valid() or not route.camera_tween.is_running(),"Camera tween timeout")
+ var started:=Time.get_ticks_msec()
+ await create_timer(.25).timeout
+ while Time.get_ticks_msec()-started<250:await process_frame
+ var drawn:=[false]
+ RenderingServer.frame_post_draw.connect(func():drawn[0]=true,CONNECT_ONE_SHOT)
  RenderingServer.force_draw()
- await RenderingServer.frame_post_draw
+ deadline=Time.get_ticks_msec()+10000
+ while not drawn[0] and Time.get_ticks_msec()<deadline:await process_frame
+ check(drawn[0],"Native draw timeout")
 
 func press(label: String) -> void:
  for button in route.actions.get_children():
@@ -77,6 +84,20 @@ func inspect(action: String,phase: String,fitted: bool) -> void:
  check(image.save_png(path)==OK,"Cannot save original "+phase)
  rows.append({"action":action,"phase":phase,"capture":path,"sha256":FileAccess.get_sha256(path),"pixels":[image.get_width(),image.get_height()],"logical_viewport":[size.x,size.y],"bounds":[[low.x,low.y],[high.x,high.y]],"header_bottom":header.end.y,"panel_top":panel.position.y,"fits":fit,"camera_position":[route.camera.position.x,route.camera.position.y,route.camera.position.z],"camera_fov":route.camera.fov,"camera_transition_running":false})
 
+func overview_fits() -> bool:
+ var contract:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://tests/hengwu-arrival-contract.json"))
+ var size:Vector2=root.get_visible_rect().size
+ var header:Rect2=route.status.get_global_rect()
+ var panel:Rect2=route.command_panel.get_global_rect()
+ if contract.source_glb_sha256!=SOURCE:return false
+ for subject in contract.subjects.values():
+  for point in subject.points:
+   var world:=Vector3(point[0],point[1],point[2])
+   if route.camera.is_position_behind(world):return false
+   var pixel:Vector2=route.camera.unproject_position(world)
+   if pixel.x<12 or pixel.x>size.x-12 or pixel.y<header.end.y+12 or pixel.y>panel.position.y-14:return false
+ return true
+
 func run() -> void:
  if DisplayServer.get_name()=="headless" or output=="":
   push_error("Native graphics and an explicit output folder are required")
@@ -89,6 +110,14 @@ func run() -> void:
  root.add_child(route)
  await settle()
  check(route.site_bakes_enabled,"Matching scene bakes disabled")
+ # The rear-court overview reveals animated water beyond the moon gate.
+ for node in route.find_children("*","MeshInstance3D",true,false):
+  for surface in range(node.mesh.get_surface_count()):
+   var material=node.get_active_material(surface)
+   if material is ShaderMaterial:
+    for uniform in material.shader.get_shader_uniform_list():
+     if uniform.name=="timeline_time":material.set_shader_parameter("timeline_time",3.)
+ route.get_node("PondReflection").material.set_shader_parameter("timeline_time",3.)
  route.player.position=Vector3(-18,.03,-11)
  var portrait_size:=Vector2i(1080,2340) if density_enabled else Vector2i(390,844)
  var narrow_size:=Vector2i(945,2100) if density_enabled else Vector2i(360,800)
@@ -130,15 +159,14 @@ func run() -> void:
   check(route.player.position.distance_to(visitor)<.005 and route.room_id=="hengwu_yuan","Detail action or resize moved visitor/changed room")
   press("Look")
   await settle()
-  check(route.camera.position.is_equal_approx(Vector3(-17.5,2.6,-10.5)) and is_equal_approx(route.camera.fov,55.0),"Look did not restore Hengwu overview")
+  check(route.hengwu_detail_action=="" and overview_fits(),"Look did not restore complete Hengwu overview")
   check(route.output_label.text==route.ROOMS.hengwu_yuan.text,"Look did not restore overview text")
-  var overview:Transform3D=route.camera.transform
   root.size=narrow_size
   await settle()
-  check(route.camera.transform.is_equal_approx(overview),"Resize resurrected a cleared detail action")
+  check(route.hengwu_detail_action=="" and overview_fits(),"Resize resurrected a cleared detail or cropped overview")
   inspect(action,"look-narrow",false)
  var file:=FileAccess.open(output+"/report.json",FileAccess.WRITE)
- file.store_string(JSON.stringify({"status":"hengwu_detail_framing_passed" if errors.is_empty() else "rejected","touch_enabled":touch_enabled,"density_enabled":density_enabled,"requested_portrait_size":[portrait_size.x,portrait_size.y],"requested_narrow_size":[narrow_size.x,narrow_size.y],"requested_desktop_size":[desktop_size.x,desktop_size.y],"source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_hengwu_detail_framing.gd"),"source_contract_sha256":FileAccess.get_sha256("res://tests/source-contract.json"),"errors":errors,"rows":rows,"scope":"Actual public buttons, completed camera tweens, conservative subject bounds above real interface at both portrait sizes, original desktop detail restoration, detail text/visitor preservation and Look clearing; optional touch targets and final-action scroll reachability. Density requests may be clamped by the native desktop window; actual PNG dimensions and logical viewports are recorded. Original rendered pixels still require visual review; not physical-phone or final all-site art acceptance."}," ")+"\n")
+ file.store_string(JSON.stringify({"status":"hengwu_detail_framing_passed" if errors.is_empty() else "rejected","touch_enabled":touch_enabled,"density_enabled":density_enabled,"requested_portrait_size":[portrait_size.x,portrait_size.y],"requested_narrow_size":[narrow_size.x,narrow_size.y],"requested_desktop_size":[desktop_size.x,desktop_size.y],"source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_hengwu_detail_framing.gd"),"source_contract_sha256":FileAccess.get_sha256("res://tests/source-contract.json"),"fixed_clock":3.,"errors":errors,"rows":rows,"scope":"Actual public buttons, completed camera tweens, conservative subject bounds above real interface at both portrait sizes, original desktop detail restoration, detail text/visitor preservation and Look clearing; optional touch targets and final-action scroll reachability. Density requests may be clamped by the native desktop window; actual PNG dimensions and logical viewports are recorded. Original rendered pixels still require visual review; not physical-phone or final all-site art acceptance."}," ")+"\n")
  file.close()
  print("HENGWU_DETAIL_FRAMING_RESULT ",rows.size()," captures; ",errors.size()," failures")
  quit(0 if errors.is_empty() else 1)

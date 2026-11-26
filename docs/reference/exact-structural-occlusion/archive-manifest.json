@@ -1,0 +1,541 @@
+{
+  "base": "214496ff69c17f51918b80dd19c419cab317bcce",
+  "scope": "Isolated exact structural occluder candidate evidence; no production adoption.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b2d6e1d00cd5cdd45a4fbca759a1c8c2ff5d30e8704084e7032f8bbd3545f041",
+      "bytes": 4324
+    },
+    {
+      "path": "batch-candidates.json",
+      "sha256": "b02d5e5f9ae8262b943d0fb5e8a382cc448d8704880101db8babf166f2455afd",
+      "bytes": 4447
+    },
+    {
+      "path": "batch-candidates.log",
+      "sha256": "d8d460cc4f04cb1a22a2f9c72968e1ce1bbeb0d2dbf4a45545bdcecc0eed8e60",
+      "bytes": 3918
+    },
+    {
+      "path": "checks/desktop-frame-progress-corrected.log",
+      "sha256": "58f6e6a9784cd921fcb92db7f28d726032fe4860411eabfc50b85428512a3f62",
+      "bytes": 1875
+    },
+    {
+      "path": "checks/desktop-normalized.log",
+      "sha256": "e3d5949b9c126cfe42c5dfa9a9790caf3cc123305fcd2aabac311944c53efada",
+      "bytes": 10777
+    },
+    {
+      "path": "checks/desktop-real-walls.log",
+      "sha256": "2f0b36e1f15834f72f7a42fd2f2fe14d9f9a61c2724c3b457cee4913441f82ab",
+      "bytes": 1871
+    },
+    {
+      "path": "checks/desktop-validated-opaque.log",
+      "sha256": "93b04963b95f6375f021ac808654787b494b6af1d32a3780a0b46c629fa8ad4f",
+      "bytes": 12799
+    },
+    {
+      "path": "checks/desktop-validated.log",
+      "sha256": "e669fa4c56e6ecec9d70c376c200b5ff2a3b0327ea460f8b7ffd01a847d76794",
+      "bytes": 459
+    },
+    {
+      "path": "checks/portrait-validated-opaque.log",
+      "sha256": "cdb69e11f3b6762387b3decbd9b88a102aa0450b9aa7f2a56d15714659671753",
+      "bytes": 12776
+    },
+    {
+      "path": "checks/support-frame-counter.log",
+      "sha256": "e51fd70b024416aeedde4f04e73a826a880c184a149e902116c9080113ad8af3",
+      "bytes": 599
+    },
+    {
+      "path": "comparison.json",
+      "sha256": "17bb940bf5fba1476a3c093cee0cccce3c838462b7a2b1989dae8f96247c337d",
+      "bytes": 4886
+    },
+    {
+      "path": "direct-review.json",
+      "sha256": "465f93b57fd9f374e0dd849366154f26ea84c6300b153cb08ac99f75bddeca08",
+      "bytes": 1314
+    },
+    {
+      "path": "occlusion-desktop-validated/aojing_guan-disabled.png",
+      "sha256": "d868cf3423ba87d219de5e22741129eb0a1ac98294cce32368ccf438cc572b55",
+      "bytes": 518210
+    },
+    {
+      "path": "occlusion-desktop-validated/aojing_guan-disabled_repeat.png",
+      "sha256": "d868cf3423ba87d219de5e22741129eb0a1ac98294cce32368ccf438cc572b55",
+      "bytes": 518210
+    },
+    {
+      "path": "occlusion-desktop-validated/aojing_guan-enabled.png",
+      "sha256": "d868cf3423ba87d219de5e22741129eb0a1ac98294cce32368ccf438cc572b55",
+      "bytes": 518210
+    },
+    {
+      "path": "occlusion-desktop-validated/daguan_lou-disabled.png",
+      "sha256": "2f368d991407afcd89bdebf9cc72ae09c87a828fd0d76dc501a05cea04cd0004",
+      "bytes": 717072
+    },
+    {
+      "path": "occlusion-desktop-validated/daguan_lou-disabled_repeat.png",
+      "sha256": "2f368d991407afcd89bdebf9cc72ae09c87a828fd0d76dc501a05cea04cd0004",
+      "bytes": 717072
+    },
+    {
+      "path": "occlusion-desktop-validated/daguan_lou-enabled.png",
+      "sha256": "2f368d991407afcd89bdebf9cc72ae09c87a828fd0d76dc501a05cea04cd0004",
+      "bytes": 717072
+    },
+    {
+      "path": "occlusion-desktop-validated/daoxiang_cun-disabled.png",
+      "sha256": "88faebe77400e02228dec790e86eea50872cf7c6db71bfed957cab60f478835a",
+      "bytes": 606540
+    },
+    {
+      "path": "occlusion-desktop-validated/daoxiang_cun-disabled_repeat.png",
+      "sha256": "88faebe77400e02228dec790e86eea50872cf7c6db71bfed957cab60f478835a",
+      "bytes": 606540
+    },
+    {
+      "path": "occlusion-desktop-validated/daoxiang_cun-enabled.png",
+      "sha256": "88faebe77400e02228dec790e86eea50872cf7c6db71bfed957cab60f478835a",
+      "bytes": 606540
+    },
+    {
+      "path": "occlusion-desktop-validated/hengwu_yuan-disabled.png",
+      "sha256": "886010bfe025589e1378ece9228074d94b601e7ec6556d2fb5f7cf9147403ae0",
+      "bytes": 740904
+    },
+    {
+      "path": "occlusion-desktop-validated/hengwu_yuan-disabled_repeat.png",
+      "sha256": "886010bfe025589e1378ece9228074d94b601e7ec6556d2fb5f7cf9147403ae0",
+      "bytes": 740904
+    },
+    {
+      "path": "occlusion-desktop-validated/hengwu_yuan-enabled.png",
+      "sha256": "886010bfe025589e1378ece9228074d94b601e7ec6556d2fb5f7cf9147403ae0",
+      "bytes": 740904
+    },
+    {
+      "path": "occlusion-desktop-validated/longcui_an-disabled.png",
+      "sha256": "a3121f54df07c016d02d51bc14de6e313ae160fc822b6605e731e7373b2f7b2b",
+      "bytes": 513099
+    },
+    {
+      "path": "occlusion-desktop-validated/longcui_an-disabled_repeat.png",
+      "sha256": "a3121f54df07c016d02d51bc14de6e313ae160fc822b6605e731e7373b2f7b2b",
+      "bytes": 513099
+    },
+    {
+      "path": "occlusion-desktop-validated/longcui_an-enabled.png",
+      "sha256": "a3121f54df07c016d02d51bc14de6e313ae160fc822b6605e731e7373b2f7b2b",
+      "bytes": 513099
+    },
+    {
+      "path": "occlusion-desktop-validated/ouxiang_xie-disabled.png",
+      "sha256": "5877ee193b3dba52e55a692f8837d01de997e934afe76fe17ac841a04aaee0bc",
+      "bytes": 637012
+    },
+    {
+      "path": "occlusion-desktop-validated/ouxiang_xie-disabled_repeat.png",
+      "sha256": "5877ee193b3dba52e55a692f8837d01de997e934afe76fe17ac841a04aaee0bc",
+      "bytes": 637012
+    },
+    {
+      "path": "occlusion-desktop-validated/ouxiang_xie-enabled.png",
+      "sha256": "5877ee193b3dba52e55a692f8837d01de997e934afe76fe17ac841a04aaee0bc",
+      "bytes": 637012
+    },
+    {
+      "path": "occlusion-desktop-validated/qinfang_ting-disabled.png",
+      "sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+      "bytes": 679320
+    },
+    {
+      "path": "occlusion-desktop-validated/qinfang_ting-disabled_repeat.png",
+      "sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+      "bytes": 679320
+    },
+    {
+      "path": "occlusion-desktop-validated/qinfang_ting-enabled.png",
+      "sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+      "bytes": 679320
+    },
+    {
+      "path": "occlusion-desktop-validated/qiushuang_zhai-disabled.png",
+      "sha256": "378c11c3899aaec8abd94ce73bb38fe58f989ea9ce632261cf32978654ade755",
+      "bytes": 679597
+    },
+    {
+      "path": "occlusion-desktop-validated/qiushuang_zhai-disabled_repeat.png",
+      "sha256": "378c11c3899aaec8abd94ce73bb38fe58f989ea9ce632261cf32978654ade755",
+      "bytes": 679597
+    },
+    {
+      "path": "occlusion-desktop-validated/qiushuang_zhai-enabled.png",
+      "sha256": "378c11c3899aaec8abd94ce73bb38fe58f989ea9ce632261cf32978654ade755",
+      "bytes": 679597
+    },
+    {
+      "path": "occlusion-desktop-validated/report.json",
+      "sha256": "a36177124cdb72f42050575c19393c7134f80798e90fa235c5501ef1e56d5216",
+      "bytes": 15801
+    },
+    {
+      "path": "occlusion-desktop-validated/rockery_gate-disabled.png",
+      "sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+      "bytes": 503199
+    },
+    {
+      "path": "occlusion-desktop-validated/rockery_gate-disabled_repeat.png",
+      "sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+      "bytes": 503199
+    },
+    {
+      "path": "occlusion-desktop-validated/rockery_gate-enabled.png",
+      "sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+      "bytes": 503199
+    },
+    {
+      "path": "occlusion-desktop-validated/terminal_room-disabled.png",
+      "sha256": "ee2e8fe11a776fa29cfd9bfa307eab1bd560b84c35f69dc324fe9434ccaeb5a5",
+      "bytes": 172624
+    },
+    {
+      "path": "occlusion-desktop-validated/terminal_room-disabled_repeat.png",
+      "sha256": "ee2e8fe11a776fa29cfd9bfa307eab1bd560b84c35f69dc324fe9434ccaeb5a5",
+      "bytes": 172624
+    },
+    {
+      "path": "occlusion-desktop-validated/terminal_room-enabled.png",
+      "sha256": "ee2e8fe11a776fa29cfd9bfa307eab1bd560b84c35f69dc324fe9434ccaeb5a5",
+      "bytes": 172624
+    },
+    {
+      "path": "occlusion-desktop-validated/tubi_tang-disabled.png",
+      "sha256": "575fd45a9befc48d9e3b9131e1916ba90f3d1b69b7ec4c147905f39616107b16",
+      "bytes": 744096
+    },
+    {
+      "path": "occlusion-desktop-validated/tubi_tang-disabled_repeat.png",
+      "sha256": "575fd45a9befc48d9e3b9131e1916ba90f3d1b69b7ec4c147905f39616107b16",
+      "bytes": 744096
+    },
+    {
+      "path": "occlusion-desktop-validated/tubi_tang-enabled.png",
+      "sha256": "575fd45a9befc48d9e3b9131e1916ba90f3d1b69b7ec4c147905f39616107b16",
+      "bytes": 744096
+    },
+    {
+      "path": "occlusion-desktop-validated/xiaoxiang_guan-disabled.png",
+      "sha256": "a53aed09d156dbd578fc9d221eb5c292e788884dec94104381baaeb446725c72",
+      "bytes": 759655
+    },
+    {
+      "path": "occlusion-desktop-validated/xiaoxiang_guan-disabled_repeat.png",
+      "sha256": "a53aed09d156dbd578fc9d221eb5c292e788884dec94104381baaeb446725c72",
+      "bytes": 759655
+    },
+    {
+      "path": "occlusion-desktop-validated/xiaoxiang_guan-enabled.png",
+      "sha256": "a53aed09d156dbd578fc9d221eb5c292e788884dec94104381baaeb446725c72",
+      "bytes": 759655
+    },
+    {
+      "path": "occlusion-desktop-validated/yihong_yuan-disabled.png",
+      "sha256": "8ea91c6956d5b1fa340c896262f060c6ca2820a2d9c243bef440a8893fefd77f",
+      "bytes": 590049
+    },
+    {
+      "path": "occlusion-desktop-validated/yihong_yuan-disabled_repeat.png",
+      "sha256": "8ea91c6956d5b1fa340c896262f060c6ca2820a2d9c243bef440a8893fefd77f",
+      "bytes": 590049
+    },
+    {
+      "path": "occlusion-desktop-validated/yihong_yuan-enabled.png",
+      "sha256": "8ea91c6956d5b1fa340c896262f060c6ca2820a2d9c243bef440a8893fefd77f",
+      "bytes": 590049
+    },
+    {
+      "path": "occlusion-desktop-validated/ziling_zhou-disabled.png",
+      "sha256": "68f507f73a4bf7962cd5926539f18899d8540bed6bef226ee9a8f80a6d380770",
+      "bytes": 553624
+    },
+    {
+      "path": "occlusion-desktop-validated/ziling_zhou-disabled_repeat.png",
+      "sha256": "68f507f73a4bf7962cd5926539f18899d8540bed6bef226ee9a8f80a6d380770",
+      "bytes": 553624
+    },
+    {
+      "path": "occlusion-desktop-validated/ziling_zhou-enabled.png",
+      "sha256": "68f507f73a4bf7962cd5926539f18899d8540bed6bef226ee9a8f80a6d380770",
+      "bytes": 553624
+    },
+    {
+      "path": "occlusion-portrait-validated/aojing_guan-disabled.png",
+      "sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+      "bytes": 247267
+    },
+    {
+      "path": "occlusion-portrait-validated/aojing_guan-disabled_repeat.png",
+      "sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+      "bytes": 247267
+    },
+    {
+      "path": "occlusion-portrait-validated/aojing_guan-enabled.png",
+      "sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+      "bytes": 247267
+    },
+    {
+      "path": "occlusion-portrait-validated/daguan_lou-disabled.png",
+      "sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+      "bytes": 307483
+    },
+    {
+      "path": "occlusion-portrait-validated/daguan_lou-disabled_repeat.png",
+      "sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+      "bytes": 307483
+    },
+    {
+      "path": "occlusion-portrait-validated/daguan_lou-enabled.png",
+      "sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+      "bytes": 307483
+    },
+    {
+      "path": "occlusion-portrait-validated/daoxiang_cun-disabled.png",
+      "sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+      "bytes": 303729
+    },
+    {
+      "path": "occlusion-portrait-validated/daoxiang_cun-disabled_repeat.png",
+      "sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+      "bytes": 303729
+    },
+    {
+      "path": "occlusion-portrait-validated/daoxiang_cun-enabled.png",
+      "sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+      "bytes": 303729
+    },
+    {
+      "path": "occlusion-portrait-validated/hengwu_yuan-disabled.png",
+      "sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+      "bytes": 334834
+    },
+    {
+      "path": "occlusion-portrait-validated/hengwu_yuan-disabled_repeat.png",
+      "sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+      "bytes": 334834
+    },
+    {
+      "path": "occlusion-portrait-validated/hengwu_yuan-enabled.png",
+      "sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+      "bytes": 334834
+    },
+    {
+      "path": "occlusion-portrait-validated/longcui_an-disabled.png",
+      "sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+      "bytes": 288702
+    },
+    {
+      "path": "occlusion-portrait-validated/longcui_an-disabled_repeat.png",
+      "sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+      "bytes": 288702
+    },
+    {
+      "path": "occlusion-portrait-validated/longcui_an-enabled.png",
+      "sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+      "bytes": 288702
+    },
+    {
+      "path": "occlusion-portrait-validated/ouxiang_xie-disabled.png",
+      "sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+      "bytes": 300608
+    },
+    {
+      "path": "occlusion-portrait-validated/ouxiang_xie-disabled_repeat.png",
+      "sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+      "bytes": 300608
+    },
+    {
+      "path": "occlusion-portrait-validated/ouxiang_xie-enabled.png",
+      "sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+      "bytes": 300608
+    },
+    {
+      "path": "occlusion-portrait-validated/qinfang_ting-disabled.png",
+      "sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+      "bytes": 282593
+    },
+    {
+      "path": "occlusion-portrait-validated/qinfang_ting-disabled_repeat.png",
+      "sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+      "bytes": 282593
+    },
+    {
+      "path": "occlusion-portrait-validated/qinfang_ting-enabled.png",
+      "sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+      "bytes": 282593
+    },
+    {
+      "path": "occlusion-portrait-validated/qiushuang_zhai-disabled.png",
+      "sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+      "bytes": 265009
+    },
+    {
+      "path": "occlusion-portrait-validated/qiushuang_zhai-disabled_repeat.png",
+      "sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+      "bytes": 265009
+    },
+    {
+      "path": "occlusion-portrait-validated/qiushuang_zhai-enabled.png",
+      "sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+      "bytes": 265009
+    },
+    {
+      "path": "occlusion-portrait-validated/report.json",
+      "sha256": "aafdf1edad1c8d1635bde43a13abfdf13a90d19bb8d45495f37d315f994d5862",
+      "bytes": 15778
+    },
+    {
+      "path": "occlusion-portrait-validated/rockery_gate-disabled.png",
+      "sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+      "bytes": 200644
+    },
+    {
+      "path": "occlusion-portrait-validated/rockery_gate-disabled_repeat.png",
+      "sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+      "bytes": 200644
+    },
+    {
+      "path": "occlusion-portrait-validated/rockery_gate-enabled.png",
+      "sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+      "bytes": 200644
+    },
+    {
+      "path": "occlusion-portrait-validated/terminal_room-disabled.png",
+      "sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+      "bytes": 172377
+    },
+    {
+      "path": "occlusion-portrait-validated/terminal_room-disabled_repeat.png",
+      "sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+      "bytes": 172377
+    },
+    {
+      "path": "occlusion-portrait-validated/terminal_room-enabled.png",
+      "sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+      "bytes": 172377
+    },
+    {
+      "path": "occlusion-portrait-validated/tubi_tang-disabled.png",
+      "sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+      "bytes": 328584
+    },
+    {
+      "path": "occlusion-portrait-validated/tubi_tang-disabled_repeat.png",
+      "sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+      "bytes": 328584
+    },
+    {
+      "path": "occlusion-portrait-validated/tubi_tang-enabled.png",
+      "sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+      "bytes": 328584
+    },
+    {
+      "path": "occlusion-portrait-validated/xiaoxiang_guan-disabled.png",
+      "sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+      "bytes": 350987
+    },
+    {
+      "path": "occlusion-portrait-validated/xiaoxiang_guan-disabled_repeat.png",
+      "sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+      "bytes": 350987
+    },
+    {
+      "path": "occlusion-portrait-validated/xiaoxiang_guan-enabled.png",
+      "sha256": "80d2b2ee2626d921f135fa8bd3e4079bb147652b25a914e73429c5548d1c3c7e",
+      "bytes": 350987
+    },
+    {
+      "path": "occlusion-portrait-validated/yihong_yuan-disabled.png",
+      "sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+      "bytes": 280095
+    },
+    {
+      "path": "occlusion-portrait-validated/yihong_yuan-disabled_repeat.png",
+      "sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+      "bytes": 280095
+    },
+    {
+      "path": "occlusion-portrait-validated/yihong_yuan-enabled.png",
+      "sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+      "bytes": 280095
+    },
+    {
+      "path": "occlusion-portrait-validated/ziling_zhou-disabled.png",
+      "sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+      "bytes": 273810
+    },
+    {
+      "path": "occlusion-portrait-validated/ziling_zhou-disabled_repeat.png",
+      "sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+      "bytes": 273810
+    },
+    {
+      "path": "occlusion-portrait-validated/ziling_zhou-enabled.png",
+      "sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+      "bytes": 273810
+    },
+    {
+      "path": "source/baked-only-material-guard-source.gd",
+      "sha256": "0171cd643a83cdf116d4433ab7e902072ab123e8e1a83f0ddd624c8dd82ce559",
+      "bytes": 4356
+    },
+    {
+      "path": "source/diagnose_occlusion_support.gd",
+      "sha256": "4e5af0539a57edbbc1cf9a0793f3ab88af30383f30cf92c3eade0b26c31a6d3a",
+      "bytes": 1715
+    },
+    {
+      "path": "source/diagnose_solid_occlusion.gd",
+      "sha256": "6be12fe7505c1a51c1b7b201eaf78e2a999276732d4b171070e854da8086e902",
+      "bytes": 4672
+    },
+    {
+      "path": "source/frame-progress-solid-source.gd",
+      "sha256": "77f77c1ff34d24b0aaa1319f8bacde7411102fcf47992abf8d91274ebb8caf76",
+      "bytes": 3952
+    },
+    {
+      "path": "source/inspect_batch_candidates.gd",
+      "sha256": "ecdb81b4db459d19810f8db4b3b201af55ad5831abb5ca72b8891551634a1d02",
+      "bytes": 1090
+    },
+    {
+      "path": "source/normalized-solid-source.gd",
+      "sha256": "09e940566b748ccb6827bf7adfa225557032190821a975c2e1c80b703b5fff62",
+      "bytes": 3557
+    },
+    {
+      "path": "source/two-room-wall-source.gd",
+      "sha256": "833b95914b1393b7afa8777a923fc0f7d8630525825e3e847a91a933f3683dae",
+      "bytes": 4028
+    },
+    {
+      "path": "source-preservation.json",
+      "sha256": "230c263d59655e41231936fbba4ec6db50d408f54dcac9d6cf2361ae8e0bad92",
+      "bytes": 259345
+    },
+    {
+      "path": "verify_comparison.py",
+      "sha256": "25b152b61db63c1d9735835be52115b3fd7e12b496cf70fe656d0d70afa41f6b",
+      "bytes": 2769
+    }
+  ]
+}

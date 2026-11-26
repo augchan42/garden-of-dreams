@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "script": "test_android_full_tour_minimum.gd",
+      "exit_code": 0,
+      "expected_negative_control_errors": 0,
+      "log": "/tmp/garden-full-profiler-20261010/test_android_full_tour_minimum-final.log"
+    },
+    {
+      "script": "test_android_full_pause.gd",
+      "exit_code": 0,
+      "expected_negative_control_errors": 2,
+      "log": "/tmp/garden-full-profiler-20261010/test_android_full_pause-final.log"
+    },
+    {
+      "script": "test_profile_frame_costs.gd",
+      "exit_code": 0,
+      "expected_negative_control_errors": 0,
+      "log": "/tmp/garden-full-profiler-20261010/test_profile_frame_costs-final.log"
+    }
+  ],
+  "scope": "Isolated actual Godot producer minimum2tour/pause/focus andframecounter controls. No final physicalphone run claim."
+}

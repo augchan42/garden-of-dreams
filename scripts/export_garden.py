@@ -59,6 +59,17 @@ for source in list(s.collection.children):
   if obj.type in ['MESH','FONT']:o.data=obj.data.copy()
   dest.objects.link(o);o.hide_viewport=False;o.hide_render=False;o.hide_set(False)
   if obj.name.startswith('COL_'):o.name=obj.name+'-colonly';o['collision_only']=True
+ # Qiushuang bar placements remain authored as object translations. Apply
+ # them only to disposable copies before joining, so the first bar cannot
+ # shift the origin and round the normals of unrelated wood components.
+ if slug=='qiushuang-zhai':
+  lattice=[o for o in dest.objects if o.type=='MESH' and o.name.startswith('KIT_wall_lattice_')]
+  bpy.ops.object.select_all(action='DESELECT')
+  for o in lattice:o.select_set(True)
+  if lattice:
+   bpy.context.view_layer.objects.active=lattice[0]
+   bpy.ops.object.transform_apply(location=True,rotation=False,scale=False)
+   bpy.context.view_layer.update()
  groups=collections.defaultdict(list)
  for o in list(dest.objects):
   if o.type=='FONT':
@@ -83,7 +94,9 @@ for source in list(s.collection.children):
   bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.uv.smart_project(angle_limit=math.radians(30) if slug in ["rockery-gate","daguan-lou"] else math.radians(66),island_margin=.015);bpy.ops.object.mode_set(mode='OBJECT')
   if options.pavilion_tile_uvs and o.name=='SITE_qinfang-ting_MAT_pavilion_atlas':
    from pavilion_tile_lightmap_uv import allocate_tile_charts
-   layout=allocate_tile_charts(o)
+   layout=allocate_tile_charts(o,corridor_sources=[obj for obj in source.objects if obj.type=='MESH' and obj.get('kit_placement')=='qinfang_corridor' and not obj.hide_render])
+   from stream_bank_lightmap_uv import allocate_stream_bank_charts
+   layout.update(allocate_stream_bank_charts(o,[obj for obj in source.objects if obj.type=='MESH' and obj.get('kit_placement')=='stream_bank' and not obj.hide_render]))
    (R/'export/pavilion-tile-uv-layout.json').write_text(json.dumps(layout,indent=2)+'\n')
   if options.imperial_tile_uvs and o.name=='SITE_daguan-lou_MAT_rooftile':
    from imperial_tile_lightmap_uv import allocate_imperial_charts

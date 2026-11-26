@@ -81,3 +81,39 @@ Slot 1 is filled by the official Hong Kong Film Archive still from *The 36th Cha
 ## Waterline and reed source checkpoint — 2026-10-09
 
 The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.
+
+
+## Stream bank and lotus checkpoint — 2026-10-09
+
+The current complete source is `7a9fc523` with authoring `074ab201`. The shared stream has 54 bank modules and 54 added colliders; all 42 cameras,400 earlier colliders and 71 markers are preserved. Closed circular lotus pads sit above the water, with a muted shared leaf material and matching saved kit/generator. Fresh lighting covers 124 receivers and 141 source PNGs. Both native Mac tours pass 14 locations and 26 travel legs;15 installed checks pass. This is an incremental source checkpoint. Final site art, five remaining reference slots, current phone/sustained performance, release and authenticated services remain open. Evidence: `../reference/water-edge-source/README.md`.
+
+
+## Island exterior winding checkpoint — 2026-10-09
+
+Current assembly `73267e2b` / authoring `2b07ce48` repairs the reed island’s exterior face winding. All other exported mesh attributes and fourteen other site GLBs are preserved; cameras, colliders, markers and runtime are unchanged. Complete matching lighting, twenty-five focused native checks and thirteen installed checks pass. This site is not declared final by the island repair. Five references, current phone/sustained budgets, release and authenticated services remain open. Evidence: [island source review](../reference/island-exterior-winding/README.md).
+
+
+## Neutral stage-floor checkpoint — 2026-10-09
+
+Current complete source is `c9d4fb30`; authoring is `43d7e33e`. The five broad canvas floor pieces use muted warm gray (.065,.060,.055 linear RGB). Other materials, geometry, cameras, collisions, markers and runtime are preserved. All 141 fresh lightmaps, six source phases, 38 positive native checks plus two intended rejection controls, both 14-room/26-leg tours and 15 installed checks pass. All 47 installed lit/Ziling/arrival originals reproduce the reviewed candidate exactly. References remain 37/42; this is palette repair acceptance, not final site or phone acceptance. Evidence: [neutral stage floor](../reference/stage-floor-palette/README.md).
+
+
+## Paving-source checkpoint — 2026-10-10
+
+Current assembly is `ba40866e` with authoring `7eba169a`. Duplicate visible paving tops are partitioned while retaining the complete floor footprint, all 454 colliders, 42 cameras, 71 markers, materials and runtime `7970380d`. Complete matching 141 PNG lighting, both actual Mac 14-room/26-leg tours and 22 installed checks pass; all 85 installed originals reproduce the reviewed files. All 28 current arrival originals were directly inspected. This is focused paving acceptance; this site's final art is still open. References remain 37/42; current phone/sustained/release and authenticated services remain required. Evidence: [paving repair](../reference/paving-surface-joins/README.md).
+
+
+## Bamboo-source checkpoint — 2026-10-10
+
+Current assembly is `faa8a7fe` with authoring `0f93c424`. Three bamboo sizes now use continuous closed culms and aligned joint collars; narrow leaf cards and a 2.51 m small clump replace the disconnected internodes. Four Xiaoxiang and three Qinfang plants match the saved kit. Assembly triangles fall from 266,533 to 264,973. All 167 render batches, 42 cameras, 454 colliders, 71 markers and runtime `bde86917` are preserved.
+
+Complete matching 141 PNG lighting, six source phases, forty native checks, both actual Mac fourteen-room/twenty-six-leg tours and twenty-one installed checks pass. All fifty-two installed public/arrival originals reproduce the reviewed candidate exactly. Sixty-four original public, arrival and moving views were directly inspected. The saved-source verifier rejects the previous disconnected bamboo and accepts all twenty-seven repaired saved meshes.
+
+This accepts the bamboo source repair. Final fourteen-site art, five missing references (37/42 collected), current physical-phone and sustained performance, release and authenticated services remain open. Camera alternatives remain diagnostic. Evidence: [bamboo source repair](../reference/xiaoxiang-bamboo-source/README.md).
+
+
+## Xiaoxiang portrait cameras — 2026-10-10
+
+Runtime `ec42ec55` now frames the courtyard gate, amber window and aisle in portrait. Gate and bamboo inspection views fit saved subjects above the actual controls, including touch/density scaling. Look restores the overview; rotation preserves the selected action and original desktop poses. UI refresh waits for camera animation completion. Source `faa8a7fe`, authoring `0f93c424` and all matching lighting remain unchanged.
+
+Five headless and seven native candidate phases pass, followed by both fourteen-room/twenty-six-leg normal-time Mac tours with all settled arrivals. Nine installed checks pass and all ninety installed focused originals reproduce the candidate exactly. Seventeen focused/moving originals were directly inspected. Final scene art, five missing reference slots, physical-phone/2020 Adreno/sustained performance, release and authenticated services remain open. Evidence: [camera framing](../reference/xiaoxiang-camera-framing/README.md).

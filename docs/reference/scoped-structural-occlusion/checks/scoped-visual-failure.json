@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "case": "leg-2-frame-150",
+  "passed_cases": 63,
+  "scope": "Full 147-case scoped-controller replay stopped at a pixel assertion. No visual acceptance. Failed exact pose was not persisted before the assertion; focused rerun must preserve it.",
+  "changed_pixels": 1,
+  "bbox": [
+    779,
+    259,
+    780,
+    260
+  ],
+  "baseline_rgba": [
+    54,
+    35,
+    18,
+    255
+  ],
+  "candidate_rgba": [
+    54,
+    35,
+    17,
+    255
+  ],
+  "baseline_repeat_identical": true,
+  "fixture_sha256": "8adb9795911875200dad0ad72e348e875c6630161005c26817697898f2be850f"
+}

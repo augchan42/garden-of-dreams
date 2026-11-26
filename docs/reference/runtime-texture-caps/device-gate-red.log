@@ -1,0 +1,14 @@
+F..
+======================================================================
+FAIL: test_actual_device_cap_record_rejects_bad_pixels_or_bindings (scripts.tests.test_android_runtime_caps_gate.RuntimeCapsCollectorTests.test_actual_device_cap_record_rejects_bad_pixels_or_bindings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_runtime_caps_gate.py", line 113, in test_actual_device_cap_record_rejects_bad_pixels_or_bindings
+    self.assertTrue(callable(verify), 'Actual Android cap verification is not implemented')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Actual Android cap verification is not implemented
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.184s
+
+FAILED (failures=1)

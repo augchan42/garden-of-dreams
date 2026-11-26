@@ -7,7 +7,11 @@ import shutil
 import subprocess
 import tempfile
 import re
+from android_profile_modes import dependencies, producer, snapshot as profile_snapshot, verify as verify_profile_scripts
 from android_texture_provenance import texture_input_snapshot, verify_texture_inputs
+from configure_moon_paint_import import configure as configure_moon_import
+from configure_backdrop_wash_import import configure as configure_wash_import
+from configure_runtime_texture_caps import configure as configure_runtime_caps, verify_loaded_caps, verify_manifest_caps
 
 ROOT = Path(__file__).resolve().parents[1]
 GODOT = '/Applications/Godot.app/Contents/MacOS/Godot'
@@ -18,8 +22,18 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def stage_tests(source, fixture, mode):
+    (fixture / 'tests').mkdir()
+    for name in dependencies(mode):
+        shutil.copy2(source / name, fixture / name)
+    for name in ['test_moon_runtime_import.gd', 'moon-paint-atlas.json', 'profile_report_store.gd',
+                 'runtime_texture_caps.gd', 'test_runtime_texture_caps.gd', 'demo_release_acceptance.gd']:
+        shutil.copy2(source / 'tests' / name, fixture / 'tests' / name)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--mode', choices=['demo', 'full'], default='demo')
     parser.add_argument('--normal-atlas-size-limit', type=int, choices=[0, 1024], default=0)
     parser.add_argument('--orm-atlas-size-limit', type=int, choices=[0, 1024], default=0)
     parser.add_argument('--reuse-ui-font-sizes', action='store_true',
@@ -27,6 +41,8 @@ def main():
     parser.add_argument('--report', type=Path, default=REPORT)
     parser.add_argument('--apk', type=Path, default=ROOT / 'build/garden-phone-profile.apk')
     args = parser.parse_args()
+    from check_asset_checkout import require_assets
+    require_assets(ROOT)
     source = ROOT / 'godot'
     production_texture_inputs = texture_input_snapshot(source)
     fixture = Path(tempfile.mkdtemp(prefix='garden-android-profile-'))
@@ -40,7 +56,7 @@ def main():
                               for name in normal_names for suffix in ['', '.import']}
     original_orm_hashes = {name + suffix: sha(source / 'assets' / (name + suffix))
                           for name in orm_names for suffix in ['', '.import']}
-    state = {'status': 'preparing', 'fixture': str(fixture), 'apk': str(output),
+    state = {'status': 'preparing', 'profile_mode': args.mode, 'fixture': str(fixture), 'apk': str(output),
              'scope': 'Isolated debug profiling export of the installed source and matching runtime maps; no production project settings or source scene changes. Not a final release or target-device acceptance.',
              'normal_atlas_size_limit': args.normal_atlas_size_limit,
              'orm_atlas_size_limit': args.orm_atlas_size_limit,
@@ -58,7 +74,7 @@ def main():
     shutil.copytree(source, fixture, dirs_exist_ok=True, ignore=shutil.ignore_patterns('.godot', 'android', 'tests'))
     runtime_names = ['entry_route.gd', 'reading_result.gd', 'demo_finale.gd', 'baked_materials.gd']
     production_runtime_hashes = {name: sha(source / 'runtime' / name) for name in runtime_names}
-    renderer_paths = ['runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader']
+    renderer_paths = ['runtime/baked_materials.gd', 'shaders/baked_diffuse.gdshader', 'runtime/backdrop_wash.gd']
     production_renderer_hashes = {name: sha(source / name) for name in renderer_paths}
     state['production_renderer_files_sha256'] = production_renderer_hashes
     if args.reuse_ui_font_sizes:
@@ -97,9 +113,11 @@ def main():
             shutil.copytree(path, destination)
         elif path.exists():
             shutil.copy2(path, destination)
-    (fixture / 'tests').mkdir()
-    shutil.copy2(source / 'tests/profile_android.gd', fixture / 'tests/profile_android.gd')
-    shutil.copy2(source / 'tests/texture_binding_inventory.gd', fixture / 'tests/texture_binding_inventory.gd')
+    production_profile_scripts = profile_snapshot(source, args.mode)
+    stage_tests(source, fixture, args.mode)
+    state['moon_import_configuration'] = configure_moon_import(fixture)
+    state['backdrop_wash_import_configuration'] = configure_wash_import(fixture)
+    state['runtime_caps_configuration'] = configure_runtime_caps(fixture)
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
     project = fixture / 'project.godot'
     contents = project.read_text()
@@ -113,14 +131,19 @@ def main():
                                 'run/main_scene="res://tests/profile_android.tscn"\nconfig/icon="res://profile-icon.svg"')
     project.write_text(contents)
     (fixture / 'tests/profile_android.tscn').write_text('''[gd_scene load_steps=2 format=3]
-[ext_resource type="Script" path="res://tests/profile_android.gd" id="1"]
+[ext_resource type="Script" path="res://PROFILE_PRODUCER" id="1"]
 [node name="AndroidProfile" type="Node"]
 script = ExtResource("1")
-''')
+'''.replace('PROFILE_PRODUCER', producer(args.mode)))
     (fixture / 'profile-icon.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><rect width="128" height="128" rx="20" fill="#18201f"/><path d="M28 28h72M28 42h72M28 56h30m12 0h30M28 70h72M28 84h30m12 0h30M28 98h72" stroke="#dcb472" stroke-width="7"/></svg>''')
-    build = {key: state[key] for key in ['scope', 'source_glb_sha256']}
-    build.update({'profile_script_sha256': sha(fixture / 'tests/profile_android.gd'),
+    build = {key: state[key] for key in ['scope', 'source_glb_sha256', 'profile_mode']}
+    build.update({'profile_script_sha256': sha(fixture / producer(args.mode)),
+                  'profile_dependency_sha256': production_profile_scripts,
+                  'report_store_script_sha256': sha(fixture / 'tests/profile_report_store.gd'),
                   'inventory_script_sha256': sha(fixture / 'tests/texture_binding_inventory.gd'),
+                  'runtime_caps_script_sha256': {name: sha(source / 'tests' / name) for name in ['runtime_texture_caps.gd', 'test_runtime_texture_caps.gd']},
+                  'moon_check_script_sha256': sha(fixture / 'tests/test_moon_runtime_import.gd'),
+                  'moon_paint_atlas_sha256': sha(fixture / 'tests/moon-paint-atlas.json'),
                   'normal_atlas_size_limit': args.normal_atlas_size_limit,
                   'orm_atlas_size_limit': args.orm_atlas_size_limit,
                   'reuse_ui_font_sizes': args.reuse_ui_font_sizes,
@@ -163,6 +186,12 @@ user_data_backup/allow=false
 screen/immersive_mode=true
 ''')
     for name, command in [('mobile-texture-import', [GODOT, '--headless', '--editor', '--path', str(fixture), '--import']),
+                          ('moon-runtime-import-check', [GODOT, '--headless', '--path', str(fixture),
+                           '--script', 'res://tests/test_moon_runtime_import.gd', '--',
+                           '--output=' + str(fixture / 'moon-runtime-import-check.json')]),
+                          ('runtime-texture-cap-check', [GODOT, '--headless', '--path', str(fixture),
+                           '--script', 'res://tests/test_runtime_texture_caps.gd', '--',
+                           '--output=' + str(fixture / 'runtime-texture-caps.json')]),
                           ('apk-export', [GODOT, '--headless', '--path', str(fixture), '--export-debug', 'Android Profile', str(output)])]:
         log = fixture / (name + '.log')
         phase = {'name': name, 'status': 'running', 'log': str(log)}
@@ -194,9 +223,24 @@ screen/immersive_mode=true
                 'orm_import_sha256': {name: sha(fixture / 'assets' / (name + '.import')) for name in orm_names},
                 'inscription_import_sha256': [sha(fixture / 'assets' / ('garden-of-dreams_gate-inscription' + suffix + '.png.import')) for suffix in ['', '-normal']],
             })
-            # Pin actual finalized platform imports before exporting the manifest.
-            (fixture / 'phone-profile-build.json').write_text(json.dumps(build, indent=2) + '\n')
             state['staged_texture_inputs'] = staged_texture_inputs
+            save()
+        if name == 'moon-runtime-import-check':
+            moon = json.loads((fixture / 'moon-runtime-import-check.json').read_text())
+            assert moon['status'] == 'passed' and not moon['errors']
+            assert moon['source_glb_sha256'] == state['source_glb_sha256']
+            assert moon['source_png_sha256'] == sha(fixture / 'assets/garden-of-dreams_moon-paint.png')
+            assert moon['loaded_size'] == [512, 512]
+            build['moon_runtime_import'] = moon
+            save()
+        if name == 'runtime-texture-cap-check':
+            caps = json.loads((fixture / 'runtime-texture-caps.json').read_text())
+            verify_loaded_caps(fixture, caps)
+            build['runtime_texture_caps'] = caps
+            verify_profile_scripts(source, fixture, build)
+            verify_manifest_caps(source, fixture, build)
+            # Pin finalized imports, generated pixels and active bindings before export.
+            (fixture / 'phone-profile-build.json').write_text(json.dumps(build, indent=2) + '\n')
             state['phone_profile_build_sha256'] = sha(fixture / 'phone-profile-build.json')
             save()
     assert sha(fixture / 'assets/garden-of-dreams.glb') == state['source_glb_sha256']
@@ -210,6 +254,8 @@ screen/immersive_mode=true
         assert sha(source / 'runtime' / name) == expected, 'Production runtime changed: ' + name
     for name, expected in production_renderer_hashes.items():
         assert sha(source / name) == sha(fixture / name) == expected, 'Renderer changed: ' + name
+    verify_profile_scripts(source, fixture, build)
+    verify_manifest_caps(source, fixture, build)
     state['apk_sha256'] = sha(output)
     state['apk_bytes'] = output.stat().st_size
     state['status'] = 'built'

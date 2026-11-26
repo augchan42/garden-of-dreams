@@ -1,0 +1,78 @@
+{
+  "status": "static_lit_fixture_prepared_no_native_worker_started",
+  "source_root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate",
+  "review_root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/lit-native-review",
+  "baseline_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "candidate_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "authoring_sha256": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+  "runtime_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "source_contract_sha256": "f3b91eca61703ec4788801cf7f0e7c13a89bc518c4a832c91516e55c7807e86e",
+  "ziling_source_guard": {
+    "baseline_sha256": "22b316171530cc1f9b1ac8d485752012acc383d482336cd40363c217ef60cefb",
+    "candidate_sha256": "a9195e65f3a8e6b37ae76f4f0e154fdae42174aae90dfe3cd7193112dbc2174f",
+    "change": "source digest only; all shape, framing, deadline and public-action assertions retained"
+  },
+  "comparison_script_sha256": "00d9cb6468ad58237aeb705951067aa3e64a3dcf9dfb4fb1b37f6c7a853c5258",
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71,
+    "render_meshes": 167
+  },
+  "scope": "Both fixed-camera comparison modes retain54bank assertions. Candidate starts with no maps; Full fresh source lighting must finish and all native parents exit before review. Canvas affects broad floor surfaces: all14room arrivals and moving routes are required in addition to focused comparisons before adoption. Baseline is current main with its matching prior maps. Runtime/source contracts remain exact. No visual/adoption/phone/all-site acceptance. Other source-bound framing/portrait/palette contracts also update only the literal complete-source digest. Full14room canvas appearance and moving routes required before adoption.",
+  "source_guard_changes": {
+    "tests/garden-palette-contract.json": {
+      "baseline_sha256": "e71cc9154356d249aaf34ed86027fe380fc5a4a29ca417a943cec21ab715128f",
+      "candidate_sha256": "3938bafa51649a39e1d1a61bc647b4d8d177515037d86f77a958ef64fce32afc",
+      "change": "Complete source digest plus one added canvas plain-material transfer record; all previous records/assertions preserved."
+    },
+    "tests/portrait-architecture-contract.json": {
+      "baseline_sha256": "086d90a6e17bcc7ae8e308115f1a7da7aec4f9df8fea971f33941628de8eee12",
+      "candidate_sha256": "aaf115b13e49d5afefcf7c51ac913eacf8f967e5aaf9cb7002ff86323ac96dc3",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    },
+    "tests/render_dynamic_palette.gd": {
+      "baseline_sha256": "ddaa96e065dcc7c22788cf7acb12e833eaefd711d6e8f6a3ab588b6a0ed2612c",
+      "candidate_sha256": "6a7dd7d0835b51ab41e53ff91ae2817472aa0cb4f460904c3cf07ea94cf1c436",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    },
+    "tests/test_hengwu_detail_framing.gd": {
+      "baseline_sha256": "a755ae0a8031e51f5a7e975a53137344acbeaf0afc7158f44547bfe53581911c",
+      "candidate_sha256": "2139f6e3356da826b7edecb1735e773223d1a3dcc1b359991872702d960d1738",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    },
+    "tests/test_qiushuang_framing.gd": {
+      "baseline_sha256": "c2cf330703de5376acc2986889f60ae69b4bfad12ba712c0c949b52e5207eb54",
+      "candidate_sha256": "ee8b48d9f6bcef4d78657b402b25bb7ad8a9c0043c47aa3360db80da8260f241",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    },
+    "tests/test_tubi_framing.gd": {
+      "baseline_sha256": "c4add4aa9b8be91ca3da2f137abcff628172bb5c3fbfff90180d3a4667a7aea6",
+      "candidate_sha256": "deafda4979ea2d7be327474c3ef64673ab424d72ecc4aef1c9f89820af584dcf",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    },
+    "tests/test_ziling_framing.gd": {
+      "baseline_sha256": "22b316171530cc1f9b1ac8d485752012acc383d482336cd40363c217ef60cefb",
+      "candidate_sha256": "a9195e65f3a8e6b37ae76f4f0e154fdae42174aae90dfe3cd7193112dbc2174f",
+      "change": "Complete source digest only; all existing assertions/counts/behaviors retained."
+    }
+  },
+  "canvas_palette_contract_extension": {
+    "before_sha256": "3a4c91a6bdcfc71085a5ecdf137ed1bbd30aaf68b30b8906a01653a32c6dad0c",
+    "candidate_sha256": "3938bafa51649a39e1d1a61bc647b4d8d177515037d86f77a958ef64fce32afc",
+    "added_record": {
+      "base_color_linear_rgba": [
+        0.065,
+        0.06,
+        0.055,
+        1
+      ],
+      "source_surface_count": 1,
+      "roughness": 0.7,
+      "metallic": 0
+    },
+    "baseline_expected_red_contract_sha256": "2351b5463646f34ad088b39a46521fe1be57346a473223b298950a72fb887911",
+    "canvas_only_corruption_contract_sha256": "f8680b100ccd3272bbbc35a23b3b4a0ef2eb85f73463eab5d9fd3278b04d61c1",
+    "scope": "Actual normal/demo imported canvas factor and active baked shader/PBR transfer. Planned original-source RED and candidate active-shader corruption control must run after source worker exits."
+  }
+}

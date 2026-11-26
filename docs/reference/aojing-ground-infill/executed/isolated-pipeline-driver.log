@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/tmp/garden-aojing-ground-v2-20261011/continue_isolated_pipeline.py", line 45, in <module>
+    run('native','validate_lighting.py','CORRIDOR_ROOF_ISOLATED_LIT_CHECKS_PASS',1300)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/garden-aojing-ground-v2-20261011/continue_isolated_pipeline.py", line 33, in run
+    text=Path(phase['log']).read_text(errors='replace');assert phase['exit_code']==0 and marker in text and not re.search(r'(?m)^(Error:|Traceback|SCRIPT ERROR:|ERROR:)|AssertionError:',text),text[-4000:]
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: CORRIDOR_ROOF_LIT_START sync_full_lightmaps
+CORRIDOR_ROOF_LIT_PASS sync_full_lightmaps
+CORRIDOR_ROOF_LIT_START sync_backdrop_wash
+CORRIDOR_ROOF_LIT_PASS sync_backdrop_wash
+CORRIDOR_ROOF_LIT_START sync_terminal_spill
+CORRIDOR_ROOF_LIT_PASS sync_terminal_spill
+CORRIDOR_ROOF_LIT_START sync_demo
+CORRIDOR_ROOF_LIT_PASS sync_demo
+CORRIDOR_ROOF_LIT_START native_import
+CORRIDOR_ROOF_LIT_PASS native_import
+CORRIDOR_ROOF_LIT_START ground_geometry
+Traceback (most recent call last):
+  File "/private/tmp/garden-aojing-ground-v2-20261011/validate_lighting.py", line 63, in <module>
+    for name,script,marker,args in checks:run(name,head+['--script','res://tests/'+script,'--',*args],marker)
+                                          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/garden-aojing-ground-v2-20261011/validate_lighting.py", line 39, in run
+    assert phase['exit_code']==0 and (not marker or marker in text) and not re.search(r'(?m)^(Error:|Traceback|SCRIPT ERROR:|ERROR:)|AssertionError:',text),text[-4000:]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Imported canvas infill top winding is inward
+   at: push_error (core/variant/variant_utility.cpp:1023)
+   GDScript backtrace (most recent call first):
+       [0] finish (res://tests/test_aojing_ground_native.gd:20)
+       [1] run (res://tests/test_aojing_ground_native.gd:58)
+
+

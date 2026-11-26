@@ -1,0 +1,457 @@
+{
+  "scope": "Fixed-clock native arrival pixels; not continuous movement or frame performance. No arbitrary pass threshold imposed on resolution change.",
+  "pairs": [
+    {
+      "shape": "desktop",
+      "name": "route-bamboo.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "95de438d1098e4033eb6eda9944cf0d66c145c91004f391a2afe8559e1bb6c9a",
+      "candidate_sha256": "95de438d1098e4033eb6eda9944cf0d66c145c91004f391a2afe8559e1bb6c9a",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-cell.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "b4643a369a1803bb6717aff0f17bd17990a06665f81f8f1873baeae0f37e3b59",
+      "candidate_sha256": "28a0d2dd28513ba8bba7fc34e54ecf009afc09b03e22128eaac8b30e69df6613",
+      "changed_pixels": 698,
+      "rmse": 0.00012797850527969553,
+      "maximum_channel_difference": 0.03137254901960784,
+      "changed_bbox": [
+        584,
+        69,
+        615,
+        104
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-courtyard.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "09cdf34c002cc48d3757cb7aca3103ec015d27fafcf6a4be70f11fb9cf46594d",
+      "candidate_sha256": "09cdf34c002cc48d3757cb7aca3103ec015d27fafcf6a4be70f11fb9cf46594d",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-farmhouse.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "db7b6ae542ff77490fa792ccc9e326c35750caf89da1e0f7750727dcf03f9e32",
+      "candidate_sha256": "451752ead3f096687723e62ef25add710394d8c71e8aaa7c636541f3d3613bc3",
+      "changed_pixels": 5938,
+      "rmse": 0.0005981336264997842,
+      "maximum_channel_difference": 0.050980392156862786,
+      "changed_bbox": [
+        1030,
+        0,
+        1138,
+        72
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-gate.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "08b000d66e9ca963af31f32b31860416a3806ee1cb311b1aafad9125c0e4f4d5",
+      "candidate_sha256": "08b000d66e9ca963af31f32b31860416a3806ee1cb311b1aafad9125c0e4f4d5",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-hilltop.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "fe6cd699c291c92179722100b3e1af79a0aa9f5fb0155f75344e173216776a5d",
+      "candidate_sha256": "9de7b94f4f29a06875c9d7e913890cc6e71fb906e8d6c38675fb13f77393fa23",
+      "changed_pixels": 3627,
+      "rmse": 0.0003352361517657707,
+      "maximum_channel_difference": 0.03921568627450989,
+      "changed_bbox": [
+        507,
+        20,
+        563,
+        115
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-imperial.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "29d85704eb89d5f6ea87c5a041cb0a7fa1fabbfcbbe6812d5d11e60857d92e31",
+      "candidate_sha256": "29d85704eb89d5f6ea87c5a041cb0a7fa1fabbfcbbe6812d5d11e60857d92e31",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-nunnery.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "78fef83f97fb663c7598a7948855dbd6a7da26a2ae0b557762d84ae0cccfc66f",
+      "candidate_sha256": "78fef83f97fb663c7598a7948855dbd6a7da26a2ae0b557762d84ae0cccfc66f",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-ouxiang.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "467de7f48aae04631d6d93d6cf48355ea32167731c11d9ce9b6a53b489768d78",
+      "candidate_sha256": "ebe41884c7a6c1f2c6b2c188fc627243ab590384a12f6abe0214ad870bbc369b",
+      "changed_pixels": 6046,
+      "rmse": 0.000490589931241245,
+      "maximum_channel_difference": 0.04313725490196074,
+      "changed_bbox": [
+        1151,
+        6,
+        1254,
+        91
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-pavilion.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "a6c687daa41bb11758051ddd5e2a45e1322bd7ecb443e0e79808539aeb97780d",
+      "candidate_sha256": "36ac51b70cb20c1a6bf0b73cffa1ce4e8fd687b3b09cf73a6c0db6acbaa514c5",
+      "changed_pixels": 2095,
+      "rmse": 0.00024288701260643722,
+      "maximum_channel_difference": 0.03529411764705881,
+      "changed_bbox": [
+        851,
+        65,
+        903,
+        123
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-red-court.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "7d04d252096665bd93d8ce7a8825b169d64abb83c2eb84b8f36dc9cb9976ad8d",
+      "candidate_sha256": "7d04d252096665bd93d8ce7a8825b169d64abb83c2eb84b8f36dc9cb9976ad8d",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-reflection.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "a9f43966b200914b334a470792c028a0d5bc32630c2a9f668870887553eb01f3",
+      "candidate_sha256": "a9f43966b200914b334a470792c028a0d5bc32630c2a9f668870887553eb01f3",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "desktop",
+      "name": "route-study.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "50ba5db7c3a85e3e9e2e05faa8249b067cd5f99a52a0e6dfc59d72964f9e68a3",
+      "candidate_sha256": "597976a0e4e7f08206008ec7f2ef6a067c0f2ecf9bb9c4917c183cede77cc4b9",
+      "changed_pixels": 5183,
+      "rmse": 0.00045132254475231925,
+      "maximum_channel_difference": 0.04313725490196085,
+      "changed_bbox": [
+        45,
+        0,
+        136,
+        81
+      ]
+    },
+    {
+      "shape": "desktop",
+      "name": "route-ziling.png",
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "53aa3bfb82cd259234dd65e00899f90e9635742b6d6bd974c0a3ecdfb0c8cee5",
+      "candidate_sha256": "8418a251e9cc75232a5f9323aa78623b9d8afd3508a276210a77780764556cef",
+      "changed_pixels": 2144,
+      "rmse": 0.0002389508645840322,
+      "maximum_channel_difference": 0.03529411764705881,
+      "changed_bbox": [
+        527,
+        35,
+        580,
+        95
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-bamboo.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "d5059de7bb7960e52015c7ef18379802376713835dce27a46540c43826b77dee",
+      "candidate_sha256": "d5059de7bb7960e52015c7ef18379802376713835dce27a46540c43826b77dee",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-cell.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "360f1b528fcd03394b28ec45db6cabeae72f81e1d8f4c77799d29fdf0b1481f3",
+      "candidate_sha256": "cb74c2311f707ecf2ba5f1754f5791c02cbbd5621aea23833ec0a01d13b762a0",
+      "changed_pixels": 1337,
+      "rmse": 0.0002786022902406878,
+      "maximum_channel_difference": 0.02352941176470591,
+      "changed_bbox": [
+        25,
+        98,
+        69,
+        146
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-courtyard.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "d07a0bbcaf632e4259a1647c012e9483bf12fb027827813750bcde0340723103",
+      "candidate_sha256": "d07a0bbcaf632e4259a1647c012e9483bf12fb027827813750bcde0340723103",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-farmhouse.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "59b7950276e73db04b40756fa4de9da04cd4fd295431cde460a205715e2b4dab",
+      "candidate_sha256": "9fffaf053411d8b0d49cdc9f50d69d448e23c8c7a51940d9e3704877b3451d14",
+      "changed_pixels": 35,
+      "rmse": 3.82612885700945e-05,
+      "maximum_channel_difference": 0.007843137254902044,
+      "changed_bbox": [
+        388,
+        178,
+        389,
+        201
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-gate.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "cff83e9ef750649e8ce9291e7c7cbb5496068f0eb1f46b37e068e9a523d213c3",
+      "candidate_sha256": "cff83e9ef750649e8ce9291e7c7cbb5496068f0eb1f46b37e068e9a523d213c3",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-hilltop.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "2a7ba6cb756a423c2627bc4fb293dbd0cd250a90d7382ed9f6f3377418ed8224",
+      "candidate_sha256": "ed1605f563098ef37a4af5a2eab65d78474250792a62ee4d01952d07a8af08ef",
+      "changed_pixels": 2938,
+      "rmse": 0.00046177361096978525,
+      "maximum_channel_difference": 0.027450980392156876,
+      "changed_bbox": [
+        16,
+        62,
+        68,
+        146
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-imperial.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "5a411a127acdd256c5274fc366c0cf423ec58c62aa5b3912394417faf7037b65",
+      "candidate_sha256": "a871bc5324b820f95a7f4ea1f3f09111bc66cb34c089f433de807ad5db5dfa1a",
+      "changed_pixels": 2519,
+      "rmse": 0.0004297537746532494,
+      "maximum_channel_difference": 0.03529411764705892,
+      "changed_bbox": [
+        99,
+        106,
+        150,
+        178
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-nunnery.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "54ec984ba4e223d92b53578c7f0249f449a62fb20e9f4921a4e862fdc334a3c3",
+      "candidate_sha256": "54ec984ba4e223d92b53578c7f0249f449a62fb20e9f4921a4e862fdc334a3c3",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-ouxiang.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "44f694444eebc83097978c52b35ce03886220db3d563cd684b819bc8d3d1496f",
+      "candidate_sha256": "44f694444eebc83097978c52b35ce03886220db3d563cd684b819bc8d3d1496f",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-pavilion.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "cba5fb687849dddf75c351090677ebbc6a078c4cb548038e3ff6ef9bc005c1d6",
+      "candidate_sha256": "3fb9759758fb74a0b8a516a987123a611b8aedc2f852f75e8e59ed797ed744d7",
+      "changed_pixels": 3941,
+      "rmse": 0.0005928595549349524,
+      "maximum_channel_difference": 0.039215686274509776,
+      "changed_bbox": [
+        135,
+        84,
+        206,
+        163
+      ]
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-red-court.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "ec3effb14b8d1ddfaf1d496878c6d608d5c67d9cba0f5517551e084b029750ee",
+      "candidate_sha256": "ec3effb14b8d1ddfaf1d496878c6d608d5c67d9cba0f5517551e084b029750ee",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-reflection.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "ef8d84429361d6d6480d7b782aaf928f9da96b0ff8275f8639794d887d95738d",
+      "candidate_sha256": "ef8d84429361d6d6480d7b782aaf928f9da96b0ff8275f8639794d887d95738d",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-study.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "533f637e52b514cdd0f425c579f98fdb1c8f78ae7dbcbd2dbd96248466af32a1",
+      "candidate_sha256": "533f637e52b514cdd0f425c579f98fdb1c8f78ae7dbcbd2dbd96248466af32a1",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    },
+    {
+      "shape": "portrait",
+      "name": "route-mobile-ziling.png",
+      "size": [
+        390,
+        844
+      ],
+      "baseline_sha256": "4e9ab2946b68286a0c8388e312d1a726d140566078a3e264080010e2d97a358e",
+      "candidate_sha256": "4e9ab2946b68286a0c8388e312d1a726d140566078a3e264080010e2d97a358e",
+      "changed_pixels": 0,
+      "rmse": 0.0,
+      "maximum_channel_difference": 0.0,
+      "changed_bbox": null
+    }
+  ]
+}

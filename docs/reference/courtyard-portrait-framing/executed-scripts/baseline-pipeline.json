@@ -1,0 +1,43 @@
+{
+  "status": "baseline_actual_courtyard_failures_reproduced",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/import.log",
+      "pid": 54299,
+      "exit_code": 0,
+      "log_sha256": "cc9df506f09228dcae8332fc39ddeb0a78241b23301958c758b72713930120e4"
+    },
+    {
+      "name": "courtyard-red",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-normal"
+      ],
+      "status": "passed_expected_framing_rejections",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/courtyard-red.log",
+      "pid": 54321,
+      "exit_code": 1,
+      "log_sha256": "66cdf5c30acb0962df7ec66f135336c47eabe14852f567f6cfe9918394184f84",
+      "failure_count": 20
+    }
+  ],
+  "scope": "Isolated current-main import then one actual courtyard RED test. One native child at a time. Protected user apps untouched."
+}

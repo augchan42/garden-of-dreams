@@ -1,0 +1,134 @@
+{
+  "status": "proposal_only",
+  "scope": "Eight matching visible floor and collision inserts proposed for three verified physical seams; test-only physics fixtures are not an adopted authoring or runtime repair. Six narrow cell doorway thresholds, two short pavilion crosswalk joints, each overlapping adjacent floor ends.",
+  "seams": [
+    {
+      "name": "cell_threshold_0",
+      "group": "cell",
+      "position_godot": [
+        -6.5,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "cell_threshold_1",
+      "group": "cell",
+      "position_godot": [
+        -3.9,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "cell_threshold_2",
+      "group": "cell",
+      "position_godot": [
+        -1.3,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "cell_threshold_3",
+      "group": "cell",
+      "position_godot": [
+        1.3,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "cell_threshold_4",
+      "group": "cell",
+      "position_godot": [
+        3.9,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "cell_threshold_5",
+      "group": "cell",
+      "position_godot": [
+        6.5,
+        -0.12,
+        38.3
+      ],
+      "size_godot": [
+        1.1,
+        0.24,
+        0.28
+      ],
+      "visible_material": "MAT_lattice_wood",
+      "site": "terminal-cells"
+    },
+    {
+      "name": "pavilion_west_joint",
+      "group": "west",
+      "position_godot": [
+        -6.95,
+        -0.12,
+        0
+      ],
+      "size_godot": [
+        0.2,
+        0.24,
+        1.8
+      ],
+      "visible_material": "MAT_plaster_rock",
+      "site": "qinfang-ting"
+    },
+    {
+      "name": "pavilion_east_joint",
+      "group": "east",
+      "position_godot": [
+        6.95,
+        -0.12,
+        0
+      ],
+      "size_godot": [
+        0.2,
+        0.24,
+        1.8
+      ],
+      "visible_material": "MAT_plaster_rock",
+      "site": "qinfang-ting"
+    }
+  ]
+}

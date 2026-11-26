@@ -37,4 +37,6 @@ for name,item in manifest['variants'].items():
  report[name]={'lod0':a,'lod1':b,'ratio':b/a,'colliders':len(ca),'surfaces':sa,'connectors':pa}
 for name in ['moonlit','dusk','mist']:assert Image.open(R/f'textures/kits/stage/cyclorama-{name}.png').size==(4096,4096)
 for name in ['basecolor','orm']:assert Image.open(R/f'textures/kits/stage/stage-{name}.png').size==(2048,2048)
+import subprocess,sys
+subprocess.run([sys.executable,str(R/'scripts/verify_stage_kit_texture_size.py')],check=True)
 (folder/'validation.json').write_text(json.dumps({'passed':True,'variants':report},indent=2)+'\n');print('STAGE_EXPORT_PASS',len(report),'variants')

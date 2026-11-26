@@ -1,0 +1,98 @@
+{
+  "cases": [
+    {
+      "banks": {
+        "centre": {
+          "inside": 384,
+          "samples": 384,
+          "within_preview_range": 384
+        },
+        "left": {
+          "inside": 0,
+          "samples": 384,
+          "within_preview_range": 384
+        },
+        "right": {
+          "inside": 0,
+          "samples": 384,
+          "within_preview_range": 384
+        }
+      },
+      "color": [
+        0.954687118530273,
+        0.86504203081131,
+        0.701410710811615
+      ],
+      "cone_half_angle_degrees": 22.5,
+      "import_hook_energy": 3.0,
+      "inside_cone": 384,
+      "label": "baseline",
+      "light_size": 0.0,
+      "maximum_screen_distance": 5.32805967330933,
+      "position": [
+        22.0,
+        2.59999990463257,
+        -12.0
+      ],
+      "range": 14.0,
+      "screen_triangles": 1152,
+      "shadow_enabled": true,
+      "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+      "within_preview_range": 1152
+    },
+    {
+      "banks": {
+        "centre": {
+          "inside": 384,
+          "samples": 384,
+          "within_preview_range": 384
+        },
+        "left": {
+          "inside": 384,
+          "samples": 384,
+          "within_preview_range": 384
+        },
+        "right": {
+          "inside": 384,
+          "samples": 384,
+          "within_preview_range": 384
+        }
+      },
+      "color": [
+        0.954687118530273,
+        0.916273534297943,
+        0.843389213085175
+      ],
+      "cone_half_angle_degrees": 30.0,
+      "import_hook_energy": 3.0,
+      "inside_cone": 1152,
+      "label": "candidate",
+      "light_size": 0.0,
+      "maximum_screen_distance": 12.7781658172607,
+      "position": [
+        26.5,
+        3.59999990463257,
+        -6.0
+      ],
+      "range": 14.0,
+      "screen_triangles": 1152,
+      "shadow_enabled": true,
+      "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+      "within_preview_range": 1152
+    }
+  ],
+  "godot_version": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "importer_sha256": "d3e30e70989a073be7d045e7114f59bb5f7460922505646b09bb65f2761f6b5d",
+  "scope": "Actual editor-imported PackedScene resources and unchanged project import hook, inspected headlessly after a separate real editor import. Textures are imported but no rendering is performed. Source transforms, cone, calibrated preview energy, shadow switch and actual screen-triangle coverage/range. Candidate GLB is imported only in a separate disposable probe, with no route or bake application. The pending full-lighting project is unchanged; no baked pixels, color rendering, final art or device performance acceptance.",
+  "status": "passed"
+}

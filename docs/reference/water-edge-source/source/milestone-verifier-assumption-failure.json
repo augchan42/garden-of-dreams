@@ -1,0 +1,5 @@
+{
+  "exit_code": 1,
+  "error": "KeyError: 'log_sha256'",
+  "scope": "Milestone verifier assumed baked report stores log hashes; actual report stores names/status/log/pid/exit_code. Failed before checkpoint mutation. Existing source/native pipeline untouched. Corrected verifier computes and records current finished-log hashes, with original report/status retained."
+}

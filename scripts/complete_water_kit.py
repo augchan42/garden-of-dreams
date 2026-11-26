@@ -70,15 +70,13 @@ for variant in variants:
   for i in range(6):box('KIT_water_coping',(-1.25+i*.5,0,.92),(.49,.68,.13),stone)
   collision('water_embankment',(0,0,.5),(3,.68,1))
  elif variant=='lotus':
-  for i,(x,y,r) in enumerate([(-.6,-.3,.34),(.05,-.45,.3),(.55,-.1,.36),(-.4,.4,.4),(.35,.45,.38),(0,.05,.25)]):
-   n=20;z=.025+(i%3)*.018
-   vs=[(x,y,z)]+[(x+r*math.cos(.12+j*(math.tau-.24)/n),y+r*math.sin(.12+j*(math.tau-.24)/n),z+.012*math.sin(j*1.7)) for j in range(n+1)]
-   fs=[(0,j+1,j+2) for j in range(n)]
-   mesh('KIT_water_lotus_leaf',vs,fs,leafmat)
-   # Radial veins follow the leaf surface and preserve the characteristic slit.
-   for j in [3,7,11,15]:
-    a=.12+j*(math.tau-.24)/n
-    beam('KIT_water_lotus_vein',(x,y,z+.008),(x+r*.85*math.cos(a),y+r*.85*math.sin(a),z+.008),.004,leafmat)
+  # Continuous circular peltate leaves with a shallow cup; no water-lily slit.
+  import sys
+  if str(R/'scripts') not in sys.path:sys.path.insert(0,str(R/'scripts'))
+  from lotus_geometry import cluster
+  from lotus_blender import material as lotus_material
+  vertices,faces=cluster(24)
+  mesh('KIT_water_lotus_leaf',vertices,faces,lotus_material())
  elif variant=='wood_bridge':
   for j in range(24):box('KIT_water_plank',(0,-2.875+j*.25,-.05),(1.8,.242,.1),wood)
   for x in [-.73,.73]:box('KIT_water_stringer',(x,0,-.18),(.16,6,.2),wood)
@@ -115,6 +113,9 @@ for variant in variants:
  if str(R/'scripts') not in sys.path:sys.path.insert(0,str(R/'scripts'))
  from pavilion_material import apply_atlas
  if variant in ['wood_bridge','stone_bridge','embankment']:apply_atlas(model,R)
+ if variant=='lotus':
+  from lotus_blender import assign as assign_lotus
+  assign_lotus(model,24)
  base_tris=sum(len(p.vertices)-2 for p in model.data.polygons)
  model['variant']=variant;model['lod_ratio']=1.0
  for o in C.objects:
@@ -148,6 +149,8 @@ for variant in variants:
   C=original_C
 
  lodmodel=next(o for o in lodC.objects if o.type=='MESH' and not o.name.startswith('COL_'))
+ if variant=='lotus':
+  assign_lotus(lodmodel,10);lodmodel['lod_ratio']=360/864
  evaluated=lodmodel.evaluated_get(bpy.context.evaluated_depsgraph_get());lod_tris=sum(len(p.vertices)-2 for p in evaluated.data.polygons)
  bpy.ops.export_scene.gltf(filepath=str(out/('KIT_water_'+variant+'_LOD1.glb')),export_format=fmt,use_active_scene=True,export_apply=True,export_extras=True,export_animations=False,export_loglevel=-1)
  manifest['variants'][variant]={'triangles_lod0':base_tris,'triangles_lod1':lod_tris,'ratio':lod_tris/base_tris,'connectors':{name:list(p) for name,p in ports},'colliders':len([o for o in C.objects if o.name.startswith('COL_')]),'within_2000_triangle_target':base_tris<=2000}

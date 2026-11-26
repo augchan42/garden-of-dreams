@@ -1,0 +1,3059 @@
+{
+  "bound_image_data_bytes": 36525582,
+  "demo_index_sha256": "5e37207798d19c7c9edf17ae54c4fc359e01e1acccbb8888da63e4eacd3e41aa",
+  "demo_texture_target_bytes": 67108864,
+  "demo_texture_target_passed": null,
+  "device": "Apple M2 Max",
+  "full_index_sha256": "0f0704d7c43f54278c8449ac5d36d3baa6952c73651cb2706e4a3f68e7d9adee",
+  "meshes": 167,
+  "mode": "normal",
+  "renderer": "gl_compatibility",
+  "scope": "Actual graphical allocation and active 3D material texture bindings, including retained flora LOD materials, after all normal arrival views or the three demo arrivals. Image bytes exclude GPU padding, render targets, shadow maps and UI; RenderingServer totals include renderer allocations. No timing, traversal, target-phone or final-art claim.",
+  "source_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "source_record_sha256": "3c0aba954e03a2d034f0fa47f7a60f535f44fe9fbe40b5558a048e15085985f1",
+  "spill_manifest_sha256": "2bef7a2441008c222dabeb7f9a58a7bb525ab46be48c5326a1e9044b08efcb21",
+  "status": "passed",
+  "surfaces": 169,
+  "test_script_sha256": "0a683ab8e7f7247232d1f270862c07324046c58e5683fb337e30051ba8c0ae3f",
+  "texture_memory_bytes": 52517225,
+  "textures": [
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_aojing_water/surface_0/reflection_texture"
+      ],
+      "image_data_bytes": 1004544,
+      "image_format": 5,
+      "import_sha256": "",
+      "mipmaps": false,
+      "resource_class": "ViewportTexture",
+      "resource_path": "",
+      "size": [
+        768,
+        327
+      ],
+      "source_sha256": ""
+    },
+    {
+      "bindings": [
+        "HERO_aojing-guan_title_001/surface_0/albedo_texture",
+        "HERO_aojing-guan_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "189eb2d7dacf56129d64228c24a684a76de45aa88889748297261021bcf8af02",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_aojing-guan-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "cdc7ba6f88627fd717fde98aa4e9746734c964249e4e065e3911c5058803334b"
+    },
+    {
+      "bindings": [
+        "HERO_study_scroll_bamboo_001/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 282024,
+      "image_format": 17,
+      "import_sha256": "49cbd069e3d1a0d8c21dc75f154299f2c1a888ee12879da19df3cef95c92850e",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_bamboo-scroll.png",
+      "size": [
+        409,
+        1024
+      ],
+      "source_sha256": "7669cb65d651753f0143232f1e8c1b0f24a036114bf95b55551200e16094ae8a"
+    },
+    {
+      "bindings": [
+        "HERO_daguan_title_001/surface_0/albedo_texture",
+        "HERO_daguan_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 470608,
+      "image_format": 19,
+      "import_sha256": "f889e1622d4dd264f00bb684f114f53a08edd2b503c8a29d9aa96e5ba4275092",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_daguan-title.png",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "391d58be9262e16b8faea68d13ab62800a2633572ed18e6573f22582bda4b7ad"
+    },
+    {
+      "bindings": [
+        "HERO_daoxiang-cun_title_001/surface_0/albedo_texture",
+        "HERO_daoxiang-cun_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "72fe38f04af5cbafc3b376e9bac0b6775759a02655f2ace5a3be1dda7662695b",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_daoxiang-cun-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "2777bf60328cb56f34afd38d4fa4e69f5f68c3f957a31f6dd2134617ae53dac7"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_paddy_painted_texture/surface_0/albedo_texture",
+        "SITE_daoxiang-cun_MAT_paddy_painted_texture/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 1052192,
+      "image_format": 17,
+      "import_sha256": "c21272ae8f5e3e25e22ef1e2bd5eda37b30a6aa2489294d16b28895e4271e192",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_daoxiang-paddy-v1.png",
+      "size": [
+        1774,
+        887
+      ],
+      "source_sha256": "15e1eb976881d7f90a1413698ee897d6d94840c83d6941f356558780c546a87c"
+    },
+    {
+      "bindings": [
+        "HERO_gate_inscription_001/surface_0/normal_texture"
+      ],
+      "image_data_bytes": 1395381,
+      "image_format": 4,
+      "import_sha256": "b66a1e89c33cb162367c0d07b72a18e8ecc70d737fa10b173f052a6223ee6a96",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_gate-inscription-normal.png",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "2f7e5ffe1e969fa316a77f9a171803a7bef41489c85915c8316c0e5e875baa32"
+    },
+    {
+      "bindings": [
+        "HERO_gate_inscription_001/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 1860508,
+      "image_format": 5,
+      "import_sha256": "f65af507ea98f1ac5be593cd154bff49231f445bb86f939424f8343c4f010e90",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_gate-inscription.png",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "625bc5e07ebed907f5a80fc33e641d106a8d5fa01fe8434a57f59e0116339d49"
+    },
+    {
+      "bindings": [
+        "HERO_gate_water_drips_001/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 349552,
+      "image_format": 19,
+      "import_sha256": "f80933db89506fd7420c0f481960cac200efa7ee3dc76d62bf46037dcfe65d7f",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_gate-water-drips.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "2c3978a7484b043478c33e0a11cdf6f0b5bc1004b7da365a33c9baba83c8281d"
+    },
+    {
+      "bindings": [
+        "HERO_study_title_001/surface_0/albedo_texture",
+        "HERO_study_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 470608,
+      "image_format": 19,
+      "import_sha256": "8b54fcc85e5133510854eadffafd09168acecbd5f4b592c7503d2b2e65a8e20d",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_hall-title.png",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "10b89e1be1943f228973a3510ee56d805130e5b759a877e21060e0902ad9fe0b"
+    },
+    {
+      "bindings": [
+        "HERO_hengwu-yuan_title_001/surface_0/albedo_texture",
+        "HERO_hengwu-yuan_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "2ba5b50dd5b6eb5d6866eea14f7dab2c9a714b5069ff3d00773560df6eeb5ebc",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_hengwu-yuan-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "cab4910a122efa01872243e5473b139f41704fbfaf33ef25c97903d7ef4301c0"
+    },
+    {
+      "bindings": [
+        "HERO_longcui-an_title_001/surface_0/albedo_texture",
+        "HERO_longcui-an_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "cf93ff5f415516ee23d7898058d09850cfc9b7b18a2d7a4913e98cc13eec412b",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_longcui-an-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "65f25ae8b3d6d33b3559be11f01f82f56c334ea500a09b72e0966ff889d90ee5"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_moon/surface_0/albedo_texture",
+        "SITE_stage_MAT_painted_moon/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 6288054,
+      "image_format": 4,
+      "import_sha256": "23c1f435fc9e893ff09ab84952b69cf227d5d0a8c43fba70f5716633bb290914",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_moon-paint.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "source_sha256": "37c8648ae27b2e8c9254543ddd10faaac8e70c993e69e2e0ad576286e178507f"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_1_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_1_solid_001/surface_0/albedo_texture",
+        "HERO_table_line_2_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_2_solid_001/surface_0/albedo_texture",
+        "HERO_table_line_3_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_3_solid_001/surface_0/albedo_texture",
+        "HERO_table_line_4_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_4_solid_001/surface_0/albedo_texture",
+        "HERO_table_line_5_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_5_solid_001/surface_0/albedo_texture",
+        "HERO_table_line_6_broken_001/surface_0/albedo_texture",
+        "HERO_table_line_6_solid_001/surface_0/albedo_texture",
+        "SITE_qinfang-ting_MAT_pavilion_atlas/surface_0/albedo_texture",
+        "SITE_rockery-gate_MAT_pavilion_atlas/surface_0/albedo_texture",
+        "SITE_ziling-zhou_MAT_pavilion_atlas/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 2796216,
+      "image_format": 17,
+      "import_sha256": "49fe32b525fdbd01807c21cc7f98bdb41c77f85c1e868fa46bf3727d3f35a1c2",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_pavilion_basecolor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_sha256": "db5c723f2aa1786de8f5ad64db102f5b585b8265968c35ecb5db7bba358856aa"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_1_broken_001/surface_0/normal_texture",
+        "HERO_table_line_1_solid_001/surface_0/normal_texture",
+        "HERO_table_line_2_broken_001/surface_0/normal_texture",
+        "HERO_table_line_2_solid_001/surface_0/normal_texture",
+        "HERO_table_line_3_broken_001/surface_0/normal_texture",
+        "HERO_table_line_3_solid_001/surface_0/normal_texture",
+        "HERO_table_line_4_broken_001/surface_0/normal_texture",
+        "HERO_table_line_4_solid_001/surface_0/normal_texture",
+        "HERO_table_line_5_broken_001/surface_0/normal_texture",
+        "HERO_table_line_5_solid_001/surface_0/normal_texture",
+        "HERO_table_line_6_broken_001/surface_0/normal_texture",
+        "HERO_table_line_6_solid_001/surface_0/normal_texture",
+        "SITE_qinfang-ting_MAT_pavilion_atlas/surface_0/normal_texture",
+        "SITE_rockery-gate_MAT_pavilion_atlas/surface_0/normal_texture",
+        "SITE_ziling-zhou_MAT_pavilion_atlas/surface_0/normal_texture"
+      ],
+      "image_data_bytes": 1398128,
+      "image_format": 21,
+      "import_sha256": "3338ec7f7c5473a2475d901ddf69d347e44073ec01bd08555247e9ab06ff0f17",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_pavilion_normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_sha256": "c89062ce1b104933df6aa37eaa16d6fd81e4b3dd4203a40ba0431087ada60267"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_1_broken_001/surface_0/orm_texture",
+        "HERO_table_line_1_solid_001/surface_0/orm_texture",
+        "HERO_table_line_2_broken_001/surface_0/orm_texture",
+        "HERO_table_line_2_solid_001/surface_0/orm_texture",
+        "HERO_table_line_3_broken_001/surface_0/orm_texture",
+        "HERO_table_line_3_solid_001/surface_0/orm_texture",
+        "HERO_table_line_4_broken_001/surface_0/orm_texture",
+        "HERO_table_line_4_solid_001/surface_0/orm_texture",
+        "HERO_table_line_5_broken_001/surface_0/orm_texture",
+        "HERO_table_line_5_solid_001/surface_0/orm_texture",
+        "HERO_table_line_6_broken_001/surface_0/orm_texture",
+        "HERO_table_line_6_solid_001/surface_0/orm_texture",
+        "SITE_qinfang-ting_MAT_pavilion_atlas/surface_0/orm_texture",
+        "SITE_rockery-gate_MAT_pavilion_atlas/surface_0/orm_texture",
+        "SITE_ziling-zhou_MAT_pavilion_atlas/surface_0/orm_texture"
+      ],
+      "image_data_bytes": 699064,
+      "image_format": 17,
+      "import_sha256": "2a85688ec9f5cd2f9ba90f22b80e7ad6c4e406bab8b6a856ee5fd6d6bfb071ca",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_pavilion_orm.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_sha256": "94732089d68c0c4033bf438a8dd14bba832523e0acccf2e686163a7acb909f23"
+    },
+    {
+      "bindings": [
+        "HERO_study_scroll_plum_001/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 282024,
+      "image_format": 17,
+      "import_sha256": "18ed246554a7b37855488cc426910a0fe1709b9a939d85ce3368d8e116538f12",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_plum-scroll.png",
+      "size": [
+        409,
+        1024
+      ],
+      "source_sha256": "a6ba72d2ead055068fe34eced24dacf235c311eaf95a218d079461b43f5b3d93"
+    },
+    {
+      "bindings": [
+        "HERO_qinfang-ting_title_001/surface_0/albedo_texture",
+        "HERO_qinfang-ting_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 174800,
+      "image_format": 19,
+      "import_sha256": "e885bf34bbbe53634f3a6b29ec2a27d27dbeb6b053b3f2ab202eb74281bd6ad3",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_qinfang-ting-title.png",
+      "size": [
+        512,
+        256
+      ],
+      "source_sha256": "a52845b76a3b1b72d6bc79c9b482591bcf2bfcab350dc541b8ddb756ed45798f"
+    },
+    {
+      "bindings": [
+        "HERO_tubi_title_001/surface_0/albedo_texture",
+        "HERO_tubi_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 470608,
+      "image_format": 19,
+      "import_sha256": "b9e13ea1a6a01efad01e4f69adfc29e7510758f210d94beafb0a5a6f3b1d06c6",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_tubi-title.png",
+      "size": [
+        1024,
+        341
+      ],
+      "source_sha256": "42fc9f5078ad900421f5400b6c6fff94a5741785fcab93a164d1338eccf3083a"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_wall_atlas/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 2796216,
+      "image_format": 17,
+      "import_sha256": "fd37ce32f5525f0b376dd796f9daa516e7aa45b332ea11df87cd1c2f60ecf528",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_wall_basecolor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "source_sha256": "07ef511568d544f6f450cd637e4164b70a3471a184568fda1a7b24b5283ca354"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_wall_atlas/surface_0/normal_texture"
+      ],
+      "image_data_bytes": 1398128,
+      "image_format": 21,
+      "import_sha256": "ea88dc7f98a317a8c40a40711bcbf1300520535c606d48324babfd35f8f3ca86",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_wall_normal.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_sha256": "4f86c95ea7ece649f7e0701b01f9bfc4dc40f44688ce49637b431b314fb3cadb"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_wall_atlas/surface_0/orm_texture"
+      ],
+      "image_data_bytes": 699064,
+      "image_format": 17,
+      "import_sha256": "3a886c63fbc241ed08d550f7c1ac71899a3137cb47cfafa8be098d0bbe53d2ad",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_wall_orm.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_sha256": "f1649d9a93a475e7e67f073fbd05f7d12716af7df67e49bec70f934a050cab43"
+    },
+    {
+      "bindings": [
+        "HERO_xiaoxiang-guan_title_001/surface_0/albedo_texture",
+        "HERO_xiaoxiang-guan_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "9e976ed1ad0cda7af6cf362fbb68f320232ea7adf9f7239330ddc5ba0d1e0a72",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_xiaoxiang-guan-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "2e47da73155adcceae33638be8b20f3eac05ac0a94ab003665404515a4de6750"
+    },
+    {
+      "bindings": [
+        "HERO_yihong-yuan_title_001/surface_0/albedo_texture",
+        "HERO_yihong-yuan_title_001/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 118352,
+      "image_format": 19,
+      "import_sha256": "87b592b4182d2d878c85c6823296570f628a23154f5db44123237104139c152b",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/garden-of-dreams_yihong-yuan-title.png",
+      "size": [
+        512,
+        170
+      ],
+      "source_sha256": "2123a192e887bcd8e5147ece3da5dd89119373bf103db3e2cc5f768f81d75941"
+    },
+    {
+      "bindings": [
+        "HERO_flora_longcui_an_6_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_longcui_an_6_001/surface_0/albedo_texture",
+        "HERO_flora_longcui_an_7_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_longcui_an_7_001/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_18_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_18_001/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_19_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_19_001/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_20_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_20_001/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_21_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_21_001/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_22_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_qinfang_ting_22_001/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_0_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_0_001/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_1_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_1_001/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_2_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_2_001/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_3_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_xiaoxiang_guan_3_001/surface_0/albedo_texture",
+        "HERO_flora_yihong_yuan_4_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_yihong_yuan_4_001/surface_0/albedo_texture",
+        "HERO_flora_yihong_yuan_5_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_yihong_yuan_5_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_10_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_10_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_11_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_11_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_12_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_12_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_13_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_13_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_14_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_14_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_15_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_15_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_16_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_16_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_17_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_17_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_8_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_8_001/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_9_001/retained_base/surface_0/albedo_texture",
+        "HERO_flora_ziling_zhou_9_001/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 349552,
+      "image_format": 19,
+      "import_sha256": "1b0e061dec3aa59dc1bedc5f7b1d8d5e3582719089e2042d62c017b5d7bdf299",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/flora/flora-basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "13941b7ae8397425e86455cb0e86d9cadf4e98a70b4be36104497e3b4894d13a"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_longcui-an_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_ouxiang-xie_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_qinfang-ting_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_qiushuang-zhai_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_rockery-gate_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_terminal-cells_MAT_props_atlas/surface_0/albedo_texture",
+        "SITE_terminal-cells_MAT_terminal_scroll/surface_0/albedo_texture",
+        "SITE_tubi-tang_MAT_props_atlas/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 174776,
+      "image_format": 17,
+      "import_sha256": "197812ca586732c54d64ef17cdee3c304865c4863bb766f30ac1e64fe147558a",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/props/props-basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "64bc8e92a331d92283da5e5a902f45d7567566e8813aeaf7698fc25f932aa98d"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_longcui-an_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_ouxiang-xie_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_qinfang-ting_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_qiushuang-zhai_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_rockery-gate_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_terminal-cells_MAT_props_atlas/surface_0/emission_texture",
+        "SITE_terminal-cells_MAT_terminal_scroll/surface_0/emission_texture",
+        "SITE_tubi-tang_MAT_props_atlas/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 43704,
+      "image_format": 17,
+      "import_sha256": "730a1cd7fa581949d6b553208bb3e4842357d54a5bec69e6a7d3924befa955d8",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/props/props-emission.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a451a42cefe43e58ede1dda7c62fb05da7c478470196b9cb8730498ef3cbb28c"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_longcui-an_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_ouxiang-xie_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_qinfang-ting_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_qiushuang-zhai_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_rockery-gate_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_terminal-cells_MAT_props_atlas/surface_0/orm_texture",
+        "SITE_terminal-cells_MAT_terminal_scroll/surface_0/orm_texture",
+        "SITE_tubi-tang_MAT_props_atlas/surface_0/orm_texture"
+      ],
+      "image_data_bytes": 43704,
+      "image_format": 17,
+      "import_sha256": "296c21cf00f2271d89127f7b215d57553de8063cab0a2c5e6cbec252d54b0e31",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/props/props-orm.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "7c131f2df7fdae0919650ca8af502e2240cc8275a791a6266612afaca9e9440d"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_tech_atlas/surface_0/albedo_texture",
+        "SITE_terminal-cells_MAT_tech_atlas/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 174776,
+      "image_format": 17,
+      "import_sha256": "a5a16d5588445f88f977174991ccd535a3443e247404bf48ec67dfeefb4704bb",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/tech/tech-basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "173dac17d66dd02e9d8b18f9ecd9c84ec3c369ea0c74e673013958afe5fca360"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_tech_atlas/surface_0/emission_texture",
+        "SITE_terminal-cells_MAT_tech_atlas/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 174776,
+      "image_format": 17,
+      "import_sha256": "97f9f686ba276aa069cfc9d9f889d47ce9e2b18576a38cdc8ca2bb65915b2aff",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/tech/tech-emission.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "962aef0835372b4fe0edbbcc49c212c04481b1c530e833d17d314747396bfc42"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_tech_atlas/surface_0/orm_texture",
+        "SITE_terminal-cells_MAT_tech_atlas/surface_0/orm_texture"
+      ],
+      "image_data_bytes": 43704,
+      "image_format": 17,
+      "import_sha256": "eeb9d53772db6fc30ae501f5f8ed65f193d6f6c8778450229219211f9bb658d3",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://assets/kits/tech/tech-orm.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "68c8aba9f74ede8b726d46d9a29a2278ff48cb3ab32dc86469ee4f0a2bdef62d"
+    },
+    {
+      "bindings": [
+        "HERO_gate_water_drips_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "8f1cc28a75ce8b33a84aba8b51580bf89fe4be98f241c267885c6e1cbdb43fb6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_gate_water_drips.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9295f807ea65f003e112cffc54b0725ec9c56ce88aa75956ec2f67316f58ffa1"
+    },
+    {
+      "bindings": [
+        "HERO_qinfang_bridge_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "dc008937215de50107352bd00d007d7a5ea1dc947de32cb8a6c1803711172e82",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_qinfang_bridge.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a72cc5e233ad82ba2de068afdee90b4a1fa31f212b7a6f97fe3ff8eee7882d22"
+    },
+    {
+      "bindings": [
+        "HERO_study_scroll_bamboo_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9a2bd4ad0cb0b59ec3f2f516ba2fd262a21432539ed3af4a199c022810f3cff3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_study_scroll_bamboo.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3c55c67cef8565b0ba52ffa77fd3d0cee08eab9ba9b8c2533f0f48f90970e679"
+    },
+    {
+      "bindings": [
+        "HERO_study_scroll_plum_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "815403ce6b69b0fe67b03e1d1b30b191a4c935ba9f21b237d8cd9b65900e8046",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_study_scroll_plum.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "8b0a4c5a9b0c6e3f8f3a33266dc8e6c292e966a67476f585e7cba575927360d4"
+    },
+    {
+      "bindings": [
+        "HERO_table_hexagram_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "01f3fae6462edff14eebf5228464e2e32e223279f202b7a9bf3beb7b07292c7c",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_hexagram.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a5745c8e6a837f75595bfee27eb70c88dafce80303da5da4be064b46e79e3099"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_1_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "87dc9ca88b0900a36aa60d641d4e4f2f8a81c835aad6ad12ee7c192469631926",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_1_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "55fe8a83e80d3f0b7b49d07d1c5ee843411fa3e1abd62ed24123029e6c603ca8"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_1_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "28b0c6440062019bffaed1e754b2838e4a6cbf991ffc250c3d8f46b518115221",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_1_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "331eac5c96a4a4bcb48b3e53a61a0ce2c1b0f22dd848869fa88cc73acc0e9341"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_2_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "dd0a87d1b695844a7b82d69cf20a6c4a0b1f64b4d21633fab06091560d500c9f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_2_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f61a35740e2b6f0a16724c712996c51ec124255f1d15f505c2c4c4ac974bdaea"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_2_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "83fd62b05b1f9c71cf95558ef02ce4db131cff7fe2e430d68509487324bdf715",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_2_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ff6f3b19f60f7210944a29746244080f6ddf04434ee6ee7fb2c31a1d23774486"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_3_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ca899a241a9f535a6cebd12f73b9756d651575b5f124094cd0bc0c175b39f528",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_3_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6afd7db77ffb7bfd065fe81e41d993e90e0149262692d4f426548d7bb702979f"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_3_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ae537fa90cca7675f9c8754ee669169229d14b65a9425f7ec5d06869ac969ee6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_3_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "abe13880ecd08864475ca7af810247a856ed7c739d840d8f8734775f7b9f8083"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_4_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "0534be43cfa8d714c92534661f6011620d257266321e4af921ce9e46521ca1fa",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_4_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "1942611d0771022e0be22cca579fc962a8ebb9256928925f86a2c29285097550"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_4_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "84c549de3afce509e387e87b7a0f829fd8ebe02e7f3a07516def0ebc426063be",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_4_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "601a5424dc4cc6084a5c11e52bbe6cb12f01b9aa6f84847e9767e4f5a8f5cb95"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_5_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "1618523720138b51fa87e0147f7cd8894b01f6f5159f1c1ffb167f01ce9a9adf",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_5_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "99d9e97994ccf4d340d69e77dfe2fb621a41f3697f391a9a0a58297bcea23908"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_5_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "5f8d4723e04d3a6e6bb14970e583133c285e35c4190461a43bc8b495fbe35638",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_5_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "0ec5f3f5beed83d54aac70959aa7a0182e483f9b30a7e68f74dba8ef63cb4b49"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_6_broken_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f8a72c5e8d6cc7d499b43cfebd86437464908edfa589de2408d88532ad56dbc8",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_6_broken.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "81402947a1213699756b53de1f65b948928f43f2811a3bab1a95f3e98dc451b2"
+    },
+    {
+      "bindings": [
+        "HERO_table_line_6_solid_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "8d5a02c33f39b3dc6c6f2b090705789456f99b1c83d8dca21ef6781f4668c34e",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_line_6_solid.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "71036b6426725a8f435583fa88cfdb6b03487e5240067efd8a4e1679ab06d178"
+    },
+    {
+      "bindings": [
+        "HERO_table_pedestal_001/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "dfde05ce0390b0952139783a90ce27a907e607baad98c0c0149e8b9a6b18a7e3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/HERO_table_pedestal.001.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5ddf18ce2838ed3c2ceaaa7c866b865b34c9376c98bce03acbf3cac32b8acb06"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7a7e1e7f440a04bd14b207b6554a27c63657beaa5baa89cfafade2edfedd6dbd",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "79e408b153eb02775626bcee852bae5a2567d975b3cc13d81c49862e35f86721"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "72ad3e9b393d243d15d1449f48d5ed4750243337cd3fd11082966c03d2a71837",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "09ac1563ce1e81e3087166f478b06d06c9e434c40ba4146224b862366fb9d9f6"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "272e75a006b1a377ff62c9212f8740ebcb3f51ea61c1583f090f2f6992869e8a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6d97efac491b04ef0d85a1bc34e2c878440f746c560c1d2e9feb8b78516f43ec"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "47af3c614c7d3079ff081f3314f3b427e67310934cc8dcd0a28f9cf5aad87118",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "63fbcdc16b3e0c7de2561e7b173c2d267f4fb185880ef7b8f9a04ddb420cb23f"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7be7367fa7aa32012ada3bca306865eb5e194d3365a2ed740f03c0327758f253",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "024535ee7c9c09b4820f45a916d625d92b6a7e373baea9ba06a798023c137523"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f916dd93b0dbe40035dfec6ffc7f277c61a5591ed19bc6bb2f5ea982ca86e2b0",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_aojing-guan_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "85122708474e50b39ba2821803f7c0ebadee1bb4845e22ba59739da91a3af91b"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "390ee53f8b9563a57b83487aa6915b4f3b85ecb20ee1a0746e31b64ae3b57e0a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "7845b52b37af0e2d9e2c1ae05b190281ff9af17ac6bce8ec431a5a4a152bc5a9"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "64942210412dc826780a8732392be02e8e88006255e9aa0ca6eca7aac32b5d97",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "1b16a1e0430b4836891198b0dbeca85afaf487298cea4f2a8df1172ee81961ff"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9c95fbc485e766059ea6f8331a7cde2162488b7a523ef0c3461617ea98bae333",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b61a84737c8be3399a6b8f4ee2889b757973dd28e97be4dd9095678c5aec4ab3"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_daguan_lacquer/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "675765e965a0f8c4d8b1aadf13e922a351a1cf682cded4477cfc41a640b02946",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_daguan_lacquer.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5bda9212a17ea68d5758dcd8c294a057d9036b8070d727afbeb1a3dc3073f116"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_daguan_recess/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "a2bc463f397b8f480dfb3866b28a3175be3222c49011d21d5fdf646082970690",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_daguan_recess.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6b82b2b6f161e949ea21708bcf0004d2be723b3aa4a34a77c7ad4464c49ca61e"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ae17571a0e8958e5bf1243708cec5f5d92bdad34225e0d97ecb2c4b909720a1a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "8045249294acca267de2144edaf003dff6443b45a1c0ff2ccb33c89ec25a84a9"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "5c453ac2c0adb9e8dc46c945844b3146823a9096aba5c55cc8192445eadf6282",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "91e43af6dd3805e8dc8ddd45d4e5f55a6e3f355464828c76a31489cff8444aaf"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 786432,
+      "image_format": 4,
+      "import_sha256": "8cc22cdd53762d9d31139bfbe0155704b98975363893bc3aec554f4f05df6a06",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_rooftile.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "314f255537b9820dd282ab309be0f27ec45125a103924e8bab887369e1463ca0"
+    },
+    {
+      "bindings": [
+        "SITE_daguan-lou_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "06acb00441ce91bc8c5f0f60fafaaef2732a8ceb9f2312dc10ddbe17e840eb52",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daguan-lou_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "43617d6988919ed495bf88711c7e38a3bbe48173017d733075d3f2887bad96f6"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9ea58ba739de3b0b60e00a6e008a18210459ef2a8495203cde3406f90c0ea288",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "c4448ade6bf04f49dba3f3b0fad558ceb4b86471763424b7f47b56ce23d2f5b1"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "c7148ec0c45d475c9cb2568da889849fed411e6eba6855e3236bd205a16c34b2",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "0179679a87f4352e42d4a750f54ccfc63ecc235c8cbedbe23d0bce8203c84544"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "32629b81f5606d71eec0dcaede8548c5e794ff5b34e152bfd9655bf10b8251d4",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "27d96240f4d7e455cee3b00359a57a55da2c3ca11c13f4df35d87f2921651694"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "b444c03469c9a50914ac6f5aa927f36cbdbf16bad2dceae7c64b5bd6089bc577",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a35943fd37689ffea2521cefc82502b41c51f027b2e777bcdd5a368914b8b5c6"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_paddy_painted_texture/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "dbd1240962f26662194f276f874a4f4ef299ac326460ca3c4c761ef763365ed6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_paddy_painted_texture.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "e6fd7159e5efc50a84b6b07a7322c38d4feead013e3797ecec19572061ba6014"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "b3a60c98bb7ed88b6adb7d36ccccaa04ed75a7506e1dcf82cd42c4e17e5991a3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f88e6ae4a441ea36dc905ffb3da869d5423a722661681014ad834de0460be232"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_thatch/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "43e32bef865300a05b4ed7790d4da0a2ad8be996400fe5c78ba51c228073fcc4",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_thatch.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6d32fd0bdd5bae3a4d6a221b2e63b1c99eb2dd3d698037c76242d674bcce638e"
+    },
+    {
+      "bindings": [
+        "SITE_daoxiang-cun_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "4dc2c3fa700cdbeda6d6404941ccf4b0143dd6919ee591811a581157114e697b",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_daoxiang-cun_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a2463c128f7468c540ae37dd5d3dbdd40fe5c34e43d4254c7faebbb61a13a2eb"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "c35bd6373e757bc1d37bc4ddc6921d5d3f1f74c1c0e964a4a2324560f9fc038a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "bfd8922c6ffd0c601450c65c1c68aa0b122067dde9081277194ad4918bcd05d4"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "4803c524153d721b33400dc1dbf073e0ff8777bb0a01e59ac1648604c2b24ffb",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "d66cdf0a65f185d904df53670334bf2fb02a05534efccdcc535a0b4a43160324"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "de13a297dec3d679f4fd46de64838e0f080dadd39b799d6d9702e87f2043229a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "2c10e81b9632436ddeb9ba63b25743da6f4d87e8d1b91c3b2141528005b44f57"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_foliage_card/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "82be06d571b07992f5149d3a3129793362a65d5146f07bbe39222bd3fe1443d8",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_foliage_card.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ffd06659848662f22f1a9dee144be9ee71eeeb515173ca3f62c906ca52d4c16d"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ae9d77657721ef4970e60d7f22daa08521f990c23d8db59a22a5c09046010f45",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6d848cc07bbf17acd04ed9641b7f7e31bb7f6b1717e19748cc1f9d71c05884fd"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "8b0e15bc05c03b2a32c3e21ee30c4a4883aa6b78b1327d8090ee1ff80408dbd5",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "89b562eb313d9920601d1ff07eba3e70395b2a1516ee50d6ce5212b40288a7aa"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "5e59476f365d68da72c93afa2c0ef4e78359aec3fc6a5b0997793b79b1a4dc8f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "e067585860daa3865f42163f2b1d95863fbfdbf8b10e5b59cbbb25db8ed144e3"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "40385d3d4d139c29ead609e241f689e26fbe229daf0782ac0c0611fce14e969f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "7704652166519343d4abace52837ddea0c7a171068c73bf6de539015bf818019"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_wall_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ac8f831d8b210ff10dfb354fb91efa1a55b11fd38ba4ace2d3a1c500a5f10f43",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_wall_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a64d72a818ba7c1a64a01b0b1244ddaa9019df67161b4e9b8438128bb5efbcd9"
+    },
+    {
+      "bindings": [
+        "SITE_hengwu-yuan_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7011963cd0d748f2a24936968d1996619a010d09dcc3a7d6f1c169813773a56b",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_hengwu-yuan_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9f299b9167540cfdbad9935d09919b83523d069f2540e06a240ec768f186dc20"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "15f2c1b95645c92ebcda3c4ca184156b0350029262cf9a92019970a1b7aa24ad",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "d8ec97cb8ddbbea68e35b487882dc48fcdb05302bfa39a3dd3e86bbff6d8d3a8"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "66e501b0bcb0a9602777f7d69f3fa3b575f1ceabdb20f8e1f6646bc8f3e1a4b1",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "447c85aba6c282e5c3b29881b66101e2dfdcc5393f5236e0c6611e51bb256ac1"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "45babd1c705de59f10a2904f95ce22d829f536dfe0b0a5ed8843b4988d900fa6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3b93335ce44787651852428501363fa6e8df308794d493734bcc2ca54f1247cc"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "6f492064b87f845b281ef392768e8ba2a4f43f6f261454a5feb0cc5f59cb91a3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3c0bef72396a854e183ae2707fbe05383f9d0de0888bda67b5c54792d3141536"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ad29652d0699cfcd9eec63cca83621749f311c9072ad426eac370b88759964f9",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a3b5faf2d9df400f23a3d3929b8e20cac666273875fc0dd2156ad0fe3313a4d8"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "d63b85b691492e17ce92dae7201519a00fc62f9c01dbc2487bf2820aa040c22b",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6528618f19729d13cdb28ccbff0ed6de6254e68a9511b24a55a42ef457d6bb6d"
+    },
+    {
+      "bindings": [
+        "SITE_longcui-an_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "68ccb25d4ebf3e982acc3c8cf89bed4a66db8deb13977166ef5b090da06f7e8e",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_longcui-an_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "84187a06572c439ad4dc8f58963b9fa26a98d03b595f7de5cfb9e8ca201b7d5a"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9904d9a84190da6fc093e5c98abc473e0e513e88cac4519edf0feb7b1013bee1",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9808afbf498e19191b6d2bf52741e8a0c712915bf2be8fb47cedc1e618245251"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "478b0efe618ea97cf7408220df8ac880463904a9280662552df600e813b1e0f8",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9538ae80292e29209d0120458cb3e31c220e457f6faf99e3067e3507df4247fe"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_lotus_leaf/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7d4a8c7bb37a1d1e6d7a2bb173e93523833515a08c0ce642ca8b6fea4c7b0bfd",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_lotus_leaf.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9780635b54b9fe4001ab0eccdd87999926b9ece71dd7be9d1fd73c99671984bc"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "3dd3ae0dd006d5f3e0d5eec26db9713a1029353711dc2f215cb1ba4169442138",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "497cbee0aefb8e12188683514ab18d78fc3b38938cac26673738e7f91ec1a422"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "97c609f5b554b5fdf48bfcea3865eb2dc969264ec85c380d4861596ddf9a5828",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a3ccfe00b90e6139a621c950f49c5da3c3321a2e63564d19855985a5d4ca74d2"
+    },
+    {
+      "bindings": [
+        "SITE_ouxiang-xie_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 786432,
+      "image_format": 4,
+      "import_sha256": "48a3e7165841057c87449b8d06da237d1af2edc6d2d3353cf92ae18c4c65df1e",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ouxiang-xie_MAT_rooftile.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "54acf4a56c5ff6e1d59ffbbf01c0373f925fedaf6af298ab2503f9a68d709e8f"
+    },
+    {
+      "bindings": [
+        "SITE_qinfang-ting_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "959cf26dadddd80ba68f9918d3f92d8cc3c08da9b9e890a28f2fbad60bf13fd3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qinfang-ting_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "7796ee5adf204790b61ede95930d820c352279715ef3b9a98931862d46383605"
+    },
+    {
+      "bindings": [
+        "SITE_qinfang-ting_MAT_lotus_leaf/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "11accf157d2c82e8f1169cca6407df40c13c66f6b6d9d0131a213524765a6f08",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qinfang-ting_MAT_lotus_leaf.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b8a141521a00e4ae211b8b469ad7f783424c249ce46d40e128f956f3784708fc"
+    },
+    {
+      "bindings": [
+        "SITE_qinfang-ting_MAT_pavilion_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "6aaa701cc3ced41306283cccae18c93d982351d371629c6e2589bcf67792f77f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qinfang-ting_MAT_pavilion_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "700ddfd5e56c4c56fad34a36c78f2580fd26791fad30e95e201789214a7d8af1"
+    },
+    {
+      "bindings": [
+        "SITE_qinfang-ting_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9b7053c6cab423b384c6f3bdc9cee7e9a1e581e50d61f6479cca6d1b5c517ef0",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qinfang-ting_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "8d7e3fe407390e2f53a5f112c960f9cd7c7f691599b981dcc0bc2ed11b1c2b40"
+    },
+    {
+      "bindings": [
+        "SITE_qinfang-ting_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "91b2e60527ba6a92b769c0dd18739bbd99cc37eaafae45f9c95078dbfe6fe0ca",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qinfang-ting_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "839afee805c7dce4afbfa242f4336dc3a4587e377ac31c1fd5d3eb763735a9eb"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "384763a20be88b37c75dae957d353f77bf569b2b244b060c0e28fef9db32ea27",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b18ca9ec0b9aa82a871e45695ac60642baeb5299c271f661c75c485aaede44e8"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "71aae3ac693b2ff69a7d3dba412c70655dd670bf5510b6f352d825d95b1c58a3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "bd3c90a9ceaf47f9a49c022d291553def24bf567f3b227e2cab222eb09755b35"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "19fda10a91aa2c9da2c425cf20b51bec2355934c9ce98386d65660a62e4649aa",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5b0be3ccd8670f44460c6696b2450063336860c8453b5eb68347d9892920ce72"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "adca2c4bcfce7bb5a79fa5f502f6e19684c1543e15e1779155b802ce5f3e5038",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6fed3a105f60a41c7c25faf7363be88f6f5a47fb3448c856ee516641dcf40189"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "df1124bac860d1a304e41bc314c3461787a6503727258c2d6c8a756b949345ce",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "487159d5d617a07b4f490d52d9e3bfa11c0a810c814546b58d87c90d7b43374f"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f182dde4c786e89b5d73901873a171f7d497b247f41ba176bce416b0ed8905de",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "71c21a9d3ea894647f06f3ea1a7daa4bf8a9e01883d5fd1babaefc08fe953a76"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_tech_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "90f135a1e537a9621c261450be273a83b1d446b3d7295987295636d84a532208",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_tech_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "174cc72dfccef958be3062cbaf4fc4bbfd5a9527c73dc9754e4fc31728cdcdf4"
+    },
+    {
+      "bindings": [
+        "SITE_qiushuang-zhai_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "67437ea346b616be6f7177f32b9e777405ef4b61eacd48860a50df961c9b26e2",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_qiushuang-zhai_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "19e6e11f848bd009472faf911f0b1fad367b28267cf723a04b7dd25ebc8a41db"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_foliage_card/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "38dc6fccab5e7c3ce8a6c52eaf53e83528ab78a07d138b94b0e8f7870edce96a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_rockery-gate_MAT_foliage_card.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "c82c897c01fd448004ffe87782ca7d2dfa42ede3eb4e9b1320c81df31f72c128"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7602b4ef1e15793f42625315880bbc4e3f0e4c2ba39e0bc97d34c3bd6d33b06d",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_rockery-gate_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "88ab10297c0db0785fab7c19c28ba1f275dc2a6dc4d96a0b8860b93f512727e1"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_pavilion_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "e17fe40101ae42b1b1b4bd11ae22e9fd919ce6b7b86de8dd8e1f9e6764bfffe6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_rockery-gate_MAT_pavilion_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b03a1a0500fe9f1d67bc028a6af22d1becf30eefeb18893eecd6d25f531d417e"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "305519cca93dc9d41df42da5fa631adc016f9df24b6907387e56c32d19e959e4",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_rockery-gate_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "28c311f2b1e76b960269993424da93a60b375f596570fa45f4f56b8b564e1a9e"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "041396c77e6ed6750084682b48ea58e787d9618a512a1a97be551302032831c6",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_rockery-gate_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "fa911106f1214172b47d6e3eed7c29a98de6d7e1ed152c0b8c6bab9118850f4d"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "c784d20aa77201443cc53c4b83bf36ac31dbca25213963b994b7ddb00ebe539c",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "18465c003681d8845536680aae3fcec7456bd34adf7705263e99e59a85c04c5b"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "eff4e86b2dc76054e28b11e6e3d2f3d52fbc719b85dbbe7c9c6c8f3e147f932f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "7dc24711580a365f4ff90212decae02c5e7a504cff5be6673bff2b0baad74f61"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_moon/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9ca93604cdb6a615cc4c10e10612452c12cdf6669027517db0e8936bc720c095",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_painted_moon.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "e9492390e1156410c62a3c269874a37def363a0c04e35089d2a7017b82de04fa"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_0/surface_0/lightmap"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "fc5b1071f7cee5910f3b2b5a9143fc9ea6e6f334c0ba2d6c4af8f66a32f78a1d",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_painted_mountains_0.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a882be5b5c0d8ca72206cff8323913134e3bea10b7cc626f5353cf05a0cafebd"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_1/surface_0/lightmap"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "ad116acb01aca89e0dede61a6fad3deecbe8abd5f5e799811234c369766d4e4b",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_painted_mountains_1.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "8acab5eef4426a532428b1c63199b11bc3caad5a3d7ea340aeaa08802d41452c"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_2/surface_0/lightmap"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "ea71224143e1124fefd18eea8f955c5eacd1ad26377ae170cc1e48d6af6831c4",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_painted_mountains_2.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "92972808e067df1da74c779f79c4b255f3703f89474c29783ecd0de5d07bc0e2"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "54fede8e2a65dabad8f336e6adc4bd531f3c8b7f767eee41b474680a9bf26f18",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "0f256ac70ac55b7c414487403dba1d50afcecabd29c2a56939ee56980518dac5"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_canvas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "4cd7e7e187580b5366fc92bd58928eb7e7efe50bfd1eb24eb84b13555653435f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_stage_MAT_stage_canvas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f73773f028dd777ba93b3005bd008bdf515376f0a5ce7063b9bcceb1f0013fb9"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "695630c37ba2d74be235e49541f304813b8e28890a13898d1f8c694d3254b9cc",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f1f0a08eaf234f54d97fe2b6ec3fdf93b3cceef5d835522e5657fcc6fb3222dd"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "61eb4a9ba4840522a14a0e550adda89f02da6541f43f2482610c2d1bdb665696",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ad062a8ddeb57a11c9896c0f5c05fb23fb20799b9176e0d007d4213aa00135b5"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "2aea97168508a7f7ad20f4f74a942acbda0c294d4969dd4a5b0f82f1b50ba2b5",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a77fc1d1b3d6365691aac8899113ca8c452647361eacfad26e8f9a1b24dfed48"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "a19a6cef23de4c85cab61a2cb0aa04de9f7de897b70bc35c9a35700ec18fc3df",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "e88c00bd431e41ed93b387ef5d5bae1455ab9c5e12cdd10f8c4854a99ec84686"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_stage_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f81bd0f90346ec5bbc7ce92a2964d6590f5e2949223364bea4dc6c0220c457b9",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_stage_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "aea1a8e6f2eed2e877e2db9e515562cfe07ffb69fc45a1b8c863889feea1569d"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_tech_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "01c299dc1e96abdb8b609a2a796aa73a2829fe9c5378dd59398e0fc70fd3dc08",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_tech_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5b93bafc12928afeb8ece2c14f258afe477b924793ced46b5f139d38003df33f"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_terminal_scroll/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f38dde2ce724cfee13b8229d908aa04ab8250f1d18ccca6bff53c7e15a46fb06",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ea28b2b19a65e19719a777135c850e268135797c927daf63b512f11d65ea5956"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "983f41785a987bed1d2310a2ef42f191c882187f8e945a6b26f3722f4c155a21",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "71b93e3afc3d4eddf15cfe918a6230645b031592cdf85782c272c4e850d43a75"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "cba0f0a9014eb227887257dcfd4ebeaccc5e036079ece863beefb9b5728ddb37",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "32de5e4b9c22508b02ca4e97b6e5ca5e0f4e02a72e37e65ac36e24be5ce71ca8"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "62b28bb2f19adca266fc55d4b4ff1191c3fd141733a194f68648f55465724e65",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "256dfac48ccc81a06a171075b310a67fccfdc0f157d56ea87f3a5bffd7946fd0"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_lantern/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "8d7bc06ab1111dac38d263aa0c677db067f6e2044a083ada611d97f5baa9d675",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_lantern.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "bf78e1bcc27f07da03b12142c083d5dbd1ece51bbd729c05239b62efa2fa953d"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f2485c5a0a120d257f499bf07971f6717afdd8afea69d10ffcc4922a937068d3",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "718f47a11a268c67d84d2402ea913016d649e62f1b6b02420591d6d94a84a843"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "2031db941da2c041b40be8db80018f2bc6b3fc034258cecf3c0391088b6ac488",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "949a4e456c4eae7c9fb4008fb77a896a4ca7e5843e0a60ea580ef224c7d68976"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_props_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "fe24c48a05438fbe6f4a01e23cda2a6768275cf5ed9024e3c73134fcaa7c22e1",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b094b62c8cf5c523b15592e3e1fedf717cd510515aadcf8c9fa974f838a35014"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "3a3585425f464e00cbea98c162ae76263732fa9399f03195d82867363c5b2a60",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f44307d148d15e453b5fdd71bd288fb087a1e7ef5562e9de3fe67262d030fced"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_tubi_terrace_plaster/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "886c0d2cf2a82aab6dbb187dbea00cc1216993e94e607b0944e89017fda4b867",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_tubi_terrace_plaster.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "cd702869c657c112cbf45299cfaf7020f3bc703f794d42e38701b5cbbe5fe052"
+    },
+    {
+      "bindings": [
+        "SITE_tubi-tang_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "0e1c80f545e7c28ead87cbd4b362fd2764d3cbb63e26265a7203a93cfc85a20d",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_tubi-tang_MAT_whitewash.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "66213f90bf22e07a99b55c1e56a972048928d8b3f20a2bd8c572d098700ab4df"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "fc40ce53a3a4b61053701c05ebe0ff84f518dd5c47ceed57056d60f28b0e0582",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "52ba7ad8526bbbbd825d509dc47180e1e8812889b7a7bd21f424bdac7b916d43"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "04b0a398b978cf30088ba0b17fbdc3cb50c56fe5046918b6eeba5b3ffdb36fe1",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b1a9007baf6e38bf110d47a781fa0e5329c0a2a4a23a93dd9d448fda11968484"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "d7429ac7eb5e5946b795c1faecd9aaf8efd5d76dfa0c9077daf612a6abdfc5a4",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "749c073fc2b504f984b51e4bd94f5a00756414cc07f4544693db4022ee243610"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "833533b9e8f0725587aba889f4365ed20d3157f070248233b908a388b686d411",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "aab6a5dc0d3627c883e72c3f181ab2267be9d2f76ab67322da5e81c9d5efd320"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "e1196fc9d688497259d98d5a4933766f472bed98932817a84d63c9e809b0fe33",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a2ebb142e3c95cdc6bf9466498ce4b208507318d90950b4d0e1431bb4da0d9be"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "d3010749371f768caf10010349565a59050fdae402fe99d675cffeba2847eeca",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "115685c3953ac59bc21b96eb5c80b487fbb82e67173588e6368b1e310bef716d"
+    },
+    {
+      "bindings": [
+        "SITE_xiaoxiang-guan_MAT_whitewash/surface_0/lightmap"
+      ],
+      "image_data_bytes": 786432,
+      "image_format": 4,
+      "import_sha256": "cdd84ae6da34cfec2b13cd930c2317d845849d9c4c5cf1b0a451bf7acde3faa9",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_xiaoxiang-guan_MAT_whitewash.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "56e4816699cf34efb443c5195702d86a2b550206523c1c0a60e3e59aaefee2ca"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_backstage/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "b7fe6be97ee001007dce27e282b5b6ecf551397a6ec370d489294d2de5bf73a8",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "d8b998775ce692b83171a1dd061cec7581640afd195990504612dff6cfcd05a7"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_bronze/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "1012ceda97d333c7c86eb7f1abba137d084f0354ba990646be7fcb655a722824",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_bronze.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "705219a2d0e9b024c07c1c10c3fd2bb3b99032b520516b8500ddcd9994f12390"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_crt_amber/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "315de68a4486b73b3fbf762b5a637274f73bd0922f24a6dbaa8799b5316708df",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_crt_amber.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "a3839550ddac99124d5f440faf5ef68058dd43eebba3fb167a63e27d7b187d38"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_lattice_wood/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "eaec2e1a7ebba871e1d696d81f4a83a0954a03568adcd4bad25ebdd471f26310",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "04e464340758e15179e800fabd74e8de6bf0ab29bdaba7e417a6ef6986601b64"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7f5d03a28dc58d58df55667144e86929e8fd3dc86af49e11cb2ec36f4120282f",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6b4f674726fe8cfa5f320b988359a29b40e16866bbb057764c940588668c4729"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_rooftile/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "09fe47a1981573b00ac30613abaeabe05e857c5868b1d1c21585d4c224ec9579",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_rooftile.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "da37db9519af34dd43f3f9546758dd9dddcaa35175f9f053fddc7999ee4d20cb"
+    },
+    {
+      "bindings": [
+        "SITE_yihong-yuan_MAT_yihong_lacquer/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "e896795eb42f63db7cfdf60d8a487f11118ae2cbca8089aefa7c5d776add742a",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_yihong-yuan_MAT_yihong_lacquer.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "0586646023773de95cc91a4334872c215afb50c48f525866f4092ddfcfdb8ff3"
+    },
+    {
+      "bindings": [
+        "SITE_ziling-zhou_MAT_lotus_leaf/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "f053b4c541b57fa689d138694052f9d2768ef1d2ccbd118167ea189a00929f9d",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ziling-zhou_MAT_lotus_leaf.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ecd4b7f3363d99a4041f062b3e3fe29849528af39578a289a2a6a90aa002eb7d"
+    },
+    {
+      "bindings": [
+        "SITE_ziling-zhou_MAT_pavilion_atlas/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "ba6c2e5326a9890d4da29e67d4133d54c552af283199fb6a452d800e7dcb79e0",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ziling-zhou_MAT_pavilion_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "0465bf132613d1ef21be879d87a2f0f7b9b88e7a46c3d53e381fcbcff108a6f2"
+    },
+    {
+      "bindings": [
+        "SITE_ziling-zhou_MAT_plaster_rock/surface_0/lightmap"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "d4f3d3619bb0cbf91b7353591118881afd839862d3ff2e11959dfb4f5c1ba891",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/SITE_ziling-zhou_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "b75271c8a559fbe83f7c58f0d23455c3068f4fece06ee3db3dde96621313ed57"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_moon/surface_0/backdrop_wash_back"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "a05a50aa903be4e9337c56e3195d42aa1882b8a8484f9a61aec0e33af01e513c",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-back.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "d1de1fd43e9b50aeb7f1d61f3b317c280e87ae0e5481cc210009f6e947002ad8"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_moon/surface_0/backdrop_wash"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "5cd14f737a1477408b50dcfe8f9803afbea77ffe0ee904095eae18788ae9ce8d",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_moon-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "6e03e79c4e5539bebce3299186ebbce5be896a8086f416acbef0cf1f71f71e97"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_0/surface_0/backdrop_wash_back"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "ff31995a0900a08f12a124f81b84fa5a164a2c578a6898f7f4689c6a996bc9c0",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-back.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_0/surface_0/backdrop_wash"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "08e5b88aee9b2c7594790bc959852956b6165eb30579290ddad4dac21433a742",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_0-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_1/surface_0/backdrop_wash_back"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "68bfa72c0e50794fc4bbd2fb5a203fab62c1ad8b9078650156d16bb6ea55d975",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-back.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "f0d385997015691d5929ecbc6251bac694fd5ac19446bb21473f963a7841933b"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_1/surface_0/backdrop_wash"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "981e3537a8b0bcb95351ca2927a8bf1a5c5fee22e86d9ce9ba5b135aec16a9f1",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_1-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_2/surface_0/backdrop_wash_back"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "2b3b40f19aa1b17ed36ed43a8899b42de706df22334849c3098179208ba412ca",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-back.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5c68a64834d9b664679e937b066429b04d7b990ba2d9b874c2ea3b2fd3c224d5"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_2/surface_0/backdrop_wash"
+      ],
+      "image_data_bytes": 196608,
+      "image_format": 4,
+      "import_sha256": "03a54ea00631b4fb71633f794e453b396c956aa55260dc42910b77fdd07e5de5",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_painted_mountains_2-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3d0c0bfd2c5437cbdc4f382593564b7ad0f09885073c0bff5322ab996c038e15"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_canopy_paint/surface_0/backdrop_wash",
+        "SITE_stage_MAT_stage_canopy_paint/surface_0/backdrop_wash_back"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "05aa770f68c5593d3e67fcfbd2056638fa0fe52837a5a108d6cf975d945a61bd",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_stage_canopy_paint-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "5fd81440353159f34f629d89d6e82f50a301bd7153e6eceaae375c6836b81f55"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_0/backdrop_wash",
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_0/backdrop_wash_back",
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_1/backdrop_wash",
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_1/backdrop_wash_back"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "7166d0b48244afcfae9f2f6e785f0fc964582abd2733ef83a3e8349b12f62a43",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/backdrop-wash/SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas-front.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "ac7c5186b980111ebdffaccc35cf2968fc8cbdbe44a0552e8e2a48528c6ac1c2"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_backstage/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "5c0402e05ee3e158f766774248257f1a680da16cb61135b99b745934b4a03b54",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_backstage.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "9da0e925abc255fe6f7b21577f761f503e3978a575e5cb22eacd3fd2ad768b4f"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_lattice_wood/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "9b71d96dcaee9d108ed5fad9707abf0faa4d6009d3f5d4432c6cd92b17f056ad",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_lattice_wood.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "3f97f82649c30648b9bb61319f6139b1ee91411488ad631a0319604a4cec6cc1"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_plaster_rock/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "56722b04d97ac81ddb7d396fc611226ffcb159a290c2617e40a71714938f05a5",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_plaster_rock.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "950087b7993bf53ccabaefc5e8bb13ca15db41df5f764fb7aa3f7f02f686c170"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_props_atlas/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "018b3cfdb5a64b038a53c84a778ef0de671e531a5ab3fc10ca660f6e4d52e975",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_props_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "85946e07d6247ad758d724f732d7b6e18099445fb276e02cceb173a386a89ba0"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_stage_atlas/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "02feaee4ee9a10258213c1fa7df226ad88ff2d7777998eb37032179b76eb7994",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_stage_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "78370467e11431e18bb16801a3e9a7e8b8c233adb5fecc12c0d09bf8901d1b48"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_tech_atlas/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "6b34210be329f7b9e475a2a0aa01ef25ce01dece33880257cd8c5869e6fca548",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_tech_atlas.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "28cc74f49b068285f7284ed3a680d0406c7a1533eedcd8f58cbe79829e6abde1"
+    },
+    {
+      "bindings": [
+        "SITE_terminal-cells_MAT_terminal_scroll/surface_0/terminal_spill"
+      ],
+      "image_data_bytes": 32768,
+      "image_format": 17,
+      "import_sha256": "a169232b2b8b46a401e653ae1ca1ccb8c4fc4f3cae0325840d4c1e7d40afc612",
+      "mipmaps": false,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://lightmaps/terminal-spill/SITE_terminal-cells_MAT_terminal_scroll.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "559604452e302d7e2742b44a1a451d9b741d9631317387622f48e8a68e6ad7f0"
+    },
+    {
+      "bindings": [
+        "SITE_rockery-gate_MAT_stage_fog/surface_0/fog_mask",
+        "SITE_stage_MAT_stage_fog/surface_0/fog_mask",
+        "SITE_terminal-cells_MAT_stage_fog/surface_0/fog_mask"
+      ],
+      "image_data_bytes": 349552,
+      "image_format": 19,
+      "import_sha256": "42953f20c81f43c4084889aae9db7a7e8f40caa571cf49318bc504a8a2342677",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/fog-mask.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "a4a8eae5cbfbe5b849ff4e2311df54dc69b0206ce313fa32ffeffc4f1e94fdf9"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_canopy_paint/surface_0/albedo_texture",
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 699064,
+      "image_format": 17,
+      "import_sha256": "ab0748008685f5fa64a0f97745f0fe0ca91b7f80efd5631cee71a96129486f63",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/stage/cyclorama-moonlit.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "source_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_painted_mountains_0/surface_0/albedo_texture",
+        "SITE_stage_MAT_painted_mountains_0/surface_0/emission_texture",
+        "SITE_stage_MAT_painted_mountains_1/surface_0/albedo_texture",
+        "SITE_stage_MAT_painted_mountains_1/surface_0/emission_texture",
+        "SITE_stage_MAT_painted_mountains_2/surface_0/albedo_texture",
+        "SITE_stage_MAT_painted_mountains_2/surface_0/emission_texture"
+      ],
+      "image_data_bytes": 1048575,
+      "image_format": 4,
+      "import_sha256": "023aa783b4c47e7e5109d0a24e135ca41d504e333f380b1d1364eb021924b49e",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/stage/mountain-paint.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "bf6f014a9df77c93a9acc07da0f5e092c5f944c00910e87460177396e7baded8"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_1/albedo_texture",
+        "SITE_terminal-cells_MAT_stage_atlas/surface_0/albedo_texture",
+        "SITE_terminal-cells_MAT_stage_atlas_MAT_stage_gel/surface_0/albedo_texture"
+      ],
+      "image_data_bytes": 174776,
+      "image_format": 17,
+      "import_sha256": "4ff6bcbe83f4ad04b2810586293a35026411d886fd30096913fbf438b4820cd5",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/stage/stage-basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "source_sha256": "a2c221d19948d68e1762d5260266c07354ddd9ca1d310ad27f01cf1317214317"
+    },
+    {
+      "bindings": [
+        "SITE_stage_MAT_stage_cyclorama_moonlit_MAT_stage_atlas/surface_1/orm_texture",
+        "SITE_terminal-cells_MAT_stage_atlas/surface_0/orm_texture",
+        "SITE_terminal-cells_MAT_stage_atlas_MAT_stage_gel/surface_0/orm_texture"
+      ],
+      "image_data_bytes": 43704,
+      "image_format": 17,
+      "import_sha256": "a6c42ec004e0cc5ea9ac5914686eb4107b5b3bd46deccba0a5726b15d916e38e",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/stage/stage-orm.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "538afcd033cbfaee732e81492af483d70389b009b9328e20a8f904fdd0262812"
+    },
+    {
+      "bindings": [
+        "SITE_aojing-guan_MAT_aojing_water/surface_0/wave_normal",
+        "SITE_qinfang-ting_MAT_water/surface_0/wave_normal"
+      ],
+      "image_data_bytes": 87408,
+      "image_format": 21,
+      "import_sha256": "98eaa8c96b6566df541e62a3a2671f2780fcb74bc9275d2ddad0ec76e6941af8",
+      "mipmaps": true,
+      "resource_class": "CompressedTexture2D",
+      "resource_path": "res://materials/water-normal.png",
+      "size": [
+        256,
+        256
+      ],
+      "source_sha256": "d0d9bed21a10cb0eb3ed92aec4fa166dfa05265d543e28381be8d0df76204ba1"
+    }
+  ],
+  "unique_bound_texture_rids": 178,
+  "unique_materials": 152,
+  "views": {
+    "aojing_guan": {
+      "texture_memory_bytes": 52513133
+    },
+    "daguan_lou": {
+      "texture_memory_bytes": 52513133
+    },
+    "daoxiang_cun": {
+      "texture_memory_bytes": 52600513
+    },
+    "hengwu_yuan": {
+      "texture_memory_bytes": 52513133
+    },
+    "longcui_an": {
+      "texture_memory_bytes": 52513133
+    },
+    "ouxiang_xie": {
+      "texture_memory_bytes": 52517225
+    },
+    "qinfang_ting": {
+      "texture_memory_bytes": 52517225
+    },
+    "qiushuang_zhai": {
+      "texture_memory_bytes": 52513133
+    },
+    "rockery_gate": {
+      "texture_memory_bytes": 52513133
+    },
+    "terminal_room": {
+      "texture_memory_bytes": 52513133
+    },
+    "tubi_tang": {
+      "texture_memory_bytes": 52513133
+    },
+    "xiaoxiang_guan": {
+      "texture_memory_bytes": 52513133
+    },
+    "yihong_yuan": {
+      "texture_memory_bytes": 52513133
+    },
+    "ziling_zhou": {
+      "texture_memory_bytes": 52517225
+    }
+  },
+  "wash_manifest_sha256": "9e44606bcd6e01ec898625617510f95bbb3d20338f42057c5d61dc00ccf74d79"
+}

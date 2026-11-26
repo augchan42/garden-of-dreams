@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/garden-memory-caps-20261010/build-touch-phone.py", line 106, in <module>
+    main()
+    ~~~~^^
+  File "/tmp/garden-memory-caps-20261010/build-touch-phone.py", line 22, in main
+    assert full['status'] == 'complete', 'Do not build or install during the sustained run'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Do not build or install during the sustained run

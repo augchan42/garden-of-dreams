@@ -1,0 +1,14 @@
+{
+  "scope": "Historical extra premerge tests, retaining original pixels and failed comparisons. Current final proof is separate. Native tests did not change Blender/source exports/lightmaps or user editor sessions.",
+  "runs": {
+    "narrow-landscape-premerge-normal": "V6 source: 5 native framing failures at 640\u00d7360 and720\u00d7360.",
+    "narrow-landscape-v7-normal": "Native20 passed; subsequent touch boundary check rejected this intermediate candidate.",
+    "width-boundary-v7-touch": "11 native failures in25 capture events.",
+    "width-boundary-v8-touch": "1 native failure at640\u00d7580;31 events include two byte-identical844\u00d7390 records saved to the same path.",
+    "layout-diagnostic-v9-touch": "2 native failures at820\u00d7580 and900\u00d7580.",
+    "narrow-final": "35 native normal checks passed, then the comparison helper stopped on the changed return-portrait panel.",
+    "narrow-final-v11": "35 native normal checks passed, then comparison likewise stopped. Returned portrait now exactly matches initial portrait; previous V6 height depended on width history.",
+    "reflow-probe-v11-normal": "13 diagnostic native captures passed; UI rectangle/minimum sizes printed in log.",
+    "narrow-final-v12": "Seven native phases passed, including all six focused modes and16 visibility originals. Comparison helper then stopped on the changed density portrait interface in a visibility capture; only panel_top differed in its row, with scene pixels unchanged above the UI. The final helper permits documented UI-only changes and accounts for native pixel/logical density scaling."
+  }
+}

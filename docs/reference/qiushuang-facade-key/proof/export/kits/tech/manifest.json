@@ -1,0 +1,154 @@
+{
+  "units": "metres",
+  "atlas_size": 2048,
+  "variants": {
+    "crt_amber": {
+      "triangles_lod0": 536,
+      "triangles_lod1": 208,
+      "ratio": 0.3880597014925373,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "screen": [
+          0,
+          -0.31,
+          0.37
+        ],
+        "cable": [
+          0,
+          0.29,
+          0.24
+        ]
+      },
+      "colliders": 1
+    },
+    "crt_green": {
+      "triangles_lod0": 536,
+      "triangles_lod1": 208,
+      "ratio": 0.3880597014925373,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "screen": [
+          0,
+          -0.31,
+          0.37
+        ],
+        "cable": [
+          0,
+          0.29,
+          0.24
+        ]
+      },
+      "colliders": 1
+    },
+    "monitor_bank": {
+      "triangles_lod0": 1820,
+      "triangles_lod1": 788,
+      "ratio": 0.432967032967033,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "screen": [
+          0,
+          -0.31,
+          0.69
+        ],
+        "cable": [
+          0,
+          0.29,
+          0.665
+        ],
+        "stack": [
+          0,
+          0,
+          1.33
+        ]
+      },
+      "colliders": 1
+    },
+    "cable_run": {
+      "triangles_lod0": 952,
+      "triangles_lod1": 372,
+      "ratio": 0.3907563025210084,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "start": [
+          0.0,
+          0.0,
+          0.07000000029802322
+        ],
+        "end": [
+          3.0,
+          -2.4492935397342132e-17,
+          0.07000000029802322
+        ]
+      },
+      "colliders": 0
+    },
+    "cell_door": {
+      "triangles_lod0": 572,
+      "triangles_lod1": 228,
+      "ratio": 0.3986013986013986,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "threshold": [
+          0,
+          0,
+          0
+        ],
+        "opening": [
+          0,
+          0,
+          1.1
+        ]
+      },
+      "colliders": 3
+    },
+    "terminal_desk": {
+      "triangles_lod0": 652,
+      "triangles_lod1": 276,
+      "ratio": 0.4233128834355828,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          0,
+          0.8
+        ],
+        "screen": [
+          0,
+          0.12,
+          0.8
+        ],
+        "cable": [
+          0,
+          0.38,
+          0.64
+        ]
+      },
+      "colliders": 1
+    }
+  }
+}

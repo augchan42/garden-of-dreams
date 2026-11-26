@@ -1,0 +1,1049 @@
+{
+  "source_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "authoring_sha256": "2b07ce48ffa3011f9a2da01535a3fc84171bdc00b2ced2abad0ce8f338fd49ed",
+  "scope": "Saved library structure, sign implementation, and source-matched bake records. Does not prove art quality, routes, runtime bake application, references, or performance.",
+  "sites": {
+    "aojing-guan": {
+      "object_count": 141,
+      "signs": [
+        {
+          "name": "HERO_aojing-guan_title",
+          "text": "凹晶館",
+          "kind": "textured mesh",
+          "images": [
+            "aojing-guan-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_aojing_guan_entry",
+          "room_id": "aojing_guan"
+        },
+        {
+          "name": "TRG_aojing_guan_reflection",
+          "room_id": "aojing_guan"
+        },
+        {
+          "name": "TRG_aojing_guan_return",
+          "room_id": "aojing_guan"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_aojing-guan_wide",
+          "lens_mm": 17.137775421142578,
+          "position": [
+            26.0,
+            -24.0,
+            4.0
+          ]
+        },
+        {
+          "name": "CAM_aojing-guan_reflection",
+          "lens_mm": 17.137775421142578,
+          "position": [
+            26.0,
+            -20.700000762939453,
+            -0.5
+          ]
+        },
+        {
+          "name": "CAM_aojing-guan_portrait",
+          "lens_mm": 34.57767868041992,
+          "position": [
+            26.0,
+            -23.0,
+            4.0
+          ]
+        },
+        {
+          "name": "CAM_aojing-guan_reflection_portrait",
+          "lens_mm": 26.686098098754883,
+          "position": [
+            26.0,
+            -20.700000762939453,
+            -0.5
+          ]
+        }
+      ],
+      "colliders": 7,
+      "library_sha256": "8fed907172d1b1db2b97164f53d576bbe15b14aad201b14ecf99445ed7081511",
+      "sheet_sha256": "ce1d7098138b3d9efcc53e94a15fef6071b24319b56ee9975bad5de08ddbbc41",
+      "export_sha256": "f5aa764ed44fb07233d092616ffc111829660b0301dd6cb4050f3111f177875d",
+      "master_object_count": 141,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 6,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 6,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "daguan-lou": {
+      "object_count": 912,
+      "signs": [
+        {
+          "name": "HERO_daguan_title",
+          "text": "大觀樓",
+          "kind": "textured mesh",
+          "images": [
+            "daguan-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_daguan_lou_entry",
+          "room_id": "daguan_lou"
+        },
+        {
+          "name": "TRG_daguan_lou_closed_doors",
+          "room_id": "daguan_lou"
+        },
+        {
+          "name": "TRG_daguan_lou_return",
+          "room_id": "daguan_lou"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_daguan-lou_wide",
+          "lens_mm": 32.0,
+          "position": [
+            5.5,
+            13.0,
+            2.5
+          ]
+        },
+        {
+          "name": "CAM_daguan-lou_doors",
+          "lens_mm": 40.0,
+          "position": [
+            0.0,
+            19.799999237060547,
+            1.7000000476837158
+          ]
+        }
+      ],
+      "colliders": 13,
+      "library_sha256": "584142e9f6f6185dba21022da79193094eaf4c7cde93fa1b5a1da5e667718943",
+      "sheet_sha256": "255d9debd0e47fad555213d28a213ca8c13d727456ee20144653d3d0a69ba561",
+      "export_sha256": "0e05a0aac9a10f3b4b3d3de3afa7f54c64e7b5a0c2e9d4536692551ac38cdd67",
+      "master_object_count": 912,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 9,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 9,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "daoxiang-cun": {
+      "object_count": 431,
+      "signs": [
+        {
+          "name": "HERO_daoxiang-cun_title",
+          "text": "稻香村",
+          "kind": "textured mesh",
+          "images": [
+            "daoxiang-cun-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_daoxiang_cun_entry",
+          "room_id": "daoxiang_cun"
+        },
+        {
+          "name": "TRG_daoxiang_cun_closed_door",
+          "room_id": "daoxiang_cun"
+        },
+        {
+          "name": "TRG_daoxiang_cun_tools",
+          "room_id": "daoxiang_cun"
+        },
+        {
+          "name": "TRG_daoxiang_cun_return",
+          "room_id": "daoxiang_cun"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_daoxiang-cun_wide",
+          "lens_mm": 32.0,
+          "position": [
+            -34.0,
+            13.0,
+            3.4000000953674316
+          ]
+        },
+        {
+          "name": "CAM_daoxiang-cun_door",
+          "lens_mm": 35.0,
+          "position": [
+            -32.0,
+            19.700000762939453,
+            1.7000000476837158
+          ]
+        },
+        {
+          "name": "CAM_daoxiang-cun_tools",
+          "lens_mm": 40.0,
+          "position": [
+            -32.5,
+            19.799999237060547,
+            1.5
+          ]
+        },
+        {
+          "name": "CAM_daoxiang-cun_paddy",
+          "lens_mm": 32.0,
+          "position": [
+            -38.0,
+            19.0,
+            2.5
+          ]
+        }
+      ],
+      "colliders": 8,
+      "library_sha256": "09394c9d871e6127432c6dc181dbd76a15101752c402698a5bd40c31668e1d13",
+      "sheet_sha256": "6c7942741d9ec97fa7fa4181f2b49b92410f77ce11af67375ce930f17065493b",
+      "export_sha256": "2265c245e88e1425001fde72eeccaf85f4aef37ab76199366f6c56e53072b350",
+      "master_object_count": 431,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 8,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 8,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "hengwu-yuan": {
+      "object_count": 531,
+      "signs": [
+        {
+          "name": "HERO_hengwu-yuan_title",
+          "text": "蘅蕪苑",
+          "kind": "textured mesh",
+          "images": [
+            "hengwu-yuan-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_hengwu_yuan_entry",
+          "room_id": "hengwu_yuan"
+        },
+        {
+          "name": "TRG_hengwu_yuan_study_table",
+          "room_id": "hengwu_yuan"
+        },
+        {
+          "name": "TRG_hengwu_yuan_rocks",
+          "room_id": "hengwu_yuan"
+        },
+        {
+          "name": "TRG_hengwu_yuan_return",
+          "room_id": "hengwu_yuan"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_hengwu-yuan_wide",
+          "lens_mm": 24.0,
+          "position": [
+            -17.5,
+            10.5,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "CAM_hengwu-yuan_table",
+          "lens_mm": 35.0,
+          "position": [
+            -18.0,
+            13.399999618530273,
+            1.7999999523162842
+          ]
+        },
+        {
+          "name": "CAM_hengwu-yuan_rocks",
+          "lens_mm": 35.0,
+          "position": [
+            -17.399999618530273,
+            10.800000190734863,
+            1.600000023841858
+          ]
+        }
+      ],
+      "colliders": 23,
+      "library_sha256": "d63843c64cea289e8a2292ba567a7916d36535e5d6392f137441e987086c2caf",
+      "sheet_sha256": "abc7d722b84a0f5e1173ecce163b58abb17d113d8b4012a8fdfca2c9cd487e14",
+      "export_sha256": "4933c28b1902b23c16e00dd2705eed41a2decb6bdae125153c3a9a1d8ade586f",
+      "master_object_count": 531,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 10,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 10,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "longcui-an": {
+      "object_count": 101,
+      "signs": [
+        {
+          "name": "HERO_longcui-an_title",
+          "text": "櫳翠庵",
+          "kind": "textured mesh",
+          "images": [
+            "longcui-an-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_longcui_an_entry",
+          "room_id": "longcui_an"
+        },
+        {
+          "name": "TRG_longcui_an_closed_gate",
+          "room_id": "longcui_an"
+        },
+        {
+          "name": "TRG_longcui_an_incense",
+          "room_id": "longcui_an"
+        },
+        {
+          "name": "TRG_longcui_an_return",
+          "room_id": "longcui_an"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_longcui-an_wide",
+          "lens_mm": 32.0,
+          "position": [
+            -22.0,
+            -6.000000476837158,
+            2.5999999046325684
+          ]
+        },
+        {
+          "name": "CAM_longcui-an_gate",
+          "lens_mm": 35.0,
+          "position": [
+            -25.0,
+            -10.199999809265137,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_longcui-an_incense",
+          "lens_mm": 40.0,
+          "position": [
+            -25.299999237060547,
+            -10.199999809265137,
+            1.5
+          ]
+        }
+      ],
+      "colliders": 8,
+      "library_sha256": "8426a9576b8a465ef542c241f59da6c0037cf07c88af8f033f6a1d11930ee361",
+      "sheet_sha256": "ff28d4872ea974c2d2595f1c457415b77734ae597839b9070cebd886ab1e57fe",
+      "export_sha256": "85392e44a1bf8424d8437c2000d4d6892e893c1bf529bebba56b503fd8f858d3",
+      "master_object_count": 101,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 7,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 7,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "ouxiang-xie": {
+      "object_count": 300,
+      "signs": [],
+      "triggers": [
+        {
+          "name": "TRG_ouxiang_xie_entry",
+          "room_id": "ouxiang_xie"
+        },
+        {
+          "name": "TRG_ouxiang_xie_table",
+          "room_id": "ouxiang_xie"
+        },
+        {
+          "name": "TRG_ouxiang_xie_water_rail",
+          "room_id": "ouxiang_xie"
+        },
+        {
+          "name": "TRG_ouxiang_xie_return",
+          "room_id": "ouxiang_xie"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_ouxiang-xie_wide",
+          "lens_mm": 32.0,
+          "position": [
+            -14.0,
+            -12.0,
+            5.400000095367432
+          ]
+        },
+        {
+          "name": "CAM_ouxiang-xie_table",
+          "lens_mm": 32.0,
+          "position": [
+            -19.299999237060547,
+            -0.20000000298023224,
+            1.7000000476837158
+          ]
+        }
+      ],
+      "colliders": 13,
+      "library_sha256": "e35fa2c0e82720facd8786e5b215f27fefa8e8c37005eb5b4c4e0dfa898b3d80",
+      "sheet_sha256": "c931c5faca4eceaf51212ef3d6d6205807518aa5d0750d41f19780a49f345fb8",
+      "export_sha256": "eddd99d384f1639f2eab011be74c2002eb25301b3c0214e2c8df34d3795f5d0b",
+      "master_object_count": 300,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 6,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 6,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "qinfang-ting": {
+      "object_count": 358,
+      "signs": [
+        {
+          "name": "HERO_qinfang-ting_title",
+          "text": "沁芳",
+          "kind": "textured mesh",
+          "images": [
+            "qinfang-ting-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_qinfang_center",
+          "room_id": "qinfang_ting"
+        },
+        {
+          "name": "TRG_qinfang_table",
+          "room_id": "qinfang_ting"
+        },
+        {
+          "name": "TRG_qinfang_rail",
+          "room_id": "qinfang_ting"
+        },
+        {
+          "name": "TRG_exit_east",
+          "room_id": "yihong_yuan"
+        },
+        {
+          "name": "TRG_exit_west",
+          "room_id": "ouxiang_xie"
+        },
+        {
+          "name": "TRG_exit_north",
+          "room_id": "daguan_lou"
+        },
+        {
+          "name": "TRG_exit_south",
+          "room_id": "rockery_gate"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_stage_wide",
+          "lens_mm": 32.0,
+          "position": [
+            18.0,
+            -30.0,
+            10.0
+          ]
+        },
+        {
+          "name": "CAM_shawscope",
+          "lens_mm": 40.0,
+          "position": [
+            5.0,
+            -5.0,
+            1.600000023841858
+          ]
+        },
+        {
+          "name": "CAM_garden_overview",
+          "lens_mm": 38.0,
+          "position": [
+            45.0,
+            -58.0,
+            42.0
+          ]
+        }
+      ],
+      "colliders": 157,
+      "library_sha256": "dc039961f260f0b467d0fe7e6a24e1d47e4c59f3bb9881a8ec6fdf8a7584d5a3",
+      "sheet_sha256": "f0f022860513ce5edda511cc3854a307071fd7b516b3fa826e88431999ab57ea",
+      "export_sha256": "08df1d8f0eaacddb0baad5804ee7e6a704541358ef719c6a24c27fa14805f268",
+      "master_object_count": 358,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 20,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 20,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "qiushuang-zhai": {
+      "object_count": 452,
+      "signs": [
+        {
+          "name": "HERO_study_title",
+          "text": "",
+          "kind": "textured mesh",
+          "images": [
+            "hall-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_qiushuang_zhai_left",
+          "room_id": "qiushuang_zhai"
+        },
+        {
+          "name": "TRG_qiushuang_zhai_centre",
+          "room_id": "qiushuang_zhai"
+        },
+        {
+          "name": "TRG_qiushuang_zhai_right",
+          "room_id": "qiushuang_zhai"
+        },
+        {
+          "name": "TRG_qiushuang_zhai_entry",
+          "room_id": "qiushuang_zhai"
+        },
+        {
+          "name": "TRG_qiushuang_zhai_return",
+          "room_id": "qiushuang_zhai"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_qiushuang-zhai_left",
+          "lens_mm": 38.0,
+          "position": [
+            18.850000381469727,
+            12.699999809265137,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_qiushuang-zhai_centre",
+          "lens_mm": 38.0,
+          "position": [
+            22.0,
+            12.699999809265137,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_qiushuang-zhai_right",
+          "lens_mm": 38.0,
+          "position": [
+            25.149999618530273,
+            12.699999809265137,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_qiushuang-zhai_wide",
+          "lens_mm": 32.0,
+          "position": [
+            22.0,
+            6.800000190734863,
+            3.200000047683716
+          ]
+        }
+      ],
+      "colliders": 13,
+      "library_sha256": "66082c6d6f72aaab20af720dd8dd92ff0630d65f09b53df0cf37c497157a8c1f",
+      "sheet_sha256": "59799236273421688108f15ff51933de1f5b57fed529f6adb007c85b1870f064",
+      "export_sha256": "11a7b69446b9f98abcb5d21f7c9b29fbf067e9ea871b6ddd4532cdac30caee66",
+      "master_object_count": 452,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 10,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 10,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "rockery-gate": {
+      "object_count": 131,
+      "signs": [
+        {
+          "name": "HERO_gate_inscription",
+          "text": "曲徑通幽",
+          "kind": "textured mesh",
+          "images": [
+            "gate-inscription-normal.png",
+            "gate-inscription.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_gate_mouth",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_gate_bend_2",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_gate_exit",
+          "room_id": "qinfang_ting"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_gate_reveal",
+          "lens_mm": 24.0,
+          "position": [
+            0.0,
+            -18.5,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_gate_reveal_slide",
+          "lens_mm": 23.051786422729492,
+          "position": [
+            -2.5,
+            -16.700000762939453,
+            1.7999999523162842
+          ]
+        },
+        {
+          "name": "CAM_gate_reveal_lift",
+          "lens_mm": 23.051786422729492,
+          "position": [
+            -3.0,
+            -16.0,
+            5.800000190734863
+          ]
+        },
+        {
+          "name": "CAM_gate_reveal_wide",
+          "lens_mm": 23.051786422729492,
+          "position": [
+            10.0,
+            -12.0,
+            5.5
+          ]
+        }
+      ],
+      "colliders": 10,
+      "library_sha256": "9532038d18d26969be2e0966310462f88094dd85fc882b0aef0403bf91e51fa5",
+      "sheet_sha256": "275c85ed6058082ebe2b7c12325572f78e2e28389a5f8b3aed4f5738cedcda2d",
+      "export_sha256": "76afcb4dcf70bd4a46af12d53ed48640037bfd6b4c15bd734f2560fc2cbe7e4a",
+      "master_object_count": 131,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 6,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 6,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "terminal-cells": {
+      "object_count": 256,
+      "signs": [],
+      "triggers": [
+        {
+          "name": "TRG_cell_seat_0",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window_0",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door_0",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_cell_seat_1",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window_1",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door_1",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_cell_seat",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_cell_seat_3",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window_3",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door_3",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_cell_seat_4",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window_4",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door_4",
+          "room_id": "rockery_gate"
+        },
+        {
+          "name": "TRG_cell_seat_5",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_window_5",
+          "room_id": "terminal_room"
+        },
+        {
+          "name": "TRG_cell_door_5",
+          "room_id": "rockery_gate"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_cells_wide",
+          "lens_mm": 24.0,
+          "position": [
+            9.0,
+            -40.0,
+            1.7000000476837158
+          ]
+        },
+        {
+          "name": "CAM_cell_entry",
+          "lens_mm": 24.0,
+          "position": [
+            -1.2999999523162842,
+            -38.79999923706055,
+            1.649999976158142
+          ]
+        }
+      ],
+      "colliders": 77,
+      "library_sha256": "1523f199433604f14dd18b238e21f0d1be47162b803eec0a11d411403b0c5fb1",
+      "sheet_sha256": "d3601c443e953444650003194baa6054df4051f894ddbe59130f7acb1c444481",
+      "export_sha256": "d5e5cf3137412cca7d33758609b640d0510c69c308391b6cf958c750a18943b9",
+      "master_object_count": 256,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 7,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 7,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "tubi-tang": {
+      "object_count": 413,
+      "signs": [
+        {
+          "name": "HERO_tubi_title",
+          "text": "凸碧堂",
+          "kind": "textured mesh",
+          "images": [
+            "tubi-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_tubi_tang_stair_foot",
+          "room_id": "tubi_tang"
+        },
+        {
+          "name": "TRG_tubi_tang_entry",
+          "room_id": "tubi_tang"
+        },
+        {
+          "name": "TRG_tubi_tang_news_table",
+          "room_id": "tubi_tang"
+        },
+        {
+          "name": "TRG_tubi_tang_overlook",
+          "room_id": "tubi_tang"
+        },
+        {
+          "name": "TRG_tubi_tang_return",
+          "room_id": "tubi_tang"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_tubi-tang_wide",
+          "lens_mm": 32.0,
+          "position": [
+            16.0,
+            20.0,
+            10.0
+          ]
+        },
+        {
+          "name": "CAM_tubi-tang_overlook",
+          "lens_mm": 32.0,
+          "position": [
+            7.0,
+            30.5,
+            5.699999809265137
+          ]
+        },
+        {
+          "name": "CAM_tubi-tang_table",
+          "lens_mm": 40.0,
+          "position": [
+            6.400000095367432,
+            30.100000381469727,
+            5.599999904632568
+          ]
+        }
+      ],
+      "colliders": 16,
+      "library_sha256": "1fd02cc57971e48a72f8c72dc403b23acbb13c5ae84c64266c5e361ce8669c72",
+      "sheet_sha256": "7eff3669c0954d4f5eec57906593ff4011b73ffee65cdb767f6c975d22248f1c",
+      "export_sha256": "b7709624dc007a1a1d6dea4e237c6f76f933fc692b75d13fc6c429387de2e3fc",
+      "master_object_count": 413,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 10,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 10,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "xiaoxiang-guan": {
+      "object_count": 135,
+      "signs": [
+        {
+          "name": "HERO_xiaoxiang-guan_title",
+          "text": "瀟湘館",
+          "kind": "textured mesh",
+          "images": [
+            "xiaoxiang-guan-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_xiaoxiang_guan_entry",
+          "room_id": "xiaoxiang_guan"
+        },
+        {
+          "name": "TRG_xiaoxiang_guan_closed_gate",
+          "room_id": "xiaoxiang_guan"
+        },
+        {
+          "name": "TRG_xiaoxiang_guan_bamboo",
+          "room_id": "xiaoxiang_guan"
+        },
+        {
+          "name": "TRG_xiaoxiang_guan_return",
+          "room_id": "xiaoxiang_guan"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_xiaoxiang-guan_wide",
+          "lens_mm": 32.0,
+          "position": [
+            -2.0,
+            -13.000000953674316,
+            2.299999952316284
+          ]
+        },
+        {
+          "name": "CAM_xiaoxiang-guan_gate",
+          "lens_mm": 35.0,
+          "position": [
+            -6.400000095367432,
+            -13.850000381469727,
+            1.600000023841858
+          ]
+        },
+        {
+          "name": "CAM_xiaoxiang-guan_bamboo",
+          "lens_mm": 35.0,
+          "position": [
+            -4.800000190734863,
+            -13.0,
+            2.4000000953674316
+          ]
+        }
+      ],
+      "colliders": 9,
+      "library_sha256": "930dcf8c5962bb83e33e55a32d408d4313e3281d6d8c82366d4de0bf507a490d",
+      "sheet_sha256": "030efcb20335f6a53e09139b6b7ca03d45415e362c400fc6df4300e4f4cc6499",
+      "export_sha256": "6b1190dd38635c668713dc868bd2d9f88235783a6e3f686eb2e9643e2cbe1c0a",
+      "master_object_count": 135,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 7,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 7,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "yihong-yuan": {
+      "object_count": 109,
+      "signs": [
+        {
+          "name": "HERO_yihong-yuan_title",
+          "text": "怡紅院",
+          "kind": "textured mesh",
+          "images": [
+            "yihong-yuan-title.png"
+          ]
+        }
+      ],
+      "triggers": [
+        {
+          "name": "TRG_yihong_yuan_entry",
+          "room_id": "yihong_yuan"
+        },
+        {
+          "name": "TRG_yihong_yuan_closed_doors",
+          "room_id": "yihong_yuan"
+        },
+        {
+          "name": "TRG_yihong_yuan_banana_leaves",
+          "room_id": "yihong_yuan"
+        },
+        {
+          "name": "TRG_yihong_yuan_return",
+          "room_id": "yihong_yuan"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_yihong-yuan_wide",
+          "lens_mm": 32.0,
+          "position": [
+            18.0,
+            -4.999999523162842,
+            3.0999999046325684
+          ]
+        },
+        {
+          "name": "CAM_yihong-yuan_doors",
+          "lens_mm": 35.0,
+          "position": [
+            22.200000762939453,
+            -0.9999998807907104,
+            1.649999976158142
+          ]
+        },
+        {
+          "name": "CAM_yihong-yuan_leaves",
+          "lens_mm": 35.0,
+          "position": [
+            21.5,
+            -0.49999985098838806,
+            2.299999952316284
+          ]
+        }
+      ],
+      "colliders": 9,
+      "library_sha256": "43a17dc2e0dfef4372c7bb92ce63971330d5cac969ca98fe969695cc1aff4cf6",
+      "sheet_sha256": "03097d078f7dd7df1a39060717f23e8cf83a357a890498b41246fd861934b08e",
+      "export_sha256": "1fc9c58f7d74f37bd04f03676058d4710b38f264e7eea8ed43bf8fa41f1bd843",
+      "master_object_count": 109,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 7,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 7,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    },
+    "ziling-zhou": {
+      "object_count": 38,
+      "signs": [],
+      "triggers": [
+        {
+          "name": "TRG_ziling_zhou_entry",
+          "room_id": "ziling_zhou"
+        },
+        {
+          "name": "TRG_ziling_zhou_overlook",
+          "room_id": "ziling_zhou"
+        },
+        {
+          "name": "TRG_ziling_zhou_return",
+          "room_id": "ziling_zhou"
+        }
+      ],
+      "cameras": [
+        {
+          "name": "CAM_ziling-zhou_wide",
+          "lens_mm": 32.0,
+          "position": [
+            -41.0,
+            -8.0,
+            3.0999999046325684
+          ]
+        },
+        {
+          "name": "CAM_ziling-zhou_reeds",
+          "lens_mm": 40.0,
+          "position": [
+            -35.599998474121094,
+            -0.5,
+            1.600000023841858
+          ]
+        }
+      ],
+      "colliders": 4,
+      "library_sha256": "8f63e14ccfcb7f40aad37ee3477879e8b3a088f3c24614dcb3f7605126a0d42c",
+      "sheet_sha256": "833748f7e4b68904541ad3df0086eb5a7666b6e0afeae81472e4ff4c1801eb19",
+      "export_sha256": "b81afaa4c45b6c3b597d254c9f8e0d876b50a93ad70fefac4374422b01db7436",
+      "master_object_count": 38,
+      "structural_differences_from_authoring": [],
+      "signs_match_authoring": true,
+      "source_matched_bakes": 3,
+      "camera_only_revalidated_bakes": 0,
+      "expected_opaque_bake_meshes": 3,
+      "missing_current_bakes": [],
+      "triggers_without_room_id": []
+    }
+  }
+}

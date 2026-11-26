@@ -19,10 +19,8 @@ func _ready() -> void:
  call_deferred("run")
 
 func save_report() -> void:
- var file = FileAccess.open("user://garden-phone-profile.json", FileAccess.WRITE)
- assert(file != null)
- file.store_string(JSON.stringify(report, "  "))
- file.close()
+ var error = preload("res://tests/profile_report_store.gd").publish("user://garden-phone-profile.json", report)
+ assert(error == OK, "Phone report publication failed: " + error_string(error))
 
 func buttons() -> Dictionary:
  var result = {}
@@ -112,6 +110,16 @@ func run() -> void:
  save_report()
  route = load("res://runtime/first_reading_demo.tscn").instantiate()
  root.add_child(route)
+ await get_tree().process_frame
+ var cap_inspector = preload("res://tests/runtime_texture_caps.gd").new()
+ report.runtime_texture_caps = cap_inspector.resources(false)
+ cap_inspector.bindings(route, "demo", report.runtime_texture_caps)
+ cap_inspector.finish(report.runtime_texture_caps)
+ if report.runtime_texture_caps.status != "passed":
+  report.status = "texture_caps_failed"
+  save_report()
+  push_error("PHONE_TEXTURE_CAPS_REJECTED " + JSON.stringify(report.runtime_texture_caps.errors))
+  return
  var recorder = TouchRecorder.new()
  recorder.profile_host = self
  root.add_child(recorder)

@@ -1,0 +1,83 @@
+{
+  "status": "complete_source_lighting_passed_native_review_pending",
+  "root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate",
+  "orchestrator_pid": 15099,
+  "started_at": "2026-10-09T13:15:10.839345+00:00",
+  "source_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "authoring_sha256": "43d7e33eff1dcfd64f4cf09b7ce8f04a42baef958f2d80d23d27636ae8ceaace",
+  "library_helper_original_sha256": "357c2fea9a12c54b19f4d4c29a167c0eccb085542277eb45308e2258b6ce2146",
+  "library_helper_frozen_sha256": "92c601645c902dfe1c10ae699ef4d66f53f37134f16956ff9b3b6e25edbfd6b4",
+  "phases": [
+    {
+      "name": "water-contract",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/scripts/verify_water_kit.py"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/lighting-preparation-logs/water-contract.log",
+      "pid": 15100,
+      "exit_code": 0,
+      "log_sha256": "ffa5944da7cf06ae2e0019e0ae6ff04359dc06a4e1a99fe57cf025b685e3df93"
+    },
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/lighting-preparation-logs/site-libraries.log",
+      "pid": 15101,
+      "exit_code": 0,
+      "log_sha256": "c003d854478c5d6439b3692e28b6f930447f1bea7fdbbb582fff948498f3d641"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 15102,
+      "exit_code": 0,
+      "log_sha256": "69f01d36b1308cc75a9171e9eb4a29298d25d0ba83aff030718ae4c7fbc80363"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/stage-floor-palette/candidate/lighting-preparation-logs/full-lighting.log",
+      "pid": 15103,
+      "exit_code": 0,
+      "log_sha256": "adf6077ba2cb4b1a4cc274c464fc340f92f500d209a177727bf1f1c8266d94e1"
+    }
+  ],
+  "scope": "Selected warm gray canvas base color only; all4467objects/other47materials/cameras/COL/markers retained. Complete portable15libraries and fresh six-phase source lighting. No canonical adoption, matched-lit/14site appearance, phone or service acceptance.",
+  "finished_at": "2026-10-09T14:12:53.516829+00:00"
+}

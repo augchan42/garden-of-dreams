@@ -113,3 +113,37 @@ Three final graphical modes and ten adjacent regressions pass. Eight final origi
 ## Waterline and reed source checkpoint — 2026-10-09
 
 The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.
+
+
+## Stream bank and lotus checkpoint — 2026-10-09
+
+The current complete source is `7a9fc523` with authoring `074ab201`. The shared stream has 54 bank modules and 54 added colliders; all 42 cameras,400 earlier colliders and 71 markers are preserved. Closed circular lotus pads sit above the water, with a muted shared leaf material and matching saved kit/generator. Fresh lighting covers 124 receivers and 141 source PNGs. Both native Mac tours pass 14 locations and 26 travel legs;15 installed checks pass. This is an incremental source checkpoint. Final site art, five remaining reference slots, current phone/sustained performance, release and authenticated services remain open. Evidence: `../reference/water-edge-source/README.md`.
+
+
+## Island exterior winding checkpoint — 2026-10-09
+
+Current assembly `73267e2b` / authoring `2b07ce48` repairs the reed island’s exterior face winding. All other exported mesh attributes and fourteen other site GLBs are preserved; cameras, colliders, markers and runtime are unchanged. Complete matching lighting, twenty-five focused native checks and thirteen installed checks pass. This site is not declared final by the island repair. Five references, current phone/sustained budgets, release and authenticated services remain open. Evidence: [island source review](../reference/island-exterior-winding/README.md).
+
+
+## Neutral stage-floor checkpoint — 2026-10-09
+
+Current complete source is `c9d4fb30`; authoring is `43d7e33e`. The five broad canvas floor pieces use muted warm gray (.065,.060,.055 linear RGB). Other materials, geometry, cameras, collisions, markers and runtime are preserved. All 141 fresh lightmaps, six source phases, 38 positive native checks plus two intended rejection controls, both 14-room/26-leg tours and 15 installed checks pass. All 47 installed lit/Ziling/arrival originals reproduce the reviewed candidate exactly. References remain 37/42; this is palette repair acceptance, not final site or phone acceptance. Evidence: [neutral stage floor](../reference/stage-floor-palette/README.md).
+
+
+## Paving-source checkpoint — 2026-10-10
+
+Current assembly is `ba40866e` with authoring `7eba169a`. Duplicate visible paving tops are partitioned while retaining the complete floor footprint, all 454 colliders, 42 cameras, 71 markers, materials and runtime `7970380d`. Complete matching 141 PNG lighting, both actual Mac 14-room/26-leg tours and 22 installed checks pass; all 85 installed originals reproduce the reviewed files. All 28 current arrival originals were directly inspected. This is focused paving acceptance; this site's final art is still open. References remain 37/42; current phone/sustained/release and authenticated services remain required. Evidence: [paving repair](../reference/paving-surface-joins/README.md).
+
+
+## Hengwu low courtyard overview — 2026-10-10
+
+The arrival/Look camera now stays at 1.8 m in the rear court, with the primary pierced stone, book/table and four stool bounds clear of the tested interfaces. Short landscape controls fit two rows below 580 logical pixels high, retaining the full description, command entry, scrollable actions and 48-unit touch targets. Selected rock/book text and original desktop detail poses, Look clearing, rotation/resize, visitor position and the farm round trip are checked.
+
+Authoring `7eba169a` / complete source `ba40866e` and 141 source-matched imported PNGs are unchanged; runtime is `56813eb7`. Thirty native review phases pass, including both 14-room/26-leg/139-capture Mac tours, no floor failures and max 4 practicals. Six focused modes and native depth-tested visibility controls pass. A test-only fixed clock now makes all 30 detail originals reproduce across separate native processes. All 24 installed checks pass and 150 installed originals match exactly; the 26 other-room arrivals also match PR20 pixels. Raw diagnostics, rejected controls and complete executed/installed evidence are retained.
+
+This is bounded camera/layout progress. Final 14-site art/dressing/material/composition, five missing external references (37/42), current physical-phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Evidence: [Hengwu overview](../reference/hengwu-overview-low/README.md).
+
+
+## Narrow landscape follow-up — 2026-10-10
+
+Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compact landscape controls below 580 pixels high or 1000 pixels wide; narrow titles wrap beside the complete description. Camera aim/field of view ease as height increases, and returning to portrait now reproduces initial portrait pixels exactly. Twelve final isolated checks and 12 installed checks pass, with 166 byte-exact installed originals. Of 120 prior captures, 113 are byte-identical; seven change only the portrait interface, with identical scene pixels above it at actual density scaling. All 28 stationary arrivals remain byte-identical. Geometry, authoring and matching 141 maps are unchanged. The preceding 30-phase/two-tour results remain historical evidence for runtime 56813eb7. Final art, references, current device/sustained budgets, release and authenticated services remain open. See [supplemental evidence](../reference/hengwu-overview-low/supplemental-narrow-landscape/README.md).

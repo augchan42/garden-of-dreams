@@ -1,0 +1,67 @@
+{
+  "status": "completed_expected_rejection",
+  "label": "baseline-positioned",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned-import.log",
+      "pid": 54609,
+      "exit_code": 0,
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6"
+    },
+    {
+      "name": "framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned"
+      ],
+      "status": "passed_expected_framing_rejections",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/baseline-positioned-framing.log",
+      "pid": 54616,
+      "exit_code": 1,
+      "log_sha256": "3b9f5e083e8c3dd2cc7f6f0c78b9738c1461c3fa800c7feec27f823f73185b1a"
+    }
+  ],
+  "runtime_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "test_sha256": "3a3b9fd2b3a6a4b50a6590f7161f6a5411e5df45cdf55e6f076c2cb7528a4cfc",
+  "errors": [
+    "Subject clipped or covered: arrival-portrait",
+    "Subject clipped or covered: arrival-narrow",
+    "Original desktop pose not restored: arrival",
+    "Subject clipped or covered: arrival-return",
+    "Subject clipped or covered: doors-portrait",
+    "Subject clipped or covered: doors-narrow",
+    "Original desktop pose not restored: doors",
+    "Subject clipped or covered: doors-return",
+    "Subject clipped or covered: doors-look",
+    "Look did not leave selected doors",
+    "Look did not restore original portrait overview after doors",
+    "Subject clipped or covered: leaves-portrait",
+    "Subject clipped or covered: leaves-narrow",
+    "Original desktop pose not restored: leaves",
+    "Subject clipped or covered: leaves-return",
+    "Subject clipped or covered: leaves-look",
+    "Look did not leave selected leaves",
+    "Look did not restore original portrait overview after leaves",
+    "Subject clipped or covered: look-narrow",
+    "Portrait actions consume too much scene space"
+  ],
+  "report_sha256": "92378240b6715c42a2394c93eefd8f73e68caee99f0db9b8924c00cc469dd144"
+}

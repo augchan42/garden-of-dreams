@@ -1,0 +1,115 @@
+{
+  "budget_results": {
+    "public_roundtrip": {
+      "draw_calls": true,
+      "p95_60fps": false,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    }
+  },
+  "render_budget_scope": "engine_global_all_viewports",
+  "samples": {
+    "public_roundtrip": {
+      "active_practicals_max": 4,
+      "frame_costs": {
+        "monitors": {
+          "enabled_viewports_cpu_plus_setup_ms": {
+            "max_ms": 294.085986572266,
+            "median_ms": 1.51399995326996,
+            "p95_ms": 3.1790000629425,
+            "positive_samples": 3642,
+            "samples": 3642,
+            "status": "observed"
+          },
+          "frame_setup_cpu_ms": {
+            "max_ms": 0.11,
+            "median_ms": 0.014,
+            "p95_ms": 0.038,
+            "positive_samples": 3642,
+            "samples": 3642,
+            "status": "observed"
+          },
+          "physics_monitor_ms": {
+            "max_ms": 3.994,
+            "median_ms": 0.586,
+            "p95_ms": 1.894,
+            "positive_samples": 3642,
+            "samples": 3642,
+            "status": "observed"
+          },
+          "process_monitor_ms": {
+            "max_ms": 297.412,
+            "median_ms": 10.321,
+            "p95_ms": 36.498,
+            "positive_samples": 3642,
+            "samples": 3642,
+            "status": "observed"
+          }
+        },
+        "scope": "Engine frame/physics monitors and enabled viewport render counters. CPU rendering excludes script/physics work; overlapping monitor values are not additive. All-zero counters are unavailable, not evidence of zero GPU/CPU work.",
+        "viewports": {
+          "/root": {
+            "cpu_ms": {
+              "max_ms": 294.079986572266,
+              "median_ms": 1.49699997901917,
+              "p95_ms": 3.16599988937378,
+              "positive_samples": 3637,
+              "samples": 3642,
+              "status": "observed"
+            },
+            "gpu_ms": {
+              "max_ms": 0.0,
+              "median_ms": 0.0,
+              "p95_ms": 0.0,
+              "positive_samples": 0,
+              "samples": 3642,
+              "status": "unavailable_all_zero"
+            },
+            "observations": 3642,
+            "size": [
+              1410,
+              600
+            ],
+            "update_enabled_observations": 3642,
+            "update_modes": {
+              "-1": true
+            }
+          },
+          "/root/GardenEntryRoute/PondReflection/ReflectionCapture": {
+            "cpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "gpu_ms": {
+              "positive_samples": 0,
+              "samples": 0,
+              "status": "not_sampled"
+            },
+            "observations": 3642,
+            "size": [
+              768,
+              327
+            ],
+            "update_enabled_observations": 0,
+            "update_modes": {
+              "0": true
+            }
+          }
+        }
+      },
+      "frame_interval_median_ms": 16.66,
+      "frame_interval_p95_ms": 18.324,
+      "frames": 3642,
+      "global_draw_calls_max": 139,
+      "global_primitives_max": 163083,
+      "texture_memory_bytes": 41203025,
+      "visible_draw_calls_max": 105,
+      "visible_primitives_max": 163055
+    }
+  },
+  "scope": "Actual four-leg normal-time public round trip using scoped culling and actual full producer; native counter evidence, not target-phone/sustained acceptance.",
+  "status": "native-scoped-candidate",
+  "timed_seconds": 61.049428
+}

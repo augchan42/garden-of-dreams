@@ -1,0 +1,7 @@
+{
+  "failed_retry_log": "/tmp/xiaoxiang-native-review-recheck-20261010.log",
+  "reason": "First review already populated docs/sites; copytree refuses an existing directory.",
+  "proof": "Every existing copied site document byte matches repository before retry.",
+  "change": "Allow copying into existing docs/sites; all native assertions/commands retained.",
+  "original_failed_reports_preserved": true
+}

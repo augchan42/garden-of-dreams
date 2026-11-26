@@ -1,0 +1,23 @@
+{
+  "status": "static_lit_fixture_prepared_no_native_worker_started",
+  "source_root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/candidate",
+  "review_root": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/island-face-source/lit-native-review",
+  "baseline_glb_sha256": "7a9fc523bc1517941cc248c040877b86f9cd00a11654c6c31e40f3acc089632f",
+  "candidate_glb_sha256": "73267e2b17c52531ad6bc1e9df1279634564e93e3ef04519b2f27ade26ec178e",
+  "authoring_sha256": "2b07ce48ffa3011f9a2da01535a3fc84171bdc00b2ced2abad0ce8f338fd49ed",
+  "runtime_sha256": "80f6465581dc0b43a5994efc476f2447dfa684ef8bc280cb1a6ac70dc937f906",
+  "source_contract_sha256": "d85d54ec0b1c5752321c01ff4f7c5a70f5aeeaf7d1b49360d6ee40949ce53e33",
+  "ziling_source_guard": {
+    "baseline_sha256": "2424812bce64f9e4fb4d1019f38cce7700f1d57c29c80afe7ce28862edb23510",
+    "candidate_sha256": "22b316171530cc1f9b1ac8d485752012acc383d482336cd40363c217ef60cefb",
+    "change": "source digest only; all shape, framing, deadline and public-action assertions retained"
+  },
+  "comparison_script_sha256": "00d9cb6468ad58237aeb705951067aa3e64a3dcf9dfb4fb1b37f6c7a853c5258",
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71,
+    "render_meshes": 167
+  },
+  "scope": "Both fixed-camera comparison modes retain54bank assertions. Candidate starts with no maps; full fresh source lighting must finish and all native parents exit before review. Baseline is current main with its matching prior maps. Runtime/source contracts remain exact. No visual/adoption/phone/all-site acceptance."
+}

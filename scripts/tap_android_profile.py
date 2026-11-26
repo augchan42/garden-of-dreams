@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import subprocess
 import time
-from collect_android_profile import verify_profile_build
+from collect_android_profile import verify_profile_build, verify_device_caps
 
 ROOT = Path(__file__).resolve().parents[1]
 ADB = Path.home() / 'Library/Android/sdk/platform-tools/adb'
@@ -30,6 +30,7 @@ def main():
     assert current['status'] == 'ready_for_taps'
     assert not current['touch_events'], 'Start from an untouched completed diagnostic run'
     assert current['build'] == fixture, 'Wrong diagnostic APK is running'
+    verify_device_caps(current.get('runtime_texture_caps'))
     stages = [
         ('cast', 'Cast at the table', True, 'qinfang_ting', 'Close'),
         ('recast', 'Cast again', True, 'qinfang_ting', 'Close'),

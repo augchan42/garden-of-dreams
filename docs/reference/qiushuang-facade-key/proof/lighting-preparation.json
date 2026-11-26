@@ -1,0 +1,66 @@
+{
+  "status": "complete_key_source_lighting_passed_native_review_pending",
+  "orchestrator_pid": 33734,
+  "authoring_sha256": "4eb31445889e5f30f57bb7935759d83169655eefea6c6cfa798879e9f384b0f6",
+  "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/tmp/garden-qiushuang-key-20261011"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/lighting-preparation-logs/site-libraries.log",
+      "pid": 33735,
+      "exit_code": 0,
+      "log_sha256": "51fdbf8759946a560dae5e55cebbdfd88f70e02a7b32a813f2242c6cf082428f"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/tmp/garden-qiushuang-key-20261011/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 33749,
+      "exit_code": 0,
+      "log_sha256": "46162e99dc864d288a59fab65ade4b18a698618f85920ea901988a88ef15e121"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-qiushuang-key-20261011/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-qiushuang-key-20261011/lighting-preparation-logs/full-lighting.log",
+      "pid": 33758,
+      "exit_code": 0,
+      "log_sha256": "b17184f3263204a2362a3dac18d9366fc524f5c8bdfa2c46728ece4ef04aa2da"
+    }
+  ],
+  "scope": "Fresh complete six-phase source lighting for one-key candidate; no engine installation, art acceptance, phone or release claim."
+}

@@ -1,0 +1,285 @@
+{
+  "status": "installed_canonical_source_and_engine_checks_passed",
+  "pid": 61758,
+  "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+  "phases": [
+    {
+      "name": "saved_key",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_study_lighting.py",
+        "--",
+        "--report",
+        "/tmp/garden-qiushuang-key-20261011/installed-key-coverage.json"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/saved_key.log",
+      "pid": 61759,
+      "exit_code": 0,
+      "log_sha256": "725d4393d79784148360ccc105d825affca088c2bbf091bee3eea12bc17a5ca8"
+    },
+    {
+      "name": "saved_rays",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_qiushuang_lattice.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/saved_rays.log",
+      "pid": 61772,
+      "exit_code": 0,
+      "log_sha256": "d0eff5289f565684ccb3b78c03112165aca99d809ad71f491b1b1839c192bca3"
+    },
+    {
+      "name": "canonical_source",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--output-root",
+        "/tmp/garden-qiushuang-key-20261011/installed-source-replay"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/canonical_source.log",
+      "pid": 61787,
+      "exit_code": 0,
+      "log_sha256": "450544e9b8155b27cb3e82462a1f5204da6fd7394e93677ae5c5db71e205dbff"
+    },
+    {
+      "name": "site_sources",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/audit_site_sources.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/site_sources.log",
+      "pid": 61895,
+      "exit_code": 0,
+      "log_sha256": "f4cc09f9f96f7efdf0e0c2fd9ef741c425131fe0bce57f86ecf0867d2f8d60d7"
+    },
+    {
+      "name": "uv2",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_uv2.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/uv2.log",
+      "pid": 61943,
+      "exit_code": 0,
+      "log_sha256": "9808dc4c4343f43c9fc64a0a0551cce0348973066d3ea00ebf6a6168dc987079"
+    },
+    {
+      "name": "sync_full_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/sync_full_lightmaps.log",
+      "pid": 62075,
+      "exit_code": 0,
+      "log_sha256": "88be15852cc6d70e0504985aabfb09440cdf83e5439200f3bab9c52b0167078e"
+    },
+    {
+      "name": "sync_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/sync_backdrop_wash.log",
+      "pid": 62096,
+      "exit_code": 0,
+      "log_sha256": "554e8b836ed7ed33c65f38a3a64002fbd54c192eb391834fdb842d0558be26df"
+    },
+    {
+      "name": "sync_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/sync_terminal_spill.log",
+      "pid": 62107,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "sync_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/sync_lightmaps.log",
+      "pid": 62123,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "import_contract",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_godot_import_contract.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/import_contract.log",
+      "pid": 62130,
+      "exit_code": 0,
+      "log_sha256": "4851e89d2820ab9ddcd5c902d0b7d38f734c03e952635c03f68d0c909a519770"
+    },
+    {
+      "name": "native_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/native_import.log",
+      "pid": 62131,
+      "exit_code": 0,
+      "log_sha256": "8e59d6163384237201d67d2bd1fff66ccfdd969ded8d54a05ed5189f9ce4a4dd"
+    },
+    {
+      "name": "full_scene",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/full_scene.log",
+      "pid": 62306,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_backdrop_wash_import.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/wash.log",
+      "pid": 62334,
+      "exit_code": 0,
+      "log_sha256": "2c500daf982692b8355d1496c997964a250c7b9c0cc4578c0ed79c53a9b6a487"
+    },
+    {
+      "name": "spill",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/spill.log",
+      "pid": 62554,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "runtime_caps",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_runtime_texture_caps.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/runtime_caps.log",
+      "pid": 62721,
+      "exit_code": 0,
+      "log_sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6"
+    },
+    {
+      "name": "cold_reimport",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_godot_reimport.py"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/cold_reimport.log",
+      "pid": 62875,
+      "exit_code": 0,
+      "log_sha256": "a3ccc22763e7e4fa97fe60cbec81c36ca0754694cea0eb933d80b6fcad85b6f1"
+    },
+    {
+      "name": "native_key",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_key_lit.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-key-20261011/installed-native-qiushuang"
+      ],
+      "log": "/tmp/garden-qiushuang-key-20261011/installed-validation-logs/native_key.log",
+      "pid": 63254,
+      "exit_code": 0,
+      "log_sha256": "c16731ba42d1a374833517288b8b213f169c98e9466b90b9711a05db9458aa4d"
+    }
+  ],
+  "scope": "Installed canonical source, exact engine inputs, actual native resources and screen views. No user editor reload, phone action, final art or performance acceptance.",
+  "preserved_import_parameter_files": 141,
+  "engine_input_files_exact_to_isolated_validation": 285,
+  "installed_originals_exact_to_candidate": 8
+}

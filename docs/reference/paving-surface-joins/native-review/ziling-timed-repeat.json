@@ -1,0 +1,81 @@
+{
+  "status": "ziling_timed_repeat_passed_direct_original_review_pending",
+  "pid": 42317,
+  "started_at": "2026-10-09T18:53:21.291348+00:00",
+  "source_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "prior_pipeline_sha256": "d8f79e369f037ac1548d0001b1b32348aa9e7bbf8f346ba15677bc696f19f014",
+  "test_sha256": "ede8c3da8ba68436d0be7968577c83fe6d860927ac061de3c1b43caf79dc1e1c",
+  "phases": [
+    {
+      "name": "normal",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-paving-review-20261010-v4/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/tmp/garden-paving-review-20261010-v4/review-captures/ziling-timed-normal"
+      ],
+      "log": "/tmp/garden-paving-review-20261010-v4/review-logs/ziling-timed-normal.log",
+      "pid": 42318,
+      "exit_code": 0,
+      "log_sha256": "b71f7375d70b9a2fd304e9a223caa694150f903881e7e79068bd4994bb16b2a5",
+      "report_sha256": "cd763f8dd6b38ab92a111ecc09957c82c98a6a6386e61b9b93bceb14e78919c5",
+      "originals": 13
+    },
+    {
+      "name": "touch",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-paving-review-20261010-v4/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/tmp/garden-paving-review-20261010-v4/review-captures/ziling-timed-touch",
+        "--touch"
+      ],
+      "log": "/tmp/garden-paving-review-20261010-v4/review-logs/ziling-timed-touch.log",
+      "pid": 42334,
+      "exit_code": 0,
+      "log_sha256": "417ef73cfbe77b9805bfef1a33d0033adbe4fe85990bb95d5330ef5fde416e60",
+      "report_sha256": "03a9d338e5bf1f7a8850b40c0157c8a46136875d6ffe4acd169976409f76164e",
+      "originals": 12
+    },
+    {
+      "name": "density",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-paving-review-20261010-v4/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_ziling_framing.gd",
+        "--",
+        "--output=/tmp/garden-paving-review-20261010-v4/review-captures/ziling-timed-density",
+        "--density"
+      ],
+      "log": "/tmp/garden-paving-review-20261010-v4/review-logs/ziling-timed-density.log",
+      "pid": 42375,
+      "exit_code": 0,
+      "log_sha256": "5c9e734f08e736738deb4311420138419dfc4593b6b9dc363445881257b82412",
+      "report_sha256": "b851e6301fbb8f6c93caad596bfad2028b7f1acebed220a739a69dbf387df6e1",
+      "originals": 10
+    }
+  ],
+  "scope": "Repeat three affected Ziling capture modes with real timed foliage settle. Previous full-run tests and images retained; no runtime, camera, source or lighting edits.",
+  "finished_at": "2026-10-09T18:53:50.579356+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "units": "metres",
+  "atlas": "flora-basecolor.png",
+  "atlas_size": 2048,
+  "variants": {
+    "bamboo_small": {
+      "triangles_lod0": 564,
+      "triangles_lod1": 204,
+      "ratio": 0.3617021276595745,
+      "colliders": 0,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "bamboo_medium": {
+      "triangles_lod0": 940,
+      "triangles_lod1": 340,
+      "ratio": 0.3617021276595745,
+      "colliders": 0,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "bamboo_large": {
+      "triangles_lod0": 1316,
+      "triangles_lod1": 476,
+      "ratio": 0.3617021276595745,
+      "colliders": 0,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "plum": {
+      "triangles_lod0": 576,
+      "triangles_lod1": 244,
+      "ratio": 0.4236111111111111,
+      "colliders": 1,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "willow": {
+      "triangles_lod0": 1198,
+      "triangles_lod1": 464,
+      "ratio": 0.38731218697829717,
+      "colliders": 1,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "banana": {
+      "triangles_lod0": 252,
+      "triangles_lod1": 98,
+      "ratio": 0.3888888888888889,
+      "colliders": 0,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "reed": {
+      "triangles_lod0": 1648,
+      "triangles_lod1": 592,
+      "ratio": 0.3592233009708738,
+      "colliders": 0,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "potted": {
+      "triangles_lod0": 320,
+      "triangles_lod1": 110,
+      "ratio": 0.34375,
+      "colliders": 1,
+      "connectors": {
+        "ground": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "original_pipeline": "/tmp/garden-xiaoxiang-bamboo-20261010/native-review/pipeline.json",
+  "diagnostic_log": "/tmp/xiaoxiang-roof-import-diagnostic-20261010.log",
+  "observed": "Direct load and bound bake return 1024x1024 despite process/size_limit512; configured import log omitted imperial texture. Ouxiang and courtyard loaded at512.",
+  "repair": "Archive and remove only isolated imperial generated .ctex, then import with existing512 configuration; source PNG and .import parameters unchanged.",
+  "generated_files": [
+    {
+      "path": "/tmp/garden-xiaoxiang-bamboo-20261010/godot/.godot/imported/SITE_daguan-lou_MAT_rooftile.png-031e1cbe15f7a989bdc180d765eeddd8.ctex",
+      "sha256": "06287e4aa8a9bad596f352afeb18ab447840818d3b103a93e7fc5333e9e7fe29"
+    }
+  ],
+  "original_assertions_retained": true,
+  "recheck_log": "/tmp/xiaoxiang-full-lighting-recheck-20261010.log",
+  "status": "isolated_cache_regenerated_original_lighting_assertions_pass"
+}

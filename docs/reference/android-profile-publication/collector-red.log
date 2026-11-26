@@ -1,0 +1,32 @@
+.FFF
+======================================================================
+FAIL: test_missing_or_changed_report_writer_rejects_before_device_access (test_android_profile_moon_gate.CollectorMoonGateTests.test_missing_or_changed_report_writer_rejects_before_device_access) (mutation='missing_proof')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_profile_moon_gate.py", line 67, in test_missing_or_changed_report_writer_rejects_before_device_access
+    with self.assertRaisesRegex(AssertionError, 'report writer'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_changed_report_writer_rejects_before_device_access (test_android_profile_moon_gate.CollectorMoonGateTests.test_missing_or_changed_report_writer_rejects_before_device_access) (mutation='production_changed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_profile_moon_gate.py", line 67, in test_missing_or_changed_report_writer_rejects_before_device_access
+    with self.assertRaisesRegex(AssertionError, 'report writer'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+======================================================================
+FAIL: test_missing_or_changed_report_writer_rejects_before_device_access (test_android_profile_moon_gate.CollectorMoonGateTests.test_missing_or_changed_report_writer_rejects_before_device_access) (mutation='staged_changed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_android_profile_moon_gate.py", line 67, in test_missing_or_changed_report_writer_rejects_before_device_access
+    with self.assertRaisesRegex(AssertionError, 'report writer'):
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.017s
+
+FAILED (failures=3)

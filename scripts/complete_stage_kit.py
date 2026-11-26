@@ -5,6 +5,7 @@ from mathutils import Vector
 R=Path(__file__).resolve().parents[1];sys.path.insert(0,str(R/'scripts'))
 from kit_geometry import Geometry
 from make_stage_art import CELLS
+from stage_kit_export_texture import exported_stage_paints
 bpy.ops.wm.read_factory_settings(use_empty=True)
 fmt=next(i[0] for i in io_scene_gltf2.get_format_items(None,bpy.context) if i[0]=='GLB')
 def material(name):
@@ -86,7 +87,7 @@ def build(variant,low):
  return g,ports,colliders,front_faces
 
 variants=['cyclorama_moonlit','cyclorama_dusk','cyclorama_mist','studio_wall','floor_boards','fog_plane','gel_frame']
-out=R/'export/kits/stage';manifest={'units':'metres','atlas_size':2048,'cyclorama_size':4096,'variants':{}};collections=[]
+out=R/'export/kits/stage';manifest={'units':'metres','atlas_size':2048,'cyclorama_size':4096,'export_cyclorama_size':2048,'variants':{}};collections=[]
 for variant in variants:
  counts=[]
  for suffix,low in [('',False),('_LOD1',True)]:
@@ -108,7 +109,8 @@ for variant in variants:
    for old in list(o.users_collection):old.objects.unlink(o)
    col.objects.link(o)
   counts.append(sum(len(p.vertices)-2 for p in model.data.polygons));model['lod_ratio']=counts[-1]/counts[0]
-  bpy.ops.export_scene.gltf(filepath=str(out/f'KIT_stage_{variant}{suffix}.glb'),export_format=fmt,use_active_scene=True,export_apply=True,export_extras=True,export_animations=False,export_loglevel=-1)
+  with exported_stage_paints(model.data.materials):
+   bpy.ops.export_scene.gltf(filepath=str(out/f'KIT_stage_{variant}{suffix}.glb'),export_format=fmt,use_active_scene=True,export_apply=True,export_extras=True,export_animations=False,export_loglevel=-1)
  manifest['variants'][variant]={'triangles_lod0':counts[0],'triangles_lod1':counts[1],'ratio':counts[1]/counts[0],'connectors':ports,'colliders':len(colliders),'surfaces':len(model.data.materials)}
 gallery=bpy.data.scenes.new('Stage kit showroom');bpy.context.window.scene=gallery;root=bpy.data.collections.new('KIT_stage');gallery.collection.children.link(root)
 for index,col in enumerate(collections):

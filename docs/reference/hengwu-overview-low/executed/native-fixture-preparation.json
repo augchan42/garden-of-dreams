@@ -1,0 +1,55 @@
+{
+  "status": "unchanged_source_isolated_fixture_prepared",
+  "root": "/tmp/garden-hengwu-arrival-20261010",
+  "poses": [
+    {
+      "label": "central-left",
+      "eye": [
+        -20.8,
+        2.2,
+        -10.5
+      ],
+      "target": [
+        -18,
+        -1,
+        -14
+      ],
+      "horizontal_fov": 95
+    },
+    {
+      "label": "far-left",
+      "eye": [
+        -21.8,
+        2.2,
+        -11
+      ],
+      "target": [
+        -18.5,
+        -1,
+        -14
+      ],
+      "horizontal_fov": 85
+    },
+    {
+      "label": "less-wide",
+      "eye": [
+        -21.8,
+        2.2,
+        -10.5
+      ],
+      "target": [
+        -18.0,
+        -0.6,
+        -14.5
+      ],
+      "horizontal_fov": 75
+    }
+  ],
+  "source_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "protected_editor_pids": [
+    43873,
+    55899
+  ],
+  "production_changed": false
+}

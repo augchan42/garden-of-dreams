@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "mode": "native",
+  "runtime_sha256": "ec42ec55bf382ec314b6da325da741d214d297d81418d4da38bdabe0d017ec87",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "transition",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_camera_transition.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/transition.log",
+      "status": "passed",
+      "pid": 21252,
+      "exit_code": 0,
+      "log_sha256": "c573b648c5b2eb215dc2b7ee6edeae2adf9f4493fdb16187afcf5e63dfa481df"
+    },
+    {
+      "name": "framing-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_framing.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/normal",
+        "--source=faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/framing-normal.log",
+      "status": "passed",
+      "pid": 21894,
+      "exit_code": 0,
+      "log_sha256": "5b0be8e2715db55f2631490b72d84bcdf9449a275bad4b6be49706a1ab90c4cc"
+    },
+    {
+      "name": "framing-touch",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_framing.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/touch",
+        "--source=faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+        "--touch"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/framing-touch.log",
+      "status": "passed",
+      "pid": 24557,
+      "exit_code": 0,
+      "log_sha256": "5b0be8e2715db55f2631490b72d84bcdf9449a275bad4b6be49706a1ab90c4cc"
+    },
+    {
+      "name": "framing-density",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_xiaoxiang_framing.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/density",
+        "--source=faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+        "--density"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/framing-density.log",
+      "status": "passed",
+      "pid": 24953,
+      "exit_code": 0,
+      "log_sha256": "5b0be8e2715db55f2631490b72d84bcdf9449a275bad4b6be49706a1ab90c4cc"
+    },
+    {
+      "name": "pavilion",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_pavilion_portrait_framing.gd"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/pavilion.log",
+      "status": "passed",
+      "pid": 25182,
+      "exit_code": 0,
+      "log_sha256": "df59384a9e46abd6f399417577c4dec702fc9b21709def59c058ae55c576446f"
+    },
+    {
+      "name": "palette-normal",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/palette-normal.json"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/palette-normal.log",
+      "status": "passed",
+      "pid": 25310,
+      "exit_code": 0,
+      "log_sha256": "80335b5b6a6b03a29970ded2b11f3c6c75df39900301c4fceabb0ec56fab5664"
+    },
+    {
+      "name": "palette-demo",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/tmp/garden-xiaoxiang-framing-20261010/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_garden_palette_transfer.gd",
+        "--",
+        "--output=/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/palette-demo.json",
+        "--demo"
+      ],
+      "log": "/tmp/garden-xiaoxiang-framing-20261010/framing-validation-v5/palette-demo.log",
+      "status": "passed",
+      "pid": 25391,
+      "exit_code": 0,
+      "log_sha256": "9cf9309644a1b37b3585d036f49d023b9eadc407c6151754437c33266379f497"
+    }
+  ]
+}

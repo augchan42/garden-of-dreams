@@ -1,0 +1,92 @@
+{
+  "status": "old_exact_count_rejection_and_corrected_native_pass",
+  "rows": [
+    {
+      "phase": "arrival-portrait",
+      "before_sha256": "c67b68254890f930bb22133e9a29f9ae7b76caed1ed3c62dbb794523500d332b",
+      "after_sha256": "c67b68254890f930bb22133e9a29f9ae7b76caed1ed3c62dbb794523500d332b",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-narrow",
+      "before_sha256": "e41d632c379d5e74d43a2a860f4dfc1b832b692aebac6be4efd87f7215c46019",
+      "after_sha256": "e41d632c379d5e74d43a2a860f4dfc1b832b692aebac6be4efd87f7215c46019",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-desktop",
+      "before_sha256": "daa0d8a16256c252e28d5f91e5988ae23b25d34d3d99e8026f9d131a23ad83a5",
+      "after_sha256": "daa0d8a16256c252e28d5f91e5988ae23b25d34d3d99e8026f9d131a23ad83a5",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-desktop-720",
+      "before_sha256": "bc89ebfd62458ade7bfbfb7bc87676f2732fde6d7dbfe40af9ca5c9e35d72a2f",
+      "after_sha256": "bc89ebfd62458ade7bfbfb7bc87676f2732fde6d7dbfe40af9ca5c9e35d72a2f",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-desktop-540",
+      "before_sha256": "e4e58a95915f19aad9b4c570b0124e57f9af185b34d22d295822cbbc6e958d17",
+      "after_sha256": "e4e58a95915f19aad9b4c570b0124e57f9af185b34d22d295822cbbc6e958d17",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-desktop-480",
+      "before_sha256": "ae175c721020cc9a0401155d22822471806e58cf108e6fc871464bc542930b5f",
+      "after_sha256": "ae175c721020cc9a0401155d22822471806e58cf108e6fc871464bc542930b5f",
+      "byte_exact": true
+    },
+    {
+      "phase": "arrival-return",
+      "before_sha256": "c67b68254890f930bb22133e9a29f9ae7b76caed1ed3c62dbb794523500d332b",
+      "after_sha256": "1c6b1e1c80bef2e42a63a615818f71f1781db5d68c38e8230312ffdef661dca5",
+      "byte_exact": false
+    },
+    {
+      "phase": "reeds-portrait",
+      "before_sha256": "aa73159064f80746f6065006a00308c3f84a5b905da33b055e4e6483e78563f3",
+      "after_sha256": "aa73159064f80746f6065006a00308c3f84a5b905da33b055e4e6483e78563f3",
+      "byte_exact": true
+    },
+    {
+      "phase": "reeds-narrow",
+      "before_sha256": "1f878743bbc6b2311985a2de7583ba3f0cf87a314fecdd5652b7dc48ac7ada67",
+      "after_sha256": "1f878743bbc6b2311985a2de7583ba3f0cf87a314fecdd5652b7dc48ac7ada67",
+      "byte_exact": true
+    },
+    {
+      "phase": "reeds-desktop",
+      "before_sha256": "0536f283e94dfea1029e29f956905df39a88f049519015dfba6dc3d8ae4488a5",
+      "after_sha256": "0536f283e94dfea1029e29f956905df39a88f049519015dfba6dc3d8ae4488a5",
+      "byte_exact": true
+    },
+    {
+      "phase": "reeds-return",
+      "before_sha256": "aa73159064f80746f6065006a00308c3f84a5b905da33b055e4e6483e78563f3",
+      "after_sha256": "aa73159064f80746f6065006a00308c3f84a5b905da33b055e4e6483e78563f3",
+      "byte_exact": true
+    },
+    {
+      "phase": "look-portrait",
+      "before_sha256": "c67b68254890f930bb22133e9a29f9ae7b76caed1ed3c62dbb794523500d332b",
+      "after_sha256": "c67b68254890f930bb22133e9a29f9ae7b76caed1ed3c62dbb794523500d332b",
+      "byte_exact": true
+    },
+    {
+      "phase": "look-narrow",
+      "before_sha256": "e41d632c379d5e74d43a2a860f4dfc1b832b692aebac6be4efd87f7215c46019",
+      "after_sha256": "e41d632c379d5e74d43a2a860f4dfc1b832b692aebac6be4efd87f7215c46019",
+      "byte_exact": true
+    }
+  ],
+  "byte_exact_originals": 12,
+  "originals": 13,
+  "actual_subject_counts": {
+    "bridge": 1288,
+    "island": 2128,
+    "pavilion_roof": 8116,
+    "reeds": 48320
+  },
+  "scope": "Only two asset vertex-count expectations changed in the test. Runtime/source/bakes remain unchanged. Hash equality reports actual reproduction; any differing originals require visual inspection before appearance acceptance."
+}

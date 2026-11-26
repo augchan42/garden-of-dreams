@@ -1,0 +1,117 @@
+{
+  "status": "static_paving_review_prepared_no_native_app_started",
+  "source_root": "/tmp/garden-paving-joins-20261010-v4",
+  "review_root": "/tmp/garden-paving-review-20261010-v4",
+  "baseline_glb_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+  "candidate_glb_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+  "authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+  "source_contract_sha256": "8dd34ac8388563940836bf92c557cdef1dd9b554dc153b04dda3ad4b466fb2e3",
+  "palette_contract_sha256": "249de380fb4808d8a0a6baaf9ca0890f7a03a7cf27f876b9bcc7b4f35e5597fb",
+  "source_guard_only_changes": {
+    "portrait-architecture-contract.json": {
+      "before_sha256": "117d438266a9bbabdc9fd349e6f696750a15a2d9e15252ccdc96ab6323f177b2",
+      "after_sha256": "ac19237921e5c4bd9d9e41b1a54f0067922abe85873376b0d9f24dd42f43b545",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "render_dynamic_palette.gd": {
+      "before_sha256": "6a7dd7d0835b51ab41e53ff91ae2817472aa0cb4f460904c3cf07ea94cf1c436",
+      "after_sha256": "a84eb2faf9b5e9bb1235c8fc64d901bc34d4394e9bec9d82c1f105e7d9220fa6",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_hengwu_detail_framing.gd": {
+      "before_sha256": "2139f6e3356da826b7edecb1735e773223d1a3dcc1b359991872702d960d1738",
+      "after_sha256": "8b7d0120d4ebc94aeb7b4f1d4b74af5ec8097d828b6d6483dd7cfb0d5de7494e",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_qiushuang_framing.gd": {
+      "before_sha256": "ee8b48d9f6bcef4d78657b402b25bb7ad8a9c0043c47aa3360db80da8260f241",
+      "after_sha256": "79aa7933ce2c77beed40bcd38b100063c88682fd280929cdaf8aec069b2efecb",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_tubi_framing.gd": {
+      "before_sha256": "deafda4979ea2d7be327474c3ef64673ab424d72ecc4aef1c9f89820af584dcf",
+      "after_sha256": "0844bfeec2e7dd501a8e20b94b75ccbf37320d11269f25685a5ae99666de982f",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_yihong_framing.gd": {
+      "before_sha256": "01ea88fd39742e9f6b4cafe9b1dd75f21033cfd568074146bc973eca06915af6",
+      "after_sha256": "7c953b2f9664454b4f527d32c172678c23b2ae467a542384ed31eecb19d15ab2",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    }
+  },
+  "paving_native_regression_sha256": "a4643c4af451565195f987c1f8d9a8277ea2bd345ae42b9d544b0098f32a85d0",
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71,
+    "render_meshes": 167
+  },
+  "scope": "Both fixtures share current runtime and new floor plane IDs/hide/lit regression,1.8seconds/fixedclock3. Candidate has no maps; copy only complete fresh matching141sourcePNGs after sole source worker16116anditschildren exit. Existing source guards update onlydigest; palette expectations identical. Source/default16exports/14arrivals/all26legdesktop+portraittours/adjacentviews still require actual native execution and direct originals review. No product adoption or all-site/phone/fullgoal acceptance.",
+  "prior_paving_regression_sha256": "9f0ba831cbaacd642c26ec79d4a89d7f6abfbb2833c37e0d6286ab7e0bb3ddea",
+  "measured_imported_floor_tolerance_m": 0.0001,
+  "regression_correction_evidence": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/paving-site-joins/floor-filter-root-cause.json",
+  "source_guard_changes": {
+    "portrait-architecture-contract.json": {
+      "before_sha256": "117d438266a9bbabdc9fd349e6f696750a15a2d9e15252ccdc96ab6323f177b2",
+      "after_sha256": "ac19237921e5c4bd9d9e41b1a54f0067922abe85873376b0d9f24dd42f43b545",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "render_dynamic_palette.gd": {
+      "before_sha256": "6a7dd7d0835b51ab41e53ff91ae2817472aa0cb4f460904c3cf07ea94cf1c436",
+      "after_sha256": "a84eb2faf9b5e9bb1235c8fc64d901bc34d4394e9bec9d82c1f105e7d9220fa6",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_hengwu_detail_framing.gd": {
+      "before_sha256": "2139f6e3356da826b7edecb1735e773223d1a3dcc1b359991872702d960d1738",
+      "after_sha256": "8b7d0120d4ebc94aeb7b4f1d4b74af5ec8097d828b6d6483dd7cfb0d5de7494e",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_qiushuang_framing.gd": {
+      "before_sha256": "ee8b48d9f6bcef4d78657b402b25bb7ad8a9c0043c47aa3360db80da8260f241",
+      "after_sha256": "79aa7933ce2c77beed40bcd38b100063c88682fd280929cdaf8aec069b2efecb",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_tubi_framing.gd": {
+      "before_sha256": "deafda4979ea2d7be327474c3ef64673ab424d72ecc4aef1c9f89820af584dcf",
+      "after_sha256": "0844bfeec2e7dd501a8e20b94b75ccbf37320d11269f25685a5ae99666de982f",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_yihong_framing.gd": {
+      "before_sha256": "01ea88fd39742e9f6b4cafe9b1dd75f21033cfd568074146bc973eca06915af6",
+      "after_sha256": "7c953b2f9664454b4f527d32c172678c23b2ae467a542384ed31eecb19d15ab2",
+      "substitutions": 1,
+      "change": "source digest only; all assertions retained"
+    },
+    "test_ziling_framing.gd": {
+      "before_sha256": "a9195e65f3a8e6b37ae76f4f0e154fdae42174aae90dfe3cd7193112dbc2174f",
+      "after_sha256": "ede8c3da8ba68436d0be7968577c83fe6d860927ac061de3c1b43caf79dc1e1c",
+      "substitutions": 1,
+      "change": "source digest plus exact island/bridge vertex expectations updated from actual exported and imported paving source; all framing/action assertions retained; test-only real250ms foliage settle and measured per-capture LOD assertions",
+      "prior_digest_only_sha256": "b8b9caf049587b6da86c8264b501807ba94f66e26e4746dcf23d275eb684e97c",
+      "subject_count_changes": {
+        "island": [
+          2112,
+          2128
+        ],
+        "bridge": [
+          1296,
+          1288
+        ]
+      },
+      "before_timed_settle_sha256": "3d7d3363fd057755e7a81712fea5a092c65e50a0c06f5eaf40c49484a251a11a"
+    }
+  },
+  "ziling_timed_settle_seconds": 0.25
+}

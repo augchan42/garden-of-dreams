@@ -2,7 +2,11 @@
 
 The measurements below are historical Pixel 7 Pro results for source `90c4f70e`, Android API 36, Mali-G710 and Godot 4.7.2 Compatibility. The repaired PBR comparison with 1024 normal/ORM imports and shared font sizes reaches 62,178,472 bytes (59.3 MiB) through route, reading, finale and replay; see [that material-transfer evidence](pbr-material-transfer.md).
 
-The working Garden now uses source `8d1d9b4e` and two lossless courtyard imports. Its fresh filtered diagnostic APK is prepared at SHA256 `21a3ed66…`, with finalized production/platform texture provenance and verified bound payloads. It is not installed or device-tested. The existing broad installed APK predates the courtyard fix, and the phone-unlock reply is still pending. Do not treat the earlier measurements as current-scene acceptance. Details: `export/courtyard-android-provenance-evidence.json`. Release-build, full-garden, sustained FPS and 2020 Adreno acceptance remain open.
+The preceding production baseline completed two full fourteen-room tours on 2026-10-10: 52 travel legs, 735.865 timed seconds and zero floor misses. Texture memory peaked at 68.62 MiB and frame-interval P95 was 18.623–28.434 ms, failing both the 64 MiB and 60 fps targets. See the [full phone baseline](reference/full-garden-phone-baseline/README.md).
+
+An isolated candidate caps two basecolor imports at 1024² and the lossless inscription pair at 512×170. It completed the same two tours with a 62.29 MiB peak, saving 6.33 MiB in all 105 matched phases. Separate cast, recast, close, finale and replay taps passed at 54.01 MiB. See the [texture cap comparison](reference/texture-memory-caps/README.md).
+
+These four caps are now adopted with actual-resource, enabled-material and finalized-cache provenance checks. A fresh installed-source Pixel 7 Pro APK passed all five native touch stages, with 54.01 MiB peak texture memory and zero partial report reads. Its P95 was 22.403–45.723 ms, so the 60 fps target still fails. All 44 native arrival/close images reproduce the candidate exactly. See [production adoption evidence](reference/runtime-texture-caps/README.md). A fresh adopted-source full tour, release, sustained 60 fps and the specified 2020 Adreno hardware remain open.
 
 The tables and original UI measurements below are historical `b4b322c2` results. Later corrected-roof evidence is under `docs/reference/android-roof-current/`; the repaired-renderer comparison is under `docs/reference/pbr-transfer/`. Their source/build hashes keep these separate.
 
@@ -51,3 +55,37 @@ python3 scripts/collect_android_profile.py --device SERIAL --destination NEW_EVI
 ```
 
 Use the report's `buttons` screen centers for real touch checks. Collections require a new directory, a finished current profile and matching APK, source and runtime-script records. They preserve failed budget results rather than treating successful collection as performance acceptance. `export/android-profile-build.json` points to the latest collected evidence.
+
+
+## Reusable full-garden profiling
+
+The current lossless-backdrop build is `735bf87be0221775c40e308268b61696c71ddb5b93ad66e39b017bb14171bf20` (86,531,491 bytes). Four build phases, 177 bound texture imports, seven compiled profiler dependencies, the imported scene and current/staged renderer hashes pass verification. It has not been installed. The prior `9dde9d…` package is historical after the wash import/runtime guard change. Keep the phone availability requirement before installation or foreground actions. See [current build and native evidence](reference/lossless-backdrop-wash/README.md).
+
+The builder accepts `--mode full` for the normal fourteen-room route. The full producer uses the canonical public commands, records every grounded floor ray, waits for each camera to settle and completes at least two whole tours with at least 600 timed seconds. Image readback happens after each timed phase. Normal time scale, 60 Hz physics and the 60 fps cap are checked; a completed tour can still fail performance budgets.
+
+The staged build records every profiler dependency. Before collection, current source scripts, imported texture inputs, enabled material bindings, generated cache files and the installed APK must match. APK inspection also verifies the actual compiled script remaps and imported scene payload. All 53 two-tour captures require the exact expected filename, published hash, dimensions and room. The collector checks coverage, command order, arrival signals, floor support and every budget result. It preserves failed budgets.
+
+```sh
+python3 scripts/build_android_profile.py --mode full --report export/android-full-profile-build.json --apk build/garden-full-profile.apk
+adb -s SERIAL install -r build/garden-full-profile.apk
+adb -s SERIAL shell am force-stop org.godotengine.gardendreams.profile
+adb -s SERIAL shell run-as org.godotengine.gardendreams.profile rm -f files/garden-phone-profile.json files/garden-phone-profile.json.tmp
+adb -s SERIAL shell am start -n org.godotengine.gardendreams.profile/com.godot.game.GodotAppLauncher
+python3 scripts/collect_android_profile.py --device SERIAL --build-report export/android-full-profile-build.json --destination NEW_FULL_EVIDENCE_DIRECTORY --wait-timeout 2100
+```
+
+Keep the phone awake. The wait accepts an explicit “file not yet published” marker for at most 20 seconds at startup. Empty, partial or diagnostic text is a failure. Reports publish atomically on the phone and in the host progress file. Source/cache/installed identity is rechecked after the sustained wait.
+
+The full profiler separately records the engine's frame and physics monitors, frame setup CPU time and CPU/GPU counters for each update-enabled viewport. Rendering CPU time excludes script/physics work, and the engine monitors overlap with rendering work; their values must not be added together. A disabled pond reflection viewport is recorded without sampling its stale render counters. All-zero timing counters are marked unavailable. See [Godot's viewport timing documentation](https://docs.godotengine.org/en/4.7/classes/class_renderingserver.html#class-renderingserver-method-viewport-get-measured-render-time-cpu) and [engine monitor definitions](https://docs.godotengine.org/en/4.7/classes/class_performance.html#enum-performance-monitor).
+
+
+Godot 4.7.2 updates the process and physics monitors once per second with the preceding window's maximum. Their sampled quantiles contain repeated window maxima and can retain an untimed screenshot/readback stall after travel starts. They are not per-frame script/physics percentiles. Use the delivered-frame intervals for the 60 fps gate and the separate viewport counters for rendering CPU observations; raw process monitor spikes need further instrumentation before identifying a hot path. This behavior is visible in the [4.7.2 main-loop implementation](https://github.com/godotengine/godot/blob/4.7.2-stable/main/main.cpp#L4743-L4765).
+
+An Android pause or application focus loss during a running full tour publishes a failed report and stops timing. Returning later cannot turn an interrupted run into sustained acceptance. The completed report is retained when the app loses focus afterward.
+
+
+## Engine-wide frame-budget correction — 2026-10-10
+
+The full-phone producer and collector now gate draws/primitives on actual engine-wide per-frame counters, including the pond capture, while retaining main-view visible counts as diagnostics. Native controls exposed and now reject reflection-only overruns; disabling the capture again resets the sample, and a UI rectangle establishes the observed renderer scope. All 26 Python tests and four native regression programs pass. All 28 stationary native arrival samples are retained: desktop terminal 160 and gate 155 exceed the 150-draw limit; portrait arrivals and all primitive totals pass their respective limits. These are static counter diagnostics, not sustained or physical-phone acceptance.
+
+The fresh full debug APK is `6bb60f68` (86,531,491 bytes), with four clean build phases and offline provenance/package checks. It remains uninstalled pending phone availability; earlier 735bf87b and 9dde9d29 packages are historical for the current collector. Continue current-source phone profiling, failed desktop draw budgets and final per-site art. Final art, five exact references (37/42), 2020 Adreno, sustained budgets, release and authenticated services remain open. See [counter evidence](reference/all-viewport-profile/README.md).

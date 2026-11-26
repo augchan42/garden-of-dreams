@@ -1,0 +1,84 @@
+{
+  "status": "built",
+  "fixture": "/tmp/garden-memory-caps-20261010/touch-phone/godot",
+  "apk": "/tmp/garden-memory-caps-20261010/touch-phone/garden-memory-demo.apk",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "phases": [
+    {
+      "name": "import",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/touch-phone/import.log",
+      "pid": 67935,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "f15ffd4c558b01611d562c8c257508942bdc2dc542124f423ae2a592a46edfa6"
+    },
+    {
+      "name": "cap-check",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/touch-phone/cap-check.log",
+      "pid": 67946,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "15da963bf04d21b8d8a535d2756ab4dce826df138a508a8077a2848d6c7b084d"
+    },
+    {
+      "name": "export",
+      "status": "passed",
+      "log": "/tmp/garden-memory-caps-20261010/touch-phone/export.log",
+      "pid": 67962,
+      "exit_code": 0,
+      "engine_diagnostics": [],
+      "log_sha256": "1b3d83fed1d32da28521559e419f1d27321707455fb54ea39428f9b5fc149193"
+    }
+  ],
+  "phone_profile_build_sha256": "c49a02f678ac463fab88d39862bd3c7ee32d727723ad3ca7000695d40f27300a",
+  "apk_sha256": "c32672fe3826036eabc3f2cdf2e147cfa01da5a7e15fa53a22e971725e1c3674",
+  "apk_bytes": 86555795,
+  "payload_proof": {
+    "bound_imports": 177,
+    "unchanged_texture_payloads": 177,
+    "unchanged_protected_entries": 212,
+    "scene_unchanged": true,
+    "compared_full_apk_sha256": "a44a0b5e17469eed46a859ed84c41df6bed25e68c8b14f25b89df16be0f59d95"
+  },
+  "device_tested": true,
+  "device_profile_evidence": "/tmp/garden-memory-caps-20261010/touch-phone/samples",
+  "device_profile_budget_results": {
+    "cell": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "cell_to_gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "gate": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "gate_to_pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    },
+    "pavilion": {
+      "draw_calls": true,
+      "no_fall_below_floor": true,
+      "practicals": true,
+      "primitives": true,
+      "texture": true
+    }
+  }
+}

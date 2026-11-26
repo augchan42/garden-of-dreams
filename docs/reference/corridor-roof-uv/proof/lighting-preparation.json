@@ -1,0 +1,66 @@
+{
+  "status": "complete_roof_source_lighting_passed_native_review_pending",
+  "orchestrator_pid": 47274,
+  "authoring_sha256": "4eb31445889e5f30f57bb7935759d83169655eefea6c6cfa798879e9f384b0f6",
+  "source_glb_sha256": "7fb3bbc1df9d45b7de2d0ea37dc93b84d31e53d52d9c730958f4fbff0926787b",
+  "phases": [
+    {
+      "name": "site-libraries",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/prepare_candidate_libraries.py",
+        "--",
+        "--root",
+        "/tmp/garden-corridor-roof-full-20261011"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-corridor-roof-full-20261011/lighting-preparation-logs/site-libraries.log",
+      "pid": 47299,
+      "exit_code": 0,
+      "log_sha256": "e8fed6ec73342e1208c339b2bc44bf4e6ac0f8fc3226a99f81ebaca813008b21"
+    },
+    {
+      "name": "shared-wash-receivers",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/tmp/garden-corridor-roof-full-20261011/scripts/package_site_washes.py",
+        "--",
+        "--portable-master"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-corridor-roof-full-20261011/lighting-preparation-logs/shared-wash-receivers.log",
+      "pid": 47606,
+      "exit_code": 0,
+      "log_sha256": "d16088382521f99e172c9ae21e452a0d9a33fc7f8f994da73bd6eefb6b43a6e8"
+    },
+    {
+      "name": "full-lighting",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-corridor-roof-full-20261011/scripts/refresh_full_lighting.py",
+        "--samples",
+        "128",
+        "--size",
+        "1024"
+      ],
+      "status": "passed",
+      "log": "/tmp/garden-corridor-roof-full-20261011/lighting-preparation-logs/full-lighting.log",
+      "pid": 47920,
+      "exit_code": 0,
+      "log_sha256": "2d6ad02ae4e967e49cff4cacbac77bad86100ea440ca440e6d36c851d51f355f"
+    }
+  ],
+  "scope": "Fresh complete six-phase source lighting for continuous corridor roof UV candidate; no engine installation, art acceptance, phone or release claim."
+}

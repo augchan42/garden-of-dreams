@@ -1,6 +1,6 @@
 extends SceneTree
 
-const SOURCE := "1380ceca14ee8bd79723c351a6084438eed4384416aee76a78222802550ca485"
+const SOURCE := "f411ed55c88d03ce1c94f54baa176ada7605123103b45b4134eb2f1966f84577"
 var route
 var output := ""
 var errors: Array[String] = []
@@ -8,6 +8,7 @@ var rows: Array = []
 var subjects: Dictionary = {}
 var touch := false
 var density := false
+var last_lod_settle_ms := 0
 
 func _initialize() -> void:
  for arg in OS.get_cmdline_user_args():
@@ -26,6 +27,13 @@ func settle() -> void:
  var deadline:=Time.get_ticks_msec()+10000
  while route.camera_tween!=null and route.camera_tween.is_valid() and route.camera_tween.is_running() and Time.get_ticks_msec()<deadline:await process_frame
  check(route.camera_tween==null or not route.camera_tween.is_valid() or not route.camera_tween.is_running(),"Camera tween timeout")
+ # Wait through the real timed FloraLOD update after the camera stops.
+ var lod_start := Time.get_ticks_msec()
+ await create_timer(0.25, true, false, true).timeout
+ while Time.get_ticks_msec() - lod_start < 250:await process_frame
+ await process_frame
+ last_lod_settle_ms = Time.get_ticks_msec() - lod_start
+ check(last_lod_settle_ms >= 250, "Timed foliage settle ended early")
  # Subscribe before forcing a frame so a synchronous completion cannot be missed.
  var completed: Array[bool]=[false]
  RenderingServer.frame_post_draw.connect(func():completed[0]=true,CONNECT_ONE_SHOT)
@@ -64,6 +72,18 @@ func measure(points: Array) -> Dictionary:
  var panel:Rect2=route.command_panel.get_global_rect()
  return {"low":[low.x,low.y],"high":[high.x,high.y],"width_fraction":(high.x-low.x)/size.x,"fits":behind==0 and low.x>=12 and high.x<=size.x-12 and low.y>=header.end.y+12 and high.y<=panel.position.y-14,"behind":behind,"header_bottom":header.end.y,"panel_top":panel.position.y}
 
+func reed_lod_state() -> Array:
+ var state: Array = []
+ for plant in route.get_node("FloraLOD").plants:
+  if not str(plant.node.name).begins_with("HERO_flora_ziling"):continue
+  var distance: float = route.camera.global_position.distance_to(plant.node.global_position)
+  check(plant.node.mesh == (plant.lower if plant.is_lower else plant.base), "Reed mesh/state mismatch")
+  if distance > plant.distance + 2.0:check(plant.is_lower, "Distant reed LOD not settled")
+  elif distance < plant.distance - 2.0:check(not plant.is_lower, "Near reed LOD not settled")
+  state.append({"name":str(plant.node.name),"is_lower":plant.is_lower,"camera_distance":distance,"lod_distance":plant.distance})
+ check(not state.is_empty(), "Missing captured reed LOD state")
+ return state
+
 func inspect(phase: String,portrait: bool) -> void:
  var measurements:Dictionary={}
  for name in subjects:measurements[name]=measure(subjects[name])
@@ -84,7 +104,7 @@ func inspect(phase: String,portrait: bool) -> void:
  var image:=root.get_texture().get_image()
  var path:=output+"/"+phase+".png"
  check(image.save_png(path)==OK,"Cannot save original "+phase)
- rows.append({"phase":phase,"capture":path,"sha256":FileAccess.get_sha256(path),"pixels":[image.get_width(),image.get_height()],"logical_viewport":[root.get_visible_rect().size.x,root.get_visible_rect().size.y],"measurements":measurements,"camera_position":[route.camera.position.x,route.camera.position.y,route.camera.position.z],"camera_fov":route.camera.fov,"camera_transition_running":false,"text":route.output_label.text})
+ rows.append({"phase":phase,"capture":path,"sha256":FileAccess.get_sha256(path),"pixels":[image.get_width(),image.get_height()],"logical_viewport":[root.get_visible_rect().size.x,root.get_visible_rect().size.y],"measurements":measurements,"camera_position":[route.camera.position.x,route.camera.position.y,route.camera.position.z],"camera_fov":route.camera.fov,"camera_transition_running":false,"lod_settle_ms":last_lod_settle_ms,"reed_lod_state":reed_lod_state(),"text":route.output_label.text})
 
 func run() -> void:
  if DisplayServer.get_name()=="headless" or output=="":push_error("Native renderer and output folder required");quit(1);return
@@ -100,7 +120,7 @@ func run() -> void:
  for plant in route.get_node("FloraLOD").plants:
   if str(plant.node.name).begins_with("HERO_flora_ziling"):
    subjects.reeds.append_array(vertices(plant.node,plant.base));subjects.reeds.append_array(vertices(plant.node,plant.lower))
- check(subjects.island.size()==2112 and subjects.bridge.size()==1296 and subjects.pavilion_roof.size()==8116 and subjects.reeds.size()==48320,"Incomplete imported geometry subject")
+ check(subjects.island.size()==2128 and subjects.bridge.size()==1288 and subjects.pavilion_roof.size()==8116 and subjects.reeds.size()==48320,"Incomplete imported geometry subject")
  for node in route.find_children("*","MeshInstance3D",true,false):
   for i in range(node.mesh.get_surface_count()):
    var active=node.get_active_material(i)
@@ -150,6 +170,6 @@ func run() -> void:
  var counts:Dictionary={}
  for name in subjects:counts[name]=subjects[name].size()
  var file:=FileAccess.open(output+"/report.json",FileAccess.WRITE)
- file.store_string(JSON.stringify({"status":"ziling_framing_passed" if errors.is_empty() else "rejected","source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_ziling_framing.gd"),"touch":touch,"density":density,"subject_vertex_counts":counts,"errors":errors,"rows":rows,"scope":"Actual public arrival/Watch the reeds/Look with completed tweens, all imported island/bridge/pavilion roof vertices and both reed LODs above measured UI; desktop camera restored, resize/rotation/text/visitor invariants and touch48/last-action scroll. Native density windows can be host-clamped. Projection cannot prove occlusion: original images require direct review. Not final source/site-art, physical phone, moving-tour or sustained acceptance."}," ")+"\n");file.close()
+ file.store_string(JSON.stringify({"status":"ziling_framing_passed" if errors.is_empty() else "rejected","source_glb_sha256":SOURCE,"route_sha256":FileAccess.get_sha256("res://runtime/entry_route.gd"),"test_sha256":FileAccess.get_sha256("res://tests/test_ziling_framing.gd"),"touch":touch,"density":density,"lod_settle_seconds":0.25,"subject_vertex_counts":counts,"errors":errors,"rows":rows,"scope":"Actual public arrival/Watch the reeds/Look with completed tweens and a real0.25-second foliage wait plus measured capture LOD state, all imported island/bridge/pavilion roof vertices and both reed LODs above measured UI; desktop camera restored, resize/rotation/text/visitor invariants and touch48/last-action scroll. Native density windows can be host-clamped. Projection cannot prove occlusion: original images require direct review. Not final source/site-art, physical phone, moving-tour or sustained acceptance."}," ")+"\n");file.close()
  print("ZILING_FRAMING_RESULT ",rows.size()," originals; ",errors.size()," failures")
  quit(0 if errors.is_empty() else 1)

@@ -1,0 +1,168 @@
+{
+  "status": "paving_export_preservation_passed",
+  "candidate_authoring_sha256": "7eba169a1252dcad46aff5ad76906e4ce75ab009103fb98e586cc0c367897b8a",
+  "master": {
+    "before_sha256": "c9d4fb308730733af2175c424449f8a63b731674d2527df2168a260cc0f5013e",
+    "after_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+    "changed_batches": [
+      "SITE_hengwu-yuan_MAT_plaster_rock",
+      "SITE_ouxiang-xie_MAT_lattice_wood",
+      "SITE_qiushuang-zhai_MAT_plaster_rock",
+      "SITE_rockery-gate_MAT_plaster_rock",
+      "SITE_stage_MAT_plaster_rock",
+      "SITE_terminal-cells_MAT_plaster_rock",
+      "SITE_ziling-zhou_MAT_pavilion_atlas",
+      "SITE_ziling-zhou_MAT_plaster_rock"
+    ],
+    "preserved_meshes": 613,
+    "render_triangles": 266533,
+    "materials": 49,
+    "images": 35
+  },
+  "sites": {
+    "SITE_aojing-guan.glb": {
+      "byte_identical": true,
+      "sha256": "f5aa764ed44fb07233d092616ffc111829660b0301dd6cb4050f3111f177875d"
+    },
+    "SITE_daguan-lou.glb": {
+      "byte_identical": true,
+      "sha256": "0e05a0aac9a10f3b4b3d3de3afa7f54c64e7b5a0c2e9d4536692551ac38cdd67"
+    },
+    "SITE_daoxiang-cun.glb": {
+      "byte_identical": true,
+      "sha256": "2265c245e88e1425001fde72eeccaf85f4aef37ab76199366f6c56e53072b350"
+    },
+    "SITE_hengwu-yuan.glb": {
+      "before_sha256": "4933c28b1902b23c16e00dd2705eed41a2decb6bdae125153c3a9a1d8ade586f",
+      "after_sha256": "cf72b1e72234656d7ad106dd5cc6321dd9176b47749d98b976d1da52fce9d4b9",
+      "changed_batches": [
+        "SITE_hengwu-yuan_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 33,
+      "render_triangles": 22102,
+      "materials": 11,
+      "images": 7
+    },
+    "SITE_longcui-an.glb": {
+      "byte_identical": true,
+      "sha256": "85392e44a1bf8424d8437c2000d4d6892e893c1bf529bebba56b503fd8f858d3"
+    },
+    "SITE_ouxiang-xie.glb": {
+      "before_sha256": "eddd99d384f1639f2eab011be74c2002eb25301b3c0214e2c8df34d3795f5d0b",
+      "after_sha256": "dac1fc46169d0aed22d63874e7c612a2d7a45e4d4ec77540f9773c0df82ed0d7",
+      "changed_batches": [
+        "SITE_ouxiang-xie_MAT_lattice_wood"
+      ],
+      "preserved_meshes": 18,
+      "render_triangles": 15738,
+      "materials": 6,
+      "images": 3
+    },
+    "SITE_qinfang-ting.glb": {
+      "byte_identical": true,
+      "sha256": "08df1d8f0eaacddb0baad5804ee7e6a704541358ef719c6a24c27fa14805f268"
+    },
+    "SITE_qiushuang-zhai.glb": {
+      "before_sha256": "11a7b69446b9f98abcb5d21f7c9b29fbf067e9ea871b6ddd4532cdac30caee66",
+      "after_sha256": "71df27ec0af96896387e5fe7cf3cb3acac5ab8e36a2cc75bbdf292d42032ae8b",
+      "changed_batches": [
+        "SITE_qiushuang-zhai_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 23,
+      "render_triangles": 21758,
+      "materials": 11,
+      "images": 9
+    },
+    "SITE_rockery-gate.glb": {
+      "before_sha256": "76afcb4dcf70bd4a46af12d53ed48640037bfd6b4c15bd734f2560fc2cbe7e4a",
+      "after_sha256": "2111ce35993f8e2dd148b7e76ae8dd3290ef1b4381f17a8a352fc9925f268063",
+      "changed_batches": [
+        "SITE_rockery-gate_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 17,
+      "render_triangles": 15340,
+      "materials": 8,
+      "images": 10
+    },
+    "SITE_stage.glb": {
+      "before_sha256": "7d4ddbb68eb3a61e3c5918d5ce7801c15a26358ebbb0ac72671d63522705e775",
+      "after_sha256": "38c7a9bf82a821da195906ba1113737e516a014b7baeb227120a984b19c0c166",
+      "changed_batches": [
+        "SITE_stage_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 97,
+      "render_triangles": 11257,
+      "materials": 12,
+      "images": 6
+    },
+    "SITE_terminal-cells.glb": {
+      "before_sha256": "d5e5cf3137412cca7d33758609b640d0510c69c308391b6cf958c750a18943b9",
+      "after_sha256": "0203fc01a73015906020e69e598d703b2ba9e467ea66c115710e5949a14f1dec",
+      "changed_batches": [
+        "SITE_terminal-cells_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 86,
+      "render_triangles": 38100,
+      "materials": 10,
+      "images": 9
+    },
+    "SITE_tubi-tang.glb": {
+      "byte_identical": true,
+      "sha256": "b7709624dc007a1a1d6dea4e237c6f76f933fc692b75d13fc6c429387de2e3fc"
+    },
+    "SITE_xiaoxiang-guan.glb": {
+      "byte_identical": true,
+      "sha256": "6b1190dd38635c668713dc868bd2d9f88235783a6e3f686eb2e9643e2cbe1c0a"
+    },
+    "SITE_yihong-yuan.glb": {
+      "byte_identical": true,
+      "sha256": "1fc9c58f7d74f37bd04f03676058d4710b38f264e7eea8ed43bf8fa41f1bd843"
+    },
+    "SITE_ziling-zhou.glb": {
+      "before_sha256": "b81afaa4c45b6c3b597d254c9f8e0d876b50a93ad70fefac4374422b01db7436",
+      "after_sha256": "0e7f7c6ee799824de3c6cd4fcb2b3cdc99905adec685ab64bf59f14816a52f81",
+      "changed_batches": [
+        "SITE_ziling-zhou_MAT_pavilion_atlas",
+        "SITE_ziling-zhou_MAT_plaster_rock"
+      ],
+      "preserved_meshes": 15,
+      "render_triangles": 20052,
+      "materials": 4,
+      "images": 4
+    }
+  },
+  "counts": {
+    "cameras": 42,
+    "colliders": 454,
+    "markers": 71
+  },
+  "changed_source_objects": [
+    "AOJING_approach",
+    "AOJING_approach.001",
+    "DAOXIANG_approach.001",
+    "GATE_paving",
+    "HENGWU_approach",
+    "HENGWU_approach.001",
+    "KIT_stage_entry_walk",
+    "KIT_stage_entry_walk.001",
+    "KIT_water_pavilion_approach",
+    "KIT_water_stone_walk.001",
+    "KIT_water_stone_walk.002",
+    "KIT_water_stone_walk.003",
+    "KIT_water_stone_walk.004",
+    "KIT_water_stone_walk.006",
+    "KIT_water_stone_walk.007",
+    "LONGCUI_approach",
+    "LONGCUI_approach.002",
+    "SITE_hengwu-yuan_platform",
+    "SITE_ziling_stone_landing",
+    "STUDY_approach",
+    "STUDY_front_walk",
+    "TUBI_approach",
+    "TUBI_approach.001",
+    "TUBI_approach.002",
+    "TUBI_approach.003",
+    "WESTERN_kit_wood_bridge"
+  ],
+  "scope": "Eight intended render batches change from26floor owners. All other expanded mesh attributes, node/camera/light/COL/marker hierarchy and all material/embedded image contents retained. Eight site GLBs byte exact. No source lighting or native appearance acceptance."
+}

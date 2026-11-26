@@ -1,0 +1,5126 @@
+{
+  "status": "passed",
+  "source_inventory": {
+    "objects": {
+      "CAM_stage_gallery": {
+        "type": "CAMERA",
+        "matrix": [
+          [
+            0.9998564124107361,
+            -0.005920139141380787,
+            0.015879016369581223,
+            25.0
+          ],
+          [
+            0.016946716234087944,
+            0.34928831458091736,
+            -0.936862051486969,
+            -45.0
+          ],
+          [
+            -1.324448106743148e-09,
+            0.936996579170227,
+            0.34933847188949585,
+            25.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "CAM_stage_gallery",
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "COL_stage_cyclorama_dusk_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.016",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.024",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.017",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_1_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.025",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_2-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.018",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_2_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.026",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_3-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.019",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_3_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.027",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_4-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.020",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_4_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.028",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_5-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.021",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_5_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.029",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_6-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.022",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_6_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.030",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_7-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.023",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_dusk_7_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.031",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.032",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.040",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.033",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_1_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.041",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_2-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.034",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_2_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.042",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_3-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.035",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_3_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.043",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_4-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.036",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_4_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.044",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_5-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.037",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_5_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.045",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_6-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.038",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_6_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.046",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_7-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.039",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_mist_7_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.047",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            -0.10604606568813324,
+            0.0,
+            -8.248026847839355
+          ],
+          [
+            1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.008",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.001",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_1_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            -0.0782938003540039,
+            0.0,
+            -6.089517593383789
+          ],
+          [
+            1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.009",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_2-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.002",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_2_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            -0.0480116605758667,
+            0.0,
+            -3.7342400550842285
+          ],
+          [
+            0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.010",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_3-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.003",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_3_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            -0.01617814041674137,
+            0.0,
+            -1.258299708366394
+          ],
+          [
+            0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.011",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_4-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.004",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_4_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.509800910949707,
+            0.01617814041674137,
+            0.0,
+            1.258299708366394
+          ],
+          [
+            -0.2264939546585083,
+            0.17927150428295135,
+            0.0,
+            0.023338261991739273
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.012",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_5-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.005",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_5_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.4287025928497314,
+            0.0480116605758667,
+            0.0,
+            3.7342400550842285
+          ],
+          [
+            -0.6721632480621338,
+            0.17347876727581024,
+            0.0,
+            -0.42720744013786316
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.013",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_6-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.006",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_6_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.2691266536712646,
+            0.0782938003540039,
+            0.0,
+            6.089517593383789
+          ],
+          [
+            -1.0961130857467651,
+            0.16208049654960632,
+            0.0,
+            -1.313740611076355
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.014",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_7-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.007",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_cyclorama_moonlit_7_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            2.036229372024536,
+            0.10604606568813324,
+            0.0,
+            8.248026847839355
+          ],
+          [
+            -1.4846447706222534,
+            0.14544495940208435,
+            0.0,
+            -2.6076149940490723
+          ],
+          [
+            0.0,
+            0.0,
+            7.5,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.015",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_floor_boards_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.05000000074505806,
+            -0.02500000037252903
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.050",
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_floor_boards_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.05000000074505806,
+            -0.02500000037252903
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.051",
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_gel_frame_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0700000524520874,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.09000000357627869,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.2000000476837158,
+            0.550000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.052",
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_gel_frame_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0700000524520874,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.09000000357627869,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.2000000476837158,
+            0.550000011920929
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.053",
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_studio_wall_0-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.30000001192092896,
+            0.0,
+            0.05000000074505806
+          ],
+          [
+            0.0,
+            0.0,
+            3.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.048",
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "COL_stage_studio_wall_0_LOD1-colonly": {
+        "type": "MESH",
+        "matrix": [
+          [
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.30000001192092896,
+            0.0,
+            0.05000000074505806
+          ],
+          [
+            0.0,
+            0.0,
+            3.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "Cube.049",
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "collision_only": true
+        }
+      },
+      "KIT_stage_cyclorama_dusk": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            24.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_dusk_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            24.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_dusk_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_dusk_render",
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "variant": "cyclorama_dusk",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_cyclorama_dusk_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_dusk_render_LOD1",
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "variant": "cyclorama_dusk",
+          "lod_ratio": 0.40425531914893614
+        }
+      },
+      "KIT_stage_cyclorama_mist": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_mist_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_mist_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_mist_render",
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "variant": "cyclorama_mist",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_cyclorama_mist_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_mist_render_LOD1",
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "variant": "cyclorama_mist",
+          "lod_ratio": 0.40425531914893614
+        }
+      },
+      "KIT_stage_cyclorama_moonlit": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_moonlit_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_cyclorama_moonlit_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_moonlit_render",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "variant": "cyclorama_moonlit",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_cyclorama_moonlit_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_cyclorama_moonlit_render_LOD1",
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "variant": "cyclorama_moonlit",
+          "lod_ratio": 0.40425531914893614
+        }
+      },
+      "KIT_stage_floor_boards": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            24.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_floor_boards_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            24.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            62.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_floor_boards_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_floor_boards_render",
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "variant": "floor_boards",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_floor_boards_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_floor_boards_render_LOD1",
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "variant": "floor_boards",
+          "lod_ratio": 0.4421052631578947
+        }
+      },
+      "KIT_stage_fog_plane": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_fog_plane_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            48.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            62.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_fog_plane_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_fog_plane_render",
+        "collections": [
+          "KIT_stage_fog_plane"
+        ],
+        "properties": {
+          "variant": "fog_plane",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_fog_plane_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_fog_plane_render_LOD1",
+        "collections": [
+          "KIT_stage_fog_plane_LOD1"
+        ],
+        "properties": {
+          "variant": "fog_plane",
+          "lod_ratio": 0.36
+        }
+      },
+      "KIT_stage_gel_frame": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            28.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_gel_frame_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            76.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_gel_frame_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_gel_frame_render",
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "variant": "gel_frame",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_gel_frame_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_gel_frame_render_LOD1",
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "variant": "gel_frame",
+          "lod_ratio": 0.4235294117647059
+        }
+      },
+      "KIT_stage_studio_wall": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            14.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_studio_wall_LOD1": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            62.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "KIT_stage_studio_wall_render": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_studio_wall_render",
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "variant": "studio_wall",
+          "lod_ratio": 1.0
+        }
+      },
+      "KIT_stage_studio_wall_render_LOD1": {
+        "type": "MESH",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "KIT_stage_studio_wall_render_LOD1",
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "variant": "studio_wall",
+          "lod_ratio": 0.40625
+        }
+      },
+      "LGT_stage_preview": {
+        "type": "LIGHT",
+        "matrix": [
+          [
+            0.8083070516586304,
+            0.1300419420003891,
+            -0.5742201805114746,
+            0.0
+          ],
+          [
+            -0.3417467474937439,
+            0.8978144526481628,
+            -0.2777380347251892,
+            0.0
+          ],
+          [
+            0.4794255495071411,
+            0.4207354784011841,
+            0.7701511383056641,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": "LGT_stage_preview",
+        "collections": [
+          "KIT_stage"
+        ],
+        "properties": {}
+      },
+      "PORT_back": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_back.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_front": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_front.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.002": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.003": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.004": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.005": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.006": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.007": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.008": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.009": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.010": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_fog_plane"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.011": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_fog_plane_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.012": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_ground.013": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_hang": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.159999966621399
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_hang.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.159999966621399
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_layer": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_fog_plane"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_layer.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_fog_plane_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.002": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.003": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.004": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.005": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.006": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.007": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.008": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.009": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.010": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_left.011": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_light": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.05000000074505806
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_light.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.05000000074505806
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.002": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.003": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.004": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.005": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            9.231385231018066
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.474719762802124
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.006": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.007": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.008": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.009": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_floor_boards_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.010": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_right.011": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.5
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_gel_frame_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_top": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_top.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_studio_wall_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash.001": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_moonlit_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash.002": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash.003": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_dusk_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash.004": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      },
+      "PORT_wash.005": {
+        "type": "EMPTY",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.75
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "data": null,
+        "collections": [
+          "KIT_stage_cyclorama_mist_LOD1"
+        ],
+        "properties": {
+          "connection": "stage_mount"
+        }
+      }
+    },
+    "meshes": {
+      "Cube": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.001": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.002": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.003": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.004": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.005": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.006": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.007": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.008": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.009": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.010": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.011": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.012": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.013": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.014": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.015": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.016": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.017": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.018": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.019": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.020": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.021": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.022": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.023": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.024": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.025": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.026": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.027": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.028": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.029": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.030": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.031": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.032": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.033": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.034": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.035": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.036": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.037": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.038": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.039": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.040": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.041": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.042": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.043": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.044": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.045": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.046": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.047": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.048": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.049": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.050": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.051": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.052": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "Cube.053": "80fccc7b891fe822e2a9b510371de9810bc15d288aee72a03d6f225b47695906",
+      "KIT_stage_cyclorama_dusk_render": "495d9b6378236ca7b6002615435f2aff8ed0e8c7f02030c99a81fc1abedec64d",
+      "KIT_stage_cyclorama_dusk_render_LOD1": "1871bbf23433b3f047e2a960c4e1df832cf0c137de41abc59aa55d5c89b0de0a",
+      "KIT_stage_cyclorama_mist_render": "86edd0a614623377b49bae6ec393f64cd7f6b62d0e919077db3a18f4b2f70c56",
+      "KIT_stage_cyclorama_mist_render_LOD1": "f074f68837a2a5577ca16f8d36a975196fa9342b6f6a17eca7065e44501cc763",
+      "KIT_stage_cyclorama_moonlit_render": "fedab34ea833a7b625ae399478f5ebf5b2de06b646a73c57072d56b4ba19e2ca",
+      "KIT_stage_cyclorama_moonlit_render_LOD1": "60c32fd2b163d1b353af38d9c640cd7c462680d608e02f6d014eaecd4e117e1c",
+      "KIT_stage_floor_boards_render": "c47a393325eae2f00fa31e66461d53ade271114890f684f6543ff858fa41c702",
+      "KIT_stage_floor_boards_render_LOD1": "c853f3e8a0002ec2f60ac4817288340bbaf166a2017397e360ad705c174c0dd6",
+      "KIT_stage_fog_plane_render": "9387d517b9c46322f81a1175b45cbb4161df6ed50e32739b7fe3943b8a5d0f57",
+      "KIT_stage_fog_plane_render_LOD1": "5729245f463baedeacc04278abfc01fbcbf812abd23a2ba5910ccd233d61e290",
+      "KIT_stage_gel_frame_render": "51ef1dfd5f6de037418a536d713b431a13ed8c03820ab0297a8cb513c357e54c",
+      "KIT_stage_gel_frame_render_LOD1": "c501d710e0d437b35082a5353e5c8c168012523d70499776016f68f0fac679f0",
+      "KIT_stage_studio_wall_render": "e7d365b10c17053f1a4f8dc4db103747faf7fcf3aa6466ac5c2924c0fa9bfc7c",
+      "KIT_stage_studio_wall_render_LOD1": "9366b2fc8d2397f4565abc123868f8da95ccd023670ab4fdbdd48135c5c963ac"
+    },
+    "paints": {
+      "MAT_stage_cyclorama_dusk": {
+        "image_name": "cyclorama-dusk.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed_sha256": "f1b7fc415a9a29f52b027af89e6c9802a4f2c5de86be7d6763d198c6fa7c54d9"
+      },
+      "MAT_stage_cyclorama_mist": {
+        "image_name": "cyclorama-mist.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed_sha256": "4da971443b2e03ad8a5556ce8e2aeda9100ef0e62d8b94b01b7ed5a125fa7b66"
+      },
+      "MAT_stage_cyclorama_moonlit": {
+        "image_name": "cyclorama-moonlit.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed_sha256": "55a7c14492289673891a33fcdd565265f49d92f969342c67610f3b20aa65a1f1"
+      }
+    }
+  },
+  "scope": "All actual editable objects/transforms/custom properties/collections, mesh positions/faces/material indexes/UVs and three4096packed original paints exact across installed source and both reproduced files."
+}

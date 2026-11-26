@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "orchestrator_pid": 72910,
+  "existing_source_queue_pid": 19685,
+  "source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "phases": [
+    {
+      "name": "native",
+      "status": "running",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/private/tmp/garden-aojing-ground-v2-20261011/validate_lighting.py"
+      ],
+      "log": "/private/tmp/garden-aojing-ground-v2-20261011/pipeline-native.log",
+      "pid": 17714,
+      "exit_code": 1
+    }
+  ],
+  "scope": "Existing isolated ground source job followed by native geometry/resources, originals and tours. No adoption, user editor, device or final art acceptance.",
+  "error": "CORRIDOR_ROOF_LIT_START sync_full_lightmaps\nCORRIDOR_ROOF_LIT_PASS sync_full_lightmaps\nCORRIDOR_ROOF_LIT_START sync_backdrop_wash\nCORRIDOR_ROOF_LIT_PASS sync_backdrop_wash\nCORRIDOR_ROOF_LIT_START sync_terminal_spill\nCORRIDOR_ROOF_LIT_PASS sync_terminal_spill\nCORRIDOR_ROOF_LIT_START sync_demo\nCORRIDOR_ROOF_LIT_PASS sync_demo\nCORRIDOR_ROOF_LIT_START native_import\nCORRIDOR_ROOF_LIT_PASS native_import\nCORRIDOR_ROOF_LIT_START ground_geometry\nTraceback (most recent call last):\n  File \"/private/tmp/garden-aojing-ground-v2-20261011/validate_lighting.py\", line 63, in <module>\n    for name,script,marker,args in checks:run(name,head+['--script','res://tests/'+script,'--',*args],marker)\n                                          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/private/tmp/garden-aojing-ground-v2-20261011/validate_lighting.py\", line 39, in run\n    assert phase['exit_code']==0 and (not marker or marker in text) and not re.search(r'(?m)^(Error:|Traceback|SCRIPT ERROR:|ERROR:)|AssertionError:',text),text[-4000:]\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nERROR: Imported canvas infill top winding is inward\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] finish (res://tests/test_aojing_ground_native.gd:20)\n       [1] run (res://tests/test_aojing_ground_native.gd:58)\n\n"
+}

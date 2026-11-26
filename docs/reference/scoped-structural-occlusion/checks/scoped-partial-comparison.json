@@ -1,0 +1,40 @@
+{
+  "status": "verified_evidence_of_scoped_replay_failure_and_CPU_tradeoff",
+  "scope": "63 passing scoped cases before one failed pixel;21 fresh nearby poses do not replay the unrecorded original failed pose. No adoption/continuous-image/frame-rate/device acceptance.",
+  "partial_passing_cases": 63,
+  "partial_decoded_images": 189,
+  "failed_pixel": [
+    779,
+    259
+  ],
+  "failed_blue_values": [
+    18,
+    17
+  ],
+  "failed_case_decoded_images": 3,
+  "focused_cases": 21,
+  "focused_decoded_images": 63,
+  "public_roundtrip_draws_max": 139,
+  "public_roundtrip_primitives_max": 163083,
+  "public_roundtrip_p95_ms": 18.324,
+  "actual_controller_CPU_pairs": {
+    "terminal_room": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.2775404580738917,
+      "candidate_cpu_seconds_per_wall_second": 0.39509963919578295,
+      "candidate_over_baseline": 1.4235749336790118,
+      "baseline_repeat_ratio": 0.8814862598022548
+    },
+    "rockery_gate": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.27947185476776215,
+      "candidate_cpu_seconds_per_wall_second": 0.4598583971319055,
+      "candidate_over_baseline": 1.6454551300489364,
+      "baseline_repeat_ratio": 0.9862189650694702
+    },
+    "qinfang_ting": {
+      "baseline_mean_cpu_seconds_per_wall_second": 0.2711755454005972,
+      "candidate_cpu_seconds_per_wall_second": 0.28994124912693386,
+      "candidate_over_baseline": 1.0692013127460105,
+      "baseline_repeat_ratio": 1.0576958785098212
+    }
+  }
+}

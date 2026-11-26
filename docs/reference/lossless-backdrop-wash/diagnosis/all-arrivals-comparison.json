@@ -1,0 +1,313 @@
+{
+  "scope": "Isolated single-import lossless256 candidate vs preceding adopted-cap native captures; same source geometry/runtime/maps. Pixel comparison only, no phone/timing/final-art acceptance.",
+  "cases": [
+    {
+      "name": "desktop/route-bamboo.png",
+      "before_sha256": "6cae29fd46969be9a1379b65b5b31f9196047be13f73bcb12f04b769391c3c64",
+      "after_sha256": "7caf42600d3f7af786be5c60164b1015c7909bb3d11a77c03db7016924690b9a",
+      "rmse": 0.004606832273834162,
+      "changed_pixels": 176253,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-cell.png",
+      "before_sha256": "503e6aad05bb268ae4d56568d5948124265e004eb5205b6d897ac43f9af4341c",
+      "after_sha256": "ee2e8fe11a776fa29cfd9bfa307eab1bd560b84c35f69dc324fe9434ccaeb5a5",
+      "rmse": 0.00033144609964021583,
+      "changed_pixels": 1502,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-courtyard.png",
+      "before_sha256": "1be20630fd73da63cd700c95b01de6113b1beb62390cb2d2a42411b55d1ebcd3",
+      "after_sha256": "886010bfe025589e1378ece9228074d94b601e7ec6556d2fb5f7cf9147403ae0",
+      "rmse": 0.0012353356886064429,
+      "changed_pixels": 18111,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-farmhouse.png",
+      "before_sha256": "451752ead3f096687723e62ef25add710394d8c71e8aaa7c636541f3d3613bc3",
+      "after_sha256": "88faebe77400e02228dec790e86eea50872cf7c6db71bfed957cab60f478835a",
+      "rmse": 0.0029489197966009375,
+      "changed_pixels": 83042,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-gate.png",
+      "before_sha256": "ebdbff3dac2c5865dd11116657b965f24f84dd0dca5f8a1cc1de3d8e917da3de",
+      "after_sha256": "84be0bbb0cc7b78034b873e969d5741215c97617b732604189534fa689bfc03f",
+      "rmse": 0.0030887105111354857,
+      "changed_pixels": 112206,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-hilltop.png",
+      "before_sha256": "9de7b94f4f29a06875c9d7e913890cc6e71fb906e8d6c38675fb13f77393fa23",
+      "after_sha256": "575fd45a9befc48d9e3b9131e1916ba90f3d1b69b7ec4c147905f39616107b16",
+      "rmse": 0.005123090964038236,
+      "changed_pixels": 247446,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-imperial.png",
+      "before_sha256": "7f03e8d3017fdb6d46208ee4f4dc0f201b4f0135a4f426628b49328137da6770",
+      "after_sha256": "2f368d991407afcd89bdebf9cc72ae09c87a828fd0d76dc501a05cea04cd0004",
+      "rmse": 0.004294374139910275,
+      "changed_pixels": 181210,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-nunnery.png",
+      "before_sha256": "78fef83f97fb663c7598a7948855dbd6a7da26a2ae0b557762d84ae0cccfc66f",
+      "after_sha256": "a3121f54df07c016d02d51bc14de6e313ae160fc822b6605e731e7373b2f7b2b",
+      "rmse": 0.003322839849410451,
+      "changed_pixels": 108364,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-ouxiang.png",
+      "before_sha256": "28c3907f5eacdb0e94af187ee22856897854b0a76f5058ece0d836d2f3dcc0e4",
+      "after_sha256": "5877ee193b3dba52e55a692f8837d01de997e934afe76fe17ac841a04aaee0bc",
+      "rmse": 0.0044898793132909735,
+      "changed_pixels": 172194,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-pavilion.png",
+      "before_sha256": "be87fe9c613ea8b0490640d73a6091224d8d8113a1b2e9f6cd6233c0a682b79d",
+      "after_sha256": "4a3ac84797a1a0d10a7bc3de5b5b64c035349d586869b0c813ab1bc09be35706",
+      "rmse": 0.004383306702892411,
+      "changed_pixels": 196737,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-red-court.png",
+      "before_sha256": "ff0ae16963096716ef3ee83735764b381bd45167bd66d7ba23191c739bb558ef",
+      "after_sha256": "8ea91c6956d5b1fa340c896262f060c6ca2820a2d9c243bef440a8893fefd77f",
+      "rmse": 0.0028922720258570092,
+      "changed_pixels": 78410,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-reflection.png",
+      "before_sha256": "b3d154db61579451c6c865fbe177f0ef842629d34589bbab5933b976ea36bd5d",
+      "after_sha256": "d868cf3423ba87d219de5e22741129eb0a1ac98294cce32368ccf438cc572b55",
+      "rmse": 0.0007674645303801171,
+      "changed_pixels": 14564,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-study.png",
+      "before_sha256": "597976a0e4e7f08206008ec7f2ef6a067c0f2ecf9bb9c4917c183cede77cc4b9",
+      "after_sha256": "378c11c3899aaec8abd94ce73bb38fe58f989ea9ce632261cf32978654ade755",
+      "rmse": 0.0032569954194281436,
+      "changed_pixels": 104782,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "desktop/route-ziling.png",
+      "before_sha256": "125601e55abeabff3f167bd8d743387ed58b5bfe985270a4491ce9d1ec69c0ee",
+      "after_sha256": "68f507f73a4bf7962cd5926539f18899d8540bed6bef226ee9a8f80a6d380770",
+      "rmse": 0.0030039329372957353,
+      "changed_pixels": 106013,
+      "dimensions": [
+        1410,
+        600
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-bamboo.png",
+      "before_sha256": "378e98bb8173f56eb0fa325a1f2179f0264535f78d1e76dc98d087c1fc529b7c",
+      "after_sha256": "17369452fcff530da89895385a2956d01aa527ba41d51d9bdf14b3698a8d6834",
+      "rmse": 0.0034783851402573106,
+      "changed_pixels": 47096,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-cell.png",
+      "before_sha256": "b819d29e676fce59d4b0cd2ae6f6a14e969e614ec8170fed532fa602a81e4555",
+      "after_sha256": "69dbcf87e7259a4785a708167fc1a7239e430601d58b66d664912a7c4ae357f2",
+      "rmse": 0.0007432561360459672,
+      "changed_pixels": 3033,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-courtyard.png",
+      "before_sha256": "9d4aeb71820dd6e543d3d1306ff08b90c884b76c4d545b50f9ca7aaeb90b16d3",
+      "after_sha256": "457230839a5a9128f1718c896cbfdd914480a66ed3c978341c20e409c87f1af9",
+      "rmse": 0.002311345571677898,
+      "changed_pixels": 27499,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-farmhouse.png",
+      "before_sha256": "9fffaf053411d8b0d49cdc9f50d69d448e23c8c7a51940d9e3704877b3451d14",
+      "after_sha256": "d000c1911c59359d192639c2f7dd5ab3cf6fdd9c71959d38b78ce2dd98676cb4",
+      "rmse": 0.00466868286511323,
+      "changed_pixels": 77377,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-gate.png",
+      "before_sha256": "35cfac636c12dd2b6a5877eeedba99e82580f5b1f05f3eb05640868d14f5908d",
+      "after_sha256": "8dc7a25a6a4698487186ffd6694e6ad0c19dca125c3e700bc69efe88dd02e824",
+      "rmse": 0.00022963556056414196,
+      "changed_pixels": 337,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-hilltop.png",
+      "before_sha256": "ed1605f563098ef37a4af5a2eab65d78474250792a62ee4d01952d07a8af08ef",
+      "after_sha256": "d01d1c3b3e48d53c6b89bfd1e066efa7e881b8f8329f34d179349420adb3b9a4",
+      "rmse": 0.003528019773980991,
+      "changed_pixels": 57220,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-imperial.png",
+      "before_sha256": "5b546f67f23f2f3678c98e446f54b0fefe5bb8c7b4f281dfdc4cf5a52b88128b",
+      "after_sha256": "d3a8860204e8ad4b3de9c813893a317295a1902e971058ac639fe945c252454e",
+      "rmse": 0.0037335918045850306,
+      "changed_pixels": 62457,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-nunnery.png",
+      "before_sha256": "54ec984ba4e223d92b53578c7f0249f449a62fb20e9f4921a4e862fdc334a3c3",
+      "after_sha256": "960e66f49dab978dc02ac0d93acdf6b48264a8f51a987612ddb6440df6c15963",
+      "rmse": 0.004193236601772549,
+      "changed_pixels": 73461,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-ouxiang.png",
+      "before_sha256": "e316b582cf927c03731b8219e026b904cd0492a786e269ff7889c52c30fce42a",
+      "after_sha256": "796716374507c5759676a10be23652038186b3a7cecec75b413ad266664d6d12",
+      "rmse": 0.0041828914910825975,
+      "changed_pixels": 63320,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-pavilion.png",
+      "before_sha256": "c8670d4d75fc24bda8d0e74610b3c6613a1548eb61bbef3f772f9ae9a0f26bcf",
+      "after_sha256": "1ccdf159f560498befd7dd84ce627e3278a3940c2799da2c20a1b8a5373334ff",
+      "rmse": 0.003735597629071042,
+      "changed_pixels": 65411,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-red-court.png",
+      "before_sha256": "82b45b36ccd5b233c6d1f69270a11e601dd2c778d4921607cafdab19208884ca",
+      "after_sha256": "1b6b68b725b8078f1c04e827def8ae0619839710b4ac41810fcb7bf3ebc0a7c8",
+      "rmse": 0.0040807440538811295,
+      "changed_pixels": 59310,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-reflection.png",
+      "before_sha256": "0181ef63fb491d5afcf8716a637f776127ffb255fb6d4993e26649ae171cccd1",
+      "after_sha256": "88b28eaef2cf527cf19a26808cea500c077bc31ac472205f6134456605acb59e",
+      "rmse": 0.0015554679911706712,
+      "changed_pixels": 12144,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-study.png",
+      "before_sha256": "1a15ef9b101cf458837ec553eec5b26826cca84fd054e2b04a8f18bfb3c0895f",
+      "after_sha256": "d39a8a65ca9810d405f39fdfdab54f51a9fc29b33ff2491ab61413aaf85397b6",
+      "rmse": 0.004089887405625058,
+      "changed_pixels": 66125,
+      "dimensions": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "portrait/route-mobile-ziling.png",
+      "before_sha256": "0d13cdde180aadd2073078be19a86ddcb37e2c653592965441754e39e31e46c1",
+      "after_sha256": "cb9bb11c6510d4951062893d03d0fbb10f2930c98ab3f406eab7741903936e0a",
+      "rmse": 0.0028384632453641164,
+      "changed_pixels": 38209,
+      "dimensions": [
+        390,
+        844
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "label": "rear-balanced",
+    "eye": [
+      -19.5,
+      1.8,
+      -17.5
+    ],
+    "target": [
+      -18.6,
+      -4,
+      -12.5
+    ],
+    "horizontal_fov": 105,
+    "landscape": {
+      "eye": [
+        -19.5,
+        1.8,
+        -17.5
+      ],
+      "target": [
+        -18.6,
+        -2,
+        -12.5
+      ],
+      "vertical_fov": 105
+    }
+  },
+  {
+    "label": "rear-narrower",
+    "eye": [
+      -19.5,
+      1.8,
+      -17.5
+    ],
+    "target": [
+      -18.6,
+      -4,
+      -12.5
+    ],
+    "horizontal_fov": 95,
+    "landscape": {
+      "eye": [
+        -19.5,
+        1.8,
+        -17.5
+      ],
+      "target": [
+        -18.6,
+        -2,
+        -12.5
+      ],
+      "vertical_fov": 110
+    }
+  },
+  {
+    "label": "rear-centred",
+    "eye": [
+      -19.2,
+      1.8,
+      -17.5
+    ],
+    "target": [
+      -18.4,
+      -4,
+      -12.5
+    ],
+    "horizontal_fov": 105,
+    "landscape": {
+      "eye": [
+        -19.2,
+        1.8,
+        -17.5
+      ],
+      "target": [
+        -18.4,
+        -2,
+        -12.5
+      ],
+      "vertical_fov": 105
+    }
+  }
+]

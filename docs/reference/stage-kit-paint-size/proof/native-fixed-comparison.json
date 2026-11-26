@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "clock": "stage fog timeline_time0",
+  "native_viewport": "SubViewport UPDATE_ALWAYS and force_draw; same geometry/cameras/materials as the gallery fixture",
+  "files": [
+    {
+      "file": "stage-cyclorama-dusk.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "6a7891dfbd0bb31bc60af3f6f07ff3f1172f78bffa9e3b7cea7e1f4e568b4540",
+      "candidate_sha256": "6a7891dfbd0bb31bc60af3f6f07ff3f1172f78bffa9e3b7cea7e1f4e568b4540"
+    },
+    {
+      "file": "stage-cyclorama-mist.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "2a73002a7c9b2e126857b71fc689c34f0f391eb71d6ec31e4973ef7409e92e54",
+      "candidate_sha256": "2a73002a7c9b2e126857b71fc689c34f0f391eb71d6ec31e4973ef7409e92e54"
+    },
+    {
+      "file": "stage-cyclorama-moonlit.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1410,
+        600
+      ],
+      "baseline_sha256": "e1314f98dff7662b5042fd650c0a5df13f035e65802c90e60af933a66fa4e984",
+      "candidate_sha256": "e1314f98dff7662b5042fd650c0a5df13f035e65802c90e60af933a66fa4e984"
+    },
+    {
+      "file": "stage-floor-detail.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1000,
+        1000
+      ],
+      "baseline_sha256": "1c191e45c12f41189045244c6d7603c0b34ee2743ae4071916c3fed59b618878",
+      "candidate_sha256": "1c191e45c12f41189045244c6d7603c0b34ee2743ae4071916c3fed59b618878"
+    },
+    {
+      "file": "stage-fog-detail.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1000,
+        1000
+      ],
+      "baseline_sha256": "1a6d07ea13eedcd9df78c69c0910067a109f853ff4359c42e68bc59c0afca822",
+      "candidate_sha256": "1a6d07ea13eedcd9df78c69c0910067a109f853ff4359c42e68bc59c0afca822"
+    },
+    {
+      "file": "stage-gel-detail.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1000,
+        1000
+      ],
+      "baseline_sha256": "0532dc917b21ca6654b2c5cc7c30f201c0008a408bdf83479c4d602d87e81c7b",
+      "candidate_sha256": "0532dc917b21ca6654b2c5cc7c30f201c0008a408bdf83479c4d602d87e81c7b"
+    },
+    {
+      "file": "stage-kit-lod1.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1600,
+        1000
+      ],
+      "baseline_sha256": "d78411eb7c03c66f747eed5ef0e072c07a5fc966c82732fbfc855a71b44c0a07",
+      "candidate_sha256": "d78411eb7c03c66f747eed5ef0e072c07a5fc966c82732fbfc855a71b44c0a07"
+    },
+    {
+      "file": "stage-kit.png",
+      "changed_pixels": 0,
+      "byte_exact": true,
+      "size": [
+        1600,
+        1000
+      ],
+      "baseline_sha256": "e22d51ede2de7d65d65b195a70860d1edf9cc521c4ed4638ff634968e1ca5634",
+      "candidate_sha256": "e22d51ede2de7d65d65b195a70860d1edf9cc521c4ed4638ff634968e1ca5634"
+    }
+  ],
+  "scope": "All eight native gallery originals remain pixel and byte exact. Direct raw default native imports separately verify2048paint bindings. Root-window signal waits retained and unaccepted; no actual phone/performance acceptance."
+}

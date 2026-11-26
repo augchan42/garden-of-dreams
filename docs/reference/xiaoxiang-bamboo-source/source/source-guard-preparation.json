@@ -1,0 +1,67 @@
+{
+  "status": "isolated_all_source_guards_digest_only_updated",
+  "source_glb_sha256": "faa8a7fe4a7a399899e84373c0550c8ff2f5f15ab0273109e8ea68f433b8fe0f",
+  "changes": {
+    "godot/tests/garden-palette-contract.json": {
+      "before_sha256": "249de380fb4808d8a0a6baaf9ca0890f7a03a7cf27f876b9bcc7b4f35e5597fb",
+      "after_sha256": "377baa6889d3c3a32b75e17263b23318ac8b09a504c95bd4e4c9b535dedba666",
+      "substitutions": 1
+    },
+    "godot/tests/hengwu-arrival-contract.json": {
+      "before_sha256": "b8e3917f60b22a4329c6b6ea03c0d85b55fb92b667d155d1e6dbb2a3156d56d6",
+      "after_sha256": "4c47ea24e0a747db05554e66b4c9879669d4c90709ba888c515ba8c5dbbad276",
+      "substitutions": 1
+    },
+    "godot/tests/hengwu-visibility-probes.json": {
+      "before_sha256": "d936a8db602b0c84144d36bb8dd29c19ad444e0f1bb9818fc10ac0225f185b11",
+      "after_sha256": "d6e810bbe8bc9dc53dc4b513ca02318a4977c32d92b7def010ed76f65212e724",
+      "substitutions": 1
+    },
+    "godot/tests/portrait-architecture-contract.json": {
+      "before_sha256": "ac19237921e5c4bd9d9e41b1a54f0067922abe85873376b0d9f24dd42f43b545",
+      "after_sha256": "61ea0268df1d74dbdfe19c060c033cd04bf135280df0267b866010ad3843ca82",
+      "substitutions": 1
+    },
+    "godot/tests/render_dynamic_palette.gd": {
+      "before_sha256": "a84eb2faf9b5e9bb1235c8fc64d901bc34d4394e9bec9d82c1f105e7d9220fa6",
+      "after_sha256": "ce0c6b3ed9fe62428c5861a950291cc0e1bc3451e71675081601e1d03f91077f",
+      "substitutions": 1
+    },
+    "godot/tests/test_hengwu_detail_framing.gd": {
+      "before_sha256": "5201626b3ba92c850603dccf96a9a3bc567dac90008dd8bbd581dff1a59a2d93",
+      "after_sha256": "dc9c018ffbeebb1f8c2a6cd297de94fb02212e6b74eed63fb5cf1d0b4d56dc9a",
+      "substitutions": 1
+    },
+    "godot/tests/test_hengwu_native_visibility.gd": {
+      "before_sha256": "29497f0c82c82452b69352eb1fd05c1fb7036e2f8331a1337e4a6ad1f256c257",
+      "after_sha256": "8741528555f952671473f6b279d5beda43cc46e0bfd5b353bbf58de656ca8fde",
+      "substitutions": 1
+    },
+    "godot/tests/test_hengwu_overview.gd": {
+      "before_sha256": "290cd9324fa4cda1a6891d38068e87e66c1cf8d0c14099d96bca9c44622cb46f",
+      "after_sha256": "a99b3902d6446b5c201365dc89da80050f622b76db8006c3a90b34896652d1b5",
+      "substitutions": 1
+    },
+    "godot/tests/test_qiushuang_framing.gd": {
+      "before_sha256": "79aa7933ce2c77beed40bcd38b100063c88682fd280929cdaf8aec069b2efecb",
+      "after_sha256": "7442e8ad478df74b9a5666a21718221e17bbf0e170d91a787d88de2b33021b75",
+      "substitutions": 1
+    },
+    "godot/tests/test_tubi_framing.gd": {
+      "before_sha256": "0844bfeec2e7dd501a8e20b94b75ccbf37320d11269f25685a5ae99666de982f",
+      "after_sha256": "b6c6cb38c68818e202f3f092e0d6df3c4185ab1596e1b2e15a366d8f0d26d182",
+      "substitutions": 1
+    },
+    "godot/tests/test_yihong_framing.gd": {
+      "before_sha256": "7c953b2f9664454b4f527d32c172678c23b2ae467a542384ed31eecb19d15ab2",
+      "after_sha256": "bf15889d5d2413c847b03781603a9e6249a9f7052ce49ec11c7342e121b73cb1",
+      "substitutions": 1
+    },
+    "godot/tests/test_ziling_framing.gd": {
+      "before_sha256": "ede8c3da8ba68436d0be7968577c83fe6d860927ac061de3c1b43caf79dc1e1c",
+      "after_sha256": "09beb310e26d9ce78940aca97cf676bc11018ec10b87293de987153bb343ada9",
+      "substitutions": 1
+    }
+  },
+  "scope": "Only source digests updated; camera/geometry/action/fit assertions unchanged. These checks must run before adoption."
+}

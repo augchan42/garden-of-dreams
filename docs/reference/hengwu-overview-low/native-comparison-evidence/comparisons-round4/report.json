@@ -1,0 +1,3539 @@
+{
+ "errors": [],
+ "rows": [
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-1410x600-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "lit",
+   "label": "baseline-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "91f6d49368f5b95af083529658d7785508b7e7e221b38047cdb2879ee1bde2d4",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       403.077758789062,
+       322.224426269531
+      ],
+      [
+       507.838836669922,
+       353.4140625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       1061.56018066406,
+       260.592651367188
+      ],
+      [
+       1749.66455078125,
+       885.505187988281
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       288.894317626953,
+       365.290008544922
+      ],
+      [
+       361.431518554688,
+       434.801116943359
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       584.674072265625,
+       378.430603027344
+      ],
+      [
+       644.866760253906,
+       452.574249267578
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       334.51904296875,
+       441.194946289062
+      ],
+      [
+       425.206512451172,
+       538.880493164062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       495.549713134766,
+       326.734130859375
+      ],
+      [
+       546.698120117188,
+       383.230255126953
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       346.819976806641,
+       319.652557373047
+      ],
+      [
+       567.323303222656,
+       448.706420898438
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-1410x600-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "ids",
+   "label": "baseline-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "3adf0870dee2d85cc9b0160f9fdba37105567a48db5042302f63999dc893be75",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       403.077758789062,
+       322.224426269531
+      ],
+      [
+       507.838836669922,
+       353.4140625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       1061.56018066406,
+       260.592651367188
+      ],
+      [
+       1749.66455078125,
+       885.505187988281
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       288.894317626953,
+       365.290008544922
+      ],
+      [
+       361.431518554688,
+       434.801116943359
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       584.674072265625,
+       378.430603027344
+      ],
+      [
+       644.866760253906,
+       452.574249267578
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       334.51904296875,
+       441.194946289062
+      ],
+      [
+       425.206512451172,
+       538.880493164062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       495.549713134766,
+       326.734130859375
+      ],
+      [
+       546.698120117188,
+       383.230255126953
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       346.819976806641,
+       319.652557373047
+      ],
+      [
+       567.323303222656,
+       448.706420898438
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 95.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.128349, 0.829855, -0.543017), Z: (-0.190888, 0.557979, 0.807602), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-1410x600-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "lit",
+   "label": "gate-clear-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "652b058bb0d1437410659b7064690afe94cf2b24df4757c863ff2bb4908d8f59",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       571.371032714844,
+       275.126556396484
+      ],
+      [
+       607.208251953125,
+       292.498138427734
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       802.670471191406,
+       242.758071899414
+      ],
+      [
+       915.932312011719,
+       368.802307128906
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       516.56787109375,
+       301.916961669922
+      ],
+      [
+       548.004699707031,
+       331.183441162109
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       644.028991699219,
+       287.481323242188
+      ],
+      [
+       666.536804199219,
+       314.228790283203
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       575.146362304688,
+       326.155426025391
+      ],
+      [
+       606.502868652344,
+       359.750061035156
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       589.062927246094,
+       270.966400146484
+      ],
+      [
+       611.718688964844,
+       294.885498046875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       544.274291992188,
+       272.553955078125
+      ],
+      [
+       635.048400878906,
+       324.8740234375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 95.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.128349, 0.829855, -0.543017), Z: (-0.190888, 0.557979, 0.807602), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-1410x600-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "ids",
+   "label": "gate-clear-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "df723a586f22895c145f2abd603bcd7540bc55b508e9f133e805eacf766a2f81",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       571.371032714844,
+       275.126556396484
+      ],
+      [
+       607.208251953125,
+       292.498138427734
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       802.670471191406,
+       242.758071899414
+      ],
+      [
+       915.932312011719,
+       368.802307128906
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       516.56787109375,
+       301.916961669922
+      ],
+      [
+       548.004699707031,
+       331.183441162109
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       644.028991699219,
+       287.481323242188
+      ],
+      [
+       666.536804199219,
+       314.228790283203
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       575.146362304688,
+       326.155426025391
+      ],
+      [
+       606.502868652344,
+       359.750061035156
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       589.062927246094,
+       270.966400146484
+      ],
+      [
+       611.718688964844,
+       294.885498046875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       544.274291992188,
+       272.553955078125
+      ],
+      [
+       635.048400878906,
+       324.8740234375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.141309, 0.789058, -0.597846), Z: (-0.181503, 0.614319, 0.767899), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-1410x600-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "lit",
+   "label": "gate-balanced-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "1d2179965dce8c7cb7a06e61256eab7c260897bfbd918e8b0f972587d3437375",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       563.203247070312,
+       264.689239501953
+      ],
+      [
+       600.631774902344,
+       284.255462646484
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       807.214172363281,
+       234.54475402832
+      ],
+      [
+       927.60107421875,
+       364.970947265625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       505.957550048828,
+       293.410705566406
+      ],
+      [
+       539.123962402344,
+       324.375823974609
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       640.142883300781,
+       277.105590820312
+      ],
+      [
+       664.137939453125,
+       305.69287109375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       569.232177734375,
+       320.360870361328
+      ],
+      [
+       602.048706054688,
+       355.308685302734
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       580.776000976562,
+       258.213562011719
+      ],
+      [
+       605.198608398438,
+       284.07568359375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       534.603881835938,
+       261.402465820312
+      ],
+      [
+       630.476928710938,
+       317.451782226562
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.141309, 0.789058, -0.597846), Z: (-0.181503, 0.614319, 0.767899), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-1410x600-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "ids",
+   "label": "gate-balanced-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "29d3ebf19c64c39c28951891f95a7c6346f32e0c39add54995c31448d97ac06b",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       563.203247070312,
+       264.689239501953
+      ],
+      [
+       600.631774902344,
+       284.255462646484
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       807.214172363281,
+       234.54475402832
+      ],
+      [
+       927.60107421875,
+       364.970947265625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       505.957550048828,
+       293.410705566406
+      ],
+      [
+       539.123962402344,
+       324.375823974609
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       640.142883300781,
+       277.105590820312
+      ],
+      [
+       664.137939453125,
+       305.69287109375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       569.232177734375,
+       320.360870361328
+      ],
+      [
+       602.048706054688,
+       355.308685302734
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       580.776000976562,
+       258.213562011719
+      ],
+      [
+       605.198608398438,
+       284.07568359375
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       534.603881835938,
+       261.402465820312
+      ],
+      [
+       630.476928710938,
+       317.451782226562
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 95.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.123582, 0.843421, -0.522847), Z: (-0.194008, 0.537254, 0.820804), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-1410x600-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "lit",
+   "label": "gate-low-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "5763e519de09746c7c1d5c0eb48617585e42f728445b20c70a6da6580d87ca1b",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       568.79638671875,
+       273.789276123047
+      ],
+      [
+       605.605407714844,
+       290.76123046875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       805.114562988281,
+       237.866836547852
+      ],
+      [
+       920.8330078125,
+       368.165924072266
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       512.654663085938,
+       300.915283203125
+      ],
+      [
+       544.837646484375,
+       330.686614990234
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       642.966552734375,
+       286.863006591797
+      ],
+      [
+       665.860046386719,
+       313.959625244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       571.768981933594,
+       324.684967041016
+      ],
+      [
+       604.00732421875,
+       359.100860595703
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       587.437805175781,
+       270.880981445312
+      ],
+      [
+       610.3837890625,
+       294.99951171875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       541.133361816406,
+       271.525329589844
+      ],
+      [
+       633.8544921875,
+       324.450042724609
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 95.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.123582, 0.843421, -0.522847), Z: (-0.194008, 0.537254, 0.820804), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-1410x600-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 1,
+   "kind": "ids",
+   "label": "gate-low-1410x600",
+   "logical_viewport": [
+    1410.0,
+    600.0
+   ],
+   "panel_top": 405.0,
+   "pixels": [
+    1410,
+    600
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "913ae601f61210e035888d2e65d003c5e54503c2239398becc016da0c7174ab6",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       568.79638671875,
+       273.789276123047
+      ],
+      [
+       605.605407714844,
+       290.76123046875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       805.114562988281,
+       237.866836547852
+      ],
+      [
+       920.8330078125,
+       368.165924072266
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       512.654663085938,
+       300.915283203125
+      ],
+      [
+       544.837646484375,
+       330.686614990234
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       642.966552734375,
+       286.863006591797
+      ],
+      [
+       665.860046386719,
+       313.959625244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       571.768981933594,
+       324.684967041016
+      ],
+      [
+       604.00732421875,
+       359.100860595703
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       587.437805175781,
+       270.880981445312
+      ],
+      [
+       610.3837890625,
+       294.99951171875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       541.133361816406,
+       271.525329589844
+      ],
+      [
+       633.8544921875,
+       324.450042724609
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-390x844-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "baseline-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "391023dd630d7f0fb23d70a64f11f6f8e373828833b2118ace90e09dc808ec4d",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       -1.24943912029266,
+       436.445861816406
+      ],
+      [
+       66.8452606201172,
+       456.719146728516
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       426.764129638672,
+       396.385223388672
+      ],
+      [
+       874.031921386719,
+       802.578369140625
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       -75.4686431884766,
+       464.438507080078
+      ],
+      [
+       -28.3194885253906,
+       509.620727539062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       116.788154602051,
+       472.979888916016
+      ],
+      [
+       155.91340637207,
+       521.173278808594
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       -45.8125877380371,
+       513.776733398438
+      ],
+      [
+       13.1342554092407,
+       577.272338867188
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       58.8573379516602,
+       439.377197265625
+      ],
+      [
+       92.1037673950195,
+       476.099670410156
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       -37.8169822692871,
+       434.774169921875
+      ],
+      [
+       105.51016998291,
+       518.6591796875
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-390x844-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "baseline-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "cf729b7dedd089a5eee1d3213a1d74135a529dcda1673343fece0cf3352c1a63",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       -1.24943912029266,
+       436.445861816406
+      ],
+      [
+       66.8452606201172,
+       456.719146728516
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       426.764129638672,
+       396.385223388672
+      ],
+      [
+       874.031921386719,
+       802.578369140625
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       -75.4686431884766,
+       464.438507080078
+      ],
+      [
+       -28.3194885253906,
+       509.620727539062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       116.788154602051,
+       472.979888916016
+      ],
+      [
+       155.91340637207,
+       521.173278808594
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       -45.8125877380371,
+       513.776733398438
+      ],
+      [
+       13.1342554092407,
+       577.272338867188
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       58.8573379516602,
+       439.377197265625
+      ],
+      [
+       92.1037673950195,
+       476.099670410156
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       -37.8169822692871,
+       434.774169921875
+      ],
+      [
+       105.51016998291,
+       518.6591796875
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 85.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.148907, 0.762193, -0.629991), Z: (-0.175324, 0.64735, 0.741755), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-390x844-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-clear-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "26e0084e43f51a1a55cb3d5706c7eb59093d3bd6e2bfff93240aae24196c9945",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.4531021118164,
+       378.332672119141
+      ],
+      [
+       118.123809814453,
+       392.133575439453
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       269.868194580078,
+       352.080810546875
+      ],
+      [
+       360.627746582031,
+       450.490875244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       48.9301795959473,
+       399.534301757812
+      ],
+      [
+       73.6644287109375,
+       422.170288085938
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       147.401184082031,
+       388.168212890625
+      ],
+      [
+       165.102630615234,
+       409.122589111328
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       95.3726577758789,
+       418.319580078125
+      ],
+      [
+       119.729454040527,
+       443.75390625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       103.826545715332,
+       374.998107910156
+      ],
+      [
+       121.955200195312,
+       394.014831542969
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       69.5013885498047,
+       376.27197265625
+      ],
+      [
+       140.170394897461,
+       417.335723876953
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 85.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.148907, 0.762193, -0.629991), Z: (-0.175324, 0.64735, 0.741755), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-390x844-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-clear-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "71c08eac0c866d7aad509584812cf4f9c1e89147c5afc65669fc4f3d1b35138c",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.4531021118164,
+       378.332672119141
+      ],
+      [
+       118.123809814453,
+       392.133575439453
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       269.868194580078,
+       352.080810546875
+      ],
+      [
+       360.627746582031,
+       450.490875244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       48.9301795959473,
+       399.534301757812
+      ],
+      [
+       73.6644287109375,
+       422.170288085938
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       147.401184082031,
+       388.168212890625
+      ],
+      [
+       165.102630615234,
+       409.122589111328
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       95.3726577758789,
+       418.319580078125
+      ],
+      [
+       119.729454040527,
+       443.75390625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       103.826545715332,
+       374.998107910156
+      ],
+      [
+       121.955200195312,
+       394.014831542969
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       69.5013885498047,
+       376.27197265625
+      ],
+      [
+       140.170394897461,
+       417.335723876953
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 80.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.147081, 0.768865, -0.622265), Z: (-0.176858, 0.639411, 0.748247), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-390x844-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-balanced-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "e67240ad8556fdb236ca1917121b7fa04efe8b2d837c0b30fb6095930b7a3bed",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       84.8793029785156,
+       387.0263671875
+      ],
+      [
+       113.827949523926,
+       402.282440185547
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       273.930877685547,
+       363.395904541016
+      ],
+      [
+       367.990386962891,
+       464.544311523438
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       40.8106842041016,
+       409.398895263672
+      ],
+      [
+       66.5994720458984,
+       433.364868164062
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       144.653442382812,
+       396.715026855469
+      ],
+      [
+       163.316650390625,
+       418.923950195312
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.1332626342773,
+       430.266387939453
+      ],
+      [
+       115.567970275879,
+       457.147674560547
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       98.3591537475586,
+       381.963012695312
+      ],
+      [
+       117.447975158691,
+       402.142578125
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       62.7397232055664,
+       384.457305908203
+      ],
+      [
+       137.087432861328,
+       428.019714355469
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 80.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.147081, 0.768865, -0.622265), Z: (-0.176858, 0.639411, 0.748247), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-390x844-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-balanced-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "84836ee353da244ff58ca97a9af2e6ce949725a933d2bd889654bd297f6693da",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       84.8793029785156,
+       387.0263671875
+      ],
+      [
+       113.827949523926,
+       402.282440185547
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       273.930877685547,
+       363.395904541016
+      ],
+      [
+       367.990386962891,
+       464.544311523438
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       40.8106842041016,
+       409.398895263672
+      ],
+      [
+       66.5994720458984,
+       433.364868164062
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       144.653442382812,
+       396.715026855469
+      ],
+      [
+       163.316650390625,
+       418.923950195312
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.1332626342773,
+       430.266387939453
+      ],
+      [
+       115.567970275879,
+       457.147674560547
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       98.3591537475586,
+       381.963012695312
+      ],
+      [
+       117.447975158691,
+       402.142578125
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       62.7397232055664,
+       384.457305908203
+      ],
+      [
+       137.087432861328,
+       428.019714355469
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.145207, 0.775569, -0.614336), Z: (-0.1784, 0.631263, 0.754771), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-390x844-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-low-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "2d45b42d1621f4c220eefee0d237436bc6b3d3c413304f1180ddcd15144e7ab6",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       97.2198867797852,
+       380.220489501953
+      ],
+      [
+       123.308937072754,
+       392.608642578125
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       265.347595214844,
+       353.396240234375
+      ],
+      [
+       350.682281494141,
+       446.911010742188
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       58.2686004638672,
+       399.935089111328
+      ],
+      [
+       81.5322113037109,
+       421.05712890625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       150.58659362793,
+       389.779113769531
+      ],
+      [
+       167.109252929688,
+       409.254974365234
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       101.319633483887,
+       416.841552734375
+      ],
+      [
+       124.273239135742,
+       440.731262207031
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       110.210289001465,
+       378.079559326172
+      ],
+      [
+       127.072303771973,
+       395.674377441406
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       77.60888671875,
+       378.554351806641
+      ],
+      [
+       143.841857910156,
+       416.676116943359
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.145207, 0.775569, -0.614336), Z: (-0.1784, 0.631263, 0.754771), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-390x844-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-low-390x844",
+   "logical_viewport": [
+    390.0,
+    844.0
+   ],
+   "panel_top": 534.0,
+   "pixels": [
+    390,
+    844
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "3a61387267c28889f8ed25804b727f37555191d2842eb26b42b47a647210dfa4",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       97.2198867797852,
+       380.220489501953
+      ],
+      [
+       123.308937072754,
+       392.608642578125
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       265.347595214844,
+       353.396240234375
+      ],
+      [
+       350.682281494141,
+       446.911010742188
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       58.2686004638672,
+       399.935089111328
+      ],
+      [
+       81.5322113037109,
+       421.05712890625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       150.58659362793,
+       389.779113769531
+      ],
+      [
+       167.109252929688,
+       409.254974365234
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       101.319633483887,
+       416.841552734375
+      ],
+      [
+       124.273239135742,
+       440.731262207031
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       110.210289001465,
+       378.079559326172
+      ],
+      [
+       127.072303771973,
+       395.674377441406
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       77.60888671875,
+       378.554351806641
+      ],
+      [
+       143.841857910156,
+       416.676116943359
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-360x800-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "baseline-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "1a2f395d1f72f72a22382227be094be1f30a1f9571bc78c68e2d6ad5a98a6a8d",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       -1.15332841873169,
+       413.334655761719
+      ],
+      [
+       61.7033081054688,
+       432.048431396484
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       393.936157226562,
+       376.355590820312
+      ],
+      [
+       806.798706054688,
+       751.303100585938
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       -69.6633605957031,
+       439.174011230469
+      ],
+      [
+       -26.1410884857178,
+       480.880645751953
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       107.804443359375,
+       447.058349609375
+      ],
+      [
+       143.920059204102,
+       491.544555664062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       -42.2885437011719,
+       484.716949462891
+      ],
+      [
+       12.1239175796509,
+       543.328308105469
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       54.3298492431641,
+       416.040496826172
+      ],
+      [
+       85.0188598632812,
+       449.938140869141
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       -34.9080047607422,
+       411.791534423828
+      ],
+      [
+       97.3940048217773,
+       489.223846435547
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 55.0,
+   "camera_position": [
+    -17.5,
+    2.59999990463257,
+    -10.5
+   ],
+   "camera_transform": "[X: (0.994389, 0.0, -0.105786), Y: (-0.031999, 0.953152, -0.300793), Z: (0.10083, 0.302491, 0.947804), O: (-17.5, 2.6, -10.5)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/baseline-360x800-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "baseline-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "100812c7f97d868387d80a325724d36a9a695bfb7a75e20090e22401b0fad6f9",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       -1.15332841873169,
+       413.334655761719
+      ],
+      [
+       61.7033081054688,
+       432.048431396484
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       393.936157226562,
+       376.355590820312
+      ],
+      [
+       806.798706054688,
+       751.303100585938
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       -69.6633605957031,
+       439.174011230469
+      ],
+      [
+       -26.1410884857178,
+       480.880645751953
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       107.804443359375,
+       447.058349609375
+      ],
+      [
+       143.920059204102,
+       491.544555664062
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       -42.2885437011719,
+       484.716949462891
+      ],
+      [
+       12.1239175796509,
+       543.328308105469
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       54.3298492431641,
+       416.040496826172
+      ],
+      [
+       85.0188598632812,
+       449.938140869141
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       -34.9080047607422,
+       411.791534423828
+      ],
+      [
+       97.3940048217773,
+       489.223846435547
+      ]
+     ],
+     "fits_above_ui": false,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 85.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.148907, 0.762193, -0.629991), Z: (-0.175324, 0.64735, 0.741755), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-360x800-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-clear-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "91acdd3423d8254a988beeb71f5b8a55b9e7cee1bc82778d48b336c0d9418d6b",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       83.4951629638672,
+       359.691680908203
+      ],
+      [
+       109.037353515625,
+       372.430969238281
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       249.109100341797,
+       335.459197998047
+      ],
+      [
+       332.887176513672,
+       426.299255371094
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       45.1662979125977,
+       379.262420654297
+      ],
+      [
+       67.9979248046875,
+       400.157165527344
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       136.062622070312,
+       368.770660400391
+      ],
+      [
+       152.402420043945,
+       388.113159179688
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       88.0363006591797,
+       396.602691650391
+      ],
+      [
+       110.519485473633,
+       420.080535888672
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       95.8398742675781,
+       356.613647460938
+      ],
+      [
+       112.574020385742,
+       374.167510986328
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       64.1551055908203,
+       357.789520263672
+      ],
+      [
+       129.388046264648,
+       395.694519042969
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 85.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.79999995231628,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.148907, 0.762193, -0.629991), Z: (-0.175324, 0.64735, 0.741755), O: (-18.8, 3.8, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-clear-360x800-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-clear-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "e98fc87a7103a2638c8d84e64820806940f6a7e23279587ebd73e2db7580bb99",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       83.4951629638672,
+       359.691680908203
+      ],
+      [
+       109.037353515625,
+       372.430969238281
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       249.109100341797,
+       335.459197998047
+      ],
+      [
+       332.887176513672,
+       426.299255371094
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       45.1662979125977,
+       379.262420654297
+      ],
+      [
+       67.9979248046875,
+       400.157165527344
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       136.062622070312,
+       368.770660400391
+      ],
+      [
+       152.402420043945,
+       388.113159179688
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       88.0363006591797,
+       396.602691650391
+      ],
+      [
+       110.519485473633,
+       420.080535888672
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       95.8398742675781,
+       356.613647460938
+      ],
+      [
+       112.574020385742,
+       374.167510986328
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       64.1551055908203,
+       357.789520263672
+      ],
+      [
+       129.388046264648,
+       395.694519042969
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 80.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.147081, 0.768865, -0.622265), Z: (-0.176858, 0.639411, 0.748247), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-360x800-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-balanced-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "014cf1175b3b3556bf9be0a70c40027bb36c53380a8a50a26d1779a59b50e3e8",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       78.3501281738281,
+       367.716644287109
+      ],
+      [
+       105.071952819824,
+       381.799163818359
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       252.859268188477,
+       345.903900146484
+      ],
+      [
+       339.683441162109,
+       439.271697998047
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       37.6714019775391,
+       388.368194580078
+      ],
+      [
+       61.476432800293,
+       410.490631103516
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       133.526260375977,
+       376.660034179688
+      ],
+      [
+       150.753829956055,
+       397.160583496094
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       83.1999359130859,
+       407.630523681641
+      ],
+      [
+       106.678123474121,
+       432.444000244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.7930679321289,
+       363.042785644531
+      ],
+      [
+       108.413513183594,
+       381.670074462891
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       57.9135932922363,
+       365.34521484375
+      ],
+      [
+       126.54224395752,
+       405.556640625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 80.0,
+   "camera_position": [
+    -18.7999992370605,
+    4.09999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.147081, 0.768865, -0.622265), Z: (-0.176858, 0.639411, 0.748247), O: (-18.8, 4.1, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-balanced-360x800-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-balanced-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "d63f96efaa1a7e837ccbca7acb3454c603e3ab8c8c517613f28f4ee21d5d8146",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       78.3501281738281,
+       367.716644287109
+      ],
+      [
+       105.071952819824,
+       381.799163818359
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       252.859268188477,
+       345.903900146484
+      ],
+      [
+       339.683441162109,
+       439.271697998047
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       37.6714019775391,
+       388.368194580078
+      ],
+      [
+       61.476432800293,
+       410.490631103516
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       133.526260375977,
+       376.660034179688
+      ],
+      [
+       150.753829956055,
+       397.160583496094
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       83.1999359130859,
+       407.630523681641
+      ],
+      [
+       106.678123474121,
+       432.444000244141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       90.7930679321289,
+       363.042785644531
+      ],
+      [
+       108.413513183594,
+       381.670074462891
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       57.9135932922363,
+       365.34521484375
+      ],
+      [
+       126.54224395752,
+       405.556640625
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.145207, 0.775569, -0.614336), Z: (-0.1784, 0.631263, 0.754771), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-360x800-lit.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "lit",
+   "label": "gate-low-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "0cd71094de34a5ade370ef1d1a4df98fcefbbc53c1ba38f278ebd4a042f28671",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       89.7414474487305,
+       361.434295654297
+      ],
+      [
+       113.82364654541,
+       372.869537353516
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       244.936233520508,
+       336.673461914062
+      ],
+      [
+       323.706695556641,
+       422.994781494141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       53.7864227294922,
+       379.632415771484
+      ],
+      [
+       75.2605133056641,
+       399.129638671875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       139.003005981445,
+       370.257629394531
+      ],
+      [
+       154.254699707031,
+       388.235382080078
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       93.5258255004883,
+       395.238372802734
+      ],
+      [
+       114.713768005371,
+       417.290405273438
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       101.732574462891,
+       359.458068847656
+      ],
+      [
+       117.297515869141,
+       375.699432373047
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       71.6389846801758,
+       359.896331787109
+      ],
+      [
+       132.777114868164,
+       395.085632324219
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  },
+  {
+   "camera_fov": 90.0,
+   "camera_position": [
+    -18.7999992370605,
+    3.59999990463257,
+    -9.30000019073486
+   ],
+   "camera_transform": "[X: (0.973185, 0.0, 0.230025), Y: (0.145207, 0.775569, -0.614336), Z: (-0.1784, 0.631263, 0.754771), O: (-18.8, 3.6, -9.3)]",
+   "camera_transition_running": false,
+   "capture": "/tmp/garden-hengwu-arrival-20261010/comparisons-round4/gate-low-360x800-ids.png",
+   "clock": 3.0,
+   "header_bottom": 38.0,
+   "keep_aspect": 0,
+   "kind": "ids",
+   "label": "gate-low-360x800",
+   "logical_viewport": [
+    360.0,
+    800.0
+   ],
+   "panel_top": 458.0,
+   "pixels": [
+    360,
+    800
+   ],
+   "room": "hengwu_yuan",
+   "sha256": "a5c1bca4a2cd2ab37ca27d6c1d35746127141e320d63fca9c0e1c467a7489a42",
+   "subjects": {
+    "open-book": {
+     "behind": 0,
+     "bounds": [
+      [
+       89.7414474487305,
+       361.434295654297
+      ],
+      [
+       113.82364654541,
+       372.869537353516
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_open_book",
+     "vertices": 8
+    },
+    "primary-pierced-stone": {
+     "behind": 0,
+     "bounds": [
+      [
+       244.936233520508,
+       336.673461914062
+      ],
+      [
+       323.706695556641,
+       422.994781494141
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "HENGWU_perforated_rock",
+     "vertices": 1210
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_25": {
+     "behind": 0,
+     "bounds": [
+      [
+       53.7864227294922,
+       379.632415771484
+      ],
+      [
+       75.2605133056641,
+       399.129638671875
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_25",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_26": {
+     "behind": 0,
+     "bounds": [
+      [
+       139.003005981445,
+       370.257629394531
+      ],
+      [
+       154.254699707031,
+       388.235382080078
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_26",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_27": {
+     "behind": 0,
+     "bounds": [
+      [
+       93.5258255004883,
+       395.238372802734
+      ],
+      [
+       114.713768005371,
+       417.290405273438
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_27",
+     "vertices": 232
+    },
+    "stone_stool-PLACED_props_hengwu_yuan_28": {
+     "behind": 0,
+     "bounds": [
+      [
+       101.732574462891,
+       359.458068847656
+      ],
+      [
+       117.297515869141,
+       375.699432373047
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_28",
+     "vertices": 232
+    },
+    "stone_table-PLACED_props_hengwu_yuan_29": {
+     "behind": 0,
+     "bounds": [
+      [
+       71.6389846801758,
+       359.896331787109
+      ],
+      [
+       132.777114868164,
+       395.085632324219
+      ]
+     ],
+     "fits_above_ui": true,
+     "source_object": "PLACED_props_hengwu_yuan_29",
+     "vertices": 336
+    }
+   },
+   "text": "Perforated stones stand among low herbs. Four stools surround an open book; no trees rise above the courtyard walls.",
+   "visitor": [
+    -18.0,
+    -0.00453125312924385,
+    -14.6999998092651
+   ]
+  }
+ ],
+ "runtime_sha256": "7970380d11f8eb59530602e391565f355a844a94e9aa16a369d260a86a434a05",
+ "scope": "Diagnostic actual public arrival and explicit candidate poses, saved evaluated semantic render vertices, fixed clock3, completed fades/tweens plus250ms flora settle. Orange primary stone, cyan table region and magenta front wall caps are transient world-region ID controls, not exact source-owner segmentation. Original views need direct review. Candidate fit is measured without implying accepted composition, resize or travel behavior. No production change or full scene acceptance.",
+ "source_sha256": "ba40866e18f9ab3dcb0263855020099b7eedce70243c6a37e4d50c5f74c0e4f2",
+ "status": "diagnostic_originals_captured",
+ "subject_record_sha256": "5e8649d52c55f2f3ffcb8fbc7cadfeaeefe8137df843a02c09263c6ce900f6c2",
+ "test_sha256": "36fb48b00b6d3e0dc0032f57a894000e8226eafe7eaf62c94a417b2403e472f6"
+}

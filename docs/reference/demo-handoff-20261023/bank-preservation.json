@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "previous_source_glb_sha256": "09910fbaa40e41f1475759adb46625358ba9a8765e1863b2f583f7943a413290",
+  "source_glb_sha256": "f411ed55c88d03ce1c94f54baa176ada7605123103b45b4134eb2f1966f84577",
+  "unchanged_other_nodes": 770,
+  "changed_uv2_triangles": 3240,
+  "geometry_normals_primary_uvs_materials_lights_cameras_preserved": true,
+  "other_receiver_uv2_preserved": true,
+  "bank_coverage": {
+    "triangles": 3240,
+    "front_triangles": 2592,
+    "top_triangles": 648,
+    "reference_size": 1024,
+    "minimum_triangle_texels": 3.0828001499176025,
+    "median_triangle_texels": 6.220038414001465
+  },
+  "scope": "Only 3240 visible bank triangles change UV2. The Qinfang atlas requires a fresh bake; all other receivers can retain their original lighting with explicit compatibility provenance."
+}

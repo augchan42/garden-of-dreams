@@ -1,0 +1,47 @@
+{
+  "status": "pure_geometry_contract_passed_native_source_review_pending",
+  "geometry_sha256": "c80b0ad0ee14ae7c9f46b7ec5cc07e209359213bc9e3e11b26d24e9396069ff6",
+  "levels": [
+    {
+      "level": "full",
+      "segments": 24,
+      "vertices": 444,
+      "triangles": 864,
+      "closed_oriented": true,
+      "minimum_triangle_double_area": 0.0003825408520805562,
+      "positive_volume_m3": 0.010634451229701525,
+      "bounds_low": [
+        -0.94,
+        -0.7495511974826247,
+        -0.001
+      ],
+      "bounds_high": [
+        0.9074269794657159,
+        0.8211262861305787,
+        0.027
+      ]
+    },
+    {
+      "level": "lower",
+      "segments": 10,
+      "vertices": 192,
+      "triangles": 360,
+      "closed_oriented": true,
+      "minimum_triangle_double_area": 0.0009140510493144147,
+      "positive_volume_m3": 0.010057512625138553,
+      "bounds_low": [
+        -0.94,
+        -0.738073650182322,
+        -0.001
+      ],
+      "bounds_high": [
+        0.8990144203705421,
+        0.8221346770874634,
+        0.026994733185922062
+      ]
+    }
+  ],
+  "ratio": 0.4166666666666667,
+  "invalid_parameter_rejections": 3,
+  "scope": "Six shallow circular pads; closed/oriented nondegenerate geometry,200\u20132000triangle kit target and40%LOD. No Blender source, exported UV/material/collision, native appearance or phone acceptance yet."
+}

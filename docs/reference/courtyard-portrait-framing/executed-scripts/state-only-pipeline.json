@@ -1,0 +1,59 @@
+{
+  "status": "completed_expected_rejection",
+  "label": "state-only",
+  "phases": [
+    {
+      "name": "import",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--editor",
+        "--import"
+      ],
+      "status": "passed",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/state-only-import.log",
+      "pid": 54756,
+      "exit_code": 0,
+      "log_sha256": "cc9df506f09228dcae8332fc39ddeb0a78241b23301958c758b72713930120e4"
+    },
+    {
+      "name": "framing",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/candidate-godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/test_yihong_framing.gd",
+        "--",
+        "--output=/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/state-only"
+      ],
+      "status": "passed_expected_framing_rejections",
+      "log": "/Users/auchan/projects/garden-of-dreams/.superpowers/sdd/2026-09-23-garden-completion/portrait-court-next/state-only-framing.log",
+      "pid": 54811,
+      "exit_code": 1,
+      "log_sha256": "7d35a0cb19f7bbca5b54d58b93e5427b1cee81fc34c97c02833c8ff3caf2e30e"
+    }
+  ],
+  "runtime_sha256": "1d21f03a44762d7cf8746631ce91038c0cb4d25477b4b1eef0ed4311017410bc",
+  "test_sha256": "3a3b9fd2b3a6a4b50a6590f7161f6a5411e5df45cdf55e6f076c2cb7528a4cfc",
+  "errors": [
+    "Subject clipped or covered: arrival-portrait",
+    "Subject clipped or covered: arrival-narrow",
+    "Subject clipped or covered: arrival-return",
+    "Subject clipped or covered: doors-portrait",
+    "Subject clipped or covered: doors-narrow",
+    "Subject clipped or covered: doors-return",
+    "Subject clipped or covered: doors-look",
+    "Subject clipped or covered: leaves-portrait",
+    "Subject clipped or covered: leaves-narrow",
+    "Subject clipped or covered: leaves-return",
+    "Subject clipped or covered: leaves-look",
+    "Subject clipped or covered: look-narrow"
+  ],
+  "report_sha256": "1a6271b8aaa719a9b8a57c46e48657c58fcf08e23a43ae59a8d57bafc86e53f2"
+}

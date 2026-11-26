@@ -1,0 +1,14 @@
+...F
+======================================================================
+FAIL: test_legacy_gate_command_uses_current_caps_without_changing_atlases (scripts.tests.test_configure_runtime_texture_caps.RuntimeCapConfigurationTests.test_legacy_gate_command_uses_current_caps_without_changing_atlases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/auchan/projects/garden-of-dreams/scripts/tests/test_configure_runtime_texture_caps.py", line 47, in test_legacy_gate_command_uses_current_caps_without_changing_atlases
+    self.assertIn('process/size_limit=512\n', source.with_suffix('.png.import').read_text())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'process/size_limit=512\n' not found in '[remap]\nimporter="texture"\npath.0="res://.godot/imported/garden-of-dreams_gate-inscription.png-abc.ctex"\n\n[params]\ncompress/mode=0\nmipmaps/generate=true\ndetect_3d/compress_to=0\nprocess/size_limit=1024\n'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.063s
+
+FAILED (failures=1)

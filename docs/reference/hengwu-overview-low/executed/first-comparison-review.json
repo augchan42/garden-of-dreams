@@ -1,0 +1,14 @@
+{
+  "status": "three_candidates_rejected",
+  "reviewed_originals": {
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/baseline-390x844-lit.png": "391023dd630d7f0fb23d70a64f11f6f8e373828833b2118ace90e09dc808ec4d",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/central-left-390x844-lit.png": "bc9f22415589520f1c02a772cd3aa0d596b87f842467ce8014847146c4deed94",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/far-left-390x844-lit.png": "aaee3483ac3e48d61c11c376e3bb2eb13c770d87d9ffc2dca10e219668b5bfc1",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/less-wide-390x844-lit.png": "1159c9e71caa2bafdd551271fffeb4fe1a76c10dda6bf6a12b3e54581f6115ac",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/baseline-390x844-ids.png": "cf729b7dedd089a5eee1d3213a1d74135a529dcda1673343fece0cf3352c1a63",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/central-left-390x844-ids.png": "4db45c26fa2ef75e6ed36fc721646b0f953056da416f87fe366ecb5e7ce1a94e",
+    "/tmp/garden-hengwu-arrival-20261010/comparisons/baseline-1410x600-lit.png": "91f6d49368f5b95af083529658d7785508b7e7e221b38047cdb2879ee1bde2d4"
+  },
+  "source_runtime_unchanged": true,
+  "finding": "Baseline clips tabletop at portrait left, excludes primary stone and covers lower desktop furniture. Central-left/far-left/less-wide fit some projected semantic vertices but nearest left stone occludes table; candidate desktop top also clips stone. Fits alone do not establish visible subjects. No camera selected."
+}

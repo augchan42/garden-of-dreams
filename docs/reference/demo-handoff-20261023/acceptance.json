@@ -1,0 +1,118 @@
+{
+  "status": "passed",
+  "archive_sha256": "51dc1a8b249625b810a6db4f60f102c56d7c5e51078861238785ba9a13cd6bc9",
+  "archive_bytes": 426153827,
+  "pack_sha256": "7c6ea2bfcf4ac0a8f332eb938fcb3be7b044090ed27fd9f14c2acf1f87eb14f3",
+  "source_glb_sha256": "f411ed55c88d03ce1c94f54baa176ada7605123103b45b4134eb2f1966f84577",
+  "movie_sha256": "f398b11256966c64bebe8e077de1c9aa4a77f5ff4e198ab67b592e6063b4c9fd",
+  "visual_review_note": "Inspected actual release desktop and portrait startup images, all ten review frames, and native reading/finale frames 1100 and 1220. Terminal actions, lantern passage, pavilion reveal, bronze pattern, result, finale and replay are visible and legible. Stream-bank masonry repair was inspected at pavilion, gate and table. Short video uses 1290 native frames at 30 FPS and original timed cues. This is an offline desktop demo; full-garden art, mobile/performance certification and connected services remain outside scope.",
+  "limitations": [
+    "Ad-hoc signed local macOS build; not notarized.",
+    "Native runtime verified only on the host; Intel execution is untested.",
+    "No broad phone, sustained performance, full-garden art or service acceptance."
+  ],
+  "archive": "build/demo-handoff-final/GardenOfDreamsDemo-macOS.zip",
+  "python_tests_passed": 30,
+  "checks": [
+    {
+      "name": "startup",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 2.877,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "afd62f8484c0f0b5ab9f8bf0cde9f8cfc88d61bc2c3f325c37db52992c30148e"
+    },
+    {
+      "name": "local-cast",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 0.29,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "7f95ea6142ca6b40abc7923dc5d47644af66e8e6bac76f05f0803539b6b29a8c"
+    },
+    {
+      "name": "route",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 31.762,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "566dfc78bde84e3214bad8e25ea9df21d0cf81622a4b2a40da17865e3dbdca39"
+    },
+    {
+      "name": "reading",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 1.638,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "2da61f9e72e16f07ca6389b25b3a3753794621395afb67bd484d7fa8f4481b5c"
+    },
+    {
+      "name": "input-desktop",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 37.678,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "2386dd0c6b3085506a2ecf499f3fc96a921c3aa7776544d2267ebdde9fa68277"
+    },
+    {
+      "name": "input-portrait",
+      "status": "passed",
+      "exit_code": 0,
+      "elapsed_seconds": 32.682,
+      "diagnostics": [],
+      "warnings": [],
+      "log_sha256": "2386dd0c6b3085506a2ecf499f3fc96a921c3aa7776544d2267ebdde9fa68277"
+    }
+  ],
+  "movie": {
+    "frames": 1290,
+    "fps": 30,
+    "duration_seconds": 43,
+    "width": 1410,
+    "height": 600,
+    "cues": [
+      {
+        "cue": "crt",
+        "frame": 0
+      },
+      {
+        "cue": "lanterns",
+        "frame": 409
+      },
+      {
+        "cue": "tunnel",
+        "frame": 441
+      },
+      {
+        "cue": "reveal",
+        "frame": 681
+      },
+      {
+        "cue": "water",
+        "frame": 986
+      },
+      {
+        "cue": "cast",
+        "frame": 1063
+      },
+      {
+        "cue": "crt",
+        "frame": 1259
+      }
+    ],
+    "decode": "passed"
+  },
+  "extracted_launch": {
+    "status": "passed",
+    "exit_code": 0,
+    "diagnostics": [],
+    "warnings": [],
+    "log_sha256": "cdc2bc7f0833ea999870e7916573498020b99cec936a0eb8db64c45d8039d418"
+  },
+  "independent_review": "Fresh-context code and final evidence review completed; no material findings."
+}

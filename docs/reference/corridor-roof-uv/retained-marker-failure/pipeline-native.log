@@ -1,0 +1,35 @@
+CORRIDOR_ROOF_LIT_START sync_full_lightmaps
+CORRIDOR_ROOF_LIT_PASS sync_full_lightmaps
+CORRIDOR_ROOF_LIT_START sync_backdrop_wash
+CORRIDOR_ROOF_LIT_PASS sync_backdrop_wash
+CORRIDOR_ROOF_LIT_START sync_terminal_spill
+CORRIDOR_ROOF_LIT_PASS sync_terminal_spill
+CORRIDOR_ROOF_LIT_START sync_demo
+CORRIDOR_ROOF_LIT_PASS sync_demo
+CORRIDOR_ROOF_LIT_START native_import
+CORRIDOR_ROOF_LIT_PASS native_import
+CORRIDOR_ROOF_LIT_START roof_uv
+CORRIDOR_ROOF_LIT_PASS roof_uv
+CORRIDOR_ROOF_LIT_START full_scene
+CORRIDOR_ROOF_LIT_PASS full_scene
+CORRIDOR_ROOF_LIT_START wash
+CORRIDOR_ROOF_LIT_PASS wash
+CORRIDOR_ROOF_LIT_START spill
+CORRIDOR_ROOF_LIT_PASS spill
+CORRIDOR_ROOF_LIT_START runtime_caps
+CORRIDOR_ROOF_LIT_PASS runtime_caps
+CORRIDOR_ROOF_LIT_START roof_lit
+CORRIDOR_ROOF_LIT_PASS roof_lit
+CORRIDOR_ROOF_LIT_START framing_normal
+Traceback (most recent call last):
+  File "/tmp/garden-corridor-roof-full-20261011/validate_lighting.py", line 64, in <module>
+    run('framing_'+label,native+['--script','res://tests/test_qiushuang_framing.gd','--','--output='+str(root/('lit-framing-'+label)),*args],'CORRIDOR_ROOF_FRAMING_RESULT')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/garden-corridor-roof-full-20261011/validate_lighting.py", line 37, in run
+    assert phase['exit_code']==0 and (not marker or marker in text) and not re.search(r'(?m)^(Error:|Traceback|SCRIPT ERROR:|ERROR:)|AssertionError:',text),text[-4000:]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max
+
+QIUSHUANG_FRAMING_RESULT 18 originals; 0 failures
+

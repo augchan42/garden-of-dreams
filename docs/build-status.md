@@ -1322,3 +1322,81 @@ The M2 Max normal inventory is 52,517,225 renderer texture bytes; demo is 43,468
 The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
 
 Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).
+
+
+## Reed island exterior repair — 2026-10-09
+
+Current complete source is `73267e2b`; authoring is `2b07ce48`. The 24 island side quads now have outward normals and consistent shell winding. Shape, heights, material, all 42 cameras,454 colliders,71 markers,266336 render triangles and runtime are preserved. Fourteen other site GLBs remain byte-exact; the constructor reproduces the corrected face order. Fresh lightmaps show the stone sides in both desktop and portrait views.
+
+Six complete source phases,25 focused native checks and13 installed checks pass. The 141 source PNGs match engine copies;47 isolated originals have verified hashes/dimensions,12 were directly inspected, and all19 installed lit/Ziling originals reproduce the candidate exactly. The archive preserves153 checked files, with760 installed-file hashes in `export/island-exterior-winding-evidence.json`. Evidence: [executed checks and original renders](reference/island-exterior-winding/README.md).
+
+This is focused repair acceptance. Broad stage canvas retains its original green color and will be addressed next; bank sides, ground/water boundaries, signage, foliage and final fourteen-site art remain. Existing PR15 full tours qualify the previous source. No current phone,2020 Adreno,sustained or release acceptance is claimed. References remain37/42; authenticated services remain open and PR14 stays independently held for security approval. The full goal remains active.
+
+
+## Neutral stage floor — 2026-10-09
+
+The saved canvas base changes from green (.055,.095,.037) to muted warm gray (.065,.060,.055), with all 4,467 objects, 47 other materials and 621 exported mesh attributes preserved. Fourteen other site GLBs remain byte-exact. Current source `c9d4fb30`, authoring `43d7e33e` and runtime `80f64655` are recorded in `export/stage-floor-palette-evidence.json`.
+
+Six source phases refresh 141 lightmaps. Forty native phases pass: 38 positive checks and two expected base-color rejection controls. Saved default exports reproduce 16 GLBs exactly. Both desktop and portrait tours visit 14 rooms across 26 legs, with zero unsupported floor rays and at most four practicals. All 409 review PNGs are hashed and dimension-checked; 52 original files were directly inspected. Fifteen installed checks pass, with 47 installed originals matching the review exactly. Evidence: [neutral stage floor](reference/stage-floor-palette/README.md).
+
+Final art remains open, including red-court/imperial portrait composition, Hengwu arrival composition, ground/water closure, foliage and signage. Five reference slots remain (37/42 collected). Current physical phones, 2020 Adreno/sustained budgets, release and authenticated services still require work. The Android package is stale. PR14 remains separately held for security approval. The full goal remains active.
+
+
+## Courtyard and imperial portrait cameras — 2026-10-10
+
+Runtime `7970380d` fits the courtyard facade, doors and primary banana plant above portrait controls, restores the overview through Look and preserves selected details through rotation. Original desktop poses return correctly; touch actions remain scrollable. The imperial portrait overview gives the facade more usable height while retaining the roof tiers, moon and closed doors. Source `c9d4fb30`, authoring `43d7e33e`, geometry and all141 lighting PNGs remain unchanged.
+
+Positioned courtyard RED20 and imperial RED6 precede32 passing full native checks and three repeated architecture modes after a test-only foliage wait correction. Both actual Mac tours visit14 rooms over26 legs with zero unsupported floor samples and at most four practicals. The452 full-run originals and25 repeated architecture originals are hashed and dimension-checked;25 full-run original file paths and the repeated nunnery original were directly inspected. Twenty-four repeated architecture images reproduce their full-run counterparts exactly. Eleven installed checks pass, and all98 installed camera/arrival images reproduce the reviewed candidate exactly. Evidence: [camera checks and original images](reference/courtyard-portrait-framing/README.md).
+
+This is two-room camera acceptance. Hengwu composition, stage seams, dark shading, ground/water closure, foliage, signage and final14-site art remain open. Reference coverage remains37/42; current phones,2020 Adreno/sustained budgets, release and authenticated services remain required. The full goal remains active.
+
+
+## Paving joins — 2026-10-10
+
+Current source `ba40866e` / authoring `7eba169a` removes 84 positive coplanar paving overlaps by partitioning 26 render objects. The original floor footprint is retained within 10 micrometres; all collision geometry, 42 cameras, 71 markers, materials and runtime `7970380d` are preserved. Render geometry is 266,533 triangles. Eight other site exports remain byte-exact. The nunnery's black forecourt rectangle is replaced by continuous stone and plum shadows.
+
+Six source phases regenerate 141 lighting PNGs. The 45-phase native review has 44 positive passes and one intended baseline-floor rejection. Both actual Mac tours visit 14 rooms over 26 legs with no unsupported floor samples and at most four practical lights. Three Ziling modes are repeated after a test-only real 250-millisecond foliage wait; runtime LOD remains enabled. All 28 arrivals, eight moving samples, eight matched floor controls and 35 repeated reed captures were directly inspected: 79 distinct original paths.
+
+Twenty-two installed checks pass. All 85 installed camera/floor/arrival originals reproduce the reviewed files exactly. The first installation also passed all 22 native checks, then rolled back all 29 targets after a report-field comparison error; its 85 originals match independently. The corrected helper reads actual PNG dimensions. Failed source, native and installation attempts are retained in the evidence archive.
+
+This closes the duplicate paving defect. Hengwu's arrival view is next: show its table and pierced stones while preserving the accepted detail actions. Final fourteen-site art, five missing references (37/42), current phones, 2020 Adreno and sustained budgets, release and authenticated reading/history/AI/presence/social remain open. Evidence: [paving checks and originals](reference/paving-surface-joins/README.md). The full goal remains active.
+
+
+## Hengwu low courtyard overview — 2026-10-10
+
+The arrival/Look camera now stays at 1.8 m in the rear court, with the primary pierced stone, book/table and four stool bounds clear of the tested interfaces. Short landscape controls fit two rows below 580 logical pixels high, retaining the full description, command entry, scrollable actions and 48-unit touch targets. Selected rock/book text and original desktop detail poses, Look clearing, rotation/resize, visitor position and the farm round trip are checked.
+
+Authoring `7eba169a` / complete source `ba40866e` and 141 source-matched imported PNGs are unchanged; runtime is `56813eb7`. Thirty native review phases pass, including both 14-room/26-leg/139-capture Mac tours, no floor failures and max 4 practicals. Six focused modes and native depth-tested visibility controls pass. A test-only fixed clock now makes all 30 detail originals reproduce across separate native processes. All 24 installed checks pass and 150 installed originals match exactly; the 26 other-room arrivals also match PR20 pixels. Raw diagnostics, rejected controls and complete executed/installed evidence are retained.
+
+This is bounded camera/layout progress. Final 14-site art/dressing/material/composition, five missing external references (37/42), current physical-phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Evidence: [Hengwu overview](reference/hengwu-overview-low/README.md).
+
+
+## Narrow landscape follow-up — 2026-10-10
+
+Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compact landscape controls below 580 pixels high or 1000 pixels wide; narrow titles wrap beside the complete description. Camera aim/field of view ease as height increases, and returning to portrait now reproduces initial portrait pixels exactly. Twelve final isolated checks and 12 installed checks pass, with 166 byte-exact installed originals. Of 120 prior captures, 113 are byte-identical; seven change only the portrait interface, with identical scene pixels above it at actual density scaling. All 28 stationary arrivals remain byte-identical. Geometry, authoring and matching 141 maps are unchanged. The preceding 30-phase/two-tour results remain historical evidence for runtime 56813eb7. Final art, references, current device/sustained budgets, release and authenticated services remain open. See [supplemental evidence](reference/hengwu-overview-low/supplemental-narrow-landscape/README.md).
+
+
+## Bamboo-source checkpoint — 2026-10-10
+
+Current assembly is `faa8a7fe` with authoring `0f93c424`. Three bamboo sizes now use continuous closed culms and aligned joint collars; narrow leaf cards and a 2.51 m small clump replace the disconnected internodes. Four Xiaoxiang and three Qinfang plants match the saved kit. Assembly triangles fall from 266,533 to 264,973. All 167 render batches, 42 cameras, 454 colliders, 71 markers and runtime `bde86917` are preserved.
+
+Complete matching 141 PNG lighting, six source phases, forty native checks, both actual Mac fourteen-room/twenty-six-leg tours and twenty-one installed checks pass. All fifty-two installed public/arrival originals reproduce the reviewed candidate exactly. Sixty-four original public, arrival and moving views were directly inspected. The saved-source verifier rejects the previous disconnected bamboo and accepts all twenty-seven repaired saved meshes.
+
+This accepts the bamboo source repair. Final fourteen-site art, five missing references (37/42 collected), current physical-phone and sustained performance, release and authenticated services remain open. Camera alternatives remain diagnostic. Evidence: [bamboo source repair](reference/xiaoxiang-bamboo-source/README.md).
+
+
+## Xiaoxiang portrait cameras — 2026-10-10
+
+Runtime `ec42ec55` now frames the courtyard gate, amber window and aisle in portrait. Gate and bamboo inspection views fit saved subjects above the actual controls, including touch/density scaling. Look restores the overview; rotation preserves the selected action and original desktop poses. UI refresh waits for camera animation completion. Source `faa8a7fe`, authoring `0f93c424` and all matching lighting remain unchanged.
+
+Five headless and seven native candidate phases pass, followed by both fourteen-room/twenty-six-leg normal-time Mac tours with all settled arrivals. Nine installed checks pass and all ninety installed focused originals reproduce the candidate exactly. Seventeen focused/moving originals were directly inspected. Final scene art, five missing reference slots, physical-phone/2020 Adreno/sustained performance, release and authenticated services remain open. Evidence: [camera framing](reference/xiaoxiang-camera-framing/README.md).
+
+### Corridor roof UV correction — 2026-10-11
+
+The installed source and engine now use `7fb3bbc1`. Sixteen corridor roofs use continuous secondary UV charts; all 784 roof triangles exceed one texel at the installed 256 px resolution. Geometry, primary UVs, authoring and runtime are preserved. Six source bake phases, fifteen isolated native phases, both fourteen-room tours, nineteen installed phases and the 26 Python tests pass. Fourteen installed originals match the reviewed candidate exactly. The full offline Android APK passes payload checks and remains uninstalled. [Evidence and original images](reference/corridor-roof-uv/README.md). Final art, physical-device acceptance and the full goal remain open.
+
+### Current stock-kit inventory and stage paint exports —2026-10-11
+
+All nine current kit checks pass:60 named variants,120 LOD exports and120 byte-identical Godot copies. Delivered stage paint is2048px while original4096px paintings remain editable. All sixteen stage GLBs reproduce canonically; all140 source objects/68 meshes are preserved. Eight installed native gallery originals match the reviewed candidate exactly. The26 Python tests pass. [Current evidence](reference/stage-kit-paint-size/README.md). Full-scene art, allocation/device/sustained budgets, references, release and services remain open; APK provenance is stale after the kit-input update.
+
+2026-10-13: Aojing west ground infill adopted from canonical09910fba, adding one15.4m² render-only canvas box. Original source/render/collider geometry preserved; six fresh lighting phases,17isolated native checks, both14room26leg tours,50directly inspected originals and24installed checks pass. All22installed ground/corridor originals byte-exact;499current kit/runtime files and432import policies retained. Current full offline APK/payload provenance passes, uninstalled; fresh whole-branch review has no actionable findings; final art/device/sustained/services/release remain open. Evidence: [ground infill](reference/aojing-ground-infill/README.md).

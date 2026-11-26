@@ -1,0 +1,42 @@
+{
+  "status": "current_demo_profile_and_five_touch_stages_collected",
+  "scope": "Current physical Pixel7Pro demo diagnostics; not all14rooms, sustained or2020Adreno acceptance.",
+  "phases": [
+    {
+      "name": "untouched",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/collect_android_profile.py",
+        "--device",
+        "2B011FDH300KNR",
+        "--build-report",
+        "/tmp/garden-moon-runtime-20261010/installed-phone-build.json",
+        "--destination",
+        "/tmp/garden-moon-runtime-20261010/untouched"
+      ],
+      "log": "/tmp/garden-moon-runtime-20261010/untouched.log",
+      "status": "passed",
+      "pid": 37188,
+      "exit_code": 0,
+      "log_sha256": "4f01bca0d390958300d008c83cdd4e72a38da019cb001bc2d45935b8ad2f70d6"
+    },
+    {
+      "name": "native-touch",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/tmp/garden-moon-runtime-20261010/tap-installed-profile.py",
+        "--device",
+        "2B011FDH300KNR",
+        "--build-report",
+        "/tmp/garden-moon-runtime-20261010/installed-phone-build.json",
+        "--destination",
+        "/tmp/garden-moon-runtime-20261010/native-taps"
+      ],
+      "log": "/tmp/garden-moon-runtime-20261010/native-touch.log",
+      "status": "passed",
+      "pid": 37219,
+      "exit_code": 0,
+      "log_sha256": "8864c4cbc562d5357876fa55e2b334904b6e6d26efd1cf427be2b1acfec9a7b8"
+    }
+  ]
+}

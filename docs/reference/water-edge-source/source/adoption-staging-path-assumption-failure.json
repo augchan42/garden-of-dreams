@@ -1,0 +1,9 @@
+{
+  "status": "staging_failed_before_application",
+  "session_id": 25052,
+  "exit_code": 1,
+  "cause": "Older adoption helper named two root Godot water aliases absent from both current production and reviewed fixture. Current Godot uses named water/ modules.",
+  "production_changed": false,
+  "incomplete_staging_preserved": "adoption-incomplete-staging-missing-unused-alias",
+  "correction": "Remove nonexistent root Godot aliases from stage pairs; existing export aliases stay byte-exact."
+}

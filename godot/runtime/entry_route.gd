@@ -42,6 +42,10 @@ var player: CharacterBody3D
 var camera: Camera3D
 var title_label: Label
 var output_label: Label
+var command_stack: VBoxContainer
+var compact_command_header: HBoxContainer
+var compact_command_actions: HBoxContainer
+var compact_command_layout = false
 var action_scroll: ScrollContainer
 var actions: HFlowContainer
 var input: LineEdit
@@ -70,9 +74,13 @@ var architecture_overview_active = false
 var hengwu_detail_action = ""
 var tubi_overlook_active = false
 var qiushuang_bank_action = ""
+var yihong_detail_action = ""
+var xiaoxiang_camera_subjects: Dictionary = {}
+var xiaoxiang_detail_action = ""
+var daguan_detail_active = false
 const PORTRAIT_ARCHITECTURE_VIEWS = {
  "daoxiang_cun": [Vector3(-31.968402,1.9,-12.843443),Vector3(-31.968402,-.703797,-23)],
- "daguan_lou": [Vector3(8.976835,2,-6.678481),Vector3(0,-.751899,-23)],
+ "daguan_lou": [Vector3(7,6,-6.5),Vector3(.35,-3.25,-23),53.0],
  "longcui_an": [Vector3(-23.587955,1.65,5.246902),Vector3(-25,-.8,13.255)]}
 const GATE_REVEAL_TARGET = Vector3(0,1.8,0)
 const GATE_REVEAL_RAIL = [Vector3(-2.5,1.8,16.7),Vector3(-3,5.8,16),Vector3(10,5.5,12)]
@@ -106,8 +114,16 @@ func _ready() -> void:
    if light is SpotLight3D or light is DirectionalLight3D:
     light.shadow_enabled = false
  if demo_mode or site_bakes_enabled:
-  assert(preload("res://runtime/backdrop_wash.gd").apply_baked(environment)==preload("res://runtime/backdrop_wash.gd").receiver_names(environment).size(),"Incomplete native backdrop wash")
-  assert(preload("res://runtime/terminal_spill.gd").apply_baked(environment)==7,"Incomplete native terminal indirect spill")
+  # Release exports omit assert expressions, including calls inside them.
+  var wash = preload("res://runtime/backdrop_wash.gd")
+  if wash.apply_baked(environment) != wash.receiver_names(environment).size():
+   push_error("Incomplete native backdrop wash")
+   get_tree().quit(1)
+   return
+  if preload("res://runtime/terminal_spill.gd").apply_baked(environment) != 7:
+   push_error("Incomplete native terminal indirect spill")
+   get_tree().quit(1)
+   return
  hexagram_table=preload("res://runtime/hexagram_table.gd").new()
  hexagram_table.name="HexagramTable"
  add_child(hexagram_table)
@@ -181,6 +197,7 @@ func _build_ui() -> void:
  style.content_margin_bottom = 12
  panel.add_theme_stylebox_override("panel", style)
  layer.add_child(panel)
+ panel.resized.connect(func():call_deferred("_refresh_xiaoxiang_ui"))
  pond_return_button = Button.new()
  pond_return_button.text = "Return to ledge"
  pond_return_button.custom_minimum_size = Vector2(180,48 if touch_ui_enabled else 44)
@@ -189,6 +206,7 @@ func _build_ui() -> void:
  pond_return_button.pressed.connect(_finish_pond_view)
  pond_return_button.hide()
  var stack = VBoxContainer.new()
+ command_stack = stack
  stack.add_theme_constant_override("separation", 7)
  panel.add_child(stack)
  title_label = Label.new()
@@ -239,7 +257,7 @@ func execute_command(text: String) -> void:
    if room_id=="qinfang_ting":_arrive(room_id)
    else:
     output_label.text = ROOMS[room_id].text
-    if PORTRAIT_ARCHITECTURE_VIEWS.has(room_id) or room_id in ["hengwu_yuan","tubi_tang","qiushuang_zhai"]:_frame_arrival_camera(room_id)
+    if PORTRAIT_ARCHITECTURE_VIEWS.has(room_id) or room_id in ["hengwu_yuan","tubi_tang","qiushuang_zhai","yihong_yuan","xiaoxiang_guan"]:_frame_arrival_camera(room_id)
   "help": output_label.text = "Choose an action below or type its command. Movement follows the garden paths; the camera moves with you."
   "terminal":
    output_label.text = "The screen invites you to enter the garden. Follow the lanterns to Qinfang Pavilion, then cast six lines at the bronze table." if demo_mode else ("The terminal is ready. Personal readings and history are not connected yet." if room_id == "terminal_room" else "Your personal terminal is in the cell.")
@@ -323,7 +341,7 @@ func execute_command(text: String) -> void:
   "stems":
    if room_id == "xiaoxiang_guan":
     output_label.text = "Three heights of jointed bamboo leave gaps around the stone aisle. The amber window remains visible beyond the leaves."
-    _camera_to(Vector3(-4.8,2.4,13),Vector3(-8,2,11.3))
+    _frame_xiaoxiang_detail("stems")
    else: output_label.text = "The bamboo court lies along the southern path."
   "east":
    if room_id == "qinfang_ting": _travel(RED_COURT_PATH,"yihong_yuan")
@@ -331,7 +349,7 @@ func execute_command(text: String) -> void:
   "leaves":
    if room_id == "yihong_yuan":
     output_label.text = "Broad banana leaves curve from two stems, with raised midribs and drooping tips."
-    _camera_to(Vector3(21.5,2.3,.5),Vector3(23.65,1.7,-1.45))
+    _frame_yihong_detail("leaves")
    else: output_label.text = "The banana plants stand beside the red courtyard."
   "north":
    if room_id == "qinfang_ting": _travel(NORTH_PATH,"daguan_lou")
@@ -339,13 +357,13 @@ func execute_command(text: String) -> void:
   "doors":
    if room_id == "daguan_lou":
     output_label.text = "The ceremonial doors are closed. Bronze studs and paired pulls catch the warm light against red lacquer. This hall has no public interior."
-    _camera_to(Vector3(0,1.7,-19.8),Vector3(0,1.7,-23))
+    _frame_daguan_detail()
    elif room_id == "yihong_yuan":
     output_label.text = "The paired lacquer doors are closed. Bronze pulls sit above the stone threshold; this future room has no public interior."
-    _camera_to(Vector3(22.2,1.65,1),Vector3(25,1.4,1))
+    _frame_yihong_detail("doors")
    elif room_id == "xiaoxiang_guan":
     output_label.text = "The timber gate is closed. A stone threshold marks the entrance; the future room has no public interior."
-    _camera_to(Vector3(-6.4,1.6,13.85),Vector3(-9,1.4,13.85))
+    _frame_xiaoxiang_detail("doors")
    elif room_id == "longcui_an":
     output_label.text = "The nunnery gate is closed. Plum branches cast shadows across the capped wall; there is no public interior."
     _camera_to(Vector3(-25,1.65,10.2),Vector3(-25,1.4,13))
@@ -632,11 +650,108 @@ func _unhandled_key_input(event: InputEvent) -> void:
 func _on_viewport_resized() -> void:
  call_deferred("_fit_action_list")
  if pond_view_active:call_deferred("_refresh_pond_view")
+ elif daguan_detail_active and not travelling:call_deferred("_refresh_daguan_detail")
+ elif xiaoxiang_detail_action!="" and not travelling:call_deferred("_refresh_xiaoxiang_detail")
+ elif yihong_detail_action!="" and not travelling:call_deferred("_refresh_yihong_detail")
  elif qiushuang_bank_action!="" and not travelling:call_deferred("_refresh_qiushuang_bank")
  elif tubi_overlook_active and not travelling:call_deferred("_refresh_tubi_overlook")
  elif hengwu_detail_action!="" and not travelling:call_deferred("_refresh_hengwu_detail")
  elif pavilion_overview_active and not travelling:call_deferred("_refresh_pavilion_overview")
  elif architecture_overview_active and not travelling:call_deferred("_refresh_architecture_overview")
+
+func _refresh_daguan_detail() -> void:
+ if daguan_detail_active and room_id=="daguan_lou" and not travelling:_frame_daguan_detail(true)
+
+func _frame_daguan_detail(immediate = false) -> void:
+ var portrait=get_viewport().get_visible_rect().size.x<get_viewport().get_visible_rect().size.y
+ camera.keep_aspect=Camera3D.KEEP_WIDTH if portrait else Camera3D.KEEP_HEIGHT
+ camera.fov=55.0
+ _camera_to(Vector3(0,1.7,-19.8),Vector3(0,1.7,-23),immediate)
+ daguan_detail_active=true
+
+func _refresh_xiaoxiang_detail() -> void:
+ if xiaoxiang_detail_action!="" and room_id=="xiaoxiang_guan" and not travelling:_frame_xiaoxiang_detail(xiaoxiang_detail_action,true)
+
+func _frame_xiaoxiang_detail(action: String, immediate = false) -> void:
+ var portrait=get_viewport().get_visible_rect().size.x<get_viewport().get_visible_rect().size.y
+ var position=Vector3(-6.4,1.6,13.85) if action=="doors" else Vector3(-4.8,2.4,13)
+ var target=Vector3(-9,1.4,13.85) if action=="doors" else Vector3(-8,2,11.3)
+ camera.keep_aspect=Camera3D.KEEP_WIDTH if portrait else Camera3D.KEEP_HEIGHT
+ camera.fov=55.0
+ if portrait:
+  if action=="doors":
+   position=Vector3(-6.1,1.6,13.85)
+   target=Vector3(-9,.3,13.85)
+  else:
+   target=Vector3(-8,.6,11.3)
+   camera.fov=59.0
+ if portrait:
+  var fitted=_fit_xiaoxiang_subject(position,target,camera.fov,action)
+  target=fitted[0]
+  camera.fov=fitted[1]
+ _camera_to(position,target,immediate)
+ xiaoxiang_detail_action=action
+
+func _fit_xiaoxiang_subject(position: Vector3, target: Vector3, initial_fov: float, action: String) -> Array:
+ # Fit the saved subject above the current controls, including density-scaled touch layouts.
+ if xiaoxiang_camera_subjects.is_empty():
+  xiaoxiang_camera_subjects=JSON.parse_string(FileAccess.get_file_as_string("res://assets/xiaoxiang-camera-subjects.json"))
+ var size=get_viewport().get_visible_rect().size
+ var top=status.get_global_rect().end.y+16.0
+ var bottom=command_panel.get_global_rect().position.y-18.0
+ var points:Array=xiaoxiang_camera_subjects.subjects[action]
+ for fov_step in range(24):
+  var fov=initial_fov+float(fov_step)*2.0
+  var half_width=tan(deg_to_rad(fov)*.5)
+  for aim_step in range(31):
+   var aim=target-Vector3(0,float(aim_step)*.1,0)
+   var inverse=Transform3D(Basis.IDENTITY,position).looking_at(aim,Vector3.UP).affine_inverse()
+   var fits=true
+   for point in points:
+    var local=inverse*Vector3(point[0],point[1],point[2])
+    if local.z>=0:fits=false;break
+    var pixel=Vector2(size.x*.5*(1.0+local.x/(-local.z*half_width)),size.y*.5-local.y/(-local.z*half_width)*size.x*.5)
+    if pixel.x<16.0 or pixel.x>size.x-16.0 or pixel.y<top or pixel.y>bottom:fits=false;break
+   if fits:return [aim,fov]
+ return [target,initial_fov]
+
+func _refresh_xiaoxiang_ui() -> void:
+ if room_id!="xiaoxiang_guan" or travelling:return
+ # Preserve the arrival/detail animation and its completion signal.
+ if camera_tween and camera_tween.is_valid() and camera_tween.is_running():
+  if not camera_tween.finished.is_connected(_refresh_xiaoxiang_ui):camera_tween.finished.connect(_refresh_xiaoxiang_ui,CONNECT_DEFERRED|CONNECT_ONE_SHOT)
+  return
+ if xiaoxiang_detail_action!="":_frame_xiaoxiang_detail(xiaoxiang_detail_action,true)
+ elif architecture_overview_active:_frame_arrival_camera(room_id,true)
+
+func _xiaoxiang_portrait_view(size: Vector2) -> Array:
+ # Aim lower in tall phone windows while keeping the foreground culms below the status line.
+ var taller=clampf((size.y/size.x-1.7778)/.3863,0.0,1.0)
+ var aim_y=lerpf(.6,-.4,taller)-(.5 if touch_ui_enabled else 0.0)
+ return [Vector3(-1,2.6,13),Vector3(-8.8,aim_y,12.5),57.5]
+
+func _refresh_yihong_detail() -> void:
+ if yihong_detail_action!="" and room_id=="yihong_yuan" and not travelling:_frame_yihong_detail(yihong_detail_action,true)
+
+func _frame_yihong_detail(action: String, immediate = false) -> void:
+ var size=get_viewport().get_visible_rect().size
+ var portrait=size.x<size.y
+ var position=Vector3(22.2,1.65,1) if action=="doors" else Vector3(21.5,2.3,.5)
+ var target=Vector3(25,1.4,1) if action=="doors" else Vector3(23.65,1.7,-1.45)
+ camera.keep_aspect=Camera3D.KEEP_WIDTH if portrait else Camera3D.KEEP_HEIGHT
+ camera.fov=55.0
+ if portrait:
+  if action=="doors":
+   camera.fov=58.0
+   target=Vector3(25,-.1,1)
+   if size.y<size.x*2.05:
+    position=Vector3(21.8,1.65,1)
+    target=Vector3(25,.05,1)
+  else:
+   position=Vector3(19.35,2.9,2.45)
+   target=Vector3(23.65,-.8,-1.45)
+ _camera_to(position,target,immediate)
+ yihong_detail_action=action
 
 func _refresh_hengwu_detail() -> void:
  if hengwu_detail_action!="" and room_id=="hengwu_yuan" and not travelling:_frame_hengwu_detail(hengwu_detail_action,true)
@@ -690,6 +805,26 @@ func _tubi_portrait_view(size: Vector2) -> Array:
  var fov=60.0 if short else (50.0 if narrow else 45.0)
  var target=Vector3(3,-9.1 if narrow else -7.1,-32) if short else Vector3(5,-7.1 if narrow else -5.1,-32)
  return [Vector3(16,6,-12),target,fov]
+
+func _hengwu_overview_view(size: Vector2) -> Array:
+ # Keep the book and pierced stones in view from a low position inside the court.
+ var portrait=size.x<size.y
+ if portrait:
+  var short=size.y<size.x*2.14
+  var narrow=size.x<380.0
+  var target_y=-5.8 if short else (-4.5 if narrow else -4.0)
+  var fov=128.0 if short else (118.0 if narrow else 115.0)
+  return [Vector3(-19.5,1.8,-17),Vector3(-19,target_y,-12.5),fov]
+ if size.x<820.0:
+  var height_blend=clampf((size.y-390.0)/90.0,0.0,1.0)
+  var target_y=lerpf(-6.4 if touch_ui_enabled else -4.5,-3.0 if touch_ui_enabled else -2.8,height_blend)
+  var fov=lerpf(143.0 if touch_ui_enabled else 134.0,118.0,height_blend)
+  return [Vector3(-19.5,1.8,-17),Vector3(-19,target_y,-12.5),fov]
+ if size.y<390.0:
+  return [Vector3(-19.5,1.8,-17),Vector3(-19,-3.5,-12.5),128.0]
+ var short=size.y<580.0
+ var target_y=(-3.0 if touch_ui_enabled else -2.8) if short else (-2.8 if touch_ui_enabled else -2.3)
+ return [Vector3(-19.5,1.8,-17),Vector3(-19,target_y,-12.5),118.0 if short else 115.0]
 
 func _pavilion_camera_view() -> Array:
  var size=get_viewport().get_visible_rect().size
@@ -749,6 +884,11 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
   view_position=pavilion_view[0]
   view_target=pavilion_view[1]
   camera.fov=pavilion_view[2]
+ elif id=="hengwu_yuan":
+  var court_view=_hengwu_overview_view(viewport_size)
+  view_position=court_view[0]
+  view_target=court_view[1]
+  camera.fov=court_view[2]
  elif portrait and id=="ouxiang_xie":
   view_target=Vector3(-23,.5,0)
   view_position=view_target+(view_position-view_target)*2.0
@@ -762,6 +902,15 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
   var short_view=clampf((600.0-viewport_size.y)/190.0,0.0,1.0)
   view_position=Vector3(-40,1.4,10).lerp(Vector3(-42,1.4,16),short_view)
   view_target=Vector3(-32,-1.25,0).lerp(Vector3(-32,-3.25,0),short_view)
+ elif portrait and id=="xiaoxiang_guan":
+  var bamboo_view=_xiaoxiang_portrait_view(viewport_size)
+  view_position=bamboo_view[0]
+  view_target=bamboo_view[1]
+  camera.fov=bamboo_view[2]
+ elif portrait and id=="yihong_yuan":
+  view_position=Vector3(16.8,3.45,5.75)
+  view_target=Vector3(24.3,-2.4,1)
+  camera.fov=62.0
  elif portrait and id=="qiushuang_zhai":
   view_position=Vector3(22,3.2,-4.8)
   view_target=Vector3(22,-5,-15.5)
@@ -774,11 +923,15 @@ func _frame_arrival_camera(id: String, immediate = false) -> void:
  elif portrait and PORTRAIT_ARCHITECTURE_VIEWS.has(id):
   view_position=PORTRAIT_ARCHITECTURE_VIEWS[id][0]
   view_target=PORTRAIT_ARCHITECTURE_VIEWS[id][1]
+  if PORTRAIT_ARCHITECTURE_VIEWS[id].size()>2:camera.fov=PORTRAIT_ARCHITECTURE_VIEWS[id][2]
+  if id=="daguan_lou" and touch_ui_enabled:
+   view_target=Vector3(.35,-4.05,-23)
+   camera.fov=54.0
  elif portrait and id not in ["terminal_room","rockery_gate","qiushuang_zhai","xiaoxiang_guan","hengwu_yuan","aojing_guan"]:
   view_position = view_target + (view_position - view_target) * 1.4
  _camera_to(view_position,view_target,immediate)
  pavilion_overview_active=id=="qinfang_ting"
- architecture_overview_active=PORTRAIT_ARCHITECTURE_VIEWS.has(id) or id in ["tubi_tang","qiushuang_zhai","ziling_zhou"]
+ architecture_overview_active=PORTRAIT_ARCHITECTURE_VIEWS.has(id) or id in ["tubi_tang","qiushuang_zhai","ziling_zhou","yihong_yuan","hengwu_yuan","xiaoxiang_guan"]
 
 func _refresh_actions() -> void:
  for button in actions.get_children():
@@ -841,13 +994,66 @@ func _replay_demo() -> void:
  travelling = false
  _arrive("terminal_room", true)
 
+func _set_compact_command_layout(enabled: bool) -> void:
+ # Let the compact rows set the panel height; restore the ordinary reserve on exit.
+ command_panel.offset_top=-1 if enabled else -195
+ if enabled!=compact_command_layout:
+  if enabled:
+   compact_command_header=HBoxContainer.new()
+   compact_command_header.add_theme_constant_override("separation",16)
+   compact_command_actions=HBoxContainer.new()
+   compact_command_actions.add_theme_constant_override("separation",16)
+   command_stack.add_child(compact_command_header)
+   command_stack.add_child(compact_command_actions)
+   title_label.reparent(compact_command_header)
+   output_label.reparent(compact_command_header)
+   action_scroll.reparent(compact_command_actions)
+   input.reparent(compact_command_actions)
+   title_label.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
+   output_label.size_flags_horizontal=Control.SIZE_EXPAND_FILL
+   action_scroll.size_flags_horizontal=Control.SIZE_EXPAND_FILL
+   input.custom_minimum_size.x=220
+   action_scroll.horizontal_scroll_mode=ScrollContainer.SCROLL_MODE_AUTO
+   action_scroll.vertical_scroll_mode=ScrollContainer.SCROLL_MODE_DISABLED
+  else:
+   for control in [title_label,output_label,action_scroll,input]:control.reparent(command_stack)
+   for index in range(4):command_stack.move_child([title_label,output_label,action_scroll,input][index],index)
+   title_label.vertical_alignment=VERTICAL_ALIGNMENT_TOP
+   output_label.size_flags_horizontal=Control.SIZE_FILL
+   action_scroll.size_flags_horizontal=Control.SIZE_FILL
+   input.custom_minimum_size.x=0
+   action_scroll.horizontal_scroll_mode=ScrollContainer.SCROLL_MODE_DISABLED
+   action_scroll.vertical_scroll_mode=ScrollContainer.SCROLL_MODE_AUTO
+   compact_command_header.queue_free()
+   compact_command_actions.queue_free()
+  compact_command_layout=enabled
+ # Share narrow landscape header width so neither text forces a tall panel.
+ var narrow_header=enabled and get_viewport().get_visible_rect().size.x<820.0
+ title_label.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART if narrow_header else TextServer.AUTOWRAP_OFF
+ title_label.size_flags_horizontal=Control.SIZE_EXPAND_FILL if narrow_header else Control.SIZE_FILL
+ title_label.size_flags_stretch_ratio=1.0
+ output_label.size_flags_stretch_ratio=2.0 if narrow_header else 1.0
+ # Prevent wrapping in the compact row; every existing action remains reachable
+ # by horizontal scrolling, beside the unchanged command entry field.
+ var action_width=0.0
+ if enabled:
+  for button in actions.get_children():action_width+=button.get_combined_minimum_size().x
+  action_width+=maxi(0,actions.get_child_count()-1)*actions.get_theme_constant("h_separation")
+ actions.custom_minimum_size.x=action_width
+ action_scroll.scroll_horizontal=0
+
 func _fit_action_list() -> void:
  await get_tree().process_frame
  var portrait = get_viewport().get_visible_rect().size.x < get_viewport().get_visible_rect().size.y
+ _set_compact_command_layout(not portrait and room_id=="hengwu_yuan" and (get_viewport().get_visible_rect().size.y<580.0 or get_viewport().get_visible_rect().size.x<1000.0))
+ # Reparenting changes the row width; discard the previous wrapped height first.
+ if compact_command_layout or room_id=="hengwu_yuan":
+  action_scroll.custom_minimum_size.y=0
+  await get_tree().process_frame
  var action_height=actions.get_combined_minimum_size().y
- if portrait and room_id in ["qinfang_ting","ouxiang_xie","hengwu_yuan","tubi_tang","qiushuang_zhai"]:
+ if portrait and room_id in ["qinfang_ting","ouxiang_xie","hengwu_yuan","tubi_tang","qiushuang_zhai","yihong_yuan"]:
   # Fixed reserves keep scrollbar wrapping from changing the camera clearance.
-  action_height=128.0 if room_id in ["tubi_tang","qiushuang_zhai"] else minf(action_height,128.0 if room_id in ["ouxiang_xie","hengwu_yuan"] else 152.0)
+  action_height=128.0 if room_id in ["tubi_tang","qiushuang_zhai","yihong_yuan"] else minf(action_height,128.0 if room_id in ["ouxiang_xie","hengwu_yuan"] else 152.0)
  action_scroll.custom_minimum_size.y=action_height
  action_scroll.scroll_vertical = 0
 
@@ -857,6 +1063,9 @@ func _camera_to(position: Vector3, target: Vector3, immediate = false) -> void:
  hengwu_detail_action=""
  tubi_overlook_active=false
  qiushuang_bank_action=""
+ yihong_detail_action=""
+ xiaoxiang_detail_action=""
+ daguan_detail_active=false
  if camera_tween and camera_tween.is_valid(): camera_tween.kill()
  var transform_target = Transform3D(camera.basis,position).looking_at(target,Vector3.UP)
  if immediate:

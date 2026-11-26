@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "label": "baseline",
+      "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+      "actual_imported_resource": "/tmp/garden-qiushuang-key-20261011/godot/.godot/imported/garden-of-dreams.glb-869f920d830dc1625bcf5b31432c447d.scn",
+      "actual_imported_resource_sha256": "721b445e4a21028861b4cebc8fd2a10f394787d8404a74ad9950f352842a3ae6",
+      "metadata": "/tmp/garden-qiushuang-key-20261011/godot/assets/garden-of-dreams.glb.import",
+      "checksum": "/tmp/garden-qiushuang-key-20261011/godot/.godot/imported/garden-of-dreams.glb-869f920d830dc1625bcf5b31432c447d.md5",
+      "source_linear_color": [
+        0.8999999761581421,
+        0.7200000286102295,
+        0.44999998807907104
+      ],
+      "native_srgb_color": [
+        0.954687118530273,
+        0.86504203081131,
+        0.701410710811615
+      ],
+      "recovered_linear_color": [
+        0.8999998858576396,
+        0.7200000057464817,
+        0.4499999904016678
+      ],
+      "inside_cone": 384,
+      "total_screen_triangles": 1152,
+      "maximum_screen_distance": 5.32805967330933
+    },
+    {
+      "label": "candidate",
+      "source_glb_sha256": "ba0e8b16dc984c0655da1290bbb438e6b2a2a2b92d36b31c32f42c083690341f",
+      "actual_imported_resource": "/tmp/garden-qiushuang-key-20261011/key-import-probe/.godot/imported/garden-of-dreams.glb-869f920d830dc1625bcf5b31432c447d.scn",
+      "actual_imported_resource_sha256": "fc0d8db231dd8d7dfc4e2519e7e528c19fe08a0563f395e28d8b9ae730c27d49",
+      "metadata": "/tmp/garden-qiushuang-key-20261011/key-import-probe/assets/garden-of-dreams.glb.import",
+      "checksum": "/tmp/garden-qiushuang-key-20261011/key-import-probe/.godot/imported/garden-of-dreams.glb-869f920d830dc1625bcf5b31432c447d.md5",
+      "source_linear_color": [
+        0.8999999761581421,
+        0.8199999928474426,
+        0.6800000071525574
+      ],
+      "native_srgb_color": [
+        0.954687118530273,
+        0.916273534297943,
+        0.843389213085175
+      ],
+      "recovered_linear_color": [
+        0.8999998858576396,
+        0.8199999558192901,
+        0.6800000831895097
+      ],
+      "inside_cone": 1152,
+      "total_screen_triangles": 1152,
+      "maximum_screen_distance": 12.7781658172607
+    }
+  ],
+  "protected_pending_lit_project_files": 289,
+  "pending_lit_engine_source_unchanged": true,
+  "scope": "Exact source/destination import MD5 and resource SHA256, actual editor import hook identity, gamma conversion against source light color and native triangle/range coverage. Separate import probe only; full current-source lighting/render/tour/device acceptance still pending."
+}

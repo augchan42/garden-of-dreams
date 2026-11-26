@@ -1,5 +1,17 @@
 # Site sheet: 秋爽齋
 
+## Diagonal facade-key correction — 2026-10-11
+
+The warm-neutral hard key now reaches all three amber screen banks from farther to the front and right. The previous central circular light patch is replaced by directional shadows; the two amber lantern lights and all geometry remain. Saved-source cone checks improve from 192 to 576 of 576 phosphor-quad centres, with a restoring old-layout negative control. These samples establish cone coverage only.
+
+Current source `ba0e8b16` has all 141 fresh maps. Both full Mac walks pass 14 rooms and 26 route legs; 17 installed checks pass and eight installed hall views match the reviewed candidate exactly. Wall noise, stage boundaries, final site art and live bulletin content remain open. [Originals, controls and package checks](../reference/qiushuang-facade-key/README.md).
+
+## Screen-opening repair — 2026-10-11
+
+Thirty-three existing lattice bars move into the gaps around the twelve monitors. The three banks retain seven vertical and seven horizontal bars each. Source rays from authored and runtime bank positions drop from 180 blocked samples to zero of 1,152; restoring the old positions reproduces the failure. The generator preserves this layout on rebuild, and the canonical exporter reproduces the saved source exactly without changing unrelated normals.
+
+Source `72ad817f` has all 141 fresh maps and preserves the current import policies. Normal/touch framing, native screen views, both full Mac tours and installed source/resource checks pass. Eight fixed-clock candidate/installed views match exactly. The bright centre wall, bake noise and final hall composition remain art work, and the screen artwork remains static. [Scene evidence and failed controls](../reference/qiushuang-lattice-source/README.md).
+
 Slug `qiushuang-zhai`. Priority 2. Function: Bulletin board. Room id `qiushuang_zhai`.
 
 ## Stage direction
@@ -16,7 +28,7 @@ A long study hall faces a shallow courtyard. Three banks of amber screens sit be
 
 ## Lighting and atmosphere
 
-Warm-neutral hard key across the frontage; amber screens and the two lanterns are the dominant warm sources. The site key was changed from green to reduce the garden's overall green cast while keeping the stage-wide green wash. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
+Warm-neutral hard key across the frontage; amber screens and the two lanterns are the dominant warm sources. The site key uses linear RGB (.9,.82,.68), with a cool gray-blue backdrop wash and the retained amber practicals. Exterior floor fog stays between 0.3 and 0.8 m. Keep the walking surface and interactable furniture readable. Unfinished backs use MAT_backstage.
 
 ## Room markers
 
@@ -38,7 +50,7 @@ Sourced leads reviewed: [Hong Kong Memory’s Shaw Brothers set collection](http
 
 ## Current build and acceptance
 
-The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A warm frontal key makes the centre sign and screen bank readable; two existing lanterns cast amber light at the ends. The temporary typeset title and block marks are replaced by painted 秋爽齋 lettering and separate bamboo/plum scroll textures, embedded in the Blender source and glTF. Ten opaque hall meshes have current Cycles lightmaps applied in the normal Godot exploration route; the transparent painted title retains its source material. Desktop and portrait arrival and screen-bank views were inspected after the bake, and the four-practical light limit and return route still pass. The images are original production art, documented in `textures/decals/study/README.md`, not historical reference stills. The shared painted backdrop has an authored linked Area wash and a backdrop-only Godot substitute. Live bulletin content and final material/lighting acceptance remain unfinished. All three references are collected below.
+The hall now has twelve screens, three desks with keyboards, two scrolls, closed side doors, five room markers, three bank cameras and a frontal camera. A stone approach connects the east covered walk to the courtyard. A farther diagonal warm-neutral hard key covers the sign and all three screen banks; two existing lanterns cast amber light at the ends. The temporary typeset title and block marks are replaced by painted 秋爽齋 lettering and separate bamboo/plum scroll textures, embedded in the Blender source and glTF. Ten opaque hall meshes have current Cycles lightmaps applied in the normal Godot exploration route; the transparent painted title retains its source material. Desktop and portrait arrival and screen-bank views were inspected after the bake, and the four-practical light limit and return route still pass. The images are original production art, documented in `textures/decals/study/README.md`, not historical reference stills. The shared painted backdrop has an authored linked Area wash and a backdrop-only Godot substitute. Live bulletin content and final material/lighting acceptance remain unfinished. All three references are collected below.
 
 Acceptance: distinct site silhouette, complete specified props, named markers, traversable approach, no exposed unfinished backs on the camera rail, and one graded reference render matching this sheet. The stage-wide first pass is not evidence of completion for this site.
 
@@ -88,3 +100,23 @@ All three close-ups show four distinct amber monitors behind their lattice. The 
 ## Waterline and reed source checkpoint — 2026-10-09
 
 The combined Blender source is now `0d3e84e3`; export and Godot use `1380ceca`. The complete fresh lighting set covers 124 ordinary receivers and 141 source PNGs, with matching wash/spill catalogs. Both native Mac tours visit all fourteen sites over twenty-six public-command legs and return to the cell, with no floor misses and at most four practical lights. All 42 camera, 400 collider and 71 marker contracts are preserved. This is an incremental working-source checkpoint; final site art, references, phone/sustained performance and authenticated services remain open. Evidence: `../reference/ziling-source-art/README.md`.
+
+
+## Stream bank and lotus checkpoint — 2026-10-09
+
+The current complete source is `7a9fc523` with authoring `074ab201`. The shared stream has 54 bank modules and 54 added colliders; all 42 cameras,400 earlier colliders and 71 markers are preserved. Closed circular lotus pads sit above the water, with a muted shared leaf material and matching saved kit/generator. Fresh lighting covers 124 receivers and 141 source PNGs. Both native Mac tours pass 14 locations and 26 travel legs;15 installed checks pass. This is an incremental source checkpoint. Final site art, five remaining reference slots, current phone/sustained performance, release and authenticated services remain open. Evidence: `../reference/water-edge-source/README.md`.
+
+
+## Island exterior winding checkpoint — 2026-10-09
+
+Current assembly `73267e2b` / authoring `2b07ce48` repairs the reed island’s exterior face winding. All other exported mesh attributes and fourteen other site GLBs are preserved; cameras, colliders, markers and runtime are unchanged. Complete matching lighting, twenty-five focused native checks and thirteen installed checks pass. This site is not declared final by the island repair. Five references, current phone/sustained budgets, release and authenticated services remain open. Evidence: [island source review](../reference/island-exterior-winding/README.md).
+
+
+## Neutral stage-floor checkpoint — 2026-10-09
+
+Current complete source is `c9d4fb30`; authoring is `43d7e33e`. The five broad canvas floor pieces use muted warm gray (.065,.060,.055 linear RGB). Other materials, geometry, cameras, collisions, markers and runtime are preserved. All 141 fresh lightmaps, six source phases, 38 positive native checks plus two intended rejection controls, both 14-room/26-leg tours and 15 installed checks pass. All 47 installed lit/Ziling/arrival originals reproduce the reviewed candidate exactly. References remain 37/42; this is palette repair acceptance, not final site or phone acceptance. Evidence: [neutral stage floor](../reference/stage-floor-palette/README.md).
+
+
+## Paving-source checkpoint — 2026-10-10
+
+Current assembly is `ba40866e` with authoring `7eba169a`. Duplicate visible paving tops are partitioned while retaining the complete floor footprint, all 454 colliders, 42 cameras, 71 markers, materials and runtime `7970380d`. Complete matching 141 PNG lighting, both actual Mac 14-room/26-leg tours and 22 installed checks pass; all 85 installed originals reproduce the reviewed files. All 28 current arrival originals were directly inspected. This is focused paving acceptance; this site's final art is still open. References remain 37/42; current phone/sustained/release and authenticated services remain required. Evidence: [paving repair](../reference/paving-surface-joins/README.md).

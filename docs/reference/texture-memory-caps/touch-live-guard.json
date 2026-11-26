@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Actual live sustained pipeline blocks both touch build and install before any native/phone command.",
+  "cases": [
+    {
+      "script": "build-touch-phone.py",
+      "sha256": "89c3d782a53ec1d515a8a87f841f787d70868867fbd31054385ea359fe1c4e51",
+      "exit_code": 1,
+      "created_touch_fixture": false,
+      "log_sha256": "4da9efba714016d9d8125b53fc110169144afb20a6a85dcd8681d90a459be683"
+    },
+    {
+      "script": "run-touch-phone.py",
+      "sha256": "d16c4e64fdc71ab7921a02e3ca5b7c3b702daf252bdf7556ee8f65ed9ffecbe0",
+      "exit_code": 1,
+      "created_touch_fixture": false,
+      "log_sha256": "c3e331092863742320a1da5d7ff0a8a6c929e4ace55d5ec876745c8702ee6537"
+    }
+  ]
+}

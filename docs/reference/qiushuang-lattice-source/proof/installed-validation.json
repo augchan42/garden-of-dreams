@@ -1,0 +1,262 @@
+{
+  "status": "failed",
+  "pid": 98340,
+  "source_glb_sha256": "72ad817f07e1fb13b565197f0a39984a2d97bc1c7c3dff6c1bccf3ae1125cab1",
+  "phases": [
+    {
+      "name": "saved_rays",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_qiushuang_lattice.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/saved_rays.log",
+      "pid": 98342,
+      "exit_code": 0,
+      "log_sha256": "0ea75aafb8ad242603f7d32adab8e0b2440cbea3d3727709a144006f6a1e1d37"
+    },
+    {
+      "name": "canonical_source",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "/Users/auchan/projects/garden-of-dreams/blender/authoring.blend",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_saved_garden_candidate.py",
+        "--",
+        "--source-root",
+        "/Users/auchan/projects/garden-of-dreams",
+        "--output-root",
+        "/tmp/garden-qiushuang-lattice-20261010/installed-source-replay"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/canonical_source.log",
+      "pid": 98366,
+      "exit_code": 0,
+      "log_sha256": "037ef80bf38f27e22ed0825f553db1dce5dca64d163b1dec1531a3a9acad7f0f"
+    },
+    {
+      "name": "site_sources",
+      "status": "passed",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "--background",
+        "--threads",
+        "8",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "/Users/auchan/projects/garden-of-dreams/scripts/audit_site_sources.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/site_sources.log",
+      "pid": 98632,
+      "exit_code": 0,
+      "log_sha256": "c18d0ea1cceeb0fdfe48c5c1ee84a0d139b074c6ba012abff38d10cb9c44a235"
+    },
+    {
+      "name": "uv2",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_uv2.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/uv2.log",
+      "pid": 98733,
+      "exit_code": 0,
+      "log_sha256": "9808dc4c4343f43c9fc64a0a0551cce0348973066d3ea00ebf6a6168dc987079"
+    },
+    {
+      "name": "sync_full_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_full_lightmaps.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/sync_full_lightmaps.log",
+      "pid": 98839,
+      "exit_code": 0,
+      "log_sha256": "d9680ad69e7e43c476453459129b4f598f4eac4e08b0f5a9519ecc07bca4f2b1"
+    },
+    {
+      "name": "sync_backdrop_wash",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_backdrop_wash.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/sync_backdrop_wash.log",
+      "pid": 98848,
+      "exit_code": 0,
+      "log_sha256": "015b3a7802d4b53f2b746a858061d2f19a4c40db5e551705bf244d2f7097b0c8"
+    },
+    {
+      "name": "sync_terminal_spill",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_terminal_spill.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/sync_terminal_spill.log",
+      "pid": 98858,
+      "exit_code": 0,
+      "log_sha256": "b73112410b3a74551c75a052d67e2cbf914850268c21ab8c9e94bd57bb28c481"
+    },
+    {
+      "name": "sync_lightmaps",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/sync_lightmaps.py",
+        "--demo"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/sync_lightmaps.log",
+      "pid": 98863,
+      "exit_code": 0,
+      "log_sha256": "e836c656e4a04d24e3790885d06854c40731287a1126fd5a47aecad29c8fc224"
+    },
+    {
+      "name": "import_contract",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/build_godot_import_contract.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/import_contract.log",
+      "pid": 98864,
+      "exit_code": 0,
+      "log_sha256": "4851e89d2820ab9ddcd5c902d0b7d38f734c03e952635c03f68d0c909a519770"
+    },
+    {
+      "name": "native_import",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--editor",
+        "--import"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/native_import.log",
+      "pid": 98871,
+      "exit_code": 0,
+      "log_sha256": "d0002ec49f570289f382165c3b143e44a8be6478bbd84783a6227d5e39096400"
+    },
+    {
+      "name": "full_scene",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_full_scene_lighting.gd",
+        "--",
+        "--imperial-lossless512",
+        "--ouxiang-lossless512"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/full_scene.log",
+      "pid": 98913,
+      "exit_code": 0,
+      "log_sha256": "e2f1b7cc83a3328a2a285483a245a8c403f798a05cc1ceafbdacc2a7379fc48a"
+    },
+    {
+      "name": "wash",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_backdrop_wash_import.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/wash.log",
+      "pid": 98923,
+      "exit_code": 0,
+      "log_sha256": "2c500daf982692b8355d1496c997964a250c7b9c0cc4578c0ed79c53a9b6a487"
+    },
+    {
+      "name": "spill",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_terminal_spill.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/spill.log",
+      "pid": 98929,
+      "exit_code": 0,
+      "log_sha256": "0df07e9c959720d7a165cd695646299f266ea023b91be695ebdcf86b8528afd2"
+    },
+    {
+      "name": "runtime_caps",
+      "status": "passed",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--script",
+        "res://tests/test_runtime_texture_caps.gd",
+        "--"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/runtime_caps.log",
+      "pid": 98933,
+      "exit_code": 0,
+      "log_sha256": "bb342ab45b5d05e2bb659c7da1a137d1888d3cc10a17aa046c79a6dd67ad81a6"
+    },
+    {
+      "name": "cold_reimport",
+      "status": "passed",
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/auchan/projects/garden-of-dreams/scripts/verify_godot_reimport.py"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/cold_reimport.log",
+      "pid": 98937,
+      "exit_code": 0,
+      "log_sha256": "b0cd0798200c79310cf5400fa1f964f408361389bea777624d86572664d18869"
+    },
+    {
+      "name": "native_lattice",
+      "status": "running",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/auchan/projects/garden-of-dreams/godot",
+        "--windowed",
+        "--resolution",
+        "1410x600",
+        "--script",
+        "res://tests/capture_lattice_lit.gd",
+        "--",
+        "--output=/tmp/garden-qiushuang-lattice-20261010/installed-native-qiushuang"
+      ],
+      "log": "/tmp/garden-qiushuang-lattice-20261010/installed-validation-logs/native_lattice.log",
+      "pid": 188,
+      "exit_code": 1
+    }
+  ],
+  "scope": "Installed canonical source, exact engine inputs, actual native resources and screen views. No user editor reload, phone action, final art or performance acceptance.",
+  "preserved_import_parameter_files": 141,
+  "engine_input_files_exact_to_isolated_validation": 285,
+  "error": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M2 Max\n\nERROR: QIUSHUANG_LATTICE_LIT_DEADLINE\n   at: push_error (core/variant/variant_utility.cpp:1023)\n   GDScript backtrace (most recent call first):\n       [0] <anonymous lambda> (res://tests/capture_lattice_lit.gd:6)\n"
+}

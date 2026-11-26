@@ -19,3 +19,41 @@ The stream/lotus waterline, neutral saved-water/kit parity and ten volumetric re
 The reed island now remains clear of the desktop controls. A low 55° view moves back smoothly with shorter landscape height; portrait framing is retained. Native normal/touch/density checks pass with 35 originals, including 480/540/600/720 desktop heights, public Look/Watch the reeds, resizing/rotation, description/visitor preservation and touch48/return access. Thirteen installed originals reproduce the fixture exactly, and the supported western round trip passes with four directly reviewed native arrivals. The capture test now subscribes before forcing a draw, retaining its 100-second deadline and assertions; rejected fit controls and two capture timeouts are retained.
 
 Source `1380ceca`, authoring `0d3e84e3` and matching lightmaps are retained. This is camera progress; bank/lotus/foliage and final fourteen-site art, five references, physical devices/sustained budgets, release and authenticated services remain open. Evidence: [originals and reports](reference/ziling-desktop-framing/README.md).
+
+
+## Hengwu low courtyard overview — 2026-10-10
+
+The arrival/Look camera now stays at 1.8 m in the rear court, with the primary pierced stone, book/table and four stool bounds clear of the tested interfaces. Short landscape controls fit two rows below 580 logical pixels high, retaining the full description, command entry, scrollable actions and 48-unit touch targets. Selected rock/book text and original desktop detail poses, Look clearing, rotation/resize, visitor position and the farm round trip are checked.
+
+Authoring `7eba169a` / complete source `ba40866e` and 141 source-matched imported PNGs are unchanged; runtime is `56813eb7`. Thirty native review phases pass, including both 14-room/26-leg/139-capture Mac tours, no floor failures and max 4 practicals. Six focused modes and native depth-tested visibility controls pass. A test-only fixed clock now makes all 30 detail originals reproduce across separate native processes. All 24 installed checks pass and 150 installed originals match exactly; the 26 other-room arrivals also match PR20 pixels. Raw diagnostics, rejected controls and complete executed/installed evidence are retained.
+
+This is bounded camera/layout progress. Final 14-site art/dressing/material/composition, five missing external references (37/42), current physical-phone/2020 Adreno/sustained budgets, release and authenticated services remain open. Evidence: [Hengwu overview](reference/hengwu-overview-low/README.md).
+
+
+## Narrow landscape follow-up — 2026-10-10
+
+Current runtime `bde86917` also handles 640×360 and 720×360. Hengwu uses compact landscape controls below 580 pixels high or 1000 pixels wide; narrow titles wrap beside the complete description. Camera aim/field of view ease as height increases, and returning to portrait now reproduces initial portrait pixels exactly. Twelve final isolated checks and 12 installed checks pass, with 166 byte-exact installed originals. Of 120 prior captures, 113 are byte-identical; seven change only the portrait interface, with identical scene pixels above it at actual density scaling. All 28 stationary arrivals remain byte-identical. Geometry, authoring and matching 141 maps are unchanged. The preceding 30-phase/two-tour results remain historical evidence for runtime 56813eb7. Final art, references, current device/sustained budgets, release and authenticated services remain open. See [supplemental evidence](reference/hengwu-overview-low/supplemental-narrow-landscape/README.md).
+
+Next scene inspection: Xiaoxiang’s repeated bamboo silhouettes and exposed upper enclosure, using the current source and retained public arrival/action views. The full goal remains active.
+
+## Runtime texture budget — 2026-10-10
+
+The reviewed four runtime caps are installed: 1024² basecolors and lossless 512×170 gate color/normal imports. Actual size, mipmap, format, enabled-material and cache/source checks now gate Android builds and collection. Stale-cache and disabled-use controls reject; valid normal and demo routes pass. All 44 native arrival/close originals reproduce the candidate. The fresh phone demo passes five actual tap stages at 54.01 MiB, but P95 of 22.403–45.723 ms still fails 60 fps. The prior isolated full-tour result of 62.29 MiB remains comparison evidence.
+
+Integrate the full normal tour into production tools, collect adopted-source sustained timing and measure process/viewport costs. Then continue final per-site art. Final art, five missing references (37/42), 2020 Adreno verification, release and authenticated services remain open. See [adoption evidence](reference/runtime-texture-caps/README.md).
+
+
+## Full-garden profiling tools — 2026-10-10
+
+The subsequent lossless wash correction is adopted in the working source. All 28 native desktop/portrait arrivals reproduce the reviewed candidate; actual resource checks reject the old compressed texture in normal and demo modes. Source artwork, geometry and baked lighting remain unchanged. The full profiler has been rebuilt and its packaged resources verified, but it is uninstalled pending phone availability. The prior prepared profiler is historical. Continue current-source Android allocation/timing, then remaining art; physical canvas seams and the baked moon shadow are separate from the corrected compression blocks. See [lossless wash evidence](reference/lossless-backdrop-wash/README.md).
+
+The normal tour is now integrated into the builder/collector, with mandatory two-tour/600-second coverage, actual Android normal loaded-cap checks, all producer/dependency and packaged scene/script identity checks, atomic reads, floor/camera/capture/budget validation and pause/focus rejection. Twenty-two Python tests, actual Godot minimum-tour/pause/counter controls and final isolated build/APK resource checks pass. The final pause-protected package has not been installed: the phone switched apps during the preceding run. Its five completed legs reached62.29MiB, which is partial evidence only.
+
+The full goal remains open. Restart the sustained test when the phone can remain in Garden for about15minutes. Then measure combined viewport draws/primitives and isolate rendering/process costs with controls; zero native GLES GPU counters are unavailable, while Godot's process monitors are repeated once-per-second window maxima. Continue final per-site art, five references,2020Adreno,release andauthenticated services. See [tooling and retained incomplete attempts](reference/full-garden-profiler/README.md).
+
+
+## Engine-wide frame-budget correction — 2026-10-10
+
+The full-phone producer and collector now gate draws/primitives on actual engine-wide per-frame counters, including the pond capture, while retaining main-view visible counts as diagnostics. Native controls exposed and now reject reflection-only overruns; disabling the capture again resets the sample, and a UI rectangle establishes the observed renderer scope. All 26 Python tests and four native regression programs pass. All 28 stationary native arrival samples are retained: desktop terminal 160 and gate 155 exceed the 150-draw limit; portrait arrivals and all primitive totals pass their respective limits. These are static counter diagnostics, not sustained or physical-phone acceptance.
+
+The fresh full debug APK is `6bb60f68` (86,531,491 bytes), with four clean build phases and offline provenance/package checks. It remains uninstalled pending phone availability; earlier 735bf87b and 9dde9d29 packages are historical for the current collector. Continue current-source phone profiling, failed desktop draw budgets and final per-site art. Final art, five exact references (37/42), 2020 Adreno, sustained budgets, release and authenticated services remain open. See [counter evidence](reference/all-viewport-profile/README.md).
